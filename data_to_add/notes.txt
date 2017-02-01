@@ -1,0 +1,29 @@
+== 1 ==
+
+Hi Nikita,
+I'm forwarding the first example of derivational edges to be added to the current version of Derinet.
+Correct predecessors are marked by $, incorrect by @)
+Z.
+
+== 2 ==
+
+The second (or chronologically rather the first) collection of edges to be added:
+
+"-" is used to mark wrong relations in derivace-JK-NO_PARENT_IN_DERINET.xls (i.e., relations to be removed)
+
+"+" is used to mark correct relations in derivace-JK-DIFFERENT_PARENT_IN_DERINET.xls and changed-edge-probabilities.xls  (i.e., relations to be added)
+
+if there are two different antecedents confirmed in changed-edge-probabilities.xls for a single node, then only one should be added, and that's the one marked as correct in the file from the previous email
+
+Z.
+
+== 4-5 ==
+
+4th and 5th collections of links to be added: 
+
+first four files correspond to prefixation derivations; if I understand that correctly, like in the derinet format the last column refers to the (manually confirmed) antecedent;
+in three out of four files you could get easily the lemma of the antecedent just be removing N letters from the beginning of a current lemma, but it's not possible in the case of the 23... file, so that's why the last column (with the line ID of the antecedent) must be used. Which implies that it is - unlike the collections in the previous emails - neccessarrily bound to a specific version of DeriNet (which was probably 1.0 or 1.1, it should be easy to verify)
+
+in the case of aspect_pairs (in which derivational links within aspectual pairs are marked - a side note: it covers probably only suffixing, while there are at least two other means how to create aspectual counterparts of czech verbs) you have both ID and the lemma of the source node in the last columns
+
+I hope that these five new derivation collections reasonably represent typical needs for derinet api.

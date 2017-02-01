@@ -1,0 +1,177 @@
+﻿# zjednodušila jsem formát dodaného souboru, teď: 
+# dítě POSdítěte: rodič1 POSrodiče1, rodič2 POSrodiče2
+
+# do sekvence „----------“ řádky, kde lze preferovat jednoho z rodičů
+# přidaná anotace: před preferovaného rodiče jsem dala znak „$”, před chybného „@”
+# prosím o přidání těchhle řádků do dat
+
+# za sekvencí „----------“ řádky, kde nejsem schopná jednoho z rodičů preferovat
+# nicméně pokusila jsem se řádky seskupit podle typů, viz komentář před každou skupinou
+
+
+
+odstoupitelný A: $ odstoupit_:W V, @ odstoupit A
+jiskřitelný A: $ jiskřit_:T V, @ jiskřit A
+neznámá-2_^(veličina) N: @ neznámý_^(potkat_neznámého_[člověka]) N, $ neznámý A
+Chrástecká_;S N: $ Chrástecký_;S N, @ Chrástecký_;S A
+Rosamundin_;Y A: @ Rosamunda-1_;R_;u_^(hudební_dílo) N, $ Rosamunda_;S N
+ušáček-2_,e_^(křeslo) N: $ ušák-1_^(křeslo) N, @ ušák N
+zákoníček-2_^(soubor_pravidel_pro_určitou_činnost) N: $ zákoník-2_^(předpis) N, @ zákoník-1_,a_^(člověk) N
+perlitelný A: @ perlit-1_;L_^(vulkanické_sklo) N, $ perlit_:T V
+buřtíček-2_,h_^(malý_vuřt) N: $ buřtík-2_,h_^(malý_vuřt) N, @ buřtík-1_,h_^(tlouštík) N
+ušáček-2_,e_^(křeslo) N: @ ušák-2_,h_^(zvíře) N, $ ušák-1_^(křeslo) N
+šosáček-1_,h_^(zpátečník) N: @ šosák-2_,h_^(šosatý_kabát) N, $ šosák N
+zkoumatelství_,s A: @ zkoumatelný_^(*4) A, $ zkoumatelský_,s A
+kýlní A: @ kýl N, $ kýla N
+omývač N: $ omývat_:T V, @ omývat A
+pařič N: $ pařit_:T V, @ pařit A
+ignorantní A: @ ignorant N, $ ignorance N
+pulcinellův_,t A: $ pulcinello_;u_,t_^(postava_šaška_v_divad._hře) N, @ pulcinella-2_;u_,t_^(postava_komorné_v_divad._hře) N
+diskordantní A: @ diskordant N, $ diskordance N
+odnášeč N: $ odnášet_:T V, @ odnášet A
+utvářeč N: $ utvářet_:T_^(tvořit) V, @ utvářet A
+Orlandův_;S A: $ Orlando-2_;S N, @ Orlando_;G N
+vazbička-2_,e_^(statný_člověk) N: $ vazba-9_,e_^(statný_člověk) N, @ vazba-1_^(obviněného) N
+zapeklitec_,s_,e N: $ zapeklitý A, @ zapeklit_:W_,s_,e V
+směnárnický A: @ směnárna N, $ směnárník N
+kořalnický A: @ kořalna N, $ kořalník N
+likérnický A: @ likérna N, $ likérník N
+likérnický A: $ likérník-1_^(výrobce_likérů,_obchodník_s_likéry) N, @ likérna N
+likérnický A: @ likérník-2_^(skříňka_na_likéry) N, $ likérník-1_^(výrobce_likérů,_obchodník_s_likéry) N
+kormidelnický A: $ kormidelník N, @ kormidelna N
+scenáristický A: @ scenárista N, $ scenáristika N
+scénáristický A: @ scénárista N, $ scénáristika N
+udičkář_,l N: @ udička-1_^(ten_kdo_udí)_(*4-1) N, $ udička N
+pseudopolitický A: @ pseudopolitik N, $ pseudopolitika N
+pseudopolitikův_^(*2) A: @ pseudopolitika N, $ pseudopolitik N
+pseudoromantický A: @ pseudoromantik N, $ pseudoromantika N
+pseudoromantikův_^(*2) A: @ pseudoromantika N, $ pseudoromantik N
+supertechnický A: @ supertechnik N, $ supertechnika N
+supertechnikův_^(*2) A: @ supertechnika N, $ supertechnik N
+umejvající_,h_,x_^(*8ývat) A: @ umejt_,h_^(^GC*3ýt) V, $ umejvat_:T_,h_,x_^(*5ývat) V
+dohledatelný_^(*4) A: $ dohledat_:W V, @ dohledat A
+polívající_,h_,x_^(*7évat) A: @ polít_:W V, $ polívat_:T_,h_,x_^(*4évat) V
+přástevnický A: $ přástevník N, @ přástevna N
+vinopalnický A: $ vinopalník N, @ vinopalna N
+Bougainvillův_;S A: $ Bougainville-2_;S N, @ Bougainville-1_;G N
+Allendův_;S A: @ Allende-2_;G N, $ Allende-1_;S N
+Cosimův_;Y_,t A: @ Cosimo-1_;G N, $ Cosimo_;Y_,t N
+Correggiův_;S_^(2o) A: $ Correggio-2_;S N, @ Correggio-1_;G N
+sepsouvající-1_,s_,h_^(tupit,hubovat_někoho)_(*14zepsouvat-1) A: @ sepsout_:W V, $ sepsouvat-1_:T_,s_,h_^(tupit,hubovat_někoho)_(*11zepsouvat-1) V
+kánoistický A: @ kánoista N, $ kánoistika N
+halapartnický A: $ halapartník N, @ halapartna N
+Machadův_;S A: $ Machado-2_;S N, @ Machado-1_;G N
+Margitka_;Y N: @ Margita-2_;G N, $ Margita-1_;S N
+
+----------
+# RODIČI SUBSTANTIVA S RŮZNÝM RODEM
+záhvozdní_,s A: záhvozd N, záhvozda N
+nardový A: nard_;L N, narda_;L N
+
+# RODIČI SLOVESA S RŮZNÝM VIDEM
+hendikepovaný A: hendikepovat-2_:W V, hendikepovat-1_:T V
+
+# RODIČI VARIANTY S KONCOVÝM -ET/IT
+přimyslitelný A: přimyslet_:W V, přimyslit_:W V
+promyslitelný A: promyslet_:W V, promyslit_:W V
+rozmyslitelný A: rozmyslet_:W V, rozmyslit_:W V
+domyslitelný A: domyslet_:W V, domyslit_:W V
+namyslitelný A: namyslet_:W V, namyslit_:W V
+odmyslitelný A: odmyslet_:W V, odmyslit_:W V
+pomyslitelný A: pomyslet_:W V, pomyslit_:W V
+zamyslitelný A: zamyslet_:W V, zamyslit_:W V
+vmyslitelný A: vmyslet_:W V, vmyslit_:W V
+usmyslitelný A: usmyslet_:T V, usmyslit_:W V
+zešeření_^(*3it) N: zešeřit_:W V, zešeřet_:W V
+zešeřený_^(*3it) A: zešeřit_:W V, zešeřet_:W V
+
+# RODIČI MUŽSKÁ PŘÍJMENÍ LIŠÍCÍ SE KONCOVOU SEKVENCÍ NEBO NĚČÍM JINÝM
+Brindová_;S N: Brinda_;G N, Brind_;S N
+Frídová_;S N: Frída-2_;Y N, Frída-1_;S N
+Hejková_;S N: Hejka_;S N, Hejk_;S N
+Háková_;S N: Háka_;S N, Hák_;S N
+Bulovová_;S N: Bulova_;S N, Bulov_;S N
+Hamalová_;S N: Hamala_;S N, Hamal_;S N
+Mariková_;S N: Marika_;S_;Y N, Marik_;S N
+Bilková_;S N: Bilka_;S N, Bilk_;S N
+Fejtová_;S N: Fejta_;S N, Fejt_;S N
+Hypšová_;S N: Hypša_;S N, Hypš_;S N
+Herbertová_;S N: Herberta_;Y N, Herbert_;Y N
+Hostašová_;S N: Hostaša_;S N, Hostaš_;S N
+Busková_;S N: Buska_;S N, Busk_;G N
+Haplová_;S N: Hapla_;S N, Hapl_;S N
+Burchardová_;S N: Burcharda_;S N, Burchard_;S N
+Bartochová_;S N: Bartocha_;S N, Bartoch_;S N
+Budagovová_;S N: Budagova_;S N, Budagov_;S N
+Leblancová_;S N: Leblanca_;S N, Leblanc_;S N
+Šabachová_;S N: Šabacha_;S N, Šabach_;S N
+Brodinová_;S N: Brodina_;G N, Brodin_;S N
+Drápelová_;S N: Drápela_;S N, Drápel_;S N
+Dudychová_;S N: Dudycha_;S N, Dudych_;S N
+Gergelová_;S N: Gergela_;S N, Gergel_;S N
+Ginzelová_;S N: Ginzela_;S N, Ginzel_;S N
+Harantová_;S N: Haranta_;S N, Harant_;S N
+Huspeková_;S N: Huspeka_;S N, Huspek_;S N
+Korejzová_;S N: Korejza_;S N, Korejz_;S N
+Loskotová_;S N: Loskota_;S N, Loskot_;S N
+Tulachová_;S N: Tulacha_;S N, Tulach_;S N
+Buňatová_;S N: Buňata_;S N, Buňat_;S N
+Dimonová_;S N: Dimona_;G N, Dimon_;S N
+Hráchová_;S N: Hrácha_;S N, Hrách_;S N
+Illeková_;S N: Illeka_;S N, Illek_;S N
+Janeková_;S N: Janeka_;S N, Janek_;Y_^(^H3*2) N
+Kleplová_;S N: Klepla_;S N, Klepl_;S N
+Kocábová_;S N: Kocába_;G N, Kocáb_;S N
+Nohelová_;S N: Nohela_;S N, Nohel_;S N
+Sartrův_;S_^(*2a) A: Sartra_;S N, Sartr_;S N
+Lepšová_;S N: Lepša_;S N, Lepš_;S N
+Fiorinová_;S N: Fiorino_;R N, Fiorina_;S N
+Odvárková_;S N: Odvárko_;S N, Odvárka_;S N
+
+# RODIČI MUŽSKÁ JMÉNA LIŠÍCÍ SE KONCOVOU SEKVENCÍ
+Dyckův_;S_^(*2a) A: Dycka_;S N, Dyck_;S N
+Hačkův_;S A: Hačko_;S N, Hačka-2_;S N
+Vlasenkův_;S A: Vlasenko_;S N, Vlasenka_;G N
+Halkův_;S A: Halke_;S N, Halko_;S N
+Ricardův-1_;Y_,t A: Ricardo_;S_;Y N, Ricard_;Y N
+Bougainvillův_;S A: Bougainville-1_;G N, Bougainville_;G N
+Allendův_;S A: Allende-1_;S N, Allende_;S N
+Machadův_;S A: Machado-1_;G N, Machado_;G N
+Hromádkův_;S A: Hromádko_;S N, Hromádka-1_;S N
+Pleškův_;S A: Pleško_;S N, Pleška-1_;S N
+Ilikův_;S A: Iliko-2_;S N, Iliko-1_;Y_,t N
+Viljův_;Y_,t A: Viljo_;Y_,t N, Vilja_;Y_;K N
+Benedettův_;Y A: Benedetto_;Y N, Benedetta_;Y N
+Quintův_;S_^(2us) A: Quinto_;G N, Quintus_;S A
+Correggiův_;S_^(2o) A: Correggio-1_;G N, Correggio_;G N
+Ricardův-1_;Y_,t A: Ricardo-1_;Y_,t N, Ricardo_;S_;Y N
+
+# RODIČE LIŠÍCÍ SE ČÍSLÍČKEM
+lopatka N: lopata-2 N, lopata N
+břízka N: bříza-2 N, bříza N
+větrníček N: větrník-2 N, větrník N
+bobeček N: bobek-2 N, bobek N
+chládeček_,e N: chládek-2 N, chládek N
+zvoneček N: zvonek-1_;L N, zvonek N
+dubec_^(mladý_doubek) N: dub-2 N, dub N
+páseček N: pásek-2_^(chuligán) N, pásek-1_^(opasek) N
+soudeček N: soudek-2_;R N, soudek_^(malý_sud) N
+bonsajista N: bonsaj-2 N, bonsaj-1 N
+eponymní A: eponym-2_^(osoba,_podle_níž_je_pojmenováno_město,_věc,_atd.) N, eponym-1_^(první_z_devíti_archontů) N
+rýžovnický A: rýžovník-1_;L_^(živočich) N, rýžovník N
+rýžovnický A: rýžovník-2_^(kdo_rýžuje) N, rýžovník-1_;L_^(živočich) N
+lavičkář_,h N: lavička-2 N, lavička N
+sosnička_,e N: sosna-2 N, sosna N
+kopistový A: kopist-2 N, kopist-1 N
+drátař N: drát-1 N, drát-2_:T V
+supertalentův-1_^(*4-1) A: supertalent-2 N, supertalent-1 N
+včelnický A: včelník-1_^(přenosná_budka_pro_úly) N, včelník N
+
+# RODIČI ADJEKTIVA LIŠÍCÍ SE TVRDÝM/MĚKKÝM ZAKONČENÍM
+virtuálnost_,s_^(*3ý) N: virtuální A, virtuálný_,s A
+úplavičnost_^(*3ý) N: úplaviční A, úplavičný A
+fabričnost_^(*3ý) N: fabriční A, fabričný A
+
+# DOBŘE NENÍ ANI JEDEN RODIČ
+Lidlová_;S N: Lidla_;Y_,h_^(Lída) N, Lidl_;K_^(obchodní_řetězec) N
+
