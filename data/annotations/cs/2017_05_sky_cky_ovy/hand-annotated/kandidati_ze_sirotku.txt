@@ -62,7 +62,7 @@ pětiočkový	Pětiočko	CHANGE: o --> ový
 pětisedadlový	pětisedadlo	CHANGE: o --> ový
 N sandrový	Sandro	CHANGE: o --> ový
 sedmikilový	sedmikilo	CHANGE: o --> ový
-N šedový	šedo	CHANGE: o --> ový
+?N šedový	šedo	CHANGE: o --> ový
 šestikolový	šestikolo	CHANGE: o --> ový
 trojkolový	trojkolo	CHANGE: o --> ový
 tříjádrový	tříjádro	CHANGE: o --> ový
@@ -2701,7 +2701,7 @@ N podhájský	Podháj	CHANGE: 0 --> ský
 N podhradský	Podhrad	CHANGE: 0 --> ský
 N podkováňský	Podkováň	CHANGE: 0 --> ský
 N podlešínský	Podlešín	CHANGE: 0 --> ský
-N podolský	Podol	CHANGE: 0 --> ský  A:podolí
+N podolský	Podol	CHANGE: 0 --> ský  A:Podolí
 N pohořský	Pohoř	CHANGE: 0 --> ský
 N pokémonský	Pokémon	CHANGE: 0 --> ský
 N pokojský	pokoj	CHANGE: 0 --> ský
@@ -2715,7 +2715,7 @@ N popíkářský	popíkář	CHANGE: 0 --> ský
 N popradský	Poprad	CHANGE: 0 --> ský
 N popronský	Popron	CHANGE: 0 --> ský
 N pořejovský	Pořejov	CHANGE: 0 --> ský
-N poříčský	Poříč	CHANGE: 0 --> ský  A:poříčí
+N poříčský	Poříč	CHANGE: 0 --> ský  A:Poříčí
 N portsmouthský	Portsmouth	CHANGE: 0 --> ský
 N poseidonský	Poseidon	CHANGE: 0 --> ský
 N poteauský	Poteau	CHANGE: 0 --> ský
