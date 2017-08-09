@@ -1,0 +1,2811 @@
+@	adamovický	Adamov	CHANGE: 0 --> ický
+@	adiktologický	adiktolog	CHANGE: 0 --> ický
+	akordický	akord	CHANGE: 0 --> ický
+	akrobatický	akrobat	CHANGE: 0 --> ický
+	akrylický	akryl	CHANGE: 0 --> ický
+	akvanautický	akvanaut	CHANGE: 0 --> ický
+	albitický	albit	CHANGE: 0 --> ický
+	aldehydický	aldehyd	CHANGE: 0 --> ický
+	algebraický	algebra	CHANGE: 0 --> ický
+	alkanický	alkan	CHANGE: 0 --> ický
+@	alkoholometrický	alkoholometr	CHANGE: 0 --> ický
+@	americký	Amer	CHANGE: 0 --> ický
+	amfolytický	amfolyt	CHANGE: 0 --> ický
+	anaerobický	anaerob	CHANGE: 0 --> ický
+	anapestický	anapest	CHANGE: 0 --> ický
+@	anatický	Anat	CHANGE: 0 --> ický
+	andezitický	andezit	CHANGE: 0 --> ický
+@	anglický	Angl	CHANGE: 0 --> ický
+	antracitický	antracit	CHANGE: 0 --> ický
+	aplitický	aplit	CHANGE: 0 --> ický
+	apokryfický	apokryf	CHANGE: 0 --> ický
+	apolitický	apolit	CHANGE: 0 --> ický
+	aptický	apt	CHANGE: 0 --> ický
+	argotický	argot	CHANGE: 0 --> ický
+	archaický	archa	CHANGE: 0 --> ický
+	archetypický	archetyp	CHANGE: 0 --> ický
+	aristokratický	aristokrat	CHANGE: 0 --> ický
+	asfaltický	asfalt	CHANGE: 0 --> ický
+	asiatický	Asiat	CHANGE: 0 --> ický
+	astatický	astat	CHANGE: 0 --> ický
+	asterický	Aster	CHANGE: 0 --> ický
+	asyriologický	asyriolog	CHANGE: 0 --> ický
+	atomický	atom	CHANGE: 0 --> ický
+	augitický	augit	CHANGE: 0 --> ický
+	austenitický	austenit	CHANGE: 0 --> ický
+	autokratický	autokrat	CHANGE: 0 --> ický
+	azeotropický	azeotrop	CHANGE: 0 --> ický
+	bainitický	bainit	CHANGE: 0 --> ický
+@	balický	bal	CHANGE: 0 --> ický
+	bardický	bard	CHANGE: 0 --> ický
+	barometrický	barometr	CHANGE: 0 --> ický
+	baskický	Bask	CHANGE: 0 --> ický
+	bazaltický	bazalt	CHANGE: 0 --> ický
+@	belgický	Belg	CHANGE: 0 --> ický
+	bentický	Bent	CHANGE: 0 --> ický
+	betický	Bet	CHANGE: 0 --> ický
+	bicyklický	bicykl	CHANGE: 0 --> ický
+	bimetalický	bimetal	CHANGE: 0 --> ický
+	binomický	binom	CHANGE: 0 --> ický
+	biosenzorický	biosenzor	CHANGE: 0 --> ický
+	biotitický	biotit	CHANGE: 0 --> ický
+	biotopický	biotop	CHANGE: 0 --> ický
+	bombastický	bombast	CHANGE: 0 --> ický
+@	brahmický	Brahm	CHANGE: 0 --> ický
+	brakický	brak	CHANGE: 0 --> ický
+	byrokratický	byrokrat	CHANGE: 0 --> ický
+@	bystrický	Bystr	CHANGE: 0 --> ický
+	centrický	centr	CHANGE: 0 --> ický
+@	cyklický	cykl	CHANGE: 0 --> ický
+	cykloalkanický	cykloalkan	CHANGE: 0 --> ický
+	cykloalkenický	cykloalken	CHANGE: 0 --> ický
+	cylindrický	cylindr	CHANGE: 0 --> ický
+	čabelický	Čabel	CHANGE: 0 --> ický
+	daltonický	dalton	CHANGE: 0 --> ický
+	definitorický	definitor	CHANGE: 0 --> ický
+	demokratický	demokrat	CHANGE: 0 --> ický
+	dendritický	dendrit	CHANGE: 0 --> ický
+	dialogický	dialog	CHANGE: 0 --> ický
+	diametrický	diametr	CHANGE: 0 --> ický
+	dimerický	dimer	CHANGE: 0 --> ický
+	diopsidický	diopsid	CHANGE: 0 --> ický
+	disulfidický	disulfid	CHANGE: 0 --> ický
+	diterpenický	diterpen	CHANGE: 0 --> ický
+	dolomitický	dolomit	CHANGE: 0 --> ický
+	dopický	Dop	CHANGE: 0 --> ický
+	elastomerický	elastomer	CHANGE: 0 --> ický
+	elektrolytický	elektrolyt	CHANGE: 0 --> ický
+	eneolitický	eneolit	CHANGE: 0 --> ický
+@	englický	Engl	CHANGE: 0 --> ický
+	enologický	enolog	CHANGE: 0 --> ický
+	entuziastický	entuziast	CHANGE: 0 --> ický
+	epifytický	epifyt	CHANGE: 0 --> ický
+	eratický	Erat	CHANGE: 0 --> ický
+	eterický	eter	CHANGE: 0 --> ický
+	éterický	éter	CHANGE: 0 --> ický
+	eukaryotický	eukaryot	CHANGE: 0 --> ický
+	eurokratický	eurokrat	CHANGE: 0 --> ický
+	exegetický	exeget	CHANGE: 0 --> ický
+	faktický	fakt	CHANGE: 0 --> ický
+	faradický	farad	CHANGE: 0 --> ický
+	fénický	fén	CHANGE: 0 --> ický
+	fenolický	fenol	CHANGE: 0 --> ický
+	fenoplastický	fenoplast	CHANGE: 0 --> ický
+	feritický	ferit	CHANGE: 0 --> ický
+	foenický	foen	CHANGE: 0 --> ický
+@	fonický	Fon	CHANGE: 0 --> ický
+	fónický	fón	CHANGE: 0 --> ický
+	frygický	Fryg	CHANGE: 0 --> ický
+	frýgický	Frýg	CHANGE: 0 --> ický
+	fylitický	fylit	CHANGE: 0 --> ický
+	fyziokratický	fyziokrat	CHANGE: 0 --> ický
+	galenický	Galen	CHANGE: 0 --> ický
+	gemologický	gemolog	CHANGE: 0 --> ický
+	genotypický	genotyp	CHANGE: 0 --> ický
+	gigantický	gigant	CHANGE: 0 --> ický
+	glykosidický	glykosid	CHANGE: 0 --> ický
+	gnómický	gnóm	CHANGE: 0 --> ický
+	grafitický	grafit	CHANGE: 0 --> ický
+	granátický	granát	CHANGE: 0 --> ický
+	granitický	granit	CHANGE: 0 --> ický
+	gravitonický	graviton	CHANGE: 0 --> ický
+	gyroskopický	gyroskop	CHANGE: 0 --> ický
+	halický	Hal	CHANGE: 0 --> ický
+	heliotropický	heliotrop	CHANGE: 0 --> ický
+@	heroický	Hero	CHANGE: 0 --> ický
+	hexametrický	hexametr	CHANGE: 0 --> ický
+	hieroglyfický	hieroglyf	CHANGE: 0 --> ický
+	homeostatický	homeostat	CHANGE: 0 --> ický
+	homérický	Homér	CHANGE: 0 --> ický
+	hronovický	Hronov	CHANGE: 0 --> ický
+	hydrometrický	hydrometr	CHANGE: 0 --> ický
+	hydromotorický	hydromotor	CHANGE: 0 --> ický
+	hyperstenický	hypersten	CHANGE: 0 --> ický
+	chloritický	chlorit	CHANGE: 0 --> ický
+	chórický	chór	CHANGE: 0 --> ický
+	ilitický	ilit	CHANGE: 0 --> ický
+	indický	Ind	CHANGE: 0 --> ický
+	jambický	jamb	CHANGE: 0 --> ický
+	kánonický	kánon	CHANGE: 0 --> ický
+	kaolinitický	kaolinit	CHANGE: 0 --> ický
+	kartometrický	kartometr	CHANGE: 0 --> ický
+	katechumenický	katechumen	CHANGE: 0 --> ický
+	ketonický	keton	CHANGE: 0 --> ický
+	kilometrický	kilometr	CHANGE: 0 --> ický
+	klonický	klon	CHANGE: 0 --> ický
+	konsonantický	konsonant	CHANGE: 0 --> ický
+	koptický	kopt	CHANGE: 0 --> ický
+	kottický	Kott	CHANGE: 0 --> ický
+	krystalický	krystal	CHANGE: 0 --> ický
+	kultický	kult	CHANGE: 0 --> ický
+	labyrintický	labyrint	CHANGE: 0 --> ický
+	lamprofyrický	lamprofyr	CHANGE: 0 --> ický
+	leitmotivický	leitmotiv	CHANGE: 0 --> ický
+	lesovický	Lesov	CHANGE: 0 --> ický
+	liběchovický	Liběchov	CHANGE: 0 --> ický
+	limnigrafický	limnigraf	CHANGE: 0 --> ický
+	lipidický	lipid	CHANGE: 0 --> ický
+	lykantropický	lykantrop	CHANGE: 0 --> ický
+	lyzimetrický	lyzimetr	CHANGE: 0 --> ický
+	magnetický	magnet	CHANGE: 0 --> ický
+	manický	man	CHANGE: 0 --> ický
+	manometrický	manometr	CHANGE: 0 --> ický
+	marastický	marast	CHANGE: 0 --> ický
+	martenzitický	martenzit	CHANGE: 0 --> ický
+	megalitický	megalit	CHANGE: 0 --> ický
+	mesmerický	Mesmer	CHANGE: 0 --> ický
+	migmatitický	migmatit	CHANGE: 0 --> ický
+	morfický	morf	CHANGE: 0 --> ický
+	motivický	motiv	CHANGE: 0 --> ický
+	mulatický	mulat	CHANGE: 0 --> ický
+	muskovitický	muskovit	CHANGE: 0 --> ický
+	nefelinický	nefelin	CHANGE: 0 --> ický
+	nordický	Nord	CHANGE: 0 --> ický
+	oceánický	oceán	CHANGE: 0 --> ický
+	ohmický	ohm	CHANGE: 0 --> ický
+	oktaedrický	oktaedr	CHANGE: 0 --> ický
+	oxidický	oxid	CHANGE: 0 --> ický
+	pamfletický	pamflet	CHANGE: 0 --> ický
+	parafinický	parafin	CHANGE: 0 --> ický
+	parametrický	parametr	CHANGE: 0 --> ický
+	patriotický	patriot	CHANGE: 0 --> ický
+	pedantický	pedant	CHANGE: 0 --> ický
+	pegmatitický	pegmatit	CHANGE: 0 --> ický
+	pelasgický	Pelasg	CHANGE: 0 --> ický
+	peptidický	peptid	CHANGE: 0 --> ický
+	piezometrický	piezometr	CHANGE: 0 --> ický
+	planktonický	plankton	CHANGE: 0 --> ický
+	plánografický	plánograf	CHANGE: 0 --> ický
+	plutokratický	plutokrat	CHANGE: 0 --> ický
+	plutonický	pluton	CHANGE: 0 --> ický
+	poetologický	poetolog	CHANGE: 0 --> ický
+	polarimetrický	polarimetr	CHANGE: 0 --> ický
+	pontický	pont	CHANGE: 0 --> ický
+	pozitronický	pozitron	CHANGE: 0 --> ický
+	prelogický	Prelog	CHANGE: 0 --> ický
+	prototypický	prototyp	CHANGE: 0 --> ický
+	pubický	pub	CHANGE: 0 --> ický
+	pylorický	pylor	CHANGE: 0 --> ický
+	pyrometrický	pyrometr	CHANGE: 0 --> ický
+	pyroxenický	pyroxen	CHANGE: 0 --> ický
+	radslavický	Radslav	CHANGE: 0 --> ický
+@	rečický	reč	CHANGE: 0 --> ický
+	reflektorický	reflektor	CHANGE: 0 --> ický
+	rentgenický	rentgen	CHANGE: 0 --> ický
+	římsologický	římsolog	CHANGE: 0 --> ický
+	saprofytický	saprofyt	CHANGE: 0 --> ický
+	sardonický	Sardon	CHANGE: 0 --> ický
+	satanický	satan	CHANGE: 0 --> ický
+	seizmografický	seizmograf	CHANGE: 0 --> ický
+	seizmometrický	seizmometr	CHANGE: 0 --> ický
+	sémický	sém	CHANGE: 0 --> ický
+	skeletický	skelet	CHANGE: 0 --> ický
+	somnambulický	somnambul	CHANGE: 0 --> ický
+	sonický	son	CHANGE: 0 --> ický
+@	sónický	Són	CHANGE: 0 --> ický
+	stenický	sten	CHANGE: 0 --> ický
+	stroboskopický	stroboskop	CHANGE: 0 --> ický
+	sulfidický	sulfid	CHANGE: 0 --> ický
+@	systemický	System	CHANGE: 0 --> ický
+	talmudický	talmud	CHANGE: 0 --> ický
+	telurický	telur	CHANGE: 0 --> ický
+	tenzometrický	tenzometr	CHANGE: 0 --> ický
+	teokratický	teokrat	CHANGE: 0 --> ický
+	terpenický	terpen	CHANGE: 0 --> ický
+	tholeiitický	tholeiit	CHANGE: 0 --> ický
+	tibetologický	tibetolog	CHANGE: 0 --> ický
+@	torický	Tor	CHANGE: 0 --> ický
+	totemický	totem	CHANGE: 0 --> ický
+	trachytický	trachyt	CHANGE: 0 --> ický
+	trapistický	trapist	CHANGE: 0 --> ický
+	tricyklický	tricykl	CHANGE: 0 --> ický
+	tufitický	tufit	CHANGE: 0 --> ický
+	umbrický	Umbr	CHANGE: 0 --> ický
+	valorický	valor	CHANGE: 0 --> ický
+@	vindický	Vind	CHANGE: 0 --> ický
+@	vokalický	Vokal	CHANGE: 0 --> ický
+	voltmetrický	voltmetr	CHANGE: 0 --> ický
+@	vulkanický	Vulkan	CHANGE: 0 --> ický
+	wattmetrický	wattmetr	CHANGE: 0 --> ický
+	xylitický	xylit	CHANGE: 0 --> ický
+	xylometrický	xylometr	CHANGE: 0 --> ický
+	žalmický	žalm	CHANGE: 0 --> ický
+	antimonický	antimon	CHANGE: 0 --> ický
+	arsenický	Arsen	CHANGE: 0 --> ický
+	bromický	Brom	CHANGE: 0 --> ický
+	dolický	dol	CHANGE: 0 --> ický
+	dusický	Dus	CHANGE: 0 --> ický
+	etherický	ether	CHANGE: 0 --> ický
+	jodický	jod	CHANGE: 0 --> ický
+	prosaický	Prosa	CHANGE: 0 --> ický
+	siřický	Siř	CHANGE: 0 --> ický
+	ablanický	Abla	CHANGE: 0 --> nický
+	drůbežnický	drůbež	CHANGE: 0 --> nický
+	dubnický	dub	CHANGE: 0 --> nický
+	dubrovnický	Dubrov	CHANGE: 0 --> nický
+	hamernický	Hamer	CHANGE: 0 --> nický
+	keprnický	kepr	CHANGE: 0 --> nický
+	koštěnický	koště	CHANGE: 0 --> nický
+	lopenický	Lope	CHANGE: 0 --> nický
+	měšecnický	měšec	CHANGE: 0 --> nický
+	národnický	národ	CHANGE: 0 --> nický
+	olivinický	Olivi	CHANGE: 0 --> nický
+	párnický	pár	CHANGE: 0 --> nický
+	stržnický	strž	CHANGE: 0 --> nický
+	ústupnický	ústup	CHANGE: 0 --> nický
+	virtuóznický	virtuóz	CHANGE: 0 --> nický
+	výkaznický	výkaz	CHANGE: 0 --> nický
+	zvolnický	Zvol	CHANGE: 0 --> nický
+	virtuosnický	virtuos	CHANGE: 0 --> nický
+	adiabatický	Adiaba	CHANGE: a --> atický
+	dioramatický	diorama	CHANGE: a --> atický
+	emblematický	Emblema	CHANGE: a --> atický
+	fosfatický	Fosfa	CHANGE: a --> atický
+	ischiatický	Ischia	CHANGE: a --> atický
+	stromatický	stroma	CHANGE: a --> atický
+	tématický	téma	CHANGE: a --> atický
+	schématický	schéma	CHANGE: a --> atický
+@	bohdanecký	Bohdana	CHANGE: a --> ecký
+@	dolanecký	Dolana	CHANGE: a --> ecký
+	fojtecký	Fojta	CHANGE: a --> ecký
+	frýdecký	Frýda	CHANGE: a --> ecký
+	horecký	hora	CHANGE: a --> ecký
+	hoštecký	Hošta	CHANGE: a --> ecký
+	hrušecký	Hruša	CHANGE: a --> ecký
+	hůrecký	hůra	CHANGE: a --> ecký
+	chrastecký	Chrasta	CHANGE: a --> ecký
+	jízdecký	jízda	CHANGE: a --> ecký
+	kostecký	Kosta	CHANGE: a --> ecký
+	košatecký	Košata	CHANGE: a --> ecký
+	košutecký	Košuta	CHANGE: a --> ecký
+	lazecký	Laza	CHANGE: a --> ecký
+	mladecký	Mlada	CHANGE: a --> ecký
+	olivecký	oliva	CHANGE: a --> ecký
+	pečecký	Peča	CHANGE: a --> ecký
+	proturecký	Protura	CHANGE: a --> ecký
+	skalecký	Skala	CHANGE: a --> ecký
+	slabecký	Slaba	CHANGE: a --> ecký
+	sobotecký	sobota	CHANGE: a --> ecký
+	stoupecký	stoupa	CHANGE: a --> ecký
+	šlachtecký	šlachta	CHANGE: a --> ecký
+	ústecký	ústa	CHANGE: a --> ecký
+	vamberecký	Vambera	CHANGE: a --> ecký
+	vinecký	vina	CHANGE: a --> ecký
+	zdravovědecký	zdravověda	CHANGE: a --> ecký
+	žamberecký	Žambera	CHANGE: a --> ecký
+	doudlebecký	Doudleba	CHANGE: a --> ecký
+	poustecký	Pousta	CHANGE: a --> ecký
+	venostatický	venostáza	CHANGE: áza --> atický
+	arnolecký	Arnolec	CHANGE: c --> cký
+	baltický	Baltic	CHANGE: c --> cký
+	bánovecký	Bánovec	CHANGE: c --> cký
+	bednárecký	Bednárec	CHANGE: c --> cký
+	blatecký	Blatec	CHANGE: c --> cký
+	blázinecký	blázinec	CHANGE: c --> cký
+	blbecký	blbec	CHANGE: c --> cký
+	bohdalecký	Bohdalec	CHANGE: c --> cký
+	boleloucký	Bolelouc	CHANGE: c --> cký
+	bolevecký	Bolevec	CHANGE: c --> cký
+	bošilecký	Bošilec	CHANGE: c --> cký
+	bradlecký	Bradlec	CHANGE: c --> cký
+	bražecký	Bražec	CHANGE: c --> cký
+	brněnecký	Brněnec	CHANGE: c --> cký
+	brodecký	Brodec	CHANGE: c --> cký
+	březenecký	Březenec	CHANGE: c --> cký
+	bukovecký	Bukovec	CHANGE: c --> cký
+	burlacký	Burlac	CHANGE: c --> cký
+	bystrcký	Bystrc	CHANGE: c --> cký
+	bystřecký	Bystřec	CHANGE: c --> cký
+	bzenecký	Bzenec	CHANGE: c --> cký
+	celovecký	Celovec	CHANGE: c --> cký
+	černocký	Černoc	CHANGE: c --> cký
+	černucký	Černuc	CHANGE: c --> cký
+	čistecký	čistec	CHANGE: c --> cký
+	dominický	Dominic	CHANGE: c --> cký
+	doubravecký	Doubravec	CHANGE: c --> cký
+	drnholecký	Drnholec	CHANGE: c --> cký
+	družecký	Družec	CHANGE: c --> cký
+	dřevecký	dřevec	CHANGE: c --> cký
+	dubenecký	Dubenec	CHANGE: c --> cký
+	dvorecký	dvorec	CHANGE: c --> cký
+	falcký	falc	CHANGE: c --> cký
+	francký	Franc	CHANGE: c --> cký
+	franický	Franic	CHANGE: c --> cký
+	harmanecký	Harmanec	CHANGE: c --> cký
+	herálecký	Herálec	CHANGE: c --> cký
+	hradecký	hradec	CHANGE: c --> cký
+	hvozdecký	Hvozdec	CHANGE: c --> cký
+	chotucký	Chotuc	CHANGE: c --> cký
+	chvojenecký	Chvojenec	CHANGE: c --> cký
+	jablonecký	Jablonec	CHANGE: c --> cký
+	kamenecký	kamenec	CHANGE: c --> cký
+	karlovacký	Karlovac	CHANGE: c --> cký
+	klášterecký	Klášterec	CHANGE: c --> cký
+	klínovecký	Klínovec	CHANGE: c --> cký
+	kolinecký	Kolinec	CHANGE: c --> cký
+	kondracký	Kondrac	CHANGE: c --> cký
+	kořenecký	Kořenec	CHANGE: c --> cký
+	krakovecký	Krakovec	CHANGE: c --> cký
+	křinecký	Křinec	CHANGE: c --> cký
+	křivecký	Křivec	CHANGE: c --> cký
+	ledecký	Ledec	CHANGE: c --> cký
+	leskovacký	Leskovac	CHANGE: c --> cký
+	leskovecký	Leskovec	CHANGE: c --> cký
+	lipecký	Lipec	CHANGE: c --> cký
+	lískovecký	Lískovec	CHANGE: c --> cký
+	lomecký	Lomec	CHANGE: c --> cký
+	lorecký	Lorec	CHANGE: c --> cký
+	lubenecký	Lubenec	CHANGE: c --> cký
+	lučenecký	Lučenec	CHANGE: c --> cký
+	lužecký	Lužec	CHANGE: c --> cký
+	mecký	Mec	CHANGE: c --> cký
+	měděnecký	měděnec	CHANGE: c --> cký
+	moravecký	Moravec	CHANGE: c --> cký
+	mořický	Mořic	CHANGE: c --> cký
+	mšecký	Mšec	CHANGE: c --> cký
+	nostický	Nostic	CHANGE: c --> cký
+	odranecký	odranec	CHANGE: c --> cký
+	odsouzenecký	odsouzenec	CHANGE: c --> cký
+	olšovecký	Olšovec	CHANGE: c --> cký
+	olympický	Olympic	CHANGE: c --> cký
+	oplotecký	Oplotec	CHANGE: c --> cký
+	oslavenecký	oslavenec	CHANGE: c --> cký
+	ospalecký	ospalec	CHANGE: c --> cký
+	pavelecký	Pavelec	CHANGE: c --> cký
+@	pecký	pec	CHANGE: c --> cký
+	pernarecký	Pernarec	CHANGE: c --> cký
+	pernolecký	Pernolec	CHANGE: c --> cký
+	perucký	Peruc	CHANGE: c --> cký
+	plešivecký	Plešivec	CHANGE: c --> cký
+	plocký	Ploc	CHANGE: c --> cký
+	plzenecký	Plzenec	CHANGE: c --> cký
+	pohledecký	Pohledec	CHANGE: c --> cký
+	pohořelecký	Pohořelec	CHANGE: c --> cký
+	posekanecký	Posekanec	CHANGE: c --> cký
+	požarevacký	Požarevac	CHANGE: c --> cký
+	purkarecký	Purkarec	CHANGE: c --> cký
+	rohozecký	rohozec	CHANGE: c --> cký
+	rudolecký	Rudolec	CHANGE: c --> cký
+	rynárecký	Rynárec	CHANGE: c --> cký
+	rynholecký	Rynholec	CHANGE: c --> cký
+	řípecký	Řípec	CHANGE: c --> cký
+@	senecký	senec	CHANGE: c --> cký
+	slanecký	Slanec	CHANGE: c --> cký
+	slivenecký	Slivenec	CHANGE: c --> cký
+	smokovecký	Smokovec	CHANGE: c --> cký
+	sovinecký	Sovinec	CHANGE: c --> cký
+	srubecký	Srubec	CHANGE: c --> cký
+	stožecký	Stožec	CHANGE: c --> cký
+	studenecký	Studenec	CHANGE: c --> cký
+	sudetoněmecký	Sudetoněmec	CHANGE: c --> cký
+	svažecký	Svažec	CHANGE: c --> cký
+	šabacký	Šabac	CHANGE: c --> cký
+	tlustecký	Tlustec	CHANGE: c --> cký
+	trokavecký	Trokavec	CHANGE: c --> cký
+	turecký	Turec	CHANGE: c --> cký
+	týnecký	Týnec	CHANGE: c --> cký
+	újezdecký	Újezdec	CHANGE: c --> cký
+	vesecký	Vesec	CHANGE: c --> cký
+	vestecký	Vestec	CHANGE: c --> cký
+	vílanecký	Vílanec	CHANGE: c --> cký
+	volenecký	volenec	CHANGE: c --> cký
+	vrbecký	vrbec	CHANGE: c --> cký
+	vrbovecký	Vrbovec	CHANGE: c --> cký
+	vršatecký	Vršatec	CHANGE: c --> cký
+	vyškovecký	Vyškovec	CHANGE: c --> cký
+	záporožecký	Záporožec	CHANGE: c --> cký
+	zelenecký	zelenec	CHANGE: c --> cký
+	zhýralecký	zhýralec	CHANGE: c --> cký
+	zichovecký	Zichovec	CHANGE: c --> cký
+	zvíkovecký	Zvíkovec	CHANGE: c --> cký
+@	zvolenecký	zvolenec	CHANGE: c --> cký
+@	žatecký	žatec	CHANGE: c --> cký
+	žďárecký	Žďárec	CHANGE: c --> cký
+	ždírecký	Ždírec	CHANGE: c --> cký
+	žnecký	žnec	CHANGE: c --> cký
+	basický	Basic	CHANGE: c --> cký
+	musický	music	CHANGE: c --> cký
+	bošácký	Bošáca	CHANGE: ca --> cký
+	dragovický	Dragovica	CHANGE: ca --> cký
+	gorický	Gorica	CHANGE: ca --> cký
+	hepatický	Hepatica	CHANGE: ca --> cký
+	kremnický	Kremnica	CHANGE: ca --> cký
+	krynický	Krynica	CHANGE: ca --> cký
+	legnický	Legnica	CHANGE: ca --> cký
+	majevický	Majevica	CHANGE: ca --> cký
+	nimnický	Nimnica	CHANGE: ca --> cký
+	sopotnický	Sopotnica	CHANGE: ca --> cký
+	srebrenický	Srebrenica	CHANGE: ca --> cký
+	štiavnický	Štiavnica	CHANGE: ca --> cký
+	žarnovický	Žarnovica	CHANGE: ca --> cký
+	dušický	Dušica	CHANGE: ca --> cký
+	albeřický	Albeřice	CHANGE: ce --> cký
+	albrechtický	Albrechtice	CHANGE: ce --> cký
+	almužnický	almužnice	CHANGE: ce --> cký
+	arnoltický	Arnoltice	CHANGE: ce --> cký
+	arnultovický	Arnultovice	CHANGE: ce --> cký
+	babický	babice	CHANGE: ce --> cký
+	bartošovický	Bartošovice	CHANGE: ce --> cký
+	bartovický	Bartovice	CHANGE: ce --> cký
+	básnický	básnice	CHANGE: ce --> cký
+	batňovický	Batňovice	CHANGE: ce --> cký
+	bavorovický	Bavorovice	CHANGE: ce --> cký
+	bažantnický	bažantnice	CHANGE: ce --> cký
+	bedřichovický	Bedřichovice	CHANGE: ce --> cký
+	běchovický	Běchovice	CHANGE: ce --> cký
+	bělčický	Bělčice	CHANGE: ce --> cký
+	bělkovický	Bělkovice	CHANGE: ce --> cký
+	bělušický	Bělušice	CHANGE: ce --> cký
+	benešovický	Benešovice	CHANGE: ce --> cký
+	bernartický	Bernartice	CHANGE: ce --> cký
+	běrunický	Běrunice	CHANGE: ce --> cký
+	beřkovický	Beřkovice	CHANGE: ce --> cký
+	běstovický	Běstovice	CHANGE: ce --> cký
+	bezdědický	Bezdědice	CHANGE: ce --> cký
+	bezdružický	Bezdružice	CHANGE: ce --> cký
+	bílkovický	Bílkovice	CHANGE: ce --> cký
+	bílovický	Bílovice	CHANGE: ce --> cký
+	biskupický	Biskupice	CHANGE: ce --> cký
+	bítovčický	Bítovčice	CHANGE: ce --> cký
+	blanický	Blanice	CHANGE: ce --> cký
+	blatnický	blatnice	CHANGE: ce --> cký
+	blažejovický	Blažejovice	CHANGE: ce --> cký
+	blažovický	Blažovice	CHANGE: ce --> cký
+	blevický	Blevice	CHANGE: ce --> cký
+	blížkovický	Blížkovice	CHANGE: ce --> cký
+	blovický	Blovice	CHANGE: ce --> cký
+	bludovický	Bludovice	CHANGE: ce --> cký
+	bobnický	Bobnice	CHANGE: ce --> cký
+	bohatický	Bohatice	CHANGE: ce --> cký
+	bohdalický	Bohdalice	CHANGE: ce --> cký
+	bohnický	Bohnice	CHANGE: ce --> cký
+	bohučovický	Bohučovice	CHANGE: ce --> cký
+	bohumilický	Bohumilice	CHANGE: ce --> cký
+	bohunický	Bohunice	CHANGE: ce --> cký
+	bohuňovický	Bohuňovice	CHANGE: ce --> cký
+	bohuslavický	Bohuslavice	CHANGE: ce --> cký
+	bohušovický	Bohušovice	CHANGE: ce --> cký
+	bohutický	Bohutice	CHANGE: ce --> cký
+	bochovický	Bochovice	CHANGE: ce --> cký
+	bojanovický	Bojanovice	CHANGE: ce --> cký
+	bojkovický	Bojkovice	CHANGE: ce --> cký
+	bojnický	Bojnice	CHANGE: ce --> cký
+	bolatický	Bolatice	CHANGE: ce --> cký
+	boleradický	Boleradice	CHANGE: ce --> cký
+	boletický	Boletice	CHANGE: ce --> cký
+	bonětický	Bonětice	CHANGE: ce --> cký
+	bordovický	Bordovice	CHANGE: ce --> cký
+	borkovický	Borkovice	CHANGE: ce --> cký
+	borotický	Borotice	CHANGE: ce --> cký
+	borovnický	Borovnice	CHANGE: ce --> cký
+	boršický	Boršice	CHANGE: ce --> cký
+	bořetický	Bořetice	CHANGE: ce --> cký
+	bořický	Bořice	CHANGE: ce --> cký
+	boříkovický	Boříkovice	CHANGE: ce --> cký
+	boskovický	Boskovice	CHANGE: ce --> cký
+	bošovický	Bošovice	CHANGE: ce --> cký
+	božetický	Božetice	CHANGE: ce --> cký
+	božický	Božice	CHANGE: ce --> cký
+	božkovický	Božkovice	CHANGE: ce --> cký
+	bradavický	bradavice	CHANGE: ce --> cký
+	branický	Branice	CHANGE: ce --> cký
+	bránický	bránice	CHANGE: ce --> cký
+	branišovický	Branišovice	CHANGE: ce --> cký
+	brankovický	Brankovice	CHANGE: ce --> cký
+	brantický	Brantice	CHANGE: ce --> cký
+	bratčický	Bratčice	CHANGE: ce --> cký
+	bratronický	Bratronice	CHANGE: ce --> cký
+	bravantický	Bravantice	CHANGE: ce --> cký
+	brigádnický	brigádnice	CHANGE: ce --> cký
+	brumovický	Brumovice	CHANGE: ce --> cký
+	bruzovický	Bruzovice	CHANGE: ce --> cký
+	břevnický	Břevnice	CHANGE: ce --> cký
+	březnický	Březnice	CHANGE: ce --> cký
+	březovický	Březovice	CHANGE: ce --> cký
+	břilický	Břilice	CHANGE: ce --> cký
+	bučický	Bučice	CHANGE: ce --> cký
+	bučovický	Bučovice	CHANGE: ce --> cký
+	budějcký	Budějce	CHANGE: ce --> cký
+	budějovický	Budějovice	CHANGE: ce --> cký
+	budíkovický	Budíkovice	CHANGE: ce --> cký
+	budíškovický	Budíškovice	CHANGE: ce --> cký
+	budišovický	Budišovice	CHANGE: ce --> cký
+	buchlovický	Buchlovice	CHANGE: ce --> cký
+	bukovický	Bukovice	CHANGE: ce --> cký
+	bušanovický	Bušanovice	CHANGE: ce --> cký
+	bušovický	Bušovice	CHANGE: ce --> cký
+	butovický	Butovice	CHANGE: ce --> cký
+	buzický	Buzice	CHANGE: ce --> cký
+	býkovický	býkovice	CHANGE: ce --> cký
+	bystročický	Bystročice	CHANGE: ce --> cký
+	bystřický	Bystřice	CHANGE: ce --> cký
+	byšický	Byšice	CHANGE: ce --> cký
+	byškovický	Byškovice	CHANGE: ce --> cký
+	býškovický	Býškovice	CHANGE: ce --> cký
+	capartický	Capartice	CHANGE: ce --> cký
+	cehnický	Cehnice	CHANGE: ce --> cký
+	cerekvický	Cerekvice	CHANGE: ce --> cký
+	cerhenický	Cerhenice	CHANGE: ce --> cký
+	cerhovický	Cerhovice	CHANGE: ce --> cký
+	cetkovický	Cetkovice	CHANGE: ce --> cký
+	církvický	Církvice	CHANGE: ce --> cký
+	citický	Citice	CHANGE: ce --> cký
+	ctěnický	Ctěnice	CHANGE: ce --> cký
+	cvrčovický	Cvrčovice	CHANGE: ce --> cký
+	cyrilický	cyrilice	CHANGE: ce --> cký
+	čachtický	Čachtice	CHANGE: ce --> cký
+	čakovický	Čakovice	CHANGE: ce --> cký
+	čankovický	Čankovice	CHANGE: ce --> cký
+	čáslavický	Čáslavice	CHANGE: ce --> cký
+	častolovický	Častolovice	CHANGE: ce --> cký
+	čečelický	Čečelice	CHANGE: ce --> cký
+	čečovický	Čečovice	CHANGE: ce --> cký
+	čechočovický	Čechočovice	CHANGE: ce --> cký
+	čechovický	Čechovice	CHANGE: ce --> cký
+	čechtický	Čechtice	CHANGE: ce --> cký
+	čejetický	Čejetice	CHANGE: ce --> cký
+	čejkovický	Čejkovice	CHANGE: ce --> cký
+	čekanický	Čekanice	CHANGE: ce --> cký
+	čelákovický	Čelákovice	CHANGE: ce --> cký
+	čelechovický	Čelechovice	CHANGE: ce --> cký
+	čelkovický	Čelkovice	CHANGE: ce --> cký
+	čenkovický	Čenkovice	CHANGE: ce --> cký
+	čepický	čepice	CHANGE: ce --> cký
+	černčický	Černčice	CHANGE: ce --> cký
+	černický	černice	CHANGE: ce --> cký
+	černíkovický	Černíkovice	CHANGE: ce --> cký
+	černolický	Černolice	CHANGE: ce --> cký
+	černošický	Černošice	CHANGE: ce --> cký
+	černovický	Černovice	CHANGE: ce --> cký
+	černožický	Černožice	CHANGE: ce --> cký
+	čestický	Čestice	CHANGE: ce --> cký
+	číčenický	Číčenice	CHANGE: ce --> cký
+	čimelický	Čimelice	CHANGE: ce --> cký
+	čimický	Čimice	CHANGE: ce --> cký
+	čížkovický	Čížkovice	CHANGE: ce --> cký
+	dačický	Dačice	CHANGE: ce --> cký
+	dalešický	Dalešice	CHANGE: ce --> cký
+	daliměřický	Daliměřice	CHANGE: ce --> cký
+	dalovický	Dalovice	CHANGE: ce --> cký
+	dambořický	Dambořice	CHANGE: ce --> cký
+	daňkovický	Daňkovice	CHANGE: ce --> cký
+	darkovický	Darkovice	CHANGE: ce --> cký
+	dasnický	Dasnice	CHANGE: ce --> cký
+	dašický	Dašice	CHANGE: ce --> cký
+	dědovický	Dědovice	CHANGE: ce --> cký
+	dejvický	Dejvice	CHANGE: ce --> cký
+	děpoltovický	Děpoltovice	CHANGE: ce --> cký
+	dešenický	Dešenice	CHANGE: ce --> cký
+	dětenický	Dětenice	CHANGE: ce --> cký
+	dětkovický	Dětkovice	CHANGE: ce --> cký
+	dětmarovický	Dětmarovice	CHANGE: ce --> cký
+	dětřichovický	Dětřichovice	CHANGE: ce --> cký
+	divadelnický	divadelnice	CHANGE: ce --> cký
+	dívčický	dívčice	CHANGE: ce --> cký
+	dlažkovický	Dlažkovice	CHANGE: ce --> cký
+	dlouhoňovický	Dlouhoňovice	CHANGE: ce --> cký
+	dnešický	Dnešice	CHANGE: ce --> cký
+	dobětický	Dobětice	CHANGE: ce --> cký
+	dobkovický	Dobkovice	CHANGE: ce --> cký
+	dobratický	Dobratice	CHANGE: ce --> cký
+	dobrkovický	Dobrkovice	CHANGE: ce --> cký
+	dobročkovický	Dobročkovice	CHANGE: ce --> cký
+	dobročovický	Dobročovice	CHANGE: ce --> cký
+	dobroměřický	Dobroměřice	CHANGE: ce --> cký
+	dobromilický	Dobromilice	CHANGE: ce --> cký
+	dobronický	Dobronice	CHANGE: ce --> cký
+	dobrotický	Dobrotice	CHANGE: ce --> cký
+	dobrovický	Dobrovice	CHANGE: ce --> cký
+	dobřichovický	Dobřichovice	CHANGE: ce --> cký
+	dobšický	Dobšice	CHANGE: ce --> cký
+	dohalický	Dohalice	CHANGE: ce --> cký
+	domamyslický	Domamyslice	CHANGE: ce --> cký
+	domažlický	Domažlice	CHANGE: ce --> cký
+	domoradický	Domoradice	CHANGE: ce --> cký
+	domousnický	Domousnice	CHANGE: ce --> cký
+	domoušický	Domoušice	CHANGE: ce --> cký
+	doubický	Doubice	CHANGE: ce --> cký
+	doubravický	Doubravice	CHANGE: ce --> cký
+	drahanovický	Drahanovice	CHANGE: ce --> cký
+	drahelický	Drahelice	CHANGE: ce --> cký
+	drahenický	Drahenice	CHANGE: ce --> cký
+	drahonický	Drahonice	CHANGE: ce --> cký
+	drahovický	Drahovice	CHANGE: ce --> cký
+	dražický	Dražice	CHANGE: ce --> cký
+	dražkovický	Dražkovice	CHANGE: ce --> cký
+	dražovický	Dražovice	CHANGE: ce --> cký
+	drnovický	Drnovice	CHANGE: ce --> cký
+	droužkovický	Droužkovice	CHANGE: ce --> cký
+	drozdický	Drozdice	CHANGE: ce --> cký
+	drozdovický	Drozdovice	CHANGE: ce --> cký
+	drslavický	Drslavice	CHANGE: ce --> cký
+	družstevnický	družstevnice	CHANGE: ce --> cký
+	držovický	Držovice	CHANGE: ce --> cký
+	dřenický	Dřenice	CHANGE: ce --> cký
+	dřetovický	Dřetovice	CHANGE: ce --> cký
+	dřevčický	Dřevčice	CHANGE: ce --> cký
+	dřevěnický	dřevěnice	CHANGE: ce --> cký
+	dřevnický	Dřevnice	CHANGE: ce --> cký
+	dřevnovický	Dřevnovice	CHANGE: ce --> cký
+	dřevohostický	Dřevohostice	CHANGE: ce --> cký
+	dubický	Dubice	CHANGE: ce --> cký
+	dublovický	Dublovice	CHANGE: ce --> cký
+	dubovický	dubovice	CHANGE: ce --> cký
+	dunajovický	Dunajovice	CHANGE: ce --> cký
+	dvakačovický	Dvakačovice	CHANGE: ce --> cký
+	dyjákovický	Dyjákovice	CHANGE: ce --> cký
+	ejpovický	Ejpovice	CHANGE: ce --> cký
+	erpužický	Erpužice	CHANGE: ce --> cký
+	ervěnický	Ervěnice	CHANGE: ce --> cký
+	evangelický	evangelice	CHANGE: ce --> cký
+	farnický	farnice	CHANGE: ce --> cký
+	fryčovický	Fryčovice	CHANGE: ce --> cký
+	gelnický	Gelnice	CHANGE: ce --> cký
+	glivický	Glivice	CHANGE: ce --> cký
+	gorlický	Gorlice	CHANGE: ce --> cký
+	habartický	Habartice	CHANGE: ce --> cký
+	habrovický	Habrovice	CHANGE: ce --> cký
+	hajnický	Hajnice	CHANGE: ce --> cký
+	halenkovický	Halenkovice	CHANGE: ce --> cký
+	haňovický	Haňovice	CHANGE: ce --> cký
+	hanušovický	Hanušovice	CHANGE: ce --> cký
+	hartmanický	Hartmanice	CHANGE: ce --> cký
+	hartvíkovický	Hartvíkovice	CHANGE: ce --> cký
+	havlovický	Havlovice	CHANGE: ce --> cký
+	havranický	havranice	CHANGE: ce --> cký
+	havřický	Havřice	CHANGE: ce --> cký
+	hejnický	Hejnice	CHANGE: ce --> cký
+	hejtmánkovický	Hejtmánkovice	CHANGE: ce --> cký
+	heraltický	Heraltice	CHANGE: ce --> cký
+	herlíkovický	Herlíkovice	CHANGE: ce --> cký
+	heršpický	Heršpice	CHANGE: ce --> cký
+	heřmanický	Heřmanice	CHANGE: ce --> cký
+	heřmanovický	Heřmanovice	CHANGE: ce --> cký
+	hlavický	hlavice	CHANGE: ce --> cký
+	hlavnický	Hlavnice	CHANGE: ce --> cký
+	hlivický	Hlivice	CHANGE: ce --> cký
+	hlušický	Hlušice	CHANGE: ce --> cký
+	hnanický	Hnanice	CHANGE: ce --> cký
+	hnátnický	Hnátnice	CHANGE: ce --> cký
+	hněvkovický	Hněvkovice	CHANGE: ce --> cký
+	hněvošický	Hněvošice	CHANGE: ce --> cký
+	hobšovický	Hobšovice	CHANGE: ce --> cký
+	hodický	Hodice	CHANGE: ce --> cký
+	hodkovický	Hodkovice	CHANGE: ce --> cký
+	hodonický	Hodonice	CHANGE: ce --> cký
+	hodousický	Hodousice	CHANGE: ce --> cký
+	hodslavický	Hodslavice	CHANGE: ce --> cký
+	holašovický	Holašovice	CHANGE: ce --> cký
+	holčovický	Holčovice	CHANGE: ce --> cký
+	holešovický	Holešovice	CHANGE: ce --> cký
+	holubický	holubice	CHANGE: ce --> cký
+	holušický	Holušice	CHANGE: ce --> cký
+	horažďovický	Horažďovice	CHANGE: ce --> cký
+	horusický	Horusice	CHANGE: ce --> cký
+	hořický	Hořice	CHANGE: ce --> cký
+	hořovický	Hořovice	CHANGE: ce --> cký
+	hoslovický	Hoslovice	CHANGE: ce --> cký
+	hostašovický	Hostašovice	CHANGE: ce --> cký
+	hostavický	Hostavice	CHANGE: ce --> cký
+	hostěnický	Hostěnice	CHANGE: ce --> cký
+	hostěradický	Hostěradice	CHANGE: ce --> cký
+	hostivický	Hostivice	CHANGE: ce --> cký
+	hostomický	Hostomice	CHANGE: ce --> cký
+	hostovický	Hostovice	CHANGE: ce --> cký
+	hostovlický	Hostovlice	CHANGE: ce --> cký
+	hoškovický	Hoškovice	CHANGE: ce --> cký
+	hošťálkovický	Hošťálkovice	CHANGE: ce --> cký
+	hoštický	Hoštice	CHANGE: ce --> cký
+	hovorčovický	Hovorčovice	CHANGE: ce --> cký
+	hrabušický	Hrabušice	CHANGE: ce --> cký
+	hradešický	Hradešice	CHANGE: ce --> cký
+	hranický	hranice	CHANGE: ce --> cký
+	hrdějovický	Hrdějovice	CHANGE: ce --> cký
+	hrdibořický	Hrdibořice	CHANGE: ce --> cký
+	hrejkovický	Hrejkovice	CHANGE: ce --> cký
+	hrobický	Hrobice	CHANGE: ce --> cký
+	hromnický	hromnice	CHANGE: ce --> cký
+	hrotovický	Hrotovice	CHANGE: ce --> cký
+	hrubčický	Hrubčice	CHANGE: ce --> cký
+	hrusický	Hrusice	CHANGE: ce --> cký
+	hříchovický	Hříchovice	CHANGE: ce --> cký
+	hřivický	Hřivice	CHANGE: ce --> cký
+	hudebnický	hudebnice	CHANGE: ce --> cký
+	hudlický	Hudlice	CHANGE: ce --> cký
+	husický	husice	CHANGE: ce --> cký
+	husovický	Husovice	CHANGE: ce --> cký
+	huštěnovický	Huštěnovice	CHANGE: ce --> cký
+	chabařovický	Chabařovice	CHANGE: ce --> cký
+	chanovický	Chanovice	CHANGE: ce --> cký
+	chelčický	Chelčice	CHANGE: ce --> cký
+	cheznovický	Cheznovice	CHANGE: ce --> cký
+	chlebovický	Chlebovice	CHANGE: ce --> cký
+	chlístovický	Chlístovice	CHANGE: ce --> cký
+	chmelnický	chmelnice	CHANGE: ce --> cký
+	chocovický	Chocovice	CHANGE: ce --> cký
+	chodovický	Chodovice	CHANGE: ce --> cký
+	chomutický	Chomutice	CHANGE: ce --> cký
+	chornický	Chornice	CHANGE: ce --> cký
+	chotěvický	Chotěvice	CHANGE: ce --> cký
+	chotusický	Chotusice	CHANGE: ce --> cký
+	chotutický	Chotutice	CHANGE: ce --> cký
+	chrastavický	Chrastavice	CHANGE: ce --> cký
+	chrastický	chrastice	CHANGE: ce --> cký
+	chraštický	Chraštice	CHANGE: ce --> cký
+	chrlický	Chrlice	CHANGE: ce --> cký
+	chroustovický	Chroustovice	CHANGE: ce --> cký
+	chrustenický	Chrustenice	CHANGE: ce --> cký
+	chřenovický	Chřenovice	CHANGE: ce --> cký
+	chudenický	Chudenice	CHANGE: ce --> cký
+	chudeřický	Chudeřice	CHANGE: ce --> cký
+	chválenický	Chválenice	CHANGE: ce --> cký
+	chvaletický	Chvaletice	CHANGE: ce --> cký
+	chvalkovický	Chvalkovice	CHANGE: ce --> cký
+	chválkovický	Chválkovice	CHANGE: ce --> cký
+	chvalovický	Chvalovice	CHANGE: ce --> cký
+	chvojkovický	Chvojkovice	CHANGE: ce --> cký
+	incký	Ince	CHANGE: ce --> cký
+	ivančický	Ivančice	CHANGE: ce --> cký
+	ivanovický	Ivanovice	CHANGE: ce --> cký
+	jabkenický	Jabkenice	CHANGE: ce --> cký
+	jakubčovický	Jakubčovice	CHANGE: ce --> cký
+	jamnický	jamnice	CHANGE: ce --> cký
+	jankovický	Jankovice	CHANGE: ce --> cký
+	janovický	Janovice	CHANGE: ce --> cký
+	jaroměřický	Jaroměřice	CHANGE: ce --> cký
+	jaroslavický	Jaroslavice	CHANGE: ce --> cký
+	javornický	Javornice	CHANGE: ce --> cký
+	jedovnický	Jedovnice	CHANGE: ce --> cký
+	jehnický	jehnice	CHANGE: ce --> cký
+	jemnický	Jemnice	CHANGE: ce --> cký
+	jenišovický	Jenišovice	CHANGE: ce --> cký
+	jeřický	jeřice	CHANGE: ce --> cký
+	jeřmanický	Jeřmanice	CHANGE: ce --> cký
+	jesenický	Jesenice	CHANGE: ce --> cký
+	ješetický	Ješetice	CHANGE: ce --> cký
+	ješovický	Ješovice	CHANGE: ce --> cký
+	jetřichovický	Jetřichovice	CHANGE: ce --> cký
+	jevišovický	Jevišovice	CHANGE: ce --> cký
+	jezbořický	Jezbořice	CHANGE: ce --> cký
+	jezernický	Jezernice	CHANGE: ce --> cký
+	jilemnický	Jilemnice	CHANGE: ce --> cký
+	jílovický	Jílovice	CHANGE: ce --> cký
+	jindický	Jindice	CHANGE: ce --> cký
+	jindřichovický	Jindřichovice	CHANGE: ce --> cký
+	jiřický	Jiřice	CHANGE: ce --> cký
+	jiříkovický	Jiříkovice	CHANGE: ce --> cký
+	jistebnický	Jistebnice	CHANGE: ce --> cký
+	kačický	kačice	CHANGE: ce --> cký
+	kančický	kančice	CHANGE: ce --> cký
+	kanický	Kanice	CHANGE: ce --> cký
+	kaplický	kaplice	CHANGE: ce --> cký
+	karabinický	karabinice	CHANGE: ce --> cký
+	karlovický	Karlovice	CHANGE: ce --> cký
+	kasalický	Kasalice	CHANGE: ce --> cký
+	kasejovický	Kasejovice	CHANGE: ce --> cký
+	kašovický	Kašovice	CHANGE: ce --> cký
+	kaštický	Kaštice	CHANGE: ce --> cký
+	kateřinický	Kateřinice	CHANGE: ce --> cký
+	katovický	Katovice	CHANGE: ce --> cký
+	katusický	Katusice	CHANGE: ce --> cký
+	kavárnický	kavárnice	CHANGE: ce --> cký
+	keblický	Keblice	CHANGE: ce --> cký
+	kejnický	Kejnice	CHANGE: ce --> cký
+	kerhartický	Kerhartice	CHANGE: ce --> cký
+	klánovický	Klánovice	CHANGE: ce --> cký
+	klavírnický	klavírnice	CHANGE: ce --> cký
+	klementovický	Klementovice	CHANGE: ce --> cký
+	klenovický	Klenovice	CHANGE: ce --> cký
+	klentnický	Klentnice	CHANGE: ce --> cký
+	klimkovický	Klimkovice	CHANGE: ce --> cký
+	knínický	Knínice	CHANGE: ce --> cký
+	kobeřický	Kobeřice	CHANGE: ce --> cký
+	kocelovický	Kocelovice	CHANGE: ce --> cký
+	kohoutovický	Kohoutovice	CHANGE: ce --> cký
+	kojákovický	Kojákovice	CHANGE: ce --> cký
+	kojčický	Kojčice	CHANGE: ce --> cký
+	kojetický	Kojetice	CHANGE: ce --> cký
+	kojický	Kojice	CHANGE: ce --> cký
+	kolešovický	Kolešovice	CHANGE: ce --> cký
+	komařický	Komařice	CHANGE: ce --> cký
+	kominický	kominice	CHANGE: ce --> cký
+	konárovický	Konárovice	CHANGE: ce --> cký
+	končický	Končice	CHANGE: ce --> cký
+	konický	konice	CHANGE: ce --> cký
+	konopický	konopice	CHANGE: ce --> cký
+	kopanický	kopanice	CHANGE: ce --> cký
+	kopinický	kopinice	CHANGE: ce --> cký
+	kopřivnický	Kopřivnice	CHANGE: ce --> cký
+	kornatický	Kornatice	CHANGE: ce --> cký
+	korytnický	Korytnice	CHANGE: ce --> cký
+	kostelnický	kostelnice	CHANGE: ce --> cký
+	kostěnický	Kostěnice	CHANGE: ce --> cký
+	kostický	kostice	CHANGE: ce --> cký
+	kostnický	kostnice	CHANGE: ce --> cký
+	košetický	Košetice	CHANGE: ce --> cký
+	košický	Košice	CHANGE: ce --> cký
+	koštický	Koštice	CHANGE: ce --> cký
+	kotvrdovický	Kotvrdovice	CHANGE: ce --> cký
+	kounický	Kounice	CHANGE: ce --> cký
+	koválovický	Koválovice	CHANGE: ce --> cký
+	kovanický	Kovanice	CHANGE: ce --> cký
+	kozlovický	kozlovice	CHANGE: ce --> cký
+	krabčický	Krabčice	CHANGE: ce --> cký
+	krábčický	Krábčice	CHANGE: ce --> cký
+	kralický	Kralice	CHANGE: ce --> cký
+	králický	králice	CHANGE: ce --> cký
+	kralovický	Kralovice	CHANGE: ce --> cký
+	královický	Královice	CHANGE: ce --> cký
+	krasický	Krasice	CHANGE: ce --> cký
+	kraslický	kraslice	CHANGE: ce --> cký
+	krasnický	Krasnice	CHANGE: ce --> cký
+	krašovický	Krašovice	CHANGE: ce --> cký
+	krejnický	Krejnice	CHANGE: ce --> cký
+	krhanický	Krhanice	CHANGE: ce --> cký
+	krňovický	Krňovice	CHANGE: ce --> cký
+	krušovický	Krušovice	CHANGE: ce --> cký
+	křečovický	Křečovice	CHANGE: ce --> cký
+	křenovický	Křenovice	CHANGE: ce --> cký
+	křepenický	Křepenice	CHANGE: ce --> cký
+	křesetický	Křesetice	CHANGE: ce --> cký
+	křeslický	Křeslice	CHANGE: ce --> cký
+	křešický	Křešice	CHANGE: ce --> cký
+	křimický	Křimice	CHANGE: ce --> cký
+	křinický	Křinice	CHANGE: ce --> cký
+	křižanovický	Křižanovice	CHANGE: ce --> cký
+	křížovický	Křížovice	CHANGE: ce --> cký
+	kšický	Kšice	CHANGE: ce --> cký
+	kubelický	Kubelice	CHANGE: ce --> cký
+	kubšický	Kubšice	CHANGE: ce --> cký
+	kudlovický	Kudlovice	CHANGE: ce --> cký
+	kuchařovický	Kuchařovice	CHANGE: ce --> cký
+	kunčický	Kunčice	CHANGE: ce --> cký
+	kundratický	Kundratice	CHANGE: ce --> cký
+	kunětický	Kunětice	CHANGE: ce --> cký
+	kunický	Kunice	CHANGE: ce --> cký
+	kunovický	Kunovice	CHANGE: ce --> cký
+	kunratický	Kunratice	CHANGE: ce --> cký
+	kupčický	kupčice	CHANGE: ce --> cký
+	kurovický	Kurovice	CHANGE: ce --> cký
+	kvasický	Kvasice	CHANGE: ce --> cký
+	kvíčovický	Kvíčovice	CHANGE: ce --> cký
+	kvítkovický	Kvítkovice	CHANGE: ce --> cký
+	kylešovický	Kylešovice	CHANGE: ce --> cký
+	kysucký	Kysuce	CHANGE: ce --> cký
+	kyšický	Kyšice	CHANGE: ce --> cký
+	kytlický	kytlice	CHANGE: ce --> cký
+	lahovický	Lahovice	CHANGE: ce --> cký
+	lásenický	Lásenice	CHANGE: ce --> cký
+	latinický	latinice	CHANGE: ce --> cký
+	lečický	Lečice	CHANGE: ce --> cký
+	ledenický	Ledenice	CHANGE: ce --> cký
+	lednický	lednice	CHANGE: ce --> cký
+	ledvický	Ledvice	CHANGE: ce --> cký
+	lehnický	Lehnice	CHANGE: ce --> cký
+	lechovický	Lechovice	CHANGE: ce --> cký
+	lelekovický	Lelekovice	CHANGE: ce --> cký
+	lenešický	Lenešice	CHANGE: ce --> cký
+	leskovický	Leskovice	CHANGE: ce --> cký
+	lesonický	Lesonice	CHANGE: ce --> cký
+	lešetický	Lešetice	CHANGE: ce --> cký
+	letonický	Letonice	CHANGE: ce --> cký
+	letovický	Letovice	CHANGE: ce --> cký
+	levický	levice	CHANGE: ce --> cký
+	ležnický	Ležnice	CHANGE: ce --> cký
+	lhenický	Lhenice	CHANGE: ce --> cký
+	libčický	Libčice	CHANGE: ce --> cký
+	libějovický	Libějovice	CHANGE: ce --> cký
+	liběšický	Liběšice	CHANGE: ce --> cký
+	libický	Libice	CHANGE: ce --> cký
+	libkovický	Libkovice	CHANGE: ce --> cký
+	liblický	Liblice	CHANGE: ce --> cký
+	lidický	Lidice	CHANGE: ce --> cký
+	lichnický	Lichnice	CHANGE: ce --> cký
+	limnický	Limnice	CHANGE: ce --> cký
+	linhartický	Linhartice	CHANGE: ce --> cký
+	lipický	Lipice	CHANGE: ce --> cký
+	lipnický	lipnice	CHANGE: ce --> cký
+	líšnický	Líšnice	CHANGE: ce --> cký
+	litenčický	Litenčice	CHANGE: ce --> cký
+	litický	litice	CHANGE: ce --> cký
+	litvínovický	Litvínovice	CHANGE: ce --> cký
+	lobkovický	Lobkovice	CHANGE: ce --> cký
+	loděnický	loděnice	CHANGE: ce --> cký
+	lohenický	Lohenice	CHANGE: ce --> cký
+	lochovický	Lochovice	CHANGE: ce --> cký
+	lomnický	Lomnice	CHANGE: ce --> cký
+	losenický	Losenice	CHANGE: ce --> cký
+	loštický	Loštice	CHANGE: ce --> cký
+	loučovický	Loučovice	CHANGE: ce --> cký
+	louňovický	Louňovice	CHANGE: ce --> cký
+	lovčický	Lovčice	CHANGE: ce --> cký
+	lovosický	Lovosice	CHANGE: ce --> cký
+	lucký	Luce	CHANGE: ce --> cký
+	lučický	Lučice	CHANGE: ce --> cký
+	ludgeřovický	Ludgeřovice	CHANGE: ce --> cký
+	ludkovický	Ludkovice	CHANGE: ce --> cký
+	ludvíkovický	Ludvíkovice	CHANGE: ce --> cký
+	luhačovický	Luhačovice	CHANGE: ce --> cký
+	lukavický	Lukavice	CHANGE: ce --> cký
+	lumčický	lumčice	CHANGE: ce --> cký
+	luštěnický	Luštěnice	CHANGE: ce --> cký
+	luženický	Luženice	CHANGE: ce --> cký
+	lužický	Lužice	CHANGE: ce --> cký
+	lužnický	Lužnice	CHANGE: ce --> cký
+	lysický	Lysice	CHANGE: ce --> cký
+	mačický	Mačice	CHANGE: ce --> cký
+	makovický	makovice	CHANGE: ce --> cký
+	malenický	Malenice	CHANGE: ce --> cký
+	malenovický	Malenovice	CHANGE: ce --> cký
+	malesický	Malesice	CHANGE: ce --> cký
+	malešický	Malešice	CHANGE: ce --> cký
+	malšický	Malšice	CHANGE: ce --> cký
+	malšovický	Malšovice	CHANGE: ce --> cký
+	maňovický	Maňovice	CHANGE: ce --> cký
+	manušický	Manušice	CHANGE: ce --> cký
+	markovický	Markovice	CHANGE: ce --> cký
+	markvartický	Markvartice	CHANGE: ce --> cký
+	maršovický	Maršovice	CHANGE: ce --> cký
+	martinický	Martinice	CHANGE: ce --> cký
+	martínkovický	Martínkovice	CHANGE: ce --> cký
+	mařatický	Mařatice	CHANGE: ce --> cký
+	mařenický	Mařenice	CHANGE: ce --> cký
+	maslenický	Maslenice	CHANGE: ce --> cký
+	máslovický	Máslovice	CHANGE: ce --> cký
+	mašovický	Mašovice	CHANGE: ce --> cký
+	matický	matice	CHANGE: ce --> cký
+	medenický	Medenice	CHANGE: ce --> cký
+	medlešický	Medlešice	CHANGE: ce --> cký
+	měchenický	Měchenice	CHANGE: ce --> cký
+	mělický	Mělice	CHANGE: ce --> cký
+	mělnický	Mělnice	CHANGE: ce --> cký
+	merboltický	Merboltice	CHANGE: ce --> cký
+	měrovický	Měrovice	CHANGE: ce --> cký
+	měrunický	Měrunice	CHANGE: ce --> cký
+	měřický	měřice	CHANGE: ce --> cký
+	měšický	Měšice	CHANGE: ce --> cký
+	metlický	metlice	CHANGE: ce --> cký
+	metylovický	Metylovice	CHANGE: ce --> cký
+	michálkovický	Michálkovice	CHANGE: ce --> cký
+	michalovický	Michalovice	CHANGE: ce --> cký
+	mikulášovický	Mikulášovice	CHANGE: ce --> cký
+	mikulčický	Mikulčice	CHANGE: ce --> cký
+	mikulovický	Mikulovice	CHANGE: ce --> cký
+	milčický	Milčice	CHANGE: ce --> cký
+	milešický	Milešice	CHANGE: ce --> cký
+	milkovický	Milkovice	CHANGE: ce --> cký
+	mirošovický	Mirošovice	CHANGE: ce --> cký
+	mirotický	Mirotice	CHANGE: ce --> cký
+	mirovický	Mirovice	CHANGE: ce --> cký
+	miřejovický	Miřejovice	CHANGE: ce --> cký
+	miřetický	Miřetice	CHANGE: ce --> cký
+	miskovický	Miskovice	CHANGE: ce --> cký
+	mistrovický	Mistrovice	CHANGE: ce --> cký
+	mladějovický	Mladějovice	CHANGE: ce --> cký
+	mlazický	Mlazice	CHANGE: ce --> cký
+	mlázovický	Mlázovice	CHANGE: ce --> cký
+	mnětický	Mnětice	CHANGE: ce --> cký
+	mnichovický	Mnichovice	CHANGE: ce --> cký
+	modřický	modřice	CHANGE: ce --> cký
+	modřišický	Modřišice	CHANGE: ce --> cký
+	mohelnický	Mohelnice	CHANGE: ce --> cký
+	molický	molice	CHANGE: ce --> cký
+	morašický	Morašice	CHANGE: ce --> cký
+	morkovický	Morkovice	CHANGE: ce --> cký
+	mostkovický	Mostkovice	CHANGE: ce --> cký
+	motěšický	Motěšice	CHANGE: ce --> cký
+	moutnický	Moutnice	CHANGE: ce --> cký
+	munický	munice	CHANGE: ce --> cký
+	mutějovický	Mutějovice	CHANGE: ce --> cký
+	mutěnický	Mutěnice	CHANGE: ce --> cký
+	mužický	mužice	CHANGE: ce --> cký
+	myslibořický	Myslibořice	CHANGE: ce --> cký
+	mysločovický	Mysločovice	CHANGE: ce --> cký
+	načešický	Načešice	CHANGE: ce --> cký
+	náhradnický	náhradnice	CHANGE: ce --> cký
+	nalžovický	Nalžovice	CHANGE: ce --> cký
+	násilnický	násilnice	CHANGE: ce --> cký
+	nebanický	Nebanice	CHANGE: ce --> cký
+	nebušický	Nebušice	CHANGE: ce --> cký
+	nedakonický	Nedakonice	CHANGE: ce --> cký
+	nedvědický	Nedvědice	CHANGE: ce --> cký
+	nechanický	Nechanice	CHANGE: ce --> cký
+	nechranický	Nechranice	CHANGE: ce --> cký
+	nechvalický	Nechvalice	CHANGE: ce --> cký
+	němčický	Němčice	CHANGE: ce --> cký
+	němčovický	Němčovice	CHANGE: ce --> cký
+	nemošický	Nemošice	CHANGE: ce --> cký
+	nenačovický	Nenačovice	CHANGE: ce --> cký
+	neplachovický	Neplachovice	CHANGE: ce --> cký
+	neratovický	Neratovice	CHANGE: ce --> cký
+	nesovický	Nesovice	CHANGE: ce --> cký
+	neštěmický	Neštěmice	CHANGE: ce --> cký
+	neštětický	Neštětice	CHANGE: ce --> cký
+	netolický	Netolice	CHANGE: ce --> cký
+	netřebický	Netřebice	CHANGE: ce --> cký
+	netvořický	Netvořice	CHANGE: ce --> cký
+	neuměřický	Neuměřice	CHANGE: ce --> cký
+	nevolický	Nevolice	CHANGE: ce --> cký
+	nezamyslický	Nezamyslice	CHANGE: ce --> cký
+	nezdenický	Nezdenice	CHANGE: ce --> cký
+	nezvěstický	Nezvěstice	CHANGE: ce --> cký
+	nivnický	Nivnice	CHANGE: ce --> cký
+	nosický	Nosice	CHANGE: ce --> cký
+	nošovický	Nošovice	CHANGE: ce --> cký
+	nučický	Nučice	CHANGE: ce --> cký
+	obděnický	Obděnice	CHANGE: ce --> cký
+	obecnický	Obecnice	CHANGE: ce --> cký
+	oblekovický	Oblekovice	CHANGE: ce --> cký
+	ohrazenický	Ohrazenice	CHANGE: ce --> cký
+	okrouhlický	okrouhlice	CHANGE: ce --> cký
+	olbramický	Olbramice	CHANGE: ce --> cký
+	olbramovický	Olbramovice	CHANGE: ce --> cký
+	olešnický	Olešnice	CHANGE: ce --> cký
+	olovnický	olovnice	CHANGE: ce --> cký
+	omický	Omice	CHANGE: ce --> cký
+	omlenický	Omlenice	CHANGE: ce --> cký
+	ondřejovický	Ondřejovice	CHANGE: ce --> cký
+	opatovický	Opatovice	CHANGE: ce --> cký
+	opočnický	Opočnice	CHANGE: ce --> cký
+	orlický	orlice	CHANGE: ce --> cký
+	osický	Osice	CHANGE: ce --> cký
+	ostravický	Ostravice	CHANGE: ce --> cký
+	otaslavický	Otaslavice	CHANGE: ce --> cký
+	otický	Otice	CHANGE: ce --> cký
+	otradovický	Otradovice	CHANGE: ce --> cký
+	otrokovický	Otrokovice	CHANGE: ce --> cký
+	otvický	Otvice	CHANGE: ce --> cký
+	otvovický	Otvovice	CHANGE: ce --> cký
+	ouběnický	Ouběnice	CHANGE: ce --> cký
+	ozdobnický	ozdobnice	CHANGE: ce --> cký
+	paběnický	Paběnice	CHANGE: ce --> cký
+	paceřický	Paceřice	CHANGE: ce --> cký
+	palkovický	Palkovice	CHANGE: ce --> cký
+	parazitický	parazitice	CHANGE: ce --> cký
+	pardubický	Pardubice	CHANGE: ce --> cký
+	pasečnický	Pasečnice	CHANGE: ce --> cký
+	patický	patice	CHANGE: ce --> cký
+	pavlovický	Pavlovice	CHANGE: ce --> cký
+	pepický	pepice	CHANGE: ce --> cký
+	pertoltický	Pertoltice	CHANGE: ce --> cký
+	petříkovický	Petříkovice	CHANGE: ce --> cký
+	petřkovický	Petřkovice	CHANGE: ce --> cký
+	pilnický	pilnice	CHANGE: ce --> cký
+	písnický	Písnice	CHANGE: ce --> cký
+	pitkovický	Pitkovice	CHANGE: ce --> cký
+	plačický	Plačice	CHANGE: ce --> cký
+	plánický	Plánice	CHANGE: ce --> cký
+	plitvický	Plitvice	CHANGE: ce --> cký
+	pňovický	Pňovice	CHANGE: ce --> cký
+	poběžovický	Poběžovice	CHANGE: ce --> cký
+	pocinovický	Pocinovice	CHANGE: ce --> cký
+	počenický	Počenice	CHANGE: ce --> cký
+	počepický	Počepice	CHANGE: ce --> cký
+	počeplický	Počeplice	CHANGE: ce --> cký
+	počernický	Počernice	CHANGE: ce --> cký
+	podlažický	Podlažice	CHANGE: ce --> cký
+	podmoklický	Podmoklice	CHANGE: ce --> cký
+	podrážnický	Podrážnice	CHANGE: ce --> cký
+	podsedický	Podsedice	CHANGE: ce --> cký
+	pohodnický	pohodnice	CHANGE: ce --> cký
+	pohořelický	Pohořelice	CHANGE: ce --> cký
+	pokladnický	pokladnice	CHANGE: ce --> cký
+	pokratický	Pokratice	CHANGE: ce --> cký
+	polešovický	Polešovice	CHANGE: ce --> cký
+	polický	police	CHANGE: ce --> cký
+	popický	Popice	CHANGE: ce --> cký
+	popkovický	Popkovice	CHANGE: ce --> cký
+	popovický	Popovice	CHANGE: ce --> cký
+	pozlovický	Pozlovice	CHANGE: ce --> cký
+	pozořický	Pozořice	CHANGE: ce --> cký
+	prčický	Prčice	CHANGE: ce --> cký
+	prosenický	Prosenice	CHANGE: ce --> cký
+	prosetický	Prosetice	CHANGE: ce --> cký
+	prosiměřický	Prosiměřice	CHANGE: ce --> cký
+	proskovický	Proskovice	CHANGE: ce --> cký
+	prštický	Prštice	CHANGE: ce --> cký
+	průhonický	Průhonice	CHANGE: ce --> cký
+	prusinovický	Prusinovice	CHANGE: ce --> cký
+	přáslavický	Přáslavice	CHANGE: ce --> cký
+	předenický	Předenice	CHANGE: ce --> cký
+	předlický	Předlice	CHANGE: ce --> cký
+	předměřický	Předměřice	CHANGE: ce --> cký
+	přemyslovický	Přemyslovice	CHANGE: ce --> cký
+	přešovický	Přešovice	CHANGE: ce --> cký
+	přeštěnický	Přeštěnice	CHANGE: ce --> cký
+	přeštický	Přeštice	CHANGE: ce --> cký
+	přešťovický	Přešťovice	CHANGE: ce --> cký
+	přezletický	Přezletice	CHANGE: ce --> cký
+	příběnický	Příběnice	CHANGE: ce --> cký
+	přibický	Přibice	CHANGE: ce --> cký
+	přibyslavický	Přibyslavice	CHANGE: ce --> cký
+	přibyšický	Přibyšice	CHANGE: ce --> cký
+	příchovický	Příchovice	CHANGE: ce --> cký
+	příkosický	Příkosice	CHANGE: ce --> cký
+	přímětický	Přímětice	CHANGE: ce --> cký
+	přísečnický	Přísečnice	CHANGE: ce --> cký
+	příšovický	Příšovice	CHANGE: ce --> cký
+	příživnický	příživnice	CHANGE: ce --> cký
+	pšenický	pšenice	CHANGE: ce --> cký
+	puclický	Puclice	CHANGE: ce --> cký
+	puklický	puklice	CHANGE: ce --> cký
+	pulický	Pulice	CHANGE: ce --> cký
+	račerovický	Račerovice	CHANGE: ce --> cký
+	račický	račice	CHANGE: ce --> cký
+	radčický	Radčice	CHANGE: ce --> cký
+	radešovický	Radešovice	CHANGE: ce --> cký
+	radimovický	Radimovice	CHANGE: ce --> cký
+	radkovický	Radkovice	CHANGE: ce --> cký
+	radlický	radlice	CHANGE: ce --> cký
+	radnický	radnice	CHANGE: ce --> cký
+	radňovický	Radňovice	CHANGE: ce --> cký
+	radobyčický	Radobyčice	CHANGE: ce --> cký
+	radonický	Radonice	CHANGE: ce --> cký
+	radošovický	Radošovice	CHANGE: ce --> cký
+	radovesický	Radovesice	CHANGE: ce --> cký
+	radvanický	Radvanice	CHANGE: ce --> cký
+	radvánovický	Radvánovice	CHANGE: ce --> cký
+	rajnochovický	Rajnochovice	CHANGE: ce --> cký
+	rakvický	Rakvice	CHANGE: ce --> cký
+	rapotický	Rapotice	CHANGE: ce --> cký
+	raškovický	Raškovice	CHANGE: ce --> cký
+	rašovický	Rašovice	CHANGE: ce --> cký
+	ratibořický	Ratibořice	CHANGE: ce --> cký
+	ratíškovický	Ratíškovice	CHANGE: ce --> cký
+	ratměřický	Ratměřice	CHANGE: ce --> cký
+	ražický	Ražice	CHANGE: ce --> cký
+	rejdický	Rejdice	CHANGE: ce --> cký
+	rejšický	Rejšice	CHANGE: ce --> cký
+	rochlický	Rochlice	CHANGE: ce --> cký
+	ropický	Ropice	CHANGE: ce --> cký
+	rosický	Rosice	CHANGE: ce --> cký
+	rosnický	Rosnice	CHANGE: ce --> cký
+	roudnický	Roudnice	CHANGE: ce --> cký
+	rousovický	Rousovice	CHANGE: ce --> cký
+	rozhovický	Rozhovice	CHANGE: ce --> cký
+	rožďalovický	Rožďalovice	CHANGE: ce --> cký
+	rožťalovický	Rožťalovice	CHANGE: ce --> cký
+	rudický	Rudice	CHANGE: ce --> cký
+	rudolický	Rudolice	CHANGE: ce --> cký
+	rudoltický	Rudoltice	CHANGE: ce --> cký
+	ruprechtický	Ruprechtice	CHANGE: ce --> cký
+	rybnický	Rybnice	CHANGE: ce --> cký
+	ryjický	Ryjice	CHANGE: ce --> cký
+	rymický	Rymice	CHANGE: ce --> cký
+	rynoltický	Rynoltice	CHANGE: ce --> cký
+	rýnovický	Rýnovice	CHANGE: ce --> cký
+	řasnický	Řasnice	CHANGE: ce --> cký
+	řečický	Řečice	CHANGE: ce --> cký
+	řečkovický	Řečkovice	CHANGE: ce --> cký
+	ředický	Ředice	CHANGE: ce --> cký
+	řehlovický	Řehlovice	CHANGE: ce --> cký
+	řeholnický	řeholnice	CHANGE: ce --> cký
+	řepčický	Řepčice	CHANGE: ce --> cký
+	řepický	řepice	CHANGE: ce --> cký
+	řepnický	Řepnice	CHANGE: ce --> cký
+	řetenický	Řetenice	CHANGE: ce --> cký
+	řevnický	řevnice	CHANGE: ce --> cký
+	řeznovický	Řeznovice	CHANGE: ce --> cký
+	řícmanický	Řícmanice	CHANGE: ce --> cký
+	satalický	Satalice	CHANGE: ce --> cký
+	sebranický	Sebranice	CHANGE: ce --> cký
+	sedlický	Sedlice	CHANGE: ce --> cký
+	sedlnický	Sedlnice	CHANGE: ce --> cký
+	semčický	Semčice	CHANGE: ce --> cký
+	semechnický	Semechnice	CHANGE: ce --> cký
+	semněvický	Semněvice	CHANGE: ce --> cký
+	semonický	Semonice	CHANGE: ce --> cký
+	sendražický	Sendražice	CHANGE: ce --> cký
+	senický	Senice	CHANGE: ce --> cký
+	setnický	setnice	CHANGE: ce --> cký
+	sezemický	Sezemice	CHANGE: ce --> cký
+	silický	silice	CHANGE: ce --> cký
+	skalický	skalice	CHANGE: ce --> cký
+	sklenařický	Sklenařice	CHANGE: ce --> cký
+	slabčický	Slabčice	CHANGE: ce --> cký
+	slatinický	Slatinice	CHANGE: ce --> cký
+	slavonický	Slavonice	CHANGE: ce --> cký
+	slepotický	Slepotice	CHANGE: ce --> cký
+	slivický	Slivice	CHANGE: ce --> cký
+	sloupnický	Sloupnice	CHANGE: ce --> cký
+	slušovický	Slušovice	CHANGE: ce --> cký
+	sluštický	Sluštice	CHANGE: ce --> cký
+	smilnický	smilnice	CHANGE: ce --> cký
+	smiřický	Smiřice	CHANGE: ce --> cký
+	smolenický	Smolenice	CHANGE: ce --> cký
+	smolnický	smolnice	CHANGE: ce --> cký
+	smržický	Smržice	CHANGE: ce --> cký
+	sojovický	Sojovice	CHANGE: ce --> cký
+	solenický	Solenice	CHANGE: ce --> cký
+	solnický	solnice	CHANGE: ce --> cký
+	soudnický	soudnice	CHANGE: ce --> cký
+	soukenický	soukenice	CHANGE: ce --> cký
+	soukromnický	soukromnice	CHANGE: ce --> cký
+	speřický	Speřice	CHANGE: ce --> cký
+	spořický	Spořice	CHANGE: ce --> cký
+	srbický	Srbice	CHANGE: ce --> cký
+	stadický	Stadice	CHANGE: ce --> cký
+	staňkovický	Staňkovice	CHANGE: ce --> cký
+	stanovický	Stanovice	CHANGE: ce --> cký
+	stařický	stařice	CHANGE: ce --> cký
+	stěbořický	Stěbořice	CHANGE: ce --> cký
+	stojický	Stojice	CHANGE: ce --> cký
+	stolický	stolice	CHANGE: ce --> cký
+	stožický	Stožice	CHANGE: ce --> cký
+	strahovický	Strahovice	CHANGE: ce --> cký
+	strakonický	Strakonice	CHANGE: ce --> cký
+	stránčický	Stránčice	CHANGE: ce --> cký
+	strašický	Strašice	CHANGE: ce --> cký
+	strašnický	Strašnice	CHANGE: ce --> cký
+	strážkovický	Strážkovice	CHANGE: ce --> cký
+	strojetický	Strojetice	CHANGE: ce --> cký
+	stromkovický	Stromkovice	CHANGE: ce --> cký
+	stropnický	stropnice	CHANGE: ce --> cký
+	strunkovický	Strunkovice	CHANGE: ce --> cký
+	strupčický	Strupčice	CHANGE: ce --> cký
+	stružnický	Stružnice	CHANGE: ce --> cký
+	strýčkovický	Strýčkovice	CHANGE: ce --> cký
+	střelický	Střelice	CHANGE: ce --> cký
+	střešovický	Střešovice	CHANGE: ce --> cký
+	střížovický	Střížovice	CHANGE: ce --> cký
+	studnický	studnice	CHANGE: ce --> cký
+	sudický	sudice	CHANGE: ce --> cký
+	sudslavický	Sudslavice	CHANGE: ce --> cký
+	supíkovický	Supíkovice	CHANGE: ce --> cký
+	sušický	Sušice	CHANGE: ce --> cký
+	svibický	Svibice	CHANGE: ce --> cký
+	svidnický	Svidnice	CHANGE: ce --> cký
+	svídnický	Svídnice	CHANGE: ce --> cký
+	svojkovický	Svojkovice	CHANGE: ce --> cký
+	svojšický	Svojšice	CHANGE: ce --> cký
+	sýkořický	Sýkořice	CHANGE: ce --> cký
+	šakvický	Šakvice	CHANGE: ce --> cký
+	šardický	Šardice	CHANGE: ce --> cký
+	šebkovický	Šebkovice	CHANGE: ce --> cký
+	šemánovický	Šemánovice	CHANGE: ce --> cký
+	šibenický	šibenice	CHANGE: ce --> cký
+	šilheřovický	Šilheřovice	CHANGE: ce --> cký
+	šitbořický	Šitbořice	CHANGE: ce --> cký
+	školnický	školnice	CHANGE: ce --> cký
+	škrdlovický	Škrdlovice	CHANGE: ce --> cký
+	šlapanický	Šlapanice	CHANGE: ce --> cký
+	šlechetnický	šlechetnice	CHANGE: ce --> cký
+	šlovický	Šlovice	CHANGE: ce --> cký
+	štáblovický	Štáblovice	CHANGE: ce --> cký
+	šťáhlavický	Šťáhlavice	CHANGE: ce --> cký
+	štěchovický	Štěchovice	CHANGE: ce --> cký
+	štěnovický	Štěnovice	CHANGE: ce --> cký
+	štěpanický	Štěpanice	CHANGE: ce --> cký
+	štěpánkovický	Štěpánkovice	CHANGE: ce --> cký
+	štěpánovický	Štěpánovice	CHANGE: ce --> cký
+	štrbický	Štrbice	CHANGE: ce --> cký
+	štvanický	štvanice	CHANGE: ce --> cký
+	šumický	Šumice	CHANGE: ce --> cký
+	švábenický	Švábenice	CHANGE: ce --> cký
+	tachlovický	Tachlovice	CHANGE: ce --> cký
+	targovický	Targovice	CHANGE: ce --> cký
+	tasický	Tasice	CHANGE: ce --> cký
+	tasovický	Tasovice	CHANGE: ce --> cký
+	tašovický	Tašovice	CHANGE: ce --> cký
+	tatenický	Tatenice	CHANGE: ce --> cký
+	tečovický	Tečovice	CHANGE: ce --> cký
+	těchlovický	Těchlovice	CHANGE: ce --> cký
+	těchobuzický	Těchobuzice	CHANGE: ce --> cký
+	telnický	Telnice	CHANGE: ce --> cký
+	temenický	Temenice	CHANGE: ce --> cký
+	teplický	teplice	CHANGE: ce --> cký
+	teplýšovický	Teplýšovice	CHANGE: ce --> cký
+	těšetický	Těšetice	CHANGE: ce --> cký
+	těšovický	Těšovice	CHANGE: ce --> cký
+	tišický	Tišice	CHANGE: ce --> cký
+	tlustický	tlustice	CHANGE: ce --> cký
+	točnický	točnice	CHANGE: ce --> cký
+	tochovický	Tochovice	CHANGE: ce --> cký
+	továrnický	továrnice	CHANGE: ce --> cký
+	traplický	Traplice	CHANGE: ce --> cký
+	travčický	Travčice	CHANGE: ce --> cký
+	trmický	Trmice	CHANGE: ce --> cký
+	trojanovický	Trojanovice	CHANGE: ce --> cký
+	trojický	trojice	CHANGE: ce --> cký
+	troubelický	Troubelice	CHANGE: ce --> cký
+	trstenický	Trstenice	CHANGE: ce --> cký
+	trstěnický	Trstěnice	CHANGE: ce --> cký
+	tršický	Tršice	CHANGE: ce --> cký
+	třanovický	Třanovice	CHANGE: ce --> cký
+	třebechovický	Třebechovice	CHANGE: ce --> cký
+	třebenický	Třebenice	CHANGE: ce --> cký
+	třebětický	Třebětice	CHANGE: ce --> cký
+	třebichovický	Třebichovice	CHANGE: ce --> cký
+	třebívlický	Třebívlice	CHANGE: ce --> cký
+	třebnický	Třebnice	CHANGE: ce --> cký
+	třebohostický	Třebohostice	CHANGE: ce --> cký
+	třeboradický	Třeboradice	CHANGE: ce --> cký
+	třebosický	Třebosice	CHANGE: ce --> cký
+	třebovický	Třebovice	CHANGE: ce --> cký
+	třebusický	Třebusice	CHANGE: ce --> cký
+	třebušický	Třebušice	CHANGE: ce --> cký
+	třemošnický	Třemošnice	CHANGE: ce --> cký
+	třídnický	třídnice	CHANGE: ce --> cký
+	tuhnický	Tuhnice	CHANGE: ce --> cký
+	tuchlovický	Tuchlovice	CHANGE: ce --> cký
+	tuchoměřický	Tuchoměřice	CHANGE: ce --> cký
+	tuchořický	Tuchořice	CHANGE: ce --> cký
+	tušimický	Tušimice	CHANGE: ce --> cký
+	tvorovický	Tvorovice	CHANGE: ce --> cký
+	týnický	Týnice	CHANGE: ce --> cký
+	účetnický	účetnice	CHANGE: ce --> cký
+	údernický	údernice	CHANGE: ce --> cký
+	údlický	Údlice	CHANGE: ce --> cký
+	údrnický	Údrnice	CHANGE: ce --> cký
+	uherčický	Uherčice	CHANGE: ce --> cký
+	úhřetický	Úhřetice	CHANGE: ce --> cký
+	uhřický	Uhřice	CHANGE: ce --> cký
+	uhřičický	Uhřičice	CHANGE: ce --> cký
+	ulický	ulice	CHANGE: ce --> cký
+	uličnický	uličnice	CHANGE: ce --> cký
+	unčovický	Unčovice	CHANGE: ce --> cký
+	unětický	Unětice	CHANGE: ce --> cký
+	únětický	Únětice	CHANGE: ce --> cký
+	úpický	Úpice	CHANGE: ce --> cký
+	určický	Určice	CHANGE: ce --> cký
+	urputnický	urputnice	CHANGE: ce --> cký
+	úřadnický	úřadnice	CHANGE: ce --> cký
+	užický	Užice	CHANGE: ce --> cký
+	vacenovický	Vacenovice	CHANGE: ce --> cký
+	václavický	Václavice	CHANGE: ce --> cký
+	valčický	Valčice	CHANGE: ce --> cký
+	valdický	Valdice	CHANGE: ce --> cký
+	valkeřický	Valkeřice	CHANGE: ce --> cký
+	valteřický	Valteřice	CHANGE: ce --> cký
+	valtický	Valtice	CHANGE: ce --> cký
+	vanovický	Vanovice	CHANGE: ce --> cký
+	vávrovický	Vávrovice	CHANGE: ce --> cký
+	vědomický	Vědomice	CHANGE: ce --> cký
+	vehlovický	Vehlovice	CHANGE: ce --> cký
+	vejměnický	vejměnice	CHANGE: ce --> cký
+	vejprnický	Vejprnice	CHANGE: ce --> cký
+	verměřovický	Verměřovice	CHANGE: ce --> cký
+	verneřický	Verneřice	CHANGE: ce --> cký
+	vernéřovický	Vernéřovice	CHANGE: ce --> cký
+	veřovický	Veřovice	CHANGE: ce --> cký
+	vesnický	vesnice	CHANGE: ce --> cký
+	věstonický	Věstonice	CHANGE: ce --> cký
+	větřkovický	Větřkovice	CHANGE: ce --> cký
+	věznický	věznice	CHANGE: ce --> cký
+	vchynický	Vchynice	CHANGE: ce --> cký
+	vigantický	Vigantice	CHANGE: ce --> cký
+	vikýřovický	Vikýřovice	CHANGE: ce --> cký
+	vilémovický	Vilémovice	CHANGE: ce --> cký
+	vilnický	vilnice	CHANGE: ce --> cký
+	vinárnický	vinárnice	CHANGE: ce --> cký
+	vinařický	Vinařice	CHANGE: ce --> cký
+	vinický	vinice	CHANGE: ce --> cký
+	vitějovický	Vitějovice	CHANGE: ce --> cký
+	vitický	Vitice	CHANGE: ce --> cký
+	vítkovický	Vítkovice	CHANGE: ce --> cký
+	vítovický	Vítovice	CHANGE: ce --> cký
+	vizovický	Vizovice	CHANGE: ce --> cký
+	vlachovický	Vlachovice	CHANGE: ce --> cký
+	vlásenický	Vlásenice	CHANGE: ce --> cký
+	vlčovický	Vlčovice	CHANGE: ce --> cký
+	vlkovický	Vlkovice	CHANGE: ce --> cký
+	vltavický	Vltavice	CHANGE: ce --> cký
+	vodnický	vodnice	CHANGE: ce --> cký
+	vohančický	Vohančice	CHANGE: ce --> cký
+	vojkovický	Vojkovice	CHANGE: ce --> cký
+	vojnický	vojnice	CHANGE: ce --> cký
+	vokovický	Vokovice	CHANGE: ce --> cký
+	volfartický	Volfartice	CHANGE: ce --> cký
+	votický	Votice	CHANGE: ce --> cký
+	voznický	voznice	CHANGE: ce --> cký
+	vožický	Vožice	CHANGE: ce --> cký
+	vrahovický	Vrahovice	CHANGE: ce --> cký
+	vranovický	Vranovice	CHANGE: ce --> cký
+	vrapický	Vrapice	CHANGE: ce --> cký
+	vratislavický	Vratislavice	CHANGE: ce --> cký
+	vrátnický	vrátnice	CHANGE: ce --> cký
+	vrbětický	Vrbětice	CHANGE: ce --> cký
+	vrbický	vrbice	CHANGE: ce --> cký
+	vrchnický	vrchnice	CHANGE: ce --> cký
+	vrkoslavický	Vrkoslavice	CHANGE: ce --> cký
+	vršovický	Vršovice	CHANGE: ce --> cký
+	vrutický	Vrutice	CHANGE: ce --> cký
+	vřeskovický	Vřeskovice	CHANGE: ce --> cký
+	vřesovický	Vřesovice	CHANGE: ce --> cký
+	výčepnický	výčepnice	CHANGE: ce --> cký
+	výměnický	výměnice	CHANGE: ce --> cký
+	výprachtický	Výprachtice	CHANGE: ce --> cký
+	výrovický	Výrovice	CHANGE: ce --> cký
+	výškovický	Výškovice	CHANGE: ce --> cký
+	výšovický	Výšovice	CHANGE: ce --> cký
+	vzpurnický	vzpurnice	CHANGE: ce --> cký
+	wadowický	Wadowice	CHANGE: ce --> cký
+	záběhlický	Záběhlice	CHANGE: ce --> cký
+	zábrdovický	Zábrdovice	CHANGE: ce --> cký
+	zádveřický	Zádveřice	CHANGE: ce --> cký
+	záhlinický	Záhlinice	CHANGE: ce --> cký
+	zaječický	zaječice	CHANGE: ce --> cký
+	zákonický	zákonice	CHANGE: ce --> cký
+	zálezlický	Zálezlice	CHANGE: ce --> cký
+	závišický	Závišice	CHANGE: ce --> cký
+	zborovický	Zborovice	CHANGE: ce --> cký
+	zbraslavický	Zbraslavice	CHANGE: ce --> cký
+	zdechovický	Zdechovice	CHANGE: ce --> cký
+	zdemyslický	Zdemyslice	CHANGE: ce --> cký
+	zdický	Zdice	CHANGE: ce --> cký
+	zdiměřický	Zdiměřice	CHANGE: ce --> cký
+	zdislavický	Zdislavice	CHANGE: ce --> cký
+	zdobnický	Zdobnice	CHANGE: ce --> cký
+	zechovický	Zechovice	CHANGE: ce --> cký
+	zlenický	Zlenice	CHANGE: ce --> cký
+	zlický	zlice	CHANGE: ce --> cký
+	zpustlický	zpustlice	CHANGE: ce --> cký
+	zubčický	Zubčice	CHANGE: ce --> cký
+	zubrnický	Zubrnice	CHANGE: ce --> cký
+	zvířetický	Zvířetice	CHANGE: ce --> cký
+	zvonický	zvonice	CHANGE: ce --> cký
+	žalářnický	žalářnice	CHANGE: ce --> cký
+	žalhostický	Žalhostice	CHANGE: ce --> cký
+	žalkovický	Žalkovice	CHANGE: ce --> cký
+	žarošický	Žarošice	CHANGE: ce --> cký
+	ždánický	Ždánice	CHANGE: ce --> cký
+	žehrovický	Žehrovice	CHANGE: ce --> cký
+	žehušický	Žehušice	CHANGE: ce --> cký
+	želatovický	Želatovice	CHANGE: ce --> cký
+	želechovický	Želechovice	CHANGE: ce --> cký
+	želenický	Želenice	CHANGE: ce --> cký
+	želešický	Želešice	CHANGE: ce --> cký
+	želetický	Želetice	CHANGE: ce --> cký
+	želkovický	Želkovice	CHANGE: ce --> cký
+	žeravický	Žeravice	CHANGE: ce --> cký
+	žerčický	Žerčice	CHANGE: ce --> cký
+	žermanický	Žermanice	CHANGE: ce --> cký
+	žežický	Žežice	CHANGE: ce --> cký
+	židenický	Židenice	CHANGE: ce --> cký
+	židlochovický	Židlochovice	CHANGE: ce --> cký
+	židovický	židovice	CHANGE: ce --> cký
+	žichlický	Žichlice	CHANGE: ce --> cký
+	žichovický	Žichovice	CHANGE: ce --> cký
+	žimrovický	Žimrovice	CHANGE: ce --> cký
+	žirovnický	Žirovnice	CHANGE: ce --> cký
+	žitenický	Žitenice	CHANGE: ce --> cký
+	živanický	Živanice	CHANGE: ce --> cký
+	živnostnický	živnostnice	CHANGE: ce --> cký
+	žiželický	Žiželice	CHANGE: ce --> cký
+	žižický	Žižice	CHANGE: ce --> cký
+	žlutický	žlutice	CHANGE: ce --> cký
+	břidlický	břidlice	CHANGE: ce --> cký
+	dryjáčnický	dryjáčnice	CHANGE: ce --> cký
+	hořčický	hořčice	CHANGE: ce --> cký
+	krupický	krupice	CHANGE: ce --> cký
+	křivický	křivice	CHANGE: ce --> cký
+	kukuřický	kukuřice	CHANGE: ce --> cký
+	kvasnický	kvasnice	CHANGE: ce --> cký
+	kýchavický	kýchavice	CHANGE: ce --> cký
+	mrtvický	mrtvice	CHANGE: ce --> cký
+	neštovický	neštovice	CHANGE: ce --> cký
+	pryskyřický	pryskyřice	CHANGE: ce --> cký
+	přeslický	přeslice	CHANGE: ce --> cký
+	příjický	příjice	CHANGE: ce --> cký
+	úbislavický	Úbislavice	CHANGE: ce --> cký
+	úplavický	úplavice	CHANGE: ce --> cký
+	ústřický	ústřice	CHANGE: ce --> cký
+	úšovický	Úšovice	CHANGE: ce --> cký
+	vichřický	vichřice	CHANGE: ce --> cký
+	zimnický	zimnice	CHANGE: ce --> cký
+	živický	živice	CHANGE: ce --> cký
+	čacký	Čad	CHANGE: d --> cký
+	nukleotický	nukleotid	CHANGE: d --> cký
+	ochrický	Ochrid	CHANGE: d --> cký
+	peptický	peptid	CHANGE: d --> cký
+	sulfický	sulfid	CHANGE: d --> cký
+	slucký	Slug	CHANGE: g --> cký
+	diosecký	Dioseg	CHANGE: g --> cký
+	algický	Algida	CHANGE: ida --> ický
+	antarktický	Antarktida	CHANGE: ida --> ický
+	arktický	arktida	CHANGE: ida --> ický
+	artritický	artritida	CHANGE: ida --> ický
+	botritický	botritida	CHANGE: ida --> ický
+	botrytický	botrytida	CHANGE: ida --> ický
+	encefalitický	encefalitida	CHANGE: ida --> ický
+	rachitický	rachitida	CHANGE: ida --> ický
+	subarktický	subarktida	CHANGE: ida --> ický
+	bariatrický	bariatrie	CHANGE: ie --> ický
+	gordický	Gordie	CHANGE: ie --> ický
+	laramický	Laramie	CHANGE: ie --> ický
+	mafický	mafie	CHANGE: ie --> ický
+	proterandrický	proterandrie	CHANGE: ie --> ický
+	pýthický	Pýthie	CHANGE: ie --> ický
+	alogický	alogismus	CHANGE: ismus --> ický
+	anachronický	anachronismus	CHANGE: ismus --> ický
+	antagonický	antagonismus	CHANGE: ismus --> ický
+	astigmatický	astigmatismus	CHANGE: ismus --> ický
+	atavický	atavismus	CHANGE: ismus --> ický
+	bioorganický	bioorganismus	CHANGE: ismus --> ický
+	heliocentrický	heliocentrismus	CHANGE: ismus --> ický
+	schematický	schematismus	CHANGE: ismus --> ický
+	synkretický	synkretismus	CHANGE: ismus --> ický
+	zélotický	zélotismus	CHANGE: ismus --> ický
+	aforistický	aforismus	CHANGE: ismus --> istický
+	alarmistický	alarmismus	CHANGE: ismus --> istický
+	archaistický	archaismus	CHANGE: ismus --> istický
+	atavistický	atavismus	CHANGE: ismus --> istický
+	atomistický	atomismus	CHANGE: ismus --> istický
+	avanturistický	avanturismus	CHANGE: ismus --> istický
+	blairistický	blairismus	CHANGE: ismus --> istický
+	deistický	deismus	CHANGE: ismus --> istický
+	dirigistický	dirigismus	CHANGE: ismus --> istický
+	džihadistický	džihadismus	CHANGE: ismus --> istický
+	džihádistický	džihádismus	CHANGE: ismus --> istický
+	džinistický	džinismus	CHANGE: ismus --> istický
+	ekologistický	ekologismus	CHANGE: ismus --> istický
+	empiristický	empirismus	CHANGE: ismus --> istický
+	etatistický	etatismus	CHANGE: ismus --> istický
+	eufemistický	eufemismus	CHANGE: ismus --> istický
+	feudalistický	feudalismus	CHANGE: ismus --> istický
+	frankistický	frankismus	CHANGE: ismus --> istický
+	globalistický	globalismus	CHANGE: ismus --> istický
+	havlistický	havlismus	CHANGE: ismus --> istický
+	hegemonistický	hegemonismus	CHANGE: ismus --> istický
+	iredentistický	iredentismus	CHANGE: ismus --> istický
+	kanibalistický	kanibalismus	CHANGE: ismus --> istický
+	klasicistický	klasicismus	CHANGE: ismus --> istický
+	mesianistický	mesianismus	CHANGE: ismus --> istický
+	nanistický	nanismus	CHANGE: ismus --> istický
+	naturistický	naturismus	CHANGE: ismus --> istický
+	organistický	organismus	CHANGE: ismus --> istický
+	parašutistický	parašutismus	CHANGE: ismus --> istický
+	poetistický	poetismus	CHANGE: ismus --> istický
+	recesistický	recesismus	CHANGE: ismus --> istický
+	snobistický	snobismus	CHANGE: ismus --> istický
+	solidaristický	solidarismus	CHANGE: ismus --> istický
+	synkretistický	synkretismus	CHANGE: ismus --> istický
+	šamanistický	šamanismus	CHANGE: ismus --> istický
+	šintoistický	šintoismus	CHANGE: ismus --> istický
+	teistický	teismus	CHANGE: ismus --> istický
+	totemistický	totemismus	CHANGE: ismus --> istický
+	unanimistický	unanimismus	CHANGE: ismus --> istický
+	utrakvistický	utrakvismus	CHANGE: ismus --> istický
+	verbalistický	verbalismus	CHANGE: ismus --> istický
+	veristický	verismus	CHANGE: ismus --> istický
+	vitalistický	vitalismus	CHANGE: ismus --> istický
+	wahhábistický	wahhábismus	CHANGE: ismus --> istický
+	akcesorický	akcesorium	CHANGE: ium --> ický
+	algonkický	algonkium	CHANGE: ium --> ický
+	delirický	delirium	CHANGE: ium --> ický
+	kambický	kambium	CHANGE: ium --> ický
+	kambrický	kambrium	CHANGE: ium --> ický
+	klimakterický	klimakterium	CHANGE: ium --> ický
+	lithický	lithium	CHANGE: ium --> ický
+	mezenterický	mezenterium	CHANGE: ium --> ický
+	prekambrický	prekambrium	CHANGE: ium --> ický
+	pythický	Pythium	CHANGE: ium --> ický
+	spodický	spodium	CHANGE: ium --> ický
+	ahistorický	ahistorizmus	CHANGE: izmus --> ický
+	achromatický	achromatizmus	CHANGE: izmus --> ický
+	arkadický	arkadizmus	CHANGE: izmus --> ický
+	bhaktický	bhaktizmus	CHANGE: izmus --> ický
+	biblický	biblizmus	CHANGE: izmus --> ický
+	biocentrický	biocentrizmus	CHANGE: izmus --> ický
+	biomagnetický	biomagnetizmus	CHANGE: izmus --> ický
+	diamagnetický	diamagnetizmus	CHANGE: izmus --> ický
+	etnocentrický	etnocentrizmus	CHANGE: izmus --> ický
+	eurocentrický	eurocentrizmus	CHANGE: izmus --> ický
+	feromagnetický	feromagnetizmus	CHANGE: izmus --> ický
+	galvanický	galvanizmus	CHANGE: izmus --> ický
+	geocentrický	geocentrizmus	CHANGE: izmus --> ický
+	geomagnetický	geomagnetizmus	CHANGE: izmus --> ický
+	geotropický	geotropizmus	CHANGE: izmus --> ický
+	homoerotický	homoerotizmus	CHANGE: izmus --> ický
+	katabolický	katabolizmus	CHANGE: izmus --> ický
+	mimetický	mimetizmus	CHANGE: izmus --> ický
+	paramagnetický	paramagnetizmus	CHANGE: izmus --> ický
+	teocentrický	teocentrizmus	CHANGE: izmus --> ický
+	akméistický	akméizmus	CHANGE: izmus --> istický
+	anexionistický	anexionizmus	CHANGE: izmus --> istický
+	aprioristický	apriorizmus	CHANGE: izmus --> istický
+	autonomistický	autonomizmus	CHANGE: izmus --> istický
+	averroistický	averroizmus	CHANGE: izmus --> istický
+	bahaistický	bahaizmus	CHANGE: izmus --> istický
+	bilingvistický	bilingvizmus	CHANGE: izmus --> istický
+	brutalistický	brutalizmus	CHANGE: izmus --> istický
+	děkabristický	děkabrizmus	CHANGE: izmus --> istický
+	donatistický	donatizmus	CHANGE: izmus --> istický
+	elitistický	elitizmus	CHANGE: izmus --> istický
+	euphuistický	euphuizmus	CHANGE: izmus --> istický
+	evropeistický	evropeizmus	CHANGE: izmus --> istický
+	fauvistický	fauvizmus	CHANGE: izmus --> istický
+	freudistický	freudizmus	CHANGE: izmus --> istický
+	fyzikalistický	fyzikalizmus	CHANGE: izmus --> istický
+	gestaltistický	gestaltizmus	CHANGE: izmus --> istický
+	gradualistický	gradualizmus	CHANGE: izmus --> istický
+	helenistický	helenizmus	CHANGE: izmus --> istický
+	hlasistický	hlasizmus	CHANGE: izmus --> istický
+	holistický	holizmus	CHANGE: izmus --> istický
+	hýlozoistický	hýlozoizmus	CHANGE: izmus --> istický
+	imagistický	imagizmus	CHANGE: izmus --> istický
+	jansenistický	jansenizmus	CHANGE: izmus --> istický
+	klubistický	klubizmus	CHANGE: izmus --> istický
+	kreolistický	kreolizmus	CHANGE: izmus --> istický
+	lamaistický	lamaizmus	CHANGE: izmus --> istický
+	lamarckistický	lamarckizmus	CHANGE: izmus --> istický
+	legitimistický	legitimizmus	CHANGE: izmus --> istický
+	letristický	letrizmus	CHANGE: izmus --> istický
+	lettristický	lettrizmus	CHANGE: izmus --> istický
+	mahdistický	mahdizmus	CHANGE: izmus --> istický
+	machistický	machizmus	CHANGE: izmus --> istický
+	manicheistický	manicheizmus	CHANGE: izmus --> istický
+	mašinistický	mašinizmus	CHANGE: izmus --> istický
+	mazdaistický	mazdaizmus	CHANGE: izmus --> istický
+	metodistický	metodizmus	CHANGE: izmus --> istický
+	mithraistický	mithraizmus	CHANGE: izmus --> istický
+	mutistický	mutizmus	CHANGE: izmus --> istický
+	mutualistický	mutualizmus	CHANGE: izmus --> istický
+	nadrealistický	nadrealizmus	CHANGE: izmus --> istický
+	naivistický	naivizmus	CHANGE: izmus --> istický
+	neptunistický	neptunizmus	CHANGE: izmus --> istický
+	neutralistický	neutralizmus	CHANGE: izmus --> istický
+	orfistický	orfizmus	CHANGE: izmus --> istický
+	organicistický	organicizmus	CHANGE: izmus --> istický
+	parnasistický	parnasizmus	CHANGE: izmus --> istický
+	pietistický	pietizmus	CHANGE: izmus --> istický
+	plenéristický	plenérizmus	CHANGE: izmus --> istický
+	plutonistický	plutonizmus	CHANGE: izmus --> istický
+	pointilistický	pointilizmus	CHANGE: izmus --> istický
+	preformistický	preformizmus	CHANGE: izmus --> istický
+	radikalistický	radikalizmus	CHANGE: izmus --> istický
+	rayonistický	rayonizmus	CHANGE: izmus --> istický
+	reistický	reizmus	CHANGE: izmus --> istický
+	ritualistický	ritualizmus	CHANGE: izmus --> istický
+	roajalistický	roajalizmus	CHANGE: izmus --> istický
+	ruralistický	ruralizmus	CHANGE: izmus --> istický
+	scientistický	scientizmus	CHANGE: izmus --> istický
+	senzualistický	senzualizmus	CHANGE: izmus --> istický
+	socrealistický	socrealizmus	CHANGE: izmus --> istický
+	šivaistický	šivaizmus	CHANGE: izmus --> istický
+	talmudistický	talmudizmus	CHANGE: izmus --> istický
+	tašistický	tašizmus	CHANGE: izmus --> istický
+	tayloristický	taylorizmus	CHANGE: izmus --> istický
+	technicistický	technicizmus	CHANGE: izmus --> istický
+	titoistický	titoizmus	CHANGE: izmus --> istický
+	tomistický	tomizmus	CHANGE: izmus --> istický
+	trialistický	trializmus	CHANGE: izmus --> istický
+	tribalistický	tribalizmus	CHANGE: izmus --> istický
+	višnuistický	višnuizmus	CHANGE: izmus --> istický
+	zenistický	zenizmus	CHANGE: izmus --> istický
+	agnostický	agnostik	CHANGE: k --> cký
+	alkoholický	alkoholik	CHANGE: k --> cký
+	anorektický	anorektik	CHANGE: k --> cký
+	apoplektický	apoplektik	CHANGE: k --> cký
+	aravacký	Aravak	CHANGE: k --> cký
+	astmatický	astmatik	CHANGE: k --> cký
+	atlantický	atlantik	CHANGE: k --> cký
+	automechanický	automechanik	CHANGE: k --> cký
+	aztécký	Azték	CHANGE: k --> cký
+	baleťácký	baleťák	CHANGE: k --> cký
+	bangkocký	Bangkok	CHANGE: k --> cký
+	bašecký	Bašek	CHANGE: k --> cký
+	batacký	Batak	CHANGE: k --> cký
+	baťovácký	baťovák	CHANGE: k --> cký
+	bavorácký	bavorák	CHANGE: k --> cký
+	benecký	Benek	CHANGE: k --> cký
+	bezpečácký	bezpečák	CHANGE: k --> cký
+	bioanalytický	bioanalytik	CHANGE: k --> cký
+	biškecký	Biškek	CHANGE: k --> cký
+	blaťácký	blaťák	CHANGE: k --> cký
+	blešácký	blešák	CHANGE: k --> cký
+	bohemácký	bohemák	CHANGE: k --> cký
+	bonzácký	bonzák	CHANGE: k --> cký
+	borohrádecký	Borohrádek	CHANGE: k --> cký
+	bosácký	bosák	CHANGE: k --> cký
+	brůdecký	Brůdek	CHANGE: k --> cký
+	brunšvický	Brunšvik	CHANGE: k --> cký
+	břestecký	Břestek	CHANGE: k --> cký
+	bukolický	bukolik	CHANGE: k --> cký
+	buršácký	buršák	CHANGE: k --> cký
+	buzulucký	Buzuluk	CHANGE: k --> cký
+	cifrácký	cifrák	CHANGE: k --> cký
+	časopisecký	časopisek	CHANGE: k --> cký
+	činžácký	činžák	CHANGE: k --> cký
+	čuhácký	čuhák	CHANGE: k --> cký
+	dácký	Dák	CHANGE: k --> cký
+	diabetický	diabetik	CHANGE: k --> cký
+	doliňácký	doliňák	CHANGE: k --> cký
+	dolňácký	dolňák	CHANGE: k --> cký
+	domácký	domák	CHANGE: k --> cký
+	dryjácký	dryják	CHANGE: k --> cký
+	dřevácký	dřevák	CHANGE: k --> cký
+	duklácký	duklák	CHANGE: k --> cký
+	dvouprsťácký	dvouprsťák	CHANGE: k --> cký
+	dyslektický	dyslektik	CHANGE: k --> cký
+	egocentrický	egocentrik	CHANGE: k --> cký
+	eklektický	eklektik	CHANGE: k --> cký
+	elastický	elastik	CHANGE: k --> cký
+	epileptický	epileptik	CHANGE: k --> cký
+	erasmácký	erasmák	CHANGE: k --> cký
+	eskymácký	eskymák	CHANGE: k --> cký
+	euroskeptický	euroskeptik	CHANGE: k --> cký
+	evencký	Evenk	CHANGE: k --> cký
+	ezoterický	ezoterik	CHANGE: k --> cký
+	fajácký	Faják	CHANGE: k --> cký
+	famácký	famák	CHANGE: k --> cký
+	fanatický	fanatik	CHANGE: k --> cký
+	fašerácký	fašerák	CHANGE: k --> cký
+	fryštácký	Fryšták	CHANGE: k --> cký
+	fulnecký	Fulnek	CHANGE: k --> cký
+	fyzický	fyzik	CHANGE: k --> cký
+	gnomický	gnomik	CHANGE: k --> cký
+	gnostický	gnostik	CHANGE: k --> cký
+	gymplácký	gymplák	CHANGE: k --> cký
+	hádecký	hádek	CHANGE: k --> cký
+	hajducký	hajduk	CHANGE: k --> cký
+	hájecký	hájek	CHANGE: k --> cký
+	hanácký	Hanák	CHANGE: k --> cký
+	hédonický	hédonik	CHANGE: k --> cký
+	hektický	hektik	CHANGE: k --> cký
+	heretický	heretik	CHANGE: k --> cký
+	hloušecký	Hloušek	CHANGE: k --> cký
+	hlucký	hluk	CHANGE: k --> cký
+	horňácký	horňák	CHANGE: k --> cký
+	hrádecký	hrádek	CHANGE: k --> cký
+	humpolácký	humpolák	CHANGE: k --> cký
+	chaotický	chaotik	CHANGE: k --> cký
+	charismatický	charismatik	CHANGE: k --> cký
+	chloumecký	chloumek	CHANGE: k --> cký
+	chrámecký	chrámek	CHANGE: k --> cký
+	chrástecký	Chrástek	CHANGE: k --> cký
+	chronický	chronik	CHANGE: k --> cký
+	imunochemický	imunochemik	CHANGE: k --> cký
+	irácký	Irák	CHANGE: k --> cký
+	jatecký	Jatek	CHANGE: k --> cký
+	jinecký	Jinek	CHANGE: k --> cký
+	jonácký	jonák	CHANGE: k --> cký
+	kágébácký	kágébák	CHANGE: k --> cký
+	kalmycký	Kalmyk	CHANGE: k --> cký
+	kameňácký	kameňák	CHANGE: k --> cký
+	kanacký	Kanak	CHANGE: k --> cký
+	karakalpacký	Karakalpak	CHANGE: k --> cký
+	karlický	Karlik	CHANGE: k --> cký
+	karnacký	Karnak	CHANGE: k --> cký
+	kařízecký	Kařízek	CHANGE: k --> cký
+	kaspický	Kaspik	CHANGE: k --> cký
+	keltický	Keltik	CHANGE: k --> cký
+	kirkúcký	Kirkúk	CHANGE: k --> cký
+	klapzubácký	Klapzubák	CHANGE: k --> cký
+	kloboucký	klobouk	CHANGE: k --> cký
+	komický	komik	CHANGE: k --> cký
+	korjacký	Korjak	CHANGE: k --> cký
+	koutecký	koutek	CHANGE: k --> cký
+	královácký	Královák	CHANGE: k --> cký
+	křovácký	Křovák	CHANGE: k --> cký
+	kujebácký	Kujebák	CHANGE: k --> cký
+	kulišácký	kulišák	CHANGE: k --> cký
+	kumycký	Kumyk	CHANGE: k --> cký
+	kunžacký	Kunžak	CHANGE: k --> cký
+	květňácký	květňák	CHANGE: k --> cký
+	kynický	kynik	CHANGE: k --> cký
+	kypčacký	Kypčak	CHANGE: k --> cký
+	lacký	lak	CHANGE: k --> cký
+	lažánecký	Lažánek	CHANGE: k --> cký
+	lendacký	Lendak	CHANGE: k --> cký
+	lubecký	Lubek	CHANGE: k --> cký
+	luďácký	luďák	CHANGE: k --> cký
+	luetický	luetik	CHANGE: k --> cký
+	lunatický	lunatik	CHANGE: k --> cký
+	lundrácký	lundrák	CHANGE: k --> cký
+	majdanecký	Majdanek	CHANGE: k --> cký
+	mamlúcký	mamlúk	CHANGE: k --> cký
+	melcký	Melk	CHANGE: k --> cký
+	menševický	menševik	CHANGE: k --> cký
+	místecký	Místek	CHANGE: k --> cký
+	mixtécký	Mixték	CHANGE: k --> cký
+	mníšecký	mníšek	CHANGE: k --> cký
+	močický	Močik	CHANGE: k --> cký
+	mosambický	Mosambik	CHANGE: k --> cký
+	mostecký	mostek	CHANGE: k --> cký
+	mozambický	Mozambik	CHANGE: k --> cký
+	mudrácký	mudrák	CHANGE: k --> cký
+	mužácký	Mužák	CHANGE: k --> cký
+	mystický	mystik	CHANGE: k --> cký
+	narodnický	narodnik	CHANGE: k --> cký
+	nejdecký	Nejdek	CHANGE: k --> cký
+	norický	norik	CHANGE: k --> cký
+	novácký	Novák	CHANGE: k --> cký
+	nýdecký	Nýdek	CHANGE: k --> cký
+	olmécký	Olmék	CHANGE: k --> cký
+	ordovický	ordovik	CHANGE: k --> cký
+	orfický	orfik	CHANGE: k --> cký
+	organický	organik	CHANGE: k --> cký
+	osecký	Osek	CHANGE: k --> cký
+	osijecký	Osijek	CHANGE: k --> cký
+	pacifický	pacifik	CHANGE: k --> cký
+	packý	Pak	CHANGE: k --> cký
+	paralytický	paralytik	CHANGE: k --> cký
+	paranoický	paranoik	CHANGE: k --> cký
+	pasťácký	pasťák	CHANGE: k --> cký
+	pašácký	pašák	CHANGE: k --> cký
+	pátecký	pátek	CHANGE: k --> cký
+	peredvižnický	peredvižnik	CHANGE: k --> cký
+	pernecký	Pernek	CHANGE: k --> cký
+	pezinocký	Pezinok	CHANGE: k --> cký
+	písecký	písek	CHANGE: k --> cký
+	pístecký	pístek	CHANGE: k --> cký
+	plastický	plastik	CHANGE: k --> cký
+	platonický	platonik	CHANGE: k --> cký
+	počátecký	počátek	CHANGE: k --> cký
+	podhorácký	podhorák	CHANGE: k --> cký
+	pohřebácký	pohřebák	CHANGE: k --> cký
+	pouťácký	pouťák	CHANGE: k --> cký
+	prďácký	prďák	CHANGE: k --> cký
+	preromantický	preromantik	CHANGE: k --> cký
+	prozaický	prozaik	CHANGE: k --> cký
+	prušácký	Prušák	CHANGE: k --> cký
+	přadlácký	přadlák	CHANGE: k --> cký
+	psoriatický	psoriatik	CHANGE: k --> cký
+	pyknický	pyknik	CHANGE: k --> cký
+	quebecký	Quebek	CHANGE: k --> cký
+	rakušácký	Rakušák	CHANGE: k --> cký
+	reumatický	reumatik	CHANGE: k --> cký
+	ropácký	ropák	CHANGE: k --> cký
+	roztocký	roztok	CHANGE: k --> cký
+	rudnický	Rudnik	CHANGE: k --> cký
+	rusácký	rusák	CHANGE: k --> cký
+	řecký	Řek	CHANGE: k --> cký
+	sádecký	Sádek	CHANGE: k --> cký
+	sarkastický	sarkastik	CHANGE: k --> cký
+	satirický	satirik	CHANGE: k --> cký
+	seldžucký	Seldžuk	CHANGE: k --> cký
+	schizmatický	schizmatik	CHANGE: k --> cký
+	skeptický	skeptik	CHANGE: k --> cký
+	skřivánecký	skřivánek	CHANGE: k --> cký
+	slameňácký	Slameňák	CHANGE: k --> cký
+	slovácký	Slovák	CHANGE: k --> cký
+	somrácký	somrák	CHANGE: k --> cký
+	spastický	spastik	CHANGE: k --> cký
+	spilácký	spilák	CHANGE: k --> cký
+	správňácký	správňák	CHANGE: k --> cký
+	sterický	Sterik	CHANGE: k --> cký
+	strašecký	strašek	CHANGE: k --> cký
+	syfilitický	syfilitik	CHANGE: k --> cký
+	synoptický	synoptik	CHANGE: k --> cký
+	šárecký	Šárek	CHANGE: k --> cký
+	šeberácký	Šeberák	CHANGE: k --> cký
+	šerácký	Šerák	CHANGE: k --> cký
+	škrabácký	škrabák	CHANGE: k --> cký
+	šlampácký	šlampák	CHANGE: k --> cký
+	šlesvický	Šlesvik	CHANGE: k --> cký
+	šlonzácký	Šlonzák	CHANGE: k --> cký
+	špičácký	špičák	CHANGE: k --> cký
+	šťabácký	šťabák	CHANGE: k --> cký
+	štajerácký	štajerák	CHANGE: k --> cký
+	štítecký	štítek	CHANGE: k --> cký
+	štocký	štok	CHANGE: k --> cký
+	tádžický	Tádžik	CHANGE: k --> cký
+	teoretický	teoretik	CHANGE: k --> cký
+	tepličácký	Tepličák	CHANGE: k --> cký
+	thrácký	Thrák	CHANGE: k --> cký
+	tirácký	tirák	CHANGE: k --> cký
+	titanický	Titanik	CHANGE: k --> cký
+	tobrúcký	Tobrúk	CHANGE: k --> cký
+	toltécký	Tolték	CHANGE: k --> cký
+	tonický	tonik	CHANGE: k --> cký
+	trácký	trák	CHANGE: k --> cký
+	travnický	Travnik	CHANGE: k --> cký
+	tyrolácký	tyrolák	CHANGE: k --> cký
+	učitelácký	učitelák	CHANGE: k --> cký
+	uratický	uratik	CHANGE: k --> cký
+	urucký	Uruk	CHANGE: k --> cký
+	úštěcký	Úštěk	CHANGE: k --> cký
+	uzbecký	Uzbek	CHANGE: k --> cký
+	vasrpolácký	Vasrpolák	CHANGE: k --> cký
+	venerický	venerik	CHANGE: k --> cký
+	vladivostocký	Vladivostok	CHANGE: k --> cký
+	vlkodlacký	vlkodlak	CHANGE: k --> cký
+	volácký	volák	CHANGE: k --> cký
+	vroutecký	Vroutek	CHANGE: k --> cký
+	vsacký	vsak	CHANGE: k --> cký
+	vynálezecký	vynálezek	CHANGE: k --> cký
+	vzorňácký	vzorňák	CHANGE: k --> cký
+	workholický	workholik	CHANGE: k --> cký
+	zalesácký	zalesák	CHANGE: k --> cký
+	zapadnický	zapadnik	CHANGE: k --> cký
+	zářecký	zářek	CHANGE: k --> cký
+	žernosecký	žernosek	CHANGE: k --> cký
+	židobolševický	židobolševik	CHANGE: k --> cký
+	žižkovácký	Žižkovák	CHANGE: k --> cký
+	arzenický	arzenik	CHANGE: k --> cký
+	cvický	cvik	CHANGE: k --> cký
+	jézéďácký	jézéďák	CHANGE: k --> cký
+	ódéesácký	ódéesák	CHANGE: k --> cký
+	zálický	zálik	CHANGE: k --> cký
+	balzamický	balzamiko	CHANGE: ko --> cký
+	harcký	Harko	CHANGE: ko --> cký
+	hlubocký	hluboko	CHANGE: ko --> cký
+	lycký	Lyko	CHANGE: ko --> cký
+	marocký	Maroko	CHANGE: ko --> cký
+	mexický	Mexiko	CHANGE: ko --> cký
+	monacký	Monako	CHANGE: ko --> cký
+	orinocký	Orinoko	CHANGE: ko --> cký
+	portorický	portoriko	CHANGE: ko --> cký
+	vysocký	vysoko	CHANGE: ko --> cký
+	analgetický	analgetikum	CHANGE: kum --> cký
+	anestetický	anestetikum	CHANGE: kum --> cký
+	antipyretický	antipyretikum	CHANGE: kum --> cký
+	antitusický	antitusikum	CHANGE: kum --> cký
+	aromatický	aromatikum	CHANGE: kum --> cký
+	dielektrický	dielektrikum	CHANGE: kum --> cký
+	diuretický	diuretikum	CHANGE: kum --> cký
+	etnický	etnikum	CHANGE: kum --> cký
+	eutektický	eutektikum	CHANGE: kum --> cký
+	ferimagnetický	ferimagnetikum	CHANGE: kum --> cký
+	feroelektrický	feroelektrikum	CHANGE: kum --> cký
+	generický	generikum	CHANGE: kum --> cký
+	kenozoický	kenozoikum	CHANGE: kum --> cký
+	krystalinický	krystalinikum	CHANGE: kum --> cký
+	moldanubický	moldanubikum	CHANGE: kum --> cký
+	prebiotický	prebiotikum	CHANGE: kum --> cký
+	probiotický	probiotikum	CHANGE: kum --> cký
+	profylaktický	profylaktikum	CHANGE: kum --> cký
+	proterozoický	proterozoikum	CHANGE: kum --> cký
+	specifický	specifikum	CHANGE: kum --> cký
+	sympatolytický	sympatolytikum	CHANGE: kum --> cký
+	synsémantický	synsémantikum	CHANGE: kum --> cký
+	bílucký	Bíluky	CHANGE: ky --> cký
+	hulvácký	Hulváky	CHANGE: ky --> cký
+	klobucký	Klobuky	CHANGE: ky --> cký
+	loucký	Louky	CHANGE: ky --> cký
+	molucký	Moluky	CHANGE: ky --> cký
+	nasavrcký	Nasavrky	CHANGE: ky --> cký
+	nespecký	Nespeky	CHANGE: ky --> cký
+	přestavlcký	Přestavlky	CHANGE: ky --> cký
+	přílucký	Příluky	CHANGE: ky --> cký
+	přítlucký	Přítluky	CHANGE: ky --> cký
+	zásmucký	Zásmuky	CHANGE: ky --> cký
+	žabokrecký	Žabokreky	CHANGE: ky --> cký
+	aiolický	Aiolos	CHANGE: os --> ický
+	diofantický	Diofantos	CHANGE: os --> ický
+	emický	Emos	CHANGE: os --> ický
+	étický	étos	CHANGE: os --> ický
+	fatický	Fatos	CHANGE: os --> ický
+	filosofický	filosofos	CHANGE: os --> ický
+	histický	Histos	CHANGE: os --> ický
+	kosmický	kosmos	CHANGE: os --> ický
+	mélický	Mélos	CHANGE: os --> ický
+	abiotický	abióza	CHANGE: óza --> otický
+	amitotický	amitóza	CHANGE: óza --> otický
+	artrotický	artróza	CHANGE: óza --> otický
+	chlorotický	chloróza	CHANGE: óza --> otický
+	meiotický	meióza	CHANGE: óza --> otický
+	mitotický	mitóza	CHANGE: óza --> otický
+	nekrotický	nekróza	CHANGE: óza --> otický
+	osmotický	osmóza	CHANGE: óza --> otický
+	silikotický	silikóza	CHANGE: óza --> otický
+	symbiotický	symbióza	CHANGE: óza --> otický
+	bělecký	Bělsko	CHANGE: sko --> ecký
+	benátecký	benátsko	CHANGE: sko --> ecký
+	hlinecký	Hlinsko	CHANGE: sko --> ecký
+	kladecký	Kladsko	CHANGE: sko --> ecký
+	lhotecký	Lhotsko	CHANGE: sko --> ecký
+	lipenecký	Lipensko	CHANGE: sko --> ecký
+	selecký	selsko	CHANGE: sko --> ecký
+	šumperecký	Šumpersko	CHANGE: sko --> ecký
+	troubecký	Troubsko	CHANGE: sko --> ecký
+	algoritmický	algoritmus	CHANGE: us --> ický
+	bakchický	Bakchus	CHANGE: us --> ický
+	biorytmický	biorytmus	CHANGE: us --> ický
+	detritický	detritus	CHANGE: us --> ický
+	eolický	Eolus	CHANGE: us --> ický
+	falický	falus	CHANGE: us --> ický
+	heterocyklický	heterocyklus	CHANGE: us --> ický
+	hydrocefalický	hydrocefalus	CHANGE: us --> ický
+	hypotalamický	hypotalamus	CHANGE: us --> ický
+	istmický	istmus	CHANGE: us --> ický
+	kónický	kónus	CHANGE: us --> ický
+	logaritmický	logaritmus	CHANGE: us --> ický
+	mýtický	mýtus	CHANGE: us --> ický
+	temporytmický	temporytmus	CHANGE: us --> ický
+	theologický	Theologus	CHANGE: us --> ický
+	vertický	Vertus	CHANGE: us --> ický
+	doudlevecký	Doudlevce	CHANGE: vce --> vecký
+	gánovecký	Gánovce	CHANGE: vce --> vecký
+	mochovecký	Mochovce	CHANGE: vce --> vecký
+	zborovecký	Zborovce	CHANGE: vce --> vecký
+	fibrinolytický	fibrinolýza	CHANGE: ýza --> ytický
+	fotolytický	fotolýza	CHANGE: ýza --> ytický
+	hemolytický	hemolýza	CHANGE: ýza --> ytický
+	homolytický	homolýza	CHANGE: ýza --> ytický
+	hydrolytický	hydrolýza	CHANGE: ýza --> ytický
+	katalytický	katalýza	CHANGE: ýza --> ytický
+	proteolytický	proteolýza	CHANGE: ýza --> ytický
+	protolytický	protolýza	CHANGE: ýza --> ytický
+	pyrolytický	pyrolýza	CHANGE: ýza --> ytický
+	abdominopelvický		UNRESOLVED
+	abiogenetický		UNRESOLVED
+	acyklický		UNRESOLVED
+	adiagnostický		UNRESOLVED
+	adirondacký		UNRESOLVED
+	adiuretický		UNRESOLVED
+	afotický		UNRESOLVED
+	agramatický		UNRESOLVED
+	achronický		UNRESOLVED
+	achronistický		UNRESOLVED
+	akatalektický		UNRESOLVED
+	akeramický		UNRESOLVED
+	aksesorický		UNRESOLVED
+	albinotický		UNRESOLVED
+	alergotoxický		UNRESOLVED
+	alfanumerický		UNRESOLVED
+	alicyklický		UNRESOLVED
+	alifatický		UNRESOLVED
+	alkalický		UNRESOLVED
+	allopatrický		UNRESOLVED
+	amidistický		UNRESOLVED
+	amigistický		UNRESOLVED
+	ampérometrický		UNRESOLVED
+	amylolytický		UNRESOLVED
+	amyotrofický		UNRESOLVED
+	anafylaktický		UNRESOLVED
+	anagalaktický		UNRESOLVED
+	analaktický		UNRESOLVED
+	analistický		UNRESOLVED
+	anamnestický		UNRESOLVED
+	anamorfický		UNRESOLVED
+	anankastický		UNRESOLVED
+	anaplastický		UNRESOLVED
+	androkratický		UNRESOLVED
+	anemický		UNRESOLVED
+	angloamerický		UNRESOLVED
+	anharmonický		UNRESOLVED
+	anhemitonický		UNRESOLVED
+	anomalistický		UNRESOLVED
+	anoxický		UNRESOLVED
+	antitetický		UNRESOLVED
+	antropický		UNRESOLVED
+	apalický		UNRESOLVED
+	aperiodický		UNRESOLVED
+	aplastický		UNRESOLVED
+	apnoický		UNRESOLVED
+	apodiktický		UNRESOLVED
+	apoetický		UNRESOLVED
+	apokaliptický		UNRESOLVED
+	apomiktický		UNRESOLVED
+	aposematický		UNRESOLVED
+	areocentrický		UNRESOLVED
+	areografický		UNRESOLVED
+	argilický		UNRESOLVED
+	armorický		UNRESOLVED
+	arytmcký		UNRESOLVED
+	arytmologický		UNRESOLVED
+	aseptický		UNRESOLVED
+	asertorický		UNRESOLVED
+	asférický		UNRESOLVED
+	asklepiadický		UNRESOLVED
+	asomatický		UNRESOLVED
+	asucký		UNRESOLVED
+	asydetický		UNRESOLVED
+	asymptomatický		UNRESOLVED
+	asyndetický		UNRESOLVED
+	atematický		UNRESOLVED
+	atmofytický		UNRESOLVED
+	atraumatický		UNRESOLVED
+	atypický		UNRESOLVED
+	austroněmecký		UNRESOLVED
+	axenický		UNRESOLVED
+	baathistický		UNRESOLVED
+	bambucký		UNRESOLVED
+	banjalucký		UNRESOLVED
+	bankovnický		UNRESOLVED
+	baristický		UNRESOLVED
+	bazický		UNRESOLVED
+	bázický		UNRESOLVED
+	baziofitický		UNRESOLVED
+	beatlesácký		UNRESOLVED
+	bezalkoholický		UNRESOLVED
+	bezbožecký		UNRESOLVED
+	bežecký		UNRESOLVED
+	bílokostelecký		UNRESOLVED
+	bílopotocký		UNRESOLVED
+	bioelektrický		UNRESOLVED
+	bioenzymatický		UNRESOLVED
+	biokosmetický		UNRESOLVED
+	biometeorický		UNRESOLVED
+	biosyntetický		UNRESOLVED
+	bipartistický		UNRESOLVED
+	bislavický		UNRESOLVED
+	bítlsácký		UNRESOLVED
+	blastický		UNRESOLVED
+	bobrownický		UNRESOLVED
+	boccistický		UNRESOLVED
+	bódhisattvický		UNRESOLVED
+	bolívaristický		UNRESOLVED
+	bonampacký		UNRESOLVED
+	bonsajistický		UNRESOLVED
+	botnický		UNRESOLVED
+	brnický		UNRESOLVED
+	bruitistický		UNRESOLVED
+	býštecký		UNRESOLVED
+	cacovický		UNRESOLVED
+	camorristický		UNRESOLVED
+	caranistický		UNRESOLVED
+	celikovecký		UNRESOLVED
+	cerimetrický		UNRESOLVED
+	cihelnický		UNRESOLVED
+	cistercký		UNRESOLVED
+	cisteriácký		UNRESOLVED
+	cloisonistický		UNRESOLVED
+	cyklometrický		UNRESOLVED
+	cykoalkanický		UNRESOLVED
+	cykoterpenický		UNRESOLVED
+	cytotoxický		UNRESOLVED
+	čamakocký		UNRESOLVED
+	čechoamerický		UNRESOLVED
+	čekistický		UNRESOLVED
+	čelakovický		UNRESOLVED
+	černokaspický		UNRESOLVED
+	černomagický		UNRESOLVED
+	černomostecký		UNRESOLVED
+	černosotěnecký		UNRESOLVED
+	černostudnický		UNRESOLVED
+	červenopečecký		UNRESOLVED
+	červenořečický		UNRESOLVED
+	českoamerický		UNRESOLVED
+	českoanglický		UNRESOLVED
+	českokamenický		UNRESOLVED
+	českokubický		UNRESOLVED
+	českoněmecký		UNRESOLVED
+	českorudolecký		UNRESOLVED
+	českoskalický		UNRESOLVED
+	českoslovácký		UNRESOLVED
+	českovelenický		UNRESOLVED
+	čestňácký		UNRESOLVED
+	čínskoamerický		UNRESOLVED
+	déesácký		UNRESOLVED
+	deiktický		UNRESOLVED
+	démotický		UNRESOLVED
+	deontický		UNRESOLVED
+	dereistický		UNRESOLVED
+	desetnický		UNRESOLVED
+	dhácký		UNRESOLVED
+	diabolický		UNRESOLVED
+	diegetický		UNRESOLVED
+	dipeptidický		UNRESOLVED
+	dislektický		UNRESOLVED
+	distonický		UNRESOLVED
+	dizharmonický		UNRESOLVED
+	dizygotický		UNRESOLVED
+	dolánecký		UNRESOLVED
+	domanický		UNRESOLVED
+	domanovický		UNRESOLVED
+	doněcký		UNRESOLVED
+	doopravdický		UNRESOLVED
+	dosický		UNRESOLVED
+	doubravnický		UNRESOLVED
+	doxografický		UNRESOLVED
+	dozický		UNRESOLVED
+	dózický		UNRESOLVED
+	drakonický		UNRESOLVED
+	drastický		UNRESOLVED
+	drzewický		UNRESOLVED
+	důlněměřický		UNRESOLVED
+	důlnětechnický		UNRESOLVED
+	dušnický		UNRESOLVED
+	dvojstranický		UNRESOLVED
+	dvouetnický		UNRESOLVED
+	dvoumilenecký		UNRESOLVED
+	dvoustranický		UNRESOLVED
+	dvoutematický		UNRESOLVED
+	dystrický		UNRESOLVED
+	edafický		UNRESOLVED
+	edématický		UNRESOLVED
+	egirinický		UNRESOLVED
+	eibenstocký		UNRESOLVED
+	eidetický		UNRESOLVED
+	eklamptický		UNRESOLVED
+	ekotoxický		UNRESOLVED
+	elegiacký		UNRESOLVED
+	eliptický		UNRESOLVED
+	emetický		UNRESOLVED
+	emfatický		UNRESOLVED
+	emfyteutický		UNRESOLVED
+	endérácký		UNRESOLVED
+	enderácký		UNRESOLVED
+	energistický		UNRESOLVED
+	entusiastický		UNRESOLVED
+	enzymatický		UNRESOLVED
+	epicentrický		UNRESOLVED
+	epistemický		UNRESOLVED
+	epodický		UNRESOLVED
+	ergodický		UNRESOLVED
+	erotetický		UNRESOLVED
+	etnogenetický		UNRESOLVED
+	etokratický		UNRESOLVED
+	eufenistický		UNRESOLVED
+	eukaryontický		UNRESOLVED
+	eupelagický		UNRESOLVED
+	eustatický		UNRESOLVED
+	exantematický		UNRESOLVED
+	exbudějovický		UNRESOLVED
+	exdrnovický		UNRESOLVED
+	exhradecký		UNRESOLVED
+	exjablonecký		UNRESOLVED
+	exliberecký		UNRESOLVED
+	exmostecký		UNRESOLVED
+	exoterický		UNRESOLVED
+	expardubický		UNRESOLVED
+	expísecký		UNRESOLVED
+	exprachatický		UNRESOLVED
+	exstrakonický		UNRESOLVED
+	extatický		UNRESOLVED
+	exteplický		UNRESOLVED
+	extřinecký		UNRESOLVED
+	exústecký		UNRESOLVED
+	exvítkovický		UNRESOLVED
+	falocentrický		UNRESOLVED
+	fantasmatický		UNRESOLVED
+	fantomatický		UNRESOLVED
+	fázický		UNRESOLVED
+	febiácký		UNRESOLVED
+	felinický		UNRESOLVED
+	fenetický		UNRESOLVED
+	fenolamidický		UNRESOLVED
+	filumenistický		UNRESOLVED
+	fluidický		UNRESOLVED
+	foinický		UNRESOLVED
+	foinícký		UNRESOLVED
+	fotopický		UNRESOLVED
+	fotosyntetický		UNRESOLVED
+	fraštácký		UNRESOLVED
+	freatický		UNRESOLVED
+	frenetický		UNRESOLVED
+	ftizeologický		UNRESOLVED
+	fungistatický		UNRESOLVED
+	fytotoxický		UNRESOLVED
+	galaktický		UNRESOLVED
+	gastrický		UNRESOLVED
+	gegický		UNRESOLVED
+	gemorfologický		UNRESOLVED
+	genografický		UNRESOLVED
+	genotoxický		UNRESOLVED
+	geotermický		UNRESOLVED
+	giljacký		UNRESOLVED
+	glacilimnický		UNRESOLVED
+	glykemický		UNRESOLVED
+	gnomonický		UNRESOLVED
+	goistický		UNRESOLVED
+	gombasecký		UNRESOLVED
+	grálistický		UNRESOLVED
+	granoblastický		UNRESOLVED
+	gumelnický		UNRESOLVED
+	gymnický		UNRESOLVED
+	gynegologický		UNRESOLVED
+	habrůvecký		UNRESOLVED
+	hamasistický		UNRESOLVED
+	haptický		UNRESOLVED
+	haubický		UNRESOLVED
+	hebefrenický		UNRESOLVED
+	hédónický		UNRESOLVED
+	hedonistický		UNRESOLVED
+	hédonostický		UNRESOLVED
+	hekatombický		UNRESOLVED
+	hepatotoxický		UNRESOLVED
+	heptatonický		UNRESOLVED
+	herpetický		UNRESOLVED
+	hiearchický		UNRESOLVED
+	hipický		UNRESOLVED
+	hippologický		UNRESOLVED
+	holarktický		UNRESOLVED
+	houštecký		UNRESOLVED
+	hrabazický		UNRESOLVED
+	hradozámecký		UNRESOLVED
+	hradubický		UNRESOLVED
+	hrdinskoepický		UNRESOLVED
+	huaxtécký		UNRESOLVED
+	hudibrastický		UNRESOLVED
+	hybridologický		UNRESOLVED
+	hydrotermický		UNRESOLVED
+	hyletický		UNRESOLVED
+	hyperkritický		UNRESOLVED
+	hypodermický		UNRESOLVED
+	hypoglykemický		UNRESOLVED
+	hypokoristický		UNRESOLVED
+	hypostatický		UNRESOLVED
+	chalkidický		UNRESOLVED
+	chalkolitický		UNRESOLVED
+	chiliastický		UNRESOLVED
+	chilistický		UNRESOLVED
+	chlororganický		UNRESOLVED
+	chorografický		UNRESOLVED
+	chotický		UNRESOLVED
+	choustnický		UNRESOLVED
+	chrapácký		UNRESOLVED
+	chtonický		UNRESOLVED
+	chyšecký		UNRESOLVED
+	iberoamerický		UNRESOLVED
+	identický		UNRESOLVED
+	imunotoxický		UNRESOLVED
+	innsbrucký		UNRESOLVED
+	intrinsický		UNRESOLVED
+	iónskoattický		UNRESOLVED
+	ischematický		UNRESOLVED
+	ischiadický		UNRESOLVED
+	italskoněmecký		UNRESOLVED
+	jahvistický		UNRESOLVED
+	jazzfonický		UNRESOLVED
+	jednocyklický		UNRESOLVED
+	jednostranický		UNRESOLVED
+	jestbořický		UNRESOLVED
+	jogistický		UNRESOLVED
+	kachetický		UNRESOLVED
+	kalometrický		UNRESOLVED
+	kameralistický		UNRESOLVED
+	kampanologický		UNRESOLVED
+	kaolinický		UNRESOLVED
+	kappadocký		UNRESOLVED
+	karlistický		UNRESOLVED
+	karnátacký		UNRESOLVED
+	karpatoněmecký		UNRESOLVED
+	kastovnický		UNRESOLVED
+	katalektický		UNRESOLVED
+	kataleptický		UNRESOLVED
+	kaustický		UNRESOLVED
+	kentucký		UNRESOLVED
+	kielecký		UNRESOLVED
+	kinesiologický		UNRESOLVED
+	kinestetický		UNRESOLVED
+	klastický		UNRESOLVED
+	koloskopický		UNRESOLVED
+	komipermjacký		UNRESOLVED
+	koncentrický		UNRESOLVED
+	košerácký		UNRESOLVED
+	krátecký		UNRESOLVED
+	kronocký		UNRESOLVED
+	kršnaistický		UNRESOLVED
+	kryptický		UNRESOLVED
+	křemešnický		UNRESOLVED
+	kumbrický		UNRESOLVED
+	kuzněcký		UNRESOLVED
+	kvadratický		UNRESOLVED
+	kvasieliptický		UNRESOLVED
+	kymfatický		UNRESOLVED
+	kyperskořecký		UNRESOLVED
+	labskoústecký		UNRESOLVED
+	ladacký		UNRESOLVED
+	lakonický		UNRESOLVED
+	lámaistický		UNRESOLVED
+	laternomagický		UNRESOLVED
+	latinoamerický		UNRESOLVED
+	latritický		UNRESOLVED
+	legalistický		UNRESOLVED
+	legendistický		UNRESOLVED
+	lempický		UNRESOLVED
+	lesotechnický		UNRESOLVED
+	lexografický		UNRESOLVED
+	limbický		UNRESOLVED
+	lobbyistický		UNRESOLVED
+	lobbystický		UNRESOLVED
+	loutocký		UNRESOLVED
+	lübecký		UNRESOLVED
+	lumpácký		UNRESOLVED
+	lutopecký		UNRESOLVED
+	lužánecký		UNRESOLVED
+	lydický		UNRESOLVED
+	lyrickoepický		UNRESOLVED
+	lytický		UNRESOLVED
+	mačistický		UNRESOLVED
+	madunický		UNRESOLVED
+	majncký		UNRESOLVED
+	malacký		UNRESOLVED
+	malmúcký		UNRESOLVED
+	malpigický		UNRESOLVED
+	marsologický		UNRESOLVED
+	martinistický		UNRESOLVED
+	medlánecký		UNRESOLVED
+	medzilaborecký		UNRESOLVED
+	mehelnický		UNRESOLVED
+	mechatronický		UNRESOLVED
+	meristický		UNRESOLVED
+	meritokratický		UNRESOLVED
+	mešťácký		UNRESOLVED
+	methodický		UNRESOLVED
+	mielnický		UNRESOLVED
+	migmatický		UNRESOLVED
+	mixolydický		UNRESOLVED
+	mixtecký		UNRESOLVED
+	modřecký		UNRESOLVED
+	monastický		UNRESOLVED
+	moonistický		UNRESOLVED
+	mosaický		UNRESOLVED
+	mrtnický		UNRESOLVED
+	myasthenický		UNRESOLVED
+	mystagogický		UNRESOLVED
+	mythický		UNRESOLVED
+	mythologický		UNRESOLVED
+	mytický		UNRESOLVED
+	načeradecký		UNRESOLVED
+	nadfyzický		UNRESOLVED
+	nadideologický		UNRESOLVED
+	nadkritický		UNRESOLVED
+	nadpolitický		UNRESOLVED
+	nadsansarický		UNRESOLVED
+	naftenický		UNRESOLVED
+	namyslovecký		UNRESOLVED
+	natriuretický		UNRESOLVED
+	nekroptický		UNRESOLVED
+	nepomucký		UNRESOLVED
+	nestětický		UNRESOLVED
+	nežárecký		UNRESOLVED
+	nomický		UNRESOLVED
+	noxický		UNRESOLVED
+	nubický		UNRESOLVED
+	nuželický		UNRESOLVED
+	odický		UNRESOLVED
+	odtrženecký		UNRESOLVED
+	ofitický		UNRESOLVED
+	okrouhlecký		UNRESOLVED
+	olfaktorický		UNRESOLVED
+	oneirický		UNRESOLVED
+	ontický		UNRESOLVED
+	opokinetický		UNRESOLVED
+	opravdický		UNRESOLVED
+	optoelektrický		UNRESOLVED
+	optochemický		UNRESOLVED
+	optomagnetický		UNRESOLVED
+	optomechanický		UNRESOLVED
+	orgastický		UNRESOLVED
+	orgiastický		UNRESOLVED
+	orlickoústecký		UNRESOLVED
+	orogenetický		UNRESOLVED
+	orogenický		UNRESOLVED
+	oselecký		UNRESOLVED
+	oskický		UNRESOLVED
+	osnabrücký		UNRESOLVED
+	osvobozenecký		UNRESOLVED
+	oumyslovický		UNRESOLVED
+	ovčárecký		UNRESOLVED
+	ovenecký		UNRESOLVED
+	palearktický		UNRESOLVED
+	pamfletistický		UNRESOLVED
+	paragenetický		UNRESOLVED
+	paralaktický		UNRESOLVED
+	paralický		UNRESOLVED
+	parapsychický		UNRESOLVED
+	parasympatický		UNRESOLVED
+	parataktický		UNRESOLVED
+	paretický		UNRESOLVED
+	parhelický		UNRESOLVED
+	pasohlávecký		UNRESOLVED
+	paštický		UNRESOLVED
+	patronymický		UNRESOLVED
+	pelagický		UNRESOLVED
+	pentacyklický		UNRESOLVED
+	pentamerický		UNRESOLVED
+	peralkalický		UNRESOLVED
+	pětistranický		UNRESOLVED
+	petrurgický		UNRESOLVED
+	pharmaceutický		UNRESOLVED
+	pisárecký		UNRESOLVED
+	plasmatický		UNRESOLVED
+	plisecký		UNRESOLVED
+	poarchaický		UNRESOLVED
+	poatlantický		UNRESOLVED
+	pobiblický		UNRESOLVED
+	pobolševický		UNRESOLVED
+	podblanický		UNRESOLVED
+	poddědický		UNRESOLVED
+	podemokratický		UNRESOLVED
+	podkritický		UNRESOLVED
+	podlázecký		UNRESOLVED
+	podlipnický		UNRESOLVED
+	podloudický		UNRESOLVED
+	podlužácký		UNRESOLVED
+	podorlický		UNRESOLVED
+	podtrosecký		UNRESOLVED
+	podzámecký		UNRESOLVED
+	pofrankistický		UNRESOLVED
+	pogromistický		UNRESOLVED
+	pochartistický		UNRESOLVED
+	poklasický		UNRESOLVED
+	poliadický		UNRESOLVED
+	politbyrácký		UNRESOLVED
+	polskoněmecký		UNRESOLVED
+	popartistický		UNRESOLVED
+	porýnskofalcký		UNRESOLVED
+	posvícenecký		UNRESOLVED
+	pouštěcký		UNRESOLVED
+	pozďátecký		UNRESOLVED
+	pozdněgotický		UNRESOLVED
+	pozorecký		UNRESOLVED
+	preanalytický		UNRESOLVED
+	prekaristický		UNRESOLVED
+	preklinický		UNRESOLVED
+	presorický		UNRESOLVED
+	presynaptický		UNRESOLVED
+	presystolický		UNRESOLVED
+	primácký		UNRESOLVED
+	prismatický		UNRESOLVED
+	proamerický		UNRESOLVED
+	proatlantický		UNRESOLVED
+	probolševický		UNRESOLVED
+	procentický		UNRESOLVED
+	procyklický		UNRESOLVED
+	prodynastický		UNRESOLVED
+	proekologický		UNRESOLVED
+	profašistický		UNRESOLVED
+	profetický		UNRESOLVED
+	programatický		UNRESOLVED
+	proindický		UNRESOLVED
+	proirácký		UNRESOLVED
+	prokaryontický		UNRESOLVED
+	prokatolický		UNRESOLVED
+	proklitický		UNRESOLVED
+	promaoistický		UNRESOLVED
+	promarxistický		UNRESOLVED
+	pronacistický		UNRESOLVED
+	proněmecký		UNRESOLVED
+	propučistický		UNRESOLVED
+	prostetický		UNRESOLVED
+	prošlechtický		UNRESOLVED
+	provlastenecký		UNRESOLVED
+	prozodický		UNRESOLVED
+	průmstavácký		UNRESOLVED
+	prušánecký		UNRESOLVED
+	předantický		UNRESOLVED
+	předastmatický		UNRESOLVED
+	předbásnický		UNRESOLVED
+	předbiblický		UNRESOLVED
+	předbiologický		UNRESOLVED
+	předbolševický		UNRESOLVED
+	předdynastický		UNRESOLVED
+	předfalický		UNRESOLVED
+	předfašistický		UNRESOLVED
+	předgeologický		UNRESOLVED
+	předhistorický		UNRESOLVED
+	předincký		UNRESOLVED
+	předkambrický		UNRESOLVED
+	předkeramický		UNRESOLVED
+	předklasický		UNRESOLVED
+	předklinický		UNRESOLVED
+	předkritický		UNRESOLVED
+	předkubistický		UNRESOLVED
+	předlogický		UNRESOLVED
+	předlyrický		UNRESOLVED
+	přednacistický		UNRESOLVED
+	předplavecký		UNRESOLVED
+	předpolitický		UNRESOLVED
+	předromantický		UNRESOLVED
+	předřecký		UNRESOLVED
+	předsednický		UNRESOLVED
+	předsokratický		UNRESOLVED
+	předturecký		UNRESOLVED
+	předumělecký		UNRESOLVED
+	předvědecký		UNRESOLVED
+	předzámecký		UNRESOLVED
+	příbuzenecký		UNRESOLVED
+	přírodověděcký		UNRESOLVED
+	pšovecký		UNRESOLVED
+	půleliptický		UNRESOLVED
+	purististický		UNRESOLVED
+	puritistický		UNRESOLVED
+	puucký		UNRESOLVED
+	pyelografický		UNRESOLVED
+	racemický		UNRESOLVED
+	radarácký		UNRESOLVED
+	rakovnický		UNRESOLVED
+	reflexácký		UNRESOLVED
+	rekatolický		UNRESOLVED
+	reumatologický		UNRESOLVED
+	rezofonický		UNRESOLVED
+	rijecký		UNRESOLVED
+	rijswijcký		UNRESOLVED
+	rombický		UNRESOLVED
+	rostocký		UNRESOLVED
+	rudofašistický		UNRESOLVED
+	ruskoamerický		UNRESOLVED
+	ruskoněmecký		UNRESOLVED
+	rýžovnický		UNRESOLVED
+	řeckoturecký		UNRESOLVED
+	římskoantický		UNRESOLVED
+	římskoněmecký		UNRESOLVED
+	říšskoněmecký		UNRESOLVED
+	samerický		UNRESOLVED
+	sapfický		UNRESOLVED
+	sarmacký		UNRESOLVED
+	saxofonistický		UNRESOLVED
+	scientifický		UNRESOLVED
+	scifistický		UNRESOLVED
+	seboroický		UNRESOLVED
+	sedlcký		UNRESOLVED
+	seizmologický		UNRESOLVED
+	seizmonastický		UNRESOLVED
+	seninecký		UNRESOLVED
+	senzomotorický		UNRESOLVED
+	sezimoústecký		UNRESOLVED
+	siderický		UNRESOLVED
+	skedastický		UNRESOLVED
+	skotopický		UNRESOLVED
+	slezskoněmecký		UNRESOLVED
+	smektický		UNRESOLVED
+	snobácký		UNRESOLVED
+	sobranecký		UNRESOLVED
+	sokratický		UNRESOLVED
+	solovecký		UNRESOLVED
+	sophistický		UNRESOLVED
+	soteriologický		UNRESOLVED
+	soudněznalecký		UNRESOLVED
+	sporadický		UNRESOLVED
+	stodůlecký		UNRESOLVED
+	stochastický		UNRESOLVED
+	strašidlácký		UNRESOLVED
+	strofický		UNRESOLVED
+	střílecký		UNRESOLVED
+	studánecký		UNRESOLVED
+	studénecký		UNRESOLVED
+	stvolínecký		UNRESOLVED
+	subaerický		UNRESOLVED
+	subakvatický		UNRESOLVED
+	subalkalický		UNRESOLVED
+	subantarktický		UNRESOLVED
+	subatlantický		UNRESOLVED
+	subatomický		UNRESOLVED
+	subekumenický		UNRESOLVED
+	subetnický		UNRESOLVED
+	subglotický		UNRESOLVED
+	subchronický		UNRESOLVED
+	subklinický		UNRESOLVED
+	subnordický		UNRESOLVED
+	subsonický		UNRESOLVED
+	subtropický		UNRESOLVED
+	subvulkanický		UNRESOLVED
+	subzygomatický		UNRESOLVED
+	sulfatický		UNRESOLVED
+	sulkovecký		UNRESOLVED
+	svitávecký		UNRESOLVED
+	svratecký		UNRESOLVED
+	syfilocký		UNRESOLVED
+	syfilofobický		UNRESOLVED
+	sylabotónický		UNRESOLVED
+	symplektický		UNRESOLVED
+	synalagmatický		UNRESOLVED
+	synaptický		UNRESOLVED
+	syntaktický		UNRESOLVED
+	syntonický		UNRESOLVED
+	šemický		UNRESOLVED
+	šimonosecký		UNRESOLVED
+	šovický		UNRESOLVED
+	špionomaniacký		UNRESOLVED
+	tadžický		UNRESOLVED
+	tanganický		UNRESOLVED
+	tavistocký		UNRESOLVED
+	tehuantepecký		UNRESOLVED
+	tělecký		UNRESOLVED
+	telocentrický		UNRESOLVED
+	terestrický		UNRESOLVED
+	těrlický		UNRESOLVED
+	terrestrický		UNRESOLVED
+	teslácký		UNRESOLVED
+	thalmický		UNRESOLVED
+	thelemický		UNRESOLVED
+	thomistický		UNRESOLVED
+	thrillerácký		UNRESOLVED
+	tiahuanacký		UNRESOLVED
+	timokratický		UNRESOLVED
+	tímokratický		UNRESOLVED
+	tíwanacký		UNRESOLVED
+	tomácký		UNRESOLVED
+	toskický		UNRESOLVED
+	toxemický		UNRESOLVED
+	toxický		UNRESOLVED
+	traický		UNRESOLVED
+	trichromatický		UNRESOLVED
+	triklinický		UNRESOLVED
+	trimerický		UNRESOLVED
+	trnávecký		UNRESOLVED
+	trofolytický		UNRESOLVED
+	troický		UNRESOLVED
+	trusovický		UNRESOLVED
+	třebícký		UNRESOLVED
+	třítrubecký		UNRESOLVED
+	turgický		UNRESOLVED
+	turkický		UNRESOLVED
+	ublíženecký		UNRESOLVED
+	ugrický		UNRESOLVED
+	uhřetický		UNRESOLVED
+	úpravnický		UNRESOLVED
+	uroborický		UNRESOLVED
+	urodynamický		UNRESOLVED
+	uropoetický		UNRESOLVED
+	uroseptický		UNRESOLVED
+	ústeckoorlický		UNRESOLVED
+	úštecký		UNRESOLVED
+	vakcinologický		UNRESOLVED
+	vasomotorický		UNRESOLVED
+	vázomotorický		UNRESOLVED
+	vejprický		UNRESOLVED
+	veselokopecký		UNRESOLVED
+	vichistický		UNRESOLVED
+	vichystický		UNRESOLVED
+	vikárecký		UNRESOLVED
+	vísecký		UNRESOLVED
+	viskoelastický		UNRESOLVED
+	vitrický		UNRESOLVED
+	vizionistický		UNRESOLVED
+	vjatecký		UNRESOLVED
+	vojnoměstecký		UNRESOLVED
+	vopravdický		UNRESOLVED
+	vrútecký		UNRESOLVED
+	výlučnický		UNRESOLVED
+	vytahovácký		UNRESOLVED
+	wehrmachťácký		UNRESOLVED
+	woodstocký		UNRESOLVED
+	yoyobanďácký		UNRESOLVED
+	zaatlantický		UNRESOLVED
+	zahrádecký		UNRESOLVED
+	zakaspický		UNRESOLVED
+	zákostelecký		UNRESOLVED
+	zapatistický		UNRESOLVED
+	zápotocký		UNRESOLVED
+	zárybnický		UNRESOLVED
+	zastávecký		UNRESOLVED
+	zbečnický		UNRESOLVED
+	zdounecký		UNRESOLVED
+	zlatoolešnický		UNRESOLVED
+	zubotechnický		UNRESOLVED
+	zvířecký		UNRESOLVED
+	zvykoslovecký		UNRESOLVED
+	ždárecký		UNRESOLVED
+	ždirnický		UNRESOLVED
+	železnický		UNRESOLVED
+	žihobecký		UNRESOLVED
+	desítislabický		UNRESOLVED
+	devítislabický		UNRESOLVED
+	dvouradlický		UNRESOLVED
+	dvouslabický		UNRESOLVED
+	ethnický		UNRESOLVED
+	fysický		UNRESOLVED
+	fysiokratický		UNRESOLVED
+	grafiťácký		UNRESOLVED
+	itacký		UNRESOLVED
+	orthopedický		UNRESOLVED
+	osmislabický		UNRESOLVED
+	parasitický		UNRESOLVED
+	pětiradlický		UNRESOLVED
+	pětislabický		UNRESOLVED
+	podbránický		UNRESOLVED
+	přerozlický		UNRESOLVED
+	sedmiradlický		UNRESOLVED
+	sedmislabický		UNRESOLVED
+	seizmický		UNRESOLVED
+	sensorický		UNRESOLVED
+	slabický		UNRESOLVED
+	soupatřický		UNRESOLVED
+	synthetický		UNRESOLVED
+	šestiradlický		UNRESOLVED
+	šestislabický		UNRESOLVED
+	thematický		UNRESOLVED
+	theoretický		UNRESOLVED
+	therapeutický		UNRESOLVED
+	tříslabický		UNRESOLVED
+	úherecký		UNRESOLVED
+	ustavický		UNRESOLVED
+	žitnopšenický		UNRESOLVED
+	nepatřický		UNRESOLVED
