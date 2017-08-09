@@ -1,0 +1,4457 @@
+abdominopelvický		UNRESOLVED
+abiogenetický		UNRESOLVED
+abiotický	abióza	CHANGE: óza --> otický
+ablanický	Abla	CHANGE: 0 --> nický
+acidimetrický		UNRESOLVED
+acidobazický		UNRESOLVED
+acyklický		UNRESOLVED
+adamovický	Adamov	CHANGE: 0 --> ický
+adiabatický	Adiaba	CHANGE: a --> atický
+adiagnostický		UNRESOLVED
+adiktologický	adiktolog	CHANGE: 0 --> ický
+adirondacký		UNRESOLVED
+adiuretický		UNRESOLVED
+administrativněstatistický		UNRESOLVED
+administrativnětechnický		UNRESOLVED
+aerodymanický		UNRESOLVED
+aeromagnetický		UNRESOLVED
+aeromotorický		UNRESOLVED
+aforistický	aforismus	CHANGE: ismus --> istický
+afotický		UNRESOLVED
+afroamerický		UNRESOLVED
+agnostický	agnostik	CHANGE: k --> cký
+agramatický		UNRESOLVED
+agrárnědemokratický		UNRESOLVED
+ahistorický	ahistorizmus	CHANGE: izmus --> ický
+achromatický	achromatizmus	CHANGE: izmus --> ický
+achronický		UNRESOLVED
+achronistický		UNRESOLVED
+aiolický	Aiolos	CHANGE: os --> ický
+akatalektický		UNRESOLVED
+akcesorický	akcesorium	CHANGE: ium --> ický
+akeramický		UNRESOLVED
+akméistický	akméizmus	CHANGE: izmus --> istický
+akordický	akord	CHANGE: 0 --> ický
+akrobatický	akrobat	CHANGE: 0 --> ický
+akrocentrický		UNRESOLVED
+akrylický	akryl	CHANGE: 0 --> ický
+aksesorický		UNRESOLVED
+akustooptický		UNRESOLVED
+akvanautický	akvanaut	CHANGE: 0 --> ický
+alarmistický	alarmismus	CHANGE: ismus --> istický
+albeřický	Albeřice	CHANGE: ce --> cký
+albinotický		UNRESOLVED
+albitický	albit	CHANGE: 0 --> ický
+albrechtický	Albrechtice	CHANGE: ce --> cký
+aldehydický	aldehyd	CHANGE: 0 --> ický
+alergotoxický		UNRESOLVED
+alfanumerický		UNRESOLVED
+algebraický	algebra	CHANGE: 0 --> ický
+algický	Algida	CHANGE: ida --> ický
+algonkický	algonkium	CHANGE: ium --> ický
+algoritmický	algoritmus	CHANGE: us --> ický
+alicyklický		UNRESOLVED
+alifatický		UNRESOLVED
+alkalický		UNRESOLVED
+alkanický	alkan	CHANGE: 0 --> ický
+alkoholický	alkoholik	CHANGE: k --> cký
+alkoholometrický	alkoholometr	CHANGE: 0 --> ický
+allopatrický		UNRESOLVED
+almužnický	almužnice	CHANGE: ce --> cký
+alogický	alogismus	CHANGE: ismus --> ický
+alochemický		UNRESOLVED
+alochromatický		UNRESOLVED
+alosterický		UNRESOLVED
+alostratigrafický		UNRESOLVED
+alotropický		UNRESOLVED
+aluminotermický		UNRESOLVED
+americkoněmecký		UNRESOLVED
+americký	Amer	CHANGE: 0 --> ický
+amfolytický	amfolyt	CHANGE: 0 --> ický
+amidistický		UNRESOLVED
+amigistický		UNRESOLVED
+amitotický	amitóza	CHANGE: óza --> otický
+ampérometrický		UNRESOLVED
+amylolytický		UNRESOLVED
+amyotrofický		UNRESOLVED
+anaerobický	anaerob	CHANGE: 0 --> ický
+anafylaktický		UNRESOLVED
+anagalaktický		UNRESOLVED
+anachronický	anachronismus	CHANGE: ismus --> ický
+anachronistický	anachronismus	CHANGE: ismus --> istický
+analaktický		UNRESOLVED
+analgetický	analgetikum	CHANGE: kum --> cký
+analistický		UNRESOLVED
+analytickosyntetický		UNRESOLVED
+anamnestický		UNRESOLVED
+anamorfický		UNRESOLVED
+anankastický		UNRESOLVED
+anapestický	anapest	CHANGE: 0 --> ický
+anaplastický		UNRESOLVED
+anarchistickofeministický		UNRESOLVED
+anarchokomunistický		UNRESOLVED
+anarchosyndikalistický	anarchosyndikalizmus	CHANGE: izmus --> istický
+anatický	Anat	CHANGE: 0 --> ický
+andezitický	andezit	CHANGE: 0 --> ický
+androkratický		UNRESOLVED
+anemický		UNRESOLVED
+anestetický	anestetikum	CHANGE: kum --> cký
+anexionistický	anexionizmus	CHANGE: izmus --> istický
+anglický	Angl	CHANGE: 0 --> ický
+angloamerický		UNRESOLVED
+anharmonický		UNRESOLVED
+anhemitonický		UNRESOLVED
+anizometrický		UNRESOLVED
+anodomechanický		UNRESOLVED
+anomalistický		UNRESOLVED
+anorektický	anorektik	CHANGE: k --> cký
+anoxický		UNRESOLVED
+antagonický	antagonismus	CHANGE: ismus --> ický
+antarktický	Antarktida	CHANGE: ida --> ický
+antikafkistický		UNRESOLVED
+antipyretický	antipyretikum	CHANGE: kum --> cký
+antirabický		UNRESOLVED
+antisemitistický	antisemitismus	CHANGE: ismus --> istický
+antitetický		UNRESOLVED
+antituberkulotický	antituberkulotik	CHANGE: k --> cký
+antitusický	antitusikum	CHANGE: kum --> cký
+antivirotický	antivirotikum	CHANGE: kum --> cký
+antracitický	antracit	CHANGE: 0 --> ický
+antropický		UNRESOLVED
+antropocentrický	antropocentrizmus	CHANGE: izmus --> ický
+antropomorfický	antropomorfismus	CHANGE: ismus --> ický
+apalický		UNRESOLVED
+aperiodický		UNRESOLVED
+aplastický		UNRESOLVED
+aplitický	aplit	CHANGE: 0 --> ický
+apnoický		UNRESOLVED
+apodiktický		UNRESOLVED
+apoetický		UNRESOLVED
+apokaliptický		UNRESOLVED
+apokryfický	apokryf	CHANGE: 0 --> ický
+apolitický	apolit	CHANGE: 0 --> ický
+apomiktický		UNRESOLVED
+apoplektický	apoplektik	CHANGE: k --> cký
+aposematický		UNRESOLVED
+aprioristický	apriorizmus	CHANGE: izmus --> istický
+aptický	apt	CHANGE: 0 --> ický
+aravacký	Aravak	CHANGE: k --> cký
+areocentrický		UNRESOLVED
+areografický		UNRESOLVED
+argentometrický		UNRESOLVED
+argilický		UNRESOLVED
+argotický	argot	CHANGE: 0 --> ický
+archaický	archa	CHANGE: 0 --> ický
+archaistický	archaismus	CHANGE: ismus --> istický
+archeomagnetický		UNRESOLVED
+archetypický	archetyp	CHANGE: 0 --> ický
+aristokratický	aristokrat	CHANGE: 0 --> ický
+aritmetickologický		UNRESOLVED
+arkadický	arkadizmus	CHANGE: izmus --> ický
+arktický	arktida	CHANGE: ida --> ický
+armorický		UNRESOLVED
+arnolecký	Arnolec	CHANGE: c --> cký
+arnoltický	Arnoltice	CHANGE: ce --> cký
+arnultovický	Arnultovice	CHANGE: ce --> cký
+aromaterapeutický	aromaterapeut	CHANGE: 0 --> ický
+aromatický	aromatikum	CHANGE: kum --> cký
+arteriosklerotický	arterioskleróza	CHANGE: óza --> otický
+arteterapeutický	arteterapeut	CHANGE: 0 --> ický
+artritický	artritida	CHANGE: ida --> ický
+artrotický	artróza	CHANGE: óza --> otický
+arytmcký		UNRESOLVED
+arytmologický		UNRESOLVED
+aseptický		UNRESOLVED
+asertorický		UNRESOLVED
+asfaltický	asfalt	CHANGE: 0 --> ický
+asférický		UNRESOLVED
+asiatický	Asiat	CHANGE: 0 --> ický
+asijskopacifický		UNRESOLVED
+asklepiadický		UNRESOLVED
+asomatický		UNRESOLVED
+astatický	astat	CHANGE: 0 --> ický
+asterický	Aster	CHANGE: 0 --> ický
+astigmatický	astigmatismus	CHANGE: ismus --> ický
+astmatický	astmatik	CHANGE: k --> cký
+astronomickogeodetický		UNRESOLVED
+asucký		UNRESOLVED
+asydetický		UNRESOLVED
+asymptomatický		UNRESOLVED
+asyndetický		UNRESOLVED
+asyriologický	asyriolog	CHANGE: 0 --> ický
+atavický	atavismus	CHANGE: ismus --> ický
+atavistický	atavismus	CHANGE: ismus --> istický
+atematický		UNRESOLVED
+aterosklerotický	ateroskleróza	CHANGE: óza --> otický
+atlantický	atlantik	CHANGE: k --> cký
+atmofytický		UNRESOLVED
+atomický	atom	CHANGE: 0 --> ický
+atomistický	atomismus	CHANGE: ismus --> istický
+atraumatický		UNRESOLVED
+atypický		UNRESOLVED
+audiofonický		UNRESOLVED
+audiografický		UNRESOLVED
+audiomechanický		UNRESOLVED
+augitický	augit	CHANGE: 0 --> ický
+austenitický	austenit	CHANGE: 0 --> ický
+austromarxistický	austromarxizmus	CHANGE: izmus --> istický
+austroněmecký		UNRESOLVED
+austroslavistický	austroslavizmus	CHANGE: izmus --> istický
+autokatalytický		UNRESOLVED
+autokratický	autokrat	CHANGE: 0 --> ický
+automechanický	automechanik	CHANGE: k --> cký
+autonomistický	autonomizmus	CHANGE: izmus --> istický
+autopoietický		UNRESOLVED
+autosémantický	autosémantikum	CHANGE: kum --> cký
+autosyntagmatický		UNRESOLVED
+autotelický		UNRESOLVED
+autoterapeutický		UNRESOLVED
+avantgardistický	avantgardizmus	CHANGE: izmus --> istický
+avanturistický	avanturismus	CHANGE: ismus --> istický
+averroistický	averroizmus	CHANGE: izmus --> istický
+axenický		UNRESOLVED
+azeotropický	azeotrop	CHANGE: 0 --> ický
+aztécký	Azték	CHANGE: k --> cký
+baathistický		UNRESOLVED
+babický	babice	CHANGE: ce --> cký
+bahaistický	bahaizmus	CHANGE: izmus --> istický
+bainitický	bainit	CHANGE: 0 --> ický
+bakchický	Bakchus	CHANGE: us --> ický
+bakteriolytický		UNRESOLVED
+bakteriostatický	bakteriostatikum	CHANGE: kum --> cký
+baleťácký	baleťák	CHANGE: k --> cký
+balický	bal	CHANGE: 0 --> ický
+balneoterapeutický		UNRESOLVED
+baltický	Baltic	CHANGE: c --> cký
+balzamický	balzamiko	CHANGE: ko --> cký
+bambucký		UNRESOLVED
+bangkocký	Bangkok	CHANGE: k --> cký
+banjalucký		UNRESOLVED
+bankovnický		UNRESOLVED
+bánovecký	Bánovec	CHANGE: c --> cký
+banskobystrický		UNRESOLVED
+báňskogeologický		UNRESOLVED
+báňskotechnický		UNRESOLVED
+bardický	bard	CHANGE: 0 --> ický
+bariatrický	bariatrie	CHANGE: ie --> ický
+baristický		UNRESOLVED
+barometrický	barometr	CHANGE: 0 --> ický
+bartošovický	Bartošovice	CHANGE: ce --> cký
+bartovický	Bartovice	CHANGE: ce --> cký
+baskický	Bask	CHANGE: 0 --> ický
+básnický	básnice	CHANGE: ce --> cký
+bašecký	Bašek	CHANGE: k --> cký
+batacký	Batak	CHANGE: k --> cký
+bathymetrický		UNRESOLVED
+batňovický	Batňovice	CHANGE: ce --> cký
+baťovácký	baťovák	CHANGE: k --> cký
+bavorácký	bavorák	CHANGE: k --> cký
+bavorovický	Bavorovice	CHANGE: ce --> cký
+bazaltický	bazalt	CHANGE: 0 --> ický
+bazický		UNRESOLVED
+bázický		UNRESOLVED
+baziofitický		UNRESOLVED
+bažantnický	bažantnice	CHANGE: ce --> cký
+beatlesácký		UNRESOLVED
+bednárecký	Bednárec	CHANGE: c --> cký
+bedřichovický	Bedřichovice	CHANGE: ce --> cký
+běchovický	Běchovice	CHANGE: ce --> cký
+bělčický	Bělčice	CHANGE: ce --> cký
+bělecký	Bělsko	CHANGE: sko --> ecký
+belgický	Belg	CHANGE: 0 --> ický
+bělkovický	Bělkovice	CHANGE: ce --> cký
+bělušický	Bělušice	CHANGE: ce --> cký
+benátecký	benátsko	CHANGE: sko --> ecký
+benecký	Benek	CHANGE: k --> cký
+benešovický	Benešovice	CHANGE: ce --> cký
+bentický	Bent	CHANGE: 0 --> ický
+benzinoelektrický		UNRESOLVED
+bernartický	Bernartice	CHANGE: ce --> cký
+běrunický	Běrunice	CHANGE: ce --> cký
+beřkovický	Beřkovice	CHANGE: ce --> cký
+běstovický	Běstovice	CHANGE: ce --> cký
+betický	Bet	CHANGE: 0 --> ický
+bezalkoholický		UNRESOLVED
+bezbožecký		UNRESOLVED
+bezdědický	Bezdědice	CHANGE: ce --> cký
+bezdružický	Bezdružice	CHANGE: ce --> cký
+bezparametrický		UNRESOLVED
+bezpečácký	bezpečák	CHANGE: k --> cký
+bezpečnostněpolitický		UNRESOLVED
+bežecký		UNRESOLVED
+bhaktický	bhaktizmus	CHANGE: izmus --> ický
+bibelotický	bibelot	CHANGE: 0 --> ický
+biblický	biblizmus	CHANGE: izmus --> ický
+bicyklický	bicykl	CHANGE: 0 --> ický
+bifázický		UNRESOLVED
+bikubický		UNRESOLVED
+bikvadratický		UNRESOLVED
+bilasický	Bilas	CHANGE: 0 --> ický
+bilingvistický	bilingvizmus	CHANGE: izmus --> istický
+bílkovický	Bílkovice	CHANGE: ce --> cký
+bílokostelecký		UNRESOLVED
+bílopotocký		UNRESOLVED
+bílovický	Bílovice	CHANGE: ce --> cký
+bílucký	Bíluky	CHANGE: ky --> cký
+bimetalický	bimetal	CHANGE: 0 --> ický
+binomický	binom	CHANGE: 0 --> ický
+bioakustický		UNRESOLVED
+bioanalogický		UNRESOLVED
+bioanalytický	bioanalytik	CHANGE: k --> cký
+biocentrický	biocentrizmus	CHANGE: izmus --> ický
+bioelektrický		UNRESOLVED
+bioenzymatický		UNRESOLVED
+biofarmaceutický		UNRESOLVED
+biofotonický		UNRESOLVED
+biofyziologický		UNRESOLVED
+biogenerický		UNRESOLVED
+biogeoklimatický		UNRESOLVED
+biohermeneutický		UNRESOLVED
+biochromatický		UNRESOLVED
+biokinetický		UNRESOLVED
+biokojenecký		UNRESOLVED
+biokosmetický		UNRESOLVED
+biolovecký		UNRESOLVED
+biomagnetický	biomagnetizmus	CHANGE: izmus --> ický
+biometeorický		UNRESOLVED
+biomikroskopický	biomikroskop	CHANGE: 0 --> ický
+biomimetický		UNRESOLVED
+biomotorický		UNRESOLVED
+bioorganický	bioorganismus	CHANGE: ismus --> ický
+biopharmaceutický		UNRESOLVED
+biopolitický		UNRESOLVED
+biopsychický		UNRESOLVED
+bioptický		UNRESOLVED
+biorytmický	biorytmus	CHANGE: us --> ický
+biosenzorický	biosenzor	CHANGE: 0 --> ický
+biospeleologický	biospeleolog	CHANGE: 0 --> ický
+biosyntetický		UNRESOLVED
+bioteroristický	bioterorizmus	CHANGE: izmus --> istický
+biotický		UNRESOLVED
+biotitický	biotit	CHANGE: 0 --> ický
+biotopický	biotop	CHANGE: 0 --> ický
+bipartistický		UNRESOLVED
+biskupický	Biskupice	CHANGE: ce --> cký
+bislavický		UNRESOLVED
+biškecký	Biškek	CHANGE: k --> cký
+bítlsácký		UNRESOLVED
+bítovčický	Bítovčice	CHANGE: ce --> cký
+blairistický	blairismus	CHANGE: ismus --> istický
+blanický	Blanice	CHANGE: ce --> cký
+blastický		UNRESOLVED
+blaťácký	blaťák	CHANGE: k --> cký
+blatecký	Blatec	CHANGE: c --> cký
+blatnický	blatnice	CHANGE: ce --> cký
+blázinecký	blázinec	CHANGE: c --> cký
+blažejovický	Blažejovice	CHANGE: ce --> cký
+blažovický	Blažovice	CHANGE: ce --> cký
+blbecký	blbec	CHANGE: c --> cký
+blešácký	blešák	CHANGE: k --> cký
+blevický	Blevice	CHANGE: ce --> cký
+blížkovický	Blížkovice	CHANGE: ce --> cký
+blovický	Blovice	CHANGE: ce --> cký
+bludovický	Bludovice	CHANGE: ce --> cký
+bobnický	Bobnice	CHANGE: ce --> cký
+bobrownický		UNRESOLVED
+boccistický		UNRESOLVED
+bódhisattvický		UNRESOLVED
+bohatický	Bohatice	CHANGE: ce --> cký
+bohdalecký	Bohdalec	CHANGE: c --> cký
+bohdalický	Bohdalice	CHANGE: ce --> cký
+bohdanecký	Bohdana	CHANGE: a --> ecký
+bohemácký	bohemák	CHANGE: k --> cký
+bohnický	Bohnice	CHANGE: ce --> cký
+bohučovický	Bohučovice	CHANGE: ce --> cký
+bohumilický	Bohumilice	CHANGE: ce --> cký
+bohunický	Bohunice	CHANGE: ce --> cký
+bohuňovický	Bohuňovice	CHANGE: ce --> cký
+bohuslavický	Bohuslavice	CHANGE: ce --> cký
+bohušovický	Bohušovice	CHANGE: ce --> cký
+bohutický	Bohutice	CHANGE: ce --> cký
+bochovický	Bochovice	CHANGE: ce --> cký
+bojanovický	Bojanovice	CHANGE: ce --> cký
+bojkovický	Bojkovice	CHANGE: ce --> cký
+bojnický	Bojnice	CHANGE: ce --> cký
+bolatický	Bolatice	CHANGE: ce --> cký
+boleloucký	Bolelouc	CHANGE: c --> cký
+boleradický	Boleradice	CHANGE: ce --> cký
+boletický	Boletice	CHANGE: ce --> cký
+bolevecký	Bolevec	CHANGE: c --> cký
+bolívaristický		UNRESOLVED
+bombastický	bombast	CHANGE: 0 --> ický
+bonampacký		UNRESOLVED
+bonapartistický	bonapartizmus	CHANGE: izmus --> istický
+bonětický	Bonětice	CHANGE: ce --> cký
+bonsajistický		UNRESOLVED
+bonzácký	bonzák	CHANGE: k --> cký
+bordovický	Bordovice	CHANGE: ce --> cký
+borkovický	Borkovice	CHANGE: ce --> cký
+borohrádecký	Borohrádek	CHANGE: k --> cký
+borotický	Borotice	CHANGE: ce --> cký
+borovnický	Borovnice	CHANGE: ce --> cký
+boršický	Boršice	CHANGE: ce --> cký
+bořetický	Bořetice	CHANGE: ce --> cký
+bořický	Bořice	CHANGE: ce --> cký
+boříkovický	Boříkovice	CHANGE: ce --> cký
+bosácký	bosák	CHANGE: k --> cký
+boskovický	Boskovice	CHANGE: ce --> cký
+bošácký	Bošáca	CHANGE: ca --> cký
+bošilecký	Bošilec	CHANGE: c --> cký
+bošovický	Bošovice	CHANGE: ce --> cký
+botnický		UNRESOLVED
+botritický	botritida	CHANGE: ida --> ický
+botrytický	botrytida	CHANGE: ida --> ický
+božetický	Božetice	CHANGE: ce --> cký
+božický	Božice	CHANGE: ce --> cký
+božkovický	Božkovice	CHANGE: ce --> cký
+bradavický	bradavice	CHANGE: ce --> cký
+bradlecký	Bradlec	CHANGE: c --> cký
+brahmický	Brahm	CHANGE: 0 --> ický
+brakický	brak	CHANGE: 0 --> ický
+branický	Branice	CHANGE: ce --> cký
+bránický	bránice	CHANGE: ce --> cký
+branišovický	Branišovice	CHANGE: ce --> cký
+brankovický	Brankovice	CHANGE: ce --> cký
+brannětechnický		UNRESOLVED
+brantický	Brantice	CHANGE: ce --> cký
+bratčický	Bratčice	CHANGE: ce --> cký
+bratronický	Bratronice	CHANGE: ce --> cký
+bravantický	Bravantice	CHANGE: ce --> cký
+bražecký	Bražec	CHANGE: c --> cký
+brigádnický	brigádnice	CHANGE: ce --> cký
+britskoamerický		UNRESOLVED
+brněnecký	Brněnec	CHANGE: c --> cký
+brnický		UNRESOLVED
+brodecký	Brodec	CHANGE: c --> cký
+bronchitický	bronchitida	CHANGE: ida --> ický
+bronchologický	bronchologie	CHANGE: ie --> ický
+brůdecký	Brůdek	CHANGE: k --> cký
+bruitistický		UNRESOLVED
+brumovický	Brumovice	CHANGE: ce --> cký
+brunšvický	Brunšvik	CHANGE: k --> cký
+brutalistický	brutalizmus	CHANGE: izmus --> istický
+bruzovický	Bruzovice	CHANGE: ce --> cký
+břestecký	Břestek	CHANGE: k --> cký
+břevnický	Břevnice	CHANGE: ce --> cký
+březenecký	Březenec	CHANGE: c --> cký
+březnický	Březnice	CHANGE: ce --> cký
+březovický	Březovice	CHANGE: ce --> cký
+břilický	Břilice	CHANGE: ce --> cký
+bučický	Bučice	CHANGE: ce --> cký
+bučovický	Bučovice	CHANGE: ce --> cký
+budějcký	Budějce	CHANGE: ce --> cký
+budějovický	Budějovice	CHANGE: ce --> cký
+budíkovický	Budíkovice	CHANGE: ce --> cký
+budíškovický	Budíškovice	CHANGE: ce --> cký
+budišovický	Budišovice	CHANGE: ce --> cký
+buchlovický	Buchlovice	CHANGE: ce --> cký
+bukolický	bukolik	CHANGE: k --> cký
+bukovecký	Bukovec	CHANGE: c --> cký
+bukovický	Bukovice	CHANGE: ce --> cký
+bulharskoturecký		UNRESOLVED
+burlacký	Burlac	CHANGE: c --> cký
+buršácký	buršák	CHANGE: k --> cký
+bušanovický	Bušanovice	CHANGE: ce --> cký
+bušovický	Bušovice	CHANGE: ce --> cký
+butovický	Butovice	CHANGE: ce --> cký
+buzický	Buzice	CHANGE: ce --> cký
+buzulucký	Buzuluk	CHANGE: k --> cký
+býkovický	býkovice	CHANGE: ce --> cký
+byrokratickocentristický		UNRESOLVED
+byrokratický	byrokrat	CHANGE: 0 --> ický
+bystrcký	Bystrc	CHANGE: c --> cký
+bystrický	Bystr	CHANGE: 0 --> ický
+bystročický	Bystročice	CHANGE: ce --> cký
+bystřecký	Bystřec	CHANGE: c --> cký
+bystřický	Bystřice	CHANGE: ce --> cký
+byšický	Byšice	CHANGE: ce --> cký
+byškovický	Byškovice	CHANGE: ce --> cký
+býškovický	Býškovice	CHANGE: ce --> cký
+býštecký		UNRESOLVED
+bzenecký	Bzenec	CHANGE: c --> cký
+cacovický		UNRESOLVED
+camorristický		UNRESOLVED
+canisterapeutický	canisterapeut	CHANGE: 0 --> ický
+capartický	Capartice	CHANGE: ce --> cký
+caranistický		UNRESOLVED
+cehnický	Cehnice	CHANGE: ce --> cký
+celikovecký		UNRESOLVED
+celoafrický		UNRESOLVED
+celoakademický		UNRESOLVED
+celoamerický		UNRESOLVED
+celoindický		UNRESOLVED
+celokeramický		UNRESOLVED
+celomotorický		UNRESOLVED
+celoněmecký		UNRESOLVED
+celořecký		UNRESOLVED
+celostranický		UNRESOLVED
+celoturecký		UNRESOLVED
+celovecký	Celovec	CHANGE: c --> cký
+centrický	centr	CHANGE: 0 --> ický
+cerekvický	Cerekvice	CHANGE: ce --> cký
+cerhenický	Cerhenice	CHANGE: ce --> cký
+cerhovický	Cerhovice	CHANGE: ce --> cký
+cerimetrický		UNRESOLVED
+cetkovický	Cetkovice	CHANGE: ce --> cký
+cifrácký	cifrák	CHANGE: k --> cký
+cihelnický		UNRESOLVED
+církevněpolitický		UNRESOLVED
+cirkumpacifický		UNRESOLVED
+církvický	Církvice	CHANGE: ce --> cký
+cistercký		UNRESOLVED
+cisteriácký		UNRESOLVED
+citický	Citice	CHANGE: ce --> cký
+cloisonistický		UNRESOLVED
+ctěnický	Ctěnice	CHANGE: ce --> cký
+cvrčovický	Cvrčovice	CHANGE: ce --> cký
+cyklický	cykl	CHANGE: 0 --> ický
+cykloakrobatický		UNRESOLVED
+cykloalifatický		UNRESOLVED
+cykloalkanický	cykloalkan	CHANGE: 0 --> ický
+cykloalkenický	cykloalken	CHANGE: 0 --> ický
+cyklometrický		UNRESOLVED
+cyklomotoristický		UNRESOLVED
+cyklotermický		UNRESOLVED
+cykloterpenický		UNRESOLVED
+cyklotrialistický		UNRESOLVED
+cykoalkanický		UNRESOLVED
+cykoterpenický		UNRESOLVED
+cylindrický	cylindr	CHANGE: 0 --> ický
+cylindrokónický		UNRESOLVED
+cyrilický	cyrilice	CHANGE: ce --> cký
+cytolytický	cytolýza	CHANGE: ýza --> ytický
+cytopatický		UNRESOLVED
+cytostatický	cytostatikum	CHANGE: kum --> cký
+cytotoxický		UNRESOLVED
+čabelický	Čabel	CHANGE: 0 --> ický
+čacký	Čad	CHANGE: d --> cký
+čachtický	Čachtice	CHANGE: ce --> cký
+čakovický	Čakovice	CHANGE: ce --> cký
+čamakocký		UNRESOLVED
+čankovický	Čankovice	CHANGE: ce --> cký
+čáslavický	Čáslavice	CHANGE: ce --> cký
+časoměřický		UNRESOLVED
+časopisecký	časopisek	CHANGE: k --> cký
+častolovický	Častolovice	CHANGE: ce --> cký
+čečelický	Čečelice	CHANGE: ce --> cký
+čečovický	Čečovice	CHANGE: ce --> cký
+čechoamerický		UNRESOLVED
+čechobolševický	čechobolševizmus	CHANGE: izmus --> ický
+čechocentristický	čechocentrizmus	CHANGE: izmus --> istický
+čechočovický	Čechočovice	CHANGE: ce --> cký
+čechokomunistický		UNRESOLVED
+čechoslovakistický	čechoslovakismus	CHANGE: ismus --> istický
+čechovický	Čechovice	CHANGE: ce --> cký
+čechtický	Čechtice	CHANGE: ce --> cký
+čejetický	Čejetice	CHANGE: ce --> cký
+čejkovický	Čejkovice	CHANGE: ce --> cký
+čekanický	Čekanice	CHANGE: ce --> cký
+čekistický		UNRESOLVED
+čelakovický		UNRESOLVED
+čelákovický	Čelákovice	CHANGE: ce --> cký
+čelechovický	Čelechovice	CHANGE: ce --> cký
+čelkovický	Čelkovice	CHANGE: ce --> cký
+čenkovický	Čenkovice	CHANGE: ce --> cký
+čepický	čepice	CHANGE: ce --> cký
+černčický	Černčice	CHANGE: ce --> cký
+černický	černice	CHANGE: ce --> cký
+černíkovický	Černíkovice	CHANGE: ce --> cký
+černocký	Černoc	CHANGE: c --> cký
+černohumoristický		UNRESOLVED
+černokaspický		UNRESOLVED
+černokostelecký		UNRESOLVED
+černolický	Černolice	CHANGE: ce --> cký
+černomagický		UNRESOLVED
+černomostecký		UNRESOLVED
+černoprdelnický	černoprdelnice	CHANGE: ce --> cký
+černosotěnecký		UNRESOLVED
+černostudnický		UNRESOLVED
+černošický	Černošice	CHANGE: ce --> cký
+černovický	Černovice	CHANGE: ce --> cký
+černožický	Černožice	CHANGE: ce --> cký
+černucký	Černuc	CHANGE: c --> cký
+červenohrádecký		UNRESOLVED
+červenojanovický		UNRESOLVED
+červenokostelecký		UNRESOLVED
+červenokravaťácký		UNRESOLVED
+červenolhotecký		UNRESOLVED
+červenopečecký		UNRESOLVED
+červenořečický		UNRESOLVED
+českoamerický		UNRESOLVED
+českoanglický		UNRESOLVED
+českobudějovický		UNRESOLVED
+českofantastický		UNRESOLVED
+českofašistický		UNRESOLVED
+českokamenický		UNRESOLVED
+českokubický		UNRESOLVED
+českoněmecký		UNRESOLVED
+českorudolecký		UNRESOLVED
+českoskalický		UNRESOLVED
+českoslovácký		UNRESOLVED
+českovelenický		UNRESOLVED
+čestický	Čestice	CHANGE: ce --> cký
+čestňácký		UNRESOLVED
+číčenický	Číčenice	CHANGE: ce --> cký
+čimelický	Čimelice	CHANGE: ce --> cký
+čimický	Čimice	CHANGE: ce --> cký
+čínskoamerický		UNRESOLVED
+činžácký	činžák	CHANGE: k --> cký
+čistecký	čistec	CHANGE: c --> cký
+čížkovický	Čížkovice	CHANGE: ce --> cký
+čuhácký	čuhák	CHANGE: k --> cký
+dácký	Dák	CHANGE: k --> cký
+dačický	Dačice	CHANGE: ce --> cký
+dalešický	Dalešice	CHANGE: ce --> cký
+daliměřický	Daliměřice	CHANGE: ce --> cký
+dalovický	Dalovice	CHANGE: ce --> cký
+daltonický	dalton	CHANGE: 0 --> ický
+dambořický	Dambořice	CHANGE: ce --> cký
+daňkovický	Daňkovice	CHANGE: ce --> cký
+darkovický	Darkovice	CHANGE: ce --> cký
+daseinsanalytický	daseinsanalýza	CHANGE: ýza --> ytický
+dasnický	Dasnice	CHANGE: ce --> cký
+dašický	Dašice	CHANGE: ce --> cký
+deblkanoistický		UNRESOLVED
+decentralistický		UNRESOLVED
+dědovický	Dědovice	CHANGE: ce --> cký
+déesácký		UNRESOLVED
+definitorický	definitor	CHANGE: 0 --> ický
+deiktický		UNRESOLVED
+deistický	deismus	CHANGE: ismus --> istický
+dejvický	Dejvice	CHANGE: ce --> cký
+děkabristický	děkabrizmus	CHANGE: izmus --> istický
+dekonstruktivistický	dekonstruktivizmus	CHANGE: izmus --> istický
+delirický	delirium	CHANGE: ium --> ický
+dělnickoaparátnický		UNRESOLVED
+dělnickorolnický		UNRESOLVED
+demokratický	demokrat	CHANGE: 0 --> ický
+démotický		UNRESOLVED
+dendritický	dendrit	CHANGE: 0 --> ický
+deontický		UNRESOLVED
+děpoltovický	Děpoltovice	CHANGE: ce --> cký
+dereistický		UNRESOLVED
+dermatoskopický	dermatoskop	CHANGE: 0 --> ický
+dermokosmetický		UNRESOLVED
+dermoplastický		UNRESOLVED
+desetnický		UNRESOLVED
+dešenický	Dešenice	CHANGE: ce --> cký
+dětenický	Dětenice	CHANGE: ce --> cký
+dětkovický	Dětkovice	CHANGE: ce --> cký
+dětmarovický	Dětmarovice	CHANGE: ce --> cký
+detritický	detritus	CHANGE: us --> ický
+dětřichovický	Dětřichovice	CHANGE: ce --> cký
+deuterokanonický		UNRESOLVED
+dhácký		UNRESOLVED
+diabetický	diabetik	CHANGE: k --> cký
+diabolický		UNRESOLVED
+diadynamický		UNRESOLVED
+diagenetický		UNRESOLVED
+diagramatický		UNRESOLVED
+dialektickomaterialistický		UNRESOLVED
+dialogický	dialog	CHANGE: 0 --> ický
+diamagnetický	diamagnetizmus	CHANGE: izmus --> ický
+diametrický	diametr	CHANGE: 0 --> ický
+diazografický		UNRESOLVED
+diegetický		UNRESOLVED
+dielektrický	dielektrikum	CHANGE: kum --> cký
+dieselelektrický		UNRESOLVED
+difuzionistický	difuzionizmus	CHANGE: izmus --> istický
+dimerický	dimer	CHANGE: 0 --> ický
+diofantický	Diofantos	CHANGE: os --> ický
+diopsidický	diopsid	CHANGE: 0 --> ický
+dioramatický	diorama	CHANGE: a --> atický
+dipeptidický		UNRESOLVED
+dirigistický	dirigismus	CHANGE: ismus --> istický
+dislektický		UNRESOLVED
+distonický		UNRESOLVED
+disulfidický	disulfid	CHANGE: 0 --> ický
+diterpenický	diterpen	CHANGE: 0 --> ický
+diuretický	diuretikum	CHANGE: kum --> cký
+divadelnický	divadelnice	CHANGE: ce --> cký
+dívčický	dívčice	CHANGE: ce --> cký
+dizharmonický		UNRESOLVED
+dizygotický		UNRESOLVED
+dlažkovický	Dlažkovice	CHANGE: ce --> cký
+dlouhoňovický	Dlouhoňovice	CHANGE: ce --> cký
+dlouhoperiodický		UNRESOLVED
+dnešický	Dnešice	CHANGE: ce --> cký
+dobětický	Dobětice	CHANGE: ce --> cký
+dobkovický	Dobkovice	CHANGE: ce --> cký
+dobratický	Dobratice	CHANGE: ce --> cký
+dobrkovický	Dobrkovice	CHANGE: ce --> cký
+dobročkovický	Dobročkovice	CHANGE: ce --> cký
+dobročovický	Dobročovice	CHANGE: ce --> cký
+dobroměřický	Dobroměřice	CHANGE: ce --> cký
+dobromilický	Dobromilice	CHANGE: ce --> cký
+dobronický	Dobronice	CHANGE: ce --> cký
+dobroslavický	Dobroslavice	CHANGE: ce --> cký
+dobrotický	Dobrotice	CHANGE: ce --> cký
+dobrovický	Dobrovice	CHANGE: ce --> cký
+dobřichovický	Dobřichovice	CHANGE: ce --> cký
+dobšický	Dobšice	CHANGE: ce --> cký
+dohalický	Dohalice	CHANGE: ce --> cký
+dokumentografický		UNRESOLVED
+dolanecký	Dolana	CHANGE: a --> ecký
+dolánecký		UNRESOLVED
+doliňácký	doliňák	CHANGE: k --> cký
+dolňácký	dolňák	CHANGE: k --> cký
+dolnobeřkovický		UNRESOLVED
+dolnobojanovický		UNRESOLVED
+dolnocerekvický		UNRESOLVED
+dolnodunajovický		UNRESOLVED
+dolnofrancký		UNRESOLVED
+dolnokounický		UNRESOLVED
+dolnokralovický		UNRESOLVED
+dolnolukavický		UNRESOLVED
+dolnolužický		UNRESOLVED
+dolnoněmecký		UNRESOLVED
+dolnopočernický		UNRESOLVED
+dolnorokytnický		UNRESOLVED
+dolnoředický		UNRESOLVED
+dolnověstonický		UNRESOLVED
+dolomitický	dolomit	CHANGE: 0 --> ický
+domácký	domák	CHANGE: k --> cký
+domamyslický	Domamyslice	CHANGE: ce --> cký
+domanický		UNRESOLVED
+domanovický		UNRESOLVED
+domažlický	Domažlice	CHANGE: ce --> cký
+dominický	Dominic	CHANGE: c --> cký
+domoradický	Domoradice	CHANGE: ce --> cký
+domousnický	Domousnice	CHANGE: ce --> cký
+domoušický	Domoušice	CHANGE: ce --> cký
+donatistický	donatizmus	CHANGE: izmus --> istický
+doněcký		UNRESOLVED
+doopravdický		UNRESOLVED
+dopický	Dop	CHANGE: 0 --> ický
+dopplerometrický		UNRESOLVED
+dopravněpolitický		UNRESOLVED
+dosický		UNRESOLVED
+doubický	Doubice	CHANGE: ce --> cký
+doubravecký	Doubravec	CHANGE: c --> cký
+doubravický	Doubravice	CHANGE: ce --> cký
+doubravnický		UNRESOLVED
+doudlevecký	Doudlevce	CHANGE: vce --> vecký
+doxografický		UNRESOLVED
+dozický		UNRESOLVED
+dózický		UNRESOLVED
+dragovický	Dragovica	CHANGE: ca --> cký
+drahanovický	Drahanovice	CHANGE: ce --> cký
+drahelický	Drahelice	CHANGE: ce --> cký
+drahenický	Drahenice	CHANGE: ce --> cký
+drahonický	Drahonice	CHANGE: ce --> cký
+drahovický	Drahovice	CHANGE: ce --> cký
+drakonický		UNRESOLVED
+dramaterapeutický	dramaterapeut	CHANGE: 0 --> ický
+drastický		UNRESOLVED
+dražický	Dražice	CHANGE: ce --> cký
+dražkovický	Dražkovice	CHANGE: ce --> cký
+dražovický	Dražovice	CHANGE: ce --> cký
+drnholecký	Drnholec	CHANGE: c --> cký
+drnovický	Drnovice	CHANGE: ce --> cký
+droužkovický	Droužkovice	CHANGE: ce --> cký
+drozdický	Drozdice	CHANGE: ce --> cký
+drozdovický	Drozdovice	CHANGE: ce --> cký
+drslavický	Drslavice	CHANGE: ce --> cký
+drůbežnický	drůbež	CHANGE: 0 --> nický
+družecký	Družec	CHANGE: c --> cký
+družstevnický	družstevnice	CHANGE: ce --> cký
+dryjácký	dryják	CHANGE: k --> cký
+drzewický		UNRESOLVED
+držovický	Držovice	CHANGE: ce --> cký
+dřenický	Dřenice	CHANGE: ce --> cký
+dřetovický	Dřetovice	CHANGE: ce --> cký
+dřevácký	dřevák	CHANGE: k --> cký
+dřevčický	Dřevčice	CHANGE: ce --> cký
+dřevecký	dřevec	CHANGE: c --> cký
+dřevěnický	dřevěnice	CHANGE: ce --> cký
+dřevnický	Dřevnice	CHANGE: ce --> cký
+dřevnovický	Dřevnovice	CHANGE: ce --> cký
+dřevohostický	Dřevohostice	CHANGE: ce --> cký
+dubenecký	Dubenec	CHANGE: c --> cký
+dubický	Dubice	CHANGE: ce --> cký
+dublovický	Dublovice	CHANGE: ce --> cký
+dubnický	dub	CHANGE: 0 --> nický
+dubovický	dubovice	CHANGE: ce --> cký
+dubrovnický	Dubrov	CHANGE: 0 --> nický
+duklácký	duklák	CHANGE: k --> cký
+důlněměřický		UNRESOLVED
+důlnětechnický		UNRESOLVED
+dunajovický	Dunajovice	CHANGE: ce --> cký
+dušnický		UNRESOLVED
+dvakačovický	Dvakačovice	CHANGE: ce --> cký
+dvojkónický		UNRESOLVED
+dvojstranický		UNRESOLVED
+dvorecký	dvorec	CHANGE: c --> cký
+dvouetnický		UNRESOLVED
+dvoumilenecký		UNRESOLVED
+dvouparametrický		UNRESOLVED
+dvouprsťácký	dvouprsťák	CHANGE: k --> cký
+dvoustranický		UNRESOLVED
+dvoutematický		UNRESOLVED
+dyjákovický	Dyjákovice	CHANGE: ce --> cký
+dyjskosvratecký		UNRESOLVED
+dynamoelektrický		UNRESOLVED
+dynamometrický	dynamometr	CHANGE: 0 --> ický
+dyslektický	dyslektik	CHANGE: k --> cký
+dystrický		UNRESOLVED
+džihadistický	džihadismus	CHANGE: ismus --> istický
+džihádistický	džihádismus	CHANGE: ismus --> istický
+džinistický	džinismus	CHANGE: ismus --> istický
+edafický		UNRESOLVED
+edématický		UNRESOLVED
+egirinický		UNRESOLVED
+egocentrický	egocentrik	CHANGE: k --> cký
+egofuturistický	egofuturizmus	CHANGE: izmus --> istický
+eibenstocký		UNRESOLVED
+eidetický		UNRESOLVED
+ejpovický	Ejpovice	CHANGE: ce --> cký
+eklamptický		UNRESOLVED
+eklektický	eklektik	CHANGE: k --> cký
+ekologistický	ekologismus	CHANGE: ismus --> istický
+ekonomickogeografický		UNRESOLVED
+ekonomickopolitický		UNRESOLVED
+ekonomickotechnický		UNRESOLVED
+ekotoxický		UNRESOLVED
+ektoparazitický	ektoparazit	CHANGE: 0 --> ický
+elastický	elastik	CHANGE: k --> cký
+elastomerický	elastomer	CHANGE: 0 --> ický
+elegiacký		UNRESOLVED
+elektroanalytický	elektroanalýza	CHANGE: ýza --> ytický
+elektrodiagnostický		UNRESOLVED
+elektrofonický		UNRESOLVED
+elektroforetický		UNRESOLVED
+elektrohydraulický		UNRESOLVED
+elektrolytický	elektrolyt	CHANGE: 0 --> ický
+elektromechanický	elektromechanik	CHANGE: k --> cký
+elektrometrický	elektrometr	CHANGE: 0 --> ický
+elektromotorický	elektromotor	CHANGE: 0 --> ický
+elektronickomechanický		UNRESOLVED
+elektroosmotický	elektroosmóza	CHANGE: óza --> otický
+elektropneumatický		UNRESOLVED
+elektroterapeutický		UNRESOLVED
+elektrotermický		UNRESOLVED
+eliptický		UNRESOLVED
+elitistický	elitizmus	CHANGE: izmus --> istický
+emblematický	Emblema	CHANGE: a --> atický
+embryotoxický		UNRESOLVED
+emetický		UNRESOLVED
+emfatický		UNRESOLVED
+emfyteutický		UNRESOLVED
+emický	Emos	CHANGE: os --> ický
+empiristický	empirismus	CHANGE: ismus --> istický
+encefalitický	encefalitida	CHANGE: ida --> ický
+encefalografický	encefalograf	CHANGE: 0 --> ický
+endérácký		UNRESOLVED
+enderácký		UNRESOLVED
+endogmatický		UNRESOLVED
+endoplazmatický	endoplazma	CHANGE: a --> atický
+endourologický		UNRESOLVED
+eneolitický	eneolit	CHANGE: 0 --> ický
+energetickoklimatický		UNRESOLVED
+energistický		UNRESOLVED
+englický	Engl	CHANGE: 0 --> ický
+enologický	enolog	CHANGE: 0 --> ický
+entologický		UNRESOLVED
+entusiastický		UNRESOLVED
+entuziastický	entuziast	CHANGE: 0 --> ický
+enviromentalistický	enviromentalizmus	CHANGE: izmus --> istický
+enzymatický		UNRESOLVED
+eolický	Eolus	CHANGE: us --> ický
+epicentrický		UNRESOLVED
+epickodramatický		UNRESOLVED
+epifytický	epifyt	CHANGE: 0 --> ický
+epigenetický		UNRESOLVED
+epileptický	epileptik	CHANGE: k --> cký
+epilogický	epilog	CHANGE: 0 --> ický
+epineustický		UNRESOLVED
+epistemický		UNRESOLVED
+epodický		UNRESOLVED
+erasmácký	erasmák	CHANGE: k --> cký
+eratický	Erat	CHANGE: 0 --> ický
+ergodický		UNRESOLVED
+ergoterapeutický	ergoterapeut	CHANGE: 0 --> ický
+erotetický		UNRESOLVED
+erotickonostalgický		UNRESOLVED
+erotickosymbolický		UNRESOLVED
+erpužický	Erpužice	CHANGE: ce --> cký
+ervěnický	Ervěnice	CHANGE: ce --> cký
+eskymácký	eskymák	CHANGE: k --> cký
+etatistický	etatismus	CHANGE: ismus --> istický
+eterický	eter	CHANGE: 0 --> ický
+éterický	éter	CHANGE: 0 --> ický
+etickofilozofický		UNRESOLVED
+étický	étos	CHANGE: os --> ický
+etnický	etnikum	CHANGE: kum --> cký
+etnocentrický	etnocentrizmus	CHANGE: izmus --> ický
+etnogenetický		UNRESOLVED
+etnopolitický		UNRESOLVED
+etokratický		UNRESOLVED
+eufemistický	eufemismus	CHANGE: ismus --> istický
+eufenistický		UNRESOLVED
+eukaryontický		UNRESOLVED
+eukaryotický	eukaryot	CHANGE: 0 --> ický
+eupelagický		UNRESOLVED
+euphuistický	euphuizmus	CHANGE: izmus --> istický
+euroafrický		UNRESOLVED
+euroamerický		UNRESOLVED
+euroatlantický		UNRESOLVED
+eurobyrokratický	eurobyrokrat	CHANGE: 0 --> ický
+eurocentrický	eurocentrizmus	CHANGE: izmus --> ický
+eurocentristický	eurocentrizmus	CHANGE: izmus --> istický
+eurokomunistický	eurokomunizmus	CHANGE: izmus --> istický
+eurokratický	eurokrat	CHANGE: 0 --> ický
+eurooptimistický	eurooptimismus	CHANGE: ismus --> istický
+europolitický		UNRESOLVED
+eurorealistický	eurorealizmus	CHANGE: izmus --> istický
+euroskeptický	euroskeptik	CHANGE: k --> cký
+eustatický		UNRESOLVED
+eutektický	eutektikum	CHANGE: kum --> cký
+evangelický	evangelice	CHANGE: ce --> cký
+evencký	Evenk	CHANGE: k --> cký
+evolucionistický	evolucionismus	CHANGE: ismus --> istický
+evropeistický	evropeizmus	CHANGE: izmus --> istický
+exantematický		UNRESOLVED
+exbudějovický		UNRESOLVED
+exdrnovický		UNRESOLVED
+exegetický	exeget	CHANGE: 0 --> ický
+exhradecký		UNRESOLVED
+existencialistický	existencialismus	CHANGE: ismus --> istický
+exjablonecký		UNRESOLVED
+exkluzivistický	exkluzivismus	CHANGE: ismus --> istický
+exliberecký		UNRESOLVED
+exmostecký		UNRESOLVED
+exolomoucký		UNRESOLVED
+exoreický		UNRESOLVED
+exoterický		UNRESOLVED
+exotermický		UNRESOLVED
+expanzionistický	expanzionizmus	CHANGE: izmus --> istický
+expardubický		UNRESOLVED
+expísecký		UNRESOLVED
+explosionalistický		UNRESOLVED
+exprachatický		UNRESOLVED
+exsocialistický		UNRESOLVED
+exstrakonický		UNRESOLVED
+extatický		UNRESOLVED
+extenzometrický	extenzometr	CHANGE: 0 --> ický
+exteplický		UNRESOLVED
+extragalaktický		UNRESOLVED
+extřinecký		UNRESOLVED
+exústecký		UNRESOLVED
+exvítkovický		UNRESOLVED
+ezoterický	ezoterik	CHANGE: k --> cký
+fajácký	Faják	CHANGE: k --> cký
+faktický	fakt	CHANGE: 0 --> ický
+falcký	falc	CHANGE: c --> cký
+falický	falus	CHANGE: us --> ický
+falocentrický		UNRESOLVED
+famácký	famák	CHANGE: k --> cký
+fanatický	fanatik	CHANGE: k --> cký
+fantasmatický		UNRESOLVED
+fantomatický		UNRESOLVED
+faradický	farad	CHANGE: 0 --> ický
+farmakodiagnostický		UNRESOLVED
+farmakognostický		UNRESOLVED
+farmakoterapeutický		UNRESOLVED
+farnický	farnice	CHANGE: ce --> cký
+fašerácký	fašerák	CHANGE: k --> cký
+fašistickokomunistický		UNRESOLVED
+fatický	Fatos	CHANGE: os --> ický
+fauvistický	fauvizmus	CHANGE: izmus --> istický
+fázický		UNRESOLVED
+febiácký		UNRESOLVED
+felinický		UNRESOLVED
+fenetický		UNRESOLVED
+fénický	fén	CHANGE: 0 --> ický
+fenolamidický		UNRESOLVED
+fenolický	fenol	CHANGE: 0 --> ický
+fenoplastický	fenoplast	CHANGE: 0 --> ický
+ferimagnetický	ferimagnetikum	CHANGE: kum --> cký
+feritický	ferit	CHANGE: 0 --> ický
+feroelektrický	feroelektrikum	CHANGE: kum --> cký
+feromagnetický	feromagnetizmus	CHANGE: izmus --> ický
+ferromagnetický		UNRESOLVED
+feudalistický	feudalismus	CHANGE: ismus --> istický
+fibrinolytický	fibrinolýza	CHANGE: ýza --> ytický
+fibroplastický		UNRESOLVED
+filosofickohistorický		UNRESOLVED
+filosofický	filosofos	CHANGE: os --> ický
+filumenistický		UNRESOLVED
+finančněanalytický		UNRESOLVED
+fluidický		UNRESOLVED
+foenický	foen	CHANGE: 0 --> ický
+foinický		UNRESOLVED
+foinícký		UNRESOLVED
+fojtecký	Fojta	CHANGE: a --> ecký
+fonický	Fon	CHANGE: 0 --> ický
+fónický	fón	CHANGE: 0 --> ický
+fonosyntetický		UNRESOLVED
+fosfatický	Fosfa	CHANGE: a --> atický
+fotodynamický		UNRESOLVED
+fotoelektrický		UNRESOLVED
+fotoelektronický		UNRESOLVED
+fotogenický		UNRESOLVED
+fotochromický		UNRESOLVED
+fotokatalytický		UNRESOLVED
+fotolytický	fotolýza	CHANGE: ýza --> ytický
+fotomechanický		UNRESOLVED
+fotomikrografický		UNRESOLVED
+fotomorfogenetický		UNRESOLVED
+fotopický		UNRESOLVED
+fotorealistický	fotorealismus	CHANGE: ismus --> istický
+fotostatický		UNRESOLVED
+fotosyntetický		UNRESOLVED
+fototoxický		UNRESOLVED
+francký	Franc	CHANGE: c --> cký
+francouzskobelgický		UNRESOLVED
+francouzskoněmecký		UNRESOLVED
+franický	Franic	CHANGE: c --> cký
+frankistický	frankismus	CHANGE: ismus --> istický
+fraštácký		UNRESOLVED
+freatický		UNRESOLVED
+frenetický		UNRESOLVED
+freudistický	freudizmus	CHANGE: izmus --> istický
+fryčovický	Fryčovice	CHANGE: ce --> cký
+frýdeckomístecký		UNRESOLVED
+frýdecký	Frýda	CHANGE: a --> ecký
+frygický	Fryg	CHANGE: 0 --> ický
+frýgický	Frýg	CHANGE: 0 --> ický
+fryštácký	Fryšták	CHANGE: k --> cký
+ftizeologický		UNRESOLVED
+fulnecký	Fulnek	CHANGE: k --> cký
+fundamelistický		UNRESOLVED
+fungistatický		UNRESOLVED
+fylitický	fylit	CHANGE: 0 --> ický
+fytofarmaceutický		UNRESOLVED
+fytoterapeutický	fytoterapeut	CHANGE: 0 --> ický
+fytotoxický		UNRESOLVED
+fyzickogeografický		UNRESOLVED
+fyzický	fyzik	CHANGE: k --> cký
+fyzikalistický	fyzikalizmus	CHANGE: izmus --> istický
+fyzikálněchemický		UNRESOLVED
+fyzikálnětechnický		UNRESOLVED
+fyziografický		UNRESOLVED
+fyziochemický		UNRESOLVED
+fyziokratický	fyziokrat	CHANGE: 0 --> ický
+fyzioterapeutický	fyzioterapeut	CHANGE: 0 --> ický
+galaktický		UNRESOLVED
+galenický	Galen	CHANGE: 0 --> ický
+galvanický	galvanizmus	CHANGE: izmus --> ický
+gánovecký	Gánovce	CHANGE: vce --> vecký
+gastrický		UNRESOLVED
+gegický		UNRESOLVED
+gelnický	Gelnice	CHANGE: ce --> cký
+gemologický	gemolog	CHANGE: 0 --> ický
+gemorfologický		UNRESOLVED
+generický	generikum	CHANGE: kum --> cký
+genografický		UNRESOLVED
+genotoxický		UNRESOLVED
+genotypický	genotyp	CHANGE: 0 --> ický
+geocentrický	geocentrizmus	CHANGE: izmus --> ický
+geoelektrický		UNRESOLVED
+geohistorický		UNRESOLVED
+geomagnetický	geomagnetizmus	CHANGE: izmus --> ický
+geomechanický		UNRESOLVED
+geometrickooptický		UNRESOLVED
+geonomický		UNRESOLVED
+geopsychický		UNRESOLVED
+geoseismický		UNRESOLVED
+geostatický		UNRESOLVED
+geostatistický		UNRESOLVED
+geostrategický		UNRESOLVED
+geotermický		UNRESOLVED
+geotropický	geotropizmus	CHANGE: izmus --> ický
+gestaltistický	gestaltizmus	CHANGE: izmus --> istický
+gigantický	gigant	CHANGE: 0 --> ický
+giljacký		UNRESOLVED
+glacilimnický		UNRESOLVED
+glivický	Glivice	CHANGE: ce --> cký
+globalistický	globalismus	CHANGE: ismus --> istický
+glykemický		UNRESOLVED
+glykosidický	glykosid	CHANGE: 0 --> ický
+gnomický	gnomik	CHANGE: k --> cký
+gnómický	gnóm	CHANGE: 0 --> ický
+gnomonický		UNRESOLVED
+gnostický	gnostik	CHANGE: k --> cký
+goistický		UNRESOLVED
+gombasecký		UNRESOLVED
+gordický	Gordie	CHANGE: ie --> ický
+gorický	Gorica	CHANGE: ca --> cký
+gorlický	Gorlice	CHANGE: ce --> cký
+gradualistický	gradualizmus	CHANGE: izmus --> istický
+grafitický	grafit	CHANGE: 0 --> ický
+grálistický		UNRESOLVED
+gramatickologický		UNRESOLVED
+granátický	granát	CHANGE: 0 --> ický
+granitický	granit	CHANGE: 0 --> ický
+granitotrachytický		UNRESOLVED
+granoblastický		UNRESOLVED
+gravitonický	graviton	CHANGE: 0 --> ický
+gumelnický		UNRESOLVED
+gymnický		UNRESOLVED
+gymplácký	gymplák	CHANGE: k --> cký
+gynegologický		UNRESOLVED
+gynekologickoporodnický		UNRESOLVED
+gyroskopický	gyroskop	CHANGE: 0 --> ický
+habartický	Habartice	CHANGE: ce --> cký
+habrovický	Habrovice	CHANGE: ce --> cký
+habrůvecký		UNRESOLVED
+habsburskokatolický		UNRESOLVED
+hádecký	hádek	CHANGE: k --> cký
+hajducký	hajduk	CHANGE: k --> cký
+hájecký	hájek	CHANGE: k --> cký
+hajnický	Hajnice	CHANGE: ce --> cký
+halenkovický	Halenkovice	CHANGE: ce --> cký
+halický	Hal	CHANGE: 0 --> ický
+hamasistický		UNRESOLVED
+hamernický	Hamer	CHANGE: 0 --> nický
+hanácký	Hanák	CHANGE: k --> cký
+haňovický	Haňovice	CHANGE: ce --> cký
+hanušovický	Hanušovice	CHANGE: ce --> cký
+haptický		UNRESOLVED
+harcký	Harko	CHANGE: ko --> cký
+harmanecký	Harmanec	CHANGE: c --> cký
+hartmanický	Hartmanice	CHANGE: ce --> cký
+hartvíkovický	Hartvíkovice	CHANGE: ce --> cký
+haubický		UNRESOLVED
+havlistický	havlismus	CHANGE: ismus --> istický
+havlovický	Havlovice	CHANGE: ce --> cký
+havranický	havranice	CHANGE: ce --> cký
+havřický	Havřice	CHANGE: ce --> cký
+hebefrenický		UNRESOLVED
+hédonický	hédonik	CHANGE: k --> cký
+hédónický		UNRESOLVED
+hedonistický		UNRESOLVED
+hédonostický		UNRESOLVED
+hegemonistický	hegemonismus	CHANGE: ismus --> istický
+hejnický	Hejnice	CHANGE: ce --> cký
+hejtmánkovický	Hejtmánkovice	CHANGE: ce --> cký
+hekatombický		UNRESOLVED
+hektický	hektik	CHANGE: k --> cký
+helenistický	helenizmus	CHANGE: izmus --> istický
+heliocentrický	heliocentrismus	CHANGE: ismus --> ický
+heliografický	heliograf	CHANGE: 0 --> ický
+helioskopický	helioskop	CHANGE: 0 --> ický
+heliotropický	heliotrop	CHANGE: 0 --> ický
+hematoencefalický		UNRESOLVED
+hematoencefalitický		UNRESOLVED
+hematologickoonkologický		UNRESOLVED
+hemikrystalický		UNRESOLVED
+hemolytický	hemolýza	CHANGE: ýza --> ytický
+hepatický	Hepatica	CHANGE: ca --> cký
+hepatotoxický		UNRESOLVED
+heptatonický		UNRESOLVED
+herálecký	Herálec	CHANGE: c --> cký
+heraltický	Heraltice	CHANGE: ce --> cký
+heretický	heretik	CHANGE: k --> cký
+herlíkovický	Herlíkovice	CHANGE: ce --> cký
+hermafroditický	hermafrodit	CHANGE: 0 --> ický
+heroický	Hero	CHANGE: 0 --> ický
+herpetický		UNRESOLVED
+heršpický	Heršpice	CHANGE: ce --> cký
+heřmanický	Heřmanice	CHANGE: ce --> cký
+heřmanoměstecký		UNRESOLVED
+heřmanovický	Heřmanovice	CHANGE: ce --> cký
+heterocyklický	heterocyklus	CHANGE: us --> ický
+heterogametický		UNRESOLVED
+heterosylabický		UNRESOLVED
+heterotopický		UNRESOLVED
+heterotypický		UNRESOLVED
+heuautognostický		UNRESOLVED
+hexametrický	hexametr	CHANGE: 0 --> ický
+hiearchický		UNRESOLVED
+hieratický		UNRESOLVED
+hieroglyfický	hieroglyf	CHANGE: 0 --> ický
+hipický		UNRESOLVED
+hipologický		UNRESOLVED
+hipoterapeutický		UNRESOLVED
+hippologický		UNRESOLVED
+hispanoamerický		UNRESOLVED
+histický	Histos	CHANGE: os --> ický
+histomorfologický		UNRESOLVED
+historickofilologický		UNRESOLVED
+historickomaterialistický		UNRESOLVED
+historickopolitický		UNRESOLVED
+histotoxický		UNRESOLVED
+hitlerovskofašistický		UNRESOLVED
+hlasistický	hlasizmus	CHANGE: izmus --> istický
+hlavický	hlavice	CHANGE: ce --> cký
+hlavnický	Hlavnice	CHANGE: ce --> cký
+hlinecký	Hlinsko	CHANGE: sko --> ecký
+hlivický	Hlivice	CHANGE: ce --> cký
+hloušecký	Hloušek	CHANGE: k --> cký
+hlubocký	hluboko	CHANGE: ko --> cký
+hlucký	hluk	CHANGE: k --> cký
+hlušický	Hlušice	CHANGE: ce --> cký
+hnanický	Hnanice	CHANGE: ce --> cký
+hnátnický	Hnátnice	CHANGE: ce --> cký
+hněvkovický	Hněvkovice	CHANGE: ce --> cký
+hněvošický	Hněvošice	CHANGE: ce --> cký
+hobšovický	Hobšovice	CHANGE: ce --> cký
+hodický	Hodice	CHANGE: ce --> cký
+hodkovický	Hodkovice	CHANGE: ce --> cký
+hodonický	Hodonice	CHANGE: ce --> cký
+hodousický	Hodousice	CHANGE: ce --> cký
+hodslavický	Hodslavice	CHANGE: ce --> cký
+hokynářskoklientelistický		UNRESOLVED
+holarktický		UNRESOLVED
+holašovický	Holašovice	CHANGE: ce --> cký
+holčovický	Holčovice	CHANGE: ce --> cký
+holešovický	Holešovice	CHANGE: ce --> cký
+holistický	holizmus	CHANGE: izmus --> istický
+holoarktický		UNRESOLVED
+holoblastický		UNRESOLVED
+holofonický		UNRESOLVED
+holokrystalický		UNRESOLVED
+holotropický		UNRESOLVED
+holozoický		UNRESOLVED
+holubický	holubice	CHANGE: ce --> cký
+holušický	Holušice	CHANGE: ce --> cký
+homeostatický	homeostat	CHANGE: 0 --> ický
+homeotický		UNRESOLVED
+homeotypický		UNRESOLVED
+homérický	Homér	CHANGE: 0 --> ický
+homocentrický		UNRESOLVED
+homoerotický	homoerotizmus	CHANGE: izmus --> ický
+homoetnický		UNRESOLVED
+homokinetický		UNRESOLVED
+homolytický	homolýza	CHANGE: ýza --> ytický
+homotypický		UNRESOLVED
+hopodářskotechnický		UNRESOLVED
+horažďovický	Horažďovice	CHANGE: ce --> cký
+horecký	hora	CHANGE: a --> ecký
+horňácký	horňák	CHANGE: k --> cký
+hornocerekvický		UNRESOLVED
+hornofalcký		UNRESOLVED
+hornocholupický		UNRESOLVED
+hornolužický		UNRESOLVED
+hornoněmecký	Hornoněmec	CHANGE: c --> cký
+hornopočernický		UNRESOLVED
+hornopolický		UNRESOLVED
+hornosvratecký		UNRESOLVED
+hornothrácký		UNRESOLVED
+hornovltavický		UNRESOLVED
+horoměřický	Horoměřice	CHANGE: ce --> cký
+horusický	Horusice	CHANGE: ce --> cký
+hořický	Hořice	CHANGE: ce --> cký
+hořovický	Hořovice	CHANGE: ce --> cký
+hoslovický	Hoslovice	CHANGE: ce --> cký
+hospodářskopolitický		UNRESOLVED
+hospodářskotechnický		UNRESOLVED
+hospodářskoúpravnický		UNRESOLVED
+hostašovický	Hostašovice	CHANGE: ce --> cký
+hostavický	Hostavice	CHANGE: ce --> cký
+hostěnický	Hostěnice	CHANGE: ce --> cký
+hostěradický	Hostěradice	CHANGE: ce --> cký
+hostivický	Hostivice	CHANGE: ce --> cký
+hostomický	Hostomice	CHANGE: ce --> cký
+hostovický	Hostovice	CHANGE: ce --> cký
+hostovlický	Hostovlice	CHANGE: ce --> cký
+hoškovický	Hoškovice	CHANGE: ce --> cký
+hošťálkovický	Hošťálkovice	CHANGE: ce --> cký
+hoštecký	Hošta	CHANGE: a --> ecký
+hoštický	Hoštice	CHANGE: ce --> cký
+houštecký		UNRESOLVED
+hovorčovický	Hovorčovice	CHANGE: ce --> cký
+hrabazický		UNRESOLVED
+hrabušický	Hrabušice	CHANGE: ce --> cký
+hradecký	hradec	CHANGE: c --> cký
+hrádecký	hrádek	CHANGE: k --> cký
+hradešický	Hradešice	CHANGE: ce --> cký
+hradozámecký		UNRESOLVED
+hradubický		UNRESOLVED
+hranický	hranice	CHANGE: ce --> cký
+hrdějovický	Hrdějovice	CHANGE: ce --> cký
+hrdibořický	Hrdibořice	CHANGE: ce --> cký
+hrdinskoepický		UNRESOLVED
+hrdinskokomický		UNRESOLVED
+hrejkovický	Hrejkovice	CHANGE: ce --> cký
+hrobický	Hrobice	CHANGE: ce --> cký
+hrochovotýnecký		UNRESOLVED
+hromnický	hromnice	CHANGE: ce --> cký
+hronovický	Hronov	CHANGE: 0 --> ický
+hrotovický	Hrotovice	CHANGE: ce --> cký
+hrubčický	Hrubčice	CHANGE: ce --> cký
+hruborohozecký		UNRESOLVED
+hrusický	Hrusice	CHANGE: ce --> cký
+hrušecký	Hruša	CHANGE: a --> ecký
+hříchovický	Hříchovice	CHANGE: ce --> cký
+hřivický	Hřivice	CHANGE: ce --> cký
+huaxtécký		UNRESOLVED
+hudebnědramatický		UNRESOLVED
+hudebnický	hudebnice	CHANGE: ce --> cký
+hudibrastický		UNRESOLVED
+hudlický	Hudlice	CHANGE: ce --> cký
+hulvácký	Hulváky	CHANGE: ky --> cký
+humorněkritický		UNRESOLVED
+humpolácký	humpolák	CHANGE: k --> cký
+hůrecký	hůra	CHANGE: a --> ecký
+husický	husice	CHANGE: ce --> cký
+husovický	Husovice	CHANGE: ce --> cký
+huštěnovický	Huštěnovice	CHANGE: ce --> cký
+hvozdecký	Hvozdec	CHANGE: c --> cký
+hybridologický		UNRESOLVED
+hydraulickopneumatický		UNRESOLVED
+hydroanalytický		UNRESOLVED
+hydrocefalický	hydrocefalus	CHANGE: us --> ický
+hydroelektrický		UNRESOLVED
+hydrogalvanický	hydrogalvan	CHANGE: 0 --> ický
+hydrochemický		UNRESOLVED
+hydrokinetický		UNRESOLVED
+hydrolytický	hydrolýza	CHANGE: ýza --> ytický
+hydromagnetický		UNRESOLVED
+hydrometalurgický		UNRESOLVED
+hydrometrický	hydrometr	CHANGE: 0 --> ický
+hydromotorický	hydromotor	CHANGE: 0 --> ický
+hydropneumatický		UNRESOLVED
+hydroskopický	hydroskop	CHANGE: 0 --> ický
+hydrotermický		UNRESOLVED
+hygroskopický		UNRESOLVED
+hygrostatický		UNRESOLVED
+hyletický		UNRESOLVED
+hýlozoistický	hýlozoizmus	CHANGE: izmus --> istický
+hyperbarický		UNRESOLVED
+hyperkinetický		UNRESOLVED
+hyperkritický		UNRESOLVED
+hyperrealistický	hyperrealizmus	CHANGE: izmus --> istický
+hyperstenický	hypersten	CHANGE: 0 --> ický
+hypodermický		UNRESOLVED
+hypogeický		UNRESOLVED
+hypoglykemický		UNRESOLVED
+hypokoristický		UNRESOLVED
+hyponeustický		UNRESOLVED
+hypostatický		UNRESOLVED
+hypotaktický		UNRESOLVED
+hypotalamický	hypotalamus	CHANGE: us --> ický
+hypotetický		UNRESOLVED
+hypovolemický		UNRESOLVED
+chabařovický	Chabařovice	CHANGE: ce --> cký
+chalkidický		UNRESOLVED
+chalkolitický		UNRESOLVED
+chanovický	Chanovice	CHANGE: ce --> cký
+chaotický	chaotik	CHANGE: k --> cký
+charismatický	charismatik	CHANGE: k --> cký
+chelčický	Chelčice	CHANGE: ce --> cký
+chemickobakteriologický		UNRESOLVED
+chemickosyntetický		UNRESOLVED
+chemickotechnologický		UNRESOLVED
+chemosyntetický		UNRESOLVED
+chemoterapeutický	chemoterapeutikum	CHANGE: kum --> cký
+cheznovický	Cheznovice	CHANGE: ce --> cký
+chiliastický		UNRESOLVED
+chilistický		UNRESOLVED
+chiropraktický	chiropraktik	CHANGE: k --> cký
+chlebovický	Chlebovice	CHANGE: ce --> cký
+chlístovický	Chlístovice	CHANGE: ce --> cký
+chloritický	chlorit	CHANGE: 0 --> ický
+chlororganický		UNRESOLVED
+chlorotický	chloróza	CHANGE: óza --> otický
+chloumecký	chloumek	CHANGE: k --> cký
+chmelnický	chmelnice	CHANGE: ce --> cký
+chocovický	Chocovice	CHANGE: ce --> cký
+chodovický	Chodovice	CHANGE: ce --> cký
+cholesterický		UNRESOLVED
+choltický	Choltice	CHANGE: ce --> cký
+cholupický	Cholupice	CHANGE: ce --> cký
+chomutický	Chomutice	CHANGE: ce --> cký
+chórický	chór	CHANGE: 0 --> ický
+chornický	Chornice	CHANGE: ce --> cký
+chorografický		UNRESOLVED
+chotěvický	Chotěvice	CHANGE: ce --> cký
+chotický		UNRESOLVED
+chotucký	Chotuc	CHANGE: c --> cký
+chotusický	Chotusice	CHANGE: ce --> cký
+chotutický	Chotutice	CHANGE: ce --> cký
+choustnický		UNRESOLVED
+chrámecký	chrámek	CHANGE: k --> cký
+chrapácký		UNRESOLVED
+chrastavický	Chrastavice	CHANGE: ce --> cký
+chrastecký	Chrasta	CHANGE: a --> ecký
+chrástecký	Chrástek	CHANGE: k --> cký
+chrastický	chrastice	CHANGE: ce --> cký
+chraštický	Chraštice	CHANGE: ce --> cký
+chrlický	Chrlice	CHANGE: ce --> cký
+chromografický	chromograf	CHANGE: 0 --> ický
+chromotypografický		UNRESOLVED
+chronický	chronik	CHANGE: k --> cký
+chroustovický	Chroustovice	CHANGE: ce --> cký
+chrustenický	Chrustenice	CHANGE: ce --> cký
+chřenovický	Chřenovice	CHANGE: ce --> cký
+chtonický		UNRESOLVED
+chudenický	Chudenice	CHANGE: ce --> cký
+chudeřický	Chudeřice	CHANGE: ce --> cký
+chválenický	Chválenice	CHANGE: ce --> cký
+chvaletický	Chvaletice	CHANGE: ce --> cký
+chvalkovický	Chvalkovice	CHANGE: ce --> cký
+chválkovický	Chválkovice	CHANGE: ce --> cký
+chvalovický	Chvalovice	CHANGE: ce --> cký
+chvojenecký	Chvojenec	CHANGE: c --> cký
+chvojkovický	Chvojkovice	CHANGE: ce --> cký
+chyšecký		UNRESOLVED
+iberoamerický		UNRESOLVED
+identický		UNRESOLVED
+ideopolitický		UNRESOLVED
+idiografický		UNRESOLVED
+idiopatický		UNRESOLVED
+idiosynkratický		UNRESOLVED
+idiotický	idiot	CHANGE: 0 --> ický
+ikonoklastický	ikonoklast	CHANGE: 0 --> ický
+ilitický	ilit	CHANGE: 0 --> ický
+imagistický	imagizmus	CHANGE: izmus --> istický
+imunoanalytický	imunoanalýza	CHANGE: ýza --> ytický
+imunoenzymatický		UNRESOLVED
+imunofarmakologický		UNRESOLVED
+imunohistochemický		UNRESOLVED
+imunochemický	imunochemik	CHANGE: k --> cký
+imunopatologický		UNRESOLVED
+imunoradiometrický		UNRESOLVED
+imunotoxický		UNRESOLVED
+incký	Ince	CHANGE: ce --> cký
+indický	Ind	CHANGE: 0 --> ický
+indopacifický	Indopacifik	CHANGE: k --> cký
+infografický		UNRESOLVED
+informačnětechnický		UNRESOLVED
+infraoptický		UNRESOLVED
+innsbrucký		UNRESOLVED
+instrumentalistický	instrumentalizmus	CHANGE: izmus --> istický
+intelektualistický	intelektualismus	CHANGE: ismus --> istický
+interetnický		UNRESOLVED
+interfázický		UNRESOLVED
+intergalaktický		UNRESOLVED
+interkomunistický		UNRESOLVED
+interkondylický		UNRESOLVED
+intermetalický		UNRESOLVED
+interprizmatický		UNRESOLVED
+intervencionistický	intervencionismus	CHANGE: ismus --> istický
+intervokalický		UNRESOLVED
+intrapsychický		UNRESOLVED
+intraspecifický		UNRESOLVED
+intrinsický		UNRESOLVED
+intuicionistický	intuicionizmus	CHANGE: izmus --> istický
+intuitivistický	intuitivizmus	CHANGE: izmus --> istický
+inženýrskogeologický		UNRESOLVED
+inženýrskopedagogický		UNRESOLVED
+inženýrskotechnický		UNRESOLVED
+iónskoattický		UNRESOLVED
+iracionalistický	iracionalismus	CHANGE: ismus --> istický
+irácký	Irák	CHANGE: k --> cký
+iredentistický	iredentismus	CHANGE: ismus --> istický
+ischematický		UNRESOLVED
+ischiadický		UNRESOLVED
+ischiatický	Ischia	CHANGE: a --> atický
+istmický	istmus	CHANGE: us --> ický
+italskoněmecký		UNRESOLVED
+ivančický	Ivančice	CHANGE: ce --> cký
+ivanovický	Ivanovice	CHANGE: ce --> cký
+izoelektrický		UNRESOLVED
+izoenergetický		UNRESOLVED
+izochemický		UNRESOLVED
+izochorický		UNRESOLVED
+izorytmický		UNRESOLVED
+izostatický	izostat	CHANGE: 0 --> ický
+izotonický		UNRESOLVED
+izotopický	izotop	CHANGE: 0 --> ický
+jabkenický	Jabkenice	CHANGE: ce --> cký
+jablonecký	Jablonec	CHANGE: c --> cký
+jaderněenergetický		UNRESOLVED
+jahvistický		UNRESOLVED
+jakubčovický	Jakubčovice	CHANGE: ce --> cký
+jambický	jamb	CHANGE: 0 --> ický
+jamnický	jamnice	CHANGE: ce --> cký
+jankovický	Jankovice	CHANGE: ce --> cký
+janovický	Janovice	CHANGE: ce --> cký
+jansenistický	jansenizmus	CHANGE: izmus --> istický
+jaroměřický	Jaroměřice	CHANGE: ce --> cký
+jaroslavický	Jaroslavice	CHANGE: ce --> cký
+jaslovskobohunický		UNRESOLVED
+jatecký	Jatek	CHANGE: k --> cký
+javornický	Javornice	CHANGE: ce --> cký
+jazzfonický		UNRESOLVED
+jednocyklický		UNRESOLVED
+jednoparametrický		UNRESOLVED
+jednostranický		UNRESOLVED
+jedovnický	Jedovnice	CHANGE: ce --> cký
+jehnický	jehnice	CHANGE: ce --> cký
+jemnický	Jemnice	CHANGE: ce --> cký
+jemnomechanický		UNRESOLVED
+jenišovický	Jenišovice	CHANGE: ce --> cký
+jeřický	jeřice	CHANGE: ce --> cký
+jeřmanický	Jeřmanice	CHANGE: ce --> cký
+jesenický	Jesenice	CHANGE: ce --> cký
+jestbořický		UNRESOLVED
+ješetický	Ješetice	CHANGE: ce --> cký
+ješovický	Ješovice	CHANGE: ce --> cký
+jetřichovický	Jetřichovice	CHANGE: ce --> cký
+jevišovický	Jevišovice	CHANGE: ce --> cký
+jezbořický	Jezbořice	CHANGE: ce --> cký
+jezernický	Jezernice	CHANGE: ce --> cký
+jihoafrický		UNRESOLVED
+jihoamerický		UNRESOLVED
+jihoanglický		UNRESOLVED
+jihoatlantický		UNRESOLVED
+jihobelgický		UNRESOLVED
+jihoindický		UNRESOLVED
+jihoirácký		UNRESOLVED
+jiholužický		UNRESOLVED
+jihomalešický		UNRESOLVED
+jihomexický		UNRESOLVED
+jihoněmecký		UNRESOLVED
+jihopacifický		UNRESOLVED
+jihořecký		UNRESOLVED
+jihotádžický		UNRESOLVED
+jihoturecký		UNRESOLVED
+jilemnický	Jilemnice	CHANGE: ce --> cký
+jílovický	Jílovice	CHANGE: ce --> cký
+jindický	Jindice	CHANGE: ce --> cký
+jindřichohradecký		UNRESOLVED
+jindřichovický	Jindřichovice	CHANGE: ce --> cký
+jinecký	Jinek	CHANGE: k --> cký
+jinolický	Jinolice	CHANGE: ce --> cký
+jinonický	Jinonice	CHANGE: ce --> cký
+jiřický	Jiřice	CHANGE: ce --> cký
+jiříkovický	Jiříkovice	CHANGE: ce --> cký
+jistebnický	Jistebnice	CHANGE: ce --> cký
+jízdecký	jízda	CHANGE: a --> ecký
+jogistický		UNRESOLVED
+jonácký	jonák	CHANGE: k --> cký
+judicialistický		UNRESOLVED
+justicialistický		UNRESOLVED
+kačický	kačice	CHANGE: ce --> cký
+kágébácký	kágébák	CHANGE: k --> cký
+kachetický		UNRESOLVED
+kaleidoskopický	kaleidoskop	CHANGE: 0 --> ický
+kalmycký	Kalmyk	CHANGE: k --> cký
+kalometrický		UNRESOLVED
+kambický	kambium	CHANGE: ium --> ický
+kambrický	kambrium	CHANGE: ium --> ický
+kameňácký	kameňák	CHANGE: k --> cký
+kamenecký	kamenec	CHANGE: c --> cký
+kameralistický		UNRESOLVED
+kampanologický		UNRESOLVED
+kanacký	Kanak	CHANGE: k --> cký
+kanadskoamerický		UNRESOLVED
+kančický	kančice	CHANGE: ce --> cký
+kanibalistický	kanibalismus	CHANGE: ismus --> istický
+kanický	Kanice	CHANGE: ce --> cký
+kánonický	kánon	CHANGE: 0 --> ický
+kaolinický		UNRESOLVED
+kaolinitický	kaolinit	CHANGE: 0 --> ický
+kaplický	kaplice	CHANGE: ce --> cký
+kappadocký		UNRESOLVED
+karabinický	karabinice	CHANGE: ce --> cký
+karakalpacký	Karakalpak	CHANGE: k --> cký
+karbocyklický		UNRESOLVED
+kardašovořečický		UNRESOLVED
+kardioangiologický		UNRESOLVED
+kardiografický	kardiograf	CHANGE: 0 --> ický
+karikaturistický		UNRESOLVED
+karlický	Karlik	CHANGE: k --> cký
+karlistický		UNRESOLVED
+karlovacký	Karlovac	CHANGE: c --> cký
+karlovický	Karlovice	CHANGE: ce --> cký
+karnacký	Karnak	CHANGE: k --> cký
+karnátacký		UNRESOLVED
+karpatoněmecký		UNRESOLVED
+kartolitografický		UNRESOLVED
+kartometrický	kartometr	CHANGE: 0 --> ický
+kařízecký	Kařízek	CHANGE: k --> cký
+kasalický	Kasalice	CHANGE: ce --> cký
+kasejovický	Kasejovice	CHANGE: ce --> cký
+kaspický	Kaspik	CHANGE: k --> cký
+kastovnický		UNRESOLVED
+kašovický	Kašovice	CHANGE: ce --> cký
+kaštický	Kaštice	CHANGE: ce --> cký
+katabolický	katabolizmus	CHANGE: izmus --> ický
+katalektický		UNRESOLVED
+kataleptický		UNRESOLVED
+katalytický	katalýza	CHANGE: ýza --> ytický
+katechumenický	katechumen	CHANGE: 0 --> ický
+kateřinický	Kateřinice	CHANGE: ce --> cký
+katovický	Katovice	CHANGE: ce --> cký
+katusický	Katusice	CHANGE: ce --> cký
+kaustický		UNRESOLVED
+kavárnický	kavárnice	CHANGE: ce --> cký
+keblický	Keblice	CHANGE: ce --> cký
+kejnický	Kejnice	CHANGE: ce --> cký
+keltický	Keltik	CHANGE: k --> cký
+kenozoický	kenozoikum	CHANGE: kum --> cký
+kentucký		UNRESOLVED
+keprnický	kepr	CHANGE: 0 --> nický
+keratolytický	keratolytikum	CHANGE: kum --> cký
+kerhartický	Kerhartice	CHANGE: ce --> cký
+ketonický	keton	CHANGE: 0 --> ický
+kielecký		UNRESOLVED
+kilometrický	kilometr	CHANGE: 0 --> ický
+kinesiologický		UNRESOLVED
+kinestetický		UNRESOLVED
+kirkúcký	Kirkúk	CHANGE: k --> cký
+kladecký	Kladsko	CHANGE: sko --> ecký
+klánovický	Klánovice	CHANGE: ce --> cký
+klapzubácký	Klapzubák	CHANGE: k --> cký
+klasicistický	klasicismus	CHANGE: ismus --> istický
+klastický		UNRESOLVED
+klášterecký	Klášterec	CHANGE: c --> cký
+klavírnický	klavírnice	CHANGE: ce --> cký
+klementovický	Klementovice	CHANGE: ce --> cký
+klenovický	Klenovice	CHANGE: ce --> cký
+klentnický	Klentnice	CHANGE: ce --> cký
+klerofašistický	klerofašizmus	CHANGE: izmus --> istický
+klientelistický	klientelizmus	CHANGE: izmus --> istický
+klimakterický	klimakterium	CHANGE: ium --> ický
+klimatogenetický		UNRESOLVED
+klimatomechanický		UNRESOLVED
+klimatoterapeutický		UNRESOLVED
+klimkovický	Klimkovice	CHANGE: ce --> cký
+klinickopsychologický		UNRESOLVED
+klínovecký	Klínovec	CHANGE: c --> cký
+kloboucký	klobouk	CHANGE: k --> cký
+klobucký	Klobuky	CHANGE: ky --> cký
+klonický	klon	CHANGE: 0 --> ický
+klubistický	klubizmus	CHANGE: izmus --> istický
+knínický	Knínice	CHANGE: ce --> cký
+kobeřický	Kobeřice	CHANGE: ce --> cký
+kocelovický	Kocelovice	CHANGE: ce --> cký
+kohoutovický	Kohoutovice	CHANGE: ce --> cký
+kojákovický	Kojákovice	CHANGE: ce --> cký
+kojčický	Kojčice	CHANGE: ce --> cký
+kojetický	Kojetice	CHANGE: ce --> cký
+kojický	Kojice	CHANGE: ce --> cký
+kolešovický	Kolešovice	CHANGE: ce --> cký
+kolinecký	Kolinec	CHANGE: c --> cký
+kolonialistický	kolonialismus	CHANGE: ismus --> istický
+koloskopický		UNRESOLVED
+kolotočářskovekslácký		UNRESOLVED
+komařický	Komařice	CHANGE: ce --> cký
+komický	komik	CHANGE: k --> cký
+kominický	kominice	CHANGE: ce --> cký
+komipermjacký		UNRESOLVED
+komparativistický		UNRESOLVED
+konárovický	Konárovice	CHANGE: ce --> cký
+koncentrický		UNRESOLVED
+konceptualistický	konceptualizmus	CHANGE: izmus --> istický
+konciliaristický	konciliarizmus	CHANGE: izmus --> istický
+končický	Končice	CHANGE: ce --> cký
+kondracký	Kondrac	CHANGE: c --> cký
+konický	konice	CHANGE: ce --> cký
+kónický	kónus	CHANGE: us --> ický
+konjunkturalistický	konjunkturalismus	CHANGE: ismus --> istický
+konopický	konopice	CHANGE: ce --> cký
+konsonantický	konsonant	CHANGE: 0 --> ický
+konstruktivistický	konstruktivismus	CHANGE: ismus --> istický
+kontradiktorický		UNRESOLVED
+kontrapunktický	kontrapunkt	CHANGE: 0 --> ický
+kopanický	kopanice	CHANGE: ce --> cký
+kopinický	kopinice	CHANGE: ce --> cký
+kopřivnický	Kopřivnice	CHANGE: ce --> cký
+koptický	kopt	CHANGE: 0 --> ický
+korjacký	Korjak	CHANGE: k --> cký
+kornatický	Kornatice	CHANGE: ce --> cký
+korporativistický	korporativismus	CHANGE: ismus --> istický
+korytnický	Korytnice	CHANGE: ce --> cký
+kořenecký	Kořenec	CHANGE: c --> cký
+kosmický	kosmos	CHANGE: os --> ický
+kosmopolitický	kosmopolit	CHANGE: 0 --> ický
+kosochemický		UNRESOLVED
+kosořický	Kosořice	CHANGE: ce --> cký
+kostecký	Kosta	CHANGE: a --> ecký
+kostelnický	kostelnice	CHANGE: ce --> cký
+kostěnický	Kostěnice	CHANGE: ce --> cký
+kostický	kostice	CHANGE: ce --> cký
+kostnický	kostnice	CHANGE: ce --> cký
+kostumbristický	kostumbrizmus	CHANGE: izmus --> istický
+kostýmografický		UNRESOLVED
+košatecký	Košata	CHANGE: a --> ecký
+košerácký		UNRESOLVED
+košetický	Košetice	CHANGE: ce --> cký
+košický	Košice	CHANGE: ce --> cký
+koštěnický	koště	CHANGE: 0 --> nický
+koštický	Koštice	CHANGE: ce --> cký
+košutecký	Košuta	CHANGE: a --> ecký
+kottický	Kott	CHANGE: 0 --> ický
+kotvrdovický	Kotvrdovice	CHANGE: ce --> cký
+kounický	Kounice	CHANGE: ce --> cký
+koutecký	koutek	CHANGE: k --> cký
+koválovický	Koválovice	CHANGE: ce --> cký
+kovanický	Kovanice	CHANGE: ce --> cký
+kovokeramický		UNRESOLVED
+kovoplastický	Kovoplast	CHANGE: 0 --> ický
+kozlovický	kozlovice	CHANGE: ce --> cký
+krabčický	Krabčice	CHANGE: ce --> cký
+krábčický	Krábčice	CHANGE: ce --> cký
+krakovecký	Krakovec	CHANGE: c --> cký
+kralický	Kralice	CHANGE: ce --> cký
+králický	králice	CHANGE: ce --> cký
+královácký	Královák	CHANGE: k --> cký
+královehradecký		UNRESOLVED
+královéhradecký		UNRESOLVED
+královéměstecký		UNRESOLVED
+kralovický	Kralovice	CHANGE: ce --> cký
+královický	Královice	CHANGE: ce --> cký
+královohradecký		UNRESOLVED
+krasický	Krasice	CHANGE: ce --> cký
+kraslický	kraslice	CHANGE: ce --> cký
+krasnický	Krasnice	CHANGE: ce --> cký
+krašovický	Krašovice	CHANGE: ce --> cký
+krátecký		UNRESOLVED
+krátkoperiodický		UNRESOLVED
+krejnický	Krejnice	CHANGE: ce --> cký
+kremnický	Kremnica	CHANGE: ca --> cký
+kreolistický	kreolizmus	CHANGE: izmus --> istický
+krhanický	Krhanice	CHANGE: ce --> cký
+kriminalistickotechnický		UNRESOLVED
+kristocentrický		UNRESOLVED
+kristologický		UNRESOLVED
+kritickorealistický		UNRESOLVED
+krňovický	Krňovice	CHANGE: ce --> cký
+kronocký		UNRESOLVED
+kršnaistický		UNRESOLVED
+krušovický	Krušovice	CHANGE: ce --> cký
+krynický	Krynica	CHANGE: ca --> cký
+kryptický		UNRESOLVED
+kryptoanalytický	kryptoanalytik	CHANGE: k --> cký
+kryptobiotický		UNRESOLVED
+kryptokomunistický	kryptokomunizmus	CHANGE: izmus --> istický
+kryptokrystalický		UNRESOLVED
+kryptomarxistický		UNRESOLVED
+kryptosocialistický	kryptosocializmus	CHANGE: izmus --> istický
+kryptotechnologický		UNRESOLVED
+kryptovulkanický		UNRESOLVED
+krystalický	krystal	CHANGE: 0 --> ický
+krystalinický	krystalinikum	CHANGE: kum --> cký
+křečovický	Křečovice	CHANGE: ce --> cký
+křemešnický		UNRESOLVED
+křenovický	Křenovice	CHANGE: ce --> cký
+křepenický	Křepenice	CHANGE: ce --> cký
+křesetický	Křesetice	CHANGE: ce --> cký
+křeslický	Křeslice	CHANGE: ce --> cký
+křesťanskoafrický		UNRESOLVED
+křestaňskodemokratický		UNRESOLVED
+křesťanskodemokratický		UNRESOLVED
+křesťanskohumanistický		UNRESOLVED
+křesťanskopsychologický		UNRESOLVED
+křešický	Křešice	CHANGE: ce --> cký
+křimický	Křimice	CHANGE: ce --> cký
+křinecký	Křinec	CHANGE: c --> cký
+křinický	Křinice	CHANGE: ce --> cký
+křivecký	Křivec	CHANGE: c --> cký
+křivolický		UNRESOLVED
+křižanovický	Křižanovice	CHANGE: ce --> cký
+křížovický	Křížovice	CHANGE: ce --> cký
+křovácký	Křovák	CHANGE: k --> cký
+kšický	Kšice	CHANGE: ce --> cký
+kubelický	Kubelice	CHANGE: ce --> cký
+kubofuturistický	kubofuturizmus	CHANGE: izmus --> istický
+kubšický	Kubšice	CHANGE: ce --> cký
+kudlovický	Kudlovice	CHANGE: ce --> cký
+kuchařovický	Kuchařovice	CHANGE: ce --> cký
+kujebácký	Kujebák	CHANGE: k --> cký
+kulinářskoerotický		UNRESOLVED
+kulišácký	kulišák	CHANGE: k --> cký
+kultický	kult	CHANGE: 0 --> ický
+kulturněhistorický		UNRESOLVED
+kulturněpolitický		UNRESOLVED
+kulturnětechnický		UNRESOLVED
+kulturuněpolitický		UNRESOLVED
+kumbrický		UNRESOLVED
+kumycký	Kumyk	CHANGE: k --> cký
+kunčický	Kunčice	CHANGE: ce --> cký
+kundratický	Kundratice	CHANGE: ce --> cký
+kunětický	Kunětice	CHANGE: ce --> cký
+kunický	Kunice	CHANGE: ce --> cký
+kunovický	Kunovice	CHANGE: ce --> cký
+kunratický	Kunratice	CHANGE: ce --> cký
+kunžacký	Kunžak	CHANGE: k --> cký
+kupčický	kupčice	CHANGE: ce --> cký
+kurovický	Kurovice	CHANGE: ce --> cký
+kuzněcký		UNRESOLVED
+kvadratický		UNRESOLVED
+kvalimetrický		UNRESOLVED
+kvantověmechanický		UNRESOLVED
+kvasický	Kvasice	CHANGE: ce --> cký
+kvasieliptický		UNRESOLVED
+kvazianarchistický		UNRESOLVED
+kvaziekologický		UNRESOLVED
+kvazieliptický		UNRESOLVED
+kvazihistorický		UNRESOLVED
+kvazikomunistický		UNRESOLVED
+kvaziperiodický		UNRESOLVED
+kvazistatický		UNRESOLVED
+kvazivědecký		UNRESOLVED
+květňácký	květňák	CHANGE: k --> cký
+kvíčovický	Kvíčovice	CHANGE: ce --> cký
+kvítkovický	Kvítkovice	CHANGE: ce --> cký
+kylešovický	Kylešovice	CHANGE: ce --> cký
+kymfatický		UNRESOLVED
+kynický	kynik	CHANGE: k --> cký
+kypčacký	Kypčak	CHANGE: k --> cký
+kyperskořecký		UNRESOLVED
+kyperskoturecký		UNRESOLVED
+kysucký	Kysuce	CHANGE: ce --> cký
+kyšický	Kyšice	CHANGE: ce --> cký
+kytlický	kytlice	CHANGE: ce --> cký
+labskoústecký		UNRESOLVED
+labyrintický	labyrint	CHANGE: 0 --> ický
+lacký	lak	CHANGE: k --> cký
+ladacký		UNRESOLVED
+lahovický	Lahovice	CHANGE: ce --> cký
+lakonický		UNRESOLVED
+lamaistický	lamaizmus	CHANGE: izmus --> istický
+lámaistický		UNRESOLVED
+lamarckistický	lamarckizmus	CHANGE: izmus --> istický
+lamprofyrický	lamprofyr	CHANGE: 0 --> ický
+landecký	Landek	CHANGE: k --> cký
+laramický	Laramie	CHANGE: ie --> ický
+lartpourlartistický	lartpourlartismus	CHANGE: ismus --> istický
+lásenický	Lásenice	CHANGE: ce --> cký
+laternomagický		UNRESOLVED
+latinický	latinice	CHANGE: ce --> cký
+latinoamerický		UNRESOLVED
+latinskoamerický		UNRESOLVED
+latritický		UNRESOLVED
+lazecký	Laza	CHANGE: a --> ecký
+lažánecký	Lažánek	CHANGE: k --> cký
+lečický	Lečice	CHANGE: ce --> cký
+ledecký	Ledec	CHANGE: c --> cký
+ledenický	Ledenice	CHANGE: ce --> cký
+lednický	lednice	CHANGE: ce --> cký
+ledvický	Ledvice	CHANGE: ce --> cký
+legalistický		UNRESOLVED
+legendistický		UNRESOLVED
+legislativnětechnický		UNRESOLVED
+legitimistický	legitimizmus	CHANGE: izmus --> istický
+legnický	Legnica	CHANGE: ca --> cký
+lehkoatletický		UNRESOLVED
+lehnický	Lehnice	CHANGE: ce --> cký
+lechovický	Lechovice	CHANGE: ce --> cký
+leitmotivický	leitmotiv	CHANGE: 0 --> ický
+lelekovický	Lelekovice	CHANGE: ce --> cký
+lempický		UNRESOLVED
+lendacký	Lendak	CHANGE: k --> cký
+lenešický	Lenešice	CHANGE: ce --> cký
+leskovacký	Leskovac	CHANGE: c --> cký
+leskovecký	Leskovec	CHANGE: c --> cký
+leskovický	Leskovice	CHANGE: ce --> cký
+lesnickotechnický		UNRESOLVED
+lesonický	Lesonice	CHANGE: ce --> cký
+lesotechnický		UNRESOLVED
+lesovický	Lesov	CHANGE: 0 --> ický
+lešetický	Lešetice	CHANGE: ce --> cký
+letonický	Letonice	CHANGE: ce --> cký
+letovický	Letovice	CHANGE: ce --> cký
+letristický	letrizmus	CHANGE: izmus --> istický
+lettristický	lettrizmus	CHANGE: izmus --> istický
+levický	levice	CHANGE: ce --> cký
+lexografický		UNRESOLVED
+ležnický	Ležnice	CHANGE: ce --> cký
+lhenický	Lhenice	CHANGE: ce --> cký
+lhotecký	Lhotsko	CHANGE: sko --> ecký
+libčický	Libčice	CHANGE: ce --> cký
+liběchovický	Liběchov	CHANGE: 0 --> ický
+libějovický	Libějovice	CHANGE: ce --> cký
+liberálnědemokratický		UNRESOLVED
+liberálněpolitický		UNRESOLVED
+liběšický	Liběšice	CHANGE: ce --> cký
+libický	Libice	CHANGE: ce --> cký
+libkovický	Libkovice	CHANGE: ce --> cký
+liblický	Liblice	CHANGE: ce --> cký
+libodřický	Libodřice	CHANGE: ce --> cký
+libochovický	Libochovice	CHANGE: ce --> cký
+libošovický	Libošovice	CHANGE: ce --> cký
+libotenický	Libotenice	CHANGE: ce --> cký
+libouchecký	Libouchec	CHANGE: c --> cký
+libovický	Libovice	CHANGE: ce --> cký
+lidický	Lidice	CHANGE: ce --> cký
+lidovědemokratický		UNRESOLVED
+lichnický	Lichnice	CHANGE: ce --> cký
+limbický		UNRESOLVED
+limnický	Limnice	CHANGE: ce --> cký
+limnigrafický	limnigraf	CHANGE: 0 --> ický
+linhartický	Linhartice	CHANGE: ce --> cký
+lipecký	Lipec	CHANGE: c --> cký
+lipenecký	Lipensko	CHANGE: sko --> ecký
+lipický	Lipice	CHANGE: ce --> cký
+lipidický	lipid	CHANGE: 0 --> ický
+lipnický	lipnice	CHANGE: ce --> cký
+lipolecký	Lipolec	CHANGE: c --> cký
+lipoltický	Lipoltice	CHANGE: ce --> cký
+lipolytický		UNRESOLVED
+lipovecký	Lipovec	CHANGE: c --> cký
+lískovecký	Lískovec	CHANGE: c --> cký
+líšnický	Líšnice	CHANGE: ce --> cký
+litenčický	Litenčice	CHANGE: ce --> cký
+literárnědramatický		UNRESOLVED
+literárněfilozofický		UNRESOLVED
+literárněhistorický		UNRESOLVED
+literárněkritický		UNRESOLVED
+literárněteoretický		UNRESOLVED
+lithický	lithium	CHANGE: ium --> ický
+litický	litice	CHANGE: ce --> cký
+litoměřický	Litoměřice	CHANGE: ce --> cký
+litovický	Litovice	CHANGE: ce --> cký
+litvínovický	Litvínovice	CHANGE: ce --> cký
+lobbyistický		UNRESOLVED
+lobbystický		UNRESOLVED
+lobkovický	Lobkovice	CHANGE: ce --> cký
+loděnický	loděnice	CHANGE: ce --> cký
+logaritmický	logaritmus	CHANGE: us --> ický
+logografický	logograf	CHANGE: 0 --> ický
+logoterapeutický		UNRESOLVED
+lohenický	Lohenice	CHANGE: ce --> cký
+lochovický	Lochovice	CHANGE: ce --> cký
+lomecký	Lomec	CHANGE: c --> cký
+lomnický	Lomnice	CHANGE: ce --> cký
+lopenický	Lope	CHANGE: 0 --> nický
+lorecký	Lorec	CHANGE: c --> cký
+losenický	Losenice	CHANGE: ce --> cký
+loštický	Loštice	CHANGE: ce --> cký
+loucký	Louky	CHANGE: ky --> cký
+loučovický	Loučovice	CHANGE: ce --> cký
+louňovický	Louňovice	CHANGE: ce --> cký
+loutocký		UNRESOLVED
+lovčický	Lovčice	CHANGE: ce --> cký
+lovosický	Lovosice	CHANGE: ce --> cký
+lubecký	Lubek	CHANGE: k --> cký
+lübecký		UNRESOLVED
+lubenecký	Lubenec	CHANGE: c --> cký
+lucký	Luce	CHANGE: ce --> cký
+lučenecký	Lučenec	CHANGE: c --> cký
+lučický	Lučice	CHANGE: ce --> cký
+luďácký	luďák	CHANGE: k --> cký
+ludgeřovický	Ludgeřovice	CHANGE: ce --> cký
+ludkovický	Ludkovice	CHANGE: ce --> cký
+ludvíkovický	Ludvíkovice	CHANGE: ce --> cký
+luetický	luetik	CHANGE: k --> cký
+luhačovický	Luhačovice	CHANGE: ce --> cký
+lukavický	Lukavice	CHANGE: ce --> cký
+lumčický	lumčice	CHANGE: ce --> cký
+lumpácký		UNRESOLVED
+lunatický	lunatik	CHANGE: k --> cký
+lundrácký	lundrák	CHANGE: k --> cký
+luštěnický	Luštěnice	CHANGE: ce --> cký
+lutopecký		UNRESOLVED
+lužánecký		UNRESOLVED
+lužecký	Lužec	CHANGE: c --> cký
+luženický	Luženice	CHANGE: ce --> cký
+lužický	Lužice	CHANGE: ce --> cký
+lužnický	Lužnice	CHANGE: ce --> cký
+lycký	Lyko	CHANGE: ko --> cký
+lydický		UNRESOLVED
+lykantropický	lykantrop	CHANGE: 0 --> ický
+lymfoblastický		UNRESOLVED
+lyrickodramatický		UNRESOLVED
+lyrickoepický		UNRESOLVED
+lyrickoromantický		UNRESOLVED
+lysický	Lysice	CHANGE: ce --> cký
+lytický		UNRESOLVED
+lyzimetrický	lyzimetr	CHANGE: 0 --> ický
+lživlastenecký		UNRESOLVED
+mačický	Mačice	CHANGE: ce --> cký
+mačistický		UNRESOLVED
+madunický		UNRESOLVED
+mafický	mafie	CHANGE: ie --> ický
+magnetický	magnet	CHANGE: 0 --> ický
+magnetodynamický		UNRESOLVED
+magnetoelektrický		UNRESOLVED
+magnetomechanický		UNRESOLVED
+magnetomotorický		UNRESOLVED
+magnetoplazmatický		UNRESOLVED
+magnetoterapeutický		UNRESOLVED
+mahdistický	mahdizmus	CHANGE: izmus --> istický
+machiavellistický		UNRESOLVED
+machistický	machizmus	CHANGE: izmus --> istický
+majdanecký	Majdanek	CHANGE: k --> cký
+majevický	Majevica	CHANGE: ca --> cký
+majncký		UNRESOLVED
+makovický	makovice	CHANGE: ce --> cký
+makroanalytický	makroanalýza	CHANGE: ýza --> ytický
+makrodemografický		UNRESOLVED
+makroekologický		UNRESOLVED
+makroenergetický		UNRESOLVED
+makroergický		UNRESOLVED
+makrokosmický	makrokosmos	CHANGE: os --> ický
+makrolitický		UNRESOLVED
+makromanický		UNRESOLVED
+makroseismický		UNRESOLVED
+makroskopický		UNRESOLVED
+makrosmatický	makrosmat	CHANGE: 0 --> ický
+malacký		UNRESOLVED
+malenický	Malenice	CHANGE: ce --> cký
+malenovický	Malenovice	CHANGE: ce --> cký
+malesický	Malesice	CHANGE: ce --> cký
+malešický	Malešice	CHANGE: ce --> cký
+malmúcký		UNRESOLVED
+malohanácký		UNRESOLVED
+malohorecký		UNRESOLVED
+malohoštický		UNRESOLVED
+maloměřický	Maloměřice	CHANGE: ce --> cký
+maloněmecký	Maloněmec	CHANGE: c --> cký
+malorohozecký		UNRESOLVED
+maloskalický		UNRESOLVED
+malovický	Malovice	CHANGE: ce --> cký
+malpigický		UNRESOLVED
+malšický	Malšice	CHANGE: ce --> cký
+malšovický	Malšovice	CHANGE: ce --> cký
+mamlúcký	mamlúk	CHANGE: k --> cký
+manický	man	CHANGE: 0 --> ický
+manicheistický	manicheizmus	CHANGE: izmus --> istický
+manometrický	manometr	CHANGE: 0 --> ický
+maňovický	Maňovice	CHANGE: ce --> cký
+manušický	Manušice	CHANGE: ce --> cký
+marastický	marast	CHANGE: 0 --> ický
+mariánskoradčický		UNRESOLVED
+markovický	Markovice	CHANGE: ce --> cký
+markvartický	Markvartice	CHANGE: ce --> cký
+marocký	Maroko	CHANGE: ko --> cký
+marsologický		UNRESOLVED
+maršovický	Maršovice	CHANGE: ce --> cký
+martenzitický	martenzit	CHANGE: 0 --> ický
+martinický	Martinice	CHANGE: ce --> cký
+martinistický		UNRESOLVED
+martínkovický	Martínkovice	CHANGE: ce --> cký
+mařatický	Mařatice	CHANGE: ce --> cký
+mařenický	Mařenice	CHANGE: ce --> cký
+maslenický	Maslenice	CHANGE: ce --> cký
+máslovický	Máslovice	CHANGE: ce --> cký
+mastodontický	mastodont	CHANGE: 0 --> ický
+mašinistický	mašinizmus	CHANGE: izmus --> istický
+mašovický	Mašovice	CHANGE: ce --> cký
+matematickostatistický		UNRESOLVED
+materiálnětechnický		UNRESOLVED
+matický	matice	CHANGE: ce --> cký
+maximalistický	maximalismus	CHANGE: ismus --> istický
+mazdaistický	mazdaizmus	CHANGE: izmus --> istický
+mecký	Mec	CHANGE: c --> cký
+měděnecký	měděnec	CHANGE: c --> cký
+medenický	Medenice	CHANGE: ce --> cký
+medlánecký		UNRESOLVED
+medlešický	Medlešice	CHANGE: ce --> cký
+medzilaborecký		UNRESOLVED
+megalitický	megalit	CHANGE: 0 --> ický
+mehelnický		UNRESOLVED
+mechanickobiologický		UNRESOLVED
+mechanickochemický		UNRESOLVED
+mechanoakustický		UNRESOLVED
+mechanografický		UNRESOLVED
+mechatronický		UNRESOLVED
+měchenický	Měchenice	CHANGE: ce --> cký
+meiotický	meióza	CHANGE: óza --> otický
+melanistický	melanizmus	CHANGE: izmus --> istický
+melanotický		UNRESOLVED
+melcký	Melk	CHANGE: k --> cký
+mélický	Mélos	CHANGE: os --> ický
+mělický	Mělice	CHANGE: ce --> cký
+mělnický	Mělnice	CHANGE: ce --> cký
+menševický	menševik	CHANGE: k --> cký
+merboltický	Merboltice	CHANGE: ce --> cký
+meristický		UNRESOLVED
+meritokratický		UNRESOLVED
+měrovický	Měrovice	CHANGE: ce --> cký
+měrunický	Měrunice	CHANGE: ce --> cký
+měřický	měřice	CHANGE: ce --> cký
+mesianistický	mesianismus	CHANGE: ismus --> istický
+mesmerický	Mesmer	CHANGE: 0 --> ický
+měšecnický	měšec	CHANGE: 0 --> nický
+měšický	Měšice	CHANGE: ce --> cký
+mešťácký		UNRESOLVED
+metabolický	metabolizmus	CHANGE: izmus --> ický
+metalogenetický		UNRESOLVED
+metaloorganický		UNRESOLVED
+meteorický	meteor	CHANGE: 0 --> ický
+methodický		UNRESOLVED
+metlický	metlice	CHANGE: ce --> cký
+metodistický	metodizmus	CHANGE: izmus --> istický
+metronomický	metronom	CHANGE: 0 --> ický
+metrorytmický		UNRESOLVED
+metylovický	Metylovice	CHANGE: ce --> cký
+mexický	Mexiko	CHANGE: ko --> cký
+mezenchymatický		UNRESOLVED
+mezenterický	mezenterium	CHANGE: ium --> ický
+meziafrický		UNRESOLVED
+meziamerický		UNRESOLVED
+mezietnický		UNRESOLVED
+mezigalaktický		UNRESOLVED
+meziimperialistický		UNRESOLVED
+mezinárodněpolitický		UNRESOLVED
+mezispojenecký		UNRESOLVED
+mezistranický		UNRESOLVED
+mezolitický	mezolit	CHANGE: 0 --> ický
+mezosynoptický		UNRESOLVED
+mezozoický	mezozoikum	CHANGE: kum --> cký
+mielnický		UNRESOLVED
+migmatický		UNRESOLVED
+migmatitický	migmatit	CHANGE: 0 --> ický
+michálkovický	Michálkovice	CHANGE: ce --> cký
+michalovický	Michalovice	CHANGE: ce --> cký
+mikrointervalický	mikrointerval	CHANGE: 0 --> ický
+mikrosmatický	mikrosmat	CHANGE: 0 --> ický
+mikulášovický	Mikulášovice	CHANGE: ce --> cký
+mikulčický	Mikulčice	CHANGE: ce --> cký
+mikulovický	Mikulovice	CHANGE: ce --> cký
+milčický	Milčice	CHANGE: ce --> cký
+mileniaristický		UNRESOLVED
+milešický	Milešice	CHANGE: ce --> cký
+milkovický	Milkovice	CHANGE: ce --> cký
+milotický	Milotice	CHANGE: ce --> cký
+milovický	Milovice	CHANGE: ce --> cký
+mimetický	mimetizmus	CHANGE: izmus --> ický
+mimoakademický		UNRESOLVED
+mimoamerický		UNRESOLVED
+mimobásnický		UNRESOLVED
+mimobiblický		UNRESOLVED
+mimobiologický		UNRESOLVED
+mimoekonomický		UNRESOLVED
+mimoestetický		UNRESOLVED
+mimoetický		UNRESOLVED
+mimogalaktický		UNRESOLVED
+mimohistorický		UNRESOLVED
+mimohradecký		UNRESOLVED
+mimohusinecký		UNRESOLVED
+mimoideologický		UNRESOLVED
+mimoindický		UNRESOLVED
+mimokomunistický		UNRESOLVED
+mimoliberecký		UNRESOLVED
+mimoliturgický		UNRESOLVED
+mimologický		UNRESOLVED
+mimomotoristický		UNRESOLVED
+mimoněmecký		UNRESOLVED
+mimoolomoucký		UNRESOLVED
+mimopardubický		UNRESOLVED
+mimopolitický		UNRESOLVED
+mimorakovnický		UNRESOLVED
+mimostranický		UNRESOLVED
+mimotropický		UNRESOLVED
+mimoumělecký		UNRESOLVED
+mimoústecký		UNRESOLVED
+mimovědecký		UNRESOLVED
+mimozaměstnanecký		UNRESOLVED
+miniaturistický		UNRESOLVED
+minigrafický	minigraf	CHANGE: 0 --> ický
+mirošovický	Mirošovice	CHANGE: ce --> cký
+mirotický	Mirotice	CHANGE: ce --> cký
+mirovický	Mirovice	CHANGE: ce --> cký
+miřejovický	Miřejovice	CHANGE: ce --> cký
+miřetický	Miřetice	CHANGE: ce --> cký
+miskovický	Miskovice	CHANGE: ce --> cký
+místecký	Místek	CHANGE: k --> cký
+místopředsednický		UNRESOLVED
+mistrovický	Mistrovice	CHANGE: ce --> cký
+mithraistický	mithraizmus	CHANGE: izmus --> istický
+mitotický	mitóza	CHANGE: óza --> otický
+mixolydický		UNRESOLVED
+mixtécký	Mixték	CHANGE: k --> cký
+mixtecký		UNRESOLVED
+mladecký	Mlada	CHANGE: a --> ecký
+mladějovický	Mladějovice	CHANGE: ce --> cký
+mladobucký		UNRESOLVED
+mladodramatický		UNRESOLVED
+mladofronťácký		UNRESOLVED
+mladogramatický	mladogramatik	CHANGE: k --> cký
+mladokatolický		UNRESOLVED
+mladoproterozoický		UNRESOLVED
+mladotický	Mladotice	CHANGE: ce --> cký
+mladovožický		UNRESOLVED
+mladovulkanický		UNRESOLVED
+mlazický	Mlazice	CHANGE: ce --> cký
+mlázovický	Mlázovice	CHANGE: ce --> cký
+mnětický	Mnětice	CHANGE: ce --> cký
+mnichovický	Mnichovice	CHANGE: ce --> cký
+mníšecký	mníšek	CHANGE: k --> cký
+mnohoetnický		UNRESOLVED
+mnohostranický		UNRESOLVED
+mocenskopolitický		UNRESOLVED
+močický	Močik	CHANGE: k --> cký
+modelářskoletecký		UNRESOLVED
+modřecký		UNRESOLVED
+modřický	modřice	CHANGE: ce --> cký
+modřišický	Modřišice	CHANGE: ce --> cký
+mohelnický	Mohelnice	CHANGE: ce --> cký
+mochovecký	Mochovce	CHANGE: vce --> vecký
+moldanubický	moldanubikum	CHANGE: kum --> cký
+molekulárněbiologický		UNRESOLVED
+molekulárněgenetický		UNRESOLVED
+molický	molice	CHANGE: ce --> cký
+molucký	Moluky	CHANGE: ky --> cký
+monacký	Monako	CHANGE: ko --> cký
+monarchofašistický	monarchofašismus	CHANGE: ismus --> istický
+monastický		UNRESOLVED
+monocyklický		UNRESOLVED
+monoenergetický		UNRESOLVED
+monoestrický		UNRESOLVED
+monofázický		UNRESOLVED
+monochromatický		UNRESOLVED
+monoizotopický		UNRESOLVED
+monoklinický		UNRESOLVED
+monokratický		UNRESOLVED
+monokrystalický	monokrystal	CHANGE: 0 --> ický
+monolitický	monolit	CHANGE: 0 --> ický
+monologický	monolog	CHANGE: 0 --> ický
+monomerický	monomer	CHANGE: 0 --> ický
+monopolitický		UNRESOLVED
+monosylabický		UNRESOLVED
+monotematický		UNRESOLVED
+monotématický		UNRESOLVED
+monoterpenický	monoterpen	CHANGE: 0 --> ický
+monoterpentický		UNRESOLVED
+monotónický		UNRESOLVED
+monozygotický		UNRESOLVED
+montmorillonitický	montmorillonit	CHANGE: 0 --> ický
+moonistický		UNRESOLVED
+morálněpolitický		UNRESOLVED
+morašický	Morašice	CHANGE: ce --> cký
+moravecký	Moravec	CHANGE: c --> cký
+moravskobudějovický		UNRESOLVED
+moravskoslovácký		UNRESOLVED
+morfický	morf	CHANGE: 0 --> ický
+morfogenetický		UNRESOLVED
+morfometrický		UNRESOLVED
+morkovický	Morkovice	CHANGE: ce --> cký
+mořický	Mořic	CHANGE: c --> cký
+mosaický		UNRESOLVED
+mosambický	Mosambik	CHANGE: k --> cký
+moskevskocentristický		UNRESOLVED
+mostecký	mostek	CHANGE: k --> cký
+mostkovický	Mostkovice	CHANGE: ce --> cký
+motěšický	Motěšice	CHANGE: ce --> cký
+motivický	motiv	CHANGE: 0 --> ický
+motorkářskogotický		UNRESOLVED
+motorkářskorobotický		UNRESOLVED
+moutnický	Moutnice	CHANGE: ce --> cký
+mozambický	Mozambik	CHANGE: k --> cký
+mrtnický		UNRESOLVED
+mšecký	Mšec	CHANGE: c --> cký
+mudrácký	mudrák	CHANGE: k --> cký
+mulatický	mulat	CHANGE: 0 --> ický
+multietnický		UNRESOLVED
+multilingvistický	multilingvizmus	CHANGE: izmus --> istický
+multinomický		UNRESOLVED
+multipartistický	multipartizmus	CHANGE: izmus --> istický
+multisenzorický		UNRESOLVED
+multistranický		UNRESOLVED
+multitechnický	Multitechnik	CHANGE: k --> cký
+munický	munice	CHANGE: ce --> cký
+muskovitický	muskovit	CHANGE: 0 --> ický
+mussavatistický		UNRESOLVED
+mutějovický	Mutějovice	CHANGE: ce --> cký
+mutěnický	Mutěnice	CHANGE: ce --> cký
+mutistický	mutizmus	CHANGE: izmus --> istický
+mutualistický	mutualizmus	CHANGE: izmus --> istický
+muzikoterapeutický		UNRESOLVED
+mužácký	Mužák	CHANGE: k --> cký
+mužický	mužice	CHANGE: ce --> cký
+myasthenický		UNRESOLVED
+myeloický		UNRESOLVED
+mykoparazitický	mykoparazitizmus	CHANGE: izmus --> ický
+mykorhitický		UNRESOLVED
+mykotický	mykóza	CHANGE: óza --> otický
+myslibořický	Myslibořice	CHANGE: ce --> cký
+mysločovický	Mysločovice	CHANGE: ce --> cký
+mystagogický		UNRESOLVED
+mystický	mystik	CHANGE: k --> cký
+mythický		UNRESOLVED
+mythologický		UNRESOLVED
+mytickopoetický		UNRESOLVED
+mytický		UNRESOLVED
+mýtický	mýtus	CHANGE: us --> ický
+náboženskofilozofický		UNRESOLVED
+náboženskohistorický		UNRESOLVED
+náboženskopolitický		UNRESOLVED
+nacionálněsocialistický		UNRESOLVED
+načeradecký		UNRESOLVED
+načešický	Načešice	CHANGE: ce --> cký
+nadfyzický		UNRESOLVED
+nadideologický		UNRESOLVED
+nadkritický		UNRESOLVED
+nadpolitický		UNRESOLVED
+nadrealistický	nadrealizmus	CHANGE: izmus --> istický
+nadsansarický		UNRESOLVED
+naftenický		UNRESOLVED
+náhradnický	náhradnice	CHANGE: ce --> cký
+naivistický	naivizmus	CHANGE: izmus --> istický
+nalžovický	Nalžovice	CHANGE: ce --> cký
+namyslovecký		UNRESOLVED
+nanistický	nanismus	CHANGE: ismus --> istický
+nanokrystalický	nanokrystal	CHANGE: 0 --> ický
+narkoleptický		UNRESOLVED
+narkotický	narkotikum	CHANGE: kum --> cký
+národnědemokratický		UNRESOLVED
+národněkatolický		UNRESOLVED
+národněobrozenecký		UNRESOLVED
+národněosvobozenecký		UNRESOLVED
+národněpolitický		UNRESOLVED
+národněsocialistický		UNRESOLVED
+narodnický	narodnik	CHANGE: k --> cký
+národnický	národ	CHANGE: 0 --> nický
+nasavrcký	Nasavrky	CHANGE: ky --> cký
+násilnický	násilnice	CHANGE: ce --> cký
+natriuretický		UNRESOLVED
+naturistický	naturismus	CHANGE: ismus --> istický
+nazogastrický		UNRESOLVED
+nebanický	Nebanice	CHANGE: ce --> cký
+nebušický	Nebušice	CHANGE: ce --> cký
+nedakonický	Nedakonice	CHANGE: ce --> cký
+nedvědický	Nedvědice	CHANGE: ce --> cký
+nefelinický	nefelin	CHANGE: 0 --> ický
+nefrografický		UNRESOLVED
+nefrotický	nefróza	CHANGE: óza --> otický
+nechanický	Nechanice	CHANGE: ce --> cký
+nechranický	Nechranice	CHANGE: ce --> cký
+nechvalický	Nechvalice	CHANGE: ce --> cký
+nejdecký	Nejdek	CHANGE: k --> cký
+nekroptický		UNRESOLVED
+nekrotický	nekróza	CHANGE: óza --> otický
+nematoblastický		UNRESOLVED
+nematogranoblastický		UNRESOLVED
+němčický	Němčice	CHANGE: ce --> cký
+němčovický	Němčovice	CHANGE: ce --> cký
+německoamerický		UNRESOLVED
+nemošický	Nemošice	CHANGE: ce --> cký
+nenačovický	Nenačovice	CHANGE: ce --> cký
+neoarktický		UNRESOLVED
+neobolševický	neobolševik	CHANGE: k --> cký
+neodadaistický	neodadaizmus	CHANGE: izmus --> istický
+neodarwinistický	neodarwinizmus	CHANGE: izmus --> istický
+neofenomenologický		UNRESOLVED
+neogaullistický		UNRESOLVED
+neohinduistický		UNRESOLVED
+neoimpresionistický	neoimpresionizmus	CHANGE: izmus --> istický
+neokapitalistický		UNRESOLVED
+neoklasicistický	neoklasicizmus	CHANGE: izmus --> istický
+neoklasický	neoklasik	CHANGE: k --> cký
+neoklasistický		UNRESOLVED
+neoklerikalistický		UNRESOLVED
+neokolonialistický	neokolonialismus	CHANGE: ismus --> istický
+neokomunistický	neokomunizmus	CHANGE: izmus --> istický
+neokonstruktivistický	neokonstruktivizmus	CHANGE: izmus --> istický
+neoliberalistický	neoliberalizmus	CHANGE: izmus --> istický
+neolitický	neolit	CHANGE: 0 --> ický
+neologický	neologismus	CHANGE: ismus --> ický
+neologistický	neologismus	CHANGE: ismus --> istický
+neomahdistický		UNRESOLVED
+neominimalistický		UNRESOLVED
+neomodernistický		UNRESOLVED
+neomonarchistický		UNRESOLVED
+neonacionalistický	neonacionalismus	CHANGE: ismus --> istický
+neoplastický		UNRESOLVED
+neopluralistický		UNRESOLVED
+neopoetický	neopoetizmus	CHANGE: izmus --> ický
+neorealistický	neorealismus	CHANGE: ismus --> istický
+neoromantický	neoromantizmus	CHANGE: izmus --> ický
+neosocialistický	neosocializmus	CHANGE: izmus --> istický
+neostalinistický	neostalinizmus	CHANGE: izmus --> istický
+neosymbolistický	neosymbolizmus	CHANGE: izmus --> istický
+neotropický		UNRESOLVED
+neoveristický		UNRESOLVED
+neovulkanický		UNRESOLVED
+neplachovický	Neplachovice	CHANGE: ce --> cký
+nepomucký		UNRESOLVED
+neptunistický	neptunizmus	CHANGE: izmus --> istický
+neratovický	Neratovice	CHANGE: ce --> cký
+nesovický	Nesovice	CHANGE: ce --> cký
+nespecký	Nespeky	CHANGE: ky --> cký
+nestětický		UNRESOLVED
+neštěmický	Neštěmice	CHANGE: ce --> cký
+neštětický	Neštětice	CHANGE: ce --> cký
+netolický	Netolice	CHANGE: ce --> cký
+netřebický	Netřebice	CHANGE: ce --> cký
+netvořický	Netvořice	CHANGE: ce --> cký
+neuměřický	Neuměřice	CHANGE: ce --> cký
+neurohistologický	neurohistolog	CHANGE: 0 --> ický
+neurolingvistický		UNRESOLVED
+neurometabolický		UNRESOLVED
+neuropsychiatrický	neuropsychiatr	CHANGE: 0 --> ický
+neuropsychický		UNRESOLVED
+neurotický	neurotik	CHANGE: k --> cký
+neurotoxický		UNRESOLVED
+neutralistický	neutralizmus	CHANGE: izmus --> istický
+nevolický	Nevolice	CHANGE: ce --> cký
+nezamyslický	Nezamyslice	CHANGE: ce --> cký
+nezdenický	Nezdenice	CHANGE: ce --> cký
+nezvěstický	Nezvěstice	CHANGE: ce --> cký
+nežárecký		UNRESOLVED
+nimnický	Nimnica	CHANGE: ca --> cký
+nivnický	Nivnice	CHANGE: ce --> cký
+nízkoalkoholický		UNRESOLVED
+nízkoenergetický		UNRESOLVED
+nízkojesenický		UNRESOLVED
+nízkokalorický		UNRESOLVED
+nomenklatorický		UNRESOLVED
+nomický		UNRESOLVED
+nomotetický		UNRESOLVED
+nordický	Nord	CHANGE: 0 --> ický
+norický	norik	CHANGE: k --> cký
+normativistický	normativizmus	CHANGE: izmus --> istický
+normativnětechnický		UNRESOLVED
+nosický	Nosice	CHANGE: ce --> cký
+nostický	Nostic	CHANGE: c --> cký
+nošovický	Nošovice	CHANGE: ce --> cký
+novácký	Novák	CHANGE: k --> cký
+novoakustický		UNRESOLVED
+novoanglický		UNRESOLVED
+novobystřický		UNRESOLVED
+novodadaistický	novodadaizmus	CHANGE: izmus --> istický
+novodemokratický	novodemokrat	CHANGE: 0 --> ický
+novofašistický	novofašismus	CHANGE: ismus --> istický
+novofunkcionalistický	novofunkcionalizmus	CHANGE: izmus --> istický
+novohinduistický		UNRESOLVED
+novoholický		UNRESOLVED
+novohornoněmecký		UNRESOLVED
+novohradecký	novohradsko	CHANGE: sko --> ecký
+novohumanistický		UNRESOLVED
+novoindický		UNRESOLVED
+novoklasicistický	novoklasicismus	CHANGE: ismus --> istický
+novoklasický		UNRESOLVED
+novolískovecký		UNRESOLVED
+novomitrovický		UNRESOLVED
+novonacistický		UNRESOLVED
+novoněmecký		UNRESOLVED
+novopacký		UNRESOLVED
+novopecký		UNRESOLVED
+novopetrovický		UNRESOLVED
+novopozitivistický	novopozitivismus	CHANGE: ismus --> istický
+novoromantický	novoromantik	CHANGE: k --> cký
+novořecký		UNRESOLVED
+novoscénický		UNRESOLVED
+novosedlický	Novosedlice	CHANGE: ce --> cký
+novostrašecký		UNRESOLVED
+novošintoistický		UNRESOLVED
+novotomistický	novotomismus	CHANGE: ismus --> istický
+novoutrakvistický		UNRESOLVED
+novovčelnický		UNRESOLVED
+novovlastenecký		UNRESOLVED
+novozámecký		UNRESOLVED
+noxický		UNRESOLVED
+nubický		UNRESOLVED
+nučický	Nučice	CHANGE: ce --> cký
+nukleosyntetický		UNRESOLVED
+nukleotický	nukleotid	CHANGE: d --> cký
+nuželický		UNRESOLVED
+nýdecký	Nýdek	CHANGE: k --> cký
+občanskodemokratický		UNRESOLVED
+občanskorolnický		UNRESOLVED
+obděnický	Obděnice	CHANGE: ce --> cký
+obecnický	Obecnice	CHANGE: ce --> cký
+obchodněekonomický		UNRESOLVED
+obchodněletecký		UNRESOLVED
+obchodněpolitický		UNRESOLVED
+obchodnětechnický		UNRESOLVED
+objektivistický	objektivismus	CHANGE: ismus --> istický
+oblekovický	Oblekovice	CHANGE: ce --> cký
+obrnický	Obrnice	CHANGE: ce --> cký
+obrocký	obrok	CHANGE: k --> cký
+oceánický	oceán	CHANGE: 0 --> ický
+odický		UNRESOLVED
+odranecký	odranec	CHANGE: c --> cký
+odsouzenecký	odsouzenec	CHANGE: c --> cký
+odtrženecký		UNRESOLVED
+ofitický		UNRESOLVED
+ohmický	ohm	CHANGE: 0 --> ický
+ohnišťovický	Ohnišťovice	CHANGE: ce --> cký
+ohrazenický	Ohrazenice	CHANGE: ce --> cký
+ochrický	Ochrid	CHANGE: d --> cký
+okrouhlecký		UNRESOLVED
+okrouhlický	okrouhlice	CHANGE: ce --> cký
+oktaedrický	oktaedr	CHANGE: 0 --> ický
+olbramický	Olbramice	CHANGE: ce --> cký
+olbramovický	Olbramovice	CHANGE: ce --> cký
+olešnický	Olešnice	CHANGE: ce --> cký
+olfaktorický		UNRESOLVED
+oligodynamický		UNRESOLVED
+oligopolistický		UNRESOLVED
+olivecký	oliva	CHANGE: a --> ecký
+olivinický	Olivi	CHANGE: 0 --> nický
+olmécký	Olmék	CHANGE: k --> cký
+olovnický	olovnice	CHANGE: ce --> cký
+olšovecký	Olšovec	CHANGE: c --> cký
+olympický	Olympic	CHANGE: c --> cký
+omický	Omice	CHANGE: ce --> cký
+omlenický	Omlenice	CHANGE: ce --> cký
+ondřejovický	Ondřejovice	CHANGE: ce --> cký
+oneirický		UNRESOLVED
+ontický		UNRESOLVED
+opatovický	Opatovice	CHANGE: ce --> cký
+operacionalistický	operacionalizmus	CHANGE: izmus --> istický
+operačnětaktický		UNRESOLVED
+oplotecký	Oplotec	CHANGE: c --> cký
+opočnický	Opočnice	CHANGE: ce --> cký
+opokinetický		UNRESOLVED
+opravdický		UNRESOLVED
+optickomechanický		UNRESOLVED
+optoelektrický		UNRESOLVED
+optochemický		UNRESOLVED
+optomagnetický		UNRESOLVED
+optomechanický		UNRESOLVED
+ordovický	ordovik	CHANGE: k --> cký
+orfický	orfik	CHANGE: k --> cký
+orfistický	orfizmus	CHANGE: izmus --> istický
+organicistický	organicizmus	CHANGE: izmus --> istický
+organický	organik	CHANGE: k --> cký
+organistický	organismus	CHANGE: ismus --> istický
+organoalkalický		UNRESOLVED
+organoleptický		UNRESOLVED
+organoterapeutický		UNRESOLVED
+orgastický		UNRESOLVED
+orgiastický		UNRESOLVED
+orinocký	Orinoko	CHANGE: ko --> cký
+orlickoústecký		UNRESOLVED
+orlický	orlice	CHANGE: ce --> cký
+orogenetický		UNRESOLVED
+orogenický		UNRESOLVED
+ortokinetický		UNRESOLVED
+ortopraktický		UNRESOLVED
+ortorombický		UNRESOLVED
+ortoskopický		UNRESOLVED
+ortostatický		UNRESOLVED
+oscilografický	oscilograf	CHANGE: 0 --> ický
+osciloskopický	osciloskop	CHANGE: 0 --> ický
+osecký	Osek	CHANGE: k --> cký
+oselecký		UNRESOLVED
+osický	Osice	CHANGE: ce --> cký
+osijecký	Osijek	CHANGE: k --> cký
+oskický		UNRESOLVED
+oslavenecký	oslavenec	CHANGE: c --> cký
+osmotický	osmóza	CHANGE: óza --> otický
+osnabrücký		UNRESOLVED
+ospalecký	ospalec	CHANGE: c --> cký
+osteodontokeratický		UNRESOLVED
+osteoklastický	osteoklast	CHANGE: 0 --> ický
+osteoporotický	osteoporóza	CHANGE: óza --> otický
+osteosyntetický		UNRESOLVED
+ostravický	Ostravice	CHANGE: ce --> cký
+ostrovačický	Ostrovačice	CHANGE: ce --> cký
+ostrovecký	Ostrovec	CHANGE: c --> cký
+osvobozenecký		UNRESOLVED
+otaslavický	Otaslavice	CHANGE: ce --> cký
+otický	Otice	CHANGE: ce --> cký
+otoakustický		UNRESOLVED
+otovický	Otovice	CHANGE: ce --> cký
+otradovický	Otradovice	CHANGE: ce --> cký
+otrokovický	Otrokovice	CHANGE: ce --> cký
+otvický	Otvice	CHANGE: ce --> cký
+otvovický	Otvovice	CHANGE: ce --> cký
+ouběnický	Ouběnice	CHANGE: ce --> cký
+oumyslovický		UNRESOLVED
+ovčárecký		UNRESOLVED
+ovenecký		UNRESOLVED
+ovocnářskozahradnický		UNRESOLVED
+ovocnický		UNRESOLVED
+oxidický	oxid	CHANGE: 0 --> ický
+oxidimetrický		UNRESOLVED
+oxytetracyklický		UNRESOLVED
+ozdobnický	ozdobnice	CHANGE: ce --> cký
+ozonometrický		UNRESOLVED
+paběnický	Paběnice	CHANGE: ce --> cký
+paceřický	Paceřice	CHANGE: ce --> cký
+pacifický	pacifik	CHANGE: k --> cký
+packý	Pak	CHANGE: k --> cký
+palearktický		UNRESOLVED
+paleoamerický		UNRESOLVED
+paleoklimatický	paleoklima	CHANGE: a --> atický
+paleolitický	paleolit	CHANGE: 0 --> ický
+paleomagnetický	paleomagnetizmus	CHANGE: izmus --> ický
+paleopatologický		UNRESOLVED
+paleotermometrický		UNRESOLVED
+paleotropický		UNRESOLVED
+paleozoický	paleozoikum	CHANGE: kum --> cký
+palivoenergetický		UNRESOLVED
+palkovický	Palkovice	CHANGE: ce --> cký
+pamfletický	pamflet	CHANGE: 0 --> ický
+pamfletistický		UNRESOLVED
+panafrický		UNRESOLVED
+panafrikanistický	panafrikanizmus	CHANGE: izmus --> istický
+panamerický		UNRESOLVED
+panarabistický	panarabizmus	CHANGE: izmus --> istický
+pančický		UNRESOLVED
+panegyrický		UNRESOLVED
+pangalaktický		UNRESOLVED
+panhungaristický		UNRESOLVED
+panchromatický		UNRESOLVED
+pankreatický		UNRESOLVED
+panmiktický		UNRESOLVED
+panoptický	panoptikum	CHANGE: kum --> cký
+panslavistický	panslavismus	CHANGE: ismus --> istický
+pansofistický		UNRESOLVED
+pantografický	pantograf	CHANGE: 0 --> ický
+panturkistický	panturkizmus	CHANGE: izmus --> istický
+panygirický		UNRESOLVED
+parafinický	parafin	CHANGE: 0 --> ický
+paragenetický		UNRESOLVED
+paralaktický		UNRESOLVED
+paralický		UNRESOLVED
+paralytický	paralytik	CHANGE: k --> cký
+paramagnetický	paramagnetizmus	CHANGE: izmus --> ický
+parametrický	parametr	CHANGE: 0 --> ický
+paramilitaristický		UNRESOLVED
+paraneoplastický		UNRESOLVED
+paranoický	paranoik	CHANGE: k --> cký
+parapsychický		UNRESOLVED
+parasurrealistický		UNRESOLVED
+parasympatický		UNRESOLVED
+parasympatomimetický	parasympatomimetikum	CHANGE: kum --> cký
+parašutistický	parašutismus	CHANGE: ismus --> istický
+parataktický		UNRESOLVED
+parazitický	parazitice	CHANGE: ce --> cký
+pardubický	Pardubice	CHANGE: ce --> cký
+parenchymatický		UNRESOLVED
+paretický		UNRESOLVED
+parhelický		UNRESOLVED
+parnasistický	parnasizmus	CHANGE: izmus --> istický
+párnický	pár	CHANGE: 0 --> nický
+parodistický		UNRESOLVED
+paroxystický		UNRESOLVED
+partenogenetický		UNRESOLVED
+partikularistický	partikularizmus	CHANGE: izmus --> istický
+pasečnický	Pasečnice	CHANGE: ce --> cký
+pasohlávecký		UNRESOLVED
+pasťácký	pasťák	CHANGE: k --> cký
+pašácký	pašák	CHANGE: k --> cký
+paštický		UNRESOLVED
+pátecký	pátek	CHANGE: k --> cký
+patický	patice	CHANGE: ce --> cký
+patogenetický		UNRESOLVED
+patogenický	patogen	CHANGE: 0 --> ický
+patognomický		UNRESOLVED
+patognomonický		UNRESOLVED
+patografický		UNRESOLVED
+patriotický	patriot	CHANGE: 0 --> ický
+patronymický		UNRESOLVED
+pavelecký	Pavelec	CHANGE: c --> cký
+pavlovický	Pavlovice	CHANGE: ce --> cký
+pecký	pec	CHANGE: c --> cký
+pečecký	Peča	CHANGE: a --> ecký
+pedagogickometodický		UNRESOLVED
+pedagogickopsychologický		UNRESOLVED
+pedantický	pedant	CHANGE: 0 --> ický
+pedocentrický	pedocentrizmus	CHANGE: izmus --> ický
+pedochemický		UNRESOLVED
+pedostomatologický		UNRESOLVED
+pegmatitický	pegmatit	CHANGE: 0 --> ický
+pelagický		UNRESOLVED
+pelasgický	Pelasg	CHANGE: 0 --> ický
+pentacyklický		UNRESOLVED
+pentamerický		UNRESOLVED
+pepický	pepice	CHANGE: ce --> cký
+peptický	peptid	CHANGE: d --> cký
+peptidický	peptid	CHANGE: 0 --> ický
+peralkalický		UNRESOLVED
+peredvižnický	peredvižnik	CHANGE: k --> cký
+perfekcionistický	perfekcionismus	CHANGE: ismus --> istický
+peribronchitický		UNRESOLVED
+perifrastický		UNRESOLVED
+perinatologický		UNRESOLVED
+peripatetický	peripatetik	CHANGE: k --> cký
+periplazmatický		UNRESOLVED
+periskopický	periskop	CHANGE: 0 --> ický
+perkusionistický		UNRESOLVED
+pernarecký	Pernarec	CHANGE: c --> cký
+pernecký	Pernek	CHANGE: k --> cký
+pernolecký	Pernolec	CHANGE: c --> cký
+perocentrický		UNRESOLVED
+peroxidický	peroxid	CHANGE: 0 --> ický
+pertoltický	Pertoltice	CHANGE: ce --> cký
+pertrochanterický		UNRESOLVED
+perucký	Peruc	CHANGE: c --> cký
+pěticylindrický		UNRESOLVED
+pětistranický		UNRESOLVED
+petrovický	Petrovice	CHANGE: ce --> cký
+petrurgický		UNRESOLVED
+petříkovický	Petříkovice	CHANGE: ce --> cký
+petřkovický	Petřkovice	CHANGE: ce --> cký
+pezinocký	Pezinok	CHANGE: k --> cký
+pharmaceutický		UNRESOLVED
+pietistický	pietizmus	CHANGE: izmus --> istický
+piezoelektrický	piezoelektrikum	CHANGE: kum --> cký
+piezometrický	piezometr	CHANGE: 0 --> ický
+pikolický	pikolice	CHANGE: ce --> cký
+pikovický	Pikovice	CHANGE: ce --> cký
+piktografický	piktograf	CHANGE: 0 --> ický
+piktorialistický	piktorialismus	CHANGE: ismus --> istický
+pilnický	pilnice	CHANGE: ce --> cký
+pisárecký		UNRESOLVED
+písecký	písek	CHANGE: k --> cký
+písmolitecký		UNRESOLVED
+písnický	Písnice	CHANGE: ce --> cký
+pístecký	pístek	CHANGE: k --> cký
+pitkovický	Pitkovice	CHANGE: ce --> cký
+plačický	Plačice	CHANGE: ce --> cký
+planetocentrický		UNRESOLVED
+planetografický		UNRESOLVED
+plánický	Plánice	CHANGE: ce --> cký
+planktonický	plankton	CHANGE: 0 --> ický
+plánografický	plánograf	CHANGE: 0 --> ický
+plasmatický		UNRESOLVED
+plastickochirurgický		UNRESOLVED
+plastický	plastik	CHANGE: k --> cký
+platonický	platonik	CHANGE: k --> cký
+plazmochemický		UNRESOLVED
+plenéristický	plenérizmus	CHANGE: izmus --> istický
+pleochroický	pleochroismus	CHANGE: ismus --> ický
+pleonastický		UNRESOLVED
+plešivecký	Plešivec	CHANGE: c --> cký
+pletysmografický		UNRESOLVED
+plisecký		UNRESOLVED
+plitvický	Plitvice	CHANGE: ce --> cký
+plnoautomatický		UNRESOLVED
+plocký	Ploc	CHANGE: c --> cký
+plochodrážnický	plochodrážnice	CHANGE: ce --> cký
+ploskovický	Ploskovice	CHANGE: ce --> cký
+plutokratický	plutokrat	CHANGE: 0 --> ický
+plutonický	pluton	CHANGE: 0 --> ický
+plutonistický	plutonizmus	CHANGE: izmus --> istický
+plynárenskoenergetický		UNRESOLVED
+plynodynamický		UNRESOLVED
+plzenecký	Plzenec	CHANGE: c --> cký
+pneumatolytický	pneumatolýza	CHANGE: ýza --> ytický
+pňovický	Pňovice	CHANGE: ce --> cký
+poarchaický		UNRESOLVED
+poatlantický		UNRESOLVED
+poběžovický	Poběžovice	CHANGE: ce --> cký
+pobiblický		UNRESOLVED
+pobolševický		UNRESOLVED
+pocinovický	Pocinovice	CHANGE: ce --> cký
+počátecký	počátek	CHANGE: k --> cký
+počenický	Počenice	CHANGE: ce --> cký
+počepický	Počepice	CHANGE: ce --> cký
+počeplický	Počeplice	CHANGE: ce --> cký
+počernický	Počernice	CHANGE: ce --> cký
+podblanický		UNRESOLVED
+poddědický		UNRESOLVED
+podemokratický		UNRESOLVED
+podhorácký	podhorák	CHANGE: k --> cký
+podkritický		UNRESOLVED
+podlázecký		UNRESOLVED
+podlažický	Podlažice	CHANGE: ce --> cký
+podlipnický		UNRESOLVED
+podloudický		UNRESOLVED
+podlužácký		UNRESOLVED
+podmoklický	Podmoklice	CHANGE: ce --> cký
+podorlický		UNRESOLVED
+podrážnický	Podrážnice	CHANGE: ce --> cký
+podsedický	Podsedice	CHANGE: ce --> cký
+podtrosecký		UNRESOLVED
+podzámecký		UNRESOLVED
+poetistický	poetismus	CHANGE: ismus --> istický
+poetologický	poetolog	CHANGE: 0 --> ický
+pofrankistický		UNRESOLVED
+pogromistický		UNRESOLVED
+pohledecký	Pohledec	CHANGE: c --> cký
+pohodnický	pohodnice	CHANGE: ce --> cký
+pohořelecký	Pohořelec	CHANGE: c --> cký
+pohořelický	Pohořelice	CHANGE: ce --> cký
+pohřebácký	pohřebák	CHANGE: k --> cký
+pochartistický		UNRESOLVED
+pointilistický	pointilizmus	CHANGE: izmus --> istický
+pojistněmatematický		UNRESOLVED
+pokladnický	pokladnice	CHANGE: ce --> cký
+poklasický		UNRESOLVED
+pokratický	Pokratice	CHANGE: ce --> cký
+polarimetrický	polarimetr	CHANGE: 0 --> ický
+polarometrický		UNRESOLVED
+polešovický	Polešovice	CHANGE: ce --> cký
+poliadický		UNRESOLVED
+polický	police	CHANGE: ce --> cký
+politbyrácký		UNRESOLVED
+politbyrokratický	politbyrokrat	CHANGE: 0 --> ický
+politickoekonomický		UNRESOLVED
+politickosatirický		UNRESOLVED
+politruckobolševický		UNRESOLVED
+poloakustický		UNRESOLVED
+poloanarchistický		UNRESOLVED
+poloasketický		UNRESOLVED
+poloautobiografický		UNRESOLVED
+poloautomatický	poloautomat	CHANGE: 0 --> ický
+polobeletristický		UNRESOLVED
+polobolševický		UNRESOLVED
+polocký	Polok	CHANGE: k --> cký
+polodbornický	polodbornice	CHANGE: ce --> cký
+polodemokratický		UNRESOLVED
+poloekonomický		UNRESOLVED
+poloeliptický		UNRESOLVED
+polofantastický		UNRESOLVED
+polofašistický		UNRESOLVED
+pologeometrický		UNRESOLVED
+polohermetický		UNRESOLVED
+polohistorický		UNRESOLVED
+polochemický		UNRESOLVED
+poloironický		UNRESOLVED
+polokatolický		UNRESOLVED
+polokomunistický		UNRESOLVED
+polokybernetický		UNRESOLVED
+polomechanický		UNRESOLVED
+polomystický		UNRESOLVED
+polomytický		UNRESOLVED
+polonaturalistický		UNRESOLVED
+polooptimistický		UNRESOLVED
+polootrocký	polootrok	CHANGE: k --> cký
+poloparazitický	poloparazit	CHANGE: 0 --> ický
+polopatický	polopatizmus	CHANGE: izmus --> ický
+polopatistický	polopatizmus	CHANGE: izmus --> istický
+poloplastický		UNRESOLVED
+polopolitický	polopolitik	CHANGE: k --> cký
+polorealistický		UNRESOLVED
+poloscénický		UNRESOLVED
+polosocialistický	polosocializmus	CHANGE: izmus --> istický
+polosyntetický		UNRESOLVED
+poloteroristický		UNRESOLVED
+poloúřednický		UNRESOLVED
+polovecký	Polovec	CHANGE: c --> cký
+polskoněmecký		UNRESOLVED
+polyaromatický		UNRESOLVED
+polycentrický	polycentrizmus	CHANGE: izmus --> ický
+polycistronický		UNRESOLVED
+polycyklický		UNRESOLVED
+polycystický		UNRESOLVED
+polyedrický	polyedr	CHANGE: 0 --> ický
+polyembrionický		UNRESOLVED
+polyestrický		UNRESOLVED
+polyfyletický		UNRESOLVED
+polygamistický		UNRESOLVED
+polygenetický	polygenetizmus	CHANGE: izmus --> ický
+polyglotický	polyglot	CHANGE: 0 --> ický
+polychromatický		UNRESOLVED
+polykrystalický	polykrystal	CHANGE: 0 --> ický
+polymelodický		UNRESOLVED
+polymetalický	polymetal	CHANGE: 0 --> ický
+polymyositický		UNRESOLVED
+polynomický	polynom	CHANGE: 0 --> ický
+polypeptidický	polypeptid	CHANGE: 0 --> ický
+polysémantický		UNRESOLVED
+polysyntetický		UNRESOLVED
+polytematický		UNRESOLVED
+polytropický		UNRESOLVED
+polytypický	polytyp	CHANGE: 0 --> ický
+pontický	pont	CHANGE: 0 --> ický
+popartistický		UNRESOLVED
+popický	Popice	CHANGE: ce --> cký
+popkovický	Popkovice	CHANGE: ce --> cký
+popovický	Popovice	CHANGE: ce --> cký
+populacionistický	populacionizmus	CHANGE: izmus --> istický
+populárněhistorický		UNRESOLVED
+populárněvědecký		UNRESOLVED
+poradenskopsychologický		UNRESOLVED
+porodnickogynekologický		UNRESOLVED
+portorický	portoriko	CHANGE: ko --> cký
+porýnskofalcký		UNRESOLVED
+posekanecký	Posekanec	CHANGE: c --> cký
+postapokalyptický		UNRESOLVED
+postbiblický		UNRESOLVED
+postbolševický		UNRESOLVED
+postdemokratický		UNRESOLVED
+postflebitický		UNRESOLVED
+postfrankistický		UNRESOLVED
+postfunkcionalistický		UNRESOLVED
+postchartistický		UNRESOLVED
+postcholecystektomický		UNRESOLVED
+postimpresionistický	postimpresionismus	CHANGE: ismus --> istický
+postizometrický		UNRESOLVED
+postkapitalistický		UNRESOLVED
+postkatastrofický		UNRESOLVED
+postklimakterický		UNRESOLVED
+postkojenecký		UNRESOLVED
+postkubistický	postkubizmus	CHANGE: izmus --> istický
+postkumunistický		UNRESOLVED
+postmagmatický		UNRESOLVED
+postmarxistický		UNRESOLVED
+postmaterialistický		UNRESOLVED
+postneorealistický		UNRESOLVED
+postromantický	postromantizmus	CHANGE: izmus --> ický
+postsocialistický	postsocializmus	CHANGE: izmus --> istický
+poststalinistický	poststalinizmus	CHANGE: izmus --> istický
+postsurrealistický	postsurrealizmus	CHANGE: izmus --> istický
+postsvazácký		UNRESOLVED
+postsymbolistický		UNRESOLVED
+postsynaptický		UNRESOLVED
+posttraumatický		UNRESOLVED
+posttrombotický		UNRESOLVED
+postupický	Postupice	CHANGE: ce --> cký
+postvulkanický		UNRESOLVED
+posvícenecký		UNRESOLVED
+pouštěcký		UNRESOLVED
+pouťácký	pouťák	CHANGE: k --> cký
+pozďátecký		UNRESOLVED
+pozdněgotický		UNRESOLVED
+pozitronický	pozitron	CHANGE: 0 --> ický
+pozlovický	Pozlovice	CHANGE: ce --> cký
+pozorecký		UNRESOLVED
+pozořický	Pozořice	CHANGE: ce --> cký
+požarevacký	Požarevac	CHANGE: c --> cký
+požárnětechnický		UNRESOLVED
+prackovický	Prackovice	CHANGE: ce --> cký
+pragmatistický	pragmatizmus	CHANGE: izmus --> istický
+pragocentrický	pragocentrizmus	CHANGE: izmus --> ický
+pragocentristický	pragocentrizmus	CHANGE: izmus --> istický
+prachatický	Prachatice	CHANGE: ce --> cký
+prachovický	Prachovice	CHANGE: ce --> cký
+prakšický	Prakšice	CHANGE: ce --> cký
+prakticistický	prakticismus	CHANGE: ismus --> istický
+praktickopolitický		UNRESOLVED
+praktický	praktik	CHANGE: k --> cký
+pratecký	Prata	CHANGE: a --> ecký
+pravčický	Pravčice	CHANGE: ce --> cký
+právněhistorický		UNRESOLVED
+právněinformatický		UNRESOLVED
+právněpolitický		UNRESOLVED
+právněpozitivistický		UNRESOLVED
+prčický	Prčice	CHANGE: ce --> cký
+prďácký	prďák	CHANGE: k --> cký
+preanalytický		UNRESOLVED
+prebiotický	prebiotikum	CHANGE: kum --> cký
+preformistický	preformizmus	CHANGE: izmus --> istický
+prekambrický	prekambrium	CHANGE: ium --> ický
+prekaristický		UNRESOLVED
+preklinický		UNRESOLVED
+prelogický	Prelog	CHANGE: 0 --> ický
+premodernistický		UNRESOLVED
+premorfologický		UNRESOLVED
+preromantický	preromantik	CHANGE: k --> cký
+presorický		UNRESOLVED
+presynaptický		UNRESOLVED
+presystolický		UNRESOLVED
+primácký		UNRESOLVED
+primitivistický	primitivismus	CHANGE: ismus --> istický
+prismatický		UNRESOLVED
+proamerický		UNRESOLVED
+proatlantický		UNRESOLVED
+probiotický	probiotikum	CHANGE: kum --> cký
+probolševický		UNRESOLVED
+procentický		UNRESOLVED
+procesnětechnický		UNRESOLVED
+procyklický		UNRESOLVED
+prodemokratický		UNRESOLVED
+prodynastický		UNRESOLVED
+proekologický		UNRESOLVED
+profašistický		UNRESOLVED
+profederalistický		UNRESOLVED
+profeministický		UNRESOLVED
+profetický		UNRESOLVED
+profylaktický	profylaktikum	CHANGE: kum --> cký
+programatický		UNRESOLVED
+prohibicionistický	prohibicionizmus	CHANGE: izmus --> istický
+prohinduistický		UNRESOLVED
+proindický		UNRESOLVED
+proirácký		UNRESOLVED
+proislamistický		UNRESOLVED
+projekčnětechnologický		UNRESOLVED
+prokapitalistický		UNRESOLVED
+prokaryontický		UNRESOLVED
+prokatolický		UNRESOLVED
+proklitický		UNRESOLVED
+prokomunistický		UNRESOLVED
+prolabouristický		UNRESOLVED
+promaoistický		UNRESOLVED
+promarxistický		UNRESOLVED
+promonarchistický		UNRESOLVED
+pronacistický		UNRESOLVED
+proněmecký		UNRESOLVED
+propučistický		UNRESOLVED
+prosenický	Prosenice	CHANGE: ce --> cký
+prosetický	Prosetice	CHANGE: ce --> cký
+prosiměřický	Prosiměřice	CHANGE: ce --> cký
+proskovický	Proskovice	CHANGE: ce --> cký
+prosocialistický		UNRESOLVED
+prostalinistický		UNRESOLVED
+prostetický		UNRESOLVED
+prosurrealistický		UNRESOLVED
+prošlechtický		UNRESOLVED
+protekcionalistický	protekcionalizmus	CHANGE: izmus --> istický
+proteolytický	proteolýza	CHANGE: ýza --> ytický
+proteosyntetický		UNRESOLVED
+proterandrický	proterandrie	CHANGE: ie --> ický
+proteroristický		UNRESOLVED
+proterozoický	proterozoikum	CHANGE: kum --> cký
+protiabsolutistický		UNRESOLVED
+protiakademický		UNRESOLVED
+protialergický		UNRESOLVED
+protialkoholický		UNRESOLVED
+protiamerický		UNRESOLVED
+protianglický		UNRESOLVED
+protiasketický		UNRESOLVED
+protibalistický		UNRESOLVED
+protibiologický		UNRESOLVED
+protibolševický		UNRESOLVED
+protibyrokratický		UNRESOLVED
+proticentralistický		UNRESOLVED
+proticizinecký		UNRESOLVED
+protický	Prot	CHANGE: 0 --> ický
+protidarwinistický		UNRESOLVED
+protidělnický		UNRESOLVED
+protidemokratický		UNRESOLVED
+protidynastický		UNRESOLVED
+protiekologický		UNRESOLVED
+protiekonomický		UNRESOLVED
+protiepidemický		UNRESOLVED
+protiepidemiologický		UNRESOLVED
+protiepileptický		UNRESOLVED
+protiextremistický		UNRESOLVED
+protifašistický		UNRESOLVED
+protifederalistický		UNRESOLVED
+protifeministický		UNRESOLVED
+protifrankistický		UNRESOLVED
+protifundamentalistický		UNRESOLVED
+protifunkcionalistický		UNRESOLVED
+protigaullistický		UNRESOLVED
+protihinduistický		UNRESOLVED
+protihornický		UNRESOLVED
+protichartistický		UNRESOLVED
+protichemický		UNRESOLVED
+protiimperialistický		UNRESOLVED
+protiindický		UNRESOLVED
+protiirácký		UNRESOLVED
+protikapitalistický		UNRESOLVED
+protikatolický		UNRESOLVED
+protikolonialistický		UNRESOLVED
+protikomunistický		UNRESOLVED
+protikonformistický		UNRESOLVED
+protikurucký		UNRESOLVED
+protikuřácký		UNRESOLVED
+protiletecký		UNRESOLVED
+protilogický		UNRESOLVED
+protimagnetický		UNRESOLVED
+protimalarický		UNRESOLVED
+protimarxistický		UNRESOLVED
+protiměšťácký		UNRESOLVED
+protimexický		UNRESOLVED
+protimilitaristický		UNRESOLVED
+protimodernistický		UNRESOLVED
+protimonarchistický		UNRESOLVED
+protinacionalistický		UNRESOLVED
+protinacistický		UNRESOLVED
+protinarkotický		UNRESOLVED
+protiněmecký		UNRESOLVED
+protiparazitický		UNRESOLVED
+protipovstalecký		UNRESOLVED
+protipozitivistický		UNRESOLVED
+protipřistěhovalecký		UNRESOLVED
+protipytlácký		UNRESOLVED
+protiquébecký		UNRESOLVED
+protirácký		UNRESOLVED
+protirasistický		UNRESOLVED
+protirevmatický		UNRESOLVED
+protirolnický		UNRESOLVED
+protiromantický		UNRESOLVED
+protiřecký		UNRESOLVED
+protiseizmický		UNRESOLVED
+protischolastický		UNRESOLVED
+protisionistický		UNRESOLVED
+protisklerotický		UNRESOLVED
+protislušovický		UNRESOLVED
+protisocialistický		UNRESOLVED
+protistranický		UNRESOLVED
+protisudetoněmecký		UNRESOLVED
+protisymbolistický		UNRESOLVED
+protisymetrický		UNRESOLVED
+protišosácký		UNRESOLVED
+protiteroristický		UNRESOLVED
+protitoxický		UNRESOLVED
+protitoxikomanický		UNRESOLVED
+protitrombotický		UNRESOLVED
+protiturecký		UNRESOLVED
+protiúřednický		UNRESOLVED
+protivědecký		UNRESOLVED
+protivlastenecký		UNRESOLVED
+protoindický		UNRESOLVED
+protolytický	protolýza	CHANGE: ýza --> ytický
+protoneolitický	protoneolit	CHANGE: 0 --> ický
+prototypický	prototyp	CHANGE: 0 --> ický
+proturecký	Protura	CHANGE: a --> ecký
+provlastenecký		UNRESOLVED
+provozněekonomický		UNRESOLVED
+provoznětechnický		UNRESOLVED
+prozaický	prozaik	CHANGE: k --> cký
+prozodický		UNRESOLVED
+prštický	Prštice	CHANGE: ce --> cký
+průhonický	Průhonice	CHANGE: ce --> cký
+průmstavácký		UNRESOLVED
+prusinovický	Prusinovice	CHANGE: ce --> cký
+prušácký	Prušák	CHANGE: k --> cký
+prušánecký		UNRESOLVED
+přadlácký	přadlák	CHANGE: k --> cký
+přáslavický	Přáslavice	CHANGE: ce --> cký
+předalfabetický		UNRESOLVED
+předantický		UNRESOLVED
+předastmatický		UNRESOLVED
+předbásnický		UNRESOLVED
+předbiblický		UNRESOLVED
+předbiologický		UNRESOLVED
+předbolševický		UNRESOLVED
+předbuddhistický		UNRESOLVED
+předdemokratický		UNRESOLVED
+předdynastický		UNRESOLVED
+předenický	Předenice	CHANGE: ce --> cký
+předfalický		UNRESOLVED
+předfašistický		UNRESOLVED
+předgeologický		UNRESOLVED
+předhistorický		UNRESOLVED
+předincký		UNRESOLVED
+předkambrický		UNRESOLVED
+předkapitalistický		UNRESOLVED
+předkeramický		UNRESOLVED
+předklasický		UNRESOLVED
+předklinický		UNRESOLVED
+předkomunistický		UNRESOLVED
+předkritický		UNRESOLVED
+předkubistický		UNRESOLVED
+předlický	Předlice	CHANGE: ce --> cký
+předlogický		UNRESOLVED
+předlyrický		UNRESOLVED
+předmarxistický		UNRESOLVED
+předměřický	Předměřice	CHANGE: ce --> cký
+přednacistický		UNRESOLVED
+předolomoucký		UNRESOLVED
+předotický	Předotice	CHANGE: ce --> cký
+předplavecký		UNRESOLVED
+předpoetistický		UNRESOLVED
+předpolitický		UNRESOLVED
+předromantický		UNRESOLVED
+předřecký		UNRESOLVED
+předsednický		UNRESOLVED
+předsokratický		UNRESOLVED
+předsurrealistický		UNRESOLVED
+předturecký		UNRESOLVED
+předumělecký		UNRESOLVED
+předvědecký		UNRESOLVED
+předzámecký		UNRESOLVED
+přemyslovický	Přemyslovice	CHANGE: ce --> cký
+přestavlcký	Přestavlky	CHANGE: ky --> cký
+přešovický	Přešovice	CHANGE: ce --> cký
+přeštěnický	Přeštěnice	CHANGE: ce --> cký
+přeštický	Přeštice	CHANGE: ce --> cký
+přešťovický	Přešťovice	CHANGE: ce --> cký
+přezletický	Přezletice	CHANGE: ce --> cký
+příběnický	Příběnice	CHANGE: ce --> cký
+přibický	Přibice	CHANGE: ce --> cký
+příbuzenecký		UNRESOLVED
+přibyslavický	Přibyslavice	CHANGE: ce --> cký
+přibyšický	Přibyšice	CHANGE: ce --> cký
+příchovický	Příchovice	CHANGE: ce --> cký
+příkosický	Příkosice	CHANGE: ce --> cký
+přílucký	Příluky	CHANGE: ky --> cký
+přímětický	Přímětice	CHANGE: ce --> cký
+přírodověděcký		UNRESOLVED
+přísečnický	Přísečnice	CHANGE: ce --> cký
+příšovický	Příšovice	CHANGE: ce --> cký
+přítlucký	Přítluky	CHANGE: ky --> cký
+příživnický	příživnice	CHANGE: ce --> cký
+pseudogeostrofický		UNRESOLVED
+pseuodosocialistický		UNRESOLVED
+psoriatický	psoriatik	CHANGE: k --> cký
+psychickofyziologický		UNRESOLVED
+psychoakustický		UNRESOLVED
+psychoanalitický		UNRESOLVED
+psychoanalytický	psychoanalytik	CHANGE: k --> cký
+psychoekonomický		UNRESOLVED
+psychoenergetický		UNRESOLVED
+psychogalvanický		UNRESOLVED
+psychokinetický		UNRESOLVED
+psychologistický	psychologizmus	CHANGE: izmus --> istický
+psychoneurologický		UNRESOLVED
+psychosociologický	psychosociolog	CHANGE: 0 --> ický
+psychoterapeutický	psychoterapeut	CHANGE: 0 --> ický
+psychrometrický	psychrometr	CHANGE: 0 --> ický
+pšenický	pšenice	CHANGE: ce --> cký
+pšovecký		UNRESOLVED
+pubický	pub	CHANGE: 0 --> ický
+puclický	Puclice	CHANGE: ce --> cký
+půdněklimatický		UNRESOLVED
+puklický	puklice	CHANGE: ce --> cký
+půleliptický		UNRESOLVED
+pulický	Pulice	CHANGE: ce --> cký
+purististický		UNRESOLVED
+puritistický		UNRESOLVED
+purkarecký	Purkarec	CHANGE: c --> cký
+puucký		UNRESOLVED
+pyelografický		UNRESOLVED
+pyknický	pyknik	CHANGE: k --> cký
+pyknometrický		UNRESOLVED
+pylorický	pylor	CHANGE: 0 --> ický
+pyroforický		UNRESOLVED
+pyrolytický	pyrolýza	CHANGE: ýza --> ytický
+pyrometalurgický		UNRESOLVED
+pyrometrický	pyrometr	CHANGE: 0 --> ický
+pyroxenický	pyroxen	CHANGE: 0 --> ický
+pýthický	Pýthie	CHANGE: ie --> ický
+pythický	Pythium	CHANGE: ium --> ický
+quebecký	Quebek	CHANGE: k --> cký
+racemický		UNRESOLVED
+račerovický	Račerovice	CHANGE: ce --> cký
+račický	račice	CHANGE: ce --> cký
+radarácký		UNRESOLVED
+radčický	Radčice	CHANGE: ce --> cký
+radešovický	Radešovice	CHANGE: ce --> cký
+radikalistický	radikalizmus	CHANGE: izmus --> istický
+radikálnědemokratický		UNRESOLVED
+radimovický	Radimovice	CHANGE: ce --> cký
+radioanalytický		UNRESOLVED
+radioelektrický		UNRESOLVED
+radiohygienický		UNRESOLVED
+radiochirugický		UNRESOLVED
+radioimunologický		UNRESOLVED
+radioizotopický	radioizotop	CHANGE: 0 --> ický
+radiomechanický	radiomechanik	CHANGE: k --> cký
+radkovický	Radkovice	CHANGE: ce --> cký
+radlický	radlice	CHANGE: ce --> cký
+radnický	radnice	CHANGE: ce --> cký
+radňovický	Radňovice	CHANGE: ce --> cký
+rádobyamerický		UNRESOLVED
+radobyčický	Radobyčice	CHANGE: ce --> cký
+rádobyekonomický	rádobyekonom	CHANGE: 0 --> ický
+rádobypolitický	rádobypolitik	CHANGE: k --> cký
+rádobyspiklenecký		UNRESOLVED
+rádobyvědecký		UNRESOLVED
+radonický	Radonice	CHANGE: ce --> cký
+radošovický	Radošovice	CHANGE: ce --> cký
+radovesický	Radovesice	CHANGE: ce --> cký
+radslavický	Radslav	CHANGE: 0 --> ický
+radvanický	Radvanice	CHANGE: ce --> cký
+radvánovický	Radvánovice	CHANGE: ce --> cký
+rachitický	rachitida	CHANGE: ida --> ický
+rajnochovický	Rajnochovice	CHANGE: ce --> cký
+rakovnický		UNRESOLVED
+rakušácký	Rakušák	CHANGE: k --> cký
+rakvický	Rakvice	CHANGE: ce --> cký
+rapotický	Rapotice	CHANGE: ce --> cký
+raškovický	Raškovice	CHANGE: ce --> cký
+rašovický	Rašovice	CHANGE: ce --> cký
+ratibořický	Ratibořice	CHANGE: ce --> cký
+ratíškovický	Ratíškovice	CHANGE: ce --> cký
+ratměřický	Ratměřice	CHANGE: ce --> cký
+rayonistický	rayonizmus	CHANGE: izmus --> istický
+ražický	Ražice	CHANGE: ce --> cký
+reálněsocialistický		UNRESOLVED
+reálsocialistický	reálsocializmus	CHANGE: izmus --> istický
+recesistický	recesismus	CHANGE: ismus --> istický
+rečický	reč	CHANGE: 0 --> ický
+redukcionistický	redukcionizmus	CHANGE: izmus --> istický
+reduktometrický		UNRESOLVED
+reflektorický	reflektor	CHANGE: 0 --> ický
+reflexácký		UNRESOLVED
+reistický	reizmus	CHANGE: izmus --> istický
+rejdický	Rejdice	CHANGE: ce --> cký
+rejšický	Rejšice	CHANGE: ce --> cký
+rekatolický		UNRESOLVED
+rentgenický	rentgen	CHANGE: 0 --> ický
+rentgenomotorický		UNRESOLVED
+respirometrický	respirometr	CHANGE: 0 --> ický
+reumatický	reumatik	CHANGE: k --> cký
+reumatologický		UNRESOLVED
+rezofonický		UNRESOLVED
+rijecký		UNRESOLVED
+rijswijcký		UNRESOLVED
+ritualistický	ritualizmus	CHANGE: izmus --> istický
+roajalistický	roajalizmus	CHANGE: izmus --> istický
+rodostický		UNRESOLVED
+roentgenologický		UNRESOLVED
+rohozecký	rohozec	CHANGE: c --> cký
+rochlický	Rochlice	CHANGE: ce --> cký
+romantickofilozofický		UNRESOLVED
+rombický		UNRESOLVED
+rondokubistický		UNRESOLVED
+ropácký	ropák	CHANGE: k --> cký
+ropický	Ropice	CHANGE: ce --> cký
+rosický	Rosice	CHANGE: ce --> cký
+rosnický	Rosnice	CHANGE: ce --> cký
+rostocký		UNRESOLVED
+roudnický	Roudnice	CHANGE: ce --> cký
+rousovický	Rousovice	CHANGE: ce --> cký
+rozhovický	Rozhovice	CHANGE: ce --> cký
+roztocký	roztok	CHANGE: k --> cký
+rožďalovický	Rožďalovice	CHANGE: ce --> cký
+rožťalovický	Rožťalovice	CHANGE: ce --> cký
+rudický	Rudice	CHANGE: ce --> cký
+rudnický	Rudnik	CHANGE: k --> cký
+rudofašistický		UNRESOLVED
+rudogardistický		UNRESOLVED
+rudolecký	Rudolec	CHANGE: c --> cký
+rudolický	Rudolice	CHANGE: ce --> cký
+rudoltický	Rudoltice	CHANGE: ce --> cký
+ruprechtický	Ruprechtice	CHANGE: ce --> cký
+ruralistický	ruralizmus	CHANGE: izmus --> istický
+rusácký	rusák	CHANGE: k --> cký
+ruskoamerický		UNRESOLVED
+ruskoněmecký		UNRESOLVED
+rusovecký	Rusovce	CHANGE: vce --> vecký
+růžovoromantický		UNRESOLVED
+rybnický	Rybnice	CHANGE: ce --> cký
+rychlošípácký	rychlošípák	CHANGE: k --> cký
+ryjický	Ryjice	CHANGE: ce --> cký
+rymický	Rymice	CHANGE: ce --> cký
+rynárecký	Rynárec	CHANGE: c --> cký
+rynholecký	Rynholec	CHANGE: c --> cký
+rynoltický	Rynoltice	CHANGE: ce --> cký
+rýnovický	Rýnovice	CHANGE: ce --> cký
+rýžovnický		UNRESOLVED
+řasnický	Řasnice	CHANGE: ce --> cký
+řeckoturecký		UNRESOLVED
+řecký	Řek	CHANGE: k --> cký
+řečický	Řečice	CHANGE: ce --> cký
+řečkovický	Řečkovice	CHANGE: ce --> cký
+ředický	Ředice	CHANGE: ce --> cký
+řehlovický	Řehlovice	CHANGE: ce --> cký
+řeholnický	řeholnice	CHANGE: ce --> cký
+řepčický	Řepčice	CHANGE: ce --> cký
+řepický	řepice	CHANGE: ce --> cký
+řepnický	Řepnice	CHANGE: ce --> cký
+řetenický	Řetenice	CHANGE: ce --> cký
+řevnický	řevnice	CHANGE: ce --> cký
+řeznovický	Řeznovice	CHANGE: ce --> cký
+řícmanický	Řícmanice	CHANGE: ce --> cký
+římskoantický		UNRESOLVED
+římskokatolický		UNRESOLVED
+římskoněmecký		UNRESOLVED
+římsologický	římsolog	CHANGE: 0 --> ický
+řípecký	Řípec	CHANGE: c --> cký
+říšskoněmecký		UNRESOLVED
+sádecký	Sádek	CHANGE: k --> cký
+sadomasochistický	sadomasochizmus	CHANGE: izmus --> istický
+samerický		UNRESOLVED
+samoplátecký		UNRESOLVED
+samothrácký		UNRESOLVED
+sapfický		UNRESOLVED
+saprobiologický		UNRESOLVED
+saprofytický	saprofyt	CHANGE: 0 --> ický
+sardonický	Sardon	CHANGE: 0 --> ický
+sarkastický	sarkastik	CHANGE: k --> cký
+sarmacký		UNRESOLVED
+satalický	Satalice	CHANGE: ce --> cký
+satanický	satan	CHANGE: 0 --> ický
+satirickoalegorický		UNRESOLVED
+satirický	satirik	CHANGE: k --> cký
+saxofonistický		UNRESOLVED
+sběračskolovecký		UNRESOLVED
+scientifický		UNRESOLVED
+scientistický	scientizmus	CHANGE: izmus --> istický
+scientometrický		UNRESOLVED
+scifistický		UNRESOLVED
+sebesarkastický		UNRESOLVED
+seboroický		UNRESOLVED
+sebranický	Sebranice	CHANGE: ce --> cký
+sedlcký		UNRESOLVED
+sedleckoprčický		UNRESOLVED
+sedlický	Sedlice	CHANGE: ce --> cký
+sedlnický	Sedlnice	CHANGE: ce --> cký
+seizmografický	seizmograf	CHANGE: 0 --> ický
+seizmologický		UNRESOLVED
+seizmometrický	seizmometr	CHANGE: 0 --> ický
+seizmonastický		UNRESOLVED
+seizmotektonický		UNRESOLVED
+seldžucký	Seldžuk	CHANGE: k --> cký
+selecký	selsko	CHANGE: sko --> ecký
+selenocentrický		UNRESOLVED
+semčický	Semčice	CHANGE: ce --> cký
+semechnický	Semechnice	CHANGE: ce --> cký
+semiautomatický		UNRESOLVED
+semický	Semice	CHANGE: ce --> cký
+sémický	sém	CHANGE: 0 --> ický
+semiempirický		UNRESOLVED
+semilogaritmický		UNRESOLVED
+semisystematický		UNRESOLVED
+semiterestrický		UNRESOLVED
+semněvický	Semněvice	CHANGE: ce --> cký
+semonický	Semonice	CHANGE: ce --> cký
+sendražický	Sendražice	CHANGE: ce --> cký
+senecký	senec	CHANGE: c --> cký
+senický	Senice	CHANGE: ce --> cký
+seninecký		UNRESOLVED
+sentimentalistický	sentimentalismus	CHANGE: ismus --> istický
+senzitivistický		UNRESOLVED
+senzomotorický		UNRESOLVED
+senzualistický	senzualizmus	CHANGE: izmus --> istický
+seskviterpenický	seskviterpen	CHANGE: 0 --> ický
+setnický	setnice	CHANGE: ce --> cký
+severoafrický		UNRESOLVED
+severoamerický		UNRESOLVED
+severoanglický		UNRESOLVED
+severoarktický		UNRESOLVED
+severoatlantický		UNRESOLVED
+severobelgický		UNRESOLVED
+severočeskoenergetický		UNRESOLVED
+severoindický		UNRESOLVED
+severoirácký		UNRESOLVED
+severokorsický		UNRESOLVED
+severomarocký		UNRESOLVED
+severomexický		UNRESOLVED
+severoněmecký		UNRESOLVED
+severopacifický		UNRESOLVED
+severořecký		UNRESOLVED
+severotádžický		UNRESOLVED
+severoturecký		UNRESOLVED
+sezemický	Sezemice	CHANGE: ce --> cký
+sezimoústecký		UNRESOLVED
+sezimovoústecký		UNRESOLVED
+schematický	schematismus	CHANGE: ismus --> ický
+schizmatický	schizmatik	CHANGE: k --> cký
+siderický		UNRESOLVED
+silický	silice	CHANGE: ce --> cký
+silikotický	silikóza	CHANGE: óza --> otický
+skalecký	Skala	CHANGE: a --> ecký
+skalický	skalice	CHANGE: ce --> cký
+skedastický		UNRESOLVED
+skeletický	skelet	CHANGE: 0 --> ický
+skeptický	skeptik	CHANGE: k --> cký
+skialpinistický	skialpinizmus	CHANGE: izmus --> istický
+sklenařický	Sklenařice	CHANGE: ce --> cký
+sklerenchymatický		UNRESOLVED
+sklerokarpický		UNRESOLVED
+sklerotický	sklerotik	CHANGE: k --> cký
+skoliotický	skoliotikum	CHANGE: kum --> cký
+skoronický	Skoronice	CHANGE: ce --> cký
+skorotický	Skorotice	CHANGE: ce --> cký
+skotopický		UNRESOLVED
+skřivánecký	skřivánek	CHANGE: k --> cký
+skulpturalistický		UNRESOLVED
+slabčický	Slabčice	CHANGE: ce --> cký
+slabecký	Slaba	CHANGE: a --> ecký
+slameňácký	Slameňák	CHANGE: k --> cký
+slanecký	Slanec	CHANGE: c --> cký
+slatinický	Slatinice	CHANGE: ce --> cký
+slavonický	Slavonice	CHANGE: ce --> cký
+slepotický	Slepotice	CHANGE: ce --> cký
+slezskoněmecký		UNRESOLVED
+slezskoplatěnický		UNRESOLVED
+slivenecký	Slivenec	CHANGE: c --> cký
+slivický	Slivice	CHANGE: ce --> cký
+sloupnický	Sloupnice	CHANGE: ce --> cký
+slovácký	Slovák	CHANGE: k --> cký
+slucký	Slug	CHANGE: g --> cký
+slušovický	Slušovice	CHANGE: ce --> cký
+sluštický	Sluštice	CHANGE: ce --> cký
+smektický		UNRESOLVED
+smilnický	smilnice	CHANGE: ce --> cký
+smiřický	Smiřice	CHANGE: ce --> cký
+smokovecký	Smokovec	CHANGE: c --> cký
+smolenický	Smolenice	CHANGE: ce --> cký
+smolnický	smolnice	CHANGE: ce --> cký
+smržický	Smržice	CHANGE: ce --> cký
+sňatkopodvodnický		UNRESOLVED
+snědovický	Snědovice	CHANGE: ce --> cký
+sněhulácký	sněhulák	CHANGE: k --> cký
+snobácký		UNRESOLVED
+snobistický	snobismus	CHANGE: ismus --> istický
+soběšický	Soběšice	CHANGE: ce --> cký
+sobotecký	sobota	CHANGE: a --> ecký
+sobranecký		UNRESOLVED
+sociáldemokratický	sociáldemokratismus	CHANGE: ismus --> ický
+sociálfašistický		UNRESOLVED
+sociálimperialistický	sociálimperialismus	CHANGE: ismus --> istický
+socialistickorealistický		UNRESOLVED
+sociálnědemokratický		UNRESOLVED
+sociálněekonomický		UNRESOLVED
+sociálněgeografický		UNRESOLVED
+sociálněkritický		UNRESOLVED
+sociálněpatologický		UNRESOLVED
+sociálněpedagogický		UNRESOLVED
+sociálněpolitický		UNRESOLVED
+sociálněpsychický		UNRESOLVED
+sociálněpsychologický		UNRESOLVED
+sociodemografický		UNRESOLVED
+socioekomonický		UNRESOLVED
+socioekonomický		UNRESOLVED
+sociogeografický		UNRESOLVED
+sociohistorický		UNRESOLVED
+sociopolitický		UNRESOLVED
+sociopsychologický	sociopsycholog	CHANGE: 0 --> ický
+socioterapeutický	socioterapeut	CHANGE: 0 --> ický
+socrealistický	socrealizmus	CHANGE: izmus --> istický
+sochařskokamenický		UNRESOLVED
+soicálněpolitický		UNRESOLVED
+sojovický	Sojovice	CHANGE: ce --> cký
+sokratický		UNRESOLVED
+solenický	Solenice	CHANGE: ce --> cký
+solidaristický	solidarismus	CHANGE: ismus --> istický
+solnický	solnice	CHANGE: ce --> cký
+solovecký		UNRESOLVED
+somatosensorický		UNRESOLVED
+somatosenzorický		UNRESOLVED
+somatosexuologický		UNRESOLVED
+somnambulický	somnambul	CHANGE: 0 --> ický
+somrácký	somrák	CHANGE: k --> cký
+sonický	son	CHANGE: 0 --> ický
+sónický	Són	CHANGE: 0 --> ický
+sophistický		UNRESOLVED
+sopotnický	Sopotnica	CHANGE: ca --> cký
+soteriologický		UNRESOLVED
+soudněznalecký		UNRESOLVED
+soudnický	soudnice	CHANGE: ce --> cký
+soukenický	soukenice	CHANGE: ce --> cký
+soukromnický	soukromnice	CHANGE: ce --> cký
+soukromokapitalistický		UNRESOLVED
+soukromovlastnický		UNRESOLVED
+sovinecký	Sovinec	CHANGE: c --> cký
+spasmolytický	spasmolytikum	CHANGE: kum --> cký
+spastickoparetický		UNRESOLVED
+spastický	spastik	CHANGE: k --> cký
+specifický	specifikum	CHANGE: kum --> cký
+spektrografický	spektrograf	CHANGE: 0 --> ický
+speleoterapeutický	speleoterapeut	CHANGE: 0 --> ický
+speřický	Speřice	CHANGE: ce --> cký
+spilácký	spilák	CHANGE: k --> cký
+spirocyklický		UNRESOLVED
+spodický	spodium	CHANGE: ium --> ický
+společenskoekonomický		UNRESOLVED
+společenskohistorický		UNRESOLVED
+společenskokritický		UNRESOLVED
+společenskopolitický		UNRESOLVED
+společenskosatirický		UNRESOLVED
+sporadický		UNRESOLVED
+sportovnětechnický		UNRESOLVED
+spořický	Spořice	CHANGE: ce --> cký
+správňácký	správňák	CHANGE: k --> cký
+srbický	Srbice	CHANGE: ce --> cký
+srbskokamenický		UNRESOLVED
+srebrenický	Srebrenica	CHANGE: ca --> cký
+srubecký	Srubec	CHANGE: c --> cký
+stadický	Stadice	CHANGE: ce --> cký
+staňkovický	Staňkovice	CHANGE: ce --> cký
+stanovický	Stanovice	CHANGE: ce --> cký
+staroanglický		UNRESOLVED
+starobolševický		UNRESOLVED
+starodejvický		UNRESOLVED
+staroholešovický		UNRESOLVED
+staroholický		UNRESOLVED
+starohornoněmecký		UNRESOLVED
+staroindický		UNRESOLVED
+starojický		UNRESOLVED
+starokomický	starokomik	CHANGE: k --> cký
+starolískovecký		UNRESOLVED
+staromexický		UNRESOLVED
+staromládenecký		UNRESOLVED
+staroněmecký		UNRESOLVED
+staronordický		UNRESOLVED
+staropacký		UNRESOLVED
+staropaleozoický		UNRESOLVED
+staroplzenecký		UNRESOLVED
+staroprachatický		UNRESOLVED
+staropříkaznický		UNRESOLVED
+staroromantický		UNRESOLVED
+starořecký	Starořek	CHANGE: k --> cký
+starostrašnický		UNRESOLVED
+starostřešovický		UNRESOLVED
+starosudetoněmecký		UNRESOLVED
+staroturecký		UNRESOLVED
+starouzbecký		UNRESOLVED
+starozámecký		UNRESOLVED
+stařický	stařice	CHANGE: ce --> cký
+státněpolitický		UNRESOLVED
+státněstranický		UNRESOLVED
+státnězaměstnanecký		UNRESOLVED
+státostranický		UNRESOLVED
+stavebněhistorický		UNRESOLVED
+stavebnětechnický		UNRESOLVED
+stěbořický	Stěbořice	CHANGE: ce --> cký
+stenický	sten	CHANGE: 0 --> ický
+stenotický	stenóza	CHANGE: óza --> otický
+stereografický		UNRESOLVED
+stereotaktický		UNRESOLVED
+stereotomický		UNRESOLVED
+sterický	Sterik	CHANGE: k --> cký
+stodůlecký		UNRESOLVED
+stochastický		UNRESOLVED
+stojický	Stojice	CHANGE: ce --> cký
+stolický	stolice	CHANGE: ce --> cký
+stoupecký	stoupa	CHANGE: a --> ecký
+stožecký	Stožec	CHANGE: c --> cký
+stožický	Stožice	CHANGE: ce --> cký
+strahovický	Strahovice	CHANGE: ce --> cký
+strakonický	Strakonice	CHANGE: ce --> cký
+stránčický	Stránčice	CHANGE: ce --> cký
+stranickopolitický		UNRESOLVED
+strašecký	strašek	CHANGE: k --> cký
+strašický	Strašice	CHANGE: ce --> cký
+strašidlácký		UNRESOLVED
+strašnický	Strašnice	CHANGE: ce --> cký
+strážkovický	Strážkovice	CHANGE: ce --> cký
+stroboskopický	stroboskop	CHANGE: 0 --> ický
+strofický		UNRESOLVED
+strojetický	Strojetice	CHANGE: ce --> cký
+strojnětechnologický		UNRESOLVED
+stromatický	stroma	CHANGE: a --> atický
+stromkovický	Stromkovice	CHANGE: ce --> cký
+stropnický	stropnice	CHANGE: ce --> cký
+strunkovický	Strunkovice	CHANGE: ce --> cký
+strupčický	Strupčice	CHANGE: ce --> cký
+stružnický	Stružnice	CHANGE: ce --> cký
+strýčkovický	Strýčkovice	CHANGE: ce --> cký
+stržnický	strž	CHANGE: 0 --> nický
+středněperiodický		UNRESOLVED
+středoafrický		UNRESOLVED
+středoamerický		UNRESOLVED
+středoanglický		UNRESOLVED
+středoatlantický		UNRESOLVED
+středohornoněmecký		UNRESOLVED
+středoindický		UNRESOLVED
+středoirácký		UNRESOLVED
+středomexický		UNRESOLVED
+středoněmecký		UNRESOLVED
+středooceánický		UNRESOLVED
+středopacifický		UNRESOLVED
+středopaleolitický		UNRESOLVED
+středořecký		UNRESOLVED
+střelický	Střelice	CHANGE: ce --> cký
+střešovický	Střešovice	CHANGE: ce --> cký
+stříbrnoskalický		UNRESOLVED
+střílecký		UNRESOLVED
+střížovický	Střížovice	CHANGE: ce --> cký
+studánecký		UNRESOLVED
+studenecký	Studenec	CHANGE: c --> cký
+studénecký		UNRESOLVED
+studnický	studnice	CHANGE: ce --> cký
+stvolínecký		UNRESOLVED
+subaerický		UNRESOLVED
+subakvatický		UNRESOLVED
+subalkalický		UNRESOLVED
+subantarktický		UNRESOLVED
+subarktický	subarktida	CHANGE: ida --> ický
+subatlantický		UNRESOLVED
+subatomický		UNRESOLVED
+subekumenický		UNRESOLVED
+subetnický		UNRESOLVED
+subglotický		UNRESOLVED
+subchronický		UNRESOLVED
+subjektivistický	subjektivismus	CHANGE: ismus --> istický
+subjektivněidealistický		UNRESOLVED
+subklinický		UNRESOLVED
+submetacentrický		UNRESOLVED
+submikroskopický		UNRESOLVED
+subnordický		UNRESOLVED
+subsonický		UNRESOLVED
+subtrochanterický		UNRESOLVED
+subtropický		UNRESOLVED
+subvulkanický		UNRESOLVED
+subzygomatický		UNRESOLVED
+sudetoněmecký	Sudetoněmec	CHANGE: c --> cký
+sudetskoněmecký		UNRESOLVED
+sudický	sudice	CHANGE: ce --> cký
+sudoměřický	Sudoměřice	CHANGE: ce --> cký
+sudslavický	Sudslavice	CHANGE: ce --> cký
+suchonický	Suchonice	CHANGE: ce --> cký
+sulfatický		UNRESOLVED
+sulfický	sulfid	CHANGE: d --> cký
+sulfidický	sulfid	CHANGE: 0 --> ický
+sulkovecký		UNRESOLVED
+superchondritický		UNRESOLVED
+supíkovický	Supíkovice	CHANGE: ce --> cký
+suprabolševický		UNRESOLVED
+suprahistorický		UNRESOLVED
+suprachiasmatický		UNRESOLVED
+suprachiazmatický		UNRESOLVED
+suprakondylický		UNRESOLVED
+supranaturalistický	supranaturalizmus	CHANGE: izmus --> istický
+suprematistický	suprematizmus	CHANGE: izmus --> istický
+sušický	Sušice	CHANGE: ce --> cký
+svatokopecký		UNRESOLVED
+svatomořický		UNRESOLVED
+svatoňovický	Svatoňovice	CHANGE: ce --> cký
+svatotrojický		UNRESOLVED
+svatovavřinecký		UNRESOLVED
+svažecký	Svažec	CHANGE: c --> cký
+svéradický	Svéradice	CHANGE: ce --> cký
+světelnětechnický		UNRESOLVED
+světlotechnický		UNRESOLVED
+svibický	Svibice	CHANGE: ce --> cký
+svidnický	Svidnice	CHANGE: ce --> cký
+svídnický	Svídnice	CHANGE: ce --> cký
+svitávecký		UNRESOLVED
+svojkovický	Svojkovice	CHANGE: ce --> cký
+svojšický	Svojšice	CHANGE: ce --> cký
+svratecký		UNRESOLVED
+svrchnokambrický		UNRESOLVED
+svrchnoproterozoický		UNRESOLVED
+syfilitický	syfilitik	CHANGE: k --> cký
+syfilocký		UNRESOLVED
+syfilofobický		UNRESOLVED
+sýkořický	Sýkořice	CHANGE: ce --> cký
+sylabotónický		UNRESOLVED
+symbiotický	symbióza	CHANGE: óza --> otický
+symfonickodramatický		UNRESOLVED
+sympatolytický	sympatolytikum	CHANGE: kum --> cký
+sympatomimetický	sympatomimetikum	CHANGE: kum --> cký
+symplektický		UNRESOLVED
+synalagmatický		UNRESOLVED
+synallagmatický		UNRESOLVED
+synaptický		UNRESOLVED
+syndikalistický	syndikalismus	CHANGE: ismus --> istický
+synchronistický	synchronismus	CHANGE: ismus --> istický
+synkretický	synkretismus	CHANGE: ismus --> ický
+synkretistický	synkretismus	CHANGE: ismus --> istický
+synoptický	synoptik	CHANGE: k --> cký
+synsémantický	synsémantikum	CHANGE: kum --> cký
+syntaktický		UNRESOLVED
+syntonický		UNRESOLVED
+systematickobiologický		UNRESOLVED
+systemický	System	CHANGE: 0 --> ický
+šabacký	Šabac	CHANGE: c --> cký
+šakvický	Šakvice	CHANGE: ce --> cký
+šamanistický	šamanismus	CHANGE: ismus --> istický
+šardický	Šardice	CHANGE: ce --> cký
+šárecký	Šárek	CHANGE: k --> cký
+šeberácký	Šeberák	CHANGE: k --> cký
+šebkovický	Šebkovice	CHANGE: ce --> cký
+šemánovický	Šemánovice	CHANGE: ce --> cký
+šemický		UNRESOLVED
+šerácký	Šerák	CHANGE: k --> cký
+šibenický	šibenice	CHANGE: ce --> cký
+šilheřovický	Šilheřovice	CHANGE: ce --> cký
+šimonosecký		UNRESOLVED
+šintoistický	šintoismus	CHANGE: ismus --> istický
+šitbořický	Šitbořice	CHANGE: ce --> cký
+šivaistický	šivaizmus	CHANGE: izmus --> istický
+školnický	školnice	CHANGE: ce --> cký
+škrabácký	škrabák	CHANGE: k --> cký
+škrdlovický	Škrdlovice	CHANGE: ce --> cký
+šlachtecký	šlachta	CHANGE: a --> ecký
+šlampácký	šlampák	CHANGE: k --> cký
+šlapanický	Šlapanice	CHANGE: ce --> cký
+šlechetnický	šlechetnice	CHANGE: ce --> cký
+šlesvický	Šlesvik	CHANGE: k --> cký
+šlonzácký	Šlonzák	CHANGE: k --> cký
+šlovický	Šlovice	CHANGE: ce --> cký
+šovický		UNRESOLVED
+špičácký	špičák	CHANGE: k --> cký
+špionomaniacký		UNRESOLVED
+šťabácký	šťabák	CHANGE: k --> cký
+štáblovický	Štáblovice	CHANGE: ce --> cký
+šťáhlavický	Šťáhlavice	CHANGE: ce --> cký
+štajerácký	štajerák	CHANGE: k --> cký
+štěchovický	Štěchovice	CHANGE: ce --> cký
+štěnovický	Štěnovice	CHANGE: ce --> cký
+štěpanický	Štěpanice	CHANGE: ce --> cký
+štěpánkovický	Štěpánkovice	CHANGE: ce --> cký
+štěpánovický	Štěpánovice	CHANGE: ce --> cký
+štiavnický	Štiavnica	CHANGE: ca --> cký
+štítecký	štítek	CHANGE: k --> cký
+štocký	štok	CHANGE: k --> cký
+štrbický	Štrbice	CHANGE: ce --> cký
+štvanický	štvanice	CHANGE: ce --> cký
+štýrskohradecký		UNRESOLVED
+šumický	Šumice	CHANGE: ce --> cký
+šumperecký	Šumpersko	CHANGE: sko --> ecký
+švábenický	Švábenice	CHANGE: ce --> cký
+tádžický	Tádžik	CHANGE: k --> cký
+tadžický		UNRESOLVED
+tachlovický	Tachlovice	CHANGE: ce --> cký
+tachografický	tachograf	CHANGE: 0 --> ický
+tachometrický	tachometr	CHANGE: 0 --> ický
+taktickopolitický		UNRESOLVED
+talmudický	talmud	CHANGE: 0 --> ický
+talmudistický	talmudizmus	CHANGE: izmus --> istický
+tanganický		UNRESOLVED
+targovický	Targovice	CHANGE: ce --> cký
+tasický	Tasice	CHANGE: ce --> cký
+tasovický	Tasovice	CHANGE: ce --> cký
+tašistický	tašizmus	CHANGE: izmus --> istický
+tašovický	Tašovice	CHANGE: ce --> cký
+tatenický	Tatenice	CHANGE: ce --> cký
+tavistocký		UNRESOLVED
+tayloristický	taylorizmus	CHANGE: izmus --> istický
+tečovický	Tečovice	CHANGE: ce --> cký
+tehuantepecký		UNRESOLVED
+těchlovický	Těchlovice	CHANGE: ce --> cký
+technicistický	technicizmus	CHANGE: izmus --> istický
+technickoekonomický		UNRESOLVED
+technickovědecký		UNRESOLVED
+technokratický	technokrat	CHANGE: 0 --> ický
+technopolitický		UNRESOLVED
+technorobotický		UNRESOLVED
+technotronický	Technotronic	CHANGE: c --> cký
+těchobuzický	Těchobuzice	CHANGE: ce --> cký
+teistický	teismus	CHANGE: ismus --> istický
+tektogramatický		UNRESOLVED
+tektomagmatický		UNRESOLVED
+tektonomagmatický		UNRESOLVED
+tělecký		UNRESOLVED
+telekinematický		UNRESOLVED
+telekinetický		UNRESOLVED
+teleonomický		UNRESOLVED
+telepoetický		UNRESOLVED
+teleskopický	teleskop	CHANGE: 0 --> ický
+telnický	Telnice	CHANGE: ce --> cký
+telocentrický		UNRESOLVED
+telurický	telur	CHANGE: 0 --> ický
+tématický	téma	CHANGE: a --> atický
+temenický	Temenice	CHANGE: ce --> cký
+temporytmický	temporytmus	CHANGE: us --> ický
+tenzometrický	tenzometr	CHANGE: 0 --> ický
+teocentrický	teocentrizmus	CHANGE: izmus --> ický
+teokratický	teokrat	CHANGE: 0 --> ický
+teopatický		UNRESOLVED
+teoretickometodologický		UNRESOLVED
+teoretickopolitický		UNRESOLVED
+teoretickopraktický		UNRESOLVED
+teoretický	teoretik	CHANGE: k --> cký
+tepelnětechnický		UNRESOLVED
+teplický	teplice	CHANGE: ce --> cký
+tepličácký	Tepličák	CHANGE: k --> cký
+teplýšovický	Teplýšovice	CHANGE: ce --> cký
+terestrický		UNRESOLVED
+těrlický		UNRESOLVED
+termoelastický		UNRESOLVED
+termoelektrický		UNRESOLVED
+termoelektronický		UNRESOLVED
+termoenergetický		UNRESOLVED
+termogenetický		UNRESOLVED
+termomagnetický	termomagnetismus	CHANGE: ismus --> ický
+termoplastický	termoplast	CHANGE: 0 --> ický
+termosetický	termoset	CHANGE: 0 --> ický
+termostatický	termostat	CHANGE: 0 --> ický
+terpenický	terpen	CHANGE: 0 --> ický
+terrestrický		UNRESOLVED
+teslácký		UNRESOLVED
+těšetický	Těšetice	CHANGE: ce --> cký
+těšovický	Těšovice	CHANGE: ce --> cký
+tetracyklický		UNRESOLVED
+tetraedrický	tetraedr	CHANGE: 0 --> ický
+tetramerický	tetramer	CHANGE: 0 --> ický
+textilněfotografický		UNRESOLVED
+těžkoatletický		UNRESOLVED
+thalmický		UNRESOLVED
+thatcheristický	thatcherismus	CHANGE: ismus --> istický
+thelemický		UNRESOLVED
+theologický	Theologus	CHANGE: us --> ický
+thiofenický		UNRESOLVED
+tholeiitický	tholeiit	CHANGE: 0 --> ický
+thomistický		UNRESOLVED
+thorakoplastický		UNRESOLVED
+thrácký	Thrák	CHANGE: k --> cký
+thrillerácký		UNRESOLVED
+tiahuanacký		UNRESOLVED
+tibetologický	tibetolog	CHANGE: 0 --> ický
+timokratický		UNRESOLVED
+tímokratický		UNRESOLVED
+tirácký	tirák	CHANGE: k --> cký
+tišický	Tišice	CHANGE: ce --> cký
+titanický	Titanik	CHANGE: k --> cký
+titanometrický		UNRESOLVED
+titoistický	titoizmus	CHANGE: izmus --> istický
+tíwanacký		UNRESOLVED
+tlustecký	Tlustec	CHANGE: c --> cký
+tlustický	tlustice	CHANGE: ce --> cký
+tobrúcký	Tobrúk	CHANGE: k --> cký
+točnický	točnice	CHANGE: ce --> cký
+tochovický	Tochovice	CHANGE: ce --> cký
+toltécký	Tolték	CHANGE: k --> cký
+tomácký		UNRESOLVED
+tomistický	tomizmus	CHANGE: izmus --> istický
+tonický	tonik	CHANGE: k --> cký
+topický	topik	CHANGE: k --> cký
+topocentrický		UNRESOLVED
+topogeodetický		UNRESOLVED
+torický	Tor	CHANGE: 0 --> ický
+toskický		UNRESOLVED
+totemický	totem	CHANGE: 0 --> ický
+totemistický	totemismus	CHANGE: ismus --> istický
+továrnický	továrnice	CHANGE: ce --> cký
+toxemický		UNRESOLVED
+toxický		UNRESOLVED
+toxikomanický	toxikoman	CHANGE: 0 --> ický
+trácký	trák	CHANGE: k --> cký
+tradeskancionalistický	tradeskancionalizmus	CHANGE: izmus --> istický
+tradicionalistický	tradicionalismus	CHANGE: ismus --> istický
+trachytický	trachyt	CHANGE: 0 --> ický
+traický		UNRESOLVED
+transafrický		UNRESOLVED
+transamerický		UNRESOLVED
+transantarktický		UNRESOLVED
+transarktický		UNRESOLVED
+transatlantický		UNRESOLVED
+transcendentalistický	transcendentalizmus	CHANGE: izmus --> istický
+transgenetický		UNRESOLVED
+transkondylický		UNRESOLVED
+transpacifický		UNRESOLVED
+trapistický	trapist	CHANGE: 0 --> ický
+traplický	Traplice	CHANGE: ce --> cký
+travčický	Travčice	CHANGE: ce --> cký
+travnický	Travnik	CHANGE: k --> cký
+trhovokamenický		UNRESOLVED
+trialistický	trializmus	CHANGE: izmus --> istický
+tribalistický	tribalizmus	CHANGE: izmus --> istický
+tricyklický	tricykl	CHANGE: 0 --> ický
+trichromatický		UNRESOLVED
+triklinický		UNRESOLVED
+trimerický		UNRESOLVED
+triumfalistický	triumfalizmus	CHANGE: izmus --> istický
+trmický	Trmice	CHANGE: ce --> cký
+trnávecký		UNRESOLVED
+trofolytický		UNRESOLVED
+troický		UNRESOLVED
+trojanovický	Trojanovice	CHANGE: ce --> cký
+trojetnický		UNRESOLVED
+trojický	trojice	CHANGE: ce --> cký
+trokavecký	Trokavec	CHANGE: c --> cký
+trombocytopenický		UNRESOLVED
+trombolytický	trombolýza	CHANGE: ýza --> ytický
+trombotický	trombóza	CHANGE: óza --> otický
+troubecký	Troubsko	CHANGE: sko --> ecký
+troubelický	Troubelice	CHANGE: ce --> cký
+trstenický	Trstenice	CHANGE: ce --> cký
+trstěnický	Trstěnice	CHANGE: ce --> cký
+tršický	Tršice	CHANGE: ce --> cký
+trusovický		UNRESOLVED
+třanovický	Třanovice	CHANGE: ce --> cký
+třebechovický	Třebechovice	CHANGE: ce --> cký
+třebenický	Třebenice	CHANGE: ce --> cký
+třebětický	Třebětice	CHANGE: ce --> cký
+třebícký		UNRESOLVED
+třebichovický	Třebichovice	CHANGE: ce --> cký
+třebívlický	Třebívlice	CHANGE: ce --> cký
+třebnický	Třebnice	CHANGE: ce --> cký
+třebohostický	Třebohostice	CHANGE: ce --> cký
+třeboradický	Třeboradice	CHANGE: ce --> cký
+třebosický	Třebosice	CHANGE: ce --> cký
+třebovický	Třebovice	CHANGE: ce --> cký
+třebusický	Třebusice	CHANGE: ce --> cký
+třebušický	Třebušice	CHANGE: ce --> cký
+třemošnický	Třemošnice	CHANGE: ce --> cký
+třídněpolitický		UNRESOLVED
+třídnický	třídnice	CHANGE: ce --> cký
+tříparametrický		UNRESOLVED
+třítrubecký		UNRESOLVED
+tufitický	tufit	CHANGE: 0 --> ický
+tuhnický	Tuhnice	CHANGE: ce --> cký
+tuchlovický	Tuchlovice	CHANGE: ce --> cký
+tuchoměřický	Tuchoměřice	CHANGE: ce --> cký
+tuchořický	Tuchořice	CHANGE: ce --> cký
+turecký	Turec	CHANGE: c --> cký
+turgický		UNRESOLVED
+turkický		UNRESOLVED
+tušimický	Tušimice	CHANGE: ce --> cký
+tvorovický	Tvorovice	CHANGE: ce --> cký
+tvrdonický	Tvrdonice	CHANGE: ce --> cký
+týnecký	Týnec	CHANGE: c --> cký
+týnický	Týnice	CHANGE: ce --> cký
+typogramický	typogram	CHANGE: 0 --> ický
+typometrický		UNRESOLVED
+tyrolácký	tyrolák	CHANGE: k --> cký
+ublíženecký		UNRESOLVED
+účetnický	účetnice	CHANGE: ce --> cký
+učitelácký	učitelák	CHANGE: k --> cký
+údernický	údernice	CHANGE: ce --> cký
+údlický	Údlice	CHANGE: ce --> cký
+údrnický	Údrnice	CHANGE: ce --> cký
+ugrický		UNRESOLVED
+uherčický	Uherčice	CHANGE: ce --> cký
+uhlířskojanovický		UNRESOLVED
+uhřetický		UNRESOLVED
+úhřetický	Úhřetice	CHANGE: ce --> cký
+uhřický	Uhřice	CHANGE: ce --> cký
+uhřičický	Uhřičice	CHANGE: ce --> cký
+újezdecký	Újezdec	CHANGE: c --> cký
+ulický	ulice	CHANGE: ce --> cký
+uličnický	uličnice	CHANGE: ce --> cký
+ultrabazický		UNRESOLVED
+ultrademokratický	ultrademokrat	CHANGE: 0 --> ický
+ultrafašistický		UNRESOLVED
+ultrakomunistický		UNRESOLVED
+ultrakvistický		UNRESOLVED
+ultraliberalistický	ultraliberalizmus	CHANGE: izmus --> istický
+ultramafický		UNRESOLVED
+ultraměštácký		UNRESOLVED
+ultramikroskopický		UNRESOLVED
+ultramodernistický	ultramodernizmus	CHANGE: izmus --> istický
+ultramonarchistický		UNRESOLVED
+ultramontanistický	ultramontanismus	CHANGE: ismus --> istický
+ultramoravistický		UNRESOLVED
+ultraněmecký	Ultraněmec	CHANGE: c --> cký
+ultrapragmatický		UNRESOLVED
+ultrarelativistický		UNRESOLVED
+ultraromantický		UNRESOLVED
+ultrasonický		UNRESOLVED
+ultrastalinistický		UNRESOLVED
+umbrický	Umbr	CHANGE: 0 --> ický
+uměleckoakustický		UNRESOLVED
+uměleckografický		UNRESOLVED
+uměleckohistorický		UNRESOLVED
+uměleckokritický		UNRESOLVED
+uměleckopedagogický		UNRESOLVED
+uměleckoteoretický		UNRESOLVED
+unanimistický	unanimismus	CHANGE: ismus --> istický
+unčovický	Unčovice	CHANGE: ce --> cký
+unětický	Unětice	CHANGE: ce --> cký
+únětický	Únětice	CHANGE: ce --> cký
+unilateralistický		UNRESOLVED
+unitaristický	unitarismus	CHANGE: ismus --> istický
+úpický	Úpice	CHANGE: ce --> cký
+úpravnický		UNRESOLVED
+uratický	uratik	CHANGE: k --> cký
+určický	Určice	CHANGE: ce --> cký
+uroborický		UNRESOLVED
+urodynamický		UNRESOLVED
+urogynekologický		UNRESOLVED
+uropoetický		UNRESOLVED
+uroseptický		UNRESOLVED
+urputnický	urputnice	CHANGE: ce --> cký
+urucký	Uruk	CHANGE: k --> cký
+úřadnický	úřadnice	CHANGE: ce --> cký
+ústeckoorlický		UNRESOLVED
+ústecký	ústa	CHANGE: a --> ecký
+ústupnický	ústup	CHANGE: 0 --> nický
+úštecký		UNRESOLVED
+úštěcký	Úštěk	CHANGE: k --> cký
+utilitarianistický	utilitarianismus	CHANGE: ismus --> istický
+utrakvistický	utrakvismus	CHANGE: ismus --> istický
+uzbecký	Uzbek	CHANGE: k --> cký
+územnětechnický		UNRESOLVED
+užický	Užice	CHANGE: ce --> cký
+vacenovický	Vacenovice	CHANGE: ce --> cký
+václavický	Václavice	CHANGE: ce --> cký
+vakcinologický		UNRESOLVED
+valašskobystřický		UNRESOLVED
+valašskokloboucký		UNRESOLVED
+valčický	Valčice	CHANGE: ce --> cký
+valdický	Valdice	CHANGE: ce --> cký
+valkeřický	Valkeřice	CHANGE: ce --> cký
+valorický	valor	CHANGE: 0 --> ický
+valteřický	Valteřice	CHANGE: ce --> cký
+valtický	Valtice	CHANGE: ce --> cký
+vamberecký	Vambera	CHANGE: a --> ecký
+vanovický	Vanovice	CHANGE: ce --> cký
+vápenatoalkalický		UNRESOLVED
+vasomotorický		UNRESOLVED
+vasrpolácký	Vasrpolák	CHANGE: k --> cký
+vávrovický	Vávrovice	CHANGE: ce --> cký
+vázomotorický		UNRESOLVED
+vazoparalytický		UNRESOLVED
+vědeckoateistický		UNRESOLVED
+vědeckofantastický		UNRESOLVED
+vědeckohistorický		UNRESOLVED
+vědeckopedagogický		UNRESOLVED
+vědeckotechnický		UNRESOLVED
+věděckotechnický		UNRESOLVED
+vědeckotechnologický		UNRESOLVED
+vědomický	Vědomice	CHANGE: ce --> cký
+vehlovický	Vehlovice	CHANGE: ce --> cký
+vejměnický	vejměnice	CHANGE: ce --> cký
+vejprický		UNRESOLVED
+vejprnický	Vejprnice	CHANGE: ce --> cký
+velatický	Velatice	CHANGE: ce --> cký
+velebudický	Velebudice	CHANGE: ce --> cký
+velecký	Velek	CHANGE: k --> cký
+veledramatický		UNRESOLVED
+velenický	Velenice	CHANGE: ce --> cký
+velevědecký		UNRESOLVED
+velhartický	Velhartice	CHANGE: ce --> cký
+velický	velus	CHANGE: us --> ický
+velikovecký		UNRESOLVED
+velkobílovický		UNRESOLVED
+velkobystřický		UNRESOLVED
+velkodramatický	velkodrama	CHANGE: a --> atický
+velkokapitalistický	velkokapitalismus	CHANGE: ismus --> istický
+velkokarlovický		UNRESOLVED
+velkokulacký		UNRESOLVED
+velkoměšťácký	velkoměšťák	CHANGE: k --> cký
+velkonacionalistický		UNRESOLVED
+velkoněmčický		UNRESOLVED
+velkoopatovický		UNRESOLVED
+velkoosecký		UNRESOLVED
+velkopavlovický		UNRESOLVED
+velkopopovický		UNRESOLVED
+velkořecký		UNRESOLVED
+velocipedistický		UNRESOLVED
+venerický	venerik	CHANGE: k --> cký
+venostatický	venostáza	CHANGE: áza --> atický
+verbalistický	verbalismus	CHANGE: ismus --> istický
+veristický	verismus	CHANGE: ismus --> istický
+verměřovický	Verměřovice	CHANGE: ce --> cký
+verneřický	Verneřice	CHANGE: ce --> cký
+vernéřovický	Vernéřovice	CHANGE: ce --> cký
+vertický	Vertus	CHANGE: us --> ický
+veřejnozaměstnanecký		UNRESOLVED
+veřovický	Veřovice	CHANGE: ce --> cký
+vesecký	Vesec	CHANGE: c --> cký
+veselokopecký		UNRESOLVED
+vesnický	vesnice	CHANGE: ce --> cký
+vestecký	Vestec	CHANGE: c --> cký
+věstonický	Věstonice	CHANGE: ce --> cký
+větřkovický	Větřkovice	CHANGE: ce --> cký
+věznický	věznice	CHANGE: ce --> cký
+vchynický	Vchynice	CHANGE: ce --> cký
+vibrafonistický		UNRESOLVED
+vícecyklický		UNRESOLVED
+víceměřický	Víceměřice	CHANGE: ce --> cký
+víceparametrický		UNRESOLVED
+videofonický	videofon	CHANGE: 0 --> ický
+videoskopický	videoskop	CHANGE: 0 --> ický
+vigantický	Vigantice	CHANGE: ce --> cký
+vichistický		UNRESOLVED
+vichystický		UNRESOLVED
+vikárecký		UNRESOLVED
+vikýřovický	Vikýřovice	CHANGE: ce --> cký
+vílanecký	Vílanec	CHANGE: c --> cký
+vilémovický	Vilémovice	CHANGE: ce --> cký
+vilnický	vilnice	CHANGE: ce --> cký
+vinárnický	vinárnice	CHANGE: ce --> cký
+vinařický	Vinařice	CHANGE: ce --> cký
+vindický	Vind	CHANGE: 0 --> ický
+vinecký	vina	CHANGE: a --> ecký
+vinický	vinice	CHANGE: ce --> cký
+virtuóznický	virtuóz	CHANGE: 0 --> nický
+vísecký		UNRESOLVED
+viskoelastický		UNRESOLVED
+višnuistický	višnuizmus	CHANGE: izmus --> istický
+vitalistický	vitalismus	CHANGE: ismus --> istický
+vitějovický	Vitějovice	CHANGE: ce --> cký
+vitický	Vitice	CHANGE: ce --> cký
+vítkovický	Vítkovice	CHANGE: ce --> cký
+vítovický	Vítovice	CHANGE: ce --> cký
+vitrický		UNRESOLVED
+vizionistický		UNRESOLVED
+vizovický	Vizovice	CHANGE: ce --> cký
+vjatecký		UNRESOLVED
+vladivostocký	Vladivostok	CHANGE: k --> cký
+vlachovický	Vlachovice	CHANGE: ce --> cký
+vlásenický	Vlásenice	CHANGE: ce --> cký
+vlčovický	Vlčovice	CHANGE: ce --> cký
+vlkodlacký	vlkodlak	CHANGE: k --> cký
+vlkovický	Vlkovice	CHANGE: ce --> cký
+vltavický	Vltavice	CHANGE: ce --> cký
+vnitroafrický		UNRESOLVED
+vnitroamerický		UNRESOLVED
+vnitroatomický		UNRESOLVED
+vnitroekonomický		UNRESOLVED
+vnitroklimatický		UNRESOLVED
+vnitroněmecký		UNRESOLVED
+vnitropolitický		UNRESOLVED
+vnitropsychický		UNRESOLVED
+vnitrořecký		UNRESOLVED
+vnitrostranický		UNRESOLVED
+vnitrozaměstnanecký		UNRESOLVED
+vodnický	vodnice	CHANGE: ce --> cký
+vohančický	Vohančice	CHANGE: ce --> cký
+vojenskoekonomický		UNRESOLVED
+vojenskohistorický		UNRESOLVED
+vojenskoideologický		UNRESOLVED
+vojenskopolitický		UNRESOLVED
+vojenskostrategický		UNRESOLVED
+vojenskotechnický		UNRESOLVED
+vojkovický	Vojkovice	CHANGE: ce --> cký
+vojnický	vojnice	CHANGE: ce --> cký
+vojnoměstecký		UNRESOLVED
+vokalický	Vokal	CHANGE: 0 --> ický
+vokovický	Vokovice	CHANGE: ce --> cký
+volácký	volák	CHANGE: k --> cký
+volenecký	volenec	CHANGE: c --> cký
+volfartický	Volfartice	CHANGE: ce --> cký
+voltampérmetrický	voltampérmetr	CHANGE: 0 --> ický
+voltmetrický	voltmetr	CHANGE: 0 --> ický
+voluntaristický	voluntarismus	CHANGE: ismus --> istický
+vopravdický		UNRESOLVED
+votický	Votice	CHANGE: ce --> cký
+voznický	voznice	CHANGE: ce --> cký
+vožický	Vožice	CHANGE: ce --> cký
+vrahovický	Vrahovice	CHANGE: ce --> cký
+vranovický	Vranovice	CHANGE: ce --> cký
+vrapický	Vrapice	CHANGE: ce --> cký
+vratislavický	Vratislavice	CHANGE: ce --> cký
+vrátnický	vrátnice	CHANGE: ce --> cký
+vrbecký	vrbec	CHANGE: c --> cký
+vrbětický	Vrbětice	CHANGE: ce --> cký
+vrbický	vrbice	CHANGE: ce --> cký
+vrbovecký	Vrbovec	CHANGE: c --> cký
+vrchnický	vrchnice	CHANGE: ce --> cký
+vrchotojanovický		UNRESOLVED
+vrkoslavický	Vrkoslavice	CHANGE: ce --> cký
+vroutecký	Vroutek	CHANGE: k --> cký
+vršatecký	Vršatec	CHANGE: c --> cký
+vršovický	Vršovice	CHANGE: ce --> cký
+vrútecký		UNRESOLVED
+vrutický	Vrutice	CHANGE: ce --> cký
+vřeskovický	Vřeskovice	CHANGE: ce --> cký
+vřesovický	Vřesovice	CHANGE: ce --> cký
+vsacký	vsak	CHANGE: k --> cký
+všeafrický		UNRESOLVED
+všeamerický		UNRESOLVED
+všebořický	Všebořice	CHANGE: ce --> cký
+všedělnický		UNRESOLVED
+všedemokratický		UNRESOLVED
+všehlušický		UNRESOLVED
+všechovický	Všechovice	CHANGE: ce --> cký
+všeindický		UNRESOLVED
+všekapitalistický		UNRESOLVED
+všenický	Všenice	CHANGE: ce --> cký
+všeradický	Všeradice	CHANGE: ce --> cký
+všeřecký		UNRESOLVED
+všeturecký		UNRESOLVED
+vulkanický	Vulkan	CHANGE: 0 --> ický
+vulkanoklastický		UNRESOLVED
+výčepnický	výčepnice	CHANGE: ce --> cký
+východoafrický		UNRESOLVED
+východoamerický		UNRESOLVED
+východoanglický		UNRESOLVED
+východodafrický		UNRESOLVED
+východofrancký		UNRESOLVED
+východoindický		UNRESOLVED
+východomexický		UNRESOLVED
+východoněmecký		UNRESOLVED
+východopacifický		UNRESOLVED
+východoturecký		UNRESOLVED
+východoturkický		UNRESOLVED
+výkaznický	výkaz	CHANGE: 0 --> nický
+výlučnický		UNRESOLVED
+výměnický	výměnice	CHANGE: ce --> cký
+vynálezecký	vynálezek	CHANGE: k --> cký
+výprachtický	Výprachtice	CHANGE: ce --> cký
+výrobnětechnický		UNRESOLVED
+výrovický	Výrovice	CHANGE: ce --> cký
+vysocký	vysoko	CHANGE: ko --> cký
+vysokoenergetický		UNRESOLVED
+vysokochlumecký		UNRESOLVED
+vyškovecký	Vyškovec	CHANGE: c --> cký
+výškovický	Výškovice	CHANGE: ce --> cký
+výšovický	Výšovice	CHANGE: ce --> cký
+vytahovácký		UNRESOLVED
+vzduchoelektrický		UNRESOLVED
+vzduchomechanický		UNRESOLVED
+vzorňácký	vzorňák	CHANGE: k --> cký
+vzpurnický	vzpurnice	CHANGE: ce --> cký
+wadowický	Wadowice	CHANGE: ce --> cký
+wahhábistický	wahhábismus	CHANGE: ismus --> istický
+wattmetrický	wattmetr	CHANGE: 0 --> ický
+wehrmachťácký		UNRESOLVED
+woodstocký		UNRESOLVED
+workholický	workholik	CHANGE: k --> cký
+xylitický	xylit	CHANGE: 0 --> ický
+xylometrický	xylometr	CHANGE: 0 --> ický
+yoyobanďácký		UNRESOLVED
+zaatlantický		UNRESOLVED
+záběhlický	Záběhlice	CHANGE: ce --> cký
+zábrdovický	Zábrdovice	CHANGE: ce --> cký
+zádveřický	Zádveřice	CHANGE: ce --> cký
+záhlinický	Záhlinice	CHANGE: ce --> cký
+zahrádecký		UNRESOLVED
+zahraničněpolitický		UNRESOLVED
+zaječický	zaječice	CHANGE: ce --> cký
+zakaspický		UNRESOLVED
+zákonický	zákonice	CHANGE: ce --> cký
+zákostelecký		UNRESOLVED
+zalesácký	zalesák	CHANGE: k --> cký
+zálezlický	Zálezlice	CHANGE: ce --> cký
+zapadnický	zapadnik	CHANGE: k --> cký
+západoafrický		UNRESOLVED
+západoamerický		UNRESOLVED
+západoanglický		UNRESOLVED
+západofrancký		UNRESOLVED
+západoindický		UNRESOLVED
+západoirácký		UNRESOLVED
+západomexický		UNRESOLVED
+západoněmecký		UNRESOLVED
+západoněměcký		UNRESOLVED
+západopacifický		UNRESOLVED
+západořecký		UNRESOLVED
+západoturecký		UNRESOLVED
+západoturkický		UNRESOLVED
+zapatistický		UNRESOLVED
+záporožecký	Záporožec	CHANGE: c --> cký
+zápotocký		UNRESOLVED
+zárybnický		UNRESOLVED
+zářecký	zářek	CHANGE: k --> cký
+zásmucký	Zásmuky	CHANGE: ky --> cký
+zastávecký		UNRESOLVED
+závišický	Závišice	CHANGE: ce --> cký
+zbečnický		UNRESOLVED
+zborovecký	Zborovce	CHANGE: vce --> vecký
+zborovický	Zborovice	CHANGE: ce --> cký
+zbraslavický	Zbraslavice	CHANGE: ce --> cký
+zdechovický	Zdechovice	CHANGE: ce --> cký
+zdemyslický	Zdemyslice	CHANGE: ce --> cký
+zdický	Zdice	CHANGE: ce --> cký
+zdiměřický	Zdiměřice	CHANGE: ce --> cký
+zdislavický	Zdislavice	CHANGE: ce --> cký
+zdobnický	Zdobnice	CHANGE: ce --> cký
+zdounecký		UNRESOLVED
+zdravotnětechnický		UNRESOLVED
+zdravovědecký	zdravověda	CHANGE: a --> ecký
+zechovický	Zechovice	CHANGE: ce --> cký
+zelenecký	zelenec	CHANGE: c --> cký
+zelenobareťácký		UNRESOLVED
+zélotický	zélotismus	CHANGE: ismus --> ický
+zemědělskolesnický		UNRESOLVED
+zemědělskotechnický		UNRESOLVED
+zeměměřický		UNRESOLVED
+zemitoalkalický		UNRESOLVED
+zenistický	zenizmus	CHANGE: izmus --> istický
+zhýralecký	zhýralec	CHANGE: c --> cký
+zichovecký	Zichovec	CHANGE: c --> cký
+zlatoolešnický		UNRESOLVED
+zlenický	Zlenice	CHANGE: ce --> cký
+zlický	zlice	CHANGE: ce --> cký
+zlonický	Zlonice	CHANGE: ce --> cký
+zlosynecký	zlosynec	CHANGE: c --> cký
+zoonotický	zoonóza	CHANGE: óza --> otický
+zpustlický	zpustlice	CHANGE: ce --> cký
+zubčický	Zubčice	CHANGE: ce --> cký
+zubotechnický		UNRESOLVED
+zubrnický	Zubrnice	CHANGE: ce --> cký
+zvíkovecký	Zvíkovec	CHANGE: c --> cký
+zvířecký		UNRESOLVED
+zvířetický	Zvířetice	CHANGE: ce --> cký
+zvolenecký	zvolenec	CHANGE: c --> cký
+zvolnický	Zvol	CHANGE: 0 --> nický
+zvonický	zvonice	CHANGE: ce --> cký
+zvykoslovecký		UNRESOLVED
+žabokrecký	Žabokreky	CHANGE: ky --> cký
+žalářnický	žalářnice	CHANGE: ce --> cký
+žalhostický	Žalhostice	CHANGE: ce --> cký
+žalkovický	Žalkovice	CHANGE: ce --> cký
+žalmický	žalm	CHANGE: 0 --> ický
+žamberecký	Žambera	CHANGE: a --> ecký
+žandarmeristický		UNRESOLVED
+žarnovický	Žarnovica	CHANGE: ca --> cký
+žarošický	Žarošice	CHANGE: ce --> cký
+žárotechnický		UNRESOLVED
+žatecký	žatec	CHANGE: c --> cký
+ždánický	Ždánice	CHANGE: ce --> cký
+ždárecký		UNRESOLVED
+žďárecký	Žďárec	CHANGE: c --> cký
+ždírecký	Ždírec	CHANGE: c --> cký
+ždirnický		UNRESOLVED
+žehrovický	Žehrovice	CHANGE: ce --> cký
+žehušický	Žehušice	CHANGE: ce --> cký
+želatovický	Želatovice	CHANGE: ce --> cký
+želechovický	Želechovice	CHANGE: ce --> cký
+želenický	Želenice	CHANGE: ce --> cký
+želešický	Želešice	CHANGE: ce --> cký
+želetický	Želetice	CHANGE: ce --> cký
+železnický		UNRESOLVED
+želkovický	Želkovice	CHANGE: ce --> cký
+žeravický	Žeravice	CHANGE: ce --> cký
+žerčický	Žerčice	CHANGE: ce --> cký
+žermanický	Žermanice	CHANGE: ce --> cký
+žernosecký	žernosek	CHANGE: k --> cký
+žežický	Žežice	CHANGE: ce --> cký
+židenický	Židenice	CHANGE: ce --> cký
+židlochovický	Židlochovice	CHANGE: ce --> cký
+židobolševický	židobolševik	CHANGE: k --> cký
+židoimperialistický		UNRESOLVED
+židomarxistický		UNRESOLVED
+židoplutokratický	židoplutokratizmus	CHANGE: izmus --> ický
+židovický	židovice	CHANGE: ce --> cký
+židovskoimperialistický		UNRESOLVED
+židovskoněmecký		UNRESOLVED
+žihobecký		UNRESOLVED
+žichlický	Žichlice	CHANGE: ce --> cký
+žichovický	Žichovice	CHANGE: ce --> cký
+žimrovický	Žimrovice	CHANGE: ce --> cký
+žirovnický	Žirovnice	CHANGE: ce --> cký
+žitenický	Žitenice	CHANGE: ce --> cký
+živanický	Živanice	CHANGE: ce --> cký
+živnostnický	živnostnice	CHANGE: ce --> cký
+životický	Životice	CHANGE: ce --> cký
+žiželický	Žiželice	CHANGE: ce --> cký
+žižický	Žižice	CHANGE: ce --> cký
+žižkovácký	Žižkovák	CHANGE: k --> cký
+žlutický	žlutice	CHANGE: ce --> cký
+žnecký	žnec	CHANGE: c --> cký
+antimonický	antimon	CHANGE: 0 --> ický
+arsenický	Arsen	CHANGE: 0 --> ický
+arzenický	arzenik	CHANGE: k --> cký
+basický	Basic	CHANGE: c --> cký
+bromický	Brom	CHANGE: 0 --> ický
+břidlický	břidlice	CHANGE: ce --> cký
+cvický	cvik	CHANGE: k --> cký
+červenopšenický		UNRESOLVED
+čtrnáctislabický		UNRESOLVED
+čtyřiašedesátislabický		UNRESOLVED
+čtyřradlický		UNRESOLVED
+čtyřslabický		UNRESOLVED
+desetislabický		UNRESOLVED
+desítislabický		UNRESOLVED
+devítislabický		UNRESOLVED
+diosecký	Dioseg	CHANGE: g --> cký
+dolický	dol	CHANGE: 0 --> ický
+doudlebecký	Doudleba	CHANGE: a --> ecký
+dryjáčnický	dryjáčnice	CHANGE: ce --> cký
+dusický	Dus	CHANGE: 0 --> ický
+dušický	Dušica	CHANGE: ca --> cký
+dvaatřicetislabický		UNRESOLVED
+dvacetislabický		UNRESOLVED
+dvanáctislabický		UNRESOLVED
+dvojradlický		UNRESOLVED
+dvojslabický		UNRESOLVED
+dvouradlický		UNRESOLVED
+dvouslabický		UNRESOLVED
+etherický	ether	CHANGE: 0 --> ický
+ethnický		UNRESOLVED
+explozionalistický	explozionalizmus	CHANGE: izmus --> istický
+fysický		UNRESOLVED
+fysiokratický		UNRESOLVED
+grafiťácký		UNRESOLVED
+hořčický	hořčice	CHANGE: ce --> cký
+isometrický		UNRESOLVED
+itacký		UNRESOLVED
+izothermický		UNRESOLVED
+jedenáctislabický		UNRESOLVED
+jézéďácký	jézéďák	CHANGE: k --> cký
+jodický	jod	CHANGE: 0 --> ický
+kontradický		UNRESOLVED
+krupický	krupice	CHANGE: ce --> cký
+křivický	křivice	CHANGE: ce --> cký
+kukuřický	kukuřice	CHANGE: ce --> cký
+kvasnický	kvasnice	CHANGE: ce --> cký
+kýchavický	kýchavice	CHANGE: ce --> cký
+medovohořčický		UNRESOLVED
+mnohoslabický		UNRESOLVED
+motolický	motolice	CHANGE: ce --> cký
+mravolický		UNRESOLVED
+mrtvický	mrtvice	CHANGE: ce --> cký
+musický	music	CHANGE: c --> cký
+několikaslabický		UNRESOLVED
+neofašistický	neofašismus	CHANGE: ismus --> istický
+neštovický	neštovice	CHANGE: ce --> cký
+ódéesácký	ódéesák	CHANGE: k --> cký
+olejopryskyřický		UNRESOLVED
+orthopedický		UNRESOLVED
+osmačtyřicetislabický		UNRESOLVED
+osmdesátislabický		UNRESOLVED
+osmislabický		UNRESOLVED
+parasitický		UNRESOLVED
+patnáctislabický		UNRESOLVED
+pětiradlický		UNRESOLVED
+pětislabický		UNRESOLVED
+podbránický		UNRESOLVED
+poustecký	Pousta	CHANGE: a --> ecký
+prémorfologický		UNRESOLVED
+prosaický	Prosa	CHANGE: 0 --> ický
+protikřivický		UNRESOLVED
+pryskyřický	pryskyřice	CHANGE: ce --> cký
+přerozlický		UNRESOLVED
+přeslický	přeslice	CHANGE: ce --> cký
+příjický	příjice	CHANGE: ce --> cký
+radioisotopický		UNRESOLVED
+romantickofilosofický		UNRESOLVED
+různoslabický		UNRESOLVED
+sedmiradlický		UNRESOLVED
+sedmislabický		UNRESOLVED
+sedmnáctislabický		UNRESOLVED
+seismografický	seismograf	CHANGE: 0 --> ický
+seizmický		UNRESOLVED
+sensorický		UNRESOLVED
+schématický	schéma	CHANGE: a --> atický
+siřický	Siř	CHANGE: 0 --> ický
+slabický		UNRESOLVED
+soupatřický		UNRESOLVED
+spolupatrický		UNRESOLVED
+stejnoslabický		UNRESOLVED
+synthetický		UNRESOLVED
+šestiradlický		UNRESOLVED
+šestislabický		UNRESOLVED
+šestnáctislabický		UNRESOLVED
+tělocvický	tělocvik	CHANGE: k --> cký
+thematický		UNRESOLVED
+theoretický		UNRESOLVED
+therapeutický		UNRESOLVED
+trojslabický		UNRESOLVED
+třináctislabický		UNRESOLVED
+tříslabický		UNRESOLVED
+úbislavický	Úbislavice	CHANGE: ce --> cký
+úherecký		UNRESOLVED
+universalistický		UNRESOLVED
+úplavický	úplavice	CHANGE: ce --> cký
+ustavický		UNRESOLVED
+ústřický	ústřice	CHANGE: ce --> cký
+úšovický	Úšovice	CHANGE: ce --> cký
+vědeckoatheistický		UNRESOLVED
+víceslabický		UNRESOLVED
+vichřický	vichřice	CHANGE: ce --> cký
+virtuosnický	virtuos	CHANGE: 0 --> nický
+zálický	zálik	CHANGE: k --> cký
+zimnický	zimnice	CHANGE: ce --> cký
+žitnopšenický		UNRESOLVED
+živický	živice	CHANGE: ce --> cký
+nepatřický		UNRESOLVED
