@@ -34,8 +34,9 @@ retro:
 	cat log | grep MALE | grep BEZ_RODICE | cut -f1 | rev | perl -C -ne 's/(....).+/$$1/;print' | rev | sort | uniq -c | sort -nr > suffix4.txt
 
 
-cand:
-	export PYTHONPATH=$$PYTHONPATH:derinet-python && ./suff3_candidates.py > candidates_suff3.txt
+sky:
+	./sky_candidates.py > candidates_sky.txt
+	#export PYTHONPATH=$$PYTHONPATH:derinet-python && ./sky_candidates.py > candidates_sky.txt
 
 ovy:
 	export PYTHONPATH=$$PYTHONPATH:derinet-python && ./ovy_candidates.py > candidates_ovy.txt

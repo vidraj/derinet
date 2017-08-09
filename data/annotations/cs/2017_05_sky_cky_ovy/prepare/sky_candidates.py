@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 
-from derinet_api import DeriNet
 import sys
+sys.path.append('../../../../../tools/data-api/derinet-python/')
+
+from derinet_api import DeriNet
 import re
 
-derinet = DeriNet('derinet-1-4.tsv')
+derinet = DeriNet('../../../../releases/cs/derinet-1-4.tsv')
 
 
 #rules = [   { "target": r'\1', "source": r'(\w+)ský'}  ]
