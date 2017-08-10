@@ -2073,7 +2073,7 @@
 	anankastický		UNRESOLVED
 	anaplastický		UNRESOLVED
 	androkratický		UNRESOLVED
-	anemický		UNRESOLVED
+	anemický		UNRESOLVED Z: anémie
 	angloamerický		UNRESOLVED
 	anharmonický		UNRESOLVED
 	anhemitonický		UNRESOLVED
@@ -2114,15 +2114,15 @@
 	baathistický		UNRESOLVED
 	bambucký		UNRESOLVED
 	banjalucký		UNRESOLVED
-	bankovnický		UNRESOLVED
+	bankovnický		UNRESOLVED Z: banka
 	baristický		UNRESOLVED
 	bazický		UNRESOLVED
 	bázický		UNRESOLVED
 	baziofitický		UNRESOLVED
-	beatlesácký		UNRESOLVED
+	beatlesácký		UNRESOLVED Z: beatles
 	bezalkoholický		UNRESOLVED
 	bezbožecký		UNRESOLVED
-	bežecký		UNRESOLVED
+	bežecký		UNRESOLVED Z: běžec
 	bílokostelecký		UNRESOLVED
 	bílopotocký		UNRESOLVED
 	bioelektrický		UNRESOLVED
@@ -2137,13 +2137,13 @@
 	bobrownický		UNRESOLVED
 	boccistický		UNRESOLVED
 	bódhisattvický		UNRESOLVED
-	bolívaristický		UNRESOLVED
+	bolívaristický		UNRESOLVED Z: Bolívar
 	bonampacký		UNRESOLVED
 	bonsajistický		UNRESOLVED
 	botnický		UNRESOLVED
 	brnický		UNRESOLVED
 	bruitistický		UNRESOLVED
-	býštecký		UNRESOLVED
+	býštecký		UNRESOLVED Z: Býštec
 	cacovický		UNRESOLVED
 	camorristický		UNRESOLVED
 	caranistický		UNRESOLVED
@@ -2159,8 +2159,8 @@
 	cytotoxický		UNRESOLVED
 	čamakocký		UNRESOLVED
 	čechoamerický		UNRESOLVED
-	čekistický		UNRESOLVED
-	čelakovický		UNRESOLVED
+	čekistický		UNRESOLVED Z: čeka
+	čelakovický		UNRESOLVED Z: Čelákovice
 	černokaspický		UNRESOLVED
 	černomagický		UNRESOLVED
 	černomostecký		UNRESOLVED
@@ -2177,7 +2177,7 @@
 	českoskalický		UNRESOLVED
 	českoslovácký		UNRESOLVED
 	českovelenický		UNRESOLVED
-	čestňácký		UNRESOLVED
+	čestňácký		UNRESOLVED Z: čestný
 	čínskoamerický		UNRESOLVED
 	déesácký		UNRESOLVED
 	deiktický		UNRESOLVED
@@ -2196,8 +2196,8 @@
 	dolánecký		UNRESOLVED
 	domanický		UNRESOLVED
 	domanovický		UNRESOLVED
-	doněcký		UNRESOLVED
-	doopravdický		UNRESOLVED
+	doněcký		UNRESOLVED Z: Doněck
+	doopravdický		UNRESOLVED Z: doopravdy
 	dosický		UNRESOLVED
 	doubravnický		UNRESOLVED
 	doxografický		UNRESOLVED
@@ -2269,18 +2269,18 @@
 	fenetický		UNRESOLVED
 	fenolamidický		UNRESOLVED
 	filumenistický		UNRESOLVED
-	fluidický		UNRESOLVED
+	fluidický		UNRESOLVED Z: fluidum
 	foinický		UNRESOLVED
 	foinícký		UNRESOLVED
 	fotopický		UNRESOLVED
-	fotosyntetický		UNRESOLVED
+	fotosyntetický		UNRESOLVED Z: fotosyntéza
 	fraštácký		UNRESOLVED
 	freatický		UNRESOLVED
 	frenetický		UNRESOLVED
 	ftizeologický		UNRESOLVED
 	fungistatický		UNRESOLVED
 	fytotoxický		UNRESOLVED
-	galaktický		UNRESOLVED
+	galaktický		UNRESOLVED Z: galaxie
 	gastrický		UNRESOLVED
 	gegický		UNRESOLVED
 	gemorfologický		UNRESOLVED
@@ -2289,7 +2289,7 @@
 	geotermický		UNRESOLVED
 	giljacký		UNRESOLVED
 	glacilimnický		UNRESOLVED
-	glykemický		UNRESOLVED
+	glykemický		UNRESOLVED Z: glykémie
 	gnomonický		UNRESOLVED
 	goistický		UNRESOLVED
 	gombasecký		UNRESOLVED
@@ -2317,7 +2317,7 @@
 	houštecký		UNRESOLVED
 	hrabazický		UNRESOLVED
 	hradozámecký		UNRESOLVED
-	hradubický		UNRESOLVED
+	hradubický		UNRESOLVED Z: Hradubice
 	hrdinskoepický		UNRESOLVED
 	huaxtécký		UNRESOLVED
 	hudibrastický		UNRESOLVED
@@ -2336,7 +2336,7 @@
 	chlororganický		UNRESOLVED
 	chorografický		UNRESOLVED
 	chotický		UNRESOLVED
-	choustnický		UNRESOLVED
+	choustnický		UNRESOLVED Z: Choustník
 	chrapácký		UNRESOLVED
 	chtonický		UNRESOLVED
 	chyšecký		UNRESOLVED
@@ -2364,12 +2364,12 @@
 	karlistický		UNRESOLVED
 	karnátacký		UNRESOLVED
 	karpatoněmecký		UNRESOLVED
-	kastovnický		UNRESOLVED
+	kastovnický		UNRESOLVED Z: kasta
 	katalektický		UNRESOLVED
 	kataleptický		UNRESOLVED
 	kaustický		UNRESOLVED
-	kentucký		UNRESOLVED
-	kielecký		UNRESOLVED
+	kentucký		UNRESOLVED Z: Kentucky
+	kielecký		UNRESOLVED Z: Kiel
 	kinesiologický		UNRESOLVED
 	kinestetický		UNRESOLVED
 	klastický		UNRESOLVED
@@ -2386,7 +2386,7 @@
 	kuzněcký		UNRESOLVED
 	kvadratický		UNRESOLVED
 	kvasieliptický		UNRESOLVED
-	kymfatický		UNRESOLVED
+	kymfatický		UNRESOLVED Z: lymfa
 	kyperskořecký		UNRESOLVED
 	labskoústecký		UNRESOLVED
 	ladacký		UNRESOLVED
@@ -2402,19 +2402,19 @@
 	lexografický		UNRESOLVED
 	limbický		UNRESOLVED
 	lobbyistický		UNRESOLVED
-	lobbystický		UNRESOLVED
+	lobbystický		UNRESOLVED Z: lobby
 	loutocký		UNRESOLVED
-	lübecký		UNRESOLVED
-	lumpácký		UNRESOLVED
+	lübecký		UNRESOLVED Z: Lübeck
+	lumpácký		UNRESOLVED Z: lump
 	lutopecký		UNRESOLVED
-	lužánecký		UNRESOLVED
+	lužánecký		UNRESOLVED Z: Lužánky
 	lydický		UNRESOLVED
 	lyrickoepický		UNRESOLVED
 	lytický		UNRESOLVED
-	mačistický		UNRESOLVED
+	mačistický		UNRESOLVED Z: mačo
 	madunický		UNRESOLVED
 	majncký		UNRESOLVED
-	malacký		UNRESOLVED
+	malacký		UNRESOLVED Z: Malacky
 	malmúcký		UNRESOLVED
 	malpigický		UNRESOLVED
 	marsologický		UNRESOLVED
@@ -2425,7 +2425,7 @@
 	mechatronický		UNRESOLVED
 	meristický		UNRESOLVED
 	meritokratický		UNRESOLVED
-	mešťácký		UNRESOLVED
+	mešťácký		UNRESOLVED Z: měšťák
 	methodický		UNRESOLVED
 	mielnický		UNRESOLVED
 	migmatický		UNRESOLVED
@@ -2440,7 +2440,7 @@
 	mystagogický		UNRESOLVED
 	mythický		UNRESOLVED
 	mythologický		UNRESOLVED
-	mytický		UNRESOLVED
+	mytický		UNRESOLVED Z: mýtus
 	načeradecký		UNRESOLVED
 	nadfyzický		UNRESOLVED
 	nadideologický		UNRESOLVED
@@ -2451,9 +2451,9 @@
 	namyslovecký		UNRESOLVED
 	natriuretický		UNRESOLVED
 	nekroptický		UNRESOLVED
-	nepomucký		UNRESOLVED
+	nepomucký		UNRESOLVED Z: Nepomuk
 	nestětický		UNRESOLVED
-	nežárecký		UNRESOLVED
+	nežárecký		UNRESOLVED Z: Nežárka
 	nomický		UNRESOLVED
 	noxický		UNRESOLVED
 	nubický		UNRESOLVED
@@ -2466,25 +2466,25 @@
 	oneirický		UNRESOLVED
 	ontický		UNRESOLVED
 	opokinetický		UNRESOLVED
-	opravdický		UNRESOLVED
+	opravdický		UNRESOLVED Z: opravdu
 	optoelektrický		UNRESOLVED
 	optochemický		UNRESOLVED
 	optomagnetický		UNRESOLVED
 	optomechanický		UNRESOLVED
-	orgastický		UNRESOLVED
+	orgastický		UNRESOLVED Z: orgasmus
 	orgiastický		UNRESOLVED
 	orlickoústecký		UNRESOLVED
 	orogenetický		UNRESOLVED
 	orogenický		UNRESOLVED
 	oselecký		UNRESOLVED
 	oskický		UNRESOLVED
-	osnabrücký		UNRESOLVED
-	osvobozenecký		UNRESOLVED
+	osnabrücký		UNRESOLVED Z: Osnabrück
+	osvobozenecký		UNRESOLVED Z: osvobozenec
 	oumyslovický		UNRESOLVED
 	ovčárecký		UNRESOLVED
 	ovenecký		UNRESOLVED
 	palearktický		UNRESOLVED
-	pamfletistický		UNRESOLVED
+	pamfletistický		UNRESOLVED Z: pamflet
 	paragenetický		UNRESOLVED
 	paralaktický		UNRESOLVED
 	paralický		UNRESOLVED
@@ -2493,7 +2493,7 @@
 	parataktický		UNRESOLVED
 	paretický		UNRESOLVED
 	parhelický		UNRESOLVED
-	pasohlávecký		UNRESOLVED
+	pasohlávecký		UNRESOLVED Z: Pasohlávky
 	paštický		UNRESOLVED
 	patronymický		UNRESOLVED
 	pelagický		UNRESOLVED
@@ -2503,8 +2503,8 @@
 	pětistranický		UNRESOLVED
 	petrurgický		UNRESOLVED
 	pharmaceutický		UNRESOLVED
-	pisárecký		UNRESOLVED
-	plasmatický		UNRESOLVED
+	pisárecký		UNRESOLVED Z: Pisárky
+	plasmatický		UNRESOLVED Z: plasma
 	plisecký		UNRESOLVED
 	poarchaický		UNRESOLVED
 	poatlantický		UNRESOLVED
@@ -2530,7 +2530,7 @@
 	polskoněmecký		UNRESOLVED
 	popartistický		UNRESOLVED
 	porýnskofalcký		UNRESOLVED
-	posvícenecký		UNRESOLVED
+	posvícenecký		UNRESOLVED Z: posvícení
 	pouštěcký		UNRESOLVED
 	pozďátecký		UNRESOLVED
 	pozdněgotický		UNRESOLVED
@@ -2541,7 +2541,7 @@
 	presorický		UNRESOLVED
 	presynaptický		UNRESOLVED
 	presystolický		UNRESOLVED
-	primácký		UNRESOLVED
+	primácký		UNRESOLVED Z: Prima
 	prismatický		UNRESOLVED
 	proamerický		UNRESOLVED
 	proatlantický		UNRESOLVED
@@ -2602,7 +2602,7 @@
 	předzámecký		UNRESOLVED
 	příbuzenecký		UNRESOLVED
 	přírodověděcký		UNRESOLVED
-	pšovecký		UNRESOLVED
+	pšovecký		UNRESOLVED Z: Pšovka
 	půleliptický		UNRESOLVED
 	purististický		UNRESOLVED
 	puritistický		UNRESOLVED
@@ -2615,14 +2615,14 @@
 	rekatolický		UNRESOLVED
 	reumatologický		UNRESOLVED
 	rezofonický		UNRESOLVED
-	rijecký		UNRESOLVED
+	rijecký		UNRESOLVED Z: Rijeka
 	rijswijcký		UNRESOLVED
-	rombický		UNRESOLVED
-	rostocký		UNRESOLVED
+	rombický		UNRESOLVED Z: romb
+	rostocký		UNRESOLVED Z: Roztoky
 	rudofašistický		UNRESOLVED
 	ruskoamerický		UNRESOLVED
 	ruskoněmecký		UNRESOLVED
-	rýžovnický		UNRESOLVED
+	rýžovnický		UNRESOLVED Z: rýže
 	řeckoturecký		UNRESOLVED
 	římskoantický		UNRESOLVED
 	římskoněmecký		UNRESOLVED
@@ -2630,11 +2630,11 @@
 	samerický		UNRESOLVED
 	sapfický		UNRESOLVED
 	sarmacký		UNRESOLVED
-	saxofonistický		UNRESOLVED
+	saxofonistický		UNRESOLVED Z: saxofon
 	scientifický		UNRESOLVED
 	scifistický		UNRESOLVED
 	seboroický		UNRESOLVED
-	sedlcký		UNRESOLVED
+	sedlcký		UNRESOLVED Z: Sedlec
 	seizmologický		UNRESOLVED
 	seizmonastický		UNRESOLVED
 	seninecký		UNRESOLVED
@@ -2653,9 +2653,9 @@
 	soteriologický		UNRESOLVED
 	soudněznalecký		UNRESOLVED
 	sporadický		UNRESOLVED
-	stodůlecký		UNRESOLVED
+	stodůlecký		UNRESOLVED Z: Stodůlky
 	stochastický		UNRESOLVED
-	strašidlácký		UNRESOLVED
+	strašidlácký		UNRESOLVED Z: strašidlo
 	strofický		UNRESOLVED
 	střílecký		UNRESOLVED
 	studánecký		UNRESOLVED
@@ -2680,20 +2680,20 @@
 	sulfatický		UNRESOLVED
 	sulkovecký		UNRESOLVED
 	svitávecký		UNRESOLVED
-	svratecký		UNRESOLVED
+	svratecký		UNRESOLVED Z: Svratka
 	syfilocký		UNRESOLVED
 	syfilofobický		UNRESOLVED
 	sylabotónický		UNRESOLVED
 	symplektický		UNRESOLVED
 	synalagmatický		UNRESOLVED
-	synaptický		UNRESOLVED
+	synaptický		UNRESOLVED Z: synapse
 	syntaktický		UNRESOLVED
 	syntonický		UNRESOLVED
 	šemický		UNRESOLVED
 	šimonosecký		UNRESOLVED
 	šovický		UNRESOLVED
 	špionomaniacký		UNRESOLVED
-	tadžický		UNRESOLVED
+	tadžický		UNRESOLVED Z: Tádžik
 	tanganický		UNRESOLVED
 	tavistocký		UNRESOLVED
 	tehuantepecký		UNRESOLVED
@@ -2702,7 +2702,7 @@
 	terestrický		UNRESOLVED
 	těrlický		UNRESOLVED
 	terrestrický		UNRESOLVED
-	teslácký		UNRESOLVED
+	teslácký		UNRESOLVED Z: Tesla
 	thalmický		UNRESOLVED
 	thelemický		UNRESOLVED
 	thomistický		UNRESOLVED
@@ -2736,14 +2736,14 @@
 	uropoetický		UNRESOLVED
 	uroseptický		UNRESOLVED
 	ústeckoorlický		UNRESOLVED
-	úštecký		UNRESOLVED
+	úštecký		UNRESOLVED Z: Úštěk
 	vakcinologický		UNRESOLVED
 	vasomotorický		UNRESOLVED
 	vázomotorický		UNRESOLVED
-	vejprický		UNRESOLVED
+	vejprický		UNRESOLVED Z: Vejprty
 	veselokopecký		UNRESOLVED
-	vichistický		UNRESOLVED
-	vichystický		UNRESOLVED
+	vichistický		UNRESOLVED Z: Vichy
+	vichystický		UNRESOLVED Z: Vichy
 	vikárecký		UNRESOLVED
 	vísecký		UNRESOLVED
 	viskoelastický		UNRESOLVED
@@ -2752,14 +2752,14 @@
 	vjatecký		UNRESOLVED
 	vojnoměstecký		UNRESOLVED
 	vopravdický		UNRESOLVED
-	vrútecký		UNRESOLVED
-	výlučnický		UNRESOLVED
+	vrútecký		UNRESOLVED Z: Vrútky
+	výlučnický		UNRESOLVED Z: výlučný
 	vytahovácký		UNRESOLVED
-	wehrmachťácký		UNRESOLVED
-	woodstocký		UNRESOLVED
+	wehrmachťácký		UNRESOLVED Z: Wehrmacht
+	woodstocký		UNRESOLVED Z: Woodstock
 	yoyobanďácký		UNRESOLVED
 	zaatlantický		UNRESOLVED
-	zahrádecký		UNRESOLVED
+	zahrádecký		UNRESOLVED Z: Zahrádky
 	zakaspický		UNRESOLVED
 	zákostelecký		UNRESOLVED
 	zapatistický		UNRESOLVED
@@ -2770,7 +2770,7 @@
 	zdounecký		UNRESOLVED
 	zlatoolešnický		UNRESOLVED
 	zubotechnický		UNRESOLVED
-	zvířecký		UNRESOLVED
+	zvířecký		UNRESOLVED Z: zvíře
 	zvykoslovecký		UNRESOLVED
 	ždárecký		UNRESOLVED
 	ždirnický		UNRESOLVED
@@ -2787,7 +2787,7 @@
 	itacký		UNRESOLVED
 	orthopedický		UNRESOLVED
 	osmislabický		UNRESOLVED
-	parasitický		UNRESOLVED
+	parasitický		UNRESOLVED Z: parazit
 	pětiradlický		UNRESOLVED
 	pětislabický		UNRESOLVED
 	podbránický		UNRESOLVED
@@ -2795,7 +2795,7 @@
 	sedmiradlický		UNRESOLVED
 	sedmislabický		UNRESOLVED
 	seizmický		UNRESOLVED
-	sensorický		UNRESOLVED
+	sensorický		UNRESOLVED Z: senzor
 	slabický		UNRESOLVED
 	soupatřický		UNRESOLVED
 	synthetický		UNRESOLVED

@@ -486,7 +486,7 @@ whiskový	whisky	CHANGE: y --> ový
 abietový		UNRESOLVED
 abscisový		UNRESOLVED
 acetooctový		UNRESOLVED
-adagiový		UNRESOLVED
+adagiový		UNRESOLVED Z: adagio
 adamantiový		UNRESOLVED
 adwarový		UNRESOLVED
 ajbišový		UNRESOLVED
@@ -542,12 +542,12 @@ bělinový		UNRESOLVED
 benzilový		UNRESOLVED
 benzoový		UNRESOLVED
 benzoylový		UNRESOLVED
-béžový		UNRESOLVED
+béžový		UNRESOLVED Z: béž
 bikranový		UNRESOLVED
 bittorentový		UNRESOLVED
 bleděrůžový		UNRESOLVED
 bluegrasový		UNRESOLVED
-blugrassový		UNRESOLVED
+blugrassový		UNRESOLVED Z: bluegrass
 bočnokolesový		UNRESOLVED
 bolusový		UNRESOLVED Z: bolus
 bonbonový		UNRESOLVED Z: bonbón
@@ -567,8 +567,8 @@ buflérový		UNRESOLVED
 bukodubový		UNRESOLVED
 bukosmrkový		UNRESOLVED
 butendiový		UNRESOLVED
-campingový		UNRESOLVED
-celofanový		UNRESOLVED
+campingový		UNRESOLVED Z: camping
+celofanový		UNRESOLVED Z: celofán
 celotáborový		UNRESOLVED
 cembalitový		UNRESOLVED
 citronellový		UNRESOLVED
@@ -585,7 +585,7 @@ cyprisový		UNRESOLVED
 červenorůžový		UNRESOLVED
 červenovínový		UNRESOLVED
 čchanový		UNRESOLVED
-čislicový		UNRESOLVED
+čislicový		UNRESOLVED Z: číslice
 čtyrkolkový		UNRESOLVED
 čtyřakordový		UNRESOLVED
 čtyřaktový		UNRESOLVED
@@ -617,7 +617,7 @@ cyprisový		UNRESOLVED
 čtyřveslový		UNRESOLVED
 čtyřžilový		UNRESOLVED
 dancehallový		UNRESOLVED
-davisový		UNRESOLVED
+davisový		UNRESOLVED Z: Davis
 deionový		UNRESOLVED
 dekofeinový		UNRESOLVED
 délkošířkový		UNRESOLVED
@@ -636,9 +636,9 @@ dodekanový		UNRESOLVED
 dolistopadový		UNRESOLVED
 domainový		UNRESOLVED
 doommetalový		UNRESOLVED
-doopravdový		UNRESOLVED
+doopravdový		UNRESOLVED Z: doopravdy
 dopřevratový		UNRESOLVED
-dosový		UNRESOLVED
+dosový		UNRESOLVED Z: DOS
 drahokamenový		UNRESOLVED
 drapový		UNRESOLVED
 dubobukový		UNRESOLVED
@@ -672,7 +672,7 @@ fernambukový		UNRESOLVED
 fialovorůžový		UNRESOLVED
 fíbrový		UNRESOLVED
 fisetový		UNRESOLVED
-flamenkový		UNRESOLVED
+flamenkový		UNRESOLVED Z: flamenco
 flashový		UNRESOLVED
 fleecový		UNRESOLVED
 fleesový		UNRESOLVED
@@ -687,7 +687,7 @@ forfaitový		UNRESOLVED
 fosfoniový		UNRESOLVED
 fosforbronzový		UNRESOLVED
 fošinkový		UNRESOLVED
-freónový		UNRESOLVED
+freónový		UNRESOLVED Z: freon
 ftaleinový		UNRESOLVED
 ftalový		UNRESOLVED
 fulárový		UNRESOLVED
@@ -744,7 +744,7 @@ chlorsulfonový		UNRESOLVED
 chrámový		UNRESOLVED Z: chrám
 chromniklový		UNRESOLVED
 imidazolový		UNRESOLVED
-impulzový		UNRESOLVED
+impulzový		UNRESOLVED Z: impuls
 inbusový		UNRESOLVED
 incomingový		UNRESOLVED
 incroyablový		UNRESOLVED
@@ -787,9 +787,9 @@ kebračový		UNRESOLVED
 kečový		UNRESOLVED
 kempingový		UNRESOLVED
 kentumový		UNRESOLVED
-klešťový		UNRESOLVED
+klešťový		UNRESOLVED Z: kleště
 klihkový		UNRESOLVED
-klíšťový		UNRESOLVED
+klíšťový		UNRESOLVED Z: klíště
 knoflikový		UNRESOLVED
 kolikastupňový		UNRESOLVED
 kolopásový		UNRESOLVED
@@ -864,7 +864,7 @@ nachovofialový		UNRESOLVED
 nákrojový		UNRESOLVED
 namátkový		UNRESOLVED Z: namátka
 námětkový		UNRESOLVED
-napěťový		UNRESOLVED
+napěťový		UNRESOLVED Z: napětí
 nátronový		UNRESOLVED
 nektriový		UNRESOLVED
 nervosvalový		UNRESOLVED
@@ -872,7 +872,7 @@ niklkadmiový		UNRESOLVED
 niklohydridový		UNRESOLVED
 niklokadmiový		UNRESOLVED
 níťový		UNRESOLVED Z: niť
-obdélnikový		UNRESOLVED
+obdélnikový		UNRESOLVED Z: obdélník
 obličejnový		UNRESOLVED
 obouformátový		UNRESOLVED
 obousměrový		UNRESOLVED
@@ -913,7 +913,7 @@ palivomotorový		UNRESOLVED
 palmitový		UNRESOLVED
 passwordový		UNRESOLVED
 pazdeřový		UNRESOLVED
-pělyňkový		UNRESOLVED Z: pelyňěk
+pělyňkový		UNRESOLVED Z: pelyněk
 penicilanový		UNRESOLVED
 pentandiový		UNRESOLVED
 peprmintový		UNRESOLVED
@@ -927,7 +927,7 @@ pimentový		UNRESOLVED
 pimperlový		UNRESOLVED
 piperazinový		UNRESOLVED
 pískovobéžový		UNRESOLVED
-pišingerový		UNRESOLVED
+pišingerový		UNRESOLVED Z: pišingr
 placikový		UNRESOLVED
 plazmatronový		UNRESOLVED
 plénerový		UNRESOLVED
@@ -952,7 +952,7 @@ přežahový		UNRESOLVED
 příhrádkový		UNRESOLVED
 přihradový		UNRESOLVED
 příledovcový		UNRESOLVED
-připojový		UNRESOLVED
+připojový		UNRESOLVED Z: přípoj
 připovrchový		UNRESOLVED
 pthreadový		UNRESOLVED
 ptosový		UNRESOLVED
@@ -973,9 +973,9 @@ rajčinový		UNRESOLVED
 rallycrossový		UNRESOLVED
 raminový		UNRESOLVED
 rašlový		UNRESOLVED
-rattanový		UNRESOLVED
+rattanový		UNRESOLVED Z: ratan
 reggaerockový		UNRESOLVED
-releový		UNRESOLVED
+releový		UNRESOLVED Z: relé
 relykrosový		UNRESOLVED
 rezavooranžový		UNRESOLVED
 rhacopterisový		UNRESOLVED
@@ -1004,13 +1004,13 @@ setinový		UNRESOLVED Z: setina
 seťový		UNRESOLVED
 shedový		UNRESOLVED
 scheelitový		UNRESOLVED
-schodišťový		UNRESOLVED
-sifónový		UNRESOLVED
+schodišťový		UNRESOLVED Z: schodiště
+sifónový		UNRESOLVED Z: sifon
 singletaskový		UNRESOLVED
 sinixový		UNRESOLVED
 síňokomorový		UNRESOLVED
 sírodehtový		UNRESOLVED
-skopový		UNRESOLVED
+skopový		UNRESOLVED Z: skopec
 slámovinový		UNRESOLVED
 slovnědruhový		UNRESOLVED
 smalltalkový		UNRESOLVED
@@ -1049,7 +1049,7 @@ sulfonaftenový		UNRESOLVED
 sulfoniový		UNRESOLVED
 suportový		UNRESOLVED
 supremový		UNRESOLVED
-suprový		UNRESOLVED
+suprový		UNRESOLVED Z: super
 svícnový		UNRESOLVED
 svrchněkřídový		UNRESOLVED
 syřišťový		UNRESOLVED
@@ -1178,7 +1178,7 @@ fefermincový		UNRESOLVED
 franšízinkový		UNRESOLVED
 glukozový		UNRESOLVED Z: glukóza
 jomkippurový		UNRESOLVED
-kamionový		UNRESOLVED
+kamionový		UNRESOLVED Z: kamión
 kbytový		UNRESOLVED
 kursorový		UNRESOLVED
 maltosový		UNRESOLVED
@@ -1192,7 +1192,7 @@ plotterový		UNRESOLVED
 přírustkový		UNRESOLVED
 rajonový		UNRESOLVED Z: rajón
 rallyecrossový		UNRESOLVED
-resistorový		UNRESOLVED
+resistorový		UNRESOLVED Z: rezistor
 ricínový		UNRESOLVED
 scatový		UNRESOLVED
 screeningový		UNRESOLVED
