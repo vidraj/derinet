@@ -7,7 +7,7 @@ abilympijský		UNRESOLVED
 abomejský		UNRESOLVED
 aboriginský		UNRESOLVED
 ačamčirský		UNRESOLVED
-acapulský		UNRESOLVED
+acapulský		UNRESOLVED Z: Acapulco
 achaimenovský		UNRESOLVED
 acheulléenský		UNRESOLVED
 achimotský		UNRESOLVED
@@ -45,7 +45,7 @@ alpínský		UNRESOLVED Z: Alpy
 alpskodunajský		UNRESOLVED
 alšovský		UNRESOLVED Z: Alš
 altelandský		UNRESOLVED
-aluminiářský		UNRESOLVED
+aluminiářský		UNRESOLVED Z: aluminium
 alžbětinský		UNRESOLVED Z: Alžběta
 amadeovský		UNRESOLVED Z: Amadeus
 amalfinský		UNRESOLVED
@@ -62,20 +62,20 @@ anadyrský		UNRESOLVED
 anakreontský		UNRESOLVED
 anasazijský		UNRESOLVED
 ancyrský		UNRESOLVED
-andaluský		UNRESOLVED N: Andalusie
+andaluský		UNRESOLVED Z: Andalusie
 andělskohorský		UNRESOLVED
 andílkovský		UNRESOLVED
-andorský		UNRESOLVED N: Andora
+andorský		UNRESOLVED Z: Andora
 andrušovský		UNRESOLVED
-anenský		UNRESOLVED N: Anna
-anežský		UNRESOLVED N: Anežka
+anenský		UNRESOLVED Z: Anna
+anežský		UNRESOLVED Z: Anežka
 angeleský		UNRESOLVED
 angevinský		UNRESOLVED
 anglickočeský		UNRESOLVED
 anjujský		UNRESOLVED
 annanský		UNRESOLVED
 antalyjský		UNRESOLVED
-antillský		UNRESOLVED N: Atilla
+antillský		UNRESOLVED Z: Atilla
 antimovský		UNRESOLVED
 antiochejský		UNRESOLVED
 antiocheský		UNRESOLVED
@@ -92,15 +92,15 @@ arakčejevský		UNRESOLVED
 araksanský		UNRESOLVED
 aramejský		UNRESOLVED
 aranžerský		UNRESOLVED
-arboretářský		UNRESOLVED N: arboretum
-archimédovský		UNRESOLVED N: Archimédes
+arboretářský		UNRESOLVED Z: arboretum
+archimédovský		UNRESOLVED Z: Archimédes
 arelatský		UNRESOLVED
 argejský		UNRESOLVED
 argolský		UNRESOLVED
 arhuský		UNRESOLVED
-aristotelský		UNRESOLVED N: Aristoteles
+aristotelský		UNRESOLVED Z: Aristoteles
 arkadokyperský		UNRESOLVED
-arkansaský		UNRESOLVED N: Arkansas
+arkansaský		UNRESOLVED Z: Arkansas
 arsakovský		UNRESOLVED
 artéský		UNRESOLVED
 artézský		UNRESOLVED
@@ -113,11 +113,11 @@ askeranský		UNRESOLVED
 aškeranský		UNRESOLVED
 astijský		UNRESOLVED
 astracháňský		UNRESOLVED
-asyrský		UNRESOLVED N: Asýrie
+asyrský		UNRESOLVED Z: Asýrie
 athabaský		UNRESOLVED
-atlaský		UNRESOLVED N: Atlas
+atlaský		UNRESOLVED Z: Atlas
 auburnský		UNRESOLVED
-australský		UNRESOLVED N: Austrálie
+australský		UNRESOLVED Z: Austrálie
 austroasijský		UNRESOLVED
 austronéský		UNRESOLVED
 autsajderský		UNRESOLVED
@@ -133,8 +133,8 @@ bahijský		UNRESOLVED
 bahranský		UNRESOLVED
 bahtuský		UNRESOLVED
 bajcířský		UNRESOLVED
-balíčkovský		UNRESOLVED N: balíček
-balijský		UNRESOLVED
+balíčkovský		UNRESOLVED Z: balíček
+balijský		UNRESOLVED Z: Bali
 balineský		UNRESOLVED
 balintovský		UNRESOLVED
 baltofinský		UNRESOLVED
@@ -145,34 +145,34 @@ bankivský		UNRESOLVED
 banyoleský		UNRESOLVED
 baodajovský		UNRESOLVED
 baraganský		UNRESOLVED
-barbadoský		UNRESOLVED N: Barbados
+barbadoský		UNRESOLVED Z: Barbados
 barchesterský		UNRESOLVED
-bardějovský		UNRESOLVED N: Bardejov
+bardějovský		UNRESOLVED Z: Bardejov
 barídšáhovský		UNRESOLVED
 baskervilský		UNRESOLVED
 baskitský		UNRESOLVED
 bašťanský		UNRESOLVED
-baťohářský		UNRESOLVED N: batoh
+baťohářský		UNRESOLVED Z: batoh
 batumský		UNRESOLVED
-baudelairovský		UNRESOLVED N: Baudelaire
+baudelairovský		UNRESOLVED Z: Baudelaire
 bavorskočeský		UNRESOLVED
-bejrutský		UNRESOLVED N: Bejrút
-belianský		UNRESOLVED N: Belmondo
+bejrutský		UNRESOLVED Z: Bejrút
+belianský		UNRESOLVED Z: Belmondo
 belmondovský		UNRESOLVED
 beltwilský		UNRESOLVED
-běluňský		UNRESOLVED N: Benediktýn
-benedinkýnský		UNRESOLVED
+běluňský		UNRESOLVED
+benedinkýnský		UNRESOLVED Z: Benediktýn
 beneventský		UNRESOLVED
 berehovský		UNRESOLVED
 bergamský		UNRESOLVED
-berijovský		UNRESOLVED N: Berija
+berijovský		UNRESOLVED Z: Berija
 berkeleyský		UNRESOLVED
 beřkovský		UNRESOLVED
 berkshirský		UNRESOLVED
-bermundský		UNRESOLVED N: Bermudy
+bermundský		UNRESOLVED Z: Bermudy
 berzdorfský		UNRESOLVED
 besarabský		UNRESOLVED
-beslanský		UNRESOLVED N: Beslan
+beslanský		UNRESOLVED Z: Beslan
 betlemářský		UNRESOLVED
 beuronský		UNRESOLVED
 bídarský		UNRESOLVED
@@ -211,8 +211,8 @@ botlišský		UNRESOLVED
 bouloňský		UNRESOLVED
 brachtovský		UNRESOLVED
 braclavský		UNRESOLVED
-brandejský		UNRESOLVED
-branenský		UNRESOLVED
+brandejský		UNRESOLVED Z: Brandejs
+branenský		UNRESOLVED Z: Branná
 brankařský		UNRESOLVED
 braquovský		UNRESOLVED
 brasilský		UNRESOLVED
@@ -232,7 +232,7 @@ břístevský		UNRESOLVED
 britskoitalský		UNRESOLVED
 britskošvédský		UNRESOLVED
 brjanský		UNRESOLVED
-brnišťský		UNRESOLVED
+brnišťský		UNRESOLVED Z: Brniště
 broučkovský		UNRESOLVED Z: brouček
 brummelloský		UNRESOLVED
 buckinghamský		UNRESOLVED Z: Buckingham
@@ -271,7 +271,7 @@ cankařský		UNRESOLVED
 canneský		UNRESOLVED Z: Cannes
 cantervillský		UNRESOLVED Z: Canterville
 cantonvilleský		UNRESOLVED Z: Cantonville
-caracaský		UNRESOLVED
+caracaský		UNRESOLVED Z: Caracas
 caravaggiovský		UNRESOLVED
 carletonský		UNRESOLVED
 carpentarský		UNRESOLVED
@@ -346,13 +346,13 @@ chuchelský		UNRESOLVED
 chvojnovský		UNRESOLVED
 chýňavský		UNRESOLVED
 chynorianský		UNRESOLVED
-čilský		UNRESOLVED
+čilský		UNRESOLVED Z: Chile
 cimljanský		UNRESOLVED
 cincinnatský		UNRESOLVED
-činěveský		UNRESOLVED
+činěveský		UNRESOLVED Z: Činěves
 čipevajský		UNRESOLVED
 cividalský		UNRESOLVED
-čkyňský		UNRESOLVED
+čkyňský		UNRESOLVED Z: Čkyně
 claryovský		UNRESOLVED
 člověčenský		UNRESOLVED Z: člověk
 člověčský		UNRESOLVED Z: člověk
