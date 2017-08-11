@@ -1,0 +1,24 @@
+popis ze Zdeňkově emailu Magdě z 1. srpna:
+
+... funguje to takhle:
+1. z daného adresáře to načte derinet-1.4 # update pro gitový repozitář: derinet 1.4 se teď načítá z adresáře, kde leží standardně, takže už nic netřeba kopírovat
+2. najde tam všechna substantivní lemmata končící na -ák (první přípona, co mě napadla)
+3. zkusí vyrobit slovesné lemma záměnou přípony na -at a najít slovesný uzel s tímhle lemmatem
+4. zahlásí jedno z pěti možných situací:
+     A - navržené rodičovské lemma se nenašlo a současně nějakého rodiče už ten uzel má
+     B - navržené rodičovské lemma se nenašlo a současně ten uzel je zatím sirotek
+     C - navržené rodičovské lemma se našlo, uzel byl dosud sirotek
+     D - navržené rodičovské lemma se našlo a je stejné jako u dosavadního rodiče
+     E - navržené rodičovské lemma se našlo a liší se od dosavadního rodiče
+5. výsledek se zapíše do souboru log.txt, co pokus, to jedna řádka, sloupce oddělené tabulátory, kódování utf8
+
+Ten zdroják je jednoduchoučký. Předpokládám, že pro začátek by Ti mohlo stačit pohrát si se změnou těch suffixových pravidel, časem bych tam třeba připsal nějaké další podm9nkz (kdybys třeba chtěla ten test podmiňovat existencí dětí...). Pokud Tě některé z těch pěti kombinací nebudou zajímat, stačí příslušný řádek smazat (nebo zakomentovat znakem #) a nahradit slovem pass, které bude odsazené tak daleko, jak daleko byl odsazený ten původní řádek (python místo složenic používá na zanořování bloků kódu právě šířku odsazení)
+
+Na tomhle páru přípon to aktuálně vychází takhle:
+   2693 (B) CANDIDATE NONEXISTENT, CURRENTLY PARENTLESS
+    362 (A) CANDIDATE NONEXISTENT, CURRENT PARENT=
+    103 (C) NO PARENT BEFORE
+     70 (D) PARENT SAME AS BEFORE
+     13 (E) PARENT DIFFERENT, CURRENT PARENT=
+
+Nejzajímavější je asi to céčko, najde to divnosti typu zupák, ale i krásné případy jako vrták-vrtat, u kterých nechápu, proč v derinetu nejsou (ale může to být kostlivec způsobený tím postupným přidáváním lemmat).
