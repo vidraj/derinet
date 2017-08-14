@@ -1,11 +1,11 @@
-absintový	absint	CHANGE: 0 --> ový
+﻿absintový	absint	CHANGE: 0 --> ový
 adidasový	Adidas	CHANGE: 0 --> ový
 adipový	Adip	CHANGE: 0 --> ový
 aldonový	Aldon	CHANGE: 0 --> ový
 androidový	android	CHANGE: 0 --> ový
 anhydritový	anhydrit	CHANGE: 0 --> ový
 antiagingový	antiaging	CHANGE: 0 --> ový
-arganový	Argan	CHANGE: 0 --> ový
+?	arganový	Argan	CHANGE: 0 --> ový
 babytenisový	babytenis	CHANGE: 0 --> ový
 badyánový	badyán	CHANGE: 0 --> ový
 bajtový	Bajt	CHANGE: 0 --> ový
@@ -13,9 +13,9 @@ baklažánový	baklažán	CHANGE: 0 --> ový
 bandážový	bandáž	CHANGE: 0 --> ový
 bannerový	banner	CHANGE: 0 --> ový
 baryový	Bary	CHANGE: 0 --> ový Z: baryum
-basketballový	Basketball	CHANGE: 0 --> ový
+?	basketballový	Basketball	CHANGE: 0 --> ový
 basketový	basket	CHANGE: 0 --> ový
-bassový	Bass	CHANGE: 0 --> ový
+?	bassový	Bass	CHANGE: 0 --> ový
 bassreflexový	bassreflex	CHANGE: 0 --> ový
 beachový	beach	CHANGE: 0 --> ový
 benefitový	benefit	CHANGE: 0 --> ový
@@ -32,22 +32,22 @@ blackoutový	blackout	CHANGE: 0 --> ový
 blatouchový	blatouch	CHANGE: 0 --> ový
 bolidový	bolid	CHANGE: 0 --> ový
 bookingový	booking	CHANGE: 0 --> ový
-bootový	Boot	CHANGE: 0 --> ový
+?	bootový	Boot	CHANGE: 0 --> ový
 botnetový	botnet	CHANGE: 0 --> ový
-bramový	Bram	CHANGE: 0 --> ový
+?	bramový	Bram	CHANGE: 0 --> ový
 brandingový	branding	CHANGE: 0 --> ový
 brandový	brand	CHANGE: 0 --> ový
 broadbandový	broadband	CHANGE: 0 --> ový
-bromový	Brom	CHANGE: 0 --> ový
+?	bromový	Brom	CHANGE: 0 --> ový
 bronzingový	bronzing	CHANGE: 0 --> ový
 brunchový	brunch	CHANGE: 0 --> ový
 brutnákový	brutnák	CHANGE: 0 --> ový
 bublifukový	bublifuk	CHANGE: 0 --> ový
 cejchový	cejch	CHANGE: 0 --> ový
 cloudový	cloud	CHANGE: 0 --> ový
-cottonový	Cotton	CHANGE: 0 --> ový
+?	cottonový	Cotton	CHANGE: 0 --> ový
 coworkingový	coworking	CHANGE: 0 --> ový
-crossový	Cross	CHANGE: 0 --> ový
+?	crossový	Cross	CHANGE: 0 --> ový
 cunninghamový	Cunningham	CHANGE: 0 --> ový
 cybexový	Cybex	CHANGE: 0 --> ový
 čedokový	Čedok	CHANGE: 0 --> ový
@@ -57,7 +57,7 @@ dekretový	dekret	CHANGE: 0 --> ový
 detruzorový	detruzor	CHANGE: 0 --> ový
 dewarový	Dewar	CHANGE: 0 --> ový
 dial-upový	dial-up	CHANGE: 0 --> ový
-dionýsový	Dionýs	CHANGE: 0 --> ový
+dionýsový	Dionýs	CHANGE: 0 --> ový M: Dionýsos
 doběhový	doběh	CHANGE: 0 --> ový
 dobošový	Doboš	CHANGE: 0 --> ový
 doeový	Doe	CHANGE: 0 --> ový
@@ -74,7 +74,7 @@ e-mailový	e-mail	CHANGE: 0 --> ový
 facebookový	Facebook	CHANGE: 0 --> ový
 fáčový	fáč	CHANGE: 0 --> ový
 fanový	fan	CHANGE: 0 --> ový
-fleetový	Fleet	CHANGE: 0 --> ový
+?	fleetový	Fleet	CHANGE: 0 --> ový
 fordový	ford	CHANGE: 0 --> ový
 fotbalgolfový	fotbalgolf	CHANGE: 0 --> ový
 frgálový	frgál	CHANGE: 0 --> ový
@@ -403,7 +403,7 @@ téčkový	téčko	CHANGE: o --> ový
 tempový	tempo	CHANGE: o --> ový
 tílkový	tílko	CHANGE: o --> ový
 tonkový	Tonko	CHANGE: o --> ový
-veselový	veselo	CHANGE: o --> ový
+veselový	veselo	CHANGE: o --> ový M: veselí
 víčkový	víčko	CHANGE: o --> ový
 vínový	víno	CHANGE: o --> ový
 vízový	vízo	CHANGE: o --> ový Z: vízum
@@ -1199,9 +1199,9 @@ screeningový		UNRESOLVED
 sequencerový		UNRESOLVED
 softverový		UNRESOLVED
 stadionový		UNRESOLVED Z: stadión
-svrchnokřídový		UNRESOLVED Z: torpédo
-torpedový		UNRESOLVED Z: vizitka
-visitkový		UNRESOLVED
+svrchnokřídový		UNRESOLVED
+torpedový		UNRESOLVED Z: torpédo
+visitkový		UNRESOLVED Z: vizitka
 viskosový		UNRESOLVED
 vysocezátěžový		UNRESOLVED
 worchestrový		UNRESOLVED

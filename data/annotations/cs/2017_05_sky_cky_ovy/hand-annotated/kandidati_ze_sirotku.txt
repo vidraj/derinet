@@ -1,4 +1,4 @@
-N biometanový	biometan	CHANGE: 0 --> ový
+﻿N biometanový	biometan	CHANGE: 0 --> ový
 N biotopový	biotop	CHANGE: 0 --> ový
 N nadhledový	nadhled	CHANGE: 0 --> ový
 pětivlasový	Pětivlas	CHANGE: 0 --> ový
@@ -2224,7 +2224,7 @@ biozemědělský		UNRESOLVED
 černomorský		UNRESOLVED
 ? černopetrovský		UNRESOLVED
 černopolský		UNRESOLVED
-N černosotěnský		UNRESOLVED A:černosotněnec
+N černosotěnský		UNRESOLVED M:černosotěnec
 N černosotněnský		UNRESOLVED  A:černosotněnec
 českobavorský		UNRESOLVED
 českobělský		UNRESOLVED

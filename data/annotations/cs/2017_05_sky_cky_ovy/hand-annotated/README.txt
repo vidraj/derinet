@@ -1,4 +1,4 @@
-Adélin komentář z mejlu k kandidati_ze_sirotku:
+﻿Adélin komentář z mejlu k kandidati_ze_sirotku:
 
 prošla jsem ta slova, která jsem automaticky vyřadila jako kompozita,
 a zkontrolovala, jestli se o kompozita opravdu jedná. Pokud ne,
@@ -26,3 +26,11 @@ návrh, jsem označil otazníkem na začátku řádku, např.
   (v mnoha případech šlo jen o změnu malého písmena na velké)
   téměř vždy byla předkem substantiva
 
+
+Magda:
+- na řádcích, kde nebyl predikovaný žádný předek, nebo byl predikovaný
+  chybný předek, jsem na konec řádku přidala M: lemmapředka
+  např.
+  N černosotěnský		UNRESOLVED A:černosotněnec
+  jsem změnila na
+  N černosotěnský		UNRESOLVED M:černosotěnec
