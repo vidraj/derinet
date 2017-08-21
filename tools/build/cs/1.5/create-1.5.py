@@ -63,14 +63,38 @@ def mark_as_compound(node_id):
 
 # ---------------- part (a) -------------------
 
-file = open('../../../../data/annotations/cs/2017_08_compounds/all_solitary_compounds')
-for shortlemma in [line.rstrip('\n') for line in file]:
+filename = '../../../../data/annotations/cs/2017_08_compounds/all_solitary_compounds'
+fh = open(filename)
+for shortlemma in [line.rstrip('\n') for line in fh]:
     try:
         node_ids = derinet.get_ids(shortlemma)
         mark_as_compound(node_ids[0])
     except:
-        print("Lemma "+shortlemma+" not found")
+        print("Error: Lemma "+shortlemma+" not found, comes from "+filename)
 
+# ---------------- part (b) -------------------
 
+filename = '../../../../data/annotations/cs/2017_08_compounds/all_compound_clusters'
+fh = open(filename)
+for line in fh:
+    
+    tokens = line.rstrip('\n').split(' ')
+
+    print(repr(tokens))
+    
+    node_ids = derinet.get_ids(tokens[0])
+    mark_as_compound(node_ids[0])
+
+    last_token = tokens[0]
+    stack = []
+    for index in range(1,len(tokens)):
+        token = tokens[index]
+        if token == "(":
+            stack.append(last_token)
+        elif token == ")":
+            stack.pop()
+        else:
+            print("Child: "+token+"  Parent: "+stack[-1])
+            last_token = token
         
 derinet.save('derinet-1-5.tsv')
