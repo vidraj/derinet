@@ -1,0 +1,45 @@
+Co potřebujeme oproti dosavadnímu souborovému formátu a rozhraní vylepšit:
+
+- umožnit víc rodičovských uzlů (hlavně kvůli kompozici)
+
+- přidat atributy hran (pro formu i funkci, např. forma=sufixace, funkce=zdrobnělina)
+
+- přidat atributy uzlů
+   - slovotvorný typ: derivace, kompozice, zkratkové slovo, výpůjčka... co ještě?
+   - morfosegmentace - členění lemmatu na morfémy (jen lineární, nebo stromové?)
+   - maska morfologického tagu - pseudotag, který má vyplněné jen pozice ("sloupečky"), které zůstávají pro všechny formy lemmatu neměnné
+   - bude jich určitě víc a všechny teď nedomyslím, asi by to chtělo i nějakou divokou zónu pro volné přidávání pomocných atributů v budoucnu (co json do posledního sloupčku?)
+
+- promyslet další (neslovotvorné) typy hran
+   - měly by být nějak spojené uzly odpovídající pravopisným variantám (myslit/myslet)
+   - asi by měla být propojená i homonyma (to teď jsou jen implicitně - identickým lemmatem)
+
+- musíme nějak pořešit identifikaci lexému
+   - samozřejmě potřebujeme umět odkázat na rodičovský uzel/uzly
+   - současná ídéčka jsou jen dočasná a v každém releasu se mění
+   - alternativně by šly použít "dlouhá lemmata" (lemma plus technická přípony) z JH's morfologie, ale ta se mění taky
+   - popřípadě by šlo z přípony vytáhnout jen "homonymní číslíčko" (a věci jako glosa už ne - komentář jako součást ID je divný)
+   - anebo vymyslet vlastní novou identifikaci lexémů, třeba lemma#tagmaska, tím se drtivá většina homonym rozliší (to si tipuju, neměřil jsem to, ale na masivní produktivní homonymie typu baryton-neživ./baryton-neživ. by to stačit mělo), a teprv tam, kde to nestačí,použít číslíčka
+   - v případě "derinet goes multilingual" by ale tyhle "chytré" identifikátory byly možná spíš na překážku
+
+- API - máme perlové (víceméně plně OO, plus pohodlný spouštěč z příkazové řádky) a pythonové (není OO, ale je výrazně rychlejší, nicméně nemá kompletní funkcionalitu a leccos je tam trochu přes ruku)
+
+-------------------------------------------------------
+
+Nástřel řešení souborového formátu pro DeriNet 2.0
+- zásadní inspirace: success story formátu CoNLL-U
+- tsv, pokud možno co nejmenší množství sloupců
+- pořadí řádků bych upravil tak, aby z toho bylo holým okem vidět víc než teď:
+   - mezi jednotlivé derivační stromy bych nově přidal prázdný řádek
+   - derivační hnízda by byla uspořádaná podle lexikografického pořadí kořenů
+   - uspořádání řádků v derivačním hnízdě? Co třeba depth-first, opět s lexikografickým uspořádáním na každém patře
+    (ideál: co nejvíc derivačních hran bude realizováno sousedními řádky, depth-first tím pádem určitě lepší než breadth-first)
+   - každopádně to musí být deterministické, ať nemáme problém s roundtripem
+
+--------------------------------------------------------
+
+Požadavky na nové pythoní API
+- Nikitovou implementací se ověřilo, že to načítání může být rychlé
+- ovšem bylo to za cenu ztráty objektového modelu (banálně: v původním perlovém rozhraní byl uzel objekt, což se po zvýšení počtu uzlů ukázalo neúnosné)
+- bez objektů se s tím nedělá úplně dobře - především není jasné, co má být ta věc, která reprezentuje uzel
+
