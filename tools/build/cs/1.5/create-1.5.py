@@ -100,7 +100,7 @@ for filename in [
 
     fh = open(filename)
 
-    for line in []:###############fh:
+    for line in fh:
         columns = line.rstrip('\n').split('\t')
         child_lemma = columns[0]
         parent_lemma = columns[1]
@@ -118,7 +118,7 @@ filename = "../../../../data/annotations/cs/2017_05_sky_cky_ovy/hand-annotated/c
 
 fh = open(filename)
 
-for line in []: ##########fh:
+for line in fh:
     if not re.search(r'^[@\?]',line):
 
         columns = line.lstrip('\t').rstrip('\n').split('\t')
@@ -152,15 +152,37 @@ for line in fh:
         if not parent_lemma=="UNRESOLVED" and not parent_lemma=="":
             create_derivation(filename, child_lemma, 'A', parent_lemma, None)
 
-            
 
 
+# ---------------- parts (e)+(f)+(g) -------------------
+
+for shortfilename in [
+        'AavanyDavane-C-final.txt',
+        'AavatelnyDavatelne-C-final.txt',
+        'VtNtel-C-final.txt',
+        'AavanyDavane-E-final.txt',
+        'AavatelnyDavatelne-E-final.txt',
+        'VtNtel-E-final.txt'
+        ]:
+
+    filename = "../../../../data/annotations/cs/2017_08_tel_avane_avatelne/"+shortfilename
+
+    fh = open(filename)
+
+    for line in fh:
+        if not re.search(r'^@',line):
+            columns = line.rstrip('\n').split('\t')
+            if len(columns)<2:
+                print("KRATKE: "+line)
+            child_lemma = columns[0]
+            parent_lemma = columns[1]
+            create_derivation(filename, child_lemma, None, parent_lemma, None)
         
 # ---------------- part (h) -------------------
 
 filename = '../../../../data/annotations/cs/2017_08_compounds/all_solitary_compounds'
 fh = open(filename)
-for shortlemma in []:############# [line.rstrip('\n') for line in fh]:
+for shortlemma in [line.rstrip('\n') for line in fh]:
     try:
         node_ids = derinet.get_ids(shortlemma)
         mark_as_compound(node_ids[0])
@@ -171,7 +193,7 @@ for shortlemma in []:############# [line.rstrip('\n') for line in fh]:
 
 filename = '../../../../data/annotations/cs/2017_08_compounds/all_compound_clusters'
 fh = open(filename)
-for line in []:########3#fh:
+for line in fh:
     
     tokens = line.rstrip('\n').split(' ')
 

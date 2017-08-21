@@ -508,9 +508,6 @@ přetetovávaně	přetetovávaný	(C) NO PARENT BEFORE
 přetopolánkovávaně	přetopolánkovávaný	(C) NO PARENT BEFORE
 převerbovávaně	převerbovávaný	(C) NO PARENT BEFORE
 převolovávaně	převolovávaný	(C) NO PARENT BEFORE
-(C) NO PARENT BEFORE
-převolovávaně	převolovávaný	(C) NO PARENT BEFORE
-(C) NO PARENT BEFORE
 přezónovávaně	přezónovávaný	(C) NO PARENT BEFORE
 přežehlovávaně	přežehlovávaný	(C) NO PARENT BEFORE
 přicukrovávaně	přicukrovávaný	(C) NO PARENT BEFORE

@@ -508,9 +508,6 @@ přetetovávatelně	přetetovávatelný	(C) NO PARENT BEFORE
 přetopolánkovávatelně	přetopolánkovávatelný	(C) NO PARENT BEFORE
 převerbovávatelně	převerbovávatelný	(C) NO PARENT BEFORE
 převolovávatelně	převolovávatelný	(C) NO PARENT BEFORE
-(C) NO PARENT BEFORE
-převolovávatelně	převolovávatelný	(C) NO PARENT BEFORE
-(C) NO PARENT BEFORE
 přezónovávatelně	přezónovávatelný	(C) NO PARENT BEFORE
 přežehlovávatelně	přežehlovávatelný	(C) NO PARENT BEFORE
 přicukrovávatelně	přicukrovávatelný	(C) NO PARENT BEFORE
