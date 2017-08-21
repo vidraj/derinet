@@ -2,35 +2,38 @@
 
 # This script loads new manual annotations from the following places
 #
-# (a) childless compounds
-# ../../../../data/annotations/cs/2017_08_compounds/all_solitary_compounds
-#
-# (b) compounds and their derived children (possibly more levels)
-# ../../../../data/annotations/cs/2017_08_compounds/all_compound_clusters
-#
-# (c) adjectives derived by -sky suffix
+# (a) adjectives derived by -sky suffix
 # ../../../../data/annotations/cs/2017_05_sky_cky_ovy/hand-annotated/candidates_sky_bez_kompozit.txt
 #
-# (d) adjectives derived by -cky suffix
+# (b) adjectives derived by -cky suffix
 # ../../../../data/annotations/cs/2017_05_sky_cky_ovy/hand-annotated/candidates_cky_bez_kompozit.txt
 #
-# (e) adjectives derived by -ovy suffix
+# (c) adjectives derived by -ovy suffix
 # ../../../../data/annotations/cs/2017_05_sky_cky_ovy/hand-annotated/candidates_ovy_bez_kompozit.txt
 #
-# (f) other adjectives derived by -ovy and -sky
+# (d) other adjectives derived by -ovy and -sky
 # ../../../../data/annotations/cs/2017_05_sky_cky_ovy/hand-annotated/kandidati_ze_sirotku.txt
 #
-# (g) nouns derived from verbs by -tel
+# (e) nouns derived from verbs by -tel
 # ../../../../data/annotations/cs/2017_08_tel_avane_avatelne/VtNtel-C-final.txt
 # ../../../../data/annotations/cs/2017_08_tel_avane_avatelne/VtNtel-E-final.txt
 #
-# (h) adverbs derived by -avane
+# (f) adverbs derived by -avane
 # ../../../../data/annotations/cs/2017_08_tel_avane_avatelne/AavanyDavane-C-final.txt
 # ../../../../data/annotations/cs/2017_08_tel_avane_avatelne/AavanyDavane-E-final.txt
 #
-# (i) adverbs derived by -avatelne
+# (g) adverbs derived by -avatelne
 # ../../../../data/annotations/cs/2017_08_tel_avane_avatelne/AavatelnyDavatelne-C-final.txt
 # ../../../../data/annotations/cs/2017_08_tel_avane_avatelne/AavatelnyDavatelne-E-final.txt
+#
+# (h) childless compounds
+# ../../../../data/annotations/cs/2017_08_compounds/all_solitary_compounds
+#
+# (i) compounds and their derived children (possibly more levels)
+# ../../../../data/annotations/cs/2017_08_compounds/all_compound_clusters
+#
+
+
 
 import sys
 sys.path.append('../../../data-api/derinet-python/')
@@ -88,7 +91,51 @@ def create_derivation(filename,child_lemma,child_pos,parent_lemma,parent_pos):
         print("Error: No edge added for child="+child_lemma+" and parent="+parent_lemma+" , either nonexistent or ambiguous")
 
 
+
 # ---------------- part (a) -------------------
+filename = "../../../../data/annotations/cs/2017_05_sky_cky_ovy/hand-annotated/candidates_sky_bez_kompozit.txt"
+
+fh = open(filename)
+
+for line in []: #fh:
+    columns = line.rstrip('\n').split('\t')
+    child_lemma = columns[0]
+    parent_lemma = columns[1]
+
+#    print("LINE="+line)
+#    print("CHILD="+child_lemma+"  PARENT="+parent_lemma)
+
+    matchObj = re.search(r' [A-Z]: (\w+)',line) # manual correction
+    if matchObj and matchObj.groups:
+        parent_lemma = matchObj.group(1)
+
+    if not parent_lemma=="UNRESOLVED" and not parent_lemma=="":
+        create_derivation(filename, child_lemma, 'A', parent_lemma, None)
+
+
+# ---------------- part (b) -------------------
+filename = "../../../../data/annotations/cs/2017_05_sky_cky_ovy/hand-annotated/candidates_cky_bez_kompozit.txt"
+
+fh = open(filename)
+
+for line in fh:
+    if not re.search(r'^[@\?]',line):
+
+        columns = line.lstrip('\t').rstrip('\n').split('\t')
+        child_lemma = columns[0]
+        parent_lemma = columns[1]
+
+        matchObj = re.search(r' [A-Z]: (\w+)',line) # manual correction
+        if matchObj and matchObj.groups:
+            parent_lemma = matchObj.group(1)
+
+        if not parent_lemma=="UNRESOLVED" and not parent_lemma=="":
+            create_derivation(filename, child_lemma, 'A', parent_lemma, None)
+
+
+
+        
+# ---------------- part (h) -------------------
 
 filename = '../../../../data/annotations/cs/2017_08_compounds/all_solitary_compounds'
 fh = open(filename)
@@ -99,7 +146,7 @@ for shortlemma in []:############# [line.rstrip('\n') for line in fh]:
     except:
         print("Error: Lemma "+shortlemma+" not found, comes from "+filename)
 
-# ---------------- part (b) -------------------
+# ---------------- part (i) -------------------
 
 filename = '../../../../data/annotations/cs/2017_08_compounds/all_compound_clusters'
 fh = open(filename)
@@ -126,24 +173,6 @@ for line in []:########3#fh:
             last_token = token
 
 
-# ---------------- part (c) -------------------
-filename = "../../../../data/annotations/cs/2017_05_sky_cky_ovy/hand-annotated/candidates_sky_bez_kompozit.txt"
 
-fh = open(filename)
-
-for line in fh:
-    columns = line.rstrip('\n').split('\t')
-    child_lemma = columns[0]
-    parent_lemma = columns[1]
-
-#    print("LINE="+line)
-#    print("CHILD="+child_lemma+"  PARENT="+parent_lemma)
-
-    matchObj = re.search(r' [A-Z]: (\w+)',line) # manual correction
-    if matchObj and matchObj.groups:
-        parent_lemma = matchObj.group(1)
-
-    if not parent_lemma=="UNRESOLVED" and not parent_lemma=="":
-        create_derivation(filename, child_lemma, 'A', parent_lemma, None)
-
+        
 derinet.save('derinet-1-5.tsv')

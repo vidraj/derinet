@@ -71,7 +71,7 @@
 	diopsidický	diopsid	CHANGE: 0 --> ický
 	disulfidický	disulfid	CHANGE: 0 --> ický
 	diterpenický	diterpen	CHANGE: 0 --> ický
-	dolomitický	dolomit	CHANGE: 0 --> ický
+	dolomitický	dolomit	CHANGE: 0 --> ický Z: Dolomity
 ?	dopický	Dop	CHANGE: 0 --> ický
 	elastomerický	elastomer	CHANGE: 0 --> ický
 	elektrolytický	elektrolyt	CHANGE: 0 --> ický
@@ -231,8 +231,8 @@
 	xylometrický	xylometr	CHANGE: 0 --> ický
 	žalmický	žalm	CHANGE: 0 --> ický
 	antimonický	antimon	CHANGE: 0 --> ický
-	arsenický	Arsen	CHANGE: 0 --> ický Z: arsen
-	bromický	Brom	CHANGE: 0 --> ický Z: brom
+	arsenický	Arsen	CHANGE: 0 --> ický Z: arzenik
+	bromický	Brom	CHANGE: 0 --> ický Z: bróm
 	dolický	dol	CHANGE: 0 --> ický
 ?	dusický	Dus	CHANGE: 0 --> ický
 	etherický	ether	CHANGE: 0 --> ický
@@ -2119,7 +2119,7 @@
 	bazický		UNRESOLVED
 	bázický		UNRESOLVED
 	baziofitický		UNRESOLVED
-	beatlesácký		UNRESOLVED Z: beatles
+	beatlesácký		UNRESOLVED Z: Beatles
 	bezalkoholický		UNRESOLVED
 	bezbožecký		UNRESOLVED
 	bežecký		UNRESOLVED Z: běžec
@@ -2471,7 +2471,7 @@
 	optochemický		UNRESOLVED
 	optomagnetický		UNRESOLVED
 	optomechanický		UNRESOLVED
-	orgastický		UNRESOLVED Z: orgasmus
+	orgastický		UNRESOLVED Z: orgazmus
 	orgiastický		UNRESOLVED
 	orlickoústecký		UNRESOLVED
 	orogenetický		UNRESOLVED
@@ -2504,7 +2504,7 @@
 	petrurgický		UNRESOLVED
 	pharmaceutický		UNRESOLVED
 	pisárecký		UNRESOLVED Z: Pisárky
-	plasmatický		UNRESOLVED Z: plasma
+	plasmatický		UNRESOLVED Z: plazma
 	plisecký		UNRESOLVED
 	poarchaický		UNRESOLVED
 	poatlantický		UNRESOLVED
