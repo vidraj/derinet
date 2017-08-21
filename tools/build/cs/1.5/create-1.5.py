@@ -100,7 +100,7 @@ for filename in [
 
     fh = open(filename)
 
-    for line in fh:
+    for line in []:###############fh:
         columns = line.rstrip('\n').split('\t')
         child_lemma = columns[0]
         parent_lemma = columns[1]
@@ -132,6 +132,27 @@ for line in []: ##########fh:
         if not parent_lemma=="UNRESOLVED" and not parent_lemma=="":
             create_derivation(filename, child_lemma, 'A', parent_lemma, None)
 
+# ---------------- part (d) -------------------
+            
+filename = "../../../../data/annotations/cs/2017_05_sky_cky_ovy/hand-annotated/kandidati_ze_sirotku.txt"
+
+fh = open(filename)
+
+for line in fh:
+    if re.search(r'^N ',line):
+        line = re.sub(r'^N ','',line)
+        columns = line.rstrip('\n').split('\t')
+        child_lemma = columns[0]
+        parent_lemma = columns[1]
+
+        matchObj = re.search(r' [A-Z]: (\w+)',line) # manual correction
+        if matchObj and matchObj.groups:
+            parent_lemma = matchObj.group(1)
+
+        if not parent_lemma=="UNRESOLVED" and not parent_lemma=="":
+            create_derivation(filename, child_lemma, 'A', parent_lemma, None)
+
+            
 
 
         
