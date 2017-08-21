@@ -92,25 +92,25 @@ def create_derivation(filename,child_lemma,child_pos,parent_lemma,parent_pos):
 
 
 
-# ---------------- part (a) -------------------
-filename = "../../../../data/annotations/cs/2017_05_sky_cky_ovy/hand-annotated/candidates_sky_bez_kompozit.txt"
+# ---------------- part (a) and (c) -------------------
+for filename in [
+         "../../../../data/annotations/cs/2017_05_sky_cky_ovy/hand-annotated/candidates_sky_bez_kompozit.txt",
+         "../../../../data/annotations/cs/2017_05_sky_cky_ovy/hand-annotated/candidates_ovy_bez_kompozit.txt"
+        ]:
 
-fh = open(filename)
+    fh = open(filename)
 
-for line in []: #fh:
-    columns = line.rstrip('\n').split('\t')
-    child_lemma = columns[0]
-    parent_lemma = columns[1]
+    for line in fh:
+        columns = line.rstrip('\n').split('\t')
+        child_lemma = columns[0]
+        parent_lemma = columns[1]
 
-#    print("LINE="+line)
-#    print("CHILD="+child_lemma+"  PARENT="+parent_lemma)
+        matchObj = re.search(r' [A-Z]: (\w+)',line) # manual correction
+        if matchObj and matchObj.groups:
+            parent_lemma = matchObj.group(1)
 
-    matchObj = re.search(r' [A-Z]: (\w+)',line) # manual correction
-    if matchObj and matchObj.groups:
-        parent_lemma = matchObj.group(1)
-
-    if not parent_lemma=="UNRESOLVED" and not parent_lemma=="":
-        create_derivation(filename, child_lemma, 'A', parent_lemma, None)
+        if not parent_lemma=="UNRESOLVED" and not parent_lemma=="":
+            create_derivation(filename, child_lemma, 'A', parent_lemma, None)
 
 
 # ---------------- part (b) -------------------
@@ -118,7 +118,7 @@ filename = "../../../../data/annotations/cs/2017_05_sky_cky_ovy/hand-annotated/c
 
 fh = open(filename)
 
-for line in fh:
+for line in []: ##########fh:
     if not re.search(r'^[@\?]',line):
 
         columns = line.lstrip('\t').rstrip('\n').split('\t')

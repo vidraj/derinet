@@ -179,7 +179,7 @@ závěsový	závěs	CHANGE: 0 --> ový
 zlatobýlový	zlatobýl	CHANGE: 0 --> ový
 árónový	Árón	CHANGE: 0 --> ový
 ethanový	Ethan	CHANGE: 0 --> ový Z: etan
-kurzový	Kurz	CHANGE: 0 --> ový Z: kurz
+kurzový	Kurz	CHANGE: 0 --> ový Z: kurs
 nachový	nach	CHANGE: 0 --> ový
 purpurový	purpur	CHANGE: 0 --> ový
 roentgenový	Roentgen	CHANGE: 0 --> ový
@@ -200,7 +200,7 @@ feratový	ferata	CHANGE: a --> ový
 ferátový	feráta	CHANGE: a --> ový
 férový	féra	CHANGE: a --> ový Z: fér
 flétničkový	flétnička	CHANGE: a --> ový
-fluorový	Fluora	CHANGE: a --> ový Z: fluor
+fluorový	Fluora	CHANGE: a --> ový Z: fluór
 hínajánový	hínajána	CHANGE: a --> ový
 houbičkový	houbička	CHANGE: a --> ový
 hrazdičkový	hrazdička	CHANGE: a --> ový
@@ -871,7 +871,7 @@ nervosvalový		UNRESOLVED
 niklkadmiový		UNRESOLVED
 niklohydridový		UNRESOLVED
 niklokadmiový		UNRESOLVED
-níťový		UNRESOLVED Z: niť
+níťový		UNRESOLVED Z: nit
 obdélnikový		UNRESOLVED Z: obdélník
 obličejnový		UNRESOLVED
 obouformátový		UNRESOLVED
