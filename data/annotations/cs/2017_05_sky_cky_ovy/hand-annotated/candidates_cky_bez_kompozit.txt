@@ -2386,7 +2386,7 @@
 	kuzněcký		UNRESOLVED
 	kvadratický		UNRESOLVED
 	kvasieliptický		UNRESOLVED
-	kymfatický		UNRESOLVED Z: lymfa
+	kymfatický		UNRESOLVED
 	kyperskořecký		UNRESOLVED
 	labskoústecký		UNRESOLVED
 	ladacký		UNRESOLVED

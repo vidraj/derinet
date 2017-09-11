@@ -1199,9 +1199,9 @@ screeningový		UNRESOLVED
 sequencerový		UNRESOLVED
 softverový		UNRESOLVED
 stadionový		UNRESOLVED Z: stadión
-svrchnokřídový		UNRESOLVED Z: torpédo
-torpedový		UNRESOLVED Z: vizitka
-visitkový		UNRESOLVED
+svrchnokřídový		UNRESOLVED 
+torpedový		UNRESOLVED Z: torpédo
+visitkový		UNRESOLVED Z: vizitka
 viskosový		UNRESOLVED
 vysocezátěžový		UNRESOLVED
 worchestrový		UNRESOLVED

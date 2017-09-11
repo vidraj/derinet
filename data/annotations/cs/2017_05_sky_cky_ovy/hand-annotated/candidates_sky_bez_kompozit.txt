@@ -75,7 +75,7 @@ anglickočeský		UNRESOLVED
 anjujský		UNRESOLVED
 annanský		UNRESOLVED
 antalyjský		UNRESOLVED
-antillský		UNRESOLVED Z: Atila
+antillský		UNRESOLVED Z: Antily
 antimovský		UNRESOLVED
 antiochejský		UNRESOLVED
 antiocheský		UNRESOLVED
@@ -181,7 +181,7 @@ birnamský		UNRESOLVED
 biskajský		UNRESOLVED Z: Biskaj
 bitcevský		UNRESOLVED
 bíthýnský		UNRESOLVED
-bítýšský		UNRESOLVED Z: Bitýška
+bítýšský		UNRESOLVED Z: Bítýška
 blagoveščenský		UNRESOLVED
 bláznovský		UNRESOLVED Z: blázen
 blbečkovský		UNRESOLVED Z: blbeček
@@ -461,15 +461,15 @@ drožďářský		UNRESOLVED Z: Držtěkryje
 drštěkryjský		UNRESOLVED Z: drůbež
 drůběžářský		UNRESOLVED
 druženářský		UNRESOLVED
-držovský		UNRESOLVED Z: důchod
-důchodenský		UNRESOLVED Z: duchovní
-duchovenský		UNRESOLVED Z: Dukla
-dukelský		UNRESOLVED
+držovský		UNRESOLVED 
+důchodenský		UNRESOLVED Z: důchod
+duchovenský		UNRESOLVED Z: duchovní
+dukelský		UNRESOLVED Z: Dukla
 dukljanský		UNRESOLVED
-důlněměřičský		UNRESOLVED Z: Dunaj
-dunajský		UNRESOLVED
-dušmanský		UNRESOLVED Z: Dvořiště
-dvořišťský		UNRESOLVED
+důlněměřičský		UNRESOLVED 
+dunajský		UNRESOLVED Z: Dunaj
+dušmanský		UNRESOLVED 
+dvořišťský		UNRESOLVED Z: Dvořiště
 dwarský		UNRESOLVED
 dynamovský		UNRESOLVED
 dyvedský		UNRESOLVED
@@ -1409,8 +1409,8 @@ punskořímský		UNRESOLVED
 puščinský		UNRESOLVED
 pyrrhonský		UNRESOLVED
 pythagorejský		UNRESOLVED Z: Pythagoras
-pýthagorejský		UNRESOLVED Z: Pythagoras
-pýthagorovský		UNRESOLVED Z: Pythagoras
+pýthagorejský		UNRESOLVED Z: Pýthagoras
+pýthagorovský		UNRESOLVED Z: Pýthagoras
 qemmovský		UNRESOLVED
 quessantský		UNRESOLVED
 quezonský		UNRESOLVED
@@ -1470,7 +1470,7 @@ ropšínský		UNRESOLVED
 roudenský		UNRESOLVED
 rousseauvský		UNRESOLVED
 rozikruciánský		UNRESOLVED
-rožmberský		UNRESOLVED Z: Ružomberok
+rožmberský		UNRESOLVED Z: Rožmberk
 rtyňský		UNRESOLVED Z: Rtyně
 rucanorský		UNRESOLVED
 rudenský		UNRESOLVED Z: Rudná
