@@ -1,0 +1,13 @@
+We require Treex::Core::Log, Treex::Tool::Lexicon::CS and
+Treex::Tool::Lexicon::Generation::CS for normal usage and the latter
+also requires Ufal::MorphoDiTa.
+Treex::Tool::Lexicon::DerivDict::Dictionary is required for legacy
+code, but you shouldn't need that.
+
+The prerequisities are not satisfiable by installing the standard
+version of Treex, you need the Git version from
+https://github.com/ufal/treex.git
+
+See
+https://ufal.mff.cuni.cz/treex/install.html
+for installation instructions.
