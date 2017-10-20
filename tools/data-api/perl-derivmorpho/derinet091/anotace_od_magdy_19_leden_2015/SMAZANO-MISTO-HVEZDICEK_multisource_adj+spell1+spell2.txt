@@ -1,0 +1,5878 @@
+beatník	beatnický	N-k --> A-cký	CHANGE: í -> i	
+
+bojovník	bojovnický	N-k --> A-cký	CHANGE: í -> i	
+
+bubeník	bubenický	N-k --> A-cký	CHANGE: í -> i	
+
+celník	celnický	N-k --> A-cký	CHANGE: í -> i	
+
+chalupník	chalupnický	N-k --> A-cký	CHANGE: í -> i	
+
+desátník	desátnický	N-k --> A-cký	CHANGE: í -> i	
+
+dlužník	dlužnický	N-k --> A-cký	CHANGE: í -> i	
+
+dobrovolník	dobrovolnický	N-k --> A-cký	CHANGE: í -> i	
+
+domovník	domovnický	N-k --> A-cký	CHANGE: í -> i	
+
+dráteník	drátenický	N-k --> A-cký	CHANGE: í -> i	
+
+dvojník	dvojnický	N-k --> A-cký	CHANGE: í -> i	
+
+důstojník	důstojnický	N-k --> A-cký	CHANGE: í -> i	
+
+důvěrník	důvěrnický	N-k --> A-cký	CHANGE: í -> i	
+
+falešník	falešnický	N-k --> A-cký	CHANGE: í -> i	
+
+granátník	granátnický	N-k --> A-cký	CHANGE: í -> i	
+
+hutník	hutnický	N-k --> A-cký	CHANGE: í -> i	
+
+kadeřník	kadeřnický	N-k --> A-cký	CHANGE: í -> i	
+
+kajícník	kajícnický	N-k --> A-cký	CHANGE: í -> i	
+
+kameník	kamenický	N-k --> A-cký	CHANGE: í -> i	
+
+karbaník	karbanický	N-k --> A-cký	CHANGE: í -> i	
+
+klenotník	klenotnický	N-k --> A-cký	CHANGE: í -> i	
+
+klevetník	klevetnický	N-k --> A-cký	CHANGE: í -> i	
+
+kloboučník	kloboučnický	N-k --> A-cký	CHANGE: í -> i	
+
+kouzelník	kouzelnický	N-k --> A-cký	CHANGE: í -> i	
+
+kočovník	kočovnický	N-k --> A-cký	CHANGE: í -> i	
+
+kožešník	kožešnický	N-k --> A-cký	CHANGE: í -> i	
+
+kyrysník	kyrysnický	N-k --> A-cký	CHANGE: í -> i	
+
+lazebník	lazebnický	N-k --> A-cký	CHANGE: í -> i	
+
+lesník	lesnický	N-k --> A-cký	CHANGE: í -> i	
+
+loupežník	loupežnický	N-k --> A-cký	CHANGE: í -> i	
+
+mladík	mladický	N-k --> A-cký	CHANGE: í -> i	
+
+mučedník	mučednický	N-k --> A-cký	CHANGE: í -> i	
+
+nadporučík	nadporučický	N-k --> A-cký	CHANGE: í -> i	
+
+nevolník	nevolnický	N-k --> A-cký	CHANGE: í -> i	
+
+nádeník	nádenický	N-k --> A-cký	CHANGE: í -> i	
+
+nájemník	nájemnický	N-k --> A-cký	CHANGE: í -> i	
+
+nájezdník	nájezdnický	N-k --> A-cký	CHANGE: í -> i	
+
+námořník	námořnický	N-k --> A-cký	CHANGE: í -> i	
+
+následník	následnický	N-k --> A-cký	CHANGE: í -> i	
+
+následovník	následovnický	N-k --> A-cký	CHANGE: í -> i	
+
+nástupník	nástupnický	N-k --> A-cký	CHANGE: í -> i	
+
+návštěvník	návštěvnický	N-k --> A-cký	CHANGE: í -> i	
+
+náčelník	náčelnický	N-k --> A-cký	CHANGE: í -> i	
+
+obchodník	obchodnický	N-k --> A-cký	CHANGE: í -> i	
+
+odborník	odbornický	N-k --> A-cký	CHANGE: í -> i	
+
+odpadlík	odpadlický	N-k --> A-cký	CHANGE: í -> i	
+
+osadník	osadnický	N-k --> A-cký	CHANGE: í -> i	
+
+panovník	panovnický	N-k --> A-cký	CHANGE: í -> i	
+
+pekelník	pekelnický	N-k --> A-cký	CHANGE: í -> i	
+
+plukovník	plukovnický	N-k --> A-cký	CHANGE: í -> i	
+
+poddůstojník	poddůstojnický	N-k --> A-cký	CHANGE: í -> i	
+
+podnájemník	podnájemnický	N-k --> A-cký	CHANGE: í -> i	
+
+podporučík	podporučický	N-k --> A-cký	CHANGE: í -> i	
+
+podvodník	podvodnický	N-k --> A-cký	CHANGE: í -> i	
+
+podílník	podílnický	N-k --> A-cký	CHANGE: í -> i	
+
+poručík	poručický	N-k --> A-cký	CHANGE: í -> i	
+
+poručník	poručnický	N-k --> A-cký	CHANGE: í -> i	
+
+požárník	požárnický	N-k --> A-cký	CHANGE: í -> i	
+
+praporčík	praporčický	N-k --> A-cký	CHANGE: í -> i	
+
+prostopášník	prostopášnický	N-k --> A-cký	CHANGE: í -> i	
+
+prostředník	prostřednický	N-k --> A-cký	CHANGE: í -> i	
+
+právník	právnický	N-k --> A-cký	CHANGE: í -> i	
+
+průkopník	průkopnický	N-k --> A-cký	CHANGE: í -> i	
+
+průmyslník	průmyslnický	N-k --> A-cký	CHANGE: í -> i	
+
+průzkumník	průzkumnický	N-k --> A-cký	CHANGE: í -> i	
+
+přeběhlík	přeběhlický	N-k --> A-cký	CHANGE: í -> i	
+
+překupník	překupnický	N-k --> A-cký	CHANGE: í -> i	
+
+sekerník	sekernický	N-k --> A-cký	CHANGE: í -> i	
+
+sklepník	sklepnický	N-k --> A-cký	CHANGE: í -> i	
+
+skrblík	skrblický	N-k --> A-cký	CHANGE: í -> i	
+
+smrtelník	smrtelnický	N-k --> A-cký	CHANGE: í -> i	
+
+společník	společnický	N-k --> A-cký	CHANGE: í -> i	
+
+spoluvlastník	spoluvlastnický	N-k --> A-cký	CHANGE: í -> i	
+
+stavebník	stavebnický	N-k --> A-cký	CHANGE: í -> i	
+
+stolovník	stolovnický	N-k --> A-cký	CHANGE: í -> i	
+
+strojník	strojnický	N-k --> A-cký	CHANGE: í -> i	
+
+strážník	strážnický	N-k --> A-cký	CHANGE: í -> i	
+
+státník	státnický	N-k --> A-cký	CHANGE: í -> i	
+
+stříbrník	stříbrnický	N-k --> A-cký	CHANGE: í -> i	
+
+svobodník	svobodnický	N-k --> A-cký	CHANGE: í -> i	
+
+světoběžník	světoběžnický	N-k --> A-cký	CHANGE: í -> i	
+
+svůdník	svůdnický	N-k --> A-cký	CHANGE: í -> i	
+
+tanečník	tanečnický	N-k --> A-cký	CHANGE: í -> i	
+
+tlumočník	tlumočnický	N-k --> A-cký	CHANGE: í -> i	
+
+trosečník	trosečnický	N-k --> A-cký	CHANGE: í -> i	
+
+trpaslík	trpaslický	N-k --> A-cký	CHANGE: í -> i	
+
+táborník	tábornický	N-k --> A-cký	CHANGE: í -> i	
+
+uprchlík	uprchlický	N-k --> A-cký	CHANGE: í -> i	
+
+učedník	učednický	N-k --> A-cký	CHANGE: í -> i	
+
+varhaník	varhanický	N-k --> A-cký	CHANGE: í -> i	
+
+velkoobchodník	velkoobchodnický	N-k --> A-cký	CHANGE: í -> i	
+
+vlastník	vlastnický	N-k --> A-cký	CHANGE: í -> i	
+
+vražedník	vražednický	N-k --> A-cký	CHANGE: í -> i	
+
+vrstevník	vrstevnický	N-k --> A-cký	CHANGE: í -> i	
+
+válečník	válečnický	N-k --> A-cký	CHANGE: í -> i	
+
+vápeník	vápenický	N-k --> A-cký	CHANGE: í -> i	
+
+výtržník	výtržnický	N-k --> A-cký	CHANGE: í -> i	
+
+výtvarník	výtvarnický	N-k --> A-cký	CHANGE: í -> i	
+
+výzkumník	výzkumnický	N-k --> A-cký	CHANGE: í -> i	
+
+zahradník	zahradnický	N-k --> A-cký	CHANGE: í -> i	
+
+začátečník	začátečnický	N-k --> A-cký	CHANGE: í -> i	
+
+zbohatlík	zbohatlický	N-k --> A-cký	CHANGE: í -> i	
+
+zdravotník	zdravotnický	N-k --> A-cký	CHANGE: í -> i	
+
+zlatník	zlatnický	N-k --> A-cký	CHANGE: í -> i	
+
+zpovědník	zpovědnický	N-k --> A-cký	CHANGE: í -> i	
+
+zákazník	zákaznický	N-k --> A-cký	CHANGE: í -> i	
+
+zámečník	zámečnický	N-k --> A-cký	CHANGE: í -> i	
+
+zápasník	zápasnický	N-k --> A-cký	CHANGE: í -> i	
+
+zápecník	zápecnický	N-k --> A-cký	CHANGE: í -> i	
+
+závodník	závodnický	N-k --> A-cký	CHANGE: í -> i	
+
+záškodník	záškodnický	N-k --> A-cký	CHANGE: í -> i	
+
+účastník	účastnický	N-k --> A-cký	CHANGE: í -> i	
+
+úředník	úřednický	N-k --> A-cký	CHANGE: í -> i	
+
+čarodějník	čarodějnický	N-k --> A-cký	CHANGE: í -> i	
+
+četník	četnický	N-k --> A-cký	CHANGE: í -> i	
+
+číšník	číšnický	N-k --> A-cký	CHANGE: í -> i	
+
+řemeslník	řemeslnický	N-k --> A-cký	CHANGE: í -> i	
+
+řezník	řeznický	N-k --> A-cký	CHANGE: í -> i	
+
+řečník	řečnický	N-k --> A-cký	CHANGE: í -> i	
+
+dopnout	dopnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+hnout	hnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+kynout	kynutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+minout	minutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+mnout	mnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+nabodnout	nabodnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+nadzdvihnout	nadzdvihnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+nadýchnout	nadýchnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+nahnout	nahnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+napadnout	napadnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+napnout	napnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+natisknout	natisknutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+natrhnout	natrhnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+natáhnout	natáhnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+navlíknout	navlíknutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+navrhnout	navrhnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+obhlédnout	obhlédnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+obtisknout	obtisknutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+odemknout	odemknutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+odhrnout	odhrnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+odprásknout	odprásknutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+odstřihnout	odstřihnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+odsunout	odsunutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+odtrhnout	odtrhnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+odvrhnout	odvrhnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+ohnout	ohnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+otisknout	otisknutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+ovinout	ovinutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+pnout	pnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+pohnout	pohnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+postihnout	postihnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+posunout	posunutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+potisknout	potisknutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+potáhnout	potáhnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+pozdvihnout	pozdvihnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+prasknout	prasknutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+probodnout	probodnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+prohlédnout	prohlédnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+prohnout	prohnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+protnout	protnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+přehlédnout	přehlédnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+přehnout	přehnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+přepnout	přepnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+přetisknout	přetisknutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+přetnout	přetnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+přetrhnout	přetrhnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+přetáhnout	přetáhnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+převrhnout	převrhnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+přihlédnout	přihlédnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+připnout	připnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+připomenout	připomenutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+přitisknout	přitisknutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+přitáhnout	přitáhnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+přivinout	přivinutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+přiřknout	přiřknutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+rozepnout	rozepnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+rozetnout	rozetnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+rozhrnout	rozhrnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+rozpomenout	rozpomenutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+rozstříknout	rozstříknutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+roztrhnout	roztrhnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+roztáhnout	roztáhnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+rozvinout	rozvinutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+rozžehnout	rozžehnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+sepnout	sepnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+setnout	setnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+shlédnout	shlédnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+sklenout	sklenutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+sloupnout	sloupnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+spřáhnout	spřáhnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+strhnout	strhnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+strnout	strnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+stáhnout	stáhnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+svlíknout	svlíknutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+svrhnout	svrhnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+típnout	típnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+tisknout	tisknutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+táhnout	táhnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+uhnout	uhnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+umanout	umanutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+upnout	upnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+ustříhnout	ustříhnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+utnout	utnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+utonout	utonutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+utrhnout	utrhnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+utáhnout	utáhnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+uzamknout	uzamknutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+vcucnout	vcucnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+vinout	vinutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+vsunout	vsunutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+vtisknout	vtisknutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+vybouchnout	vybouchnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+vydýchnout	vydýchnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+vyhlédnout	vyhlédnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+vyhnout	vyhnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+vyhrnout	vyhrnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+vypláznout	vypláznutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+vypnout	vypnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+vystihnout	vystihnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+vystříhnout	vystříhnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+vytisknout	vytisknutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+vytknout	vytknutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+vytnout	vytnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+vytrhnout	vytrhnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+vytáhnout	vytáhnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+vyvinout	vyvinutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+vyvrhnout	vyvrhnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+vzplanout	vzplanutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+vzpomenout	vzpomenutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+zahlédnout	zahlédnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+zamknout	zamknutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+zapnout	zapnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+zapomenout	zapomenutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+zasunout	zasunutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+zasáhnout	zasáhnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+zatknout	zatknutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+zatnout	zatnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+zatáhnout	zatáhnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+zavrhnout	zavrhnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+zdvihnout	zdvihnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+zhlédnout	zhlédnutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+zmáčknout	zmáčknutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+zvednout	zvednutý	V-nout --> A-nutý		LINK ALREADY PRESENT
+
+žahnout	žahnutý	V-nout --> A-nutý		
+
+
+Adélka	Adélčin	N-ka --> A-čin		LINK ALREADY PRESENT
+
+Alenka	Alenčin	N-ka --> A-čin		
+
+Anežka	Anežčin	N-ka --> A-čin		LINK ALREADY PRESENT
+
+Angelika	Angeličin	N-ka --> A-čin		LINK ALREADY PRESENT
+
+Blanka	Blančin	N-ka --> A-čin		LINK ALREADY PRESENT
+
+Dorotka	Dorotčin	N-ka --> A-čin		LINK ALREADY PRESENT
+
+Eliška	Eliščin	N-ka --> A-čin		LINK ALREADY PRESENT
+
+Franceska	Francesčin	N-ka --> A-čin		LINK ALREADY PRESENT
+
+Hedvika	Hedvičin	N-ka --> A-čin		LINK ALREADY PRESENT
+
+Indka	Indčin	N-ka --> A-čin		
+
+Jitka	Jitčin	N-ka --> A-čin		
+
+Johanka	Johančin	N-ka --> A-čin		LINK ALREADY PRESENT
+
+Karkulka	Karkulčin	N-ka --> A-čin		
+
+Madlenka	Madlenčin	N-ka --> A-čin		LINK ALREADY PRESENT
+
+Manka	Mančin	N-ka --> A-čin		LINK ALREADY PRESENT
+Manča	Mančin	N-a --> A-in		
+
+Markétka	Markétčin	N-ka --> A-čin		LINK ALREADY PRESENT
+
+Miluška	Miluščin	N-ka --> A-čin		LINK ALREADY PRESENT
+
+Monika	Moničin	N-ka --> A-čin		LINK ALREADY PRESENT
+
+Němka	Němčin	N-ka --> A-čin		
+
+Rebeka	Rebečin	N-ka --> A-čin		
+
+Slovenka	Slovenčin	N-ka --> A-čin		LINK ALREADY PRESENT
+
+Sněhurka	Sněhurčin	N-ka --> A-čin		LINK ALREADY PRESENT
+
+Terka	Terčin	N-ka --> A-čin		LINK ALREADY PRESENT
+
+Tinka	Tinčin	N-ka --> A-čin		LINK ALREADY PRESENT
+
+Veronika	Veroničin	N-ka --> A-čin		LINK ALREADY PRESENT
+
+Viktorka	Viktorčin	N-ka --> A-čin		
+
+Zdenka	Zdenčin	N-ka --> A-čin		LINK ALREADY PRESENT
+
+Zuzanka	Zuzančin	N-ka --> A-čin		LINK ALREADY PRESENT
+
+advokátka	advokátčin	N-ka --> A-čin		
+
+amazonka	amazončin	N-ka --> A-čin		LINK ALREADY PRESENT
+
+andělka	andělčin	N-ka --> A-čin		
+
+asistentka	asistentčin	N-ka --> A-čin		
+
+autorka	autorčin	N-ka --> A-čin		
+
+baronka	barončin	N-ka --> A-čin		LINK ALREADY PRESENT
+
+blondýnka	blondýnčin	N-ka --> A-čin		LINK ALREADY PRESENT
+
+bylinářka	bylinářčin	N-ka --> A-čin		
+
+bábinka	bábinčin	N-ka --> A-čin		LINK ALREADY PRESENT
+
+básnířka	básnířčin	N-ka --> A-čin		LINK ALREADY PRESENT
+
+cikánka	cikánčin	N-ka --> A-čin		
+
+dcerka	dcerčin	N-ka --> A-čin		LINK ALREADY PRESENT
+
+dceruška	dceruščin	N-ka --> A-čin		LINK ALREADY PRESENT
+
+delfínka	delfínčin	N-ka --> A-čin		
+
+doktorka	doktorčin	N-ka --> A-čin		
+
+démonka	démončin	N-ka --> A-čin		
+
+dívenka	dívenčin	N-ka --> A-čin		LINK ALREADY PRESENT
+
+dívka	dívčin	N-ka --> A-čin		LINK ALREADY PRESENT
+
+examinátorka	examinátorčin	N-ka --> A-čin		
+
+fanynka	fanynčin	N-ka --> A-čin		LINK ALREADY PRESENT
+
+guvernérka	guvernérčin	N-ka --> A-čin		
+
+hlasatelka	hlasatelčin	N-ka --> A-čin		
+
+hnědka	hnědčin	N-ka --> A-čin		LINK ALREADY PRESENT
+
+holka	holčin	N-ka --> A-čin		LINK ALREADY PRESENT
+
+hostitelka	hostitelčin	N-ka --> A-čin		
+
+hraběnka	hraběnčin	N-ka --> A-čin		LINK ALREADY PRESENT
+
+hrdinka	hrdinčin	N-ka --> A-čin		LINK ALREADY PRESENT
+
+jasnovidka	jasnovidčin	N-ka --> A-čin		
+
+jeptiška	jeptiščin	N-ka --> A-čin		LINK ALREADY PRESENT
+
+ještěrka	ještěrčin	N-ka --> A-čin		
+
+kamarádka	kamarádčin	N-ka --> A-čin		LINK ALREADY PRESENT
+
+kandidátka	kandidátčin	N-ka --> A-čin		
+
+kapitánka	kapitánčin	N-ka --> A-čin		LINK ALREADY PRESENT
+
+kněžka	kněžčin	N-ka --> A-čin		LINK ALREADY PRESENT
+
+kovářka	kovářčin	N-ka --> A-čin		
+
+králka	králčin	N-ka --> A-čin		
+
+kuchařka	kuchařčin	N-ka --> A-čin		
+
+lazarka	lazarčin	N-ka --> A-čin		
+
+lékařka	lékařčin	N-ka --> A-čin		
+
+majitelka	majitelčin	N-ka --> A-čin		
+
+majorka	majorčin	N-ka --> A-čin		
+
+malířka	malířčin	N-ka --> A-čin		
+
+maminka	maminčin	N-ka --> A-čin		LINK ALREADY PRESENT
+
+mamka	mamčin	N-ka --> A-čin		LINK ALREADY PRESENT
+mamča	mamčin	N-a --> A-in		
+
+manželka	manželčin	N-ka --> A-čin		
+
+markraběnka	markraběnčin	N-ka --> A-čin		LINK ALREADY PRESENT
+
+matinka	matinčin	N-ka --> A-čin		LINK ALREADY PRESENT
+
+matka	matčin	N-ka --> A-čin		LINK ALREADY PRESENT
+
+mažoretka	mažoretčin	N-ka --> A-čin		LINK ALREADY PRESENT
+
+milenka	milenčin	N-ka --> A-čin		LINK ALREADY PRESENT
+
+modelka	modelčin	N-ka --> A-čin		LINK ALREADY PRESENT
+
+nebožka	nebožčin	N-ka --> A-čin		LINK ALREADY PRESENT
+
+nevěstka	nevěstčin	N-ka --> A-čin		LINK ALREADY PRESENT
+
+nositelka	nositelčin	N-ka --> A-čin		
+
+pacientka	pacientčin	N-ka --> A-čin		
+
+panenka	panenčin	N-ka --> A-čin		
+
+partnerka	partnerčin	N-ka --> A-čin		LINK ALREADY PRESENT
+
+pisatelka	pisatelčin	N-ka --> A-čin		
+
+plavovláska	plavovlásčin	N-ka --> A-čin		LINK ALREADY PRESENT
+
+pochůzkářka	pochůzkářčin	N-ka --> A-čin		
+
+policistka	policistčin	N-ka --> A-čin		
+
+popelka	popelčin	N-ka --> A-čin		LINK ALREADY PRESENT
+
+prelátka	prelátčin	N-ka --> A-čin		
+
+prezidentka	prezidentčin	N-ka --> A-čin		
+
+primátorka	primátorčin	N-ka --> A-čin		
+
+profesorka	profesorčin	N-ka --> A-čin		
+
+prostitutka	prostitutčin	N-ka --> A-čin		LINK ALREADY PRESENT
+
+psycholožka	psycholožčin	N-ka --> A-čin		
+
+přemožitelka	přemožitelčin	N-ka --> A-čin		
+
+přítelka	přítelčin	N-ka --> A-čin		LINK ALREADY PRESENT
+
+příšerka	příšerčin	N-ka --> A-čin		LINK ALREADY PRESENT
+
+robotka	robotčin	N-ka --> A-čin		LINK ALREADY PRESENT
+
+rusalka	rusalčin	N-ka --> A-čin		LINK ALREADY PRESENT
+
+sekretářka	sekretářčin	N-ka --> A-čin		
+
+senátorka	senátorčin	N-ka --> A-čin		
+
+seržantka	seržantčin	N-ka --> A-čin		
+
+služka	služčin	N-ka --> A-čin		LINK ALREADY PRESENT
+
+snoubenka	snoubenčin	N-ka --> A-čin		LINK ALREADY PRESENT
+
+sousedka	sousedčin	N-ka --> A-čin		
+
+spisovatelka	spisovatelčin	N-ka --> A-čin		
+
+starostka	starostčin	N-ka --> A-čin		
+
+stařenka	stařenčin	N-ka --> A-čin		LINK ALREADY PRESENT
+
+tyranka	tyrančin	N-ka --> A-čin		
+
+upírka	upírčin	N-ka --> A-čin		
+
+uživatelka	uživatelčin	N-ka --> A-čin		
+
+velitelka	velitelčin	N-ka --> A-čin		
+
+veverka	veverčin	N-ka --> A-čin		LINK ALREADY PRESENT
+
+zlodějka	zlodějčin	N-ka --> A-čin		
+
+zrzka	zrzčin	N-ka --> A-čin		LINK ALREADY PRESENT
+
+zuzka	zuzčin	N-ka --> A-čin		LINK ALREADY PRESENT
+
+čarodějka	čarodějčin	N-ka --> A-čin		
+
+qčernoška	černoščin	N-ka --> A-čin		LINK ALREADY PRESENT
+
+
+---------------------------------
+116 GROUPS FOR RULE COMBINATION: N-ika --> A-ický, N-ka --> A-cký
+
+Amerika	americký	N-ka --> A-cký		
+
+aerodynamika	aerodynamický	N-ka --> A-cký		
+
+aeronautika	aeronautický	N-ka --> A-cký		
+
+agrotechnika	agrotechnický	N-ka --> A-cký		
+
+akustika	akustický	N-ka --> A-cký		
+
+apokalyptika	apokalyptický	N-ka --> A-cký		
+
+architektonika	architektonický	N-ka --> A-cký		
+
+astronautika	astronautický	N-ka --> A-cký		
+
+atletika	atletický	N-ka --> A-cký		
+
+attika	attický	N-ka --> A-cký		
+
+autoerotika	autoerotický	N-ka --> A-cký		
+
+automatika	automatický	N-ka --> A-cký		
+
+biodynamika	biodynamický	N-ka --> A-cký		
+
+bioenergetika	bioenergetický	N-ka --> A-cký		
+
+bioetika	bioetický	N-ka --> A-cký		
+
+biomatematika	biomatematický	N-ka --> A-cký		
+
+biomechanika	biomechanický	N-ka --> A-cký		
+
+bionika	bionický	N-ka --> A-cký		
+
+biotechnika	biotechnický	N-ka --> A-cký		
+
+charakteristika	charakteristický	N-ka --> A-cký		
+
+chromatika	chromatický	N-ka --> A-cký		
+
+cytogenetika	cytogenetický	N-ka --> A-cký		
+
+diakritika	diakritický	N-ka --> A-cký		
+
+dialektika	dialektický	N-ka --> A-cký		
+
+
+dynamika	dynamický	N-ka --> A-cký		
+
+ekliptika	ekliptický	N-ka --> A-cký		
+
+elektrika	elektrický	N-ka --> A-cký		
+
+elektrodynamika	elektrodynamický	N-ka --> A-cký		
+
+elektroenergetika	elektroenergetický	N-ka --> A-cký		
+
+elektrostatika	elektrostatický	N-ka --> A-cký		
+
+epika	epický	N-ka --> A-cký		
+
+ergonomika	ergonomický	N-ka --> A-cký		
+
+eugenika	eugenický	N-ka --> A-cký		
+
+exotika	exotický	N-ka --> A-cký		
+
+farmakodynamika	farmakodynamický	N-ka --> A-cký		
+
+farmakokinetika	farmakokinetický	N-ka --> A-cký		
+
+faunistika	faunistický	N-ka --> A-cký		
+
+floristika	floristický	N-ka --> A-cký		
+
+fonetika	fonetický	N-ka --> A-cký		
+
+fototechnika	fototechnický	N-ka --> A-cký		
+
+fyziognomika	fyziognomický	N-ka --> A-cký		
+
+geodetika	geodetický	N-ka --> A-cký		
+
+geotechnika	geotechnický	N-ka --> A-cký		
+
+gotika	gotický	N-ka --> A-cký		
+
+hemodynamika	hemodynamický	N-ka --> A-cký		
+
+hemostatika	hemostatický	N-ka --> A-cký		
+
+hermeneutika	hermeneutický	N-ka --> A-cký		
+
+heuristika	heuristický	N-ka --> A-cký		
+
+hydraulika	hydraulický	N-ka --> A-cký		
+
+hydrodynamika	hydrodynamický	N-ka --> A-cký		
+
+hydroenergetika	hydroenergetický	N-ka --> A-cký		
+
+hydromechanika	hydromechanický	N-ka --> A-cký		
+
+hydrostatika	hydrostatický	N-ka --> A-cký		
+
+hydrotechnika	hydrotechnický	N-ka --> A-cký		
+
+kazuistika	kazuistický	N-ka --> A-cký		
+
+kinematika	kinematický	N-ka --> A-cký		
+
+kinetika	kinetický	N-ka --> A-cký		
+
+kladistika	kladistický	N-ka --> A-cký		
+
+kombinatorika	kombinatorický	N-ka --> A-cký		
+
+komparatistika	komparatistický	N-ka --> A-cký		
+
+kosmonautika	kosmonautický	N-ka --> A-cký		
+
+kryogenika	kryogenický	N-ka --> A-cký		
+
+magnetohydrodynamika	magnetohydrodynamický	N-ka --> A-cký		
+
+makrobiotika	makrobiotický	N-ka --> A-cký		
+
+makroekonomika	makroekonomický	N-ka --> A-cký		
+
+makropolitika	makropolitický	N-ka --> A-cký		
+
+metrika	metrický	N-ka --> A-cký		
+
+mikroekonomika	mikroekonomický	N-ka --> A-cký		
+
+mikroelektronika	mikroelektronický	N-ka --> A-cký		
+
+mnemonika	mnemonický	N-ka --> A-cký		
+
+mnemotechnika	mnemotechnický	N-ka --> A-cký		
+
+motorika	motorický	N-ka --> A-cký		
+
+novogotika	novogotický	N-ka --> A-cký		
+
+numerika	numerický	N-ka --> A-cký		
+
+numismatika	numismatický	N-ka --> A-cký		
+
+optoelektronika	optoelektronický	N-ka --> A-cký		
+
+pedagogika	pedagogický	N-ka --> A-cký		
+
+pentatonika	pentatonický	N-ka --> A-cký		
+
+polytechnika	polytechnický	N-ka --> A-cký		
+
+problematika	problematický	N-ka --> A-cký		
+
+propedeutika	propedeutický	N-ka --> A-cký		
+
+psychofyzika	psychofyzický	N-ka --> A-cký		
+
+psychometrika	psychometrický	N-ka --> A-cký		
+
+psychomotorika	psychomotorický	N-ka --> A-cký		
+
+psychosomatika	psychosomatický	N-ka --> A-cký		
+
+radiodiagnostika	radiodiagnostický	N-ka --> A-cký		
+
+radioelektronika	radioelektronický	N-ka --> A-cký		
+
+rytmika	rytmický	N-ka --> A-cký		
+
+sebekritika	sebekritický	N-ka --> A-cký		
+
+seismika	seismický	N-ka --> A-cký		
+
+senzorika	senzorický	N-ka --> A-cký		
+
+sklokeramika	sklokeramický	N-ka --> A-cký		
+
+symbolika	symbolický	N-ka --> A-cký		
+
+symptomatika	symptomatický	N-ka --> A-cký		
+
+sémantika	sémantický	N-ka --> A-cký		
+
+sémiotika	sémiotický	N-ka --> A-cký		
+
+tektonika	tektonický	N-ka --> A-cký		
+
+telematika	telematický	N-ka --> A-cký		
+
+telemechanika	telemechanický	N-ka --> A-cký		
+
+terapeutika	terapeutický	N-ka --> A-cký		
+
+termodynamika	termodynamický	N-ka --> A-cký		
+
+termomechanika	termomechanický	N-ka --> A-cký		
+
+tragika	tragický	N-ka --> A-cký		
+
+vzduchotechnika	vzduchotechnický	N-ka --> A-cký		
+
+
+
+Anka	Ankův	N-a --> A-ův		LINK ALREADY PRESENT
+
+Attila	Attilův	N-a --> A-ův		LINK ALREADY PRESENT
+
+Baba	Babův	N-a --> A-ův		LINK ALREADY PRESENT
+
+Bárta	Bártův	N-a --> A-ův		LINK ALREADY PRESENT
+
+Baťa	Baťův	N-a --> A-ův		
+
+Bela	Belův	N-a --> A-ův		LINK ALREADY PRESENT
+
+Béla	Bélův	N-a --> A-ův		LINK ALREADY PRESENT
+
+Boura	Bourův	N-a --> A-ův		LINK ALREADY PRESENT
+
+Brahma	Brahmův	N-a --> A-ův		LINK ALREADY PRESENT
+
+Corda	Cordův	N-a --> A-ův		LINK ALREADY PRESENT
+
+Daňa	Daňův	N-a --> A-ův		
+
+Duda	Dudův	N-a --> A-ův		LINK ALREADY PRESENT
+
+Duka	Dukův	N-a --> A-ův		LINK ALREADY PRESENT
+
+Durka	Durkův	N-a --> A-ův		LINK ALREADY PRESENT
+
+Douda	Doudův	N-a --> A-ův		LINK ALREADY PRESENT
+
+Drákula	Drákulův	N-a --> A-ův		LINK ALREADY PRESENT
+
+Ferrara	Ferrarův	N-a --> A-ův		LINK ALREADY PRESENT
+
+Galla	Gallův	N-a --> A-ův		LINK ALREADY PRESENT
+
+Gaňa	Gaňův	N-a --> A-ův		
+
+Garcia	Garciův	N-a --> A-ův		LINK ALREADY PRESENT
+Gomulka	Gomulkův	N-a --> A-ův		LINK ALREADY PRESENT
+
+Goya	Goyův	N-a --> A-ův		LINK ALREADY PRESENT
+
+Háma	Hámův	N-a --> A-ův		LINK ALREADY PRESENT
+
+Hanna	Hannův	N-a --> A-ův		LINK ALREADY PRESENT
+
+Haza	Hazův	N-a --> A-ův		LINK ALREADY PRESENT
+
+Huma	Humův	N-a --> A-ův		
+
+Hora	Horův	N-a --> A-ův		LINK ALREADY PRESENT
+
+Horka	Horkův	N-a --> A-ův		LINK ALREADY PRESENT
+
+Hurta	Hurtův	N-a --> A-ův		LINK ALREADY PRESENT
+
+Huba	Hubův	N-a --> A-ův		
+
+Huda	Hudův	N-a --> A-ův		LINK ALREADY PRESENT
+
+Jaša	Jašův	N-a --> A-ův		
+
+Juda	Judův	N-a --> A-ův		LINK ALREADY PRESENT
+
+Kanda	Kandův	N-a --> A-ův		LINK ALREADY PRESENT
+
+Kuda	Kudův	N-a --> A-ův		LINK ALREADY PRESENT
+
+Koudela	Koudelův	N-a --> A-ův		LINK ALREADY PRESENT
+Koudelka	Koudelkův	N-a --> A-ův		LINK ALREADY PRESENT
+
+Kupka	Kupkův	N-a --> A-ův		LINK ALREADY PRESENT
+
+Kája	Kájův	N-a --> A-ův		LINK ALREADY PRESENT
+
+Lana	Lanův	N-a --> A-ův		LINK ALREADY PRESENT
+
+Lanna	Lannův	N-a --> A-ův		LINK ALREADY PRESENT
+
+Luka	Lukův	N-a --> A-ův		LINK ALREADY PRESENT
+
+Lula	Lulův	N-a --> A-ův		LINK ALREADY PRESENT
+
+Louisa	Louisův	N-a --> A-ův		
+
+Luisa	Luisův	N-a --> A-ův		
+
+Maria	Mariův	N-a --> A-ův		
+
+Matta	Mattův	N-a --> A-ův		LINK ALREADY PRESENT
+
+Míra	Mírův	N-a --> A-ův		
+
+Meruňka	Meruňkův	N-a --> A-ův		
+
+Mika	Mikův	N-a --> A-ův		LINK ALREADY PRESENT
+
+Mila	Milův	N-a --> A-ův		
+
+Mira	Mirův	N-a --> A-ův		LINK ALREADY PRESENT
+
+Mirza	Mirzův	N-a --> A-ův		LINK ALREADY PRESENT
+
+Moma	Momův	N-a --> A-ův		LINK ALREADY PRESENT
+
+Mona	Monův	N-a --> A-ův		LINK ALREADY PRESENT
+
+Muna	Munův	N-a --> A-ův		
+
+Moucha	Mouchův	N-a --> A-ův		
+Mucha	Muchův	N-a --> A-ův		LINK ALREADY PRESENT
+
+Míča	Míčův	N-a --> A-ův		LINK ALREADY PRESENT
+
+Nikita	Nikitův	N-a --> A-ův		LINK ALREADY PRESENT
+
+Ortega	Ortegův	N-a --> A-ův		LINK ALREADY PRESENT
+
+Otta	Ottův	N-a --> A-ův		LINK ALREADY PRESENT
+
+Paula	Paulův	N-a --> A-ův		
+
+Pata	Patův	N-a --> A-ův		
+
+Pereira	Pereirův	N-a --> A-ův		LINK ALREADY PRESENT
+
+Pola	Polův	N-a --> A-ův		LINK ALREADY PRESENT
+
+Pšenička	Pšeničkův	N-a --> A-ův		LINK ALREADY PRESENT
+
+Ráma	Rámův	N-a --> A-ův		LINK ALREADY PRESENT
+
+Ruda	Rudův	N-a --> A-ův		
+
+Russa	Russův	N-a --> A-ův		
+
+Saša	Sašův	N-a --> A-ův		
+
+Sara	Sarův	N-a --> A-ův		
+
+Silva	Silvův	N-a --> A-ův		LINK ALREADY PRESENT
+
+Skála	Skálův	N-a --> A-ův		LINK ALREADY PRESENT
+
+Sobotka	Sobotkův	N-a --> A-ův		LINK ALREADY PRESENT
+
+Straka	Strakův	N-a --> A-ův		LINK ALREADY PRESENT
+
+Středa	Středův	N-a --> A-ův		
+
+Svoboda	Svobodův	N-a --> A-ův		LINK ALREADY PRESENT
+
+Swoboda	Swobodův	N-a --> A-ův		LINK ALREADY PRESENT
+
+Tala	Talův	N-a --> A-ův		LINK ALREADY PRESENT
+
+Toma	Tomův	N-a --> A-ův		
+
+Toska	Toskův	N-a --> A-ův		LINK ALREADY PRESENT
+
+Tuka	Tukův	N-a --> A-ův		LINK ALREADY PRESENT
+
+Vala	Valův	N-a --> A-ův		LINK ALREADY PRESENT
+
+Valera	Valerův	N-a --> A-ův		LINK ALREADY PRESENT
+
+Vasa	Vasův	N-a --> A-ův		LINK ALREADY PRESENT
+
+Vrana	Vranův	N-a --> A-ův		LINK ALREADY PRESENT
+Váša	Vášův	N-a --> A-ův		LINK ALREADY PRESENT
+
+
+Zika	Zikův	N-a --> A-ův		LINK ALREADY PRESENT
+
+Zima	Zimův	N-a --> A-ův		LINK ALREADY PRESENT
+
+akolyta	akolytův	N-a --> A-ův		LINK ALREADY PRESENT
+
+dalajláma	dalajlámův	N-a --> A-ův		LINK ALREADY PRESENT
+
+hrdina	hrdinův	N-a --> A-ův		LINK ALREADY PRESENT
+
+jezuita	jezuitův	N-a --> A-ův		LINK ALREADY PRESENT
+
+maharádža	mahárádžův	N-a --> A-ův	CHANGE: a -> á	
+
+nacista	nacistův	N-a --> A-ův		LINK ALREADY PRESENT
+
+sluha	sluhův	N-a --> A-ův		LINK ALREADY PRESENT
+
+tata	tatův	N-a --> A-ův		
+táta	tátův	N-a --> A-ův		LINK ALREADY PRESENT
+
+
+Švéda	Švédův	N-a --> A-ův		LINK ALREADY PRESENT
+
+
+
+brzdit	brzdný	V-it --> A-ný		
+
+cena	cenný	N-a --> A-ný		
+
+chlubit	chlubný	V-it --> A-ný		
+
+chválit	chvalný	V-it --> A-ný	CHANGE: á -> a	
+
+halit	halný	V-it --> A-ný		
+
+hodnota	hodnotný	N-a --> A-ný		
+
+hromada	hromadný	N-a --> A-ný		
+
+hrůza	hrozný	N-a --> A-ný	CHANGE: ů -> o	
+
+hrůza	hrůzný	N-a --> A-ný		
+
+jednota	jednotný	N-a --> A-ný		
+
+jízda	jízdný	N-a --> A-ný		
+
+klopit	klopný	V-it --> A-ný		
+
+ladit	ladný	V-it --> A-ný		
+
+lahoda	lahodný	N-a --> A-ný		
+
+lakota	lakotný	N-a --> A-ný		
+
+lopota	lopotný	N-a --> A-ný		
+
+luza	luzný	N-a --> A-ný		
+
+mlha	mlžný	N-a --> A-ný	CHANGE: h -> ž	
+
+mluvit	mluvný	V-it --> A-ný		
+
+mouka	moučný	N-a --> A-ný	CHANGE: k -> č	
+
+měnit	měnný	V-it --> A-ný		
+
+náhoda	náhodný	N-a --> A-ný		
+
+nápodoba	nápodobný	N-a --> A-ný		
+
+náprava	nápravný	N-a --> A-ný		
+
+nástraha	nástražný	N-a --> A-ný	CHANGE: h -> ž	
+
+nauka	naučný	N-a --> A-ný	CHANGE: k -> č	
+
+nutit	nutný	V-it --> A-ný		
+
+obluda	obludný	N-a --> A-ný		
+
+obnovit	obnovný	V-it --> A-ný		
+
+obrana	obranný	N-a --> A-ný		
+
+obrodit	obrodný	V-it --> A-ný		
+
+obsloužit	obslužný	V-it --> A-ný	CHANGE: ou -> u	
+
+obživa	obživný	N-a --> A-ný		
+
+ochrana	ochranný	N-a --> A-ný		
+
+odloučit	odlučný	V-it --> A-ný	CHANGE: ou -> u	
+
+opravit	opravný	V-it --> A-ný		
+
+oslavit	oslavný	V-it --> A-ný		
+
+otrava	otravný	N-a --> A-ný		
+
+ozdoba	ozdobný	N-a --> A-ný		
+
+očistit	očistný	V-it --> A-ný		
+
+pochvala	pochvalný	N-a --> A-ný		
+
+pochyba	pochybný	N-a --> A-ný		
+
+poradit	poradný	V-it --> A-ný		
+
+posloužit	poslužný	V-it --> A-ný	CHANGE: ou -> u	
+
+potupa	potupný	N-a --> A-ný		
+
+proměnit	proměnný	V-it --> A-ný		
+
+propustit	propustný	V-it --> A-ný		
+
+protiva	protivný	N-a --> A-ný		
+
+představit	představný	V-it --> A-ný		
+
+přihodit	příhodný	V-it --> A-ný	CHANGE: i -> í	
+
+přehradit	přehradný	V-it --> A-ný		
+
+přiložit	příložný	V-it --> A-ný	CHANGE: i -> í	
+
+přimluvit	přímluvný	V-it --> A-ný	CHANGE: i -> í	
+
+připravit	přípravný	V-it --> A-ný	CHANGE: i -> í	
+
+přitulit	přítulný	V-it --> A-ný	CHANGE: i -> í	
+
+příčina	příčinný	N-a --> A-ný		
+
+rosa	rosný	N-a --> A-ný		
+
+rozvážit	rozvažný	V-it --> A-ný	CHANGE: á -> a	
+
+shoda	shodný	N-a --> A-ný		
+
+sláva	slavný	N-a --> A-ný	CHANGE: á -> a	
+
+slina	slinný	N-a --> A-ný		
+
+sloužit	služný	V-it --> A-ný	CHANGE: ou -> u	
+
+smola	smolný	N-a --> A-ný		
+
+spálit	spalný	V-it --> A-ný	CHANGE: á -> a	
+
+strava	stravný	N-a --> A-ný		
+
+střelit	střelný	V-it --> A-ný		
+
+trefit	trefný	V-it --> A-ný		
+
+tráva	travný	N-a --> A-ný	CHANGE: á -> a	
+
+velebit	velebný	V-it --> A-ný		
+
+vložit	vložný	V-it --> A-ný		
+
+vnada	vnadný	N-a --> A-ný		
+
+voda	vodný	N-a --> A-ný		
+
+vybavit	výbavný	V-it --> A-ný	CHANGE: y -> ý	
+
+výhoda	výhodný	N-a --> A-ný		
+
+výhrada	výhradný	N-a --> A-ný		
+
+vyložit	výložný	V-it --> A-ný	CHANGE: y -> ý	
+
+výmluva	výmluvný	N-a --> A-ný		
+
+výměna	výměnný	N-a --> A-ný		
+
+výprava	výpravný	N-a --> A-ný		
+
+výsada	výsadný	N-a --> A-ný		
+
+vyztužit	výztužný	V-it --> A-ný	CHANGE: y -> ý	
+
+vyživit	výživný	V-it --> A-ný	CHANGE: y -> ý	
+
+zábava	zábavný	N-a --> A-ný		
+
+záhuba	záhubný	N-a --> A-ný		
+
+zaměnit	záměnný	V-it --> A-ný	CHANGE: a -> á	
+
+závada	závadný	N-a --> A-ný		
+
+zavěsit	závěsný	V-it --> A-ný	CHANGE: a -> á	
+
+zdobit	zdobný	V-it --> A-ný		
+
+zhouba	zhoubný	N-a --> A-ný		
+
+zkáza	zkázný	N-a --> A-ný		
+
+zloba	zlobný	N-a --> A-ný		
+
+změnit	změnný	V-it --> A-ný		
+
+
+zradit	zrádný	V-it --> A-ný	CHANGE: a -> á	
+
+zrůda	zrůdný	N-a --> A-ný		
+
+zábránit	zábranný	V-it --> A-ný	CHANGE: á -> a	
+
+
+
+škoda	škodný	N-a --> A-ný		
+
+
+
+bílit	bílený	V-it --> A-ený		LINK ALREADY PRESENT
+
+bělet	bělený	V-et --> A-ený		
+bělit	bělený	V-it --> A-ený		
+
+domyslet	domyšlený	V-et --> A-ený	CHANGE: s -> š	LINK ALREADY PRESENT
+domyslit	domyšlený	V-it --> A-ený	CHANGE: s -> š	
+
+dosušit	dosušený	V-it --> A-ený		LINK ALREADY PRESENT
+
+dostřílet	dostřílený	V-et --> A-ený		LINK ALREADY PRESENT
+
+dovařit	dovařený	V-it --> A-ený		LINK ALREADY PRESENT
+
+hlučet	hlučený	V-et --> A-ený		LINK ALREADY PRESENT
+
+kalit	kalený	V-it --> A-ený		LINK ALREADY PRESENT
+
+koulet	koulený	V-et --> A-ený		LINK ALREADY PRESENT
+
+myslet	myšlený	V-et --> A-ený	CHANGE: s -> š	LINK ALREADY PRESENT
+myslit	myšlený	V-it --> A-ený	CHANGE: s -> š	
+
+namyslet	namyšlený	V-et --> A-ený	CHANGE: s -> š	LINK ALREADY PRESENT
+namyslit	namyšlený	V-it --> A-ený	CHANGE: s -> š	
+
+osušit	osušený	V-it --> A-ený		LINK ALREADY PRESENT
+
+pomyslet	pomyšlený	V-et --> A-ený	CHANGE: s -> š	LINK ALREADY PRESENT
+pomyslit	pomyšlený	V-it --> A-ený	CHANGE: s -> š	
+
+postřílet	postřílený	V-et --> A-ený		LINK ALREADY PRESENT
+
+poučit	poučený	V-it --> A-ený		LINK ALREADY PRESENT
+
+povalit	povalený	V-it --> A-ený		LINK ALREADY PRESENT
+
+poválet	poválený	V-et --> A-ený		LINK ALREADY PRESENT
+
+promyslet	promyšlený	V-et --> A-ený	CHANGE: s -> š	LINK ALREADY PRESENT
+promyslit	promyšlený	V-it --> A-ený	CHANGE: s -> š	
+
+prostřílet	prostřílený	V-et --> A-ený		LINK ALREADY PRESENT
+
+provalit	provalený	V-it --> A-ený		LINK ALREADY PRESENT
+
+předsušit	předsušený	V-it --> A-ený		LINK ALREADY PRESENT
+
+rozdělit	rozdělený	V-it --> A-ený		LINK ALREADY PRESENT
+
+rozmyslet	rozmyšlený	V-et --> A-ený	CHANGE: s -> š	LINK ALREADY PRESENT
+rozmyslit	rozmyšlený	V-it --> A-ený	CHANGE: s -> š	
+
+rozstřílet	rozstřílený	V-et --> A-ený		LINK ALREADY PRESENT
+
+rozvalit	rozvalený	V-it --> A-ený		LINK ALREADY PRESENT
+
+rozválet	rozválený	V-et --> A-ený		LINK ALREADY PRESENT
+
+sdílet	sdílený	V-et --> A-ený		
+
+sdělit	sdělený	V-it --> A-ený		LINK ALREADY PRESENT
+
+skučet	skučený	V-et --> A-ený		LINK ALREADY PRESENT
+
+smyslet	smyšlený	V-et --> A-ený	CHANGE: s -> š	LINK ALREADY PRESENT
+smyslit	smyšlený	V-it --> A-ený	CHANGE: s -> š	
+
+
+stáčet	stáčený	V-et --> A-ený		LINK ALREADY PRESENT
+
+střílet	střílený	V-et --> A-ený		LINK ALREADY PRESENT
+
+svalit	svalený	V-it --> A-ený		LINK ALREADY PRESENT
+
+svařit	svařený	V-it --> A-ený		LINK ALREADY PRESENT
+
+svářet	svářený	V-et --> A-ený		
+svářit	svářený	V-it --> A-ený		LINK ALREADY PRESENT
+
+světlet	světlený	V-et --> A-ený		LINK ALREADY PRESENT
+světlit	světlený	V-it --> A-ený		
+
+tvářet	tvářený	V-et --> A-ený		
+tvářit	tvářený	V-it --> A-ený		LINK ALREADY PRESENT
+
+udílet	udílený	V-et --> A-ený		LINK ALREADY PRESENT
+
+udělit	udělený	V-it --> A-ený		LINK ALREADY PRESENT
+
+umoudřet	umoudřený	V-et --> A-ený		
+umoudřit	umoudřený	V-it --> A-ený		LINK ALREADY PRESENT
+
+utajit	utajený	V-it --> A-ený		LINK ALREADY PRESENT
+
+utvářet	utvářený	V-et --> A-ený		
+
+uvalit	uvalený	V-it --> A-ený		LINK ALREADY PRESENT
+
+uválet	uválený	V-et --> A-ený		LINK ALREADY PRESENT
+
+uvláčet	uvláčený	V-et --> A-ený		
+uvláčit	uvláčený	V-it --> A-ený		LINK ALREADY PRESENT
+
+valit	valený	V-it --> A-ený		LINK ALREADY PRESENT
+
+válet	válený	V-et --> A-ený		
+
+vláčet	vláčený	V-et --> A-ený		
+vláčit	vláčený	V-it --> A-ený		LINK ALREADY PRESENT
+
+vymyslet	vymyšlený	V-et --> A-ený	CHANGE: s -> š	LINK ALREADY PRESENT
+vymyslit	vymyšlený	V-it --> A-ený	CHANGE: s -> š	
+
+vypoulet	vypoulený	V-et --> A-ený		
+vypoulit	vypoulený	V-it --> A-ený		LINK ALREADY PRESENT
+
+vypoulet	vypulený	V-et --> A-ený	CHANGE: ou -> u	
+vypoulit	vypulený	V-it --> A-ený	CHANGE: ou -> u	
+
+vysoušet	vysoušený	V-et --> A-ený		LINK ALREADY PRESENT
+
+vysušit	vysušený	V-it --> A-ený		LINK ALREADY PRESENT
+
+vystřílet	vystřílený	V-et --> A-ený		LINK ALREADY PRESENT
+
+vytlačit	vytlačený	V-it --> A-ený		LINK ALREADY PRESENT
+
+vytrčet	vytrčený	V-et --> A-ený		
+vytrčit	vytrčený	V-it --> A-ený		LINK ALREADY PRESENT
+
+vytvářet	vytvářený	V-et --> A-ený		
+
+vyvalit	vyvalený	V-it --> A-ený		LINK ALREADY PRESENT
+
+vyvařit	vyvařený	V-it --> A-ený		LINK ALREADY PRESENT
+
+vyvářet	vyvářený	V-et --> A-ený		LINK ALREADY PRESENT
+
+zamyslet	zamyšlený	V-et --> A-ený	CHANGE: s -> š	LINK ALREADY PRESENT
+zamyslit	zamyšlený	V-it --> A-ený	CHANGE: s -> š	
+
+zaokrouhlet	zaokrouhlený	V-et --> A-ený		
+zaokrouhlit	zaokrouhlený	V-it --> A-ený		LINK ALREADY PRESENT
+
+zastřílet	zastřílený	V-et --> A-ený		LINK ALREADY PRESENT
+
+zbystřet	zbystřený	V-et --> A-ený		
+zbystřit	zbystřený	V-it --> A-ený		LINK ALREADY PRESENT
+
+zbělet	zbělený	V-et --> A-ený		
+zbělit	zbělený	V-it --> A-ený		LINK ALREADY PRESENT
+
+zduřet	zduřený	V-et --> A-ený		
+zduřit	zduřený	V-it --> A-ený		LINK ALREADY PRESENT
+
+zesvětlet	zesvětlený	V-et --> A-ený		
+zesvětlit	zesvětlený	V-it --> A-ený		LINK ALREADY PRESENT
+
+zešílet	zešílený	V-et --> A-ený		
+zešílit	zešílený	V-it --> A-ený		LINK ALREADY PRESENT
+
+zeštíhlet	zeštíhlený	V-et --> A-ený		
+zeštíhlit	zeštíhlený	V-it --> A-ený		LINK ALREADY PRESENT
+
+zjednodušet	zjednodušený	V-et --> A-ený		
+zjednodušit	zjednodušený	V-it --> A-ený		
+
+zmrzačet	zmrzačený	V-et --> A-ený		
+zmrzačit	zmrzačený	V-it --> A-ený		LINK ALREADY PRESENT
+
+změkčet	změkčený	V-et --> A-ený		
+změkčit	změkčený	V-it --> A-ený		LINK ALREADY PRESENT
+
+zocelet	zocelený	V-et --> A-ený		
+zocelit	zocelený	V-it --> A-ený		LINK ALREADY PRESENT
+
+zostřet	zostřený	V-et --> A-ený		
+zostřit	zostřený	V-it --> A-ený		LINK ALREADY PRESENT
+
+zpomalet	zpomalený	V-et --> A-ený		
+zpomalit	zpomalený	V-it --> A-ený		LINK ALREADY PRESENT
+
+zveličet	zveličený	V-et --> A-ený		
+zveličit	zveličený	V-it --> A-ený		LINK ALREADY PRESENT
+
+zvučet	zvučený	V-et --> A-ený		
+zvučit	zvučený	V-it --> A-ený		LINK ALREADY PRESENT
+
+želet	želený	V-et --> A-ený		
+želit	želený	V-it --> A-ený		LINK ALREADY PRESENT
+
+
+
+analyzovat	analyzovatelný	V-t --> A-telný		LINK ALREADY PRESENT
+
+dotýkat	dotýkatelný	V-t --> A-telný		LINK ALREADY PRESENT
+
+dýchat	dýchatelný	V-t --> A-telný		LINK ALREADY PRESENT
+
+dělit	dělitelný	V-t --> A-telný		LINK ALREADY PRESENT
+
+jmenovat	jmenovatelný	V-t --> A-telný		LINK ALREADY PRESENT
+
+koukat	koukatelný	V-t --> A-telný		LINK ALREADY PRESENT
+
+kritizovat	kritizovatelný	V-t --> A-telný		LINK ALREADY PRESENT
+
+ladit	laditelný	V-t --> A-telný		LINK ALREADY PRESENT
+
+loupat	loupatelný	V-t --> A-telný		LINK ALREADY PRESENT
+
+mazat	mazatelný	V-t --> A-telný		LINK ALREADY PRESENT
+
+měnit	měnitelný	V-t --> A-telný		LINK ALREADY PRESENT
+
+měřit	měřitelný	V-t --> A-telný		LINK ALREADY PRESENT
+
+obhájit	obhajitelný	V-t --> A-telný	CHANGE: á -> a	LINK ALREADY PRESENT
+
+objevit	objevitelný	V-t --> A-telný		LINK ALREADY PRESENT
+
+odladit	odladitelný	V-t --> A-telný		LINK ALREADY PRESENT
+
+olizovat	olizovatelný	V-t --> A-telný		LINK ALREADY PRESENT
+
+omluvit	omluvitelný	V-t --> A-telný		LINK ALREADY PRESENT
+
+opakovat	opakovatelný	V-t --> A-telný		LINK ALREADY PRESENT
+
+opravit	opravitelný	V-t --> A-telný		LINK ALREADY PRESENT
+
+orat	oratelný	V-t --> A-telný		LINK ALREADY PRESENT
+
+otočit	otočitelný	V-t --> A-telný		LINK ALREADY PRESENT
+
+pamatovat	pamatovatelný	V-t --> A-telný		LINK ALREADY PRESENT
+
+plovat	plovatelný	V-t --> A-telný		LINK ALREADY PRESENT
+
+podmiňovat	podmiňovatelný	V-t --> A-telný		LINK ALREADY PRESENT
+
+postoupit	postupitelný	V-t --> A-telný	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+použít	použitelný	V-t --> A-telný	CHANGE: í -> i	LINK ALREADY PRESENT
+
+poznat	poznatelný	V-t --> A-telný		LINK ALREADY PRESENT
+
+poškrábat	poškrábatelný	V-t --> A-telný		LINK ALREADY PRESENT
+
+prohledat	prohledatelný	V-t --> A-telný		LINK ALREADY PRESENT
+
+párat	páratelný	V-t --> A-telný		LINK ALREADY PRESENT
+
+přeladit	přeladitelný	V-t --> A-telný		LINK ALREADY PRESENT
+
+přesvědčit	přesvědčitelný	V-t --> A-telný		LINK ALREADY PRESENT
+
+rubat	rubatelný	V-t --> A-telný		LINK ALREADY PRESENT
+
+rozmazat	rozmazatelný	V-t --> A-telný		LINK ALREADY PRESENT
+
+seřídit	seřiditelný	V-t --> A-telný	CHANGE: í -> i	LINK ALREADY PRESENT
+
+smazat	smazatelný	V-t --> A-telný		LINK ALREADY PRESENT
+
+snížit	snížitelný	V-t --> A-telný		
+
+stíhat	stíhatelný	V-t --> A-telný		LINK ALREADY PRESENT
+
+tlít	tlitelný	V-t --> A-telný	CHANGE: í -> i	LINK ALREADY PRESENT
+
+těžit	těžitelný	V-t --> A-telný		LINK ALREADY PRESENT
+
+udat	udatelný	V-t --> A-telný		LINK ALREADY PRESENT
+
+udělat	udělatelný	V-t --> A-telný		LINK ALREADY PRESENT
+
+uvěřit	uvěřitelný	V-t --> A-telný		LINK ALREADY PRESENT
+
+učit	učitelný	V-t --> A-telný		LINK ALREADY PRESENT
+
+užít	užitelný	V-t --> A-telný	CHANGE: í -> i	LINK ALREADY PRESENT
+
+vyhradit	vyhraditelný	V-t --> A-telný		LINK ALREADY PRESENT
+
+vyhrát	vyhratelný	V-t --> A-telný	CHANGE: á -> a	LINK ALREADY PRESENT
+
+vyladit	vyladitelný	V-t --> A-telný		LINK ALREADY PRESENT
+
+vyluhovat	vyluhovatelný	V-t --> A-telný		LINK ALREADY PRESENT
+
+vylíčit	vylíčitelný	V-t --> A-telný		
+
+vymazat	vymazatelný	V-t --> A-telný		LINK ALREADY PRESENT
+
+vyměnit	vyměnitelný	V-t --> A-telný		LINK ALREADY PRESENT
+
+vytěžit	vytěžitelný	V-t --> A-telný		LINK ALREADY PRESENT
+
+využít	využitelný	V-t --> A-telný	CHANGE: í -> i	LINK ALREADY PRESENT
+
+věřit	věřitelný	V-t --> A-telný		LINK ALREADY PRESENT
+
+zabudovat	zabudovatelný	V-t --> A-telný		LINK ALREADY PRESENT
+
+zamykat	zamykatelný	V-t --> A-telný		LINK ALREADY PRESENT
+
+zaměřit	zaměřitelný	V-t --> A-telný		
+
+zařadit	zařaditelný	V-t --> A-telný		LINK ALREADY PRESENT
+
+zbádat	zbadatelný	V-t --> A-telný	CHANGE: á -> a	LINK ALREADY PRESENT
+
+zdvihat	zdvihatelný	V-t --> A-telný		LINK ALREADY PRESENT
+
+zmínit	zmínitelný	V-t --> A-telný		
+
+změnit	změnitelný	V-t --> A-telný		LINK ALREADY PRESENT
+
+zvolit	zvolitelný	V-t --> A-telný		LINK ALREADY PRESENT
+
+zvětšit	zvětšitelný	V-t --> A-telný		LINK ALREADY PRESENT
+
+řadit	řaditelný	V-t --> A-telný		LINK ALREADY PRESENT
+
+řezat	řezatelný	V-t --> A-telný		LINK ALREADY PRESENT
+
+štípat	štípatelný	V-t --> A-telný		LINK ALREADY PRESENT
+
+žít	žitelný	V-t --> A-telný	CHANGE: í -> i	LINK ALREADY PRESENT
+
+
+
+Argentina	argentinský	N-a --> A-ský		
+
+Barma	barmský	N-a --> A-ský		
+
+
+Bukovina	bukovinský	N-a --> A-ský		
+
+Chiva	chivský	N-a --> A-ský		
+
+Córdoba	córdobský	N-a --> A-ský		
+
+Dakota	dakotský	N-a --> A-ský		
+
+dáma	dámský	N-a --> A-ský		
+
+
+
+Doubrava	doubravský	N-a --> A-ský		
+
+Havana	havanský	N-a --> A-ský		
+
+hora	horský	N-a --> A-ský		
+
+hrdina	hrdinský	N-a --> A-ský		
+
+Jáva	jávský	N-a --> A-ský		
+
+
+Kama	kamský	N-a --> A-ský		
+
+Kateřina	kateřinský	N-a --> A-ský		
+
+Keňa	keňský	N-a --> A-ský		
+
+lakota	lakotský	N-a --> A-ský		
+
+
+Lípa	lipský	N-a --> A-ský	CHANGE: í -> i	
+
+Manila	manilský	N-a --> A-ský		
+
+Medina	medinský	N-a --> A-ský		
+
+Medina	medínský	N-a --> A-ský	CHANGE: i -> í	
+
+
+Navara	navarský	N-a --> A-ský		
+
+
+Padova	padovský	N-a --> A-ský		
+
+
+Palestina	palestinský	N-a --> A-ský		
+
+Panama	panamský	N-a --> A-ský		
+
+Parma	parmský	N-a --> A-ský		
+
+
+Poruba	porubský	N-a --> A-ský		
+
+Praha	pražský	N-a --> A-ský	CHANGE: h -> ž	
+
+
+Samara	samarský	N-a --> A-ský		
+
+Siena	sienský	N-a --> A-ský		
+
+Skála	skalský	N-a --> A-ský	CHANGE: á -> a	
+
+Sparta	spartský	N-a --> A-ský		
+
+
+Tonga	tonžský	N-a --> A-ský	CHANGE: g -> ž	
+
+Ukrajina	ukrajinský	N-a --> A-ský		
+
+vojvoda	vojvodský	N-a --> A-ský		
+
+Volha	volžský	N-a --> A-ský	CHANGE: h -> ž	
+
+medicína	medicínský	N-a --> A-ský		
+
+Čína	čínský	N-a --> A-ský		
+
+Žilina	žilinský	N-a --> A-ský		
+
+
+
+dopadnout	dopadnuvší	V-out --> A-uvší		LINK ALREADY PRESENT
+
+dotknout	dotknuvší	V-t --> A-vší	CHANGE: ou -> u	
+
+klesnout	klesnuvší	V-t --> A-vší	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+mihnout	mihnuvší	V-t --> A-vší	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+minout	minuvší	V-t --> A-vší	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+mávnout	mávnuvší	V-t --> A-vší	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+naběhnout	naběhnuvší	V-t --> A-vší	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+naskytnout	naskytnuvší	V-t --> A-vší	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+ocitnout	ocitnuvší	V-t --> A-vší	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+octnout	octnuvší	V-t --> A-vší	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+odmítnout	odmítnuvší	V-t --> A-vší	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+odpadnout	odpadnuvší	V-t --> A-vší	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+oslepnout	oslepnuvší	V-t --> A-vší	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+padnout	padnuvší	V-t --> A-vší	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+plácnout	plácnuvší	V-t --> A-vší	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+pokleknout	pokleknuvší	V-t --> A-vší	CHANGE: ou -> u	LINK ALREADY PRESENT
+pominout	pominuvší	V-t --> A-vší	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+postihnout	postihnuvší	V-t --> A-vší	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+pozvednout	pozvednuvší	V-t --> A-vší	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+proběhnout	proběhnuvší	V-t --> A-vší	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+prolétnout	prolétnuvší	V-t --> A-vší	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+proniknout	proniknuvší	V-t --> A-vší	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+propadnout	propadnuvší	V-t --> A-vší	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+přelétnout	přelétnuvší	V-t --> A-vší	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+přilétnout	přilétnuvší	V-t --> A-vší	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+připlout	připluvší	V-t --> A-vší	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+přitáhnout	přitáhnuvší	V-t --> A-vší	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+přivléknout	přivléknuvší	V-t --> A-vší	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+rozlehnout	rozlehnuvší	V-t --> A-vší	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+rozplynout	rozplynuvší	V-t --> A-vší	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+scvrknout	scvrknuvší	V-t --> A-vší	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+spadnout	spadnuvší	V-t --> A-vší	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+spiknout	spiknuvší	V-t --> A-vší	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+splynout	splynuvší	V-t --> A-vší	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+spočinout	spočinuvší	V-t --> A-vší	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+svrhnout	svrhnuvší	V-t --> A-vší	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+uniknout	uniknuvší	V-t --> A-vší	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+upadnout	upadnuvší	V-t --> A-vší	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+uplynout	uplynuvší	V-t --> A-vší	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+uposlechnout	uposlechnuvší	V-t --> A-vší	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+uprchnout	uprchnuvší	V-t --> A-vší	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+uvíznout	uvíznuvší	V-t --> A-vší	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+vyběhnout	vyběhnuvší	V-t --> A-vší	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+vyhrnout	vyhrnuvší	V-t --> A-vší	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+vyhynout	vyhynuvší	V-t --> A-vší	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+vylíhnout	vylíhnuvší	V-t --> A-vší	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+vymknout	vymknuvší	V-t --> A-vší	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+vyplynout	vyplynuvší	V-t --> A-vší	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+vyskytnout	vyskytnuvší	V-t --> A-vší	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+vytrysknout	vytrysknuvší	V-t --> A-vší	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+vyvinout	vyvinuvší	V-t --> A-vší	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+vyšlehnout	vyšlehnuvší	V-t --> A-vší	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+vzedmout	vzedmuvší	V-t --> A-vší	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+vzepnout	vzepnuvší	V-t --> A-vší	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+vzniknout	vzniknuvší	V-t --> A-vší	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+vzplanout	vzplanuvší	V-t --> A-vší	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+zablesknout	zablesknuvší	V-t --> A-vší	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+zahynout	zahynuvší	V-t --> A-vší	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+zaniknout	zaniknuvší	V-t --> A-vší	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+zapadnout	zapadnuvší	V-t --> A-vší	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+zastihnout	zastihnuvší	V-t --> A-vší	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+zasáhnout	zasáhnuvší	V-t --> A-vší	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+zatknout	zatknuvší	V-t --> A-vší	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+zavanout	zavanuvší	V-t --> A-vší	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+zblednout	zblednuvší	V-t --> A-vší	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+zesnout	zesnuvší	V-t --> A-vší	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+zvednout	zvednuvší	V-t --> A-vší	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+
+brousit	broušený	V-sit --> A-šený		LINK ALREADY PRESENT
+
+donosit	donošený	V-sit --> A-šený		LINK ALREADY PRESENT
+
+děsit	děšený	V-sit --> A-šený		LINK ALREADY PRESENT
+
+hasit	hašený	V-sit --> A-šený		LINK ALREADY PRESENT
+
+hlásit	hlášený	V-sit --> A-šený		LINK ALREADY PRESENT
+
+kvasit	kvašený	V-sit --> A-šený		LINK ALREADY PRESENT
+
+křísit	kříšený	V-sit --> A-šený		LINK ALREADY PRESENT
+
+mísit	míšený	V-sit --> A-šený		LINK ALREADY PRESENT
+
+nabrousit	nabroušený	V-sit --> A-šený		LINK ALREADY PRESENT
+
+nakvasit	nakvašený	V-sit --> A-šený		LINK ALREADY PRESENT
+
+nanosit	nanošený	V-sit --> A-šený		LINK ALREADY PRESENT
+
+nosit	nošený	V-sit --> A-šený		LINK ALREADY PRESENT
+
+obnosit	obnošený	V-sit --> A-šený		LINK ALREADY PRESENT
+
+obrousit	obroušený	V-sit --> A-šený		LINK ALREADY PRESENT
+
+oběsit	oběšený	V-sit --> A-šený		LINK ALREADY PRESENT
+
+odhlásit	odhlášený	V-sit --> A-šený		LINK ALREADY PRESENT
+
+oprášit	oprášený	V-it --> A-ený		LINK ALREADY PRESENT
+
+podusit	podušený	V-sit --> A-šený		LINK ALREADY PRESENT
+
+poděsit	poděšený	V-sit --> A-šený		LINK ALREADY PRESENT
+
+porušit	porušený	V-it --> A-ený		LINK ALREADY PRESENT
+
+pověsit	pověšený	V-sit --> A-šený		LINK ALREADY PRESENT
+
+prášit	prášený	V-it --> A-ený		LINK ALREADY PRESENT
+
+probrousit	probroušený	V-sit --> A-šený		LINK ALREADY PRESENT
+
+prohlásit	prohlášený	V-sit --> A-šený		LINK ALREADY PRESENT
+
+promísit	promíšený	V-sit --> A-šený		LINK ALREADY PRESENT
+
+prověsit	prověšený	V-sit --> A-šený		LINK ALREADY PRESENT
+
+přebrousit	přebroušený	V-sit --> A-šený		LINK ALREADY PRESENT
+
+přenosit	přenošený	V-sit --> A-šený		LINK ALREADY PRESENT
+
+převěsit	převěšený	V-sit --> A-šený		LINK ALREADY PRESENT
+
+přibrousit	přibroušený	V-sit --> A-šený		LINK ALREADY PRESENT
+
+přidusit	přidušený	V-sit --> A-šený		LINK ALREADY PRESENT
+
+přihlásit	přihlášený	V-sit --> A-šený		LINK ALREADY PRESENT
+
+přimísit	přimíšený	V-sit --> A-šený		
+přimísit	přimíšený	V-sit --> A-šený		LINK ALREADY PRESENT
+
+přivěsit	přivěšený	V-sit --> A-šený		LINK ALREADY PRESENT
+
+rdousit	rdoušený	V-sit --> A-šený		LINK ALREADY PRESENT
+
+rušit	rušený	V-it --> A-ený		LINK ALREADY PRESENT
+
+rozhasit	rozhašený	V-sit --> A-šený		LINK ALREADY PRESENT
+
+rozhlásit	rozhlášený	V-sit --> A-šený		LINK ALREADY PRESENT
+
+roztrousit	roztroušený	V-sit --> A-šený		LINK ALREADY PRESENT
+
+smísit	smíšený	V-sit --> A-šený		LINK ALREADY PRESENT
+
+svěsit	svěšený	V-sit --> A-šený		LINK ALREADY PRESENT
+
+udusit	udušený	V-sit --> A-šený		LINK ALREADY PRESENT
+
+uděsit	uděšený	V-sit --> A-šený		LINK ALREADY PRESENT
+
+uhasit	uhašený	V-sit --> A-šený		LINK ALREADY PRESENT
+
+utrousit	utroušený	V-sit --> A-šený		LINK ALREADY PRESENT
+
+vmísit	vmíšený	V-sit --> A-šený		LINK ALREADY PRESENT
+
+vtrousit	vtroušený	V-sit --> A-šený		LINK ALREADY PRESENT
+
+vybrousit	vybroušený	V-sit --> A-šený		LINK ALREADY PRESENT
+
+vyděsit	vyděšený	V-sit --> A-šený		LINK ALREADY PRESENT
+
+vykvasit	vykvašený	V-sit --> A-šený		LINK ALREADY PRESENT
+
+vyprosit	vyprošený	V-sit --> A-šený		LINK ALREADY PRESENT
+
+vyrušit	vyrušený	V-it --> A-ený		LINK ALREADY PRESENT
+
+vyvěsit	vyvěšený	V-sit --> A-šený		LINK ALREADY PRESENT
+
+vzkřísit	vzkříšený	V-sit --> A-šený		LINK ALREADY PRESENT
+
+zabrousit	zabroušený	V-sit --> A-šený		LINK ALREADY PRESENT
+
+zadusit	zadušený	V-it --> A-ený	CHANGE: s -> š	LINK ALREADY PRESENT
+
+zaprášit	zaprášený	V-it --> A-ený		LINK ALREADY PRESENT
+
+zardousit	zardoušený	V-sit --> A-šený		LINK ALREADY PRESENT
+
+zbrousit	zbroušený	V-sit --> A-šený		LINK ALREADY PRESENT
+
+zdusit	zdušený	V-sit --> A-šený		LINK ALREADY PRESENT
+
+zděsit	zděšený	V-sit --> A-šený		LINK ALREADY PRESENT
+
+zkvasit	zkvašený	V-sit --> A-šený		LINK ALREADY PRESENT
+
+
+
+analytika	analytický	N-ka --> A-cký		
+
+aritmetika	aritmetický	N-ka --> A-cký		
+
+aviatika	aviatický	N-ka --> A-cký		
+
+avionika	avionický	N-ka --> A-cký		
+
+botanika	botanický	N-ka --> A-cký		
+
+diagnostika	diagnostický	N-ka --> A-cký		
+
+didaktika	didaktický	N-ka --> A-cký		
+
+dietetika	dietetický	N-ka --> A-cký		
+
+elektroakustika	elektroakustický	N-ka --> A-cký		
+
+elektronika	elektronický	N-ka --> A-cký		
+
+elektrotechnika	elektrotechnický	N-ka --> A-cký		
+
+energetika	energetický	N-ka --> A-cký		
+
+erotika	erotický	N-ka --> A-cký		
+
+estetika	estetický	N-ka --> A-cký		
+
+etika	etický	N-ka --> A-cký		
+
+farmaceutika	farmaceutický	N-ka --> A-cký		
+
+genetika	genetický	N-ka --> A-cký		
+
+geofyzika	geofyzický	N-ka --> A-cký		
+
+geopolitika	geopolitický	N-ka --> A-cký		
+
+grafika	grafický	N-ka --> A-cký		
+
+gramatika	gramatický	N-ka --> A-cký		
+
+heraldika	heraldický	N-ka --> A-cký		
+
+informatika	informatický	N-ka --> A-cký		
+
+keramika	keramický	N-ka --> A-cký		
+
+klinika	klinický	N-ka --> A-cký		
+
+kosmetika	kosmetický	N-ka --> A-cký		
+
+kritika	kritický	N-ka --> A-cký		
+
+kybernetika	kybernetický	N-ka --> A-cký		
+
+logika	logický	N-ka --> A-cký		
+
+logistika	logistický	N-ka --> A-cký		
+
+matematika	matematický	N-ka --> A-cký		
+
+mechanika	mechanický	N-ka --> A-cký		
+
+metafyzika	metafyzický	N-ka --> A-cký		
+
+mimika	mimický	N-ka --> A-cký		
+
+mystika	mystický	N-ka --> A-cký		
+
+optika	optický	N-ka --> A-cký		
+
+plastika	plastický	N-ka --> A-cký		
+
+polemika	polemický	N-ka --> A-cký		
+
+pragmatika	pragmatický	N-ka --> A-cký		
+
+praktika	praktický	N-ka --> A-cký		
+
+prognostika	prognostický	N-ka --> A-cký		
+
+protetika	protetický	N-ka --> A-cký		
+
+psychotechnika	psychotechnický	N-ka --> A-cký		
+
+psychotik	psychotický	N-k --> A-cký		
+
+psychotronika	psychotronický	N-ka --> A-cký		
+
+pyrotechnika	pyrotechnický	N-ka --> A-cký		
+
+radiotechnika	radiotechnický	N-ka --> A-cký		
+
+romantika	romantický	N-ka --> A-cký		
+
+rétorika	rétorický	N-ka --> A-cký		
+
+scholastika	scholastický	N-ka --> A-cký		
+
+syntetika	syntetický	N-ka --> A-cký		
+
+systematika	systematický	N-ka --> A-cký		
+
+taktika	taktický	N-ka --> A-cký		
+
+technika	technický	N-ka --> A-cký		
+
+zootechnika	zootechnický	N-ka --> A-cký		
+
+
+Agáta	Agátin	N-a --> A-in		LINK ALREADY PRESENT
+
+Andrea	Andrein	N-a --> A-in		LINK ALREADY PRESENT
+
+Anna	Annin	N-a --> A-in		LINK ALREADY PRESENT
+
+Athéna	Athénin	N-a --> A-in		LINK ALREADY PRESENT
+
+Berta	Bertin	N-a --> A-in		LINK ALREADY PRESENT
+
+Brenda	Brendin	N-a --> A-in		LINK ALREADY PRESENT
+
+Diana	Dianin	N-a --> A-in		LINK ALREADY PRESENT
+
+Elena	Elenin	N-a --> A-in		LINK ALREADY PRESENT
+
+Emma	Emmin	N-a --> A-in		LINK ALREADY PRESENT
+
+Eva	Evin	N-a --> A-in		LINK ALREADY PRESENT
+
+Fiona	Fionin	N-a --> A-in		LINK ALREADY PRESENT
+
+Frieda	Friedin	N-a --> A-in		LINK ALREADY PRESENT
+
+Gabriela	Gabrielin	N-a --> A-in		LINK ALREADY PRESENT
+
+Gáia	Gaiin	N-a --> A-in	CHANGE: á -> a	
+
+Giovanna	Giovannin	N-a --> A-in		LINK ALREADY PRESENT
+
+Irena	Irenin	N-a --> A-in		LINK ALREADY PRESENT
+
+Isabella	Isabellin	N-a --> A-in		LINK ALREADY PRESENT
+
+Jana	Janin	N-a --> A-in		LINK ALREADY PRESENT
+
+Joanna	Joannin	N-a --> A-in		LINK ALREADY PRESENT
+
+Karolina	Karolinin	N-a --> A-in		LINK ALREADY PRESENT
+
+Karolína	Karolínin	N-a --> A-in		LINK ALREADY PRESENT
+
+Kateřina	Kateřinin	N-a --> A-in		LINK ALREADY PRESENT
+
+Květa	Květin	N-a --> A-in		LINK ALREADY PRESENT
+
+Linda	Lindin	N-a --> A-in		LINK ALREADY PRESENT
+
+Líza	Lízin	N-a --> A-in		LINK ALREADY PRESENT
+
+Louisa	Louisin	N-a --> A-in		
+
+Luisa	Luisin	N-a --> A-in		LINK ALREADY PRESENT
+
+Magda	Magdin	N-a --> A-in		LINK ALREADY PRESENT
+
+Marcela	Marcelin	N-a --> A-in		LINK ALREADY PRESENT
+
+Maria	Mariin	N-a --> A-in		
+
+Martina	Martinin	N-a --> A-in		LINK ALREADY PRESENT
+
+Matta	Mattin	N-a --> A-in		LINK ALREADY PRESENT
+
+Máša	Mášin	N-a --> A-in		
+
+Muta	Mutin	N-a --> A-in		
+
+Nanda	Nandin	N-a --> A-in		LINK ALREADY PRESENT
+
+Nina	Ninin	N-a --> A-in		LINK ALREADY PRESENT
+
+Olga	Olžin	N-a --> A-in	CHANGE: g -> ž	LINK ALREADY PRESENT
+
+Paulina	Paulinin	N-a --> A-in		
+
+Penelopa	Penelopin	N-a --> A-in		LINK ALREADY PRESENT
+
+Renata	Renatin	N-a --> A-in		LINK ALREADY PRESENT
+
+Rita	Ritin	N-a --> A-in		LINK ALREADY PRESENT
+
+Roberta	Robertin	N-a --> A-in		LINK ALREADY PRESENT
+
+Romana	Romanin	N-a --> A-in		LINK ALREADY PRESENT
+
+Roxana	Roxanin	N-a --> A-in		LINK ALREADY PRESENT
+
+Sabrina	Sabrinin	N-a --> A-in		LINK ALREADY PRESENT
+
+Saša	Sašin	N-a --> A-in		
+
+Silva	Silvin	N-a --> A-in		LINK ALREADY PRESENT
+
+Tatiana	Tatianin	N-a --> A-in		LINK ALREADY PRESENT
+
+Uršula	Uršulin	N-a --> A-in		LINK ALREADY PRESENT
+
+baba	babin	N-a --> A-in		LINK ALREADY PRESENT
+
+bába	bábin	N-a --> A-in		LINK ALREADY PRESENT
+
+máma	mámin	N-a --> A-in		LINK ALREADY PRESENT
+
+víla	vílin	N-a --> A-in		LINK ALREADY PRESENT
+
+
+dorazit	dorazivší	V-t --> A-vší		LINK ALREADY PRESENT
+
+narazit	narazivší	V-t --> A-vší		LINK ALREADY PRESENT
+
+nastoupit	nastoupivší	V-t --> A-vší		LINK ALREADY PRESENT
+
+navrátit	navrátivší	V-t --> A-vší		LINK ALREADY PRESENT
+
+obdržet	obdrževší	V-t --> A-vší		LINK ALREADY PRESENT
+
+objevit	objevivší	V-t --> A-vší		LINK ALREADY PRESENT
+
+obstoupit	obstoupivší	V-t --> A-vší		LINK ALREADY PRESENT
+
+odsoudit	odsoudivší	V-t --> A-vší		LINK ALREADY PRESENT
+
+opustit	opustivší	V-t --> A-vší		LINK ALREADY PRESENT
+
+ozářit	ozářivší	V-t --> A-vší		LINK ALREADY PRESENT
+
+podstoupit	podstoupivší	V-t --> A-vší		LINK ALREADY PRESENT
+
+pokusit	pokusivší	V-t --> A-vší		LINK ALREADY PRESENT
+
+popohnat	popohnavší	V-t --> A-vší		LINK ALREADY PRESENT
+
+postavit	postavivší	V-t --> A-vší		LINK ALREADY PRESENT
+
+postoupit	postoupivší	V-t --> A-vší		LINK ALREADY PRESENT
+
+potřísnit	potřísnivší	V-t --> A-vší		LINK ALREADY PRESENT
+
+použít	použivší	V-t --> A-vší	CHANGE: í -> i	LINK ALREADY PRESENT
+
+povstat	povstavší	V-t --> A-vší		LINK ALREADY PRESENT
+
+proklubat	proklubavší	V-t --> A-vší		LINK ALREADY PRESENT
+
+promarnit	promarnivší	V-t --> A-vší		LINK ALREADY PRESENT
+
+předstoupit	předstoupivší	V-t --> A-vší		LINK ALREADY PRESENT
+
+přežít	přeživší	V-t --> A-vší	CHANGE: í -> i	LINK ALREADY PRESENT
+
+přiblížit	přiblíživší	V-t --> A-vší		LINK ALREADY PRESENT
+
+připlížit	připlíživší	V-t --> A-vší		LINK ALREADY PRESENT
+
+přistoupit	přistoupivší	V-t --> A-vší		LINK ALREADY PRESENT
+
+přistát	přistavší	V-t --> A-vší	CHANGE: á -> a	LINK ALREADY PRESENT
+
+rozestoupit	rozestoupivší	V-t --> A-vší		LINK ALREADY PRESENT
+
+rozvířit	rozvířivší	V-t --> A-vší		LINK ALREADY PRESENT
+
+rozšířit	rozšířivší	V-t --> A-vší		LINK ALREADY PRESENT
+
+sblížit	sblíživší	V-t --> A-vší		LINK ALREADY PRESENT
+
+sestoupit	sestoupivší	V-t --> A-vší		LINK ALREADY PRESENT
+
+shromáždit	shromáždivší	V-t --> A-vší		LINK ALREADY PRESENT
+
+skončit	skončivší	V-t --> A-vší		LINK ALREADY PRESENT
+
+sněžit	sníživší	V-t --> A-vší	CHANGE: ě -> í	
+
+soustředit	soustředivší	V-t --> A-vší		LINK ALREADY PRESENT
+
+ukončit	ukončivší	V-t --> A-vší		LINK ALREADY PRESENT
+
+uplatnit	uplatnivší	V-t --> A-vší		LINK ALREADY PRESENT
+
+ustoupit	ustoupivší	V-t --> A-vší		LINK ALREADY PRESENT
+
+usídlit	usídlivší	V-t --> A-vší		LINK ALREADY PRESENT
+
+vrátit	vrátivší	V-t --> A-vší		LINK ALREADY PRESENT
+
+vstoupit	vstoupivší	V-t --> A-vší		LINK ALREADY PRESENT
+
+vylodit	vylodivší	V-t --> A-vší		LINK ALREADY PRESENT
+
+vyrazit	vyrazivší	V-t --> A-vší		LINK ALREADY PRESENT
+
+vystoupit	vystoupivší	V-t --> A-vší		LINK ALREADY PRESENT
+
+vyústit	vyústivší	V-t --> A-vší		LINK ALREADY PRESENT
+
+zachvátit	zachvátivší	V-t --> A-vší		LINK ALREADY PRESENT
+
+zešílit	zešílivší	V-t --> A-vší		LINK ALREADY PRESENT
+
+zhmotnit	zhmotnivší	V-t --> A-vší		LINK ALREADY PRESENT
+
+zhroutit	zhroutivší	V-t --> A-vší		LINK ALREADY PRESENT
+
+změnit	změnivší	V-t --> A-vší		LINK ALREADY PRESENT
+
+zveřejnit	zveřejnivší	V-t --> A-vší		LINK ALREADY PRESENT
+
+zvítězit	zvítězivší	V-t --> A-vší		LINK ALREADY PRESENT
+
+zúčastnit	zúčastnivší	V-t --> A-vší		LINK ALREADY PRESENT
+
+zřítit	zřítivší	V-t --> A-vší		LINK ALREADY PRESENT
+
+
+
+dostihnout	dostižený	V-hnout --> A-žený		LINK ALREADY PRESENT
+
+dosáhnout	dosažený	V-hnout --> A-žený	CHANGE: á -> a	LINK ALREADY PRESENT
+
+dotáhnout	dotažený	V-hnout --> A-žený	CHANGE: á -> a	LINK ALREADY PRESENT
+
+nadzdvihnout	nadzdvižený	V-hnout --> A-žený		LINK ALREADY PRESENT
+
+nastříhnout	nastřižený	V-hnout --> A-žený	CHANGE: í -> i	
+
+natrhnout	natržený	V-hnout --> A-žený		LINK ALREADY PRESENT
+
+navrhnout	navržený	V-hnout --> A-žený		LINK ALREADY PRESENT
+
+oblehnout	obležený	V-hnout --> A-žený		LINK ALREADY PRESENT
+
+obsáhnout	obsažený	V-hnout --> A-žený	CHANGE: á -> a	LINK ALREADY PRESENT
+
+odstřihnout	odstřižený	V-hnout --> A-žený		LINK ALREADY PRESENT
+
+odtrhnout	odtržený	V-hnout --> A-žený		LINK ALREADY PRESENT
+
+odtáhnout	odtažený	V-hnout --> A-žený	CHANGE: á -> a	LINK ALREADY PRESENT
+
+odvrhnout	odvržený	V-hnout --> A-žený		LINK ALREADY PRESENT
+
+opovrhnout	opovržený	V-hnout --> A-žený		LINK ALREADY PRESENT
+
+podtrhnout	podtržený	V-hnout --> A-žený		LINK ALREADY PRESENT
+
+podvrhnout	podvržený	V-hnout --> A-žený		LINK ALREADY PRESENT
+
+potáhnout	potažený	V-hnout --> A-žený	CHANGE: á -> a	LINK ALREADY PRESENT
+
+pozdvihnout	pozdvižený	V-hnout --> A-žený		LINK ALREADY PRESENT
+
+protrhnout	protržený	V-hnout --> A-žený		LINK ALREADY PRESENT
+
+protáhnout	protažený	V-hnout --> A-žený	CHANGE: á -> a	LINK ALREADY PRESENT
+
+přestřihnout	přestřižený	V-hnout --> A-žený		LINK ALREADY PRESENT
+
+přetrhnout	přetržený	V-hnout --> A-žený		LINK ALREADY PRESENT
+
+přetáhnout	přetažený	V-hnout --> A-žený	CHANGE: á -> a	LINK ALREADY PRESENT
+
+převrhnout	převržený	V-hnout --> A-žený		LINK ALREADY PRESENT
+
+přistihnout	přistižený	V-hnout --> A-žený		LINK ALREADY PRESENT
+
+přistřihnout	přistřižený	V-hnout --> A-žený		LINK ALREADY PRESENT
+
+přitáhnout	přitažený	V-hnout --> A-žený	CHANGE: á -> a	LINK ALREADY PRESENT
+
+rozpřáhnout	rozpřažený	V-hnout --> A-žený	CHANGE: á -> a	LINK ALREADY PRESENT
+
+rozstřihnout	rozstřižený	V-hnout --> A-žený		LINK ALREADY PRESENT
+
+roztrhnout	roztržený	V-hnout --> A-žený		LINK ALREADY PRESENT
+
+roztáhnout	roztažený	V-hnout --> A-žený	CHANGE: á -> a	LINK ALREADY PRESENT
+
+rozvrhnout	rozvržený	V-hnout --> A-žený		LINK ALREADY PRESENT
+
+stihnout	stižený	V-hnout --> A-žený		LINK ALREADY PRESENT
+
+stáhnout	stažený	V-hnout --> A-žený	CHANGE: á -> a	LINK ALREADY PRESENT
+
+střihnout	střižený	V-hnout --> A-žený		LINK ALREADY PRESENT
+
+svrhnout	svržený	V-hnout --> A-žený		LINK ALREADY PRESENT
+
+táhnout	tažený	V-hnout --> A-žený	CHANGE: á -> a	LINK ALREADY PRESENT
+
+ustříhnout	ustřižený	V-hnout --> A-žený	CHANGE: í -> i	
+
+utáhnout	utažený	V-hnout --> A-žený	CHANGE: á -> a	LINK ALREADY PRESENT
+
+uvrhnout	uvržený	V-hnout --> A-žený		LINK ALREADY PRESENT
+
+vrhnout	vržený	V-hnout --> A-žený		LINK ALREADY PRESENT
+
+vtáhnout	vtažený	V-hnout --> A-žený	CHANGE: á -> a	LINK ALREADY PRESENT
+
+vystihnout	vystižený	V-hnout --> A-žený		LINK ALREADY PRESENT
+
+vystřihnout	vystřižený	V-hnout --> A-žený		LINK ALREADY PRESENT
+
+vytáhnout	vytažený	V-hnout --> A-žený	CHANGE: á -> a	LINK ALREADY PRESENT
+
+vyvrhnout	vyvržený	V-hnout --> A-žený		LINK ALREADY PRESENT
+
+vztáhnout	vztažený	V-hnout --> A-žený	CHANGE: á -> a	LINK ALREADY PRESENT
+
+zastihnout	zastižený	V-hnout --> A-žený		LINK ALREADY PRESENT
+
+zastřihnout	zastřižený	V-hnout --> A-žený		LINK ALREADY PRESENT
+
+zatrhnout	zatržený	V-hnout --> A-žený		LINK ALREADY PRESENT
+
+zavrhnout	zavržený	V-hnout --> A-žený		LINK ALREADY PRESENT
+
+zdvihnout	zdvižený	V-hnout --> A-žený		LINK ALREADY PRESENT
+
+dotřít	dotřený	V-řít --> A-řený		LINK ALREADY PRESENT
+
+dovřít	dovřený	V-řít --> A-řený		LINK ALREADY PRESENT
+
+dřít	dřený	V-řít --> A-řený		LINK ALREADY PRESENT
+
+nadřít	nadřený	V-řít --> A-řený		LINK ALREADY PRESENT
+
+napřít	napřený	V-řít --> A-řený		LINK ALREADY PRESENT
+
+natřít	natřený	V-řít --> A-řený		LINK ALREADY PRESENT
+
+obestřít	obestřený	V-řít --> A-řený		LINK ALREADY PRESENT
+
+odepřít	odepřený	V-řít --> A-řený		LINK ALREADY PRESENT
+
+odřít	odřený	V-řít --> A-řený		LINK ALREADY PRESENT
+
+opřít	opřený	V-řít --> A-řený		LINK ALREADY PRESENT
+
+otevřít	otevřený	V-řít --> A-řený		LINK ALREADY PRESENT
+
+otřít	otřený	V-řít --> A-řený		LINK ALREADY PRESENT
+
+podepřít	podepřený	V-řít --> A-řený		LINK ALREADY PRESENT
+
+pootevřít	pootevřený	V-řít --> A-řený		LINK ALREADY PRESENT
+
+popřít	popřený	V-řít --> A-řený		LINK ALREADY PRESENT
+
+potřít	potřený	V-řít --> A-řený		LINK ALREADY PRESENT
+
+pozřít	pozřený	V-řít --> A-řený		LINK ALREADY PRESENT
+
+prodřít	prodřený	V-řít --> A-řený		LINK ALREADY PRESENT
+
+prostřít	prostřený	V-řít --> A-řený		LINK ALREADY PRESENT
+
+protřít	protřený	V-řít --> A-řený		LINK ALREADY PRESENT
+
+předestřít	předestřený	V-řít --> A-řený		LINK ALREADY PRESENT
+
+předřít	předřený	V-řít --> A-řený		LINK ALREADY PRESENT
+
+přetřít	přetřený	V-řít --> A-řený		LINK ALREADY PRESENT
+
+přivřít	přivřený	V-řít --> A-řený		LINK ALREADY PRESENT
+
+přít	přený	V-řít --> A-řený		LINK ALREADY PRESENT
+
+rozedřít	rozedřený	V-řít --> A-řený		LINK ALREADY PRESENT
+
+rozestřít	rozestřený	V-řít --> A-řený		LINK ALREADY PRESENT
+
+rozetřít	rozetřený	V-řít --> A-řený		LINK ALREADY PRESENT
+
+rozevřít	rozevřený	V-řít --> A-řený		LINK ALREADY PRESENT
+
+rozprostřít	rozprostřený	V-řít --> A-řený		LINK ALREADY PRESENT
+
+sedřít	sedřený	V-řít --> A-řený		LINK ALREADY PRESENT
+
+setřít	setřený	V-řít --> A-řený		LINK ALREADY PRESENT
+
+sevřít	sevřený	V-řít --> A-řený		LINK ALREADY PRESENT
+
+třít	třený	V-řít --> A-řený		LINK ALREADY PRESENT
+
+udřít	udřený	V-řít --> A-řený		LINK ALREADY PRESENT
+
+upřít	upřený	V-řít --> A-řený		LINK ALREADY PRESENT
+
+utřít	utřený	V-řít --> A-řený		LINK ALREADY PRESENT
+
+uzavřít	uzavřený	V-řít --> A-řený		LINK ALREADY PRESENT
+
+vetřít	vetřený	V-řít --> A-řený		LINK ALREADY PRESENT
+
+vydřít	vydřený	V-řít --> A-řený		LINK ALREADY PRESENT
+
+vystřít	vystřený	V-řít --> A-řený		LINK ALREADY PRESENT
+
+vytřít	vytřený	V-řít --> A-řený		LINK ALREADY PRESENT
+
+vzepřít	vzepřený	V-řít --> A-řený		LINK ALREADY PRESENT
+
+vzezřít	vzezřený	V-řít --> A-řený		LINK ALREADY PRESENT
+
+vřít	vřený	V-řít --> A-řený		LINK ALREADY PRESENT
+
+zadřít	zadřený	V-řít --> A-řený		LINK ALREADY PRESENT
+
+zapřít	zapřený	V-řít --> A-řený		LINK ALREADY PRESENT
+
+zastřít	zastřený	V-řít --> A-řený		LINK ALREADY PRESENT
+
+zatřít	zatřený	V-řít --> A-řený		LINK ALREADY PRESENT
+
+zavřít	zavřený	V-řít --> A-řený		LINK ALREADY PRESENT
+
+znovuotevřít	znovuotevřený	V-řít --> A-řený		LINK ALREADY PRESENT
+
+zřít	zřený	V-řít --> A-řený		LINK ALREADY PRESENT
+
+
+analyzovat	analyzující	V-ovat --> A-ující		LINK ALREADY PRESENT
+
+budovat	budující	V-ovat --> A-ující		LINK ALREADY PRESENT
+
+cestovat	cestující	V-ovat --> A-ující		LINK ALREADY PRESENT
+
+charakterizovat	charakterizující	V-ovat --> A-ující		LINK ALREADY PRESENT
+
+civilizovat	civilizující	V-ovat --> A-ující		LINK ALREADY PRESENT
+
+dezertovat	dezertující	V-ovat --> A-ující		LINK ALREADY PRESENT
+
+dožadovat	dožadující	V-ovat --> A-ující		LINK ALREADY PRESENT
+
+jmenovat	jmenující	V-ovat --> A-ující		LINK ALREADY PRESENT
+
+kritizovat	kritizující	V-ovat --> A-ující		LINK ALREADY PRESENT
+
+mašírovat	mašírující	V-ovat --> A-ující		LINK ALREADY PRESENT
+
+metastázovat	metastázující	V-ovat --> A-ující		LINK ALREADY PRESENT
+
+odlišovat	odlišující	V-ovat --> A-ující		LINK ALREADY PRESENT
+
+odvažovat	odvažující	V-ovat --> A-ující		LINK ALREADY PRESENT
+
+olizovat	olizující	V-ovat --> A-ující		LINK ALREADY PRESENT
+
+opakovat	opakující	V-ovat --> A-ující		LINK ALREADY PRESENT
+
+opatřovat	opatřující	V-ovat --> A-ující		LINK ALREADY PRESENT
+
+otravovat	otravující	V-ovat --> A-ující		LINK ALREADY PRESENT
+
+očišťovat	očišťující	V-ovat --> A-ující		LINK ALREADY PRESENT
+
+pamatovat	pamatující	V-ovat --> A-ující		LINK ALREADY PRESENT
+
+pašovat	pašující	V-ovat --> A-ující		LINK ALREADY PRESENT
+
+podmiňovat	podmiňující	V-ovat --> A-ující		LINK ALREADY PRESENT
+
+pokuřovat	pokuřující	V-ovat --> A-ující		LINK ALREADY PRESENT
+
+poučovat	poučující	V-ovat --> A-ující		LINK ALREADY PRESENT
+
+prohlašovat	prohlašující	V-ovat --> A-ující		LINK ALREADY PRESENT
+
+přemisťovat	přemisťující	V-ovat --> A-ující		LINK ALREADY PRESENT
+
+přemísťovat	přemísťující	V-ovat --> A-ující		LINK ALREADY PRESENT
+
+převažovat	převažující	V-ovat --> A-ující		LINK ALREADY PRESENT
+
+převyšovat	převyšující	V-ovat --> A-ující		LINK ALREADY PRESENT
+
+rozmisťovat	rozmisťující	V-ovat --> A-ující		LINK ALREADY PRESENT
+
+směřovat	směřující	V-ovat --> A-ující		LINK ALREADY PRESENT
+
+spekulovat	spekulující	V-ovat --> A-ující		LINK ALREADY PRESENT
+
+studovat	studující	V-ovat --> A-ující		LINK ALREADY PRESENT
+
+stěhovat	stěhující	V-ovat --> A-ující		LINK ALREADY PRESENT
+
+stěžovat	stěžující	V-ovat --> A-ující		LINK ALREADY PRESENT
+
+svažovat	svažující	V-ovat --> A-ující		LINK ALREADY PRESENT
+
+symbolizovat	symbolizující	V-ovat --> A-ující		LINK ALREADY PRESENT
+
+umisťovat	umisťující	V-ovat --> A-ující		LINK ALREADY PRESENT
+
+umísťovat	umísťující	V-ovat --> A-ující		LINK ALREADY PRESENT
+
+uvažovat	uvažující	V-ovat --> A-ující		LINK ALREADY PRESENT
+
+vyhlašovat	vyhlašující	V-ovat --> A-ující		LINK ALREADY PRESENT
+
+vystupovat	vystupující	V-ovat --> A-ující		LINK ALREADY PRESENT
+
+vyvažovat	vyvažující	V-ovat --> A-ující		LINK ALREADY PRESENT
+
+zadržovat	zadržující	V-ovat --> A-ující		LINK ALREADY PRESENT
+
+zapouzdřovat	zapouzdřující	V-ovat --> A-ující		LINK ALREADY PRESENT
+
+zapříčiňovat	zapříčiňující	V-ovat --> A-ující		LINK ALREADY PRESENT
+
+zatupovat	zatupující	V-ovat --> A-ující		LINK ALREADY PRESENT
+
+zaviňovat	zaviňující	V-ovat --> A-ující		LINK ALREADY PRESENT
+
+zaštiťovat	zaštiťující	V-ovat --> A-ující		LINK ALREADY PRESENT
+
+znečišťovat	znečišťující	V-ovat --> A-ující		LINK ALREADY PRESENT
+
+zpřísňovat	zpřísňující	V-ovat --> A-ující		LINK ALREADY PRESENT
+
+zvláčňovat	zvláčňující	V-ovat --> A-ující		LINK ALREADY PRESENT
+
+
+
+dohodnout	dohodnutelný	V-t --> A-telný	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+dopadnout	dopadnutelný	V-t --> A-telný	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+dotknout	dotknutelný	V-t --> A-telný	CHANGE: ou -> u	
+
+kliknout	kliknutelný	V-t --> A-telný	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+napadnout	napadnutelný	V-t --> A-telný	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+oblafnout	oblafnutelný	V-t --> A-telný	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+odhadnout	odhadnutelný	V-t --> A-telný	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+odmítnout	odmítnutelný	V-t --> A-telný	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+ohnout	ohnutelný	V-t --> A-telný	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+opomenout	opomenutelný	V-t --> A-telný	CHANGE: ou -> u	
+
+otisknout	otisknutelný	V-t --> A-telný	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+ovládnout	ovládnutelný	V-t --> A-telný	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+pohnout	pohnutelný	V-t --> A-telný	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+pominout	pominutelný	V-t --> A-telný	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+poskytnout	poskytnutelný	V-t --> A-telný	CHANGE: ou -> u	
+
+postihnout	postihnutelný	V-t --> A-telný	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+postřehnout	postřehnutelný	V-t --> A-telný	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+povšimnout	povšimnutelný	V-t --> A-telný	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+prominout	prominutelný	V-t --> A-telný	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+proniknout	proniknutelný	V-t --> A-telný	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+propadnout	propadnutelný	V-t --> A-telný	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+proříznout	proříznutelný	V-t --> A-telný	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+přehlédnout	přehlédnutelný	V-t --> A-telný	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+překlenout	překlenutelný	V-t --> A-telný	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+přeslechnout	přeslechnutelný	V-t --> A-telný	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+přetrhnout	přetrhnutelný	V-t --> A-telný	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+přiřknout	přiřknutelný	V-t --> A-telný	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+rozhodnout	rozhodnutelný	V-t --> A-telný	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+rozvinout	rozvinutelný	V-t --> A-telný	CHANGE: ou -> u	
+
+shrnout	shrnutelný	V-t --> A-telný	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+spolknout	spolknutelný	V-t --> A-telný	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+stisknout	stisknutelný	V-t --> A-telný	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+svléknout	svléknutelný	V-t --> A-telný	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+tisknout	tisknutelný	V-t --> A-telný	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+uniknout	uniknutelný	V-t --> A-telný	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+uzamknout	uzamknutelný	V-t --> A-telný	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+vdechnout	vdechnutelný	V-t --> A-telný	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+vyjmout	vyjmutelný	V-t --> A-telný	CHANGE: ou -> u	
+
+vystihnout	vystihnutelný	V-t --> A-telný	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+vytisknout	vytisknutelný	V-t --> A-telný	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+zamknout	zamknutelný	V-t --> A-telný	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+zamítnout	zamítnutelný	V-t --> A-telný	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+zapomenout	zapomenutelný	V-t --> A-telný	CHANGE: ou -> u	
+
+zaslechnout	zaslechnutelný	V-t --> A-telný	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+zvládnout	zvládnutelný	V-t --> A-telný	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+navrátit	navrácený	V-tit --> A-cený		LINK ALREADY PRESENT
+
+obracet	obracený	V-et --> A-ený		
+
+obrátit	obrácený	V-tit --> A-cený		LINK ALREADY PRESENT
+
+odplácet	odplácený	V-et --> A-ený		LINK ALREADY PRESENT
+
+odvrátit	odvrácený	V-tit --> A-cený		LINK ALREADY PRESENT
+
+oplácet	oplácený	V-et --> A-ený		LINK ALREADY PRESENT
+
+podplatit	podplacený	V-tit --> A-cený		LINK ALREADY PRESENT
+
+proplatit	proplacený	V-tit --> A-cený		LINK ALREADY PRESENT
+
+proplácet	proplácený	V-et --> A-ený		LINK ALREADY PRESENT
+
+předplatit	předplacený	V-tit --> A-cený		LINK ALREADY PRESENT
+
+předplácet	předplácený	V-et --> A-ený		LINK ALREADY PRESENT
+
+přeplatit	přeplacený	V-tit --> A-cený		LINK ALREADY PRESENT
+
+přeplácet	přeplácený	V-et --> A-ený		LINK ALREADY PRESENT
+
+převracet	převracený	V-et --> A-ený		LINK ALREADY PRESENT
+
+převrátit	převrácený	V-tit --> A-cený		LINK ALREADY PRESENT
+
+přivrátit	přivrácený	V-tit --> A-cený		LINK ALREADY PRESENT
+
+rozsvítit	rozsvícený	V-tit --> A-cený		LINK ALREADY PRESENT
+
+rozsvěcet	rozsvěcený	V-et --> A-ený		LINK ALREADY PRESENT
+
+rozvracet	rozvracený	V-et --> A-ený		LINK ALREADY PRESENT
+
+rozvrátit	rozvrácený	V-tit --> A-cený		LINK ALREADY PRESENT
+
+splatit	splacený	V-tit --> A-cený		LINK ALREADY PRESENT
+
+splácet	splácený	V-et --> A-ený		LINK ALREADY PRESENT
+
+uplatit	uplacený	V-tit --> A-cený		LINK ALREADY PRESENT
+
+uplácet	uplácený	V-et --> A-ený		LINK ALREADY PRESENT
+
+utratit	utracený	V-tit --> A-cený		LINK ALREADY PRESENT
+
+utrácet	utrácený	V-et --> A-ený		LINK ALREADY PRESENT
+
+vobrátit	vobrácený	V-tit --> A-cený		
+
+vracet	vracený	V-et --> A-ený		LINK ALREADY PRESENT
+
+vrátit	vrácený	V-tit --> A-cený		LINK ALREADY PRESENT
+
+vyplatit	vyplacený	V-tit --> A-cený		LINK ALREADY PRESENT
+
+vyplácet	vyplácený	V-et --> A-ený		LINK ALREADY PRESENT
+
+vytratit	vytracený	V-tit --> A-cený		LINK ALREADY PRESENT
+
+vyvrátit	vyvrácený	V-tit --> A-cený		LINK ALREADY PRESENT
+
+vyzvracet	vyzvracený	V-et --> A-ený		LINK ALREADY PRESENT
+
+zachvátit	zachvácený	V-tit --> A-cený		LINK ALREADY PRESENT
+
+zkrátit	zkrácený	V-tit --> A-cený		LINK ALREADY PRESENT
+
+zobracet	zobracený	V-et --> A-ený		LINK ALREADY PRESENT
+
+zpřevracet	zpřevracený	V-et --> A-ený		LINK ALREADY PRESENT
+
+ztratit	ztracený	V-tit --> A-cený		LINK ALREADY PRESENT
+
+ztrácet	ztrácený	V-et --> A-ený		LINK ALREADY PRESENT
+
+zvracet	zvracený	V-et --> A-ený		LINK ALREADY PRESENT
+
+zvrátit	zvrácený	V-tit --> A-cený		
+
+
+
+brnět	brnící	V-ět --> A-ící		LINK ALREADY PRESENT
+
+bytnět	bytnící	V-ět --> A-ící		LINK ALREADY PRESENT
+
+chroptět	chroptící	V-ět --> A-ící		LINK ALREADY PRESENT
+
+civět	civící	V-ět --> A-ící		LINK ALREADY PRESENT
+
+dunět	dunící	V-ět --> A-ící		LINK ALREADY PRESENT
+
+dřepět	dřepící	V-ět --> A-ící		LINK ALREADY PRESENT
+
+funět	funící	V-ět --> A-ící		LINK ALREADY PRESENT
+
+hledět	hledící	V-ět --> A-ící		
+
+hovět	hovící	V-ět --> A-ící		LINK ALREADY PRESENT
+
+hřmět	hřmící	V-ět --> A-ící		LINK ALREADY PRESENT
+
+kamenět	kamenící	V-ět --> A-ící		LINK ALREADY PRESENT
+
+klanět	klanící	V-ět --> A-ící		LINK ALREADY PRESENT
+
+kypět	kypící	V-ět --> A-ící		LINK ALREADY PRESENT
+
+letět	letící	V-ět --> A-ící		LINK ALREADY PRESENT
+
+lpět	lpící	V-ět --> A-ící		LINK ALREADY PRESENT
+
+mohutnět	mohutnící	V-ět --> A-ící		LINK ALREADY PRESENT
+
+nenávidět	nenávidící	V-ět --> A-ící		
+
+pištět	pištící	V-ět --> A-ící		LINK ALREADY PRESENT
+
+plešatět	plešatící	V-ět --> A-ící		LINK ALREADY PRESENT
+
+polosedět	polosedící	V-ět --> A-ící		LINK ALREADY PRESENT
+
+prdět	prdící	V-ět --> A-ící		LINK ALREADY PRESENT
+
+sedět	sedící	V-ět --> A-ící		LINK ALREADY PRESENT
+
+skvít	skvící	V-t --> A-cí		
+skvět	skvící	V-ět --> A-ící		
+
+smrdět	smrdící	V-ět --> A-ící		LINK ALREADY PRESENT
+
+strmět	strmící	V-ět --> A-ící		LINK ALREADY PRESENT
+
+stydět	stydící	V-ět --> A-ící		LINK ALREADY PRESENT
+
+supět	supící	V-ět --> A-ící		LINK ALREADY PRESENT
+
+svištět	svištící	V-ět --> A-ící		LINK ALREADY PRESENT
+
+tmít	tmící	V-t --> A-cí		
+tmět	tmící	V-ět --> A-ící		LINK ALREADY PRESENT
+
+trpět	trpící	V-ět --> A-ící		LINK ALREADY PRESENT
+
+uhelnatět	uhelnatící	V-ět --> A-ící		LINK ALREADY PRESENT
+
+vidět	vidící	V-ět --> A-ící		LINK ALREADY PRESENT
+
+vonět	vonící	V-ět --> A-ící		LINK ALREADY PRESENT
+
+vrnět	vrnící	V-ět --> A-ící		LINK ALREADY PRESENT
+
+vrtět	vrtící	V-ět --> A-ící		LINK ALREADY PRESENT
+
+vřeštět	vřeštící	V-ět --> A-ící		LINK ALREADY PRESENT
+
+úpět	úpící	V-ět --> A-ící		
+
+čnět	čnící	V-ět --> A-ící		LINK ALREADY PRESENT
+
+čpět	čpící	V-ět --> A-ící		LINK ALREADY PRESENT
+
+čumět	čumící	V-ět --> A-ící		LINK ALREADY PRESENT
+
+šumět	šumící	V-ět --> A-ící		LINK ALREADY PRESENT
+
+
+kroutit	kroucený	V-tit --> A-cený		LINK ALREADY PRESENT
+
+krátit	krácený	V-tit --> A-cený		LINK ALREADY PRESENT
+
+mlátit	mlácený	V-tit --> A-cený		LINK ALREADY PRESENT
+
+nakroutit	nakroucený	V-tit --> A-cený		LINK ALREADY PRESENT
+
+nasvítit	nasvícený	V-tit --> A-cený		LINK ALREADY PRESENT
+
+odkroutit	odkroucený	V-tit --> A-cený		LINK ALREADY PRESENT
+
+omlátit	omlácený	V-tit --> A-cený		LINK ALREADY PRESENT
+
+osamotit	osamocený	V-tit --> A-cený		LINK ALREADY PRESENT
+
+osvítit	osvícený	V-tit --> A-cený		LINK ALREADY PRESENT
+
+platit	placený	V-tit --> A-cený		LINK ALREADY PRESENT
+
+podnítit	podnícený	V-tit --> A-cený		LINK ALREADY PRESENT
+
+pokroutit	pokroucený	V-tit --> A-cený		LINK ALREADY PRESENT
+
+posvětit	posvěcený	V-tit --> A-cený		LINK ALREADY PRESENT
+
+prosvítit	prosvícený	V-tit --> A-cený		LINK ALREADY PRESENT
+
+překotit	překocený	V-tit --> A-cený		LINK ALREADY PRESENT
+
+překroutit	překroucený	V-tit --> A-cený		LINK ALREADY PRESENT
+
+přesvítit	přesvícený	V-tit --> A-cený		LINK ALREADY PRESENT
+
+rozlítit	rozlícený	V-tit --> A-cený		LINK ALREADY PRESENT
+
+rozmlátit	rozmlácený	V-tit --> A-cený		LINK ALREADY PRESENT
+
+schvátit	schvácený	V-tit --> A-cený		LINK ALREADY PRESENT
+
+světit	svěcený	V-tit --> A-cený		LINK ALREADY PRESENT
+
+uchvátit	uchvácený	V-tit --> A-cený		LINK ALREADY PRESENT
+
+ukroutit	ukroucený	V-tit --> A-cený		LINK ALREADY PRESENT
+
+ukrátit	ukrácený	V-tit --> A-cený		LINK ALREADY PRESENT
+
+umlátit	umlácený	V-tit --> A-cený		LINK ALREADY PRESENT
+
+vykroutit	vykroucený	V-tit --> A-cený		LINK ALREADY PRESENT
+
+vymlátit	vymlácený	V-tit --> A-cený		LINK ALREADY PRESENT
+
+vymýtit	vymýcený	V-tit --> A-cený		LINK ALREADY PRESENT
+
+vznítit	vznícený	V-tit --> A-cený		LINK ALREADY PRESENT
+
+zakroutit	zakroucený	V-tit --> A-cený		LINK ALREADY PRESENT
+
+zarmoutit	zarmoucený	V-tit --> A-cený		LINK ALREADY PRESENT
+
+zasvětit	zasvěcený	V-tit --> A-cený		LINK ALREADY PRESENT
+
+zbortit	zborcený	V-tit --> A-cený		LINK ALREADY PRESENT
+
+zchvátit	zchvácený	V-tit --> A-cený		LINK ALREADY PRESENT
+
+zhroutit	zhroucený	V-tit --> A-cený		LINK ALREADY PRESENT
+
+zkroutit	zkroucený	V-tit --> A-cený		LINK ALREADY PRESENT
+
+zmlátit	zmlácený	V-tit --> A-cený		LINK ALREADY PRESENT
+
+zřítit	zřícený	V-tit --> A-cený		LINK ALREADY PRESENT
+
+
+
+bečka	bečkový	N-a --> A-ový		LINK ALREADY PRESENT
+
+béčko	béčkový	N-o --> A-ový		
+
+bláha	bláhový	N-a --> A-ový		LINK ALREADY PRESENT
+
+cello	cellový	N-o --> A-ový		
+
+deko	dekový	N-o --> A-ový		
+
+domino	dominový	N-o --> A-ový		
+
+dřevo	dřevový	N-o --> A-ový		
+
+euro	eurový	N-o --> A-ový		
+
+jáma	jámový	N-a --> A-ový		LINK ALREADY PRESENT
+
+
+kola	kolový	N-a --> A-ový		LINK ALREADY PRESENT
+kolo	kolový	N-o --> A-ový		
+
+
+kára	kárový	N-a --> A-ový		
+káro	kárový	N-o --> A-ový		
+
+křídlo	křídlový	N-o --> A-ový		
+
+ložisko	ložiskový	N-o --> A-ový		
+
+masa	masový	N-a --> A-ový		
+maso	masový	N-o --> A-ový		
+
+mula	mulový	N-a --> A-ový		
+
+páka	pákový	N-a --> A-ový		LINK ALREADY PRESENT
+
+paleta	paletový	N-a --> A-ový		LINK ALREADY PRESENT
+paleto	paletový	N-o --> A-ový		
+
+puma	pumový	N-a --> A-ový		LINK ALREADY PRESENT
+
+porta	portový	N-a --> A-ový		
+
+pravidlo	pravidlový	N-o --> A-ový		
+
+písmenko	písmenkový	N-o --> A-ový		
+
+pětka	pětkový	N-a --> A-ový		LINK ALREADY PRESENT
+
+runa	runový	N-a --> A-ový		
+
+silo	silový	N-o --> A-ový		
+síla	silový	N-a --> A-ový	CHANGE: í -> i	
+
+sága	ságový	N-a --> A-ový		LINK ALREADY PRESENT
+
+tečka	tečkový	N-a --> A-ový		LINK ALREADY PRESENT
+
+tuha	tuhový	N-a --> A-ový		LINK ALREADY PRESENT
+
+tělo	tělový	N-o --> A-ový		
+
+véčko	véčkový	N-o --> A-ový		
+
+víčko	víčkový	N-o --> A-ový		
+
+vika	vikový	N-a --> A-ový		LINK ALREADY PRESENT
+
+víno	vínový	N-o --> A-ový		
+
+
+cvičit	cvičný	V-it --> A-ný		
+
+dusit	dusný	V-it --> A-ný		
+
+hájit	hajný	V-it --> A-ný	CHANGE: á -> a	
+
+
+hlásat	hlásný	V-at --> A-ný		
+
+oddělit	oddělný	V-it --> A-ný		
+
+odstavit	odstavný	V-it --> A-ný		
+
+
+odštěpit	odštěpný	V-it --> A-ný		
+
+plavit	plavný	V-it --> A-ný		
+
+podivit	podivný	V-it --> A-ný		
+
+povolit	povolný	V-it --> A-ný		
+
+pálit	palný	V-it --> A-ný	CHANGE: á -> a	
+
+převážit	převážný	V-it --> A-ný		
+
+
+sdělit	sdělný	V-it --> A-ný		
+
+sestoupit	sestupný	V-it --> A-ný	CHANGE: ou -> u	
+
+slíbit	slibný	V-it --> A-ný	CHANGE: í -> i	
+
+svolit	svolný	V-it --> A-ný		
+
+svážit	svážný	V-it --> A-ný		
+
+točit	točný	V-it --> A-ný		
+
+trhat	tržný	V-at --> A-ný	CHANGE: h -> ž	
+
+zachytit	záchytný	V-it --> A-ný	CHANGE: a -> á	
+
+štěpit	štěpný	V-it --> A-ný		
+
+
+blížit	blížící	V-it --> A-ící		LINK ALREADY PRESENT
+
+cídit	cídící	V-it --> A-ící		LINK ALREADY PRESENT
+
+cítit	cítící	V-it --> A-ící		LINK ALREADY PRESENT
+
+klíčit	klíčící	V-it --> A-ící		LINK ALREADY PRESENT
+
+klížit	klížící	V-it --> A-ící		LINK ALREADY PRESENT
+
+křísit	křísící	V-it --> A-ící		LINK ALREADY PRESENT
+
+křížit	křížící	V-it --> A-ící		LINK ALREADY PRESENT
+
+líčit	líčící	V-it --> A-ící		LINK ALREADY PRESENT
+
+mínit	mínící	V-it --> A-ící		LINK ALREADY PRESENT
+
+mírnit	mírnící	V-it --> A-ící		LINK ALREADY PRESENT
+
+mísit	mísící	V-it --> A-ící		LINK ALREADY PRESENT
+
+mířit	mířící	V-it --> A-ící		
+
+nížit	nížící	V-it --> A-ící		LINK ALREADY PRESENT
+
+plísnit	plísnící	V-it --> A-ící		LINK ALREADY PRESENT
+
+plížit	plížící	V-it --> A-ící		LINK ALREADY PRESENT
+
+pídit	pídící	V-it --> A-ící		LINK ALREADY PRESENT
+
+příčit	příčící	V-it --> A-ící		LINK ALREADY PRESENT
+
+slídit	slídící	V-it --> A-ící		LINK ALREADY PRESENT
+
+stínit	stínící	V-it --> A-ící		LINK ALREADY PRESENT
+
+stříbřit	stříbřící	V-it --> A-ící		LINK ALREADY PRESENT
+
+svítit	svítící	V-it --> A-ící		LINK ALREADY PRESENT
+
+sídlit	sídlící	V-it --> A-ící		LINK ALREADY PRESENT
+
+sířit	sířící	V-it --> A-ící		LINK ALREADY PRESENT
+
+tísnit	tísnící	V-it --> A-ící		LINK ALREADY PRESENT
+
+tížit	tížící	V-it --> A-ící		
+
+tříštit	tříštící	V-it --> A-ící		LINK ALREADY PRESENT
+
+třídit	třídící	V-it --> A-ící		LINK ALREADY PRESENT
+
+třísnit	třísnící	V-it --> A-ící		LINK ALREADY PRESENT
+
+vítězit	vítězící	V-it --> A-ící		LINK ALREADY PRESENT
+
+vířit	vířící	V-it --> A-ící		LINK ALREADY PRESENT
+řídit	řídící	V-it --> A-ící		LINK ALREADY PRESENT
+
+řítit	řítící	V-it --> A-ící		LINK ALREADY PRESENT
+
+šířit	šířící	V-it --> A-ící		
+
+štítit	štítící	V-it --> A-ící		LINK ALREADY PRESENT
+
+
+
+bouchat	bouchavý	V-t --> A-vý		
+
+chroupat	chroupavý	V-t --> A-vý		
+
+chrupat	chrupavý	V-t --> A-vý		
+
+chřupat	chřupavý	V-t --> A-vý		
+
+kolíbat	kolíbavý	V-t --> A-vý		
+
+kvikat	kvikavý	V-t --> A-vý		
+
+křupat	křupavý	V-t --> A-vý		
+
+mžourat	mžouravý	V-t --> A-vý		
+
+míhat	míhavý	V-t --> A-vý		
+
+měnit	měnivý	V-t --> A-vý		
+
+odmítat	odmítavý	V-t --> A-vý		
+
+ploužit	plouživý	V-t --> A-vý		
+
+podlízat	podlízavý	V-t --> A-vý		
+
+poléhat	poléhavý	V-t --> A-vý		
+
+
+prudit	proudivý	V-t --> A-vý	CHANGE: u -> ou	
+
+rozbíhat	rozbíhavý	V-t --> A-vý		
+
+sněžit	sněživý	V-t --> A-vý		
+
+sténat	sténavý	V-t --> A-vý		
+
+svítit	svítivý	V-t --> A-vý		
+
+tísnit	tísnivý	V-t --> A-vý		
+
+tížit	tíživý	V-t --> A-vý		
+
+tříštit	tříštivý	V-t --> A-vý		
+
+vyzvídat	vyzvídavý	V-t --> A-vý		
+
+vířit	vířivý	V-t --> A-vý		
+
+věštit	věštivý	V-t --> A-vý		
+
+vštípit	vštípivý	V-t --> A-vý		
+
+zamítat	zamítavý	V-t --> A-vý		
+
+zvídat	zvídavý	V-t --> A-vý		
+
+šklíbit	šklíbivý	V-t --> A-vý		
+
+škrábat	škrábavý	V-t --> A-vý		
+
+šoupat	šoupavý	V-t --> A-vý		
+
+štítit	štítivý	V-t --> A-vý		
+
+
+Andy	andský	N-y --> A-ský		
+
+Baba	babský	N-a --> A-ský		
+baba	babský	N-a --> A-ský		
+bába	babský	N-a --> A-ský	CHANGE: á -> a	
+
+Dolany	dolanský	N-y --> A-ský		
+
+jura	jurský	N-a --> A-ský		
+
+Kanada	kanadský	N-a --> A-ský		
+
+Lešany	lešanský	N-y --> A-ský		
+
+Louny	lounský	N-y --> A-ský		
+
+Malta	maltský	N-a --> A-ský		
+
+
+
+Ráby	rábský	N-y --> A-ský		
+
+Rokycany	rokycanský	N-y --> A-ský		
+
+Sára	sárský	N-a --> A-ský		
+
+
+Strana	stranský	N-a --> A-ský		
+
+
+
+Svitava	svitavský	N-a --> A-ský		
+Svitavy	svitavský	N-y --> A-ský		
+
+Vary	varský	N-y --> A-ský		
+
+Zápy	zápský	N-y --> A-ský		
+
+levita	levitský	N-a --> A-ský		
+levity	levitský	N-y --> A-ský		
+
+žena	ženský	N-a --> A-ský		
+
+doprovázet	doprovázený	V-zet --> A-zený		LINK ALREADY PRESENT
+
+házet	házený	V-zet --> A-zený		LINK ALREADY PRESENT
+
+mizet	mizený	V-zet --> A-zený		LINK ALREADY PRESENT
+
+mrzet	mrzený	V-zet --> A-zený		LINK ALREADY PRESENT
+
+nabízet	nabízený	V-zet --> A-zený		LINK ALREADY PRESENT
+
+nacházet	nacházený	V-zet --> A-zený		LINK ALREADY PRESENT
+
+naházet	naházený	V-zet --> A-zený		LINK ALREADY PRESENT
+
+obcházet	obcházený	V-zet --> A-zený		LINK ALREADY PRESENT
+
+odházet	odházený	V-zet --> A-zený		LINK ALREADY PRESENT
+
+pobízet	pobízený	V-zet --> A-zený		LINK ALREADY PRESENT
+
+podbízet	podbízený	V-zet --> A-zený		LINK ALREADY PRESENT
+
+poházet	poházený	V-zet --> A-zený		LINK ALREADY PRESENT
+
+procházet	procházený	V-zet --> A-zený		LINK ALREADY PRESENT
+
+proházet	proházený	V-zet --> A-zený		LINK ALREADY PRESENT
+
+provázet	provázený	V-zet --> A-zený		LINK ALREADY PRESENT
+
+předcházet	předcházený	V-zet --> A-zený		
+
+přeházet	přeházený	V-zet --> A-zený		LINK ALREADY PRESENT
+
+rozcházet	rozcházený	V-zet --> A-zený		LINK ALREADY PRESENT
+
+rozházet	rozházený	V-zet --> A-zený		LINK ALREADY PRESENT
+
+rozslzet	rozslzený	V-zet --> A-zený		LINK ALREADY PRESENT
+
+slzet	slzený	V-zet --> A-zený		LINK ALREADY PRESENT
+
+vyházet	vyházený	V-zet --> A-zený		LINK ALREADY PRESENT
+
+vyprovázet	vyprovázený	V-zet --> A-zený		LINK ALREADY PRESENT
+
+zacházet	zacházený	V-zet --> A-zený		LINK ALREADY PRESENT
+
+zaházet	zaházený	V-zet --> A-zený		LINK ALREADY PRESENT
+
+zaslzet	zaslzený	V-zet --> A-zený		
+
+zazet	zazený	V-zet --> A-zený		LINK ALREADY PRESENT
+
+zmizet	zmizený	V-zet --> A-zený		LINK ALREADY PRESENT
+
+zpřeházet	zpřeházený	V-zet --> A-zený		LINK ALREADY PRESENT
+
+
+Alexandra	Alexandřin	N-a --> A-in	CHANGE: r -> ř	LINK ALREADY PRESENT
+
+Ašera	Ašeřin	N-ra --> A-řin		
+
+Barbara	Barbařin	N-ra --> A-řin		LINK ALREADY PRESENT
+
+Barbora	Barbořin	N-ra --> A-řin		LINK ALREADY PRESENT
+
+Dora	Dořin	N-ra --> A-řin		LINK ALREADY PRESENT
+
+Eleanora	Eleanořin	N-ra --> A-řin		
+
+Eleonora	Eleonořin	N-ra --> A-řin		LINK ALREADY PRESENT
+
+Elvíra	Elvířin	N-ra --> A-řin		LINK ALREADY PRESENT
+
+Estera	Esteřin	N-ra --> A-řin		
+
+Héra	Héřin	N-ra --> A-řin		
+
+Indira	Indiřin	N-ra --> A-řin		LINK ALREADY PRESENT
+
+Kira	Kiřin	N-ra --> A-řin		LINK ALREADY PRESENT
+
+Kleopatra	Kleopatřin	N-ra --> A-řin		LINK ALREADY PRESENT
+
+Klára	Klářin	N-ra --> A-řin		LINK ALREADY PRESENT
+
+Lara	Lařin	N-ra --> A-řin		
+
+Laura	Lauřin	N-ra --> A-řin		LINK ALREADY PRESENT
+
+Moira	Moiřin	N-ra --> A-řin		
+
+Nora	Nořin	N-ra --> A-řin		
+
+Pandora	Pandořin	N-ra --> A-řin		LINK ALREADY PRESENT
+
+Petra	Petřin	N-ra --> A-řin		
+
+Sandra	Sandřin	N-ra --> A-řin		
+
+Sára	Sářin	N-ra --> A-řin		LINK ALREADY PRESENT
+
+Tamara	Tamařin	N-ra --> A-řin		
+
+Věra	Věřin	N-ra --> A-řin		LINK ALREADY PRESENT
+
+dcera	dceřin	N-ra --> A-řin		
+
+nestvůra	nestvůřin	N-ra --> A-řin		LINK ALREADY PRESENT
+
+sestra	sestřin	N-ra --> A-řin		LINK ALREADY PRESENT
+
+
+chodit	chozený	V-dit --> A-zený		LINK ALREADY PRESENT
+
+hodit	hozený	V-dit --> A-zený		LINK ALREADY PRESENT
+
+nařídit	nařízený	V-dit --> A-zený		LINK ALREADY PRESENT
+
+obloudit	oblouzený	V-dit --> A-zený		LINK ALREADY PRESENT
+
+obloudit	obluzený	V-dit --> A-zený	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+odsoudit	odsouzený	V-dit --> A-zený		LINK ALREADY PRESENT
+
+ohradit	ohrazený	V-dit --> A-zený		LINK ALREADY PRESENT
+
+podřídit	podřízený	V-dit --> A-zený		LINK ALREADY PRESENT
+
+posoudit	posouzený	V-dit --> A-zený		LINK ALREADY PRESENT
+
+pořídit	pořízený	V-dit --> A-zený		LINK ALREADY PRESENT
+
+přehradit	přehrazený	V-dit --> A-zený		LINK ALREADY PRESENT
+
+přisoudit	přisouzený	V-dit --> A-zený		LINK ALREADY PRESENT
+
+přivodit	přivozený	V-dit --> A-zený		LINK ALREADY PRESENT
+
+rozsoudit	rozsouzený	V-dit --> A-zený		LINK ALREADY PRESENT
+
+seřídit	seřízený	V-dit --> A-zený		LINK ALREADY PRESENT
+
+soudit	souzený	V-dit --> A-zený		LINK ALREADY PRESENT
+
+usoudit	usouzený	V-dit --> A-zený		LINK ALREADY PRESENT
+
+uvodit	uvozený	V-dit --> A-zený		LINK ALREADY PRESENT
+
+vyhodit	vyhozený	V-dit --> A-zený		LINK ALREADY PRESENT
+
+vyhradit	vyhrazený	V-dit --> A-zený		LINK ALREADY PRESENT
+
+vyřídit	vyřízený	V-dit --> A-zený		LINK ALREADY PRESENT
+
+zahradit	zahrazený	V-dit --> A-zený		LINK ALREADY PRESENT
+
+zastudit	zastuzený	V-dit --> A-zený		LINK ALREADY PRESENT
+
+zařídit	zařízený	V-dit --> A-zený		LINK ALREADY PRESENT
+
+zřídit	zřízený	V-dit --> A-zený		LINK ALREADY PRESENT
+
+řadit	řazený	V-dit --> A-zený		LINK ALREADY PRESENT
+
+řídit	řízený	V-dit --> A-zený		LINK ALREADY PRESENT
+
+
+---------------------------------
+27 GROUPS FOR RULE COMBINATION: V-stit --> A-štěný, V-tit --> A-těný
+
+hostit	hoštěný	V-tit --> A-těný	CHANGE: s -> š	LINK ALREADY PRESENT
+
+jistit	jištěný	V-tit --> A-těný	CHANGE: s -> š	LINK ALREADY PRESENT
+
+mastit	maštěný	V-tit --> A-těný	CHANGE: s -> š	LINK ALREADY PRESENT
+
+nahustit	nahuštěný	V-tit --> A-těný	CHANGE: s -> š	LINK ALREADY PRESENT
+
+namastit	namaštěný	V-tit --> A-těný	CHANGE: s -> š	LINK ALREADY PRESENT
+
+odjistit	odjištěný	V-tit --> A-těný	CHANGE: s -> š	LINK ALREADY PRESENT
+
+odmastit	odmaštěný	V-tit --> A-těný	CHANGE: s -> š	LINK ALREADY PRESENT
+
+oprostit	oproštěný	V-tit --> A-těný	CHANGE: s -> š	LINK ALREADY PRESENT
+
+podhustit	podhuštěný	V-tit --> A-těný	CHANGE: s -> š	LINK ALREADY PRESENT
+
+pojistit	pojištěný	V-tit --> A-těný	CHANGE: s -> š	LINK ALREADY PRESENT
+
+promastit	promaštěný	V-tit --> A-těný	CHANGE: s -> š	LINK ALREADY PRESENT
+
+pročistit	pročištěný	V-tit --> A-těný	CHANGE: s -> š	LINK ALREADY PRESENT
+
+přečistit	přečištěný	V-tit --> A-těný	CHANGE: s -> š	LINK ALREADY PRESENT
+
+ujistit	ujištěný	V-tit --> A-těný	CHANGE: s -> š	LINK ALREADY PRESENT
+
+umastit	umaštěný	V-tit --> A-těný	CHANGE: s -> š	LINK ALREADY PRESENT
+
+vyhostit	vyhoštěný	V-tit --> A-těný	CHANGE: s -> š	LINK ALREADY PRESENT
+
+vymastit	vymaštěný	V-tit --> A-těný	CHANGE: s -> š	LINK ALREADY PRESENT
+
+vyprostit	vyproštěný	V-tit --> A-těný	CHANGE: s -> š	LINK ALREADY PRESENT
+
+vyčistit	vyčištěný	V-tit --> A-těný	CHANGE: s -> š	LINK ALREADY PRESENT
+
+zahustit	zahuštěný	V-tit --> A-těný	CHANGE: s -> š	LINK ALREADY PRESENT
+
+zamastit	zamaštěný	V-tit --> A-těný	CHANGE: s -> š	LINK ALREADY PRESENT
+
+zhustit	zhuštěný	V-tit --> A-těný	CHANGE: s -> š	LINK ALREADY PRESENT
+
+zjistit	zjištěný	V-tit --> A-těný	CHANGE: s -> š	LINK ALREADY PRESENT
+
+zmastit	zmaštěný	V-tit --> A-těný	CHANGE: s -> š	LINK ALREADY PRESENT
+
+znečistit	znečištěný	V-tit --> A-těný	CHANGE: s -> š	LINK ALREADY PRESENT
+
+zprostit	zproštěný	V-tit --> A-těný	CHANGE: s -> š	LINK ALREADY PRESENT
+
+čistit	čištěný	V-tit --> A-těný	CHANGE: s -> š	LINK ALREADY PRESENT
+
+
+blít	blitý	V-ít --> A-itý		LINK ALREADY PRESENT
+
+bít	bitý	V-ít --> A-itý		LINK ALREADY PRESENT
+
+dolít	dolitý	V-ít --> A-itý		LINK ALREADY PRESENT
+
+lít	litý	V-ít --> A-itý		LINK ALREADY PRESENT
+
+nalít	nalitý	V-ít --> A-itý		LINK ALREADY PRESENT
+
+napít	napitý	V-ít --> A-itý		LINK ALREADY PRESENT
+
+našít	našitý	V-ít --> A-itý		LINK ALREADY PRESENT
+
+polít	politý	V-ít --> A-itý		LINK ALREADY PRESENT
+
+pošít	pošitý	V-ít --> A-itý		LINK ALREADY PRESENT
+
+použít	použitý	V-ít --> A-itý		LINK ALREADY PRESENT
+
+přešít	přešitý	V-ít --> A-itý		LINK ALREADY PRESENT
+
+přežít	přežitý	V-ít --> A-itý		LINK ALREADY PRESENT
+
+přilít	přilitý	V-ít --> A-itý		LINK ALREADY PRESENT
+
+přišít	přišitý	V-ít --> A-itý		LINK ALREADY PRESENT
+
+užít	užitý	V-ít --> A-itý		LINK ALREADY PRESENT
+
+všít	všitý	V-ít --> A-itý		LINK ALREADY PRESENT
+
+vyšít	vyšitý	V-ít --> A-itý		LINK ALREADY PRESENT
+
+využít	využitý	V-ít --> A-itý		LINK ALREADY PRESENT
+
+vžít	vžitý	V-ít --> A-itý		LINK ALREADY PRESENT
+
+vít	vitý	V-ít --> A-itý		LINK ALREADY PRESENT
+
+zabít	zabitý	V-ít --> A-itý		LINK ALREADY PRESENT
+
+zašít	zašitý	V-ít --> A-itý		LINK ALREADY PRESENT
+
+zneužít	zneužitý	V-ít --> A-itý		LINK ALREADY PRESENT
+
+čít	čitý	V-ít --> A-itý		LINK ALREADY PRESENT
+
+šít	šitý	V-ít --> A-itý		LINK ALREADY PRESENT
+
+žít	žitý	V-ít --> A-itý		LINK ALREADY PRESENT
+
+
+nasázet	nasázený	V-zet --> A-zený		LINK ALREADY PRESENT
+
+odklízet	odklizený	V-zet --> A-zený	CHANGE: í -> i	
+
+osadit	osazený	V-dit --> A-zený		LINK ALREADY PRESENT
+
+osázet	osázený	V-zet --> A-zený		LINK ALREADY PRESENT
+
+poklidit	poklizený	V-dit --> A-zený		LINK ALREADY PRESENT
+
+popudit	popuzený	V-dit --> A-zený		LINK ALREADY PRESENT
+
+posadit	posazený	V-dit --> A-zený		LINK ALREADY PRESENT
+
+posázet	posázený	V-zet --> A-zený		LINK ALREADY PRESENT
+
+probouzet	probouzený	V-zet --> A-zený		LINK ALREADY PRESENT
+
+probudit	probuzený	V-dit --> A-zený		LINK ALREADY PRESENT
+
+prosadit	prosazený	V-dit --> A-zený		LINK ALREADY PRESENT
+
+sadit	sazený	V-dit --> A-zený		LINK ALREADY PRESENT
+
+sázet	sázený	V-zet --> A-zený		LINK ALREADY PRESENT
+
+sklidit	sklizený	V-dit --> A-zený		LINK ALREADY PRESENT
+
+sklízet	sklízený	V-zet --> A-zený		LINK ALREADY PRESENT
+
+uklidit	uklizený	V-dit --> A-zený		LINK ALREADY PRESENT
+
+uklízet	uklízený	V-zet --> A-zený		
+
+vsadit	vsazený	V-dit --> A-zený		LINK ALREADY PRESENT
+
+vyklidit	vyklizený	V-dit --> A-zený		LINK ALREADY PRESENT
+
+vyklízet	vyklízený	V-zet --> A-zený		LINK ALREADY PRESENT
+
+vysadit	vysazený	V-dit --> A-zený		LINK ALREADY PRESENT
+
+vysázet	vysázený	V-zet --> A-zený		LINK ALREADY PRESENT
+
+vzbudit	vzbuzený	V-dit --> A-zený		LINK ALREADY PRESENT
+
+zostouzet	zostouzený	V-et --> A-ený		LINK ALREADY PRESENT
+
+zostudit	zostuzený	V-dit --> A-zený		LINK ALREADY PRESENT
+
+
+Baťa	baťovský	N-a --> A-ovský		
+
+bača	bačovský	N-a --> A-ovský		
+
+fanda	fandovský	N-a --> A-ovský		
+
+Java	javovský	N-a --> A-ovský		
+
+panenka	panenkovský	N-a --> A-ovský		
+
+pošta	poštovský	N-a --> A-ovský		
+
+teta	tetovský	N-a --> A-ovský		
+
+Zarathuštra	zarathuštrovský	N-a --> A-ovský		
+
+minout	minulý	V-t --> A-lý	CHANGE: ou -> u	
+
+nakynout	nakynulý	V-t --> A-lý	CHANGE: ou -> u	
+
+navinout	navinulý	V-t --> A-lý	CHANGE: ou -> u	
+
+ochrnout	ochrnulý	V-t --> A-lý	CHANGE: ou -> u	
+
+odout	odulý	V-t --> A-lý	CHANGE: ou -> u	
+
+plynout	plynulý	V-t --> A-lý	CHANGE: ou -> u	
+
+proslout	proslulý	V-t --> A-lý	CHANGE: ou -> u	
+
+splynout	splynulý	V-t --> A-lý	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+strnout	strnulý	V-t --> A-lý	CHANGE: ou -> u	
+
+uhynout	uhynulý	V-t --> A-lý	CHANGE: ou -> u	
+
+uplynout	uplynulý	V-t --> A-lý	CHANGE: ou -> u	
+
+ustrnout	ustrnulý	V-t --> A-lý	CHANGE: ou -> u	
+
+utonout	utonulý	V-t --> A-lý	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+vydout	vydulý	V-t --> A-lý	CHANGE: ou -> u	
+
+vyhynout	vyhynulý	V-t --> A-lý	CHANGE: ou -> u	
+
+vyplynout	vyplynulý	V-t --> A-lý	CHANGE: ou -> u	
+
+vyvanout	vyvanulý	V-t --> A-lý	CHANGE: ou -> u	
+
+vzplanout	vzplanulý	V-t --> A-lý	CHANGE: ou -> u	
+
+zahynout	zahynulý	V-t --> A-lý	CHANGE: ou -> u	
+
+zapomenout	zapomenulý	V-t --> A-lý	CHANGE: ou -> u	
+
+zesnout	zesnulý	V-t --> A-lý	CHANGE: ou -> u	
+
+zhynout	zhynulý	V-t --> A-lý	CHANGE: ou -> u	
+
+
+chovat	chovný	V-at --> A-ný		
+
+chátrat	chatrný	V-at --> A-ný	CHANGE: á -> a	
+
+dotírat	dotěrný	V-at --> A-ný	CHANGE: í -> ě	
+
+hvězda	hvězdný	N-a --> A-ný		
+
+opěra	opěrný	N-a --> A-ný		
+
+osnova	osnovný	N-a --> A-ný		
+
+podoba	podobný	N-a --> A-ný		
+
+podpěra	podpěrný	N-a --> A-ný		
+
+převýchova	převýchovný	N-a --> A-ný		
+
+socha	sošný	N-a --> A-ný	CHANGE: ch -> š	
+
+výchova	výchovný	N-a --> A-ný		
+
+vzpěra	vzpěrný	N-a --> A-ný		
+
+vázat	vazný	V-at --> A-ný	CHANGE: á -> a	
+
+věta	větný	N-a --> A-ný		
+
+
+atomistika	atomistický	N-ka --> A-cký		
+
+bohemistika	bohemistický	N-ka --> A-cký		
+
+cyklistika	cyklistický	N-ka --> A-cký		
+
+cykloturistika	cykloturistický	N-ka --> A-cký		
+
+dokumentaristika	dokumentaristický	N-ka --> A-cký		
+
+ekoturistika	ekoturistický	N-ka --> A-cký		
+
+folkloristika	folkloristický	N-ka --> A-cký		
+
+kanoistika	kanoistický	N-ka --> A-cký		
+
+kriminalistika	kriminalistický	N-ka --> A-cký		
+
+kulturistika	kulturistický	N-ka --> A-cký		
+
+lingvistika	lingvistický	N-ka --> A-cký		
+
+publicistika	publicistický	N-ka --> A-cký		
+
+scénáristika	scenáristický	N-ka --> A-cký	CHANGE: é -> e	
+
+scénáristika	scénáristický	N-ka --> A-cký		
+
+sofistika	sofistický	N-ka --> A-cký		
+
+stylistika	stylistický	N-ka --> A-cký		
+
+turistika	turistický	N-ka --> A-cký		
+
+urbanistika	urbanistický	N-ka --> A-cký		
+
+žurnalistika	žurnalistický	N-ka --> A-cký		
+
+
+
+dodržet	dodržený	V-žet --> A-žený		LINK ALREADY PRESENT
+
+dohlížet	dohlížený	V-žet --> A-žený		LINK ALREADY PRESENT
+
+nadržet	nadržený	V-žet --> A-žený		LINK ALREADY PRESENT
+
+nahlížet	nahlížený	V-žet --> A-žený		
+
+obdržet	obdržený	V-žet --> A-žený		LINK ALREADY PRESENT
+
+podržet	podržený	V-žet --> A-žený		LINK ALREADY PRESENT
+
+pozdržet	pozdržený	V-žet --> A-žený		LINK ALREADY PRESENT
+
+prohlížet	prohlížený	V-žet --> A-žený		LINK ALREADY PRESENT
+
+proležet	proležený	V-žet --> A-žený		LINK ALREADY PRESENT
+
+přehlížet	přehlížený	V-žet --> A-žený		LINK ALREADY PRESENT
+
+přeležet	přeležený	V-žet --> A-žený		LINK ALREADY PRESENT
+
+přidržet	přidržený	V-žet --> A-žený		LINK ALREADY PRESENT
+
+přihlížet	přihlížený	V-žet --> A-žený		LINK ALREADY PRESENT
+
+udržet	udržený	V-žet --> A-žený		
+
+vyhlížet	vyhlížený	V-žet --> A-žený		LINK ALREADY PRESENT
+
+vysrážet	vysrážený	V-žet --> A-žený		LINK ALREADY PRESENT
+
+zpřerážet	zpřerážený	V-žet --> A-žený		LINK ALREADY PRESENT
+
+zurážet	zurážený	V-žet --> A-žený		LINK ALREADY PRESENT
+
+zvyrážet	zvyrážený	V-žet --> A-žený		LINK ALREADY PRESENT
+
+křížit	křížený	V-it --> A-ený		LINK ALREADY PRESENT
+
+osmažit	osmažený	V-it --> A-ený		LINK ALREADY PRESENT
+
+pražit	pražený	V-it --> A-ený		LINK ALREADY PRESENT
+
+spřáhnout	spřažený	V-hnout --> A-žený	CHANGE: á -> a	LINK ALREADY PRESENT
+
+strhnout	stržený	V-hnout --> A-žený		LINK ALREADY PRESENT
+
+toužit	toužený	V-it --> A-ený		LINK ALREADY PRESENT
+
+trhnout	tržený	V-hnout --> A-žený		
+tržit	tržený	V-it --> A-ený		LINK ALREADY PRESENT
+
+tížit	tížený	V-it --> A-ený		LINK ALREADY PRESENT
+
+těžit	těžený	V-it --> A-ený		LINK ALREADY PRESENT
+
+usmahnout	usmažený	V-hnout --> A-žený		
+usmažit	usmažený	V-it --> A-ený		LINK ALREADY PRESENT
+
+utržit	utržený	V-it --> A-ený		
+
+vypražit	vypražený	V-it --> A-ený		LINK ALREADY PRESENT
+
+vypřáhnout	vypřažený	V-hnout --> A-žený	CHANGE: á -> a	LINK ALREADY PRESENT
+
+vysmahnout	vysmažený	V-hnout --> A-žený		
+vysmažit	vysmažený	V-it --> A-ený		LINK ALREADY PRESENT
+
+vytrhnout	vytržený	V-hnout --> A-žený		LINK ALREADY PRESENT
+vytržit	vytržený	V-it --> A-ený		
+
+zkřížit	zkřížený	V-it --> A-ený		LINK ALREADY PRESENT
+
+ztužit	ztužený	V-it --> A-ený		LINK ALREADY PRESENT
+
+zvážit	zvážený	V-it --> A-ený		LINK ALREADY PRESENT
+
+
+
+bydlet	bydlený	V-et --> A-ený		LINK ALREADY PRESENT
+
+bzučet	bzučený	V-et --> A-ený		LINK ALREADY PRESENT
+
+hučet	hučený	V-et --> A-ený		LINK ALREADY PRESENT
+
+ječet	ječený	V-et --> A-ený		LINK ALREADY PRESENT
+
+křičet	křičený	V-et --> A-ený		LINK ALREADY PRESENT
+
+mlčet	mlčený	V-et --> A-ený		LINK ALREADY PRESENT
+
+obydlet	obydlený	V-et --> A-ený		LINK ALREADY PRESENT
+
+otáčet	otáčený	V-et --> A-ený		LINK ALREADY PRESENT
+
+příslušet	příslušený	V-et --> A-ený		LINK ALREADY PRESENT
+
+slyšet	slyšený	V-et --> A-ený		LINK ALREADY PRESENT
+
+syčet	syčený	V-et --> A-ený		LINK ALREADY PRESENT
+
+velet	velený	V-et --> A-ený		LINK ALREADY PRESENT
+
+vrčet	vrčený	V-et --> A-ený		LINK ALREADY PRESENT
+
+vymýšlet	vymýšlený	V-et --> A-ený		LINK ALREADY PRESENT
+
+zabručet	zabručený	V-et --> A-ený		LINK ALREADY PRESENT
+
+zabydlet	zabydlený	V-et --> A-ený		LINK ALREADY PRESENT
+
+zasyčet	zasyčený	V-et --> A-ený		LINK ALREADY PRESENT
+
+řinčet	řinčený	V-et --> A-ený		LINK ALREADY PRESENT
+
+mrazit	mrazený	V-zit --> A-zený		LINK ALREADY PRESENT
+
+obmezit	obmezený	V-zit --> A-zený		LINK ALREADY PRESENT
+
+odcizit	odcizený	V-zit --> A-zený		LINK ALREADY PRESENT
+
+odmrazit	odmrazený	V-zit --> A-zený		LINK ALREADY PRESENT
+
+odslizit	odslizený	V-zit --> A-zený		LINK ALREADY PRESENT
+
+přimrazit	přimrazený	V-zit --> A-zený		LINK ALREADY PRESENT
+
+rozmrazit	rozmrazený	V-zit --> A-zený		LINK ALREADY PRESENT
+
+vymezit	vymezený	V-zit --> A-zený		LINK ALREADY PRESENT
+
+vyobrazit	vyobrazený	V-zit --> A-zený		LINK ALREADY PRESENT
+
+vyplazit	vyplazený	V-zit --> A-zený		
+
+zamezit	zamezený	V-zit --> A-zený		LINK ALREADY PRESENT
+
+zamrazit	zamrazený	V-zit --> A-zený		LINK ALREADY PRESENT
+
+zhrozit	zhrozený	V-zit --> A-zený		LINK ALREADY PRESENT
+
+zmrazit	zmrazený	V-zit --> A-zený		
+
+zobrazit	zobrazený	V-zit --> A-zený		LINK ALREADY PRESENT
+
+zřetězit	zřetězený	V-zit --> A-zený		LINK ALREADY PRESENT
+
+řetězit	řetězený	V-zit --> A-zený		LINK ALREADY PRESENT
+
+
+mrazit	mražený	V-zit --> A-žený		LINK ALREADY PRESENT
+
+nakazit	nakažený	V-zit --> A-žený		LINK ALREADY PRESENT
+
+naložit	naložený	V-it --> A-ený		LINK ALREADY PRESENT
+
+narazit	naražený	V-zit --> A-žený		LINK ALREADY PRESENT
+
+ohrozit	ohrožený	V-zit --> A-žený		LINK ALREADY PRESENT
+
+orazit	oražený	V-zit --> A-žený		LINK ALREADY PRESENT
+
+pokazit	pokažený	V-zit --> A-žený		LINK ALREADY PRESENT
+
+přimrazit	přimražený	V-zit --> A-žený		LINK ALREADY PRESENT
+
+razit	ražený	V-zit --> A-žený		LINK ALREADY PRESENT
+
+rozmrazit	rozmražený	V-zit --> A-žený		LINK ALREADY PRESENT
+
+vykazit	vykažený	V-zit --> A-žený		LINK ALREADY PRESENT
+
+zamrazit	zamražený	V-zit --> A-žený		
+
+zarazit	zaražený	V-zit --> A-žený		LINK ALREADY PRESENT
+
+zkazit	zkažený	V-zit --> A-žený		LINK ALREADY PRESENT
+
+zmrazit	zmražený	V-zit --> A-žený		
+
+
+donést	donesený	V-ést --> A-esený		LINK ALREADY PRESENT
+
+nadnést	nadnesený	V-ést --> A-esený		LINK ALREADY PRESENT
+
+nanést	nanesený	V-ést --> A-esený		LINK ALREADY PRESENT
+
+nést	nesený	V-ést --> A-esený		LINK ALREADY PRESENT
+
+odnést	odnesený	V-ést --> A-esený		LINK ALREADY PRESENT
+
+povznést	povznesený	V-ést --> A-esený		LINK ALREADY PRESENT
+
+pronést	pronesený	V-ést --> A-esený		LINK ALREADY PRESENT
+
+přenést	přenesený	V-ést --> A-esený		LINK ALREADY PRESENT
+
+přinést	přinesený	V-ést --> A-esený		LINK ALREADY PRESENT
+
+snést	snesený	V-ést --> A-esený		LINK ALREADY PRESENT
+
+unést	unesený	V-ést --> A-esený		LINK ALREADY PRESENT
+
+usnést	usnesený	V-ést --> A-esený		LINK ALREADY PRESENT
+
+vnést	vnesený	V-ést --> A-esený		LINK ALREADY PRESENT
+
+vynést	vynesený	V-ést --> A-esený		LINK ALREADY PRESENT
+
+vznést	vznesený	V-ést --> A-esený		LINK ALREADY PRESENT
+
+zanést	zanesený	V-ést --> A-esený		LINK ALREADY PRESENT
+
+
+
+bula	bulový	N-a --> A-ový		LINK ALREADY PRESENT
+
+
+fistule	fistulový	N-e --> A-ový		
+
+garda	gardový	N-a --> A-ový		LINK ALREADY PRESENT
+
+jíva	jívový	N-a --> A-ový		LINK ALREADY PRESENT
+
+kaše	kašový	N-e --> A-ový		
+
+kláda	kládový	N-a --> A-ový		LINK ALREADY PRESENT
+
+konzola	konzolový	N-a --> A-ový		LINK ALREADY PRESENT
+konzole	konzolový	N-e --> A-ový		
+
+pila	pilový	N-a --> A-ový		
+
+rýže	rýžový	N-e --> A-ový		
+
+slída	slídový	N-a --> A-ový		LINK ALREADY PRESENT
+
+tabule	tabulový	N-e --> A-ový		
+
+žemle	žemlový	N-e --> A-ový		
+
+chtít	chtivý	V-ít --> A-ivý		
+
+dusit	dusivý	V-t --> A-vý		
+
+
+mstít	mstivý	V-ít --> A-ivý		
+
+mžít	mživý	V-ít --> A-ivý		
+
+
+pojit	pojivý	V-t --> A-vý		
+
+snít	snivý	V-t --> A-vý	CHANGE: í -> i	
+
+zřít	zřivý	V-ít --> A-ivý		
+
+čít	čivý	V-ít --> A-ivý		
+
+žít	živý	V-t --> A-vý	CHANGE: í -> i	
+žít	živý	V-ít --> A-ivý		
+
+
+doprava	dopravní	N-a --> A-ní		
+
+mícha	míšní	N-a --> A-ní	CHANGE: ch -> š	
+
+
+porada	poradní	N-a --> A-ní		
+
+
+velkovýroba	velkovýrobní	N-a --> A-ní		
+
+výplata	výplatní	N-a --> A-ní		
+
+
+výroba	výrobní	N-a --> A-ní		
+
+záloha	záložní	N-a --> A-ní	CHANGE: h -> ž	
+
+zásoba	zásobní	N-a --> A-ní		
+
+úprava	úpravní	N-a --> A-ní		
+
+Orlice	Orlický	N-e --> A-ký		
+
+dělník	dělnický	N-k --> A-cký	CHANGE: í -> i	
+
+horník	hornický	N-k --> A-cký	CHANGE: í -> i	
+
+lékárník	lékárnický	N-k --> A-cký	CHANGE: í -> i	
+
+opatrovník	opatrovnický	N-k --> A-cký	CHANGE: í -> i	
+
+porodník	porodnický	N-k --> A-cký	CHANGE: í -> i	
+
+poustevník	poustevnický	N-k --> A-cký	CHANGE: í -> i	
+
+poutník	poutnický	N-k --> A-cký	CHANGE: í -> i	
+
+rolník	rolnický	N-k --> A-cký	CHANGE: í -> i	
+
+služebník	služebnický	N-k --> A-cký	CHANGE: í -> i	
+
+straník	stranický	N-k --> A-cký	CHANGE: í -> i	
+
+záložník	záložnický	N-k --> A-cký	CHANGE: í -> i	
+
+
+almužník	almužnický	N-k --> A-cký	CHANGE: í -> i	
+
+cholerik	cholerický	N-k --> A-cký		
+
+hygiena	hygienický	N-a --> A-ický		
+
+kovodělník	kovodělnický	N-k --> A-cký	CHANGE: í -> i	
+
+kubík	kubický	N-k --> A-cký	CHANGE: í -> i	
+
+lakýrník	lakýrnický	N-k --> A-cký	CHANGE: í -> i	
+
+lodník	lodnický	N-k --> A-cký	CHANGE: í -> i	
+
+papírna	papírnický	N-a --> A-ický		
+
+satira	satirický	N-a --> A-ický		
+
+stoik	stoický	N-k --> A-cký		
+
+výrobna	výrobnický	N-a --> A-ický		
+
+odrazit	odražený	V-zit --> A-žený		LINK ALREADY PRESENT
+
+podražit	podražený	V-it --> A-ený		LINK ALREADY PRESENT
+
+porazit	poražený	V-zit --> A-žený		LINK ALREADY PRESENT
+
+povyrazit	povyražený	V-zit --> A-žený		LINK ALREADY PRESENT
+
+prorazit	proražený	V-zit --> A-žený		LINK ALREADY PRESENT
+
+překazit	překažený	V-zit --> A-žený		LINK ALREADY PRESENT
+
+přerazit	přeražený	V-zit --> A-žený		LINK ALREADY PRESENT
+
+přirazit	přiražený	V-zit --> A-žený		LINK ALREADY PRESENT
+
+rozrazit	rozražený	V-zit --> A-žený		LINK ALREADY PRESENT
+
+srazit	sražený	V-zit --> A-žený		LINK ALREADY PRESENT
+
+urazit	uražený	V-zit --> A-žený		LINK ALREADY PRESENT
+
+vrazit	vražený	V-zit --> A-žený		LINK ALREADY PRESENT
+
+vrážet	vrážený	V-žet --> A-žený		LINK ALREADY PRESENT
+
+vyrazit	vyražený	V-zit --> A-žený		LINK ALREADY PRESENT
+
+
+
+dlužit	dlužný	V-it --> A-ný		
+
+poučit	poučný	V-it --> A-ný		
+
+přiklonit	příklonný	V-it --> A-ný	CHANGE: i -> í	
+
+připojit	přípojný	V-it --> A-ný	CHANGE: i -> í	
+
+připustit	přípustný	V-it --> A-ný	CHANGE: i -> í	
+
+přitlačit	přítlačný	V-it --> A-ný	CHANGE: i -> í	
+
+přivěsit	přívěsný	V-it --> A-ný	CHANGE: i -> í	
+
+strážit	strážný	V-it --> A-ný		
+
+věštit	věštný	V-it --> A-ný		
+
+zkusit	zkusný	V-it --> A-ný		
+
+
+
+minovat	minující	V-ovat --> A-ující		
+
+ochrnovat	ochrnující	V-ovat --> A-ující		LINK ALREADY PRESENT
+
+ovinovat	ovinující	V-ovat --> A-ující		LINK ALREADY PRESENT
+
+plout	plující	V-t --> A-jící	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+plynovat	plynující	V-ovat --> A-ující		LINK ALREADY PRESENT
+
+překlenovat	překlenující	V-ovat --> A-ující		LINK ALREADY PRESENT
+
+rozhrnovat	rozhrnující	V-ovat --> A-ující		LINK ALREADY PRESENT
+
+rozvinovat	rozvinující	V-ovat --> A-ující		LINK ALREADY PRESENT
+
+shrnovat	shrnující	V-ovat --> A-ující		LINK ALREADY PRESENT
+
+stanovat	stanující	V-ovat --> A-ující		LINK ALREADY PRESENT
+
+svinovat	svinující	V-ovat --> A-ující		LINK ALREADY PRESENT
+
+vyklenovat	vyklenující	V-ovat --> A-ující		LINK ALREADY PRESENT
+
+zahrnovat	zahrnující	V-ovat --> A-ující		
+
+zavinovat	zavinující	V-ovat --> A-ující		LINK ALREADY PRESENT
+
+
+
+drát	dravý	V-át --> A-avý		
+
+hrát	hravý	V-át --> A-avý		
+
+lhát	lhavý	V-át --> A-avý		
+
+lkát	lkavý	V-át --> A-avý		
+
+psát	psavý	V-át --> A-avý		
+
+rvát	rvavý	V-át --> A-avý		
+
+smát	smavý	V-át --> A-avý		
+
+spát	spavý	V-át --> A-avý		
+
+sát	savý	V-át --> A-avý		
+
+vlát	vlavý	V-át --> A-avý		
+
+řvát	řvavý	V-át --> A-avý		
+
+štkát	štkavý	V-át --> A-avý		
+
+štvát	štvavý	V-át --> A-avý		
+
+žrát	žravý	V-át --> A-avý		
+
+
+bába	babický	N-a --> A-ický	CHANGE: á -> a	
+
+vesnice	vesnický	N-e --> A-ký		
+
+proklestit	proklestěný	V-tit --> A-těný		LINK ALREADY PRESENT
+
+pěstit	pěstěný	V-tit --> A-těný		LINK ALREADY PRESENT
+
+přemostit	přemostěný	V-tit --> A-těný		LINK ALREADY PRESENT
+
+přemístit	přemístěný	V-tit --> A-těný		LINK ALREADY PRESENT
+
+rozmístit	rozmístěný	V-tit --> A-těný		LINK ALREADY PRESENT
+
+schrastit	schrastěný	V-tit --> A-těný		LINK ALREADY PRESENT
+
+ukořistit	ukořistěný	V-tit --> A-těný		LINK ALREADY PRESENT
+
+umístit	umístěný	V-tit --> A-těný		LINK ALREADY PRESENT
+
+vyhostit	vyhostěný	V-tit --> A-těný		LINK ALREADY PRESENT
+
+vykostit	vykostěný	V-tit --> A-těný		LINK ALREADY PRESENT
+
+vyústit	vyústěný	V-tit --> A-těný		LINK ALREADY PRESENT
+
+vyčistit	vyčistěný	V-tit --> A-těný		LINK ALREADY PRESENT
+
+znečistit	znečistěný	V-tit --> A-těný		LINK ALREADY PRESENT
+
+
+dovést	dovedený	V-ést --> A-edený		LINK ALREADY PRESENT
+
+navést	navedený	V-ést --> A-edený		LINK ALREADY PRESENT
+
+odvést	odvedený	V-ést --> A-edený		LINK ALREADY PRESENT
+
+podvést	podvedený	V-ést --> A-edený		LINK ALREADY PRESENT
+
+povést	povedený	V-ést --> A-edený		LINK ALREADY PRESENT
+
+provést	provedený	V-ést --> A-edený		LINK ALREADY PRESENT
+
+předvést	předvedený	V-ést --> A-edený		LINK ALREADY PRESENT
+
+převést	převedený	V-ést --> A-edený		LINK ALREADY PRESENT
+
+přivést	přivedený	V-ést --> A-edený		LINK ALREADY PRESENT
+
+svést	svedený	V-ést --> A-edený		LINK ALREADY PRESENT
+
+uvést	uvedený	V-ést --> A-edený		LINK ALREADY PRESENT
+
+vyvést	vyvedený	V-ést --> A-edený		LINK ALREADY PRESENT
+
+zavést	zavedený	V-ést --> A-edený		LINK ALREADY PRESENT
+
+
+
+domyslet	domyslitelný	V-et --> A-itelný		
+domyslit	domyslitelný	V-t --> A-telný		
+
+myslet	myslitelný	V-et --> A-itelný		
+myslit	myslitelný	V-t --> A-telný		
+
+odmyslet	odmyslitelný	V-et --> A-itelný		
+odmyslit	odmyslitelný	V-t --> A-telný		
+
+pomyslet	pomyslitelný	V-et --> A-itelný		
+pomyslit	pomyslitelný	V-t --> A-telný		
+
+poučit	poučitelný	V-t --> A-telný		LINK ALREADY PRESENT
+
+rozdělit	rozdělitelný	V-t --> A-telný		LINK ALREADY PRESENT
+
+sdílet	sdílitelný	V-et --> A-itelný		
+
+sdělit	sdělitelný	V-t --> A-telný		LINK ALREADY PRESENT
+
+svařit	svařitelný	V-t --> A-telný		LINK ALREADY PRESENT
+
+tvářit	tvářitelný	V-t --> A-telný		
+
+utajit	utajitelný	V-t --> A-telný		LINK ALREADY PRESENT
+
+zcizet	zcizitelný	V-et --> A-itelný		LINK ALREADY PRESENT
+zcizit	zcizitelný	V-t --> A-telný		
+
+zjednodušet	zjednodušitelný	V-et --> A-itelný		LINK ALREADY PRESENT
+zjednodušit	zjednodušitelný	V-t --> A-telný		
+
+
+
+blyštit	blyštící	V-t --> A-cí	CHANGE: i -> í	
+blyštět	blyštící	V-t --> A-cí	CHANGE: ě -> í	LINK ALREADY PRESENT
+
+hutnit	hutnící	V-t --> A-cí	CHANGE: i -> í	
+hutnět	hutnící	V-t --> A-cí	CHANGE: ě -> í	LINK ALREADY PRESENT
+
+jasnit	jasnící	V-t --> A-cí	CHANGE: i -> í	
+jasnět	jasnící	V-t --> A-cí	CHANGE: ě -> í	
+
+lačnit	lačnící	V-t --> A-cí	CHANGE: i -> í	
+lačnět	lačnící	V-t --> A-cí	CHANGE: ě -> í	LINK ALREADY PRESENT
+
+ošklivit	ošklivící	V-t --> A-cí	CHANGE: i -> í	LINK ALREADY PRESENT
+ošklivět	ošklivící	V-t --> A-cí	CHANGE: ě -> í	
+
+praštit	praštící	V-t --> A-cí	CHANGE: i -> í	
+praštět	praštící	V-t --> A-cí	CHANGE: ě -> í	LINK ALREADY PRESENT
+
+stavit	stavící	V-t --> A-cí	CHANGE: i -> í	LINK ALREADY PRESENT
+stavět	stavící	V-t --> A-cí	CHANGE: ě -> í	
+
+svrbit	svrbící	V-t --> A-cí	CHANGE: i -> í	LINK ALREADY PRESENT
+svrbět	svrbící	V-t --> A-cí	CHANGE: ě -> í	
+
+svědit	svědící	V-t --> A-cí	CHANGE: i -> í	
+svědět	svědící	V-t --> A-cí	CHANGE: ě -> í	
+
+temnit	temnící	V-t --> A-cí	CHANGE: i -> í	
+temnět	temnící	V-t --> A-cí	CHANGE: ě -> í	
+
+zdravit	zdravící	V-t --> A-cí	CHANGE: i -> í	LINK ALREADY PRESENT
+
+škaredit	škaredící	V-t --> A-cí	CHANGE: i -> í	LINK ALREADY PRESENT
+škaredět	škaredící	V-t --> A-cí	CHANGE: ě -> í	
+
+žhavit	žhavící	V-t --> A-cí	CHANGE: i -> í	LINK ALREADY PRESENT
+žhavět	žhavící	V-t --> A-cí	CHANGE: ě -> í	
+
+
+napustit	napuštěný	V-tit --> A-těný	CHANGE: s -> š	LINK ALREADY PRESENT
+
+odpustit	odpuštěný	V-tit --> A-těný	CHANGE: s -> š	LINK ALREADY PRESENT
+
+opustit	opuštěný	V-tit --> A-těný	CHANGE: s -> š	LINK ALREADY PRESENT
+
+popustit	popuštěný	V-tit --> A-těný	CHANGE: s -> š	LINK ALREADY PRESENT
+
+propustit	propuštěný	V-tit --> A-těný	CHANGE: s -> š	LINK ALREADY PRESENT
+
+přepustit	přepuštěný	V-tit --> A-těný	CHANGE: s -> š	LINK ALREADY PRESENT
+
+připustit	připuštěný	V-tit --> A-těný	CHANGE: s -> š	LINK ALREADY PRESENT
+
+rozpustit	rozpuštěný	V-tit --> A-těný	CHANGE: s -> š	LINK ALREADY PRESENT
+
+spustit	spuštěný	V-tit --> A-těný	CHANGE: s -> š	LINK ALREADY PRESENT
+
+upustit	upuštěný	V-tit --> A-těný	CHANGE: s -> š	LINK ALREADY PRESENT
+
+vpustit	vpuštěný	V-tit --> A-těný	CHANGE: s -> š	LINK ALREADY PRESENT
+
+vypustit	vypuštěný	V-tit --> A-těný	CHANGE: s -> š	LINK ALREADY PRESENT
+
+zapustit	zapuštěný	V-tit --> A-těný	CHANGE: s -> š	LINK ALREADY PRESENT
+
+
+
+kousat	kousavý	V-t --> A-vý		
+
+létat	létavý	V-t --> A-vý		
+
+modrý	modravý	A-ý --> A-avý		
+
+podezřívat	podezřívavý	V-t --> A-vý		
+
+přemítat	přemítavý	V-t --> A-vý		
+
+sinat	sinavý	V-t --> A-vý		
+
+vypínat	vypínavý	V-t --> A-vý		
+
+zelený	zelenavý	A-ý --> A-avý		
+
+černý	černavý	A-ý --> A-avý		
+
+červený	červenavý	A-ý --> A-avý		
+
+šedý	šedavý	A-ý --> A-avý		
+
+šerý	šeravý	A-ý --> A-avý		
+
+
+
+cívka	cívkovitý	N-a --> A-ovitý		
+
+hůlka	hůlkovitý	N-a --> A-ovitý		
+
+houba	houbovitý	N-a --> A-ovitý		
+
+kupa	kupovitý	N-a --> A-ovitý		
+
+kora	korovitý	N-a --> A-ovitý		
+kůra	korovitý	N-a --> A-ovitý	CHANGE: ů -> o	
+
+kuňka	kuňkovitý	N-a --> A-ovitý		
+
+muchomůrka	muchomůrkovitý	N-a --> A-ovitý		
+
+netýkavka	netýkavkovitý	N-a --> A-ovitý		
+
+smola	smolovitý	N-a --> A-ovitý		
+smůla	smolovitý	N-a --> A-ovitý	CHANGE: ů -> o	
+
+smůla	smůlovitý	N-a --> A-ovitý		
+
+
+
+cítit	cítěný	V-tit --> A-těný		LINK ALREADY PRESENT
+
+pocítit	pocítěný	V-tit --> A-těný		LINK ALREADY PRESENT
+
+procítit	procítěný	V-tit --> A-těný		LINK ALREADY PRESENT
+
+rozpečetit	rozpečetěný	V-tit --> A-těný		LINK ALREADY PRESENT
+
+ukuchtit	ukuchtěný	V-tit --> A-těný		LINK ALREADY PRESENT
+
+vycítit	vycítěný	V-tit --> A-těný		LINK ALREADY PRESENT
+
+vyfintit	vyfintěný	V-tit --> A-těný		LINK ALREADY PRESENT
+
+vyšlechtit	vyšlechtěný	V-tit --> A-těný		LINK ALREADY PRESENT
+
+zapečetit	zapečetěný	V-tit --> A-těný		LINK ALREADY PRESENT
+
+zaštítit	zaštítěný	V-tit --> A-těný		LINK ALREADY PRESENT
+
+zpečetit	zpečetěný	V-tit --> A-těný		LINK ALREADY PRESENT
+
+zušlechtit	zušlechtěný	V-tit --> A-těný		LINK ALREADY PRESENT
+
+
+
+defenziva	defenzivní	N-a --> A-ní		
+
+defenzíva	defenzívní	N-a --> A-ní		
+
+kapitula	kapitulní	N-a --> A-ní		
+
+koruna	korunní	N-a --> A-ní		
+
+maškara	maškarní	N-a --> A-ní		
+
+ofenziva	ofenzivní	N-a --> A-ní		
+
+ofenzíva	ofenzívní	N-a --> A-ní		
+
+pára	parní	N-a --> A-ní	CHANGE: á -> a	
+
+protiofenzíva	protiofenzívní	N-a --> A-ní		
+
+váha	vážní	N-a --> A-ní	CHANGE: h -> ž	
+
+zahrada	zahradní	N-a --> A-ní		
+
+cpát	cpaný	V-át --> A-aný		LINK ALREADY PRESENT
+
+hrát	hraný	V-át --> A-aný		LINK ALREADY PRESENT
+
+lhát	lhaný	V-át --> A-aný		LINK ALREADY PRESENT
+
+nahrát	nahraný	V-át --> A-aný		LINK ALREADY PRESENT
+
+psát	psaný	V-át --> A-aný		LINK ALREADY PRESENT
+
+přehrát	přehraný	V-át --> A-aný		LINK ALREADY PRESENT
+
+rvát	rvaný	V-át --> A-aný		LINK ALREADY PRESENT
+
+vyhrát	vyhraný	V-át --> A-aný		LINK ALREADY PRESENT
+
+zahrát	zahraný	V-át --> A-aný		LINK ALREADY PRESENT
+
+zvát	zvaný	V-át --> A-aný		LINK ALREADY PRESENT
+
+řvát	řvaný	V-át --> A-aný		LINK ALREADY PRESENT
+
+žrát	žraný	V-át --> A-aný		LINK ALREADY PRESENT
+
+
+dožrat	dožraný	V-at --> A-aný		LINK ALREADY PRESENT
+
+nažrat	nažraný	V-at --> A-aný		LINK ALREADY PRESENT
+
+požrat	požraný	V-at --> A-aný		LINK ALREADY PRESENT
+
+prožrat	prožraný	V-at --> A-aný		LINK ALREADY PRESENT
+
+přežrat	přežraný	V-at --> A-aný		LINK ALREADY PRESENT
+
+rozežrat	rozežraný	V-at --> A-aný		LINK ALREADY PRESENT
+
+rozesrat	rozesraný	V-at --> A-aný		
+
+sežrat	sežraný	V-at --> A-aný		LINK ALREADY PRESENT
+
+udat	udaný	V-at --> A-aný		LINK ALREADY PRESENT
+
+vyžrat	vyžraný	V-at --> A-aný		LINK ALREADY PRESENT
+
+zažrat	zažraný	V-at --> A-aný		LINK ALREADY PRESENT
+
+
+avokádo	avokádový	N-o --> A-ový		
+
+
+dělo	dělový	N-o --> A-ový		
+
+péro	pérový	N-o --> A-ový		
+
+piano	pianový	N-o --> A-ový		
+
+ramínko	ramínkový	N-o --> A-ový		
+
+sluníčko	sluníčkový	N-o --> A-ový		
+
+srdíčko	srdíčkový	N-o --> A-ový		
+
+umyvadlo	umyvadlový	N-o --> A-ový		
+
+znamínko	znamínkový	N-o --> A-ový		
+
+zvířátko	zvířátkový	N-o --> A-ový		
+
+
+dovážet	dovážený	V-žet --> A-žený		
+dovážit	dovážený	V-it --> A-ený		
+
+navážet	navážený	V-žet --> A-žený		
+navážit	navážený	V-it --> A-ený		
+
+odvážet	odvážený	V-žet --> A-žený		
+
+převážet	převážený	V-žet --> A-žený		
+převážit	převážený	V-it --> A-ený		
+
+přivážet	přivážený	V-žet --> A-žený		
+přivážit	přivážený	V-it --> A-ený		
+
+rozvážet	rozvážený	V-žet --> A-žený		
+rozvážit	rozvážený	V-it --> A-ený		
+
+svážet	svážený	V-et --> A-ený		
+
+uvážit	uvážený	V-it --> A-ený		LINK ALREADY PRESENT
+
+vyvážet	vyvážený	V-žet --> A-žený		
+vyvážit	vyvážený	V-it --> A-ený		
+
+zamlžet	zamlžený	V-žet --> A-žený		
+zamlžit	zamlžený	V-it --> A-ený		LINK ALREADY PRESENT
+
+ztížit	ztížený	V-it --> A-ený		LINK ALREADY PRESENT
+
+
+
+navodit	navozený	V-dit --> A-zený		LINK ALREADY PRESENT
+
+odradit	odrazený	V-dit --> A-zený		LINK ALREADY PRESENT
+
+odvodit	odvozený	V-dit --> A-zený		LINK ALREADY PRESENT
+
+podřadit	podřazený	V-dit --> A-zený		LINK ALREADY PRESENT
+
+poradit	porazený	V-dit --> A-zený		LINK ALREADY PRESENT
+
+rozřadit	rozřazený	V-dit --> A-zený		LINK ALREADY PRESENT
+
+vřadit	vřazený	V-dit --> A-zený		LINK ALREADY PRESENT
+
+vyřadit	vyřazený	V-dit --> A-zený		
+
+vyvodit	vyvozený	V-dit --> A-zený		LINK ALREADY PRESENT
+
+zařadit	zařazený	V-dit --> A-zený		LINK ALREADY PRESENT
+
+zasadit	zasazený	V-dit --> A-zený		
+
+nastavit	nastavitelný	V-t --> A-telný		LINK ALREADY PRESENT
+nastavět	nastavitelný	V-ět --> A-itelný		
+
+pít	pitelný	V-t --> A-telný	CHANGE: í -> i	LINK ALREADY PRESENT
+
+přestavit	přestavitelný	V-t --> A-telný		
+přestavět	přestavitelný	V-ět --> A-itelný		
+
+stavit	stavitelný	V-t --> A-telný		LINK ALREADY PRESENT
+stavět	stavitelný	V-ět --> A-itelný		
+
+vystavit	vystavitelný	V-t --> A-telný		
+vystavět	vystavitelný	V-ět --> A-itelný		
+
+zastavit	zastavitelný	V-t --> A-telný		
+zastavět	zastavitelný	V-ět --> A-itelný		
+
+zmocnit	zmocnitelný	V-t --> A-telný		
+zmocnět	zmocnitelný	V-ět --> A-itelný		LINK ALREADY PRESENT
+
+zmírnit	zmírnitelný	V-t --> A-telný		
+zmírnět	zmírnitelný	V-ět --> A-itelný		LINK ALREADY PRESENT
+
+zpochybnit	zpochybnitelný	V-t --> A-telný		
+zpochybnět	zpochybnitelný	V-ět --> A-itelný		LINK ALREADY PRESENT
+
+ztupit	ztupitelný	V-t --> A-telný		LINK ALREADY PRESENT
+ztupět	ztupitelný	V-ět --> A-itelný		
+
+zveřejnit	zveřejnitelný	V-t --> A-telný		
+zveřejnět	zveřejnitelný	V-ět --> A-itelný		LINK ALREADY PRESENT
+
+
+
+napouštět	napouštěný	V-ět --> A-ěný		LINK ALREADY PRESENT
+
+opouštět	opouštěný	V-ět --> A-ěný		LINK ALREADY PRESENT
+
+popouštět	popouštěný	V-ět --> A-ěný		LINK ALREADY PRESENT
+
+propouštět	propouštěný	V-ět --> A-ěný		LINK ALREADY PRESENT
+
+přepouštět	přepouštěný	V-ět --> A-ěný		LINK ALREADY PRESENT
+
+připouštět	připouštěný	V-ět --> A-ěný		LINK ALREADY PRESENT
+
+rozpouštět	rozpouštěný	V-ět --> A-ěný		LINK ALREADY PRESENT
+
+upouštět	upouštěný	V-ět --> A-ěný		LINK ALREADY PRESENT
+
+vpouštět	vpouštěný	V-ět --> A-ěný		LINK ALREADY PRESENT
+
+vypouštět	vypouštěný	V-ět --> A-ěný		LINK ALREADY PRESENT
+
+zapouštět	zapouštěný	V-ět --> A-ěný		LINK ALREADY PRESENT
+
+hnát	hnací	V-át --> A-ací		
+
+hrát	hrací	V-át --> A-ací		
+
+prát	prací	V-át --> A-ací		
+
+přát	přací	V-át --> A-ací		
+
+psát	psací	V-át --> A-ací		
+
+spát	spací	V-át --> A-ací		
+
+sát	sací	V-át --> A-ací		
+
+tkát	tkací	V-át --> A-ací		
+
+zvát	zvací	V-át --> A-ací		
+
+žrát	žrací	V-át --> A-ací		
+
+
+bambule	bambulovitý	N-e --> A-ovitý		
+
+boule	boulovitý	N-e --> A-ovitý		
+
+kaše	kašovitý	N-e --> A-ovitý		
+
+kule	kulovitý	N-e --> A-ovitý		
+
+kopule	kopulovitý	N-e --> A-ovitý		
+
+kůže	kožovitý	N-e --> A-ovitý	CHANGE: ů -> o	
+
+mísa	mísovitý	N-a --> A-ovitý		
+
+
+tabule	tabulovitý	N-e --> A-ovitý		
+
+
+dovézt	dovezený	V-ézt --> A-ezený		LINK ALREADY PRESENT
+
+lézt	lezený	V-ézt --> A-ezený		LINK ALREADY PRESENT
+
+navézt	navezený	V-ézt --> A-ezený		LINK ALREADY PRESENT
+
+odvézt	odvezený	V-ézt --> A-ezený		LINK ALREADY PRESENT
+
+prolézt	prolezený	V-ézt --> A-ezený		LINK ALREADY PRESENT
+
+převézt	převezený	V-ézt --> A-ezený		LINK ALREADY PRESENT
+
+slézt	slezený	V-ézt --> A-ezený		LINK ALREADY PRESENT
+
+svézt	svezený	V-ézt --> A-ezený		LINK ALREADY PRESENT
+
+vyvézt	vyvezený	V-ézt --> A-ezený		LINK ALREADY PRESENT
+
+zalézt	zalezený	V-ézt --> A-ezený		LINK ALREADY PRESENT
+
+zavézt	zavezený	V-ézt --> A-ezený		LINK ALREADY PRESENT
+
+
+moře	mořský	N-e --> A-ský		
+
+
+
+véda	védský	N-a --> A-ský		
+
+
+naleštit	naleštěný	V-štit --> A-štěný		LINK ALREADY PRESENT
+
+odlidštit	odlidštěný	V-štit --> A-štěný		LINK ALREADY PRESENT
+
+odmrštit	odmrštěný	V-štit --> A-štěný		LINK ALREADY PRESENT
+
+opláštit	opláštěný	V-štit --> A-štěný		LINK ALREADY PRESENT
+
+polidštit	polidštěný	V-štit --> A-štěný		LINK ALREADY PRESENT
+
+přeleštit	přeleštěný	V-štit --> A-štěný		LINK ALREADY PRESENT
+
+vyleštit	vyleštěný	V-štit --> A-štěný		LINK ALREADY PRESENT
+
+vyluštit	vyluštěný	V-štit --> A-štěný		LINK ALREADY PRESENT
+
+vymrštit	vymrštěný	V-štit --> A-štěný		LINK ALREADY PRESENT
+
+vytřeštit	vytřeštěný	V-štit --> A-štěný		LINK ALREADY PRESENT
+
+předpovědět	předpověděný	V-ět --> A-ěný		LINK ALREADY PRESENT
+
+trpět	trpěný	V-ět --> A-ěný		LINK ALREADY PRESENT
+
+vidět	viděný	V-ět --> A-ěný		LINK ALREADY PRESENT
+
+vrtět	vrtěný	V-ět --> A-ěný		LINK ALREADY PRESENT
+
+zahledět	zahleděný	V-ět --> A-ěný		LINK ALREADY PRESENT
+
+zasvištět	zasvištěný	V-ět --> A-ěný		LINK ALREADY PRESENT
+
+zintenzívnět	zintenzívněný	V-ět --> A-ěný		
+
+zodpovědět	zodpověděný	V-ět --> A-ěný		LINK ALREADY PRESENT
+
+zpřísnět	zpřísněný	V-ět --> A-ěný		
+
+
+narážet	narážený	V-žet --> A-žený		LINK ALREADY PRESENT
+
+odrážet	odrážený	V-žet --> A-žený		LINK ALREADY PRESENT
+
+porážet	porážený	V-žet --> A-žený		LINK ALREADY PRESENT
+
+povyrážet	povyrážený	V-žet --> A-žený		LINK ALREADY PRESENT
+
+prorážet	prorážený	V-žet --> A-žený		LINK ALREADY PRESENT
+
+rozrážet	rozrážený	V-žet --> A-žený		LINK ALREADY PRESENT
+
+srážet	srážený	V-žet --> A-žený		LINK ALREADY PRESENT
+
+urážet	urážený	V-žet --> A-žený		LINK ALREADY PRESENT
+
+vyrážet	vyrážený	V-žet --> A-žený		
+
+zarážet	zarážený	V-žet --> A-žený		LINK ALREADY PRESENT
+
+
+navěsit	navěšený	V-sit --> A-šený		LINK ALREADY PRESENT
+navěšet	navěšený	V-et --> A-ený		
+
+ohlásit	ohlášený	V-sit --> A-šený		LINK ALREADY PRESENT
+
+ověsit	ověšený	V-sit --> A-šený		LINK ALREADY PRESENT
+ověšet	ověšený	V-et --> A-ený		
+
+pokusit	pokušený	V-sit --> A-šený		LINK ALREADY PRESENT
+
+rozvěsit	rozvěšený	V-sit --> A-šený		LINK ALREADY PRESENT
+rozvěšet	rozvěšený	V-et --> A-ený		
+
+vyhlásit	vyhlášený	V-sit --> A-šený		LINK ALREADY PRESENT
+
+věsit	věšený	V-sit --> A-šený		LINK ALREADY PRESENT
+věšet	věšený	V-et --> A-ený		
+
+zavěsit	zavěšený	V-sit --> A-šený		LINK ALREADY PRESENT
+zavěšet	zavěšený	V-et --> A-ený		
+
+zkusit	zkušený	V-sit --> A-šený		
+
+
+
+natisknout	natištěný	V-sknout --> A-štěný		LINK ALREADY PRESENT
+
+otisknout	otištěný	V-sknout --> A-štěný		LINK ALREADY PRESENT
+
+potisknout	potištěný	V-sknout --> A-štěný		LINK ALREADY PRESENT
+
+předtisknout	předtištěný	V-sknout --> A-štěný		LINK ALREADY PRESENT
+
+přetisknout	přetištěný	V-sknout --> A-štěný		LINK ALREADY PRESENT
+
+přitisknout	přitištěný	V-sknout --> A-štěný		LINK ALREADY PRESENT
+
+tisknout	tištěný	V-sknout --> A-štěný		LINK ALREADY PRESENT
+
+vtisknout	vtištěný	V-sknout --> A-štěný		LINK ALREADY PRESENT
+
+vytisknout	vytištěný	V-sknout --> A-štěný		LINK ALREADY PRESENT
+
+
+
+Blata	blatský	N-a --> A-ský		
+
+Lima	limský	N-a --> A-ský		
+
+odbrzdit	odbrzděný	V-zdit --> A-zděný		LINK ALREADY PRESENT
+
+rozbrázdit	rozbrázděný	V-zdit --> A-zděný		LINK ALREADY PRESENT
+
+uhnízdit	uhnízděný	V-zdit --> A-zděný		LINK ALREADY PRESENT
+
+zabrzdit	zabrzděný	V-zdit --> A-zděný		LINK ALREADY PRESENT
+
+zahnízdit	zahnízděný	V-zdit --> A-zděný		LINK ALREADY PRESENT
+
+zbrzdit	zbrzděný	V-zdit --> A-zděný		LINK ALREADY PRESENT
+
+zbrázdit	zbrázděný	V-zdit --> A-zděný		LINK ALREADY PRESENT
+
+zhyzdit	zhyzděný	V-zdit --> A-zděný		LINK ALREADY PRESENT
+
+zohyzdit	zohyzděný	V-zdit --> A-zděný		LINK ALREADY PRESENT
+
+
+nastat	nastalý	V-t --> A-lý		LINK ALREADY PRESENT
+
+přestát	přestálý	V-t --> A-lý		LINK ALREADY PRESENT
+
+rozechvít	rozechvělý	V-t --> A-lý	CHANGE: í -> ě	
+rozechvět	rozechvělý	V-t --> A-lý		
+
+setmít	setmělý	V-t --> A-lý	CHANGE: í -> ě	
+setmět	setmělý	V-t --> A-lý		
+
+skvít	skvělý	V-t --> A-lý	CHANGE: í -> ě	
+skvět	skvělý	V-t --> A-lý		
+
+udát	událý	V-t --> A-lý		
+
+ustat	ustalý	V-t --> A-lý		LINK ALREADY PRESENT
+
+vstát	vstalý	V-t --> A-lý	CHANGE: á -> a	LINK ALREADY PRESENT
+
+zatmít	zatmělý	V-t --> A-lý	CHANGE: í -> ě	
+zatmět	zatmělý	V-t --> A-lý		
+
+
+chlapec	chlapecký	N-c --> A-cký		
+
+písek	písecký	N-k --> A-cký		
+
+světec	světecký	N-c --> A-cký		
+
+
+krýt	krytý	V-ýt --> A-ytý		LINK ALREADY PRESENT
+
+mýt	mytý	V-ýt --> A-ytý		LINK ALREADY PRESENT
+
+nabýt	nabytý	V-ýt --> A-ytý		LINK ALREADY PRESENT
+
+omýt	omytý	V-ýt --> A-ytý		LINK ALREADY PRESENT
+
+pozbýt	pozbytý	V-ýt --> A-ytý		LINK ALREADY PRESENT
+
+rýt	rytý	V-ýt --> A-ytý		LINK ALREADY PRESENT
+
+umýt	umytý	V-ýt --> A-ytý		LINK ALREADY PRESENT
+
+výt	vytý	V-ýt --> A-ytý		LINK ALREADY PRESENT
+
+
+
+folie	foliový	N-e --> A-ový		
+
+mumie	mumiový	N-e --> A-ový		
+
+studio	studiový	N-o --> A-ový		
+
+fantastika	fantastický	N-ka --> A-cký		
+
+múza	múzický	N-a --> A-ický		
+
+antika	antický	N-ka --> A-cký		
+
+gymnastika	gymnastický	N-ka --> A-cký		
+
+metafora	metaforický	N-a --> A-ický		
+
+poetika	poetický	N-ka --> A-cký		
+
+robotika	robotický	N-ka --> A-cký		
+
+termika	termický	N-ka --> A-cký		
+
+
+
+dostavět	dostavěný	V-ět --> A-ěný		
+
+dunět	duněný	V-ět --> A-ěný		LINK ALREADY PRESENT
+
+pohánět	poháněný	V-ět --> A-ěný		LINK ALREADY PRESENT
+
+svědět	svěděný	V-ět --> A-ěný		
+
+vystavět	vystavěný	V-ět --> A-ěný		LINK ALREADY PRESENT
+
+vědět	věděný	V-ět --> A-ěný		LINK ALREADY PRESENT
+
+zastavět	zastavěný	V-ět --> A-ěný		LINK ALREADY PRESENT
+
+klást	kladený	V-ást --> A-adený		LINK ALREADY PRESENT
+
+krást	kradený	V-ást --> A-adený		LINK ALREADY PRESENT
+
+naklást	nakladený	V-ást --> A-adený		LINK ALREADY PRESENT
+
+nakrást	nakradený	V-ást --> A-adený		LINK ALREADY PRESENT
+
+okrást	okradený	V-ást --> A-adený		LINK ALREADY PRESENT
+
+ukrást	ukradený	V-ást --> A-adený		LINK ALREADY PRESENT
+
+vykrást	vykradený	V-ást --> A-adený		LINK ALREADY PRESENT
+
+
+
+mnoho	množný	N-o --> A-ný	CHANGE: h -> ž	
+
+rána	ranný	N-a --> A-ný	CHANGE: á -> a	
+
+síla	silný	N-a --> A-ný	CHANGE: í -> i	
+
+vina	vinný	N-a --> A-ný		
+víno	vinný	N-o --> A-ný	CHANGE: í -> i	
+
+vrátit	vratný	V-it --> A-ný	CHANGE: á -> a	
+
+vrata	vrátný	N-a --> A-ný	CHANGE: a -> á	
+
+
+
+odpovědět	odpovědný	V-ět --> A-ný		
+
+
+
+vrtat	vrtný	V-at --> A-ný		
+
+
+zodpovědět	zodpovědný	V-ět --> A-ný		
+
+
+
+dřevo	dřevní	N-o --> A-ní		
+
+fara	farní	N-a --> A-ní		
+
+právo	právní	N-o --> A-ní		
+
+prso	prsní	N-o --> A-ní		
+
+rezerva	rezervní	N-a --> A-ní		
+
+tělo	tělní	N-o --> A-ní		
+
+
+
+okoušet	okoušený	V-et --> A-ený		LINK ALREADY PRESENT
+
+ozkoušet	ozkoušený	V-et --> A-ený		LINK ALREADY PRESENT
+
+pokoušet	pokoušený	V-et --> A-ený		LINK ALREADY PRESENT
+
+vyzkoušet	vyzkoušený	V-et --> A-ený		LINK ALREADY PRESENT
+
+zakoušet	zakoušený	V-et --> A-ený		LINK ALREADY PRESENT
+
+zhášet	zhášený	V-et --> A-ený		
+
+zkoušet	zkoušený	V-et --> A-ený		LINK ALREADY PRESENT
+
+
+plést	pletený	V-ést --> A-etený		LINK ALREADY PRESENT
+
+poplést	popletený	V-ést --> A-etený		LINK ALREADY PRESENT
+
+smést	smetený	V-ést --> A-etený		LINK ALREADY PRESENT
+
+splést	spletený	V-ést --> A-etený		LINK ALREADY PRESENT
+
+umést	umetený	V-ést --> A-etený		LINK ALREADY PRESENT
+
+zamést	zametený	V-ést --> A-etený		LINK ALREADY PRESENT
+
+zaplést	zapletený	V-ést --> A-etený		LINK ALREADY PRESENT
+
+
+
+platit	platný	V-it --> A-ný		
+
+proso	prosný	N-o --> A-ný		
+
+čelo	čelný	N-o --> A-ný		
+
+živit	živný	V-it --> A-ný		
+
+
+---------------------------------
+bít	bicí	V-ít --> A-icí		
+
+dojit	dojicí	V-t --> A-cí		
+
+křtít	křticí	V-t --> A-cí	CHANGE: í -> i	
+
+lít	licí	V-ít --> A-icí		
+
+pružit	pružicí	V-t --> A-cí		
+
+zdít	zdicí	V-ít --> A-icí		
+
+šít	šicí	V-ít --> A-icí		
+
+
+držet	držený	V-žet --> A-žený		LINK ALREADY PRESENT
+
+naležet	naležený	V-žet --> A-žený		LINK ALREADY PRESENT
+
+odlehnout	odležený	V-hnout --> A-žený		
+odležet	odležený	V-et --> A-ený		LINK ALREADY PRESENT
+
+uležet	uležený	V-žet --> A-žený		LINK ALREADY PRESENT
+
+vydržet	vydržený	V-žet --> A-žený		LINK ALREADY PRESENT
+
+zadržet	zadržený	V-žet --> A-žený		LINK ALREADY PRESENT
+
+zaležet	zaležený	V-žet --> A-žený		LINK ALREADY PRESENT
+
+kobra	kobří	N-ra --> A-ří		
+
+můra	můří	N-ra --> A-ří		
+
+ondatra	ondatří	N-ra --> A-ří		
+
+vydra	vydří	N-ra --> A-ří		
+
+zebra	zebří	N-ra --> A-ří		
+
+
+
+astma	astmatický	N-a --> A-atický		
+
+charisma	charismatický	N-a --> A-atický		
+
+fanatik	fanatický	N-k --> A-cký		
+
+flegmatik	flegmatický	N-k --> A-cký		
+
+
+revma	revmatický	N-a --> A-atický		
+
+akácie	akáciový	N-e --> A-ový		
+
+galerie	galeriový	N-e --> A-ový		
+
+koule	koulový	N-e --> A-ový		
+
+pistácie	pistáciový	N-e --> A-ový		
+
+půle	půlový	N-e --> A-ový		
+
+
+bída	bídný	N-a --> A-ný		
+
+běda	bědný	N-a --> A-ný		
+
+míra	mírný	N-a --> A-ný		
+
+nevěra	nevěrný	N-a --> A-ný		
+
+kát	kalý	V-t --> A-lý	CHANGE: á -> a	
+
+líznout	lízlý	V-nout --> A-lý		
+
+stát	stálý	V-t --> A-lý		
+
+uvíznout	uvízlý	V-nout --> A-lý		
+
+zavinout	zavilý	V-nout --> A-lý		
+
+jezdit	ježděný	V-zdit --> A-žděný		LINK ALREADY PRESENT
+
+odbrzdit	odbržděný	V-zdit --> A-žděný		LINK ALREADY PRESENT
+
+opozdit	opožděný	V-zdit --> A-žděný		LINK ALREADY PRESENT
+
+ujezdit	uježděný	V-zdit --> A-žděný		LINK ALREADY PRESENT
+
+zabrzdit	zabržděný	V-zdit --> A-žděný		LINK ALREADY PRESENT
+
+zpozdit	zpožděný	V-zdit --> A-žděný		LINK ALREADY PRESENT
+
+
+půlit	půlený	V-it --> A-ený		LINK ALREADY PRESENT
+
+rozezlít	rozezlený	V-ít --> A-ený		LINK ALREADY PRESENT
+
+soužit	soužený	V-it --> A-ený		
+
+učit	učený	V-it --> A-ený		LINK ALREADY PRESENT
+
+zúžit	zúžený	V-it --> A-ený		LINK ALREADY PRESENT
+
+
+bušit	bušený	V-it --> A-ený		LINK ALREADY PRESENT
+
+ohlušit	ohlušený	V-it --> A-ený		LINK ALREADY PRESENT
+
+splašit	splašený	V-it --> A-ený		LINK ALREADY PRESENT
+
+utišit	utišený	V-it --> A-ený		LINK ALREADY PRESENT
+
+vyplašit	vyplašený	V-it --> A-ený		LINK ALREADY PRESENT
+
+ztišit	ztišený	V-it --> A-ený		LINK ALREADY PRESENT
+
+
+dolíčit	doličný	V-it --> A-ný	CHANGE: í -> i	
+
+příčit	příčný	V-it --> A-ný		
+
+vyznačit	význačný	V-it --> A-ný	CHANGE: y -> ý	
+
+značit	značný	V-it --> A-ný		
+
+zračit	zračný	V-it --> A-ný		
+
+
+kule	kulový	N-e --> A-ový		
+
+
+leštit	leštěný	V-štit --> A-štěný		LINK ALREADY PRESENT
+
+mrštit	mrštěný	V-štit --> A-štěný		LINK ALREADY PRESENT
+
+rozluštit	rozluštěný	V-štit --> A-štěný		LINK ALREADY PRESENT
+
+roztříštit	roztříštěný	V-štit --> A-štěný		LINK ALREADY PRESENT
+
+smrštit	smrštěný	V-štit --> A-štěný		LINK ALREADY PRESENT
+
+tříštit	tříštěný	V-štit --> A-štěný		LINK ALREADY PRESENT
+
+
+chtít	chtěný	V-ít --> A-ěný		LINK ALREADY PRESENT
+
+ctít	ctěný	V-ít --> A-ěný		LINK ALREADY PRESENT
+
+snít	sněný	V-ít --> A-ěný		LINK ALREADY PRESENT
+
+zdít	zděný	V-ít --> A-ěný		LINK ALREADY PRESENT
+
+znít	zněný	V-ít --> A-ěný		LINK ALREADY PRESENT
+
+
+
+bižuterie	bižuterní	N-ie --> A-ní		
+
+galanterie	galanterní	N-ie --> A-ní		
+
+kafilerie	kafilérní	N-ie --> A-ní	CHANGE: e -> é	
+
+pruderie	pruderní	N-ie --> A-ní		
+
+prudérie	prudérní	N-ie --> A-ní		
+
+
+kamzík	kamzičí	N-ík --> A-ičí		
+
+králík	králičí	N-ík --> A-ičí		
+
+slavík	slavičí	N-ík --> A-ičí		
+
+trpaslík	trpasličí	N-ík --> A-ičí		
+
+
+
+nuda	nudný	N-a --> A-ný		
+
+něha	něžný	N-a --> A-ný	CHANGE: h -> ž	
+
+píle	pilný	N-e --> A-ný	CHANGE: í -> i	
+
+tížit	tížný	V-it --> A-ný		
+
+divit	divný	V-it --> A-ný		
+
+omluva	omluvný	N-a --> A-ný		
+
+sestavit	sestavný	V-it --> A-ný		
+
+spása	spásný	N-a --> A-ný		
+
+
+blyštit	blyštivý	V-t --> A-vý		
+blyštět	blyštivý	V-ět --> A-ivý		
+
+chraptit	chraptivý	V-t --> A-vý		
+chraptět	chraptivý	V-ět --> A-ivý		
+
+svrbit	svrbivý	V-t --> A-vý		
+svrbět	svrbivý	V-ět --> A-ivý		
+
+svědit	svědivý	V-t --> A-vý		
+svědět	svědivý	V-ět --> A-ivý		
+
+vrásnit	vrásnivý	V-t --> A-vý		
+vrásnět	vrásnivý	V-ět --> A-ivý		
+
+
+klasika	klasický	N-ka --> A-cký		
+
+komika	komický	N-ka --> A-cký		
+
+lyrika	lyrický	N-ka --> A-cký		
+
+metodika	metodický	N-ka --> A-cký		
+
+psychika	psychický	N-ka --> A-cký		
+
+
+bránit	branný	V-it --> A-ný	CHANGE: á -> a	
+
+směnit	směnný	V-it --> A-ný		
+
+snaha	snažný	N-a --> A-ný	CHANGE: h -> ž	
+
+vada	vadný	N-a --> A-ný		
+
+činit	činný	V-it --> A-ný		
+
+
+
+bába	babí	N-a --> A-í	CHANGE: á -> a	
+
+lama	lamí	N-a --> A-í		
+
+mula	mulí	N-a --> A-í		
+
+sova	soví	N-a --> A-í		
+
+víla	vílí	N-a --> A-í		
+
+
+
+Buddha	buddhovský	N-a --> A-ovský		
+
+Mácha	máchovský	N-a --> A-ovský		
+
+sluha	sluhovský	N-a --> A-ovský		
+
+slouha	slouhovský	N-a --> A-ovský		
+
+
+hora	hornatý	N-a --> A-natý		
+
+hříva	hřivnatý	N-a --> A-natý	CHANGE: í -> i	
+
+hříva	hřívnatý	N-a --> A-natý		
+
+kůra	kornatý	N-a --> A-natý	CHANGE: ů -> o	
+
+
+
+nastavit	nástavný	V-it --> A-ný	CHANGE: a -> á	
+nastavět	nástavný	V-ět --> A-ný	CHANGE: a -> á	
+
+ozdravit	ozdravný	V-it --> A-ný		
+ozdravět	ozdravný	V-ět --> A-ný		
+
+přestavit	přístavný	V-it --> A-ný	CHANGE: e -> í	
+přestavět	přístavný	V-ět --> A-ný	CHANGE: e -> í	
+
+vestavit	vestavný	V-it --> A-ný		
+vestavět	vestavný	V-ět --> A-ný		
+
+
+
+pneuma	pneumatický	N-a --> A-atický		
+
+schéma	schematický	N-a --> A-atický	CHANGE: é -> e	
+
+téma	tematický	N-a --> A-atický	CHANGE: é -> e	
+
+téma	tématický	N-a --> A-atický		
+
+
+obilí	obilný	N-í --> A-ný		
+
+huba	hubatý	N-a --> A-atý		
+
+lučina	lučinatý	N-a --> A-atý		
+
+
+báje	bájný	N-e --> A-ný		
+
+lovit	lovný	V-it --> A-ný		
+
+těžit	těžný	V-it --> A-ný		
+
+
+dusit	dušný	V-it --> A-ný	CHANGE: s -> š	
+
+padat	pádný	V-at --> A-ný	CHANGE: a -> á	
+vůle	volný	N-e --> A-ný	CHANGE: ů -> o	
+
+vertikála	vertikální	N-a --> A-ní		
+
+
+Lány	lánský	N-y --> A-ský		
+
+krýt	kryjící	V-ýt --> A-yjící		LINK ALREADY PRESENT
+
+rýt	ryjící	V-ýt --> A-yjící		LINK ALREADY PRESENT
+
+týt	tyjící	V-ýt --> A-yjící		LINK ALREADY PRESENT
+
+
+pít	pitý	V-ít --> A-itý		LINK ALREADY PRESENT
+
+prošít	prošitý	V-ít --> A-itý		LINK ALREADY PRESENT
+
+ušít	ušitý	V-ít --> A-itý		LINK ALREADY PRESENT
+
+zlít	zlitý	V-ít --> A-itý		
+
+
+Sodoma	sodomský	N-a --> A-ský		
+
+junák	junácký	N-k --> A-cký		
+
+koňák	koňácký	N-k --> A-cký		
+
+pasák	pasácký	N-k --> A-cký		
+
+
+dírka	dírkovaný	N-a --> A-ovaný		
+
+kostka	kostkovaný	N-a --> A-ovaný		
+
+manikúra	manikúrovaný	N-a --> A-ovaný		
+
+suma	sumovaný	N-a --> A-ovaný		
+
+
+blata	blatný	N-a --> A-ný		
+dřevo	dřevný	N-o --> A-ný		
+
+maso	masný	N-o --> A-ný		
+
+železo	železný	N-o --> A-ný		
+
+
+spěchat	spěšný	V-at --> A-ný	CHANGE: ch -> š	
+
+
+prasknout	prasklý	V-nout --> A-lý		
+užasnout	užaslý	V-nout --> A-lý		
+
+vybuchnout	vybuchlý	V-nout --> A-lý		
+
+vyprahnout	vyprahlý	V-nout --> A-lý		
+krupice	krupičný	N-e --> A-ný	CHANGE: c -> č	
+
+stolice	stoličný	N-e --> A-ný	CHANGE: c -> č	
+vinice	viničný	N-e --> A-ný	CHANGE: c -> č	
+
+živice	živičný	N-e --> A-ný	CHANGE: c -> č	
+
+
+
+luka	luční	N-a --> A-ní	CHANGE: k -> č	
+
+noha	nožní	N-a --> A-ní	CHANGE: h -> ž	
+voda	vodní	N-a --> A-ní		
+předpovědět	předpověditelný	V-ět --> A-itelný		LINK ALREADY PRESENT
+
+vidět	viditelný	V-ět --> A-itelný		LINK ALREADY PRESENT
+
+zodpovědět	zodpověditelný	V-ět --> A-itelný		LINK ALREADY PRESENT
+
+
+náprava	nápravní	N-a --> A-ní		
+spotřeba	spotřební	N-a --> A-ní		
+
+
+Bermudy	bermudský	N-y --> A-ský		
+
+Filipíny	filipínský	N-y --> A-ský		
+
+Kyklady	kykladský	N-y --> A-ský		
+kuna	kuní	N-a --> A-í		
+oko	oční	N-o --> A-ní	CHANGE: k -> č	
+
+křídlo	křídlatý	N-o --> A-atý		
+
+prso	prsatý	N-o --> A-atý		
+
+
+
+Biela	bielský	N-a --> A-ský		
+dřevo	dřevěný	N-o --> A-ěný		
+
+práče	práčský	N-e --> A-ský		
+
+krýt	krycí	V-ýt --> A-ycí		
+
+mýt	mycí	V-ýt --> A-ycí		
+
+rýt	rycí	V-ýt --> A-ycí		
+
+
+
+koulet	koulivý	V-et --> A-ivý		
+
+myslet	myslivý	V-et --> A-ivý		
+myslit	myslivý	V-t --> A-vý		
+
+skučet	skučivý	V-et --> A-ivý		
+hlíza	hlíznatý	N-a --> A-natý		
+
+pára	parnatý	N-a --> A-natý	CHANGE: á -> a	
+
+
+nutkat	nutkavý	V-t --> A-vý		
+
+praskat	praskavý	V-t --> A-vý		
+práskat	práskavý	V-t --> A-vý		
+
+
+mincovna	mincovní	N-a --> A-í		
+
+práce	pracovní	N-e --> A-ovní	CHANGE: á -> a	
+
+
+personálie	personální	N-ie --> A-ní		
+
+reálie	reální	N-ie --> A-ní		
+
+univerzálie	univerzální	N-ie --> A-ní		
+
+
+dojit	dojivý	V-t --> A-vý		
+
+pučet	pučivý	V-et --> A-ivý		
+
+brzdit	brzděný	V-zdit --> A-zděný		LINK ALREADY PRESENT
+
+brázdit	brázděný	V-zdit --> A-zděný		
+
+vyjezdit	vyjezděný	V-zdit --> A-zděný		LINK ALREADY PRESENT
+
+dominance	dominantní	N-ance --> A-antní		
+
+konstanta	konstantní	N-a --> A-ní		
+
+varianta	variantní	N-a --> A-ní		
+
+
+
+pít	pitný	V-ít --> A-itný		
+
+rozbít	rozbitný	V-ít --> A-itný		
+
+užít	užitný	V-ít --> A-itný		
+
+
+pohřbít	pohřbený	V-ít --> A-ený		LINK ALREADY PRESENT
+
+tlít	tlený	V-ít --> A-ený		LINK ALREADY PRESENT
+
+zaklít	zaklený	V-ít --> A-ený		LINK ALREADY PRESENT
+
+
+ničit	ničivý	V-t --> A-vý		
+
+odloučit	odlučivý	V-t --> A-vý	CHANGE: ou -> u	
+
+páčit	páčivý	V-t --> A-vý		
+
+
+
+dogma	dogmatický	N-a --> A-atický		
+
+drama	dramatický	N-a --> A-atický		
+
+
+Paka	packý	N-ka --> A-cký		
+
+lézt	lezoucí	V-t --> A-oucí	CHANGE: é -> e	LINK ALREADY PRESENT
+
+nést	nesoucí	V-t --> A-oucí	CHANGE: é -> e	LINK ALREADY PRESENT
+
+
+být	byvší	V-ýt --> A-yvší		LINK ALREADY PRESENT
+
+přibýt	přibyvší	V-ýt --> A-yvší		LINK ALREADY PRESENT
+
+
+
+rovnováha	rovnovážný	N-a --> A-ný	CHANGE: h -> ž	
+
+zasázet	zasázený	V-zet --> A-zený		LINK ALREADY PRESENT
+
+zradit	zrazený	V-dit --> A-zený		LINK ALREADY PRESENT
+
+přestavit	přestavný	V-it --> A-ný		
+přestavět	přestavný	V-ět --> A-ný		
+
+zavrtat	závrtný	V-at --> A-ný	CHANGE: a -> á	
+
+křapat	křaplavý	V-at --> A-lavý		
+
+škrabat	škrablavý	V-at --> A-lavý		
+
+
+
+
+trvání	trvanlivý	N-ání --> A-anlivý		
+zoufání	zoufanlivý	N-í --> A-livý	CHANGE: á -> a	
+
+
+
+místo	místný	N-o --> A-ný		
+
+zelí	zelný	N-í --> A-ný		
+
+
+zlidštit	zlidštěný	V-tit --> A-těný		LINK ALREADY PRESENT
+zlidštět	zlidštěný	V-ět --> A-ěný		
+
+zploštit	zploštěný	V-štit --> A-štěný		LINK ALREADY PRESENT
+zploštět	zploštěný	V-ět --> A-ěný		
+
+
+
+čarovat	čarovný	V-at --> A-ný		
+
+
+kozle	kozlečí	N-e --> A-ečí		
+
+kůzle	kůzlečí	N-e --> A-ečí		
+
+
+projíždět	projížděný	V-ět --> A-ěný		LINK ALREADY PRESENT
+
+sjíždět	sjížděný	V-ět --> A-ěný		LINK ALREADY PRESENT
+
+
+poctít	poctěný	V-ít --> A-ěný		LINK ALREADY PRESENT
+
+pomstít	pomstěný	V-ít --> A-ěný		LINK ALREADY PRESENT
+
+
+audience	audienční	N-ence --> A-enční		LINK ALREADY PRESENT
+
+reagence	reagenční	N-ence --> A-enční		LINK ALREADY PRESENT
+
+obdoba	obdobný	N-a --> A-ný		
+
+vrba	vrbný	N-a --> A-ný		
+
+panic	panický	N-c --> A-cký		
+panika	panický	N-ika --> A-ický		
+
+statika	statický	N-ka --> A-cký		
+
+
+dout	dující	V-t --> A-jící	CHANGE: ou -> u	LINK ALREADY PRESENT
+
+tát	tající	V-t --> A-jící	CHANGE: á -> a	
+
+
+
+výstava	výstavný	N-a --> A-ný		
+
+zástava	zástavný	N-a --> A-ný		
+
+
+okleštit	okleštěný	V-tit --> A-těný		
+
+vykleštit	vykleštěný	V-tit --> A-těný		
+
+
+
+přidat	přidaný	V-at --> A-aný		
+
+využívat	využívaný	V-at --> A-aný		
+
+
+adheze	adhezivní	N-e --> A-ivní		
+
+exploze	explozivní	N-e --> A-ivní		
+nápověda	nápovědný	N-a --> A-ný		
+
+výzvěda	výzvědný	N-a --> A-ný		
+
+
+
+rozšiřovat	rozšiřovaný	V-at --> A-aný		LINK ALREADY PRESENT
+
+upevňovat	upevňovaný	V-at --> A-aný		LINK ALREADY PRESENT
+
+trpět	trpný	V-ět --> A-ný		
+
+
+mazlit	mazlivý	V-t --> A-vý		
+
+kašlat	kašlavý	V-t --> A-vý		
+
+piplat	piplavý	V-t --> A-vý		
+
+
+mladý	mladičký	A-ý --> A-ičký		
+
+starý	stařičký	A-ý --> A-ičký	CHANGE: r -> ř	
+
+
+Louka	loucký	N-ka --> A-cký		
+
+Paseka	pasecký	N-ka --> A-cký		
+
+nervóza	nervózní	N-a --> A-ní		
+
+vyjádřit	vyjádřený	V-it --> A-ený		LINK ALREADY PRESENT
+
+zastoupit	zastoupený	V-it --> A-ený		LINK ALREADY PRESENT
+
+věno	věnný	N-o --> A-ný		
+
+
+zašpičatit	zašpičatěný	V-tit --> A-těný		
+zašpičatět	zašpičatěný	V-ět --> A-ěný		LINK ALREADY PRESENT
+
+zkrabatit	zkrabatěný	V-tit --> A-těný		
+zkrabatět	zkrabatěný	V-ět --> A-ěný		LINK ALREADY PRESENT
+
+
+
+praštit	praštěný	V-štit --> A-štěný		LINK ALREADY PRESENT
+praštět	praštěný	V-ět --> A-ěný		
+
+svraštit	svraštěný	V-štit --> A-štěný		LINK ALREADY PRESENT
+svraštět	svraštěný	V-ět --> A-ěný		
+
+
+dělat	dělný	V-at --> A-ný		
+
+novic	novický	N-c --> A-cký		
+
+šlechtic	šlechtický	N-c --> A-cký		
+
+
+
+dole	dolní	D-e --> A-ní		
+
+Buda	budský	N-a --> A-ský		
+
+vězet	vězený	V-zet --> A-zený		
+vězit	vězený	V-it --> A-ený		
+
+zcizet	zcizený	V-zet --> A-zený		
+zcizit	zcizený	V-it --> A-ený		
+
+balistika	balistický	N-ka --> A-cký		
+
+statistika	statistický	N-ka --> A-cký		
+
+
+město	městský	N-o --> A-ský		
+
+rozechvít	rozechvěný	V-ít --> A-ěný		
+rozechvět	rozechvěný	V-ět --> A-ěný		LINK ALREADY PRESENT
+
+zatmít	zatměný	V-ít --> A-ěný		LINK ALREADY PRESENT
+zatmět	zatměný	V-ět --> A-ěný		
+
+
+brát	beroucí	V-rát --> A-eroucí		LINK ALREADY PRESENT
+
+žrát	žeroucí	V-rát --> A-eroucí		LINK ALREADY PRESENT
+
+
+
+nahlásit	nahlášený	V-sit --> A-šený		LINK ALREADY PRESENT
+
+spouštět	spouštěný	V-ět --> A-ěný		LINK ALREADY PRESENT
+
+malinký	malinkatý	A-inký --> A-inkatý		
+
+výt	vyjící	V-t --> A-jící	CHANGE: ý -> y	LINK ALREADY PRESENT
+
+provážet	provážený	V-žet --> A-žený		
+provážit	provážený	V-it --> A-ený		
+
+
+věda	vědný	N-a --> A-ný		
+
+měnit	měnlivý	V-it --> A-livý		
+
+mást	matený	V-ást --> A-atený		LINK ALREADY PRESENT
+
+
+slyšet	slyšitelný	V-et --> A-itelný		LINK ALREADY PRESENT
+
+
+zdání	zdánlivý	N-ání --> A-ánlivý		
+vyrábět	vyráběný	V-ět --> A-ěný		LINK ALREADY PRESENT
+
+
+žito	žitný	N-o --> A-ný		
+
+pivo	pivní	N-o --> A-ní		
+
+
+valit	valivý	V-t --> A-vý		
+ložit	ložený	V-it --> A-ený		LINK ALREADY PRESENT
+
+
+zvlášť	zvláštní	D-ť --> A-tní		
+
+
+vítat	vítaný	V-at --> A-aný		LINK ALREADY PRESENT
+
+
+teze	tezovitý	N-e --> A-ovitý		
+rozpršet	rozpršený	V-et --> A-ený		LINK ALREADY PRESENT
+
+rafinérie	rafinérský	N-ie --> A-ský		
+
+
+správce	správcovský	N-ce --> A-covský		
+přát	přejícný	V-át --> A-ejícný		
+
+
+chyba	chybný	N-a --> A-ný		
+klíčit	klíčivý	V-t --> A-vý		
+
+dívka	dívčí	N-a --> A-í	CHANGE: k -> č	
+
+záře	zářný	N-e --> A-ný		
+léno	lenní	N-o --> A-ní	CHANGE: é -> e	
+kupec	kupecký	N-c --> A-cký		
+
+očistit	očištěný	V-tit --> A-těný	CHANGE: s -> š	LINK ALREADY PRESENT
+
+kárat	kárný	V-at --> A-ný		
+ložit	ložný	V-it --> A-ný		
+
+
+exploze	explozívní	N-e --> A-ívní		
+uvážit	uvážlivý	V-it --> A-livý		
+
+píchat	pichlavý	V-at --> A-lavý	CHANGE: í -> i	
+očistit	očistěný	V-tit --> A-těný		LINK ALREADY PRESENT
+
+klikat	klikatelný	V-t --> A-telný		LINK ALREADY PRESENT
+sídliště	sídlištní	N-ě --> A-ní		
+
+rak	račí	N-k --> A-čí		
+Brdy	brdský	N-y --> A-ský		
+pára	parný	N-a --> A-ný	CHANGE: á -> a	
+
+bouře	bouřlivý	N-e --> A-livý		
+
+smola	smolnatý	N-a --> A-natý		
+smůla	smolnatý	N-a --> A-natý	CHANGE: ů -> o	
+
+otevřít	otevřevší	V-ít --> A-evší		LINK ALREADY PRESENT
+
+
+hůra	horní	N-a --> A-ní	CHANGE: ů -> o	
+
+míle	mílový	N-e --> A-ový		
+růže	růžovitý	N-e --> A-ovitý		
+dědic	dědický	N-c --> A-cký		
+bučet	bučivý	V-et --> A-ivý		
+
+někdy	někdejší	D-y --> A-ejší		
+
+vybuchnout	vybuchnuvší	V-out --> A-uvší		LINK ALREADY PRESENT
+plynárna	plynární	N-a --> A-í		
+zdržet	zdržený	V-žet --> A-žený		LINK ALREADY PRESENT
+pít	picí	V-ít --> A-icí		
+
+dusit	dušený	V-sit --> A-šený		LINK ALREADY PRESENT
+
+dát	davší	V-t --> A-vší	CHANGE: á -> a	LINK ALREADY PRESENT
+sázet	sázecí	V-t --> A-cí		
+
+mučit	mučivý	V-t --> A-vý		
+
+člověk	člověčí	N-k --> A-čí		
+odklížit	odklížený	V-it --> A-ený		
+brzdit	bržděný	V-zdit --> A-žděný		LINK ALREADY PRESENT
+představit	představitelný	V-t --> A-telný		
+hrčet	hrčivý	V-et --> A-ivý		
+
+zurčet	zurčivý	V-et --> A-ivý		
+zurčit	zurčivý	V-t --> A-vý		
+
+postihnout	postižený	V-hnout --> A-žený		LINK ALREADY PRESENT
+
+místo	místní	N-o --> A-ní		
+zavážet	zavážený	V-žet --> A-žený		
+zavážit	zavážený	V-it --> A-ený		
+
+
+zajistit	zajištěný	V-tit --> A-těný	CHANGE: s -> š	
+nutit	nucený	V-tit --> A-cený		LINK ALREADY PRESENT
+
+
+ráno	ranní	N-o --> A-ní	CHANGE: á -> a	
+tajemník	tajemnický	N-k --> A-cký	CHANGE: í -> i	
+hranice	hraničný	N-e --> A-ný	CHANGE: c -> č	
+
+ruka	ruční	N-a --> A-ní	CHANGE: k -> č	
+
+
+bulík	buličí	N-k --> A-čí	CHANGE: í -> i	
+škudlit	škudlivý	V-t --> A-vý		
+
+bílý	bělavý	A-ý --> A-avý	CHANGE: í -> ě	
+přijmout	přijatelný	V-mout --> A-atelný		LINK ALREADY PRESENT
+
+brát	braný	V-át --> A-aný		
+
+
+ležet	ležatý	V-et --> A-atý		
+pět	pěný	V-ět --> A-ěný		
+
+pustit	puštěný	V-tit --> A-těný	CHANGE: s -> š	LINK ALREADY PRESENT
+pálit	pálený	V-it --> A-ený		LINK ALREADY PRESENT
+ekonomika	ekonomický	N-ka --> A-cký		
+
+vlk	vlčí	N-k --> A-čí		
+
+páže	pážecí	N-e --> A-ecí		
+
+nadchnout	nadšený	V-chnout --> A-šený		LINK ALREADY PRESENT
+
+dojit	dojený	V-it --> A-ený		LINK ALREADY PRESENT
+kolo	kulatý	N-o --> A-atý	CHANGE: o -> u	
+sálat	sálavý	V-t --> A-vý		
+bouře	bouřný	N-e --> A-ný		
+omezit	omezený	V-zit --> A-zený		LINK ALREADY PRESENT
+politika	politický	N-ka --> A-cký		
+
+
+šlechtit	šlechtěný	V-tit --> A-těný		LINK ALREADY PRESENT
+
+mýto	mýtný	N-o --> A-ný		
+
+
+
