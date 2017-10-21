@@ -13,7 +13,7 @@ all: $(BASE).tsv
 slex: $(BASE).slex
 
 $(BASE).tsv $(BASE).slex: ../derinet-1-1/derinet-1-1.slex vallex_bracketed_all-fixed
-	derimor \
+	../derimor \
 	Load file="$<" \
 	CS::AddDerivationsFromTrees file=vallex_bracketed_all-fixed pos=V ignore_missing=1 \
 	Save file="$@" >log.txt 2>&1
@@ -22,13 +22,13 @@ missing-words.txt: $(BASE).slex
 	grep "Lexeme '.*' not found." < log.txt |sed -e "s/.*Lexeme '\([^']*\)' not found.*/\1/" > "$@"
 
 stats: # $(BASE).slex
-	derimor \
+	../derimor \
 	Load file=$(BASE).slex \
 	MeasurePrecisionRecall file=${ANNOT} ignore_composition=1 verbose=1 \
 	PrintStats singletons_file=singletons.tsv > stats-${RELVER}.txt 2>&1
 
 deadj:
-	derimor \
+	../derimor \
 	Load file=$(BASE).tsv \
 	PrintDeadjectivalDerivs > deadj-${RELVER}.tsv
 
