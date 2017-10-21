@@ -1,8 +1,10 @@
 export RELVER::=1-5b1
 export PERL5LIB::=$(CURDIR)/lib:$(PERL5LIB)
 export ANNOT::=../annot-devel.tsv
+export DERIMOR_MAIN_DIR::=$(CURDIR)
 
 MORFFLEX::=data/morfflex-cz.2016-11-15.utf8.lemmaID_suff-tag-form.tab.csv.xz
+MORPHODITA_MODEL::=data/models/morphodita/cs/czech-morfflex-161115.dict
 
 .PHONY: release build precision clean
 
@@ -10,7 +12,7 @@ release: build
 	$(MAKE) -C derinet-1-3 release
 	cp derinet-1-3/derinet-${RELVER}.tsv.gz .
 
-build: $(MORFFLEX)
+build: $(MORFFLEX) $(MORPHODITA_MODEL)
 	$(MAKE) -C derinet09 slex
 	$(MAKE) -C derinet091 slex
 	$(MAKE) -C derinet092 slex
@@ -23,6 +25,13 @@ precision: build
 
 data/morfflex-cz.2016-11-15.utf8.lemmaID_suff-tag-form.tab.csv.xz:
 	wget -O "$@" 'https://lindat.mff.cuni.cz/repository/xmlui/bitstream/handle/11234/1-1834/morfflex-cz.2016-11-15.utf8.lemmaID_suff-tag-form.tab.csv.xz?sequence=1&isAllowed=y'
+
+data/models/morphodita/cs/czech-morfflex-161115.dict: data/czech-morfflex-pdt-161115.zip
+	unzip -DD -j -d data/models/morphodita/cs/ "$<"
+
+data/czech-morfflex-pdt-161115.zip:
+        wget -O "$@" 'https://lindat.mff.cuni.cz/repository/xmlui/bitstream/handle/11234/1-1836/czech-morfflex-pdt-161115.zip?sequence=1&isAllowed=y'
+
 
 stats-0-10-0.txt stats-0-9.txt stats-0-9-2.txt: stats-%.txt:
 	./derimor \
