@@ -2,13 +2,15 @@ export RELVER::=1-5b1
 export PERL5LIB::=$(CURDIR)/lib:$(PERL5LIB)
 export ANNOT::=../annot-devel.tsv
 
+MORFFLEX::=data/morfflex-cz.2016-11-15.utf8.lemmaID_suff-tag-form.tab.csv.xz
+
 .PHONY: release build precision clean
 
 release: build
 	$(MAKE) -C derinet-1-3 release
 	cp derinet-1-3/derinet-${RELVER}.tsv.gz .
 
-build: data/morfflex-cz.2016-11-15.utf8.lemmaID_suff-tag-form.tab.csv.xz
+build: $(MORFFLEX)
 	$(MAKE) -C derinet09 slex
 	$(MAKE) -C derinet091 slex
 	$(MAKE) -C derinet092 slex
