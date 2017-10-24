@@ -6,7 +6,7 @@ This data was created in 2015 by Jonáš Vidra (`devel` and `eval1`) and Kristý
 
 See [Extending the Lexical Network DeriNet (Vidra, 2015)](https://is.cuni.cz/webapps/zzp/detail/165563/) for details.
 
-The evaluation tool that uses this data is called [manual-annotation-prec-recall.pl](tools/misc/manual-annotation-prec-recall.pl).
+The evaluation tool that uses this data is called [manual-annotation-prec-recall.pl](/tools/misc/manual-annotation-prec-recall.pl).
 
 ## Data format
 
