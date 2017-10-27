@@ -1,6 +1,7 @@
 package Treex::Tool::DerivMorpho::Block::PrintStats;
 use utf8;
 use Moose;
+use List::Util qw(sum max);
 
 extends 'Treex::Tool::DerivMorpho::Block';
 
@@ -11,6 +12,23 @@ has singletons_file => (
     isa => 'Str',
     documentation => q(filename for saving a list of all singleton clusters in the database)
 );
+
+sub mean {
+    return @_ ? sum(@_)/@_ : 0.0;
+}
+
+# Return the mean of {$value => $count_of_occurences}
+sub mean_histogram {
+    my %hist = %{shift()};
+    my $sum = 0;
+    my $count = 0;
+    foreach my $val (keys %hist) {
+        my $cnt = $hist{$val};
+        $sum += $val * $cnt;
+        $count += $cnt;
+    }
+    return $sum / $count;
+}
 
 sub process_dictionary {
     my ($self,$dict) = @_;
@@ -68,7 +86,7 @@ sub process_dictionary {
     my %touched;
     my %cluster_sizes;
     my %roots;
-    my $max_depth = 0;
+    my @depths;
     my $i;
 
     foreach my $lexeme ($dict->get_lexemes) {
@@ -87,7 +105,7 @@ sub process_dictionary {
                 last;
             }
         }
-        $max_depth = $depth if $depth > $max_depth;
+        push(@depths, $depth);
 
         if (not $touched{$lexeme}) {
             my $signature = $dict->_get_subtree_pos_signature($root,\%touched);
@@ -96,8 +114,10 @@ sub process_dictionary {
         }
     }
 
+    my $max_depth = max(@depths);
+
     my %sizes;
-    map { $sizes{$cluster_sizes{$_}}++; } keys %cluster_sizes;
+    map { $sizes{$_}++; } values %cluster_sizes;
     my @sorted_sizes = sort { $b <=> $a } keys %sizes;
 
     if ($self->singletons_file) {
@@ -112,6 +132,8 @@ sub process_dictionary {
         . "  Number of singleton clusters: " . $sizes{'1'} . "\n"
         . "  Number of clusters: " . scalar(keys %roots) . "\n"
         . "  Maximal cluster depth: $max_depth\n\n"
+        . "  Mean cluster size: " . mean_histogram(\%sizes) . "\n"
+        . "  Mean cluster depth: " . mean(@depths) . "\n"
         . "  Sizes of clusters:\n    " . join("\n    ", (map { "$_:\t" . $sizes{$_} } @sorted_sizes)) . "\n\n";
 
     print "  Types of derivational clusters:\n";
