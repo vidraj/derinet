@@ -203,7 +203,7 @@ class DeriNet(object):
         return [lexeme_info(self._data[lexeme_id])
                     for lexeme_id in lexeme_ids]
 
-    def get_ids(self, lemma, pos=None, morph=None):
+    def get_unsorted_ids(self, lemma, pos=None, morph=None):
         """
         Get a list of node ids given lemma and optionally 
         pos and morphological string.
@@ -234,6 +234,14 @@ class DeriNet(object):
                     return [lemma_pos_index[morph]]
                 return []
         return []
+
+    def get_ids(self, lemma, pos=None, morph=None):
+        """
+        Get a list of node ids given lemma and optionally 
+        pos and morphological string.
+        The list is sorted to ensure stability.
+        """
+        return sorted(self.get_unsorted_ids(lemma, pos, morph))
 
     def get_id(self, lemma, pos=None, morph=None):
         """
