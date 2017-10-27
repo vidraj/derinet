@@ -1,10 +1,7 @@
-all: clone 1.3 1.4
+all: derinet-1-4.tsv
 
-clone:
-	git clone https://github.com/tiefling-cat/derinet-python
+derinet-1-4.tsv: derinet-1-3.tsv
+	./create-1.4.py > log
 
-1.3:
-	wget http://ufal.mff.cuni.cz/~straka/derinet/derinet-1-3.tsv
-
-1.4:
-	export PYTHONPATH=$$PYTHONPATH:derinet-python && ./create-1.4.py > log
+derinet-1-3.tsv:
+	cp ../../../../data/releases/cs/derinet-1-3.tsv "./$@"
