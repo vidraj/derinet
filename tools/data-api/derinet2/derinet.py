@@ -535,6 +535,38 @@ class DeriNet(object):
             self.remove_derivation(child[0], parent[0], child_pos=child[1], parent_pos=parent[1],
                              child_morph=child[2], parent_morph=parent[2])
 
+    def find_lexeme_pair(self, source_lemma, source_pos, target_lemma, target_pos):
+        if (source_lemma is None or source_pos is None or target_lemma is None or target_pos is None)
+            return None, None
+
+        source_candidates = self.get_ids(source_lemma, source_pos)
+        target_candidates = self.get_ids(target_lemma, target_pos)
+
+        # If one of them doesn't exist, we have no clues as to which candidate from the others to choose. Return the first one.
+        if (len(source_candidates) == 0 or len(target_candidates) == 0):
+            return (source_candidates if len(source_candidates) > 0 else None,
+            target_candidates if len(target_candidates) > 0 else None)
+
+
+        if (len(source_candidates) == 1 and len(target_candidates) == 1):
+            return (source_candidates[0], target_candidates[0])
+
+
+        # Try to find one that is already connected. If it is there, return it.
+        for source_candidate in  source_candidates:
+            for target_candidate in target_candidates:
+                source_candidate = self._data[source_candidate]
+                target_candidate = self._data[target_candidate]
+                if target_candidate.parent_id != '' and target_candidate.parent_id == source_candidate.lex_id:
+                    return (source_candidate, target_candidate)
+
+        # TODO:  Try to find a pair with matching homonym numbers.
+
+        unconnected_targets = [target for target in target_candidates if self._data[target].parent_id == '']
+
+        return (self._data[source_candidates[0]],
+                self._data[unconnected_targets[0]] if len(unconnected_targets) == 0 else self._data[target_candidates[0]])
+
 
 if __name__ == "__main__":
     if len(sys.argv) == 2:
