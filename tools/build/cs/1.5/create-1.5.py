@@ -194,6 +194,9 @@ for line in fh:
 #    print(repr(tokens))
     
     node_ids = derinet.get_ids(tokens[0])
+    if len(node_ids) < 1:
+        print("Error: lexeme with lemma %s not found" % tokens[0])
+        continue
     mark_as_compound(node_ids[0])
 
     last_token = tokens[0]
