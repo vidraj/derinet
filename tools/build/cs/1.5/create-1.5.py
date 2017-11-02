@@ -43,7 +43,7 @@ from derinet_api import Node
 
 import re
 
-derinet = DeriNet('../../../../data/releases/cs/derinet-1-4.tsv')
+derinet = DeriNet('./derinet-1-4.tsv')
 
 def find_lexeme_by_lemma(lemma):
     print("Searching for "+lemma)
