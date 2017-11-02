@@ -1,4 +1,7 @@
 package Treex::Tool::Lexicon::Generation::CS;
+
+use feature 'unicode_strings';
+use Encode qw(decode);
 use Moose;
 use Treex::Core::Log;
 use Ufal::MorphoDiTa;
@@ -9,7 +12,7 @@ has tool  => (is=>'ro', lazy_build=>1);
 
 sub _build_dict_path {
     my ($self) = @_;
-    return $ENV{'DERIMOR_MAIN_DIR'} . '/data/models/morphodita/cs/' . $self->dict_name;
+    return decode('UTF-8', $ENV{'DERIMOR_MAIN_DIR'}) . '/data/models/morphodita/cs/' . $self->dict_name;
 }
 
 # tool can be shared by more instances (if the dictionary file is the same)
