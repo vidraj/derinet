@@ -103,7 +103,7 @@ for filename in [
         if matchObj and matchObj.groups:
             parent_lemma = matchObj.group(1)
 
-        if not parent_lemma=="UNRESOLVED" and not parent_lemma=="":
+        if not parent_lemma=="UNRESOLVED" and not parent_lemma=="" and not child_lemma.startswith("?"):
             create_derivation(filename, child_lemma, 'A', parent_lemma, None)
 
 
