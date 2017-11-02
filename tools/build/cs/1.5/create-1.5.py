@@ -77,9 +77,7 @@ def create_derivation(filename,child_lemma,child_pos,parent_lemma,parent_pos):
 #    print("Ladim3")
     try:
 #        print("Ladim4")
-        child_id = find_id(child_lemma,child_pos)
-        parent_id = find_id(parent_lemma,parent_pos)
-        derinet.add_edge_by_ids(child_id,parent_id)
+        derinet.add_edge_by_lexemes(child_lemma, parent_lemma, child_pos, parent_pos)
         print("Derivation successfully added child="+child_lemma+" parent="+parent_lemma+"\t"+filename)
         
     except:
