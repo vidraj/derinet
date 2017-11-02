@@ -30,7 +30,7 @@ data/models/morphodita/cs/czech-morfflex-161115.dict: data/czech-morfflex-pdt-16
 	unzip -DD -j -d data/models/morphodita/cs/ "$<"
 
 data/czech-morfflex-pdt-161115.zip:
-        wget -O "$@" 'https://lindat.mff.cuni.cz/repository/xmlui/bitstream/handle/11234/1-1836/czech-morfflex-pdt-161115.zip?sequence=1&isAllowed=y'
+	wget -O "$@" 'https://lindat.mff.cuni.cz/repository/xmlui/bitstream/handle/11234/1-1836/czech-morfflex-pdt-161115.zip?sequence=1&isAllowed=y'
 
 
 stats-0-10-0.txt stats-0-9.txt stats-0-9-2.txt: stats-%.txt:
