@@ -80,8 +80,9 @@ def create_derivation(filename,child_lemma,child_pos,parent_lemma,parent_pos):
         derinet.add_edge_by_lexemes(child_lemma, parent_lemma, child_pos, parent_pos)
         print("Derivation successfully added child="+child_lemma+" parent="+parent_lemma+"\t"+filename)
         
-    except:
+    except (derinet_api.AlreadyHasParentError, derinet_api.AmbiguousLexemeError, derinet_api.AmbiguousParentError, derinet_api.ParentNotFoundError, derinet_api.LexemeNotFoundError, derinet_api.CycleCreationError) as error:
         print("Error: No edge added for child="+child_lemma+" and parent="+parent_lemma+" , either nonexistent or ambiguous")
+        print(error)
 
 
 
