@@ -54,12 +54,8 @@ def find_lexeme_by_lemma(lemma):
 
 def mark_as_compound(node_id):
     old_node = derinet._data[node_id]
-    newnode = derinet_api.Node(old_node[0],
-                   old_node[1],
-                   old_node[2],
-                   old_node[3]+"C",
-                   old_node[4],
-                   old_node[5])
+    new_pos = old_node.pos + "C"
+    newnode = old_node._replace(pos=new_pos)
     derinet._data[node_id] = newnode
     
 
