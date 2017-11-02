@@ -150,8 +150,11 @@ sub process_dictionary {
 			log_info("Ignoring some parents of lexeme created by composition: $lemma") if $self->verbose;
 			$manual_deriv = remove_compositional_information($manual_deriv); # TODO solve properly the case of "foo, bar, comp osition, baz"
 		}
-
-		my @lexemes = grep { $_->pos eq $pos } $dict->get_lexemes_by_lemma($lemma);
+		
+		# Any lexeme can now have two distinct POSes: X and XC for each X.
+		# Grep for both.
+		my $cpos = $pos . 'C';
+		my @lexemes = grep { $_->pos eq $pos or $_->pos eq $cpos } $dict->get_lexemes_by_lemma($lemma);
 		
 		if (!@lexemes) {
 			if ($manual_deriv eq '!') {
@@ -184,7 +187,10 @@ sub process_dictionary {
 			$derivations_possible++;
 			
 			if (!$parent_lemma) {
-				if ($manual_deriv eq '-') {
+				if ($lexeme->pos eq $cpos and is_composition($manual_deriv)) {
+					# The lexeme was created by composition, is marked as such and doesn't have a parent. It is therefore correct.
+					deriv_is_correct('composition');
+				} elsif ($manual_deriv eq '-') {
 					deriv_is_correct('no parent');
 				} else {
 					log_info("Missing derivation for '$lemma'; should be '$manual_deriv'.") if $self->verbose;
