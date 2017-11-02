@@ -38,12 +38,11 @@
 import sys
 sys.path.append('../../../data-api/derinet-python/')
 
-from derinet_api import DeriNet
-from derinet_api import Node
+import derinet_api
 
 import re
 
-derinet = DeriNet('./derinet-1-4.tsv')
+derinet = derinet_api.DeriNet('./derinet-1-4.tsv')
 
 def find_lexeme_by_lemma(lemma):
     print("Searching for "+lemma)
@@ -55,7 +54,7 @@ def find_lexeme_by_lemma(lemma):
 
 def mark_as_compound(node_id):
     old_node = derinet._data[node_id]
-    newnode = Node(old_node[0],
+    newnode = derinet_api.Node(old_node[0],
                    old_node[1],
                    old_node[2],
                    old_node[3]+"C",
