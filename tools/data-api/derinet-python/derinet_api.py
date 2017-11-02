@@ -181,7 +181,12 @@ class DeriNet(object):
     def get_lexeme_by_id(self, lex_id):
         """Get node with lex_id id."""
         try:
-            return self._data[lex_id]
+            if isinstance(lex_id, int):
+                return self._data[lex_id]
+            elif lex_id == '':
+                raise ValueError("Can't query the database for an empty ID")
+            else:
+                raise TypeError('IDs must be numerical, not "{}"'.format(lex_id))
         except IndexError:
             raise LexemeNotFoundError('lexeme with id {} not found'.format(lex_id))
 
