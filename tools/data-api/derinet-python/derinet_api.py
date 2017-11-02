@@ -433,30 +433,82 @@ class DeriNet(object):
                                         'assigned to it: {}'.format(child_id, parent_id))
         else:
             try:
-                if self._data[child_id].parent_id != '' and force:
-                    # remove the child from old parent children
-                    old_parent = self._data[child.parent_id]
-                    self._data[child.parent_id] = old_parent._replace(children=[new_child for new_child in old_parent.children if new_child != child])
-                if self._data[parent_id].parent_id == child_id and force:
-                    # turned out we have to reverse the edge
-                    self._data[parent_id] = self._data[parent_id]._replace(parent_id=self._data[child_id].parent_id)
-                    child = self._data[child_id]
-                    self._data[child_id] = child._replace(children=[new_child for new_child in child.children if new_child != parent])
-                    if self._data[parent_id].lex_id == self._data[parent_id].parent_id:
-                        self._data[parent_id] = self._data[parent_id]._replace(parent_id='')
+                # check for possible cycle creation
+                if self._data[parent_id].parent_id == child_id:
+                    # A cycle would be created, but it is an edge reversal, which we solve separately.
+                    pass
+                else:
+                    # No edge reversal resolution possible.
+                    # Check for cycles by walking up the tree and remembering visited nodes.
+                    # If you visit a node twice, fail.
+                    current_id, visited = self._data[parent_id].lex_id, {self._data[child_id].lex_id}
+                    while current_id != '':
+                        if current_id in visited:
+                            # There is a cycle.
+                            raise CycleCreationError('setting node {} as a parent of node {} '
+                                                     'would create a cycle around {}'.format(parent_id, child_id, current_id))
+
+                        visited.add(current_id)
+                        current_id = self._data[current_id].parent_id
+
+
+                if self._data[child_id].parent_id != '':
+                    # The child already has a parent.
+                    if force:
+                        # Remove the child from its old parent's children. The parent link itself is discarded later.
+                        old_parent = self._data[child.parent_id]
+                        self._data[child.parent_id] = old_parent._replace(children=[new_child for new_child in old_parent.children if new_child != child])
+                    else:
+                        # The caller didn't ask us to reconnect already connected nodes, so fail.
+                        # This is already checked above, but whatever.
+                        raise AlreadyHasParentError('node {} already has a parent '
+                                                    'assigned to it: {}'.format(child_id, parent_id))
+
+                if self._data[parent_id].parent_id == child_id:
+                    # The parent of our parent is the child.
+                    if force:
+                        # We have to reverse this edge.
+                        # We do this intelligently, by reconnecting the old parent of "child" to "parent",
+                        #  so that the overall tree shape is not lost.
+
+                        # Reconnect "parent" to "child"'s parent.
+                        self._data[parent_id] = self._data[parent_id]._replace(parent_id=self._data[child_id].parent_id)
+
+                        # Delete "parent" from "child"'s children.
+                        child = self._data[child_id]
+                        parent = self._data[parent_id]
+                        self._data[child_id] = child._replace(children=[new_child for new_child in child.children if new_child != parent])
+
+                        if self._data[parent_id].lex_id == self._data[parent_id].parent_id:
+                            # TODO explain to me why is this important? When do these single level cycles happen?
+                            self._data[parent_id] = self._data[parent_id]._replace(parent_id='')
+                    else:
+                        # We can't reconnect the edge, so let's fail.
+
+                        # Should we raise AlreadyHasParentError or CycleCreationError?
+                        # Raise CycleCreationError, because the child doesn't have to have a parent.
+                        # If we raised AlreadyHasParentError, it would lead to wrong behavior elsewhere.
+                        raise CycleCreationError('setting node {} as a parent of node {} '
+                                                 'would create a cycle'.format(parent_id, child_id))
+
+                # Actually create the new edge.
                 self._data[child_id] = child._replace(parent_id=parent_id)
                 self._data[parent_id].children.append(self._data[child_id])
 
-                # check for possible cycle creation
-                cycle_count, current, visited = 0, self._data[parent_id], {self._data[child_id].lex_id}
-                while current.parent_id != '' and current.lex_id not in visited:
+
+                # Check for cycles again.
+                # If a cycle is inadvertently created, fail hard by exiting the program unconditionally.
+                # Don't use an exception for this, because some modules may catch all exceptions,
+                # thus fucking the database up for everyone.
+                current, visited = self._data[child_id], set()
+                while current.parent_id != '':
+                    if current.lex_id in visited:
+                        # This should never ever happen.
+                        print("ERROR: A CYCLE WAS CREATED between nodes {} and {}".format(parent_id, child_id))
+                        sys.exit(1)
                     visited.add(current.lex_id)
                     current = self._data[current.parent_id]
-                    cycle_count += 1
 
-                if current.parent_id != '' and cycle_count > 0:
-                    raise CycleCreationError('setting node {} as a parent of node {} '
-                                             'would create a cycle'.format(parent_id, child_id))
             except CycleCreationError:
                     raise CycleCreationError('setting node {} as a parent of node {} '
                                              'would create a cycle'.format(parent_id, child_id))
