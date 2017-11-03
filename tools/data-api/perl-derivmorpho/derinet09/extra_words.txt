@@ -1293,3 +1293,6 @@ chrám	N
 
 # Missing from all versions.
 znouzectnost	N
+
+# Missing, because only erroneous "zmaloměšťáčťělý" is present.
+zmaloměšťáčtělý	AA
