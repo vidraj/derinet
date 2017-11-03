@@ -213,9 +213,9 @@ def add_verb_deriv(data_folder, suppress_warnings=True, almost_silent=True):
 
 if __name__ == "__main__":
     derinet = derinet_api.DeriNet(original_derinet_fname)
-    add_changed_edge_probabilities(changed_edge_fname)
-    correct_changed_edge_probabilities(dvojiti_rodice_fname)
-    add_jk((jk_fname_01, jk_fname_02))
-    #add_verb_deriv(verb_data_folder)
+    add_changed_edge_probabilities(changed_edge_fname, False, False)
+    correct_changed_edge_probabilities(dvojiti_rodice_fname, False, False)
+    add_jk((jk_fname_01, jk_fname_02), False, False)
+    #add_verb_deriv(verb_data_folder, False, False)
 
     derinet.save(fname=new_derinet_fname, sort=True)
