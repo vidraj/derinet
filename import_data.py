@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 
+import sys
 import os
 import re
 
+sys.path.append('../../../data-api/derinet-python/')
 import derinet_api
 
 original_derinet_fname = 'derinet-1-2.tsv'
