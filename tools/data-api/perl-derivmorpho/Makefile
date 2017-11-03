@@ -27,7 +27,7 @@ data/morfflex-cz.2016-11-15.utf8.lemmaID_suff-tag-form.tab.csv.xz:
 	wget -O "$@" 'https://lindat.mff.cuni.cz/repository/xmlui/bitstream/handle/11234/1-1834/morfflex-cz.2016-11-15.utf8.lemmaID_suff-tag-form.tab.csv.xz?sequence=1&isAllowed=y'
 
 data/models/morphodita/cs/czech-morfflex-161115.dict: data/czech-morfflex-pdt-161115.zip
-	unzip -DD -j -d data/models/morphodita/cs/ "$<"
+	unzip -DD -j -d data/models/morphodita/cs/ "$<" czech-morfflex-pdt-161115/czech-morfflex-161115.dict
 
 data/czech-morfflex-pdt-161115.zip:
 	wget -O "$@" 'https://lindat.mff.cuni.cz/repository/xmlui/bitstream/handle/11234/1-1836/czech-morfflex-pdt-161115.zip?sequence=1&isAllowed=y'
@@ -73,3 +73,4 @@ clean:
 	$(MAKE) -C derinet-1-1 clean
 	$(MAKE) -C derinet-1-3 clean
 	rm -f derinet-${RELVER}.tsv.gz stats-*.txt stats.tar* lemmas_diff.txt
+	rm -f data/models/morphodita/cs/czech-morfflex-161115.dict
