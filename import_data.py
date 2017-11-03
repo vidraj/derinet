@@ -218,4 +218,4 @@ if __name__ == "__main__":
     add_jk((jk_fname_01, jk_fname_02), False, False)
     #add_verb_deriv(verb_data_folder, False, False)
 
-    derinet.save(fname=new_derinet_fname, sort=True)
+    derinet.save(fname=new_derinet_fname, sort=False)
