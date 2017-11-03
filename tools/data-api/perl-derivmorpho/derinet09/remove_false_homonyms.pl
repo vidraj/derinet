@@ -53,7 +53,7 @@ while (<>) {
   my $pos = substr($tag, 0, 1);
 
   my $shortened = $lemma;
-  $shortened =~ s/_.+//;
+  $shortened =~ s/[_`].+//;
 
   if ($seen{"$shortened#$pos"}) {
     #print STDERR "Adding second variant for " . $seen{"$shortened#$pos"}->[0] . ": $lemma $tag.\n";
