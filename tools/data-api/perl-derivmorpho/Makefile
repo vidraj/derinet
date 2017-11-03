@@ -6,7 +6,7 @@ export DERIMOR_MAIN_DIR::=$(CURDIR)
 MORFFLEX::=data/morfflex-cz.2016-11-15.utf8.lemmaID_suff-tag-form.tab.csv.xz
 MORPHODITA_MODEL::=data/models/morphodita/cs/czech-morfflex-161115.dict
 
-.PHONY: release build precision clean
+.PHONY: release build precision clean mrproper
 
 release: build
 	$(MAKE) -C derinet-1-3 release
@@ -74,3 +74,7 @@ clean:
 	$(MAKE) -C derinet-1-3 clean
 	rm -f derinet-${RELVER}.tsv.gz stats-*.txt stats.tar* lemmas_diff.txt
 	rm -f data/models/morphodita/cs/czech-morfflex-161115.dict
+
+mrproper: clean
+	rm -f "$(MORFFLEX)"
+	rm -f data/czech-morfflex-pdt-161115.zip
