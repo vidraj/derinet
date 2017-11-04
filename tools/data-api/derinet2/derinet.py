@@ -8,9 +8,8 @@ import logging
 from time import time
 from itertools import chain
 
-from . import LexemeNotFoundError, AmbiguousLexemeError, AmbiguousParentError, AlreadyHasParentError,\
-    ParentNotFoundError, IsNotParentError, CycleCreationError, UnknownFileVersion
-from .utils import safe_str, pretty_lexeme, partial_lexeme_match, lexeme_info, Node, flatten_list
+from . import LexemeNotFoundError, AlreadyHasParentError, CycleCreationError, UnknownFileVersion
+from .utils import pretty_lexeme, partial_lexeme_match, lexeme_info, Node, flatten_list
 
 logging.basicConfig(level=logging.DEBUG,
                     format='%(asctime)s %(levelname)-8s %(message)s',
@@ -197,32 +196,33 @@ class DeriNet(object):
         logger.info('Saved in {:.2f} s.'.format(time() - btime))
 
     def save_tree(self, no, root, ofile):
-        for i, el in enumerate(flatten_list(self.get_subtree_by_id(root))):
-            lex_id, pretty_id, lemma, morph, pos, tag_mask, parent_id, composition_parents, misc = el[:-1]
-            pretty_id = "{}.{}".format(no, i)
-            self._ids[lex_id] = pretty_id
-            if parent_id != '':
-                parent_id = self._ids[parent_id]
-                print(parent_id)
-            print(pretty_id, lemma, morph, pos, tag_mask,
-                  parent_id,  [(self._ids[p1], self._ids[p2]) for p1, p2 in composition_parents], misc,
-                  sep="\t", file=ofile)
+        try:
+            for i, el in enumerate(flatten_list(self.get_subtree_by_id(root))):
+                lex_id, pretty_id, lemma, morph, pos, tag_mask, parent_id, composition_parents, misc = el[:-1]
+                pretty_id = "{}.{}".format(no, i)
+                self._ids[lex_id] = pretty_id
+                if parent_id != '':
+                    parent_id = self._ids[parent_id]
+                    print(parent_id)
+                print(pretty_id, lemma, morph, pos, tag_mask,
+                      parent_id,  [(self._ids[p1], self._ids[p2]) for p1, p2 in composition_parents], misc,
+                      sep="\t", file=ofile)
+        except LexemeNotFoundError:
+            logger.error('Failed to save tree with root %s', str(root))
 
     def get_lexeme(self, node, pos=None, morph=None):
         """Get node with lex_id id."""
         lex_id = self.get_id(node, pos=pos, morph=morph)
-        try:
-            return self._data[lex_id]
-        except IndexError:
-            raise LexemeNotFoundError('lexeme with id {} not found'.format(node))
+        if lex_id not in self._data:
+            raise LexemeNotFoundError('lexeme with id {} not found'.format(lex_id))
+        return self._data[lex_id]
 
     def show_lexeme(self, node, pos=None, morph=None):
         """Get represantation of node with lex_id id."""
         lex_id = self.get_id(node, pos=pos, morph=morph)
-        try:
+        if lex_id in self._data:
             return lexeme_info(self._data[lex_id])
-        except IndexError:
-            raise LexemeNotFoundError('lexeme with id {} not found'.format(lex_id))
+        return None
 
     def search_lexemes(self, lemma, pos=None, morph=None, allow_fallback=False):
         """
@@ -270,9 +270,6 @@ class DeriNet(object):
         """
         Get lexeme id by lemma and optionally
         by pos and morphological string.
-
-        Raise exception if no lexeme was found
-        or lexeme was ambiguous.
         """
         if isinstance(node, int):
             return node
@@ -286,47 +283,38 @@ class DeriNet(object):
             raise LexemeNotFoundError(
                 'lexeme not found: {}'.format(
                     pretty_lexeme(lemma, pos, morph)))
-        if len(id_list) > 1:
-            # ambiguous lexeme
-            raise AmbiguousLexemeError(
-                'ambiguous lexeme: {}'.format(
-                    pretty_lexeme(lemma, pos, morph)))
-        # lexeme ok
+        # return first available lexeme
         id_list.sort()
         return id_list[0]
 
     def get_parent(self, node, pos=None, morph=None):
         """Get parent node of the node with lex_id id."""
         lex_id = self.get_id(node, pos=pos, morph=morph)
-        try:
+        if lex_id in self._data:
             parent_id = self._data[lex_id].parent_id
-        except IndexError:
-            raise LexemeNotFoundError('lexeme with id {} not found'.format(lex_id))
-        if parent_id == '':
-            return None
-        return self._data[parent_id]
+            if parent_id == '':
+                return None
+            return self._data[parent_id]
+        return None
 
     def get_root(self, node, pos=None, morph=None):
         """Get root node of the node with lex_id id."""
         lex_id = self.get_id(node, pos=pos, morph=morph)
-        try:
+        if lex_id in self._data:
             parent_id = self._data[lex_id].parent_id
-        except IndexError:
-            raise LexemeNotFoundError('lexeme with id {} not found'.format(lex_id))
-        if parent_id == '':
-            return None
-        current = self._data[parent_id]
-        while current.parent_id != '':
-            current = self._data[current.parent_id]
-        return current
+            if parent_id == '':
+                return None
+            current = self._data[parent_id]
+            while current.parent_id != '':
+                current = self._data[current.parent_id]
+            return current
 
 
     def get_children_by_id(self, lex_id):
         """Get list of children of the node with lex_id id."""
-        try:
+        if lex_id in self._data:
             return self._data[lex_id].children
-        except IndexError:
-            raise LexemeNotFoundError('lexeme with id {} not found'.format(lex_id))
+        return None
 
     def get_subtree_by_id(self, lex_id):
         """
@@ -336,12 +324,11 @@ class DeriNet(object):
         :return tree of the form:
             [root, [[ch1, [[ch1.1, ...], [ch1.2, ...], ...]], [ch2, ...]]
         """
-        try:
+        if lex_id in self._data:
             lexeme = self._data[lex_id]
-        except IndexError:
-            raise LexemeNotFoundError('lexeme with id {} not found'.format(lex_id))
-        return [lexeme, [self.get_subtree_by_id(child.lex_id)
-                         for child in lexeme.children]]
+            return [lexeme, [self.get_subtree_by_id(child.lex_id)
+                             for child in lexeme.children]]
+        raise LexemeNotFoundError('lexeme with id {} not found'.format(lex_id))
 
     def subtree_as_str_from_root(self, root_id,
                                  form1='',
@@ -351,28 +338,27 @@ class DeriNet(object):
         Recursively build a string visualizing the tree
         with the node with id lex_id as its root.
         """
-        try:
+        if root_id in self._data:
             lexeme = self._data[root_id]
-        except IndexError:
-            raise LexemeNotFoundError('lexeme with id {} not found'.format(root_id))
-        subtree_str = form1 + form3
-        subtree_str += '\t'.join(str(item) for item in lexeme[:-1])
-        if lexeme.children != []:
-            # add all but last children's subtrees
-            for child in lexeme.children[:-1]:
+            subtree_str = form1 + form3
+            subtree_str += '\t'.join(str(item) for item in lexeme[:-1])
+            if lexeme.children != []:
+                # add all but last children's subtrees
+                for child in lexeme.children[:-1]:
+                    subtree_str += '\n' + self.subtree_as_str_from_root(
+                        child.lex_id,
+                        form1=form1 + form2,
+                        form2='│ ',
+                        form3='└─')
+                # add last child's subtree
+                # it has slightly different formatting
                 subtree_str += '\n' + self.subtree_as_str_from_root(
-                    child.lex_id,
+                    lexeme.children[-1].lex_id,
                     form1=form1 + form2,
-                    form2='│ ',
+                    form2='  ',
                     form3='└─')
-            # add last child's subtree
-            # it has slightly different formatting
-            subtree_str += '\n' + self.subtree_as_str_from_root(
-                lexeme.children[-1].lex_id,
-                form1=form1 + form2,
-                form2='  ',
-                form3='└─')
-        return subtree_str
+            return subtree_str
+        raise LexemeNotFoundError('lexeme with id {} not found'.format(root_id))
 
     def subtree_as_string(self, node, pos=None, morph=None):
         """
@@ -421,22 +407,18 @@ class DeriNet(object):
         if the node already has a parent and it is the same as the one
         to be assigned.
         """
-        child_id, parent_id = None, None
 
         child_id = self.get_id(child, pos=child_pos, morph=child_morph)
         parent_id = self.get_id(parent, pos=parent_pos, morph=parent_morph)
-        try:
-            child = self._data[child_id]
-        except IndexError:
+        if child not in self._data:
             raise LexemeNotFoundError('lexeme with id {} not found'.format(child_id))
-        try:
-            parent = self._data[parent_id]
-        except IndexError:
-            raise ParentNotFoundError('invalid parent id {} for node {}: '
-                                      "parent doesn't exist".format(parent_id, child_id))
+        if parent_id not in self._data:
+            raise LexemeNotFoundError('lexeme with id {} not found'.format(parent_id))
+        child = self._data[child_id]
+        parent = self._data[parent_id]
 
         if not force and child.parent_id != '' and child.parent_id is not None:
-            actual_parent = self.get_lexeme_by_id(self._data[child_id].parent_id)
+            actual_parent = self.get_lexeme(self._data[child_id].parent_id)
             parent_lemma = self._data[parent_id].lemma
             child_lemma = self._data[child_id].lemma
             if not ignore_if_exists or not partial_lexeme_match(actual_parent, parent_lemma, parent_pos, parent_morph):
@@ -512,24 +494,21 @@ class DeriNet(object):
         """
         child_id = self.get_id(child, pos=child_pos, morph=child_morph)
         parent_id = self.get_id(parent, pos=parent_pos, morph=parent_morph)
-        try:
-            child = self._data[child_id]
-        except IndexError:
+        if child_id not in self._data:
             raise LexemeNotFoundError('lexeme with id {} not found'.format(child_id))
+        child = self._data[child_id]
         if child.parent_id != parent_id:
-            raise IsNotParentError('node {} is not a parent '
-                                   'of node {}'.format(parent_id, child_id))
-        try:
-            parent = self._data[parent_id]
-        except IndexError:
-            raise ParentNotFoundError("invalid parent id {} for node {}: "
-                                      "parent doesn't exist".format(parent_id, child_id))
+            return False
+        if parent_id not in self._data:
+            raise LexemeNotFoundError('lexeme with id {} not found'.format(parent_id))
+        parent = self._data[parent_id]
         new_children = [child
                         for child
                         in self._data[child.parent_id].children
                         if child.lex_id != child_id]
         self._data[child.parent_id] = self._data[child.parent_id]._replace(children=new_children)
         self._data[child_id] = child._replace(parent_id='')
+        return True
 
 
     def remove_derivations(self, edge_list):
