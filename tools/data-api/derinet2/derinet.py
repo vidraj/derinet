@@ -531,7 +531,7 @@ class DeriNet(object):
                              child_morph=child[2], parent_morph=parent[2])
 
     def find_lexeme_pair(self, source_lemma, source_pos, target_lemma, target_pos):
-        if (source_lemma is None or source_pos is None or target_lemma is None or target_pos is None)
+        if source_lemma is None or source_pos is None or target_lemma is None or target_pos is None:
             return None, None
 
         source_candidates = self._sort_nodes(self.get_ids(source_lemma, source_pos))
