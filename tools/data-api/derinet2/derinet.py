@@ -17,16 +17,16 @@ logging.basicConfig(level=logging.DEBUG,
                     datefmt='%a, %d %b %Y %H:%M:%S')
 
 logger = logging.getLogger(__name__)
-# set Czech locale for correct sorting of entries
-try:
-    locale.setlocale(locale.LC_ALL, 'cs_CZ.utf8')
-except locale.Error:
-    logger.error('Error: Czech locale cs_CZ.utf8 is currently not installed\n'
-                 'This may result in incorrect sorting of DeriNet entries\n'
-                 'It is recommended that you install it by typing\n'
-                 '\tsudo apt-get install language-pack-cs\n'
-                 'in your terminal.')
 
+locales_full = {
+    'cs': 'cs_CZ.utf8',
+    'us': 'en_US.utf8',
+    'en': 'en_BG.utf8',
+    'de': 'de_DE.utf8',
+    'pl': 'pl_PL.utf8',
+    'it': 'it_IT.utf8',
+    'es': 'es_ES.utf8'
+}
 
 class DeriNet(object):
     __slots__ = ['_data',  # list of nodes
@@ -37,7 +37,7 @@ class DeriNet(object):
                  '_roots', # list of roots of trees
                  ]
 
-    def __init__(self, fname=None, version="1.4"):
+    def __init__(self, fname=None, version="1.4", locales='cs'):
         self._ids2internal = {}
         self._roots = []
         self._ids = []
@@ -49,7 +49,19 @@ class DeriNet(object):
             try:
                 self.load(fname, version)
             except UnknownFileVersion:
-                logger.error("Unknown file version: %d", version)
+                logger.error('Unknown file version: %d', version)
+        # set locale for correct sorting of entries
+        if not locales in locales_full:
+            logger.error('Unknown localization settings, the sorting may not work as expected!')
+        locales = locales_full[locales]
+        try:
+            locale.setlocale(locale.LC_ALL, locales)
+        except locale.Error:
+            logger.error('Error: Czech locale %s is currently not installed\n'
+                         'This may result in incorrect sorting of DeriNet entries\n'
+                         'It is recommended that you install it by typing\n'
+                         '\tsudo apt-get install language-pack-\n'
+                         'in your terminal.', locales)
 
 
     def _read_nodes_from_file(self, ifile, version):
@@ -135,12 +147,15 @@ class DeriNet(object):
         self._fname = fname
         return fname
 
-    def lex_sort(self):
+    def _sort_nodes(self, nodes):
+        return nodes.sort(key=lambda x: locale.strxfrm(x.morph.lower()))
+
+    def sort(self):
         """Sort nodes regarding lemmas."""
         logger.info('Sorting DeriNet...')
+
         btime = time()
-        # sort
-        self._data.sort(key=lambda x: locale.strxfrm(x.morph.lower()))
+        self._sort_nodes(self._data)
 
         # reindex
         reverse_id = [0] * len(self._data)  # used for parent_ids only
@@ -277,6 +292,7 @@ class DeriNet(object):
                 'ambiguous lexeme: {}'.format(
                     pretty_lexeme(lemma, pos, morph)))
         # lexeme ok
+        id_list.sort()
         return id_list[0]
 
     def get_parent(self, node, pos=None, morph=None):
@@ -539,8 +555,8 @@ class DeriNet(object):
         if (source_lemma is None or source_pos is None or target_lemma is None or target_pos is None)
             return None, None
 
-        source_candidates = self.get_ids(source_lemma, source_pos)
-        target_candidates = self.get_ids(target_lemma, target_pos)
+        source_candidates = self._sort_nodes(self.get_ids(source_lemma, source_pos))
+        target_candidates = self._sort_nodes(self.get_ids(target_lemma, target_pos))
 
         # If one of them doesn't exist, we have no clues as to which candidate from the others to choose. Return the first one.
         if (len(source_candidates) == 0 or len(target_candidates) == 0):
