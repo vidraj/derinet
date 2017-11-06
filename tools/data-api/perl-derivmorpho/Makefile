@@ -33,37 +33,6 @@ data/czech-morfflex-pdt-161115.zip:
 	wget -O "$@" 'https://lindat.mff.cuni.cz/repository/xmlui/bitstream/handle/11234/1-1836/czech-morfflex-pdt-161115.zip?sequence=1&isAllowed=y'
 
 
-stats-0-10-0.txt stats-0-9.txt stats-0-9-2.txt: stats-%.txt:
-	./derimor \
-	Load file=../derinet-$*.tsv \
-	MeasurePrecisionRecall file=${ANNOT} ignore_composition=1 \
-	PrintStats singletons_file=singletons-$*.tsv > $@ 2>&1
-
-stats.tar.xz: stats-0-10-0.txt stats-0-9.txt stats-0-9-2.txt
-	# TODO fix this procedure to include DeriNet-1.1
-	$(MAKE) -C derinet09 LEMMAS_SOURCE=morfflex slex
-	$(MAKE) -C derinet091 slex
-	$(MAKE) -C derinet092 slex
-	$(MAKE) -C derinet092
-	$(MAKE) -C derinet092 stats
-	mv derinet092/stats-${RELVER}.txt .
-	mv derinet092/stats-derivation-creator.txt stats-derivation-creator-${RELVER}.txt
-	mv derinet092/singletons.tsv singletons-${RELVER}.tsv
-
-	$(MAKE) -C derinet09 LEMMAS_SOURCE=syn slex
-	$(MAKE) -C derinet091 slex
-	$(MAKE) -C derinet092 slex
-	$(MAKE) -C derinet092
-	$(MAKE) -C derinet092 RELVER=0-9-3 stats
-	mv derinet092/stats-0-9-3.txt .
-	mv derinet092/stats-derivation-creator.txt stats-derivation-creator-0-9-3.txt
-	mv derinet092/singletons.tsv singletons-0-9-3.tsv
-
-	$(MAKE) -C derinet09 diff
-	mv derinet09/lemmas_diff.txt derinet09/common.tsv derinet09/onlysyn.tsv derinet09/onlymorfflex.tsv .
-
-	tar -cvf stats.tar stats-*.txt singletons-*.tsv lemmas_diff.txt common.tsv onlysyn.tsv onlymorfflex.tsv
-	xz -z9evv stats.tar
 
 
 clean:
@@ -72,7 +41,8 @@ clean:
 	$(MAKE) -C derinet092 clean
 	$(MAKE) -C derinet-1-1 clean
 	$(MAKE) -C derinet-1-3 clean
-	rm -f derinet-${RELVER}.tsv.gz stats-*.txt stats.tar* lemmas_diff.txt
+	rm -f derinet-${RELVER}.tsv.gz
+	rm -f prec-recall.txt
 	rm -f data/models/morphodita/cs/czech-morfflex-161115.dict
 
 mrproper: clean
