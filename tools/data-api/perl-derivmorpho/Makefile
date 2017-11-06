@@ -1,4 +1,4 @@
-export RELVER::=1-5b1
+export RELVER::=1-3
 export PERL5LIB::=$(CURDIR)/lib:$(PERL5LIB)
 export ANNOT::=../../../data/annotations/cs/2015-07-gold-standard/annot-devel.tsv
 export DERIMOR_MAIN_DIR::=$(CURDIR)
