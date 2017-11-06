@@ -40,6 +40,10 @@ while (<$EQ>) {
   chomp;
   my @alternatives = split / /;
   foreach my $alternative (@alternatives[1..$#alternatives]) {
+    if (exists $substitute{$alternative}) {
+      # Check that no lemma is in more than one substitution rule, because that would lead to rules being overwritten.
+      die "The alternative $alternative already has a substitution " . $substitute{$alternative} . ', substitution ' . $alternatives[0] . ' not added.'
+    }
     $substitute{$alternative} = $alternatives[0];
   }
 }
