@@ -1,6 +1,6 @@
 export RELVER::=1-5b1
 export PERL5LIB::=$(CURDIR)/lib:$(PERL5LIB)
-export ANNOT::=../annot-devel.tsv
+export ANNOT::=../../../data/annotations/cs/2015-07-gold-standard/annot-devel.tsv
 export DERIMOR_MAIN_DIR::=$(CURDIR)
 
 MORFFLEX::=data/morfflex-cz.2016-11-15.utf8.lemmaID_suff-tag-form.tab.csv.xz
