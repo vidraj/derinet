@@ -1296,3 +1296,24 @@ znouzectnost	N
 
 # Missing, because only erroneous "zmaloměšťáčťělý" is present.
 zmaloměšťáčtělý	AA
+
+# Needed by the 1.4 build stage. The first 3 are not lemmas, the last one is
+#  a common Czech form, the rest is simply missing without explanation.
+nedbat	V
+nedostávat	V
+nepohodnout	V
+obydlovat	V
+odhrávat	V
+odcházívávat	V
+odsmrskávat	V
+orchestrovat	V
+prokoukat	V
+proochutnávat	V
+proušoupávat	V
+přehloubit	V
+rozebrávat	V
+rozklesávat	V
+rozumazávat	V
+uskupit	V
+vařívávat	V
+vyblejt	V
