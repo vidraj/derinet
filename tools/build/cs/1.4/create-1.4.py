@@ -8,9 +8,11 @@ from derinet_api import DeriNet
 derinet = DeriNet('derinet-1-3.tsv')
 
 def homoindex_from_long_lemma(long_lemma):
-    homoindex = long_lemma
-    homoindex = re.sub(r"_.+","",homoindex)
-    homoindex = re.sub(r".+-","",homoindex)
+    if "-" in long_lemma:
+        m = re.search("^[^`_-]+-(\d+)", long_lemma)
+        return m.group(1)
+    else:
+        return ""
 
 def long_to_short(long_lemma):
     return re.sub(r"[\-_].+",'',long_lemma)
