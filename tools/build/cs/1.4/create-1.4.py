@@ -15,8 +15,8 @@ def homoindex_from_long_lemma(long_lemma):
         return ""
 
 def long_to_short(long_lemma):
-    return re.sub(r"[\-_].+",'',long_lemma)
-        
+    return re.sub(r"[\-_`].+",'',long_lemma)
+
 def choose_lexeme(long_lemma):
 
 #    print("Searching for lexeme\t"+long_lemma)
