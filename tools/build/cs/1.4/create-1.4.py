@@ -33,7 +33,7 @@ def choose_lexeme(long_lemma):
         return candidates[0]
     
     else:
-        given_homoindex = homoindex_from_long_lemma(source_long_lemma)
+        given_homoindex = homoindex_from_long_lemma(long_lemma)
         for candidate in candidates:
             candidate_long_lemma = candidate[2]
             candidate_homoindex = homoindex_from_long_lemma(candidate_long_lemma)
