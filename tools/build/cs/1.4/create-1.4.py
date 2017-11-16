@@ -40,8 +40,9 @@ def choose_lexeme(long_lemma):
             if candidate_homoindex == given_homoindex:
 #                print("XXX: nalezeno vic kandidatu, vybran jeden\t"+long_lemma+" -> "+candidate_long_lemma)
                 return candidate
-            else:
-                print("XXX: nalezeno vic kandidatu, ale zadny nesedi cislickem\t"+long_lemma)
+
+        print("XXX: nalezeno vic kandidatu, ale zadny nesedi cislickem\t%s\t[%s]" % (long_lemma, ", ".join([c[2] for c in candidates])))
+        return None
     
 with open('final_sorted') as f:
     for line in f.readlines():
