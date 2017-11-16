@@ -17,12 +17,12 @@ def homoindex_from_long_lemma(long_lemma):
 def long_to_short(long_lemma):
     return re.sub(r"[\-_`].+",'',long_lemma)
 
-def choose_lexeme(long_lemma):
+def choose_lexeme(long_lemma, pos):
 
 #    print("Searching for lexeme\t"+long_lemma)
     
     short_lemma = long_to_short(long_lemma)
-    candidates = derinet.search_lexemes(short_lemma,pos="V")
+    candidates = derinet.search_lexemes(short_lemma,pos=pos)
 
     if len(candidates) == 0:
         print("XXX: nenalezen zadny lexem\t"+long_lemma)
@@ -49,8 +49,8 @@ with open('final_sorted') as f:
         target_id,target_short_lemma,target_long_lemma,pos,\
             source_id,source_long_lemma =  line.strip().split()
 
-        best_source_lexeme = choose_lexeme(source_long_lemma)
-        best_target_lexeme = choose_lexeme(target_long_lemma)
+        best_source_lexeme = choose_lexeme(source_long_lemma, "V")
+        best_target_lexeme = choose_lexeme(target_long_lemma, pos)
 
         if best_source_lexeme and best_target_lexeme:
             print("adding edge "+best_source_lexeme[2]+" -> "+best_target_lexeme[2] )
