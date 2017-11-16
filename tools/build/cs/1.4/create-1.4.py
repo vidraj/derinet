@@ -45,9 +45,9 @@ def choose_lexeme(long_lemma, pos):
         return None
     
 with open('final_sorted') as f:
-    for line in f.readlines():
-        target_id,target_short_lemma,target_long_lemma,pos,\
-            source_id,source_long_lemma =  line.strip().split()
+    for line in f:
+        target_id, target_short_lemma, target_long_lemma, pos, \
+            source_id, source_long_lemma = line.rstrip("\n").split("\t")
 
         best_source_lexeme = choose_lexeme(source_long_lemma, "V")
         best_target_lexeme = choose_lexeme(target_long_lemma, pos)
