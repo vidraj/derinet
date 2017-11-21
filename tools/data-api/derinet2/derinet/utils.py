@@ -37,13 +37,28 @@ def partial_lexeme_match(node, lemma, pos, morph):
                ))
 
 
-def lexeme_info(lexeme):
-    assert type(lexeme) == Node
-    return (lexeme.lemma, lexeme.pos, lexeme.morph)
-
 def flatten_list(l):
     for el in l:
         if isinstance(el, list) and not isinstance(el, (str, bytes)):
             yield from flatten_list(el)
         else:
             yield el
+
+class LexemeNotFoundError(Exception):
+    pass
+
+
+class ParentNotFoundError(LexemeNotFoundError):
+    pass
+
+
+class AlreadyHasParentError(Exception):
+    pass
+
+
+class CycleCreationError(Exception):
+    pass
+
+
+class UnknownFileVersion(Exception):
+    pass
