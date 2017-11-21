@@ -40,6 +40,10 @@ while (<$EQ>) {
   chomp;
   my @alternatives = split / /;
   foreach my $alternative (@alternatives[1..$#alternatives]) {
+    if (exists $substitute{$alternative}) {
+      # Check that no lemma is in more than one substitution rule, because that would lead to rules being overwritten.
+      die "The alternative $alternative already has a substitution " . $substitute{$alternative} . ', substitution ' . $alternatives[0] . ' not added.'
+    }
     $substitute{$alternative} = $alternatives[0];
   }
 }
@@ -53,7 +57,7 @@ while (<>) {
   my $pos = substr($tag, 0, 1);
 
   my $shortened = $lemma;
-  $shortened =~ s/_.+//;
+  $shortened =~ s/[_`].+//;
 
   if ($seen{"$shortened#$pos"}) {
     #print STDERR "Adding second variant for " . $seen{"$shortened#$pos"}->[0] . ": $lemma $tag.\n";

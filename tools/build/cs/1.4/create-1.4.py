@@ -8,19 +8,21 @@ from derinet_api import DeriNet
 derinet = DeriNet('derinet-1-3.tsv')
 
 def homoindex_from_long_lemma(long_lemma):
-    homoindex = long_lemma
-    homoindex = re.sub(r"_.+","",homoindex)
-    homoindex = re.sub(r".+-","",homoindex)
+    if "-" in long_lemma:
+        m = re.search("^[^`_-]+-(\d+)", long_lemma)
+        return m.group(1)
+    else:
+        return ""
 
 def long_to_short(long_lemma):
-    return re.sub(r"[\-_].+",'',long_lemma)
-        
-def choose_lexeme(long_lemma):
+    return re.sub(r"[\-_`].+",'',long_lemma)
+
+def choose_lexeme(long_lemma, pos):
 
 #    print("Searching for lexeme\t"+long_lemma)
     
     short_lemma = long_to_short(long_lemma)
-    candidates = derinet.search_lexemes(short_lemma,pos="V")
+    candidates = derinet.search_lexemes(short_lemma,pos=pos)
 
     if len(candidates) == 0:
         print("XXX: nenalezen zadny lexem\t"+long_lemma)
@@ -31,23 +33,24 @@ def choose_lexeme(long_lemma):
         return candidates[0]
     
     else:
-        given_homoindex = homoindex_from_long_lemma(source_long_lemma)
+        given_homoindex = homoindex_from_long_lemma(long_lemma)
         for candidate in candidates:
             candidate_long_lemma = candidate[2]
             candidate_homoindex = homoindex_from_long_lemma(candidate_long_lemma)
             if candidate_homoindex == given_homoindex:
 #                print("XXX: nalezeno vic kandidatu, vybran jeden\t"+long_lemma+" -> "+candidate_long_lemma)
                 return candidate
-            else:
-                print("XXX: nalezeno vic kandidatu, ale zadny nesedi cislickem\t"+long_lemma)
+
+        print("XXX: nalezeno vic kandidatu, ale zadny nesedi cislickem\t%s\t[%s]" % (long_lemma, ", ".join([c[2] for c in candidates])))
+        return None
     
 with open('final_sorted') as f:
-    for line in f.readlines():
-        target_id,target_short_lemma,target_long_lemma,pos,\
-            source_id,source_long_lemma =  line.strip().split()
+    for line in f:
+        target_id, target_short_lemma, target_long_lemma, pos, \
+            source_id, source_long_lemma = line.rstrip("\n").split("\t")
 
-        best_source_lexeme = choose_lexeme(source_long_lemma)
-        best_target_lexeme = choose_lexeme(target_long_lemma)
+        best_source_lexeme = choose_lexeme(source_long_lemma, "V")
+        best_target_lexeme = choose_lexeme(target_long_lemma, pos)
 
         if best_source_lexeme and best_target_lexeme:
             print("adding edge "+best_source_lexeme[2]+" -> "+best_target_lexeme[2] )
