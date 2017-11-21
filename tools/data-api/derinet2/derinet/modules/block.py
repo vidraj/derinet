@@ -12,4 +12,4 @@ class Block:
 
     @property
     def signature(self):
-        return self.__name__
+        return self.__str__()
