@@ -119,7 +119,7 @@ class DeriNet(object):
                 composition_parents = [(self._ids2internal[p1], self._ids2internal[p2]) for p1, p2 in node.composition_parents]
                 self._data[parent_id]._replace(parent_id=parent_id, composition_parents=composition_parents)
             if populate_children:
-                self._data[parent_id].children.append(node)
+                self._data[parent_id].children.append(node.lex_id)
 
         if replace_ids:
             for i in range(len(self._roots)):
@@ -318,7 +318,7 @@ class DeriNet(object):
         """Get list of children of the node with lex_id id."""
         lex_id = self.get_id(node, pos=pos, morph=morph)
         if self._is_valid_lex_id(lex_id):
-            return self._data[lex_id].children
+            return [self._data[child_id] for child_id in self._data[lex_id].children]
         return None
 
     def get_subtree(self, node, pos=None, morph=None):
@@ -439,17 +439,17 @@ class DeriNet(object):
                 # remove the child from old parent children
                 old_parent = self._data[child.parent_id]
                 self._data[child.parent_id] = old_parent._replace(
-                    children=[new_child for new_child in old_parent.children if new_child != child])
+                    children = [new_child for new_child in old_parent.children if new_child != child.lex_id])
             if self._data[parent_id].parent_id == child_id and force:
                 # turned out we have to reverse the edge
                 self._data[parent_id] = self._data[parent_id]._replace(parent_id=self._data[child_id].parent_id)
                 child = self._data[child_id]
                 self._data[child_id] = child._replace(
-                    children=[new_child for new_child in child.children if new_child != parent])
+                    children=[new_child for new_child in child.children if new_child != parent.lex_id])
                 if self._data[parent_id].lex_id == self._data[parent_id].parent_id:
                     self._data[parent_id] = self._data[parent_id]._replace(parent_id='')
             self._data[child_id] = child._replace(parent_id=parent_id)
-            self._data[parent_id].children.append(self._data[child_id])
+            self._data[parent_id].children.append(child_id)
         else:
             raise CycleCreationError('setting node {} as a parent of node {} '
                                      'would create a cycle'.format(parent_id, child_id))
@@ -472,7 +472,7 @@ class DeriNet(object):
         return True
 
     def add_derivations(self, edge_list, force=False):
-        """
+        """chichild
         Given a list of edges denoted by child and parent lemmas
         and optionally pos and morphological strings,
         add edges from parent to child checking for consistency.
@@ -509,10 +509,8 @@ class DeriNet(object):
         if not self._is_valid_lex_id(parent_id):
             raise ParentNotFoundError('lexeme with id {} not found'.format(parent_id))
         parent = self._data[parent_id]
-        new_children = [child
-                        for child
-                        in self._data[child.parent_id].children
-                        if child.lex_id != child_id]
+        new_children = [ch for ch in self._data[child.parent_id].children
+                        if ch != child_id]
         self._data[child.parent_id] = self._data[child.parent_id]._replace(children=new_children)
         self._data[child_id] = child._replace(parent_id='')
         return True
