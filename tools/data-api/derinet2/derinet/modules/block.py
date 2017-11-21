@@ -4,7 +4,7 @@ class Block:
         self.derinet = derinet
 
     def process(self):
-        for lexeme in self.derinet.lexemes:
+        for lexeme in self.derinet._data:
             self.process_lexeme(lexeme)
 
     def process_lexeme(self, lexeme):
@@ -12,4 +12,4 @@ class Block:
 
     @property
     def signature(self):
-        return self.__name__
+        return self.__str__()

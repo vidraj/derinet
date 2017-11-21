@@ -3,9 +3,9 @@ import io
 
 from nose.tools import assert_raises
 
-from . import LexemeNotFoundError
-from .derinet import DeriNet
-from .utils import Node
+from derinet import LexemeNotFoundError
+from derinet.derinet import DeriNet
+from derinet.utils import Node
 
 
 class TestFiles(unittest.TestCase):
@@ -25,14 +25,9 @@ class TestFiles(unittest.TestCase):
 
     def test_data_v1_loaded(self):
         derinet = DeriNet(fname=self.data_stream_v1)
-        desired_data = [Node(lex_id=0, pretty_id='0', lemma='Aaasen', morph='Aaasen_;S', pos='N', tag_mask='', parent_id='', composition_parents=[], misc={}, children=[
-                            Node(lex_id=1, pretty_id='1', lemma='Aaasenův', morph='Aaasenův_;S_^(*2)', pos='A', tag_mask='', parent_id=0, composition_parents=[], misc={}, children=[])
-                        ]),
+        desired_data = [Node(lex_id=0, pretty_id='0', lemma='Aaasen', morph='Aaasen_;S', pos='N', tag_mask='', parent_id='', composition_parents=[], misc={}, children=[1]),
                         Node(lex_id=1, pretty_id='1', lemma='Aaasenův', morph='Aaasenův_;S_^(*2)', pos='A', tag_mask='', parent_id=0, composition_parents=[], misc={}, children=[]),
-                        Node(lex_id=2, pretty_id='2', lemma='Aabar', morph='Aabar_;S', pos='N', tag_mask='', parent_id='', composition_parents=[], misc={}, children=[
-                            Node(lex_id=3, pretty_id='3', lemma='Aabarův', morph='Aabarův_;S_^(*2)', pos='A', tag_mask='', parent_id=2, composition_parents=[], misc={}, children=[]),
-                            Node(lex_id=4, pretty_id='4', lemma='Aabarův', morph='Aabarův_;X_^(*2)', pos='X', tag_mask='', parent_id=2, composition_parents=[], misc={}, children=[])
-                        ]),
+                        Node(lex_id=2, pretty_id='2', lemma='Aabar', morph='Aabar_;S', pos='N', tag_mask='', parent_id='', composition_parents=[], misc={}, children=[3,4]),
                         Node(lex_id=3, pretty_id='3', lemma='Aabarův', morph='Aabarův_;S_^(*2)', pos='A', tag_mask='', parent_id=2, composition_parents=[], misc={}, children=[]),
                         Node(lex_id=4, pretty_id='4', lemma='Aabarův', morph='Aabarův_;X_^(*2)', pos='X', tag_mask='', parent_id=2, composition_parents=[], misc={}, children=[])
                         ]
