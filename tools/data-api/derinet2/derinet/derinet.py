@@ -241,7 +241,8 @@ class DeriNet(object):
     def search_lexemes(self, lemma, pos=None, morph=None, allow_fallback=False):
         """
         Search for all lexemes that satisfy given lemma, pos and morph,
-        and return their representations.
+        and return their representations. If allow_fallback is set, also
+        search for lemma and pos only, disregarding morph.
         """
         lexeme_ids = self.get_ids(lemma, pos=pos, morph=morph)
         if len(lexeme_ids) == 0 and allow_fallback and morph is not None:
