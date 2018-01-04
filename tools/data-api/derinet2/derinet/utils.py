@@ -72,3 +72,7 @@ class CycleCreationError(DeriNetError):
 
 class UnknownFileVersion(DeriNetError):
     pass
+
+class LexemeAlreadyExistsError(DeriNetError):
+    """Thrown when adding a lexeme that was already defined in the database."""
+    pass

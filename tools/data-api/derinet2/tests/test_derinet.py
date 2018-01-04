@@ -3,7 +3,7 @@ import io
 
 from nose.tools import assert_raises
 
-from derinet import LexemeNotFoundError
+from derinet import DeriNetError, LexemeNotFoundError, LexemeAlreadyExistsError
 from derinet.derinet import DeriNet
 from derinet.utils import Node
 
@@ -73,3 +73,19 @@ class TestFiles(unittest.TestCase):
         self.assertFalse(derinet.lexeme_exists(Node(lex_id=3, pretty_id='3', lemma='Aabarůvovo', morph='Aabarův_;S_^(*2)', pos='A', tag_mask='', parent_id=2, composition_parents=[], misc={}, children=[])))
         self.assertFalse(derinet.lexeme_exists(Node(lex_id=3, pretty_id='3', lemma='Aabarův', morph='Aabarův_;S_^(*2a)', pos='A', tag_mask='', parent_id=2, composition_parents=[], misc={}, children=[])))
         self.assertFalse(derinet.lexeme_exists(Node(lex_id=3, pretty_id='3', lemma='Aabarův', morph='Aabarův_;S_^(*2)', pos='D', tag_mask='', parent_id=2, composition_parents=[], misc={}, children=[])))
+
+    def test_add_lexeme(self):
+        derinet = DeriNet(fname=self.data_stream_v1)
+
+        test_lexeme = Node(lex_id=None, pretty_id='5', lemma='lexém', morph='lexém', pos='N', tag_mask='', parent_id=None, composition_parents=[], misc={}, children=[])
+        self.assertFalse(derinet.lexeme_exists(test_lexeme))
+        derinet.add_lexeme(test_lexeme)
+        self.assertTrue(derinet.lexeme_exists(test_lexeme))
+
+        with assert_raises(LexemeAlreadyExistsError):
+            derinet.add_lexeme(Node(lex_id=None, pretty_id='5', lemma='lexém', morph='lexém', pos='N', tag_mask='', parent_id=None, composition_parents=[], misc={}, children=[]))
+
+        with assert_raises(DeriNetError): # It is possible for this to raise a different error. But it must be a subclass of DeriNetError anyway.
+            derinet.add_lexeme(Node(lex_id=None, pretty_id='5', lemma='pseudolexém', morph='lexém-2', pos='N', tag_mask='', parent_id=None, composition_parents=[], misc={}, children=[]))
+
+        # TODO test inserting malformatted lexemes.

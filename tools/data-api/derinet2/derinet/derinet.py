@@ -9,7 +9,8 @@ from time import time
 from itertools import chain
 
 from .utils import pretty_lexeme, partial_lexeme_match, Node, flatten_list, \
-    LexemeNotFoundError, ParentNotFoundError, AlreadyHasParentError, CycleCreationError, UnknownFileVersion
+    LexemeNotFoundError, ParentNotFoundError, AlreadyHasParentError, CycleCreationError, \
+    LexemeAlreadyExistsError, UnknownFileVersion
 
 
 logging.basicConfig(level=logging.DEBUG,
@@ -213,6 +214,74 @@ class DeriNet(object):
                       sep="\t", file=ofile)
         except LexemeNotFoundError:
             logger.error('Failed to save tree with root %s', str(root))
+
+    def add_lexeme(self, node):
+        """
+        Add a new node to the database.
+
+        Doesn't add any derivations, you have to take care of these yourself.
+        In fact, the node mustn't contain any outstanding derivational links,
+        otherwise an assertion is violated.
+        """
+
+        # Check that node is not present yet.
+        if self.lexeme_exists(node):
+            raise LexemeAlreadyExistsError("lexeme {} already exists in the database".format(pretty_lexeme(node.lemma, node.pos, node.morph)))
+
+        # Find the position to insert the node to. This also becomes its internal ID.
+        current_index = len(self._data)
+
+
+        # Check that the necessary fields are filled in properly.
+        # TODO check types of fields – most should be strings, some ints, some arrays/dicts.
+
+        # Check that the internal ID is not set and set it to the future node position in the data array.
+        assert node.lex_id is None, "Node %s has filled lex_id. That field is internal, do not set it yourself" % ()
+        node = node._replace(lex_id=current_index)
+
+        # If the node doesn't have an external ID, set it. This may be required somewhere. TODO check whether and where.
+        if node.pretty_id is None:
+            node = node._replace(pretty_id="")
+
+        # Check that at least the basic node information is set.
+        assert node.lemma is not None
+        assert node.pos is not None
+        if node.morph is None:
+            # If there is no m-layer Hajič's morphology information (which, apart from Czech,
+            #  there isn't), set it to the lemma.
+            # This might be actually not the best way of handling things, but whatever.
+            #  Maybe we'd rather like to leave the field blank in that case.
+            node = node._replace(morph=node.lemma)
+
+        # Check that the node doesn't contain any derivational information and stands completely on its own.
+        assert node.parent_id is None or node.parent_id == "", "The newly added node '%s' must not have any parents set" % ()
+        assert node.composition_parents is None or node.composition_parents == [], "The newly added node '%s' must not have any parents set" % ()
+        assert node.children is None or node.children == [], "The newly added node '%s' must not have any children set" % ()
+
+        if node.tag_mask is None:
+            node = node._replace(tag_mask="")
+        if node.misc is None:
+            node = node._replace(misc={})
+
+        # Add it.
+        self._data.append(node._replace(lex_id=current_index))
+
+        # If the node is a root, record it as such.
+        if node.parent_id != "":
+            self._roots.append(node.parent_id)
+
+        if node.pretty_id:
+            if node.pretty_id in self._ids2internal:
+                raise LexemeAlreadyExistsError("lexeme id {} already exists in the database".format(node.pretty_id))
+            self._ids2internal[node.pretty_id] = current_index
+        else:
+            # TODO what if there is no pretty_id? Does that break something somewhere else?
+            # Let's at least issue a warning.
+            logger.warning("Lexeme %s doesn't have an ID" % pretty_lexeme(node.lemma, node.pos, node.morph))
+
+        self._index.setdefault(node.lemma, {})
+        self._index[node.lemma].setdefault(node.pos, {})
+        self._index[node.lemma][node.pos][node.morph] = node.lex_id
 
     def lexeme_exists(self, node):
         """Return a boolean indicating whether the node is already in the database."""
