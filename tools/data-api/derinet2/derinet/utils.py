@@ -44,7 +44,17 @@ def flatten_list(l):
         else:
             yield el
 
-class LexemeNotFoundError(Exception):
+
+class DeriNetError(Exception):
+    """The base class for all custom DeriNet errors.
+
+    It is defined so that you can safely catch all linguistic and annotation
+    errors with a single `except` type statement, while not catching unintended
+    errors such as TypeErrors.
+    """
+    pass
+
+class LexemeNotFoundError(DeriNetError):
     pass
 
 
@@ -52,13 +62,13 @@ class ParentNotFoundError(LexemeNotFoundError):
     pass
 
 
-class AlreadyHasParentError(Exception):
+class AlreadyHasParentError(DeriNetError):
     pass
 
 
-class CycleCreationError(Exception):
+class CycleCreationError(DeriNetError):
     pass
 
 
-class UnknownFileVersion(Exception):
+class UnknownFileVersion(DeriNetError):
     pass
