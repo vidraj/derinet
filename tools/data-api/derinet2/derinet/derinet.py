@@ -214,6 +214,15 @@ class DeriNet(object):
         except LexemeNotFoundError:
             logger.error('Failed to save tree with root %s', str(root))
 
+    def lexeme_exists(self, node):
+        """Return a boolean indicating whether the node is already in the database."""
+        similar_lexemes = self.search_lexemes(node.lemma, node.pos, node.morph)
+        for candidate in similar_lexemes:
+            # The candidate matches in lemma, pos and morph. Check ID as well.
+            if candidate.pretty_id == node.pretty_id:
+                return True
+        return False
+
     def get_lexeme(self, node, pos=None, morph=None):
         """Get node with lex_id id."""
         lex_id = self.get_id(node, pos=pos, morph=morph)
