@@ -275,21 +275,28 @@ class DeriNet(object):
                 raise LexemeAlreadyExistsError("lexeme id {} already exists in the database".format(node.pretty_id))
             self._ids2internal[node.pretty_id] = current_index
         else:
-            # TODO what if there is no pretty_id? Does that break something somewhere else?
-            # Let's at least issue a warning.
-            logger.warning("Lexeme %s doesn't have an ID" % pretty_lexeme(node.lemma, node.pos, node.morph))
+            # Not having a pretty_id is not a problem, self._ids2internal is not actually read anywhere.
+            logger.info("Lexeme %s doesn't have an ID" % pretty_lexeme(node.lemma, node.pos, node.morph))
 
         self._index.setdefault(node.lemma, {})
         self._index[node.lemma].setdefault(node.pos, {})
         self._index[node.lemma][node.pos][node.morph] = node.lex_id
 
     def lexeme_exists(self, node):
-        """Return a boolean indicating whether the node is already in the database."""
+        """Return a boolean indicating whether the node is already in the database.
+
+        The method checks node.lemma, node.pos and node.morph for equality with any lexeme in the database.
+        If node has a truthy pretty_id, it is checked as well, otherwise it is ignored."""
+
         similar_lexemes = self.search_lexemes(node.lemma, node.pos, node.morph)
-        for candidate in similar_lexemes:
-            # The candidate matches in lemma, pos and morph. Check ID as well.
-            if candidate.pretty_id == node.pretty_id:
-                return True
+        if similar_lexemes and not node.pretty_id: # FIXME what exactly is the pretty_id? Can it be an int? If so, fix this for the case when pretty_id == 0.
+            # The candidate matches in lemma, pos and morph and there is no ID to check.
+            return True
+        else:
+            # We have to check the ID for a match.
+            for candidate in similar_lexemes:
+                if candidate.pretty_id == node.pretty_id:
+                    return True
         return False
 
     def get_lexeme(self, node, pos=None, morph=None):

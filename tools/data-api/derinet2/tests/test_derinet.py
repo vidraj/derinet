@@ -68,6 +68,7 @@ class TestFiles(unittest.TestCase):
         self.assertTrue(derinet.lexeme_exists(Node(lex_id=1, pretty_id='3', lemma='Aabarův', morph='Aabarův_;S_^(*2)', pos='A', tag_mask='', parent_id=2, composition_parents=[], misc={}, children=[])))
         self.assertTrue(derinet.lexeme_exists(Node(lex_id=None, pretty_id='3', lemma='Aabarův', morph='Aabarův_;S_^(*2)', pos='A', tag_mask=None, parent_id=None, composition_parents=None, misc=None, children=None)))
         self.assertTrue(derinet.lexeme_exists(Node(lex_id=None, pretty_id='3', lemma='Aabarův', morph='Aabarův_;S_^(*2)', pos='A', tag_mask='abcd', parent_id=1, composition_parents=[2, 0], misc={"gender": "F"}, children=[4])))
+        self.assertTrue(derinet.lexeme_exists(Node(lex_id=3, pretty_id=None, lemma='Aabarův', morph='Aabarův_;S_^(*2)', pos='A', tag_mask='', parent_id=2, composition_parents=[], misc={}, children=[])))
 
         self.assertFalse(derinet.lexeme_exists(Node(lex_id=3, pretty_id='2', lemma='Aabarův', morph='Aabarův_;S_^(*2)', pos='A', tag_mask='', parent_id=2, composition_parents=[], misc={}, children=[])))
         self.assertFalse(derinet.lexeme_exists(Node(lex_id=3, pretty_id='3', lemma='Aabarůvovo', morph='Aabarův_;S_^(*2)', pos='A', tag_mask='', parent_id=2, composition_parents=[], misc={}, children=[])))
