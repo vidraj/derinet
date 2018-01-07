@@ -1,7 +1,7 @@
 import unittest
 import io
 
-from nose.tools import assert_raises
+from nose.tools import assert_raises, raises
 
 from derinet import DeriNetError, LexemeNotFoundError, LexemeAlreadyExistsError
 from derinet.derinet import DeriNet
@@ -119,6 +119,12 @@ class TestFiles(unittest.TestCase):
 
         self.assertEqual(id_pes, derinet.get_parent(id_psik).lex_id)
         self.assertEqual(id_psik, derinet.get_parent(derinet.get_parent(id_psickuv).lex_id).lex_id)
+
+    @raises(LexemeNotFoundError)
+    def test_bad_id_raises_exception(self):
+        derinet = DeriNet(fname=self.data_stream_v3)
+
+        derinet._valid_lex_id_or_raise(42)
 
     def test_exists_loop_simple(self):
         derinet = DeriNet(fname=self.data_stream_v1)
