@@ -112,10 +112,10 @@ class TestFiles(unittest.TestCase):
         id_psik = derinet.get_id("psík", "N")
         id_psickuv = derinet.get_id("psíčkův", "A")
 
-        self.assertTrue(derinet._is_valid_lex_id(id_pes))
-        self.assertTrue(derinet._is_valid_lex_id(id_psovite))
-        self.assertTrue(derinet._is_valid_lex_id(id_psik))
-        self.assertTrue(derinet._is_valid_lex_id(id_psickuv))
+        derinet._valid_lex_id_or_raise(id_pes)
+        derinet._valid_lex_id_or_raise(id_psovite)
+        derinet._valid_lex_id_or_raise(id_psik)
+        derinet._valid_lex_id_or_raise(id_psickuv)
 
         self.assertEqual(id_pes, derinet.get_parent(id_psik).lex_id)
         self.assertEqual(id_psik, derinet.get_parent(derinet.get_parent(id_psickuv).lex_id).lex_id)
