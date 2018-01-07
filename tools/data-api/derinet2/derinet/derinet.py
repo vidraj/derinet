@@ -106,19 +106,19 @@ class DeriNet(object):
             self._ids2internal[int(lex_id)] = i
             index.setdefault(lemma, {})
             index[lemma].setdefault(pos, {})
-            index[lemma][pos][morph] = int(lex_id)
+            index[lemma][pos][morph] = i
         return data, index
 
     def _populate_nodes(self, populate_children=True, replace_ids=True):
         """Populate children for all nodes."""
-        for node in self._data:
+        for node_id, node in enumerate(self._data):
             if node.parent_id == '':
                 continue
             parent_id = node.parent_id
             if replace_ids:
                 parent_id = self._ids2internal[node.parent_id]
                 composition_parents = [(self._ids2internal[p1], self._ids2internal[p2]) for p1, p2 in node.composition_parents]
-                self._data[parent_id]._replace(parent_id=parent_id, composition_parents=composition_parents)
+                self._data[node_id] = node._replace(parent_id=parent_id, composition_parents=composition_parents)
             if populate_children:
                 self._data[parent_id].children.append(node.lex_id)
 

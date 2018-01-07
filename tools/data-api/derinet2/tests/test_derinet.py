@@ -19,8 +19,21 @@ class TestFiles(unittest.TestCase):
 """
         data_v2 = """
         """
+        data_v3 = """455709	pes	pes_^(zvíře)	N	
+580101	psice	psice_^(*3ík)	N	580107
+580102	psíček	psíček	N	580107
+580103	psičin	psičin_^(*3ce)	A	580101
+580106	psíčkův	psíčkův_^(*3ek)	A	580102
+580107	psík	psík	N	455709
+580111	psíkův	psíkův_^(*2)	A	580107
+580178	psovitě	psovitě_^(*1ý)	D	580180
+580179	psovitost	psovitost_^(*3ý)	N	580180
+580180	psovitý	psovitý	A	455709
+580230	psův	psův_^(zvíře)_(*3es)	A	455709
+"""
         self.data_stream_v1 = io.StringIO(data_v1)
         self.data_stream_v2 = io.StringIO(data_v2)
+        self.data_stream_v3 = io.StringIO(data_v3)
 
 
     def test_data_v1_loaded(self):
@@ -90,3 +103,19 @@ class TestFiles(unittest.TestCase):
             derinet.add_lexeme(Node(lex_id=None, pretty_id='5', lemma='pseudolexém', morph='lexém-2', pos='N', tag_mask='', parent_id=None, composition_parents=[], misc={}, children=[]))
 
         # TODO test inserting malformatted lexemes.
+
+    def test_database_load_pretty_ids(self):
+        derinet = DeriNet(fname=self.data_stream_v3)
+
+        id_pes = derinet.get_id("pes", "N")
+        id_psovite = derinet.get_id("psovitě", "D")
+        id_psik = derinet.get_id("psík", "N")
+        id_psickuv = derinet.get_id("psíčkův", "A")
+
+        self.assertTrue(derinet._is_valid_lex_id(id_pes))
+        self.assertTrue(derinet._is_valid_lex_id(id_psovite))
+        self.assertTrue(derinet._is_valid_lex_id(id_psik))
+        self.assertTrue(derinet._is_valid_lex_id(id_psickuv))
+
+        self.assertEqual(id_pes, derinet.get_parent(id_psik).lex_id)
+        self.assertEqual(id_psik, derinet.get_parent(derinet.get_parent(id_psickuv).lex_id).lex_id)
