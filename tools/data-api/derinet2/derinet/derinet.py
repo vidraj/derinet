@@ -306,13 +306,25 @@ class DeriNet(object):
         return False
 
     def get_lexeme(self, node, pos=None, morph=None):
-        """Get node with lex_id id."""
+        """
+            Get instance of the specified node
+            :param node: identification of the node (instance, lemma or id)
+            :param pos: POS tag to resolve ambiguity
+            :param morph: morph string to resolve ambiguity
+            :return: instance of the parent node
+        """
         lex_id = self.get_id(node, pos=pos, morph=morph)
         self._valid_lex_id_or_raise(lex_id)
         return self._data[lex_id]
 
     def show_lexeme(self, node, pos=None, morph=None):
-        """Get representation of node with lex_id id."""
+        """
+            Get representation of the specified node
+            :param node: identification of the node (instance, lemma or id)
+            :param pos: POS tag to resolve ambiguity
+            :param morph: morph string to resolve ambiguity
+            :return: instance of the parent node
+        """
         lex_id = self.get_id(node, pos=pos, morph=morph)
         self._valid_lex_id_or_raise(lex_id)
         lexeme = self._data[lex_id]
@@ -382,7 +394,13 @@ class DeriNet(object):
         return id_list[0]
 
     def get_parent(self, node, pos=None, morph=None):
-        """Get parent node of the node with lex_id id."""
+        """
+            Get parent of the specified node
+            :param node: identification of the node (instance, lemma or id)
+            :param pos: POS tag to resolve ambiguity
+            :param morph: morph string to resolve ambiguity
+            :return: instance of the parent node
+        """
         lex_id = self.get_id(node, pos=pos, morph=morph)
         self._valid_lex_id_or_raise(lex_id)
         parent_id = self._data[lex_id].parent_id
@@ -391,7 +409,13 @@ class DeriNet(object):
         return self._data[parent_id]
 
     def get_root(self, node, pos=None, morph=None):
-        """Get root node of the node with lex_id id."""
+        """
+            Get root  of the specified node's tree
+            :param node: identification of the node (instance, lemma or id)
+            :param pos: POS tag to resolve ambiguity
+            :param morph: morph string to resolve ambiguity
+            :return: instance of the respective tree's root
+        """
         lex_id = self.get_id(node, pos=pos, morph=morph)
         self._valid_lex_id_or_raise(lex_id)
         parent_id = self._data[lex_id].parent_id
@@ -402,20 +426,28 @@ class DeriNet(object):
             current = self._data[current.parent_id]
         return current
 
-
     def get_children(self, node, pos=None, morph=None):
-        """Get list of children of the node with lex_id id."""
+        """
+            Get children of the specified node
+            :param node: identification of the node (instance, lemma or id)
+            :param pos: POS tag to resolve ambiguity
+            :param morph: morph string to resolve ambiguity
+            :return: list of found children
+        """
         lex_id = self.get_id(node, pos=pos, morph=morph)
         self._valid_lex_id_or_raise(lex_id)
         return [self._data[child_id] for child_id in self._data[lex_id].children]
 
     def get_subtree(self, node, pos=None, morph=None):
         """
-        Recursively build a list representing the tree
-        with the node with lex_id id as its root.
-        :param lex_id - id of the root of the tree
-        :return tree of the form:
-            [root, [[ch1, [[ch1.1, ...], [ch1.2, ...], ...]], [ch2, ...]]
+            Recursively build a list representing the tree
+            with the specified node as its root.
+            :param node: identification of the node (instance, lemma or id)
+            :param pos: POS tag to resolve ambiguity
+            :param morph: morph string to resolve ambiguity
+
+            :return tree of the form:
+                [root, [[ch1, [[ch1.1, ...], [ch1.2, ...], ...]], [ch2, ...]]
         """
         lex_id = self.get_id(node, pos=pos, morph=morph)
         self._valid_lex_id_or_raise(lex_id)
@@ -429,7 +461,7 @@ class DeriNet(object):
                                  form3=''):
         """
         Recursively build a string visualizing the tree
-        with the node with id lex_id as its root.
+        with the specified node as its root.
         """
         root_id = self.get_id(root, pos=pos, morph=morph)
         self._valid_lex_id_or_raise(root_id)
@@ -490,8 +522,8 @@ class DeriNet(object):
     def add_derivation(self, child, parent, child_pos=None, parent_pos=None, child_morph=None, parent_morph=None,
                        force=False, ignore_if_exists=True):
         """
-        Add an edge from the node with lex_id=parent_id
-        to the node with lex_id=child_id checking for consistency.
+        Add an edge from the node specified by 'parent'
+        to the node specified by 'child' checking for consistency.
 
         If force=True, (re)assign parent regardless of the fact
         that the node already has a parent.
@@ -561,7 +593,7 @@ class DeriNet(object):
             return False
 
     def add_derivations(self, edge_list, force=False):
-        """chichild
+        """
         Given a list of edges denoted by child and parent lemmas
         and optionally pos and morphological strings,
         add edges from parent to child checking for consistency.
@@ -585,8 +617,8 @@ class DeriNet(object):
     def remove_derivation(self, child, parent, child_pos=None, parent_pos=None,
                            child_morph=None, parent_morph=None):
         """
-        Remove an edge from the node with lex_id=parent_id
-        to the node with lex_id=child_id checking for consistency.
+        Remove an edge from the node specified by 'parent'
+        to the node specified by 'child' checking for consistency.
         """
         child_id = self.get_id(child, pos=child_pos, morph=child_morph)
         parent_id = self.get_id(parent, pos=parent_pos, morph=parent_morph)
