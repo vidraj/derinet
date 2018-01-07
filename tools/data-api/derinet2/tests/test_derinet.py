@@ -119,3 +119,54 @@ class TestFiles(unittest.TestCase):
 
         self.assertEqual(id_pes, derinet.get_parent(id_psik).lex_id)
         self.assertEqual(id_psik, derinet.get_parent(derinet.get_parent(id_psickuv).lex_id).lex_id)
+
+    def test_exists_loop_simple(self):
+        derinet = DeriNet(fname=self.data_stream_v1)
+
+        id_aaasen = derinet.get_id("Aaasen", "N")
+        id_aaasenuv = derinet.get_id("Aaasenův", "A")
+        id_aabar = derinet.get_id("Aabar", "N")
+        id_aabaruva = derinet.get_id("Aabarův", "A")
+        id_aabaruvx = derinet.get_id("Aabarův", "X")
+
+        self.assertFalse(derinet.exists_loop(id_aaasen))
+        self.assertFalse(derinet.exists_loop(id_aaasenuv))
+        self.assertFalse(derinet.exists_loop(id_aabar))
+        self.assertFalse(derinet.exists_loop(id_aabaruva))
+        self.assertFalse(derinet.exists_loop(id_aabaruvx))
+
+        self.assertFalse(derinet.exists_loop(id_aaasen, id_aaasenuv))
+        self.assertFalse(derinet.exists_loop(id_aaasen, id_aabar))
+        self.assertFalse(derinet.exists_loop(id_aaasen, id_aabaruva))
+        self.assertFalse(derinet.exists_loop(id_aaasen, id_aabaruvx))
+        self.assertFalse(derinet.exists_loop(id_aabaruva, id_aabaruvx))
+
+        self.assertTrue(derinet.exists_loop(id_aaasenuv, id_aaasen))
+        self.assertTrue(derinet.exists_loop(id_aabaruva, id_aabar))
+
+    def test_exists_loop_complex(self):
+        derinet = DeriNet(fname=self.data_stream_v3)
+
+        id_pes = derinet.get_id("pes", "N")
+        id_psovite = derinet.get_id("psovitě", "D")
+        id_psik = derinet.get_id("psík", "N")
+        id_psickuv = derinet.get_id("psíčkův", "A")
+
+        self.assertFalse(derinet.exists_loop(id_pes))
+        self.assertFalse(derinet.exists_loop(id_psovite))
+        self.assertFalse(derinet.exists_loop(id_psik))
+        self.assertFalse(derinet.exists_loop(id_psickuv))
+
+        self.assertFalse(derinet.exists_loop(id_pes, id_psovite))
+        self.assertFalse(derinet.exists_loop(id_pes, id_psik))
+        self.assertFalse(derinet.exists_loop(id_pes, id_psickuv))
+        self.assertFalse(derinet.exists_loop(id_psovite, id_psik))
+        self.assertFalse(derinet.exists_loop(id_psovite, id_psickuv))
+        self.assertFalse(derinet.exists_loop(id_psik, id_psickuv))
+        self.assertFalse(derinet.exists_loop(id_psik, id_psovite))
+        self.assertFalse(derinet.exists_loop(id_psickuv, id_psovite))
+
+        self.assertTrue(derinet.exists_loop(id_psovite, id_pes))
+        self.assertTrue(derinet.exists_loop(id_psik, id_pes))
+        self.assertTrue(derinet.exists_loop(id_psickuv, id_pes))
+        self.assertTrue(derinet.exists_loop(id_psickuv, id_psik))

@@ -547,15 +547,20 @@ class DeriNet(object):
         :param child_id: if supplied, the (possibly not existing) edge parent->child is considered
         :return:
         """
-        nodes_traversed, current, visited = 0, self._data[parent_id], {self._data[child_id].lex_id}
-        while current.parent_id != '' and current.lex_id not in visited:
-            visited.add(current.lex_id)
-            current = self._data[current.parent_id]
-            nodes_traversed += 1
+        current_id = self._data[parent_id].lex_id # ID of the node we're about to visit.
+        visited = set() # A set of already visited node IDs.
 
-        if current.parent_id != '' and nodes_traversed > 0:
+        if child_id is not None:
+            visited.add(self._data[child_id].lex_id)
+
+        while self.get_parent(current_id) and current_id not in visited:
+            visited.add(current_id)
+            current_id = self.get_parent(current_id).lex_id
+
+        if current_id in visited:
+            return True
+        else:
             return False
-        return True
 
     def add_derivations(self, edge_list, force=False):
         """chichild
