@@ -116,7 +116,10 @@ class DeriNet(object):
                 continue
             parent_id = node.parent_id
             if replace_ids:
+                if node.parent_id not in self._ids2internal:
+                    continue
                 parent_id = self._ids2internal[node.parent_id]
+
                 composition_parents = [(self._ids2internal[p1], self._ids2internal[p2]) for p1, p2 in node.composition_parents]
                 self._data[node_id] = node._replace(parent_id=parent_id, composition_parents=composition_parents)
             if populate_children:
@@ -124,10 +127,13 @@ class DeriNet(object):
 
         if replace_ids:
             for i in range(len(self._roots)):
+                if self._roots[i] not in self._ids2internal:
+                    continue
                 self._roots[i] = self._ids2internal[self._roots[i]]
 
-    def _is_valid_lex_id(self, lex_id):
-        return lex_id >= 0 and lex_id < len(self._data)
+    def _valid_lex_id_or_raise(self, lex_id, exc_cls=LexemeNotFoundError):
+        if lex_id < 0 or lex_id > len(self._data):
+            raise exc_cls('Lexeme with id "{}" not found'.format(lex_id))
 
     def load(self, fname, version):
         """Load DeriNet from tsv file."""
@@ -302,17 +308,15 @@ class DeriNet(object):
     def get_lexeme(self, node, pos=None, morph=None):
         """Get node with lex_id id."""
         lex_id = self.get_id(node, pos=pos, morph=morph)
-        if not self._is_valid_lex_id(lex_id):
-            raise LexemeNotFoundError('lexeme with id {} not found'.format(lex_id))
+        self._valid_lex_id_or_raise(lex_id)
         return self._data[lex_id]
 
     def show_lexeme(self, node, pos=None, morph=None):
         """Get representation of node with lex_id id."""
         lex_id = self.get_id(node, pos=pos, morph=morph)
-        if self._is_valid_lex_id(lex_id):
-            lexeme = self._data[lex_id]
-            return (lexeme.lemma, lexeme.pos, lexeme.morph)
-        return None
+        self._valid_lex_id_or_raise(lex_id)
+        lexeme = self._data[lex_id]
+        return (lexeme.lemma, lexeme.pos, lexeme.morph)
 
     def search_lexemes(self, lemma, pos=None, morph=None, allow_fallback=False):
         """
@@ -380,32 +384,30 @@ class DeriNet(object):
     def get_parent(self, node, pos=None, morph=None):
         """Get parent node of the node with lex_id id."""
         lex_id = self.get_id(node, pos=pos, morph=morph)
-        if self._is_valid_lex_id(lex_id):
-            parent_id = self._data[lex_id].parent_id
-            if parent_id == '':
-                return None
-            return self._data[parent_id]
-        return None
+        self._valid_lex_id_or_raise(lex_id)
+        parent_id = self._data[lex_id].parent_id
+        if parent_id == '' or parent_id > len(self._data):
+            return None
+        return self._data[parent_id]
 
     def get_root(self, node, pos=None, morph=None):
         """Get root node of the node with lex_id id."""
         lex_id = self.get_id(node, pos=pos, morph=morph)
-        if self._is_valid_lex_id(lex_id):
-            parent_id = self._data[lex_id].parent_id
-            if parent_id == '':
-                return node
-            current = self._data[parent_id]
-            while current.parent_id != '':
-                current = self._data[current.parent_id]
-            return current
+        self._valid_lex_id_or_raise(lex_id)
+        parent_id = self._data[lex_id].parent_id
+        if parent_id == '':
+            return node
+        current = self._data[parent_id]
+        while current.parent_id != '':
+            current = self._data[current.parent_id]
+        return current
 
 
     def get_children(self, node, pos=None, morph=None):
         """Get list of children of the node with lex_id id."""
         lex_id = self.get_id(node, pos=pos, morph=morph)
-        if self._is_valid_lex_id(lex_id):
-            return [self._data[child_id] for child_id in self._data[lex_id].children]
-        return None
+        self._valid_lex_id_or_raise(lex_id)
+        return [self._data[child_id] for child_id in self._data[lex_id].children]
 
     def get_subtree(self, node, pos=None, morph=None):
         """
@@ -416,11 +418,10 @@ class DeriNet(object):
             [root, [[ch1, [[ch1.1, ...], [ch1.2, ...], ...]], [ch2, ...]]
         """
         lex_id = self.get_id(node, pos=pos, morph=morph)
-        if self._is_valid_lex_id(lex_id):
-            lexeme = self._data[lex_id]
-            return [lexeme, [self.get_subtree(child)
-                             for child in lexeme.children]]
-        raise LexemeNotFoundError('lexeme with id {} not found'.format(lex_id))
+        self._valid_lex_id_or_raise(lex_id)
+        lexeme = self._data[lex_id]
+        return [lexeme, [self.get_subtree(child)
+                         for child in lexeme.children]]
 
     def subtree_as_str_from_root(self, root, pos=Node, morph=None,
                                  form1='',
@@ -431,27 +432,26 @@ class DeriNet(object):
         with the node with id lex_id as its root.
         """
         root_id = self.get_id(root, pos=pos, morph=morph)
-        if self._is_valid_lex_id(root_id):
-            lexeme = self._data[root_id]
-            subtree_str = form1 + form3
-            subtree_str += '\t'.join(str(item) for item in lexeme[:-1])
-            if lexeme.children != []:
-                # add all but last children's subtrees
-                for child in lexeme.children[:-1]:
-                    subtree_str += '\n' + self.subtree_as_str_from_root(
-                        child, pos=pos, morph=morph,
-                        form1=form1 + form2,
-                        form2='│ ',
-                        form3='└─')
-                # add last child's subtree
-                # it has slightly different formatting
+        self._valid_lex_id_or_raise(root_id)
+        lexeme = self._data[root_id]
+        subtree_str = form1 + form3
+        subtree_str += '\t'.join(str(item) for item in lexeme[:-1])
+        if lexeme.children != []:
+            # add all but last children's subtrees
+            for child in lexeme.children[:-1]:
                 subtree_str += '\n' + self.subtree_as_str_from_root(
-                    lexeme.children[-1], pos, morph,
+                    child, pos=pos, morph=morph,
                     form1=form1 + form2,
-                    form2='  ',
+                    form2='│ ',
                     form3='└─')
-            return subtree_str
-        raise LexemeNotFoundError('lexeme with id {} not found'.format(root_id))
+            # add last child's subtree
+            # it has slightly different formatting
+            subtree_str += '\n' + self.subtree_as_str_from_root(
+                lexeme.children[-1], pos, morph,
+                form1=form1 + form2,
+                form2='  ',
+                form3='└─')
+        return subtree_str
 
     def subtree_as_string(self, node, pos=None, morph=None):
         """
@@ -503,10 +503,8 @@ class DeriNet(object):
 
         child_id = self.get_id(child, pos=child_pos, morph=child_morph)
         parent_id = self.get_id(parent, pos=parent_pos, morph=parent_morph)
-        if not self._is_valid_lex_id(child_id):
-            raise LexemeNotFoundError('lexeme with id {} not found'.format(child_id))
-        if not self._is_valid_lex_id(parent_id):
-            raise ParentNotFoundError('lexeme with id {} not found'.format(parent_id))
+        self._valid_lex_id_or_raise(child_id)
+        self._valid_lex_id_or_raise(parent_id, ParentNotFoundError)
         child = self._data[child_id]
         parent = self._data[parent_id]
 
@@ -592,13 +590,11 @@ class DeriNet(object):
         """
         child_id = self.get_id(child, pos=child_pos, morph=child_morph)
         parent_id = self.get_id(parent, pos=parent_pos, morph=parent_morph)
-        if not self._is_valid_lex_id(child_id):
-            raise LexemeNotFoundError('lexeme with id {} not found'.format(child_id))
+        self._valid_lex_id_or_raise(child_id)
         child = self._data[child_id]
         if child.parent_id != parent_id:
             return False
-        if not self._is_valid_lex_id(parent_id):
-            raise ParentNotFoundError('lexeme with id {} not found'.format(parent_id))
+        self._valid_lex_id_or_raise(parent_id, ParentNotFoundError)
         parent = self._data[parent_id]
         new_children = [ch for ch in self._data[child.parent_id].children
                         if ch != child_id]
