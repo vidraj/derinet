@@ -68,14 +68,14 @@ class DeriNet(object):
     def _read_nodes_from_file(self, ifile, version):
         data, index = [], {}
         for i, line in enumerate(ifile):
-            splitted_line = line.strip('\n').split('\t')
+            split_line = line.strip('\n').split('\t')
             if version.startswith("1"):
-                if len(splitted_line) != 5:
-                    logger.warning("Failed to read lexeme on line %d. Invalid line format: get %d field, expected %d_populate_children",
-                                  i, len(splitted_line), 5)
+                if len(split_line) != 5:
+                    logger.warning("Failed to read lexeme on line %d. Invalid line format: get %d field, expected %d",
+                                  i, len(split_line), 5)
                     continue
                 else:
-                    lex_id, lemma, morph, pos, parent_id = splitted_line
+                    lex_id, lemma, morph, pos, parent_id = split_line
                     data.append(Node(i, lex_id, lemma, morph, pos, tag_mask="",
                                  parent_id=""
                                  if parent_id == ""
@@ -84,17 +84,17 @@ class DeriNet(object):
                                  misc={},
                                  children=[]))
             elif version.startswith("2"):
-                if len(splitted_line) != 8:
+                if len(split_line) != 8:
                     logger.warning(
                         "Failed to read lexeme on line %d. Invalid line format: get %d field, expected %d",
-                        i, len(splitted_line), 8)
+                        i, len(split_line), 8)
                     continue
                 else:
-                    lex_id, lemma, morph, pos, tag_mask, parent_id, composition_parents, misc = splitted_line
+                    lex_id, lemma, morph, pos, tag_mask, parent_id, composition_parents, misc = split_line
                     data.append(Node(i, lex_id, lemma, morph, pos, tag_mask,
                                  parent_id=""
                                  if parent_id == ""
-                                 else int(parent_id),
+                                 else self._ids2internal[parent_id],
                                  composition_parents=[edge.split('-') for edge in composition_parents.split(',')],
                                  misc=misc,
                                  children=[]))
@@ -102,8 +102,12 @@ class DeriNet(object):
                 raise UnknownFileVersion
 
             if parent_id != "":
-                self._roots.append(int(parent_id))
-            self._ids2internal[int(lex_id)] = i
+                    self._roots.append(self._ids2internal[parent_id]) if version.startswith("2") \
+                    else self._roots.append(int(parent_id))
+            if version.startswith("2"):
+                self._ids2internal[lex_id] = i
+            else:
+                self._ids2internal[int(lex_id)] = i
             index.setdefault(lemma, {})
             index[lemma].setdefault(pos, {})
             index[lemma][pos][morph] = i
@@ -208,13 +212,12 @@ class DeriNet(object):
 
     def save_tree(self, no, root, ofile):
         try:
-            for i, el in enumerate(flatten_list(self.get_subtree_by_id(root))):
+            for i, el in enumerate(flatten_list(self.get_subtree(root))):
                 lex_id, pretty_id, lemma, morph, pos, tag_mask, parent_id, composition_parents, misc = el[:-1]
                 pretty_id = "{}.{}".format(no, i)
                 self._ids[lex_id] = pretty_id
                 if parent_id != '':
                     parent_id = self._ids[parent_id]
-                    print(parent_id)
                 print(pretty_id, lemma, morph, pos, tag_mask,
                       parent_id,  [(self._ids[p1], self._ids[p2]) for p1, p2 in composition_parents], misc,
                       sep="\t", file=ofile)
