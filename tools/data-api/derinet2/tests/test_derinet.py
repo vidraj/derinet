@@ -176,3 +176,38 @@ class TestFiles(unittest.TestCase):
         self.assertTrue(derinet.exists_loop(id_psik, id_pes))
         self.assertTrue(derinet.exists_loop(id_psickuv, id_pes))
         self.assertTrue(derinet.exists_loop(id_psickuv, id_psik))
+
+
+    def test_roots_load(self):
+        derinet = DeriNet(fname=self.data_stream_v1)
+
+        expected_roots = [0, 2]
+        self.assertEqual(derinet._roots, expected_roots)
+
+    def test_roots_add_lexeme(self):
+        derinet = DeriNet(fname=self.data_stream_v2)
+
+        expected_roots_0 = []
+        self.assertEqual(derinet._roots, expected_roots_0)
+
+        derinet.add_lexeme(Node(lex_id=None, pretty_id='0', lemma='lexém', morph='lexém', pos='N', tag_mask='', parent_id=None, composition_parents=[], misc={}, children=[]))
+        expected_roots_1 = [0]
+        self.assertEqual(derinet._roots, expected_roots_1)
+
+        derinet.add_lexeme(Node(lex_id=None, pretty_id='1', lemma='lexéma', morph='lexém', pos='N', tag_mask='', parent_id=None, composition_parents=[], misc={}, children=[]))
+        expected_roots_2 = [0, 1]
+        self.assertEqual(derinet._roots, expected_roots_2)
+
+
+    def test_roots_add_derivation(self):
+        derinet = DeriNet(fname=self.data_stream_v1)
+
+        test_lexeme = Node(lex_id=None, pretty_id='5', lemma='lexém', morph='lexém', pos='N', tag_mask='', parent_id=None, composition_parents=[], misc={}, children=[])
+        derinet.add_lexeme(test_lexeme)
+
+        expected_roots_1 = [0, 2, 5]
+        self.assertEqual(derinet._roots, expected_roots_1)
+
+        derinet.add_derivation(5, 4)
+        expected_roots_2 = [0, 2]
+        self.assertEqual(derinet._roots, expected_roots_2)

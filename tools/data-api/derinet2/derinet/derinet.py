@@ -101,9 +101,8 @@ class DeriNet(object):
             else:
                 raise UnknownFileVersion
 
-            if parent_id != "":
-                    self._roots.append(self._ids2internal[parent_id]) if version.startswith("2") \
-                    else self._roots.append(int(parent_id))
+            if parent_id == "":
+                    self._roots.append(i)
             if version.startswith("2"):
                 self._ids2internal[lex_id] = i
             else:
@@ -273,11 +272,10 @@ class DeriNet(object):
             node = node._replace(misc={})
 
         # Add it.
-        self._data.append(node._replace(lex_id=current_index))
+        self._data.append(node)
 
-        # If the node is a root, record it as such.
-        if node.parent_id != "":
-            self._roots.append(node.parent_id)
+        # The new node is always a root, so record it as such.
+        self._roots.append(node.lex_id)
 
         if node.pretty_id:
             if node.pretty_id in self._ids2internal:
