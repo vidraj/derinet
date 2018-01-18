@@ -40,7 +40,7 @@ class DeriNet(object):
 
     def __init__(self, fname=None, version="1.4", locales='cs'):
         self._ids2internal = {}
-        self._roots = []
+        self._roots = set()
         self._ids = []
         if fname is None:
             self._data = []
@@ -102,7 +102,7 @@ class DeriNet(object):
                 raise UnknownFileVersion
 
             if parent_id == "":
-                    self._roots.append(i)
+                    self._roots.add(i)
             if version.startswith("2"):
                 self._ids2internal[lex_id] = i
             else:
@@ -129,10 +129,13 @@ class DeriNet(object):
                 self._data[parent_id].children.append(node.lex_id)
 
         if replace_ids:
-            for i in range(len(self._roots)):
-                if self._roots[i] not in self._ids2internal:
-                    continue
-                self._roots[i] = self._ids2internal[self._roots[i]]
+            new_roots = set()
+            for root in self._roots:
+                if root not in self._ids2internal:
+                    new_roots.add(root)
+                else:
+                    new_roots.add(self._ids2internal[root])
+            self._roots = new_roots
 
     def _valid_lex_id_or_raise(self, lex_id, exc_cls=LexemeNotFoundError):
         if lex_id < 0 or lex_id > len(self._data):
@@ -150,8 +153,7 @@ class DeriNet(object):
         btime = time()
         self._data, self._index = self._read_nodes_from_file(ifile, version)
         self._populate_nodes()
-
-        if len(self._data) - 1 != self._data[-1].lex_id:
+        if len(self._data) > 0 and len(self._data) - 1 != self._data[-1].lex_id:
             logger.warning('Lexeme numeration in DeriNet file looks inconsistent:\n'
                            'Discovered %d lexemes total but the last was indexed %d', len(self._data),
                            self._data[-1].lex_id)
@@ -205,7 +207,7 @@ class DeriNet(object):
         logger.info('Saving snapshot to "%s"', fname)
         btime = time()
         with open(fname, 'w', encoding='utf-8') as ofile:
-            for i, root in enumerate(self._roots):
+            for i, root in enumerate(sorted(self._roots)):
                 self.save_tree(i, root, ofile)
         logger.info('Saved in {:.2f} s.'.format(time() - btime))
 
@@ -272,10 +274,11 @@ class DeriNet(object):
             node = node._replace(misc={})
 
         # Add it.
+
         self._data.append(node)
 
         # The new node is always a root, so record it as such.
-        self._roots.append(node.lex_id)
+        self._roots.add(node.lex_id)
 
         if node.pretty_id:
             if node.pretty_id in self._ids2internal:
@@ -420,8 +423,8 @@ class DeriNet(object):
         lex_id = self.get_id(node, pos=pos, morph=morph)
         self._valid_lex_id_or_raise(lex_id)
         parent_id = self._data[lex_id].parent_id
-        if parent_id == '':
-            return node
+        if parent_id == '' or parent_id is None:
+            return self._data[lex_id]
         current = self._data[parent_id]
         while current.parent_id != '':
             current = self._data[current.parent_id]
@@ -565,6 +568,10 @@ class DeriNet(object):
                     children=[new_child for new_child in child.children if new_child != parent.lex_id])
                 if self._data[parent_id].lex_id == self._data[parent_id].parent_id:
                     self._data[parent_id] = self._data[parent_id]._replace(parent_id='')
+
+            if self.get_root(child_id).lex_id == child_id:
+                # the new children was actually a root node
+                self._roots.remove(child_id)
             self._data[child_id] = child._replace(parent_id=parent_id)
             self._data[parent_id].children.append(child_id)
         else:
@@ -633,6 +640,7 @@ class DeriNet(object):
                         if ch != child_id]
         self._data[child.parent_id] = self._data[child.parent_id]._replace(children=new_children)
         self._data[child_id] = child._replace(parent_id='')
+        self._roots.add(child_id)
         return True
 
 
