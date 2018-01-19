@@ -14,10 +14,19 @@ Node = namedtuple('Node',
                    'children',  # these are actual children nodes, not ids
                    ])
 
+
 def safe_str(line):
     if line is None:
         return ''
     return line
+
+
+def no_parent(parent_id_or_node):
+    if isinstance(parent_id_or_node, Node):
+        parent_id = parent_id_or_node.parent_id
+    else:
+        parent_id = parent_id_or_node
+    return parent_id == '' or parent_id is None
 
 
 def pretty_lexeme(lemma, pos, morph):
@@ -72,6 +81,7 @@ class CycleCreationError(DeriNetError):
 
 class UnknownFileVersion(DeriNetError):
     pass
+
 
 class LexemeAlreadyExistsError(DeriNetError):
     """Thrown when adding a lexeme that was already defined in the database."""

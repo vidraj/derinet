@@ -31,10 +31,10 @@ class TestFiles(unittest.TestCase):
 580180	psovitý	psovitý	A	455709
 580230	psův	psův_^(zvíře)_(*3es)	A	455709
 """
+
         self.data_stream_v1 = io.StringIO(data_v1)
         self.data_stream_v2 = io.StringIO(data_v2)
         self.data_stream_v3 = io.StringIO(data_v3)
-
 
     def test_data_v1_loaded(self):
         derinet = DeriNet(fname=self.data_stream_v1)
@@ -190,11 +190,13 @@ class TestFiles(unittest.TestCase):
         expected_roots_0 = set()
         self.assertEqual(derinet._roots, expected_roots_0)
 
-        derinet.add_lexeme(Node(lex_id=None, pretty_id='0', lemma='lexém', morph='lexém', pos='N', tag_mask='', parent_id=None, composition_parents=[], misc={}, children=[]))
+        derinet.add_lexeme(Node(lex_id=None, pretty_id='0', lemma='lexém', morph='lexém', pos='N', tag_mask='',
+                                parent_id=None, composition_parents=[], misc={}, children=[]))
         expected_roots_1 = {0}
         self.assertEqual(derinet._roots, expected_roots_1)
 
-        derinet.add_lexeme(Node(lex_id=None, pretty_id='1', lemma='lexéma', morph='lexém', pos='N', tag_mask='', parent_id=None, composition_parents=[], misc={}, children=[]))
+        derinet.add_lexeme(Node(lex_id=None, pretty_id='1', lemma='lexéma', morph='lexém', pos='N', tag_mask='',
+                                parent_id=None, composition_parents=[], misc={}, children=[]))
         expected_roots_2 = {0, 1}
         self.assertEqual(derinet._roots, expected_roots_2)
 
@@ -202,7 +204,8 @@ class TestFiles(unittest.TestCase):
     def test_roots_add_derivation(self):
         derinet = DeriNet(fname=self.data_stream_v1)
 
-        test_lexeme = Node(lex_id=None, pretty_id='5', lemma='lexém', morph='lexém', pos='N', tag_mask='', parent_id=None, composition_parents=[], misc={}, children=[])
+        test_lexeme = Node(lex_id=None, pretty_id='5', lemma='lexém', morph='lexém', pos='N', tag_mask='',
+                           parent_id=None, composition_parents=[], misc={}, children=[])
         derinet.add_lexeme(test_lexeme)
 
         expected_roots_1 = {0, 2, 5}
@@ -220,4 +223,18 @@ class TestFiles(unittest.TestCase):
 
         derinet.remove_derivation(4, 2)
         expected_roots_2 = {0, 2, 4}
+        self.assertEqual(derinet._roots, expected_roots_2)
+
+    def test_roots_updated_when_sort(self):
+        derinet = DeriNet(fname=self.data_stream_v3)
+
+        test_lexeme = Node(lex_id=None, pretty_id='5', lemma='neseřazen', morph='neseřazen', pos='A', tag_mask='',
+                           parent_id=None, composition_parents=[], misc={}, children=[])
+        derinet.add_lexeme(test_lexeme)
+        # pes, neseřazen
+        expected_roots_1 = {0, 11}
+        self.assertEqual(derinet._roots, expected_roots_1)
+        derinet.sort()
+        # neseřazen seřazen, pes
+        expected_roots_2 = {0, 1}
         self.assertEqual(derinet._roots, expected_roots_2)

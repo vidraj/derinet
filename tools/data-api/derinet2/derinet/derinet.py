@@ -8,7 +8,7 @@ import logging
 from time import time
 from itertools import chain
 
-from .utils import pretty_lexeme, partial_lexeme_match, Node, flatten_list, \
+from .utils import pretty_lexeme, partial_lexeme_match, Node, flatten_list, no_parent, \
     LexemeNotFoundError, ParentNotFoundError, AlreadyHasParentError, CycleCreationError, \
     LexemeAlreadyExistsError, UnknownFileVersion
 
@@ -64,7 +64,6 @@ class DeriNet(object):
                          '\tsudo apt-get install language-pack-\n'
                          'in your terminal.', locales)
 
-
     def _read_nodes_from_file(self, ifile, version):
         data, index = [], {}
         for i, line in enumerate(ifile):
@@ -78,7 +77,7 @@ class DeriNet(object):
                     lex_id, lemma, morph, pos, parent_id = split_line
                     data.append(Node(i, lex_id, lemma, morph, pos, tag_mask="",
                                  parent_id=""
-                                 if parent_id == ""
+                                 if no_parent(parent_id)
                                  else int(parent_id),
                                  composition_parents=[],
                                  misc={},
@@ -93,7 +92,7 @@ class DeriNet(object):
                     lex_id, lemma, morph, pos, tag_mask, parent_id, composition_parents, misc = split_line
                     data.append(Node(i, lex_id, lemma, morph, pos, tag_mask,
                                  parent_id=""
-                                 if parent_id == ""
+                                 if no_parent(parent_id)
                                  else self._ids2internal[parent_id],
                                  composition_parents=[edge.split('-') for edge in composition_parents.split(',')],
                                  misc=misc,
@@ -101,7 +100,7 @@ class DeriNet(object):
             else:
                 raise UnknownFileVersion
 
-            if parent_id == "":
+            if no_parent(parent_id):
                     self._roots.add(i)
             if version.startswith("2"):
                 self._ids2internal[lex_id] = i
@@ -115,7 +114,7 @@ class DeriNet(object):
     def _populate_nodes(self, populate_children=True, replace_ids=True):
         """Populate children for all nodes."""
         for node_id, node in enumerate(self._data):
-            if node.parent_id == '':
+            if no_parent(node):
                 continue
             parent_id = node.parent_id
             if replace_ids:
@@ -179,7 +178,7 @@ class DeriNet(object):
         for i, node in enumerate(self._data):
             self._data[i] = node._replace(lex_id=i,
                                           parent_id=''
-                                          if node.parent_id == ''
+                                          if no_parent(node)
                                           # TODO: measure if faster than use self._data[node.parent_id].lex_id
                                           else reverse_id[node.parent_id],
                                           children=[])
@@ -187,6 +186,10 @@ class DeriNet(object):
 
         # repopulate children
         self._populate_nodes(replace_ids=False)
+        new_roots = set()
+        for root in self._roots:
+            new_roots.add(reverse_id[root])
+        self._roots = new_roots
 
         logger.info('Sorted in {:.2f} s.'.format(time() - btime))
 
@@ -264,7 +267,7 @@ class DeriNet(object):
             node = node._replace(morph=node.lemma)
 
         # Check that the node doesn't contain any derivational information and stands completely on its own.
-        assert node.parent_id is None or node.parent_id == "", "The newly added node '%s' must not have any parents set" % ()
+        assert no_parent(node), "The newly added node '%s' must not have any parents set" % ()
         assert node.composition_parents is None or node.composition_parents == [], "The newly added node '%s' must not have any parents set" % ()
         assert node.children is None or node.children == [], "The newly added node '%s' must not have any children set" % ()
 
@@ -408,7 +411,7 @@ class DeriNet(object):
         lex_id = self.get_id(node, pos=pos, morph=morph)
         self._valid_lex_id_or_raise(lex_id)
         parent_id = self._data[lex_id].parent_id
-        if parent_id == '' or parent_id > len(self._data):
+        if no_parent(parent_id) or parent_id > len(self._data):
             return None
         return self._data[parent_id]
 
@@ -423,7 +426,7 @@ class DeriNet(object):
         lex_id = self.get_id(node, pos=pos, morph=morph)
         self._valid_lex_id_or_raise(lex_id)
         parent_id = self._data[lex_id].parent_id
-        if parent_id == '' or parent_id is None:
+        if no_parent(parent_id):
             return self._data[lex_id]
         current = self._data[parent_id]
         while current.parent_id != '':
@@ -690,7 +693,7 @@ class DeriNet(object):
 
         # TODO:  Try to find a pair with matching homonym numbers.
 
-        unconnected_targets = [target for target in target_candidates if self._data[target].parent_id == '']
+        unconnected_targets = [target for target in target_candidates if no_parent(self._data[target])]
 
         return (self._data[source_candidates[0]],
                 self._data[unconnected_targets[0]] if len(unconnected_targets) == 0 else self._data[target_candidates[0]])
