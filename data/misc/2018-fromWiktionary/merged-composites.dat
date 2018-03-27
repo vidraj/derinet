@@ -1,1345 +1,1343 @@
-# DeriNet's roots (composites) having parent(s) in Wiktionary which exist(s) in DeriNet (not in same tree)
 ### Number of DeriNets roots with parents in Wiktionary (in this file): 1341 ###
-# DeriNet_root  parents_from_Wiktionary_existed_in_DeriNet
 
-fotoaparát_NC	aparát_N; fotografka_N; fotografovat_VC; fotograf_N; foťák_N; fotografický_A; fotografie_NC; fotka_N
-mimozemský_AC	mimo_R; mimozemšťanka_N; zem_N; mimozemšťan_NC; země_N; zemský_A
-fotografie_NC	foťák_N; fotopřístroj_NC; fotoaparát_NC; fotka_N; foto_N
-jihoevropský_AC	středoevropský_AC; východoevropský_AC; evropský_A; severoevropský_AC; západoevropský_AC
-středoevropský_AC	jihoevropský_AC; východoevropský_AC; evropský_A; severoevropský_AC; západoevropský_AC
-vzdoropapež_NC	papež_N; papežství_N; papežka_N; protipapežský_A; papežský_A
-východoevropský_AC	středoevropský_AC; jihoevropský_AC; evropský_A; severoevropský_AC; západoevropský_AC
-západoevropský_AC	středoevropský_AC; jihoevropský_AC; východoevropský_AC; evropský_A; severoevropský_AC
-vodopád_NC	vodík_N; vodnatý_A; pád_N; voda_N; vodní_A
-severoevropský_AC	středoevropský_AC; jihoevropský_AC; východoevropský_AC; evropský_A; západoevropský_AC
-fotografovat_VC	fotograf_N; fotografie_NC; fotoaparát_NC; fotografka_N; fotka_N
-moravskoslezský_AC	Slezsko_N; moravský_A; Morava_N; slezský_A; Slezsko_None
-zoocenóza_NC	geobiocenóza_NC; biocenóza_NC; fytocenóza_NC; cenóza_N
-autobus_NC	omnibus_N; mikrobus_N; auto_N; bus_N
-horolezec_NC	lezecký_A; hora_N; lezec_N; lézt_V
-středoplošník_NC	dvouplošník_N; hornoplošník_NC; dvojplošník_N; dolnoplošník_NC
-listopad_NC	listnatý_A; padat_V; pád_N; list_N
-spoluobčan_NC	občan_N; spolu_D; obec_N; spolu_None
-biocenóza_NC	zoocenóza_NC; geobiocenóza_NC; fytocenóza_NC; cenóza_N
-nahoře_DC	nahoru_DC; vzhůru_D; hora_N; shora_D
-hornoplošník_NC	dvouplošník_N; středoplošník_NC; dvojplošník_N; dolnoplošník_NC
-kamenolom_NC	lom_N; lomit_V; kamenný_A; kámen_N
-geobiocenóza_NC	zoocenóza_NC; biocenóza_NC; fytocenóza_NC; cenóza_N
-dolnoplošník_NC	dvouplošník_N; hornoplošník_NC; dvojplošník_N; středoplošník_NC
-mimozemšťan_NC	mimo_R; mimozemský_AC; země_N; zem_N
-fytocenóza_NC	zoocenóza_NC; biocenóza_NC; geobiocenóza_NC; cenóza_N
-elektron_NC	elektronika_N; elektrika_N; elektronický_A; elektrický_A
-extraliga_NC	interliga_NC; liga_N; superliga_N
-lidoop_NC	op_N; lid_N; opice_N
-Rakousko-Uhersko_NCC	Rakousko_None; Uhersko_N; Rakousko_N
-zemětřesení_NC	země_N; třesení_N; třást_V
-rodokmen_NC	rod_N; rodit_V; kmen_N
-málokde_DC	málo_N; kde_None; málo_D
-mimořádný_AC	mimo_R; řádně_D; řád_N
-semifinále_NC	finále_N; semifinalista_NC; semifinalistka_N
-životospráva_NC	životně_D; život_N; správa_N
-pozemský_AC	země_N; zemský_A; zem_N
-rodopis_NC	rod_N; rodit_V; psát_V
-šéfredaktor_NC	redaktor_N; šéf_N; redakce_N
-lichokopytník_NC	sudokopytník_NC; kopytník_N; kopyto_N
-cyklotrasa_NC	trasa_N; cyklostezka_NC; cyklopruh_NC
-vlnolam_NC	lomit_V; vlna_N; lámat_V
-častokrát_DC	často_D; krát_R; často_None
-knihkupec_NC	kniha_N; knihař_N; knihovní_A
-hlavolam_NC	lomit_V; lámat_V; hlava_N
-nadčasový_AC	nečas_N; čas_N; časový_A
-dlouhodobý_AC	doba_N; dlouhý_A; dlouho_D
-interliga_NC	extraliga_NC; liga_N; superliga_N
-politováníhodný_AC	politování_N; litovat_V; hodný_A
-zemědělec_NC	zemský_A; země_N; kovozemědělec_N
-slovanofil_NC	Slovanka_N; Slovan_N; slovanský_A
-indonéský_AC	Indonésie_N; Indonésan_N; Indonésanka_N
-spolužákyně_NC	spolužačka_N; spolužák_N; žákyně_N
+fotoaparát_NC	fotografovat_VC; fotka_N; fotografický_A; fotograf_N; fotografie_NC; foťák_N; aparát_N; fotografka_N
+mimozemský_AC	mimo_R; mimozemšťanka_N; zemský_A; mimozemšťan_NC; zem_N; země_N
+západoevropský_AC	středoevropský_AC; severoevropský_AC; evropský_A; jihoevropský_AC; východoevropský_AC
+vzdoropapež_NC	papežský_A; papežství_N; papež_N; protipapežský_A; papežka_N
+jihoevropský_AC	středoevropský_AC; západoevropský_AC; evropský_A; severoevropský_AC; východoevropský_AC
+moravskoslezský_AC	Slezsko_None; Slezsko_N; moravský_A; slezský_A; Morava_N
+vodopád_NC	vodní_A; voda_N; vodnatý_A; vodík_N; pád_N
+východoevropský_AC	středoevropský_AC; západoevropský_AC; evropský_A; jihoevropský_AC; severoevropský_AC
+fotografovat_VC	fotograf_N; fotografie_NC; fotoaparát_NC; fotka_N; fotografka_N
+fotografie_NC	foto_N; foťák_N; fotka_N; fotoaparát_NC; fotopřístroj_NC
+severoevropský_AC	středoevropský_AC; západoevropský_AC; evropský_A; jihoevropský_AC; východoevropský_AC
+středoevropský_AC	severoevropský_AC; západoevropský_AC; evropský_A; jihoevropský_AC; východoevropský_AC
+nahoře_DC	shora_D; nahoru_DC; hora_N; vzhůru_D
+kamenolom_NC	kámen_N; kamenný_A; lomit_V; lom_N
+zoocenóza_NC	fytocenóza_NC; cenóza_N; biocenóza_NC; geobiocenóza_NC
+horolezec_NC	hora_N; lezec_N; lézt_V; lezecký_A
+fytocenóza_NC	geobiocenóza_NC; cenóza_N; biocenóza_NC; zoocenóza_NC
+elektron_NC	elektronika_N; elektronický_A; elektrika_N; elektrický_A
+listopad_NC	list_N; listnatý_A; pád_N; padat_V
+dolnoplošník_NC	dvojplošník_N; středoplošník_NC; hornoplošník_NC; dvouplošník_N
+spoluobčan_NC	občan_N; spolu_D; spolu_None; obec_N
+mimozemšťan_NC	země_N; zem_N; mimo_R; mimozemský_AC
+autobus_NC	auto_N; omnibus_N; bus_N; mikrobus_N
+hornoplošník_NC	dvojplošník_N; středoplošník_NC; dolnoplošník_NC; dvouplošník_N
+středoplošník_NC	dvojplošník_N; dolnoplošník_NC; hornoplošník_NC; dvouplošník_N
+biocenóza_NC	fytocenóza_NC; geobiocenóza_NC; cenóza_N; zoocenóza_NC
+geobiocenóza_NC	fytocenóza_NC; cenóza_N; biocenóza_NC; zoocenóza_NC
+nadčasový_AC	časový_A; čas_N; nečas_N
 dobročinný_AC	dobrý_A; činný_A; čin_N
-suchohřib_NC	suchý_A; hřib_N; sucho_N
-mimoolomoucký_AC	Olomouc_None; mimo_R; olomoucký_A
-databáze_NC	datový_A; data_N; báze_N
-jazykolam_NC	lomit_V; lámat_V; jazyk_N
-sudokopytník_NC	lichokopytník_NC; kopytník_N; kopyto_N
-národopis_NC	rod_N; národ_N; rodit_V
-sebevražda_NC	vražda_N; vražedný_A; vraždit_V
-každodenní_AC	každý_P; den_N; denní_A
+cyklostezka_NC	cyklotrasa_NC; cyklopruh_NC; stezka_N
+dlouhodobý_AC	doba_N; dlouho_D; dlouhý_A
+mimořádný_AC	řád_N; řádně_D; mimo_R
 divotvorný_AC	divotvůrce_N; divotvorce_N; div_N
-mimomanželský_AC	mimo_R; manželský_A; manžel_N
-samohláska_NC	hláska_N; hlas_N; dvojhláska_NC
-stonásobný_AC	násobit_V; sto_C; sto_None
-každoroční_AC	každý_P; rok_N; roční_A
-cyklostezka_NC	stezka_N; cyklotrasa_NC; cyklopruh_NC
+lichokopytník_NC	sudokopytník_NC; kopyto_N; kopytník_N
+každodenní_AC	každý_P; denní_A; den_N
+extraliga_NC	superliga_N; interliga_NC; liga_N
+semifinále_NC	semifinalistka_N; semifinalista_NC; finále_N
+málokde_DC	kde_None; málo_N; málo_D
+hlavolam_NC	lámat_V; hlava_N; lomit_V
+častokrát_DC	krát_R; často_D; často_None
+lidoop_NC	opice_N; op_N; lid_N
+Rakousko-Uhersko_NCC	Rakousko_N; Rakousko_None; Uhersko_N
+zemětřesení_NC	třást_V; země_N; třesení_N
+indonéský_AC	Indonésanka_N; Indonésie_N; Indonésan_N
+vlnolam_NC	lámat_V; vlna_N; lomit_V
+stonásobný_AC	sto_None; sto_C; násobit_V
 málokdy_DC	málo_N; málo_D; kdy_J
-smysluplný_AC	plný_A; smysl_N; pomyslný_A
-křivohubý_AC	křivý_A; huba_N
-teplokrevný_AC	teplo_N; krev_N
-křivopřísežný_AC	křivý_A; přísahat_V
-dvojbob_NC	bob_N; čtyřbob_NC
-tvrdošíjný_AC	tvrdý_A; šíje_N
-adenohypofýza_NC	hypofýza_NC; neurohypofýza_NC
-levopravý_AC	levý_A; pravý_A
-tentokrát_DC	tenkrát_D; krát_R
-paroplavba_NC	parník_N; pára_N
-protiklad_NC	klást_V; protipříklad_NC
-velezrada_NC	zrádce_N; zrada_N
-autoservis_NC	auto_N; automechanik_NC
-lžidoktor_NC	lež_N; doktor_N
-čaroděj_NC	čarovat_V; čáry_N
-topmodelka_NC	modelka_N; model_N
-láskyplný_AC	plný_A; láska_N
-videorekordér_NC	rekordér_N; video_N
-barman_NC	barový_A; bar_N
-kryptoanalýza_NC	kryptografie_NC; kryptologie_NC
-rukopis_NC	psát_V; ruka_N
-židomilný_AC	Žid_N; žid_N
-rychlovlak_NC	rychlodráha_NC; rychlý_A
-lidovláda_NC	lid_N; vláda_N
-zeměplaz_NC	země_N; plaz_N
-minisukně_NC	sukně_N; sukničkář_N
-světadíl_NC	díl_N; svět_N
-čtyřbob_NC	bob_N; dvojbob_NC
-Frýdek-Místek_NC	Frýdek_N; Místek_N
-tělocvik_NC	tělo_N; cvik_N
-zahraničněpolitický_AC	politický_A; zahraniční_A
-kávomlýnek_NC	mlýnek_N; káva_N
-dějepis_NC	dít_V; děj_N
-mezigalaktický_AC	galaktický_A; galaxie_N
-neurohypofýza_NC	hypofýza_NC; adenohypofýza_NC
-ledopád_NC	led_N; pád_N
-zákonodárce_NC	zákon_N; dát_V
-ideologie_NC	zideologizovat_V; idea_N
-anachronistický_AC	anachronizmus_N; anachronismus_N
-Bohumil_NC	Bohumila_N; bůh_N
-tisícinásobný_AC	tisíc_C; tisíc_N
-Dobromil_NC	dobrý_A; Dobromila_N
-zeměpis_NC	psát_V; země_N
-jinotaj_NC	taj_N; tajit_V
-vícekolejný_AC	dvoukolejný_A; dvojkolejný_AC
-radioaktivní_AC	rádium_N; rádiový_A
-provensálský_AC	Provence_N; Provence_None
-pedikúra_NC	kúra_N; manikúra_N
-slabozraký_AC	slabý_A; zrak_N
-samolepicí_AC	samolepka_N; lepicí_A
-tenorsaxofon_NC	saxofon_NC; tenor_N
-pornofilm_NC	pornografie_NC; porno_N
-polotučný_AC	tuk_N; tučný_A
-tvrdohlavý_AC	hlava_N; tvrdý_A
-oligarcha_NC	oligarchický_A; oligarchie_N
-krátkodobý_AC	doba_N; krátký_A
-polynéský_AC	Polynésie_None; Polynésie_N
-magnetofon_NC	magnetický_A; magnet_N
-kosmodrom_NC	kosmos_N; kosmický_A
-ohleduplný_AC	plný_A; ohled_N
-časomíra_NC	čas_N; míra_N
-šéfkuchař_NC	kuchař_N; šéf_N
-každopádně_DC	pád_N; pokaždé_D
-habrolistý_AC	list_N; habr_N
-dřevorubec_NC	rubat_V; dřevo_N
-dlouhověký_AC	věk_N; dlouho_D
-darmošlap_NC	darmo_D; darmo_None
-maxisukně_NC	sukně_N; sukničkář_N
-pětinásobný_AC	pět_C; pět_V
-maloobchod_NC	obchod_N; malý_A
-stejnokroj_NC	stejný_A; kroj_N
-bipolární_AC	polární_A; pól_N
-carovražda_NC	car_N; carovrah_NC
-pravděpodobný_AC	podobný_A; pravda_N
+sebevražda_NC	vražedný_A; vraždit_V; vražda_N
+sudokopytník_NC	lichokopytník_NC; kopytník_N; kopyto_N
+mimomanželský_AC	manželský_A; mimo_R; manžel_N
+databáze_NC	data_N; báze_N; datový_A
+interliga_NC	extraliga_NC; superliga_N; liga_N
+samohláska_NC	hláska_N; dvojhláska_NC; hlas_N
+rodopis_NC	rod_N; psát_V; rodit_V
+suchohřib_NC	sucho_N; suchý_A; hřib_N
+knihkupec_NC	knihař_N; kniha_N; knihovní_A
+národopis_NC	rod_N; národ_N; rodit_V
+životospráva_NC	životně_D; život_N; správa_N
+slovanofil_NC	slovanský_A; Slovan_N; Slovanka_N
+cyklotrasa_NC	trasa_N; cyklostezka_NC; cyklopruh_NC
+šéfredaktor_NC	šéf_N; redaktor_N; redakce_N
+pozemský_AC	země_N; zem_N; zemský_A
+smysluplný_AC	pomyslný_A; plný_A; smysl_N
+zemědělec_NC	kovozemědělec_N; země_N; zemský_A
+jazykolam_NC	lámat_V; lomit_V; jazyk_N
+politováníhodný_AC	politování_N; hodný_A; litovat_V
+mimoolomoucký_AC	Olomouc_None; olomoucký_A; mimo_R
+každoroční_AC	rok_N; roční_A; každý_P
+rodokmen_NC	rod_N; kmen_N; rodit_V
+spolužákyně_NC	spolužačka_N; žákyně_N; spolužák_N
+fotoalbum_NC	album_N; fotka_N
+krveprolití_NC	prolít_V; krev_N
 ekosystém_NC	systém_N; ekologie_NC
-místodržitel_NC	držet_V; držitel_N
-sněhobílý_AC	sněžný_A; sníh_N
-spoluautor_NC	autor_N; spolu_D
-životaschopný_AC	životně_D; život_N
-malopolský_AC	polský_A; Malopolsko_N
-vnitrozemí_NC	země_N; vnitro_N
-vinobraní_NC	víno_N; brát_V
-lidojed_NC	lidožrout_N; lid_N
-podprahový_AC	práh_N; prahový_A
-kontrabas_NC	bas_N; basa_N
-ledoborec_NC	led_N; borec_N
-podunajský_AC	dunajský_A; Dunaj_N
+dlouhověký_AC	dlouho_D; věk_N
+pornofilm_NC	porno_N; pornografie_NC
+všeobecný_AC	obec_N; obecný_A
+ledoborec_NC	borec_N; led_N
+věkodlouhý_AC	věk_N; dlouhý_A
+tisícinásobný_AC	tisíc_C; tisíc_N
+pravoúhlý_AC	úhlový_A; pravý_A
+veletucet_NC	kopa_N; tucet_N
+autoservis_NC	automechanik_NC; auto_N
+dvojbob_NC	bob_N; čtyřbob_NC
+provensálský_AC	Provence_None; Provence_N
+tenorsaxofon_NC	saxofon_NC; tenor_N
+videorekordér_NC	rekordér_N; video_N
+starověk_NC	věk_N; starý_A
+tvrdohlavý_AC	tvrdý_A; hlava_N
+záštiplný_AC	zášť_N; plný_A
+vodotisk_NC	tisknout_V; tisk_N
+vodovod_NC	voda_N; vést_V
 samouk_NC	učit_V; nedouk_N
+blahopřát_VC	blahý_A; přát_V
+středoamerický_AC	americký_A; Středoameričan_N
+blbuvzdorný_AC	zblbnout_V; blbnout_V
+židomilný_AC	žid_N; Žid_N
+Frýdek-Místek_NC	Frýdek_N; Místek_N
+plnohodnotný_AC	hodnotný_A; hodnota_N
+perokresba_NC	kresba_N; pero_N
+dřevoryt_NC	dřevo_N; rýt_V
+dřevorubec_NC	dřevo_N; rubat_V
 velezrádce_NC	zrádce_N; velezrada_NC
 nízkotučný_AC	tuk_N; tučný_A
-ziskuchtivý_AC	zisk_N; chtít_V
-generálplukovník_NC	generál_N; plukovník_N
-zvěrokruh_NC	zvíře_N; kruh_N
-záštiplný_AC	zášť_N; plný_A
-jihozápad_NC	západ_N; jih_N
-státověda_NC	věda_N; stát_N
-rychlovarný_AC	vařit_V; varný_A
-plnotučný_AC	tuk_N; tučný_A
-světloplachý_AC	světlo_N; plachý_A
-uhlobaron_NC	baron_N; uhlí_N
-mezivládní_AC	vládní_A; vláda_N
-světoznámý_AC	známý_N; svět_N
-zeměkoule_NC	země_N; koule_N
-suchozemský_AC	zemský_A; suchý_A
-dřevoryt_NC	rýt_V; dřevo_N
-tupoúhlý_AC	tupý_A; úhlový_A
-jihovýchod_NC	jih_N; východ_N
-kinofilm_NC	film_N; kino_N
-světonázor_NC	názor_N; svět_N
-středoamerický_AC	americký_A; Středoameričan_N
-spolujízda_NC	jízda_N; spolujezdkyně_N
-taxonomie_NC	taxon_N; taxa_N
-paroloď_NC	loď_N; pára_N
-diapozitiv_NC	diaprojektor_N; pozitiv_N
-melodram_NC	dramatický_A; melodie_N
-rychlodráha_NC	rychlovlak_NC; dráha_N
-blahopřát_VC	přát_V; blahý_A
-jazykověda_NC	věda_N; jazyk_N
-severozápad_NC	západ_N; sever_N
+vševěd_NC	vědomost_N; vědět_V
+uhlovodík_NC	uhlík_N; vodík_N
+maloobchod_NC	malý_A; obchod_N
+taxonomie_NC	taxa_N; taxon_N
+oligarcha_NC	oligarchie_N; oligarchický_A
+křivopřísežný_AC	křivý_A; přísahat_V
+láskyplný_AC	plný_A; láska_N
+protipovodňový_AC	povodňový_A; povodeň_N
+dobrodruh_NC	druh_N; dobrý_A
+cyrilometodějský_AC	Cyril_N; Metoděj_N
 rukojeť_NC	rukověť_NC; ruka_N
-miligram_NC	gram_N; dekagram_NC
-webkamera_NC	web_N; kamera_N
-šeroslepý_AC	šero_N; slepý_A
-mezinárodní_AC	národ_N; národní_A
-krátkonohý_AC	krátký_A; noha_N
+staromódní_AC	móda_N; módní_A
+podunajský_AC	dunajský_A; Dunaj_N
+topmodelka_NC	modelka_N; model_N
+pravomoc_NC	moc_N; právo_N
+severovýchod_NC	sever_N; východ_N
+stejnokroj_NC	kroj_N; stejný_A
+uhlokresba_NC	kresba_N; uhel_N
+tělocvik_NC	tělo_N; cvik_N
+světoznámý_AC	svět_N; známý_N
+oceánografie_NC	oceanárium_N; oceán_N
+podmořský_AC	mořský_A; moře_N
+tentokrát_DC	tenkrát_D; krát_R
+lidovláda_NC	vláda_N; lid_N
+ledopád_NC	led_N; pád_N
+Bohumil_NC	bůh_N; Bohumila_N
+kosočtverec_NC	čtverec_N; kosý_A
+sladkokyselý_AC	sladký_A; kyselý_A
+habrolistý_AC	list_N; habr_N
+kávomlýnek_NC	mlýnek_N; káva_N
+přímotop_NC	topit_V; přímo_D
+pravděpodobný_AC	podobný_A; pravda_N
+kryptoanalýza_NC	kryptologie_NC; kryptografie_NC
 celoroční_AC	roční_A; ročně_D
+mezigalaktický_AC	galaktický_A; galaxie_N
+zeměkoule_NC	země_N; koule_N
+lžidoktor_NC	lež_N; doktor_N
+světlotěsný_AC	těsný_A; světlo_N
+paroloď_NC	pára_N; loď_N
+ostroúhlý_AC	ostrý_A; úhlový_A
+miligram_NC	gram_N; dekagram_NC
+ziskuchtivý_AC	chtít_V; zisk_N
+zákonodárce_NC	zákon_N; dát_V
+pedikúra_NC	kúra_N; manikúra_N
+ohleduplný_AC	ohled_N; plný_A
+světonázor_NC	svět_N; názor_N
+krátkozraký_AC	krátký_A; zrak_N
+rychlobruslař_NC	bruslit_V; rychlobruslení_N
+plnotučný_AC	tuk_N; tučný_A
+prostonárodní_AC	národní_A; prostý_A
+jinotaj_NC	tajit_V; taj_N
+zahraničněpolitický_AC	zahraniční_A; politický_A
+dřevotříska_NC	dřevo_N; tříska_N
+kontrabas_NC	basa_N; bas_N
+polotučný_AC	tuk_N; tučný_A
+sexuologie_NC	sexus_N; sexualita_N
+státověda_NC	stát_N; věda_N
+mnohobuněčný_AC	buňka_N; buněčný_A
+fotopřístroj_NC	fotograf_N; přístroj_N
+spolupracovat_VC	pracoviště_N; pracovat_V
+křivohubý_AC	křivý_A; huba_N
+propan-butan_NC	propan_N; butan_N
+bipolární_AC	polární_A; pól_N
+přímočarý_AC	přímý_A; přímo_D
+krátkodobý_AC	doba_N; krátký_A
+zeměplaz_NC	země_N; plaz_N
+šeroslepý_AC	šero_N; slepý_A
+pančenláma_NC	láma_N; dalajláma_N
+kávovar_NC	samovar_NC; káva_N
+kriminologie_NC	kriminalita_N; kriminalista_N
+kosmodrom_NC	kosmický_A; kosmos_N
+melodram_NC	melodie_N; dramatický_A
+carovražda_NC	carovrah_NC; car_N
+mezinárodní_AC	národ_N; národní_A
+jihozápad_NC	západ_N; jih_N
+jihoamerický_AC	americký_A; Jihoameričan_N
+radioaktivní_AC	rádium_N; rádiový_A
+polynéský_AC	Polynésie_N; Polynésie_None
+magnetofon_NC	magnetický_A; magnet_N
+krátkonohý_AC	krátký_A; noha_N
+barman_NC	bar_N; barový_A
+ideologie_NC	zideologizovat_V; idea_N
+krutovláda_NC	vláda_N; krutý_A
+ohňostroj_NC	stroj_N; oheň_N
+panímáma_NC	paní_N; matka_N
+zvěrokruh_NC	zvíře_N; kruh_N
+zeměměřič_NC	měřit_V; země_N
+sněhobílý_AC	sněžný_A; sníh_N
+generálplukovník_NC	generál_N; plukovník_N
+spoluautor_NC	autor_N; spolu_D
+časomíra_NC	čas_N; míra_N
+diskotéka_NC	disk_N; diskžokej_N
+rychlovlak_NC	rychlodráha_NC; rychlý_A
+čaroděj_NC	čáry_N; čarovat_V
+severozápad_NC	sever_N; západ_N
+dřevokaz_NC	dřevo_N; kaz_N
+maxisukně_NC	sukně_N; sukničkář_N
+kosmonautika_NC	kosmický_A; kosmos_N
+paroplavba_NC	pára_N; parník_N
+psychiatrie_NC	psychopat_N; psychiatr_N
+videofilm_NC	video_N; film_N
+velvyslanec_NC	vyslat_V; vyslanec_N
+dalekohled_NC	daleko_None; hledět_V
+mnohostranný_AC	strana_N; mnoho_D
+každopádně_DC	pokaždé_D; pád_N
+levopravý_AC	levý_A; pravý_A
+pomstychtivý_AC	pomsta_N; chtít_V
+parostroj_NC	pára_N; parní_A
+rukopis_NC	psát_V; ruka_N
+vzduchoplavba_NC	vzducholoď_NC; vzduch_N
+svatojánský_AC	Ján_N; Jan_N
+vinobraní_NC	brát_V; víno_N
+Dobromil_NC	Dobromila_N; dobrý_A
+protifašistický_AC	fašistický_A; fašismus_N
+darmošlap_NC	darmo_D; darmo_None
+kinofilm_NC	kino_N; film_N
+dobrovolný_AC	volný_A; vůle_N
+dalekozraký_AC	daleko_None; zrak_N
+lidojed_NC	lidožrout_N; lid_N
+malopolský_AC	polský_A; Malopolsko_N
+jednostranný_AC	strana_N; nestranný_A
+dějepis_NC	děj_N; dít_V
+kinokavárna_NC	kino_N; kavárna_N
+časoprostor_NC	čas_N; prostor_N
+webkamera_NC	kamera_N; web_N
+minisukně_NC	sukně_N; sukničkář_N
+prostovlasý_AC	prostý_A; vlas_N
+římskokatolický_AC	římský_A; katolický_A
+suchozemský_AC	suchý_A; zemský_A
+spolujízda_NC	spolujezdkyně_N; jízda_N
+jazykověda_NC	věda_N; jazyk_N
+životaschopný_AC	životně_D; život_N
+dvojhvězda_NC	trojhvězda_NC; hvězda_N
+tupoúhlý_AC	tupý_A; úhlový_A
+anachronistický_AC	anachronismus_N; anachronizmus_N
+teplokrevný_AC	krev_N; teplo_N
+adenohypofýza_NC	neurohypofýza_NC; hypofýza_NC
+světadíl_NC	svět_N; díl_N
+rychlodráha_NC	dráha_N; rychlovlak_NC
+protidrogový_AC	droga_N; drogový_A
+neurohypofýza_NC	adenohypofýza_NC; hypofýza_NC
+úzkoprsý_AC	prs_N; prsa_N
+vzducholoď_NC	loď_N; vzduch_N
+uhlobaron_NC	baron_N; uhlí_N
+krvesmilný_AC	krev_N; smilný_A
+posrpnový_AC	srpen_N; srpnový_A
+mezikontinentální_AC	kontinent_N; kontinentální_A
+rychlovarný_AC	vařit_V; varný_A
+vinohrad_NC	vinobraní_NC; víno_N
+pornografie_NC	pornofilm_NC; porno_N
+severokorejský_AC	Severokorejec_N; korejský_A
+knihtisk_NC	tisk_N; kniha_N
+vlastizrada_NC	zrada_N; vlast_N
+šéfkuchař_NC	kuchař_N; šéf_N
+anesteziologie_NC	anesteziologickoresuscitační_AC; anestezie_N
+zeměpis_NC	země_N; psát_V
+místodržitel_NC	držet_V; držitel_N
+trojhvězda_NC	hvězda_N; dvojhvězda_NC
+diapozitiv_NC	pozitiv_N; diaprojektor_N
+semifinalista_NC	semifinále_NC; finalista_N
+vícekolejný_AC	dvoukolejný_A; dvojkolejný_AC
+stejnojmenný_AC	stejný_A; jmenný_A
+severoamerický_AC	americký_A; Severoameričan_N
+vnitrozemí_NC	země_N; vnitro_N
+novoluní_NC	luna_N; nový_A
+spolujezdec_NC	jezdec_N; spolujízda_NC
+čtyřbob_NC	bob_N; dvojbob_NC
+jihovýchod_NC	jih_N; východ_N
+světloplachý_AC	plachý_A; světlo_N
+teploměr_NC	teplý_A; teplo_N
+podprahový_AC	prahový_A; práh_N
+křivonohý_AC	křivý_A; noha_N
+tvrdošíjný_AC	šíje_N; tvrdý_A
+zločin_NC	čin_N; zlo_N
+pětinásobný_AC	pět_V; pět_C
+mezivládní_AC	vláda_N; vládní_A
+kilogram_NC	gram_N; dekagram_NC
+velezrada_NC	zrada_N; zrádce_N
 protižidovský_AC	židovský_A; Žid_N
 carovrah_NC	vrah_N; car_N
-sexuologie_NC	sexus_N; sexualita_N
-perokresba_NC	pero_N; kresba_N
-uhlokresba_NC	uhel_N; kresba_N
-úzkoprsý_AC	prs_N; prsa_N
-ohňostroj_NC	oheň_N; stroj_N
-prostovlasý_AC	vlas_N; prostý_A
-oceánografie_NC	oceán_N; oceanárium_N
-pornografie_NC	pornofilm_NC; porno_N
-protipovodňový_AC	povodňový_A; povodeň_N
-mnohostranný_AC	strana_N; mnoho_D
-jihoamerický_AC	Jihoameričan_N; americký_A
-severovýchod_NC	východ_N; sever_N
-pomstychtivý_AC	pomsta_N; chtít_V
-teploměr_NC	teplo_N; teplý_A
-přímočarý_AC	přímo_D; přímý_A
-dobrovolný_AC	volný_A; vůle_N
-vodovod_NC	vést_V; voda_N
-videofilm_NC	film_N; video_N
-ostroúhlý_AC	ostrý_A; úhlový_A
-kosočtverec_NC	čtverec_N; kosý_A
-protifašistický_AC	fašismus_N; fašistický_A
-dřevotříska_NC	tříska_N; dřevo_N
-vševěd_NC	vědomost_N; vědět_V
-prostonárodní_AC	národní_A; prostý_A
-krátkozraký_AC	krátký_A; zrak_N
-krutovláda_NC	vláda_N; krutý_A
-pančenláma_NC	dalajláma_N; láma_N
-protidrogový_AC	drogový_A; droga_N
+vzduchotěsný_AC	vodotěsný_AC; těsný_A
 nadzvukový_AC	zvuk_N; zvukový_A
-knihtisk_NC	kniha_N; tisk_N
-vzduchoplavba_NC	vzducholoď_NC; vzduch_N
-pravoúhlý_AC	úhlový_A; pravý_A
-psychiatrie_NC	psychopat_N; psychiatr_N
-fotoalbum_NC	album_N; fotka_N
-fotopřístroj_NC	fotograf_N; přístroj_N
-propan-butan_NC	propan_N; butan_N
-velvyslanec_NC	vyslat_V; vyslanec_N
-posrpnový_AC	srpnový_A; srpen_N
-podmořský_AC	moře_N; mořský_A
-sladkokyselý_AC	sladký_A; kyselý_A
-veletucet_NC	kopa_N; tucet_N
-vzducholoď_NC	loď_N; vzduch_N
-mnohobuněčný_AC	buňka_N; buněčný_A
-cyrilometodějský_AC	Metoděj_N; Cyril_N
-časoprostor_NC	čas_N; prostor_N
-zeměměřič_NC	země_N; měřit_V
-dalekozraký_AC	daleko_None; zrak_N
-parostroj_NC	parní_A; pára_N
-starověk_NC	věk_N; starý_A
-panímáma_NC	matka_N; paní_N
-křivonohý_AC	křivý_A; noha_N
-blbuvzdorný_AC	zblbnout_V; blbnout_V
 psychologie_NC	pedagogickopsychologický_AC; psychický_A
-vodotisk_NC	tisk_N; tisknout_V
-svatojánský_AC	Ján_N; Jan_N
-dobrodruh_NC	dobrý_A; druh_N
-dalekohled_NC	hledět_V; daleko_None
-spolujezdec_NC	jezdec_N; spolujízda_NC
-vinohrad_NC	víno_N; vinobraní_NC
-vzduchotěsný_AC	těsný_A; vodotěsný_AC
-diskotéka_NC	diskžokej_N; disk_N
-uhlovodík_NC	vodík_N; uhlík_N
-pravomoc_NC	právo_N; moc_N
-stejnojmenný_AC	stejný_A; jmenný_A
-rychlobruslař_NC	rychlobruslení_N; bruslit_V
-kosmonautika_NC	kosmos_N; kosmický_A
-věkodlouhý_AC	věk_N; dlouhý_A
+protiklad_NC	protipříklad_NC; klást_V
 šestnáctibitový_AC	bitový_A; bit_N
-kávovar_NC	káva_N; samovar_NC
-plnohodnotný_AC	hodnotný_A; hodnota_N
-vlastizrada_NC	vlast_N; zrada_N
-přímotop_NC	přímo_D; topit_V
-krvesmilný_AC	smilný_A; krev_N
-trojhvězda_NC	dvojhvězda_NC; hvězda_N
-krveprolití_NC	prolít_V; krev_N
-zločin_NC	zlo_N; čin_N
-dvojhvězda_NC	hvězda_N; trojhvězda_NC
-staromódní_AC	móda_N; módní_A
-semifinalista_NC	finalista_N; semifinále_NC
-kinokavárna_NC	kino_N; kavárna_N
-kriminologie_NC	kriminalita_N; kriminalista_N
-všeobecný_AC	obecný_A; obec_N
-novoluní_NC	luna_N; nový_A
-jednostranný_AC	strana_N; nestranný_A
-severokorejský_AC	Severokorejec_N; korejský_A
-dřevokaz_NC	dřevo_N; kaz_N
-římskokatolický_AC	římský_A; katolický_A
-kilogram_NC	gram_N; dekagram_NC
-světlotěsný_AC	těsný_A; světlo_N
-mezikontinentální_AC	kontinentální_A; kontinent_N
-spolupracovat_VC	pracovat_V; pracoviště_N
-anesteziologie_NC	anesteziologickoresuscitační_AC; anestezie_N
-severoamerický_AC	Severoameričan_N; americký_A
-nitrožilní_AC	žilní_A
-bicykl_NC	cyklistický_A
-plnoštíhlý_AC	štíhlý_A
-šerosvit_NC	šero_N
-celopražský_AC	pražský_A
-erotomanie_NC	erós_N
-středověk_NC	věk_N
-ledolam_NC	led_N
-videotelefon_NC	video_N
-bezpříznakový_AC	příznak_N
-dlouhohrající_AC	dlouho_D
-rychlotest_NC	test_N
-pantatínek_NC	pantáta_NC
-bělohorský_AC	pobělohorský_AC
-čtyřčíslí_NC	číslo_N
-plnokrevný_AC	krev_N
-víceúrovňový_AC	úroveň_N
-videokazeta_NC	video_N
-kontraalt_NC	alt_N
-věkonosný_AC	věk_N
-dvacetihaléř_NC	haléř_N
-zeměpán_NC	země_N
-skikros_NC	kros_N
-mravověda_NC	věda_N
-muzeologie_NC	muzeum_N
-cituprázdný_AC	cit_N
-desetiválec_NC	válec_N
-cyklobus_NC	bus_N
-ostrozubý_AC	zub_N
+slabozraký_AC	zrak_N; slabý_A
+samolepicí_AC	samolepka_N; lepicí_A
+mezipohlavní_AC	pohlavní_A
+vícepráce_NC	práce_N
+holokaust_NC	holocaust_NC
+vzdorokrál_NC	král_N
+tlustoocasý_AC	ocas_N
+lehkomyslný_AC	lehký_A
+meziroční_AC	roční_A
 českosaský_AC	saský_A
-východočeský_AC	český_A
-věkoletý_AC	věk_N
-vlnobití_NC	vlna_N
-věkoslavný_AC	věk_N
-elektroinstalace_NC	instalace_N
-časopis_NC	čas_N
-mezizubní_AC	zubní_A
-věkobytný_AC	věk_N
-monoxid_NC	oxid_N
-telemost_NC	most_N
-protiteroristický_AC	teroristický_A
-fotonásobič_NC	foton_N
-svatokrádež_NC	krádež_N
-celodenní_AC	denní_A
-monologický_AC	monolog_NC
-infopanel_NC	panel_N
-videostěna_NC	video_N
-kontrakt_NC	kontrahovat_VC
-scénografie_NC	scéna_N
-bipolita_NC	bipolitismus_NC
-rychločlun_NC	člun_N
-prototyp_NC	typ_N
-tetrarchie_NC	monarchie_N
-malotraktor_NC	traktor_N
-dlouhosrstý_AC	srst_N
-vejcorodý_AC	vejce_N
-kovovýroba_NC	kov_N
-časoměřič_NC	časomíra_NC
-megapixel_NC	pixel_N
-protirakovinný_AC	rakovina_N
-autodrom_NC	automotodrom_NC
-magnetoskop_NC	magnet_N
-plnoletý_AC	léto_N
-věkošedý_AC	věk_N
-telemetrie_NC	geometrie_NC
-čtyřpodlažní_AC	podlaha_N
-rekordman_NC	rekord_N
-cyklohexan_NC	hexan_N
-teplomet_NC	teplo_N
-levostranný_AC	levák_N
-hrůzovláda_NC	vláda_N
-protitlak_NC	tlak_N
-filmotéka_NC	film_N
+pivotman_NC	pivotka_N
+stereochemie_NC	chemie_N
+motorest_NC	motor_N
+polosuchý_AC	suchý_A
+kontrarevoluce_NC	revoluce_N
 levobok_NC	bok_N
-středopravý_AC	střed_N
+arcidiecéze_NC	diecéze_N
+multifunkční_AC	funkční_A
+rovnoprávný_AC	rovný_A
+specifikovat_VC	specifika_N
+vodohospodář_NC	voda_N
+západočeský_AC	český_A
+pětitisícový_AC	pět_C
+dvoutisícikoruna_NC	koruna_N
+perlorodka_NC	perla_N
+zlozvyk_NC	zvyk_N
+právoplatný_AC	právo_N
+porýnský_AC	Porýní_N
+sebeúcta_NC	úcta_N
+trojhlavý_AC	hlava_N
+velkovinař_NC	vinař_N
+krvotok_NC	krev_N
+kilotuna_NC	tuna_N
+samolibý_AC	libý_A
+scénografie_NC	scéna_N
+dvojsečný_AC	sečný_A
+věkoslavný_AC	věk_N
+jednokanálový_AC	kanál_N
+semitohamitský_AC	semitský_A
+dvojklik_NC	klik_N
+zlobr_NC	obr_N
+mezizubní_AC	zubní_A
+videokazeta_NC	video_N
+televize_NC	vize_N
+vlastivěda_NC	věda_N
+megapixel_NC	pixel_N
+velkoobchod_NC	obchod_N
+východočeský_AC	český_A
+bezmotorový_AC	motorový_A
+hlavonožec_NC	hlava_N
+severobavorský_AC	bavorský_A
+středobod_NC	střed_N
+protireformní_AC	reformní_A
+stejnopis_NC	psát_V
+všežravý_AC	žravý_None
+trojjediný_AC	jediný_A
+krvetvorba_NC	krev_N
+tlustoprd_NC	tlustý_A
+basklarinet_NC	klarinet_N
+lidovýchova_NC	lid_N
+prototyp_NC	typ_N
+mineralogie_NC	minerál_N
+sportsman_NC	sportovec_N
+milodar_NC	dar_N
+celotýdenní_AC	týden_N
+autoklub_NC	klub_N
+plynoměr_NC	plyn_N
+třífázový_AC	fáze_N
+bibliotéka_NC	bible_N
+protivzdušný_AC	vzdušný_A
+holocaust_NC	holokaust_NC
+bilabiála_NC	labiála_N
+petrochemie_NC	chemie_N
+spolupůvodce_NC	původce_N
+deoxyhemoglobin_NC	hemoglobin_N
+faktografie_NC	fakt_N
+místopis_NC	místo_N
+severočeský_AC	český_A
+pančhenlama_NC	láma_N
+pornokrál_NC	porno_N
+východobavorský_AC	bavorský_A
+polostátní_AC	státní_A
+antidiabetikum_NC	diabetes_N
+sebekázeň_NC	kázeň_N
+smutnohra_NC	hra_N
+vysokofrekvenční_AC	vysoko_D
+čtyřlístek_NC	lístek_N
+turbodmychadlo_NC	dmychadlo_N
+zlosyn_NC	syn_N
+sirovodík_NC	vodík_N
+hrůzyplný_AC	hrůza_N
+Radomil_NC	Radmila_N
+dvojjazyčný_AC	jazyk_N
+transpacifický_AC	Pacifik_N
+narkomanie_NC	narkotikum_N
+bezlepkový_AC	lepek_N
+baskytara_NC	kytara_N
+filigranologie_NC	filigrán_N
+kontraalt_NC	alt_N
+pětipatrový_AC	pět_C
+zadobře_DC	dobře_D
+monoxid_NC	oxid_N
+zemědělskoprůmyslový_AC	průmyslový_A
+spoluzaměstnanec_NC	zaměstnanec_N
+východoněmecký_AC	německý_A
+velkoklub_NC	klub_N
+dlouhosrstý_AC	srst_N
+stereometrie_NC	geometrie_NC
+několikahodinový_AC	hodinový_A
+kaligrafie_NC	psaní_N
+protikomunistický_AC	komunistický_A
+kosmologie_NC	kosmos_N
+datagram_NC	data_N
+jazykozpyt_NC	jazyk_N
+mnohakilometrový_AC	kilometrový_A
+multikulturní_AC	kulturní_A
+časoměřič_NC	časomíra_NC
+zoopaleontologie_NC	paleontologie_NC
+spolubydlící_NC	spolu_D
+meteorologie_NC	meteor_N
+glukometr_NC	glukóza_N
+medomet_NC	med_N
+nadmořský_AC	mořský_A
+mnohoznačný_AC	mnoho_D
+elektromagnet_NC	magnet_N
+superarbitrace_NC	superarbitrovat_V
+autoerotika_NC	erotika_N
+videopřístroj_NC	přístroj_N
+lidumil_NC	lid_N
+parojem_NC	pára_N
+autodružstvo_NC	družstvo_N
+polostín_NC	stín_N
+spolulezec_NC	lezec_N
+minipočítač_NC	počítač_N
+jihomoravský_AC	moravský_A
+fotonásobič_NC	foton_N
+gigatuna_NC	tuna_N
+východoseverovýchod_NC	severovýchod_NC
+biotop_NC	biom_N
+biochemie_NC	chemie_N
+protiútok_NC	útočit_V
+malotraktor_NC	traktor_N
+leukopenie_NC	leukocyt_NC
+jednozápasový_AC	zápas_N
+pantatínek_NC	pantáta_NC
+kšeftsman_NC	kšeft_N
+pentlit_VC	pentle_N
+čtyřhrotý_AC	hrot_N
+čtyřčíslí_NC	číslo_N
+videomagnetofon_NC	magnetofon_NC
+stoprocentní_AC	sto_C
+protiakce_NC	akce_N
+gramorádio_NC	gramofon_NC
+cyklonální_AC	cyklón_N
+tankodrom_NC	tank_N
+víceúrovňový_AC	úroveň_N
+knihomol_NC	kniha_N
+teplovod_NC	teplo_N
+interbrigáda_NC	brigáda_N
+fotochemie_NC	chemie_N
+histochemie_NC	chemie_N
+protivítr_NC	vítr_N
+megabyte_NC	byte_N
+pedagogickopsychologický_AC	pedagogický_A
+celozrnný_AC	vícezrnný_AC
+vzduchotechnika_NC	vzduch_N
+uhlovodan_NC	uhlík_N
+eurotrh_NC	trh_N
+staronový_AC	nový_A
+rekordman_NC	rekord_N
+rukojmí_NC	ruka_N
+spolutvůrce_NC	tvořit_V
+celopražský_AC	pražský_A
+hypermarket_NC	supermarket_N
+sedmnáctipodlažní_AC	sedmnáctipatrový_AC
+typografie_NC	typ_N
+alkoholoměr_NC	alkohol_N
+skikros_NC	kros_N
+právotvorný_AC	právo_N
+desetiválec_NC	válec_N
+agrochemie_NC	chemie_N
+astrobioložka_NC	astrobiologie_NC
+podřipský_AC	Podřipsko_N
+diagramatický_AC	diagram_NC
+lidožravý_AC	žravý_None
+kovoprůmysl_NC	kov_N
+neurologie_NC	neuron_N
+středočeský_AC	český_A
+jednokolový_AC	kolo_N
+krvežíznivý_AC	krev_N
+otorinolaryngoložka_NC	otorinolaryngologie_NC
+anglosaský_AC	Sas_N
+bezvízový_AC	vízum_N
+předmanželský_AC	manželský_A
+kontradmirál_NC	admirál_N
+periskopický_AC	periskop_NC
+ostrozubý_AC	zub_N
+cyklopentan_NC	pentan_N
+temnoplodec_NC	plod_N
+svévole_NC	vůle_N
+fotobuňka_NC	buňka_N
+hrůzostrašný_AC	hrůza_N
+fotolaboratoř_NC	laboratoř_N
+všelék_NC	lék_N
+oboustranný_AC	strana_N
+slavobrána_NC	brána_N
+soukromoprávní_AC	právní_A
+místopředseda_NC	předseda_N
+sebeobrana_NC	obrana_N
+mimobuněčný_AC	mimo_R
+exoplaneta_NC	planeta_N
+mírumilovný_AC	mír_N
+pořádkumilovný_AC	pořádek_N
+jednorázový_AC	ráz_N
+teletina_NC	tele_N
+makroobjektiv_NC	objektiv_N
+telemost_NC	most_N
+dvouúrovňový_AC	úroveň_N
+trojsklo_NC	sklo_N
+kryptografie_NC	kryptologie_NC
+poloplný_AC	plný_A
+jemnocit_NC	cit_N
+východojihovýchod_NC	jihovýchod_NC
+elektrochemie_NC	chemie_N
+motodrom_NC	automotodrom_NC
+dvojnohý_AC	noha_N
+polonosný_AC	samonosný_AC
+barvotisk_NC	barva_N
+oxyhemoglobin_NC	hemoglobin_N
+minigolf_NC	golf_N
+bipolita_NC	bipolitismus_NC
+vysokotlaký_AC	tlakový_A
+rádobyspisovatel_NC	rádoby_D
+kosmopolita_NC	kosmos_N
+červenopláštník_NC	plášť_N
+glyptotéka_NC	glyptika_N
+antibiotikum_NC	antibiotický_A
+konkurenceschopný_AC	konkurovat_V
+kovovýroba_NC	kov_N
+vodojem_NC	voda_N
+hydroxid_NC	oxid_N
+sebekritika_NC	kritika_N
+veřejnosprávní_AC	správní_A
+peroxid_NC	oxid_N
+západoseverozápad_NC	severozápad_NC
+hrubosrstý_AC	srst_N
+vinotéka_NC	víno_N
+podkarpatský_AC	Karpaty_N
+fotogalerie_NC	galerie_N
+supratekutý_AC	tekutý_A
+pětilistý_AC	čtyřlistý_AC
+prostoduchý_AC	prostý_A
+europoslanec_NC	poslanec_N
+šéflékař_NC	šéf_N
+veletrh_NC	veletržní_AC
+mnohoslibný_AC	mnoho_D
+vodoměr_NC	voda_N
+ultralight_NC	ultralehký_AC
+monarcha_NC	monarchie_N
+pětihodinový_AC	pět_C
+sklolaminát_NC	sklo_N
+pozápasový_AC	zápas_N
+vicepremiér_NC	premiér_N
+sexbomba_NC	bomba_N
+rádobylidový_AC	rádoby_D
+ampérmetr_NC	galvanometr_N
+decilitr_NC	litr_N
+egyptologie_NC	Egypťan_N
+tetrarchie_NC	monarchie_N
+různorodý_AC	různý_A
+polopoušť_NC	poušť_N
+polodlouhý_AC	dlouhý_A
+sólokapr_NC	sólo_N
+dvojstranný_AC	strana_N
+českolipský_AC	Českolipsko_N
+fotomontáž_NC	montáž_N
+severoseverozápad_NC	severozápad_NC
+novostavba_NC	stavba_N
+storublový_AC	storublovka_N
+svéhlavý_AC	hlava_N
+vlnovod_NC	vlna_N
+kosmopolitický_AC	kosmopolita_NC
+polotovar_NC	tovar_N
+elektrospotřebič_NC	elektromobil_NC
+milosrdný_AC	srdce_N
+stejnorodý_AC	stejný_A
+motokros_NC	kros_N
+vodovážný_AC	vodováha_NC
+novojičínský_AC	Novojičínsko_N
+svatovítský_AC	Vít_N
+taxametr_NC	taxi_N
+vejcovod_NC	vejce_N
+obrazotvorný_AC	obraz_N
+polosladký_AC	sladký_A
+homograf_NC	homofon_NC
+mezihostitel_NC	hostitel_N
+sladkovišeň_NC	višeň_N
+mezzopiano_DC	piano_N
+meziválečný_AC	poválečný_A
+poloostrov_NC	ostrov_N
+velryba_NC	ryba_N
+antiseptikum_NC	antiseptický_A
+makrokosmos_NC	kosmos_N
+věkobytný_AC	věk_N
+mnohovýznamový_AC	význam_N
+ropovod_NC	ropa_N
+hydrometeor_NC	meteor_N
+žáruvzdorný_AC	žár_N
+pornomagnát_NC	porno_N
+epidemie_NC	pandemie_NC
+astrologie_NC	astronomie_NC
+pravostranný_AC	pravý_A
+trojlistý_AC	čtyřlistý_AC
+cyklohexan_NC	hexan_N
+dvojspřežní_AC	dvojspřeží_NC
+věkopevný_AC	věk_N
+kontrahovat_VC	kontrakt_NC
+plnokrevný_AC	krev_N
+západoslovanský_AC	slovanský_A
+trojnohý_AC	noha_N
+prométheovský_AC	Prométheus_None
+zloděj_NC	zlo_N
+dvaatřicetibitový_AC	bitový_A
+všehoschopný_AC	schopný_A
+nízkotlaký_AC	tlakový_A
+vnitrostranický_AC	stranický_A
+neonacismus_NC	nácek_N
+jihočeský_AC	český_A
+dekahydrát_NC	hydrát_N
+nebetyčný_AC	nebe_N
+medonosný_AC	med_N
+světlovod_NC	světlo_N
+protipapež_NC	papež_N
+morfologie_NC	morfin_N
+rádobyvtipný_AC	rádoby_D
+předobraz_NC	obraz_N
+arcibiskup_NC	biskup_N
+dvojčíslí_NC	číslo_N
+zadost_DC	dost_D
+meziobratlový_AC	obratel_N
+teatrologie_NC	teatrální_A
+tupozraký_AC	zrak_N
+panchromatický_AC	monochromatický_A
+halucinogen_NC	halucinace_N
+východomoravský_AC	moravský_A
+dvojbřitý_AC	břit_N
+batyskaf_NC	ponorka_N
+pětisetový_AC	pětiseťák_N
+pornoromán_NC	porno_N
+kryptofašista_NC	fašismus_N
+libovůle_NC	vůle_N
+všemožný_AC	možný_A
+samojediný_AC	jediný_A
+tlustospis_NC	tlustý_A
+prostocvik_NC	cvik_N
+videohra_NC	video_N
+interagovat_VC	reagovat_V
+písmolijna_NC	písmolijec_NC
 vnitrostátní_AC	vnitro_N
+autotransformátor_NC	transformátor_N
+novomanžel_NC	manžel_N
+mezirasový_AC	rasový_A
+pobělohorský_AC	bělohorský_AC
+samotřetí_AC	samodruhý_AC
+polobotka_NC	bota_N
+monologický_AC	monolog_NC
+kartotéka_NC	karta_N
+makroekonomie_NC	ekonomie_NC
+harmonogram_NC	harmonie_N
+ping-pong_NC	pingpongový_A
+vápnomilný_AC	vápno_N
+novopečený_AC	nový_A
+polotvrdý_AC	tvrdý_A
+pětitisícikoruna_NC	koruna_N
+plnoletý_AC	léto_N
+rudoarmějský_AC	rudoarmějec_N
+sebedůvěra_NC	důvěra_N
+filmografie_NC	film_N
+slovotvorný_AC	slovotvorba_NC
+spoluvina_NC	vina_N
+dvojsklo_NC	sklo_N
+alobal_NC	obal_N
+stejnoměrný_AC	stejný_A
+multimilionář_NC	milionář_N
+plynojem_NC	plyn_N
+desetitisíc_NC	desetitisícina_N
+minimax_NC	minimálně_D
+tajuplný_AC	plný_A
+biomolekula_NC	molekula_N
+kávovina_NC	káva_N
+jedenácteronásobný_AC	jedenáctinásobný_C
+běloveský_AC	Běloves_N
+svatokupectví_NC	kupectví_N
+fototisk_NC	tisk_N
+endospora_NC	spora_N
+radiotelefon_NC	telefon_NC
+videorozhodčí_NC	video_N
+krvelačný_AC	krev_N
+křivonosý_AC	křivý_A
+feroslitina_NC	slitina_N
+zalitavský_AC	Zalitavsko_N
+bionafta_NC	nafta_N
+ortorula_NC	rula_N
+trojnásobek_NC	ztrojnásobit_V
+telemetrie_NC	geometrie_NC
+novokřesťan_NC	křesťan_N
+taxislužba_NC	taxi_N
+bezkyslíkový_AC	kyslík_N
+kosmogonie_NC	kosmos_N
+gastroenterologie_NC	gastrointestinální_AC
+cyklokros_NC	kros_N
+celorepublikový_AC	republikový_A
+novověk_NC	věk_N
+celoskleněný_AC	skleněný_A
+dvousečný_AC	sečný_A
+ptakoještěr_NC	pták_N
+hromosvod_NC	hrom_N
+mimoekonomický_AC	ekonomický_A
+jemnostpán_NC	pán_N
+eurobond_NC	bond_N
+časopis_NC	čas_N
+hyperlink_NC	link_N
+telenovela_NC	novela_N
+málomluvný_AC	mluvit_V
+mimoúrovňový_AC	úroveň_N
+spolupachatel_NC	pachatel_N
+nanometr_NC	metr_N
+dvojskif_NC	dvojka_N
+darmojed_NC	darmo_D
+polobůh_NC	bůh_N
+vicemistr_NC	mistr_N
+tmavomodrý_AC	modrý_A
+tenkostěnný_AC	tenký_A
+severomoravský_AC	moravský_A
+svatokopecký_AC	kopec_N
+vlnobití_NC	vlna_N
+milimetr_NC	metr_N
+decigram_NC	gram_N
+planimetrie_NC	geometrie_NC
+šestinásobný_AC	šestinásobek_N
+veřejnoprávní_AC	právní_A
+genealogie_NC	gen_N
+expozimetr_NC	expozice_N
+bezúdržbový_AC	údržbový_A
+věkopomný_AC	věk_N
+velemlok_NC	mlok_N
+mladočech_NC	Čech_N
+transakce_NC	akce_N
+vdavekchtivý_AC	vdavky_N
+aminokyselina_NC	kyselina_N
+rychlostudent_NC	student_N
+velkoadmirál_NC	admirál_N
+videoblog_NC	video_N
+kosoúhlý_AC	úhlový_A
+nadějeplný_AC	naděje_N
+infrastruktura_NC	struktura_N
+autobiografie_NC	biografie_NC
+stratovulkán_NC	vulkán_N
+dvojkajak_NC	kajak_N
+monokultura_NC	kultura_N
+svéprávný_AC	právo_N
+kontratenor_NC	tenor_N
+videozáznam_NC	video_N
+prorůstový_AC	růst_N
+duchaplný_AC	duch_N
+jazykovka_NC	jazykový_A
+rukověť_NC	ruka_N
+cituplný_AC	cit_N
+samozvaný_AC	zvaný_A
+trojcédéčko_NC	cédéčko_N
+každotýdenní_AC	každý_P
+zakarpatský_AC	Karpaty_N
+pravověrný_AC	pravý_A
+prostopášný_AC	prostý_A
+ohmmetr_NC	ohm_N
+mimoškolní_AC	školní_A
+věkoletý_AC	věk_N
+předlitavský_AC	Předlitavsko_N
+dvoukolový_AC	kolo_N
+čtyřpodlažní_AC	podlaha_N
+věkovzdorný_AC	věk_N
+poloměr_NC	měřit_V
+pětiposchoďový_AC	pět_C
+semenožravý_AC	semeno_N
+dvojverší_NC	verš_N
+mravouka_NC	mrav_N
+trojstranný_AC	strana_N
+kilometráž_NC	kilometr_NC
+velkodrůbežář_NC	drůbež_N
+traumacentrum_NC	trauma_N
+časoslovo_NC	slovo_N
+mimosoudní_AC	soudní_A
+antipsychotikum_NC	psychóza_N
+čtyřstovka_NC	stovka_N
+západoněmecký_AC	německý_A
+anemograf_NC	anemometr_NC
+newyorský_AC	yorský_A
+efebofilie_NC	eféb_N
+baskřídlovka_NC	křídlovka_N
+tělověda_NC	věda_N
+zeměžluč_NC	země_N
+středověk_NC	věk_N
+lehkoživka_NC	lehký_A
+svatořečit_VC	svatý_N
+polodrahokam_NC	drahokam_N
+čtyřcédéčko_NC	cédéčko_N
+magnetoskop_NC	magnet_N
+indoevropský_AC	Indoevropan_N
+kilobyte_NC	byte_N
+zeměpaní_NC	zeměpán_NC
+poloopice_NC	opice_N
+agorafobie_NC	agora_N
+dvojspřeží_NC	spřežení_N
+dřevostavba_NC	stavba_N
+věkobylý_AC	věk_N
+podlipanský_AC	Lipany_N
+mrazuvzdorný_AC	mráz_N
+videonahrávka_NC	video_N
+dřevomorka_NC	dřevo_N
+radiokomunikace_NC	rádiový_A
+věkopamátný_AC	věk_N
+megatuna_NC	tuna_N
+kamenotisk_NC	kámen_N
+veletržní_AC	veletrh_NC
+předdůchodový_AC	důchod_N
+autoplachta_NC	plachta_N
+milostpán_NC	pán_N
+dějeprava_NC	děj_N
+západojihozápad_NC	jihozápad_NC
+infrazvuk_NC	zvuk_N
+termopapír_NC	papír_N
+dvojlůžko_NC	dvoulůžkový_A
+multikino_NC	kino_N
+svatojakubský_AC	Jakub_N
+jihobavorský_AC	bavorský_A
+pravoslaví_NC	Pravoslav_N
+protiproud_NC	proud_N
+třílistý_AC	čtyřlistý_AC
+darmožrout_NC	darmo_None
+bioplyn_NC	plyn_N
+cituprázdný_AC	cit_N
+rusovlasý_AC	rusý_A
+pornoherec_NC	porno_N
+desetikoruna_NC	koruna_N
+bleskojistka_NC	blesk_N
+autokar_NC	autobus_NC
+protistrana_NC	strana_N
+písmolijec_NC	písmo_N
+tmavěčervený_AC	tmavě_D
+každoměsíční_AC	každý_P
+dvacetikoruna_NC	koruna_N
+tmavěhnědý_AC	tmavě_D
+trojskok_NC	trojice_N
+čtyřkajak_NC	kajak_N
+velevýznamný_AC	význam_N
+hypotéza_NC	hypotetický_AC
+hromobití_NC	hrom_N
+slaboduchý_AC	slabý_A
+mnohovýznamný_AC	mnohoznačnost_N
+dolnomoravský_AC	moravský_A
+audiopřístroj_NC	přístroj_N
+mimopražský_AC	pražský_A
+lymfocyt_NC	lymfa_N
+stafylokok_NC	kok_N
+hornomoravský_AC	moravský_A
+novotvorba_NC	novotvar_NC
+teletník_NC	tele_N
+zimomřivý_AC	zima_N
+mezivěta_NC	věta_N
+věkošedý_AC	věk_N
+velkopřevor_NC	převor_N
+poločas_NC	čas_N
+hypervitaminóza_NC	vitamín_N
+hydroenergetika_NC	energetika_N
+psychoterapie_NC	terapie_N
+svépomoc_NC	pomoc_N
+mezistátní_AC	státní_A
+pětiletý_AC	pět_C
+spolumajitel_NC	majitel_N
+elektrokolo_NC	kolo_N
+biografie_NC	autobiografie_NC
+podpultový_AC	pult_N
+multicelulární_AC	celulární_A
+jednomocný_AC	mocný_A
+ultralehký_AC	lehký_A
+aerotaxi_NC	taxi_N
+pravotočivý_AC	pravý_A
+autoreflexe_NC	reflexe_N
+ptakopysk_NC	pták_N
+pneumotorax_NC	pneumatika_NC
+mnohověký_AC	věk_N
+normotvorba_NC	norma_N
+veledílo_NC	dílo_N
+pološvestka_NC	švestka_N
+polokurzíva_NC	kurzíva_N
+ostropestřec_NC	ostrý_A
+videopůjčovna_NC	video_N
+slovosled_NC	slovo_N
+jednovýznamový_AC	význam_N
+polopatě_DC	lopata_N
+filmotéka_NC	film_N
+trojkoruna_NC	koruna_N
+kmenotvorný_AC	kmen_N
+arciloutna_NC	loutna_N
+bezzásadový_AC	zásada_N
+alkoholometr_NC	alkohol_N
+jihojihozápad_NC	jihozápad_NC
+sebepřijetí_NC	přijetí_N
+fibrocyt_NC	fibroblast_NC
+dlouholetý_AC	dlouho_D
+víceslovný_AC	slovo_N
+devateronásobný_AC	devítinásobný_C
+mimoparlamentní_AC	mimo_R
+hypovitaminóza_NC	vitamín_N
+polokošile_NC	košile_N
+šéftrenér_NC	šéf_N
+pololetí_NC	léto_N
+monokiny_NC	bikiny_N
+samozřejmý_AC	zřejmý_A
+videoprůvodce_NC	video_N
+enterokok_NC	kok_N
+videotelefon_NC	video_N
+českotěšínský_AC	Českotěšínsko_N
+kyselinotvorný_AC	kyselina_N
+světlomet_NC	světlo_N
+starodávný_AC	dávný_A
+polyneuritida_NC	neuritida_N
+vodoměrka_NC	voda_N
+polychromatický_AC	monochromatický_A
+gerontologie_NC	geriatrie_NC
+maloměsto_NC	město_N
+sebezáchova_NC	zachovat_V
+infralampa_NC	infračervený_AC
+čtyřhlavý_AC	hlava_N
+celostátní_AC	státní_A
+eurozóna_NC	zóna_N
+vodováha_NC	váha_N
+reprodukce_NC	produkce_N
+technologie_NC	technika_N
+videodisk_NC	video_N
+dlouhoocasý_AC	ocas_N
+videosekvence_NC	video_N
+videokarta_NC	video_N
+stejnověký_AC	věk_N
+identifikovat_VC	identita_N
 logotyp_NC	logo_N
 pornostránka_NC	porno_N
-stereochemie_NC	chemie_N
-svatokopecký_AC	kopec_N
-písmolijna_NC	písmolijec_NC
-smutnohra_NC	hra_N
-dvojskif_NC	dvojka_N
-čtyřnásobek_NC	čtyřnásobný_C
-jednokolový_AC	kolo_N
-kryptografie_NC	kryptologie_NC
-polosladký_AC	sladký_A
-dvoukomorový_AC	komora_N
-východomoravský_AC	moravský_A
-zoospora_NC	spora_N
-radiochemie_NC	chemie_N
-feromagnetický_AC	ferit_N
-vysokotlaký_AC	tlakový_A
-východoseverovýchod_NC	severovýchod_NC
-typografie_NC	typ_N
-velkopřevor_NC	převor_N
-barvotisk_NC	barva_N
-hyperinflace_NC	inflace_N
-veřejnoprávní_AC	právní_A
-různorodý_AC	různý_A
-fytopaleontologie_NC	paleontologie_NC
-věkostálý_AC	věk_N
-dvousečný_AC	sečný_A
-superarbitrace_NC	superarbitrovat_V
-kilobyte_NC	byte_N
-elektrochemie_NC	chemie_N
-bibliotéka_NC	bible_N
-bilabiála_NC	labiála_N
-zoopaleontologie_NC	paleontologie_NC
-lidovýchova_NC	lid_N
-dvacetikoruna_NC	koruna_N
-antroponomastika_NC	onomastika_N
-pravoplatný_AC	právo_N
-dvojbřitý_AC	břit_N
-nebetyčný_AC	nebe_N
-diagramatický_AC	diagram_NC
-polotovar_NC	tovar_N
-nanotechnologie_NC	technologie_NC
-slavobrána_NC	brána_N
-neurologie_NC	neuron_N
-bleskurychlý_AC	blesk_N
-pořádkumilovný_AC	pořádek_N
-jednoletý_AC	léto_N
-meziobratlový_AC	obratel_N
-mrazuvzdorný_AC	mráz_N
-kontrafagot_NC	fagot_N
-meziroční_AC	roční_A
-slovotvorný_AC	slovotvorba_NC
-krvotok_NC	krev_N
-periskopický_AC	periskop_NC
-spoluvina_NC	vina_N
-rovnocenný_AC	rovný_A
-prostopášný_AC	prostý_A
-bezlepkový_AC	lepek_N
-fotodioda_NC	dioda_N
-staropražský_AC	pražský_A
-samozřejmý_AC	zřejmý_A
-právotvorný_AC	právo_N
-exoplaneta_NC	planeta_N
-protireformace_NC	reformace_N
-velkovévoda_NC	vévoda_N
-hromobití_NC	hrom_N
-mnohovýznamový_AC	význam_N
-severoseverovýchod_NC	severovýchod_NC
-dvaatřicetibitový_AC	bitový_A
-stoprocentní_AC	sto_C
-linoryt_NC	lino_N
-dlouhoocasý_AC	ocas_N
-polokulový_AC	polokoule_NC
-alobal_NC	obal_N
-protistrana_NC	strana_N
-třílistý_AC	čtyřlistý_AC
-dlouhotrvající_AC	dlouho_D
-světlocitlivý_AC	světlo_N
-krátkoocasý_AC	ocas_N
-větrolam_NC	vítr_N
-aminokyselina_NC	kyselina_N
-neurotechnologie_NC	technologie_NC
-pětipatrový_AC	pět_C
-antikrist_NC	Kristus_N
-věkopevný_AC	věk_N
-knihomol_NC	kniha_N
-suchopýr_NC	pýr_N
-telenovela_NC	novela_N
-slaboduchý_AC	slabý_A
-velkodrůbežář_NC	drůbež_N
-velryba_NC	ryba_N
-pornoseriál_NC	porno_N
-infrastruktura_NC	struktura_N
-prorůstový_AC	růst_N
-elektrokolo_NC	kolo_N
-polosyrový_AC	syrový_A
-severočeský_AC	český_A
-videokamera_NC	video_N
-velkoklub_NC	klub_N
-multimilionář_NC	milionář_N
-megatuna_NC	tuna_N
-fotolaboratoř_NC	laboratoř_N
-neofašismus_NC	fašismus_N
-internet_NC	interní_A
-sebekritika_NC	kritika_N
-jednorázový_AC	ráz_N
-západojihozápad_NC	jihozápad_NC
-stejnobarevný_AC	stejný_A
-mumifikovat_VC	mumie_N
-vzduchotechnika_NC	vzduch_N
-normotvorba_NC	norma_N
-tmavěmodrý_AC	tmavě_D
-antidiabetikum_NC	diabetes_N
-dvojnohý_AC	noha_N
-šestinásobný_AC	šestinásobek_N
-revmatologie_NC	revmatismus_N
-pornokrál_NC	porno_N
-tlustoocasý_AC	ocas_N
-květomluva_NC	květ_N
-meziplanetární_AC	planetární_A
-pětiletý_AC	pět_C
-českotěšínský_AC	Českotěšínsko_N
-krasojízda_NC	jízda_N
-zloděj_NC	zlo_N
-hypervitaminóza_NC	vitamín_N
-porýnský_AC	Porýní_N
-multicelulární_AC	celulární_A
-anglosaský_AC	Sas_N
-krveprolévání_NC	prolévat_V
 dlouhonohý_AC	noha_N
-protoplazma_NC	plazma_N
-šifrogram_NC	šifra_N
-nadějeplný_AC	naděje_N
-bezmotorový_AC	motorový_A
-šéflékař_NC	šéf_N
-polobůh_NC	bůh_N
-dvojklik_NC	klik_N
-jazykovka_NC	jazykový_A
-oxyhemoglobin_NC	hemoglobin_N
-jinojazyčný_AC	jiný_A
-mnohakilometrový_AC	kilometrový_A
-prachsprostý_AC	sprostý_A
-arcijáhen_NC	jáhen_N
-agroturistika_NC	turistika_N
-pětiminutový_AC	pět_C
-specifikovat_VC	specifika_N
-úhlopříčka_NC	úhel_N
-rakovinotvorný_AC	rakovina_N
-šerověk_NC	věk_N
-stoletý_AC	sto_C
-celoskleněný_AC	skleněný_A
-akvapark_NC	park_N
-posttraumatický_AC	trauma_N
-decigram_NC	gram_N
-milicurie_NC	curie_N
-antipsychotikum_NC	psychóza_N
-samovláda_NC	vláda_N
-datagram_NC	data_N
-pětitisícikoruna_NC	koruna_N
-videopřehrávač_NC	video_N
-krvežíznivý_AC	krev_N
-darmožrout_NC	darmo_None
-bezvízový_AC	vízum_N
-turbodmychadlo_NC	dmychadlo_N
-staronový_AC	nový_A
-každoměsíční_AC	každý_P
-čarostřelec_NC	střílet_V
-protivítr_NC	vítr_N
-tankodrom_NC	tank_N
-agrochemie_NC	chemie_N
-pětihodinový_AC	pět_C
-desetihaléř_NC	haléř_N
-bleskojistka_NC	blesk_N
-mezivěta_NC	věta_N
-jihomoravský_AC	moravský_A
-radiotelefon_NC	telefon_NC
-teleobjektiv_NC	objektiv_N
-ptakoještěr_NC	pták_N
-samostříl_NC	střelit_V
-mezipohlavní_AC	pohlavní_A
-celostátní_AC	státní_A
-dvojlůžko_NC	dvoulůžkový_A
-semitologie_NC	semitský_A
-poločas_NC	čas_N
-mnohahodinový_AC	hodinový_A
-spolupůvodce_NC	původce_N
-stejnopis_NC	psát_V
-kávovina_NC	káva_N
-petrochemie_NC	chemie_N
-dřevovýroba_NC	dřevo_N
-předlitavský_AC	Předlitavsko_N
-jihokorejský_AC	korejský_A
-astrologie_NC	astronomie_NC
-spolutvůrce_NC	tvořit_V
-storublový_AC	storublovka_N
-sportsman_NC	sportovec_N
-galvanoterapie_NC	galvanický_A
-sladkovišeň_NC	višeň_N
-polopoušť_NC	poušť_N
-věkovzdorný_AC	věk_N
-vnitropodnikový_AC	vnitro_N
-mírumilovný_AC	mír_N
-dvojslabičný_AC	slabičný_A
-kiloohm_NC	ohm_N
-bioetika_NC	etika_N
-panchromatický_AC	monochromatický_A
-polokoule_NC	koule_N
-historiografie_NC	historie_N
-mezirezortní_AC	rezort_N
-několikaměsíční_AC	měsíční_A
-širokohubý_AC	huba_N
-fotogalerie_NC	galerie_N
-dvouúrovňový_AC	úroveň_N
-tunokilometr_NC	kilometr_NC
-západoněmecký_AC	německý_A
-svéhlavý_AC	hlava_N
-sklolaminát_NC	sklo_N
-spolupachatel_NC	pachatel_N
-obrazoborec_NC	obraz_N
-strastiplný_AC	plný_A
-světlovod_NC	světlo_N
-slovosled_NC	slovo_N
-lidumil_NC	lid_N
-zeměžluč_NC	země_N
-planimetrie_NC	geometrie_NC
-vícepráce_NC	práce_N
-zlobr_NC	obr_N
-blahobyt_NC	blahý_A
-decilitr_NC	litr_N
-mnohoslibný_AC	mnoho_D
-trojlist_NC	list_N
-osciloskop_NC	oscilátor_N
-krvokvět_NC	krev_N
-centimetr_NC	metr_N
-sebeúcta_NC	úcta_N
-protinávrh_NC	návrh_N
-celounijní_AC	unijní_A
-jazykozpyt_NC	jazyk_N
-autoškola_NC	škola_N
-životopis_NC	život_N
-maloměsto_NC	město_N
-krátkosrstý_AC	srst_N
-ohmmetr_NC	ohm_N
-autonehoda_NC	nehoda_N
-mnohoznačný_AC	mnoho_D
-samospád_NC	spád_N
-mezirasový_AC	rasový_A
-temnoplodec_NC	plod_N
-rádobylidový_AC	rádoby_D
-sebedůvěra_NC	důvěra_N
-baskytara_NC	kytara_N
-sebevědomí_NC	sebevědomý_AC
-kameraman_NC	kamera_N
-věkověčný_AC	věk_N
-autoklub_NC	klub_N
-zimomřivý_AC	zima_N
-Vlastimil_NC	vlast_N
-diabetoložka_NC	diabetolog_N
-subsaharský_AC	saharský_A
-videonahrávka_NC	video_N
-protikrál_NC	král_N
-kovoprůmysl_NC	kov_N
-vicemistr_NC	mistr_N
-milodar_NC	dar_N
-polosuchý_AC	suchý_A
-infračervený_AC	červený_A
-stratovulkán_NC	vulkán_N
-autoplachta_NC	plachta_N
-veledílo_NC	dílo_N
-videokarta_NC	video_N
-staročech_NC	Čech_N
-viceadmirál_NC	admirál_N
-dvojsklo_NC	sklo_N
-jihočeský_AC	český_A
-epidemiologie_NC	epidemie_NC
-krvetvorba_NC	krev_N
-rádobyspisovatel_NC	rádoby_D
-dvojsečný_AC	sečný_A
-vysokopodlažní_AC	podlaží_N
-spoluzaměstnanec_NC	zaměstnanec_N
-autodružstvo_NC	družstvo_N
-termopapír_NC	papír_N
-víceslovný_AC	slovo_N
-autosedačka_NC	sedačka_N
-rukověť_NC	ruka_N
-islamolog_NC	islám_N
-věkožízný_AC	věk_N
-bezmyšlenkovitý_AC	myšlenkový_A
-maloruský_AC	ruský_A
-větroplach_NC	vítr_N
-pravoslaví_NC	Pravoslav_N
-podpultový_AC	pult_N
-dvoutisícikoruna_NC	koruna_N
-jemnocit_NC	cit_N
-bezbariérový_AC	bariéra_N
-makrokosmos_NC	kosmos_N
 věkověký_AC	věk_N
-českolipský_AC	Českolipsko_N
-elektronvolt_NC	elektron_NC
-kontrahovat_VC	kontrakt_NC
-teplovod_NC	teplo_N
-filigranologie_NC	filigrán_N
-prométheovský_AC	Prométheus_None
-parovod_NC	pára_N
-soukromoprávní_AC	právní_A
-miliohm_NC	ohm_N
-medomet_NC	med_N
-kaligrafie_NC	psaní_N
-prostocvik_NC	cvik_N
-dekahydrát_NC	hydrát_N
-automotoklub_NC	klub_N
-čtyřlístek_NC	lístek_N
-harmonogram_NC	harmonie_N
-mimosoudní_AC	soudní_A
-jemnostpán_NC	pán_N
-světlomilný_AC	světlo_N
-videokonference_NC	video_N
-sebezáchova_NC	zachovat_V
-retroaktivní_AC	aktivní_A
-kilometr_NC	metr_N
-spolulezec_NC	lezec_N
-novomanžel_NC	manžel_N
-interagovat_VC	reagovat_V
-gerontokracie_NC	geront_N
-bezúdržbový_AC	údržbový_A
-svévole_NC	vůle_N
-svatojanský_AC	Jan_N
-automobil_NC	auto_N
-darmojed_NC	darmo_D
-věkovládný_AC	věk_N
-všestranný_AC	strana_N
-cyklopentan_NC	pentan_N
-kovošrot_NC	kov_N
-velkostatkář_NC	velkostatek_NC
-filmografie_NC	film_N
-protijed_NC	jed_N
-kilometráž_NC	kilometr_NC
-morfologie_NC	morfin_N
-ultrazvuk_NC	zvuk_N
-slabikotvorný_AC	slabika_N
-velmoc_NC	moc_N
-monokiny_NC	bikiny_N
-klerofašistický_AC	fašismus_N
-hyperlink_NC	link_N
-písmoznalec_NC	písmo_N
-Radomil_NC	Radmila_N
-vinotéka_NC	víno_N
-českomoravský_AC	český_A
-vícejazyčný_AC	jazyk_N
-bezzásadový_AC	zásada_N
-slabomyslný_AC	slabý_A
-žáruvzdorný_AC	žár_N
-jazzman_NC	jazz_N
-vodohospodář_NC	voda_N
-sladkovodní_AC	sladký_A
-linořez_NC	lino_N
-časoslovo_NC	slovo_N
-velekněz_NC	kněz_N
-zalitavský_AC	Zalitavsko_N
-menopauza_NC	pauza_N
-fotomontáž_NC	montáž_N
-kontratenor_NC	tenor_N
-velmistr_NC	mistr_N
-ropovod_NC	ropa_N
-autopilot_NC	pilot_N
-mezimozek_NC	mozek_N
-vraždychtivý_AC	vražda_N
-svépomoc_NC	pomoc_N
-dvojstrana_NC	strana_N
-bionafta_NC	nafta_N
-jihoslovanský_AC	slovanský_A
-bleskosvod_NC	blesk_N
-glukometr_NC	glukóza_N
-motokros_NC	kros_N
-videopřístroj_NC	přístroj_N
-polozemnice_NC	zemnice_N
-trojnohý_AC	noha_N
-biomolekula_NC	molekula_N
-batyskaf_NC	ponorka_N
-trojlistý_AC	čtyřlistý_AC
-velkopolský_AC	polský_A
-mimoúrovňový_AC	úroveň_N
-polonosný_AC	samonosný_AC
-listonoš_NC	list_N
-světlonoš_NC	světlo_N
-ping-pong_NC	pingpongový_A
-západomoravský_AC	moravský_A
-multikino_NC	kino_N
-protihlukový_AC	hlukový_A
-jednozápasový_AC	zápas_N
-halucinogen_NC	halucinace_N
-protiproud_NC	proud_N
-interdisciplinární_AC	disciplína_N
-arciloutna_NC	loutna_N
-krasobruslař_NC	krasobruslení_N
-videopůjčovna_NC	video_N
-efebofilie_NC	eféb_N
-západočeský_AC	český_A
-svatokupectví_NC	kupectví_N
-pornosvět_NC	porno_N
-makroekonomie_NC	ekonomie_NC
-celorepublikový_AC	republikový_A
-Krasomil_NC	krása_N
-imunologie_NC	imunita_N
-diakonie_NC	diákon_N
-chemoterapie_NC	chemie_N
-tupozraký_AC	zrak_N
-čtyřstovka_NC	stovka_N
-věkopamátný_AC	věk_N
-hydroxid_NC	oxid_N
-kartotéka_NC	karta_N
-elektropřístroj_NC	přístroj_N
-svatořečit_VC	svatý_N
-čtyřkajak_NC	kajak_N
-milosrdný_AC	srdce_N
-pološvestka_NC	švestka_N
-polofinále_NC	finále_N
-světlomet_NC	světlo_N
-dolnomoravský_AC	moravský_A
-vodovážný_AC	vodováha_NC
-stereogramofon_NC	gramofon_NC
-medonosný_AC	med_N
-polopřímka_NC	přímka_N
-starohrabě_NC	hrabě_N
-celokovový_AC	kovový_A
-pidimuž_NC	píď_N
-novostavba_NC	stavba_N
-šéftrenér_NC	šéf_N
-fyziologie_NC	fyzický_A
-zimostráz_NC	zima_N
-autoerotika_NC	erotika_N
-peroxid_NC	oxid_N
-parojem_NC	pára_N
-petrolej_NC	olej_N
-mineralogie_NC	minerál_N
-histochemie_NC	chemie_N
-trojstranný_AC	strana_N
-málomluvný_AC	mluvit_V
-mimoparlamentní_AC	mimo_R
-rovnováha_NC	váha_N
-homograf_NC	homofon_NC
-vodoměrka_NC	voda_N
-mezzopiano_DC	piano_N
-pravdomluvný_AC	pravda_N
-kosmopolita_NC	kosmos_N
-slaboproud_NC	proud_N
-nanometr_NC	metr_N
-motorest_NC	motor_N
-velkoobchod_NC	obchod_N
-kamenorytec_NC	kámen_N
-anemograf_NC	anemometr_NC
-pivotman_NC	pivotka_N
-batrachologie_NC	batrachotoxin_N
-transakce_NC	akce_N
-geochemie_NC	chemie_N
-veletrh_NC	veletržní_AC
-vicepremiér_NC	premiér_N
-expozimetr_NC	expozice_N
-televize_NC	vize_N
-lichořeřišnice_NC	řeřicha_N
-jednokanálový_AC	kanál_N
-teletina_NC	tele_N
-prostoduchý_AC	prostý_A
-zadost_DC	dost_D
-egyptologie_NC	Egypťan_N
-protinádorový_AC	nádorový_A
-pobělohorský_AC	bělohorský_AC
-polokurzíva_NC	kurzíva_N
-krátkověký_AC	věk_N
-čtyřhrotý_AC	hrot_N
-západoseverozápad_NC	severozápad_NC
-polorovina_NC	rovina_N
-mimopražský_AC	pražský_A
-narkomanie_NC	narkotikum_N
-hlavonožec_NC	hlava_N
-vodoměr_NC	voda_N
-hypotéza_NC	hypotetický_AC
-eurozóna_NC	zóna_N
-ultralight_NC	ultralehký_AC
-severomoravský_AC	moravský_A
-rukojmí_NC	ruka_N
-antiseptikum_NC	antiseptický_A
-oboustranný_AC	strana_N
-supratekutý_AC	tekutý_A
-infralampa_NC	infračervený_AC
-biochemie_NC	chemie_N
-veletok_NC	tok_N
-svéprávný_AC	právo_N
-multikulturní_AC	kulturní_A
-vysokoškolský_AC	vysoko_D
-motodrom_NC	automotodrom_NC
-několikahodinový_AC	hodinový_A
-čtyřcédéčko_NC	cédéčko_N
-videorozhodčí_NC	video_N
-vysokofrekvenční_AC	vysoko_D
-trojpodlažní_AC	podlaha_N
-podlipanský_AC	Lipany_N
-holobyt_NC	byt_N
-zoopark_NC	park_N
-trojčíslí_NC	číslo_N
-mnohaletý_AC	léto_N
-rovnoprávný_AC	rovný_A
-taxametr_NC	taxi_N
-úhloměr_NC	úhel_N
-vodojem_NC	voda_N
-rovnoběžnostěn_NC	rovnoběžný_AC
-alkoholometr_NC	alkohol_N
-elektromotor_NC	elektromobil_NC
-minipivovar_NC	pivovar_N
-kosoúhlý_AC	úhlový_A
-kamenotisk_NC	kámen_N
-meteorologie_NC	meteor_N
-hrůzyplný_AC	hrůza_N
-všehoschopný_AC	schopný_A
-mnohověký_AC	věk_N
-agorafobie_NC	agora_N
-velkoměsto_NC	město_N
-bioplyn_NC	plyn_N
-vodováha_NC	váha_N
-poloměr_NC	měřit_V
-provozuschopný_AC	provoz_N
-dvoustranný_AC	strana_N
-kryptologie_NC	kryptografie_NC
-audiopřístroj_NC	přístroj_N
-afroamerický_AC	Afroameričan_N
-trojhlavý_AC	hlava_N
-hlavohruď_NC	hlava_N
-tajuplný_AC	plný_A
-jihobavorský_AC	bavorský_A
-světlovlasý_AC	světlo_N
-skibob_NC	bob_N
-perlorodka_NC	perla_N
-vulkanologie_NC	vulkán_N
-svatojakubský_AC	Jakub_N
-mezižeberní_AC	žeberní_A
-fibrocyt_NC	fibroblast_NC
-drobnohled_NC	hledět_V
-malomocný_AC	malomocenství_N
-rudoarmějský_AC	rudoarmějec_N
-arcivévoda_NC	vévoda_N
-newyorský_AC	yorský_A
-teletník_NC	tele_N
-dvojstranný_AC	strana_N
-basklarinet_NC	klarinet_N
-pneumotorax_NC	pneumatika_NC
-fotobuňka_NC	buňka_N
-velevýznamný_AC	význam_N
-dřevozpracující_AC	dřevo_N
-mimoekonomický_AC	ekonomický_A
-ultramaraton_NC	maraton_N
-dřevostavba_NC	stavba_N
-krátkometrážní_AC	krátký_A
-mladočech_NC	Čech_N
-alkoholoměr_NC	alkohol_N
-eurobond_NC	bond_N
-trojnásobek_NC	ztrojnásobit_V
-stafylokok_NC	kok_N
-dvojchyba_NC	chyba_N
-rádobyumělec_NC	rádoby_D
-kilokalorie_NC	kalorie_N
-velemlok_NC	mlok_N
-rovnoramenný_AC	rovný_A
-cyklonální_AC	cyklón_N
-východoslovanský_AC	slovanský_A
-elektromagnet_NC	magnet_N
-vdavekchtivý_AC	vdavky_N
-poúnorový_AC	únorový_A
-bezproblémový_AC	problém_N
-polyneuritida_NC	neuritida_N
-podkarpatský_AC	Karpaty_N
-cituplný_AC	cit_N
-pedagogickopsychologický_AC	pedagogický_A
-hromotluk_NC	hrom_N
-dvoukolový_AC	kolo_N
-sporofyt_NC	spora_N
-právoplatný_AC	právo_N
-místostarosta_NC	starosta_N
-protireformní_AC	reformní_A
-lehkomyslný_AC	lehký_A
-polodrahokam_NC	drahokam_N
-lehkoživka_NC	lehký_A
-tmavěčervený_AC	tmavě_D
-biografie_NC	autobiografie_NC
-různobarevný_AC	různý_A
-zeměbrana_NC	domobrana_N
-zeměpaní_NC	zeměpán_NC
-vlastivěda_NC	věda_N
-polokošile_NC	košile_N
-svatováclavský_AC	Václav_N
-meziválečný_AC	poválečný_A
-poloplný_AC	plný_A
-jednokomorový_AC	komora_N
-kinosál_NC	kino_N
-arcidiecéze_NC	diecéze_N
-národohospodář_NC	národ_N
-vodotěsný_AC	těsný_A
-vápnomilný_AC	vápno_N
-knihvazač_NC	vazač_N
-kosmopolitický_AC	kosmopolita_NC
-minipočítač_NC	počítač_N
-gerontofilie_NC	geront_N
-pravověrný_AC	pravý_A
-malomyslný_AC	malý_A
-mnohojazyčný_AC	jazyk_N
-videoprůvodce_NC	video_N
-hromosvod_NC	hrom_N
-středolevý_AC	střed_N
-diskobolos_NC	disk_N
-zlosyn_NC	syn_N
-čtyřválec_NC	válec_N
-videomagnetofon_NC	magnetofon_NC
-diametrální_AC	diametr_NC
-pornohvězda_NC	porno_N
-polodlouhý_AC	dlouhý_A
-protiútok_NC	útočit_V
-rychlostudent_NC	student_N
-dvojverší_NC	verš_N
-rybolov_NC	ryba_N
-megabyte_NC	byte_N
-eurotrh_NC	trh_N
-fotochemie_NC	chemie_N
-datacentrum_NC	data_N
-plynovod_NC	plyn_N
-termochemie_NC	chemie_N
-trojúhlý_AC	trojúhelník_N
-středočeský_AC	český_A
-polovodič_NC	vodič_N
-podpovrchový_AC	povrchový_A
-stejnorodý_AC	stejný_A
-protiakce_NC	akce_N
-předmanželský_AC	manželský_A
-libovůle_NC	vůle_N
-hypovitaminóza_NC	vitamín_N
-aerotaxi_NC	taxi_N
-věkopomný_AC	věk_N
-makromolekula_NC	molekula_N
-dvojkajak_NC	kajak_N
 vlastizrádce_NC	zrádce_N
-mytologie_NC	mýtus_N
-kontradmirál_NC	admirál_N
-protireakce_NC	reakce_N
-zakarpatský_AC	Karpaty_N
-desetitisíc_NC	desetitisícina_N
-kilowattový_AC	wattový_A
-milimetr_NC	metr_N
-veloduše_NC	duše_N
-viceprezident_NC	prezident_N
-poloprofil_NC	profil_N
-mimoškolní_AC	školní_A
-novokřesťan_NC	křesťan_N
-protiúder_NC	úder_N
-jednomocný_AC	mocný_A
-mimobuněčný_AC	mimo_R
-nízkopodlažní_AC	podlaží_N
-karcinom_NC	karcinogenní_A
-kmenotvorný_AC	kmen_N
-feroslitina_NC	slitina_N
-vlnovod_NC	vlna_N
-ultramikroskopický_AC	mikroskopický_A
-cenotvorný_AC	cena_N
-pětisetový_AC	pětiseťák_N
-těžkopádný_AC	těžký_A
-velkoadmirál_NC	admirál_N
-pětilistý_AC	čtyřlistý_AC
-traumacentrum_NC	trauma_N
-mimojaterní_AC	mimo_R
-arcidílo_NC	dílo_N
-dlouholetý_AC	dlouho_D
-pornoherec_NC	porno_N
-plnovous_NC	vous_N
-polopatě_DC	lopata_N
-dvojzápas_NC	zápas_N
-minigolf_NC	golf_N
-poloostrov_NC	ostrov_N
-showman_NC	show_N
-rychlochůze_NC	chůze_N
-jihojihovýchod_NC	jihovýchod_NC
-hydrometeor_NC	meteor_N
-kšeftsman_NC	kšeft_N
-epidemie_NC	pandemie_NC
-zlozvyk_NC	zvyk_N
-desetikoruna_NC	koruna_N
-pětiposchoďový_AC	pět_C
-kosodélník_NC	kosý_A
-videosekvence_NC	video_N
-arcičíšník_NC	číšník_N
-těžkotonážní_AC	těžký_A
-třífázový_AC	fáze_N
-gastroenterologie_NC	gastrointestinální_AC
-enterokok_NC	kok_N
-bezkyslíkový_AC	kyslík_N
-nadmořský_AC	mořský_A
-plynojem_NC	plyn_N
-novotvorba_NC	novotvar_NC
-tenkostěnný_AC	tenký_A
-stejnověký_AC	věk_N
-světlocit_NC	cit_N
-karboxyhemoglobin_NC	hemoglobin_N
-tlustokožec_NC	tlustý_A
-novopečený_AC	nový_A
-barvocit_NC	cit_N
-perihelium_NC	helium_N
-hornomoravský_AC	moravský_A
-předobraz_NC	obraz_N
-sebekázeň_NC	kázeň_N
-všeuměl_NC	umět_V
-zadobře_DC	dobře_D
-široširý_AC	širý_A
-mezistátní_AC	státní_A
-uhlovodan_NC	uhlík_N
-všežravý_AC	žravý_None
-milostpán_NC	pán_N
-dřevomorka_NC	dřevo_N
-dvojlist_NC	list_N
-truchlohra_NC	hra_N
-makroobjektiv_NC	objektiv_N
-celotýdenní_AC	týden_N
-místopis_NC	místo_N
-monokultura_NC	kultura_N
-velkodrůbežárna_NC	drůbežárna_N
-endospora_NC	spora_N
-věkobylý_AC	věk_N
-Wikipedie_NC	encyklopedie_NC
-čtyřnohý_AC	noha_N
-identifikovat_VC	identita_N
-decimetr_NC	metr_N
-lymfocyt_NC	lymfa_N
-středomořský_AC	mořský_A
-nymfomanie_NC	nymfomanka_N
-arciže_DC	arci_D
-svatovítský_AC	Vít_N
-jedenácteronásobný_AC	jedenáctinásobný_C
-autokar_NC	autobus_NC
-semenožravý_AC	semeno_N
-biotechnologie_NC	technologie_NC
-antibiotikum_NC	antibiotický_A
-protizemanovský_AC	Zeman_N
-dvojzpěv_NC	zpěv_N
-glyptotéka_NC	glyptika_N
-severojižní_AC	jižní_A
-všelék_NC	lék_N
-interbrigáda_NC	brigáda_N
-novověk_NC	věk_N
-devateronásobný_AC	devítinásobný_C
-celozrnný_AC	vícezrnný_AC
-pentlit_VC	pentle_N
-biotop_NC	biom_N
-předdůchodový_AC	důchod_N
-taxislužba_NC	taxi_N
-věkuvzdorný_AC	věk_N
-radiokomunikace_NC	rádiový_A
-ostropestřec_NC	ostrý_A
-dvojjazyčný_AC	jazyk_N
-decibel_NC	bel_N
-zemědělskoprůmyslový_AC	průmyslový_A
-mnohovýznamný_AC	mnohoznačnost_N
-hypotetický_AC	hypotéza_NC
-nízkotlaký_AC	tlakový_A
-severoseverozápad_NC	severozápad_NC
-protirežimní_AC	režim_N
-jazykohltanový_AC	hltanový_A
-cyklokros_NC	kros_N
-infrazářič_NC	infračervený_AC
-sopránsaxofon_NC	saxofon_NC
-samozvaný_AC	zvaný_A
-polosirotek_NC	sirota_N
-místopředseda_NC	předseda_N
-bezdušový_AC	duše_N
-jihojihozápad_NC	jihozápad_NC
-streptokok_NC	kok_N
-psychotest_NC	test_N
-protivzdušný_AC	vzdušný_A
-samolibý_AC	libý_A
-alkoholdehydrogenáza_NC	alkohol_N
-sedmnáctipodlažní_AC	sedmnáctipatrový_AC
-démonologie_NC	démonizovat_V
-polostátní_AC	státní_A
-leukopenie_NC	leukocyt_NC
-jednopatrový_AC	patro_N
-deoxyhemoglobin_NC	hemoglobin_N
-autoreflexe_NC	reflexe_N
-tlustospis_NC	tlustý_A
-diafilm_NC	film_N
-dvojnásobek_NC	zdvojnásobit_V
-tmavěhnědý_AC	tmavě_D
-velevážený_AC	vážený_A
-samotřetí_AC	samodruhý_AC
-kosmogonie_NC	kosmos_N
-mravouka_NC	mrav_N
-genealogie_NC	gen_N
-monarcha_NC	monarchie_N
-slavomam_NC	sláva_N
-mezilidský_AC	lidský_A
-minimax_NC	minimálně_D
-samopal_NC	pálit_V
-pandemie_NC	epidemie_NC
-ultralehký_AC	lehký_A
-protiprávní_AC	právo_N
-sólokapr_NC	sólo_N
-pravotočivý_AC	pravý_A
-sebeobrana_NC	obrana_N
-sebepřijetí_NC	přijetí_N
-videodisk_NC	video_N
-tmavočervený_AC	červený_A
-kontrarevoluce_NC	revoluce_N
-dvojspřežní_AC	dvojspřeží_NC
-kamenouhelný_AC	kámen_N
-parazitologie_NC	parazit_N
-východojihovýchod_NC	jihovýchod_NC
-etnografie_NC	etnologie_NC
-sérologie_NC	sérum_N
-radionuklid_NC	rádium_N
-baskřídlovka_NC	křídlovka_N
-videohra_NC	video_N
-pornomagnát_NC	porno_N
-protipapež_NC	papež_N
-veřejnosprávní_AC	správní_A
-pravobok_NC	bok_N
-dvojvaječný_AC	vejce_N
-hydroenergetika_NC	energetika_N
-videozáznam_NC	video_N
-tlustoprd_NC	tlustý_A
-vícevrstvý_AC	vrstva_N
-spolubydlící_NC	spolu_D
-gerontologie_NC	geriatrie_NC
-ortorula_NC	rula_N
-polostín_NC	stín_N
-duchaplný_AC	duch_N
-gigatuna_NC	tuna_N
-pozápasový_AC	zápas_N
-infrazvuk_NC	zvuk_N
-konkurenceschopný_AC	konkurovat_V
-trojsklo_NC	sklo_N
-proteroristický_AC	teroristický_A
-semitohamitský_AC	semitský_A
-trojskok_NC	trojice_N
-dvojtečka_NC	tečka_N
-vejcovod_NC	vejce_N
-celoživotní_AC	životní_A
-zvěrolékař_NC	lékař_N
-dekagram_NC	gram_N
-trojjediný_AC	jediný_A
-podřipský_AC	Podřipsko_N
-indoevropský_AC	Indoevropan_N
-sebereflexe_NC	reflexe_N
-trojslabičný_AC	slabičný_A
-neonacismus_NC	nácek_N
-východobavorský_AC	bavorský_A
-běloveský_AC	Běloves_N
-voltmetr_NC	galvanometr_N
-kamenorytina_NC	kámen_N
-rádobyvtipný_AC	rádoby_D
-křivonosý_AC	křivý_A
-hrubosrstý_AC	srst_N
-veleobr_NC	obr_N
-pornoromán_NC	porno_N
-ptakopysk_NC	pták_N
-spolumajitel_NC	majitel_N
-hypermarket_NC	supermarket_N
-dvanáctisvazkový_AC	svazek_N
-samosběr_NC	sběr_N
-astrobioložka_NC	astrobiologie_NC
-dvoupatrový_AC	patro_N
-autotransformátor_NC	transformátor_N
-megawattový_AC	wattový_A
-ampérmetr_NC	galvanometr_N
-prasopes_NC	prase_N
-alergologie_NC	alergie_N
-postprodukce_NC	produkce_N
-sebepřekonání_NC	překonání_N
-východoněmecký_AC	německý_A
-čtyřstranný_AC	strana_N
-terminologie_NC	termín_N
-ikonostas_NC	ikona_N
-gramorádio_NC	gramofon_NC
-starodávný_AC	dávný_A
-hypertenze_NC	antihypertenzivum_NC
-trojobraz_NC	obraz_N
-čtyřhlavý_AC	hlava_N
-mezihostitel_NC	hostitel_N
-holocaust_NC	holokaust_NC
-sirovodík_NC	vodík_N
-každotýdenní_AC	každý_P
-multifunkční_AC	funkční_A
-rusovlasý_AC	rusý_A
-kyselinotvorný_AC	kyselina_N
-teatrologie_NC	teatrální_A
-dvojspřeží_NC	spřežení_N
-faktografie_NC	fakt_N
-lidožravý_AC	žravý_None
-vzdorokrál_NC	král_N
-elektrospotřebič_NC	elektromobil_NC
-holokaust_NC	holocaust_NC
-tmavomodrý_AC	modrý_A
-červenopláštník_NC	plášť_N
-arcibiskup_NC	biskup_N
-otorinolaryngoložka_NC	otorinolaryngologie_NC
-tělověda_NC	věda_N
+mezimozek_NC	mozek_N
 fagocyt_NC	fagocytóza_N
-poloopice_NC	opice_N
-křivoústý_AC	křivý_A
-jednovýznamový_AC	význam_N
-trojjazyčný_AC	jazyk_N
-monohydrát_NC	hydrát_N
-sirouhlík_NC	uhlík_N
-dvojčíslí_NC	číslo_N
-severobavorský_AC	bavorský_A
-veletržní_AC	veletrh_NC
-všemožný_AC	možný_A
-videoklip_NC	video_N
-pančhenlama_NC	láma_N
-polotvrdý_AC	tvrdý_A
-pololetí_NC	léto_N
-rybožravý_AC	ryba_N
-mnohohodinový_AC	hodinový_A
-klimatologie_NC	klima_N
-kosmologie_NC	kosmos_N
-trojcédéčko_NC	cédéčko_N
-kilotuna_NC	tuna_N
-autoportrét_NC	portrét_N
-sedmiletý_AC	sedmiletka_N
-ikonografie_NC	ikona_N
-písmolijec_NC	písmo_N
-polokrevný_AC	krev_N
-plynobeton_NC	beton_N
-polychromatický_AC	monochromatický_A
-polobotka_NC	bota_N
-polokeř_NC	keř_N
-státotvorný_AC	stát_N
-aerodynamika_NC	dynamika_N
-reprodukce_NC	produkce_N
-fototisk_NC	tisk_N
-sexbomba_NC	bomba_N
-protikorupční_AC	korupční_A
-spoluzavazadlo_NC	zavazadlo_N
-ostrostřelba_NC	střelba_N
-pravostranný_AC	pravý_A
-dějeprava_NC	děj_N
+parovod_NC	pára_N
+hlavohruď_NC	hlava_N
+zimostráz_NC	zima_N
+linořez_NC	lino_N
+geochemie_NC	chemie_N
+bleskurychlý_AC	blesk_N
+hrůzovláda_NC	vláda_N
+kamenouhelný_AC	kámen_N
+dvojzpěv_NC	zpěv_N
+videokamera_NC	video_N
+miliohm_NC	ohm_N
+centimetr_NC	metr_N
+provozuschopný_AC	provoz_N
+velekněz_NC	kněz_N
+retroaktivní_AC	aktivní_A
+vysokoškolský_AC	vysoko_D
+arcičíšník_NC	číšník_N
+dlouhohrající_AC	dlouho_D
+mnohahodinový_AC	hodinový_A
+krátkometrážní_AC	krátký_A
+velevážený_AC	vážený_A
 svobodomyslný_AC	svoboda_N
-středobod_NC	střed_N
-kryptofašista_NC	fašismus_N
-svéráz_NC	ráz_N
-trojkoruna_NC	koruna_N
-nahoru_DC	nahoře_DC
-plynoměr_NC	plyn_N
-krvelačný_AC	krev_N
-ohnivzdorný_AC	oheň_N
-protipól_NC	pól_N
-samojediný_AC	jediný_A
-protikomunistický_AC	komunistický_A
-traumatologie_NC	trauma_N
-autodráha_NC	dráha_N
+vícejazyčný_AC	jazyk_N
 prvorepublikový_AC	republikový_A
+protinádorový_AC	nádorový_A
+autopilot_NC	pilot_N
+pravobok_NC	bok_N
+jinojazyčný_AC	jiný_A
+linoryt_NC	lino_N
+radionuklid_NC	rádium_N
+dvoukomorový_AC	komora_N
+ultrazvuk_NC	zvuk_N
+rovnoběžnostěn_NC	rovnoběžný_AC
+rovnováha_NC	váha_N
+viceadmirál_NC	admirál_N
 polysémantický_AC	polysémie_NC
-videoblog_NC	video_N
-vnitrostranický_AC	stranický_A
-stereometrie_NC	geometrie_NC
-západoslovanský_AC	slovanský_A
-stínohra_NC	stín_N
-europoslanec_NC	poslanec_N
-patolízal_NC	pata_N
-stejnoměrný_AC	stejný_A
-obrazotvorný_AC	obraz_N
-pětitisícový_AC	pět_C
-autobiografie_NC	biografie_NC
-novojičínský_AC	Novojičínsko_N
-barvoslepý_AC	slepý_A
-psychoterapie_NC	terapie_N
-velkovinař_NC	vinař_N
-technologie_NC	technika_N
-hrůzostrašný_AC	hrůza_N
-velkokapacitní_AC	kapacita_N
+čtyřnohý_AC	noha_N
+světlocitlivý_AC	světlo_N
+barvocit_NC	cit_N
+sebereflexe_NC	reflexe_N
+zoopark_NC	park_N
+desetihaléř_NC	haléř_N
+arcidílo_NC	dílo_N
+strastiplný_AC	plný_A
+plynobeton_NC	beton_N
+světlonoš_NC	světlo_N
+polokrevný_AC	krev_N
+východoslovanský_AC	slovanský_A
+etnografie_NC	etnologie_NC
+fyziologie_NC	fyzický_A
+fotodioda_NC	dioda_N
+protizemanovský_AC	Zeman_N
+infračervený_AC	červený_A
+bezdušový_AC	duše_N
+věkovládný_AC	věk_N
+alergologie_NC	alergie_N
+subsaharský_AC	saharský_A
+krveprolévání_NC	prolévat_V
+lichořeřišnice_NC	řeřicha_N
+veleobr_NC	obr_N
+nízkopodlažní_AC	podlaží_N
+čtyřstranný_AC	strana_N
+všestranný_AC	strana_N
+vodotěsný_AC	těsný_A
+kamenorytec_NC	kámen_N
+životopis_NC	život_N
+bioetika_NC	etika_N
+autonehoda_NC	nehoda_N
+velkoměsto_NC	město_N
+středopravý_AC	střed_N
+úhloměr_NC	úhel_N
+mnohojazyčný_AC	jazyk_N
+starohrabě_NC	hrabě_N
+bezproblémový_AC	problém_N
+stoletý_AC	sto_C
+petrolej_NC	olej_N
+stereogramofon_NC	gramofon_NC
+kilokalorie_NC	kalorie_N
+rybožravý_AC	ryba_N
+malomyslný_AC	malý_A
+showman_NC	show_N
+polokeř_NC	keř_N
+teplomet_NC	teplo_N
+mytologie_NC	mýtus_N
+terminologie_NC	termín_N
 roponosný_AC	ropa_N
-transpacifický_AC	Pacifik_N
+plnovous_NC	vous_N
+šerověk_NC	věk_N
+hypertenze_NC	antihypertenzivum_NC
+krvokvět_NC	krev_N
+kinosál_NC	kino_N
+samospád_NC	spád_N
+poloprofil_NC	profil_N
+českomoravský_AC	český_A
+jihojihovýchod_NC	jihovýchod_NC
+celoživotní_AC	životní_A
+monohydrát_NC	hydrát_N
+samopal_NC	pálit_V
+dřevovýroba_NC	dřevo_N
+staropražský_AC	pražský_A
+protireakce_NC	reakce_N
+kamenorytina_NC	kámen_N
+protijed_NC	jed_N
+interdisciplinární_AC	disciplína_N
+milicurie_NC	curie_N
+trojjazyčný_AC	jazyk_N
+protihlukový_AC	hlukový_A
+čarostřelec_NC	střílet_V
+sporofyt_NC	spora_N
+protinávrh_NC	návrh_N
+barvoslepý_AC	slepý_A
+dvojtečka_NC	tečka_N
+pandemie_NC	epidemie_NC
+islamolog_NC	islám_N
+úhlopříčka_NC	úhel_N
+mezižeberní_AC	žeberní_A
+cenotvorný_AC	cena_N
+bezmyšlenkovitý_AC	myšlenkový_A
+samosběr_NC	sběr_N
+viceprezident_NC	prezident_N
+veloduše_NC	duše_N
+ikonografie_NC	ikona_N
+Wikipedie_NC	encyklopedie_NC
+stejnobarevný_AC	stejný_A
+fytopaleontologie_NC	paleontologie_NC
+polovodič_NC	vodič_N
+megawattový_AC	wattový_A
+bleskosvod_NC	blesk_N
+rychlotest_NC	test_N
+polofinále_NC	finále_N
+teleobjektiv_NC	objektiv_N
+protipól_NC	pól_N
+celounijní_AC	unijní_A
+pornoseriál_NC	porno_N
+celokovový_AC	kovový_A
+světlomilný_AC	světlo_N
+dlouhotrvající_AC	dlouho_D
+trojobraz_NC	obraz_N
+malomocný_AC	malomocenství_N
+voltmetr_NC	galvanometr_N
+autosedačka_NC	sedačka_N
+arciže_DC	arci_D
+samovláda_NC	vláda_N
+čtyřnásobek_NC	čtyřnásobný_C
+obrazoborec_NC	obraz_N
+několikaměsíční_AC	měsíční_A
+samostříl_NC	střelit_V
+věkostálý_AC	věk_N
+dvojchyba_NC	chyba_N
+perihelium_NC	helium_N
+dřevozpracující_AC	dřevo_N
+větrolam_NC	vítr_N
+autoškola_NC	škola_N
+polokoule_NC	koule_N
+parazitologie_NC	parazit_N
+chemoterapie_NC	chemie_N
+maloruský_AC	ruský_A
+středomořský_AC	mořský_A
+decimetr_NC	metr_N
+mumifikovat_VC	mumie_N
+vícevrstvý_AC	vrstva_N
+rovnocenný_AC	rovný_A
+rybolov_NC	ryba_N
+světlovlasý_AC	světlo_N
+diskobolos_NC	disk_N
+široširý_AC	širý_A
+dvacetihaléř_NC	haléř_N
+slavomam_NC	sláva_N
+rychlochůze_NC	chůze_N
+semitologie_NC	semitský_A
+batrachologie_NC	batrachotoxin_N
+severoseverovýchod_NC	severovýchod_NC
+veletok_NC	tok_N
+revmatologie_NC	revmatismus_N
+větroplach_NC	vítr_N
+infrazářič_NC	infračervený_AC
+diakonie_NC	diákon_N
+tmavočervený_AC	červený_A
+proteroristický_AC	teroristický_A
+erotomanie_NC	erós_N
+šerosvit_NC	šero_N
+bělohorský_AC	pobělohorský_AC
+různobarevný_AC	různý_A
+těžkopádný_AC	těžký_A
+termochemie_NC	chemie_N
+věkověčný_AC	věk_N
+nymfomanie_NC	nymfomanka_N
+trojúhlý_AC	trojúhelník_N
+kameraman_NC	kamera_N
+polozemnice_NC	zemnice_N
+aerodynamika_NC	dynamika_N
+svatojanský_AC	Jan_N
+gerontofilie_NC	geront_N
+tunokilometr_NC	kilometr_NC
+videopřehrávač_NC	video_N
+patolízal_NC	pata_N
+nitrožilní_AC	žilní_A
+automotoklub_NC	klub_N
+krátkosrstý_AC	srst_N
+věkuvzdorný_AC	věk_N
+dvanáctisvazkový_AC	svazek_N
+imunologie_NC	imunita_N
+listonoš_NC	list_N
+polorovina_NC	rovina_N
+kontrakt_NC	kontrahovat_VC
+těžkotonážní_AC	těžký_A
+vnitropodnikový_AC	vnitro_N
+elektronvolt_NC	elektron_NC
+prachsprostý_AC	sprostý_A
+jazykohltanový_AC	hltanový_A
+ledolam_NC	led_N
+slabikotvorný_AC	slabika_N
+dvojzápas_NC	zápas_N
+Vlastimil_NC	vlast_N
+trojlist_NC	list_N
+písmoznalec_NC	písmo_N
+pornohvězda_NC	porno_N
+věkonosný_AC	věk_N
+pidimuž_NC	píď_N
+plnoštíhlý_AC	štíhlý_A
+hromotluk_NC	hrom_N
+hypotetický_AC	hypotéza_NC
+protiprávní_AC	právo_N
+dvoupatrový_AC	patro_N
+ultramikroskopický_AC	mikroskopický_A
+květomluva_NC	květ_N
+slaboproud_NC	proud_N
+plynovod_NC	plyn_N
+autodráha_NC	dráha_N
+radiochemie_NC	chemie_N
+automobil_NC	auto_N
+antikrist_NC	Kristus_N
+elektromotor_NC	elektromobil_NC
+polosyrový_AC	syrový_A
+polopřímka_NC	přímka_N
+rychločlun_NC	člun_N
+klerofašistický_AC	fašismus_N
+stínohra_NC	stín_N
+pornosvět_NC	porno_N
+postprodukce_NC	produkce_N
+spoluzavazadlo_NC	zavazadlo_N
+dvojnásobek_NC	zdvojnásobit_V
+decibel_NC	bel_N
+svatováclavský_AC	Václav_N
+drobnohled_NC	hledět_V
+diabetoložka_NC	diabetolog_N
+autodrom_NC	automotodrom_NC
+svatokrádež_NC	krádež_N
+alkoholdehydrogenáza_NC	alkohol_N
+trojčíslí_NC	číslo_N
+ohnivzdorný_AC	oheň_N
+velkovévoda_NC	vévoda_N
+mnohaletý_AC	léto_N
+celodenní_AC	denní_A
+sladkovodní_AC	sladký_A
+minipivovar_NC	pivovar_N
+galvanoterapie_NC	galvanický_A
+agroturistika_NC	turistika_N
+kovošrot_NC	kov_N
+zvěrolékař_NC	lékař_N
+velkopolský_AC	polský_A
+psychotest_NC	test_N
+arcivévoda_NC	vévoda_N
+cyklobus_NC	bus_N
+svéráz_NC	ráz_N
+mravověda_NC	věda_N
+afroamerický_AC	Afroameričan_N
+protitlak_NC	tlak_N
+dvoustranný_AC	strana_N
+krasojízda_NC	jízda_N
+pravdomluvný_AC	pravda_N
+karcinom_NC	karcinogenní_A
+věkožízný_AC	věk_N
+velkodrůbežárna_NC	drůbežárna_N
+jazzman_NC	jazz_N
+muzeologie_NC	muzeum_N
+historiografie_NC	historie_N
+nanotechnologie_NC	technologie_NC
+polokulový_AC	polokoule_NC
+akvapark_NC	park_N
+krátkověký_AC	věk_N
+jednoletý_AC	léto_N
+širokohubý_AC	huba_N
+hyperinflace_NC	inflace_N
+tlustokožec_NC	tlustý_A
+sopránsaxofon_NC	saxofon_NC
+všeuměl_NC	umět_V
+protireformace_NC	reformace_N
+mezirezortní_AC	rezort_N
+slabomyslný_AC	slabý_A
+videokonference_NC	video_N
+démonologie_NC	démonizovat_V
+vysokopodlažní_AC	podlaží_N
+feromagnetický_AC	ferit_N
+státotvorný_AC	stát_N
+velmistr_NC	mistr_N
+trojpodlažní_AC	podlaha_N
+videostěna_NC	video_N
+dvojlist_NC	list_N
+elektroinstalace_NC	instalace_N
+mezilidský_AC	lidský_A
+vraždychtivý_AC	vražda_N
+severojižní_AC	jižní_A
+středolevý_AC	střed_N
+protiúder_NC	úder_N
+videoklip_NC	video_N
+tmavěmodrý_AC	tmavě_D
+streptokok_NC	kok_N
+mnohohodinový_AC	hodinový_A
+ultramaraton_NC	maraton_N
+knihvazač_NC	vazač_N
+zeměbrana_NC	domobrana_N
+arcijáhen_NC	jáhen_N
+protiteroristický_AC	teroristický_A
+infopanel_NC	panel_N
+velkostatkář_NC	velkostatek_NC
+Krasomil_NC	krása_N
+místostarosta_NC	starosta_N
+osciloskop_NC	oscilátor_N
+ostrostřelba_NC	střelba_N
+sedmiletý_AC	sedmiletka_N
+sérologie_NC	sérum_N
+holobyt_NC	byt_N
+bicykl_NC	cyklistický_A
+křivoústý_AC	křivý_A
+šifrogram_NC	šifra_N
+dvojslabičný_AC	slabičný_A
+nahoru_DC	nahoře_DC
+jednopatrový_AC	patro_N
+posttraumatický_AC	trauma_N
+protikorupční_AC	korupční_A
+neofašismus_NC	fašismus_N
+rakovinotvorný_AC	rakovina_N
+sebepřekonání_NC	překonání_N
+prasopes_NC	prase_N
+traumatologie_NC	trauma_N
+polosirotek_NC	sirota_N
+kilowattový_AC	wattový_A
+elektropřístroj_NC	přístroj_N
+diafilm_NC	film_N
+protirakovinný_AC	rakovina_N
+vejcorodý_AC	vejce_N
+neurotechnologie_NC	technologie_NC
+kontrafagot_NC	fagot_N
+poúnorový_AC	únorový_A
+biotechnologie_NC	technologie_NC
+mimojaterní_AC	mimo_R
+rádobyumělec_NC	rádoby_D
+bezpříznakový_AC	příznak_N
 polosykavka_NC	sykavka_N
+dekagram_NC	gram_N
+staročech_NC	Čech_N
+kilometr_NC	metr_N
+krátkoocasý_AC	ocas_N
+protoplazma_NC	plazma_N
+makromolekula_NC	molekula_N
+klimatologie_NC	klima_N
+podpovrchový_AC	povrchový_A
+západomoravský_AC	moravský_A
+národohospodář_NC	národ_N
+protikrál_NC	král_N
+pravoplatný_AC	právo_N
+ikonostas_NC	ikona_N
+kryptologie_NC	kryptografie_NC
+zeměpán_NC	země_N
+blahobyt_NC	blahý_A
+suchopýr_NC	pýr_N
+krasobruslař_NC	krasobruslení_N
+gerontokracie_NC	geront_N
+vulkanologie_NC	vulkán_N
+sirouhlík_NC	uhlík_N
+dvojstrana_NC	strana_N
+autoportrét_NC	portrét_N
+truchlohra_NC	hra_N
+menopauza_NC	pauza_N
+levostranný_AC	levák_N
+trojslabičný_AC	slabičný_A
+velkokapacitní_AC	kapacita_N
+sebevědomí_NC	sebevědomý_AC
+zoospora_NC	spora_N
+kiloohm_NC	ohm_N
+internet_NC	interní_A
+pětiminutový_AC	pět_C
+jednokomorový_AC	komora_N
+rovnoramenný_AC	rovný_A
+skibob_NC	bob_N
+meziplanetární_AC	planetární_A
+čtyřválec_NC	válec_N
+světlocit_NC	cit_N
+velmoc_NC	moc_N
+epidemiologie_NC	epidemie_NC
+diametrální_AC	diametr_NC
+datacentrum_NC	data_N
+dvojvaječný_AC	vejce_N
+protirežimní_AC	režim_N
+antroponomastika_NC	onomastika_N
+kosodélník_NC	kosý_A
+jihoslovanský_AC	slovanský_A
+karboxyhemoglobin_NC	hemoglobin_N
+jihokorejský_AC	korejský_A
+bezbariérový_AC	bariéra_N
