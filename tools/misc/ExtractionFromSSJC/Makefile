@@ -3,7 +3,7 @@ SHELL=/bin/bash
 all: extract compare clean
 
 extract:
-	python3 'extract.py' -s 'ssjc-utf8.xml'
+	python3 'extract-wf.py' -s 'ssjc-utf8.xml'
 
 derinet:
 	git clone 'https://github.com/vidraj/derinet.git'
@@ -13,7 +13,7 @@ derinet:
 
 compare: derinet
 	@mkdir -p 'output'
-	python3 'comparison.py' -s 'ssjc-wf.tsv' -d 'derinet-1-5-1.tsv' -i 'output/inside.dat' -o 'output/outside.dat' -c 'output/composites.dat' -n 'output/noncomposites.dat' -a 'output/all-relations.dat'
+	python3 'compar-ssjc-derinet.py' -s 'ssjc-wf.tsv' -d 'derinet-1-5-1.tsv' -i 'output/inside.dat' -o 'output/outside.dat' -c 'output/composites.dat' -n 'output/noncomposites.dat' -a 'output/all-relations.dat'
 
 clean:
 	@rm -rf 'derinet-git'

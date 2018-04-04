@@ -23,10 +23,12 @@ def clean_tokenize(text, deleteSign):
     text = re.sub(r'[0-9]*', '', text)
 
     text = text.replace('(', '')
+    text = text.replace(')', '')
 
     # tokenizace
     text = text.split(',')
     text = [word.strip() for word in text]
+    text = [re.sub(r'\sl*', '', word) for word in text]
 
     if ('' in text): del text[text.index('')]
 
@@ -36,7 +38,7 @@ def clean_tokenize(text, deleteSign):
 
 def setRoot(text):
     # čištění a tokenizace
-    deleteSign = ['*', 'zast. ', 'podst.', 'přísl.', 'l.', '.', ' si', ' se', ':', ' l ', ',- ', '/']
+    deleteSign = ['*', 'zast. ', 'podst.', 'přísl.', 'l.', '.', ' si', ' se', ':', ',- ', '/']
     text = clean_tokenize(text, deleteSign)
 
     # volba kořene (nejkratší z nabízených)
@@ -56,16 +58,34 @@ def setRoot(text):
 
 def setDer(text, root):
     # čištění a tokenizace
-    deleteSign = ['*', 'zast. ', 'podst.', 'přísl.', 'l.', '.', ' si', ' se', ':', ' l ', ',- ', '/']
+    deleteSign = ['*', 'zast. ', 'podst.', 'přísl.', 'l.', '.', ' si', ' se', ':', ',- ', '/']
     text = clean_tokenize(text, deleteSign)
 
     # předpony sloves
     out = list()
     for word in text:
+
         if (word == root): continue
+
         if (word.endswith('-')):
             if (root.startswith('-')): out.append(word[:-1] + root[1:])
             else: out.append(word[:-1] + root)
+
+        elif (word.startswith('-')):
+            if (root.startswith('-')): out.append(word)
+            else:
+                index = None
+                i = 2
+                lock = False
+                while not lock:
+                    try:
+                        index = root.index(word[1:i])
+                        i += 1
+                        if (i == 10): lock = True
+                    except:
+                        out.append(root[:index] + word[1:])
+                        lock = True
+
         else: out.append(word)
 
     return out
@@ -93,17 +113,17 @@ with open(file=par.s, mode='r', encoding='utf-8') as f:
                 derivates[word].add(root)
         # <ital> k </ital>
         if ('<ital>k ' in line) or ('<ital>ke ' in line):
-            der = re.search(r'\<ital\>[(k)|(ke)|\s]*(.*?)[\s\:\<]', line).group(1)
+            der = re.search(r'\<ital\>[(k)|(ke)]*\s*(.*?)[\s\:\<]', line).group(1)
             for word in setDer(der, root):
                 if not (word == ''): derivates[root].add(word)
         # <ital> zdrob. k </ital>
         if ('<ital>zdrob. ' in line):
-            der = re.search(r'\<ital\>zdrob\. [(k)|(ke)|\s]*(.*?)[\s\:\<]', line).group(1)
+            der = re.search(r'\<ital\>zdrob\. [(k)|(ke)]*\s*(.*?)[\s\:\<]', line).group(1)
             for word in setDer(der, root):
                 if not (word == ''): derivates[root].add(word)
         # <ital> sloužící k </ital>
         if ('<ital>sloužící ' in line):
-            der = re.search(r'\<ital\>sloužící [(k)|(ke)|\s]*(.*?)[\s\:\<]', line).group(1)
+            der = re.search(r'\<ital\>sloužící [(k)|(ke)]*\s*(.*?)[\s\:\<]', line).group(1)
             for word in setDer(der, root):
                 if not (word == ''): derivates[root].add(word)
         # <norm> zast. </norm>
@@ -141,9 +161,38 @@ with open(file=par.s, mode='r', encoding='utf-8') as f:
 
         previousLine = line # kontext
 
-# Ukládání dat
+# Ukládání dat (závěrečné čištění od chyb)
+vovels = {'a', 'e', 'i', 'y', 'o', 'u', 'ě', 'ý', 'á', 'í', 'é', 'ó', 'ů', 'ú'}
 with open('ssjc-wf.tsv', mode='w', encoding='utf-8') as f:
     for child,parents in derivates.items():
         if (('-' in child) or (child == '')): continue
         for parent in parents:
-            if not ('-' in parent): f.write(child + '_None' + '\t' + parent + '_None'+ '\n')
+            if not ('-' in parent):
+                ch = child
+                p = parent
+
+                # odstranění samohlásek
+                for rep in vovels:
+                    if not (ch.replace(rep, '') == ''): ch = ch.replace(rep, '')
+                    if not (p.replace(rep, '') == ''): p = p.replace(rep, '')
+                ch = ch.lower()
+                p = p.lower()
+
+                # bigramy
+                childBigr = set()
+                first = ch[0]
+                for second in ch[1:]:
+                    childBigr.add(first+second)
+                    first = second
+
+                parentBigr = set()
+                first = p[0]
+                for second in p[1:]:
+                    parentBigr.add(first+second)
+                    first = second
+
+                # chyby
+                before = len(childBigr) + len(parentBigr)
+                after = len(childBigr.union(parentBigr))
+                if not (after < before): pass
+                else: f.write(child + '_None' + '\t' + parent + '_None' + '\n')
