@@ -162,37 +162,42 @@ with open(file=par.s, mode='r', encoding='utf-8') as f:
         previousLine = line # kontext
 
 # Ukládání dat (závěrečné čištění od chyb)
-vovels = {'a', 'e', 'i', 'y', 'o', 'u', 'ě', 'ý', 'á', 'í', 'é', 'ó', 'ů', 'ú'}
+def cleanbad(child, parent):
+    def bigrams(word):
+        bigr = set()
+        first = word[0]
+        for second in word[1:]:
+            bigr.add(first+second)
+            first = second
+        return bigr
+
+    ch = child
+    p = parent
+
+    # odstranění samohlásek
+    vovels = {'a', 'e', 'i', 'y', 'o', 'u', 'ě', 'ý', 'á', 'í', 'é', 'ó', 'ů', 'ú'}
+    for rep in vovels:
+        if not (ch.replace(rep, '') == ''): ch = ch.replace(rep, '')
+        if not (p.replace(rep, '') == ''): p = p.replace(rep, '')
+    ch = ch.lower()
+    p = p.lower()
+
+    # bigramy k porovnávání
+    childBigr = bigrams(ch)
+    parentBigr = bigrams(p)
+
+    # chyby
+    before = len(childBigr) + len(parentBigr)
+    after = len(childBigr.union(parentBigr))
+    if (after < before):
+        if (len(child) < len(parent)) and (after == len(childBigr)) and (after == len(parentBigr)): return False # sourozenci
+        return True
+    else: return False # nesmysly
+
 with open('ssjc-wf.tsv', mode='w', encoding='utf-8') as f:
     for child,parents in derivates.items():
         if (('-' in child) or (child == '')): continue
         for parent in parents:
             if not ('-' in parent):
-                ch = child
-                p = parent
-
-                # odstranění samohlásek
-                for rep in vovels:
-                    if not (ch.replace(rep, '') == ''): ch = ch.replace(rep, '')
-                    if not (p.replace(rep, '') == ''): p = p.replace(rep, '')
-                ch = ch.lower()
-                p = p.lower()
-
-                # bigramy
-                childBigr = set()
-                first = ch[0]
-                for second in ch[1:]:
-                    childBigr.add(first+second)
-                    first = second
-
-                parentBigr = set()
-                first = p[0]
-                for second in p[1:]:
-                    parentBigr.add(first+second)
-                    first = second
-
-                # chyby
-                before = len(childBigr) + len(parentBigr)
-                after = len(childBigr.union(parentBigr))
-                if not (after < before): pass
-                else: f.write(child + '_None' + '\t' + parent + '_None' + '\n')
+                decision = cleanbad(child, parent)
+                if (decision is True): f.write(child + '_None' + '\t' + parent + '_None' + '\n')
