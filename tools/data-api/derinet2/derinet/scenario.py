@@ -26,7 +26,7 @@ class Scenario:
             mdl = 'derinet.modules.{}'.format(module_name)
             module = importlib.import_module(mdl)
             class_ = getattr(module, module_cls)
-            instance = class_(derinet)
+            instance = class_() # TODO pass arguments
             logger.info(instance.signature)
-            instance.process()
+            derinet = instance.process(derinet)
             logger.info('Module processed.')
