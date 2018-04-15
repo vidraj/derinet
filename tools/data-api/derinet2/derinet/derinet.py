@@ -346,6 +346,8 @@ class DeriNet(object):
         lexeme_ids = self.get_ids(lemma, pos=pos, morph=morph)
         if len(lexeme_ids) == 0 and allow_fallback and morph is not None:
             lexeme_ids = self.get_ids(lemma, pos=pos, morph=None)
+            if lexeme_ids:
+                logger.warning("Used fallback to search for {} {}, found {}".format(morph, pos, ", ".join([self._data[lexeme_id].morph for lexeme_id in lexeme_ids])))
         return [self._data[lexeme_id] for lexeme_id in lexeme_ids]
 
     def get_ids(self, lemma, pos=None, morph=None):
