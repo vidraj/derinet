@@ -1,3 +1,5 @@
+.PHONY: install test sample_scenario
+
 DATA_DIR=../../../data/releases/cs
 
 install:
@@ -6,5 +8,5 @@ install:
 test: tests/test_derinet.py
 	python3 -m nose tests/test_derinet.py
 
-sample_scenario: scenarios/sample_scenario.txt scenarios/process_scenario.py
-	python3 -m scenarios.process_scenario "${DATA_DIR}/derinet-1-4.tsv" scenarios/sample_scenario.txt
+sample_scenario: scenarios/process_scenario.py
+	./scenarios/process_scenario.py Load file="${DATA_DIR}/derinet-1-4.tsv" PrintLexemes

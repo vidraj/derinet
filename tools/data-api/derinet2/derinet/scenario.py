@@ -9,24 +9,39 @@ logger = logging.getLogger(__name__)
 
 class Scenario:
 
-    def __init__(self, fname):
-        self.fname = fname
-        self.modules = []
-        self._parse(fname)
+    def __init__(self, modules):
+        """Initialize a scenario using either a list of tuples – module specifiers, each containing a module name and a dictionary of its arguments.
 
-    def _parse(self, fname):
-        with open(fname, "r") as f:
-            for line in f.readlines():
-                line = line.split()
-                self.modules.append((line[0], line[1]))
+        >>> modules = [("Load", {"file": "in.tsv"}), ("Save", {"format": "2", "file": "out.tsv"})]
+        >>> Scenario(modules)    # doctest: +ELLIPSIS
+        <scenario.Scenario object at 0x...>"""
+        self.modules = modules
 
-    def process(self, derinet):
-        for module_name, module_cls in self.modules:
-            logger.info('processing: {}.{}'.format(module_name, module_cls))
-            mdl = 'derinet.modules.{}'.format(module_name)
+    def process(self, derinet=None):
+
+        # Initialize all modules.
+        modules = []
+        for module_name, module_args in self.modules:
+            module_file_name = module_name.lower()
+            arg_string = " ".join(["{}={}".format(k, v) for k, v in sorted(module_args.items())])
+            logger.info('Initializing {}.{} {}.'.format(module_file_name, module_name, arg_string))
+
+            # Import the module.
+            mdl = 'derinet.modules.{}'.format(module_file_name)
             module = importlib.import_module(mdl)
-            class_ = getattr(module, module_cls)
-            instance = class_() # TODO pass arguments
-            logger.info(instance.signature)
+
+            # Create an instance of its main class.
+            module_class = getattr(module, module_name)
+            module_instance = module_class(module_args)
+
+            # Store the initialized module.
+            modules.append(module_instance)
+
+        logger.info('Initialization done.')
+
+        # Run all instances.
+        for instance in modules:
             derinet = instance.process(derinet)
-            logger.info('Module processed.')
+            logger.info('Module {} processed.'.format(instance.signature))
+
+        return derinet
