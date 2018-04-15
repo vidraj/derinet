@@ -22,16 +22,20 @@ class Scenario:
         # Initialize all modules.
         modules = []
         for module_name, module_args in self.modules:
+            # The file name is simply lowercased module name.
             module_file_name = module_name.lower()
+            # The class name is the last component of the module name.
+            class_name = module_name.split(".")[-1]
+
             arg_string = " ".join(["{}={}".format(k, v) for k, v in sorted(module_args.items())])
-            logger.info('Initializing {}.{} {}.'.format(module_file_name, module_name, arg_string))
+            logger.info('Initializing {}/{} {}.'.format(module_file_name, class_name, arg_string))
 
             # Import the module.
             mdl = 'derinet.modules.{}'.format(module_file_name)
             module = importlib.import_module(mdl)
 
             # Create an instance of its main class.
-            module_class = getattr(module, module_name)
+            module_class = getattr(module, class_name)
             module_instance = module_class(module_args)
 
             # Store the initialized module.
