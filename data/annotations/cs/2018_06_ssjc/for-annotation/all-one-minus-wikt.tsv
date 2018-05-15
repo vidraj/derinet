@@ -1,0 +1,7409 @@
+deštivo_D	deštivý_None
+vrchovato_D	vrchovatý_None
+vichřivo_D	vichřivý_None
+přetěžko_D	přetěžký_None
+krušno_D	krušný_None
+chladno_D	chladný_None
+vzdušno_D	vzdušný_None
+zimno_D	zimný_None
+převysoko_D	převysoký_None
+šumno_D	šumný_None
+nevolno_D	nevolný_None
+zvučno_D	zvučný_None
+úklidno_D	úklidný_None
+přesnadno_D	přesnadný_None
+líno_D	líný_None
+vzlétavo_D	vzlétavý_None
+teplo_D	teplý_None
+holo_D	holý_None
+plocho_D	plochý_None
+křivo_D	křivý_None
+lahodno_D	lahodný_None
+voňavo_D	voňavý_None
+šeredno_D	šeredný_None
+zimavo_D	zimavý_None
+ticho_D	tichý_None
+mrazno_D	mrazný_None
+kraťounko_D	kraťounký_None
+úžasno_D	úžasný_None
+velebno_D	velebný_None
+větřivo_D	větřivý_None
+děsno_D	děsný_None
+řiďounko_D	řiďounký_None
+dusno_D	dusný_None
+nízko_D	nízký_None
+lehoučko_D	lehoučký_None
+závratno_D	závratný_None
+prudko_D	prudký_None
+zpěvno_D	zpěvný_None
+nepamětno_D	nepamětný_None
+mrtvo_D	mrtvý_None
+mdlo_D	mdlý_None
+prašno_D	prašný_None
+zdravo_D	zdravý_None
+pusto_D	pustý_None
+špatno_D	špatný_None
+veseloučko_D	veseloučký_None
+přečasto_D	přečastý_None
+oblačno_D	oblačný_None
+tuho_D	tuhý_None
+vlhkavo_D	vlhkavý_None
+suchounko_D	suchounký_None
+radostno_D	radostný_None
+tajno_D	tajný_None
+těsno_D	těsný_None
+převeselo_D	převeselý_None
+nizounko_D	nizounký_None
+bouřlivo_D	bouřlivý_None
+kluzko_D	kluzký_None
+trapno_D	trapný_None
+mírno_D	mírný_None
+syrovo_D	syrový_None
+nenávratno_D	nenávratný_None
+smutno_D	smutný_None
+krátko_D	krátký_None
+vlahoučko_D	vlahoučký_None
+úzkostno_D	úzkostný_None
+milounko_D	milounký_None
+sporo_D	sporý_None
+hrozno_D	hrozný_None
+ponuro_D	ponurý_None
+strašno_D	strašný_None
+mrazivo_D	mrazivý_None
+blizounko_D	blizounký_None
+žalno_D	žalný_None
+předraho_D	předrahý_None
+klidno_D	klidný_None
+slunečno_D	slunečný_None
+trudno_D	trudný_None
+mlhavo_D	mlhavý_None
+hlučno_D	hlučný_None
+pošmourno_D	pošmourný_None
+příjemno_D	příjemný_None
+blátivo_D	blátivý_None
+předaleko_D	předaleký_None
+stydno_D	stydný_None
+hnusno_D	hnusný_None
+divo_D	divý_None
+vonno_D	vonný_None
+vlažno_D	vlažný_None
+vlhavo_D	vlhavý_None
+rušno_D	rušný_None
+předlouho_D	předlouhý_None
+kratičko_D	kratičký_None
+zataženo_D	zatažený_None
+úsměvno_D	úsměvný_None
+vlaho_D	vlahý_None
+marno_D	marný_None
+lacino_D	laciný_None
+
+mírňoučce_D	mírňoučký_None
+měkoučce_D	měkoučký_None
+přesladce_D	přesladký_None
+vlhce_D	vlhký_None
+hloupoučce_D	hloupoučký_None
+tenoučce_D	tenoučký_None
+modrounce_D	modrounký_None
+pitomoučce_D	pitomoučký_None
+jemňounce_D	jemňounký_None
+skromňounce_D	skromňounký_None
+droboučce_D	droboučký_None
+bělounce_D	bělounký_None
+suchounce_D	suchounký_None
+velce_D	velký_None
+krotce_D	krotký_None
+ubohoučce_D	ubohoučký_None
+volňoučce_D	volňoučký_None
+obojace_D	obojaký_None
+křepce_D	křepký_None
+světlounce_D	světlounký_None
+dalece_D	daleký_None
+lehoučce_D	lehoučký_None
+vazce_D	vazký_None
+neviňoučce_D	neviňoučký_None
+kratičce_D	kratičký_None
+kluzce_D	kluzký_None
+hezounce_D	hezounký_None
+nízce_D	nízký_None
+horce_D	horký_None
+blizounce_D	blizounký_None
+hezoučce_D	hezoučký_None
+přehluboce_D	přehluboký_None
+růžovoučce_D	růžovoučký_None
+útloboce_D	útloboký_None
+břitce_D	břitký_None
+útloučce_D	útloučký_None
+kraťounce_D	kraťounký_None
+skrovňoučce_D	skrovňoučký_None
+čisťoučce_D	čisťoučký_None
+široce_D	široký_None
+slaboulince_D	slaboulinký_None
+něžňounce_D	něžňounký_None
+hlaďounce_D	hlaďounký_None
+řídce_D	řídký_None
+prostince_D	prostinký_None
+milounce_D	milounký_None
+převelice_D	převeliký_None
+kulaťounce_D	kulaťounký_None
+přetěžce_D	přetěžký_None
+tichoučce_D	tichoučký_None
+tenince_D	teninký_None
+těžce_D	těžký_None
+chuďoučce_D	chuďoučký_None
+uzoučce_D	uzoučký_None
+dvojace_D	dvojaký_None
+přehořce_D	přehořký_None
+slabounce_D	slabounký_None
+vysoce_D	vysoký_None
+blízce_D	blízký_None
+samotince_D	samotinký_None
+
+řemenný_A	řemen_None
+vichorný_A	vichor_None
+živočichopisný_A	živočichopis_None
+povahopisný_A	povahopis_None
+vrubopisný_A	vrubopis_None
+rozchodný_A	rozchod_None
+výběrný_A	výběr_None
+soupisný_A	soupis_None
+černozemný_A	černozem_None
+výškoměrný_A	výškoměr_None
+závitořezný_A	závitořez_None
+šestiměrný_A	šestiměr_None
+výprosný_A	výpros_None
+medný_A	med_None
+úkonný_A	úkon_None
+zlatotřpytný_A	zlatotřpyt_None
+přírodozpytný_A	přírodozpyt_None
+zlatodějný_A	zlatoděj_None
+žalozpěvný_A	žalozpěv_None
+záslibný_A	záslib_None
+zvukoměrný_A	zvukoměr_None
+kostižerný_A	kostižer_None
+věrozvěstný_A	věrozvěst_None
+režný_A	rež_None
+úkojný_A	úkoj_None
+úklidný_A	úklid_None
+útvarný_A	útvar_None
+zákazný_A	zákaz_None
+výškopisný_A	výškopis_None
+zubný_A	zub_None
+křečný_A	křeč_None
+kmetný_A	kmet_None
+výparoměrný_A	výparoměr_None
+vírný_A	vír_None
+zvukovodný_A	zvukovod_None
+zápřežný_A	zápřež_None
+zlatozářný_A	zlatozář_None
+zvukosledný_A	zvukosled_None
+ztečný_A	zteč_None
+dvanáctistěnný_A	dvanáctistěn_None
+půhonný_A	půhon_None
+šepotný_A	šepot_None
+převodný_A	převod_None
+srážkoměrný_A	srážkoměr_None
+řehotný_A	řehot_None
+dušezpytný_A	dušezpyt_None
+přípřežný_A	přípřež_None
+zárazný_A	záraz_None
+výčetný_A	výčet_None
+zlatoplodný_A	zlatoplod_None
+úklonný_A	úklon_None
+přívratný_A	přívrat_None
+přísunný_A	přísun_None
+zdrojný_A	zdroj_None
+ústřelný_A	ústřel_None
+lovný_A	lov_None
+výdejný_A	výdej_None
+zlatojasný_A	zlatojas_None
+podmětný_A	podmět_None
+vsypný_A	vsyp_None
+výmolný_A	výmol_None
+
+záhvozda_N	záhvozd_None
+šlaka_N	šlak_None
+Vlastislava_N	Vlastislav_None
+komponenta_N	komponent_None
+Ladislava_N	Ladislav_None
+mutra_N	mutr_None
+Bohdana_N	Bohdan_None
+zora_N	zor_None
+šansona_N	šanson_None
+brambora_N	brambor_None
+kmotra_N	kmotr_None
+brauna_N	braun_None
+šprota_N	šprot_None
+šupa_N	šup_None
+vrapa_N	vrap_None
+Michaela_N	Michael_None
+Rafaela_N	Rafael_None
+Petra_N	Petr_None
+nopa_N	nop_None
+Jana_N	Jan_None
+hřada_N	hřad_None
+čakana_N	čakan_None
+bárina_N	bárin_None
+Jaroslava_N	Jaroslav_None
+luska_N	lusk_None
+Johana_N	Johan_None
+ataka_N	atak_None
+Jaromíra_N	Jaromír_None
+teoréma_N	teorém_None
+výprosa_N	výpros_None
+Freda_N	Fred_None
+narda_N	nard_None
+Leopolda_N	Leopold_None
+Marcela_N	Marcel_None
+Svatoslava_N	Svatoslav_None
+fuksa_N	fuks_None
+dožera_N	dožer_None
+štuka_N	štuk_None
+epopeja_N	epopej_None
+spahia_N	spahi_None
+Daniela_N	Daniel_None
+prostora_N	prostor_None
+mula_N	mul_None
+zároda_N	zárod_None
+pohova_N	pohov_None
+
+nepřehledno_N	nepřehledný_None
+jsoucno_N	jsoucný_None
+slano_N	slaný_None
+prašno_N	prašný_None
+měkko_N	měkký_None
+současno_N	současný_None
+oblačno_N	oblačný_None
+modročerno_N	modročerný_None
+vlídno_N	vlídný_None
+husto_N	hustý_None
+zelenavo_N	zelenavý_None
+bezvětrno_N	bezvětrný_None
+nadskutečno_N	nadskutečný_None
+přehluboko_N	přehluboký_None
+řídko_N	řídký_None
+nedozírno_N	nedozírný_None
+vábivo_N	vábivý_None
+bezedno_N	bezedný_None
+mělko_N	mělký_None
+čtvero_N	čtverý_None
+desatero_N	desaterý_None
+teskno_N	teskný_None
+volno_N	volný_None
+červeno_N	červený_None
+nepamětno_N	nepamětný_None
+vzdušno_N	vzdušný_None
+soumračno_N	soumračný_None
+bezmezno_N	bezmezný_None
+prudko_N	prudký_None
+vnadno_N	vnadný_None
+teplo_N	teplý_None
+nadreálno_N	nadreálný_None
+vyprahlo_N	vyprahlý_None
+tajno_N	tajný_None
+užitečno_N	užitečný_None
+vlhko_N	vlhký_None
+éterno_N	éterný_None
+zářivo_N	zářivý_None
+tlusto_N	tlustý_None
+
+rybničný_A	rybniční_None
+výhostný_A	výhostní_None
+věčnostný_A	věčnostní_None
+zápecný_A	zápecní_None
+zápětný_A	zápětní_None
+výložný_A	výložní_None
+slovný_A	slovní_None
+průvodný_A	průvodní_None
+bezpohlavný_A	bezpohlavní_None
+výplatný_A	výplatní_None
+cvičebný_A	cvičební_None
+zkušebný_A	zkušební_None
+zárovný_A	zárovní_None
+čtverečný_A	čtvereční_None
+výučný_A	výuční_None
+hrdelný_A	hrdelní_None
+jednopohlavný_A	jednopohlavní_None
+návratný_A	návratní_None
+ženný_A	ženní_None
+ideálný_A	ideální_None
+pokrevný_A	pokrevní_None
+výjezdný_A	výjezdní_None
+zrcadelný_A	zrcadelní_None
+zásvětný_A	zásvětní_None
+výmazný_A	výmazní_None
+viničný_A	viniční_None
+výražný_A	výražní_None
+klenebný_A	klenební_None
+nástupný_A	nástupní_None
+námezdný_A	námezdní_None
+lesný_A	lesní_None
+vrstevný_A	vrstevní_None
+vazebný_A	vazební_None
+výpadný_A	výpadní_None
+učebný_A	učební_None
+výčepný_A	výčepní_None
+bočný_A	boční_None
+jatečný_A	jateční_None
+zákupný_A	zákupní_None
+zápisný_A	zápisní_None
+smutečný_A	smuteční_None
+těžný_A	těžní_None
+třicetiletý_A	třicetiletí_None
+žalářný_A	žalářní_None
+úložný_A	úložní_None
+pobočný_A	poboční_None
+čajný_A	čajní_None
+tržný_A	tržní_None
+
+motáček_N	moták_None
+úvodníček_N	úvodník_None
+křižáček_N	křižák_None
+vrtulníček_N	vrtulník_None
+květáček_N	květák_None
+moučníček_N	moučník_None
+ručníček_N	ručník_None
+řezníček_N	řezník_None
+pláteček_N	plátek_None
+trávníček_N	trávník_None
+květníček_N	květník_None
+Mireček_N	Mirek_None
+kriminálníček_N	kriminálník_None
+krváček_N	krvák_None
+navijáček_N	naviják_None
+jaderníček_N	jaderník_None
+víneček_N	vínek_None
+domovníček_N	domovník_None
+krápníček_N	krápník_None
+slepáček_N	slepák_None
+Jiříček_N	Jiřík_None
+měďáček_N	měďák_None
+grošáček_N	grošák_None
+bocháneček_N	bochánek_None
+bijáček_N	biják_None
+Toníček_N	Toník_None
+březňáček_N	březňák_None
+makovníček_N	makovník_None
+Karlíček_N	Karlík_None
+klíneček_N	klínek_None
+ležáček_N	ležák_None
+malíček_N	malík_None
+bouřliváček_N	bouřlivák_None
+obleček_N	oblek_None
+Janeček_N	Janek_None
+svíteček_N	svítek_None
+Kubíček_N	Kubík_None
+broček_N	brok_None
+
+vítáníčko_N	vítání_None
+závětříčko_N	závětří_None
+zůstáváníčko_N	zůstávání_None
+poleženíčko_N	poležení_None
+zátišíčko_N	zátiší_None
+pojednáníčko_N	pojednání_None
+podloubíčko_N	podloubí_None
+pohoříčko_N	pohoří_None
+bydleníčko_N	bydlení_None
+chmýříčko_N	chmýří_None
+ústíčko_N	ústí_None
+hnutíčko_N	hnutí_None
+čepeníčko_N	čepení_None
+žebrovíčko_N	žebroví_None
+panstvíčko_N	panství_None
+královstvíčko_N	království_None
+úskalíčko_N	úskalí_None
+čteníčko_N	čtení_None
+vyraženíčko_N	vyražení_None
+utkáníčko_N	utkání_None
+veršováníčko_N	veršování_None
+řízeníčko_N	řízení_None
+nábřežíčko_N	nábřeží_None
+políbeníčko_N	políbení_None
+uhlíčko_N	uhlí_None
+vyspáníčko_N	vyspání_None
+odděleníčko_N	oddělení_None
+škrábnutíčko_N	škrábnutí_None
+vysvětleníčko_N	vysvětlení_None
+vzkázáníčko_N	vzkázání_None
+uměníčko_N	umění_None
+zápecíčko_N	zápecí_None
+obočíčko_N	obočí_None
+vyživeníčko_N	vyživení_None
+zdáníčko_N	zdání_None
+cukrovíčko_N	cukroví_None
+veselíčko_N	veselí_None
+zákampíčko_N	zákampí_None
+říkáníčko_N	říkání_None
+oseníčko_N	osení_None
+
+námezdní_A	námezdný_None
+obstarožní_A	obstarožný_None
+ústrojní_A	ústrojný_None
+směneční_A	směnečný_None
+památeční_A	památečný_None
+výložní_A	výložný_None
+čivní_A	čivný_None
+závětní_A	závětný_None
+bezprizorní_A	bezprizorný_None
+úmluvní_A	úmluvný_None
+záslibní_A	záslibný_None
+příční_A	příčný_None
+výtažní_A	výtažný_None
+morní_A	morný_None
+zárovní_A	zárovný_None
+vážní_A	vážný_None
+obilní_A	obilný_None
+vzdušní_A	vzdušný_None
+niterní_A	niterný_None
+stavební_A	stavebný_None
+podnební_A	podnebný_None
+záštní_A	záštný_None
+skladební_A	skladebný_None
+zavýuční_A	zavýučný_None
+reální_A	reálný_None
+zmateční_A	zmatečný_None
+lezní_A	lezný_None
+vrátní_A	vrátný_None
+větevní_A	větevný_None
+nadreální_A	nadreálný_None
+fabriční_A	fabričný_None
+ovální_A	oválný_None
+úboční_A	úbočný_None
+hnojní_A	hnojný_None
+zákonní_A	zákonný_None
+
+úžlabní_A	úžlabí_None
+obmýtní_A	obmýtí_None
+zásvětní_A	zásvětí_None
+zánártní_A	zánártí_None
+poprsní_A	poprsí_None
+záprstní_A	záprstí_None
+zádveřní_A	zádveří_None
+úpatní_A	úpatí_None
+okvětní_A	okvětí_None
+poříční_A	poříčí_None
+zákulisní_A	zákulisí_None
+zápolní_A	zápolí_None
+zázemní_A	zázemí_None
+zákoutní_A	zákoutí_None
+šestinedělní_A	šestinedělí_None
+potrubní_A	potrubí_None
+osenní_A	osení_None
+záhrobní_A	záhrobí_None
+poplužní_A	popluží_None
+vdovní_A	vdoví_None
+šikmolícní_A	šikmolící_None
+záhlavní_A	záhlaví_None
+pondělní_A	pondělí_None
+
+štěpnička_N	štěpnice_None
+večernička_N	večernice_None
+smolnička_N	smolnice_None
+klenotnička_N	klenotnice_None
+zaječička_N	zaječice_None
+bahnička_N	bahnice_None
+vaznička_N	vaznice_None
+přednička_N	přednice_None
+větrnička_N	větrnice_None
+děvčička_N	děvčice_None
+plodnička_N	plodnice_None
+zřítelnička_N	zřítelnice_None
+kulovnička_N	kulovnice_None
+raznička_N	raznice_None
+řízkovnička_N	řízkovnice_None
+družička_N	družice_None
+kostelnička_N	kostelnice_None
+řemenička_N	řemenice_None
+záušnička_N	záušnice_None
+vábnička_N	vábnice_None
+voskovička_N	voskovice_None
+bohorodička_N	bohorodice_None
+bukvička_N	bukvice_None
+jehnička_N	jehnice_None
+chmelnička_N	chmelnice_None
+peckovička_N	peckovice_None
+spodnička_N	spodnice_None
+čočovička_N	čočovice_None
+žranička_N	žranice_None
+číslička_N	číslice_None
+pásnička_N	pásnice_None
+
+štemplík_N	štempl_None
+závojík_N	závoj_None
+dědík_N	děd_None
+cviklík_N	cvikl_None
+štuclík_N	štucl_None
+chrtík_N	chrt_None
+účelík_N	účel_None
+Jánošík_N	Jánoš_None
+pávík_N	páv_None
+čmelík_N	čmel_None
+hrabošík_N	hraboš_None
+chromajzlík_N	chromajzl_None
+štepslík_N	štepsl_None
+vousík_N	vous_None
+vuřtík_N	vuřt_None
+laclík_N	lacl_None
+flirtík_N	flirt_None
+soklík_N	sokl_None
+šteftík_N	šteft_None
+šakalík_N	šakal_None
+vekslík_N	veksl_None
+úhořík_N	úhoř_None
+kvelbík_N	kvelb_None
+čtvrtláník_N	čtvrtlán_None
+lokajík_N	lokaj_None
+
+kolchozní_A	kolchoz_None
+obskurantní_A	obskurant_None
+presbyterní_A	presbyter_None
+živnostní_A	živnost_None
+konsensní_A	konsens_None
+kupní_A	kup_None
+rozvozní_A	rozvoz_None
+žurnální_A	žurnál_None
+obouruční_A	obouruč_None
+zhostní_A	zhost_None
+aerobní_A	aerob_None
+zákazní_A	zákaz_None
+perónní_A	perón_None
+porubní_A	porub_None
+pivovarní_A	pivovar_None
+akordní_A	akord_None
+urbariátní_A	urbariát_None
+terciérní_A	terciér_None
+zákupní_A	zákup_None
+koutní_A	kout_None
+anaerobní_A	anaerob_None
+koncilní_A	koncil_None
+praporní_A	prapor_None
+posesorní_A	posesor_None
+čajní_A	čaj_None
+pramenní_A	pramen_None
+rustikální_A	rustikál_None
+plecní_A	plec_None
+videatní_A	videat_None
+
+črtička_N	črta_None
+palmička_N	palma_None
+pravdička_N	pravda_None
+Magdička_N	Magda_None
+šálička_N	šála_None
+Pepička_N	Pepa_None
+rolnička_N	rolna_None
+vlnička_N	vlna_None
+Emička_N	Ema_None
+Vendulička_N	Vendula_None
+opravička_N	oprava_None
+Hildička_N	Hilda_None
+bandička_N	banda_None
+řezbička_N	řezba_None
+kuklička_N	kukla_None
+baštička_N	bašta_None
+vojnička_N	vojna_None
+baladička_N	balada_None
+křivdička_N	křivda_None
+hornička_N	horna_None
+krůtička_N	krůta_None
+vilička_N	vila_None
+záložnička_N	záložna_None
+Ančička_N	Anča_None
+zádička_N	záda_None
+kušnička_N	kušna_None
+
+zátěrečka_N	zátěrka_None
+dívečka_N	dívka_None
+zásuvečka_N	zásuvka_None
+várečka_N	várka_None
+záklopečka_N	záklopka_None
+lásečka_N	láska_None
+vyhlídečka_N	vyhlídka_None
+zátečka_N	zátka_None
+loutečka_N	loutka_None
+zlatečka_N	zlatka_None
+lebečka_N	lebka_None
+štipečka_N	štipka_None
+trnečka_N	trnka_None
+známečka_N	známka_None
+látečka_N	látka_None
+kmotřenečka_N	kmotřenka_None
+obálečka_N	obálka_None
+volavečka_N	volavka_None
+pohádečka_N	pohádka_None
+vzpomínečka_N	vzpomínka_None
+žárovečka_N	žárovka_None
+podrážečka_N	podrážka_None
+čičorečka_N	čičorka_None
+vložečka_N	vložka_None
+
+růženeček_N	růženec_None
+šediveček_N	šedivec_None
+zajateček_N	zajatec_None
+puleček_N	pulec_None
+vyslaneček_N	vyslanec_None
+kojeneček_N	kojenec_None
+špinaveček_N	špinavec_None
+vlasteneček_N	vlastenec_None
+kmotřeneček_N	kmotřenec_None
+zaměstnaneček_N	zaměstnanec_None
+koreček_N	korec_None
+cizineček_N	cizinec_None
+kotrmeleček_N	kotrmelec_None
+nalezeneček_N	nalezenec_None
+kostliveček_N	kostlivec_None
+ustrašeneček_N	ustrašenec_None
+zbaběleček_N	zbabělec_None
+poslaneček_N	poslanec_None
+sobeček_N	sobec_None
+zplozeneček_N	zplozenec_None
+kopaneček_N	kopanec_None
+žabeček_N	žabec_None
+štipeček_N	štipec_None
+zadumaneček_N	zadumanec_None
+mazaneček_N	mazanec_None
+
+hvězdka_N	hvězda_None
+slívka_N	slíva_None
+črtka_N	črta_None
+operka_N	opera_None
+Lidunka_N	Liduna_None
+robka_N	roba_None
+karikaturka_N	karikatura_None
+Lotka_N	Lota_None
+kartka_N	karta_None
+balzamínka_N	balzamína_None
+spáleninka_N	spálenina_None
+sraženinka_N	sraženina_None
+Karolínka_N	Karolína_None
+kupka_N	kupa_None
+Jenůfka_N	Jenůfa_None
+oblinka_N	oblina_None
+reklamka_N	reklama_None
+boudka_N	bouda_None
+četinka_N	četina_None
+Dorotka_N	Dorota_None
+horka_N	hora_None
+bagatelka_N	bagatela_None
+
+vlastnůstka_N	vlastnost_None
+pochybnůstka_N	pochybnost_None
+vědomůstka_N	vědomost_None
+podivnůstka_N	podivnost_None
+známůstka_N	známost_None
+umělůstka_N	umělost_None
+osobnůstka_N	osobnost_None
+jemnůstka_N	jemnost_None
+událůstka_N	událost_None
+zvyklůstka_N	zvyklost_None
+zpozdilůstka_N	zpozdilost_None
+žárlivůstka_N	žárlivost_None
+záležitůstka_N	záležitost_None
+výstřednůstka_N	výstřednost_None
+řevnivůstka_N	řevnivost_None
+zdvořilůstka_N	zdvořilost_None
+drobnůstka_N	drobnost_None
+veselůstka_N	veselost_None
+usedlůstka_N	usedlost_None
+pošetilůstka_N	pošetilost_None
+pitomůstka_N	pitomost_None
+zvláštnůstka_N	zvláštnost_None
+roztomilůstka_N	roztomilost_None
+hloupůstka_N	hloupost_None
+špatnůstka_N	špatnost_None
+vášnivůstka_N	vášnivost_None
+
+koncesní_A	koncese_None
+konfesní_A	konfese_None
+dekompresní_A	dekomprese_None
+pícní_A	píce_None
+ložní_A	lože_None
+palmární_A	palmáre_None
+rolní_A	role_None
+perkusní_A	perkuse_None
+dveřní_A	dveře_None
+inflexní_A	inflexe_None
+recesní_A	recese_None
+řeholní_A	řehole_None
+nedělní_A	neděle_None
+anexní_A	anexe_None
+diskusní_A	diskuse_None
+bouřní_A	bouře_None
+depresní_A	deprese_None
+admisní_A	admise_None
+precesní_A	precese_None
+
+štědře_D	štědrý_None
+šedomodře_D	šedomodrý_None
+žlutomodře_D	žlutomodrý_None
+ponuře_D	ponurý_None
+ostře_D	ostrý_None
+přechytře_D	přechytrý_None
+přepestře_D	přepestrý_None
+chytře_D	chytrý_None
+bodře_D	bodrý_None
+mokře_D	mokrý_None
+spoře_D	sporý_None
+zlatomodře_D	zlatomodrý_None
+červenomodře_D	červenomodrý_None
+staře_D	starý_None
+bujaře_D	bujarý_None
+přemoudře_D	přemoudrý_None
+zelenomodře_D	zelenomodrý_None
+choře_D	chorý_None
+kypře_D	kyprý_None
+předobře_D	předobrý_None
+
+pragmatistický_A	pragmatista_None
+prakticistický_A	prakticista_None
+konstruktivistický_A	konstruktivista_None
+presystolický_A	presystola_None
+iracionalistický_A	iracionalista_None
+avantgardistický_A	avantgardista_None
+orgiastický_A	orgiasta_None
+pogromistický_A	pogromista_None
+karlistický_A	karlista_None
+karikaturistický_A	karikaturista_None
+subjektivistický_A	subjektivista_None
+analistický_A	analista_None
+suprematistický_A	suprematista_None
+maximalistický_A	maximalista_None
+evolucionistický_A	evolucionista_None
+existencialistický_A	existencialista_None
+chiliastický_A	chiliasta_None
+syndikalistický_A	syndikalista_None
+objektivistický_A	objektivista_None
+filumenistický_A	filumenista_None
+kolonialistický_A	kolonialista_None
+voluntaristický_A	voluntarista_None
+
+stíneček_N	stín_None
+státeček_N	stát_None
+škvoreček_N	škvor_None
+podíleček_N	podíl_None
+výhledeček_N	výhled_None
+citeček_N	cit_None
+máječek_N	máj_None
+ústaveček_N	ústav_None
+houfeček_N	houf_None
+štofeček_N	štof_None
+rumeček_N	rum_None
+zápaleček_N	zápal_None
+záměreček_N	záměr_None
+závěreček_N	závěr_None
+flámeček_N	flám_None
+ráječek_N	ráj_None
+tóneček_N	tón_None
+chlumeček_N	chlum_None
+příkladeček_N	příklad_None
+
+křížek_N	kříž_None
+pohrabáček_N	pohrabáč_None
+střížek_N	stříž_None
+pagáček_N	pagáč_None
+špánek_N	špán_None
+křemenáček_N	křemenáč_None
+pořízek_N	poříz_None
+huňáček_N	huňáč_None
+břicháček_N	břicháč_None
+zástupek_N	zástup_None
+karabáček_N	karabáč_None
+bolestínek_N	bolestín_None
+šálek_N	šál_None
+kopáček_N	kopáč_None
+trusek_N	trus_None
+kořenáček_N	kořenáč_None
+příměsek_N	příměs_None
+borek_N	bor_None
+kafáček_N	kafáč_None
+oddílek_N	oddíl_None
+
+responsoriální_A	responsorium_None
+patrimoniální_A	patrimonium_None
+septální_A	septum_None
+triviální_A	trivium_None
+mediastinální_A	mediastinum_None
+rektální_A	rektum_None
+kolegiální_A	kolegium_None
+aluviální_A	aluvium_None
+prepuciální_A	prepucium_None
+neutrální_A	neutrum_None
+eluviální_A	eluvium_None
+diluviální_A	diluvium_None
+verbální_A	verbum_None
+skrotální_A	skrotum_None
+sympodiální_A	sympodium_None
+
+deduktivní_A	dedukce_None
+sugestivní_A	sugesce_None
+imitativní_A	imitace_None
+ilustrativní_A	ilustrace_None
+konsekutivní_A	konsekuce_None
+induktivní_A	indukce_None
+purgativní_A	purgace_None
+evolutivní_A	evoluce_None
+evokativní_A	evokace_None
+deklarativní_A	deklarace_None
+imaginativní_A	imaginace_None
+elektivní_A	elekce_None
+konfederativní_A	konfederace_None
+demonstrativní_A	demonstrace_None
+rekognoskativní_A	rekognoskace_None
+preparativní_A	preparace_None
+
+Pařížan_N	Paříž_None
+Vídeňan_N	Vídeň_None
+Sibiřan_N	Sibiř_None
+Texasan_N	Texas_None
+Žižkovan_N	Žižkov_None
+Haličan_N	Halič_None
+Tunisan_N	Tunis_None
+Habešan_N	Habeš_None
+Říman_N	Řím_None
+Kavkazan_N	Kavkaz_None
+Vyškovan_N	Vyškov_None
+Janovan_N	Janov_None
+Smíchovan_N	Smíchov_None
+Plzeňan_N	Plzeň_None
+Pšovan_N	Pšov_None
+
+volavčátko_N	volavče_None
+nedochůdčátko_N	nedochůdče_None
+vlaštovčátko_N	vlaštovče_None
+zelenčátko_N	zelenče_None
+vrabčátko_N	vrabče_None
+jezevčátko_N	jezevče_None
+dobytčátko_N	dobytče_None
+štruplátko_N	štruple_None
+ďoučátko_N	ďouče_None
+čunčátko_N	čunče_None
+myšátko_N	myše_None
+štíhlátko_N	štíhle_None
+liščátko_N	lišče_None
+písklátko_N	pískle_None
+zemčátko_N	zemče_None
+vádrlátko_N	vádrle_None
+lvíčátko_N	lvíče_None
+tygřátko_N	tygře_None
+
+faráříček_N	farář_None
+šnuptychlíček_N	šnuptychl_None
+chmelíček_N	chmel_None
+výletíček_N	výlet_None
+zoftíček_N	zoft_None
+šuhajíček_N	šuhaj_None
+májíček_N	máj_None
+ředitelíček_N	ředitel_None
+kultíček_N	kult_None
+hospodáříček_N	hospodář_None
+grošíček_N	groš_None
+šmelináříček_N	šmelinář_None
+
+čímánek_N	číman_None
+jehlánek_N	jehlan_None
+šufánek_N	šufan_None
+Johánek_N	Johan_None
+bochánek_N	bochan_None
+tyránek_N	tyran_None
+kaplánek_N	kaplan_None
+čakánek_N	čakan_None
+venkovánek_N	venkovan_None
+zobánek_N	zoban_None
+orangutánek_N	orangutan_None
+skokánek_N	skokan_None
+Emánek_N	Eman_None
+hastrmánek_N	hastrman_None
+Tománek_N	Toman_None
+
+cisterciačka_N	cisterciák_None
+zálesačka_N	zálesák_None
+světačka_N	světák_None
+ležačka_N	ležák_None
+předzpěvačka_N	předzpěvák_None
+zrnovačka_N	zrnovák_None
+horačka_N	horák_None
+Bosňačka_N	Bosňák_None
+skotačka_N	skoták_None
+fešačka_N	fešák_None
+dudačka_N	dudák_None
+Štajeračka_N	Štajerák_None
+Malostraňačka_N	Malostraňák_None
+Polačka_N	Polák_None
+
+čertí_A	čert_None
+tisící_A	tisíc_None
+andělí_A	anděl_None
+plazí_A	plaz_None
+měkkýší_A	měkkýš_None
+zvěří_A	zvěř_None
+trilobití_A	trilobit_None
+klokaní_A	klokan_None
+holubí_A	holub_None
+
+skulpturální_A	skulptura_None
+prepubertální_A	prepuberta_None
+synodální_A	synoda_None
+kongruální_A	kongrua_None
+uretrální_A	uretra_None
+apsidální_A	apsida_None
+paschální_A	pascha_None
+pleurální_A	pleura_None
+retinální_A	retina_None
+pragmatikální_A	pragmatika_None
+
+bagatelní_A	bagatela_None
+cestní_A	cesta_None
+utilitaristní_A	utilitarista_None
+redutní_A	reduta_None
+oborní_A	obora_None
+výbavní_A	výbava_None
+řepní_A	řepa_None
+budovní_A	budova_None
+verbalistní_A	verbalista_None
+kapelní_A	kapela_None
+
+Eugenie_N	Eugen_None
+Vincencie_N	Vincenc_None
+Evženie_N	Evžen_None
+Valachie_N	Valach_None
+misogynie_N	misogyn_None
+Indie_N	Ind_None
+Arménie_N	Armén_None
+pediatrie_N	pediatr_None
+Frýgie_N	Frýg_None
+Médie_N	Méd_None
+daguerrotypie_N	daguerrotyp_None
+misantropie_N	misantrop_None
+Galie_N	Gal_None
+Germánie_N	Germán_None
+
+sumární_A	suma_None
+pupilární_A	pupila_None
+valutární_A	valuta_None
+valvulární_A	valvula_None
+nebulární_A	nebula_None
+monetární_A	moneta_None
+kutikulární_A	kutikula_None
+ulnární_A	ulna_None
+mandibulární_A	mandibula_None
+celulární_A	celula_None
+vakuolární_A	vakuola_None
+
+zblíčko_N	zblo_None
+gustíčko_N	gusto_None
+kilíčko_N	kilo_None
+zrcadlíčko_N	zrcadlo_None
+žitíčko_N	žito_None
+věníčko_N	věno_None
+heslíčko_N	heslo_None
+kontíčko_N	konto_None
+procentíčko_N	procento_None
+veslíčko_N	veslo_None
+dělíčko_N	dělo_None
+kouzlíčko_N	kouzlo_None
+víníčko_N	víno_None
+
+košilička_N	košile_None
+vochlička_N	vochle_None
+bruslička_N	brusle_None
+kapslička_N	kapsle_None
+ženglička_N	žengle_None
+tabulička_N	tabule_None
+šrajtoflička_N	šrajtofle_None
+viřtlička_N	viřtle_None
+vandlička_N	vandle_None
+šaržička_N	šarže_None
+zořička_N	zoře_None
+lyžička_N	lyže_None
+střevlička_N	střevle_None
+
+kladička_N	kladka_None
+špičička_N	špička_None
+škatulička_N	škatulka_None
+dečička_N	dečka_None
+jupička_N	jupka_None
+špulička_N	špulka_None
+bazalička_N	bazalka_None
+smrtička_N	smrtka_None
+rosolička_N	rosolka_None
+škartička_N	škartka_None
+zásuvička_N	zásuvka_None
+višňovička_N	višňovka_None
+ďubička_N	ďubka_None
+
+Běloruska_N	Bělorus_None
+brožka_N	brož_None
+Evženka_N	Evžen_None
+podnožka_N	podnož_None
+svatka_N	svat_None
+pikartka_N	pikart_None
+pecka_N	pec_None
+underwoodka_N	underwood_None
+nopka_N	nop_None
+kostka_N	kost_None
+stáčečka_N	stáčeč_None
+Čerkeska_N	Čerkes_None
+masařka_N	masař_None
+Bohuška_N	Bohuš_None
+
+zvěřinečka_N	zvěřina_None
+vilečka_N	vila_None
+črtečka_N	črta_None
+zádečka_N	záda_None
+Zuzanečka_N	Zuzana_None
+vlnečka_N	vlna_None
+slámečka_N	sláma_None
+hřívečka_N	hříva_None
+ústečka_N	ústa_None
+skývečka_N	skýva_None
+ředinečka_N	ředina_None
+zástěrečka_N	zástěra_None
+horečka_N	hora_None
+
+láje_N	láj_None
+ráže_N	ráž_None
+branzole_N	branzol_None
+madame_N	madam_None
+kaprice_N	kapric_None
+renonce_N	renonc_None
+epopeje_N	epopej_None
+pyje_N	pyj_None
+skóre_N	skór_None
+skrýše_N	skrýš_None
+záře_N	zář_None
+máje_N	máj_None
+šíře_N	šíř_None
+
+verkovní_A	verk_None
+čajovní_A	čaj_None
+rýmovní_A	rým_None
+sportovní_A	sport_None
+pachtovní_A	pacht_None
+trumfovní_A	trumf_None
+fondovní_A	fond_None
+čepovní_A	čep_None
+kšeftovní_A	kšeft_None
+
+amoniakální_A	amoniak_None
+sufixální_A	sufix_None
+zodiakální_A	zodiak_None
+prodromální_A	prodrom_None
+kontinentální_A	kontinent_None
+experimentální_A	experiment_None
+triumfální_A	triumf_None
+ediktální_A	edikt_None
+katarální_A	katar_None
+
+rvavý_A	rvát_None
+lhavý_A	lhát_None
+psavý_A	psát_None
+smavý_A	smát_None
+vlavý_A	vlát_None
+štkavý_A	štkát_None
+zvavý_A	zvát_None
+hravý_A	hrát_None
+ždavý_A	ždát_None
+
+voroplavební_A	voroplavba_None
+vozební_A	vozba_None
+držební_A	držba_None
+hudební_A	hudba_None
+sazební_A	sazba_None
+dlažební_A	dlažba_None
+honební_A	honba_None
+tržební_A	tržba_None
+modlitební_A	modlitba_None
+volební_A	volba_None
+tavební_A	tavba_None
+
+vyhlídčička_N	vyhlídka_None
+zásuvčička_N	zásuvka_None
+fajfčička_N	fajfka_None
+stránčička_N	stránka_None
+sbírčička_N	sbírka_None
+znělčička_N	znělka_None
+šerčička_N	šerka_None
+baňčička_N	baňka_None
+aktovčička_N	aktovka_None
+kolíbčička_N	kolíbka_None
+obálčička_N	obálka_None
+
+mírňounce_D	mírňoučký_None
+měkounce_D	měkoučký_None
+tenounce_D	tenoučký_None
+hebounce_D	heboučký_None
+čisťounce_D	čisťoučký_None
+kratince_D	kratičký_None
+tichounce_D	tichoučký_None
+lehounce_D	lehoučký_None
+útlounce_D	útloučký_None
+mladince_D	mladičký_None
+drobounce_D	droboučký_None
+skrovňounce_D	skrovňoučký_None
+
+makrónka_N	makrónek_None
+borka_N	borek_None
+stárka_N	stárek_None
+zrzka_N	zrzek_None
+prýmka_N	prýmek_None
+vlýska_N	vlýsek_None
+pirožka_N	pirožek_None
+výtržka_N	výtržek_None
+záhumenka_N	záhumenek_None
+výdutka_N	výdutek_None
+štěpka_N	štěpek_None
+
+slaboučce_D	slabounký_None
+kraťoučce_D	kraťounký_None
+řiďoučce_D	řiďounký_None
+skromňoučce_D	skromňounký_None
+hlaďoučce_D	hlaďounký_None
+jemňoučce_D	jemňounký_None
+prosťoučce_D	prosťounký_None
+kulaťoučce_D	kulaťounký_None
+modroučce_D	modrounký_None
+suchoučce_D	suchounký_None
+miloučce_D	milounký_None
+slaďoučce_D	slaďounký_None
+
+žvatlálek_N	žvatlal_None
+mlsálek_N	mlsal_None
+čmuchálek_N	čmuchal_None
+škrabálek_N	škrabal_None
+šakálek_N	šakal_None
+šukálek_N	šukal_None
+štěbetálek_N	štěbetal_None
+loudálek_N	loudal_None
+vychloubálek_N	vychloubal_None
+vtipkálek_N	vtipkal_None
+šeptálek_N	šeptal_None
+
+odkudže_D	odkudž_None
+ponejvíce_D	ponejvíc_None
+nanejvíce_D	nanejvíc_None
+nanejvýše_D	nanejvýš_None
+poblíže_D	poblíž_None
+vposléze_D	vposléz_None
+veskrze_D	veskrz_None
+povíce_D	povíc_None
+kdeže_D	kdež_None
+dále_D	dál_None
+zase_D	zas_None
+spíše_D	spíš_None
+
+podružný_A	podruží_None
+žilobitný_A	žilobití_None
+účeloslovný_A	účelosloví_None
+žádoucný_A	žádoucí_None
+vývojeslovný_A	vývojesloví_None
+pohádkoslovný_A	pohádkosloví_None
+větoslovný_A	větosloví_None
+přejícný_A	přející_None
+uměnoslovný_A	uměnosloví_None
+nemohoucný_A	nemohoucí_None
+pomíjejícný_A	pomíjející_None
+
+maňásek_N	maňas_None
+čásek_N	čas_None
+ďásek_N	ďas_None
+ťulpásek_N	ťulpas_None
+karásek_N	karas_None
+tarásek_N	taras_None
+vlásek_N	vlas_None
+hlásek_N	hlas_None
+chuďásek_N	chuďas_None
+
+zsinavý_A	zsinat_None
+klusavý_A	klusat_None
+omlouvavý_A	omlouvat_None
+zpytavý_A	zpytat_None
+zhasínavý_A	zhasínat_None
+vítavý_A	vítat_None
+propadavý_A	propadat_None
+mazavý_A	mazat_None
+plískavý_A	plískat_None
+lokavý_A	lokat_None
+žalovavý_A	žalovat_None
+líbavý_A	líbat_None
+
+dramaturgyně_N	dramaturg_None
+otrokyně_N	otrok_None
+Řekyně_N	Řek_None
+rekyně_N	rek_None
+prorokyně_N	prorok_None
+vrahyně_N	vrah_None
+vojákyně_N	voják_None
+podruhyně_N	podruh_None
+
+všudybylý_A	všudybyl_None
+dávnověký_A	dávnověk_None
+osmihlasý_A	osmihlas_None
+zlatokvětý_A	zlatokvět_None
+zlatovousý_A	zlatovous_None
+šedověký_A	šedověk_None
+bystrozraký_A	bystrozrak_None
+jednohlasý_A	jednohlas_None
+zlatohávý_A	zlatoháv_None
+
+bezbřeze_D	bezbřehý_None
+dlouze_D	dlouhý_None
+vlaze_D	vlahý_None
+blaze_D	blahý_None
+předlouze_D	předlouhý_None
+draze_D	drahý_None
+přeuboze_D	přeubohý_None
+neboze_D	nebohý_None
+předraze_D	předrahý_None
+
+durativní_A	durativum_None
+sedativní_A	sedativum_None
+apelativní_A	apelativum_None
+augmentativní_A	augmentativum_None
+deminutivní_A	deminutivum_None
+imperfektivní_A	imperfektivum_None
+imperfektní_A	imperfektum_None
+
+tunýlek_N	tunel_None
+modýlek_N	model_None
+ředitýlek_N	ředitel_None
+kostýlek_N	kostel_None
+učitýlek_N	učitel_None
+uhýlek_N	uhel_None
+fotýlek_N	fotel_None
+
+letohrádek_N	letohrad_None
+příkládek_N	příklad_None
+řádek_N	řad_None
+strnádek_N	strnad_None
+pokládek_N	poklad_None
+vkládek_N	vklad_None
+
+vychovanka_N	vychovanec_None
+stachanovka_N	stachanovec_None
+věštka_N	věštec_None
+Moravka_N	Moravec_None
+vyvolenka_N	vyvolenec_None
+biřmovanka_N	biřmovanec_None
+cvičenka_N	cvičenec_None
+dvojenka_N	dvojenec_None
+odchovanka_N	odchovanec_None
+
+prádelní_A	prádlo_None
+křídelní_A	křídlo_None
+žrádelní_A	žrádlo_None
+jídelní_A	jídlo_None
+
+žluťounký_A	žluťoučký_None
+krásňounký_A	krásňoučký_None
+hloupounký_A	hloupoučký_None
+čerňounký_A	čerňoučký_None
+mírňounký_A	mírňoučký_None
+drobounký_A	droboučký_None
+chuďounký_A	chuďoučký_None
+volňounký_A	volňoučký_None
+neviňounký_A	neviňoučký_None
+
+nemocenské_N	nemocenský_None
+uzené_N	uzený_None
+stojné_N	stojný_None
+výslužné_N	výslužný_None
+portské_N	portský_None
+vepřové_N	vepřový_None
+jízdné_N	jízdný_None
+
+výsměšek_N	výsměch_None
+hříšek_N	hřích_None
+zápašek_N	zápach_None
+vršek_N	vrch_None
+vrtošek_N	vrtoch_None
+
+čachřík_N	čachr_None
+pulovřík_N	pulovr_None
+orchestřík_N	orchestr_None
+kvádřík_N	kvádr_None
+půllitřík_N	půllitr_None
+kmotřík_N	kmotr_None
+flastřík_N	flastr_None
+Petřík_N	Petr_None
+
+Elinka_N	Ela_None
+Klárinka_N	Klára_None
+Lojzinka_N	Lojza_None
+čubinka_N	čuba_None
+botinka_N	bota_None
+karafinka_N	karafa_None
+Mančinka_N	Manča_None
+ziminka_N	zima_None
+Slávinka_N	Sláva_None
+
+suchárek_N	suchar_None
+špejchárek_N	špejchar_None
+fukárek_N	fukar_None
+husárek_N	husar_None
+ovárek_N	ovar_None
+tolárek_N	tolar_None
+ogárek_N	ogar_None
+krejcárek_N	krejcar_None
+
+zbořenisko_N	zbořeniště_None
+rumisko_N	rumiště_None
+těžisko_N	těžiště_None
+rašelinisko_N	rašeliniště_None
+kutisko_N	kutiště_None
+štěrkovisko_N	štěrkoviště_None
+spálenisko_N	spáleniště_None
+řepnisko_N	řepniště_None
+
+zvukomalebný_A	zvukomalba_None
+volebný_A	volba_None
+kresebný_A	kresba_None
+krajinomalebný_A	krajinomalba_None
+povahokresebný_A	povahokresba_None
+
+vir_N	virus_None
+klér_N	klérus_None
+stimul_N	stimulus_None
+lux_N	luxus_None
+majordom_N	majordomus_None
+vilik_N	vilikus_None
+sex_N	sexus_None
+tetan_N	tetanus_None
+
+druhohorní_A	druhohory_None
+třetihorní_A	třetihory_None
+prvohorní_A	prvohory_None
+čtvrtohorní_A	čtvrtohory_None
+kasematní_A	kasematy_None
+pandektní_A	pandekty_None
+
+marodérství_N	marodér_None
+preceptorství_N	preceptor_None
+pobratimství_N	pobratim_None
+misogynství_N	misogyn_None
+selfmademanství_N	selfmademan_None
+nohsledství_N	nohsled_None
+kustodství_N	kustod_None
+kazisvětství_N	kazisvět_None
+
+obolus_N	obol_None
+zodiakus_N	zodiak_None
+kultus_N	kult_None
+sexus_N	sex_None
+abortus_N	abort_None
+tetanus_N	tetan_None
+Saturnus_N	Saturn_None
+Cerberus_N	Cerber_None
+
+šetřílek_N	šetřil_None
+spořílek_N	spořil_None
+šklebílek_N	šklebil_None
+škádlílek_N	škádlil_None
+blouznílek_N	blouznil_None
+škrtílek_N	škrtil_None
+žvanílek_N	žvanil_None
+chlubílek_N	chlubil_None
+
+vidinný_A	vidina_None
+zlotný_A	zlota_None
+výzdobný_A	výzdoba_None
+včelný_A	včela_None
+zorný_A	zora_None
+úmluvný_A	úmluva_None
+strefný_A	strefa_None
+
+odbory_N	odbor_None
+Jeseníky_N	Jeseník_None
+prachy_N	prach_None
+zvědy_N	zvěd_None
+Doudleby_N	Doudleb_None
+okuláry_N	okulár_None
+Švýcary_N	Švýcar_None
+droby_N	drob_None
+
+kročný_A	krok_None
+předsudečný_A	předsudek_None
+výdělečný_A	výdělek_None
+záličný_A	zálik_None
+písečný_A	písek_None
+
+čtvrtroční_A	čtvrtrok_None
+páteční_A	pátek_None
+prvopočáteční_A	prvopočátek_None
+čtvrteční_A	čtvrtek_None
+krční_A	krk_None
+smuteční_A	smutek_None
+
+skeptička_N	skeptik_None
+elektrotechnička_N	elektrotechnik_None
+estetička_N	estetik_None
+neurastenička_N	neurastenik_None
+fonetička_N	fonetik_None
+zálička_N	zálik_None
+lyrička_N	lyrik_None
+
+úryv_N	úryvek_None
+výstřel_N	výstřelek_None
+jár_N	járek_None
+přírůst_N	přírůstek_None
+vpis_N	vpisek_None
+výškleb_N	výšklebek_None
+poříz_N	pořízek_None
+úbyt_N	úbytek_None
+
+trubčí_A	trubec_None
+hřebčí_A	hřebec_None
+dravčí_A	dravec_None
+mravenčí_A	mravenec_None
+žabčí_A	žabec_None
+
+zrcadélko_N	zrcadlo_None
+zavazadélko_N	zavazadlo_None
+vřídélko_N	vřídlo_None
+žihadélko_N	žihadlo_None
+čísélko_N	číslo_None
+žrádélko_N	žrádlo_None
+skélko_N	sklo_None
+
+sochůrek_N	sochor_None
+lavůrek_N	lavor_None
+brambůrek_N	brambor_None
+názůrek_N	názor_None
+traktůrek_N	traktor_None
+obzůrek_N	obzor_None
+bandůrek_N	bandor_None
+
+Trójan_N	Trója_None
+Detvan_N	Detva_None
+Varšavan_N	Varšava_None
+Moskvan_N	Moskva_None
+Evropan_N	Evropa_None
+
+záchůdek_N	záchod_None
+závůdek_N	závod_None
+podvůdek_N	podvod_None
+nárůdek_N	národ_None
+
+vzdělankyně_N	vzdělanec_None
+rytkyně_N	rytec_None
+blíženkyně_N	blíženec_None
+vášnivkyně_N	vášnivec_None
+
+inerciální_A	inercie_None
+eparchiální_A	eparchie_None
+kuriální_A	kurie_None
+revuální_A	revue_None
+guberniální_A	gubernie_None
+
+řehtátko_N	řehtadlo_None
+zastrkovátko_N	zastrkovadlo_None
+odpočívátko_N	odpočívadlo_None
+struhátko_N	struhadlo_None
+škrabátko_N	škrabadlo_None
+držátko_N	držadlo_None
+
+plevílek_N	plevel_None
+kašílek_N	kašel_None
+uzílek_N	uzel_None
+
+molární_A	mol_None
+fagocytární_A	fagocyt_None
+ventrikulární_A	ventrikul_None
+
+Turkyně_N	Turek_None
+stárkyně_N	stárek_None
+potomkyně_N	potomek_None
+předkyně_N	předek_None
+
+okůvek_N	okov_None
+krůvek_N	krov_None
+žernůvek_N	žernov_None
+krchůvek_N	krchov_None
+růvek_N	rov_None
+
+žilovatý_A	žilovitý_None
+uzlovatý_A	uzlovitý_None
+vředovatý_A	vředovitý_None
+záhybovatý_A	záhybovitý_None
+vláknatý_A	vláknitý_None
+vráskovatý_A	vráskovitý_None
+žebrovatý_A	žebrovitý_None
+
+tenze_N	tense_None
+prekluze_N	prekluse_None
+kontuze_N	kontuse_None
+suspenze_N	suspense_None
+geneze_N	genese_None
+konverze_N	konverse_None
+hystereze_N	hysterese_None
+
+Bedříšek_N	Bedřich_None
+kožíšek_N	kožich_None
+
+Východočeška_N	Východočech_None
+Valaška_N	Valach_None
+Kazaška_N	Kazach_None
+Jihočeška_N	Jihočech_None
+Vojtěška_N	Vojtěch_None
+
+Sasko_N	Sas_None
+Bělorusko_N	Bělorus_None
+Německo_N	Němec_None
+Frísko_N	Frís_None
+Rusko_N	Rus_None
+
+výherní_A	výhra_None
+zpěvoherní_A	zpěvohra_None
+
+patrimonijní_A	patrimonium_None
+kolegijní_A	kolegium_None
+lycejní_A	lyceum_None
+studijní_A	studium_None
+evangelijní_A	evangelium_None
+
+špíglák_N	špígl_None
+Žižkovák_N	Žižkov_None
+verkšucák_N	verkšuc_None
+Prajzák_N	Prajz_None
+Vídeňák_N	Vídeň_None
+
+historka_N	historie_None
+linka_N	linie_None
+Katalánka_N	Katalánie_None
+Amálka_N	Amálie_None
+
+surreálno_N	surreální_None
+zásvětno_N	zásvětní_None
+zabylstvo_N	zabylství_None
+relativno_N	relativní_None
+groteskno_N	groteskní_None
+vzdělanstvo_N	vzdělanství_None
+
+ťopinka_N	ťopka_None
+špičinka_N	špička_None
+Terinka_N	Terka_None
+pracinka_N	pracka_None
+
+tříselný_A	tříslo_None
+tepelný_A	teplo_None
+draselný_A	draslo_None
+
+Argentinec_N	Argentina_None
+břichomluvec_N	břichomluva_None
+Ukrajinec_N	Ukrajina_None
+Palestinec_N	Palestina_None
+bohovědec_N	bohověda_None
+
+inventární_A	inventář_None
+urbární_A	urbář_None
+signatární_A	signatář_None
+konsistorní_A	konsistoř_None
+
+pinčl_N	pinč_None
+ďoubal_N	ďouba_None
+čvaňhal_N	čvaňha_None
+Gall_N	Gal_None
+mopsl_N	mops_None
+
+memorandový_A	memorandum_None
+linoleový_A	linoleum_None
+kalciový_A	kalcium_None
+miniový_A	minium_None
+
+bankovní_A	banka_None
+vartovní_A	varta_None
+švandovní_A	švanda_None
+primovní_A	prima_None
+
+železnický_A	železník_None
+vzpurnický_A	vzpurník_None
+zákonický_A	zákoník_None
+výčepnický_A	výčepník_None
+vrchnický_A	vrchník_None
+balický_A	balík_None
+
+popeleční_A	popelec_None
+půlměsíční_A	půlměsíc_None
+čtvereční_A	čtverec_None
+kredenční_A	kredenc_None
+půlnoční_A	půlnoc_None
+
+úhořiště_N	úhořisko_None
+mechoviště_N	mechovisko_None
+strniště_N	strnisko_None
+východiště_N	východisko_None
+říjeniště_N	říjenisko_None
+vojačiště_N	vojačisko_None
+
+Iliada_N	Ilias_None
+otitida_N	otitis_None
+rachitida_N	rachitis_None
+poliomyelitida_N	poliomyelitis_None
+syfilida_N	syfilis_None
+Hellada_N	Hellas_None
+
+páteříček_N	páter_None
+klášteříček_N	klášter_None
+litříček_N	litr_None
+orchestříček_N	orchestr_None
+mistříček_N	mistr_None
+
+vůčihledný_A	vůčihledý_None
+bezhlasný_A	bezhlasý_None
+bezhlesný_A	bezhlesý_None
+bezmrazný_A	bezmrazý_None
+úkosný_A	úkosý_None
+
+vaječnice_N	vaječník_None
+vinice_N	viník_None
+pilnice_N	pilník_None
+výměnice_N	výměník_None
+pepice_N	pepík_None
+
+amnestijní_A	amnestie_None
+režijní_A	režie_None
+misijní_A	misie_None
+
+hrdýlko_N	hrdlo_None
+žrádýlko_N	žrádlo_None
+žehýlko_N	žehlo_None
+trdýlko_N	trdlo_None
+
+vrástička_N	vráska_None
+lástička_N	láska_None
+služtička_N	služka_None
+zkouštička_N	zkouška_None
+přeztička_N	přezka_None
+
+viktuální_A	viktuálie_None
+loterní_A	loterie_None
+dimorfní_A	dimorfie_None
+trimorfní_A	trimorfie_None
+
+vrstevní_A	vrstva_None
+lichevní_A	lichva_None
+žatevní_A	žatva_None
+pastevní_A	pastva_None
+
+černobrvka_N	černobrvý_None
+jedenáctiletka_N	jedenáctiletý_None
+jednolampovka_N	jednolampový_None
+tříaktovka_N	tříaktový_None
+
+prýmkář_N	prýmkař_None
+sloupkář_N	sloupkař_None
+fajfkář_N	fajfkař_None
+párkář_N	párkař_None
+svíčkář_N	svíčkař_None
+
+zákůpek_N	zákop_None
+Prokůpek_N	Prokop_None
+strůpek_N	strop_None
+příkůpek_N	příkop_None
+
+kružní_A	kruh_None
+okružní_A	okruh_None
+postižní_A	postih_None
+plužní_A	pluh_None
+
+špalík_N	špalek_None
+macík_N	macek_None
+Vašík_N	Vašek_None
+špačík_N	špaček_None
+
+nosítka_N	nosítko_None
+Ota_N	Oto_None
+udidla_N	udidlo_None
+deka_N	deko_None
+perka_N	perko_None
+
+průlomný_A	průlomový_None
+výlomný_A	výlomový_None
+vřesný_A	vřesový_None
+osmihodinný_A	osmihodinový_None
+záběrný_A	záběrový_None
+
+sklerenchymatický_A	sklerenchym_None
+parenchymatický_A	parenchym_None
+programatický_A	program_None
+
+loubek_N	lub_None
+sroubek_N	srub_None
+
+pětinásobek_N	pětinásobný_None
+jednonásobek_N	jednonásobný_None
+tisícinásobek_N	tisícinásobný_None
+
+vrbičný_A	vrbice_None
+křivičný_A	křivice_None
+vichřičný_A	vichřice_None
+příjičný_A	příjice_None
+
+chiruržka_N	chirurg_None
+gerontoložka_N	gerontolog_None
+terminoložka_N	terminolog_None
+muzikoložka_N	muzikolog_None
+
+poťouchlec_N	poťouchlík_None
+zbohatlec_N	zbohatlík_None
+vytáhlec_N	vytáhlík_None
+vzteklec_N	vzteklík_None
+
+estuárium_N	estuár_None
+vanadium_N	vanad_None
+uranium_N	uran_None
+niobium_N	niob_None
+
+stůžek_N	stoh_None
+
+vyvlíknout_V	vyvléci_None
+provlíknout_V	provléci_None
+povlíknout_V	povléci_None
+svlíknout_V	svléci_None
+
+mezička_N	mez_None
+událostička_N	událost_None
+zlostička_N	zlost_None
+kancelářička_N	kancelář_None
+
+korporativistický_A	korporativismus_None
+unitaristický_A	unitarismus_None
+intelektualistický_A	intelektualismus_None
+neofašistický_A	neofašismus_None
+
+Američan_N	Amerika_None
+Kamčatčan_N	Kamčatka_None
+Afričan_N	Afrika_None
+Korsičan_N	Korsika_None
+
+dextróza_N	dextrosa_None
+sideróza_N	siderosa_None
+brucelóza_N	brucelosa_None
+bakterióza_N	bakteriosa_None
+
+šatky_N	šaty_None
+bikinky_N	bikiny_None
+hodinky_N	hodiny_None
+
+knůtek_N	knot_None
+šramůtek_N	šramot_None
+
+činovatní_A	činovať_None
+odúmrtní_A	odúmrť_None
+
+kdyže_D	kdy_None
+ještěže_D	ještě_None
+jedvaže_D	jedva_None
+divže_D	div_None
+
+paladýn_N	paladin_None
+Valentýn_N	Valentin_None
+Celestýn_N	Celestin_None
+benediktýn_N	benediktin_None
+
+cvrčíček_N	cvrček_None
+rozpíček_N	rozpek_None
+špíček_N	špek_None
+Tomíček_N	Tomek_None
+
+ambulatorní_A	ambulatorium_None
+evangelní_A	evangelium_None
+
+žemla_N	žemle_None
+minuskula_N	minuskule_None
+bambula_N	bambule_None
+
+bezduše_D	bezduchý_None
+ploše_D	plochý_None
+
+vagantovat_V	vagantit_None
+vykeťasovat_V	vykeťasit_None
+zakeťasovat_V	zakeťasit_None
+marodovat_V	marodit_None
+
+tamo_D	tam_None
+ňáko_D	ňák_None
+semo_D	sem_None
+toliko_D	tolik_None
+
+třebas_D	třeba_None
+ledakdys_D	ledakdy_None
+ledakams_D	ledakam_None
+leckams_D	leckam_None
+
+omšelý_A	omšený_None
+zababčelý_A	zababčený_None
+zabubačelý_A	zabubačený_None
+zakabonělý_A	zakaboněný_None
+
+Vincek_N	Vinca_None
+prvovýrobek_N	prvovýroba_None
+Lojzek_N	Lojza_None
+Slávek_N	Sláva_None
+
+hrudní_A	hruď_None
+výpovědní_A	výpověď_None
+zpovědní_A	zpověď_None
+čelední_A	čeleď_None
+
+nehýtek_N	nehet_None
+žakýtek_N	žaket_None
+věchýtek_N	věchet_None
+
+znevážlivý_A	zneváživý_None
+srážlivý_A	sráživý_None
+výhončlivý_A	výhončivý_None
+shánlivý_A	shánivý_None
+
+zapacknout_V	zapackat_None
+oblíknout_V	oblíkat_None
+spucnout_V	spucat_None
+řachnout_V	řachat_None
+
+střelmistrovský_A	střelmistr_None
+vrtichvostovský_A	vrtichvost_None
+
+oficiózní_A	oficiosní_None
+dolózní_A	dolosní_None
+kadaverózní_A	kadaverosní_None
+ulcerózní_A	ulcerosní_None
+
+Zélanďan_N	Zéland_None
+Burgunďan_N	Burgund_None
+Bělehraďan_N	Bělehrad_None
+
+kápí_N	kápě_None
+falckrabí_N	falckrabě_None
+markrabí_N	markrabě_None
+
+Slavonsko_N	Slavonie_None
+Transjordánsko_N	Transjordánie_None
+Katalánsko_N	Katalánie_None
+
+saduceus_N	saducej_None
+patricius_N	patricij_None
+farizeus_N	farizej_None
+
+Moravěnka_N	Morava_None
+
+útržkovitý_A	útržkový_None
+bledničkovitý_A	bledničkový_None
+větvovitý_A	větvový_None
+
+bezzvučný_A	bezzvuký_None
+zlatozvučný_A	zlatozvuký_None
+odvěčný_A	odvěký_None
+
+ztichoučka_D	ztichounka_None
+zblizoučka_D	zblizounka_None
+zpolehoučka_D	zpolehounka_None
+
+přehršel_N	přehršle_None
+vyžel_N	vyžle_None
+
+ostatky_N	ostatek_None
+drápky_N	drápek_None
+hambalky_N	hambalek_None
+
+svatyňka_N	svatyně_None
+
+nebozízek_N	nebozez_None
+jízek_N	jez_None
+pařízek_N	pařez_None
+
+vlákenný_A	vlákno_None
+
+čtyřbarevný_A	čtyřbarvý_None
+jednovrstevný_A	jednovrstvý_None
+dvojbarevný_A	dvojbarvý_None
+
+kratinko_D	kratičký_None
+lehounko_D	lehoučký_None
+čisťounko_D	čisťoučký_None
+
+soldo_N	sold_None
+Jano_N	Jan_None
+
+čeřínek_N	čeřen_None
+
+šestitřídní_A	šestitřídka_None
+šestiliberní_A	šestiliberka_None
+pětitřídní_A	pětitřídka_None
+
+republička_N	republika_None
+harmonička_N	harmonika_None
+Hedvička_N	Hedvika_None
+
+humusovitý_A	humus_None
+půlkruhovitý_A	půlkruh_None
+
+Tyrolan_N	Tyrolsko_None
+Savojan_N	Savojsko_None
+Moldavan_N	Moldavsko_None
+
+vysměváček_N	vysměvač_None
+utrháček_N	utrhač_None
+hledáček_N	hledač_None
+
+ostnitý_A	ostnatý_None
+rýhovitý_A	rýhovatý_None
+žilovitý_A	žilovatý_None
+
+lajska_N	lajsna_None
+vegetárka_N	vegetárna_None
+
+dobroučký_A	dobrounký_None
+kraťoučký_A	kraťounký_None
+řiďoučký_A	řiďounký_None
+
+maléř_N	malíř_None
+prubéř_N	prubíř_None
+haléř_N	halíř_None
+
+jiterní_A	jitro_None
+paterní_A	patro_None
+
+stearín_N	stearin_None
+parafín_N	parafin_None
+penicilín_N	penicilin_None
+
+vesílko_N	veslo_None
+másílko_N	máslo_None
+řemesílko_N	řemeslo_None
+
+Zajordánsko_N	Zajordání_None
+Zakavkazsko_N	Zakavkazí_None
+Porýnsko_N	Porýní_None
+
+Hamburčan_N	Hamburk_None
+Nymburčan_N	Nymburk_None
+Iráčan_N	Irák_None
+
+výhřička_N	výhra_None
+vzpouřička_N	vzpoura_None
+šťářička_N	šťára_None
+
+třenovní_A	třenový_None
+pumpovní_A	pumpový_None
+úterní_A	úterý_None
+
+hovnivár_N	hovnivál_None
+brundibár_N	brundibál_None
+virvár_N	virvál_None
+
+smoking_N	smokink_None
+rang_N	rank_None
+puding_N	pudink_None
+
+ischiatický_A	ischias_None
+démotický_A	démos_None
+
+šachetní_A	šachta_None
+jachetní_A	jachta_None
+
+železovitý_A	železitý_None
+řemenovitý_A	řemenitý_None
+brázdovitý_A	brázditý_None
+
+prokukovat_V	prokouknout_None
+vykukovat_V	vykouknout_None
+nakukovat_V	nakouknout_None
+
+Tádžikistán_N	Tádžik_None
+
+manichejský_A	manichejec_None
+mikulášenský_A	mikulášenec_None
+májovský_A	májovec_None
+
+matkovražda_N	matkovrah_None
+otcovražda_N	otcovrah_None
+bratrovražda_N	bratrovrah_None
+
+chocholačka_N	chocholáč_None
+ženačka_N	ženáč_None
+
+miocenní_A	miocén_None
+eocenní_A	eocén_None
+pliocenní_A	pliocén_None
+
+Miluška_N	Miluše_None
+Libuška_N	Libuše_None
+kremrolka_N	kremrole_None
+
+vdych_N	vdech_None
+oddych_N	oddech_None
+vzdych_N	vzdech_None
+
+pachtéř_N	pachtýř_None
+vartéř_N	vartýř_None
+haltéř_N	haltýř_None
+
+právnička_N	právník_None
+Ludvička_N	Ludvík_None
+nekatolička_N	nekatolík_None
+
+hlezenní_A	hlezno_None
+bahenní_A	bahno_None
+
+lyrično_N	lyrický_None
+poetično_N	poetický_None
+
+miloučko_D	milounký_None
+nizoučko_D	nizounký_None
+kraťoučko_D	kraťounký_None
+
+splávek_N	splav_None
+Jaroslávek_N	Jaroslav_None
+Stanislávek_N	Stanislav_None
+
+kationt_N	kation_None
+depot_N	depo_None
+čechmant_N	čechman_None
+
+kesírek_N	keser_None
+
+vejpůlky_D	vejpůl_None
+teďky_D	teď_None
+hnedky_D	hned_None
+
+zponenáhlu_D	zponenáhla_None
+zpolehounku_D	zpolehounka_None
+znovu_D	znova_None
+
+dloužek_N	dluh_None
+
+Prajzsko_N	Prajz_None
+Ještědsko_N	Ještěd_None
+Čudsko_N	Čud_None
+
+úpravčí_N	úpravce_None
+výkupčí_N	výkupce_None
+přímluvčí_N	přímluvce_None
+
+vpředu_D	vpřed_None
+navrchu_D	navrch_None
+zespodu_D	zespod_None
+
+Polynésan_N	Polynésie_None
+Andalusan_N	Andalusie_None
+Melanésan_N	Melanésie_None
+
+bazický_A	basický_None
+dozický_A	dosický_None
+fyzický_A	fysický_None
+
+desetitisící_A	desetitisíce_None
+
+navždycky_D	navždy_None
+provždycky_D	provždy_None
+
+čípek_N	čep_None
+klípek_N	klep_None
+
+citoslovečný_A	citoslovce_None
+slunečný_A	slunce_None
+srdečný_A	srdce_None
+
+vráňátko_N	vráně_None
+kojeňátko_N	kojeně_None
+
+padesátihalíř_N	padesátihaléř_None
+halíř_N	haléř_None
+malíř_N	maléř_None
+
+řepniště_N	řepiště_None
+říjniště_N	říjiště_None
+zbrojniště_N	zbrojiště_None
+
+šacunk_N	šacuňk_None
+šizunk_N	šizuňk_None
+šrank_N	šraňk_None
+
+Ferdáček_N	Ferda_None
+Edáček_N	Eda_None
+
+šmudlík_N	šmudla_None
+Edík_N	Eda_None
+Rudík_N	Ruda_None
+
+doprostředka_D	doprostřed_None
+semka_D	sem_None
+doteďka_D	doteď_None
+
+bezbožnictví_N	bezbožník_None
+marnotratnictví_N	marnotratník_None
+kariérnictví_N	kariérník_None
+
+košilinka_N	košile_None
+zářinka_N	záře_None
+čampulinka_N	čampule_None
+
+šatní_A	šatový_None
+úvozní_A	úvozový_None
+zákopní_A	zákopový_None
+
+záhlavek_N	záhlavec_None
+zhlavek_N	zhlavec_None
+zásmolek_N	zásmolec_None
+
+univerzální_A	universální_None
+tarzální_A	tarsální_None
+kauzální_A	kausální_None
+
+chlopenní_A	chlopeň_None
+
+tintítko_N	tintidlo_None
+cedítko_N	cedidlo_None
+čistítko_N	čistidlo_None
+
+retko_N	retka_None
+Oto_N	Ota_None
+teslo_N	tesla_None
+
+Ještědí_N	Ještěd_None
+černobýlí_N	černobýl_None
+útají_N	útaj_None
+
+vesenný_A	vesna_None
+
+krokvice_N	krokev_None
+
+vyzývačný_A	vyzývavý_None
+všímačný_A	všímavý_None
+
+soudružka_N	soudruh_None
+volnoběžka_N	volnoběh_None
+
+rytmajstr_N	rytmistr_None
+vachmajstr_N	vachmistr_None
+
+Zabajkalí_N	Zabajkalsko_None
+Nizozemí_N	Nizozemsko_None
+
+košilenka_N	košile_None
+
+stanova_N	stanovy_None
+jatka_N	jatky_None
+
+bolístka_N	bolest_None
+
+trestněprávní_A	trestní_None
+civilněprávní_A	civilní_None
+
+zvnějška_D	zvnějšku_None
+zvnitřka_D	zvnitřku_None
+
+přešupovat_V	přešoupnout_None
+popošupovat_V	popošoupnout_None
+
+Barmánec_N	Barma_None
+Kubánec_N	Kuba_None
+
+řehtot_N	řehot_None
+chichtot_N	chichot_None
+
+špinka_N	špína_None
+Minka_N	Mína_None
+
+drdůlek_N	drdol_None
+
+dvouletek_N	dvouletka_None
+šrůtek_N	šrůtka_None
+
+účetník_N	účetní_None
+špejlek_N	špejle_None
+
+hole_N	holý_None
+
+koňař_N	koňák_None
+šmírař_N	šmírák_None
+
+svěravý_A	svíravý_None
+vyběravý_A	vybíravý_None
+
+mořeplavec_N	mořeplavba_None
+voroplavec_N	voroplavba_None
+
+Rudolfína_N	Rudolf_None
+
+mlátek_N	mlat_None
+
+parazol_N	parasol_None
+krezol_N	kresol_None
+
+strumózní_A	struma_None
+
+úštipek_N	úštěpek_None
+odštipek_N	odštěpek_None
+
+klyzma_N	klysma_None
+sofizma_N	sofisma_None
+
+zevzdálí_D	zevzdáli_None
+zpozdálí_D	zpozdáli_None
+
+rorejs_N	rorýs_None
+platejs_N	platýs_None
+
+vlýsek_N	vlys_None
+Hanýsek_N	Hanys_None
+
+kuférek_N	kufr_None
+hadérek_N	hadr_None
+
+vikárský_A	vikář_None
+urbárský_A	urbář_None
+
+štěrkárna_N	štěrkovna_None
+pudlárna_N	pudlovna_None
+
+tolikerý_A	tolik_None
+tisícerý_A	tisíc_None
+
+vylítnout_V	vyletět_None
+prolítnout_V	proletět_None
+
+neotesánek_N	neotesanec_None
+ušmudlánek_N	ušmudlanec_None
+
+halušky_N	haluška_None
+Rudy_N	Ruda_None
+
+ganglie_N	ganglion_None
+legie_N	legion_None
+
+Tibeťan_N	Tibet_None
+Egypťan_N	Egypt_None
+
+výpomůcka_N	výpomoc_None
+
+půlmilionář_N	půlmilion_None
+
+žábátko_N	žábě_None
+čápátko_N	čápě_None
+
+malilinko_D	maliličko_None
+zakratinko_D	zakratičko_None
+
+vřetenatý_A	vřetenovitý_None
+sukatý_A	sukovitý_None
+
+seržán_N	seržant_None
+volán_N	volant_None
+
+vozovna_N	vozovka_None
+pracna_N	pracka_None
+
+šmáknout_V	šmakat_None
+
+símě_N	semeno_None
+břímě_N	břemeno_None
+
+zajisto_D	zajisté_None
+začasto_D	začasté_None
+
+Záporoží_N	Záporožec_None
+bohosloví_N	bohoslovec_None
+
+Junona_N	Juno_None
+půdorysna_N	půdorys_None
+
+patronymický_A	patronymikon_None
+proklitický_A	proklitikon_None
+
+Apollón_N	Apollo_None
+Plutón_N	Pluto_None
+
+vůnička_N	vůně_None
+škornička_N	škorně_None
+
+Stuartovna_N	Stuartovec_None
+Přemyslovna_N	Přemyslovec_None
+
+vlasostřižna_N	vlasostřih_None
+koželužna_N	koželuh_None
+
+nekale_D	nekalý_None
+male_D	malý_None
+
+krásňoučký_A	krásný_None
+volňoučký_A	volný_None
+
+rozoumek_N	rozum_None
+chloumek_N	chlum_None
+
+čičorenka_N	čičorka_None
+
+viklefovec_N	viklefista_None
+darwinovec_N	darwinista_None
+
+zepředu_D	zpředu_None
+vepředu_D	vpředu_None
+
+pluška_N	plucha_None
+
+bór_N	bor_None
+lavór_N	lavor_None
+
+prašný_A	prach_None
+
+krychelný_A	krychle_None
+vochelný_A	vochle_None
+
+reeskompt_N	reeskont_None
+eskompt_N	eskont_None
+
+Sparťan_N	Sparta_None
+Kréťan_N	Kréta_None
+
+čmáranina_N	čmáranice_None
+motanina_N	motanice_None
+
+mživý_A	mžít_None
+
+solitární_A	solitérní_None
+regulární_A	regulérní_None
+
+prográmek_N	program_None
+
+hrádecký_A	hrádek_None
+košerácký_A	košerák_None
+
+vestibulum_N	vestibul_None
+faktum_N	fakt_None
+
+vpovzdáli_D	vpozdáli_None
+zpovzdáli_D	zpozdáli_None
+
+přízemek_N	přízemí_None
+zástřešek_N	zástřeší_None
+
+ocelorytectví_N	oceloryt_None
+stávkokazectví_N	stávkokaz_None
+
+kompozice_N	komposice_None
+dispozice_N	disposice_None
+
+ústavodárný_A	ústavodárce_None
+
+šeptmistr_N	šepmistr_None
+vachtmistr_N	vachmistr_None
+
+Peruánec_N	Peru_None
+Velkobritánec_N	Velkobrit_None
+
+záhumeň_N	záhumek_None
+záhrobeň_N	záhrobek_None
+
+rynek_N	rynk_None
+herynek_N	herynk_None
+
+vtipkálský_A	vtipkálek_None
+tichošlápský_A	tichošlápek_None
+
+flekční_A	flexe_None
+profylakční_A	profylaxe_None
+
+záleský_A	zálesí_None
+podleský_A	podlesí_None
+
+zpěvohříčka_N	zpěvohra_None
+veselohříčka_N	veselohra_None
+
+uroseptický_A	urosepse_None
+aseptický_A	asepse_None
+
+štůsek_N	štos_None
+
+Féničan_N	Fénicie_None
+
+okukovat_V	okoukat_None
+obkukovat_V	obkoukat_None
+
+Polka_N	Polák_None
+šestka_N	šesták_None
+
+naposledy_D	naposled_None
+bohudíky_D	bohudík_None
+
+přídavek_N	přídatek_None
+zůstavek_N	zůstatek_None
+
+společenstevní_A	společenstvo_None
+družstevní_A	družstvo_None
+
+prubírovat_V	prubovat_None
+otaxírovat_V	otaxovat_None
+
+hřbítek_N	hřbet_None
+
+Žofina_N	Žofka_None
+pipina_N	pipka_None
+
+masojídek_N	masojed_None
+
+klauzura_N	klausura_None
+tonzura_N	tonsura_None
+
+Pavla_N	Pavel_None
+Karla_N	Karel_None
+
+zeštudovat_V	zestudovat_None
+proštudovat_V	prostudovat_None
+
+záhublivý_A	záhubný_None
+roztažlivý_A	roztažný_None
+
+čemejřit_V	čemejrat_None
+vejřit_V	vejrat_None
+
+ostrožný_A	ostroh_None
+
+spektrografický_A	spektrograf_None
+
+vlákýnko_N	vlákno_None
+sukýnko_N	sukno_None
+
+dopolou_D	dopola_None
+zpolou_D	zpola_None
+
+Vergilius_N	Vergil_None
+Xaverius_N	Xaver_None
+
+jahodina_N	jahodí_None
+ořešina_N	ořeší_None
+
+baktérie_N	bakterie_None
+pikantérie_N	pikanterie_None
+
+pronominální_A	pronomen_None
+nominální_A	nomen_None
+
+zpovzdálečí_D	zpozdáli_None
+vpovzdálečí_D	vpozdáli_None
+
+Pepča_N	Pepa_None
+Helča_N	Hela_None
+
+vítězkyně_N	vítězka_None
+žebračkyně_N	žebračka_None
+
+vpovzdálí_D	vpozdáli_None
+zpovzdálí_D	zpozdáli_None
+
+slzivý_A	slzavý_None
+rezivý_A	rezavý_None
+
+hnedka_D	hnedky_None
+teďka_D	teďky_None
+
+instinktivní_A	instinkt_None
+
+klíšťátko_N	klíště_None
+labuťátko_N	labutě_None
+
+účetní_N	účet_None
+
+Miládka_N	Milada_None
+přehrádka_N	přehrada_None
+
+uršulinský_A	uršulinka_None
+vestálský_A	vestálka_None
+
+poradenský_A	poradna_None
+úpravenský_A	úpravna_None
+
+slepenice_N	slepenina_None
+plácanice_N	plácanina_None
+
+intenzita_N	intensita_None
+kontagiozita_N	kontagiosita_None
+
+strůj_N	stroj_None
+zbůj_N	zboj_None
+
+galanterní_A	galantérie_None
+bižuterní_A	bižutérie_None
+
+polehoučku_D	polehounku_None
+pomaloučku_D	pomalounku_None
+
+vedřinný_A	vedřiny_None
+
+otcovražedný_A	otcovrah_None
+bratrovražedný_A	bratrovrah_None
+
+horenský_A	hora_None
+přednostenský_A	přednosta_None
+
+sortovat_V	sortýrovat_None
+radovat_V	radýrovat_None
+
+Lori_N	Lora_None
+Loti_N	Lota_None
+
+pajdák_N	pajda_None
+Kujebák_N	Kujeba_None
+
+siro_A	sirý_None
+sino_A	siný_None
+
+krapínek_N	krapánek_None
+kapínek_N	kapánek_None
+
+zrzatý_A	zrzavý_None
+rezatý_A	rezavý_None
+
+půlkolečko_N	půlkolo_None
+brdečko_N	brdo_None
+
+koronální_A	koróna_None
+
+pramének_N	pramen_None
+ostének_N	osten_None
+
+liliputánství_N	liliputánský_None
+frakcionářství_N	frakcionářský_None
+
+Terezička_N	Terezie_None
+
+zahrádečný_A	zahrádka_None
+
+dědáček_N	děd_None
+synáček_N	syn_None
+
+sémě_N	semeno_None
+plémě_N	plemeno_None
+
+právní_A	právo_None
+
+chmátnout_V	chmatat_None
+šmátnout_V	šmatat_None
+
+poslíček_N	posel_None
+kašlíček_N	kašel_None
+
+podstřeší_N	podstřešek_None
+tříročí_N	tříroček_None
+
+prášek_N	prach_None
+valášek_N	valach_None
+
+maklér_N	makléř_None
+komisar_N	komisař_None
+
+čípkovitý_A	čípkatý_None
+parohovitý_A	parohatý_None
+
+snášenlivý_A	snášelivý_None
+učenlivý_A	učelivý_None
+
+šupinkovatý_A	šupinkatý_None
+věžovatý_A	věžatý_None
+
+Janko_N	Janek_None
+Mirko_N	Mirek_None
+
+zapuštění_N	zapustit_None
+
+snížek_N	sníh_None
+
+suchounký_A	suchý_None
+roztomilounký_A	roztomilý_None
+
+Sášenka_N	Sáša_None
+
+Mexičan_N	Mexiko_None
+
+sukénko_N	sukno_None
+
+figurační_A	figurace_None
+orchestrační_A	orchestrace_None
+
+proso_N	prosík_None
+pikolo_N	pikolík_None
+
+pětinka_N	pět_None
+řečinka_N	řeč_None
+
+jekot_N	jek_None
+svistot_N	svist_None
+
+znenáhlý_A	znenáhla_None
+pozvolný_A	pozvolna_None
+
+ukrutanánský_A	ukrutánský_None
+
+anafylaktický_A	anafylaxe_None
+parataktický_A	parataxe_None
+
+Bavory_N	Bavorsko_None
+Tyroly_N	Tyrolsko_None
+
+štamprdle_N	štamprle_None
+cukrdle_N	cukrle_None
+
+rumovisko_N	rumiště_None
+řepovisko_N	řepiště_None
+
+turner_N	turnér_None
+ordner_N	ordnér_None
+
+Honzíček_N	Honza_None
+Lojzíček_N	Lojza_None
+
+nikdá_D	nikdy_None
+onehdá_D	onehdy_None
+
+čepejřit_V	čepýřit_None
+vydejřit_V	vydýřit_None
+
+poloninský_N	polonina_None
+kantýnský_N	kantýna_None
+
+zpoly_D	zpola_None
+znovy_D	znova_None
+
+lapovací_A	lapování_None
+předpřádací_A	předpřádání_None
+
+květňák_N	květník_None
+sádelňák_N	sádelník_None
+
+pozejtří_D	pozítří_None
+nazejtří_D	nazítří_None
+
+chloupek_N	chlup_None
+stroupek_N	strup_None
+
+jizbice_N	jizba_None
+výkladnice_N	výkladna_None
+
+koštýř_N	koštéř_None
+platnýř_N	platnéř_None
+
+vrchnoradovský_A	vrchní_None
+
+Abdéřan_N	Abdéra_None
+
+kdežpak_D	kdepak_None
+
+ctižádostivý_A	ctižádost_None
+
+výměneční_A	výměnkový_None
+
+fénický_A	Fénicie_None
+
+Zálesí_N	zálesí_None
+
+stužtička_N	stuha_None
+
+vestibulární_A	vestibulum_None
+
+sněžný_A	sníh_None
+
+výdunek_N	výdumek_None
+
+mišuge_A	mešuge_None
+
+vědýrko_N	vědro_None
+
+čikóš_N	čikoš_None
+
+vyšklíbat_V	vyšklibovat_None
+
+verneovka_N	vernovka_None
+
+usapovat_V	usápnout_None
+
+zakublat_V	zaklubat_None
+
+Stašek_N	Stáša_None
+
+nebožtík_N	nebožka_None
+
+zrichtovat_V	zrychtovat_None
+
+výměničný_A	výměník_None
+
+zlatohřívek_N	zlatohřivák_None
+
+Beskydy_N	beskyd_None
+
+dvoustý_A	dvě_None
+
+chumáč_N	chomáč_None
+
+znamínečko_N	znamení_None
+
+Roentgen_N	rentgen_None
+
+saniterák_N	saniťák_None
+
+plný_A	naplno_None
+
+nunátko_N	ňuňátko_None
+
+Rozára_N	Róza_None
+
+ulehlina_N	úlehlina_None
+
+vochmajstr_N	vachmajstr_None
+
+methyl_N	metyl_None
+
+Vladislav_N	Vláďa_None
+
+tritonus_N	tritón_None
+
+povidlí_N	povidla_None
+
+tranzitorní_A	transitorní_None
+
+záchytný_A	zachycení_None
+
+škrobovna_N	škrobárna_None
+
+eman_N	Eman_None
+
+třídní_N	třída_None
+
+vyšmaťchat_V	vyšmatlat_None
+
+mináž_N	menáž_None
+
+Prater_N	Prátr_None
+
+ušajdat_V	ušmajdat_None
+
+vyšramovat_V	vyšramat_None
+
+kontovní_A	konto_None
+
+výjimka_N	vyjiskřování_None
+
+jateční_A	jatky_None
+
+svícnový_A	svícen_None
+
+zmršček_N	zmrsk_None
+
+zarochnout_V	zarohnout_None
+
+strnišťový_A	strniskový_None
+
+ovocnický_A	ovocnářský_None
+
+žehnátko_N	žehnáček_None
+
+asyndetický_A	asyndeton_None
+
+rezonance_N	resonance_None
+
+odysea_N	Odyssea_None
+
+bláha_N	blaho_None
+
+bosňák_N	Bosňák_None
+
+pokoušivý_A	pokoušet_None
+
+knockout_N	knokaut_None
+
+sukýnka_N	sukně_None
+
+mainada_N	menáda_None
+
+zelňačka_N	zelnačka_None
+
+nehospodyně_N	nehospodář_None
+
+zvolilinka_D	zvolňoučka_None
+
+oušlapek_N	ošlapek_None
+
+žežulice_N	žežulka_None
+
+žehlovna_N	žehlit_None
+
+obrist_N	obrst_None
+
+hranečník_N	hraničník_None
+
+přihroublý_A	přihrublý_None
+
+přadýnko_N	přadeno_None
+
+slouha_N	sluha_None
+
+úkradmý_A	úkradný_None
+
+Milena_N	milenka_None
+
+chyže_N	chýše_None
+
+zrádeček_N	zrádce_None
+
+team_N	tým_None
+
+průdušný_A	průdyšný_None
+
+koktat_V	škobrtat_None
+
+zbabčilý_A	zbabčelý_None
+
+přestupkář_N	přestupník_None
+
+pěšky_D	pěší_None
+
+konzum_N	konsum_None
+
+oblomovština_N	Oblomov_None
+
+návěštní_A	návěstní_None
+
+Ferdinand_N	Ferda_None
+
+výběrčivý_A	vyběračný_None
+
+vychlemstnout_V	vychlemtnout_None
+
+péro_N	pero_None
+
+tuzex_N	Tuzex_None
+
+slovnědruhový_A	slovní_None
+
+kapku_D	kapánek_None
+
+dodneška_D	dodnes_None
+
+zkořán_D	zkořen_None
+
+předobrý_A	dobrý_None
+
+šance_N	všanc_None
+
+tritón_N	Tritón_None
+
+příměšek_N	příměs_None
+
+kubo_N	Kuba_None
+
+filištín_N	Filištín_None
+
+masív_N	masiv_None
+
+mechanika_N	automechanik_None
+
+přejasný_A	jasný_None
+
+vycicat_V	vycucat_None
+
+uvrci_V	uvrhnout_None
+
+piko_A	pikola_None
+
+vyšustět_V	vyšustit_None
+
+přejemnělý_A	zjemnělý_None
+
+plíva_N	pleva_None
+
+klopna_N	klopa_None
+
+žinantní_A	ženantní_None
+
+černovousý_A	černovousáč_None
+
+zmrhalka_N	zmrhanka_None
+
+odstín_N	podtón_None
+
+Tony_N	Toni_None
+
+povznešený_A	povznesený_None
+
+bratrovrah_N	bratrovražda_None
+
+exkrement_N	exkret_None
+
+teďkonc_D	teďky_None
+
+koprofagie_N	koprofág_None
+
+vejvoda_N	vévoda_None
+
+vydrovina_N	vydřina_None
+
+sumerský_A	Sumer_None
+
+žilčička_N	žíla_None
+
+žerdička_N	žerď_None
+
+double_A	dubl_None
+
+Sláva_N	Jaroslav_None
+
+Benátčan_N	Benátky_None
+
+zájmíček_N	zájem_None
+
+háčkový_A	háček_None
+
+Otesánek_N	otesánek_None
+
+převysoký_A	vysoký_None
+
+výzdiva_N	vyzdívka_None
+
+kaltoun_N	kaldoun_None
+
+nevídáno_D	nevídaný_None
+
+vespol_D	vespolek_None
+
+jarmareční_A	jarmark_None
+
+lezavý_A	vlezlý_None
+
+šípinka_N	šípek_None
+
+konévka_N	konev_None
+
+zoufanlivý_A	zoufalec_None
+
+veliký_A	velký_None
+
+mysterijní_A	mystérium_None
+
+zababuchat_V	zababušit_None
+
+plastikace_N	plastifikace_None
+
+sádeček_N	sad_None
+
+brach_N	bráška_None
+
+pustotina_N	pustina_None
+
+přešťastný_A	šťastný_None
+
+sukénka_N	sukně_None
+
+zapláskat_V	zapleskat_None
+
+utrých_N	utrejch_None
+
+roční_A	dvouroček_None
+
+vrátce_N	vratký_None
+
+ethylnatý_A	etylnatý_None
+
+Württembersko_N	Württemberg_None
+
+zlatohřívý_A	zlatohřivák_None
+
+říhot_N	řehot_None
+
+distingvovaný_A	distingovaný_None
+
+habituální_A	habitus_None
+
+limon_N	lemon_None
+
+půlmilión_N	půlmilion_None
+
+štípek_N	štěp_None
+
+zašnejdrovat_V	zašejdrovat_None
+
+pupíneček_N	pupen_None
+
+kortikosteroid_N	kortikoid_None
+
+neřkuli_D	neřku_None
+
+slovakistika_N	slovenistika_None
+
+zďubat_V	zďobat_None
+
+centezimální_A	centesimální_None
+
+Bráhma_N	bráhma_None
+
+zatrachtilý_A	zatrápený_None
+
+uvážlivý_A	uvážený_None
+
+hroudovatý_A	hrudovatý_None
+
+zybák_N	zibák_None
+
+lehýnce_D	lehoučký_None
+
+prima_N	primisima_None
+
+pony_N	poník_None
+
+ostnokožec_N	ostnohřbetka_None
+
+jedubaba_N	ježibaba_None
+
+tejden_N	týden_None
+
+zbůjný_A	zbujný_None
+
+nestvůrčička_N	nestvůra_None
+
+smetí_N	smetník_None
+
+manikýra_N	manikúra_None
+
+omalovánky_N	malovánka_None
+
+přizrzavělý_A	přizrzlý_None
+
+divotvůrce_N	divotvorce_None
+
+vlažička_N	vláha_None
+
+nikosijský_A	Nikósie_None
+
+žal_N	žel_None
+
+vyglancovat_V	vyglančit_None
+
+piliár_N	biliár_None
+
+šeptný_A	šeptmý_None
+
+štědrovka_N	štědrovnice_None
+
+belgičan_N	Belgičan_None
+
+předhůří_N	předhoří_None
+
+psýché_N	psycha_None
+
+zlatořásný_A	zlatořasný_None
+
+žendarm_N	žandarm_None
+
+halva_N	chalva_None
+
+věterný_A	větrný_None
+
+zaječátko_N	zajíče_None
+
+zpozdálečí_D	zpozdáli_None
+
+Makedoňan_N	Makedonie_None
+
+Švejda_N	Švéd_None
+
+celestin_A	Celestin_None
+
+pomaluběžný_A	pomaloběžný_None
+
+zlatoskvoucí_A	zlatoskvělý_None
+
+negerka_N	negr_None
+
+Vilík_N	Vilda_None
+
+zvědač_N	zvěd_None
+
+konsumce_N	konsumpce_None
+
+restante_N	poste_None
+
+třesavý_A	třást_None
+
+patro_N	spatra_None
+
+starost_N	starý_None
+
+péřovitý_A	peřovitý_None
+
+prostup_N	průstup_None
+
+Růžena_N	Růža_None
+
+památný_A	připamatování_None
+
+rovno_D	rovně_None
+
+teďkon_D	teďky_None
+
+chcípat_V	scípat_None
+
+zarezovatělý_A	zarezivělý_None
+
+pobídka_N	vybídka_None
+
+hemeroidy_N	hemoroidy_None
+
+zádumný_A	zádumčivý_None
+
+měštka_N	měšťák_None
+
+muhar_N	mohár_None
+
+forzýtie_N	forsytie_None
+
+vzdálina_N	vzdálenina_None
+
+robinzonáda_N	robinsonáda_None
+
+kožišina_N	kožešina_None
+
+paulánský_A	pavlán_None
+
+všady_D	všade_None
+
+nivelizace_N	nivelace_None
+
+Podskalí_N	podskalí_None
+
+maltézský_N	Malta_None
+
+Gaskoňsko_N	Gaskoněc_None
+
+luciper_N	Lucifer_None
+
+závěsný_A	zavěšování_None
+
+podhoří_N	podhůří_None
+
+chanson_N	šanson_None
+
+voroplavný_A	voroplavba_None
+
+přebídný_A	bídný_None
+
+Pentagon_N	pentagon_None
+
+moskvič_N	Moskvič_None
+
+dyzentérie_N	dysenterie_None
+
+pomalinku_D	pomaličku_None
+
+horizontář_N	horizontkář_None
+
+vyžloutlý_A	vyžlutlý_None
+
+step_N	štep_None
+
+ferrit_N	ferit_None
+
+jatérka_N	játra_None
+
+zemčatový_A	zemče_None
+
+suplentura_N	suplent_None
+
+zápřeh_N	zápřah_None
+
+umístit_V	vstavit_None
+
+stélé_N	stéla_None
+
+vyšťuchovat_V	vyšťouchat_None
+
+pindík_N	pinďour_None
+
+roajalista_N	royalista_None
+
+betlém_N	Betlém_None
+
+poblíž_D	poblízku_None
+
+revizionismus_N	revisionismus_None
+
+šiplavý_A	šeplavý_None
+
+difúzní_A	difusní_None
+
+furberk_N	furverk_None
+
+zádu_D	zadu_None
+
+robinzon_N	Robinson_None
+
+správný_A	rovný_None
+
+azbest_N	asbest_None
+
+Standa_N	Stáňa_None
+
+přechovavatel_N	přechovávač_None
+
+potichoučku_D	potichu_None
+
+záhumenec_N	záhumek_None
+
+argus_N	Argus_None
+
+Maruna_N	Maruše_None
+
+rožek_N	růžek_None
+
+trias_N	triáda_None
+
+výhoda_N	nevýhoda_None
+
+truchlenec_N	truchlivec_None
+
+trop_D	trap_None
+
+naživu_D	živý_None
+
+Karel_N	Karlík_None
+
+corrida_N	korida_None
+
+Aleman_N	Alaman_None
+
+písecký_A	Písek_None
+
+stejnak_D	stejně_None
+
+veskrz_D	naveskrz_None
+
+cejcha_N	cícha_None
+
+tyreoidální_A	tyreoidea_None
+
+přečastý_A	častý_None
+
+zákřoví_N	zákří_None
+
+lucifer_N	Lucifer_None
+
+vlásinový_A	vlasina_None
+
+sanitárka_N	sanitář_None
+
+věžnatý_A	věžatý_None
+
+Jarek_N	Jára_None
+
+plíčky_N	plíce_None
+
+žakarský_A	žakár_None
+
+upláknout_V	upláchnout_None
+
+neodymitý_A	neodym_None
+
+winchestrovka_N	vinčestrovka_None
+
+ústrojstvo_N	ústrojenstvo_None
+
+Valentin_N	Valinka_None
+
+vláčíček_N	vlak_None
+
+Anda_N	Anna_None
+
+Vilemína_N	Vilím_None
+
+Vševidoucí_N	vševidoucí_None
+
+presbytář_N	presbyterium_None
+
+vrkůček_N	vrkoč_None
+
+vesní_A	vesničan_None
+
+přeskvostný_A	skvostný_None
+
+brankařský_A	brankář_None
+
+školdozorský_A	školdozorce_None
+
+prošťuchovat_V	prošťouchnout_None
+
+vlůní_D	vloni_None
+
+živnostenský_A	živnost_None
+
+jenerál_N	generál_None
+
+zupa_N	zupák_None
+
+včíl_D	včil_None
+
+visalec_N	viselec_None
+
+vyšklebavý_A	výšklebný_None
+
+podkovitý_A	podkovovitý_None
+
+zapěrač_N	zapírač_None
+
+Jákob_N	Jakub_None
+
+butylnatý_A	butyl_None
+
+blikavka_N	blikačka_None
+
+parmezán_N	parmazán_None
+
+fišmistr_N	fišmajstr_None
+
+arteriální_A	artérie_None
+
+melantrišský_A	Melantrich_None
+
+potichounku_D	potichu_None
+
+Tripolsko_N	Tripolis_None
+
+Tomiš_N	Tomek_None
+
+velour_N	velur_None
+
+strejka_N	strejda_None
+
+kubánský_A	Kuba_None
+
+vyprašovák_N	vyprašovač_None
+
+bůh_N	pánbůh_None
+
+psýcha_N	psycha_None
+
+mělnické_N	Mělník_None
+
+nelzon_N	nelson_None
+
+ukolíbavý_A	ukolébavý_None
+
+čtverohrbolí_N	čtyřhrbolí_None
+
+přetěžký_A	těžký_None
+
+parazitární_A	parasitární_None
+
+frajír_N	frajer_None
+
+galvanizovna_N	galvanisovna_None
+
+chalífa_N	kalif_None
+
+slide_N	slajd_None
+
+Žanynka_N	Žanda_None
+
+půlměsíčitý_A	půlměsíc_None
+
+prdnout_V	prdět_None
+
+mefisto_N	Mefisto_None
+
+Rudla_N	Ruda_None
+
+přesmutný_A	smutný_None
+
+živoživoucí_A	živý_None
+
+vojanština_N	vojanský_None
+
+mžik_N	mžitka_None
+
+slejvat_V	slévat_None
+
+artéský_A	Artois_None
+
+ordinárius_N	ordinář_None
+
+Lenča_N	Léna_None
+
+podpěnka_N	podpínka_None
+
+tyčkovina_N	tyčovina_None
+
+Turecko_N	Turek_None
+
+žilový_A	žíla_None
+
+věrolomce_N	věrolomný_None
+
+prima_A	primisima_None
+
+mrznout_V	přimrznout_None
+
+cok_N	cokna_None
+
+Bobíšek_N	Bobeš_None
+
+zchytřet_V	zchytrat_None
+
+hříbkař_N	hřibař_None
+
+kosírek_N	kosárek_None
+
+třaskot_N	třeskot_None
+
+střihárna_N	stříhárna_None
+
+zvukoměřictví_N	zvukoměr_None
+
+šoltys_N	šolta_None
+
+puntík_N	punkt_None
+
+odiv_N	obdiv_None
+
+ořešník_N	ořešák_None
+
+paží_N	paždí_None
+
+žežhule_N	žežulka_None
+
+zklackovatět_V	zklackovitět_None
+
+numizmatika_N	numismatika_None
+
+seizmický_A	seismický_None
+
+fyzikální_A	fysikální_None
+
+zlomyslnůstka_N	zlomysl_None
+
+vařonka_N	vařenka_None
+
+smrkat_V	mrkat_None
+
+dřípatý_A	dřípený_None
+
+díkůvzdání_N	díkuvzdání_None
+
+verštátek_N	veřtat_None
+
+heilót_N	hélót_None
+
+šikulda_N	šikula_None
+
+ulmovka_N	ulmačka_None
+
+Turek_N	Turecko_None
+
+methanol_N	metanol_None
+
+vzdělanectvo_N	vzdělanstvo_None
+
+provazochodec_N	provazolezec_None
+
+alespoň_D	aspoň_None
+
+hnojiště_N	hnojnice_None
+
+dvouročák_N	dvouroček_None
+
+uspořadatel_N	uspořádatel_None
+
+železisko_N	želízko_None
+
+pomeje_N	pomyje_None
+
+municipální_A	municipium_None
+
+pohostinský_A	pohostinný_None
+
+kovařík_N	kovář_None
+
+tangenta_N	tangens_None
+
+Pražánek_N	Praha_None
+
+pudrátko_N	pudrovátko_None
+
+veleslavínský_A	Veleslavín_None
+
+rutyka_N	rotyka_None
+
+filip_N	Filip_None
+
+tříproudý_A	tříproudový_None
+
+znenadajky_D	znenadaja_None
+
+zpohanilý_A	zpohanštělý_None
+
+milostnice_N	milovnice_None
+
+malinkatý_A	malý_None
+
+štráchy_N	štráf_None
+
+trojský_A	Trója_None
+
+čvachanice_N	čachtanice_None
+
+obležení_N	oblehnout_None
+
+včas_D	nevčas_None
+
+buntovat_V	bantovat_None
+
+přeradostný_A	radostný_None
+
+vpolu_D	vpoly_None
+
+Petronila_N	Petra_None
+
+tajemnůstkář_N	tajnůstkář_None
+
+terasa_N	taras_None
+
+cizojazyčný_A	cizí_None
+
+Neapolitán_N	Neapol_None
+
+lazar_N	Lazar_None
+
+půlmilion_N	půl_None
+
+Zora_N	zora_None
+
+Anastázie_N	Stáza_None
+
+řehonivý_A	řehnivý_None
+
+žihavka_N	žahavka_None
+
+chamradina_N	chamraď_None
+
+reservoir_N	rezervoár_None
+
+veménko_N	vemeno_None
+
+kemp_N	camp_None
+
+otakárek_N	Otokar_None
+
+zaoblit_V	zaokrouhlit_None
+
+vařecha_N	vařeka_None
+
+Krišna_N	Kršna_None
+
+lojnatý_A	lojovatý_None
+
+kyperský_A	Kypr_None
+
+Husinec_N	husinec_None
+
+kadlec_N	tkadlec_None
+
+Veronika_N	Verunka_None
+
+jasnopoljanský_A	Jasná_None
+
+přetrpký_A	trpký_None
+
+cheviot_N	ševiot_None
+
+zabednilec_N	zabedněnec_None
+
+dratvička_N	dratev_None
+
+deštný_A	déšť_None
+
+virval_N	virvál_None
+
+přerozmanitý_A	rozmanitý_None
+
+smrt_N	smrtonoš_None
+
+posuněk_N	posunek_None
+
+zauzlenina_N	zauzlina_None
+
+zapejřit_V	zapeřit_None
+
+otrůček_N	otrok_None
+
+Karkulka_N	karkulka_None
+
+opravdivý_A	opravdový_None
+
+žebrákyně_N	žebračka_None
+
+šťouchaneček_N	šťuchanec_None
+
+santiagský_A	Santiago_None
+
+zažehnávka_N	zažehnávadlo_None
+
+vraskatý_A	vráskatý_None
+
+výročitý_A	výroční_None
+
+rožmberský_A	Rožmberk_None
+
+poudačka_N	povídačka_None
+
+povalečný_A	povalečský_None
+
+ouřezek_N	úřezek_None
+
+veprostřed_D	vprostřed_None
+
+zlatulinký_A	zlatulenký_None
+
+rúrský_A	ruhrský_None
+
+post_A	půst_None
+
+šťourálek_N	šťoura_None
+
+narcis_N	Narcis_None
+
+Janoško_N	Jánoš_None
+
+kasus_N	casus_None
+
+zbředit_V	zbřídit_None
+
+zvetešelý_A	zvetečilý_None
+
+přimísenina_N	přimíšenina_None
+
+galánečka_N	galán_None
+
+chyška_N	chýše_None
+
+brebtat_V	breptat_None
+
+profák_N	prófa_None
+
+zkoumat_V	koumat_None
+
+zasvé_D	svůj_None
+
+přenešťastný_A	nešťastný_None
+
+bakule_N	bakula_None
+
+jakkoliv_D	jakkoli_None
+
+uplít_V	uplivnout_None
+
+tříroční_A	tříroček_None
+
+orchidej_N	orchidea_None
+
+rakovnický_A	Rakovník_None
+
+unitární_A	unitarismus_None
+
+auktor_N	autor_None
+
+vychlejstnout_V	vychlístnout_None
+
+citran_N	citrát_None
+
+sudoměřický_A	Sudoměřice_None
+
+sestřinka_N	sestra_None
+
+barnatý_A	baryum_None
+
+manila_N	Manila_None
+
+naráz_D	ráz_None
+
+výminečný_A	výměnkový_None
+
+stupínek_N	stupeň_None
+
+pokrm_N	pikantnost_None
+
+víničko_N	víníčko_None
+
+Podještědí_N	Ještěd_None
+
+odměrný_A	odměřování_None
+
+telemarský_A	telemark_None
+
+Ilýrie_N	Ilyr_None
+
+pošeptmo_D	pošeptmu_None
+
+výběrčí_N	sběratel_None
+
+zips_N	zip_None
+
+přebohatý_A	bohatý_None
+
+přehustý_A	hustý_None
+
+štafáž_N	stafáž_None
+
+vsatský_A	Vsetín_None
+
+expozé_N	exposé_None
+
+Malajsko_N	Malajec_None
+
+trenky_N	trenýrky_None
+
+přestarostlivý_A	starostlivý_None
+
+vyrabitel_N	vyrábitel_None
+
+jód_N	jod_None
+
+Bretaň_N	Bretagne_None
+
+venek_N	navenek_None
+
+Eleonora_N	Ela_None
+
+vidma_N	vědma_None
+
+písmenka_N	písmeno_None
+
+rozepatý_A	rozepnout_None
+
+míšenský_A	míšeňský_None
+
+obezřetný_A	obezřelý_None
+
+žilečka_N	žíla_None
+
+dnes_D	dodnes_None
+
+Rakušák_N	Rakousko_None
+
+Záhoří_N	záhoří_None
+
+aramejský_A	Aram_None
+
+mínium_N	minium_None
+
+zalektat_V	zalechtat_None
+
+odprejsknout_V	odprýsknout_None
+
+jógí_N	jogín_None
+
+řásný_A	řasa_None
+
+Brok_N	brok_None
+
+zezulka_N	žežulka_None
+
+pásemný_A	pásmo_None
+
+rozestup_N	rozstup_None
+
+nákolenka_N	nákoleník_None
+
+zádvorský_A	zádvorní_None
+
+akinézie_N	akinesie_None
+
+Ámos_N	Amos_None
+
+vochtr_N	vechtr_None
+
+předloketní_A	předloktí_None
+
+vozdr_N	vozher_None
+
+peluňka_N	pelyněk_None
+
+Velehrad_N	velehrad_None
+
+podpatek_N	opatek_None
+
+přemálo_N	přemalý_None
+
+transylvánský_A	Transylvánie_None
+
+šišlat_V	šeplat_None
+
+vichořice_N	vichor_None
+
+stanoviště_N	hlediště_None
+
+pouštědlo_N	pušťadlo_None
+
+veřtat_N	verštat_None
+
+prouhelňování_N	prouhelnění_None
+
+sukovka_N	sukovice_None
+
+furverk_N	furberk_None
+
+profil_N	promítání_None
+
+bianko_A	bianco_None
+
+trus_N	výtrus_None
+
+nezměrný_A	nezměřitelný_None
+
+žarno_N	žernov_None
+
+zvenku_D	zvenčí_None
+
+maratón_N	Marathón_None
+
+Pyrrhos_N	Pyrrhus_None
+
+žitko_N	žito_None
+
+zuňkat_V	zunkat_None
+
+čekánek_N	čakan_None
+
+šnajdrovat_V	šejdrovat_None
+
+strožok_N	štrozok_None
+
+Venouš_N	Véna_None
+
+padanka_N	padavka_None
+
+hajní_A	háj_None
+
+žežhulička_N	žežulka_None
+
+zahrážka_N	záhražka_None
+
+bezkonfesijní_A	bezkonfesní_None
+
+Kijev_N	Kyjev_None
+
+šidélko_N	šídlo_None
+
+záhorní_A	záhorský_None
+
+sinhálský_A	Sinhálec_None
+
+filátko_N	filé_None
+
+žemně_N	žemle_None
+
+prouha_N	proužek_None
+
+přesnadný_A	snadný_None
+
+zápasní_A	zápasivý_None
+
+čiman_N	číman_None
+
+verštat_N	veřtat_None
+
+zlundračit_V	zludračet_None
+
+sarapatička_N	serepetička_None
+
+jedličí_N	jedlina_None
+
+zmotchaný_A	zmotaný_None
+
+Bosňan_N	Bosna_None
+
+reakčník_N	reakcionář_None
+
+Zástrkov_N	Zastrkov_None
+
+vonidlo_N	voňadlo_None
+
+zatouhlý_A	zatuhlý_None
+
+mores_N	móres_None
+
+pandán_N	pendant_None
+
+topůrko_N	topor_None
+
+Waltrovka_N	waltrovka_None
+
+brzký_A	vbrzku_None
+
+paladin_N	palatin_None
+
+Konopiště_N	konopiště_None
+
+Elamita_N	Elam_None
+
+haknkrajclerský_A	haknkrajc_None
+
+řasný_A	řásný_None
+
+prognostika_N	pranostika_None
+
+vkrátku_D	vkrátce_None
+
+angličan_N	Angličan_None
+
+washingtonský_A	Washington_None
+
+kabardinský_A	Kabardinec_None
+
+palcák_N	palčák_None
+
+hotentot_N	Hotentot_None
+
+Boloňa_N	Bologna_None
+
+terapie_N	terapeutika_None
+
+kaferský_A	Kafr_None
+
+vejměničit_V	výměničit_None
+
+ischiadický_A	ischias_None
+
+rubopisník_N	rubopis_None
+
+způle_D	způli_None
+
+führer_N	fýrer_None
+
+halifaxy_N	halifaxky_None
+
+vaječný_A	vejce_None
+
+středná_N	střední_None
+
+klid_N	poklid_None
+
+studně_N	studna_None
+
+vašnůstka_N	vašnosta_None
+
+při_A	přivléci_None
+
+arzenovodík_N	arsenovodík_None
+
+Matys_N	Matýs_None
+
+momentánní_A	momentální_None
+
+šaty_N	šatičky_None
+
+semilský_A	Semily_None
+
+natrpklý_A	zatrpklý_None
+
+Kanaďan_N	Kanada_None
+
+žblabonit_V	žblabolit_None
+
+Kamýk_N	kamýk_None
+
+Lidmila_N	Ludmila_None
+
+Kornélie_N	Kornel_None
+
+vraščitý_A	vrásčitý_None
+
+marketinkový_A	marketing_None
+
+kdež_D	kde_None
+
+sanktuář_N	sanktuárium_None
+
+raz_D	ráz_None
+
+klejt_N	glejt_None
+
+retabulum_N	retábl_None
+
+zrzavice_N	zrzavec_None
+
+podvlíkačky_N	podvlékačky_None
+
+četivo_N	čtivo_None
+
+topický_A	topikum_None
+
+puntíkatý_A	puntíkovaný_None
+
+zimový_A	zimní_None
+
+těřich_N	teřich_None
+
+clematis_N	klematis_None
+
+koverkotový_A	kovrkot_None
+
+vestoje_D	vstoje_None
+
+Sokol_N	sokol_None
+
+vampora_N	vampola_None
+
+smradit_V	smradlavý_None
+
+jizevnatý_A	jizvovitý_None
+
+archiv_N	archív_None
+
+mezaliance_N	mesaliance_None
+
+Janošík_N	Jánoš_None
+
+Bolivijec_N	Bolívie_None
+
+zakrňovat_V	krnět_None
+
+říman_N	Říman_None
+
+ženovat_V	žinýrovat_None
+
+třasavka_N	třesavka_None
+
+lvíček_N	lev_None
+
+Matyáš_N	Matěj_None
+
+odbíračka_N	odběrač_None
+
+varírovat_V	variovat_None
+
+vyvoslit_V	vyoslit_None
+
+lávka_N	lavice_None
+
+řevnice_N	říjnice_None
+
+vynachválit_V	nachválit_None
+
+patlažán_N	baklažán_None
+
+Dikobraz_N	dikobraz_None
+
+věrověst_N	věrozvěst_None
+
+země_N	zem_None
+
+šús_N	šus_None
+
+artritida_N	arthritis_None
+
+průba_N	próba_None
+
+vyžunknout_V	žunknout_None
+
+chróm_N	chrom_None
+
+vpolou_D	vpoly_None
+
+špýchar_N	špejchar_None
+
+vsazka_N	vsadka_None
+
+vární_A	varný_None
+
+přehořký_A	hořký_None
+
+čmelák_N	včelák_None
+
+Barunka_N	Bára_None
+
+stojný_A	stát_None
+
+veveří_A	veverčí_None
+
+rožnout_V	rozžehnout_None
+
+tatra_N	Tatra_None
+
+Vilím_N	Vilém_None
+
+žaloudek_N	žaludek_None
+
+harampátí_N	harampádí_None
+
+Kartaginec_N	Kartágo_None
+
+arab_N	Arab_None
+
+přichomejtnout_V	přichomýtnout_None
+
+trubní_A	trouba_None
+
+Banát_N	banát_None
+
+Cínovec_N	cínovec_None
+
+ukolébačka_N	ukolébavka_None
+
+tříkolý_A	tříkolka_None
+
+zpravodatel_N	zpravodavce_None
+
+řešato_N	řešeto_None
+
+Zdenčička_N	Zdeňka_None
+
+čekan_N	čakan_None
+
+šestimiliónový_A	šestimilionový_None
+
+opřít_V	rozepřít_None
+
+veždy_D	vždy_None
+
+miliontý_A	milióntý_None
+
+steláž_N	šteláž_None
+
+židovka_N	Žid_None
+
+vltavan_N	Vltavan_None
+
+bazilián_N	basilián_None
+
+zhrblý_A	zhrbatělý_None
+
+oupadlina_N	úpadlina_None
+
+Horvat_N	Charvát_None
+
+zvetečilý_A	zvetšelý_None
+
+Kananejec_N	Kanaán_None
+
+wals_N	waltz_None
+
+vejrat_V	vejřit_None
+
+Kristýna_N	Kristina_None
+
+labrador_N	Labrador_None
+
+vzrostný_A	vzrůstný_None
+
+zemanín_N	zeměnín_None
+
+Kunhuta_N	Kunka_None
+
+explozivní_A	explosivní_None
+
+peršan_N	Peršan_None
+
+anglický_A	Anglie_None
+
+olezlý_A	oblezlý_None
+
+přečetný_A	četný_None
+
+hélium_N	helium_None
+
+nazpátek_D	nazpět_None
+
+škica_N	skica_None
+
+přeslavný_A	slavný_None
+
+tenoulince_D	tenoučký_None
+
+Miluše_N	Míla_None
+
+pašalík_N	pašalik_None
+
+korpus_N	corpus_None
+
+vrbí_N	vrboví_None
+
+magazín_N	magacín_None
+
+potad_D	potaď_None
+
+jenjen_D	jen_None
+
+grejcar_N	krejcar_None
+
+záklasník_N	záklasek_None
+
+žandár_N	žandarm_None
+
+uvozhřený_A	uvozdřený_None
+
+obcházka_N	obchůzka_None
+
+výměnický_A	výměničný_None
+
+zhrda_D	zhrdání_None
+
+Semafor_N	semafor_None
+
+outěžek_N	útěžek_None
+
+Lotar_N	Lothar_None
+
+sokratický_A	Sokrates_None
+
+positivní_A	pozitiv_None
+
+punclák_N	puclák_None
+
+štučka_N	stůček_None
+
+beztvárný_A	beztvarý_None
+
+tamže_D	tamtéž_None
+
+vousy_N	vousatět_None
+
+žufánek_N	šufan_None
+
+vika_N	vikev_None
+
+zdáníčko_D	zdání_None
+
+balšám_N	balšán_None
+
+tanganický_A	Tanganika_None
+
+fluviatilní_A	fluviální_None
+
+parenchymatózní_A	parenchym_None
+
+evangelický_A	evangelium_None
+
+rýdovací_A	rejdovací_None
+
+Barbora_N	Bára_None
+
+kapesní_A	kapsa_None
+
+šnába_N	šnaps_None
+
+osmiúhelný_A	osmiúhlý_None
+
+žbluňka_N	žblabuňka_None
+
+Horňák_N	horňák_None
+
+byznysmen_N	businessman_None
+
+pilný_A	napilno_None
+
+bambusovka_N	bambuska_None
+
+překrutý_A	krutý_None
+
+skrupulózní_A	skrupule_None
+
+jura_N	Jura_None
+
+jahodiní_N	jahodí_None
+
+sochat_V	sochařit_None
+
+lešeňový_A	lešení_None
+
+proplach_N	průplach_None
+
+mobiliární_A	mobilární_None
+
+mysteriózní_A	mystérium_None
+
+nechutenství_N	nechuť_None
+
+vochlovačka_N	vochle_None
+
+ramazán_N	ramadán_None
+
+Bretonec_N	Bretagne_None
+
+doopravdovský_A	doopravdový_None
+
+krobián_N	grobián_None
+
+Liba_N	Líba_None
+
+žilenka_N	žíla_None
+
+vínek_N	věnec_None
+
+medúza_N	Medusa_None
+
+rondó_N	rondo_None
+
+zápeceň_N	zápec_None
+
+balkán_N	Balkán_None
+
+tříboký_A	trojboký_None
+
+afrikán_N	Afrikán_None
+
+polsko_N	Polák_None
+
+štimovat_V	štymovat_None
+
+indián_N	Indián_None
+
+zasucha_D	suchý_None
+
+virvar_N	virvál_None
+
+Němce_N	Němec_None
+
+trošinku_D	troška_None
+
+strast_N	strádání_None
+
+tvrďas_N	tvrďák_None
+
+Hrdlořezy_N	hrdlořez_None
+
+šrotýř_N	šrot_None
+
+dobšinský_A	Dobšiná_None
+
+zpovolně_D	zpovolna_None
+
+rozdávačka_N	rozdavač_None
+
+chudera_N	chuděra_None
+
+zmrštěk_N	zmršček_None
+
+odevšud_D	odevšad_None
+
+gentleman_N	džentlmen_None
+
+schémátko_N	schéma_None
+
+verbloud_N	velbloud_None
+
+flaše_N	flaška_None
+
+provázeček_N	provaz_None
+
+předivný_A	divný_None
+
+cyklický_A	cyklus_None
+
+neshledaná_N	shledaná_None
+
+omastek_N	mastidlo_None
+
+rozvlálý_A	rozevlátý_None
+
+úštěpný_A	uštipný_None
+
+kloset_N	klozet_None
+
+škot_N	Skot_None
+
+Etrusk_N	Etrurie_None
+
+dada_N	dadaismus_None
+
+ledaskde_D	ledakde_None
+
+zrzek_N	rezek_None
+
+troubera_N	trumbera_None
+
+uchichtnout_V	uchechtnout_None
+
+blokáč_N	blokový_None
+
+zpravodavce_N	zpravodaj_None
+
+Aramejec_N	Aram_None
+
+jak_D	jakž_None
+
+obdiv_N	odiv_None
+
+skalák_N	skalník_None
+
+vyslovit_V	vyžalovat_None
+
+dmuchadlo_N	dmychadlo_None
+
+uncia_N	unce_None
+
+dunajský_A	Dunaj_None
+
+zlehounka_D	zlehýnka_None
+
+kataleptický_A	katalepsie_None
+
+vangl_N	vandl_None
+
+sanytrový_A	salnitr_None
+
+vyhajínkovat_V	vyhajat_None
+
+pilnikářský_A	pilníkářský_None
+
+marokánka_N	Marokánka_None
+
+Luboš_N	Lubomír_None
+
+vřetánek_N	vřetánko_None
+
+benjamín_N	Benjamín_None
+
+zchacharovat_V	zchachařit_None
+
+řibet_N	hřbet_None
+
+šifrér_N	šifrant_None
+
+dezinfekce_N	desinfekce_None
+
+koblížek_N	kobliha_None
+
+tranda_N	trajda_None
+
+zdůraznit_V	podškrtnout_None
+
+Horatius_N	Horác_None
+
+zumdlený_A	zumdlelý_None
+
+váhař_N	vahař_None
+
+kulaťounký_A	kulatý_None
+
+zdalečí_D	zdálečí_None
+
+cimfrlich_D	cimprlich_None
+
+zřídkavý_A	zřídký_None
+
+délka_N	Adéla_None
+
+přemocný_A	mocný_None
+
+Tyrolka_N	Tyrolsko_None
+
+štajerák_N	Štajerák_None
+
+Vládínek_N	Vladík_None
+
+záhřivný_A	záhřevný_None
+
+zkrutný_A	zkrucování_None
+
+vydrezovat_V	vydrezírovat_None
+
+popozítří_D	popozítřek_None
+
+vyslanstvo_N	vyslanectvo_None
+
+vyzyvatel_N	vyzývatel_None
+
+kolegiátní_A	kolegium_None
+
+porculán_N	porcelán_None
+
+přítužný_A	přitahování_None
+
+laxativum_N	laxans_None
+
+zařehonit_V	zařehnit_None
+
+vzkřek_N	skřek_None
+
+hloub_N	zhloubí_None
+
+chmat_N	hmat_None
+
+soupojištění_N	spolupojištění_None
+
+předevčírek_N	předvčerejšek_None
+
+kalorimetricky_D	kalorimetr_None
+
+vekslíř_N	vekslář_None
+
+Španihel_N	Španěl_None
+
+forzato_D	forzando_None
+
+Asyřan_N	Asýrie_None
+
+věrolomství_N	věrolomný_None
+
+obrataňský_A	Obrataň_None
+
+vroub_N	vrub_None
+
+Bukovina_N	bukovina_None
+
+Arnošt_N	Arne_None
+
+konývka_N	konev_None
+
+Búr_N	burský_None
+
+víska_N	ves_None
+
+tlusťouš_N	tlusťoch_None
+
+Bohouš_N	Bohuš_None
+
+Stáníček_N	Stáňa_None
+
+rachomejtle_N	rachejtle_None
+
+vrato_N	vráteň_None
+
+přeubohý_A	ubohý_None
+
+august_N	August_None
+
+Loket_N	loket_None
+
+levý_A	nalevo_None
+
+posesívní_A	posesivní_None
+
+martyrologium_N	martyrologie_None
+
+lemůvka_N	lemovka_None
+
+impresionistní_A	impresionismus_None
+
+notýsek_N	notes_None
+
+kubík_N	Kubík_None
+
+ambroziánský_A	ambrosiánský_None
+
+měditiskař_N	měditisk_None
+
+šplechtot_N	šplíchot_None
+
+zadarmo_D	zdarma_None
+
+ženulinka_N	žena_None
+
+skromnince_D	skromňounký_None
+
+Anynka_N	Anina_None
+
+Frýg_N	frygický_None
+
+toledo_N	Toledo_None
+
+chcíplotina_N	scíplotina_None
+
+vejmluvník_N	výmluvník_None
+
+štuchnout_V	šťuchnout_None
+
+přehoušel_N	přehršle_None
+
+papánek_N	papá_None
+
+polátko_N	políčko_None
+
+rebel_N	rebelant_None
+
+trata_N	trať_None
+
+zvor_N	zvůr_None
+
+kok_N	koks_None
+
+bornejský_A	Borneo_None
+
+chuť_N	všehochuť_None
+
+návěští_N	návěst_None
+
+peruť_N	peroutka_None
+
+oblehatel_N	obléhatel_None
+
+zeměnín_N	zemanín_None
+
+polo_N	dopola_None
+
+ustrachovaný_A	ustrašený_None
+
+choutka_N	chuť_None
+
+lhotský_A	Lhota_None
+
+diskutant_N	diskutér_None
+
+plasticita_N	plastičnost_None
+
+Alžběta_N	Běta_None
+
+vinout_V	zavinout_None
+
+výplet_N	pletení_None
+
+krýt_V	sekret_None
+
+povrch_N	napovrch_None
+
+dceř_N	dcera_None
+
+Ludvika_N	Ludvík_None
+
+blízký_A	nablízku_None
+
+bezeškodný_A	bezškodný_None
+
+vozač_N	vozíčkář_None
+
+znání_N	neznání_None
+
+uraninit_N	uranin_None
+
+Kerberos_N	Cerber_None
+
+poema_N	poéma_None
+
+Pionýr_N	pionýr_None
+
+šupna_N	šopa_None
+
+Květoslava_N	Květa_None
+
+bismut_N	vizmut_None
+
+třírohý_A	třírohák_None
+
+brlenka_N	brlina_None
+
+zmek_N	zmok_None
+
+věrolomstvo_N	věrolomný_None
+
+jilský_A	Jiljí_None
+
+vrátenský_A	vrátný_None
+
+zničehožnic_D	zničehonic_None
+
+nantský_A	Nantes_None
+
+náustek_N	ústenka_None
+
+šohajík_N	šuhaj_None
+
+uzdravit_V	pozdravit_None
+
+zajíškovat_V	zajíšit_None
+
+čuch_N	čich_None
+
+chalífát_N	kalifát_None
+
+zatrackaný_A	zatrápený_None
+
+pochcat_V	poscat_None
+
+pinka_N	pěnkava_None
+
+mílek_N	Mílek_None
+
+převislý_A	přepadlý_None
+
+rozvoj_N	rozvin_None
+
+Otýlie_N	Otilie_None
+
+přehluboký_A	hluboký_None
+
+přetajemný_A	tajemný_None
+
+obcička_N	obec_None
+
+vokalický_A	vokál_None
+
+Jaromír_N	Jára_None
+
+Trapezunt_N	Trabzon_None
+
+bábi_N	babi_None
+
+frantík_N	Frantík_None
+
+otýpka_N	otep_None
+
+chuchelský_A	Chuchle_None
+
+taxikář_N	taxíkář_None
+
+zlatičký_A	zlaťoučký_None
+
+glagolice_N	hlaholice_None
+
+křemeňák_N	křemenáč_None
+
+zajoch_N	zajíc_None
+
+neznámý_N	nezvěstný_None
+
+vejstřeší_N	výstřeší_None
+
+genocida_N	genocidium_None
+
+záslušný_A	zaslušný_None
+
+průplet_N	proplet_None
+
+vystřiklý_A	vystříklý_None
+
+lukulský_A	Lukullus_None
+
+pooperativní_A	pooperační_None
+
+želno_D	žalný_None
+
+degresívní_A	degrese_None
+
+Rózička_N	Rozina_None
+
+paralaktický_A	paralaxa_None
+
+fantazmagorie_N	fantasmagorie_None
+
+perseverance_N	perseverace_None
+
+včírek_N	včerejšek_None
+
+zpovědlnice_N	zpovědnice_None
+
+mlsout_N	mlsoun_None
+
+zmáhnout_V	zmanout_None
+
+Turkménie_N	Turkmen_None
+
+úkradmo_D	úkradný_None
+
+pražan_N	Pražan_None
+
+zdvořilec_N	zdvořák_None
+
+soupeřství_N	řevnivost_None
+
+přemnohý_N	mnohý_None
+
+brejličky_N	brýle_None
+
+trajdat_V	trandat_None
+
+palatin_N	paladin_None
+
+tkaloun_N	kaloun_None
+
+konsumpce_N	konzumpce_None
+
+ofábořený_A	ofáborovaný_None
+
+šintó_N	šintoismus_None
+
+štítonoš_N	štítník_None
+
+vadrle_N	vádrle_None
+
+franco_D	franko_None
+
+činovatina_N	činovať_None
+
+studeň_N	studna_None
+
+všade_D	všude_None
+
+vydýřit_V	vydejřit_None
+
+smeč_N	smečka_None
+
+sipáhí_N	spahi_None
+
+satba_N	setba_None
+
+jachtink_N	jachting_None
+
+děvenka_N	dívka_None
+
+uškrouknout_V	uškrouhnout_None
+
+smola_N	smůla_None
+
+vichorec_N	vichor_None
+
+trabant_N	drabant_None
+
+bagatel_N	pakatel_None
+
+chorus_N	chór_None
+
+výlivka_N	výlevka_None
+
+foinický_A	Fénicie_None
+
+potahmo_D	potažmo_None
+
+gobelín_N	goblén_None
+
+skřehotat_V	skřečet_None
+
+řez_N	řezání_None
+
+roláda_N	ruláda_None
+
+Ječmínek_N	ječmínek_None
+
+Venca_N	Véna_None
+
+zálezelský_A	Zálezly_None
+
+výslaz_N	výslad_None
+
+žulit_V	šulit_None
+
+zajouch_N	zajíc_None
+
+Brňák_N	Brňan_None
+
+Lothar_N	Lotar_None
+
+pražský_A	Praha_None
+
+bordeaux_N	Bordeaux_None
+
+Rudýnek_N	Ruda_None
+
+větérec_N	větérek_None
+
+popředu_D	příst_None
+
+Bosna_N	Bosňák_None
+
+přísavný_A	přisání_None
+
+gobijský_A	Gobi_None
+
+ožera_N	obžera_None
+
+vizuální_A	visuální_None
+
+čmáranec_N	čáranec_None
+
+podpaždí_N	podpaží_None
+
+parasympatický_A	parasympatikus_None
+
+mokřad_N	mokřaď_None
+
+stíží_D	stěží_None
+
+imobilární_A	imobilie_None
+
+zchytrat_V	zchytřet_None
+
+ovruba_N	obruba_None
+
+vídrholec_N	vidrholec_None
+
+pikolovat_V	pikat_None
+
+bandor_N	bandur_None
+
+vykoulit_V	vykulit_None
+
+vojevoda_N	vojvoda_None
+
+pavláčka_N	pavlač_None
+
+mešuge_A	mišuge_None
+
+Kbely_N	Gbely_None
+
+rafika_N	rafije_None
+
+zbojce_N	zbůjce_None
+
+vakant_N	vagant_None
+
+kašpar_N	Kašpar_None
+
+Cecilka_N	Cecílie_None
+
+vřetenovky_N	vřetenky_None
+
+bosky_D	bosý_None
+
+střiž_N	stříž_None
+
+bandonium_N	bandoneon_None
+
+přemnohý_A	mnohý_None
+
+vochlovna_N	vochlírna_None
+
+pronik_N	průnik_None
+
+perový_A	pérový_None
+
+kopule_N	kupole_None
+
+hlásný_A	hlášení_None
+
+kolo_N	dokola_None
+
+Medník_N	medník_None
+
+šárat_V	šátrat_None
+
+budget_N	budžet_None
+
+ramplovat_V	rumplovat_None
+
+zpráchnilý_A	zpráchnivět_None
+
+řada_N	řádek_None
+
+tulení_A	tuleň_None
+
+zlejduch_N	zloduch_None
+
+Moldávie_N	Moldavsko_None
+
+prajzský_A	Prajz_None
+
+Uran_N	uran_None
+
+Švejcar_N	Švýcar_None
+
+čínský_A	Čína_None
+
+zpanchartělý_A	zparchantělý_None
+
+kora_N	kůra_None
+
+vstoje_D	stojací_None
+
+předkomůrka_N	předkomora_None
+
+vystoupit_V	vstoupit_None
+
+taky_D	také_None
+
+kroužkovitý_A	kroužek_None
+
+offside_N	ofsajd_None
+
+půlměsíčkovitý_A	půlměsíc_None
+
+kapinku_D	kapku_None
+
+vrápka_N	vrap_None
+
+micka_N	míca_None
+
+prozkum_N	průzkum_None
+
+vypouklý_A	vypuklý_None
+
+pangejt_N	panket_None
+
+vagotonik_N	vagotonie_None
+
+ňouma_N	ňuma_None
+
+kraťounký_A	krátký_None
+
+habrůvecký_A	Habrůvka_None
+
+vidličnatý_A	vidlicovitý_None
+
+damašek_N	Damašek_None
+
+přepěťový_A	přepětí_None
+
+vývrať_N	vývrat_None
+
+zakvádlovat_V	zakvadlat_None
+
+dřevořezbářství_N	dřevořez_None
+
+skopský_A	Skopje_None
+
+půlkilovka_N	půlkilo_None
+
+herkules_N	Herkules_None
+
+virčoft_N	virčaft_None
+
+patronace_N	patronance_None
+
+direktoriát_N	direktorát_None
+
+přeostrý_A	ostrý_None
+
+jednoručka_N	jednoruký_None
+
+cukrle_N	cukrátko_None
+
+oukrop_N	úkrop_None
+
+prolom_N	průlom_None
+
+vyhubělý_A	vyhublý_None
+
+vybřeskovat_V	vyvřeskovat_None
+
+bezesporu_D	bezesporný_None
+
+embryonální_A	embryo_None
+
+corpus_N	korpus_None
+
+výsměvný_A	vysměvačný_None
+
+dostatek_N	sdostatek_None
+
+mateří_A	mateřídouška_None
+
+lůžko_N	lože_None
+
+fortuna_N	Fortuna_None
+
+Olomoučan_N	Olomouc_None
+
+vydřina_N	vydrovina_None
+
+odekdy_D	odkdy_None
+
+šmirglpapír_N	šmirgl_None
+
+Řehůřek_N	Řehoř_None
+
+Polsko_N	polský_None
+
+znenadále_D	znenadála_None
+
+libidinózní_A	libido_None
+
+goliáš_N	Goliáš_None
+
+Pavel_N	Pavlína_None
+
+zpomalounka_D	zpomaloučka_None
+
+zardělky_N	zarděnky_None
+
+gemma_N	gema_None
+
+Vilém_N	Vilím_None
+
+hrobkovací_A	hrůbkovací_None
+
+sajga_N	sajka_None
+
+velblouďátko_N	velbloudě_None
+
+Mexikán_N	Mexiko_None
+
+Uhry_N	Uher_None
+
+přeukrutný_A	ukrutný_None
+
+haše_N	hašé_None
+
+pokradmu_D	pokradmý_None
+
+Irčan_N	Ir_None
+
+verkštat_N	verštat_None
+
+robinson_N	Robinson_None
+
+poznenáhlý_A	ponenáhlý_None
+
+zvenka_D	zvenčí_None
+
+Blažka_N	Bláža_None
+
+humenský_A	Humenné_None
+
+palír_N	polír_None
+
+Zličan_N	Zlicko_None
+
+dumper_N	dampr_None
+
+bezzvuký_A	bezezvučný_None
+
+bezmraký_A	bezmračný_None
+
+třapec_N	střapec_None
+
+Otokar_N	Otakar_None
+
+Kapsko_N	kapský_None
+
+lumpenproletář_N	lumpenproletariát_None
+
+Itálie_N	Ital_None
+
+vídenče_N	vídeňátko_None
+
+vyoslit_V	vyvoslit_None
+
+pisánský_A	Pisa_None
+
+rekovný_A	rek_None
+
+průseč_N	průsek_None
+
+vařejka_N	vařeka_None
+
+fatranský_A	Fatra_None
+
+Pragovka_N	pragovka_None
+
+zrnečkovitý_A	zrníčkovitý_None
+
+Oluška_N	Olina_None
+
+sem_D	semhle_None
+
+přívěšek_N	přívěsek_None
+
+zpolodarmo_D	zpolodarma_None
+
+čerchmant_N	čechman_None
+
+Dněprostroj_N	Dněpr_None
+
+Velkobrit_N	Velká_None
+
+nejenom_D	nejen_None
+
+Saša_N	Sáša_None
+
+dombra_N	domra_None
+
+komatózní_A	kóma_None
+
+čucha_N	čúcha_None
+
+vyhubenělý_A	vyhubělý_None
+
+povětšinou_D	povětšině_None
+
+vlašťověnka_N	vlaštovka_None
+
+budulínek_N	Budulínek_None
+
+prďola_N	prďoch_None
+
+šprtek_N	šprček_None
+
+manierismus_N	manýrismus_None
+
+Sněžka_N	sněžka_None
+
+kararský_A	Carrara_None
+
+prstka_N	prsť_None
+
+Tonda_N	Tonča_None
+
+bystrozrace_D	bystrozrak_None
+
+otépka_N	otýpka_None
+
+muslim_N	musulman_None
+
+vařeka_N	vařečka_None
+
+galilejský_A	Galilea_None
+
+vanilie_N	vanilka_None
+
+nožař_N	nožíř_None
+
+vardajn_N	vardejn_None
+
+přítlačný_A	přitlačování_None
+
+provincionální_A	provinční_None
+
+Arábie_N	Arab_None
+
+napatý_A	napjatý_None
+
+včála_N	včela_None
+
+žežhulenka_N	žežulka_None
+
+zestrejcovatět_V	zestrýcovatět_None
+
+způsob_N	nezpůsob_None
+
+knoflikářství_N	knoflíkářství_None
+
+spájedlo_N	spáječka_None
+
+mizet_V	lézt_None
+
+Oldra_N	Olda_None
+
+střelný_A	střelit_None
+
+překrátký_A	krátký_None
+
+Mírek_N	Mirek_None
+
+skrovničce_D	skrovňoučký_None
+
+brousírna_N	brusírna_None
+
+ševčík_N	švec_None
+
+zemlbába_N	semlbába_None
+
+tarantula_N	tarantela_None
+
+špakát_N	špagát_None
+
+konzola_N	konsola_None
+
+vyskeřit_V	vyškeřit_None
+
+trošininku_D	troška_None
+
+japonka_N	Japonka_None
+
+byznys_N	business_None
+
+vzkřekat_V	vzkřek_None
+
+pinzeta_N	pinseta_None
+
+viska_N	whisky_None
+
+petrohradský_A	Petrohrad_None
+
+srbocharvátský_A	srbochorvatský_None
+
+glot_N	klot_None
+
+smrticí_A	usmrcení_None
+
+impérium_N	imperiální_None
+
+zdomácnět_V	udomácnět_None
+
+učníček_N	učnice_None
+
+rámě_N	rameno_None
+
+urlaub_N	urláb_None
+
+říjenisko_N	říjiště_None
+
+žehavka_N	žahavka_None
+
+honem_D	hon_None
+
+zmužný_A	zmužilý_None
+
+potřebí_D	potřeba_None
+
+luza_N	lůza_None
+
+jagellonský_A	Jagello_None
+
+kotrmelec_N	kozelec_None
+
+veveřina_N	veverčina_None
+
+zárovno_D	zarovno_None
+
+vblízce_D	vblízku_None
+
+srdečkový_A	srdíčko_None
+
+žaberní_A	žábra_None
+
+záplatkář_N	záplatář_None
+
+umělec_N	neumělec_None
+
+Theodor_N	Teodor_None
+
+španěl_N	Španěl_None
+
+oblizovat_V	olizovat_None
+
+sparťan_N	Sparťan_None
+
+serafín_N	seraf_None
+
+kolébavka_N	kolíbavka_None
+
+vojáčkovství_N	vojáčkování_None
+
+Rozina_N	Róza_None
+
+trandat_V	trajdat_None
+
+přelaskavý_A	laskavý_None
+
+habří_A	habroví_None
+
+zakančit_V	zakaňkat_None
+
+hlásný_N	hlášení_None
+
+kontribučenský_A	kontribuce_None
+
+kuba_N	Kuba_None
+
+mlází_N	mládí_None
+
+bezezvučný_A	bezzvuký_None
+
+zkejsnout_V	zkysnout_None
+
+Viléma_N	Vilím_None
+
+mimoňský_A	Mimoň_None
+
+zakřivlý_A	zakřivený_None
+
+borta_N	porta_None
+
+zlehoučka_D	zlehýnka_None
+
+zmládí_D	zmlada_None
+
+konstantinopolský_A	Konstantinopol_None
+
+heroický_A	héros_None
+
+kavárna_N	velkokavárna_None
+
+donchuán_N	Don_None
+
+tokajské_N	Tokaj_None
+
+vřeteň_N	vřeteno_None
+
+zdrávkat_V	zdravkat_None
+
+Zdenčinka_N	Zdeňka_None
+
+askorbový_A	askorbinový_None
+
+sejf_N	sejp_None
+
+vtipkař_N	vtipkář_None
+
+veseloherník_N	veselohra_None
+
+leč_N	léč_None
+
+ještěřice_N	ještěrka_None
+
+Katinka_N	Katy_None
+
+vysíkat_V	vysekávat_None
+
+procesuální_A	proces_None
+
+yorkshirský_A	Yorkshire_None
+
+zhybák_N	zibák_None
+
+vězníček_N	vězeň_None
+
+pápěří_N	pápěra_None
+
+příměrný_A	příměří_None
+
+percentuální_A	procentuální_None
+
+žlíbek_N	žlab_None
+
+pankejt_N	panket_None
+
+zafajfčit_V	zafajčit_None
+
+šachmat_N	šach_None
+
+vřetánko_N	vřeténko_None
+
+lipoid_N	lipid_None
+
+koncertantní_A	koncert_None
+
+nocturno_N	nokturno_None
+
+xenofontovský_A	xenofontský_None
+
+zuzka_N	Zuzka_None
+
+adoptace_N	adopce_None
+
+žakarový_A	žakár_None
+
+zlom_N	zlomený_None
+
+Horák_N	horák_None
+
+sobík_N	sobec_None
+
+nynčko_D	nyčko_None
+
+Mefistofeles_N	Mefisto_None
+
+zoufalivý_A	zoufalý_None
+
+alpínum_N	alpinum_None
+
+škůdný_A	škodný_None
+
+Řipsko_N	Říp_None
+
+zemlanka_N	zemljanka_None
+
+černokněžný_A	černokněz_None
+
+milánek_N	miláček_None
+
+Svatopluk_N	Svata_None
+
+Jarča_N	Jarda_None
+
+substanciální_A	substance_None
+
+vyprat_V	přeprat_None
+
+zášer_N	zášeří_None
+
+bohapustý_A	bohopustý_None
+
+zvěřena_N	zvířena_None
+
+protein_N	proteid_None
+
+přimáčknout_V	přivalit_None
+
+vinný_A	víno_None
+
+Pražan_N	Praha_None
+
+Lužičan_N	Lužice_None
+
+olivinický_A	olivín_None
+
+florin_N	florén_None
+
+valdhornista_N	valdhorna_None
+
+diminutivní_A	deminutivum_None
+
+upínač_N	rychloupínací_None
+
+onomatopoion_N	onomatopoie_None
+
+závrať_N	závrativý_None
+
+štrúzok_N	štrozok_None
+
+kebule_N	chebule_None
+
+prima_D	primisima_None
+
+prvý_A	první_None
+
+Otylka_N	Otýlie_None
+
+tuberkulínový_A	tuberkulin_None
+
+čmachtanice_N	čvachtanice_None
+
+šnurbártek_N	šnurbart_None
+
+prostřih_N	průstřih_None
+
+glagolský_A	hlaholský_None
+
+zarmutlivý_A	zármutný_None
+
+zákolesník_N	zákolník_None
+
+bílkovitý_A	bílkovina_None
+
+perlinka_N	perlička_None
+
+velterový_A	welterový_None
+
+plína_N	plena_None
+
+žmoulat_V	drmolit_None
+
+plzeňské_N	Plzeň_None
+
+Durynsko_N	Durynk_None
+
+celestin_N	Celestin_None
+
+šlápůtka_N	šlápota_None
+
+krevnatý_A	plnokrevník_None
+
+víryhodný_A	věrohodný_None
+
+post_N	půst_None
+
+ekvatoriální_A	ekvátor_None
+
+pocestný_N	pocestní_None
+
+Helada_N	Hellas_None
+
+tremp_N	tramp_None
+
+prvoligový_A	první_None
+
+hlinitý_A	hlína_None
+
+konfesijní_A	konfese_None
+
+jatecký_A	jatky_None
+
+žíhavka_N	žihavka_None
+
+Provensálec_N	Provence_None
+
+švadrona_N	škadrona_None
+
+diminutivum_N	deminutivum_None
+
+štěrkopískovna_N	štěrkopísek_None
+
+pahejl_N	pahýl_None
+
+fabričný_A	fabrika_None
+
+voňadlo_N	vonidlo_None
+
+ostrožský_A	ostroh_None
+
+dělobuch_N	dělbuch_None
+
+kreozot_N	kreosot_None
+
+řimbuk_N	řimbuch_None
+
+lucerka_N	lucina_None
+
+konzistence_N	konsistence_None
+
+persekuce_N	perzekuce_None
+
+manžestr_N	manšestr_None
+
+vašek_N	Vašek_None
+
+čuchat_V	čichat_None
+
+bantovat_V	buntovat_None
+
+jehněcí_A	jehněčí_None
+
+žvastat_V	žvástat_None
+
+bijásek_N	biják_None
+
+kůžkař_N	kožkář_None
+
+zlýduch_N	zloduch_None
+
+torero_N	toreador_None
+
+zobecnět_V	zpovšechnět_None
+
+vrčavý_A	vrčivý_None
+
+vejpůli_D	vejpůl_None
+
+přihořívat_V	hořet_None
+
+vřesknout_V	vřískat_None
+
+expozitura_N	expositura_None
+
+prosvit_N	průsvit_None
+
+průstup_N	prostup_None
+
+mýtský_A	mýto_None
+
+oxford_N	Oxford_None
+
+xantipa_N	Xantipa_None
+
+Magdalenka_N	Magdaléna_None
+
+pronájemce_N	pronajímatel_None
+
+řinčet_V	drčet_None
+
+slépka_N	slípka_None
+
+vřeten_N	vřeteň_None
+
+následek_N	konsekvence_None
+
+vinč_N	vinš_None
+
+krápě_N	krápěj_None
+
+klíh_N	klih_None
+
+ústavověrný_A	ústavověrec_None
+
+kat_N	sekat_None
+
+zpovolna_D	zpovlovna_None
+
+otisk_N	obtisk_None
+
+mejdlíčko_N	mýdlo_None
+
+jakživ_A	jaktěživ_None
+
+zrabiátnit_V	zrabiátnět_None
+
+odkap_N	okap_None
+
+blata_N	Blata_None
+
+mladičký_A	mladý_None
+
+šejch_N	šejk_None
+
+vydřepávat_V	vydřepět_None
+
+spíž_N	špíž_None
+
+pacifik_N	Pacifik_None
+
+voštinatý_A	voští_None
+
+roznemoci_V	moci_None
+
+perný_A	pernatý_None
+
+záhumenní_A	záhumní_None
+
+vraštička_N	vráska_None
+
+tarantule_N	tarantela_None
+
+ajznboňák_N	ajznpoňák_None
+
+parátní_A	separát_None
+
+Fries_N	Frís_None
+
+ušklebavý_A	ušklíbavý_None
+
+fars_N	farce_None
+
+čerkeský_A	Čerkes_None
+
+kupectvo_N	knihkupec_None
+
+vozotaj_N	vozataj_None
+
+začmoudlý_A	začoudlý_None
+
+amoleta_N	omeleta_None
+
+pompézní_A	pompa_None
+
+janek_N	Janek_None
+
+mythický_A	mytický_None
+
+slovacikum_N	slovenikum_None
+
+budžet_N	budget_None
+
+zápěnka_N	zápinka_None
+
+Rakušan_N	Rakousko_None
+
+zaškviknout_V	zaškvěknout_None
+
+sluník_N	slunečník_None
+
+bouloňský_A	Boulogne_None
+
+satyriáza_N	satyriasis_None
+
+lakýrna_N	lakovna_None
+
+Australan_N	Austrálie_None
+
+závětný_A	závěť_None
+
+převeselý_A	veselý_None
+
+Ferdyš_N	Ferda_None
+
+ústup_N	odstup_None
+
+titán_N	Titán_None
+
+mystérie_N	mystérium_None
+
+tablo_N	tabló_None
+
+horkovzdušný_A	horký_None
+
+přesypný_A	přesypávání_None
+
+tropikal_N	tropiko_None
+
+existencionální_A	existenciální_None
+
+Antichrist_N	Antikrist_None
+
+pořez_N	pořízek_None
+
+začmudlý_A	začoudlý_None
+
+urbariálný_A	urbární_None
+
+vingl_N	vinkl_None
+
+Slovena_N	Slovák_None
+
+prokop_N	průkop_None
+
+madras_N	Madrás_None
+
+provinční_A	provincialismus_None
+
+hradecký_A	hradec_None
+
+pobručívat_V	pobručovat_None
+
+supremacie_N	supremace_None
+
+prsíčka_N	prsa_None
+
+syřišťový_A	syřiště_None
+
+vybíjaný_A	vybíjený_None
+
+záslužička_N	zásluha_None
+
+vyprávka_N	vyprávění_None
+
+fantomatický_A	fantóm_None
+
+berunka_N	beroušek_None
+
+paradoxon_N	paradox_None
+
+vysokanánsko_D	vysokánský_None
+
+kaberňák_N	kabrňák_None
+
+kyblík_N	kýbl_None
+
+činěnice_N	čina_None
+
+sodoma_N	Sodoma_None
+
+cerber_N	Cerber_None
+
+pakfong_N	pakfon_None
+
+nadvládní_A	návladní_None
+
+záhumek_N	záhumní_None
+
+pudrovačka_N	pudrátko_None
+
+zalihotat_V	zaligotat_None
+
+jagellovský_A	jagellonský_None
+
+hřebílko_N	hřbílko_None
+
+Lahore_N	Láhaur_None
+
+svetýrek_N	svetr_None
+
+švýcar_N	Švýcar_None
+
+Julínek_N	Julius_None
+
+prstýnek_N	prsten_None
+
+zrnéčko_N	zrno_None
+
+fetální_A	fétus_None
+
+tiský_A	Tisa_None
+
+Est_N	Estonec_None
+
+Janoš_N	Jánoš_None
+
+úplatnictví_N	úplatkářství_None
+
+plavečky_N	plavky_None
+
+pramen_N	vypramenit_None
+
+konkvistador_N	conquistador_None
+
+nůsek_N	nos_None
+
+konzument_N	konsument_None
+
+bodovka_N	bodovačka_None
+
+batumský_A	Batumi_None
+
+rozcmrndat_V	cmrndat_None
+
+nakladač_N	nakládač_None
+
+daremný_A	darebný_None
+
+osmistopý_A	osmistěn_None
+
+magacín_N	magazín_None
+
+beroušek_N	berunka_None
+
+cechovna_N	cáchovna_None
+
+vojačit_V	vojančina_None
+
+Kolobřeh_N	Kolobrzeg_None
+
+kolegyňka_N	kolega_None
+
+hlomoz_N	lomoz_None
+
+okruh_N	okruží_None
+
+peer_N	pair_None
+
+proběh_N	průběh_None
+
+ozembouch_N	vozembouch_None
+
+kalmuk_N	Kalmyk_None
+
+židověnka_N	židovečka_None
+
+havana_N	Havana_None
+
+jak_N	jakž_None
+
+Brňan_N	Brno_None
+
+dispenzář_N	dispensář_None
+
+přemístit_V	přehrnout_None
+
+ruka_N	rukoudání_None
+
+soukárna_N	sukárna_None
+
+apotéka_N	apatyka_None
+
+nežid_N	Nežid_None
+
+výhrůžka_N	vyhrůžka_None
+
+stebélko_N	stéblo_None
+
+nedorozumění_N	dorozumět_None
+
+ženc_N	žnec_None
+
+všudybýlek_N	všudybyl_None
+
+památka_N	památný_None
+
+ztuchlotina_N	ztuchlota_None
+
+vyžíranda_N	vyžírka_None
+
+velkoměšťačka_N	velkoměsto_None
+
+vyblebtnout_V	vybleptnout_None
+
+ztamtad_D	ztamtud_None
+
+meningeální_A	meninga_None
+
+egalizace_N	egalisace_None
+
+oktávie_N	Oktávie_None
+
+šprusel_N	šprycl_None
+
+zářecký_A	zářečí_None
+
+zmilitký_A	zmilený_None
+
+neón_N	neon_None
+
+Vladěk_N	Vladík_None
+
+vraňátko_N	vráně_None
+
+kelim_N	kilim_None
+
+šilhat_V	pošilhávat_None
+
+přaztička_N	přezka_None
+
+podřízený_N	podřídit_None
+
+tapiserie_N	tapisérie_None
+
+konfekcionářský_A	konfekcionář_None
+
+souchoty_N	souchotiny_None
+
+zludračet_V	zludračit_None
+
+Podhradí_N	podhradí_None
+
+zuzana_N	zuzka_None
+
+plecí_A	pletí_None
+
+welterový_A	velterový_None
+
+Alsasan_N	Alsasko_None
+
+furnýr_N	fornýr_None
+
+privilej_N	privilegium_None
+
+prohlídka_N	přehlídka_None
+
+kanýr_N	karnýr_None
+
+jaternička_N	jitrnice_None
+
+zadumlý_A	zádumný_None
+
+polo_D	dopola_None
+
+baryton_N	basbaryton_None
+
+jinováč_N	jinovatka_None
+
+záští_N	zášť_None
+
+žblabunit_V	žblabolit_None
+
+krupný_A	kroupa_None
+
+naznat_V	znát_None
+
+návlečka_N	návlačka_None
+
+champion_N	šampión_None
+
+Ostravsko_N	Ostrava_None
+
+karmelitka_N	karmelitán_None
+
+Tatrovka_N	tatrovka_None
+
+sluneční_A	slunce_None
+
+rudohlavý_A	rudohlávek_None
+
+jesen_N	jasan_None
+
+zasilatelský_A	zasílatel_None
+
+normanský_A	Norman_None
+
+záprdek_N	záprtek_None
+
+Javánec_N	Jáva_None
+
+přepodivný_A	podivný_None
+
+vysměvavý_A	vysmívat_None
+
+sněhurka_N	Sněhurka_None
+
+nazpátky_D	nazpět_None
+
+rohlíčkář_N	rohlíkář_None
+
+dohola_D	holý_None
+
+Zima_N	zima_None
+
+prašulky_N	prašule_None
+
+půnebí_N	podnebí_None
+
+svažný_A	svážný_None
+
+registr_N	rejstřík_None
+
+zdrava_N	strava_None
+
+vkrátce_D	nakrátko_None
+
+zarputilý_A	urputný_None
+
+balza_N	balsa_None
+
+důle_N	zdůli_None
+
+prostředí_N	tajnost_None
+
+postupimský_A	Postupim_None
+
+vyslipovat_V	vyslípat_None
+
+kanada_N	Kanada_None
+
+povláček_N	povlak_None
+
+škýz_N	skýz_None
+
+zpolehoučku_D	zpolehounka_None
+
+nadace_N	nadání_None
+
+tudy_D	tady_None
+
+Mája_N	Majka_None
+
+Olga_N	Olina_None
+
+Polabí_N	Polaban_None
+
+Márynka_N	Maryna_None
+
+afélium_N	afel_None
+
+vyšklibovat_V	vyšklebit_None
+
+moravní_A	Morava_None
+
+kalvárie_N	Kalvárie_None
+
+pluton_N	Pluto_None
+
+přejemný_A	jemný_None
+
+tříčtvrtka_N	tříčtvrteční_None
+
+náhoda_N	nahodilost_None
+
+zlaťounký_A	zlatičký_None
+
+Sváťa_N	Svata_None
+
+švejk_N	Švejk_None
+
+zlatolesklý_A	zlatolesk_None
+
+maloučko_D	malounko_None
+
+třída_N	střída_None
+
+rozkvět_N	výkvět_None
+
+wagnerismus_N	wagnerianismus_None
+
+voračka_N	oračka_None
+
+rudimentální_A	rudimentární_None
+
+sarkastik_N	sarkasta_None
+
+holandka_N	holanďanka_None
+
+hubeňous_N	hubeňour_None
+
+virginál_N	virginal_None
+
+Žalov_N	žalov_None
+
+konstituce_N	konstrukce_None
+
+amerika_N	Amerika_None
+
+zálibůstka_N	záliba_None
+
+chechot_N	chechtot_None
+
+šístka_N	šesták_None
+
+Ceylon_N	Cejlon_None
+
+Španiel_N	Španěl_None
+
+Sněžník_N	sněžník_None
+
+nadevšecko_D	nadevše_None
+
+zdědkovatět_V	dědkovatět_None
+
+inertní_A	inercie_None
+
+zdřepnělý_A	zdřepěný_None
+
+Litice_N	litice_None
+
+šťouchat_V	šťuchat_None
+
+rozžínat_V	rozžíhat_None
+
+sednice_N	světnice_None
+
+uherština_N	uherčina_None
+
+spodek_N	spodky_None
+
+mančaft_N	manšaft_None
+
+ovčička_N	ovečka_None
+
+ziskulačnictví_N	ziskulačný_None
+
+zástřeška_N	zástřeší_None
+
+vrbí_A	vrboví_None
+
+Franci_N	Franc_None
+
+típek_N	tipec_None
+
+vyšklebačný_A	vyšklíbačný_None
+
+šestispřežení_N	šestispřeží_None
+
+lepota_N	lepost_None
+
+tajtrdlík_N	tajtrlík_None
+
+přemet_N	přemetnout_None
+
+ohmat_N	pohmat_None
+
+klubat_V	klovat_None
+
+zněmčenec_N	zněmčilec_None
+
+vejměník_N	výměník_None
+
+cyrilice_N	kyrilice_None
+
+kozák_N	kozačka_None
+
+Eduard_N	Edvard_None
+
+komplement_N	kompliment_None
+
+tibet_N	Tibet_None
+
+uchroupnout_V	uchrupnout_None
+
+nákupce_N	nákupčí_None
+
+kolínský_A	Kolín_None
+
+bezvýminečný_A	bezvýjimečný_None
+
+vochtrovna_N	vechtrovna_None
+
+žďabec_N	ždibec_None
+
+pel_N	pyl_None
+
+letoucí_A	léto_None
+
+lázeňský_N	lázně_None
+
+pochichtávat_V	pochechtávat_None
+
+ochomejtat_V	ochomýtat_None
+
+Davídek_N	David_None
+
+kuzbaský_A	Kuzbas_None
+
+vavřinčák_N	vavřiňák_None
+
+vytřípat_V	vytřepávat_None
+
+sklínka_N	sklenice_None
+
+průchodicí_A	průchodní_None
+
+převeliký_A	velký_None
+
+neznání_N	znát_None
+
+chlejstat_V	chlístat_None
+
+skřínečka_N	skříň_None
+
+židovečka_N	Žid_None
+
+zaklenec_N	zakletec_None
+
+litoměřický_A	Litoměřice_None
+
+Podolí_N	podolí_None
+
+výletit_V	výletovat_None
+
+opozičník_N	oposičník_None
+
+roztěrač_N	roztírací_None
+
+turek_N	Turek_None
+
+synagogální_A	synagóga_None
+
+plstní_A	plsní_None
+
+ledaskam_D	ledakam_None
+
+balista_N	basketbal_None
+
+žbrunda_N	žbrynda_None
+
+vasomotorický_A	vázomotorický_None
+
+zfotrovatět_V	fotrovatět_None
+
+punkt_N	puntík_None
+
+jeř_N	jař_None
+
+tarbúš_N	tarbuš_None
+
+vědárko_N	vědro_None
+
+lechtivý_A	lechtat_None
+
+dolézavý_A	dolízavý_None
+
+kananejský_A	Kanaán_None
+
+šupka_N	slupka_None
+
+odevřít_V	otevřít_None
+
+pochlebenství_N	pochlebnictví_None
+
+jev_N	najevo_None
+
+vybulat_V	vybulit_None
+
+závidný_A	záviděníhodný_None
+
+apatyka_N	apotéka_None
+
+švagřička_N	švagr_None
+
+Jura_N	jura_None
+
+uzdravitelkyně_N	uzdravitel_None
+
+kolna_N	kůlna_None
+
+kozle_N	kůzle_None
+
+Poťomkin_N	Potěmkin_None
+
+vojenčina_N	vojančina_None
+
+sorbet_N	šerbet_None
+
+přeúrodný_A	úrodný_None
+
+dehydrace_N	dehydratace_None
+
+vrahoušek_N	vrah_None
+
+jikernáč_N	jikrnáč_None
+
+nepomíjejícnost_N	nepomíjivý_None
+
+daleký_A	zdaleka_None
+
+poznenáhlu_D	ponenáhlu_None
+
+rabí_N	rabín_None
+
+arzenál_N	arsenál_None
+
+křám_N	křáp_None
+
+obhlížet_V	ohlížet_None
+
+lehýnký_A	lehoučký_None
+
+pomoc_N	výpomoc_None
+
+palladium_N	paládium_None
+
+Edmond_N	Edmund_None
+
+Zdenička_N	Zdeňka_None
+
+přehmat_N	přehmátnout_None
+
+drajv_N	drive_None
+
+vyšpánkovat_V	vyšpánovat_None
+
+chomáč_N	chumáč_None
+
+Augustin_N	Gustav_None
+
+safesový_N	safe_None
+
+Západoevropan_N	západní_None
+
+isomer_N	izomer_None
+
+zaloktat_V	zalechtat_None
+
+puklička_N	poklice_None
+
+perychta_N	perchta_None
+
+veselový_A	veselí_None
+
+přítma_N	přítmí_None
+
+chválabohu_D	chvála_None
+
+třasavisko_N	třasovisko_None
+
+Porýnsko_A	Porýní_None
+
+Aljoša_N	Alexej_None
+
+lexikální_A	lexikon_None
+
+vpodvečer_D	podvečer_None
+
+donkichot_N	Don_None
+
+mincovní_A	mince_None
+
+drakónský_A	drakonický_None
+
+porost_N	porostlina_None
+
+brestský_A	Brest_None
+
+Kazachstán_N	Kazach_None
+
+přeochotný_A	ochotný_None
+
+Madla_N	Magdaléna_None
+
+Edvard_N	Eda_None
+
+pertuse_N	pertusis_None
+
+okcipitální_A	okcidentální_None
+
+Eliška_N	Ela_None
+
+idololatrie_N	idolatrie_None
+
+Chorvat_N	Charvát_None
+
+trojník_N	troník_None
+
+Pepíček_N	Pepička_None
+
+pláštíček_N	plášť_None
+
+opak_N	naopak_None
+
+třířadovka_N	trojřad_None
+
+matický_A	matika_None
+
+chýže_N	chyže_None
+
+třísměnný_A	trojsměna_None
+
+vejprava_N	výprava_None
+
+ahasver_N	Ahasver_None
+
+kostřec_N	kostrč_None
+
+vápínko_N	vápno_None
+
+anšovička_N	ančovička_None
+
+Muhamed_N	Mohamed_None
+
+harenda_N	arenda_None
+
+presenilní_A	presenium_None
+
+Jarda_N	Jára_None
+
+talián_N	Talián_None
+
+kamp_N	camp_None
+
+vyblemtnout_V	vybleptnout_None
+
+rabiát_N	rabiák_None
+
+liberál_N	liberalista_None
+
+jahelný_A	jáhla_None
+
+dávný_A	odedávna_None
+
+triko_N	trikot_None
+
+zavírka_N	závěrka_None
+
+pravý_A	doprava_None
+
+orezivělý_A	orezavělý_None
+
+začátník_N	začátečník_None
+
+venuše_N	Venuše_None
+
+řepeniště_N	řepiště_None
+
+vřeskot_N	vřískot_None
+
+novorozeneček_N	novorozeně_None
+
+doliňák_N	dolinář_None
+
+lydický_A	Lýdie_None
+
+kotletky_N	kotleta_None
+
+jaktěživ_A	jakživ_None
+
+prvorozenectví_N	prvorozenec_None
+
+stojka_N	stovka_None
+
+persistentní_A	perzistence_None
+
+závírka_N	zavírka_None
+
+fagocytóza_N	fagocyt_None
+
+makabejský_A	Makkabi_None
+
+vyslanský_A	vyslanecký_None
+
+sršáň_N	sršán_None
+
+Kopanice_N	kopanice_None
+
+svodnice_N	svůdník_None
+
+sudeťák_N	Sudeťák_None
+
+zločinectvo_N	zločin_None
+
+ráz_N	raz_None
+
+primaciální_A	primas_None
+
+konzistoř_N	konsistoř_None
+
+roztaživý_A	roztažný_None
+
+hmoždíř_N	moždíř_None
+
+podelbí_N	podlebí_None
+
+griliáž_N	griláž_None
+
+živočichozpyt_N	živočichosloví_None
+
+repertář_N	repertorium_None
+
+křoustat_V	křupat_None
+
+peleton_N	peloton_None
+
+dekolté_A	dekoltáž_None
+
+zpěvoherec_N	zpěvohra_None
+
+vraždiště_N	vraždírna_None
+
+propis_N	průpis_None
+
+herakles_N	Hérakles_None
+
+kynismus_N	cynismus_None
+
+pouzdříčko_N	pouzdro_None
+
+skromničce_D	skromňounký_None
+
+žilčinka_N	žíla_None
+
+trapper_N	traper_None
+
+srabárna_N	srabařina_None
+
+ježíšek_N	Ježíšek_None
+
+křík_N	keř_None
+
+kapičku_D	kapku_None
+
+maličkatý_A	malinkatý_None
+
+zpathetičtělý_A	zpatetičtělý_None
+
+den_N	nabíledni_None
+
+ethylether_N	etyléter_None
+
+zouplna_D	zúplna_None
+
+odstavný_A	odstavování_None
+
+Dalmatinka_N	Dalmácie_None
+
+zamlzený_A	zamlžený_None
+
+Bordeaux_N	bordó_None
+
+jubileum_N	jubilovat_None
+
+madona_N	Madona_None
+
+vichor_N	vichr_None
+
+perský_A	Persie_None
+
+Bosňák_N	Bosna_None
+
+zrzoun_N	rezoun_None
+
+umlkat_V	mlknout_None
+
+trpajzlík_N	trpaslík_None
+
+ústředivý_A	ustředit_None
+
+Norvéžsko_N	Nor_None
+
+podorlický_A	Podorlicko_None
+
+viktorie_N	Viktorie_None
+
+šohaj_N	šuhaj_None
+
+Bořivoj_N	Bořek_None
+
+korpuskulární_A	korpuskule_None
+
+naprázdno_D	prázdný_None
+
+empir_N	empír_None
+
+Klenčí_N	Kleneč_None
+
+zahopcovat_V	zahopsat_None
+
+počty_N	počet_None
+
+přírost_N	přírůstek_None
+
+balzám_N	balšám_None
+
+požitkář_N	poživač_None
+
+středohorský_A	středohoří_None
+
+Vševědoucí_N	vševěd_None
+
+Padua_N	Padova_None
+
+řebříček_N	žebříček_None
+
+hopky_D	hupky_None
+
+arzenitý_A	arsenitý_None
+
+Šalamoun_N	Šalomoun_None
+
+čmoudit_V	čoudit_None
+
+znamínko_N	znamení_None
+
+senzál_N	sensál_None
+
+jesaul_N	esaul_None
+
+kníničský_A	Kníničky_None
+
+zpejchnout_V	zpychnout_None
+
+vpoly_D	vpolo_None
+
+přehrozný_A	hrozný_None
+
+verzírovaný_A	versírovaný_None
+
+sterling_N	šterlink_None
+
+rezovatý_A	rezavý_None
+
+mol_N	namol_None
+
+ozev_N	ozva_None
+
+orostlý_A	obrostlý_None
+
+Otilie_N	Otýlie_None
+
+vynadivit_V	nadivit_None
+
+ulejvanda_N	ulejvárna_None
+
+mermomocí_D	mermo_None
+
+papršlek_N	paprsek_None
+
+zbojný_A	zbujný_None
+
+zámět_N	záměť_None
+
+žebříčko_N	žebírko_None
+
+rozvzteklit_V	vzteklit_None
+
+oborávka_N	oorávka_None
+
+zabaranit_V	zaberanit_None
+
+bankocedule_N	bankocetle_None
+
+středeční_A	středa_None
+
+pomaloběžný_A	pomaluběžný_None
+
+oflakovat_V	oflákat_None
+
+hmat_N	chmat_None
+
+židovice_N	Žid_None
+
+udržitel_N	udržovatel_None
+
+sluj_N	sloj_None
+
+žízeň_N	žíznivec_None
+
+lankrabství_N	lankrabě_None
+
+odmalička_D	odmala_None
+
+zvnitra_D	zvnitřku_None
+
+maloměšťanstvo_N	maloměšťan_None
+
+Burma_N	Barma_None
+
+kurt_N	court_None
+
+žernosecké_N	Žernoseky_None
+
+Broček_N	brok_None
+
+vyhledavatel_N	vyhledávatel_None
+
+kumpanie_N	kompanie_None
+
+žid_N	Žid_None
+
+oxygen_N	oxygenium_None
+
+Joza_N	Józa_None
+
+blyskot_N	blýskot_None
+
+kližka_N	klihovka_None
+
+vlasta_N	Vlasta_None
+
+gotajský_A	Gotha_None
+
+skála_N	škála_None
+
+Kalkuta_N	Kalkata_None
+
+umyvadýlko_N	umývadlo_None
+
+škrhola_N	Škrhola_None
+
+pradlář_N	pradlák_None
+
+výkřik_N	vzkřik_None
+
+dcerunka_N	dcera_None
+
+kajetán_N	Kajetán_None
+
+pulírovat_V	polírovat_None
+
+senzitivní_A	sensitivní_None
+
+zdířka_N	zděř_None
+
+zlambidlo_N	slonbidlo_None
+
+próba_N	průba_None
+
+zvolninka_D	zvolňoučka_None
+
+modranský_A	Modra_None
+
+Salomon_N	Šalamoun_None
+
+vajdošek_N	vajda_None
+
+přejný_A	přející_None
+
+gangrenózní_A	gangréna_None
+
+honzík_N	Honza_None
+
+kurfirst_N	kurfiřt_None
+
+plektron_N	plektrum_None
+
+vdávačka_N	vdávalka_None
+
+gremiální_A	grémium_None
+
+Bělorus_N	Bílá_None
+
+zaškvičet_V	zaškvěčet_None
+
+škandál_N	skandál_None
+
+belgický_A	Belgie_None
+
+podpínka_N	podpěnka_None
+
+podezřivý_A	podezřívavý_None
+
+šulit_V	žulit_None
+
+rabbi_N	rabín_None
+
+Blata_N	blata_None
+
+jikernatý_A	jikrnatý_None
+
+krakorec_N	krákorec_None
+
+úřadník_N	úředník_None
+
+větérek_N	vítr_None
+
+žingle_N	žengle_None
+
+sadební_A	sadbový_None
+
+mozolovitý_A	mozolnatý_None
+
+pršiplášť_N	pršák_None
+
+přeopatrný_A	opatrný_None
+
+vzdělanství_N	vzdělanectví_None
+
+ždibánek_N	ždibec_None
+
+vězničný_A	věznický_None
+
+místo_N	pustota_None
+
+syringa_N	syrinx_None
+
+snůpek_N	snopek_None
+
+paragráfek_N	paragraf_None
+
+příštipkařit_V	příštipkovat_None
+
+zádrhel_N	zádrh_None
+
+kosmonoský_A	Kosmonosy_None
+
+kilim_N	kelim_None
+
+záhumení_N	záhumní_None
+
+stoupátko_N	stupátko_None
+
+vzkázka_N	vzkazka_None
+
+ťapkot_N	ťapot_None
+
+praporeční_A	praporový_None
+
+tříšťka_N	tříska_None
+
+kontrfej_N	kontrfaj_None
+
+aspoň_D	alespoň_None
+
+cáchovna_N	cechovna_None
+
+vychytřelý_A	vychytralý_None
+
+foen_N	fén_None
+
+tellurium_N	telurium_None
+
+Dolomity_N	dolomit_None
+
+vulgarizace_N	vulgarismus_None
+
+legrácka_N	legrace_None
+
+neandertálec_N	Neandertal_None
+
+Praděd_N	praděd_None
+
+uběrací_A	ubírací_None
+
+okenice_N	okénečko_None
+
+chřaplavý_A	křaplavý_None
+
+kynik_N	cynik_None
+
+zákrslík_N	zakrslík_None
+
+Aurora_N	aurora_None
+
+numizmatik_N	numismatik_None
+
+Valérie_N	Valinka_None
+
+ženýrovat_V	žinýrovat_None
+
+průvlečný_A	provlékání_None
+
+chrysantéma_N	chryzantéma_None
+
+vachtmajstr_N	vachmistr_None
+
+sunnita_N	sunita_None
+
+Poříčí_N	poříčí_None
+
+tajtrdlíkovat_V	tajtrlíkovat_None
+
+tranzit_N	transit_None
+
+bulbární_A	bulbus_None
+
+uzounký_A	uzounce_None
+
+Ganga_N	Ganges_None
+
+skarabeus_N	skarab_None
+
+sklínečka_N	sklenice_None
+
+Vladínek_N	Vladík_None
+
+zatemněnec_N	zatemnělec_None
+
+ředinký_A	řídký_None
+
+stařina_N	starina_None
+
+zambezský_A	Zambezi_None
+
+rozehnat_V	rozdýchat_None
+
+četyna_N	četina_None
+
+ztumpachovatět_V	ztumpachovět_None
+
+amalgám_N	amalgam_None
+
+zúředničtit_V	zúředničit_None
+
+žleb_N	žlab_None
+
+lípaneček_N	lepanec_None
+
+moritát_N	morytát_None
+
+Slovenka_N	Slovák_None
+
+frnknout_V	frknout_None
+
+Márinka_N	Maryna_None
+
+zmijinský_A	zmijský_None
+
+baborák_N	bavorák_None
+
+abstraktivní_A	abstraktní_None
+
+zadychlý_A	zadýchlý_None
+
+zvětšit_V	zveličit_None
+
+zváhnout_V	váhnout_None
+
+dragant_N	tragant_None
+
+dezinfektor_N	desinfektor_None
+
+pošušňávat_V	pošušňat_None
+
+taneční_N	tanec_None
+
+Šišák_N	šišák_None
+
+ztělesněnec_N	ztělesnitel_None
+
+předaleký_A	daleký_None
+
+slez_N	sléz_None
+
+fángle_N	fangle_None
+
+Sašenka_N	Sáša_None
+
+beduín_N	Beduín_None
+
+velice_D	velký_None
+
+šnops_N	šnaps_None
+
+vášnička_N	vášeň_None
+
+morytát_N	moritát_None
+
+cyperský_A	Kypr_None
+
+ledaskdy_D	ledakdy_None
+
+mefistofelský_A	Mefistofeles_None
+
+tellur_N	telur_None
+
+divizionář_N	divisionář_None
+
+dranc_N	nadranc_None
+
+skýz_N	škýz_None
+
+sudoměřský_A	Sudoměř_None
+
+tábor_N	Tábor_None
+
+střída_N	třída_None
+
+totalitarismus_N	totalismus_None
+
+chování_N	chovat_None
+
+reagencie_N	reagens_None
+
+maršbatalión_N	maršbaťák_None
+
+Atéňan_N	Atény_None
+
+cvrnkot_N	crnkot_None
+
+souhra_N	spoluhra_None
+
+ministerský_A	ministr_None
+
+kutnohorský_A	Kutná_None
+
+dopolovic_D	dopola_None
+
+zákrs_N	zakrslík_None
+
+smrtící_A	smrťoucí_None
+
+kolouš_N	kolouch_None
+
+stotisící_A	sto_None
+
+bolusový_A	bolus_None
+
+celestýn_N	Celestin_None
+
+sklerální_A	skléra_None
+
+grobián_N	krobián_None
+
+vplyv_N	vliv_None
+
+Vincenc_N	Vinca_None
+
+Otakar_N	Otokar_None
+
+žel_N	žal_None
+
+brabec_N	vrabec_None
+
+konzul_N	konsul_None
+
+šrámovitý_A	šrámovaný_None
+
+vychvistnout_V	vychvístnout_None
+
+spektákl_N	špektákl_None
+
+pythagorejec_N	pythagorovec_None
+
+čiřidlo_N	čiřicí_None
+
+zájmeček_N	zájem_None
+
+skot_N	Skot_None
+
+pozejtřek_N	pozítřek_None
+
+hliniště_N	hliník_None
+
+duchovenský_A	duchovní_None
+
+kontoár_N	kontor_None
+
+písárna_N	pisárna_None
+
+madráský_A	Madrás_None
+
+šprýmista_N	šprýmař_None
+
+hloupý_A	přehloupý_None
+
+drabant_N	trabant_None
+
+Zéland_N	novozélandský_None
+
+Vratislav_N	Vráťa_None
+
+záduma_N	zadumanec_None
+
+vejměničný_A	výměničný_None
+
+vorvaňovina_N	vorvanina_None
+
+kolpak_N	kalpak_None
+
+albíčko_N	album_None
+
+helvet_N	helvít_None
+
+role_N	rula_None
+
+jizlivý_A	jízlivý_None
+
+briskní_A	bryskní_None
+
+štucílek_N	štucl_None
+
+žežhulinka_N	žežulka_None
+
+tymián_N	dymián_None
+
+prosmyk_N	průsmyk_None
+
+Jehova_N	Jahve_None
+
+odrodilství_N	odrodilecký_None
+
+gurt_N	kurt_None
+
+lhotecký_A	Lhotka_None
+
+vtipař_N	vtipkář_None
+
+přeuctivý_A	uctivý_None
+
+takořka_D	takřka_None
+
+zdarebatělý_A	zdarebnělý_None
+
+Vlastislav_N	Vlasta_None
+
+fošinkový_A	fošna_None
+
+Vládík_N	Vladík_None
+
+sanskritský_A	sanskrt_None
+
+flegmonózní_A	flegmóna_None
+
+výzkumce_N	výzkumník_None
+
+šemík_N	Šemík_None
+
+uhel_N	uhelnatý_None
+
+třetiřadý_A	podřadný_None
+
+všivajzna_N	všivárna_None
+
+vojevodstvo_N	vojvodstvo_None
+
+propástka_N	propast_None
+
+znak_N	naznak_None
+
+výmyslivý_A	vymýšlivý_None
+
+Hellas_N	Helada_None
+
+pracharanda_N	prachanda_None
+
+nenasytný_A	nenasycený_None
+
+čimánek_N	číman_None
+
+amor_N	Amor_None
+
+projezd_N	průjezd_None
+
+paměť_N	nazpaměť_None
+
+fyskulturník_N	fyskultura_None
+
+Vind_N	Vend_None
+
+žunkat_V	zunkat_None
+
+šprušle_N	šprycl_None
+
+citronan_N	citran_None
+
+přídní_A	příďový_None
+
+třas_N	třes_None
+
+Libyjec_N	Libye_None
+
+Athéňan_N	Atény_None
+
+nyčko_D	nynčko_None
+
+vikarius_N	vikář_None
+
+vojvodkyně_N	vojvoda_None
+
+cherub_N	cherubín_None
+
+Poldinka_N	Poldovka_None
+
+přepečlivý_A	pečlivý_None
+
+vypětí_N	vypnout_None
+
+výhrozný_A	výhrožný_None
+
+hryzení_N	hrýzt_None
+
+soft_A	zoft_None
+
+carevna_N	car_None
+
+rousnatý_A	rousný_None
+
+lyšaj_N	lišaj_None
+
+tolar_N	dolar_None
+
+vyšehrad_N	Vyšehrad_None
+
+vampýr_N	vamp_None
+
+prýt_N	prejt_None
+
+větýrek_N	vítr_None
+
+vápno_N	vápenný_None
+
+zakážka_N	zakázka_None
+
+bílo_N	bělo_None
+
+zkořen_D	kořen_None
+
+muří_A	můří_None
+
+šlachta_N	šlechta_None
+
+litovelský_A	Litovel_None
+
+černotmavý_A	černotemný_None
+
+zábradelní_A	zábradlový_None
+
+prakticírovat_V	praktikovat_None
+
+kopulovitý_A	kupolovitý_None
+
+řásně_N	řásný_None
+
+rozinka_N	hrozinka_None
+
+očihovat_V	očíhnout_None
+
+krk_N	krkatý_None
+
+Kypřan_N	Kypr_None
+
+Lašsko_N	lašský_None
+
+urinózní_A	urin_None
+
+návěstí_N	návěští_None
+
+maliličký_A	malininký_None
+
+chumelice_N	chumelenice_None
+
+široký_A	doširoka_None
+
+zesvětačit_V	zesvětačet_None
+
+blizounký_A	blízký_None
+
+nuselský_A	Nusle_None
+
+upomínavý_A	upomínací_None
+
+anodicky_D	anodický_None
+
+Matěj_N	Matyáš_None
+
+zbahnilý_A	zbahnělý_None
+
+délský_A	Délos_None
+
+vembloud_N	velbloud_None
+
+dispenzní_A	dispens_None
+
+šlechtička_N	šlechtic_None
+
+ženec_N	ženc_None
+
+jednozvuk_N	jednozvučný_None
+
+Hradecko_N	hradec_None
+
+kalup_N	galop_None
+
+Květa_N	Květuše_None
+
+hned_D	hnedle_None
+
+Léna_N	Lenka_None
+
+odjaktěživa_D	odjakživa_None
+
+zavíjačka_N	zavíječka_None
+
+pandur_N	bandur_None
+
+žudérko_N	žudro_None
+
+Bohumír_N	Bohouš_None
+
+bandur_N	bandor_None
+
+vynálezčivý_A	vynalézavý_None
+
+závdanek_N	závdavek_None
+
+stulpna_N	štulpna_None
+
+ošoust_N	ošusta_None
+
+boulevard_N	bulvár_None
+
+nova_N	novum_None
+
+konzistorní_A	konsistoř_None
+
+ceremoniál_N	ceremoniel_None
+
+děrnoštítkový_A	děrný_None
+
+šmatlat_V	šmaťhat_None
+
+pánbíčkářství_N	pámbíčkářství_None
+
+mechtle_N	techtle_None
+
+garde_N	gardedáma_None
+
+šaramantní_A	šarmantní_None
+
+výkrajek_N	výkrojek_None
+
+velkoměšťácký_A	velkoměsto_None
+
+jarmárka_N	jarmara_None
+
+hedžra_N	hidžra_None
+

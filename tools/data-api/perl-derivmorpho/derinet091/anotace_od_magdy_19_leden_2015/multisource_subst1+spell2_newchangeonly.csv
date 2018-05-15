@@ -1,0 +1,1881 @@
+*	kopírovat	kupírování	V-at --> N-ání	CHANGE: o -> u	
+*	kopírovat	kupírování	V-ovat --> N-ování	CHANGE: o -> u	
+					
+*	pokořovat	pokuřování	V-at --> N-ání	CHANGE: o -> u	
+*	pokořovat	pokuřování	V-ovat --> N-ování	CHANGE: o -> u	
+	pokuřovat	pokuřování	V-at --> N-ání		LINK ALREADY PRESENT
+	pokuřovat	pokuřování	V-ovat --> N-ování		LINK ALREADY PRESENT
+					
+*	vybodovat	vybudování	V-at --> N-ání	CHANGE: o -> u	
+*	vybodovat	vybudování	V-ovat --> N-ování	CHANGE: o -> u	
+	vybudovat	vybudování	V-at --> N-ání		LINK ALREADY PRESENT
+	vybudovat	vybudování	V-ovat --> N-ování		LINK ALREADY PRESENT
+					
+*	vylouhovat	vyluhování	V-at --> N-ání	CHANGE: ou -> u	
+*	vylouhovat	vyluhování	V-ovat --> N-ování	CHANGE: ou -> u	
+	vyluhovat	vyluhování	V-at --> N-ání		LINK ALREADY PRESENT
+	vyluhovat	vyluhování	V-ovat --> N-ování		LINK ALREADY PRESENT
+					
+*	vystopovat	vystupování	V-at --> N-ání	CHANGE: o -> u	
+*	vystopovat	vystupování	V-ovat --> N-ování	CHANGE: o -> u	
+	vystupovat	vystupování	V-at --> N-ání		LINK ALREADY PRESENT
+	vystupovat	vystupování	V-ovat --> N-ování		LINK ALREADY PRESENT
+					
+*	zabodovat	zabudování	V-at --> N-ání	CHANGE: o -> u	
+*	zabodovat	zabudování	V-ovat --> N-ování	CHANGE: o -> u	
+	zabudovat	zabudování	V-at --> N-ání		LINK ALREADY PRESENT
+	zabudovat	zabudování	V-ovat --> N-ování		LINK ALREADY PRESENT
+					
+*	dopnout	dupnutí	V-nout --> N-nutí	CHANGE: o -> u	
+*	dopnutý	dupnutí	A-ý --> N-í	CHANGE: o -> u	
+	dupnout	dupnutí	V-nout --> N-nutí		LINK ALREADY PRESENT
+					
+*	sloupnout	slupnutí	V-nout --> N-nutí	CHANGE: ou -> u	
+*	sloupnutý	slupnutí	A-ý --> N-í	CHANGE: ou -> u	
+	slupnout	slupnutí	V-nout --> N-nutí		LINK ALREADY PRESENT
+					
+*	vybouchnout	vybuchnutí	V-nout --> N-nutí	CHANGE: ou -> u	
+*	vybouchnutý	vybuchnutí	A-ý --> N-í	CHANGE: ou -> u	
+	vybuchnout	vybuchnutí	V-nout --> N-nutí		LINK ALREADY PRESENT
+					
+*	bolený	bulení	A-ý --> N-í	CHANGE: o -> u	
+*	bolet	bulení	V-et --> N-ení	CHANGE: o -> u	
+					
+*	bílený	bělení	A-ý --> N-í	CHANGE: í -> ě	
+*	bělený	bělení	A-ý --> N-í		
+	bělet	bělení	V-et --> N-ení		
+					
+*	osoušet	osušení	V-et --> N-ení	CHANGE: ou -> u	
+*	osušený	osušení	A-ý --> N-í		
+					
+*	rozdílet	rozdělení	V-et --> N-ení	CHANGE: í -> ě	
+*	rozdělený	rozdělení	A-ý --> N-í		
+					
+*	sdílený	sdělení	A-ý --> N-í	CHANGE: í -> ě	
+*	sdílet	sdělení	V-et --> N-ení	CHANGE: í -> ě	
+*	sdělený	sdělení	A-ý --> N-í		
+					
+*	skočený	skučení	A-ý --> N-í	CHANGE: o -> u	
+*	skučený	skučení	A-ý --> N-í		
+	skučet	skučení	V-et --> N-ení		
+	skučet	skučení	V-et --> N-ení		LINK ALREADY PRESENT
+					
+*	udílený	udělení	A-ý --> N-í	CHANGE: í -> ě	
+*	udílet	udělení	V-et --> N-ení	CHANGE: í -> ě	
+*	udělený	udělení	A-ý --> N-í		
+					
+*	vysoušený	vysušení	A-ý --> N-í	CHANGE: ou -> u	
+*	vysoušet	vysušení	V-et --> N-ení	CHANGE: ou -> u	
+*	vysušený	vysušení	A-ý --> N-í		
+					
+*	zaskočený	zaskučení	A-ý --> N-í	CHANGE: o -> u	
+	zaskučet	zaskučení	V-et --> N-ení		LINK ALREADY PRESENT
+					
+*	chroupat	chrupání	V-at --> N-ání	CHANGE: ou -> u	
+	chrupat	chrupání	V-at --> N-ání		
+	chrupat	chrupání	V-at --> N-ání		LINK ALREADY PRESENT
+					
+*	kochat	kuchání	V-at --> N-ání	CHANGE: o -> u	
+	kuchat	kuchání	V-at --> N-ání		LINK ALREADY PRESENT
+					
+*	křoupat	křupání	V-at --> N-ání	CHANGE: ou -> u	
+	křupat	křupání	V-at --> N-ání		
+	křupat	křupání	V-at --> N-ání		LINK ALREADY PRESENT
+					
+*	zakoukat	zakukání	V-at --> N-ání	CHANGE: ou -> u	
+	zakukat	zakukání	V-at --> N-ání		LINK ALREADY PRESENT
+					
+*	Bílík	Bělíček	N-k --> N-ček	CHANGE: í -> ě	
+*	Bílík	Bělíček	N-ík --> N-íček	CHANGE: í -> ě	
+					
+*	bodík	budíček	N-k --> N-ček	CHANGE: o -> u	
+*	bodík	budíček	N-ík --> N-íček	CHANGE: o -> u	
+	budík	budíček	N-k --> N-ček		LINK ALREADY PRESENT
+	budík	budíček	N-ík --> N-íček		LINK ALREADY PRESENT
+					
+*	boudník	budníček	N-k --> N-ček	CHANGE: ou -> u	
+*	boudník	budníček	N-ík --> N-íček	CHANGE: ou -> u	
+	budník	budníček	N-k --> N-ček		LINK ALREADY PRESENT
+	budník	budníček	N-ík --> N-íček		LINK ALREADY PRESENT
+					
+*	popík	pupíček	N-k --> N-ček	CHANGE: o -> u	
+*	popík	pupíček	N-ík --> N-íček	CHANGE: o -> u	
+	pupík	pupíček	N-k --> N-ček		LINK ALREADY PRESENT
+	pupík	pupíček	N-ík --> N-íček		LINK ALREADY PRESENT
+					
+*	ročník	ručníček	N-k --> N-ček	CHANGE: o -> u	
+*	ročník	ručníček	N-ík --> N-íček	CHANGE: o -> u	
+	ručník	ručníček	N-k --> N-ček		LINK ALREADY PRESENT
+	ručník	ručníček	N-ík --> N-íček		LINK ALREADY PRESENT
+					
+*	dobový	dubovka	A-ový --> N-ovka	CHANGE: o -> u	
+*	dobový	dubovka	A-ý --> N-ka	CHANGE: o -> u	
+	dubový	dubovka	A-ový --> N-ovka		
+	dubový	dubovka	A-ý --> N-ka		
+					
+*	dílový	dělovka	A-ový --> N-ovka	CHANGE: í -> ě	
+*	dílový	dělovka	A-ý --> N-ka	CHANGE: í -> ě	
+	dělový	dělovka	A-ový --> N-ovka		
+	dělový	dělovka	A-ý --> N-ka		
+					
+*	obloudit	obluzení	V-dit --> N-zení	CHANGE: ou -> u	
+*	obloudit	obluzení	V-dit --> N-zení	CHANGE: ou -> u	LINK ALREADY PRESENT
+*	oblouzený	obluzení	A-ý --> N-í	CHANGE: ou -> u	
+*	obluzený	obluzení	A-ý --> N-í		
+					
+*	ochozený	ochuzení	A-ý --> N-í	CHANGE: o -> u	
+	ochudit	ochuzení	V-dit --> N-zení		LINK ALREADY PRESENT
+*	ochuzený	ochuzení	A-ý --> N-í		
+					
+*	posvítit	posvěcení	V-tit --> N-cení	CHANGE: í -> ě	
+*	posvěcený	posvěcení	A-ý --> N-í		
+	posvětit	posvěcení	V-tit --> N-cení		LINK ALREADY PRESENT
+					
+*	svítit	svěcení	V-tit --> N-cení	CHANGE: í -> ě	
+*	svěcený	svěcení	A-ý --> N-í		
+	světit	svěcení	V-tit --> N-cení		LINK ALREADY PRESENT
+					
+*	vysvícený	vysvěcení	A-ý --> N-í	CHANGE: í -> ě	
+*	vysvěcený	vysvěcení	A-ý --> N-í		
+	vysvětit	vysvěcení	V-tit --> N-cení		LINK ALREADY PRESENT
+					
+*	zasvítit	zasvěcení	V-tit --> N-cení	CHANGE: í -> ě	
+*	zasvěcený	zasvěcení	A-ý --> N-í		
+	zasvětit	zasvěcení	V-tit --> N-cení		LINK ALREADY PRESENT
+					
+*	blbovzdorný	blbuvzdornost	A-ý --> N-ost	CHANGE: o -> u	
+	blbuvzdorný	blbuvzdornost	A-ý --> N-ost		LINK ALREADY PRESENT
+					
+*	bojný	bujnost	A-ý --> N-ost	CHANGE: o -> u	
+	bujný	bujnost	A-ý --> N-ost		LINK ALREADY PRESENT
+					
+*	bídný	bědnost	A-ý --> N-ost	CHANGE: í -> ě	
+	bědný	bědnost	A-ý --> N-ost		LINK ALREADY PRESENT
+					
+*	chroupavý	chrupavost	A-ý --> N-ost	CHANGE: ou -> u	
+	chrupavý	chrupavost	A-ý --> N-ost		LINK ALREADY PRESENT
+					
+*	dotíravý	dotěravost	A-ý --> N-ost	CHANGE: í -> ě	
+	dotěravý	dotěravost	A-ý --> N-ost		LINK ALREADY PRESENT
+					
+*	dílný	dělnost	A-ý --> N-ost	CHANGE: í -> ě	
+	dělný	dělnost	A-ý --> N-ost		LINK ALREADY PRESENT
+					
+	erodovaný	erudovanost	A-ý --> N-ost	CHANGE: o -> u	
+	erudovaný	erudovanost	A-ý --> N-ost		LINK ALREADY PRESENT
+					
+*	kosový	kusovost	A-ý --> N-ost	CHANGE: o -> u	
+	kusový	kusovost	A-ý --> N-ost		LINK ALREADY PRESENT
+					
+*	kosý	kusost	A-ý --> N-ost	CHANGE: o -> u	
+	kusý	kusost	A-ý --> N-ost		LINK ALREADY PRESENT
+					
+*	možný	mužnost	A-ý --> N-ost	CHANGE: o -> u	
+	mužný	mužnost	A-ý --> N-ost		LINK ALREADY PRESENT
+					
+*	nedílný	nedělnost	A-ý --> N-ost	CHANGE: í -> ě	
+	nedělný	nedělnost	A-ý --> N-ost		LINK ALREADY PRESENT
+					
+*	nemožný	nemužnost	A-ý --> N-ost	CHANGE: o -> u	
+	nemužný	nemužnost	A-ý --> N-ost		LINK ALREADY PRESENT
+					
+*	neodolatelný	neudolatelnost	A-ý --> N-ost	CHANGE: o -> u	
+	neudolatelný	neudolatelnost	A-ý --> N-ost		LINK ALREADY PRESENT
+					
+*	neopotřebitelný	neupotřebitelnost	A-ý --> N-ost	CHANGE: o -> u	
+	neupotřebitelný	neupotřebitelnost	A-ý --> N-ost		LINK ALREADY PRESENT
+					
+*	notný	nutnost	A-ý --> N-ost	CHANGE: o -> u	
+	nutný	nutnost	A-ý --> N-ost		LINK ALREADY PRESENT
+					
+*	opouštěný	opuštěnost	A-ý --> N-ost	CHANGE: ou -> u	
+	opuštěný	opuštěnost	A-ý --> N-ost		LINK ALREADY PRESENT
+					
+*	probouzený	probuzenost	A-ý --> N-ost	CHANGE: ou -> u	
+	probuzený	probuzenost	A-ý --> N-ost		LINK ALREADY PRESENT
+					
+*	předložený	předluženost	A-ý --> N-ost	CHANGE: o -> u	
+	předlužený	předluženost	A-ý --> N-ost		LINK ALREADY PRESENT
+					
+*	rodný	rudnost	A-ý --> N-ost	CHANGE: o -> u	
+	rudný	rudnost	A-ý --> N-ost		LINK ALREADY PRESENT
+					
+*	saudský	saúdskost	A-ý --> N-ost	CHANGE: u -> ú	
+	saúdský	saúdskost	A-ý --> N-ost		LINK ALREADY PRESENT
+					
+*	sdílitelný	sdělitelnost	A-ý --> N-ost	CHANGE: í -> ě	
+	sdělitelný	sdělitelnost	A-ý --> N-ost		LINK ALREADY PRESENT
+					
+*	sdílný	sdělnost	A-ý --> N-ost	CHANGE: í -> ě	
+	sdělný	sdělnost	A-ý --> N-ost		LINK ALREADY PRESENT
+					
+*	sloučitelný	slučitelnost	A-ý --> N-ost	CHANGE: ou -> u	
+	slučitelný	slučitelnost	A-ý --> N-ost		LINK ALREADY PRESENT
+					
+*	točný	tučnost	A-ý --> N-ost	CHANGE: o -> u	
+	tučný	tučnost	A-ý --> N-ost		LINK ALREADY PRESENT
+					
+*	vesmírný	vesměrnost	A-ý --> N-ost	CHANGE: í -> ě	
+	vesměrný	vesměrnost	A-ý --> N-ost		LINK ALREADY PRESENT
+					
+*	vybíravý	vyběravost	A-ý --> N-ost	CHANGE: í -> ě	
+	vyběravý	vyběravost	A-ý --> N-ost		LINK ALREADY PRESENT
+					
+*	vykolený	vykulenost	A-ý --> N-ost	CHANGE: o -> u	
+	vykulený	vykulenost	A-ý --> N-ost		LINK ALREADY PRESENT
+					
+*	vysoušený	vysušenost	A-ý --> N-ost	CHANGE: ou -> u	
+	vysušený	vysušenost	A-ý --> N-ost		LINK ALREADY PRESENT
+					
+*	zamířený	zaměřenost	A-ý --> N-ost	CHANGE: í -> ě	
+	zaměřený	zaměřenost	A-ý --> N-ost		
+					
+*	zkosený	zkusenost	A-ý --> N-ost	CHANGE: o -> u	
+	zkusený	zkusenost	A-ý --> N-ost		LINK ALREADY PRESENT
+					
+*	zkoušený	zkušenost	A-ý --> N-ost	CHANGE: ou -> u	
+	zkušený	zkušenost	A-ý --> N-ost		LINK ALREADY PRESENT
+					
+*	zmínitelný	změnitelnost	A-ý --> N-ost	CHANGE: í -> ě	
+	změnitelný	změnitelnost	A-ý --> N-ost		LINK ALREADY PRESENT
+					
+*	zpívavý	zpěvavost	A-ý --> N-ost	CHANGE: í -> ě	
+	zpěvavý	zpěvavost	A-ý --> N-ost		LINK ALREADY PRESENT
+					
+*	zvídavý	zvědavost	A-ý --> N-ost	CHANGE: í -> ě	
+	zvědavý	zvědavost	A-ý --> N-ost		LINK ALREADY PRESENT
+					
+*	škodlivý	škudlivost	A-ý --> N-ost	CHANGE: o -> u	
+	škudlivý	škudlivost	A-ý --> N-ost		LINK ALREADY PRESENT
+					
+*	žárovzdorný	žáruvzdornost	A-ý --> N-ost	CHANGE: o -> u	
+	žáruvzdorný	žáruvzdornost	A-ý --> N-ost		LINK ALREADY PRESENT
+					
+*	žaloudek	žaludeček	N-ek --> N-eček	CHANGE: ou -> u	
+*	žaloudek	žaludeček	N-k --> N-ček	CHANGE: ou -> u	
+	žaludek	žaludeček	N-ek --> N-eček		LINK ALREADY PRESENT
+	žaludek	žaludeček	N-k --> N-ček		LINK ALREADY PRESENT
+					
+*	bomba	bumbání	N-a --> N-ání	CHANGE: o -> u	
+	bumbat	bumbání	V-at --> N-ání		LINK ALREADY PRESENT
+					
+*	koka	kukání	N-a --> N-ání	CHANGE: o -> u	
+*	koukat	kukání	V-at --> N-ání	CHANGE: ou -> u	
+	kukat	kukání	V-at --> N-ání		LINK ALREADY PRESENT
+					
+*	koňka	kuňkání	N-a --> N-ání	CHANGE: o -> u	
+*	kuňka	kuňkání	N-a --> N-ání		
+	kuňkat	kuňkání	V-at --> N-ání		LINK ALREADY PRESENT
+					
+*	loupat	lupání	V-at --> N-ání	CHANGE: ou -> u	
+*	lupa	lupání	N-a --> N-ání		
+	lupat	lupání	V-at --> N-ání		LINK ALREADY PRESENT
+					
+*	louskat	luskání	V-at --> N-ání	CHANGE: ou -> u	
+*	luska	luskání	N-a --> N-ání		
+	luskat	luskání	V-at --> N-ání		LINK ALREADY PRESENT
+					
+*	moka	mukání	N-a --> N-ání	CHANGE: o -> u	
+*	mouka	mukání	N-a --> N-ání	CHANGE: ou -> u	
+*	muka	mukání	N-a --> N-ání		
+	mukat	mukání	V-at --> N-ání		LINK ALREADY PRESENT
+					
+*	ropa	rupání	N-a --> N-ání	CHANGE: o -> u	
+	rupat	rupání	V-at --> N-ání		
+	rupat	rupání	V-at --> N-ání		LINK ALREADY PRESENT
+					
+*	sonda	sundání	N-a --> N-ání	CHANGE: o -> u	
+	sundat	sundání	V-at --> N-ání		LINK ALREADY PRESENT
+					
+*	Doda	Dudův	N-a --> A-ův	CHANGE: o -> u	
+*	Douda	Dudův	N-a --> A-ův	CHANGE: ou -> u	
+	Duda	Dudův	N-a --> A-ův		LINK ALREADY PRESENT
+					
+*	Doka	Dukův	N-a --> A-ův	CHANGE: o -> u	
+	Duka	Dukův	N-a --> A-ův		LINK ALREADY PRESENT
+					
+*	Dorka	Durkův	N-a --> A-ův	CHANGE: o -> u	
+	Durka	Durkův	N-a --> A-ův		LINK ALREADY PRESENT
+					
+*	Gomolka	Gomulkův	N-a --> A-ův	CHANGE: o -> u	
+	Gomulka	Gomulkův	N-a --> A-ův		LINK ALREADY PRESENT
+					
+*	Homa	Humův	N-a --> A-ův	CHANGE: o -> u	
+*	Houma	Humův	N-a --> A-ův	CHANGE: ou -> u	
+	Huma	Humův	N-a --> A-ův		
+					
+*	Horta	Hurtův	N-a --> A-ův	CHANGE: o -> u	
+	Hurta	Hurtův	N-a --> A-ův		LINK ALREADY PRESENT
+					
+*	Houba	Hubův	N-a --> A-ův	CHANGE: ou -> u	
+	Huba	Hubův	N-a --> A-ův		
+					
+*	Houda	Hudův	N-a --> A-ův	CHANGE: ou -> u	
+	Huda	Hudův	N-a --> A-ův		LINK ALREADY PRESENT
+					
+*	Jouda	Judův	N-a --> A-ův	CHANGE: ou -> u	
+	Juda	Judův	N-a --> A-ův		LINK ALREADY PRESENT
+					
+*	Koda	Kudův	N-a --> A-ův	CHANGE: o -> u	
+	Kuda	Kudův	N-a --> A-ův		LINK ALREADY PRESENT
+					
+*	Loka	Lukův	N-a --> A-ův	CHANGE: o -> u	
+*	Louka	Lukův	N-a --> A-ův	CHANGE: ou -> u	
+	Luka	Lukův	N-a --> A-ův		
+	Luka	Lukův	N-a --> A-ův		LINK ALREADY PRESENT
+					
+*	Lola	Lulův	N-a --> A-ův	CHANGE: o -> u	
+	Lula	Lulův	N-a --> A-ův		LINK ALREADY PRESENT
+					
+*	Louisa	Luisův	N-a --> A-ův	CHANGE: ou -> u	
+	Luisa	Luisův	N-a --> A-ův		
+					
+*	Mona	Munův	N-a --> A-ův	CHANGE: o -> u	
+	Muna	Munův	N-a --> A-ův		
+					
+*	Moucha	Muchův	N-a --> A-ův	CHANGE: ou -> u	
+	Mucha	Muchův	N-a --> A-ův		LINK ALREADY PRESENT
+					
+*	Paola	Paulův	N-a --> A-ův	CHANGE: o -> u	
+	Paula	Paulův	N-a --> A-ův		
+					
+*	Roda	Rudův	N-a --> A-ův	CHANGE: o -> u	
+	Ruda	Rudův	N-a --> A-ův		
+					
+*	Rossa	Russův	N-a --> A-ův	CHANGE: o -> u	
+	Russa	Russův	N-a --> A-ův		
+					
+*	sloha	sluhův	N-a --> A-ův	CHANGE: o -> u	
+*	slouha	sluhův	N-a --> A-ův	CHANGE: ou -> u	
+	sluha	sluhův	N-a --> A-ův		LINK ALREADY PRESENT
+					
+*	bílit	bělidlo	V-it --> N-idlo	CHANGE: í -> ě	
+*	bílit	bělidlo	V-t --> N-dlo	CHANGE: í -> ě	
+	bělit	bělidlo	V-it --> N-idlo		
+	bělit	bělidlo	V-t --> N-dlo		
+					
+	kroužit	kružidlo	V-it --> N-idlo	CHANGE: ou -> u	
+	kroužit	kružidlo	V-t --> N-dlo	CHANGE: ou -> u	
+					
+*	močit	mučidlo	V-it --> N-idlo	CHANGE: o -> u	
+*	močit	mučidlo	V-t --> N-dlo	CHANGE: o -> u	
+	mučit	mučidlo	V-it --> N-idlo		
+	mučit	mučidlo	V-t --> N-dlo		
+					
+*	mířit	měřidlo	V-it --> N-idlo	CHANGE: í -> ě	
+*	mířit	měřidlo	V-t --> N-dlo	CHANGE: í -> ě	
+	měřit	měřidlo	V-it --> N-idlo		
+	měřit	měřidlo	V-t --> N-dlo		
+					
+	soudit	sudidlo	V-it --> N-idlo	CHANGE: ou -> u	
+	soudit	sudidlo	V-t --> N-dlo	CHANGE: ou -> u	
+					
+*	toužit	tužidlo	V-it --> N-idlo	CHANGE: ou -> u	
+*	toužit	tužidlo	V-t --> N-dlo	CHANGE: ou -> u	
+	tužit	tužidlo	V-it --> N-idlo		
+	tužit	tužidlo	V-t --> N-dlo		
+					
+*	ročníkový	ručníkovina	A-ový --> N-ovina	CHANGE: o -> u	
+*	ročníkový	ručníkovina	A-vý --> N-vina	CHANGE: o -> u	
+*	ročníkový	ručníkovina	A-ý --> N-ina	CHANGE: o -> u	
+	ručníkový	ručníkovina	A-ový --> N-ovina		
+	ručníkový	ručníkovina	A-vý --> N-vina		
+	ručníkový	ručníkovina	A-ý --> N-ina		
+					
+*	roční	ručnice	A-ní --> N-nice	CHANGE: o -> u	
+*	ročník	ručnice	N-ík --> N-ice	CHANGE: o -> u	
+	ruční	ručnice	A-ní --> N-nice		
+*	ručník	ručnice	N-ík --> N-ice		
+					
+*	bolný	bula	A-ný --> N-a	CHANGE: o -> u	
+*	boulit	bula	V-it --> N-a	CHANGE: ou -> u	
+*	bulit	bula	V-it --> N-a		
+					
+*	lozit	luza	V-it --> N-a	CHANGE: o -> u	
+*	luzný	luza	A-ný --> N-a		
+					
+*	mínit	měna	V-it --> N-a	CHANGE: í -> ě	
+	měnit	měna	V-it --> N-a		
+*	měnný	měna	A-ný --> N-a		
+					
+*	obloudit	obluda	V-it --> N-a	CHANGE: ou -> u	
+*	obludný	obluda	A-ný --> N-a		
+					
+*	potopit	potupa	V-it --> N-a	CHANGE: o -> u	
+	potupit	potupa	V-it --> N-a		
+*	potupný	potupa	A-ný --> N-a		
+					
+*	rodit	ruda	V-it --> N-a	CHANGE: o -> u	
+*	rodný	ruda	A-ný --> N-a	CHANGE: o -> u	
+*	rudný	ruda	A-ný --> N-a		
+					
+*	zmínit	změna	V-it --> N-a	CHANGE: í -> ě	
+	změnit	změna	V-it --> N-a		
+*	změnný	změna	A-ný --> N-a		
+					
+*	Boba	Bubka	N-a --> N-ka	CHANGE: o -> u	
+*	Buba	Bubka	N-a --> N-ka		
+					
+*	Boda	Budka	N-a --> N-ka	CHANGE: o -> u	
+*	Bouda	Budka	N-a --> N-ka	CHANGE: ou -> u	
+	Buda	Budka	N-a --> N-ka		
+					
+*	Dubrava	Dúbravka	N-a --> N-ka	CHANGE: u -> ú	
+	Dúbrava	Dúbravka	N-a --> N-ka		LINK ALREADY PRESENT
+					
+*	Hola	Hulka	N-a --> N-ka	CHANGE: o -> u	
+	Hula	Hulka	N-a --> N-ka		
+					
+*	Houba	Hubka	N-a --> N-ka	CHANGE: ou -> u	
+	Huba	Hubka	N-a --> N-ka		
+					
+*	Jora	Jurka	N-a --> N-ka	CHANGE: o -> u	
+	Jura	Jurka	N-a --> N-ka		
+	Jura	Jurka	N-a --> N-ka		LINK ALREADY PRESENT
+					
+*	Koula	Kulka	N-a --> N-ka	CHANGE: ou -> u	
+*	Kula	Kulka	N-a --> N-ka		
+					
+	Kroupa	Krupka	N-a --> N-ka	CHANGE: ou -> u	
+*	Krupa	Krupka	N-a --> N-ka		
+					
+*	Mikola	Mikulka	N-a --> N-ka	CHANGE: o -> u	
+	Mikula	Mikulka	N-a --> N-ka		LINK ALREADY PRESENT
+					
+*	Mona	Munka	N-a --> N-ka	CHANGE: o -> u	
+*	Muna	Munka	N-a --> N-ka		
+					
+	Moucha	Muchka	N-a --> N-ka	CHANGE: ou -> u	
+*	Mucha	Muchka	N-a --> N-ka		
+					
+*	vypouklina	vypuklinka	N-a --> N-ka	CHANGE: ou -> u	
+	vypuklina	vypuklinka	N-a --> N-ka		LINK ALREADY PRESENT
+					
+*	toužený	tužení	A-ý --> N-í	CHANGE: ou -> u	
+*	tuhnout	tužení	V-hnout --> N-žení		
+					
+*	tíhnout	těžení	V-hnout --> N-žení	CHANGE: í -> ě	
+*	tížený	těžení	A-ý --> N-í	CHANGE: í -> ě	
+*	těžený	těžení	A-ý --> N-í		
+					
+*	bouchnout	buchnutí	V-nout --> N-nutí	CHANGE: ou -> u	
+	buchnout	buchnutí	V-nout --> N-nutí		LINK ALREADY PRESENT
+					
+*	loupnout	lupnutí	V-nout --> N-nutí	CHANGE: ou -> u	
+	lupnout	lupnutí	V-nout --> N-nutí		LINK ALREADY PRESENT
+					
+*	schroupnout	schrupnutí	V-nout --> N-nutí	CHANGE: ou -> u	
+	schrupnout	schrupnutí	V-nout --> N-nutí		LINK ALREADY PRESENT
+					
+*	šoustnout	šustnutí	V-nout --> N-nutí	CHANGE: ou -> u	
+	šustnout	šustnutí	V-nout --> N-nutí		LINK ALREADY PRESENT
+					
+*	porosit	porušení	V-sit --> N-šení	CHANGE: o -> u	
+*	porušený	porušení	A-ý --> N-í		
+					
+*	rosit	rušení	V-sit --> N-šení	CHANGE: o -> u	
+*	rušený	rušení	A-ý --> N-í		
+					
+*	vyrosit	vyrušení	V-sit --> N-šení	CHANGE: o -> u	
+*	vyrušený	vyrušení	A-ý --> N-í		
+					
+*	korona	korunka	N-a --> N-ka	CHANGE: o -> u	
+	koruna	korunka	N-a --> N-ka		LINK ALREADY PRESENT
+*	korunní	korunka	A-ní --> N-ka		
+					
+*	Louisa	Luisin	N-a --> A-in	CHANGE: ou -> u	
+	Luisa	Luisin	N-a --> A-in		
+	Luisa	Luisin	N-a --> A-in		LINK ALREADY PRESENT
+					
+*	Mota	Mutin	N-a --> A-in	CHANGE: o -> u	
+	Muta	Mutin	N-a --> A-in		
+					
+*	stoudný	studnice	A-ný --> N-nice	CHANGE: ou -> u	
+*	stoudný	studnice	A-ý --> N-ice	CHANGE: ou -> u	
+					
+*	točný	tučnice	A-ný --> N-nice	CHANGE: o -> u	
+*	točný	tučnice	A-ý --> N-ice	CHANGE: o -> u	
+	tučný	tučnice	A-ný --> N-nice		
+	tučný	tučnice	A-ý --> N-ice		
+					
+*	poslouchat	posluchačka	V-t --> N-čka	CHANGE: ou -> u	
+*	posluchačský	posluchačka	A-ský --> N-ka		
+					
+	sbírat	sběračka	V-t --> N-čka	CHANGE: í -> ě	
+*	sběračský	sběračka	A-ský --> N-ka		
+					
+*	vydírat	vyděračka	V-t --> N-čka	CHANGE: í -> ě	
+*	vyděračský	vyděračka	A-ský --> N-ka		
+					
+*	vyzvídat	vyzvědačka	V-t --> N-čka	CHANGE: í -> ě	
+*	vyzvědačský	vyzvědačka	A-ský --> N-ka		
+					
+*	vzpírat	vzpěračka	V-t --> N-čka	CHANGE: í -> ě	
+*	vzpěračský	vzpěračka	A-ský --> N-ka		
+					
+	vypouklý	vypuklina	A-lý --> N-lina	CHANGE: ou -> u	
+	vypouklý	vypuklina	A-ý --> N-ina	CHANGE: ou -> u	
+*	vypuklý	vypuklina	A-lý --> N-lina		
+*	vypuklý	vypuklina	A-ý --> N-ina		
+					
+*	Houba	Hubička	N-a --> N-ička	CHANGE: ou -> u	
+*	Huba	Hubička	N-a --> N-ička		
+*	Hubka	Hubička	N-ka --> N-ička		
+					
+*	Koula	Kulička	N-a --> N-ička	CHANGE: ou -> u	
+*	Kula	Kulička	N-a --> N-ička		
+*	Kulka	Kulička	N-ka --> N-ička		
+					
+*	Kroupa	Krupička	N-a --> N-ička	CHANGE: ou -> u	
+*	Krupa	Krupička	N-a --> N-ička		
+*	Krupka	Krupička	N-ka --> N-ička		
+					
+*	soma	sumička	N-a --> N-ička	CHANGE: o -> u	
+	suma	sumička	N-a --> N-ička		
+*	sumka	sumička	N-ka --> N-ička		
+					
+*	Horní	Hurník	A-í --> N-ík	CHANGE: o -> u	
+*	Horný	Hurník	A-ý --> N-ík	CHANGE: o -> u	
+*	Hurný	Hurník	A-ý --> N-ík		
+					
+*	nedílný	nedělník	A-ý --> N-ík	CHANGE: í -> ě	
+	nedělní	nedělník	A-í --> N-ík		
+*	nedělný	nedělník	A-ý --> N-ík		
+					
+	postoupit	postupník	V-it --> N-ník	CHANGE: ou -> u	
+*	postupný	postupník	A-ý --> N-ík		
+					
+*	snížit	sněžník	V-it --> N-ník	CHANGE: í -> ě	
+*	sněžit	sněžník	V-it --> N-ník		
+	sněžný	sněžník	A-ý --> N-ík		
+					
+*	ukrotit	ukrutník	V-it --> N-ník	CHANGE: o -> u	
+*	ukroutit	ukrutník	V-it --> N-ník	CHANGE: ou -> u	
+	ukrutný	ukrutník	A-ý --> N-ík		
+					
+*	hostit	huštění	V-stit --> N-štění	CHANGE: o -> u	
+*	hoštěný	huštění	A-ý --> N-í	CHANGE: o -> u	
+	hustit	huštění	V-stit --> N-štění		LINK ALREADY PRESENT
+					
+*	zhostit	zhuštění	V-stit --> N-štění	CHANGE: o -> u	
+	zhustit	zhuštění	V-stit --> N-štění		
+	zhustit	zhuštění	V-stit --> N-štění		LINK ALREADY PRESENT
+*	zhuštěný	zhuštění	A-ý --> N-í		
+					
+*	potit	putička	V-t --> N-čka	CHANGE: o -> u	
+	puta	putička	N-a --> N-ička		
+					
+*	možný	mužství	A-ný --> N-ství	CHANGE: o -> u	
+*	mužný	mužství	A-ný --> N-ství		
+	mužský	mužství	A-ský --> N-ství		
+	mužský	mužství	A-ský --> N-ství		LINK ALREADY PRESENT
+					
+*	Doba	Dubinka	N-a --> N-inka	CHANGE: o -> u	
+	Dubina	Dubinka	N-a --> N-ka		LINK ALREADY PRESENT
+					
+*	šopa	šupinka	N-a --> N-inka	CHANGE: o -> u	
+*	šupa	šupinka	N-a --> N-inka		
+	šupina	šupinka	N-a --> N-ka		LINK ALREADY PRESENT
+					
+*	holený	hulení	A-ý --> N-í	CHANGE: o -> u	
+*	hulený	hulení	A-ý --> N-í		
+					
+*	koupený	kupení	A-ý --> N-í	CHANGE: ou -> u	
+*	kupený	kupení	A-ý --> N-í		
+					
+*	močený	mučení	A-ý --> N-í	CHANGE: o -> u	
+*	mučený	mučení	A-ý --> N-í		
+					
+*	míněný	měnění	A-ý --> N-í	CHANGE: í -> ě	
+*	měněný	měnění	A-ý --> N-í		
+					
+*	mířený	měření	A-ý --> N-í	CHANGE: í -> ě	
+*	měřený	měření	A-ý --> N-í		
+					
+*	nakoupený	nakupení	A-ý --> N-í	CHANGE: ou -> u	
+*	nakupený	nakupení	A-ý --> N-í		
+					
+*	namířený	naměření	A-ý --> N-í	CHANGE: í -> ě	
+*	naměřený	naměření	A-ý --> N-í		
+					
+*	potopený	potupení	A-ý --> N-í	CHANGE: o -> u	
+*	potupený	potupení	A-ý --> N-í		
+					
+*	předložený	předlužení	A-ý --> N-í	CHANGE: o -> u	
+*	předlužený	předlužení	A-ý --> N-í		
+					
+*	snížený	sněžení	A-ý --> N-í	CHANGE: í -> ě	
+*	sněžený	sněžení	A-ý --> N-í		
+					
+*	topený	tupení	A-ý --> N-í	CHANGE: o -> u	
+*	tupený	tupení	A-ý --> N-í		
+					
+*	tísněný	těsnění	A-ý --> N-í	CHANGE: í -> ě	
+*	těsněný	těsnění	A-ý --> N-í		
+					
+*	vybílený	vybělení	A-ý --> N-í	CHANGE: í -> ě	
+*	vybělený	vybělení	A-ý --> N-í		
+					
+*	vyholený	vyhulení	A-ý --> N-í	CHANGE: o -> u	
+*	vyhulený	vyhulení	A-ý --> N-í		
+					
+*	vykolený	vykulení	A-ý --> N-í	CHANGE: o -> u	
+*	vykulený	vykulení	A-ý --> N-í		
+					
+*	vytížený	vytěžení	A-ý --> N-í	CHANGE: í -> ě	
+*	vytěžený	vytěžení	A-ý --> N-í		
+					
+*	vířený	věření	A-ý --> N-í	CHANGE: í -> ě	
+*	věřený	věření	A-ý --> N-í		
+					
+*	zamířený	zaměření	A-ý --> N-í	CHANGE: í -> ě	
+*	zaměřený	zaměření	A-ý --> N-í		
+					
+*	zmíněný	změnění	A-ý --> N-í	CHANGE: í -> ě	
+*	změněný	změnění	A-ý --> N-í		
+					
+*	Hodek	Hudeček	N-ek --> N-eček	CHANGE: o -> u	
+*	Hodek	Hudeček	N-k --> N-ček	CHANGE: o -> u	
+*	Houdek	Hudeček	N-ek --> N-eček	CHANGE: ou -> u	
+*	Houdek	Hudeček	N-k --> N-ček	CHANGE: ou -> u	
+	Hudec	Hudeček	N-c --> N-ček		
+	Hudec	Hudeček	N-ec --> N-eček		
+					
+*	Koubek	Kubeček	N-ek --> N-eček	CHANGE: ou -> u	
+*	Koubek	Kubeček	N-k --> N-ček	CHANGE: ou -> u	
+	Kubec	Kubeček	N-c --> N-ček		
+	Kubec	Kubeček	N-ec --> N-eček		
+	Kubek	Kubeček	N-ek --> N-eček		LINK ALREADY PRESENT
+	Kubek	Kubeček	N-k --> N-ček		LINK ALREADY PRESENT
+					
+*	vínek	věneček	N-ek --> N-eček	CHANGE: í -> ě	
+*	vínek	věneček	N-k --> N-ček	CHANGE: í -> ě	
+	věnec	věneček	N-c --> N-ček		
+	věnec	věneček	N-ec --> N-eček		
+					
+*	štítek	štěteček	N-ek --> N-eček	CHANGE: í -> ě	
+*	štítek	štěteček	N-k --> N-ček	CHANGE: í -> ě	
+	štětec	štěteček	N-c --> N-ček		
+	štětec	štěteček	N-ec --> N-eček		
+					
+*	Hola	Hulák	N-a --> N-ák	CHANGE: o -> u	
+*	Hula	Hulák	N-a --> N-ák		
+*	Hulka	Hulák	N-ka --> N-ák		
+					
+*	Housa	Husák	N-a --> N-ák	CHANGE: ou -> u	
+*	Houska	Husák	N-ka --> N-ák	CHANGE: ou -> u	
+*	Huska	Husák	N-ka --> N-ák		
+					
+*	Rosa	Rusák	N-a --> N-ák	CHANGE: o -> u	
+*	Ruska	Rusák	N-ka --> N-ák		
+					
+*	konzola	konzulka	N-a --> N-ka	CHANGE: o -> u	
+*	konzulský	konzulka	A-ský --> N-ka		
+					
+*	soma	sumka	N-a --> N-ka	CHANGE: o -> u	
+	suma	sumka	N-a --> N-ka		
+*	sumský	sumka	A-ský --> N-ka		
+					
+*	soma	sumátor	N-a --> N-átor	CHANGE: o -> u	
+*	suma	sumátor	N-a --> N-átor		
+	sumace	sumátor	N-ace --> N-átor		
+					
+*	dotírat	dotěra	V-at --> N-a	CHANGE: í -> ě	
+	dotěrný	dotěra	A-ný --> N-a		
+					
+*	hvízdat	hvězda	V-at --> N-a	CHANGE: í -> ě	
+*	hvězdný	hvězda	A-ný --> N-a		
+					
+*	korat	kura	V-at --> N-a	CHANGE: o -> u	
+*	korný	kura	A-ný --> N-a	CHANGE: o -> u	
+					
+	opírat	opěra	V-at --> N-a	CHANGE: í -> ě	
+*	opěrný	opěra	A-ný --> N-a		
+					
+	podpírat	podpěra	V-at --> N-a	CHANGE: í -> ě	
+*	podpěrný	podpěra	A-ný --> N-a		
+					
+	vzpírat	vzpěra	V-at --> N-a	CHANGE: í -> ě	
+*	vzpěrný	vzpěra	A-ný --> N-a		
+					
+*	vítat	věta	V-at --> N-a	CHANGE: í -> ě	
+*	větný	věta	A-ný --> N-a		
+					
+	zužít	zúžení	V-ít --> N-ení	CHANGE: u -> ú	
+*	zúžený	zúžení	A-ý --> N-í		
+					
+*	bourák	buráček	N-k --> N-ček	CHANGE: ou -> u	
+	burák	buráček	N-k --> N-ček		LINK ALREADY PRESENT
+					
+*	chroupat	chrupavka	V-at --> N-avka	CHANGE: ou -> u	
+	chroupavý	chrupavka	A-avý --> N-avka	CHANGE: ou -> u	
+	chroupavý	chrupavka	A-ý --> N-ka	CHANGE: ou -> u	
+*	chrupat	chrupavka	V-at --> N-avka		
+*	chrupavý	chrupavka	A-avý --> N-avka		
+*	chrupavý	chrupavka	A-ý --> N-ka		
+					
+*	zkoumat	zkumavka	V-at --> N-avka	CHANGE: ou -> u	
+	zkoumavý	zkumavka	A-avý --> N-avka	CHANGE: ou -> u	
+	zkoumavý	zkumavka	A-ý --> N-ka	CHANGE: ou -> u	
+					
+*	zvídat	zvědavka	V-at --> N-avka	CHANGE: í -> ě	
+*	zvídavý	zvědavka	A-avý --> N-avka	CHANGE: í -> ě	
+*	zvídavý	zvědavka	A-ý --> N-ka	CHANGE: í -> ě	
+*	zvědavý	zvědavka	A-avý --> N-avka		
+*	zvědavý	zvědavka	A-ý --> N-ka		
+					
+	houba	hubka	N-a --> N-ka	CHANGE: ou -> u	
+	huba	hubka	N-a --> N-ka		
+*	hubit	hubka	V-it --> N-ka		
+					
+*	kropit	krupka	V-it --> N-ka	CHANGE: o -> u	
+*	kroupa	krupka	N-a --> N-ka	CHANGE: ou -> u	
+					
+*	obloudit	obludka	V-it --> N-ka	CHANGE: ou -> u	
+	obluda	obludka	N-a --> N-ka		LINK ALREADY PRESENT
+					
+*	proposta	propustka	N-a --> N-ka	CHANGE: o -> u	
+	propustit	propustka	V-it --> N-ka		
+					
+*	Buka	bukovský	N-a --> A-ovský		
+*	boka	bukovský	N-a --> A-ovský	CHANGE: o -> u	
+					
+*	Bíla	bělovský	N-a --> A-ovský	CHANGE: í -> ě	
+*	Běla	bělovský	N-a --> A-ovský		
+					
+*	Mikola	mikulovský	N-a --> A-ovský	CHANGE: o -> u	
+*	Mikula	mikulovský	N-a --> A-ovský		
+					
+*	napouštěný	napuštění	A-ý --> N-í	CHANGE: ou -> u	
+*	napouštět	napuštění	V-ět --> N-ění	CHANGE: ou -> u	
+	napustit	napuštění	V-stit --> N-štění		
+	napustit	napuštění	V-stit --> N-štění		LINK ALREADY PRESENT
+*	napuštěný	napuštění	A-ý --> N-í		
+					
+*	odpouštět	odpuštění	V-ět --> N-ění	CHANGE: ou -> u	
+	odpustit	odpuštění	V-stit --> N-štění		
+	odpustit	odpuštění	V-stit --> N-štění		LINK ALREADY PRESENT
+*	odpuštěný	odpuštění	A-ý --> N-í		
+					
+*	opouštěný	opuštění	A-ý --> N-í	CHANGE: ou -> u	
+*	opouštět	opuštění	V-ět --> N-ění	CHANGE: ou -> u	
+	opustit	opuštění	V-stit --> N-štění		
+	opustit	opuštění	V-stit --> N-štění		LINK ALREADY PRESENT
+*	opuštěný	opuštění	A-ý --> N-í		
+					
+*	popouštěný	popuštění	A-ý --> N-í	CHANGE: ou -> u	
+*	popouštět	popuštění	V-ět --> N-ění	CHANGE: ou -> u	
+	popustit	popuštění	V-stit --> N-štění		
+	popustit	popuštění	V-stit --> N-štění		LINK ALREADY PRESENT
+*	popuštěný	popuštění	A-ý --> N-í		
+					
+*	postit	puštění	V-stit --> N-štění	CHANGE: o -> u	
+*	pouštět	puštění	V-ět --> N-ění	CHANGE: ou -> u	
+	pustit	puštění	V-stit --> N-štění		
+	pustit	puštění	V-stit --> N-štění		LINK ALREADY PRESENT
+*	puštěný	puštění	A-ý --> N-í		
+					
+*	propouštěný	propuštění	A-ý --> N-í	CHANGE: ou -> u	
+*	propouštět	propuštění	V-ět --> N-ění	CHANGE: ou -> u	
+	propustit	propuštění	V-stit --> N-štění		
+	propustit	propuštění	V-stit --> N-štění		LINK ALREADY PRESENT
+*	propuštěný	propuštění	A-ý --> N-í		
+					
+*	přepouštěný	přepuštění	A-ý --> N-í	CHANGE: ou -> u	
+*	přepouštět	přepuštění	V-ět --> N-ění	CHANGE: ou -> u	
+	přepustit	přepuštění	V-stit --> N-štění		
+	přepustit	přepuštění	V-stit --> N-štění		LINK ALREADY PRESENT
+*	přepuštěný	přepuštění	A-ý --> N-í		
+					
+*	připouštěný	připuštění	A-ý --> N-í	CHANGE: ou -> u	
+*	připouštět	připuštění	V-ět --> N-ění	CHANGE: ou -> u	
+	připustit	připuštění	V-stit --> N-štění		
+	připustit	připuštění	V-stit --> N-štění		LINK ALREADY PRESENT
+*	připuštěný	připuštění	A-ý --> N-í		
+					
+*	rozpouštěný	rozpuštění	A-ý --> N-í	CHANGE: ou -> u	
+*	rozpouštět	rozpuštění	V-ět --> N-ění	CHANGE: ou -> u	
+	rozpustit	rozpuštění	V-stit --> N-štění		
+	rozpustit	rozpuštění	V-stit --> N-štění		LINK ALREADY PRESENT
+*	rozpuštěný	rozpuštění	A-ý --> N-í		
+					
+*	spouštěný	spuštění	A-ý --> N-í	CHANGE: ou -> u	
+*	spouštět	spuštění	V-ět --> N-ění	CHANGE: ou -> u	
+	spustit	spuštění	V-stit --> N-štění		
+	spustit	spuštění	V-stit --> N-štění		LINK ALREADY PRESENT
+*	spuštěný	spuštění	A-ý --> N-í		
+					
+*	upouštěný	upuštění	A-ý --> N-í	CHANGE: ou -> u	
+*	upouštět	upuštění	V-ět --> N-ění	CHANGE: ou -> u	
+	upustit	upuštění	V-stit --> N-štění		
+	upustit	upuštění	V-stit --> N-štění		LINK ALREADY PRESENT
+*	upuštěný	upuštění	A-ý --> N-í		
+					
+*	vpouštěný	vpuštění	A-ý --> N-í	CHANGE: ou -> u	
+*	vpouštět	vpuštění	V-ět --> N-ění	CHANGE: ou -> u	
+	vpustit	vpuštění	V-stit --> N-štění		
+	vpustit	vpuštění	V-stit --> N-štění		LINK ALREADY PRESENT
+*	vpuštěný	vpuštění	A-ý --> N-í		
+					
+*	vypouštěný	vypuštění	A-ý --> N-í	CHANGE: ou -> u	
+*	vypouštět	vypuštění	V-ět --> N-ění	CHANGE: ou -> u	
+	vypustit	vypuštění	V-stit --> N-štění		
+	vypustit	vypuštění	V-stit --> N-štění		LINK ALREADY PRESENT
+*	vypuštěný	vypuštění	A-ý --> N-í		
+					
+*	zapouštěný	zapuštění	A-ý --> N-í	CHANGE: ou -> u	
+*	zapouštět	zapuštění	V-ět --> N-ění	CHANGE: ou -> u	
+	zapustit	zapuštění	V-stit --> N-štění		
+	zapustit	zapuštění	V-stit --> N-štění		LINK ALREADY PRESENT
+*	zapuštěný	zapuštění	A-ý --> N-í		
+					
+*	bola	bulík	N-a --> N-ík	CHANGE: o -> u	
+*	boulit	bulík	V-it --> N-ík	CHANGE: ou -> u	
+*	bula	bulík	N-a --> N-ík		
+*	bulit	bulík	V-it --> N-ík		
+					
+*	bouda	budík	N-a --> N-ík	CHANGE: ou -> u	
+	budit	budík	V-it --> N-ík		
+					
+*	cola	culík	N-a --> N-ík	CHANGE: o -> u	
+*	culit	culík	V-it --> N-ík		
+					
+*	kola	kulík	N-a --> N-ík	CHANGE: o -> u	
+*	kulit	kulík	V-it --> N-ík		
+					
+*	toužit	tužka	V-it --> N-ka	CHANGE: ou -> u	
+*	tožský	tužka	A-ský --> N-ka	CHANGE: o -> u	
+*	tužit	tužka	V-it --> N-ka		
+					
+*	tížný	těžnice	A-ný --> N-nice	CHANGE: í -> ě	
+*	tížný	těžnice	A-ý --> N-ice	CHANGE: í -> ě	
+*	těžní	těžnice	A-ní --> N-nice		
+*	těžný	těžnice	A-ný --> N-nice		
+*	těžný	těžnice	A-ý --> N-ice		
+					
+*	domlouvat	domluva	V-at --> N-a	CHANGE: ou -> u	
+	domluvit	domluva	V-it --> N-a		
+					
+*	kopat	kupa	V-at --> N-a	CHANGE: o -> u	
+*	koupat	kupa	V-at --> N-a	CHANGE: ou -> u	
+*	koupit	kupa	V-it --> N-a	CHANGE: ou -> u	
+	kupit	kupa	V-it --> N-a		
+					
+*	loupat	lupa	V-at --> N-a	CHANGE: ou -> u	
+*	loupit	lupa	V-it --> N-a	CHANGE: ou -> u	
+*	lupat	lupa	V-at --> N-a		
+					
+	odmlouvat	odmluva	V-at --> N-a	CHANGE: ou -> u	
+*	odmluvit	odmluva	V-it --> N-a		
+					
+*	pomlouvat	pomluva	V-at --> N-a	CHANGE: ou -> u	
+	pomluvit	pomluva	V-it --> N-a		
+					
+*	potit	puta	V-it --> N-a	CHANGE: o -> u	
+*	poutat	puta	V-at --> N-a	CHANGE: ou -> u	
+					
+*	promlouvat	promluva	V-at --> N-a	CHANGE: ou -> u	
+	promluvit	promluva	V-it --> N-a		
+					
+	rozmlouvat	rozmluva	V-at --> N-a	CHANGE: ou -> u	
+*	rozmluvit	rozmluva	V-it --> N-a		
+					
+*	stínat	stěna	V-at --> N-a	CHANGE: í -> ě	
+*	stínit	stěna	V-it --> N-a	CHANGE: í -> ě	
+					
+*	tísnit	těsna	V-it --> N-a	CHANGE: í -> ě	
+*	těsnat	těsna	V-at --> N-a		
+*	těsnit	těsna	V-it --> N-a		
+					
+*	mířit	měřice	V-it --> N-ice	CHANGE: í -> ě	
+*	měřit	měřice	V-it --> N-ice		
+*	měřík	měřice	N-ík --> N-ice		
+					
+*	bloudit	bludička	V-t --> N-čka	CHANGE: ou -> u	
+	bludice	bludička	N-ce --> N-čka		
+					
+*	dílný	dělnice	A-ný --> N-nice	CHANGE: í -> ě	
+*	dílný	dělnice	A-ý --> N-ice	CHANGE: í -> ě	
+*	dílový	dělnice	A-ový --> N-nice	CHANGE: í -> ě	
+	dělník	dělnice	N-ík --> N-ice		LINK ALREADY PRESENT
+*	dělný	dělnice	A-ný --> N-nice		
+*	dělný	dělnice	A-ý --> N-ice		
+*	dělový	dělnice	A-ový --> N-nice		
+					
+*	smírný	směrnice	A-ný --> N-nice	CHANGE: í -> ě	
+*	smírný	směrnice	A-ý --> N-ice	CHANGE: í -> ě	
+*	směrník	směrnice	N-ík --> N-ice		
+	směrný	směrnice	A-ný --> N-nice		
+	směrný	směrnice	A-ý --> N-ice		
+*	směrový	směrnice	A-ový --> N-nice		
+					
+*	dloužit	dlužník	V-it --> N-ník	CHANGE: ou -> u	
+	dlužit	dlužník	V-it --> N-ník		
+*	dlužní	dlužník	A-í --> N-ík		
+*	dlužný	dlužník	A-ý --> N-ík		
+					
+	přestoupit	přestupník	V-it --> N-ník	CHANGE: ou -> u	
+*	přestupní	přestupník	A-í --> N-ík		
+*	přestupný	přestupník	A-ý --> N-ík		
+					
+*	moučný	mučenka	A-ný --> N-enka	CHANGE: ou -> u	
+*	močení	mučenka	N-í --> N-ka	CHANGE: o -> u	
+*	močený	mučenka	A-ý --> N-ka	CHANGE: o -> u	
+*	mučení	mučenka	N-í --> N-ka		
+	mučený	mučenka	A-ý --> N-ka		
+					
+*	snížení	sněženka	N-í --> N-ka	CHANGE: í -> ě	
+*	snížený	sněženka	A-ý --> N-ka	CHANGE: í -> ě	
+*	sněžení	sněženka	N-í --> N-ka		
+*	sněžený	sněženka	A-ý --> N-ka		
+	sněžný	sněženka	A-ný --> N-enka		
+					
+*	sošný	sušenka	A-ný --> N-enka	CHANGE: o -> u	
+*	sušení	sušenka	N-í --> N-ka		
+	sušený	sušenka	A-ý --> N-ka		
+					
+	svírat	svěrák	V-at --> N-ák	CHANGE: í -> ě	
+*	svěrka	svěrák	N-ka --> N-ák		
+					
+*	svítek	světecký	N-k --> A-cký	CHANGE: í -> ě	
+	světec	světecký	N-c --> A-cký		
+					
+	kouřit	kuřivo	V-it --> N-ivo	CHANGE: ou -> u	
+*	kouřivý	kuřivo	A-ý --> N-o	CHANGE: ou -> u	
+*	kořit	kuřivo	V-it --> N-ivo	CHANGE: o -> u	
+					
+	přestoupit	přestupek	V-it --> N-ek	CHANGE: ou -> u	
+*	přestupovat	přestupek	V-ovat --> N-ek		
+					
+*	dívat	děvka	V-at --> N-ka	CHANGE: í -> ě	
+	děva	děvka	N-a --> N-ka		LINK ALREADY PRESENT
+					
+	opírat	opěrka	V-at --> N-ka	CHANGE: í -> ě	
+*	opěra	opěrka	N-a --> N-ka		LINK ALREADY PRESENT
+					
+	podpírat	podpěrka	V-at --> N-ka	CHANGE: í -> ě	
+*	podpěra	podpěrka	N-a --> N-ka		LINK ALREADY PRESENT
+					
+*	štípat	štěpka	V-at --> N-ka	CHANGE: í -> ě	
+*	štěpit	štěpka	V-it --> N-ka		
+					
+*	Boba	Bubík	N-a --> N-ík	CHANGE: o -> u	
+*	Buba	Bubík	N-a --> N-ík		
+					
+*	Doda	Dudík	N-a --> N-ík	CHANGE: o -> u	
+*	Douda	Dudík	N-a --> N-ík	CHANGE: ou -> u	
+*	Duda	Dudík	N-a --> N-ík		
+					
+*	Hola	Hulík	N-a --> N-ík	CHANGE: o -> u	
+*	Hula	Hulík	N-a --> N-ík		
+					
+*	Jora	Jurík	N-a --> N-ík	CHANGE: o -> u	
+*	Jura	Jurík	N-a --> N-ík		
+					
+*	Kouba	Kubík	N-a --> N-ík	CHANGE: ou -> u	
+	Kuba	Kubík	N-a --> N-ík		
+					
+*	Koula	Kulík	N-a --> N-ík	CHANGE: ou -> u	
+*	Kula	Kulík	N-a --> N-ík		
+					
+*	Mikola	Mikulík	N-a --> N-ík	CHANGE: o -> u	
+	Mikula	Mikulík	N-a --> N-ík		
+					
+*	Šoula	Šulík	N-a --> N-ík	CHANGE: ou -> u	
+*	Šula	Šulík	N-a --> N-ík		
+					
+*	tourský	turismus	A-ský --> N-ismus	CHANGE: ou -> u	
+*	turista	turismus	N-ista --> N-ismus		
+					
+*	rouška	rušička	N-ka --> N-ička	CHANGE: ou -> u	
+	rušit	rušička	V-t --> N-čka		
+					
+*	souška	sušička	N-ka --> N-ička	CHANGE: ou -> u	
+*	soška	sušička	N-ka --> N-ička	CHANGE: o -> u	
+	sušit	sušička	V-t --> N-čka		
+					
+*	štítit	štětička	V-t --> N-čka	CHANGE: í -> ě	
+*	štětit	štětička	V-t --> N-čka		
+	štětka	štětička	N-ka --> N-ička		
+					
+*	kotit	kutění	V-tit --> N-tění	CHANGE: o -> u	
+	kutit	kutění	V-tit --> N-tění		LINK ALREADY PRESENT
+					
+*	podlý	pudlice	A-ý --> N-ice	CHANGE: o -> u	
+*	pudlík	pudlice	N-ík --> N-ice		LINK ALREADY PRESENT
+					
+*	pouťový	puťák	A-ový --> N-ák	CHANGE: ou -> u	
+*	puťka	puťák	N-ka --> N-ák		
+					
+*	pokosit	pokušení	V-sit --> N-šení	CHANGE: o -> u	
+*	pokoušený	pokušení	A-ý --> N-í	CHANGE: ou -> u	
+*	pokoušet	pokušení	V-et --> N-ení	CHANGE: ou -> u	
+	pokusit	pokušení	V-sit --> N-šení		
+	pokusit	pokušení	V-sit --> N-šení		LINK ALREADY PRESENT
+*	pokušený	pokušení	A-ý --> N-í		
+					
+*	kopec	kupecký	N-c --> A-cký	CHANGE: o -> u	
+	kupec	kupecký	N-c --> A-cký		
+					
+*	kopa	kupička	N-a --> N-ička	CHANGE: o -> u	
+*	kopka	kupička	N-ka --> N-ička	CHANGE: o -> u	
+*	koupit	kupička	V-t --> N-čka	CHANGE: ou -> u	
+*	kupa	kupička	N-a --> N-ička		
+*	kupit	kupička	V-t --> N-čka		
+	kupka	kupička	N-ka --> N-ička		
+					
+*	bílit	bělice	V-it --> N-ice	CHANGE: í -> ě	
+	bílý	bělice	A-ý --> N-ice	CHANGE: í -> ě	
+*	bělit	bělice	V-it --> N-ice		
+					
+	bouřit	buřič	V-it --> N-ič	CHANGE: ou -> u	
+*	bořit	buřič	V-it --> N-ič	CHANGE: o -> u	
+					
+*	bílit	bělič	V-it --> N-ič	CHANGE: í -> ě	
+	bělit	bělič	V-it --> N-ič		
+					
+*	holit	hulič	V-it --> N-ič	CHANGE: o -> u	
+*	houlit	hulič	V-it --> N-ič	CHANGE: ou -> u	
+	hulit	hulič	V-it --> N-ič		
+					
+*	mínit	měnič	V-it --> N-ič	CHANGE: í -> ě	
+	měnit	měnič	V-it --> N-ič		
+					
+*	mířit	měřič	V-it --> N-ič	CHANGE: í -> ě	
+	měřit	měřič	V-it --> N-ič		
+					
+*	proudit	prudič	V-it --> N-ič	CHANGE: ou -> u	
+	prudit	prudič	V-it --> N-ič		
+					
+	bloudit	bludice	V-it --> N-ice	CHANGE: ou -> u	
+*	bludný	bludice	A-ný --> N-ice		
+					
+*	smísit	směsice	V-it --> N-ice	CHANGE: í -> ě	
+*	směsný	směsice	A-ný --> N-ice		
+					
+*	knížka	kněžčin	N-ka --> A-čin	CHANGE: í -> ě	
+	kněžka	kněžčin	N-ka --> A-čin		LINK ALREADY PRESENT
+					
+*	složka	služčin	N-ka --> A-čin	CHANGE: o -> u	
+	služka	služčin	N-ka --> A-čin		LINK ALREADY PRESENT
+					
+*	bouchnout	bušení	V-chnout --> N-šení	CHANGE: ou -> u	
+*	buchnout	bušení	V-chnout --> N-šení		
+*	bušený	bušení	A-ý --> N-í		
+					
+*	rozlousknout	rozluštění	V-sknout --> N-štění	CHANGE: ou -> u	
+	rozluštit	rozluštění	V-tit --> N-tění		
+	rozluštit	rozluštění	V-tit --> N-tění		LINK ALREADY PRESENT
+*	rozluštěný	rozluštění	A-ý --> N-í		
+					
+*	kosovský	kusovka	A-ský --> N-ka	CHANGE: o -> u	
+*	kosový	kusovka	A-ový --> N-ovka	CHANGE: o -> u	
+*	kosový	kusovka	A-ý --> N-ka	CHANGE: o -> u	
+	kusový	kusovka	A-ový --> N-ovka		
+	kusový	kusovka	A-ý --> N-ka		
+					
+*	možný	mužstvo	A-ný --> N-stvo	CHANGE: o -> u	
+*	mužný	mužstvo	A-ný --> N-stvo		
+	mužský	mužstvo	A-ský --> N-stvo		
+					
+*	hloubit	hlubina	V-it --> N-ina	CHANGE: ou -> u	
+*	hlubinný	hlubina	A-ný --> N-a		
+					
+*	obouvat	obuvník	V-at --> N-ník	CHANGE: ou -> u	
+*	obuvní	obuvník	A-í --> N-ík		
+					
+	zpovídat	zpovědník	V-at --> N-ník	CHANGE: í -> ě	
+*	zpovědní	zpovědník	A-í --> N-ík		
+					
+*	borský	buřina	A-rský --> N-řina	CHANGE: o -> u	
+*	bouřit	buřina	V-it --> N-ina	CHANGE: ou -> u	
+*	bořit	buřina	V-it --> N-ina	CHANGE: o -> u	
+*	burský	buřina	A-rský --> N-řina		
+					
+*	zvířit	zvěřina	V-it --> N-ina	CHANGE: í -> ě	
+*	zvěrský	zvěřina	A-rský --> N-řina		
+					
+*	dodat	dudák	V-at --> N-ák	CHANGE: o -> u	
+*	duda	dudák	N-a --> N-ák		
+*	dudat	dudák	V-at --> N-ák		
+					
+*	loupat	lupek	V-at --> N-ek	CHANGE: ou -> u	
+*	loupit	lupek	V-it --> N-ek	CHANGE: ou -> u	
+*	lupat	lupek	V-at --> N-ek		
+					
+*	zrobit	zrubek	V-it --> N-ek	CHANGE: o -> u	
+	zrubat	zrubek	V-at --> N-ek		
+					
+*	topit	tupitel	V-t --> N-tel	CHANGE: o -> u	
+	tupit	tupitel	V-t --> N-tel		
+*	tupět	tupitel	V-ět --> N-itel		
+					
+*	stopý	stupátko	A-ý --> N-átko	CHANGE: o -> u	
+	stoupat	stupátko	V-at --> N-átko	CHANGE: ou -> u	
+					
+*	strohý	struhátko	A-ý --> N-átko	CHANGE: o -> u	
+	strouhat	struhátko	V-at --> N-átko	CHANGE: ou -> u	
+					
+*	bodovat	budova	V-at --> N-a	CHANGE: o -> u	
+*	budovat	budova	V-at --> N-a		
+					
+*	dodat	duda	V-at --> N-a	CHANGE: o -> u	
+*	dudat	duda	V-at --> N-a		
+					
+*	louskat	luska	V-at --> N-a	CHANGE: ou -> u	
+*	luskat	luska	V-at --> N-a		
+					
+*	šoupat	šupa	V-at --> N-a	CHANGE: ou -> u	
+*	šupat	šupa	V-at --> N-a		
+					
+*	odštípat	odštěpek	V-at --> N-ek	CHANGE: í -> ě	
+	odštěpit	odštěpek	V-it --> N-ek		
+*	odštěpovat	odštěpek	V-ovat --> N-ek		
+					
+*	štípat	štěpek	V-at --> N-ek	CHANGE: í -> ě	
+	štěpit	štěpek	V-it --> N-ek		
+*	štěpovat	štěpek	V-ovat --> N-ek		
+					
+	kouřit	kuřba	V-it --> N-ba	CHANGE: ou -> u	
+*	kořit	kuřba	V-it --> N-ba	CHANGE: o -> u	
+					
+	sloužit	služba	V-it --> N-ba	CHANGE: ou -> u	
+*	složit	služba	V-it --> N-ba	CHANGE: o -> u	
+					
+	toužit	tužba	V-it --> N-ba	CHANGE: ou -> u	
+*	tužit	tužba	V-it --> N-ba		
+					
+*	tížit	těžba	V-it --> N-ba	CHANGE: í -> ě	
+	těžit	těžba	V-it --> N-ba		
+					
+*	poklovat	puklice	V-ovat --> N-ice	CHANGE: o -> u	
+*	puklý	puklice	A-ý --> N-ice		
+					
+	trouba	trubka	N-a --> N-ka	CHANGE: ou -> u	
+*	troubit	trubka	V-it --> N-ka	CHANGE: ou -> u	
+*	trubní	trubka	A-ní --> N-ka		
+					
+*	kovodílna	kovodělník	N-a --> N-ík	CHANGE: í -> ě	
+*	kovodělný	kovodělník	A-ý --> N-ík		
+					
+*	douška	dušička	N-ka --> N-ička	CHANGE: ou -> u	
+	duše	dušička	N-e --> N-ička		
+					
+*	popouzet	popuzení	V-et --> N-ení	CHANGE: ou -> u	
+	popudit	popuzení	V-dit --> N-zení		LINK ALREADY PRESENT
+*	popuzený	popuzení	A-ý --> N-í		
+					
+*	probouzený	probuzení	A-ý --> N-í	CHANGE: ou -> u	
+*	probouzet	probuzení	V-et --> N-ení	CHANGE: ou -> u	
+	probudit	probuzení	V-dit --> N-zení		LINK ALREADY PRESENT
+*	probuzený	probuzení	A-ý --> N-í		
+					
+*	vzbouzet	vzbuzení	V-et --> N-ení	CHANGE: ou -> u	
+	vzbudit	vzbuzení	V-dit --> N-zení		LINK ALREADY PRESENT
+*	vzbuzený	vzbuzení	A-ý --> N-í		
+					
+*	zostouzený	zostuzení	A-ý --> N-í	CHANGE: ou -> u	
+*	zostouzet	zostuzení	V-et --> N-ení	CHANGE: ou -> u	
+	zostudit	zostuzení	V-dit --> N-zení		LINK ALREADY PRESENT
+*	zostuzený	zostuzení	A-ý --> N-í		
+					
+*	souška	sušák	N-ka --> N-ák	CHANGE: ou -> u	
+*	soška	sušák	N-ka --> N-ák	CHANGE: o -> u	
+	sušit	sušák	V-it --> N-ák		
+					
+*	bílit	bělička	V-t --> N-čka	CHANGE: í -> ě	
+*	bělice	bělička	N-ce --> N-čka		
+	bělit	bělička	V-t --> N-čka		
+*	bělka	bělička	N-ka --> N-ička		
+					
+*	drožka	družička	N-ka --> N-ička	CHANGE: o -> u	
+*	družice	družička	N-ce --> N-čka		
+*	družit	družička	V-t --> N-čka		
+	družka	družička	N-ka --> N-ička		
+					
+*	vížka	věžička	N-ka --> N-ička	CHANGE: í -> ě	
+*	věžice	věžička	N-ce --> N-čka		
+*	věžit	věžička	V-t --> N-čka		
+*	věžka	věžička	N-ka --> N-ička		
+					
+*	skoupený	skupenství	A-ý --> N-ství	CHANGE: ou -> u	
+*	skupenský	skupenství	A-ský --> N-ství		LINK ALREADY PRESENT
+					
+*	prohloubit	prohlubina	V-it --> N-ina	CHANGE: ou -> u	
+	prohlubovat	prohlubina	V-ovat --> N-ina		
+					
+*	boulit	bulina	V-it --> N-ina	CHANGE: ou -> u	
+*	bulit	bulina	V-it --> N-ina		
+					
+*	ploužit	plužina	V-it --> N-ina	CHANGE: ou -> u	
+	plužit	plužina	V-it --> N-ina		
+					
+*	skolit	skulina	V-it --> N-ina	CHANGE: o -> u	
+*	skulit	skulina	V-it --> N-ina		
+					
+*	štítit	štětina	V-it --> N-ina	CHANGE: í -> ě	
+*	štětit	štětina	V-it --> N-ina		
+					
+	rozloučit	rozlučka	V-it --> N-ka	CHANGE: ou -> u	
+*	rozluka	rozlučka	N-ka --> N-čka		
+					
+*	sloha	sluhovský	N-a --> A-ovský	CHANGE: o -> u	
+*	sloha	sluhovský	N-ha --> A-hovský	CHANGE: o -> u	
+*	slouha	sluhovský	N-a --> A-ovský	CHANGE: ou -> u	
+*	slouha	sluhovský	N-ha --> A-hovský	CHANGE: ou -> u	
+	sluha	sluhovský	N-a --> A-ovský		
+	sluha	sluhovský	N-ha --> A-hovský		
+					
+*	rozsvícený	rozsvěcení	A-ý --> N-í	CHANGE: í -> ě	
+*	rozsvítit	rozsvěcení	V-tit --> N-cení	CHANGE: í -> ě	
+*	rozsvěcený	rozsvěcení	A-ý --> N-í		
+	rozsvěcet	rozsvěcení	V-et --> N-ení		LINK ALREADY PRESENT
+					
+*	tok	tuček	N-k --> N-ček	CHANGE: o -> u	
+*	točit	tuček	V-it --> N-ek	CHANGE: o -> u	
+*	tuk	tuček	N-k --> N-ček		LINK ALREADY PRESENT
+					
+*	notný	nutně	A-ý --> N-ě	CHANGE: o -> u	
+	nutný	nutně	A-ý --> N-ě		
+					
+*	dotíravý	dotěravec	A-ý --> N-ec	CHANGE: í -> ě	
+	dotěravý	dotěravec	A-ý --> N-ec		
+					
+*	propouštěný	propuštěnec	A-ý --> N-ec	CHANGE: ou -> u	
+	propuštěný	propuštěnec	A-ý --> N-ec		
+					
+*	zvídavý	zvědavec	A-ý --> N-ec	CHANGE: í -> ě	
+	zvědavý	zvědavec	A-ý --> N-ec		
+					
+*	Douša	Dušák	N-a --> N-ák	CHANGE: ou -> u	
+*	Duša	Dušák	N-a --> N-ák		
+					
+*	Houda	Hudák	N-a --> N-ák	CHANGE: ou -> u	
+*	Huda	Hudák	N-a --> N-ák		
+					
+*	Šoula	Šulák	N-a --> N-ák	CHANGE: ou -> u	
+*	Šula	Šulák	N-a --> N-ák		
+					
+*	kondice	kundička	N-ce --> N-čka	CHANGE: o -> u	
+*	kondiční	kundička	A-ní --> N-ka	CHANGE: o -> u	
+	kunda	kundička	N-a --> N-ička		
+					
+*	bodovat	budovatel	V-t --> N-tel	CHANGE: o -> u	
+	budovat	budovatel	V-t --> N-tel		
+					
+*	močit	mučitel	V-t --> N-tel	CHANGE: o -> u	
+	mučit	mučitel	V-t --> N-tel		
+					
+*	vířit	věřitel	V-t --> N-tel	CHANGE: í -> ě	
+	věřit	věřitel	V-t --> N-tel		
+					
+*	lok	lučík	N-k --> N-čík	CHANGE: o -> u	
+*	loučit	lučík	V-it --> N-ík	CHANGE: ou -> u	
+	luk	lučík	N-k --> N-čík		
+					
+*	dotovat	dutina	V-ovat --> N-ina	CHANGE: o -> u	
+	dutý	dutina	A-ý --> N-ina		
+					
+*	holit	hula	V-it --> N-a	CHANGE: o -> u	
+*	houlit	hula	V-it --> N-a	CHANGE: ou -> u	
+*	hulit	hula	V-it --> N-a		
+					
+*	obrobit	obruba	V-it --> N-a	CHANGE: o -> u	
+	obroubit	obruba	V-it --> N-a	CHANGE: ou -> u	
+					
+*	postit	pusta	V-it --> N-a	CHANGE: o -> u	
+*	pustit	pusta	V-it --> N-a		
+					
+*	houba	hubička	N-a --> N-ička	CHANGE: ou -> u	
+*	huba	hubička	N-a --> N-ička		
+*	hubice	hubička	N-ce --> N-čka		
+*	hubit	hubička	V-t --> N-čka		
+	hubka	hubička	N-ka --> N-ička		
+					
+*	kropit	krupička	V-t --> N-čka	CHANGE: o -> u	
+*	kroupa	krupička	N-a --> N-ička	CHANGE: ou -> u	
+*	krupice	krupička	N-ce --> N-čka		
+	krupka	krupička	N-ka --> N-ička		
+					
+*	trouba	trubička	N-a --> N-ička	CHANGE: ou -> u	
+*	troubit	trubička	V-t --> N-čka	CHANGE: ou -> u	
+*	trubice	trubička	N-ce --> N-čka		
+	trubka	trubička	N-ka --> N-ička		
+					
+*	postit	pustina	V-it --> N-ina	CHANGE: o -> u	
+*	pustinný	pustina	A-ný --> N-a		
+*	pustit	pustina	V-it --> N-ina		
+	pustý	pustina	A-ý --> N-ina		
+					
+*	Bíla	Bělský	N-a --> N-ský	CHANGE: í -> ě	
+*	Běla	Bělský	N-a --> N-ský		
+					
+*	Bílina	Bělinský	N-a --> N-ský	CHANGE: í -> ě	
+*	Bělina	Bělinský	N-a --> N-ský		
+					
+*	Mikola	Mikulský	N-a --> N-ský	CHANGE: o -> u	
+*	Mikula	Mikulský	N-a --> N-ský		
+					
+*	poklovat	puklina	V-ovat --> N-ina	CHANGE: o -> u	
+	puklý	puklina	A-lý --> N-lina		
+	puklý	puklina	A-ý --> N-ina		
+					
+*	koňský	kuňka	A-ský --> N-ka	CHANGE: o -> u	
+	kuňkat	kuňka	V-at --> N-a		
+					
+	zpívat	zpěvák	V-at --> N-ák	CHANGE: í -> ě	
+*	zpěvní	zpěvák	A-ní --> N-ák		
+					
+	sloužit	služka	V-it --> N-ka	CHANGE: ou -> u	
+*	složit	služka	V-it --> N-ka	CHANGE: o -> u	
+					
+*	snížit	sněžka	V-it --> N-ka	CHANGE: í -> ě	
+*	sněžit	sněžka	V-it --> N-ka		
+					
+*	štítit	štětka	V-it --> N-ka	CHANGE: í -> ě	
+*	štětit	štětka	V-it --> N-ka		
+					
+*	soda	sudička	N-a --> N-ička	CHANGE: o -> u	
+	soudit	sudička	V-t --> N-čka	CHANGE: ou -> u	
+*	sudice	sudička	N-ce --> N-čka		
+					
+*	bokový	bukovina	A-ový --> N-ovina	CHANGE: o -> u	
+*	bokový	bukovina	A-vý --> N-vina	CHANGE: o -> u	
+*	bokový	bukovina	A-ý --> N-ina	CHANGE: o -> u	
+*	bukovský	bukovina	A-ský --> N-ina		
+	bukový	bukovina	A-ový --> N-ovina		
+	bukový	bukovina	A-vý --> N-vina		
+	bukový	bukovina	A-ý --> N-ina		
+					
+*	kora	kuří	N-ra --> A-ří	CHANGE: o -> u	
+*	kura	kuří	N-ra --> A-ří		
+					
+*	mora	muří	N-ra --> A-ří	CHANGE: o -> u	
+*	mura	muří	N-ra --> A-ří		
+					
+*	korat	kurník	V-at --> N-ník	CHANGE: o -> u	
+*	korna	kurník	N-a --> N-ík	CHANGE: o -> u	
+*	korný	kurník	A-ý --> N-ík	CHANGE: o -> u	
+					
+*	posouvat	posuvník	V-at --> N-ník	CHANGE: ou -> u	
+*	posuvna	posuvník	N-a --> N-ík		
+	posuvný	posuvník	A-ý --> N-ík		
+					
+*	štístko	štěstíčko	N-ko --> N-íčko	CHANGE: í -> ě	
+	štěstí	štěstíčko	N-í --> N-íčko		
+					
+*	kouřit	kuřice	V-it --> N-ice	CHANGE: ou -> u	
+*	kořit	kuřice	V-it --> N-ice	CHANGE: o -> u	
+					
+*	svítit	světice	V-it --> N-ice	CHANGE: í -> ě	
+*	světit	světice	V-it --> N-ice		
+					
+*	borský	burka	A-ský --> N-ka	CHANGE: o -> u	
+*	boura	burka	N-a --> N-ka	CHANGE: ou -> u	
+*	bourat	burka	V-at --> N-ka	CHANGE: ou -> u	
+*	burský	burka	A-ský --> N-ka		
+					
+*	šopa	šupka	N-a --> N-ka	CHANGE: o -> u	
+*	šopský	šupka	A-ský --> N-ka	CHANGE: o -> u	
+*	šoupat	šupka	V-at --> N-ka	CHANGE: ou -> u	
+	šupa	šupka	N-a --> N-ka		
+*	šupat	šupka	V-at --> N-ka		
+					
+*	tonik	tunika	N-ik --> N-ika	CHANGE: o -> u	
+*	tuniský	tunika	A-ský --> N-ka		
+					
+	zpívat	zpěvník	V-at --> N-ník	CHANGE: í -> ě	
+*	zpěvní	zpěvník	A-í --> N-ík		
+*	zpěvný	zpěvník	A-ý --> N-ík		
+					
+*	sodový	sudovina	A-ový --> N-ovina	CHANGE: o -> u	
+*	sodový	sudovina	A-vý --> N-vina	CHANGE: o -> u	
+*	sodový	sudovina	A-ý --> N-ina	CHANGE: o -> u	
+	sudový	sudovina	A-ový --> N-ovina		
+	sudový	sudovina	A-vý --> N-vina		
+	sudový	sudovina	A-ý --> N-ina		
+*	sudý	sudovina	A-ý --> N-ovina		
+					
+*	Koča	Kučka	N-a --> N-ka	CHANGE: o -> u	
+*	Kuka	Kučka	N-ka --> N-čka		
+					
+*	bouchat	buchot	V-at --> N-ot	CHANGE: ou -> u	
+	buchat	buchot	V-at --> N-ot		
+					
+*	šoupat	šupot	V-at --> N-ot	CHANGE: ou -> u	
+	šupat	šupot	V-at --> N-ot		
+					
+	opírat	opěrátko	V-at --> N-átko	CHANGE: í -> ě	
+*	opěrný	opěrátko	A-ný --> N-átko		
+					
+*	Hola	Hulička	N-a --> N-ička	CHANGE: o -> u	
+*	Holice	Hulička	N-ce --> N-čka	CHANGE: o -> u	
+*	Hula	Hulička	N-a --> N-ička		
+*	Hule	Hulička	N-e --> N-ička		
+*	Hulka	Hulička	N-ka --> N-ička		
+					
+*	house	husička	N-e --> N-ička	CHANGE: ou -> u	
+*	houska	husička	N-ka --> N-ička	CHANGE: ou -> u	
+	husa	husička	N-a --> N-ička		
+*	husice	husička	N-ce --> N-čka		
+					
+*	rozdílový	rozdělovník	A-ý --> N-ník	CHANGE: í -> ě	
+	rozdělovat	rozdělovník	V-at --> N-ník		
+*	rozdělovna	rozdělovník	N-a --> N-ík		
+					
+*	houska	husák	N-ka --> N-ák	CHANGE: ou -> u	
+	husa	husák	N-a --> N-ák		
+*	husí	husák	A-í --> N-ák		
+					
+*	bouraný	buranka	A-ý --> N-ka	CHANGE: ou -> u	
+*	buranský	buranka	A-ský --> N-ka		
+					
+*	hrobní	hrubka	A-ní --> N-ka	CHANGE: o -> u	
+	hrubý	hrubka	A-ý --> N-ka		
+					
+*	šoustat	šustot	V-at --> N-ot	CHANGE: ou -> u	
+	šustit	šustot	V-it --> N-ot		
+					
+*	močit	mučírna	V-it --> N-írna	CHANGE: o -> u	
+	mučit	mučírna	V-it --> N-írna		
+					
+*	mínit	měnírna	V-it --> N-írna	CHANGE: í -> ě	
+	měnit	měnírna	V-it --> N-írna		
+					
+*	topit	tupec	V-it --> N-ec	CHANGE: o -> u	
+*	tupat	tupec	V-at --> N-ec		
+*	tupit	tupec	V-it --> N-ec		
+	tupý	tupec	A-ý --> N-ec		
+*	tupět	tupec	V-ět --> N-ec		
+					
+*	roční	ručník	A-í --> N-ík	CHANGE: o -> u	
+*	roční	ručník	N-í --> N-ík	CHANGE: o -> u	
+*	ručit	ručník	V-it --> N-ník		
+	ruční	ručník	A-í --> N-ík		
+					
+*	Ka	Kuška	N-a --> N-uška		
+*	Koša	Kuška	N-a --> N-ka	CHANGE: o -> u	
+					
+*	Ma	Muška	N-a --> N-uška		
+*	Moša	Muška	N-a --> N-ka	CHANGE: o -> u	
+					
+	chroupat	chrupka	V-at --> N-ka	CHANGE: ou -> u	
+*	chrupat	chrupka	V-at --> N-ka		
+					
+*	křoupat	křupka	V-at --> N-ka	CHANGE: ou -> u	
+	křupat	křupka	V-at --> N-ka		
+					
+	role	rulička	N-e --> N-ička	CHANGE: o -> u	
+*	rolka	rulička	N-ka --> N-ička	CHANGE: o -> u	
+*	rula	rulička	N-a --> N-ička		
+					
+*	chodit	chudina	V-it --> N-ina	CHANGE: o -> u	
+*	chodský	chudina	A-ský --> N-ina	CHANGE: o -> u	
+	chudý	chudina	A-ý --> N-ina		
+					
+*	bodovat	budování	V-at --> N-ání	CHANGE: o -> u	
+*	bodovat	budování	V-ovat --> N-ování	CHANGE: o -> u	
+*	budova	budování	N-a --> N-ání		
+	budovat	budování	V-at --> N-ání		LINK ALREADY PRESENT
+	budovat	budování	V-ovat --> N-ování		LINK ALREADY PRESENT
+					
+*	bodat	budník	V-at --> N-ník	CHANGE: o -> u	
+*	bodný	budník	A-ý --> N-ík	CHANGE: o -> u	
+*	budit	budník	V-it --> N-ník		
+					
+*	pokosit	pokusník	V-it --> N-ník	CHANGE: o -> u	
+*	pokousat	pokusník	V-at --> N-ník	CHANGE: ou -> u	
+*	pokusit	pokusník	V-it --> N-ník		
+	pokusný	pokusník	A-ý --> N-ík		
+					
+*	kona	kuní	N-a --> A-í	CHANGE: o -> u	
+	kuna	kuní	N-a --> A-í		
+					
+*	moula	mulí	N-a --> A-í	CHANGE: ou -> u	
+	mula	mulí	N-a --> A-í		
+					
+*	Kouba	Kubínek	N-a --> N-ínek	CHANGE: ou -> u	
+*	Kuba	Kubínek	N-a --> N-ínek		
+					
+*	stopa	stupínek	N-a --> N-ínek	CHANGE: o -> u	
+*	stoupa	stupínek	N-a --> N-ínek	CHANGE: ou -> u	
+					
+	sbírat	sběrák	V-at --> N-ák	CHANGE: í -> ě	
+*	sbírka	sběrák	N-ka --> N-ák	CHANGE: í -> ě	
+*	sběrový	sběrák	A-ový --> N-ák		
+					
+*	svítat	světec	V-at --> N-ec	CHANGE: í -> ě	
+*	svítit	světec	V-it --> N-ec	CHANGE: í -> ě	
+	světit	světec	V-it --> N-ec		
+					
+*	zobat	zubec	V-at --> N-ec	CHANGE: o -> u	
+*	zubit	zubec	V-it --> N-ec		
+					
+*	poma	pumička	N-a --> N-ička	CHANGE: o -> u	
+	puma	pumička	N-a --> N-ička		
+					
+*	pompa	pumpička	N-a --> N-ička	CHANGE: o -> u	
+	pumpa	pumpička	N-a --> N-ička		
+					
+*	mířit	měřítko	V-it --> N-ítko	CHANGE: í -> ě	
+	měřit	měřítko	V-it --> N-ítko		
+					
+*	tížit	těžítko	V-it --> N-ítko	CHANGE: í -> ě	
+*	těžit	těžítko	V-it --> N-ítko		
+					
+*	mířit	měřík	V-it --> N-ík	CHANGE: í -> ě	
+	měřit	měřík	V-it --> N-ík		
+					
+*	stolit	stulík	V-it --> N-ík	CHANGE: o -> u	
+*	stulit	stulík	V-it --> N-ík		
+					
+*	klobat	klubák	V-at --> N-ák	CHANGE: o -> u	
+*	kloubní	klubák	A-ní --> N-ák	CHANGE: ou -> u	
+*	kloubový	klubák	A-ový --> N-ák	CHANGE: ou -> u	
+	klubat	klubák	V-at --> N-ák		
+*	klubový	klubák	A-ový --> N-ák		
+					
+*	poučený	pučení	A-ý --> N-í	CHANGE: ou -> u	
+*	počít	pučení	V-ít --> N-ení	CHANGE: o -> u	
+	pučet	pučení	V-et --> N-ení		
+					
+*	kopat	kupec	V-at --> N-ec	CHANGE: o -> u	
+*	kopie	kupec	N-ie --> N-ec	CHANGE: o -> u	
+*	koupat	kupec	V-at --> N-ec	CHANGE: ou -> u	
+	koupit	kupec	V-it --> N-ec	CHANGE: ou -> u	
+*	kupit	kupec	V-it --> N-ec		
+					
+*	skopský	skupina	A-ský --> N-ina	CHANGE: o -> u	
+*	skoupit	skupina	V-it --> N-ina	CHANGE: ou -> u	
+*	skoupý	skupina	A-ý --> N-ina	CHANGE: ou -> u	
+*	skupovat	skupina	V-ovat --> N-ina		
+					
+*	Jork	Jurčík	N-k --> N-čík	CHANGE: o -> u	
+*	Jurča	Jurčík	N-a --> N-ík		
+					
+*	spínat	spěnka	V-at --> N-ka	CHANGE: í -> ě	
+*	spění	spěnka	N-í --> N-ka		
+					
+*	chodit	chudák	V-it --> N-ák	CHANGE: o -> u	
+*	chodský	chudák	A-ský --> N-ák	CHANGE: o -> u	
+	chudý	chudák	A-ý --> N-ák		
+					
+*	louskat	luskoun	V-at --> N-oun	CHANGE: ou -> u	
+	luskat	luskoun	V-at --> N-oun		
+					
+*	dívka	děvečka	N-ka --> N-ečka	CHANGE: í -> ě	
+	děvka	děvečka	N-ka --> N-ečka		
+					
+*	bodat	budka	V-at --> N-ka	CHANGE: o -> u	
+	bouda	budka	N-a --> N-ka	CHANGE: ou -> u	
+*	budit	budka	V-it --> N-ka		
+*	budský	budka	A-ský --> N-ka		
+					
+*	osa	osuška	N-a --> N-uška		
+*	osoušet	osuška	V-et --> N-ka	CHANGE: ou -> u	
+	osušit	osuška	V-it --> N-ka		
+					
+*	dodat	dudek	V-at --> N-ek	CHANGE: o -> u	
+*	dudat	dudek	V-at --> N-ek		
+					
+*	místo	městečko	N-o --> N-ečko	CHANGE: í -> ě	
+	město	městečko	N-o --> N-ečko		
+					
+*	kola	kulka	N-a --> N-ka	CHANGE: o -> u	
+*	kolský	kulka	A-ský --> N-ka	CHANGE: o -> u	
+*	koulet	kulka	V-et --> N-ka	CHANGE: ou -> u	
+*	kulit	kulka	V-it --> N-ka		
+					
+*	Mikola	Mikulenka	N-a --> N-enka	CHANGE: o -> u	
+*	Mikula	Mikulenka	N-a --> N-enka		
+					
+*	snídat	snědek	V-at --> N-ek	CHANGE: í -> ě	
+*	snědý	snědek	A-ý --> N-ek		
+					
+*	tížit	těžce	V-it --> N-ce	CHANGE: í -> ě	
+*	těžit	těžce	V-it --> N-ce		
+					
+*	houba	hubinka	N-a --> N-inka	CHANGE: ou -> u	
+	huba	hubinka	N-a --> N-inka		
+					
+*	rosa	rusák	N-a --> N-ák	CHANGE: o -> u	
+*	rosit	rusák	V-it --> N-ák	CHANGE: o -> u	
+*	rousat	rusák	V-at --> N-ák	CHANGE: ou -> u	
+*	rusý	rusák	A-ý --> N-ák		
+					
+*	kola	kulička	N-a --> N-ička	CHANGE: o -> u	
+*	kolika	kulička	N-ka --> N-čka	CHANGE: o -> u	
+*	koule	kulička	N-e --> N-ička	CHANGE: ou -> u	
+*	kule	kulička	N-e --> N-ička		
+*	kulit	kulička	V-t --> N-čka		
+	kulka	kulička	N-ka --> N-ička		
+					
+*	bola	bulka	N-a --> N-ka	CHANGE: o -> u	
+*	bolet	bulka	V-et --> N-ka	CHANGE: o -> u	
+*	boulit	bulka	V-it --> N-ka	CHANGE: ou -> u	
+*	bula	bulka	N-a --> N-ka		
+*	bulit	bulka	V-it --> N-ka		
+					
+*	moa	muka	N-a --> N-ka	CHANGE: o -> u	
+*	mukat	muka	V-at --> N-a		
+					
+*	došít	dušení	V-ít --> N-ení	CHANGE: o -> u	
+	dusit	dušení	V-sit --> N-šení		
+	dusit	dušení	V-sit --> N-šení		LINK ALREADY PRESENT
+*	dušený	dušení	A-ý --> N-í		
+					
+	hrouda	hrudka	N-a --> N-ka	CHANGE: ou -> u	
+*	hrudní	hrudka	A-ní --> N-ka		
+*	hrudí	hrudka	N-í --> N-ka		
+					
+*	mířit	měřák	V-it --> N-ák	CHANGE: í -> ě	
+	měřit	měřák	V-it --> N-ák		
+					
+*	borka	burák	N-ka --> N-ák	CHANGE: o -> u	
+*	borový	burák	A-ový --> N-ák	CHANGE: o -> u	
+*	borský	burák	A-ský --> N-ák	CHANGE: o -> u	
+*	boura	burák	N-a --> N-ák	CHANGE: ou -> u	
+*	bourat	burák	V-at --> N-ák	CHANGE: ou -> u	
+*	burka	burák	N-ka --> N-ák		
+*	burský	burák	A-ský --> N-ák		
+					
+*	roštovat	ruština	V-ovat --> N-ina	CHANGE: o -> u	
+	ruský	ruština	A-ský --> N-ština		
+					
+*	sloka	slučka	N-ka --> N-čka	CHANGE: o -> u	
+*	slout	slučka	V-t --> N-čka	CHANGE: ou -> u	
+*	sloučit	slučka	V-it --> N-ka	CHANGE: ou -> u	
+*	sluka	slučka	N-ka --> N-čka		
+					
+*	kopa	kupka	N-a --> N-ka	CHANGE: o -> u	
+*	kopat	kupka	V-at --> N-ka	CHANGE: o -> u	
+*	kopí	kupka	N-í --> N-ka	CHANGE: o -> u	
+*	koupat	kupka	V-at --> N-ka	CHANGE: ou -> u	
+*	koupit	kupka	V-it --> N-ka	CHANGE: ou -> u	
+*	kupa	kupka	N-a --> N-ka		
+*	kupit	kupka	V-it --> N-ka		
+	kupní	kupka	A-ní --> N-ka		
+					
+*	kotit	kutil	V-it --> N-il	CHANGE: o -> u	
+	kutit	kutil	V-it --> N-il		
+					
+*	letošní	letuška	A-ní --> N-ka	CHANGE: o -> u	
+*	letý	letuška	A-ý --> N-uška		
+					
+*	prohnout	pružení	V-hnout --> N-žení	CHANGE: o -> u	
+*	prožít	pružení	V-ít --> N-ení	CHANGE: o -> u	
+					
+*	Boda	Budyně	N-a --> N-yně	CHANGE: o -> u	
+*	Bouda	Budyně	N-a --> N-yně	CHANGE: ou -> u	
+*	Buda	Budyně	N-a --> N-yně		
+					
+*	loupit	lupička	V-t --> N-čka	CHANGE: ou -> u	
+*	lupa	lupička	N-a --> N-ička		
+*	lupičský	lupička	A-ský --> N-ka		
+					
+*	štítit	štětec	V-it --> N-ec	CHANGE: í -> ě	
+*	štětit	štětec	V-it --> N-ec		
+					
+	kouřit	kuřák	V-it --> N-ák	CHANGE: ou -> u	
+*	kouřový	kuřák	A-ový --> N-ák	CHANGE: ou -> u	
+*	kořit	kuřák	V-it --> N-ák	CHANGE: o -> u	
+*	kuří	kuřák	A-í --> N-ák		
+					
+*	roubat	rubač	V-at --> N-ač	CHANGE: ou -> u	
+	rubat	rubač	V-at --> N-ač		
+					
+*	obrobit	obrubník	V-it --> N-ník	CHANGE: o -> u	
+*	obrobna	obrubník	N-a --> N-ík	CHANGE: o -> u	
+*	obroubit	obrubník	V-it --> N-ník	CHANGE: ou -> u	
+					
+*	vstoupení	vstupenka	N-í --> N-ka	CHANGE: ou -> u	
+	vstupní	vstupenka	A-ní --> N-enka		
+*	vstupný	vstupenka	A-ný --> N-enka		
+					
+*	vídat	věda	V-at --> N-a	CHANGE: í -> ě	
+*	vědný	věda	A-ný --> N-a		
+	vědět	věda	V-ět --> N-a		
+					
+*	jonák	junácký	N-k --> A-cký	CHANGE: o -> u	
+	junák	junácký	N-k --> A-cký		
+					
+*	notný	nutno	A-ý --> N-o	CHANGE: o -> u	
+	nutný	nutno	A-ý --> N-o		
+					
+*	dopouštět	dopuštění	V-ět --> N-ění	CHANGE: ou -> u	
+	dopustit	dopuštění	V-stit --> N-štění		
+	dopustit	dopuštění	V-stit --> N-štění		LINK ALREADY PRESENT
+					
+*	kosový	kusovník	A-ý --> N-ník	CHANGE: o -> u	
+	kusový	kusovník	A-ý --> N-ník		
+					
+*	loupení	lupenka	N-í --> N-ka	CHANGE: ou -> u	
+*	lupa	lupenka	N-a --> N-enka		
+*	lupení	lupenka	N-í --> N-ka		
+					
+	toulat	tulák	V-at --> N-ák	CHANGE: ou -> u	
+*	toulka	tulák	N-ka --> N-ák	CHANGE: ou -> u	
+*	tulit	tulák	V-it --> N-ák		
+*	tulský	tulák	A-ský --> N-ák		
+					
+	koukat	kukátko	V-at --> N-átko	CHANGE: ou -> u	
+*	kukat	kukátko	V-at --> N-átko		
+					
+*	vídat	vědec	V-at --> N-ec	CHANGE: í -> ě	
+*	vědět	vědec	V-ět --> N-ec		
+					
+*	Kobe	Kubička	N-e --> N-ička	CHANGE: o -> u	
+*	Kouba	Kubička	N-a --> N-ička	CHANGE: ou -> u	
+*	Kuba	Kubička	N-a --> N-ička		
+*	Kubice	Kubička	N-ce --> N-čka		
+					
+*	opírat	opěrák	V-at --> N-ák	CHANGE: í -> ě	
+	opěra	opěrák	N-a --> N-ák		
+*	opěrka	opěrák	N-ka --> N-ák		
+					
+*	nakoupený	nakupenina	A-ý --> N-ina	CHANGE: ou -> u	
+	nakupený	nakupenina	A-ý --> N-ina		
+					
+*	možný	mužátko	A-ný --> N-átko	CHANGE: o -> u	
+*	muže	mužátko	N-e --> N-átko		
+*	mužný	mužátko	A-ný --> N-átko		
+					
+*	hotový	hutnice	A-ový --> N-nice	CHANGE: o -> u	
+*	hutnit	hutnice	V-it --> N-ice		
+*	hutní	hutnice	A-ní --> N-nice		
+	hutník	hutnice	N-ík --> N-ice		LINK ALREADY PRESENT
+*	hutný	hutnice	A-ný --> N-nice		
+*	hutný	hutnice	A-ý --> N-ice		
+					
+*	dosít	dusot	V-ít --> N-ot	CHANGE: o -> u	
+	dusat	dusot	V-at --> N-ot		
+*	dusit	dusot	V-it --> N-ot		
+					
+*	močení	mučeníčko	N-í --> N-íčko	CHANGE: o -> u	
+	mučení	mučeníčko	N-í --> N-íčko		
+					
+*	bídný	běda	A-ný --> N-a	CHANGE: í -> ě	
+*	bědný	běda	A-ný --> N-a		
+					
+*	svítat	světák	V-at --> N-ák	CHANGE: í -> ě	
+*	svítit	světák	V-it --> N-ák	CHANGE: í -> ě	
+*	světit	světák	V-it --> N-ák		
+*	světový	světák	A-ový --> N-ák		
+	světský	světák	A-ský --> N-ák		
+					
+*	borský	burina	A-ský --> N-ina	CHANGE: o -> u	
+*	burský	burina	A-ský --> N-ina		
+					
+*	smírný	směrník	A-ý --> N-ík	CHANGE: í -> ě	
+*	směrný	směrník	A-ý --> N-ík		
+					
+*	šoupat	šupec	V-at --> N-ec	CHANGE: ou -> u	
+*	šupat	šupec	V-at --> N-ec		
+					
+*	dopít	dupot	V-ít --> N-ot	CHANGE: o -> u	
+	dupat	dupot	V-at --> N-ot		
+					
+*	vížka	věžák	N-ka --> N-ák	CHANGE: í -> ě	
+*	věžatý	věžák	A-atý --> N-ák		
+*	věžit	věžák	V-it --> N-ák		
+*	věžka	věžák	N-ka --> N-ák		
+*	věžní	věžák	A-ní --> N-ák		
+	věžový	věžák	A-ový --> N-ák		
+					
+*	koukat	kukadlo	V-t --> N-dlo	CHANGE: ou -> u	
+	kukat	kukadlo	V-t --> N-dlo		
+					
+*	křoupat	křupan	V-at --> N-an	CHANGE: ou -> u	
+*	křupat	křupan	V-at --> N-an		
+					
+*	bílit	bělka	V-it --> N-ka	CHANGE: í -> ě	
+*	bílský	bělka	A-ský --> N-ka	CHANGE: í -> ě	
+*	bílý	bělka	A-ý --> N-ka	CHANGE: í -> ě	
+*	bělat	bělka	V-at --> N-ka		
+*	bělet	bělka	V-et --> N-ka		
+*	bělit	bělka	V-it --> N-ka		
+*	bělský	bělka	A-ský --> N-ka		
+					
+*	kochat	kuchař	V-at --> N-ař	CHANGE: o -> u	
+*	kuchat	kuchař	V-at --> N-ař		
+					
+*	bodovat	budina	V-ovat --> N-ina	CHANGE: o -> u	
+*	budit	budina	V-it --> N-ina		
+*	budovat	budina	V-ovat --> N-ina		
+*	budský	budina	A-ský --> N-ina		
+					
+*	kloubový	klubovka	A-ový --> N-ovka	CHANGE: ou -> u	
+*	kloubový	klubovka	A-ý --> N-ka	CHANGE: ou -> u	
+*	klubovní	klubovka	A-ní --> N-ka		
+	klubový	klubovka	A-ový --> N-ovka		
+	klubový	klubovka	A-ý --> N-ka		
+					
+*	rodit	rudka	V-it --> N-ka	CHANGE: o -> u	
+	ruda	rudka	N-a --> N-ka		LINK ALREADY PRESENT
+*	rudní	rudka	A-ní --> N-ka		
+*	rudý	rudka	A-ý --> N-ka		
+					
+*	dílna	dělník	N-a --> N-ík	CHANGE: í -> ě	
+*	dílný	dělník	A-ý --> N-ík	CHANGE: í -> ě	
+	dělat	dělník	V-at --> N-ník		
+*	dělit	dělník	V-it --> N-ník		
+*	dělný	dělník	A-ý --> N-ík		
+					
+*	Chaloupský	Chalupská	N-ý --> N-á	CHANGE: ou -> u	
+	Chalupský	Chalupská	N-ý --> N-á		
+					
+*	koukat	kukačka	V-t --> N-čka	CHANGE: ou -> u	
+	kukat	kukačka	V-t --> N-čka		
+					
+*	vízový	věznice	A-ový --> N-nice	CHANGE: í -> ě	
+	věznit	věznice	V-it --> N-ice		
+					
+*	omlouvat	omluva	V-at --> N-a	CHANGE: ou -> u	
+	omluvit	omluva	V-it --> N-a		
+*	omluvný	omluva	A-ný --> N-a		
+					
+*	roce	ručka	N-ce --> N-čka	CHANGE: o -> u	
+*	roční	ručka	A-ní --> N-ka	CHANGE: o -> u	
+	ruka	ručka	N-ka --> N-čka		
+*	ručit	ručka	V-it --> N-ka		
+*	ruční	ručka	A-ní --> N-ka		
+					
+*	bílit	bělák	V-it --> N-ák	CHANGE: í -> ě	
+*	bílský	bělák	A-ský --> N-ák	CHANGE: í -> ě	
+	bílý	bělák	A-ý --> N-ák	CHANGE: í -> ě	
+*	bělat	bělák	V-at --> N-ák		
+*	bělet	bělák	V-et --> N-ák		
+*	bělit	bělák	V-it --> N-ák		
+*	bělka	bělák	N-ka --> N-ák		
+*	bělový	bělák	A-ový --> N-ák		
+*	bělský	bělák	A-ský --> N-ák		
+					
+*	kora	kurátor	N-a --> N-átor	CHANGE: o -> u	
+*	kura	kurátor	N-a --> N-átor		
+					
+*	šopa	šupák	N-a --> N-ák	CHANGE: o -> u	
+*	šopský	šupák	A-ský --> N-ák	CHANGE: o -> u	
+*	šoupat	šupák	V-at --> N-ák	CHANGE: ou -> u	
+*	šupa	šupák	N-a --> N-ák		
+*	šupat	šupák	V-at --> N-ák		
+*	šupka	šupák	N-ka --> N-ák		
+					
+*	kopie	kupní	N-ie --> A-ní	CHANGE: o -> u	
+*	kopna	kupní	N-a --> A-í	CHANGE: o -> u	
+					
+*	polsko	pulec	N-sko --> N-ec	CHANGE: o -> u	
+*	poulit	pulec	V-it --> N-ec	CHANGE: ou -> u	
+					
+*	loucký	lučina	A-cký --> N-čina	CHANGE: ou -> u	
+*	loučit	lučina	V-it --> N-ina	CHANGE: ou -> u	
+					
+*	sodný	sudice	A-ný --> N-ice	CHANGE: o -> u	
+*	sodík	sudice	N-ík --> N-ice	CHANGE: o -> u	
+	soudit	sudice	V-it --> N-ice	CHANGE: ou -> u	
+*	soudný	sudice	A-ný --> N-ice	CHANGE: ou -> u	
+*	sudovat	sudice	V-ovat --> N-ice		
+*	sudý	sudice	A-ý --> N-ice		
+					
+*	solit	sulka	V-it --> N-ka	CHANGE: o -> u	
+*	solní	sulka	A-ní --> N-ka	CHANGE: o -> u	
+*	soulský	sulka	A-ský --> N-ka	CHANGE: ou -> u	

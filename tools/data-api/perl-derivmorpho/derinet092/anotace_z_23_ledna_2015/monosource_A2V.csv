@@ -1,0 +1,1919 @@
+	scenario: Load file=../derinet091.tsv CS::ExtractCandidatesByGeneralRules rules=rules/slovesa-z-adjektiv-1.csv spellchanges=rules/hlaskove-alternace.csv
+	rules/slovesa-z-adjektiv-1.csv+rules/hlaskove-alternace.csv
+	TRYING TO APPLY RULE A-ký --> V-nout
+*	  kluzký --> klouznout (CHANGE: u -> ou) 
+	  krotký --> krotnout
+	  křehký --> křehnout
+	  lehký --> lehnout
+*	  lehký --> líhnout (CHANGE: e -> í) 
+*	  mrzký --> mrznout
+	  měkký --> měknout
+*	  pročeský --> pročísnout (CHANGE: e -> í) 
+	  sladký --> sládnout (CHANGE: a -> á) 
+*	  slizký --> slíznout (CHANGE: i -> í) 
+*	  stydký --> stydnout
+*	  velký --> velnout
+	  vlhký --> vlhnout
+*	  vazký --> váznout (CHANGE: a -> á) 
+*	  zřídký --> zřídnout
+*	  český --> čísnout (CHANGE: e -> í) 
+	  řídký --> řídnout
+	rules/slovesa-z-adjektiv-1.csv+rules/hlaskove-alternace.csv
+	TRYING TO APPLY RULE A-ý --> V-nout
+	  blbý --> blbnout
+	  bledý --> blednout
+	  bohatý --> bohatnout
+	  chabý --> chabnout
+	  chromý --> chromnout
+	  chudý --> chudnout
+*	  dolitý --> dolítnout (CHANGE: i -> í) 
+*	  dutý --> dutnout
+	  hloupý --> hloupnout
+	  hluchý --> hluchnout
+	  hnědý --> hnědnout
+	  hustý --> houstnout (CHANGE: u -> ou) 
+	  hrubý --> hrubnout
+*	  klový --> klovnout
+*	  kusý --> kousnout (CHANGE: u -> ou) 
+*	  libý --> líbnout (CHANGE: i -> í) 
+*	  lepý --> lípnout (CHANGE: e -> í) 
+	  mladý --> mládnout (CHANGE: a -> á) 
+*	  nahý --> nahnout
+*	  nalitý --> nalítnout (CHANGE: i -> í) 
+*	  nahý --> nažnout (CHANGE: h -> ž) 
+*	  oblitý --> oblítnout (CHANGE: i -> í) 
+*	  odlitý --> odlítnout (CHANGE: i -> í) 
+*	  plaský --> plasknout
+*	  plihý --> plihnout
+*	  plachý --> pláchnout (CHANGE: a -> á) 
+*	  prolitý --> prolítnout (CHANGE: i -> í) 
+	  pustý --> pustnout
+*	  přelitý --> přelítnout (CHANGE: i -> í) 
+*	  přilitý --> přilítnout (CHANGE: i -> í) 
+*	  rozlitý --> rozlítnout (CHANGE: i -> í) 
+	  rudý --> rudnout
+*	  setý --> setnout
+	  slepý --> slepnout
+	  slabý --> slábnout (CHANGE: a -> á) 
+*	  slitý --> slítnout (CHANGE: i -> í) 
+*	  stopý --> stopnout
+	  starý --> stárnout (CHANGE: a -> á) 
+	  tichý --> tichnout
+*	  tiský --> tisknout
+	  tlustý --> tloustnout (CHANGE: u -> ou) 
+	  tmavý --> tmavnout
+	  trpký --> trpknout
+	  tuhý --> tuhnout
+	  tupý --> tupnout
+	  tvrdý --> tvrdnout
+	  těžký --> těžknout
+*	  ulitý --> ulítnout (CHANGE: i -> í) 
+*	  vlitý --> vlítnout (CHANGE: i -> í) 
+*	  vylitý --> vylítnout (CHANGE: i -> í) 
+*	  vytý --> vytnout
+*	  záleský --> zalesknout (CHANGE: á -> a) 
+*	  zalitý --> zalítnout (CHANGE: i -> í) 
+	  zlatý --> zlátnout (CHANGE: a -> á) 
+	  šedý --> šednout
+	  živý --> živnout
+	  žlutý --> žloutnout (CHANGE: u -> ou) 
+	rules/slovesa-z-adjektiv-1.csv+rules/hlaskove-alternace.csv
+	TRYING TO APPLY RULE A-ý --> V-ět
+	  bachratý --> bachratět
+	  bujný --> bujnět
+*	  bytný --> bytnět
+	  břichatý --> břichatět
+	  choulostivý --> choulostivět
+	  cukernatý --> cukernatět
+	  dužnatý --> dužnatět
+*	  klaný --> klanět
+	  krabatý --> krabatět
+	  kudrnatý --> kudrnatět
+	  kulatý --> kulatět
+*	  letý --> letět
+	  mechovatý --> mechovatět
+	  mužný --> mužnět
+*	  přímý --> přimět (CHANGE: í -> i) 
+	  rezatý --> rezatět
+	  rohovatý --> rohovatět
+*	  skláný --> sklánět
+	  sádelnatý --> sádelnatět
+	  toporný --> topornět
+	  tučný --> tučnět
+	  urputný --> urputnět
+	  uzlovatý --> uzlovatět
+	  vlažný --> vlažnět
+	  vláčný --> vláčnět
+	  vlídný --> vlídnět
+	  vrchovatý --> vrchovatět
+	  vroucný --> vroucnět
+	  vrásný --> vrásnět
+*	  vyzvaný --> vyzvánět (CHANGE: a -> á) 
+	  vzpurný --> vzpurnět
+	  vášnivý --> vášnivět
+	  vředovatý --> vředovatět
+*	  zaslaný --> zaslánět (CHANGE: a -> á) 
+	  zbujný --> zbujnět
+*	  zbytný --> zbytnět
+	  zhubený --> zhubenět
+*	  zlatový --> zlatovět
+*	  zlatý --> zlatět
+*	  zlený --> zlínět (CHANGE: e -> í) 
+*	  zmarný --> zmarnět
+*	  zmatný --> zmatnět
+*	  zmužný --> zmužnět
+*	  zpupný --> zpupnět
+*	  zrnatý --> zrnatět
+	  červivý --> červivět
+	  šeredný --> šerednět
+	  špičatý --> špičatět
+	  šťavnatý --> šťavnatět
+	  žlutavý --> žlutavět
+	rules/slovesa-z-adjektiv-1.csv+rules/hlaskove-alternace.csv
+	TRYING TO APPLY RULE A-ý --> V-et
+	  bystrý --> bystřet (CHANGE: r -> ř) 
+	  chorý --> chořet (CHANGE: r -> ř) 
+	  divoký --> divočet (CHANGE: k -> č) 
+*	  drzý --> držet (CHANGE: z -> ž) 
+*	  kalý --> kálet (CHANGE: a -> á) 
+	  moudrý --> moudřet (CHANGE: r -> ř) 
+	  světlý --> světlet
+	  vetchý --> vetšet (CHANGE: ch -> š) 
+*	  zaokrouhlý --> zaokrouhlet
+*	  zastřelý --> zastřílet (CHANGE: e -> í) 
+	  štíhlý --> štíhlet
+	rules/slovesa-z-adjektiv-1.csv+rules/hlaskove-alternace.csv
+	TRYING TO APPLY RULE A-ký --> V-čit
+	rules/slovesa-z-adjektiv-1.csv+rules/hlaskove-alternace.csv
+	TRYING TO APPLY RULE A-ný --> V-it
+*	  bludný --> bloudit (CHANGE: u -> ou) 
+*	  bouřný --> bouřit
+*	  brusný --> brousit (CHANGE: u -> ou) 
+*	  brzdný --> brzdit
+*	  bájný --> bájit
+*	  cenný --> cenit
+*	  chladný --> chladit
+*	  chlubný --> chlubit
+*	  chmelný --> chmelit
+*	  chmurný --> chmuřit (CHANGE: r -> ř) 
+*	  chvalořečný --> chvalořečit
+*	  chvalný --> chválit (CHANGE: a -> á) 
+*	  chybný --> chybit
+*	  cizoložný --> cizoložit
+*	  cizopasný --> cizopasit
+*	  clonný --> clonit
+*	  cvičný --> cvičit
+*	  dlužný --> dlužit
+*	  dojný --> dojit
+*	  doličný --> dolíčit (CHANGE: i -> í) 
+*	  důmyslný --> domyslit (CHANGE: ů -> o) 
+*	  doplatný --> doplatit
+*	  doprovodný --> doprovodit
+*	  důrazný --> dorazit (CHANGE: ů -> o) 
+*	  doručný --> doručit
+*	  doskočný --> doskočit
+*	  dostupný --> dostoupit (CHANGE: u -> ou) 
+*	  důvodný --> dovodit (CHANGE: ů -> o) 
+*	  dovtipný --> dovtípit (CHANGE: i -> í) 
+*	  drobný --> drobit
+*	  dusný --> dusit
+*	  dvojný --> dvojit
+*	  dvorný --> dvořit (CHANGE: r -> ř) 
+*	  dávný --> dávit
+*	  dělný --> dělit
+*	  děsný --> děsit
+*	  halasný --> halasit
+*	  hlaholný --> hlaholit
+*	  hlomozný --> hlomozit
+*	  hlučný --> hloučit (CHANGE: u -> ou) 
+*	  hnojný --> hnojit
+*	  hnusný --> hnusit
+*	  hodný --> hodit
+*	  hodnotný --> hodnotit
+*	  hojný --> hojit
+*	  honosný --> honosit
+*	  hovorný --> hovořit (CHANGE: r -> ř) 
+*	  hraničný --> hraničit
+*	  hromadný --> hromadit
+*	  hajný --> hájit (CHANGE: a -> á) 
+*	  hřmotný --> hřmotit
+*	  jednotný --> jednotit
+*	  klevetný --> klevetit
+*	  klidný --> klidit
+*	  klopný --> klopit
+*	  klopotný --> klopotit
+*	  kořistný --> kořistit
+*	  korný --> kořit (CHANGE: r -> ř) 
+*	  krmný --> krmit
+*	  krušný --> krušit
+*	  kutný --> kutit
+*	  kvapný --> kvapit
+*	  kvasný --> kvasit
+*	  ladný --> ladit
+*	  lahodný --> lahodit
+*	  lakotný --> lakotit
+*	  lenošný --> lenošit
+*	  lichotný --> lichotit
+*	  lomný --> lomit
+*	  lomozný --> lomozit
+*	  lopotný --> lopotit
+*	  loupežný --> loupežit
+*	  lužný --> loužit (CHANGE: u -> ou) 
+*	  lovný --> lovit
+*	  ložný --> ložit
+*	  marodný --> marodit
+*	  mastný --> mastit
+*	  marný --> mařit (CHANGE: r -> ř) 
+*	  medný --> medit
+*	  mluvný --> mluvit
+*	  mléčný --> mléčit
+*	  mlžný --> mlžit
+*	  mozolný --> mozolit
+*	  mocný --> močit (CHANGE: c -> č) 
+*	  mračný --> mračit
+*	  mrštný --> mrštit
+*	  měnný --> mínit (CHANGE: ě -> í) 
+*	  mírný --> mířit (CHANGE: r -> ř) 
+*	  mylný --> mýlit (CHANGE: y -> ý) 
+*	  mědný --> mědit
+*	  měnný --> měnit
+*	  měrný --> měřit (CHANGE: r -> ř) 
+*	  náhodný --> nahodit (CHANGE: á -> a) 
+*	  náhradný --> nahradit (CHANGE: á -> a) 
+*	  nájezdný --> najezdit (CHANGE: á -> a) 
+*	  náklonný --> naklonit (CHANGE: á -> a) 
+*	  náložný --> naložit (CHANGE: á -> a) 
+*	  nápodobný --> napodobit (CHANGE: á -> a) 
+*	  nápravný --> napravit (CHANGE: á -> a) 
+*	  nápustný --> napustit (CHANGE: á -> a) 
+*	  nástavný --> nastavit (CHANGE: á -> a) 
+*	  nástražný --> nastražit (CHANGE: á -> a) 
+*	  nástrčný --> nastrčit (CHANGE: á -> a) 
+*	  nástřelný --> nastřelit (CHANGE: á -> a) 
+*	  naučný --> naučit
+*	  návodný --> navodit (CHANGE: á -> a) 
+*	  návěsný --> navěsit (CHANGE: á -> a) 
+*	  nosný --> nosit
+*	  notný --> notit
+*	  norný --> nořit (CHANGE: r -> ř) 
+*	  nudný --> nudit
+*	  nutný --> nutit
+*	  násobný --> násobit
+*	  něžný --> nížit (CHANGE: ě -> í) 
+*	  obchvatný --> obchvátit (CHANGE: a -> á) 
+*	  objevný --> objevit
+*	  obkročný --> obkročit
+*	  obludný --> obloudit (CHANGE: u -> ou) 
+*	  obmyslný --> obmyslit
+*	  obměnný --> obměnit
+*	  obnovný --> obnovit
+*	  oborný --> obořit (CHANGE: r -> ř) 
+*	  obrazný --> obrazit
+*	  obrodný --> obrodit
+*	  obrusný --> obrousit (CHANGE: u -> ou) 
+*	  obratný --> obrátit (CHANGE: a -> á) 
+*	  obslužný --> obsloužit (CHANGE: u -> ou) 
+*	  obstavný --> obstavit
+*	  obtížný --> obtížit
+*	  obilný --> obílit (CHANGE: i -> í) 
+*	  obživný --> obživit
+*	  ochranný --> ochránit (CHANGE: a -> á) 
+*	  odbočný --> odbočit
+*	  odchytný --> odchytit
+*	  odchylný --> odchýlit (CHANGE: y -> ý) 
+*	  oddělný --> oddělit
+*	  odklopný --> odklopit
+*	  odlišný --> odlišit
+*	  odlučný --> odloučit (CHANGE: u -> ou) 
+*	  odmluvný --> odmluvit
+*	  odměrný --> odměřit (CHANGE: r -> ř) 
+*	  odparný --> odpařit (CHANGE: r -> ř) 
+*	  odrazný --> odrazit
+*	  odstavný --> odstavit
+*	  odvodný --> odvodit
+*	  odvozný --> odvozit
+*	  odvratný --> odvrátit (CHANGE: a -> á) 
+*	  odvážný --> odvážit
+*	  odštěpný --> odštěpit
+*	  ohromný --> ohromit
+*	  omluvný --> omluvit
+*	  omračný --> omráčit (CHANGE: a -> á) 
+*	  omamný --> omámit (CHANGE: a -> á) 
+*	  opatrný --> opatřit (CHANGE: r -> ř) 
+*	  opojný --> opojit
+*	  opravný --> opravit
+*	  opačný --> opáčit (CHANGE: a -> á) 
+*	  oslavný --> oslavit
+*	  otočný --> otočit
+*	  otravný --> otrávit (CHANGE: a -> á) 
+*	  ozdobný --> ozdobit
+*	  ozdravný --> ozdravit
+*	  ozvučný --> ozvučit
+*	  očistný --> očistit
+*	  ošidný --> ošidit
+*	  patrný --> patřit (CHANGE: r -> ř) 
+*	  peprný --> pepřit (CHANGE: r -> ř) 
+*	  pitvorný --> pitvořit (CHANGE: r -> ř) 
+*	  platný --> platit
+*	  plemenný --> plemenit
+*	  plevelný --> plevelit
+*	  plodný --> plodit
+*	  pochvalný --> pochválit (CHANGE: a -> á) 
+*	  pochybný --> pochybit
+*	  podivný --> podivit
+*	  podmračný --> podmračit
+*	  podnětný --> podnítit (CHANGE: ě -> í) 
+*	  podplatný --> podplatit
+*	  podrobný --> podrobit
+*	  podstavný --> podstavit
+*	  podvratný --> podvrátit (CHANGE: a -> á) 
+*	  podřadný --> podřadit
+*	  pojezdný --> pojezdit
+*	  pojistný --> pojistit
+*	  poklidný --> poklidit
+*	  pokorný --> pokořit (CHANGE: r -> ř) 
+*	  pokusný --> pokusit
+*	  pomnožný --> pomnožit
+*	  pomocný --> pomočit (CHANGE: c -> č) 
+*	  pomyslný --> pomyslit
+*	  poměrný --> poměřit (CHANGE: r -> ř) 
+*	  ponorný --> ponořit (CHANGE: r -> ř) 
+*	  popelný --> popelit
+*	  poplatný --> poplatit
+*	  poplašný --> poplašit
+*	  popelný --> popílit (CHANGE: e -> í) 
+*	  poradný --> poradit
+*	  poslužný --> posloužit (CHANGE: u -> ou) 
+*	  pospěšný --> pospíšit (CHANGE: ě -> í) 
+*	  postupný --> postoupit (CHANGE: u -> ou) 
+*	  poselný --> posílit (CHANGE: e -> í) 
+*	  potupný --> potupit
+*	  potvorný --> potvořit (CHANGE: r -> ř) 
+*	  poučný --> poučit
+*	  povolný --> povolit
+*	  pozdravný --> pozdravit
+*	  počestný --> počeštit (CHANGE: s -> š) 
+*	  pramenný --> pramenit
+*	  průchodný --> prochodit (CHANGE: ů -> o) 
+*	  průjezdný --> projezdit (CHANGE: ů -> o) 
+*	  průmyslný --> promyslit (CHANGE: ů -> o) 
+*	  proměnný --> proměnit
+*	  propustný --> propustit
+*	  průrazný --> prorazit (CHANGE: ů -> o) 
+*	  prosný --> prosit
+*	  prostupný --> prostoupit (CHANGE: u -> ou) 
+*	  průstřelný --> prostřelit (CHANGE: ů -> o) 
+*	  protivný --> protivit
+*	  protiřečný --> protiřečit
+*	  průtlačný --> protlačit (CHANGE: ů -> o) 
+*	  průtočný --> protočit (CHANGE: ů -> o) 
+*	  proudný --> proudit
+*	  prozvučný --> prozvučit
+*	  pružný --> pružit
+*	  prašný --> prášit (CHANGE: a -> á) 
+*	  pádný --> pádit
+*	  palný --> pálit (CHANGE: a -> á) 
+*	  pilný --> pílit (CHANGE: i -> í) 
+*	  přechodný --> přechodit
+*	  předklonný --> předklonit
+*	  předplatný --> předplatit
+*	  předpřípravný --> předpřipravit (CHANGE: í -> i) 
+*	  představný --> představit
+*	  předřadný --> předřadit
+*	  přehradný --> přehradit
+*	  překlopný --> překlopit
+*	  překotný --> překotit
+*	  přenosný --> přenosit
+*	  přerodný --> přerodit
+*	  přestavný --> přestavit
+*	  přestupný --> přestoupit (CHANGE: u -> ou) 
+*	  převratný --> převrátit (CHANGE: a -> á) 
+*	  převážný --> převážit
+*	  přibližný --> přiblížit (CHANGE: i -> í) 
+*	  příchytný --> přichytit (CHANGE: í -> i) 
+*	  příhodný --> přihodit (CHANGE: í -> i) 
+*	  příklonný --> přiklonit (CHANGE: í -> i) 
+*	  příložný --> přiložit (CHANGE: í -> i) 
+*	  přímluvný --> přimluvit (CHANGE: í -> i) 
+*	  přípojný --> připojit (CHANGE: í -> i) 
+*	  přípravný --> připravit (CHANGE: í -> i) 
+*	  přípustný --> připustit (CHANGE: í -> i) 
+*	  přístavný --> přistavit (CHANGE: í -> i) 
+*	  přítlačný --> přitlačit (CHANGE: í -> i) 
+*	  přítulný --> přitulit (CHANGE: í -> i) 
+*	  přítužný --> přitužit (CHANGE: í -> i) 
+*	  přívodný --> přivodit (CHANGE: í -> i) 
+*	  přívěsný --> přivěsit (CHANGE: í -> i) 
+*	  příčinný --> přičinit (CHANGE: í -> i) 
+*	  příživný --> přiživit (CHANGE: í -> i) 
+*	  příčný --> příčit
+*	  rázný --> razit (CHANGE: á -> a) 
+*	  rmutný --> rmoutit (CHANGE: u -> ou) 
+*	  rodný --> rodit
+*	  rosný --> rosit
+*	  rozborný --> rozbořit (CHANGE: r -> ř) 
+*	  rozbušný --> rozbušit
+*	  rozchodný --> rozchodit
+*	  rozestavný --> rozestavit
+*	  rozhodný --> rozhodit
+*	  rozkročný --> rozkročit
+*	  rozlišný --> rozlišit
+*	  rozmyslný --> rozmyslit
+*	  rozměrný --> rozměřit (CHANGE: r -> ř) 
+*	  roznožný --> roznožit
+*	  roznětný --> roznítit (CHANGE: ě -> í) 
+*	  rozptylný --> rozptýlit (CHANGE: y -> ý) 
+*	  rozpustný --> rozpustit
+*	  rozvratný --> rozvrátit (CHANGE: a -> á) 
+*	  samovznětný --> samovznítit (CHANGE: ě -> í) 
+*	  schválný --> schválit
+*	  sdružný --> sdružit
+*	  sdělný --> sdělit
+*	  sestavný --> sestavit
+*	  sestupný --> sestoupit (CHANGE: u -> ou) 
+*	  shodný --> shodit
+*	  sklonný --> sklonit
+*	  sklopný --> sklopit
+*	  skočný --> skočit
+*	  slavný --> slavit
+*	  slinný --> slinit
+*	  služný --> sloužit (CHANGE: u -> ou) 
+*	  slovný --> slovit
+*	  slunný --> slunit
+*	  slibný --> slíbit (CHANGE: i -> í) 
+*	  sledný --> slídit (CHANGE: e -> í) 
+*	  smolný --> smolit
+*	  smyslný --> smyslit
+*	  směsný --> smísit (CHANGE: ě -> í) 
+*	  smírný --> smířit (CHANGE: r -> ř) 
+*	  snažný --> snažit
+*	  snožný --> snožit
+*	  sněžný --> snížit (CHANGE: ě -> í) 
+*	  sněžný --> sněžit
+*	  solný --> solit
+*	  soucitný --> soucítit (CHANGE: i -> í) 
+*	  souhlasný --> souhlasit
+*	  soustředný --> soustředit
+*	  soutěžný --> soutěžit
+*	  spásný --> spasit (CHANGE: á -> a) 
+*	  splatný --> splatit
+*	  splavný --> splavit
+*	  spojný --> spojit
+*	  správný --> spravit (CHANGE: á -> a) 
+*	  spalný --> spálit (CHANGE: a -> á) 
+*	  srázný --> srazit (CHANGE: á -> a) 
+*	  strašný --> strašit
+*	  strážný --> stražit (CHANGE: á -> a) 
+*	  strefný --> strefit
+*	  stravný --> strávit (CHANGE: a -> á) 
+*	  strážný --> strážit
+*	  stinný --> stínit (CHANGE: i -> í) 
+*	  střelný --> střelit
+*	  svinný --> svinit
+*	  svolný --> svolit
+*	  svozný --> svozit
+*	  svěrný --> svěřit (CHANGE: r -> ř) 
+*	  silný --> sílit (CHANGE: i -> í) 
+*	  tajný --> tajit
+*	  tavný --> tavit
+*	  tlačný --> tlačit
+*	  topný --> topit
+*	  toporný --> topořit (CHANGE: r -> ř) 
+*	  točný --> točit
+*	  trefný --> trefit
+*	  trudný --> trudit
+*	  trapný --> trápit (CHANGE: a -> á) 
+*	  travný --> trávit (CHANGE: a -> á) 
+*	  tržný --> tržit
+*	  tvorný --> tvořit (CHANGE: r -> ř) 
+*	  tělocvičný --> tělocvičit
+*	  těsný --> těšit (CHANGE: s -> š) 
+*	  těžný --> těžit
+*	  třpytný --> třpytit
+*	  ukrutný --> ukroutit (CHANGE: u -> ou) 
+*	  uličný --> ulíčit (CHANGE: i -> í) 
+*	  vadný --> vadit
+*	  valný --> valit
+*	  varný --> vařit (CHANGE: r -> ř) 
+*	  vděčný --> vděčit
+*	  velebný --> velebit
+*	  veleslavný --> veleslavit
+*	  vestavný --> vestavit
+*	  vhodný --> vhodit
+*	  vichrný --> vichřit (CHANGE: r -> ř) 
+*	  vinný --> vinit
+*	  vložný --> vložit
+*	  vláčný --> vláčit
+*	  vnadný --> vnadit
+*	  vodný --> vodit
+*	  volný --> volit
+*	  vozný --> vozit
+*	  vpustný --> vpustit
+*	  vraždný --> vraždit
+*	  vražný --> vražit
+*	  vrcholný --> vrcholit
+*	  vrchný --> vršit (CHANGE: ch -> š) 
+*	  vstupný --> vstoupit (CHANGE: u -> ou) 
+*	  vtavný --> vtavit
+*	  vtlačný --> vtlačit
+*	  výbavný --> vybavit (CHANGE: ý -> y) 
+*	  východný --> vychodit (CHANGE: ý -> y) 
+*	  výhodný --> vyhodit (CHANGE: ý -> y) 
+*	  výhradný --> vyhradit (CHANGE: ý -> y) 
+*	  výjezdný --> vyjezdit (CHANGE: ý -> y) 
+*	  výklopný --> vyklopit (CHANGE: ý -> y) 
+*	  výkrmný --> vykrmit (CHANGE: ý -> y) 
+*	  výkročný --> vykročit (CHANGE: ý -> y) 
+*	  výložný --> vyložit (CHANGE: ý -> y) 
+*	  výmluvný --> vymluvit (CHANGE: ý -> y) 
+*	  výměnný --> vyměnit (CHANGE: ý -> y) 
+*	  výnosný --> vynosit (CHANGE: ý -> y) 
+*	  výplatný --> vyplatit (CHANGE: ý -> y) 
+*	  výpravný --> vypravit (CHANGE: ý -> y) 
+*	  výprosný --> vyprosit (CHANGE: ý -> y) 
+*	  výpustný --> vypustit (CHANGE: ý -> y) 
+*	  výrazný --> vyrazit (CHANGE: ý -> y) 
+*	  výsadný --> vysadit (CHANGE: ý -> y) 
+*	  výslovný --> vyslovit (CHANGE: ý -> y) 
+*	  výslunný --> vyslunit (CHANGE: ý -> y) 
+*	  výstavný --> vystavit (CHANGE: ý -> y) 
+*	  výstrojný --> vystrojit (CHANGE: ý -> y) 
+*	  výstředný --> vystředit (CHANGE: ý -> y) 
+*	  výstřelný --> vystřelit (CHANGE: ý -> y) 
+*	  výsušný --> vysušit (CHANGE: ý -> y) 
+*	  výtavný --> vytavit (CHANGE: ý -> y) 
+*	  výtlačný --> vytlačit (CHANGE: ý -> y) 
+*	  výtopný --> vytopit (CHANGE: ý -> y) 
+*	  výtržný --> vytržit (CHANGE: ý -> y) 
+*	  výtěžný --> vytěžit (CHANGE: ý -> y) 
+*	  výučný --> vyučit (CHANGE: ý -> y) 
+*	  vývozný --> vyvozit (CHANGE: ý -> y) 
+*	  vývěsný --> vyvěsit (CHANGE: ý -> y) 
+*	  výzbrojný --> vyzbrojit (CHANGE: ý -> y) 
+*	  výzdobný --> vyzdobit (CHANGE: ý -> y) 
+*	  význačný --> vyznačit (CHANGE: ý -> y) 
+*	  výztužný --> vyztužit (CHANGE: ý -> y) 
+*	  výústný --> vyústit (CHANGE: ý -> y) 
+*	  výčepný --> vyčepit (CHANGE: ý -> y) 
+*	  výšklebný --> vyšklebit (CHANGE: ý -> y) 
+*	  výživný --> vyživit (CHANGE: ý -> y) 
+*	  vzdušný --> vzdušit
+*	  vzestupný --> vzestoupit (CHANGE: u -> ou) 
+*	  vznětný --> vznítit (CHANGE: ě -> í) 
+*	  vzrušný --> vzrušit
+*	  vztyčný --> vztyčit
+*	  vábný --> vábit
+*	  vážný --> vážit
+*	  vítězný --> vítězit
+*	  vítězoslavný --> vítězoslavit
+*	  vírný --> vířit (CHANGE: r -> ř) 
+*	  věstný --> věstit
+*	  větný --> větit
+*	  větrný --> větřit (CHANGE: r -> ř) 
+*	  věrný --> věřit (CHANGE: r -> ř) 
+*	  zábavný --> zabavit (CHANGE: á -> a) 
+*	  zábrzdný --> zabrzdit (CHANGE: á -> a) 
+*	  záchytný --> zachytit (CHANGE: á -> a) 
+*	  zádušný --> zadušit (CHANGE: á -> a) 
+*	  záhodný --> zahodit (CHANGE: á -> a) 
+*	  záhubný --> zahubit (CHANGE: á -> a) 
+*	  zájezdný --> zajezdit (CHANGE: á -> a) 
+*	  zajistný --> zajistit
+*	  záklopný --> zaklopit (CHANGE: á -> a) 
+*	  zákvasný --> zakvasit (CHANGE: á -> a) 
+*	  zámyslný --> zamyslit (CHANGE: á -> a) 
+*	  záměnný --> zaměnit (CHANGE: á -> a) 
+*	  zápustný --> zapustit (CHANGE: á -> a) 
+*	  zárazný --> zarazit (CHANGE: á -> a) 
+*	  zástavný --> zastavit (CHANGE: á -> a) 
+*	  zástrčný --> zastrčit (CHANGE: á -> a) 
+*	  zásvětný --> zasvětit (CHANGE: á -> a) 
+*	  zátopný --> zatopit (CHANGE: á -> a) 
+*	  závadný --> zavadit (CHANGE: á -> a) 
+*	  závazný --> zavazit (CHANGE: á -> a) 
+*	  závrtný --> zavrtit (CHANGE: á -> a) 
+*	  závěsný --> zavěsit (CHANGE: á -> a) 
+*	  záškodný --> zaškodit (CHANGE: á -> a) 
+*	  zbrojný --> zbrojit
+*	  zdolný --> zdolit
+*	  zhostný --> zhostit
+*	  zjevný --> zjevit
+*	  zkázný --> zkazit (CHANGE: á -> a) 
+*	  zkrutný --> zkroutit (CHANGE: u -> ou) 
+*	  zkusný --> zkusit
+*	  zlobný --> zlobit
+*	  zlostný --> zlostit
+*	  zmatný --> zmatit
+*	  zmarný --> zmařit (CHANGE: r -> ř) 
+*	  zmužný --> zmužit
+*	  změnný --> zmínit (CHANGE: ě -> í) 
+*	  změnný --> změnit
+*	  značný --> značit
+*	  znojný --> znojit
+*	  zotavný --> zotavit
+*	  způsobný --> způsobit
+*	  zrádný --> zradit (CHANGE: á -> a) 
+*	  zračný --> zračit
+*	  zrnný --> zrnit
+*	  zrůdný --> zrodit (CHANGE: ů -> o) 
+*	  zračný --> zráčit (CHANGE: a -> á) 
+*	  zubný --> zubit
+*	  zvolný --> zvolit
+*	  zvratný --> zvrátit (CHANGE: a -> á) 
+*	  zvučný --> zvučit
+*	  zvěstný --> zvěstit
+*	  zápasný --> zápasit
+*	  zázračný --> zázračit
+*	  zářný --> zářit
+*	  úhorný --> úhořit (CHANGE: r -> ř) 
+*	  úročný --> úročit
+*	  útočný --> útočit
+*	  časný --> časit
+*	  čelný --> čelit
+*	  černý --> čeřit (CHANGE: r -> ř) 
+*	  čestný --> češtit (CHANGE: s -> š) 
+*	  členný --> členit
+*	  řádný --> řadit (CHANGE: á -> a) 
+*	  řečný --> řečit
+*	  řádný --> řádit
+*	  šeredný --> šeredit
+*	  šetrný --> šetřit (CHANGE: r -> ř) 
+*	  šklebný --> šklebit
+*	  šklebný --> šklíbit (CHANGE: e -> í) 
+*	  štítný --> štítit
+*	  žedný --> žedit
+*	  žírný --> žířit (CHANGE: r -> ř) 
+	rules/slovesa-z-adjektiv-1.csv+rules/hlaskove-alternace.csv
+	TRYING TO APPLY RULE A-ý --> V-it
+*	  blahý --> blažit (CHANGE: h -> ž) 
+	  bohatý --> bohatit
+	  bílý --> bílit
+*	  běsný --> běsnit
+*	  celý --> cílit (CHANGE: e -> í) 
+*	  daný --> danit
+*	  dobraný --> dobránit (CHANGE: a -> á) 
+*	  dodaný --> dodanit
+*	  dolový --> dolovit
+	  holý --> holit
+	  hotový --> hotovit
+*	  hraný --> hranit
+	  hrbatý --> hrbatit
+	  hustý --> hustit
+	  hutný --> hutnit
+	  jasný --> jasnit
+	  jemný --> jemnit
+	  ježatý --> ježatit
+	  jistý --> jistit
+	  kapalný --> kapalnit
+	  klidný --> klidnit
+	  klikatý --> klikatit
+*	  klený --> klínit (CHANGE: e -> í) 
+	  komolý --> komolit
+*	  kosý --> kosit
+	  krabatý --> krabatit
+*	  krasořečný --> krasořečnit
+*	  krutý --> kroutit (CHANGE: u -> ou) 
+	  kudrnatý --> kudrnatit
+	  kulatý --> kulatit
+	  kyselý --> kyselit
+	  křivý --> křivit
+	  lačný --> lačnit
+*	  lepý --> lepit
+*	  libý --> líbit (CHANGE: i -> í) 
+*	  lítostný --> lítostnit
+	  marný --> marnit
+	  marnotratný --> marnotratnit
+	  mladý --> mladit
+*	  mocný --> mocnit
+*	  mrzutý --> mrzoutit (CHANGE: u -> ou) 
+*	  nazvaný --> nažvanit (CHANGE: z -> ž) 
+*	  násilný --> násilnit
+*	  odvodný --> odvodnit
+*	  ohraný --> ohranit
+*	  opravný --> oprávnit (CHANGE: a -> á) 
+*	  osedlý --> osídlit (CHANGE: e -> í) 
+	  ošklivý --> ošklivit
+	  plný --> plnit
+*	  půltý --> poltit (CHANGE: ů -> o) 
+*	  poměný --> poměnit
+*	  pozvaný --> požvanit (CHANGE: z -> ž) 
+*	  pravý --> pravit
+*	  promytý --> promýtit (CHANGE: y -> ý) 
+	  průhledný --> průhlednit
+*	  pustý --> pustit
+	  pyšný --> pyšnit
+*	  pěný --> pěnit
+*	  předrahý --> předražit (CHANGE: h -> ž) 
+*	  přehustý --> přehustit
+*	  překrutý --> překroutit (CHANGE: u -> ou) 
+*	  přemnohý --> přemnožit (CHANGE: h -> ž) 
+*	  přetěsný --> přetěsnit
+*	  přečistý --> přečistit
+	  přímý --> přímit
+*	  rozlitý --> rozlítit (CHANGE: i -> í) 
+*	  rozmázlý --> rozmazlit (CHANGE: á -> a) 
+*	  rozsedlý --> rozsídlit (CHANGE: e -> í) 
+*	  rozvodný --> rozvodnit
+	  rychlý --> rychlit
+	  různý --> různit
+*	  sežehlý --> sežehlit
+*	  sklátý --> sklátit
+*	  skoupý --> skoupit
+*	  slaný --> slanit
+*	  slepý --> slepit
+	  smilný --> smilnit
+	  smutný --> smutnit
+*	  smytý --> smýtit (CHANGE: y -> ý) 
+	  splavný --> splavnit
+*	  stanový --> stanovit
+*	  stopý --> stopit
+	  strakatý --> strakatit
+	  světlý --> světlit
+	  sytý --> sytit
+*	  sedlý --> sídlit (CHANGE: e -> í) 
+	  temný --> temnit
+	  teskný --> tesknit
+*	  truchlý --> truchlit
+	  tupý --> tupit
+	  tuhý --> tužit (CHANGE: h -> ž) 
+	  tvrdý --> tvrdit
+	  tvárný --> tvárnit
+*	  těsný --> tísnit (CHANGE: ě -> í) 
+	  těsný --> těsnit
+*	  třístý --> tříštit (CHANGE: s -> š) 
+*	  ubraný --> ubránit (CHANGE: a -> á) 
+*	  ukutý --> ukutit
+*	  uměný --> umínit (CHANGE: ě -> í) 
+*	  ustalý --> ustálit (CHANGE: a -> á) 
+*	  usedlý --> usídlit (CHANGE: e -> í) 
+	  veselý --> veselit
+*	  vilný --> vilnit
+	  vláčný --> vláčnit
+	  volný --> volnit
+*	  vrásný --> vrásnit
+*	  vyhraný --> vyhranit
+*	  vymytý --> vymýtit (CHANGE: y -> ý) 
+*	  vypěný --> vypěnit
+*	  vyslaný --> vyslanit
+*	  vysedlý --> vysídlit (CHANGE: e -> í) 
+*	  vyclený --> vyčlenit (CHANGE: c -> č) 
+*	  výřečný --> vyřečnit (CHANGE: ý -> y) 
+*	  vyžehlý --> vyžehlit
+*	  vyzvaný --> vyžvanit (CHANGE: z -> ž) 
+*	  vzdušný --> vzdušnit
+*	  vzteklý --> vzteklit
+	  všivý --> všivit
+*	  zabraný --> zabránit (CHANGE: a -> á) 
+*	  zahraný --> zahranit
+*	  zaklený --> zaklínit (CHANGE: e -> í) 
+*	  zakutý --> zakutit
+*	  záletný --> zaletnit (CHANGE: á -> a) 
+*	  zaokrouhlý --> zaokrouhlit
+*	  zapěný --> zapěnit
+*	  zasklený --> zasklenit
+*	  zasedlý --> zasídlit (CHANGE: e -> í) 
+*	  zaklený --> začlenit (CHANGE: k -> č) 
+*	  zažehlý --> zažehlit
+*	  zdaný --> zdanit
+*	  zdivý --> zdivit
+*	  zdravý --> zdravit
+	  zelený --> zelenit
+*	  zkázný --> zkáznit
+*	  zlený --> zlenit
+*	  zlostný --> zlostnit
+*	  zmarný --> zmarnit
+*	  zmatný --> zmatnit
+*	  zmužný --> zmužnit
+*	  známý --> známit
+*	  zorný --> zornit
+	  zubatý --> zubatit
+*	  zvolný --> zvolnit
+	  úrodný --> úrodnit
+*	  účastný --> účastnit
+*	  častý --> častit
+	  černý --> černit
+	  červený --> červenit
+	  čistý --> čistit
+*	  řevný --> řevnit
+*	  řečný --> řečnit
+	  řeřavý --> řeřavit
+	  šišatý --> šišatit
+	  špičatý --> špičatit
+	  šupinatý --> šupinatit
+	  žalostný --> žalostnit
+*	  žeravý --> žeravit
+	  žhavý --> žhavit
+	  žlutý --> žlutit
+	rules/slovesa-z-adjektiv-1.csv+rules/hlaskove-alternace.csv
+	TRYING TO APPLY RULE A-rý --> V-řit
+*	  přeostrý --> přeostřit
+*	  sirý --> sířit (CHANGE: i -> í) 
+*	  syrý --> sýřit (CHANGE: y -> ý) 
+*	  čirý --> čířit (CHANGE: i -> í) 
+	rules/slovesa-z-adjektiv-1.csv+rules/hlaskove-alternace.csv
+	TRYING TO APPLY RULE A-chý --> V-šit
+	rules/slovesa-z-adjektiv-1.csv+rules/hlaskove-alternace.csv
+	TRYING TO APPLY RULE A-ý --> V-at
+*	  adresový --> adresovat
+*	  alarmový --> alarmovat
+*	  alkylový --> alkylovat
+*	  apelový --> apelovat
+*	  asfaltový --> asfaltovat
+*	  auditový --> auditovat
+*	  avalový --> avalovat
+*	  bagrový --> bagrovat
+*	  balíčkový --> balíčkovat
+*	  bankrotový --> bankrotovat
+*	  barikádový --> barikádovat
+*	  basový --> basovat
+*	  batikový --> batikovat
+*	  belhavý --> belhávat (CHANGE: a -> á) 
+*	  betonový --> betonovat
+*	  bikový --> bičovat (CHANGE: k -> č) 
+*	  blaživý --> blažívat (CHANGE: i -> í) 
+*	  blikavý --> blikávat (CHANGE: a -> á) 
+*	  blokový --> blokovat
+*	  bloudivý --> bloudívat (CHANGE: i -> í) 
+*	  blouznivý --> blouznívat (CHANGE: i -> í) 
+*	  bláznivý --> bláznívat (CHANGE: i -> í) 
+*	  blýskavý --> blýskávat (CHANGE: a -> á) 
+*	  bobový --> bobovat
+*	  bodový --> bodovat
+*	  bojový --> bojovat
+*	  bootový --> bootovat
+*	  botičkový --> botičkovat
+*	  bouchavý --> bouchávat (CHANGE: a -> á) 
+*	  boxový --> boxovat
+*	  bořivý --> bořívat (CHANGE: i -> í) 
+*	  brakový --> brakovat
+*	  brejkový --> brejkovat
+*	  briketový --> briketovat
+*	  brodivý --> brodívat (CHANGE: i -> í) 
+*	  bronzový --> bronzovat
+*	  broukavý --> broukávat (CHANGE: a -> á) 
+*	  brzdivý --> brzdívat (CHANGE: i -> í) 
+*	  bubnový --> bubnovat
+*	  buchtový --> buchtovat
+*	  budivý --> budívat (CHANGE: i -> í) 
+*	  bukový --> bukovat
+*	  bytový --> bytovat
+*	  básnivý --> básnívat (CHANGE: i -> í) 
+*	  bázový --> bázovat
+*	  běhavý --> běhávat (CHANGE: a -> á) 
+*	  běžkový --> běžkovat
+*	  cementový --> cementovat
+*	  centrifugový --> centrifugovat
+*	  cenzurový --> cenzurovat
+*	  cepový --> cepovat
+*	  cestový --> cestovat
+*	  charterový --> charterovat
+*	  chatový --> chatovat
+*	  chechtavý --> chechtávat (CHANGE: a -> á) 
+*	  chladivý --> chladívat (CHANGE: i -> í) 
+*	  chlubivý --> chlubívat (CHANGE: i -> í) 
+*	  chlácholivý --> chlácholívat (CHANGE: i -> í) 
+*	  chodivý --> chodívat (CHANGE: i -> í) 
+*	  chromový --> chromovat
+*	  chroupavý --> chroupávat (CHANGE: a -> á) 
+*	  chutný --> chutnat
+*	  chybový --> chybovat
+*	  cifrový --> cifrovat
+*	  cinkavý --> cinkávat (CHANGE: a -> á) 
+*	  citový --> citovat
+*	  cloumavý --> cloumávat (CHANGE: a -> á) 
+*	  cucavý --> cucávat (CHANGE: a -> á) 
+*	  cukrový --> cukrovat
+*	  cupitavý --> cupitávat (CHANGE: a -> á) 
+*	  cyklostylový --> cyklostylovat
+*	  cyklový --> cyklovat
+*	  cévkový --> cévkovat
+*	  datlový --> datlovat
+*	  datový --> datovat
+*	  debatový --> debatovat
+*	  debutový --> debutovat
+*	  dehtový --> dehtovat
+*	  dekový --> dekovat
+*	  dekretový --> dekretovat
+*	  designový --> designovat
+*	  diplomový --> diplomovat
+*	  dlaždičkový --> dlaždičkovat
+*	  dluhový --> dluhovat
+*	  dobrý --> dobrat
+*	  dohodový --> dohodovat
+*	  dojivý --> dojívat (CHANGE: i -> í) 
+*	  důkazový --> dokazovat (CHANGE: ů -> o) 
+*	  dokladový --> dokladovat
+*	  dokonavý --> dokonávat (CHANGE: a -> á) 
+*	  dokový --> dokovat
+*	  dokumentový --> dokumentovat
+*	  dolový --> dolovat
+*	  dolitý --> dolítat (CHANGE: i -> í) 
+*	  dominový --> dominovat
+*	  dopisový --> dopisovat
+*	  dopletý --> doplétat (CHANGE: e -> é) 
+*	  dopletý --> doplítat (CHANGE: e -> í) 
+*	  dosahový --> dosahovat
+*	  dostihový --> dostihovat
+*	  dostřikový --> dostřikovat
+*	  dotazový --> dotazovat
+*	  dovozový --> dovozovat
+*	  dozorový --> dozorovat
+*	  draftový --> draftovat
+*	  driftový --> driftovat
+*	  drkotavý --> drkotávat (CHANGE: a -> á) 
+*	  drogový --> drogovat
+*	  drtivý --> drtívat (CHANGE: i -> í) 
+*	  drátkový --> drátkovat
+*	  drátový --> drátovat
+*	  dráždivý --> dráždívat (CHANGE: i -> í) 
+*	  drážkový --> drážkovat
+*	  dublový --> dublovat
+*	  dusivý --> dusívat (CHANGE: i -> í) 
+*	  dutý --> dutat
+*	  duchový --> dušovat (CHANGE: ch -> š) 
+*	  dynamitový --> dynamitovat
+*	  dávkový --> dávkovat
+*	  dírkový --> dírkovat
+*	  divý --> dívat (CHANGE: i -> í) 
+*	  dýhový --> dýhovat
+*	  dělivý --> dělívat (CHANGE: i -> í) 
+*	  děrový --> děrovat
+*	  děsivý --> děsívat (CHANGE: i -> í) 
+*	  emailový --> emailovat
+*	  esemeskový --> esemeskovat
+*	  eskortový --> eskortovat
+*	  etiketový --> etiketovat
+*	  fabrikový --> fabrikovat
+*	  faksimilový --> faksimilovat
+*	  fakturový --> fakturovat
+*	  falcový --> falcovat
+*	  fasetový --> fasetovat
+*	  faxový --> faxovat
+*	  fermežový --> fermežovat
+*	  figurový --> figurovat
+*	  filcový --> filcovat
+*	  filmový --> filmovat
+*	  filtrový --> filtrovat
+*	  fluorový --> fluorovat
+*	  fládrový --> fládrovat
+*	  foliový --> foliovat
+*	  formový --> formovat
+*	  formulový --> formulovat
+*	  formátový --> formátovat
+*	  fosfátový --> fosfátovat
+*	  frankový --> frankovat
+*	  fritový --> fritovat
+*	  frontový --> frontovat
+*	  frázový --> frázovat
+*	  frézový --> frézovat
+*	  fázový --> fázovat
+*	  fénový --> fénovat
+*	  fúzový --> fúzovat
+*	  fňukavý --> fňukávat (CHANGE: a -> á) 
+*	  garážový --> garážovat
+*	  gilotinový --> gilotinovat
+*	  glazurový --> glazurovat
+*	  glosový --> glosovat
+*	  grošový --> grošovat
+*	  grupový --> grupovat
+*	  gumový --> gumovat
+*	  harcový --> harcovat
+*	  harpunový --> harpunovat
+*	  hemživý --> hemžívat (CHANGE: i -> í) 
+*	  hendikepový --> hendikepovat
+*	  hladivý --> hladívat (CHANGE: i -> í) 
+*	  hlasový --> hlasovat
+*	  hlavičkový --> hlavičkovat
+*	  hláskový --> hláskovat
+*	  hlídkový --> hlídkovat
+*	  hnízdový --> hnízdovat
+*	  hodový --> hodovat
+*	  hojivý --> hojívat (CHANGE: i -> í) 
+*	  holedbavý --> holedbávat (CHANGE: a -> á) 
+*	  horlivý --> horlívat (CHANGE: i -> í) 
+*	  houfový --> houfovat
+*	  houpavý --> houpávat (CHANGE: a -> á) 
+*	  hrdlový --> hrdlovat
+*	  hrnkový --> hrnkovat
+*	  hromový --> hromovat
+*	  hrozivý --> hrozívat (CHANGE: i -> í) 
+*	  hrudkový --> hrudkovat
+*	  hryzavý --> hryzávat (CHANGE: a -> á) 
+*	  hravý --> hrávat (CHANGE: a -> á) 
+*	  hubičkový --> hubičkovat
+*	  hučivý --> hučívat (CHANGE: i -> í) 
+*	  hvězdičkový --> hvězdičkovat
+*	  hydrátový --> hydratovat (CHANGE: á -> a) 
+*	  hydrogenový --> hydrogenovat
+*	  hydroxylový --> hydroxylovat
+*	  hákový --> hákovat
+*	  hýřivý --> hýřívat (CHANGE: i -> í) 
+*	  hřímavý --> hřímávat (CHANGE: a -> á) 
+*	  indexový --> indexovat
+*	  internový --> internovat
+*	  intrikový --> intrikovat
+*	  jámový --> jamovat (CHANGE: á -> a) 
+*	  jankový --> jankovat
+*	  jiskřivý --> jiskřívat (CHANGE: i -> í) 
+*	  jodidový --> jodidovat
+*	  jílový --> jílovat
+*	  jódový --> jódovat
+*	  kabelový --> kabelovat
+*	  kachlíkový --> kachlíkovat
+*	  kachlíčkový --> kachlíčkovat
+*	  kadmiový --> kadmiovat
+*	  kamenový --> kamenovat
+*	  kapotový --> kapotovat
+*	  kapsový --> kapsovat
+*	  kapavý --> kapávat (CHANGE: a -> á) 
+*	  kartový --> kartovat
+*	  kartáčový --> kartáčovat
+*	  katapultový --> katapultovat
+*	  kecavý --> kecávat (CHANGE: a -> á) 
+*	  kempový --> kempovat
+*	  klapavý --> klapávat (CHANGE: a -> á) 
+*	  klepavý --> klepávat (CHANGE: a -> á) 
+*	  klesavý --> klesávat (CHANGE: a -> á) 
+*	  klihový --> klihovat
+*	  klonový --> klonovat
+*	  klopový --> klopovat
+*	  klouzavý --> klouzávat (CHANGE: a -> á) 
+*	  klový --> klovat
+*	  kláskový --> kláskovat
+*	  klínový --> klínovat
+*	  knihový --> knihovat
+*	  kodrcavý --> kodrcávat (CHANGE: a -> á) 
+*	  koksový --> koksovat
+*	  koledový --> koledovat
+*	  kolkový --> kolkovat
+*	  kolážový --> kolážovat
+*	  kolébavý --> kolébávat (CHANGE: a -> á) 
+*	  kolísavý --> kolísávat (CHANGE: a -> á) 
+*	  komorový --> komorovat
+*	  komplementový --> komplementovat
+*	  kompostový --> kompostovat
+*	  kompotový --> kompotovat
+*	  koncový --> koncovat
+*	  konejšivý --> konejšívat (CHANGE: i -> í) 
+*	  kontaktový --> kontaktovat
+*	  kontraktový --> kontraktovat
+*	  konturový --> konturovat
+*	  konzervový --> konzervovat
+*	  kopavý --> kopávat (CHANGE: a -> á) 
+*	  kormidlový --> kormidlovat
+*	  korunový --> korunovat
+*	  kostýmový --> kostýmovat
+*	  koulivý --> koulívat (CHANGE: i -> í) 
+*	  kusý --> kousat (CHANGE: u -> ou) 
+*	  kouskový --> kouskovat
+*	  kousavý --> kousávat (CHANGE: a -> á) 
+*	  kouřivý --> kouřívat (CHANGE: i -> í) 
+*	  kočkový --> kočkovat
+*	  kokový --> kočovat (CHANGE: k -> č) 
+*	  kořenový --> kořenovat
+*	  kraulový --> kraulovat
+*	  krepový --> krepovat
+*	  krmivý --> krmívat (CHANGE: i -> í) 
+*	  krokový --> krokovat
+*	  kroutivý --> kroutívat (CHANGE: i -> í) 
+*	  kroužkový --> kroužkovat
+*	  krouživý --> kroužívat (CHANGE: i -> í) 
+*	  kryptový --> kryptovat
+*	  krystalový --> krystalovat
+*	  kráčivý --> kráčívat (CHANGE: i -> í) 
+*	  krémový --> krémovat
+*	  kufrový --> kufrovat
+*	  kulhavý --> kulhávat (CHANGE: a -> á) 
+*	  kulmový --> kulmovat
+*	  kulový --> kulovat
+*	  kupový --> kupovat
+*	  kusový --> kušovat (CHANGE: s -> š) 
+*	  kvantový --> kvantovat
+*	  kvasivý --> kvasívat (CHANGE: i -> í) 
+*	  kvótový --> kvótovat
+*	  kytový --> kytovat
+*	  kádrový --> kádrovat
+*	  kódový --> kódovat
+*	  kótový --> kótovat
+*	  kývavý --> kývávat (CHANGE: a -> á) 
+*	  křepčivý --> křepčívat (CHANGE: i -> í) 
+*	  křečový --> křečovat
+*	  křížový --> křižovat (CHANGE: í -> i) 
+*	  křídový --> křídovat
+*	  křížkový --> křížkovat
+*	  lahvový --> lahvovat
+*	  lajnový --> lajnovat
+*	  lakový --> lakovat
+*	  lamelový --> lamelovat
+*	  laminový --> laminovat
+*	  laskavý --> laskávat (CHANGE: a -> á) 
+*	  lazurový --> lazurovat
+*	  laťový --> laťovat
+*	  ledkový --> ledkovat
+*	  ledový --> ledovat
+*	  lekavý --> lekávat (CHANGE: a -> á) 
+*	  lemový --> lemovat
+*	  lepivý --> lepívat (CHANGE: i -> í) 
+*	  libový --> libovat
+*	  lichotivý --> lichotívat (CHANGE: i -> í) 
+*	  limitový --> limitovat
+*	  linkový --> linkovat
+*	  listový --> listovat
+*	  losový --> losovat
+*	  loudavý --> loudávat (CHANGE: a -> á) 
+*	  loudivý --> loudívat (CHANGE: i -> í) 
+*	  lustrový --> lustrovat
+*	  lysý --> lysat
+*	  letý --> létat (CHANGE: e -> é) 
+*	  létavý --> létávat (CHANGE: a -> á) 
+*	  léčivý --> léčívat (CHANGE: i -> í) 
+*	  libý --> líbat (CHANGE: i -> í) 
+*	  líbavý --> líbávat (CHANGE: a -> á) 
+*	  lícový --> lícovat
+*	  líný --> línat
+*	  lepý --> lípat (CHANGE: e -> í) 
+*	  magnetový --> magnetovat
+*	  mailový --> mailovat
+*	  maleinový --> maleinovat
+*	  maltový --> maltovat
+*	  mandlový --> mandlovat
+*	  manévrový --> manévrovat
+*	  mapový --> mapovat
+*	  markový --> markovat
+*	  maskový --> maskovat
+*	  maserový --> masírovat (CHANGE: e -> í) 
+*	  mazlivý --> mazlívat (CHANGE: i -> í) 
+*	  medový --> medovat
+*	  metalízový --> metalizovat (CHANGE: í -> i) 
+*	  metastázový --> metastázovat
+*	  mikrofilmový --> mikrofilmovat
+*	  mikroskopový --> mikroskopovat
+*	  mílový --> milovat (CHANGE: í -> i) 
+*	  mincový --> mincovat
+*	  minový --> minovat
+*	  mixový --> mixovat
+*	  mizivý --> mizívat (CHANGE: i -> í) 
+*	  modelový --> modelovat
+*	  modemový --> modemovat
+	  modrý --> modrat
+*	  modulový --> modulovat
+*	  monitorový --> monitorovat
+*	  močůvkový --> močůvkovat
+*	  mramorový --> mramorovat
+*	  mrazivý --> mrazívat (CHANGE: i -> í) 
+*	  mračivý --> mračívat (CHANGE: i -> í) 
+*	  mrholivý --> mrholívat (CHANGE: i -> í) 
+*	  multiplexový --> multiplexovat
+*	  mučivý --> mučívat (CHANGE: i -> í) 
+*	  myslivý --> myslívat (CHANGE: i -> í) 
+*	  myšový --> myšovat
+*	  mámivý --> mámívat (CHANGE: i -> í) 
+*	  mýlivý --> mýlívat (CHANGE: i -> í) 
+*	  měnivý --> měnívat (CHANGE: i -> í) 
+*	  mřížkový --> mřížkovat
+*	  mřížový --> mřížovat
+*	  nábojový --> nabojovat (CHANGE: á -> a) 
+*	  nadpisový --> nadpisovat
+*	  nádržový --> nadržovat (CHANGE: á -> a) 
+*	  nadávkový --> nadávkovat
+*	  nákazový --> nakazovat (CHANGE: á -> a) 
+*	  nákupový --> nakupovat (CHANGE: á -> a) 
+*	  náletový --> naletovat (CHANGE: á -> a) 
+*	  naléhavý --> naléhávat (CHANGE: a -> á) 
+*	  nalitý --> nalítat (CHANGE: i -> í) 
+*	  náplavový --> naplavovat (CHANGE: á -> a) 
+*	  napletý --> naplétat (CHANGE: e -> é) 
+*	  náplňový --> naplňovat (CHANGE: á -> a) 
+*	  nápojový --> napojovat (CHANGE: á -> a) 
+*	  nápravový --> napravovat (CHANGE: á -> a) 
+*	  napínavý --> napínávat (CHANGE: a -> á) 
+*	  nástrojový --> nastrojovat (CHANGE: á -> a) 
+*	  nástupový --> nastupovat (CHANGE: á -> a) 
+*	  nástřihový --> nastřihovat (CHANGE: á -> a) 
+*	  nástřikový --> nastřikovat (CHANGE: á -> a) 
+*	  nátlakový --> natlakovat (CHANGE: á -> a) 
+*	  návrhový --> navrhovat (CHANGE: á -> a) 
+*	  naříkavý --> naříkávat (CHANGE: a -> á) 
+*	  nášlapový --> našlapovat (CHANGE: á -> a) 
+*	  nervový --> nervovat
+*	  niklový --> niklovat
+*	  nitridový --> nitridovat
+*	  ničivý --> ničívat (CHANGE: i -> í) 
+*	  normový --> normovat
+*	  notový --> notovat
+*	  novelový --> novelovat
+*	  nulový --> nulovat
+*	  nálepkový --> nálepkovat
+*	  nárokový --> nárokovat
+*	  nýtový --> nýtovat
+*	  obalový --> obalovat
+*	  oblitý --> oblítat (CHANGE: i -> í) 
+*	  oborový --> obořovat (CHANGE: r -> ř) 
+*	  obrubový --> obrubovat
+*	  obsahový --> obsahovat
+*	  obsluhový --> obsluhovat
+*	  obvazový --> obvazovat
+*	  oběhový --> oběžovat (CHANGE: h -> ž) 
+*	  octový --> octovat
+*	  oddechový --> oddechovat
+*	  oddychový --> oddychovat
+*	  odhadový --> odhadovat
+*	  odkazový --> odkazovat
+*	  odklonový --> odkloňovat (CHANGE: n -> ň) 
+*	  odletový --> odletovat
+*	  odlukový --> odlučovat (CHANGE: k -> č) 
+*	  odlitý --> odlítat (CHANGE: i -> í) 
+*	  odmítavý --> odmítávat (CHANGE: a -> á) 
+*	  odměnový --> odměňovat (CHANGE: n -> ň) 
+*	  odpichový --> odpichovat
+*	  odpisový --> odpisovat
+*	  odporový --> odporovat
+*	  odrazový --> odrazovat
+*	  odstupový --> odstupovat
+*	  odstínový --> odstínovat
+*	  odstínový --> odstíňovat (CHANGE: n -> ň) 
+*	  odstřelový --> odstřelovat
+*	  odsunový --> odsunovat
+*	  odtahový --> odtahovat
+*	  odvalový --> odvalovat
+*	  odvazový --> odvazovat
+*	  odvazový --> odvažovat (CHANGE: z -> ž) 
+*	  odvozový --> odvozovat
+*	  odvětvový --> odvětvovat
+*	  odříkavý --> odříkávat (CHANGE: a -> á) 
+*	  ohlasový --> ohlašovat (CHANGE: s -> š) 
+*	  okrajový --> okrajovat
+*	  okusový --> okusovat
+*	  olejový --> olejovat
+*	  opadavý --> opadávat (CHANGE: a -> á) 
+*	  opálový --> opalovat (CHANGE: á -> a) 
+*	  oparový --> opařovat (CHANGE: r -> ř) 
+*	  oplachový --> oplachovat
+*	  oponový --> oponovat
+*	  opaskový --> opáskovat (CHANGE: a -> á) 
+*	  osedlý --> osedlat
+*	  otevíravý --> otevírávat (CHANGE: a -> á) 
+*	  otvíravý --> otvírávat (CHANGE: a -> á) 
+*	  ovarový --> ovařovat (CHANGE: r -> ř) 
+*	  oxidový --> oxidovat
+*	  očkový --> očkovat
+*	  ošatkový --> ošátkovat (CHANGE: a -> á) 
+*	  ožehavý --> ožehávat (CHANGE: a -> á) 
+*	  packý --> packat
+*	  padavý --> padávat (CHANGE: a -> á) 
+*	  pákový --> pakovat (CHANGE: á -> a) 
+*	  paletový --> paletovat
+*	  pancéřový --> pancéřovat
+*	  panelový --> panelovat
+*	  papírový --> papírovat
+*	  paragrafový --> paragrafovat
+*	  parcelový --> parcelovat
+*	  parfémový --> parfémovat
+*	  paspartový --> paspartovat
+*	  pastový --> pastovat
+*	  pasážový --> pasážovat
+*	  patentový --> patentovat
+*	  patinový --> patinovat
+*	  patrolový --> patrolovat
+*	  patronový --> patronovat
+*	  pendlový --> pendlovat
+*	  pigmentový --> pigmentovat
+*	  pijavý --> pijávat (CHANGE: a -> á) 
+*	  piknikový --> piknikovat
+*	  pikový --> pikovat
+*	  pilotový --> pilotovat
+*	  pilový --> pilovat
+*	  plachtivý --> plachtívat (CHANGE: i -> í) 
+*	  plakátový --> plakátovat
+*	  plavý --> plavat
+*	  plazivý --> plazívat (CHANGE: i -> í) 
+*	  plechový --> plechovat
+*	  plenivý --> plenívat (CHANGE: i -> í) 
+*	  plečkový --> plečkovat
+*	  plkavý --> plkávat (CHANGE: a -> á) 
+*	  plodivý --> plodívat (CHANGE: i -> í) 
+*	  plouživý --> ploužívat (CHANGE: i -> í) 
+*	  pluhový --> pluhovat
+*	  plundrový --> plundrovat
+*	  plynový --> plynovat
+*	  plánový --> plánovat
+*	  plátkový --> plátkovat
+*	  pochodový --> pochodovat
+*	  pocitový --> pociťovat (CHANGE: t -> ť) 
+*	  poctivý --> poctívat (CHANGE: i -> í) 
+*	  podezřivý --> podezřívat (CHANGE: i -> í) 
+*	  podnikavý --> podnikávat (CHANGE: a -> á) 
+*	  podpisový --> podpisovat
+*	  podílový --> podílovat
+*	  pohrdavý --> pohrdávat (CHANGE: a -> á) 
+*	  pohybový --> pohybovat
+*	  pointový --> pointovat
+*	  pojivý --> pojívat (CHANGE: i -> í) 
+*	  pokutový --> pokutovat
+*	  poletový --> poletovat
+*	  polevový --> polevovat
+*	  polohový --> polohovat
+*	  půlový --> polovat (CHANGE: ů -> o) 
+*	  polychromový --> polychromovat
+*	  polymerový --> polymerovat
+*	  poléhavý --> poléhávat (CHANGE: a -> á) 
+*	  polétavý --> polétávat (CHANGE: a -> á) 
+*	  polštářový --> polštářovat
+*	  pomádový --> pomádovat
+*	  poměrový --> poměřovat (CHANGE: r -> ř) 
+*	  ponorový --> ponořovat (CHANGE: r -> ř) 
+*	  popisový --> popisovat
+*	  portový --> portovat
+*	  portrétový --> portrétovat
+*	  poruchový --> porušovat (CHANGE: ch -> š) 
+*	  posilový --> posilovat
+*	  postihový --> postihovat
+*	  postrkový --> postrkovat
+*	  postupový --> postupovat
+*	  postřehový --> postřehovat
+*	  postřikový --> postřikovat
+*	  posunkový --> posunkovat
+*	  posunový --> posunovat
+*	  potahový --> potahovat
+*	  potiskový --> potiskovat
+*	  potivý --> potívat (CHANGE: i -> í) 
+*	  poutavý --> poutávat (CHANGE: a -> á) 
+*	  povalový --> povalovat
+*	  povahový --> považovat (CHANGE: h -> ž) 
+*	  povídavý --> povídávat (CHANGE: a -> á) 
+*	  poznámkový --> poznámkovat
+*	  praskavý --> praskávat (CHANGE: a -> á) 
+*	  prchavý --> prchávat (CHANGE: a -> á) 
+*	  premiérový --> premiérovat
+*	  procesový --> procesovat
+*	  profilový --> profilovat
+*	  profitový --> profitovat
+*	  prognózový --> prognózovat
+*	  programový --> programovat
+*	  projektový --> projektovat
+*	  projevový --> projevovat
+*	  průkazový --> prokazovat (CHANGE: ů -> o) 
+*	  prokluzový --> prokluzovat
+*	  průletový --> proletovat (CHANGE: ů -> o) 
+*	  prolitý --> prolítat (CHANGE: i -> í) 
+*	  promenádový --> promenádovat
+*	  promilový --> promilovat
+*	  proměnový --> proměňovat (CHANGE: n -> ň) 
+*	  průpisový --> propisovat (CHANGE: ů -> o) 
+*	  proplachový --> proplachovat
+*	  průplavový --> proplavovat (CHANGE: ů -> o) 
+*	  průsakový --> prosakovat (CHANGE: ů -> o) 
+*	  prostředkový --> prostředkovat
+*	  prosvítavý --> prosvítávat (CHANGE: a -> á) 
+*	  průtahový --> protahovat (CHANGE: ů -> o) 
+*	  protokolový --> protokolovat
+*	  proudivý --> proudívat (CHANGE: i -> í) 
+*	  provazový --> provažovat (CHANGE: z -> ž) 
+*	  provozový --> provozovat
+*	  pruhový --> pruhovat
+*	  pravý --> právat (CHANGE: a -> á) 
+*	  práškový --> práškovat
+*	  prémiový --> prémiovat
+*	  průměrový --> průměrovat
+*	  psavý --> psávat (CHANGE: a -> á) 
+*	  pudrový --> pudrovat
+*	  pulsový --> pulsovat
+*	  pumpový --> pumpovat
+*	  puntíkový --> puntíkovat
+*	  pusinkový --> pusinkovat
+*	  pytlový --> pytlovat
+*	  pytlíkový --> pytlíkovat
+*	  pádlový --> pádlovat
+*	  pálkový --> pálkovat
+*	  pálivý --> pálívat (CHANGE: i -> í) 
+*	  párový --> párovat
+*	  páskový --> páskovat
+*	  píchavý --> píchávat (CHANGE: a -> á) 
+*	  pískový --> pískovat
+*	  pískavý --> pískávat (CHANGE: a -> á) 
+*	  pólový --> pólovat
+*	  předpisový --> předpisovat
+*	  představový --> představovat
+*	  předstihový --> předstihovat
+*	  předtiskový --> předtiskovat
+*	  předávkový --> předávkovat
+*	  předělový --> předělovat
+*	  přeletový --> přeletovat
+*	  přelétavý --> přelétávat (CHANGE: a -> á) 
+*	  přemilý --> přemílat (CHANGE: i -> í) 
+*	  přemítý --> přemítat
+*	  přemítavý --> přemítávat (CHANGE: a -> á) 
+*	  přemýšlivý --> přemýšlívat (CHANGE: i -> í) 
+*	  přepisový --> přepisovat
+*	  přesahový --> přesahovat
+*	  přestupový --> přestupovat
+*	  přesunový --> přesunovat
+*	  přesýpavý --> přesýpávat (CHANGE: a -> á) 
+*	  přetiskový --> přetiskovat
+*	  přetlakový --> přetlačovat (CHANGE: k -> č) 
+*	  převazový --> převazovat
+*	  přežvýkavý --> přežvýkávat (CHANGE: a -> á) 
+*	  příbalový --> přibalovat (CHANGE: í -> i) 
+*	  přídělový --> přidělovat (CHANGE: í -> i) 
+*	  příkazový --> přikazovat (CHANGE: í -> i) 
+*	  příletový --> přiletovat (CHANGE: í -> i) 
+*	  přilitý --> přilítat (CHANGE: i -> í) 
+*	  přípojový --> připojovat (CHANGE: í -> i) 
+*	  připomínkový --> připomínkovat
+*	  přisedavý --> přisedávat (CHANGE: a -> á) 
+*	  přístrojový --> přistrojovat (CHANGE: í -> i) 
+*	  přístupový --> přistupovat (CHANGE: í -> i) 
+*	  přísunový --> přisunovat (CHANGE: í -> i) 
+*	  přízvukový --> přizvukovat (CHANGE: í -> i) 
+*	  přízvukový --> přízvukovat
+*	  působivý --> působívat (CHANGE: i -> í) 
+*	  rachotivý --> rachotívat (CHANGE: i -> í) 
+*	  rapový --> rapovat
+*	  rasový --> rasovat
+*	  rastrový --> rastrovat
+*	  razítkový --> razítkovat
+*	  rašplový --> rašplovat
+*	  registrový --> registrovat
+*	  rejdový --> rejdovat
+*	  rejstříkový --> rejstříkovat
+*	  remixový --> remixovat
+*	  rentgenový --> rentgenovat
+*	  rentový --> rentovat
+*	  replikový --> replikovat
+*	  reprízový --> reprízovat
+*	  republikový --> republikovat
+*	  robotový --> robotovat
+*	  rockový --> rockovat
+*	  rodivý --> rodívat (CHANGE: i -> í) 
+*	  rohový --> rohovat
+*	  rolový --> rolovat
+*	  rosolový --> rosolovat
+*	  rouhavý --> rouhávat (CHANGE: a -> á) 
+*	  rusý --> rousat (CHANGE: u -> ou) 
+	  rovný --> rovnat
+*	  rozbíhavý --> rozbíhávat (CHANGE: a -> á) 
+*	  rozbřeskový --> rozbřeskovat
+*	  rozhlasový --> rozhlašovat (CHANGE: s -> š) 
+*	  rozhovorový --> rozhovořovat (CHANGE: r -> ř) 
+*	  rozlukový --> rozlučovat (CHANGE: k -> č) 
+*	  rozlitý --> rozlítat (CHANGE: i -> í) 
+*	  rozmilý --> rozmílat (CHANGE: i -> í) 
+*	  rozměrový --> rozměřovat (CHANGE: r -> ř) 
+*	  rozpadavý --> rozpadávat (CHANGE: a -> á) 
+*	  rozpisový --> rozpisovat
+*	  rozporový --> rozporovat
+*	  rozpočtový --> rozpočtovat
+*	  rozptylový --> rozptylovat
+*	  rozumový --> rozumovat
+*	  rozvahový --> rozvažovat (CHANGE: h -> ž) 
+*	  rozvrhový --> rozvrhovat
+*	  rozštěpový --> rozštěpovat
+*	  roštový --> roštovat
+*	  ruinový --> ruinovat
+*	  rulový --> rulovat
+*	  ručkový --> ručkovat
+*	  rušivý --> rušívat (CHANGE: i -> í) 
+*	  rámcový --> rámcovat
+*	  rámečkový --> rámečkovat
+*	  rámový --> rámovat
+*	  rázový --> rázovat
+*	  rýhový --> rýhovat
+*	  rýmový --> rýmovat
+*	  saunový --> saunovat
+*	  schůzový --> schůzovat
+*	  sedlý --> sedlat
+*	  sedavý --> sedávat (CHANGE: a -> á) 
+*	  segmentový --> segmentovat
+*	  sekundový --> sekundovat
+*	  sekyrový --> sekýrovat (CHANGE: y -> ý) 
+*	  servisový --> servisovat
+*	  serverový --> servírovat (CHANGE: e -> í) 
+*	  sestupový --> sestupovat
+*	  setupový --> setupovat
+*	  seznámený --> seznamenat (CHANGE: á -> a) 
+*	  seznamový --> seznamovat
+*	  sgrafitový --> sgrafitovat
+*	  shlukový --> shlukovat
+*	  silážový --> silážovat
+	  siný --> sinat
+*	  sintrový --> sintrovat
+*	  skicový --> skicovat
+*	  skladový --> skladovat
+*	  sklonový --> skloňovat (CHANGE: n -> ň) 
+*	  skládkový --> skládkovat
+*	  slabikový --> slabikovat
+*	  sladový --> sladovat
+*	  sladový --> slaďovat (CHANGE: d -> ď) 
+*	  sletový --> sletovat
+*	  slevový --> slevovat
+*	  slínový --> slinovat (CHANGE: í -> i) 
+*	  slizový --> slizovat
+*	  slušivý --> slušívat (CHANGE: i -> í) 
+*	  slitý --> slítat (CHANGE: i -> í) 
+*	  smaltový --> smaltovat
+*	  smekavý --> smekávat (CHANGE: a -> á) 
+*	  smirkový --> smirkovat
+*	  smykový --> smykovat
+*	  smyčkový --> smyčkovat
+*	  smavý --> smávat (CHANGE: a -> á) 
+*	  smělý --> smílat (CHANGE: ě -> í) 
+*	  směrový --> směrovat
+*	  směsový --> směsovat
+*	  směnový --> směňovat (CHANGE: n -> ň) 
+*	  směrový --> směřovat (CHANGE: r -> ř) 
+*	  směsový --> směšovat (CHANGE: s -> š) 
+*	  snaživý --> snažívat (CHANGE: i -> í) 
+*	  snový --> snovat
+*	  snědý --> snídat (CHANGE: ě -> í) 
+*	  snímkový --> snímkovat
+*	  snivý --> snívat (CHANGE: i -> í) 
+*	  sněživý --> sněžívat (CHANGE: i -> í) 
+*	  sondový --> sondovat
+*	  sorbový --> sorbovat
+*	  souloživý --> souložívat (CHANGE: i -> í) 
+*	  spálový --> spalovat (CHANGE: á -> a) 
+*	  spisový --> spisovat
+*	  splavový --> splavovat
+*	  splátkový --> splátkovat
+*	  spojový --> spojovat
+*	  spolkový --> spolčovat (CHANGE: k -> č) 
+*	  spořivý --> spořívat (CHANGE: i -> í) 
+*	  sprašový --> sprašovat
+*	  sprchový --> sprchovat
+*	  sprejový --> sprejovat
+*	  sprintový --> sprintovat
+*	  spárový --> spárovat
+*	  spavý --> spávat (CHANGE: a -> á) 
+*	  spížový --> spížovat
+*	  stanový --> stanovat
+*	  starý --> starat
+*	  startový --> startovat
+*	  stavový --> stavovat
+*	  stepový --> stepovat
+*	  stohový --> stohovat
+*	  stolový --> stolovat
+*	  stopový --> stopovat
+*	  stoupavý --> stoupávat (CHANGE: a -> á) 
+*	  strachový --> strachovat
+*	  stresový --> stresovat
+*	  strukturový --> strukturovat
+*	  stránkový --> stránkovat
+*	  stupňový --> stupňovat
+*	  stužkový --> stužkovat
+*	  stykový --> stykovat
+*	  stávkový --> stávkovat
+*	  stýskavý --> stýskávat (CHANGE: a -> á) 
+*	  stěhovavý --> stěhovávat (CHANGE: a -> á) 
+*	  střídavý --> střídávat (CHANGE: a -> á) 
+*	  stříkavý --> stříkávat (CHANGE: a -> á) 
+*	  sudový --> sudovat
+*	  sulcový --> sulcovat
+*	  sumový --> sumovat
+*	  surfový --> surfovat
+*	  svahový --> svahovat
+*	  svalový --> svalovat
+*	  svazový --> svazovat
+*	  svarový --> svařovat (CHANGE: r -> ř) 
+*	  svorkový --> svorkovat
+*	  svozový --> svozovat
+*	  svrbivý --> svrbívat (CHANGE: i -> í) 
+*	  svádivý --> svádívat (CHANGE: i -> í) 
+*	  svíravý --> svírávat (CHANGE: a -> á) 
+	  světlý --> světlat
+*	  swapový --> swapovat
+*	  swingový --> swingovat
+*	  synkopový --> synkopovat
+*	  sádkový --> sádkovat
+*	  sádrový --> sádrovat
+*	  sáhový --> sáhovat
+*	  sáčkový --> sáčkovat
+*	  sáňkový --> sáňkovat
+*	  sólový --> sólovat
+*	  tabletový --> tabletovat
+*	  tahavý --> tahávat (CHANGE: a -> á) 
+*	  taktový --> taktovat
+*	  tangový --> tangovat
+*	  tankový --> tankovat
+*	  tapetový --> tapetovat
+*	  temperový --> temperovat
+	  teplý --> teplat
+*	  terasový --> terasovat
+*	  termínový --> terminovat (CHANGE: í -> i) 
+*	  termínový --> termínovat
+*	  testový --> testovat
+*	  textový --> textovat
+*	  tečkový --> tečkovat
+*	  tiský --> tiskat
+*	  titulkový --> titulkovat
+*	  titulový --> titulovat
+*	  tlachavý --> tlachávat (CHANGE: a -> á) 
+*	  tlakový --> tlakovat
+*	  tlumivý --> tlumívat (CHANGE: i -> í) 
+*	  toastový --> toastovat
+*	  torpédový --> torpedovat (CHANGE: é -> e) 
+*	  torpédový --> torpédovat
+*	  toulavý --> toulávat (CHANGE: a -> á) 
+*	  točivý --> točívat (CHANGE: i -> í) 
+*	  trapový --> trapovat
+*	  trasový --> trasovat
+*	  traverzový --> traverzovat
+*	  trefový --> trefovat
+*	  tremolový --> tremolovat
+*	  trezorový --> trezorovat
+*	  trhavý --> trhávat (CHANGE: a -> á) 
+*	  truchlivý --> truchlívat (CHANGE: i -> í) 
+*	  trumfový --> trumfovat
+*	  trémový --> trémovat
+*	  trýznivý --> trýznívat (CHANGE: i -> í) 
+*	  trčivý --> trčívat (CHANGE: i -> í) 
+*	  tunelový --> tunelovat
+*	  tupý --> tupat
+*	  tušový --> tušovat
+*	  tvarový --> tvarovat
+*	  tvořivý --> tvořívat (CHANGE: i -> í) 
+*	  twistový --> twistovat
+*	  typový --> typovat
+*	  tárový --> tárovat
+*	  tónový --> tónovat
+	  těsný --> těsnat
+*	  těšivý --> těšívat (CHANGE: i -> í) 
+	  těžký --> těžkat
+*	  třpytivý --> třpytívat (CHANGE: i -> í) 
+*	  uctivý --> uctívat (CHANGE: i -> í) 
+*	  ukolébavý --> ukolébávat (CHANGE: a -> á) 
+*	  ulitový --> ulitovat
+*	  ulitý --> ulítat (CHANGE: i -> í) 
+*	  umělý --> umílat (CHANGE: ě -> í) 
+*	  uniformový --> uniformovat
+*	  upgradový --> upgradovat
+*	  upletý --> uplétat (CHANGE: e -> é) 
+*	  upomínkový --> upomínkovat
+*	  usedavý --> usedávat (CHANGE: a -> á) 
+*	  utíkavý --> utíkávat (CHANGE: a -> á) 
+*	  uvitý --> uvítat (CHANGE: i -> í) 
+*	  uzlový --> uzlovat
+*	  uzlíčkový --> uzlíčkovat
+*	  učitý --> učítat (CHANGE: i -> í) 
+*	  užitkový --> užitkovat
+*	  vagónový --> vagónovat
+*	  vakcínový --> vakcinovat (CHANGE: í -> i) 
+*	  vakuový --> vakuovat
+*	  valchový --> valchovat
+*	  valivý --> valívat (CHANGE: i -> í) 
+*	  vartový --> vartovat
+*	  vatový --> vatovat
+*	  vařivý --> vařívat (CHANGE: i -> í) 
+*	  vdechový --> vdechovat
+*	  ventilový --> ventilovat
+*	  veršový --> veršovat
+*	  veslový --> veslovat
+*	  vidový --> vidovat
+*	  vizírový --> vizírovat
+*	  vkusový --> vkusovat
+*	  vletový --> vletovat
+*	  vložkový --> vložkovat
+*	  vláčivý --> vláčívat (CHANGE: i -> í) 
+*	  vnímavý --> vnímávat (CHANGE: a -> á) 
+*	  vodivý --> vodívat (CHANGE: i -> í) 
+*	  volavý --> volávat (CHANGE: a -> á) 
+*	  voskový --> voskovat
+*	  voňavkový --> voňavkovat
+*	  vpichový --> vpichovat
+*	  vrakový --> vrakovat
+*	  vraždivý --> vraždívat (CHANGE: i -> í) 
+*	  vroubkový --> vroubkovat
+*	  vrubový --> vroubovat (CHANGE: u -> ou) 
+*	  vrtavý --> vrtávat (CHANGE: a -> á) 
+*	  vrtivý --> vrtívat (CHANGE: i -> í) 
+*	  vrzavý --> vrzávat (CHANGE: a -> á) 
+*	  vstupový --> vstupovat
+*	  vstřikový --> vstřikovat
+*	  vtiskový --> vtiskovat
+*	  vtíravý --> vtírávat (CHANGE: a -> á) 
+*	  výbavový --> vybavovat (CHANGE: ý -> y) 
+*	  výbojový --> vybojovat (CHANGE: ý -> y) 
+*	  výbuchový --> vybuchovat (CHANGE: ý -> y) 
+*	  vybíravý --> vybírávat (CHANGE: a -> á) 
+*	  výdechový --> vydechovat (CHANGE: ý -> y) 
+*	  vydrový --> vydrovat
+*	  výfukový --> vyfukovat (CHANGE: ý -> y) 
+*	  výkazový --> vykazovat (CHANGE: ý -> y) 
+*	  výkrmový --> vykrmovat (CHANGE: ý -> y) 
+*	  výkupový --> vykupovat (CHANGE: ý -> y) 
+*	  vykutý --> vykutat
+*	  výlepový --> vylepovat (CHANGE: ý -> y) 
+*	  výletový --> vyletovat (CHANGE: ý -> y) 
+*	  výluhový --> vyluhovat (CHANGE: ý -> y) 
+*	  vylitý --> vylítat (CHANGE: i -> í) 
+*	  výmazový --> vymazovat (CHANGE: ý -> y) 
+*	  vymytý --> vymýtat (CHANGE: y -> ý) 
+*	  vypadavý --> vypadávat (CHANGE: a -> á) 
+*	  výpiskový --> vypiskovat (CHANGE: ý -> y) 
+*	  výpisový --> vypisovat (CHANGE: ý -> y) 
+*	  výplachový --> vyplachovat (CHANGE: ý -> y) 
+*	  výplavový --> vyplavovat (CHANGE: ý -> y) 
+*	  vypletý --> vyplétat (CHANGE: e -> é) 
+*	  výplňový --> vyplňovat (CHANGE: ý -> y) 
+*	  vypočítavý --> vypočítávat (CHANGE: a -> á) 
+*	  vypěný --> vypínat (CHANGE: ě -> í) 
+*	  výskytový --> vyskytovat (CHANGE: ý -> y) 
+*	  výsluhový --> vysluhovat (CHANGE: ý -> y) 
+*	  vyspělý --> vyspílat (CHANGE: ě -> í) 
+*	  vystoupavý --> vystoupávat (CHANGE: a -> á) 
+*	  výstrojový --> vystrojovat (CHANGE: ý -> y) 
+*	  výstupový --> vystupovat (CHANGE: ý -> y) 
+*	  výstřihový --> vystřihovat (CHANGE: ý -> y) 
+*	  výstřikový --> vystřikovat (CHANGE: ý -> y) 
+*	  vysychavý --> vysychávat (CHANGE: a -> á) 
+*	  výtahový --> vytahovat (CHANGE: ý -> y) 
+*	  vývarový --> vyvarovat (CHANGE: ý -> y) 
+*	  vývinový --> vyvinovat (CHANGE: ý -> y) 
+*	  vývozový --> vyvozovat (CHANGE: ý -> y) 
+*	  výzdobový --> vyzdobovat (CHANGE: ý -> y) 
+*	  vyzývavý --> vyzývávat (CHANGE: a -> á) 
+*	  vyčítavý --> vyčítávat (CHANGE: a -> á) 
+*	  výšinový --> vyšinovat (CHANGE: ý -> y) 
+*	  výživový --> vyživovat (CHANGE: ý -> y) 
+*	  vzduchový --> vzduchovat
+*	  vzdychavý --> vzdychávat (CHANGE: a -> á) 
+*	  vzlétavý --> vzlétávat (CHANGE: a -> á) 
+*	  vznášivý --> vznášívat (CHANGE: i -> í) 
+*	  vzorkový --> vzorkovat
+*	  vzorový --> vzorovat
+*	  vzpomínavý --> vzpomínávat (CHANGE: a -> á) 
+*	  vzruchový --> vzrušovat (CHANGE: ch -> š) 
+*	  vztahový --> vztahovat
+*	  vztekavý --> vztekávat (CHANGE: a -> á) 
+*	  válcový --> válcovat
+*	  válečkový --> válečkovat
+*	  válivý --> válívat (CHANGE: i -> í) 
+*	  veský --> vískat (CHANGE: e -> í) 
+*	  vitý --> vítat (CHANGE: i -> í) 
+*	  výborový --> výborovat
+*	  výletový --> výletovat
+*	  věncový --> věncovat
+*	  věřivý --> věřívat (CHANGE: i -> í) 
+*	  věštivý --> věštívat (CHANGE: i -> í) 
+*	  všivý --> všívat (CHANGE: i -> í) 
+*	  xeroxový --> xeroxovat
+*	  zábavový --> zabavovat (CHANGE: á -> a) 
+*	  zadrhavý --> zadrhávat (CHANGE: a -> á) 
+*	  zajíkavý --> zajíkávat (CHANGE: a -> á) 
+*	  zajímavý --> zajímávat (CHANGE: a -> á) 
+*	  zákalový --> zakalovat (CHANGE: á -> a) 
+*	  zákazový --> zakazovat (CHANGE: á -> a) 
+*	  zaklený --> zaklínat (CHANGE: e -> í) 
+*	  zákrytový --> zakrytovat (CHANGE: á -> a) 
+*	  zakutý --> zakutat
+*	  zálomový --> zalomovat (CHANGE: á -> a) 
+*	  zalykavý --> zalykávat (CHANGE: a -> á) 
+*	  zalátý --> zalátat
+*	  zalitý --> zalítat (CHANGE: i -> í) 
+*	  zámrazový --> zamrazovat (CHANGE: á -> a) 
+*	  zámrský --> zamrskat (CHANGE: á -> a) 
+*	  zápalový --> zapalovat (CHANGE: á -> a) 
+*	  zápasový --> zapasovat (CHANGE: á -> a) 
+*	  zápisový --> zapisovat (CHANGE: á -> a) 
+*	  záplavový --> zaplavovat (CHANGE: á -> a) 
+*	  zapomínavý --> zapomínávat (CHANGE: a -> á) 
+*	  zapěný --> zapínat (CHANGE: ě -> í) 
+*	  zapřísahavý --> zapřísahávat (CHANGE: a -> á) 
+*	  zásahový --> zasahovat (CHANGE: á -> a) 
+*	  zásluhový --> zasluhovat (CHANGE: á -> a) 
+*	  zástavový --> zastavovat (CHANGE: á -> a) 
+*	  zástupový --> zastupovat (CHANGE: á -> a) 
+*	  zastávkový --> zastávkovat
+*	  zátahový --> zatahovat (CHANGE: á -> a) 
+*	  zátarasový --> zatarasovat (CHANGE: á -> a) 
+*	  zátopový --> zatopovat (CHANGE: á -> a) 
+*	  zátěžový --> zatěžovat (CHANGE: á -> a) 
+*	  závalový --> zavalovat (CHANGE: á -> a) 
+*	  závinový --> zavinovat (CHANGE: á -> a) 
+*	  závlahový --> zavlahovat (CHANGE: á -> a) 
+*	  zavitý --> zavítat (CHANGE: i -> í) 
+*	  zakutý --> začutat (CHANGE: k -> č) 
+*	  zážehový --> zažehovat (CHANGE: á -> a) 
+*	  zbraňový --> zbraňovat
+*	  zdobivý --> zdobívat (CHANGE: i -> í) 
+*	  zebrový --> zebrovat
+	  zelený --> zelenat
+*	  zimový --> zimovat
+*	  zinkový --> zinkovat
+*	  zjevový --> zjevovat
+*	  zkoumavý --> zkoumávat (CHANGE: a -> á) 
+*	  zkratový --> zkratovat
+*	  zlobivý --> zlobívat (CHANGE: i -> í) 
+*	  zlomový --> zlomovat
+*	  zlitý --> zlítat (CHANGE: i -> í) 
+*	  změnový --> změňovat (CHANGE: n -> ň) 
+*	  známený --> znamenat (CHANGE: á -> a) 
+*	  značkový --> značkovat
+*	  známkový --> známkovat
+*	  znivý --> znívat (CHANGE: i -> í) 
+*	  zprávový --> zpravovat (CHANGE: á -> a) 
+*	  zpívavý --> zpívávat (CHANGE: a -> á) 
+*	  způsobový --> způsobovat
+*	  zuřivý --> zuřívat (CHANGE: i -> í) 
+*	  zvonivý --> zvonívat (CHANGE: i -> í) 
+*	  zvracivý --> zvracívat (CHANGE: i -> í) 
+*	  zvučivý --> zvučívat (CHANGE: i -> í) 
+*	  zvavý --> zvávat (CHANGE: a -> á) 
+*	  zálohový --> zálohovat
+*	  zápasivý --> zápasívat (CHANGE: i -> í) 
+*	  záplatový --> záplatovat
+*	  zátkový --> zátkovat
+*	  závodivý --> závodívat (CHANGE: i -> í) 
+*	  zářivý --> zářívat (CHANGE: i -> í) 
+*	  zíravý --> zírávat (CHANGE: a -> á) 
+*	  zónový --> zónovat
+*	  úhlový --> úhlovat
+*	  úkolový --> úkolovat
+*	  úrokový --> úrokovat
+*	  úvěrový --> úvěrovat
+*	  účinkový --> účinkovat
+*	  účtový --> účtovat
+*	  čajový --> čajovat
+*	  časový --> časovat
+*	  čekavý --> čekávat (CHANGE: a -> á) 
+*	  čepový --> čepovat
+	  černý --> černat
+	  červený --> červenat
+*	  čeřivý --> čeřívat (CHANGE: i -> í) 
+*	  článkový --> článkovat
+*	  čtverečkový --> čtverečkovat
+*	  čvachtavý --> čvachtávat (CHANGE: a -> á) 
+*	  čárkový --> čárkovat
+*	  číhavý --> číhávat (CHANGE: a -> á) 
+*	  číslový --> číslovat
+*	  čitý --> čítat (CHANGE: i -> í) 
+*	  řetízkový --> řetízkovat
+*	  řezbový --> řezbovat
+*	  řezavý --> řezávat (CHANGE: a -> á) 
+*	  řečnivý --> řečnívat (CHANGE: i -> í) 
+*	  řvavý --> řvávat (CHANGE: a -> á) 
+*	  řádkový --> řádkovat
+*	  řádivý --> řádívat (CHANGE: i -> í) 
+*	  řízkový --> řízkovat
+*	  šablonový --> šablonovat
+*	  šachový --> šachovat
+*	  šálový --> šalovat (CHANGE: á -> a) 
+*	  šamponový --> šamponovat
+*	  šavlový --> šavlovat
+	  šedý --> šedat
+*	  šelestivý --> šelestívat (CHANGE: i -> í) 
+*	  šepsový --> šepsovat
+*	  šeptavý --> šeptávat (CHANGE: a -> á) 
+	  šerý --> šerat
+*	  šetřivý --> šetřívat (CHANGE: i -> í) 
+*	  šifrový --> šifrovat
+*	  škatulkový --> škatulkovat
+*	  šklebivý --> šklebívat (CHANGE: i -> í) 
+*	  škodový --> škodovat
+*	  školkový --> školkovat
+*	  škrtivý --> škrtívat (CHANGE: i -> í) 
+*	  škvárový --> škvárovat
+*	  škádlivý --> škádlívat (CHANGE: i -> í) 
+*	  škálový --> škálovat
+*	  šlapavý --> šlapávat (CHANGE: a -> á) 
+*	  šlehavý --> šlehávat (CHANGE: a -> á) 
+*	  šlemový --> šlemovat
+*	  šmelcový --> šmelcovat
+*	  šmirglový --> šmirglovat
+*	  šmírový --> šmírovat
+*	  šokový --> šokovat
+*	  šperkový --> šperkovat
+*	  špicový --> špicovat
+*	  špičkový --> špičkovat
+*	  šplhavý --> šplhávat (CHANGE: a -> á) 
+*	  šprýmový --> šprýmovat
+*	  šrafový --> šrafovat
+*	  šrotový --> šrotovat
+*	  šroubový --> šroubovat
+*	  štrekový --> štrekovat
+*	  štráfový --> štráfovat
+*	  štukový --> štukovat
+*	  štvavý --> štvávat (CHANGE: a -> á) 
+*	  štípavý --> štípávat (CHANGE: a -> á) 
+*	  štěkavý --> štěkávat (CHANGE: a -> á) 
+*	  štěpový --> štěpovat
+*	  štěrkový --> štěrkovat
+*	  štětový --> štětovat
+*	  šukavý --> šukávat (CHANGE: a -> á) 
+*	  šumový --> šumovat
+*	  šumivý --> šumívat (CHANGE: i -> í) 
+*	  šuškavý --> šuškávat (CHANGE: a -> á) 
+*	  švindlový --> švindlovat
+*	  šátkový --> šátkovat
+*	  šňupavý --> šňupávat (CHANGE: a -> á) 
+*	  šťouravý --> šťourávat (CHANGE: a -> á) 
+*	  žalmový --> žalmovat
+*	  žalářový --> žalářovat
+*	  žebravý --> žebrávat (CHANGE: a -> á) 
+*	  žehnavý --> žehnávat (CHANGE: a -> á) 
+*	  žehravý --> žehrávat (CHANGE: a -> á) 
+*	  žilkový --> žilkovat
+*	  žlábkový --> žlábkovat
+*	  žravý --> žrávat (CHANGE: a -> á) 
+*	  žvanivý --> žvanívat (CHANGE: i -> í) 
+*	  žvýkavý --> žvýkávat (CHANGE: a -> á) 
+*	  žárlivý --> žárlívat (CHANGE: i -> í) 

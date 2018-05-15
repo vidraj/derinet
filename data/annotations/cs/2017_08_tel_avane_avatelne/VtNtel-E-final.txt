@@ -1,6 +1,6 @@
 @	kupitel	kupit	(E) PARENT DIFFERENT, CURRENT PARENT=	kupovat
 myslitel	myslit	(E) PARENT DIFFERENT, CURRENT PARENT=	myslet
-@	øeditel	øedit	(E) PARENT DIFFERENT, CURRENT PARENT=	øídit
-samozásobitel	samozásobit	(E) PARENT DIFFERENT, CURRENT PARENT=	zásobit
-stavitel	stavit	(E) PARENT DIFFERENT, CURRENT PARENT=	stavìt
+@	Å™editel	Å™edit	(E) PARENT DIFFERENT, CURRENT PARENT=	Å™Ã­dit
+samozÃ¡sobitel	samozÃ¡sobit	(E) PARENT DIFFERENT, CURRENT PARENT=	zÃ¡sobit
+stavitel	stavit	(E) PARENT DIFFERENT, CURRENT PARENT=	stavÄ›t
 uzbrojitel	uzbrojit	(E) PARENT DIFFERENT, CURRENT PARENT=	zbrojit

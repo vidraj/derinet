@@ -1,0 +1,2399 @@
+% vymazat ohvězdičkovamé řádky!
+% SPRÁVNÉ ŘEŠENÍ: % V-at --> N-ání, V-at --> A-aný
+
+---------------------------------
+745 GROUPS FOR RULE COMBINATION: A-ý --> N-í, V-at --> N-ání
+
+blekotaný	blekotání	A-ý --> N-í	CHANGE: a -> á	
+blekotat	blekotání	V-at --> N-ání		LINK ALREADY PRESENT
+
+bodaný	bodání	A-ý --> N-í	CHANGE: a -> á	
+bodat	bodání	V-at --> N-ání		LINK ALREADY PRESENT
+
+bouchaný	bouchání	A-ý --> N-í	CHANGE: a -> á	
+bouchat	bouchání	V-at --> N-ání		LINK ALREADY PRESENT
+buchat	bouchání	V-at --> N-ání	CHANGE: u -> ou	
+
+broukaný	broukání	A-ý --> N-í	CHANGE: a -> á	
+broukat	broukání	V-at --> N-ání		LINK ALREADY PRESENT
+
+cekaný	cekání	A-ý --> N-í	CHANGE: a -> á	
+cekat	cekání	V-at --> N-ání		LINK ALREADY PRESENT
+
+chroupaný	chroupání	A-ý --> N-í	CHANGE: a -> á	
+chroupat	chroupání	V-at --> N-ání		
+chroupat	chroupání	V-at --> N-ání		LINK ALREADY PRESENT
+chrupat	chroupání	V-at --> N-ání	CHANGE: u -> ou	
+
+chystaný	chystání	A-ý --> N-í	CHANGE: a -> á	
+chystat	chystání	V-at --> N-ání		LINK ALREADY PRESENT
+
+deptaný	deptání	A-ý --> N-í	CHANGE: a -> á	
+deptat	deptání	V-at --> N-ání		LINK ALREADY PRESENT
+
+dlabaný	dlabání	A-ý --> N-í	CHANGE: a -> á	
+dlabat	dlabání	V-at --> N-ání		
+dlabat	dlabání	V-at --> N-ání		LINK ALREADY PRESENT
+
+dobývaný	dobývání	A-ý --> N-í	CHANGE: a -> á	
+dobývat	dobývání	V-at --> N-ání		LINK ALREADY PRESENT
+
+dodaný	dodání	A-ý --> N-í	CHANGE: a -> á	
+dodat	dodání	V-at --> N-ání		LINK ALREADY PRESENT
+
+dodělaný	dodělání	A-ý --> N-í	CHANGE: a -> á	
+dodělat	dodělání	V-at --> N-ání		LINK ALREADY PRESENT
+
+dohnaný	dohnání	A-ý --> N-í	CHANGE: a -> á	
+dohnat	dohnání	V-at --> N-ání		LINK ALREADY PRESENT
+
+dohřívaný	dohřívání	A-ý --> N-í	CHANGE: a -> á	
+dohřívat	dohřívání	V-at --> N-ání		LINK ALREADY PRESENT
+
+dojednaný	dojednání	A-ý --> N-í	CHANGE: a -> á	
+dojednat	dojednání	V-at --> N-ání		LINK ALREADY PRESENT
+
+dokonaný	dokonání	A-ý --> N-í	CHANGE: a -> á	
+dokonat	dokonání	V-at --> N-ání		LINK ALREADY PRESENT
+
+dolévaný	dolévání	A-ý --> N-í	CHANGE: a -> á	
+dolévat	dolévání	V-at --> N-ání		LINK ALREADY PRESENT
+
+dopsaný	dopsání	A-ý --> N-í	CHANGE: a -> á	
+dopsat	dopsání	V-at --> N-ání		LINK ALREADY PRESENT
+
+dorozumívaný	dorozumívání	A-ý --> N-í	CHANGE: a -> á	
+dorozumívat	dorozumívání	V-at --> N-ání		
+
+dospívaný	dospívání	A-ý --> N-í	CHANGE: a -> á	
+dospívat	dospívání	V-at --> N-ání		
+
+dotýkaný	dotýkání	A-ý --> N-í	CHANGE: a -> á	
+dotýkat	dotýkání	V-at --> N-ání		
+dotýkat	dotýkání	V-at --> N-ání		LINK ALREADY PRESENT
+
+doufaný	doufání	A-ý --> N-í	CHANGE: a -> á	
+doufat	doufání	V-at --> N-ání		LINK ALREADY PRESENT
+
+doznaný	doznání	A-ý --> N-í	CHANGE: a -> á	
+doznat	doznání	V-at --> N-ání		LINK ALREADY PRESENT
+
+dočerpaný	dočerpání	A-ý --> N-í	CHANGE: a -> á	
+dočerpat	dočerpání	V-at --> N-ání		LINK ALREADY PRESENT
+
+dusaný	dusání	A-ý --> N-í	CHANGE: a -> á	
+dusat	dusání	V-at --> N-ání		LINK ALREADY PRESENT
+
+dýchaný	dýchání	A-ý --> N-í	CHANGE: a -> á	
+dýchat	dýchání	V-at --> N-ání		
+dýchat	dýchání	V-at --> N-ání		LINK ALREADY PRESENT
+
+dělaný	dělání	A-ý --> N-í	CHANGE: a -> á	
+dělat	dělání	V-at --> N-ání		
+dělat	dělání	V-at --> N-ání		LINK ALREADY PRESENT
+
+fňukaný	fňukání	A-ý --> N-í	CHANGE: a -> á	
+fňukat	fňukání	V-at --> N-ání		LINK ALREADY PRESENT
+
+hamaný	hamání	A-ý --> N-í	CHANGE: a -> á	
+hamat	hamání	V-at --> N-ání		LINK ALREADY PRESENT
+
+hledaný	hledání	A-ý --> N-í	CHANGE: a -> á	
+hledat	hledání	V-at --> N-ání		LINK ALREADY PRESENT
+hlédat	hledání	V-at --> N-ání	CHANGE: é -> e	
+
+* hledat	hlídání	V-at --> N-ání	CHANGE: e -> í	
+* hlédat	hlídání	V-at --> N-ání	CHANGE: é -> í	
+hlídaný	hlídání	A-ý --> N-í	CHANGE: a -> á	
+hlídat	hlídání	V-at --> N-ání		LINK ALREADY PRESENT
+
+hlodaný	hlodání	A-ý --> N-í	CHANGE: a -> á	
+hlodat	hlodání	V-at --> N-ání		LINK ALREADY PRESENT
+
+hltaný	hltání	A-ý --> N-í	CHANGE: a -> á	
+hltat	hltání	V-at --> N-ání		LINK ALREADY PRESENT
+
+hopsaný	hopsání	A-ý --> N-í	CHANGE: a -> á	
+hopsat	hopsání	V-at --> N-ání		LINK ALREADY PRESENT
+
+houpaný	houpání	A-ý --> N-í	CHANGE: a -> á	
+houpat	houpání	V-at --> N-ání		
+houpat	houpání	V-at --> N-ání		LINK ALREADY PRESENT
+
+hrabaný	hrabání	A-ý --> N-í	CHANGE: a -> á	
+hrabat	hrabání	V-at --> N-ání		
+hrabat	hrabání	V-at --> N-ání		LINK ALREADY PRESENT
+
+huhlaný	huhlání	A-ý --> N-í	CHANGE: a -> á	
+huhlat	huhlání	V-at --> N-ání		LINK ALREADY PRESENT
+
+hýčkaný	hýčkání	A-ý --> N-í	CHANGE: a -> á	
+hýčkat	hýčkání	V-at --> N-ání		LINK ALREADY PRESENT
+
+jednaný	jednání	A-ý --> N-í	CHANGE: a -> á	
+jednat	jednání	V-at --> N-ání		
+jednat	jednání	V-at --> N-ání		LINK ALREADY PRESENT
+
+jímaný	jímání	A-ý --> N-í	CHANGE: a -> á	
+jímat	jímání	V-at --> N-ání		LINK ALREADY PRESENT
+
+kecaný	kecání	A-ý --> N-í	CHANGE: a -> á	
+kecat	kecání	V-at --> N-ání		LINK ALREADY PRESENT
+
+klamaný	klamání	A-ý --> N-í	CHANGE: a -> á	
+klamat	klamání	V-at --> N-ání		LINK ALREADY PRESENT
+
+klepaný	klepání	A-ý --> N-í	CHANGE: a -> á	
+klepat	klepání	V-at --> N-ání		
+klepat	klepání	V-at --> N-ání		LINK ALREADY PRESENT
+
+klesaný	klesání	A-ý --> N-í	CHANGE: a -> á	
+klesat	klesání	V-at --> N-ání		LINK ALREADY PRESENT
+
+klopýtaný	klopýtání	A-ý --> N-í	CHANGE: a -> á	
+klopýtat	klopýtání	V-at --> N-ání		LINK ALREADY PRESENT
+
+kolébaný	kolébání	A-ý --> N-í	CHANGE: a -> á	
+kolébat	kolébání	V-at --> N-ání		LINK ALREADY PRESENT
+
+kolísaný	kolísání	A-ý --> N-í	CHANGE: a -> á	
+kolísat	kolísání	V-at --> N-ání		LINK ALREADY PRESENT
+
+koukaný	koukání	A-ý --> N-í	CHANGE: a -> á	
+koukat	koukání	V-at --> N-ání		LINK ALREADY PRESENT
+kukat	koukání	V-at --> N-ání	CHANGE: u -> ou	
+
+kousaný	kousání	A-ý --> N-í	CHANGE: a -> á	
+kousat	kousání	V-at --> N-ání		
+kousat	kousání	V-at --> N-ání		LINK ALREADY PRESENT
+
+krouhaný	krouhání	A-ý --> N-í	CHANGE: a -> á	
+krouhat	krouhání	V-at --> N-ání		LINK ALREADY PRESENT
+
+kuchaný	kuchání	A-ý --> N-í	CHANGE: a -> á	
+kuchat	kuchání	V-at --> N-ání		LINK ALREADY PRESENT
+
+kysaný	kysání	A-ý --> N-í	CHANGE: a -> á	
+kysat	kysání	V-at --> N-ání		LINK ALREADY PRESENT
+
+kýchaný	kýchání	A-ý --> N-í	CHANGE: a -> á	
+kýchat	kýchání	V-at --> N-ání		LINK ALREADY PRESENT
+
+křesaný	křesání	A-ý --> N-í	CHANGE: a -> á	
+křesat	křesání	V-at --> N-ání		LINK ALREADY PRESENT
+
+lapaný	lapání	A-ý --> N-í	CHANGE: a -> á	
+lapat	lapání	V-at --> N-ání		LINK ALREADY PRESENT
+
+lechtaný	lechtání	A-ý --> N-í	CHANGE: a -> á	
+lechtat	lechtání	V-at --> N-ání		LINK ALREADY PRESENT
+
+leptaný	leptání	A-ý --> N-í	CHANGE: a -> á	
+leptat	leptání	V-at --> N-ání		LINK ALREADY PRESENT
+
+létaný	létání	A-ý --> N-í	CHANGE: a -> á	
+létat	létání	V-at --> N-ání		LINK ALREADY PRESENT
+
+líbaný	líbání	A-ý --> N-í	CHANGE: a -> á	
+líbat	líbání	V-at --> N-ání		LINK ALREADY PRESENT
+
+makaný	makání	A-ý --> N-í	CHANGE: a -> á	
+makat	makání	V-at --> N-ání		LINK ALREADY PRESENT
+
+mazaný	mazání	A-ý --> N-í	CHANGE: a -> á	
+mazat	mazání	V-at --> N-ání		
+mazat	mazání	V-at --> N-ání		LINK ALREADY PRESENT
+
+mlaskaný	mlaskání	A-ý --> N-í	CHANGE: a -> á	
+mlaskat	mlaskání	V-at --> N-ání		LINK ALREADY PRESENT
+
+mrkaný	mrkání	A-ý --> N-í	CHANGE: a -> á	
+mrkat	mrkání	V-at --> N-ání		LINK ALREADY PRESENT
+
+mrskaný	mrskání	A-ý --> N-í	CHANGE: a -> á	
+mrskat	mrskání	V-at --> N-ání		LINK ALREADY PRESENT
+
+muchlaný	muchlání	A-ý --> N-í	CHANGE: a -> á	
+muchlat	muchlání	V-at --> N-ání		LINK ALREADY PRESENT
+
+mumlaný	mumlání	A-ý --> N-í	CHANGE: a -> á	
+mumlat	mumlání	V-at --> N-ání		LINK ALREADY PRESENT
+
+mykaný	mykání	A-ý --> N-í	CHANGE: a -> á	
+mykat	mykání	V-at --> N-ání		LINK ALREADY PRESENT
+
+městnaný	městnání	A-ý --> N-í	CHANGE: a -> á	
+městnat	městnání	V-at --> N-ání		LINK ALREADY PRESENT
+
+nabouraný	nabourání	A-ý --> N-í	CHANGE: a -> á	
+nabourat	nabourání	V-at --> N-ání		LINK ALREADY PRESENT
+
+nabraný	nabrání	A-ý --> N-í	CHANGE: a -> á	
+nabrat	nabrání	V-at --> N-ání		LINK ALREADY PRESENT
+
+nabíraný	nabírání	A-ý --> N-í	CHANGE: a -> á	
+nabírat	nabírání	V-at --> N-ání		LINK ALREADY PRESENT
+
+nabývaný	nabývání	A-ý --> N-í	CHANGE: a -> á	
+nabývat	nabývání	V-at --> N-ání		LINK ALREADY PRESENT
+
+nachytaný	nachytání	A-ý --> N-í	CHANGE: a -> á	
+nachytat	nachytání	V-at --> N-ání		LINK ALREADY PRESENT
+
+nacpaný	nacpání	A-ý --> N-í	CHANGE: a -> á	
+nacpat	nacpání	V-at --> N-ání		
+nacpat	nacpání	V-at --> N-ání		LINK ALREADY PRESENT
+
+nadepsaný	nadepsání	A-ý --> N-í	CHANGE: a -> á	
+nadepsat	nadepsání	V-at --> N-ání		LINK ALREADY PRESENT
+
+nadouvaný	nadouvání	A-ý --> N-í	CHANGE: a -> á	
+nadouvat	nadouvání	V-at --> N-ání		LINK ALREADY PRESENT
+
+nadužívaný	nadužívání	A-ý --> N-í	CHANGE: a -> á	
+nadužívat	nadužívání	V-at --> N-ání		
+
+nadýchaný	nadýchání	A-ý --> N-í	CHANGE: a -> á	
+nadýchat	nadýchání	V-at --> N-ání		LINK ALREADY PRESENT
+
+nadělaný	nadělání	A-ý --> N-í	CHANGE: a -> á	
+nadělat	nadělání	V-at --> N-ání		LINK ALREADY PRESENT
+
+nahlodaný	nahlodání	A-ý --> N-í	CHANGE: a -> á	
+nahlodat	nahlodání	V-at --> N-ání		LINK ALREADY PRESENT
+
+najímaný	najímání	A-ý --> N-í	CHANGE: a -> á	
+najímat	najímání	V-at --> N-ání		LINK ALREADY PRESENT
+
+nakapaný	nakapání	A-ý --> N-í	CHANGE: a -> á	
+nakapat	nakapání	V-at --> N-ání		
+nakapat	nakapání	V-at --> N-ání		LINK ALREADY PRESENT
+
+naklepaný	naklepání	A-ý --> N-í	CHANGE: a -> á	
+naklepat	naklepání	V-at --> N-ání		
+naklepat	naklepání	V-at --> N-ání		LINK ALREADY PRESENT
+
+nakopaný	nakopání	A-ý --> N-í	CHANGE: a -> á	
+nakopat	nakopání	V-at --> N-ání		
+nakopat	nakopání	V-at --> N-ání		LINK ALREADY PRESENT
+
+naleptaný	naleptání	A-ý --> N-í	CHANGE: a -> á	
+naleptat	naleptání	V-at --> N-ání		LINK ALREADY PRESENT
+
+naléhaný	naléhání	A-ý --> N-í	CHANGE: a -> á	
+naléhat	naléhání	V-at --> N-ání		LINK ALREADY PRESENT
+
+nalévaný	nalévání	A-ý --> N-í	CHANGE: a -> á	
+nalévat	nalévání	V-at --> N-ání		LINK ALREADY PRESENT
+
+nalézaný	nalézání	A-ý --> N-í	CHANGE: a -> á	
+nalézat	nalézání	V-at --> N-ání		LINK ALREADY PRESENT
+
+namazaný	namazání	A-ý --> N-í	CHANGE: a -> á	
+namazat	namazání	V-at --> N-ání		
+namazat	namazání	V-at --> N-ání		LINK ALREADY PRESENT
+
+namačkaný	namačkání	A-ý --> N-í	CHANGE: a -> á	
+namačkat	namačkání	V-at --> N-ání		LINK ALREADY PRESENT
+
+namlouvaný	namlouvání	A-ý --> N-í	CHANGE: a -> á	
+namlouvat	namlouvání	V-at --> N-ání		LINK ALREADY PRESENT
+
+namotaný	namotání	A-ý --> N-í	CHANGE: a -> á	
+namotat	namotání	V-at --> N-ání		LINK ALREADY PRESENT
+
+namíchaný	namíchání	A-ý --> N-í	CHANGE: a -> á	
+namíchat	namíchání	V-at --> N-ání		LINK ALREADY PRESENT
+
+namítaný	namítání	A-ý --> N-í	CHANGE: a -> á	
+namítat	namítání	V-at --> N-ání		LINK ALREADY PRESENT
+
+napadaný	napadání	A-ý --> N-í	CHANGE: a -> á	
+napadat	napadání	V-at --> N-ání		LINK ALREADY PRESENT
+
+napsaný	napsání	A-ý --> N-í	CHANGE: a -> á	
+napsat	napsání	V-at --> N-ání		LINK ALREADY PRESENT
+
+napínaný	napínání	A-ý --> N-í	CHANGE: a -> á	
+napínat	napínání	V-at --> N-ání		LINK ALREADY PRESENT
+
+narovnaný	narovnání	A-ý --> N-í	CHANGE: a -> á	
+narovnat	narovnání	V-at --> N-ání		LINK ALREADY PRESENT
+
+nasbíraný	nasbírání	A-ý --> N-í	CHANGE: a -> á	
+nasbírat	nasbírání	V-at --> N-ání		LINK ALREADY PRESENT
+
+nasekaný	nasekání	A-ý --> N-í	CHANGE: a -> á	
+nasekat	nasekání	V-at --> N-ání		LINK ALREADY PRESENT
+
+nasmlouvaný	nasmlouvání	A-ý --> N-í	CHANGE: a -> á	
+nasmlouvat	nasmlouvání	V-at --> N-ání		LINK ALREADY PRESENT
+
+nasraný	nasrání	A-ý --> N-í	CHANGE: a -> á	
+nasrat	nasrání	V-at --> N-ání		LINK ALREADY PRESENT
+
+nastrouhaný	nastrouhání	A-ý --> N-í	CHANGE: a -> á	
+nastrouhat	nastrouhání	V-at --> N-ání		LINK ALREADY PRESENT
+
+nastříhaný	nastříhání	A-ý --> N-í	CHANGE: a -> á	
+nastříhat	nastříhání	V-at --> N-ání		LINK ALREADY PRESENT
+
+nastříkaný	nastříkání	A-ý --> N-í	CHANGE: a -> á	
+nastříkat	nastříkání	V-at --> N-ání		LINK ALREADY PRESENT
+
+nasypaný	nasypání	A-ý --> N-í	CHANGE: a -> á	
+nasypat	nasypání	V-at --> N-ání		
+nasypat	nasypání	V-at --> N-ání		LINK ALREADY PRESENT
+
+natíraný	natírání	A-ý --> N-í	CHANGE: a -> á	
+natírat	natírání	V-at --> N-ání		LINK ALREADY PRESENT
+
+navrtaný	navrtání	A-ý --> N-í	CHANGE: a -> á	
+navrtat	navrtání	V-at --> N-ání		LINK ALREADY PRESENT
+
+nazvaný	nazvání	A-ý --> N-í	CHANGE: a -> á	
+nazvat	nazvání	V-at --> N-ání		LINK ALREADY PRESENT
+
+nazíraný	nazírání	A-ý --> N-í	CHANGE: a -> á	
+nazírat	nazírání	V-at --> N-ání		LINK ALREADY PRESENT
+
+nazývaný	nazývání	A-ý --> N-í	CHANGE: a -> á	
+nazývat	nazývání	V-at --> N-ání		LINK ALREADY PRESENT
+
+načechraný	načechrání	A-ý --> N-í	CHANGE: a -> á	
+načechrat	načechrání	V-at --> N-ání		LINK ALREADY PRESENT
+
+načerpaný	načerpání	A-ý --> N-í	CHANGE: a -> á	
+načerpat	načerpání	V-at --> N-ání		LINK ALREADY PRESENT
+
+načítaný	načítání	A-ý --> N-í	CHANGE: a -> á	
+načítat	načítání	V-at --> N-ání		LINK ALREADY PRESENT
+
+nařezaný	nařezání	A-ý --> N-í	CHANGE: a -> á	
+nařezat	nařezání	V-at --> N-ání		
+nařezat	nařezání	V-at --> N-ání		LINK ALREADY PRESENT
+
+naříkaný	naříkání	A-ý --> N-í	CHANGE: a -> á	
+naříkat	naříkání	V-at --> N-ání		LINK ALREADY PRESENT
+
+naštvaný	naštvání	A-ý --> N-í	CHANGE: a -> á	
+naštvat	naštvání	V-at --> N-ání		LINK ALREADY PRESENT
+
+našívaný	našívání	A-ý --> N-í	CHANGE: a -> á	
+našívat	našívání	V-at --> N-ání		
+
+nechaný	nechání	A-ý --> N-í	CHANGE: a -> á	
+nechat	nechání	V-at --> N-ání		
+nechat	nechání	V-at --> N-ání		LINK ALREADY PRESENT
+
+nutkaný	nutkání	A-ý --> N-í	CHANGE: a -> á	
+nutkat	nutkání	V-at --> N-ání		LINK ALREADY PRESENT
+
+obeslaný	obeslání	A-ý --> N-í	CHANGE: a -> á	
+obeslat	obeslání	V-at --> N-ání		LINK ALREADY PRESENT
+
+objednaný	objednání	A-ý --> N-í	CHANGE: a -> á	
+objednat	objednání	V-at --> N-ání		LINK ALREADY PRESENT
+
+objímaný	objímání	A-ý --> N-í	CHANGE: a -> á	
+objímat	objímání	V-at --> N-ání		LINK ALREADY PRESENT
+
+obléhaný	obléhání	A-ý --> N-í	CHANGE: a -> á	
+obléhat	obléhání	V-at --> N-ání		LINK ALREADY PRESENT
+
+oblékaný	oblékání	A-ý --> N-í	CHANGE: a -> á	
+oblékat	oblékání	V-at --> N-ání		LINK ALREADY PRESENT
+
+obstaraný	obstarání	A-ý --> N-í	CHANGE: a -> á	
+obstarat	obstarání	V-at --> N-ání		LINK ALREADY PRESENT
+
+obsypaný	obsypání	A-ý --> N-í	CHANGE: a -> á	
+obsypat	obsypání	V-at --> N-ání		
+obsypat	obsypání	V-at --> N-ání		LINK ALREADY PRESENT
+
+obtékaný	obtékání	A-ý --> N-í	CHANGE: a -> á	
+obtékat	obtékání	V-at --> N-ání		LINK ALREADY PRESENT
+
+obtěžkaný	obtěžkání	A-ý --> N-í	CHANGE: a -> á	
+obtěžkat	obtěžkání	V-at --> N-ání		LINK ALREADY PRESENT
+
+obíhaný	obíhání	A-ý --> N-í	CHANGE: a -> á	
+obíhat	obíhání	V-at --> N-ání		LINK ALREADY PRESENT
+* oběhat	obíhání	V-at --> N-ání	CHANGE: ě -> í	
+
+obývaný	obývání	A-ý --> N-í	CHANGE: a -> á	
+obývat	obývání	V-at --> N-ání		LINK ALREADY PRESENT
+
+ochutnaný	ochutnání	A-ý --> N-í	CHANGE: a -> á	
+ochutnat	ochutnání	V-at --> N-ání		LINK ALREADY PRESENT
+
+odbouraný	odbourání	A-ý --> N-í	CHANGE: a -> á	
+odbourat	odbourání	V-at --> N-ání		LINK ALREADY PRESENT
+
+odbývaný	odbývání	A-ý --> N-í	CHANGE: a -> á	
+odbývat	odbývání	V-at --> N-ání		LINK ALREADY PRESENT
+
+oddaný	oddání	A-ý --> N-í	CHANGE: a -> á	
+oddat	oddání	V-at --> N-ání		
+
+oddělaný	oddělání	A-ý --> N-í	CHANGE: a -> á	
+oddělat	oddělání	V-at --> N-ání		LINK ALREADY PRESENT
+
+odebraný	odebrání	A-ý --> N-í	CHANGE: a -> á	
+odebrat	odebrání	V-at --> N-ání		
+odebrat	odebrání	V-at --> N-ání		LINK ALREADY PRESENT
+
+odebíraný	odebírání	A-ý --> N-í	CHANGE: a -> á	
+odebírat	odebírání	V-at --> N-ání		LINK ALREADY PRESENT
+
+odehnaný	odehnání	A-ý --> N-í	CHANGE: a -> á	
+odehnat	odehnání	V-at --> N-ání		LINK ALREADY PRESENT
+
+odemykaný	odemykání	A-ý --> N-í	CHANGE: a -> á	
+odemykat	odemykání	V-at --> N-ání		LINK ALREADY PRESENT
+
+odepsaný	odepsání	A-ý --> N-í	CHANGE: a -> á	
+odepsat	odepsání	V-at --> N-ání		LINK ALREADY PRESENT
+
+odeslaný	odeslání	A-ý --> N-í	CHANGE: a -> á	
+odeslat	odeslání	V-at --> N-ání		LINK ALREADY PRESENT
+
+odesílaný	odesílání	A-ý --> N-í	CHANGE: a -> á	
+odesílat	odesílání	V-at --> N-ání		LINK ALREADY PRESENT
+
+odevzdaný	odevzdání	A-ý --> N-í	CHANGE: a -> á	
+odevzdat	odevzdání	V-at --> N-ání		
+
+odečítaný	odečítání	A-ý --> N-í	CHANGE: a -> á	
+odečítat	odečítání	V-at --> N-ání		LINK ALREADY PRESENT
+
+odhodlaný	odhodlání	A-ý --> N-í	CHANGE: a -> á	
+odhodlat	odhodlání	V-at --> N-ání		LINK ALREADY PRESENT
+
+odkapaný	odkapání	A-ý --> N-í	CHANGE: a -> á	
+odkapat	odkapání	V-at --> N-ání		
+odkapat	odkapání	V-at --> N-ání		LINK ALREADY PRESENT
+
+odkopaný	odkopání	A-ý --> N-í	CHANGE: a -> á	
+odkopat	odkopání	V-at --> N-ání		LINK ALREADY PRESENT
+
+* odmetat	odmítání	V-at --> N-ání	CHANGE: e -> í	
+odmítaný	odmítání	A-ý --> N-í	CHANGE: a -> á	
+odmítat	odmítání	V-at --> N-ání		LINK ALREADY PRESENT
+
+odposlouchaný	odposlouchání	A-ý --> N-í	CHANGE: a -> á	
+odposlouchat	odposlouchání	V-at --> N-ání		LINK ALREADY PRESENT
+
+odpoutaný	odpoutání	A-ý --> N-í	CHANGE: a -> á	
+odpoutat	odpoutání	V-at --> N-ání		LINK ALREADY PRESENT
+
+odpočítaný	odpočítání	A-ý --> N-í	CHANGE: a -> á	
+odpočítat	odpočítání	V-at --> N-ání		LINK ALREADY PRESENT
+
+odpíraný	odpírání	A-ý --> N-í	CHANGE: a -> á	
+odpírat	odpírání	V-at --> N-ání		LINK ALREADY PRESENT
+
+odpískaný	odpískání	A-ý --> N-í	CHANGE: a -> á	
+odpískat	odpískání	V-at --> N-ání		LINK ALREADY PRESENT
+
+odrovnaný	odrovnání	A-ý --> N-í	CHANGE: a -> á	
+odrovnat	odrovnání	V-at --> N-ání		LINK ALREADY PRESENT
+
+odsedlaný	odsedlání	A-ý --> N-í	CHANGE: a -> á	
+odsedlat	odsedlání	V-at --> N-ání		LINK ALREADY PRESENT
+
+odsouvaný	odsouvání	A-ý --> N-í	CHANGE: a -> á	
+odsouvat	odsouvání	V-at --> N-ání		LINK ALREADY PRESENT
+
+odtahaný	odtahání	A-ý --> N-í	CHANGE: a -> á	
+odtahat	odtahání	V-at --> N-ání		LINK ALREADY PRESENT
+
+odvolaný	odvolání	A-ý --> N-í	CHANGE: a -> á	
+odvolat	odvolání	V-at --> N-ání		
+
+odvysílaný	odvysílání	A-ý --> N-í	CHANGE: a -> á	
+odvysílat	odvysílání	V-at --> N-ání		LINK ALREADY PRESENT
+
+odvětraný	odvětrání	A-ý --> N-í	CHANGE: a -> á	
+odvětrat	odvětrání	V-at --> N-ání		LINK ALREADY PRESENT
+
+odíraný	odírání	A-ý --> N-í	CHANGE: a -> á	
+odírat	odírání	V-at --> N-ání		LINK ALREADY PRESENT
+
+odčerpaný	odčerpání	A-ý --> N-í	CHANGE: a -> á	
+odčerpat	odčerpání	V-at --> N-ání		LINK ALREADY PRESENT
+
+odčítaný	odčítání	A-ý --> N-í	CHANGE: a -> á	
+odčítat	odčítání	V-at --> N-ání		LINK ALREADY PRESENT
+
+odřezaný	odřezání	A-ý --> N-í	CHANGE: a -> á	
+odřezat	odřezání	V-at --> N-ání		
+odřezat	odřezání	V-at --> N-ání		LINK ALREADY PRESENT
+
+odříkaný	odříkání	A-ý --> N-í	CHANGE: a -> á	
+odříkat	odříkání	V-at --> N-ání		LINK ALREADY PRESENT
+
+* ohledat	ohlídání	V-at --> N-ání	CHANGE: e -> í	
+ohlídaný	ohlídání	A-ý --> N-í	CHANGE: a -> á	
+ohlídat	ohlídání	V-at --> N-ání		LINK ALREADY PRESENT
+
+ohýbaný	ohýbání	A-ý --> N-í	CHANGE: a -> á	
+ohýbat	ohýbání	V-at --> N-ání		LINK ALREADY PRESENT
+
+ohřívaný	ohřívání	A-ý --> N-í	CHANGE: a -> á	
+ohřívat	ohřívání	V-at --> N-ání		
+
+okapaný	okapání	A-ý --> N-í	CHANGE: a -> á	
+okapat	okapání	V-at --> N-ání		LINK ALREADY PRESENT
+
+oklamaný	oklamání	A-ý --> N-í	CHANGE: a -> á	
+oklamat	oklamání	V-at --> N-ání		LINK ALREADY PRESENT
+
+okopaný	okopání	A-ý --> N-í	CHANGE: a -> á	
+okopat	okopání	V-at --> N-ání		
+okopat	okopání	V-at --> N-ání		LINK ALREADY PRESENT
+
+oloupaný	oloupání	A-ý --> N-í	CHANGE: a -> á	
+oloupat	oloupání	V-at --> N-ání		
+oloupat	oloupání	V-at --> N-ání		LINK ALREADY PRESENT
+
+olízaný	olízání	A-ý --> N-í	CHANGE: a -> á	
+olízat	olízání	V-at --> N-ání		
+olízat	olízání	V-at --> N-ání		LINK ALREADY PRESENT
+
+ometaný	ometání	A-ý --> N-í	CHANGE: a -> á	
+ometat	ometání	V-at --> N-ání		LINK ALREADY PRESENT
+
+omotaný	omotání	A-ý --> N-í	CHANGE: a -> á	
+omotat	omotání	V-at --> N-ání		LINK ALREADY PRESENT
+
+omílaný	omílání	A-ý --> N-í	CHANGE: a -> á	
+omílat	omílání	V-at --> N-ání		LINK ALREADY PRESENT
+
+omývaný	omývání	A-ý --> N-í	CHANGE: a -> á	
+omývat	omývání	V-at --> N-ání		
+
+opadaný	opadání	A-ý --> N-í	CHANGE: a -> á	
+opadat	opadání	V-at --> N-ání		LINK ALREADY PRESENT
+
+oplétaný	oplétání	A-ý --> N-í	CHANGE: a -> á	
+oplétat	oplétání	V-at --> N-ání		LINK ALREADY PRESENT
+
+opraný	oprání	A-ý --> N-í	CHANGE: a -> á	
+oprat	oprání	V-at --> N-ání		LINK ALREADY PRESENT
+
+opékaný	opékání	A-ý --> N-í	CHANGE: a -> á	
+opékat	opékání	V-at --> N-ání		LINK ALREADY PRESENT
+
+* opékat	opíkání	V-at --> N-ání	CHANGE: é -> í	
+opíkaný	opíkání	A-ý --> N-í	CHANGE: a -> á	
+opíkat	opíkání	V-at --> N-ání		LINK ALREADY PRESENT
+
+oraný	orání	A-ý --> N-í	CHANGE: a -> á	
+orat	orání	V-at --> N-ání		
+orat	orání	V-at --> N-ání		LINK ALREADY PRESENT
+
+osedlaný	osedlání	A-ý --> N-í	CHANGE: a -> á	
+osedlat	osedlání	V-at --> N-ání		LINK ALREADY PRESENT
+
+osekaný	osekání	A-ý --> N-í	CHANGE: a -> á	
+osekat	osekání	V-at --> N-ání		LINK ALREADY PRESENT
+
+* ostřihat	ostříhání	V-at --> N-ání	CHANGE: i -> í	
+ostříhaný	ostříhání	A-ý --> N-í	CHANGE: a -> á	
+ostříhat	ostříhání	V-at --> N-ání		LINK ALREADY PRESENT
+
+osévaný	osévání	A-ý --> N-í	CHANGE: a -> á	
+osévat	osévání	V-at --> N-ání		LINK ALREADY PRESENT
+
+* osévat	osívání	V-at --> N-ání	CHANGE: é -> í	
+osívaný	osívání	A-ý --> N-í	CHANGE: a -> á	
+osívat	osívání	V-at --> N-ání		
+
+otevíraný	otevírání	A-ý --> N-í	CHANGE: a -> á	
+otevírat	otevírání	V-at --> N-ání		
+otevírat	otevírání	V-at --> N-ání		LINK ALREADY PRESENT
+
+otloukaný	otloukání	A-ý --> N-í	CHANGE: a -> á	
+otloukat	otloukání	V-at --> N-ání		LINK ALREADY PRESENT
+
+otvíraný	otvírání	A-ý --> N-í	CHANGE: a -> á	
+otvírat	otvírání	V-at --> N-ání		LINK ALREADY PRESENT
+
+otíraný	otírání	A-ý --> N-í	CHANGE: a -> á	
+otírat	otírání	V-at --> N-ání		LINK ALREADY PRESENT
+
+otřepaný	otřepání	A-ý --> N-í	CHANGE: a -> á	
+otřepat	otřepání	V-at --> N-ání		
+otřepat	otřepání	V-at --> N-ání		LINK ALREADY PRESENT
+
+ovívaný	ovívání	A-ý --> N-í	CHANGE: a -> á	
+ovívat	ovívání	V-at --> N-ání		
+
+očesaný	očesání	A-ý --> N-í	CHANGE: a -> á	
+očesat	očesání	V-at --> N-ání		
+očesat	očesání	V-at --> N-ání		LINK ALREADY PRESENT
+
+ořezaný	ořezání	A-ý --> N-í	CHANGE: a -> á	
+ořezat	ořezání	V-at --> N-ání		
+ořezat	ořezání	V-at --> N-ání		LINK ALREADY PRESENT
+
+oškrabaný	oškrabání	A-ý --> N-í	CHANGE: a -> á	
+oškrabat	oškrabání	V-at --> N-ání		LINK ALREADY PRESENT
+* oškrábat	oškrabání	V-at --> N-ání	CHANGE: á -> a	
+
+oškubaný	oškubání	A-ý --> N-í	CHANGE: a -> á	
+oškubat	oškubání	V-at --> N-ání		
+oškubat	oškubání	V-at --> N-ání		LINK ALREADY PRESENT
+
+ošoupaný	ošoupání	A-ý --> N-í	CHANGE: a -> á	
+ošoupat	ošoupání	V-at --> N-ání		
+ošoupat	ošoupání	V-at --> N-ání		LINK ALREADY PRESENT
+
+ošoustaný	ošoustání	A-ý --> N-í	CHANGE: a -> á	
+ošoustat	ošoustání	V-at --> N-ání		
+
+ošukaný	ošukání	A-ý --> N-í	CHANGE: a -> á	
+ošukat	ošukání	V-at --> N-ání		LINK ALREADY PRESENT
+
+ožraný	ožrání	A-ý --> N-í	CHANGE: a -> á	
+ožrat	ožrání	V-at --> N-ání		LINK ALREADY PRESENT
+
+padaný	padání	A-ý --> N-í	CHANGE: a -> á	
+padat	padání	V-at --> N-ání		LINK ALREADY PRESENT
+
+padělaný	padělání	A-ý --> N-í	CHANGE: a -> á	
+padělat	padělání	V-at --> N-ání		LINK ALREADY PRESENT
+
+pelichaný	pelichání	A-ý --> N-í	CHANGE: a -> á	
+pelichat	pelichání	V-at --> N-ání		LINK ALREADY PRESENT
+
+plavaný	plavání	A-ý --> N-í	CHANGE: a -> á	
+plavat	plavání	V-at --> N-ání		
+plavat	plavání	V-at --> N-ání		LINK ALREADY PRESENT
+
+plýtvaný	plýtvání	A-ý --> N-í	CHANGE: a -> á	
+plýtvat	plýtvání	V-at --> N-ání		LINK ALREADY PRESENT
+
+pobodaný	pobodání	A-ý --> N-í	CHANGE: a -> á	
+pobodat	pobodání	V-at --> N-ání		LINK ALREADY PRESENT
+
+pobíraný	pobírání	A-ý --> N-í	CHANGE: a -> á	
+pobírat	pobírání	V-at --> N-ání		LINK ALREADY PRESENT
+
+pochcaný	pochcání	A-ý --> N-í	CHANGE: a -> á	
+pochcat	pochcání	V-at --> N-ání		LINK ALREADY PRESENT
+
+pochroumaný	pochroumání	A-ý --> N-í	CHANGE: a -> á	
+pochroumat	pochroumání	V-at --> N-ání		LINK ALREADY PRESENT
+
+pochytaný	pochytání	A-ý --> N-í	CHANGE: a -> á	
+pochytat	pochytání	V-at --> N-ání		LINK ALREADY PRESENT
+
+pocuchaný	pocuchání	A-ý --> N-í	CHANGE: a -> á	
+pocuchat	pocuchání	V-at --> N-ání		LINK ALREADY PRESENT
+
+poddaný	poddání	A-ý --> N-í	CHANGE: a -> á	
+poddat	poddání	V-at --> N-ání		LINK ALREADY PRESENT
+
+podebraný	podebrání	A-ý --> N-í	CHANGE: a -> á	
+podebrat	podebrání	V-at --> N-ání		LINK ALREADY PRESENT
+
+podepsaný	podepsání	A-ý --> N-í	CHANGE: a -> á	
+podepsat	podepsání	V-at --> N-ání		LINK ALREADY PRESENT
+
+podepíraný	podepírání	A-ý --> N-í	CHANGE: a -> á	
+podepírat	podepírání	V-at --> N-ání		LINK ALREADY PRESENT
+
+podestlaný	podestlání	A-ý --> N-í	CHANGE: a -> á	
+podestlat	podestlání	V-at --> N-ání		LINK ALREADY PRESENT
+
+podezíraný	podezírání	A-ý --> N-í	CHANGE: a -> á	
+podezírat	podezírání	V-at --> N-ání		LINK ALREADY PRESENT
+
+podezřívaný	podezřívání	A-ý --> N-í	CHANGE: a -> á	
+podezřívat	podezřívání	V-at --> N-ání		LINK ALREADY PRESENT
+
+podkopaný	podkopání	A-ý --> N-í	CHANGE: a -> á	
+podkopat	podkopání	V-at --> N-ání		
+
+podlézaný	podlézání	A-ý --> N-í	CHANGE: a -> á	
+podlézat	podlézání	V-at --> N-ání		LINK ALREADY PRESENT
+
+podnikaný	podnikání	A-ý --> N-í	CHANGE: a -> á	
+podnikat	podnikání	V-at --> N-ání		LINK ALREADY PRESENT
+
+podrbaný	podrbání	A-ý --> N-í	CHANGE: a -> á	
+podrbat	podrbání	V-at --> N-ání		
+podrbat	podrbání	V-at --> N-ání		LINK ALREADY PRESENT
+
+podělaný	podělání	A-ý --> N-í	CHANGE: a -> á	
+podělat	podělání	V-at --> N-ání		LINK ALREADY PRESENT
+
+podřezaný	podřezání	A-ý --> N-í	CHANGE: a -> á	
+podřezat	podřezání	V-at --> N-ání		
+podřezat	podřezání	V-at --> N-ání		LINK ALREADY PRESENT
+
+pohnaný	pohnání	A-ý --> N-í	CHANGE: a -> á	
+pohnat	pohnání	V-at --> N-ání		LINK ALREADY PRESENT
+
+pohrdaný	pohrdání	A-ý --> N-í	CHANGE: a -> á	
+pohrdat	pohrdání	V-at --> N-ání		LINK ALREADY PRESENT
+
+pohřbívaný	pohřbívání	A-ý --> N-í	CHANGE: a -> á	
+pohřbívat	pohřbívání	V-at --> N-ání		
+
+pojednaný	pojednání	A-ý --> N-í	CHANGE: a -> á	
+pojednat	pojednání	V-at --> N-ání		LINK ALREADY PRESENT
+
+pojídaný	pojídání	A-ý --> N-í	CHANGE: a -> á	
+pojídat	pojídání	V-at --> N-ání		LINK ALREADY PRESENT
+
+pojímaný	pojímání	A-ý --> N-í	CHANGE: a -> á	
+pojímat	pojímání	V-at --> N-ání		LINK ALREADY PRESENT
+
+pokousaný	pokousání	A-ý --> N-í	CHANGE: a -> á	
+pokousat	pokousání	V-at --> N-ání		
+pokousat	pokousání	V-at --> N-ání		LINK ALREADY PRESENT
+
+pokrývaný	pokrývání	A-ý --> N-í	CHANGE: a -> á	
+pokrývat	pokrývání	V-at --> N-ání		LINK ALREADY PRESENT
+
+polechtaný	polechtání	A-ý --> N-í	CHANGE: a -> á	
+polechtat	polechtání	V-at --> N-ání		LINK ALREADY PRESENT
+
+polekaný	polekání	A-ý --> N-í	CHANGE: a -> á	
+polekat	polekání	V-at --> N-ání		LINK ALREADY PRESENT
+
+polykaný	polykání	A-ý --> N-í	CHANGE: a -> á	
+polykat	polykání	V-at --> N-ání		LINK ALREADY PRESENT
+
+pomazaný	pomazání	A-ý --> N-í	CHANGE: a -> á	
+pomazat	pomazání	V-at --> N-ání		
+pomazat	pomazání	V-at --> N-ání		LINK ALREADY PRESENT
+
+pomačkaný	pomačkání	A-ý --> N-í	CHANGE: a -> á	
+pomačkat	pomačkání	V-at --> N-ání		LINK ALREADY PRESENT
+
+ponechaný	ponechání	A-ý --> N-í	CHANGE: a -> á	
+ponechat	ponechání	V-at --> N-ání		
+ponechat	ponechání	V-at --> N-ání		LINK ALREADY PRESENT
+
+popraskaný	popraskání	A-ý --> N-í	CHANGE: a -> á	
+popraskat	popraskání	V-at --> N-ání		LINK ALREADY PRESENT
+
+popsaný	popsání	A-ý --> N-í	CHANGE: a -> á	
+popsat	popsání	V-at --> N-ání		LINK ALREADY PRESENT
+
+popukaný	popukání	A-ý --> N-í	CHANGE: a -> á	
+popukat	popukání	V-at --> N-ání		LINK ALREADY PRESENT
+
+popíchaný	popíchání	A-ý --> N-í	CHANGE: a -> á	
+popíchat	popíchání	V-at --> N-ání		LINK ALREADY PRESENT
+
+popíraný	popírání	A-ý --> N-í	CHANGE: a -> á	
+popírat	popírání	V-at --> N-ání		LINK ALREADY PRESENT
+
+porovnaný	porovnání	A-ý --> N-í	CHANGE: a -> á	
+porovnat	porovnání	V-at --> N-ání		LINK ALREADY PRESENT
+
+posbíraný	posbírání	A-ý --> N-í	CHANGE: a -> á	
+posbírat	posbírání	V-at --> N-ání		LINK ALREADY PRESENT
+
+posekaný	posekání	A-ý --> N-í	CHANGE: a -> á	
+posekat	posekání	V-at --> N-ání		LINK ALREADY PRESENT
+
+poslaný	poslání	A-ý --> N-í	CHANGE: a -> á	
+poslat	poslání	V-at --> N-ání		
+poslat	poslání	V-at --> N-ání		LINK ALREADY PRESENT
+
+poslouchaný	poslouchání	A-ý --> N-í	CHANGE: a -> á	
+poslouchat	poslouchání	V-at --> N-ání		LINK ALREADY PRESENT
+
+posouvaný	posouvání	A-ý --> N-í	CHANGE: a -> á	
+posouvat	posouvání	V-at --> N-ání		LINK ALREADY PRESENT
+
+pospaný	pospání	A-ý --> N-í	CHANGE: a -> á	
+pospat	pospání	V-at --> N-ání		LINK ALREADY PRESENT
+
+posraný	posrání	A-ý --> N-í	CHANGE: a -> á	
+posrat	posrání	V-at --> N-ání		LINK ALREADY PRESENT
+
+postaraný	postarání	A-ý --> N-í	CHANGE: a -> á	
+postarat	postarání	V-at --> N-ání		LINK ALREADY PRESENT
+
+postříkaný	postříkání	A-ý --> N-í	CHANGE: a -> á	
+postříkat	postříkání	V-at --> N-ání		LINK ALREADY PRESENT
+
+posypaný	posypání	A-ý --> N-í	CHANGE: a -> á	
+posypat	posypání	V-at --> N-ání		
+posypat	posypání	V-at --> N-ání		LINK ALREADY PRESENT
+
+potrestaný	potrestání	A-ý --> N-í	CHANGE: a -> á	
+potrestat	potrestání	V-at --> N-ání		LINK ALREADY PRESENT
+
+potrhaný	potrhání	A-ý --> N-í	CHANGE: a -> á	
+potrhat	potrhání	V-at --> N-ání		LINK ALREADY PRESENT
+
+potíraný	potírání	A-ý --> N-í	CHANGE: a -> á	
+potírat	potírání	V-at --> N-ání		
+potírat	potírání	V-at --> N-ání		LINK ALREADY PRESENT
+
+používaný	používání	A-ý --> N-í	CHANGE: a -> á	
+používat	používání	V-at --> N-ání		
+
+povolaný	povolání	A-ý --> N-í	CHANGE: a -> á	
+povolat	povolání	V-at --> N-ání		LINK ALREADY PRESENT
+
+povídaný	povídání	A-ý --> N-í	CHANGE: a -> á	
+povídat	povídání	V-at --> N-ání		
+povídat	povídání	V-at --> N-ání		LINK ALREADY PRESENT
+
+pozatýkaný	pozatýkání	A-ý --> N-í	CHANGE: a -> á	
+pozatýkat	pozatýkání	V-at --> N-ání		LINK ALREADY PRESENT
+
+pozbývaný	pozbývání	A-ý --> N-í	CHANGE: a -> á	
+pozbývat	pozbývání	V-at --> N-ání		LINK ALREADY PRESENT
+
+poznamenaný	poznamenání	A-ý --> N-í	CHANGE: a -> á	
+poznamenat	poznamenání	V-at --> N-ání		LINK ALREADY PRESENT
+
+poznaný	poznání	A-ý --> N-í	CHANGE: a -> á	
+poznat	poznání	V-at --> N-ání		LINK ALREADY PRESENT
+
+pozvaný	pozvání	A-ý --> N-í	CHANGE: a -> á	
+pozvat	pozvání	V-at --> N-ání		LINK ALREADY PRESENT
+
+pozvedaný	pozvedání	A-ý --> N-í	CHANGE: a -> á	
+pozvedat	pozvedání	V-at --> N-ání		LINK ALREADY PRESENT
+
+počuraný	počurání	A-ý --> N-í	CHANGE: a -> á	
+počurat	počurání	V-at --> N-ání		LINK ALREADY PRESENT
+
+počínaný	počínání	A-ý --> N-í	CHANGE: a -> á	
+počínat	počínání	V-at --> N-ání		LINK ALREADY PRESENT
+
+počítaný	počítání	A-ý --> N-í	CHANGE: a -> á	
+počítat	počítání	V-at --> N-ání		LINK ALREADY PRESENT
+
+počůraný	počůrání	A-ý --> N-í	CHANGE: a -> á	
+počůrat	počůrání	V-at --> N-ání		LINK ALREADY PRESENT
+
+pořezaný	pořezání	A-ý --> N-í	CHANGE: a -> á	
+pořezat	pořezání	V-at --> N-ání		
+pořezat	pořezání	V-at --> N-ání		LINK ALREADY PRESENT
+
+poškrabaný	poškrabání	A-ý --> N-í	CHANGE: a -> á	
+poškrabat	poškrabání	V-at --> N-ání		
+poškrabat	poškrabání	V-at --> N-ání		LINK ALREADY PRESENT
+* poškrábat	poškrabání	V-at --> N-ání	CHANGE: á -> a	
+
+pošlapaný	pošlapání	A-ý --> N-í	CHANGE: a -> á	
+pošlapat	pošlapání	V-at --> N-ání		
+pošlapat	pošlapání	V-at --> N-ání		LINK ALREADY PRESENT
+
+poštvaný	poštvání	A-ý --> N-í	CHANGE: a -> á	
+poštvat	poštvání	V-at --> N-ání		LINK ALREADY PRESENT
+
+poštípaný	poštípání	A-ý --> N-í	CHANGE: a -> á	
+poštípat	poštípání	V-at --> N-ání		
+poštípat	poštípání	V-at --> N-ání		LINK ALREADY PRESENT
+
+požehnaný	požehnání	A-ý --> N-í	CHANGE: a -> á	
+požehnat	požehnání	V-at --> N-ání		LINK ALREADY PRESENT
+
+požíraný	požírání	A-ý --> N-í	CHANGE: a -> á	
+požírat	požírání	V-at --> N-ání		LINK ALREADY PRESENT
+
+požívaný	požívání	A-ý --> N-í	CHANGE: a -> á	
+požívat	požívání	V-at --> N-ání		
+
+praskaný	praskání	A-ý --> N-í	CHANGE: a -> á	
+praskat	praskání	V-at --> N-ání		LINK ALREADY PRESENT
+* práskat	praskání	V-at --> N-ání	CHANGE: á -> a	
+
+probouraný	probourání	A-ý --> N-í	CHANGE: a -> á	
+probourat	probourání	V-at --> N-ání		LINK ALREADY PRESENT
+
+probraný	probrání	A-ý --> N-í	CHANGE: a -> á	
+probrat	probrání	V-at --> N-ání		LINK ALREADY PRESENT
+
+probíraný	probírání	A-ý --> N-í	CHANGE: a -> á	
+probírat	probírání	V-at --> N-ání		LINK ALREADY PRESENT
+
+proclívaný	proclívání	A-ý --> N-í	CHANGE: a -> á	
+proclívat	proclívání	V-at --> N-ání		
+
+prodaný	prodání	A-ý --> N-í	CHANGE: a -> á	
+prodat	prodání	V-at --> N-ání		LINK ALREADY PRESENT
+
+prodělaný	prodělání	A-ý --> N-í	CHANGE: a -> á	
+prodělat	prodělání	V-at --> N-ání		LINK ALREADY PRESENT
+
+prohledaný	prohledání	A-ý --> N-í	CHANGE: a -> á	
+prohledat	prohledání	V-at --> N-ání		LINK ALREADY PRESENT
+* prohlédat	prohledání	V-at --> N-ání	CHANGE: é -> e	
+
+prohrabaný	prohrabání	A-ý --> N-í	CHANGE: a -> á	
+prohrabat	prohrabání	V-at --> N-ání		LINK ALREADY PRESENT
+
+prohýbaný	prohýbání	A-ý --> N-í	CHANGE: a -> á	
+prohýbat	prohýbání	V-at --> N-ání		LINK ALREADY PRESENT
+
+projednaný	projednání	A-ý --> N-í	CHANGE: a -> á	
+projednat	projednání	V-at --> N-ání		
+projednat	projednání	V-at --> N-ání		LINK ALREADY PRESENT
+
+proklínaný	proklínání	A-ý --> N-í	CHANGE: a -> á	
+proklínat	proklínání	V-at --> N-ání		LINK ALREADY PRESENT
+
+prokopaný	prokopání	A-ý --> N-í	CHANGE: a -> á	
+prokopat	prokopání	V-at --> N-ání		
+prokopat	prokopání	V-at --> N-ání		LINK ALREADY PRESENT
+
+prolévaný	prolévání	A-ý --> N-í	CHANGE: a -> á	
+prolévat	prolévání	V-at --> N-ání		LINK ALREADY PRESENT
+
+prolínaný	prolínání	A-ý --> N-í	CHANGE: a -> á	
+prolínat	prolínání	V-at --> N-ání		LINK ALREADY PRESENT
+
+promazaný	promazání	A-ý --> N-í	CHANGE: a -> á	
+promazat	promazání	V-at --> N-ání		
+promazat	promazání	V-at --> N-ání		LINK ALREADY PRESENT
+
+* prometat	promítání	V-at --> N-ání	CHANGE: e -> í	
+promítaný	promítání	A-ý --> N-í	CHANGE: a -> á	
+promítat	promítání	V-at --> N-ání		LINK ALREADY PRESENT
+
+promeškaný	promeškání	A-ý --> N-í	CHANGE: a -> á	
+promeškat	promeškání	V-at --> N-ání		LINK ALREADY PRESENT
+
+promrhaný	promrhání	A-ý --> N-í	CHANGE: a -> á	
+promrhat	promrhání	V-at --> N-ání		LINK ALREADY PRESENT
+
+promíchaný	promíchání	A-ý --> N-í	CHANGE: a -> á	
+promíchat	promíchání	V-at --> N-ání		LINK ALREADY PRESENT
+
+pronajímaný	pronajímání	A-ý --> N-í	CHANGE: a -> á	
+pronajímat	pronajímání	V-at --> N-ání		LINK ALREADY PRESENT
+
+propadaný	propadání	A-ý --> N-í	CHANGE: a -> á	
+propadat	propadání	V-at --> N-ání		LINK ALREADY PRESENT
+
+proplétaný	proplétání	A-ý --> N-í	CHANGE: a -> á	
+proplétat	proplétání	V-at --> N-ání		LINK ALREADY PRESENT
+
+proplýtvaný	proplýtvání	A-ý --> N-í	CHANGE: a -> á	
+proplýtvat	proplýtvání	V-at --> N-ání		LINK ALREADY PRESENT
+
+propočítaný	propočítání	A-ý --> N-í	CHANGE: a -> á	
+propočítat	propočítání	V-at --> N-ání		LINK ALREADY PRESENT
+
+propíchaný	propíchání	A-ý --> N-í	CHANGE: a -> á	
+propíchat	propíchání	V-at --> N-ání		LINK ALREADY PRESENT
+
+propíraný	propírání	A-ý --> N-í	CHANGE: a -> á	
+propírat	propírání	V-at --> N-ání		LINK ALREADY PRESENT
+
+prosekaný	prosekání	A-ý --> N-í	CHANGE: a -> á	
+prosekat	prosekání	V-at --> N-ání		LINK ALREADY PRESENT
+
+prospaný	prospání	A-ý --> N-í	CHANGE: a -> á	
+prospat	prospání	V-at --> N-ání		LINK ALREADY PRESENT
+
+prostřídaný	prostřídání	A-ý --> N-í	CHANGE: a -> á	
+prostřídat	prostřídání	V-at --> N-ání		LINK ALREADY PRESENT
+
+prosypaný	prosypání	A-ý --> N-í	CHANGE: a -> á	
+prosypat	prosypání	V-at --> N-ání		
+prosypat	prosypání	V-at --> N-ání		LINK ALREADY PRESENT
+
+prosévaný	prosévání	A-ý --> N-í	CHANGE: a -> á	
+prosévat	prosévání	V-at --> N-ání		LINK ALREADY PRESENT
+
+* prosévat	prosívání	V-at --> N-ání	CHANGE: é -> í	
+prosívaný	prosívání	A-ý --> N-í	CHANGE: a -> á	
+prosívat	prosívání	V-at --> N-ání		
+
+* prosívat	prošívání	V-at --> N-ání	CHANGE: s -> š	
+prošívaný	prošívání	A-ý --> N-í	CHANGE: a -> á	
+prošívat	prošívání	V-at --> N-ání		
+
+protkaný	protkání	A-ý --> N-í	CHANGE: a -> á	
+protkat	protkání	V-at --> N-ání		LINK ALREADY PRESENT
+
+protrhaný	protrhání	A-ý --> N-í	CHANGE: a -> á	
+protrhat	protrhání	V-at --> N-ání		LINK ALREADY PRESENT
+
+protékaný	protékání	A-ý --> N-í	CHANGE: a -> á	
+protékat	protékání	V-at --> N-ání		LINK ALREADY PRESENT
+
+protínaný	protínání	A-ý --> N-í	CHANGE: a -> á	
+protínat	protínání	V-at --> N-ání		LINK ALREADY PRESENT
+
+protřepaný	protřepání	A-ý --> N-í	CHANGE: a -> á	
+protřepat	protřepání	V-at --> N-ání		
+protřepat	protřepání	V-at --> N-ání		LINK ALREADY PRESENT
+
+provdaný	provdání	A-ý --> N-í	CHANGE: a -> á	
+provdat	provdání	V-at --> N-ání		LINK ALREADY PRESENT
+
+provolaný	provolání	A-ý --> N-í	CHANGE: a -> á	
+provolat	provolání	V-at --> N-ání		LINK ALREADY PRESENT
+
+provrtaný	provrtání	A-ý --> N-í	CHANGE: a -> á	
+provrtat	provrtání	V-at --> N-ání		LINK ALREADY PRESENT
+
+provětraný	provětrání	A-ý --> N-í	CHANGE: a -> á	
+provětrat	provětrání	V-at --> N-ání		LINK ALREADY PRESENT
+
+prozkoumaný	prozkoumání	A-ý --> N-í	CHANGE: a -> á	
+prozkoumat	prozkoumání	V-at --> N-ání		LINK ALREADY PRESENT
+
+* prozívat	prožívání	V-at --> N-ání	CHANGE: z -> ž	
+prožívaný	prožívání	A-ý --> N-í	CHANGE: a -> á	
+prožívat	prožívání	V-at --> N-ání		
+
+pročesaný	pročesání	A-ý --> N-í	CHANGE: a -> á	
+pročesat	pročesání	V-at --> N-ání		
+pročesat	pročesání	V-at --> N-ání		LINK ALREADY PRESENT
+
+pročítaný	pročítání	A-ý --> N-í	CHANGE: a -> á	
+pročítat	pročítání	V-at --> N-ání		LINK ALREADY PRESENT
+
+prořezaný	prořezání	A-ý --> N-í	CHANGE: a -> á	
+prořezat	prořezání	V-at --> N-ání		
+prořezat	prořezání	V-at --> N-ání		LINK ALREADY PRESENT
+
+píchaný	píchání	A-ý --> N-í	CHANGE: a -> á	
+píchat	píchání	V-at --> N-ání		LINK ALREADY PRESENT
+
+pískaný	pískání	A-ý --> N-í	CHANGE: a -> á	
+pískat	pískání	V-at --> N-ání		LINK ALREADY PRESENT
+
+přebraný	přebrání	A-ý --> N-í	CHANGE: a -> á	
+přebrat	přebrání	V-at --> N-ání		LINK ALREADY PRESENT
+
+přebíraný	přebírání	A-ý --> N-í	CHANGE: a -> á	
+přebírat	přebírání	V-at --> N-ání		LINK ALREADY PRESENT
+
+přecpaný	přecpání	A-ý --> N-í	CHANGE: a -> á	
+přecpat	přecpání	V-at --> N-ání		LINK ALREADY PRESENT
+
+předaný	předání	A-ý --> N-í	CHANGE: a -> á	
+předat	předání	V-at --> N-ání		
+
+předehřívaný	předehřívání	A-ý --> N-í	CHANGE: a -> á	
+předehřívat	předehřívání	V-at --> N-ání		
+
+předepsaný	předepsání	A-ý --> N-í	CHANGE: a -> á	
+předepsat	předepsání	V-at --> N-ání		LINK ALREADY PRESENT
+
+předestíraný	předestírání	A-ý --> N-í	CHANGE: a -> á	
+předestírat	předestírání	V-at --> N-ání		LINK ALREADY PRESENT
+
+předjímaný	předjímání	A-ý --> N-í	CHANGE: a -> á	
+předjímat	předjímání	V-at --> N-ání		LINK ALREADY PRESENT
+
+předpovídaný	předpovídání	A-ý --> N-í	CHANGE: a -> á	
+předpovídat	předpovídání	V-at --> N-ání		LINK ALREADY PRESENT
+
+předvolaný	předvolání	A-ý --> N-í	CHANGE: a -> á	
+předvolat	předvolání	V-at --> N-ání		LINK ALREADY PRESENT
+
+předvrtaný	předvrtání	A-ý --> N-í	CHANGE: a -> á	
+předvrtat	předvrtání	V-at --> N-ání		LINK ALREADY PRESENT
+
+předvídaný	předvídání	A-ý --> N-í	CHANGE: a -> á	
+předvídat	předvídání	V-at --> N-ání		LINK ALREADY PRESENT
+
+předznamenaný	předznamenání	A-ý --> N-í	CHANGE: a -> á	
+předznamenat	předznamenání	V-at --> N-ání		LINK ALREADY PRESENT
+
+předčítaný	předčítání	A-ý --> N-í	CHANGE: a -> á	
+předčítat	předčítání	V-at --> N-ání		LINK ALREADY PRESENT
+
+předělaný	předělání	A-ý --> N-í	CHANGE: a -> á	
+předělat	předělání	V-at --> N-ání		LINK ALREADY PRESENT
+
+přehnaný	přehnání	A-ý --> N-í	CHANGE: a -> á	
+přehnat	přehnání	V-at --> N-ání		LINK ALREADY PRESENT
+
+přehýbaný	přehýbání	A-ý --> N-í	CHANGE: a -> á	
+přehýbat	přehýbání	V-at --> N-ání		LINK ALREADY PRESENT
+
+přehřívaný	přehřívání	A-ý --> N-í	CHANGE: a -> á	
+přehřívat	přehřívání	V-at --> N-ání		
+
+přejímaný	přejímání	A-ý --> N-í	CHANGE: a -> á	
+přejímat	přejímání	V-at --> N-ání		LINK ALREADY PRESENT
+
+překonaný	překonání	A-ý --> N-í	CHANGE: a -> á	
+překonat	překonání	V-at --> N-ání		LINK ALREADY PRESENT
+
+překrývaný	překrývání	A-ý --> N-í	CHANGE: a -> á	
+překrývat	překrývání	V-at --> N-ání		LINK ALREADY PRESENT
+
+přenechaný	přenechání	A-ý --> N-í	CHANGE: a -> á	
+přenechat	přenechání	V-at --> N-ání		LINK ALREADY PRESENT
+
+přeoraný	přeorání	A-ý --> N-í	CHANGE: a -> á	
+přeorat	přeorání	V-at --> N-ání		LINK ALREADY PRESENT
+
+přepočítaný	přepočítání	A-ý --> N-í	CHANGE: a -> á	
+přepočítat	přepočítání	V-at --> N-ání		
+
+přepsaný	přepsání	A-ý --> N-í	CHANGE: a -> á	
+přepsat	přepsání	V-at --> N-ání		LINK ALREADY PRESENT
+
+přepínaný	přepínání	A-ý --> N-í	CHANGE: a -> á	
+přepínat	přepínání	V-at --> N-ání		LINK ALREADY PRESENT
+
+přerývaný	přerývání	A-ý --> N-í	CHANGE: a -> á	
+přerývat	přerývání	V-at --> N-ání		LINK ALREADY PRESENT
+
+přesouvaný	přesouvání	A-ý --> N-í	CHANGE: a -> á	
+přesouvat	přesouvání	V-at --> N-ání		LINK ALREADY PRESENT
+
+přespaný	přespání	A-ý --> N-í	CHANGE: a -> á	
+přespat	přespání	V-at --> N-ání		LINK ALREADY PRESENT
+
+přestříkaný	přestříkání	A-ý --> N-í	CHANGE: a -> á	
+přestříkat	přestříkání	V-at --> N-ání		LINK ALREADY PRESENT
+
+přesypaný	přesypání	A-ý --> N-í	CHANGE: a -> á	
+přesypat	přesypání	V-at --> N-ání		
+přesypat	přesypání	V-at --> N-ání		LINK ALREADY PRESENT
+* přesýpat	přesypání	V-at --> N-ání	CHANGE: ý -> y	
+
+* přesypat	přesýpání	V-at --> N-ání	CHANGE: y -> ý	
+přesýpaný	přesýpání	A-ý --> N-í	CHANGE: a -> á	
+přesýpat	přesýpání	V-at --> N-ání		LINK ALREADY PRESENT
+
+přetrhaný	přetrhání	A-ý --> N-í	CHANGE: a -> á	
+přetrhat	přetrhání	V-at --> N-ání		LINK ALREADY PRESENT
+
+přezkoumaný	přezkoumání	A-ý --> N-í	CHANGE: a -> á	
+přezkoumat	přezkoumání	V-at --> N-ání		
+přezkoumat	přezkoumání	V-at --> N-ání		LINK ALREADY PRESENT
+
+přezíraný	přezírání	A-ý --> N-í	CHANGE: a -> á	
+přezírat	přezírání	V-at --> N-ání		LINK ALREADY PRESENT
+
+přečerpaný	přečerpání	A-ý --> N-í	CHANGE: a -> á	
+přečerpat	přečerpání	V-at --> N-ání		LINK ALREADY PRESENT
+
+přeřezaný	přeřezání	A-ý --> N-í	CHANGE: a -> á	
+přeřezat	přeřezání	V-at --> N-ání		
+přeřezat	přeřezání	V-at --> N-ání		LINK ALREADY PRESENT
+
+přežvýkaný	přežvýkání	A-ý --> N-í	CHANGE: a -> á	
+přežvýkat	přežvýkání	V-at --> N-ání		LINK ALREADY PRESENT
+
+přibraný	přibrání	A-ý --> N-í	CHANGE: a -> á	
+přibrat	přibrání	V-at --> N-ání		LINK ALREADY PRESENT
+
+přibíraný	přibírání	A-ý --> N-í	CHANGE: a -> á	
+přibírat	přibírání	V-at --> N-ání		LINK ALREADY PRESENT
+
+přibývaný	přibývání	A-ý --> N-í	CHANGE: a -> á	
+přibývat	přibývání	V-at --> N-ání		LINK ALREADY PRESENT
+
+přichystaný	přichystání	A-ý --> N-í	CHANGE: a -> á	
+přichystat	přichystání	V-at --> N-ání		LINK ALREADY PRESENT
+
+přidaný	přidání	A-ý --> N-í	CHANGE: a -> á	
+přidat	přidání	V-at --> N-ání		
+
+přidělaný	přidělání	A-ý --> N-í	CHANGE: a -> á	
+přidělat	přidělání	V-at --> N-ání		LINK ALREADY PRESENT
+
+přihřívaný	přihřívání	A-ý --> N-í	CHANGE: a -> á	
+přihřívat	přihřívání	V-at --> N-ání		
+
+přijímaný	přijímání	A-ý --> N-í	CHANGE: a -> á	
+přijímat	přijímání	V-at --> N-ání		LINK ALREADY PRESENT
+
+přimíchaný	přimíchání	A-ý --> N-í	CHANGE: a -> á	
+přimíchat	přimíchání	V-at --> N-ání		LINK ALREADY PRESENT
+
+přiobjednaný	přiobjednání	A-ý --> N-í	CHANGE: a -> á	
+přiobjednat	přiobjednání	V-at --> N-ání		LINK ALREADY PRESENT
+
+připomínaný	připomínání	A-ý --> N-í	CHANGE: a -> á	
+připomínat	připomínání	V-at --> N-ání		LINK ALREADY PRESENT
+
+připoutaný	připoutání	A-ý --> N-í	CHANGE: a -> á	
+připoutat	připoutání	V-at --> N-ání		LINK ALREADY PRESENT
+
+připočítaný	připočítání	A-ý --> N-í	CHANGE: a -> á	
+připočítat	připočítání	V-at --> N-ání		LINK ALREADY PRESENT
+
+připsaný	připsání	A-ý --> N-í	CHANGE: a -> á	
+připsat	připsání	V-at --> N-ání		LINK ALREADY PRESENT
+
+přirovnaný	přirovnání	A-ý --> N-í	CHANGE: a -> á	
+přirovnat	přirovnání	V-at --> N-ání		LINK ALREADY PRESENT
+
+přispívaný	přispívání	A-ý --> N-í	CHANGE: a -> á	
+přispívat	přispívání	V-at --> N-ání		
+* příspívat	přispívání	V-at --> N-ání	CHANGE: í -> i	
+
+přivolaný	přivolání	A-ý --> N-í	CHANGE: a -> á	
+přivolat	přivolání	V-at --> N-ání		LINK ALREADY PRESENT
+
+přivítaný	přivítání	A-ý --> N-í	CHANGE: a -> á	
+přivítat	přivítání	V-at --> N-ání		LINK ALREADY PRESENT
+
+přiznaný	přiznání	A-ý --> N-í	CHANGE: a -> á	
+přiznat	přiznání	V-at --> N-ání		LINK ALREADY PRESENT
+
+přizvaný	přizvání	A-ý --> N-í	CHANGE: a -> á	
+přizvat	přizvání	V-at --> N-ání		LINK ALREADY PRESENT
+
+přičítaný	přičítání	A-ý --> N-í	CHANGE: a -> á	
+přičítat	přičítání	V-at --> N-ání		LINK ALREADY PRESENT
+
+rovnaný	rovnání	A-ý --> N-í	CHANGE: a -> á	
+rovnat	rovnání	V-at --> N-ání		LINK ALREADY PRESENT
+
+rozbouraný	rozbourání	A-ý --> N-í	CHANGE: a -> á	
+rozbourat	rozbourání	V-at --> N-ání		LINK ALREADY PRESENT
+
+rozdaný	rozdání	A-ý --> N-í	CHANGE: a -> á	
+rozdat	rozdání	V-at --> N-ání		LINK ALREADY PRESENT
+
+* rozdmychat	rozdmýchání	V-at --> N-ání	CHANGE: y -> ý	
+rozdmýchaný	rozdmýchání	A-ý --> N-í	CHANGE: a -> á	
+rozdmýchat	rozdmýchání	V-at --> N-ání		LINK ALREADY PRESENT
+
+rozdýchaný	rozdýchání	A-ý --> N-í	CHANGE: a -> á	
+rozdýchat	rozdýchání	V-at --> N-ání		LINK ALREADY PRESENT
+
+rozdělaný	rozdělání	A-ý --> N-í	CHANGE: a -> á	
+rozdělat	rozdělání	V-at --> N-ání		LINK ALREADY PRESENT
+
+rozebraný	rozebrání	A-ý --> N-í	CHANGE: a -> á	
+rozebrat	rozebrání	V-at --> N-ání		LINK ALREADY PRESENT
+
+rozebíraný	rozebírání	A-ý --> N-í	CHANGE: a -> á	
+rozebírat	rozebírání	V-at --> N-ání		LINK ALREADY PRESENT
+
+rozehnaný	rozehnání	A-ý --> N-í	CHANGE: a -> á	
+rozehnat	rozehnání	V-at --> N-ání		LINK ALREADY PRESENT
+
+rozepsaný	rozepsání	A-ý --> N-í	CHANGE: a -> á	
+rozepsat	rozepsání	V-at --> N-ání		LINK ALREADY PRESENT
+
+rozepínaný	rozepínání	A-ý --> N-í	CHANGE: a -> á	
+rozepínat	rozepínání	V-at --> N-ání		LINK ALREADY PRESENT
+
+rozeslaný	rozeslání	A-ý --> N-í	CHANGE: a -> á	
+rozeslat	rozeslání	V-at --> N-ání		LINK ALREADY PRESENT
+
+rozesílaný	rozesílání	A-ý --> N-í	CHANGE: a -> á	
+rozesílat	rozesílání	V-at --> N-ání		LINK ALREADY PRESENT
+
+rozeznaný	rozeznání	A-ý --> N-í	CHANGE: a -> á	
+rozeznat	rozeznání	V-at --> N-ání		LINK ALREADY PRESENT
+
+rozeštvaný	rozeštvání	A-ý --> N-í	CHANGE: a -> á	
+rozeštvat	rozeštvání	V-at --> N-ání		LINK ALREADY PRESENT
+
+rozežíraný	rozežírání	A-ý --> N-í	CHANGE: a -> á	
+rozežírat	rozežírání	V-at --> N-ání		LINK ALREADY PRESENT
+
+rozfoukaný	rozfoukání	A-ý --> N-í	CHANGE: a -> á	
+rozfoukat	rozfoukání	V-at --> N-ání		LINK ALREADY PRESENT
+
+rozhněvaný	rozhněvání	A-ý --> N-í	CHANGE: a -> á	
+rozhněvat	rozhněvání	V-at --> N-ání		LINK ALREADY PRESENT
+
+rozhoupaný	rozhoupání	A-ý --> N-í	CHANGE: a -> á	
+rozhoupat	rozhoupání	V-at --> N-ání		
+rozhoupat	rozhoupání	V-at --> N-ání		LINK ALREADY PRESENT
+
+rozhýbaný	rozhýbání	A-ý --> N-í	CHANGE: a -> á	
+rozhýbat	rozhýbání	V-at --> N-ání		
+rozhýbat	rozhýbání	V-at --> N-ání		LINK ALREADY PRESENT
+
+rozjímaný	rozjímání	A-ý --> N-í	CHANGE: a -> á	
+rozjímat	rozjímání	V-at --> N-ání		LINK ALREADY PRESENT
+
+rozkolísaný	rozkolísání	A-ý --> N-í	CHANGE: a -> á	
+rozkolísat	rozkolísání	V-at --> N-ání		LINK ALREADY PRESENT
+
+rozkousaný	rozkousání	A-ý --> N-í	CHANGE: a -> á	
+rozkousat	rozkousání	V-at --> N-ání		
+rozkousat	rozkousání	V-at --> N-ání		LINK ALREADY PRESENT
+
+rozleptaný	rozleptání	A-ý --> N-í	CHANGE: a -> á	
+rozleptat	rozleptání	V-at --> N-ání		LINK ALREADY PRESENT
+
+rozlévaný	rozlévání	A-ý --> N-í	CHANGE: a -> á	
+rozlévat	rozlévání	V-at --> N-ání		LINK ALREADY PRESENT
+
+rozmazaný	rozmazání	A-ý --> N-í	CHANGE: a -> á	
+rozmazat	rozmazání	V-at --> N-ání		
+rozmazat	rozmazání	V-at --> N-ání		LINK ALREADY PRESENT
+
+rozmačkaný	rozmačkání	A-ý --> N-í	CHANGE: a -> á	
+rozmačkat	rozmačkání	V-at --> N-ání		LINK ALREADY PRESENT
+
+rozmetaný	rozmetání	A-ý --> N-í	CHANGE: a -> á	
+rozmetat	rozmetání	V-at --> N-ání		LINK ALREADY PRESENT
+
+rozmotaný	rozmotání	A-ý --> N-í	CHANGE: a -> á	
+rozmotat	rozmotání	V-at --> N-ání		LINK ALREADY PRESENT
+
+rozmíchaný	rozmíchání	A-ý --> N-í	CHANGE: a -> á	
+rozmíchat	rozmíchání	V-at --> N-ání		LINK ALREADY PRESENT
+
+rozoraný	rozorání	A-ý --> N-í	CHANGE: a -> á	
+rozorat	rozorání	V-at --> N-ání		LINK ALREADY PRESENT
+
+rozpitvaný	rozpitvání	A-ý --> N-í	CHANGE: a -> á	
+rozpitvat	rozpitvání	V-at --> N-ání		LINK ALREADY PRESENT
+
+rozpoutaný	rozpoutání	A-ý --> N-í	CHANGE: a -> á	
+rozpoutat	rozpoutání	V-at --> N-ání		LINK ALREADY PRESENT
+
+rozpoznaný	rozpoznání	A-ý --> N-í	CHANGE: a -> á	
+rozpoznat	rozpoznání	V-at --> N-ání		LINK ALREADY PRESENT
+
+rozpraskaný	rozpraskání	A-ý --> N-í	CHANGE: a -> á	
+rozpraskat	rozpraskání	V-at --> N-ání		LINK ALREADY PRESENT
+
+rozprodaný	rozprodání	A-ý --> N-í	CHANGE: a -> á	
+rozprodat	rozprodání	V-at --> N-ání		LINK ALREADY PRESENT
+
+rozpukaný	rozpukání	A-ý --> N-í	CHANGE: a -> á	
+rozpukat	rozpukání	V-at --> N-ání		LINK ALREADY PRESENT
+
+rozpínaný	rozpínání	A-ý --> N-í	CHANGE: a -> á	
+rozpínat	rozpínání	V-at --> N-ání		LINK ALREADY PRESENT
+
+rozsekaný	rozsekání	A-ý --> N-í	CHANGE: a -> á	
+rozsekat	rozsekání	V-at --> N-ání		LINK ALREADY PRESENT
+
+rozstříhaný	rozstříhání	A-ý --> N-í	CHANGE: a -> á	
+rozstříhat	rozstříhání	V-at --> N-ání		LINK ALREADY PRESENT
+
+rozsypaný	rozsypání	A-ý --> N-í	CHANGE: a -> á	
+rozsypat	rozsypání	V-at --> N-ání		
+rozsypat	rozsypání	V-at --> N-ání		LINK ALREADY PRESENT
+* rozsýpat	rozsypání	V-at --> N-ání	CHANGE: ý -> y	
+
+roztrhaný	roztrhání	A-ý --> N-í	CHANGE: a -> á	
+roztrhat	roztrhání	V-at --> N-ání		LINK ALREADY PRESENT
+
+roztíraný	roztírání	A-ý --> N-í	CHANGE: a -> á	
+roztírat	roztírání	V-at --> N-ání		LINK ALREADY PRESENT
+
+rozřezaný	rozřezání	A-ý --> N-í	CHANGE: a -> á	
+rozřezat	rozřezání	V-at --> N-ání		
+rozřezat	rozřezání	V-at --> N-ání		LINK ALREADY PRESENT
+
+rozžvýkaný	rozžvýkání	A-ý --> N-í	CHANGE: a -> á	
+rozžvýkat	rozžvýkání	V-at --> N-ání		LINK ALREADY PRESENT
+
+sbíraný	sbírání	A-ý --> N-í	CHANGE: a -> á	
+sbírat	sbírání	V-at --> N-ání		LINK ALREADY PRESENT
+
+sebraný	sebrání	A-ý --> N-í	CHANGE: a -> á	
+sebrat	sebrání	V-at --> N-ání		
+sebrat	sebrání	V-at --> N-ání		LINK ALREADY PRESENT
+
+sedlaný	sedlání	A-ý --> N-í	CHANGE: a -> á	
+sedlat	sedlání	V-at --> N-ání		LINK ALREADY PRESENT
+
+sehnaný	sehnání	A-ý --> N-í	CHANGE: a -> á	
+sehnat	sehnání	V-at --> N-ání		LINK ALREADY PRESENT
+
+sekaný	sekání	A-ý --> N-í	CHANGE: a -> á	
+sekat	sekání	V-at --> N-ání		LINK ALREADY PRESENT
+
+selhaný	selhání	A-ý --> N-í	CHANGE: a -> á	
+selhat	selhání	V-at --> N-ání		LINK ALREADY PRESENT
+
+sepsaný	sepsání	A-ý --> N-í	CHANGE: a -> á	
+sepsat	sepsání	V-at --> N-ání		
+
+sesbíraný	sesbírání	A-ý --> N-í	CHANGE: a -> á	
+sesbírat	sesbírání	V-at --> N-ání		LINK ALREADY PRESENT
+
+seslaný	seslání	A-ý --> N-í	CHANGE: a -> á	
+seslat	seslání	V-at --> N-ání		LINK ALREADY PRESENT
+
+sesílaný	sesílání	A-ý --> N-í	CHANGE: a -> á	
+sesílat	sesílání	V-at --> N-ání		LINK ALREADY PRESENT
+
+setkaný	setkání	A-ý --> N-í	CHANGE: a -> á	
+setkat	setkání	V-at --> N-ání		
+setkat	setkání	V-at --> N-ání		LINK ALREADY PRESENT
+
+sezdaný	sezdání	A-ý --> N-í	CHANGE: a -> á	
+sezdat	sezdání	V-at --> N-ání		LINK ALREADY PRESENT
+
+sečítaný	sečítání	A-ý --> N-í	CHANGE: a -> á	
+sečítat	sečítání	V-at --> N-ání		LINK ALREADY PRESENT
+
+seškrabaný	seškrabání	A-ý --> N-í	CHANGE: a -> á	
+seškrabat	seškrabání	V-at --> N-ání		
+seškrabat	seškrabání	V-at --> N-ání		LINK ALREADY PRESENT
+* seškrábat	seškrabání	V-at --> N-ání	CHANGE: á -> a	
+
+seškrtaný	seškrtání	A-ý --> N-í	CHANGE: a -> á	
+seškrtat	seškrtání	V-at --> N-ání		LINK ALREADY PRESENT
+
+sešívaný	sešívání	A-ý --> N-í	CHANGE: a -> á	
+sešívat	sešívání	V-at --> N-ání		
+
+sežvýkaný	sežvýkání	A-ý --> N-í	CHANGE: a -> á	
+sežvýkat	sežvýkání	V-at --> N-ání		LINK ALREADY PRESENT
+
+shledaný	shledání	A-ý --> N-í	CHANGE: a -> á	
+shledat	shledání	V-at --> N-ání		LINK ALREADY PRESENT
+
+sjednaný	sjednání	A-ý --> N-í	CHANGE: a -> á	
+sjednat	sjednání	V-at --> N-ání		LINK ALREADY PRESENT
+
+skasaný	skasání	A-ý --> N-í	CHANGE: a -> á	
+skasat	skasání	V-at --> N-ání		LINK ALREADY PRESENT
+
+skonaný	skonání	A-ý --> N-í	CHANGE: a -> á	
+skonat	skonání	V-at --> N-ání		LINK ALREADY PRESENT
+
+skrývaný	skrývání	A-ý --> N-í	CHANGE: a -> á	
+skrývat	skrývání	V-at --> N-ání		LINK ALREADY PRESENT
+
+skřípaný	skřípání	A-ý --> N-í	CHANGE: a -> á	
+skřípat	skřípání	V-at --> N-ání		
+skřípat	skřípání	V-at --> N-ání		LINK ALREADY PRESENT
+
+sloupaný	sloupání	A-ý --> N-í	CHANGE: a -> á	
+sloupat	sloupání	V-at --> N-ání		
+sloupat	sloupání	V-at --> N-ání		LINK ALREADY PRESENT
+
+smazaný	smazání	A-ý --> N-í	CHANGE: a -> á	
+smazat	smazání	V-at --> N-ání		
+smazat	smazání	V-at --> N-ání		LINK ALREADY PRESENT
+
+smetaný	smetání	A-ý --> N-í	CHANGE: a -> á	
+smetat	smetání	V-at --> N-ání		LINK ALREADY PRESENT
+
+smíchaný	smíchání	A-ý --> N-í	CHANGE: a -> á	
+smíchat	smíchání	V-at --> N-ání		LINK ALREADY PRESENT
+
+smýkaný	smýkání	A-ý --> N-í	CHANGE: a -> á	
+smýkat	smýkání	V-at --> N-ání		LINK ALREADY PRESENT
+
+smývaný	smývání	A-ý --> N-í	CHANGE: a -> á	
+smývat	smývání	V-at --> N-ání		LINK ALREADY PRESENT
+
+snídaný	snídání	A-ý --> N-í	CHANGE: a -> á	
+snídat	snídání	V-at --> N-ání		LINK ALREADY PRESENT
+
+snímaný	snímání	A-ý --> N-í	CHANGE: a -> á	
+snímat	snímání	V-at --> N-ání		LINK ALREADY PRESENT
+
+soukaný	soukání	A-ý --> N-í	CHANGE: a -> á	
+soukat	soukání	V-at --> N-ání		LINK ALREADY PRESENT
+
+splétaný	splétání	A-ý --> N-í	CHANGE: a -> á	
+splétat	splétání	V-at --> N-ání		LINK ALREADY PRESENT
+
+spolupodepsaný	spolupodepsání	A-ý --> N-í	CHANGE: a -> á	
+spolupodepsat	spolupodepsání	V-at --> N-ání		LINK ALREADY PRESENT
+
+spolykaný	spolykání	A-ý --> N-í	CHANGE: a -> á	
+spolykat	spolykání	V-at --> N-ání		LINK ALREADY PRESENT
+
+spoutaný	spoutání	A-ý --> N-í	CHANGE: a -> á	
+spoutat	spoutání	V-at --> N-ání		LINK ALREADY PRESENT
+
+spočítaný	spočítání	A-ý --> N-í	CHANGE: a -> á	
+spočítat	spočítání	V-at --> N-ání		LINK ALREADY PRESENT
+
+spékaný	spékání	A-ý --> N-í	CHANGE: a -> á	
+spékat	spékání	V-at --> N-ání		LINK ALREADY PRESENT
+
+spínaný	spínání	A-ý --> N-í	CHANGE: a -> á	
+spínat	spínání	V-at --> N-ání		LINK ALREADY PRESENT
+
+srovnaný	srovnání	A-ý --> N-í	CHANGE: a -> á	
+srovnat	srovnání	V-at --> N-ání		
+srovnat	srovnání	V-at --> N-ání		LINK ALREADY PRESENT
+
+* stenat	sténání	V-at --> N-ání	CHANGE: e -> é	
+sténaný	sténání	A-ý --> N-í	CHANGE: a -> á	
+sténat	sténání	V-at --> N-ání		LINK ALREADY PRESENT
+
+* stihat	stíhání	V-at --> N-ání	CHANGE: i -> í	
+stíhaný	stíhání	A-ý --> N-í	CHANGE: a -> á	
+stíhat	stíhání	V-at --> N-ání		LINK ALREADY PRESENT
+
+strkaný	strkání	A-ý --> N-í	CHANGE: a -> á	
+strkat	strkání	V-at --> N-ání		LINK ALREADY PRESENT
+
+stíraný	stírání	A-ý --> N-í	CHANGE: a -> á	
+stírat	stírání	V-at --> N-ání		LINK ALREADY PRESENT
+
+* střihat	stříhání	V-at --> N-ání	CHANGE: i -> í	
+stříhaný	stříhání	A-ý --> N-í	CHANGE: a -> á	
+stříhat	stříhání	V-at --> N-ání		LINK ALREADY PRESENT
+
+stříkaný	stříkání	A-ý --> N-í	CHANGE: a -> á	
+stříkat	stříkání	V-at --> N-ání		LINK ALREADY PRESENT
+
+sundaný	sundání	A-ý --> N-í	CHANGE: a -> á	
+sundat	sundání	V-at --> N-ání		LINK ALREADY PRESENT
+
+svlékaný	svlékání	A-ý --> N-í	CHANGE: a -> á	
+svlékat	svlékání	V-at --> N-ání		LINK ALREADY PRESENT
+
+svolaný	svolání	A-ý --> N-í	CHANGE: a -> á	
+svolat	svolání	V-at --> N-ání		LINK ALREADY PRESENT
+
+svíraný	svírání	A-ý --> N-í	CHANGE: a -> á	
+svírat	svírání	V-at --> N-ání		LINK ALREADY PRESENT
+
+světlaný	světlání	A-ý --> N-í	CHANGE: a -> á	
+světlat	světlání	V-at --> N-ání		LINK ALREADY PRESENT
+
+sykaný	sykání	A-ý --> N-í	CHANGE: a -> á	
+sykat	sykání	V-at --> N-ání		LINK ALREADY PRESENT
+
+sypaný	sypání	A-ý --> N-í	CHANGE: a -> á	
+sypat	sypání	V-at --> N-ání		
+sypat	sypání	V-at --> N-ání		LINK ALREADY PRESENT
+
+sípaný	sípání	A-ý --> N-í	CHANGE: a -> á	
+sípat	sípání	V-at --> N-ání		
+sípat	sípání	V-at --> N-ání		LINK ALREADY PRESENT
+
+sčítaný	sčítání	A-ý --> N-í	CHANGE: a -> á	
+sčítat	sčítání	V-at --> N-ání		LINK ALREADY PRESENT
+
+tahaný	tahání	A-ý --> N-í	CHANGE: a -> á	
+tahat	tahání	V-at --> N-ání		LINK ALREADY PRESENT
+
+tepaný	tepání	A-ý --> N-í	CHANGE: a -> á	
+tepat	tepání	V-at --> N-ání		
+tepat	tepání	V-at --> N-ání		LINK ALREADY PRESENT
+
+tesaný	tesání	A-ý --> N-í	CHANGE: a -> á	
+tesat	tesání	V-at --> N-ání		
+tesat	tesání	V-at --> N-ání		LINK ALREADY PRESENT
+
+tikaný	tikání	A-ý --> N-í	CHANGE: a -> á	
+tikat	tikání	V-at --> N-ání		LINK ALREADY PRESENT
+
+trestaný	trestání	A-ý --> N-í	CHANGE: a -> á	
+trestat	trestání	V-at --> N-ání		
+trestat	trestání	V-at --> N-ání		LINK ALREADY PRESENT
+
+trhaný	trhání	A-ý --> N-í	CHANGE: a -> á	
+trhat	trhání	V-at --> N-ání		LINK ALREADY PRESENT
+
+trvaný	trvání	A-ý --> N-í	CHANGE: a -> á	
+trvat	trvání	V-at --> N-ání		
+trvat	trvání	V-at --> N-ání		LINK ALREADY PRESENT
+
+týraný	týrání	A-ý --> N-í	CHANGE: a -> á	
+týrat	týrání	V-at --> N-ání		LINK ALREADY PRESENT
+
+třepaný	třepání	A-ý --> N-í	CHANGE: a -> á	
+třepat	třepání	V-at --> N-ání		
+třepat	třepání	V-at --> N-ání		LINK ALREADY PRESENT
+
+třepotaný	třepotání	A-ý --> N-í	CHANGE: a -> á	
+třepotat	třepotání	V-at --> N-ání		LINK ALREADY PRESENT
+
+třímaný	třímání	A-ý --> N-í	CHANGE: a -> á	
+třímat	třímání	V-at --> N-ání		LINK ALREADY PRESENT
+
+ubodaný	ubodání	A-ý --> N-í	CHANGE: a -> á	
+ubodat	ubodání	V-at --> N-ání		LINK ALREADY PRESENT
+
+ubraný	ubrání	A-ý --> N-í	CHANGE: a -> á	
+ubrat	ubrání	V-at --> N-ání		LINK ALREADY PRESENT
+
+ucpaný	ucpání	A-ý --> N-í	CHANGE: a -> á	
+ucpat	ucpání	V-at --> N-ání		LINK ALREADY PRESENT
+
+uctívaný	uctívání	A-ý --> N-í	CHANGE: a -> á	
+uctívat	uctívání	V-at --> N-ání		
+
+udusaný	udusání	A-ý --> N-í	CHANGE: a -> á	
+udusat	udusání	V-at --> N-ání		LINK ALREADY PRESENT
+
+udělaný	udělání	A-ý --> N-í	CHANGE: a -> á	
+udělat	udělání	V-at --> N-ání		
+udělat	udělání	V-at --> N-ání		LINK ALREADY PRESENT
+
+uhnaný	uhnání	A-ý --> N-í	CHANGE: a -> á	
+uhnat	uhnání	V-at --> N-ání		LINK ALREADY PRESENT
+
+uhryzaný	uhryzání	A-ý --> N-í	CHANGE: a -> á	
+uhryzat	uhryzání	V-at --> N-ání		
+uhryzat	uhryzání	V-at --> N-ání		LINK ALREADY PRESENT
+
+ujednaný	ujednání	A-ý --> N-í	CHANGE: a -> á	
+ujednat	ujednání	V-at --> N-ání		LINK ALREADY PRESENT
+
+ukousaný	ukousání	A-ý --> N-í	CHANGE: a -> á	
+ukousat	ukousání	V-at --> N-ání		
+ukousat	ukousání	V-at --> N-ání		LINK ALREADY PRESENT
+
+ukrývaný	ukrývání	A-ý --> N-í	CHANGE: a -> á	
+ukrývat	ukrývání	V-at --> N-ání		LINK ALREADY PRESENT
+
+umazaný	umazání	A-ý --> N-í	CHANGE: a -> á	
+umazat	umazání	V-at --> N-ání		
+umazat	umazání	V-at --> N-ání		LINK ALREADY PRESENT
+
+umíraný	umírání	A-ý --> N-í	CHANGE: a -> á	
+umírat	umírání	V-at --> N-ání		LINK ALREADY PRESENT
+
+umývaný	umývání	A-ý --> N-í	CHANGE: a -> á	
+umývat	umývání	V-at --> N-ání		LINK ALREADY PRESENT
+
+upadaný	upadání	A-ý --> N-í	CHANGE: a -> á	
+upadat	upadání	V-at --> N-ání		LINK ALREADY PRESENT
+
+upoutaný	upoutání	A-ý --> N-í	CHANGE: a -> á	
+upoutat	upoutání	V-at --> N-ání		LINK ALREADY PRESENT
+
+upsaný	upsání	A-ý --> N-í	CHANGE: a -> á	
+upsat	upsání	V-at --> N-ání		LINK ALREADY PRESENT
+
+upíraný	upírání	A-ý --> N-í	CHANGE: a -> á	
+upírat	upírání	V-at --> N-ání		LINK ALREADY PRESENT
+
+urovnaný	urovnání	A-ý --> N-í	CHANGE: a -> á	
+urovnat	urovnání	V-at --> N-ání		LINK ALREADY PRESENT
+
+urvaný	urvání	A-ý --> N-í	CHANGE: a -> á	
+urvat	urvání	V-at --> N-ání		LINK ALREADY PRESENT
+
+uspaný	uspání	A-ý --> N-í	CHANGE: a -> á	
+uspat	uspání	V-at --> N-ání		LINK ALREADY PRESENT
+
+uspěchaný	uspěchání	A-ý --> N-í	CHANGE: a -> á	
+uspěchat	uspěchání	V-at --> N-ání		LINK ALREADY PRESENT
+
+utahaný	utahání	A-ý --> N-í	CHANGE: a -> á	
+utahat	utahání	V-at --> N-ání		LINK ALREADY PRESENT
+
+utkaný	utkání	A-ý --> N-í	CHANGE: a -> á	
+utkat	utkání	V-at --> N-ání		LINK ALREADY PRESENT
+
+utrhaný	utrhání	A-ý --> N-í	CHANGE: a -> á	
+utrhat	utrhání	V-at --> N-ání		LINK ALREADY PRESENT
+
+utíkaný	utíkání	A-ý --> N-í	CHANGE: a -> á	
+utíkat	utíkání	V-at --> N-ání		LINK ALREADY PRESENT
+
+utíraný	utírání	A-ý --> N-í	CHANGE: a -> á	
+utírat	utírání	V-at --> N-ání		LINK ALREADY PRESENT
+
+utýraný	utýrání	A-ý --> N-í	CHANGE: a -> á	
+utýrat	utýrání	V-at --> N-ání		LINK ALREADY PRESENT
+
+uvítaný	uvítání	A-ý --> N-í	CHANGE: a -> á	
+uvítat	uvítání	V-at --> N-ání		LINK ALREADY PRESENT
+
+uzamykaný	uzamykání	A-ý --> N-í	CHANGE: a -> á	
+uzamykat	uzamykání	V-at --> N-ání		LINK ALREADY PRESENT
+
+uzavíraný	uzavírání	A-ý --> N-í	CHANGE: a -> á	
+uzavírat	uzavírání	V-at --> N-ání		LINK ALREADY PRESENT
+
+uznaný	uznání	A-ý --> N-í	CHANGE: a -> á	
+uznat	uznání	V-at --> N-ání		LINK ALREADY PRESENT
+
+uřehtaný	uřehtání	A-ý --> N-í	CHANGE: a -> á	
+uřehtat	uřehtání	V-at --> N-ání		LINK ALREADY PRESENT
+
+uřezaný	uřezání	A-ý --> N-í	CHANGE: a -> á	
+uřezat	uřezání	V-at --> N-ání		
+uřezat	uřezání	V-at --> N-ání		LINK ALREADY PRESENT
+
+ušlapaný	ušlapání	A-ý --> N-í	CHANGE: a -> á	
+ušlapat	ušlapání	V-at --> N-ání		
+ušlapat	ušlapání	V-at --> N-ání		LINK ALREADY PRESENT
+
+užíraný	užírání	A-ý --> N-í	CHANGE: a -> á	
+užírat	užírání	V-at --> N-ání		LINK ALREADY PRESENT
+
+užívaný	užívání	A-ý --> N-í	CHANGE: a -> á	
+užívat	užívání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vehnaný	vehnání	A-ý --> N-í	CHANGE: a -> á	
+vehnat	vehnání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vepsaný	vepsání	A-ý --> N-í	CHANGE: a -> á	
+vepsat	vepsání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vnímaný	vnímání	A-ý --> N-í	CHANGE: a -> á	
+vnímat	vnímání	V-at --> N-ání		LINK ALREADY PRESENT
+
+volaný	volání	A-ý --> N-í	CHANGE: a -> á	
+volat	volání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vplétaný	vplétání	A-ý --> N-í	CHANGE: a -> á	
+vplétat	vplétání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vrhaný	vrhání	A-ý --> N-í	CHANGE: a -> á	
+vrhat	vrhání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vrtaný	vrtání	A-ý --> N-í	CHANGE: a -> á	
+vrtat	vrtání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vrzaný	vrzání	A-ý --> N-í	CHANGE: a -> á	
+vrzat	vrzání	V-at --> N-ání		
+vrzat	vrzání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vstřebaný	vstřebání	A-ý --> N-í	CHANGE: a -> á	
+vstřebat	vstřebání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vtíraný	vtírání	A-ý --> N-í	CHANGE: a -> á	
+vtírat	vtírání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vtěsnaný	vtěsnání	A-ý --> N-í	CHANGE: a -> á	
+vtěsnat	vtěsnání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vybraný	vybrání	A-ý --> N-í	CHANGE: a -> á	
+vybrat	vybrání	V-at --> N-ání		
+vybrat	vybrání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vybíraný	vybírání	A-ý --> N-í	CHANGE: a -> á	
+vybírat	vybírání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vychutnaný	vychutnání	A-ý --> N-í	CHANGE: a -> á	
+vychutnat	vychutnání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vychytaný	vychytání	A-ý --> N-í	CHANGE: a -> á	
+vychytat	vychytání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vycpaný	vycpání	A-ý --> N-í	CHANGE: a -> á	
+vycpat	vycpání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vydaný	vydání	A-ý --> N-í	CHANGE: a -> á	
+vydat	vydání	V-at --> N-ání		
+
+vydlabaný	vydlabání	A-ý --> N-í	CHANGE: a -> á	
+vydlabat	vydlabání	V-at --> N-ání		
+vydlabat	vydlabání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vydrbaný	vydrbání	A-ý --> N-í	CHANGE: a -> á	
+vydrbat	vydrbání	V-at --> N-ání		
+vydrbat	vydrbání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vydíraný	vydírání	A-ý --> N-í	CHANGE: a -> á	
+vydírat	vydírání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vydýchaný	vydýchání	A-ý --> N-í	CHANGE: a -> á	
+vydýchat	vydýchání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vydělaný	vydělání	A-ý --> N-í	CHANGE: a -> á	
+vydělat	vydělání	V-at --> N-ání		
+
+vyfoukaný	vyfoukání	A-ý --> N-í	CHANGE: a -> á	
+vyfoukat	vyfoukání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vyhledaný	vyhledání	A-ý --> N-í	CHANGE: a -> á	
+vyhledat	vyhledání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vyhnaný	vyhnání	A-ý --> N-í	CHANGE: a -> á	
+vyhnat	vyhnání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vyhřívaný	vyhřívání	A-ý --> N-í	CHANGE: a -> á	
+vyhřívat	vyhřívání	V-at --> N-ání		
+
+vyjednaný	vyjednání	A-ý --> N-í	CHANGE: a -> á	
+vyjednat	vyjednání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vyklepaný	vyklepání	A-ý --> N-í	CHANGE: a -> á	
+vyklepat	vyklepání	V-at --> N-ání		
+vyklepat	vyklepání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vykonaný	vykonání	A-ý --> N-í	CHANGE: a -> á	
+vykonat	vykonání	V-at --> N-ání		
+vykonat	vykonání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vykopaný	vykopání	A-ý --> N-í	CHANGE: a -> á	
+vykopat	vykopání	V-at --> N-ání		
+vykopat	vykopání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vykoupaný	vykoupání	A-ý --> N-í	CHANGE: a -> á	
+vykoupat	vykoupání	V-at --> N-ání		
+vykoupat	vykoupání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vykuchaný	vykuchání	A-ý --> N-í	CHANGE: a -> á	
+vykuchat	vykuchání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vylekaný	vylekání	A-ý --> N-í	CHANGE: a -> á	
+vylekat	vylekání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vyleptaný	vyleptání	A-ý --> N-í	CHANGE: a -> á	
+vyleptat	vyleptání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vyloupaný	vyloupání	A-ý --> N-í	CHANGE: a -> á	
+vyloupat	vyloupání	V-at --> N-ání		
+vyloupat	vyloupání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vylévaný	vylévání	A-ý --> N-í	CHANGE: a -> á	
+vylévat	vylévání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vymazaný	vymazání	A-ý --> N-í	CHANGE: a -> á	
+vymazat	vymazání	V-at --> N-ání		
+vymazat	vymazání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vymačkaný	vymačkání	A-ý --> N-í	CHANGE: a -> á	
+vymačkat	vymačkání	V-at --> N-ání		LINK ALREADY PRESENT
+
+* vymetat	vymítání	V-at --> N-ání	CHANGE: e -> í	
+vymítaný	vymítání	A-ý --> N-í	CHANGE: a -> á	
+vymítat	vymítání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vymílaný	vymílání	A-ý --> N-í	CHANGE: a -> á	
+vymílat	vymílání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vymývaný	vymývání	A-ý --> N-í	CHANGE: a -> á	
+vymývat	vymývání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vyndaný	vyndání	A-ý --> N-í	CHANGE: a -> á	
+vyndat	vyndání	V-at --> N-ání		
+vyndat	vyndání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vynechaný	vynechání	A-ý --> N-í	CHANGE: a -> á	
+vynechat	vynechání	V-at --> N-ání		
+vynechat	vynechání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vyoraný	vyorání	A-ý --> N-í	CHANGE: a -> á	
+vyorat	vyorání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vypadaný	vypadání	A-ý --> N-í	CHANGE: a -> á	
+vypadat	vypadání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vyplétaný	vyplétání	A-ý --> N-í	CHANGE: a -> á	
+vyplétat	vyplétání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vypočítaný	vypočítání	A-ý --> N-í	CHANGE: a -> á	
+vypočítat	vypočítání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vypraný	vyprání	A-ý --> N-í	CHANGE: a -> á	
+vyprat	vyprání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vyprodaný	vyprodání	A-ý --> N-í	CHANGE: a -> á	
+vyprodat	vyprodání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vypsaný	vypsání	A-ý --> N-í	CHANGE: a -> á	
+vypsat	vypsání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vypínaný	vypínání	A-ý --> N-í	CHANGE: a -> á	
+vypínat	vypínání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vypískaný	vypískání	A-ý --> N-í	CHANGE: a -> á	
+vypískat	vypískání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vyrovnaný	vyrovnání	A-ý --> N-í	CHANGE: a -> á	
+vyrovnat	vyrovnání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vyrvaný	vyrvání	A-ý --> N-í	CHANGE: a -> á	
+vyrvat	vyrvání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vysekaný	vysekání	A-ý --> N-í	CHANGE: a -> á	
+vysekat	vysekání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vyslaný	vyslání	A-ý --> N-í	CHANGE: a -> á	
+vyslat	vyslání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vyslýchaný	vyslýchání	A-ý --> N-í	CHANGE: a -> á	
+vyslýchat	vyslýchání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vysmívaný	vysmívání	A-ý --> N-í	CHANGE: a -> á	
+vysmívat	vysmívání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vysoukaný	vysoukání	A-ý --> N-í	CHANGE: a -> á	
+vysoukat	vysoukání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vystlaný	vystlání	A-ý --> N-í	CHANGE: a -> á	
+vystlat	vystlání	V-at --> N-ání		LINK ALREADY PRESENT
+
+* vystřihat	vystříhání	V-at --> N-ání	CHANGE: i -> í	
+vystříhaný	vystříhání	A-ý --> N-í	CHANGE: a -> á	
+vystříhat	vystříhání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vystřídaný	vystřídání	A-ý --> N-í	CHANGE: a -> á	
+vystřídat	vystřídání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vystříkaný	vystříkání	A-ý --> N-í	CHANGE: a -> á	
+vystříkat	vystříkání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vysypaný	vysypání	A-ý --> N-í	CHANGE: a -> á	
+vysypat	vysypání	V-at --> N-ání		
+vysypat	vysypání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vysílaný	vysílání	A-ý --> N-í	CHANGE: a -> á	
+vysílat	vysílání	V-at --> N-ání		LINK ALREADY PRESENT
+
+* vysívat	vyšívání	V-at --> N-ání	CHANGE: s -> š	
+vyšívaný	vyšívání	A-ý --> N-í	CHANGE: a -> á	
+vyšívat	vyšívání	V-at --> N-ání		
+
+vytahaný	vytahání	A-ý --> N-í	CHANGE: a -> á	
+vytahat	vytahání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vytesaný	vytesání	A-ý --> N-í	CHANGE: a -> á	
+vytesat	vytesání	V-at --> N-ání		
+vytesat	vytesání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vytloukaný	vytloukání	A-ý --> N-í	CHANGE: a -> á	
+vytloukat	vytloukání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vytrestaný	vytrestání	A-ý --> N-í	CHANGE: a -> á	
+vytrestat	vytrestání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vytrhaný	vytrhání	A-ý --> N-í	CHANGE: a -> á	
+vytrhat	vytrhání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vytíraný	vytírání	A-ý --> N-í	CHANGE: a -> á	
+vytírat	vytírání	V-at --> N-ání		LINK ALREADY PRESENT
+
+využívaný	využívání	A-ý --> N-í	CHANGE: a -> á	
+využívat	využívání	V-at --> N-ání		
+
+vyvolaný	vyvolání	A-ý --> N-í	CHANGE: a -> á	
+vyvolat	vyvolání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vyvrtaný	vyvrtání	A-ý --> N-í	CHANGE: a -> á	
+vyvrtat	vyvrtání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vyvětraný	vyvětrání	A-ý --> N-í	CHANGE: a -> á	
+vyvětrat	vyvětrání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vyzdívaný	vyzdívání	A-ý --> N-í	CHANGE: a -> á	
+vyzdívat	vyzdívání	V-at --> N-ání		
+
+vyznamenaný	vyznamenání	A-ý --> N-í	CHANGE: a -> á	
+vyznamenat	vyznamenání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vyznaný	vyznání	A-ý --> N-í	CHANGE: a -> á	
+vyznat	vyznání	V-at --> N-ání		
+vyznat	vyznání	V-at --> N-ání		LINK ALREADY PRESENT
+
+* vyzívat	vyžívání	V-at --> N-ání	CHANGE: z -> ž	
+vyžívaný	vyžívání	A-ý --> N-í	CHANGE: a -> á	
+vyžívat	vyžívání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vyzývaný	vyzývání	A-ý --> N-í	CHANGE: a -> á	
+vyzývat	vyzývání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vyčenichaný	vyčenichání	A-ý --> N-í	CHANGE: a -> á	
+vyčenichat	vyčenichání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vyčerpaný	vyčerpání	A-ý --> N-í	CHANGE: a -> á	
+vyčerpat	vyčerpání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vyčuraný	vyčurání	A-ý --> N-í	CHANGE: a -> á	
+vyčurat	vyčurání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vyčůraný	vyčůrání	A-ý --> N-í	CHANGE: a -> á	
+vyčůrat	vyčůrání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vyřezaný	vyřezání	A-ý --> N-í	CHANGE: a -> á	
+vyřezat	vyřezání	V-at --> N-ání		
+vyřezat	vyřezání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vyšlapaný	vyšlapání	A-ý --> N-í	CHANGE: a -> á	
+vyšlapat	vyšlapání	V-at --> N-ání		
+vyšlapat	vyšlapání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vyšlehaný	vyšlehání	A-ý --> N-í	CHANGE: a -> á	
+vyšlehat	vyšlehání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vyštvaný	vyštvání	A-ý --> N-í	CHANGE: a -> á	
+vyštvat	vyštvání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vyťukaný	vyťukání	A-ý --> N-í	CHANGE: a -> á	
+vyťukat	vyťukání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vyždímaný	vyždímání	A-ý --> N-í	CHANGE: a -> á	
+vyždímat	vyždímání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vyžebraný	vyžebrání	A-ý --> N-í	CHANGE: a -> á	
+vyžebrat	vyžebrání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vyžvýkaný	vyžvýkání	A-ý --> N-í	CHANGE: a -> á	
+vyžvýkat	vyžvýkání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vzdychaný	vzdychání	A-ý --> N-í	CHANGE: a -> á	
+vzdychat	vzdychání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vzdělaný	vzdělání	A-ý --> N-í	CHANGE: a -> á	
+vzdělat	vzdělání	V-at --> N-ání		
+vzdělat	vzdělání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vzpomínaný	vzpomínání	A-ý --> N-í	CHANGE: a -> á	
+vzpomínat	vzpomínání	V-at --> N-ání		LINK ALREADY PRESENT
+
+vzývaný	vzývání	A-ý --> N-í	CHANGE: a -> á	
+vzývat	vzývání	V-at --> N-ání		LINK ALREADY PRESENT
+
+větraný	větrání	A-ý --> N-í	CHANGE: a -> á	
+větrat	větrání	V-at --> N-ání		LINK ALREADY PRESENT
+
+všívaný	všívání	A-ý --> N-í	CHANGE: a -> á	
+všívat	všívání	V-at --> N-ání		
+
+zabraný	zabrání	A-ý --> N-í	CHANGE: a -> á	
+zabrat	zabrání	V-at --> N-ání		
+
+zabíraný	zabírání	A-ý --> N-í	CHANGE: a -> á	
+zabírat	zabírání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zadumaný	zadumání	A-ý --> N-í	CHANGE: a -> á	
+zadumat	zadumání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zadupaný	zadupání	A-ý --> N-í	CHANGE: a -> á	
+zadupat	zadupání	V-at --> N-ání		
+zadupat	zadupání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zadýchaný	zadýchání	A-ý --> N-í	CHANGE: a -> á	
+zadýchat	zadýchání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zahloubaný	zahloubání	A-ý --> N-í	CHANGE: a -> á	
+zahloubat	zahloubání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zahnaný	zahnání	A-ý --> N-í	CHANGE: a -> á	
+zahnat	zahnání	V-at --> N-ání		
+zahnat	zahnání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zahrabaný	zahrabání	A-ý --> N-í	CHANGE: a -> á	
+zahrabat	zahrabání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zahuhlaný	zahuhlání	A-ý --> N-í	CHANGE: a -> á	
+zahuhlat	zahuhlání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zahřívaný	zahřívání	A-ý --> N-í	CHANGE: a -> á	
+zahřívat	zahřívání	V-at --> N-ání		
+
+zaklínaný	zaklínání	A-ý --> N-í	CHANGE: a -> á	
+zaklínat	zaklínání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zakopaný	zakopání	A-ý --> N-í	CHANGE: a -> á	
+zakopat	zakopání	V-at --> N-ání		
+zakopat	zakopání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zakrývaný	zakrývání	A-ý --> N-í	CHANGE: a -> á	
+zakrývat	zakrývání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zakutaný	zakutání	A-ý --> N-í	CHANGE: a -> á	
+zakutat	zakutání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zalapaný	zalapání	A-ý --> N-í	CHANGE: a -> á	
+zalapat	zalapání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zalétaný	zalétání	A-ý --> N-í	CHANGE: a -> á	
+zalétat	zalétání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zalévaný	zalévání	A-ý --> N-í	CHANGE: a -> á	
+zalévat	zalévání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zametaný	zametání	A-ý --> N-í	CHANGE: a -> á	
+zametat	zametání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zameškaný	zameškání	A-ý --> N-í	CHANGE: a -> á	
+zameškat	zameškání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zamotaný	zamotání	A-ý --> N-í	CHANGE: a -> á	
+zamotat	zamotání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zamumlaný	zamumlání	A-ý --> N-í	CHANGE: a -> á	
+zamumlat	zamumlání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zamykaný	zamykání	A-ý --> N-í	CHANGE: a -> á	
+zamykat	zamykání	V-at --> N-ání		LINK ALREADY PRESENT
+* zamýkat	zamykání	V-at --> N-ání	CHANGE: ý -> y	
+
+zamíchaný	zamíchání	A-ý --> N-í	CHANGE: a -> á	
+zamíchat	zamíchání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zaměstnaný	zaměstnání	A-ý --> N-í	CHANGE: a -> á	
+zaměstnat	zaměstnání	V-at --> N-ání		
+
+zanechaný	zanechání	A-ý --> N-í	CHANGE: a -> á	
+zanechat	zanechání	V-at --> N-ání		
+zanechat	zanechání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zanedbaný	zanedbání	A-ý --> N-í	CHANGE: a -> á	
+zanedbat	zanedbání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zaoraný	zaorání	A-ý --> N-í	CHANGE: a -> á	
+zaorat	zaorání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zapadaný	zapadání	A-ý --> N-í	CHANGE: a -> á	
+zapadat	zapadání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zaplétaný	zaplétání	A-ý --> N-í	CHANGE: a -> á	
+zaplétat	zaplétání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zapomínaný	zapomínání	A-ý --> N-í	CHANGE: a -> á	
+zapomínat	zapomínání	V-at --> N-ání		LINK ALREADY PRESENT
+
+započítaný	započítání	A-ý --> N-í	CHANGE: a -> á	
+započítat	započítání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zaprodaný	zaprodání	A-ý --> N-í	CHANGE: a -> á	
+zaprodat	zaprodání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zapsaný	zapsání	A-ý --> N-í	CHANGE: a -> á	
+zapsat	zapsání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zapínaný	zapínání	A-ý --> N-í	CHANGE: a -> á	
+zapínat	zapínání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zapíraný	zapírání	A-ý --> N-í	CHANGE: a -> á	
+zapírat	zapírání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zapískaný	zapískání	A-ý --> N-í	CHANGE: a -> á	
+zapískat	zapískání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zapřahaný	zapřahání	A-ý --> N-í	CHANGE: a -> á	
+zapřahat	zapřahání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zarovnaný	zarovnání	A-ý --> N-í	CHANGE: a -> á	
+zarovnat	zarovnání	V-at --> N-ání		LINK ALREADY PRESENT
+
+* zarvat	zařvání	V-at --> N-ání	CHANGE: r -> ř	
+zařvaný	zařvání	A-ý --> N-í	CHANGE: a -> á	
+zařvat	zařvání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zasedaný	zasedání	A-ý --> N-í	CHANGE: a -> á	
+zasedat	zasedání	V-at --> N-ání		
+zasedat	zasedání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zaslaný	zaslání	A-ý --> N-í	CHANGE: a -> á	
+zaslat	zaslání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zasouvaný	zasouvání	A-ý --> N-í	CHANGE: a -> á	
+zasouvat	zasouvání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zastíraný	zastírání	A-ý --> N-í	CHANGE: a -> á	
+zastírat	zastírání	V-at --> N-ání		LINK ALREADY PRESENT
+
+* zastřihat	zastříhání	V-at --> N-ání	CHANGE: i -> í	
+zastříhaný	zastříhání	A-ý --> N-í	CHANGE: a -> á	
+zastříhat	zastříhání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zastříkaný	zastříkání	A-ý --> N-í	CHANGE: a -> á	
+zastříkat	zastříkání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zasypaný	zasypání	A-ý --> N-í	CHANGE: a -> á	
+zasypat	zasypání	V-at --> N-ání		
+zasypat	zasypání	V-at --> N-ání		LINK ALREADY PRESENT
+* zasýpat	zasypání	V-at --> N-ání	CHANGE: ý -> y	
+
+zasévaný	zasévání	A-ý --> N-í	CHANGE: a -> á	
+zasévat	zasévání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zasílaný	zasílání	A-ý --> N-í	CHANGE: a -> á	
+zasílat	zasílání	V-at --> N-ání		LINK ALREADY PRESENT
+
+* zasívat	zašívání	V-at --> N-ání	CHANGE: s -> š	
+zašívaný	zašívání	A-ý --> N-í	CHANGE: a -> á	
+zašívat	zašívání	V-at --> N-ání		
+
+zatloukaný	zatloukání	A-ý --> N-í	CHANGE: a -> á	
+zatloukat	zatloukání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zatoulaný	zatoulání	A-ý --> N-í	CHANGE: a -> á	
+zatoulat	zatoulání	V-at --> N-ání		LINK ALREADY PRESENT
+
+* zatykat	zatýkání	V-at --> N-ání	CHANGE: y -> ý	
+zatýkaný	zatýkání	A-ý --> N-í	CHANGE: a -> á	
+zatýkat	zatýkání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zaujímaný	zaujímání	A-ý --> N-í	CHANGE: a -> á	
+zaujímat	zaujímání	V-at --> N-ání		
+zaujímat	zaujímání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zavolaný	zavolání	A-ý --> N-í	CHANGE: a -> á	
+zavolat	zavolání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zavrtaný	zavrtání	A-ý --> N-í	CHANGE: a -> á	
+zavrtat	zavrtání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zavíraný	zavírání	A-ý --> N-í	CHANGE: a -> á	
+zavírat	zavírání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zaznamenaný	zaznamenání	A-ý --> N-í	CHANGE: a -> á	
+zaznamenat	zaznamenání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zazpívaný	zazpívání	A-ý --> N-í	CHANGE: a -> á	
+zazpívat	zazpívání	V-at --> N-ání		LINK ALREADY PRESENT
+
+* zazívat	zažívání	V-at --> N-ání	CHANGE: z -> ž	
+zažívaný	zažívání	A-ý --> N-í	CHANGE: a -> á	
+zažívat	zažívání	V-at --> N-ání		
+
+začervenaný	začervenání	A-ý --> N-í	CHANGE: a -> á	
+začervenat	začervenání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zašeptaný	zašeptání	A-ý --> N-í	CHANGE: a -> á	
+zašeptat	zašeptání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zašukaný	zašukání	A-ý --> N-í	CHANGE: a -> á	
+zašukat	zašukání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zažehnaný	zažehnání	A-ý --> N-í	CHANGE: a -> á	
+zažehnat	zažehnání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zbouraný	zbourání	A-ý --> N-í	CHANGE: a -> á	
+zbourat	zbourání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zdeptaný	zdeptání	A-ý --> N-í	CHANGE: a -> á	
+zdeptat	zdeptání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zdolaný	zdolání	A-ý --> N-í	CHANGE: a -> á	
+zdolat	zdolání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zdvihaný	zdvihání	A-ý --> N-í	CHANGE: a -> á	
+zdvihat	zdvihání	V-at --> N-ání		LINK ALREADY PRESENT
+* zdvíhat	zdvihání	V-at --> N-ání	CHANGE: í -> i	
+
+* zdvihat	zdvíhání	V-at --> N-ání	CHANGE: i -> í	
+zdvíhaný	zdvíhání	A-ý --> N-í	CHANGE: a -> á	
+zdvíhat	zdvíhání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zdělaný	zdělání	A-ý --> N-í	CHANGE: a -> á	
+zdělat	zdělání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zhnisaný	zhnisání	A-ý --> N-í	CHANGE: a -> á	
+zhnisat	zhnisání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zjednaný	zjednání	A-ý --> N-í	CHANGE: a -> á	
+zjednat	zjednání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zklamaný	zklamání	A-ý --> N-í	CHANGE: a -> á	
+zklamat	zklamání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zkoumaný	zkoumání	A-ý --> N-í	CHANGE: a -> á	
+zkoumat	zkoumání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zmačkaný	zmačkání	A-ý --> N-í	CHANGE: a -> á	
+zmačkat	zmačkání	V-at --> N-ání		LINK ALREADY PRESENT
+
+* zmetat	zmítání	V-at --> N-ání	CHANGE: e -> í	
+zmítaný	zmítání	A-ý --> N-í	CHANGE: a -> á	
+zmítat	zmítání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zmeškaný	zmeškání	A-ý --> N-í	CHANGE: a -> á	
+zmeškat	zmeškání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zmrskaný	zmrskání	A-ý --> N-í	CHANGE: a -> á	
+zmrskat	zmrskání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zneuznaný	zneuznání	A-ý --> N-í	CHANGE: a -> á	
+zneuznat	zneuznání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zneužívaný	zneužívání	A-ý --> N-í	CHANGE: a -> á	
+zneužívat	zneužívání	V-at --> N-ání		
+
+znovuzískaný	znovuzískání	A-ý --> N-í	CHANGE: a -> á	
+znovuzískat	znovuzískání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zodpovídaný	zodpovídání	A-ý --> N-í	CHANGE: a -> á	
+zodpovídat	zodpovídání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zpackaný	zpackání	A-ý --> N-í	CHANGE: a -> á	
+zpackat	zpackání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zpovídaný	zpovídání	A-ý --> N-í	CHANGE: a -> á	
+zpovídat	zpovídání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zpívaný	zpívání	A-ý --> N-í	CHANGE: a -> á	
+zpívat	zpívání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zpřetrhaný	zpřetrhání	A-ý --> N-í	CHANGE: a -> á	
+zpřetrhat	zpřetrhání	V-at --> N-ání		LINK ALREADY PRESENT
+
+ztrestaný	ztrestání	A-ý --> N-í	CHANGE: a -> á	
+ztrestat	ztrestání	V-at --> N-ání		LINK ALREADY PRESENT
+
+ztroskotaný	ztroskotání	A-ý --> N-í	CHANGE: a -> á	
+ztroskotat	ztroskotání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zvedaný	zvedání	A-ý --> N-í	CHANGE: a -> á	
+zvedat	zvedání	V-at --> N-ání		LINK ALREADY PRESENT
+
+zvolaný	zvolání	A-ý --> N-í	CHANGE: a -> á	
+zvolat	zvolání	V-at --> N-ání		LINK ALREADY PRESENT
+
+získaný	získání	A-ý --> N-í	CHANGE: a -> á	
+získat	získání	V-at --> N-ání		LINK ALREADY PRESENT
+
+čechraný	čechrání	A-ý --> N-í	CHANGE: a -> á	
+čechrat	čechrání	V-at --> N-ání		LINK ALREADY PRESENT
+
+čerpaný	čerpání	A-ý --> N-í	CHANGE: a -> á	
+čerpat	čerpání	V-at --> N-ání		LINK ALREADY PRESENT
+
+červenaný	červenání	A-ý --> N-í	CHANGE: a -> á	
+červenat	červenání	V-at --> N-ání		LINK ALREADY PRESENT
+
+česaný	česání	A-ý --> N-í	CHANGE: a -> á	
+česat	česání	V-at --> N-ání		
+česat	česání	V-at --> N-ání		LINK ALREADY PRESENT
+
+číhaný	číhání	A-ý --> N-í	CHANGE: a -> á	
+číhat	číhání	V-at --> N-ání		LINK ALREADY PRESENT
+
+řezaný	řezání	A-ý --> N-í	CHANGE: a -> á	
+řezat	řezání	V-at --> N-ání		
+řezat	řezání	V-at --> N-ání		LINK ALREADY PRESENT
+
+šepotaný	šepotání	A-ý --> N-í	CHANGE: a -> á	
+šepotat	šepotání	V-at --> N-ání		LINK ALREADY PRESENT
+
+šeptaný	šeptání	A-ý --> N-í	CHANGE: a -> á	
+šeptat	šeptání	V-at --> N-ání		LINK ALREADY PRESENT
+
+škubaný	škubání	A-ý --> N-í	CHANGE: a -> á	
+škubat	škubání	V-at --> N-ání		
+škubat	škubání	V-at --> N-ání		LINK ALREADY PRESENT
+
+šplouchaný	šplouchání	A-ý --> N-í	CHANGE: a -> á	
+šplouchat	šplouchání	V-at --> N-ání		LINK ALREADY PRESENT
+
+* štouchat	šťouchání	V-at --> N-ání	CHANGE: t -> ť	
+šťouchaný	šťouchání	A-ý --> N-í	CHANGE: a -> á	
+šťouchat	šťouchání	V-at --> N-ání		LINK ALREADY PRESENT
+
+štípaný	štípání	A-ý --> N-í	CHANGE: a -> á	
+štípat	štípání	V-at --> N-ání		
+štípat	štípání	V-at --> N-ání		LINK ALREADY PRESENT
+
+štěbetaný	štěbetání	A-ý --> N-í	CHANGE: a -> á	
+štěbetat	štěbetání	V-at --> N-ání		LINK ALREADY PRESENT
+
+štěkaný	štěkání	A-ý --> N-í	CHANGE: a -> á	
+štěkat	štěkání	V-at --> N-ání		LINK ALREADY PRESENT
+
+šukaný	šukání	A-ý --> N-í	CHANGE: a -> á	
+šukat	šukání	V-at --> N-ání		LINK ALREADY PRESENT
+
+ťukaný	ťukání	A-ý --> N-í	CHANGE: a -> á	
+ťukat	ťukání	V-at --> N-ání		LINK ALREADY PRESENT
+
+žvýkaný	žvýkání	A-ý --> N-í	CHANGE: a -> á	
+žvýkat	žvýkání	V-at --> N-ání		LINK ALREADY PRESENT
+
+žíhaný	žíhání	A-ý --> N-í	CHANGE: a -> á	
+žíhat	žíhání	V-at --> N-ání		LINK ALREADY PRESENT
+
+
+

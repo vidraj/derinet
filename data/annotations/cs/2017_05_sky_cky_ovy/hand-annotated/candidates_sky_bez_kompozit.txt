@@ -43,7 +43,7 @@ allgavský		UNRESOLVED
 almaatský		UNRESOLVED
 alpínský		UNRESOLVED Z: Alpy
 alpskodunajský		UNRESOLVED
-alšovský		UNRESOLVED Z: Alš
+alšovský		UNRESOLVED Z: Aleš
 altelandský		UNRESOLVED
 aluminiářský		UNRESOLVED Z: aluminium
 alžbětinský		UNRESOLVED Z: Alžběta
@@ -65,7 +65,7 @@ ancyrský		UNRESOLVED
 andaluský		UNRESOLVED Z: Andalusie
 andělskohorský		UNRESOLVED
 andílkovský		UNRESOLVED
-andorský		UNRESOLVED Z: Andora
+andorský		UNRESOLVED Z: Andorra
 andrušovský		UNRESOLVED
 anenský		UNRESOLVED Z: Anna
 anežský		UNRESOLVED Z: Anežka
@@ -75,7 +75,7 @@ anglickočeský		UNRESOLVED
 anjujský		UNRESOLVED
 annanský		UNRESOLVED
 antalyjský		UNRESOLVED
-antillský		UNRESOLVED Z: Atilla
+antillský		UNRESOLVED Z: Antily
 antimovský		UNRESOLVED
 antiochejský		UNRESOLVED
 antiocheský		UNRESOLVED
@@ -93,7 +93,7 @@ araksanský		UNRESOLVED
 aramejský		UNRESOLVED
 aranžerský		UNRESOLVED
 arboretářský		UNRESOLVED Z: arboretum
-archimédovský		UNRESOLVED Z: Archimédes
+archimédovský		UNRESOLVED Z: Archimedes
 arelatský		UNRESOLVED
 argejský		UNRESOLVED
 argolský		UNRESOLVED
@@ -181,7 +181,7 @@ birnamský		UNRESOLVED
 biskajský		UNRESOLVED Z: Biskaj
 bitcevský		UNRESOLVED
 bíthýnský		UNRESOLVED
-bítýšský		UNRESOLVED Z: Bitýška
+bítýšský		UNRESOLVED Z: Bítýška
 blagoveščenský		UNRESOLVED
 bláznovský		UNRESOLVED Z: blázen
 blbečkovský		UNRESOLVED Z: blbeček
@@ -189,7 +189,7 @@ blíževedelský		UNRESOLVED
 bobrujský		UNRESOLVED
 bogdanečský		UNRESOLVED
 boholidský		UNRESOLVED
-bohovský		UNRESOLVED Z: Bůh
+bohovský		UNRESOLVED Z: bůh
 bolivariánský		UNRESOLVED Z: Bolívar
 bolívariánský		UNRESOLVED Z: Bolívar
 bolivijský		UNRESOLVED Z: Bolívie
@@ -218,7 +218,7 @@ braquovský		UNRESOLVED
 brasilský		UNRESOLVED
 břaský		UNRESOLVED
 brazilský		UNRESOLVED Z: Brazílie
-břehyňský		UNRESOLVED Z: Břehyň
+břehyňský		UNRESOLVED Z: Břehyně
 breslovský		UNRESOLVED
 brestlitevský		UNRESOLVED
 brestovanský		UNRESOLVED
@@ -381,7 +381,7 @@ culdejský		UNRESOLVED
 cyperský		UNRESOLVED
 cyranovský		UNRESOLVED
 czenstochowský		UNRESOLVED Z: Czenstochowa
-daghestánský		UNRESOLVED Z: Daghestán
+daghestánský		UNRESOLVED Z: Dagestán
 dagombský		UNRESOLVED
 daidalský		UNRESOLVED
 dainavský		UNRESOLVED
@@ -390,7 +390,7 @@ dákorumunský		UNRESOLVED
 dallaský		UNRESOLVED Z: Dallas
 dalmátský		UNRESOLVED Z: Dalmácie
 damascénský		UNRESOLVED
-damašský		UNRESOLVED Z: Damašk
+damašský		UNRESOLVED Z: Damašek
 danakilský		UNRESOLVED
 darijský		UNRESOLVED
 darovanský		UNRESOLVED
@@ -439,7 +439,7 @@ dokeský		UNRESOLVED Z: Doksy
 domácenský		UNRESOLVED
 domingovský		UNRESOLVED
 donášečský		UNRESOLVED Z: donašeč
-donchuanovský		UNRESOLVED Z: donchuan
+donchuanovský		UNRESOLVED Z: donchuán
 dongsonský		UNRESOLVED
 donquijotský		UNRESOLVED
 doopravdovský		UNRESOLVED
@@ -461,14 +461,24 @@ drožďářský		UNRESOLVED M: droždí
 drštěkryjský		UNRESOLVED Z: Držtěkryje
 drůběžářský		UNRESOLVED Z: drůbež
 druženářský		UNRESOLVED
+<<<<<<< HEAD
 držovský		UNRESOLVED
+=======
+držovský		UNRESOLVED 
+>>>>>>> 794f8f3f847dc20f13710e0d8e00a2915f6c6a2f
 důchodenský		UNRESOLVED Z: důchod
 duchovenský		UNRESOLVED Z: duchovní
 dukelský		UNRESOLVED Z: Dukla
 dukljanský		UNRESOLVED
+<<<<<<< HEAD
 důlněměřičský		UNRESOLVED
 dunajský		UNRESOLVED Z: Dunaj
 dušmanský		UNRESOLVED
+=======
+důlněměřičský		UNRESOLVED 
+dunajský		UNRESOLVED Z: Dunaj
+dušmanský		UNRESOLVED 
+>>>>>>> 794f8f3f847dc20f13710e0d8e00a2915f6c6a2f
 dvořišťský		UNRESOLVED Z: Dvořiště
 dwarský		UNRESOLVED
 dynamovský		UNRESOLVED
@@ -480,9 +490,15 @@ dzeržinský		UNRESOLVED
 džungarský		UNRESOLVED
 edesský		UNRESOLVED
 ediakarský		UNRESOLVED
+<<<<<<< HEAD
 edwardiánský		UNRESOLVED M: Edward
 efeský		UNRESOLVED Z: Efez
 efezský		UNRESOLVED Z: Efez
+=======
+edwardiánský		UNRESOLVED
+efeský		UNRESOLVED Z: Efes
+efezský		UNRESOLVED Z: Efes
+>>>>>>> 794f8f3f847dc20f13710e0d8e00a2915f6c6a2f
 egejský		UNRESOLVED
 ekavský		UNRESOLVED
 ekvadorský		UNRESOLVED Z: Ekvádor
@@ -495,9 +511,9 @@ endemouský		UNRESOLVED
 eolský		UNRESOLVED
 epeirský		UNRESOLVED
 épeirský		UNRESOLVED
-epikurejský		UNRESOLVED Z: Epikúros
-epikúrejský		UNRESOLVED Z: Epikúros
-epikúrovský		UNRESOLVED Z: Epikúros
+epikurejský		UNRESOLVED Z: Epikuros
+epikúrejský		UNRESOLVED Z: Epikuros
+epikúrovský		UNRESOLVED Z: Epikuros
 epirský		UNRESOLVED
 erasmovský		UNRESOLVED Z: Eramus
 eridský		UNRESOLVED
@@ -555,13 +571,13 @@ garmský		UNRESOLVED
 gatunský		UNRESOLVED
 gatwlerský		UNRESOLVED
 gdaňský		UNRESOLVED Z: Gdaňsk
-gdyňský		UNRESOLVED Z: Gdyňa
+gdyňský		UNRESOLVED Z: Gdyně
 geatský		UNRESOLVED
 gelasiánský		UNRESOLVED
 genezaretský		UNRESOLVED
 getašenský		UNRESOLVED
 getsemanský		UNRESOLVED
-gigolovský		UNRESOLVED Z: Gigolo
+gigolovský		UNRESOLVED Z: gigolo
 gikujský		UNRESOLVED
 gimontský		UNRESOLVED
 giottovský		UNRESOLVED Z: Giotto
@@ -592,19 +608,19 @@ grenobelský		UNRESOLVED Z: Grenoble
 grodenský		UNRESOLVED
 grodzieňský		UNRESOLVED
 grömlingovský		UNRESOLVED
-grozenský		UNRESOLVED Z: Grozny
+grozenský		UNRESOLVED Z: Groznyj
 grunžijský		UNRESOLVED
 guantánamský		UNRESOLVED Z: Guantánamo
 guernseyský		UNRESOLVED
-guinejský		UNRESOLVED Z: Guina
+guinejský		UNRESOLVED Z: Guinea
 gulripšský		UNRESOLVED
 gutanský		UNRESOLVED
 hafsovský		UNRESOLVED
 haitský		UNRESOLVED Z: Haiti
 halebský		UNRESOLVED
 halštatský		UNRESOLVED Z: Hallstatt
-hamasovský		UNRESOLVED
-hamásovský		UNRESOLVED Z: Hamás
+hamasovský		UNRESOLVED Z: Hamas
+hamásovský		UNRESOLVED Z: Hamas
 hamiltonovský		UNRESOLVED Z: Hamilton
 hamiltonský		UNRESOLVED Z: Hamilton
 hamirovský		UNRESOLVED
@@ -645,7 +661,7 @@ hnojivářský		UNRESOLVED Z: hnojivo
 hnúštianský		UNRESOLVED
 hoabinhský		UNRESOLVED
 hohokamský		UNRESOLVED
-hollywodský		UNRESOLVED Z: Holywood
+hollywodský		UNRESOLVED Z: Hollywood
 holyňský		UNRESOLVED Z: Holyň
 holywoodský		UNRESOLVED Z: Holywood
 honduraský		UNRESOLVED Z: Honduras
@@ -656,7 +672,7 @@ hořesedelský		UNRESOLVED
 hormuzský		UNRESOLVED
 horňanský		UNRESOLVED
 horníčkovský		UNRESOLVED Z: Horníček
-hospitálský		UNRESOLVED Z: hospitál
+hospitálský		UNRESOLVED Z: hospital
 hospodyňský		UNRESOLVED Z: hospodyně
 houstonský		UNRESOLVED Z: Houston
 hrabůvský		UNRESOLVED Z: Hrabůvky
@@ -718,7 +734,7 @@ jamesbondovský		UNRESOLVED
 janáčkovský		UNRESOLVED Z: Janáček
 janskolázeňský		UNRESOLVED
 jánskolázeňský		UNRESOLVED
-jánusovský		UNRESOLVED Z: Jánus
+jánusovský		UNRESOLVED Z: Janus
 jasnohorský		UNRESOLVED
 jasnopoljanský		UNRESOLVED
 jastorfský		UNRESOLVED
@@ -734,7 +750,7 @@ jerišský		UNRESOLVED
 jerusalemský		UNRESOLVED Z: Jeruzalém
 jeruzalemský		UNRESOLVED Z: Jeruzalém
 jeselský		UNRESOLVED
-jesličkářský		UNRESOLVED Z: Jesličky
+jesličkářský		UNRESOLVED Z: jesličky
 jevišovský		UNRESOLVED
 jezerský		UNRESOLVED Z: Jezerka
 jezioranský		UNRESOLVED
@@ -852,14 +868,14 @@ konopnářský		UNRESOLVED
 kontribučenský		UNRESOLVED
 kopernikánský		UNRESOLVED Z: Kopernik
 kopidlenský		UNRESOLVED Z: Kopidlno
-kopidlnský		UNRESOLVED Z: Kopidlnský
+kopidlnský		UNRESOLVED Z: Kopidlno
 kopinský		UNRESOLVED
 kordofánský		UNRESOLVED
 korfský		UNRESOLVED Z: Korfu
 korinthský		UNRESOLVED
 korkařský		UNRESOLVED M: korek
 kornatský		UNRESOLVED
-korsikánský		UNRESOLVED Z: Korzika
+korsikánský		UNRESOLVED Z: Korsika
 košilářský		UNRESOLVED Z: košile
 košínský		UNRESOLVED
 košířovský		UNRESOLVED Z: Košíře
@@ -1022,11 +1038,11 @@ makpelský		UNRESOLVED
 malabarský		UNRESOLVED
 malacijský		UNRESOLVED
 malajálamský		UNRESOLVED
-malakský		UNRESOLVED Z: Malagy
+malakský		UNRESOLVED Z: Malaga
 malankarský		UNRESOLVED
 malatínský		UNRESOLVED
 malawijský		UNRESOLVED
-malažský		UNRESOLVED Z: Malagy
+malažský		UNRESOLVED Z: Malaga
 malenínský		UNRESOLVED
 malijský		UNRESOLVED Z: Mali
 maltézský		UNRESOLVED Z: Malta
@@ -1047,7 +1063,7 @@ mansijský		UNRESOLVED
 manteňský		UNRESOLVED
 maorijský		UNRESOLVED
 maorský		UNRESOLVED Z: Maor
-maputský		UNRESOLVED Z: Maputto
+maputský		UNRESOLVED Z: Maputo
 maracaibský		UNRESOLVED
 maradakertský		UNRESOLVED
 maranellský		UNRESOLVED
@@ -1069,7 +1085,7 @@ mauerbašský		UNRESOLVED
 mauijský		UNRESOLVED
 mauricijský		UNRESOLVED
 mávátkářský		UNRESOLVED Z: mávátko
-mcdonaldovský		UNRESOLVED Z: Mcdonald
+mcdonaldovský		UNRESOLVED Z: McDonald
 mcenský		UNRESOLVED
 meadowoodský		UNRESOLVED
 medellinský		UNRESOLVED
@@ -1190,10 +1206,10 @@ návhrhářský		UNRESOLVED
 nažidelský		UNRESOLVED
 nazkaský		UNRESOLVED
 neandertálský		UNRESOLVED Z: neandrtálec
-neandrtálský		UNRESOLVED Z: neandrtálek
+neandrtálský		UNRESOLVED Z: neandrtálec
 nebezpečenský		UNRESOLVED
-nebraský		UNRESOLVED Z: Nebrasca
-negerský		UNRESOLVED
+nebraský		UNRESOLVED Z: Nebraska
+negerský		UNRESOLVED Z: negr
 nelahozeveský		UNRESOLVED Z: Nelahozeves
 nelahozevský		UNRESOLVED Z: Nelahozeves
 němčičský		UNRESOLVED Z: Němčice
@@ -1214,7 +1230,7 @@ neyberovský		UNRESOLVED
 ngunijský		UNRESOLVED
 nicejský		UNRESOLVED
 nieszawský		UNRESOLVED
-nietzschovský		UNRESOLVED Z: Nietze
+nietzschovský		UNRESOLVED Z: Nietsche
 niewský		UNRESOLVED
 nigerijský		UNRESOLVED Z: Nigérie
 nigerokonžský		UNRESOLVED
@@ -1318,7 +1334,7 @@ palomarský		UNRESOLVED
 papenheimský		UNRESOLVED
 papouškářský		UNRESOLVED Z: papoušek
 paracelský		UNRESOLVED
-paraguajský		UNRESOLVED Z: Paraguai
+paraguajský		UNRESOLVED Z: Paraguay
 paralympijský		UNRESOLVED Z: paraolympiáda
 paraolympijský		UNRESOLVED Z: paraolympiáda
 paravojenský		UNRESOLVED
@@ -1409,8 +1425,8 @@ punskořímský		UNRESOLVED
 puščinský		UNRESOLVED
 pyrrhonský		UNRESOLVED
 pythagorejský		UNRESOLVED Z: Pythagoras
-pýthagorejský		UNRESOLVED Z: Pythagoras
-pýthagorovský		UNRESOLVED Z: Pythagoras
+pýthagorejský		UNRESOLVED Z: Pýthagoras
+pýthagorovský		UNRESOLVED Z: Pýthagoras
 qemmovský		UNRESOLVED
 quessantský		UNRESOLVED
 quezonský		UNRESOLVED
@@ -1470,7 +1486,7 @@ ropšínský		UNRESOLVED
 roudenský		UNRESOLVED
 rousseauvský		UNRESOLVED M: Rousseau
 rozikruciánský		UNRESOLVED
-rožmberský		UNRESOLVED Z: Ružomberok
+rožmberský		UNRESOLVED Z: Rožmberk
 rtyňský		UNRESOLVED Z: Rtyně
 rucanorský		UNRESOLVED
 rudenský		UNRESOLVED Z: Rudná
@@ -1699,7 +1715,7 @@ sýrákúský		UNRESOLVED Z: Syrakusy
 syrokovský		UNRESOLVED
 syrskoarabský		UNRESOLVED
 syrský		UNRESOLVED Z: Sýrie
-sysifovský		UNRESOLVED Z: Sisifos
+sysifovský		UNRESOLVED Z: Sysifos
 sytenský		UNRESOLVED
 sytovský		UNRESOLVED
 szentendreský		UNRESOLVED
@@ -1713,7 +1729,7 @@ taipingský		UNRESOLVED
 taivanský		UNRESOLVED
 taiwanský		UNRESOLVED
 talaudský		UNRESOLVED
-talibánský		UNRESOLVED Z: Talibán
+talibánský		UNRESOLVED Z: Taliban
 talyšský		UNRESOLVED
 tamaňský		UNRESOLVED
 tanimbarský		UNRESOLVED
@@ -1756,7 +1772,7 @@ tiperský		UNRESOLVED
 tiský		UNRESOLVED
 tiszapolgárský		UNRESOLVED
 tkadlcovský		UNRESOLVED Z: tkadlec
-tkalcovský		UNRESOLVED Z: tkalec
+tkalcovský		UNRESOLVED Z: tkadlec
 tkvarčelský		UNRESOLVED
 tleilaxanský		UNRESOLVED
 tleilaxský		UNRESOLVED
@@ -1792,9 +1808,9 @@ trenčianský		UNRESOLVED Z: Trenčiany
 třesínský		UNRESOLVED
 tröstrovský		UNRESOLVED
 trypilský		UNRESOLVED
-tuarégský		UNRESOLVED Z: Tuarég
-tuarežský		UNRESOLVED Z: Tuarég
-tuaréžský		UNRESOLVED Z: Tuarég
+tuarégský		UNRESOLVED Z: Tuareg
+tuarežský		UNRESOLVED Z: Tuareg
+tuaréžský		UNRESOLVED Z: Tuareg
 tucholský		UNRESOLVED
 tukožroutský		UNRESOLVED Z: tukožrout
 tunchuangský		UNRESOLVED
@@ -1863,7 +1879,7 @@ užitkářský		UNRESOLVED
 uzský		UNRESOLVED
 vachkovský		UNRESOLVED
 vakuářský		UNRESOLVED Z: vakuum
-vákuářský		UNRESOLVED Z: vakkum
+vákuářský		UNRESOLVED Z: vakuum
 válcovenský		UNRESOLVED Z: válcovna
 vaňkovský		UNRESOLVED
 vápenský		UNRESOLVED Z: vápno
@@ -5674,7 +5690,7 @@ arequipský	Arequipa	CHANGE: a --> ský
 arkánský	arkána	CHANGE: a --> ský
 ašikagský	Ašikaga	CHANGE: a --> ský
 atellánský	atellána	CHANGE: a --> ský
-athénský	Athéna	CHANGE: a --> ský Z: Athény
+athénský	Athéna	CHANGE: a --> ský Z: Atény
 avestský	Avesta	CHANGE: a --> ský
 avilský	Avila	CHANGE: a --> ský
 bábitský	bábita	CHANGE: a --> ský
@@ -6491,8 +6507,13 @@ kirgizský	Kirgizsko	CHANGE: sko --> ský
 kladenský	Kladensko	CHANGE: sko --> ský Z: Kladno
 kněževeský	Kněževesko	CHANGE: sko --> ský Z: Kněževes
 kolínský	Kolínsko	CHANGE: sko --> ský Z: Kolín
+<<<<<<< HEAD
 košumberský	Košumbersko	CHANGE: sko --> ský Z: Košumberok
 krajinský	Krajinsko	CHANGE: sko --> ský M: Krajina
+=======
+košumberský	Košumbersko	CHANGE: sko --> ský Z: Košumberk
+krajinský	Krajinsko	CHANGE: sko --> ský
+>>>>>>> 794f8f3f847dc20f13710e0d8e00a2915f6c6a2f
 kraňský	Kraňsko	CHANGE: sko --> ský
 krásenský	Krásensko	CHANGE: sko --> ský M: Krásno
 křemežský	Křemežsko	CHANGE: sko --> ský Z: Kremže
@@ -6528,7 +6549,7 @@ modravský	Modravsko	CHANGE: sko --> ský Z: Modrava
 moldavský	Moldavsko	CHANGE: sko --> ský Z: Moldávie
 moskevský	moskevsko	CHANGE: sko --> ský Z: Moskva
 mšenský	Mšensko	CHANGE: sko --> ský Z: Mšeno
-murmanský	Murmansko	CHANGE: sko --> ský Z: Murmanks
+murmanský	Murmansko	CHANGE: sko --> ský Z: Murmansk
 nasavský	Nasavsko	CHANGE: sko --> ský
 niský	Nisko	CHANGE: sko --> ský M: Nisa
 nitrianský	Nitriansko	CHANGE: sko --> ský Z: Nitra
@@ -6555,7 +6576,7 @@ rovenský	Rovensko	CHANGE: sko --> ský M: Rovná
 rožmitálský	Rožmitálsko	CHANGE: sko --> ský Z: Rožmitál
 rumburský	Rumbursko	CHANGE: sko --> ský Z: Rumburk
 salcburský	Salcbursko	CHANGE: sko --> ský Z: Salcburk
-sardinský	Sardinsko	CHANGE: sko --> ský Z: Sardínie
+sardinský	Sardinsko	CHANGE: sko --> ský Z: Sardinie
 sárský	Sársko	CHANGE: sko --> ský
 skalský	Skalsko	CHANGE: sko --> ský M: Skála
 slánský	Slánsko	CHANGE: sko --> ský M: Slaný

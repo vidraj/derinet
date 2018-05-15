@@ -1,0 +1,7193 @@
+společnost
+společnost *9274
+možnost
+možnost *13623
+činnost
+činnost *4145
+skutečnost
+skutečnost *2276
+zkušenost
+zkušenost *11480
+událost
+událost *11888
+
+
+místnost
+místnost *2924
+radost
+radost *738
+rychlost
+rychlost *1210
+schopnost
+schopnost *5809
+příležitost
+příležitost *3434
+povinnost
+povinnost *5116
+minulost
+minulost *15
+pozornost
+pozornost *246
+veřejnost
+veřejnost *8
+
+
+souvislost
+souvislost *2341
+
+
+
+
+velikost
+velikost *949
+budoucnost
+budoucnost *24
+vlastnost
+vlastnost *7985
+osobnost
+osobnost *4001
+
+
+okolnost
+okolnost *7823
+přítomnost
+přítomnost *6
+znalost
+znalost *5379
+bezpečnost
+bezpečnost *57
+vzdálenost
+vzdálenost *1205
+současnost
+současnost *3
+domácnost
+domácnost *2769
+přednost
+přednost *1012
+odpovědnost
+odpovědnost *159
+
+
+nemovitost
+nemovitost *3511
+
+
+závislost
+závislost *429
+blízkost
+blízkost *10
+pravděpodobnost
+pravděpodobnost367
+spravedlnost
+spravedlnost *1
+hmotnost
+hmotnost *329
+nutnost
+nutnost *102
+platnost
+platnost *2
+podrobnost
+podrobnost *3252
+slavnost
+slavnost *1667
+
+
+úzkost
+úzkost *335
+
+
+pochybnost
+pochybnost *2400
+dovednost
+dovednost *2225
+nezaměstnanost
+nezaměstnanost *6
+účinnost
+účinnost *12
+pevnost
+pevnost *321
+vlhkost
+vlhkost *81
+zajímavost
+zajímavost *1167
+milost
+milost *246
+
+
+trpělivost
+trpělivost *2
+nezávislost
+nezávislost *18
+působnost
+působnost *44
+
+
+zodpovědnost
+zodpovědnost *7
+moudrost
+moudrost *95
+výkonnost
+výkonnost *2
+přesnost
+přesnost *40
+neschopnost
+neschopnost *61
+pohotovost
+pohotovost *104
+hotovost
+hotovost *24
+slabost
+slabost *260
+spokojenost
+spokojenost *15
+hloupost
+hloupost *456
+zvědavost
+zvědavost *3
+lítost
+lítost *4
+samozřejmost
+samozřejmost *121
+důležitost
+důležitost *8
+věčnost
+věčnost *4
+dostupnost
+dostupnost *1
+odolnost
+odolnost *1
+životnost
+životnost *2
+rovnost
+rovnost *28
+nepřítomnost
+nepřítomnost *5
+příslušnost
+příslušnost *6
+maličkost
+maličkost *556
+vědomost
+vědomost *1183
+totožnost
+totožnost *23
+důstojnost
+důstojnost *1
+zvyklost
+zvyklost *1199
+úspěšnost
+úspěšnost *23
+přirozenost
+přirozenost *41
+dokonalost
+dokonalost *62
+podobnost
+podobnost *198
+jakost
+jakost *26
+věrnost
+návštěvnost *
+návštěvnost *27
+zlost
+zlost *2
+zvláštnost
+zvláštnost *535
+náročnost
+náročnost *1
+laskavost
+laskavost *59
+citlivost
+citlivost *9
+volnost
+spolehlivost
+spolehlivost *4
+opatrnost
+opatrnost *2
+odlišnost
+odlišnost *503
+národnost
+národnost *350
+hrdost
+hrdost *2
+vážnost
+vážnost *25
+rozmanitost
+rozmanitost *11
+živnost
+živnost *370
+ctnost
+ctnost *458
+představivost
+představivost *1
+zaměstnanost
+dospělost
+známost
+známost *335
+hodnost
+hodnost *195
+blbost
+blbost *195
+mocnost
+mocnost *617
+způsobilost
+způsobilost *46
+náklonnost *
+náklonnost *29
+návaznost
+návaznost *71
+nespokojenost
+nespokojenost *7
+splatnost
+splatnost *13
+složitost
+složitost *98
+vděčnost
+správnost
+správnost *1
+otevřenost
+nerovnost
+nerovnost *319
+drobnost
+drobnost *614
+přitažlivost
+přitažlivost *4
+náležitost
+náležitost *765
+farnost
+farnost *173
+nepříjemnost
+nepříjemnost *515
+tvrdost
+tvrdost *41
+sladkost
+sladkost *569
+jednoduchost
+jednoduchost *7
+oddanost
+oddanost *1
+funkčnost
+funkčnost *13
+četnost
+četnost *163
+žárlivost
+žárlivost *18
+spojitost
+spojitost *30
+samostatnost
+zákonitost
+zákonitost *585
+upřímnost
+
+
+slušnost
+slušnost *10
+lehkost
+krutost
+krutost *108
+hořkost
+hořkost *23
+zuřivost
+zuřivost *2
+usedlost
+usedlost *198
+poslušnost
+poslušnost *1
+tajnost
+tajnost *254
+nevolnost
+nevolnost *77
+lhostejnost
+lhostejnost *1
+písemnost
+písemnost *438
+konkurenceschopnost
+nezbytnost
+nezbytnost *131
+pravdivost
+pravdivost *2
+vytrvalost
+vytrvalost *1
+zdvořilost
+zdvořilost *85
+drzost
+drzost *32
+pružnost
+pružnost $ *8
+posedlost
+posedlost *27
+soudržnost
+soudržnost *3
+svátost
+svátost *185
+posloupnost
+posloupnost *52
+mlčenlivost
+mlčenlivost *1
+neznalost
+neznalost *23
+závažnost
+závažnost *3
+lidskost
+nevědomost
+nevědomost *17
+
+
+nelibost
+nelibost *13
+nedbalost
+nedbalost *1
+nespravedlnost
+nespravedlnost *60
+nevinnost
+skromnost
+tvořivost
+nemožnost
+nemožnost *27
+návratnost
+návratnost *1
+pitomost
+pitomost *115
+nejasnost
+nejasnost *388
+opilost
+opilost *2
+efektivnost
+bojovnost
+osamělost
+osamělost *2
+neurčitost
+neurčitost *9
+vnitřnost
+vnitřnost *549
+nesmrtelnost
+statečnost
+statečnost *1
+pozůstalost
+pozůstalost *28
+hojnost
+hojnost *1
+marnost
+marnost *30
+součinnost
+součinnost *17
+těžkost
+těžkost *456
+připravenost
+sledovanost
+sledovanost *7
+vzdělanost
+vzdělanost *2
+vymoženost
+vymoženost *381
+úplnost
+úplnost *1
+obtížnost
+obtížnost *20
+viditelnost
+viditelnost *1
+zbožnost
+zbožnost *1
+plodnost
+vybavenost
+vybavenost *5
+tichost
+tichost *1
+zralost
+jedinečnost
+jedinečnost *4
+vzácnost
+vzácnost *73
+naléhavost
+naléhavost *1
+Bezpečnost
+Bezpečnost *5
+zručnost
+zručnost *3
+
+
+vodivost
+vodivost *7
+nečinnost
+nečinnost *8
+úmrtnost
+úmrtnost *8
+zdatnost
+vstřícnost
+libost
+libost *13
+barevnost
+barevnost *2
+netrpělivost
+netrpělivost *2
+neplatnost
+nesrovnalost
+nesrovnalost *336
+celistvost
+celistvost *2
+důvěrnost
+důvěrnost *77
+plnost
+plnost *1
+pravidelnost
+pravidelnost *49
+pospolitost
+pospolitost *59
+důvěryhodnost
+setrvačnost
+setrvačnost *1
+informovanost
+odbornost
+odbornost *41
+násilnost
+násilnost *359
+výslovnost
+výslovnost *3
+vrchnost
+vrchnost *99
+poctivost
+nepřesnost
+nepřesnost *212
+pestrost
+zdrženlivost
+starožitnost
+starožitnost *335
+nadřazenost
+nadřazenost *2
+
+
+věrohodnost
+sounáležitost
+blaženost
+blaženost *6
+vyrovnanost
+hlučnost
+hlučnost *1
+zbabělost
+zbabělost *3
+jasnost
+jasnost *3
+porodnost
+porodnost *4
+dědičnost
+dědičnost *1
+rozhodnost
+obratnost
+obratnost *2
+nebezpečnost
+oprávněnost
+pravost
+pravost *1
+angažovanost
+angažovanost *1
+určitost
+určitost *2
+velkorysost
+ješitnost
+ješitnost *3
+propustnost
+propustnost *1
+početnost
+početnost *8
+výjimečnost
+výjimečnost *2
+mravnost
+mravnost *1
+lenost
+lenost *1
+nespavost
+nespavost *5
+transparentnost
+pohostinnost
+zbytečnost
+zbytečnost *146
+výtržnost
+výtržnost *237
+užitečnost
+užitečnost *2
+obslužnost
+bezmocnost
+různorodost
+trvanlivost
+vhodnost
+
+
+stálost
+nemilost
+zranitelnost
+zranitelnost *23
+jemnost
+jemnost *34
+rozdílnost
+rozdílnost *56
+nepozornost
+nepozornost *4
+nevraživost
+nevraživost *22
+pohyblivost
+pohyblivost *1
+hlasitost
+přehlednost
+hybnost
+hybnost *4
+ostražitost
+pečlivost
+svatost
+svatost *4
+pošetilost
+pošetilost *64
+vyspělost
+
+
+cennost
+cennost *238
+proměnlivost
+nespolehlivost
+vznešenost
+vznešenost *3
+
+
+přísnost
+použitelnost
+gramotnost
+gramotnost *1
+horlivost
+nedokonalost
+nedokonalost *75
+bdělost
+vynalézavost
+prozřetelnost
+chytrost
+chytrost *12
+špatnost
+špatnost *39
+únosnost
+únosnost *1
+plynulost
+nosnost
+nosnost *11
+indukčnost
+indukčnost *43
+shovívavost
+rovnoprávnost
+jednotlivost
+jednotlivost *208
+důslednost
+něžnost
+něžnost *77
+pamětihodnost
+pamětihodnost *178
+podřízenost
+podřízenost *2
+obětavost
+tuhost
+tuhost *4
+ošklivost
+ošklivost *14
+Jasnost
+Jasnost *51
+komplexnost
+komplexnost *1
+křehkost
+křehkost *1
+nemocnost
+nemocnost *6
+provázanost
+provázanost *1
+příbuznost
+příbuznost *14
+krajnost
+krajnost *67
+hravost
+omezenost
+účelnost
+aktuálnost
+aktuálnost *1
+svrchovanost
+svrchovanost *2
+opuštěnost
+opuštěnost *1
+ohleduplnost
+štědrost
+štědrost *1
+zákonnost
+zákonnost *3
+zadluženost
+zadluženost *3
+stručnost
+kyselost
+kyselost *2
+obrazotvornost
+výhodnost
+soudnost
+vnímavost
+průhlednost
+pracovitost
+sebelítost
+hrubost
+hrubost *38
+osobitost
+osobitost *13
+ostrost
+ostrost *3
+bezohlednost
+bezohlednost *2
+danost
+danost *104
+nedostatečnost
+nedostatečnost *2
+nerozhodnost
+strnulost
+vyváženost
+vyváženost *1
+houževnatost
+nesnášenlivost
+proslulost
+sešlost
+sešlost *40
+
+
+
+
+obezřetnost
+nehybnost
+nehybnost *1
+nepravost
+nepravost *70
+bohatost
+bohatost *1
+různost
+různost *3
+mohutnost
+mohutnost *6
+mužnost
+mužnost *1
+významnost
+významnost *1
+závaznost
+trpkost
+trpkost *17
+bezradnost
+smyslnost
+trapnost
+trapnost *25
+dychtivost
+méněcennost
+názornost
+výstřednost
+výstřednost *79
+přizpůsobivost
+
+
+opravdovost
+neplodnost
+novost
+novost *8
+prospěšnost
+prospěšnost *1
+všednost
+všednost *3
+dobročinnost
+korektnost
+korektnost *1
+zlomyslnost
+zlomyslnost *17
+drsnost
+drsnost *3
+uzavřenost
+oblačnost
+oblačnost *7
+oblíbenost
+státnost
+statnost *1
+ziskovost
+ctihodnost
+ctihodnost *137
+dušnost
+potřebnost
+potřebnost *6
+
+mnohost
+mnohost *2
+zamilovanost
+zamilovanost *1
+vřelost
+chamtivost
+chamtivost *1
+přesvědčivost
+zločinnost
+přiměřenost
+veselost
+vlídnost
+vlídnost *1
+vzájemnost
+
+vágnost
+vágnost *2
+netečnost
+netečnost *1
+dlouhověkost
+podrážděnost
+sytost
+sytost *2
+starostlivost
+pomíjivost
+využitelnost
+každodennost
+každodennost *3
+nedočkavost
+působivost
+výnosnost
+ženskost
+životaschopnost
+nezkušenost
+nezkušenost *5
+srozumitelnost
+neopatrnost
+
+
+okázalost
+okázalost *6
+přístupnost
+diskrétnost
+nedotknutelnost
+nedotknutelnost *1
+spřízněnost
+spřízněnost *3
+šikovnost
+šikovnost *2
+bezúhonnost
+hospodárnost
+nepříčetnost
+nepříčetnost *1
+cudnost
+cudnost *1
+marnivost
+marnivost *5
+preciznost
+preciznost *1
+prudkost
+nehoráznost
+nehoráznost *31
+jinakost
+jinakost *3
+malichernost
+malichernost *92
+podivnost
+podivnost *62
+svornost
+živost
+výmluvnost
+věcnost
+věcnost *1
+nasákavost
+nasákavost *1
+bělost
+bělost *1
+nehodovost
+nehodovost *1
+ubohost
+ubohost *6
+neporazitelnost
+obranyschopnost
+reálnost
+šetrnost
+bezprostřednost
+soběstačnost
+nesmyslnost
+nesmyslnost *4
+svébytnost
+
+krátkost
+soutěživost
+žádostivost
+žádostivost *8
+specifičnost
+specifičnost *2
+nemohoucnost
+pohodlnost
+vykonatelnost
+neústupnost
+obraznost
+záludnost
+záludnost *88
+dramatičnost
+zvídavost
+ospalost
+rozmrzelost
+rozmrzelost *1       /zkontrolováno: ok/
+duchovnost
+duchovnost *3
+obsazenost
+obsazenost *1
+náchylnost
+náchylnost *2
+sklíčenost
+bezstarostnost
+bezstarostnost *1
+plachost
+pobožnost
+pobožnost *47
+tělesnost
+troufalost
+troufalost *4
+obecnost
+obecnost *10
+povrchnost
+povrchnost *8
+ušlechtilost
+snadnost
+srdečnost
+nezodpovědnost
+nezodpovědnost *1
+udržitelnost
+velkolepost
+velkolepost *1
+střídmost
+koktavost
+koktavost *1
+nezávadnost
+univerzálnost
+výlučnost
+výlučnost *1
+nepravidelnost
+nepravidelnost *49
+prozíravost
+bledost
+nestrannost
+hanebnost
+hanebnost *35
+nápaditost
+nápaditost *1
+nekonečnost
+nekonečnost *3
+neposlušnost
+odevzdanost
+praktičnost
+autentičnost
+nedůslednost
+nedůslednost *8
+škodlivost
+úspornost
+divokost
+divokost $ *1
+proveditelnost
+směrovost
+směrovost *4
+nevyhnutelnost
+nevyhnutelnost *3
+nahodilost
+nahodilost *40
+nicotnost
+nicotnost *18
+smrtelnost
+domýšlivost
+mírnost
+modernost
+ohavnost
+ohavnost *36
+otupělost
+přecitlivělost
+beztrestnost
+chtivost
+tvrdohlavost
+tvrdohlavost *1 /zkontrolováno: ok/
+lehkomyslnost
+malost
+malost *1
+nestálost
+odhodlanost
+smysluplnost
+členitost
+členitost *1
+náhodnost
+pomalost
+pomalost *1
+prodejnost
+strohost
+nemravnost
+nemravnost *9
+podlost
+podlost *20
+podmíněnost
+podmíněnost *9
+důkladnost
+dravost
+povýšenost
+povýšenost *1
+bystrost
+důvěřivost
+posvátnost
+snášenlivost
+zaostalost
+čestnost
+činorodost
+přívětivost
+škodolibost
+škodolibost *1
+
+rafinovanost
+rafinovanost *5
+zběsilost
+zběsilost *3
+neměnnost
+neměnnost *1
+průchodnost
+přímost
+spontánnost
+spontánnost *1
+surovost
+surovost *18
+vypočítavost
+vypočítavost *1
+horkost
+uvolněnost
+mrzutost
+mrzutost *44
+přilnavost
+trestnost
+smělost
+umírněnost
+jasnozřivost
+všestrannost
+jednotvárnost
+tvářnost
+tvářnost *1   /zkontrolováno: ok/
+učenost
+učenost *2
+plnoletost
+serióznost
+šílenost
+šílenost *32
+pozoruhodnost
+pozoruhodnost *59
+přímočarost
+"přímočarost *2 /zkontrolováno: 1 ok, 1 ko/"
+výřečnost
+zkaženost
+zkaženost *1
+atraktivnost
+izolovanost
+nedisciplinovanost
+samolibost
+soustředěnost
+zmatenost
+zmatenost *2
+jednostrannost
+jednostrannost *5
+jízlivost
+jízlivost *17
+souvztažnost
+souvztažnost *12
+dvojznačnost
+dvojznačnost *3
+nezákonnost
+nezákonnost *22
+počestnost
+vázanost
+vázanost *1
+konečnost
+mladost
+podezíravost
+předvídavost
+roztříštěnost
+střízlivost
+náruživost
+náruživost *10
+nedostupnost
+netěsnost
+netěsnost *37
+krátkozrakost
+pověrčivost
+pověrčivost *1
+tupost
+vytíženost
+malátnost
+průměrnost
+průměrnost *1
+zaujatost
+měkkost
+směšnost
+směšnost *12
+těsnost
+kritičnost
+kritičnost *1
+podjatost
+prašnost
+světlost
+světlost *6
+trvalost
+zarputilost
+zarputilost *1
+cílevědomost
+odloučenost
+konkrétnost
+konkrétnost *7
+rozpustnost
+rozpustnost *1
+vroucnost
+ztuhlost
+obřadnost
+obřadnost *5
+rizikovost
+roztržitost
+rozvodovost
+solidnost
+solidnost *1
+ústavnost
+čitelnost
+jednotnost
+jednoznačnost
+kajícnost
+kultivovanost
+neviditelnost
+rozlehlost
+slučitelnost
+stísněnost
+duchapřítomnost
+podnikavost
+ovladatelnost
+pokryvnost
+pokryvnost *3
+polnost
+polnost *70
+nejednotnost
+neslučitelnost
+smyslovost
+štíhlost
+liknavost
+nadutost
+nadutost *1
+nenasytnost
+ochablost
+křivost
+křivost *2
+váhavost
+vymahatelnost
+bezvýznamnost
+bezvýznamnost *3
+grotesknost
+neupřímnost
+příčetnost
+tajemnost
+uspořádanost
+normálnost
+regulérnost
+bizarnost
+bizarnost *10
+protiprávnost
+protiprávnost *1
+předpojatost
+předpojatost *2
+akceschopnost
+pracnost
+prostupnost
+prostupnost *1
+výhřevnost
+zvrácenost
+zvrácenost *21
+komplikovanost
+mnohotvárnost
+příchylnost
+příchylnost *2
+schválnost
+schválnost *28
+šlechetnost
+špinavost
+špinavost *26
+výtěžnost
+výtěžnost *1
+formálnost
+formálnost *3
+kulturnost
+neomalenost
+neomalenost *2
+neuspořádanost
+umíněnost
+vyčerpanost
+neobratnost
+neobratnost *4
+nezralost
+rozumnost
+služebnost
+služebnost *5
+ukrutnost
+ukrutnost *50
+nectnost
+nectnost *43
+opakovatelnost
+citovost
+nechutnost
+nechutnost *26
+neúplnost
+nevyrovnanost
+nevyrovnanost *2
+opovážlivost
+opovážlivost *2
+propojenost
+řevnivost
+řevnivost *2
+uměřenost
+vášnivost
+zaslepenost
+hbitost
+lačnost
+lačnost *2
+nejednoznačnost
+nejednoznačnost *3
+organizovanost
+roztažnost
+roztažnost *1
+sjízdnost
+sjízdnost *1
+svítivost
+svítivost *1
+urputnost
+zpupnost
+zrnitost
+zrnitost *2
+zvrhlost
+zvrhlost *20
+chudokrevnost
+malomyslnost
+malomyslnost *1
+objasněnost
+pomstychtivost
+pravdomluvnost
+původnost
+negramotnost
+ohebnost
+prostornost
+prostornost *1
+rozpolcenost
+syrovost
+dosažitelnost
+následnost
+následnost *1
+neprůhlednost
+nerozvážnost
+nerozvážnost *7
+nevhodnost
+odlehlost
+ráznost
+dynamičnost
+chlípnost
+nadbytečnost
+neomylnost
+neomylnost *3
+rozvážnost
+ryzost
+velkomyslnost
+zrůdnost
+zrůdnost *12
+absurdnost
+absurdnost *9
+dobrovolnost
+dobrovolnost *1
+lstivost
+poddajnost
+povětrnost
+přípustnost
+shodnost
+shodnost *1
+účelovost
+vydatnost
+vydatnost *1
+vyzrálost
+celost
+celost *8
+nenápadnost
+nešikovnost
+robustnost
+úrodnost
+živelnost
+bolestivost
+družnost
+chladnokrevnost
+malebnost
+nenucenost
+osudovost
+spravedlivost
+všemohoucnost
+bezvýchodnost
+mrštnost
+necitlivost
+obludnost
+obludnost *7
+pikantnost
+pikantnost *6
+přenositelnost
+reprodukovatelnost
+předvídatelnost
+roztomilost
+roztomilost *4
+nesprávnost
+nesprávnost *4
+svéprávnost
+březost
+nestoudnost
+nestoudnost *8
+neukázněnost
+neukázněnost *1
+nevázanost
+nevšímavost
+ostýchavost
+provinilost
+rezervovanost
+solventnost
+srážlivost
+zákeřnost
+zákeřnost *7
+hodnověrnost
+nepřipravenost
+nesrozumitelnost
+nesrozumitelnost *1
+neúspěšnost
+svědomitost
+monotónnost
+přijatelnost
+přijatelnost *1
+souměrnost
+vzpurnost
+jedovatost
+jedovatost *7
+rovnodennost
+rovnodennost *3
+rozpínavost
+výbušnost
+nízkost
+nízkost *4
+protikladnost
+protikladnost *1
+úpornost
+majestátnost
+nepřístojnost
+nepřístojnost *14
+nevzdělanost
+obyčejnost
+obyčejnost *1
+zatvrzelost
+zřetelnost
+zřetelnost *1
+hladkost
+náladovost
+nezdvořilost
+nezdvořilost *2
+odtažitost
+problematičnost
+spoluodpovědnost
+uvědomělost
+dobrosrdečnost
+dočasnost
+nákladnost
+nekompetentnost
+rozmařilost
+ *rozmařilost *1
+vševědoucnost
+vševědoucnost *1
+všudypřítomnost
+zchátralost
+dráždivost
+dvojakost
+nelidskost
+nelidskost *1
+neohrabanost
+neohrabanost *3
+nepoctivost
+nepravdivost
+příjemnost
+příjemnost *24
+relativnost
+sebestřednost
+slanost
+slovesnost
+systematičnost
+zásadovost
+zatrpklost
+zoufalost
+zoufalost *1
+galantnost
+galantnost *2
+hebkost
+mazanost
+nefunkčnost
+plastičnost
+rozpornost
+rozpornost *6
+výraznost
+bláhovost
+bláhovost *4
+nadřízenost
+nepřístupnost
+nezpůsobilost
+propracovanost
+přátelskost
+
+
+strmost
+tvrdošíjnost
+uctivost
+kompaktnost
+nenáročnost
+obscénnost
+obscénnost *7
+proradnost
+proradnost *1
+rozsáhlost
+vtipnost
+vytříbenost
+duchaplnost
+duchaplnost *4
+nadčasovost
+niternost
+niternost *1
+světelnost
+udatnost
+udatnost *2
+vychytralost
+zachovalost
+bezútěšnost
+dochvilnost
+chápavost
+chybovost
+chybovost *3
+lehkovážnost
+lehkovážnost *1
+prostoduchost
+přezíravost
+rovnocennost
+starobylost
+starobylost *4
+úměrnost
+útočnost
+bázlivost
+blahosklonnost
+ctižádostivost
+komunikativnost
+neinformovanost
+neslušnost
+neslušnost *3
+nesmělost
+nestydatost
+prostopášnost
+prostopášnost *8
+záhadnost
+bytnost
+bytnost *5
+jednomyslnost
+
+laxnost
+legálnost
+legálnost *1
+nelogičnost
+nelogičnost *8
+nepravděpodobnost
+nepravděpodobnost *3
+nepředvídatelnost
+nevyváženost
+nevyváženost *1
+povědomost
+průzračnost
+průzračnost *2
+reprezentativnost
+skleslost
+stydlivost
+velkodušnost
+velkodušnost *1
+zatížitelnost
+zatížitelnost *1
+
+
+bezbrannost
+hamižnost
+marnotratnost
+objektivnost
+rozporuplnost
+rozporuplnost *1
+smířlivost
+vulgárnost
+vulgárnost *1
+bezcitnost
+bezcitnost *1
+čerstvost
+čerstvost *1
+hrabivost
+hudebnost
+loajálnost
+mnohoznačnost
+neobvyklost
+neobvyklost *2
+neprůzvučnost
+neprůzvučnost *1
+obrazivost
+podezřívavost
+pórovitost
+průjezdnost
+umanutost
+umanutost *2
+nedoslýchavost
+příčinnost
+spoluzodpovědnost
+těžkopádnost
+ukázněnost
+všeobecnost
+všeobecnost *6
+vzdušnost
+demokratičnost
+hříšnost
+hříšnost *1
+mimořádnost
+mimořádnost *5
+nepřehlednost
+nerovnoměrnost
+nerovnoměrnost *6
+pronikavost
+věrolomnost
+bodrost
+cukernatost
+čtenost
+intimnost *
+intimnost *26
+jsoucnost
+jsoucnost *1
+líbeznost
+neskutečnost
+neskutečnost *1
+nesmiřitelnost
+roztěkanost
+skvělost
+stejnost
+stejnost *1
+urozenost
+útulnost
+bujnost
+prodyšnost
+rozšiřitelnost
+stranickost
+zářivost
+zbrklost
+čirost
+čirost *1
+nabubřelost
+neposkvrněnost
+nezištnost
+odrazivost
+panovačnost
+pomatenost
+pomatenost *1
+pompéznost
+pompéznost *1
+přináležitost
+přináležitost *1
+svobodomyslnost
+zastaralost
+dobrotivost
+ladnost
+nafoukanost
+nasycenost
+nepatřičnost
+nepřípustnost
+oplzlost
+oplzlost *23
+palčivost
+pohlavnost
+pohlavnost *2
+rozkolísanost
+rozšířenost
+sdílnost
+suchost
+unikátnost
+uvážlivost
+mnohostrannost
+skrytost
+sobeckost
+úrazovost
+zábavnost
+barvitost
+bojeschopnost
+dějinnost
+chrabrost
+chrabrost *3
+klíčivost
+neobsazenost
+neúčinnost
+neúčinnost *1
+předurčenost
+předurčenost *1
+soustavnost
+spořádanost
+světovost
+svůdnost
+svůdnost *2
+tajuplnost
+vilnost
+vyzývavost
+zahořklost
+zběhlost
+bezbožnost
+bezbožnost *4
+intertextovost
+licoměrnost
+mrazuvzdornost
+mrazuvzdornost *1
+nepostradatelnost
+nespoutanost
+obeznámenost
+osamocenost
+otrlost
+prohnanost
+příšernost
+příšernost *10
+spořivost
+srovnatelnost
+škálovatelnost
+velebnost
+zanedbanost
+zletilost
+definitivnost
+hrůznost
+hrůznost *2
+kompetentnost
+módnost
+nedůvěřivost
+neodpovědnost
+operativnost
+plovatelnost
+prostorovost
+prostorovost *2
+rovnoměrnost
+spletitost
+spletitost *11
+vědeckost
+zapomnětlivost
+ambivalentnost
+konzervativnost
+napjatost
+
+nezaujatost
+oddělenost
+pohltivost
+popisnost
+prostořekost
+prostořekost *1
+provozuschopnost
+všímavost
+zabedněnost
+zdobnost
+zkorumpovanost
+dlouhodobost
+masovost
+neefektivnost
+neefektivnost *1
+nechápavost
+neporušenost
+nesourodost
+nesoustředěnost
+ničemnost
+ničemnost *5
+
+poslechovost
+poslechovost *2
+skvrnitost
+slyšitelnost
+upovídanost
+vodotěsnost
+zainteresovanost
+zhovadilost
+zhovadilost *3
+bohabojnost
+drahocennost
+drahocennost *5
+dvornost
+
+hratelnost
+namyšlenost
+naštvanost
+naštvanost *1
+obezřelost
+odpornost
+odpornost *5
+plynatost
+podružnost
+podružnost *25
+poruchovost
+primitivnost
+primitivnost *3
+
+průbojnost
+rozpačitost
+sňatečnost
+teatrálnost
+tragičnost
+trojjedinost
+umělost
+umělost *1
+vrtkavost
+vyprahlost
+vyvolenost
+zádumčivost
+zádumčivost *3
+zamlklost
+zdlouhavost
+ztřeštěnost
+ztřeštěnost *9
+aplikovatelnost
+čilost
+
+
+
+náhlost
+nakažlivost
+nedochvilnost
+nemotornost
+nepropustnost
+poetičnost
+ponurost
+povolnost
+rovinnost
+rozrůzněnost
+sezónnost
+sezónnost *1
+schůdnost
+spjatost
+úzkostlivost
+vzduchotěsnost
+bezdětnost
+bezdětnost *1
+ideovost
+
+nákladovost
+nesmírnost
+nesmírnost *1
+plochost
+polovičatost
+polovičatost *3
+průkaznost
+přičinlivost
+rozervanost
+sehranost
+úctyhodnost
+uhlazenost
+uznatelnost
+ztrátovost
+abstraktnost
+dotěrnost
+dotěrnost *2
+
+důvodnost
+komičnost
+koupěschopnost
+líbivost
+lidovost
+melodičnost
+neformálnost
+nevychovanost
+promyšlenost
+příkrost
+příkrost *1
+svázanost
+
+útrpnost
+útrpnost *1
+mírumilovnost
+muzikálnost
+
+neodbytnost
+neopakovatelnost
+neprostupnost
+neprůstřelnost
+nepřijatelnost
+nepřijatelnost *1
+nepřiměřenost
+nepřiměřenost *1
+nepřirozenost
+nepřirozenost *1
+nevypočitatelnost
+přízemnost
+přízemnost *3
+rozpracovanost
+stupňovitost
+trudnomyslnost
+trudnomyslnost *1
+všednodennost
+všednodennost *2
+záměrnost
+zlovolnost
+zlovolnost *4
+živočišnost
+adekvátnost
+cizost
+dětinskost
+dětinskost *2
+doslovnost
+doslovnost *1
+důmyslnost
+férovost
+fotbalovost
+inovativnost
+lahodnost
+
+nápadnost
+pokleslost
+prostřednost
+prostřednost *1
+rozjařenost
+
+strupovitost
+světskost
+všemocnost
+všemocnost *1
+zaměnitelnost
+bujarost
+bujarost *2
+hořlavost
+hutnost
+ledabylost
+
+necitelnost
+nedotčenost
+nedůtklivost
+nedůtklivost *1
+neohroženost
+nesnesitelnost
+neškodnost
+nevděčnost
+opodstatněnost
+podbízivost
+realizovatelnost
+ukřivděnost
+včasnost
+volitelnost
+vzdorovitost
+zaměřenost
+zaměřenost *2
+žoviálnost
+žravost
+bezelstnost
+beznadějnost
+beznadějnost *1
+bojácnost
+energičnost
+křečovitost
+masožravost
+nekompromisnost
+nekoncentrovanost
+nevěřícnost
+nevěřícnost *1
+podvojnost
+pokrokovost
+
+
+rozlišitelnost
+
+spornost
+úslužnost
+vymyšlenost
+vymyšlenost *16
+výstižnost
+zasmušilost
+absolutnost
+bohorovnost
+dobromyslnost
+dvojsmyslnost
+dvojsmyslnost *1
+
+
+nespravedlivost
+nevýhodnost
+nezdolnost
+nezúčastněnost
+odměřenost
+ohraničenost
+ohraničenost *2
+
+povznesenost
+protiskluznost
+průsvitnost
+rytířskost
+svéhlavost
+svéhlavost *1
+těkavost
+trojrozměrnost
+vláčnost
+vyhraněnost
+vznětlivost
+vzrušivost
+autonomnost
+božskost
+břitkost
+
+
+
+
+legitimnost
+ležérnost
+namáhavost
+namáhavost *1
+nehospodárnost
+nehospodárnost *1
+
+nekalost
+nekalost *14
+nemorálnost
+nemorálnost *3
+nepoddajnost
+neprůchodnost
+neprůchodnost *1
+nevyzpytatelnost
+ojedinělost
+otáčivost
+otáčivost *1
+paličatost
+patrnost
+poťouchlost
+poťouchlost *10
+provokativnost
+přetíženost
+připoutanost
+sevřenost
+stravitelnost
+
+tažnost
+ucelenost
+údernost
+upravenost
+vratkost
+zaměstnatelnost
+zpěvnost
+ekonomičnost
+konstantnost
+konstantnost *2
+krvežíznivost
+liberálnost
+měřitelnost
+nečestnost
+nečestnost *1
+nepatrnost
+nepatrnost *2
+nesobeckost
+netaktnost
+netaktnost *1
+nezničitelnost
+pilnost
+
+pokročilost
+pomíjejícnost
+poníženost
+pravověrnost
+prolhanost
+přeplněnost
+převoditelnost
+sousednost
+sousednost *3
+souslednost
+souslednost *1
+spádovost
+šikmost
+
+ukvapenost
+ukvapenost *2
+upjatost
+
+vlezlost
+zaneprázdněnost
+akčnost
+děsivost
+falešnost
+falešnost *2
+hltnost
+hltnost *4
+
+hubenost
+necudnost
+necudnost *3
+nepružnost
+neskromnost
+nezvyklost
+nezvyklost *2
+osvícenost
+pádnost
+podlézavost
+pochmurnost
+pochmurnost *1
+
+rozpustilost
+rozpustilost *3
+strukturovanost
+tekutost
+
+
+zkostnatělost
+změkčilost
+barvoslepost
+civilizovanost
+časovost
+čistotnost
+dekorativnost
+disciplinovanost
+důraznost
+dvoukolejnost
+
+literárnost
+nekorektnost
+nekorektnost *2
+nerovnoprávnost
+nerovnoprávnost *1
+
+obrovitost
+obrovitost *1
+odpudivost
+
+radikálnost
+rozespalost
+rozladěnost
+rozvernost
+rozvernost *1
+sdělnost
+sofistikovanost
+splavnost
+strojenost
+supravodivost
+
+
+velkost
+velkost *1
+vnějškovost
+vnějškovost *2
+zámožnost
+zastupitelnost
+ziskuchtivost
+zištnost
+
+afektovanost
+bláznivost
+bláznivost *1
+čtivost
+dalekozrakost
+exaktnost
+jednolitost
+kazivost
+kazivost *1
+kolísavost
+kulatost
+nebojácnost
+nedělitelnost
+nedospělost
+nedospělost *1
+nepředloženost
+nepředloženost *6
+nereálnost
+nesmlouvavost
+nestřídmost
+nestřídmost *1
+neudržitelnost
+
+
+nezvratnost
+osvětlenost
+ošidnost
+otužilost
+poddanost
+přibližnost
+přibližnost *1
+rozličnost
+rozličnost *1
+sečtělost
+slavnostnost
+stejnorodost
+systémovost
+únavnost
+vyhýbavost
+vychrtlost
+vynutitelnost
+zlotřilost
+zlotřilost *6
+časnost
+divadelnost
+dohlednost
+emotivnost
+horoucnost
+horoucnost *2
+jímavost
+koketnost
+lehkověrnost
+motivovanost
+mstivost
+mstivost *1
+nečitelnost
+neostrost
+neostrost *2
+nepraktičnost
+nesamozřejmost
+nespojitost
+nespojitost *2
+nevyzrálost
+omylnost
+originálnost
+permafrost
+průraznost
+radostnost
+radostnost *1
+realističnost
+slabomyslnost
+slabomyslnost *3
+solidárnost
+spavost
+statičnost
+sveřepost
+tvárnost
+úplatnost
+uraženost
+uspěchanost
+úzkoprsost
+vlažnost
+
+vykořeněnost
+vyprázdněnost
+výstavnost
+zatuchlost
+
+bezbariérovost
+dostatečnost
+chladnost
+individuálnost
+individuálnost *2
+naivnost
+naivnost *2
+nedobytnost
+nedůstojnost
+nekulturnost
+neodvratnost
+neodvratnost *1
+neotesanost
+neotesanost *1
+neotřelost
+nepochopitelnost
+nesvornost
+nevážnost
+nevlídnost
+nevrlost
+nevrlost *1
+nezměrnost
+nezměrnost *3
+
+
+oduševnělost
+ohyzdnost
+ohyzdnost *1
+
+podnapilost
+popudlivost
+potměšilost
+přechodnost
+přepjatost
+přepjatost *1
+přepracovanost
+sebevražednost
+senzacechtivost
+snesitelnost
+společenskost
+svéráznost
+svéráznost *2
+tolerantnost
+trojúhelnost
+úpravnost
+ustrašenost
+zásluhovost
+zatíženost
+znouzectnost
+ztracenost
+
+amorálnost
+bezostyšnost
+civilnost
+českost
+hřejivost
+kýčovitost
+levicovost
+logičnost
+movitost
+movitost *5
+nedůvěryhodnost
+neodvolatelnost
+neochvějnost
+nepromokavost
+neuvěřitelnost
+nevěrohodnost
+nevidomost
+obhroublost
+obhroublost *3
+odpoutanost
+opotřebovanost
+otrávenost
+pořádkumilovnost
+pravicovost
+předmětnost
+předmětnost *1
+razantnost
+relevantnost
+spanilost
+spanilost *1
+stádnost
+subtilnost
+subtilnost *3
+úskočnost
+vašnost
+vašnost *1
+víceznačnost
+vztažnost
+vztažnost *3
+zázračnost
+zhoubnost
+apolitičnost
+autoritativnost
+bezcharakternost
+bezzásadovost
+bigotnost
+brilantnost
+dvojkolejnost
+glasnost
+hašteřivost
+historičnost
+historičnost *1
+honosnost
+choromyslnost
+choromyslnost *1
+jalovost
+krvácivost
+lenivost
+lyričnost
+multifunkčnost
+nedokončenost
+nedotáčivost
+nekonvenčnost
+neokázalost
+neosobnost
+nepotřebnost
+nepotřebnost *2
+nepoužitelnost
+nepřejícnost
+neuchopitelnost
+neujasněnost
+
+
+normativnost
+oblost
+oblost *1
+odlučnost
+odlučnost *1
+odtrženost
+opozičnost
+podmanivost
+prohnilost
+prohnilost *1
+proměnnost
+revolučnost
+snaživost
+subjektivnost
+
+šťavnatost
+tendenčnost
+trudomyslnost
+trudomyslnost *3
+úsečnost
+užitkovost
+vodnatelnost
+všetečnost
+zavilost
+zemitost
+zlověstnost
+zlověstnost *1
+zpracovatelnost
+zpracovatelnost *1
+
+dvojjazyčnost
+dýchavičnost
+dýchavičnost *1
+efektnost
+frivolnost
+frivolnost *1
+hlubokost
+indiskrétnost
+indiskrétnost *3
+jedinost
+
+konzistentnost
+mnohomluvnost
+mravopočestnost
+naplněnost
+nedomyšlenost
+nedomyšlenost *3
+nedosažitelnost
+neobjektivnost
+neobjektivnost *1
+neoblomnost
+nepodobnost
+nepřemožitelnost
+neúprosnost
+neužitečnost
+
+nezávaznost
+nezranitelnost
+odvolatelnost
+oslnivost
+otěruvzdornost
+plačtivost
+plešatost
+podřazenost
+protiústavnost
+provinčnost
+přezaměstnanost
+rozestavěnost
+rozhazovačnost
+servilnost
+sledovatelnost
+
+šerednost
+topornost
+topornost *2
+
+úchylnost
+úchylnost *5
+uvěřitelnost
+vnějšnost
+vnějšnost *3
+
+žvanivost
+blahodárnost
+diferencovanost
+ekologičnost
+exotičnost
+hrozivost
+chatrnost
+kompletnost
+konvenčnost
+kryvost
+náměsíčnost
+nekoncepčnost
+nekonformnost
+nenahraditelnost
+neoblíbenost
+odmítavost
+odvážnost
+odvážnost *2
+pěnivost
+poživačnost
+prchavost
+prchlivost
+průtočnost
+průtočnost *1
+přídržnost
+řiditelnost
+stylovost
+tučnost
+úhlednost
+ústupnost
+veřejnoprávnost
+
+vztahovost
+vztahovost *1
+vztaženost
+vztaženost *1
+zahleděnost
+zakotvenost
+znamenitost
+znamenitost *1
+zpustlost
+banálnost
+bezcennost
+bezcennost *1
+beztvarost
+celkovost
+detailnost
+dialogičnost
+
+
+
+
+
+krvelačnost
+lacinost
+lacinost *1
+lákavost
+lákavost *1
+levorukost
+lživost
+
+mladistvost
+mladistvost *1
+mocichtivost
+monumentálnost
+mužskost
+nejapnost
+nejapnost *3
+neloajálnost
+nepořádnost
+neskrytost
+neumělost
+neúnavnost
+neurvalost
+neústavnost
+nutkavost
+plytkost
+podivuhodnost
+podivuhodnost *4
+poutavost
+pozemskost
+poznatelnost
+principiálnost
+prokazatelnost
+přeložitelnost
+přemýšlivost
+přesycenost
+přítulnost
+pudovost
+rozdrobenost
+rozháranost
+situovanost
+
+stavebnost
+střediskovost
+svižnost
+šedivost
+tmavost
+tmavost *1
+ustaranost
+úživnost
+vadnost
+výtečnost
+výtečnost *2
+vyzáblost
+vzlínavost
+zanícenost
+zasněnost
+zhýralost
+zhýralost *1
+zjemnělost
+zjevnost
+zrádnost
+zřejmost
+ambicióznost
+bezuzdnost
+bezuzdnost *3
+dělitelnost
+dobrodružnost
+hranatost
+chaotičnost
+kolmost
+koncepčnost
+lámavost
+lascivnost
+lascivnost *1
+lidumilnost
+lomivost
+masivnost
+metaforičnost
+násobnost
+neangažovanost
+
+nemilosrdnost
+nenávratnost
+neoprávněnost
+nepohyblivost
+
+nevěrnost
+nevěrnost *2
+nevšednost
+ortodoxnost
+
+panenskost
+patetičnost
+patetičnost *2
+polarizovatelnost
+poplatnost
+proočkovanost
+přelétavost
+přenosnost
+
+
+sebekritičnost
+svévolnost
+symetričnost
+těžkomyslnost
+trénovanost
+triviálnost
+triviálnost *3
+unáhlenost
+uskutečnitelnost
+vodoodpudivost
+výpovědnost
+zemdlenost
+zemdlelost *1
+zmužilost
+žádoucnost
+analytičnost
+automatičnost
+automatičnost *1
+bezmyšlenkovitost
+delikátnost
+delikátnost *1
+drastičnost
+
+hloubavost
+jednosměrnost
+košatost
+kousavost
+kousavost *1
+kvalifikovanost
+
+magičnost
+málomluvnost
+manévrovatelnost
+mělkost
+mělkost *1
+mlhavost
+mrzkost
+nábožnost
+nadstranickost
+neadekvátnost
+neadekvátnost *1
+nekritičnost
+
+nemajetnost
+neoddělitelnost
+neodvislost
+neotřesitelnost
+neplynulost
+neproniknutelnost
+nepřetržitost
+nerozhodnutelnost
+nesamostatnost
+nesouměrnost
+nesouměrnost *1
+neuvědomělost
+nevymezitelnost
+nevýraznost
+nezaměnitelnost
+nezbednost
+nezbednost *6
+nezletilost
+ničivost
+obojakost
+obojakost *1
+obrusnost
+oficiálnost
+oficiálnost *1
+omrzelost
+opracovatelnost
+oproštěnost
+
+otylost
+ovlivnitelnost
+pochopitelnost
+povšechnost
+právoplatnost
+procesuálnost
+přelidněnost
+příznakovost
+rozmarnost
+rozptýlenost
+rozšafnost
+rozvláčnost
+samoúčelnost
+savost
+skladebnost
+snivost
+souběžnost
+
+světloplachost
+světloplachost *1
+temnost
+temnost *2
+titěrnost
+titěrnost *2
+uměleckost
+uplatnitelnost
+uštěpačnost
+uštěpačnost *3
+úzkostnost
+vyhublost
+zakořeněnost
+zapeklitost
+zapeklitost *4
+zapšklost
+zásaditost
+znuděnost
+aktivnost
+bezduchost
+bezduchost *1
+bezchybnost
+bezzásahovost
+cykličnost
+červivost
+darebnost
+darebnost *6
+fádnost
+choulostivost
+choulostivost *1
+
+
+
+kontroverznost
+láskyplnost
+majetnost
+milosrdnost
+mnohočetnost
+mnohovrstevnatost
+morálnost
+nadrženost
+nahost
+nedůležitost
+neodolatelnost
+neohraničenost
+neomezenost
+nepohodlnost
+neposednost
+nepředpojatost
+nerozumnost
+nerozumnost *1
+nesouměřitelnost
+nestvůrnost
+nestvůrnost *2
+neúčelnost
+neúnosnost
+neuváženost
+neuzavřenost
+nevyčerpatelnost
+nevyjasněnost
+obrátkovost
+odcizenost
+omšelost
+paralelnost
+perverznost
+perverznost *1
+plánovitost
+plošnost
+podstatnost
+podstatnost *1
+pomýlenost
+pomýlenost *1
+pozitivnost
+prostomyslnost
+protřelost
+prvotnost
+překvapivost
+přetržitost
+romantičnost
+rozhádanost
+rozhádanost *1
+rozprostraněnost
+rozumovost
+rytmičnost
+řádnost
+řídkost
+schematičnost
+skeletovitost
+
+soupeřivost
+
+širokopásmovost
+širokopásmovost *1
+škrobenost
+ublíženost
+ublíženost *1
+
+upotřebitelnost
+útlocitnost
+vychloubačnost
+významovost
+zachmuřenost
+
+zvířeckost
+alternativnost
+bezbřehost
+bezcílnost
+bezobsažnost
+bezobslužnost
+bezplatnost
+bojechtivost
+brannost
+častost
+dovolenost
+fragmentárnost
+humánnost
+charakternost
+impulsivnost
+impulsivnost *1
+invenčnost
+jinost
+kontrolovatelnost
+krkolomnost
+krkolomnost *5
+libovolnost
+libozvučnost
+libozvučnost *2
+malověrnost
+manipulovatelnost
+metodičnost
+morbidnost
+morbidnost *5
+náboženskost
+nastavitelnost
+natěšenost
+nečekanost
+nečekanost *1
+neduživost
+nehotovost
+nenormálnost
+nenormálnost *2
+nepřizpůsobivost
+nerozehranost
+nerozlišenost
+neserióznost
+nešetrnost
+netolerantnost
+neúplatnost
+neuskutečnitelnost
+nezakotvenost
+nezáměrnost
+nezměnitelnost
+nezměnitelnost *1
+
+nudnost
+obchodovatelnost
+obsáhlost
+obsažnost
+obvyklost
+obvyklost *2
+odříkavost
+odříkavost *1
+opakovanost
+paradoxnost
+političnost
+poměrnost
+poučenost
+povídavost
+přehnanost
+přehnanost *1
+překotnost
+přízračnost
+přízračnost *1
+pufrovitost
+racionálnost
+rezolutnost
+rozcitlivělost
+rozcitlivělost *1
+
+rozvinutost
+sbíhavost
+semknutost
+senzačnost
+sériovost
+skladnost
+skladovatelnost
+slabozrakost
+smáčivost
+směnitelnost
+směnitelnost *1
+
+srdnatost
+stlačitelnost
+strašidelnost
+strašidelnost *2
+sugestivnost
+svátečnost
+svíravost
+štítivost
+váženost
+vodnost
+vyřazenost
+vyumělkovanost
+vyumělkovanost *1
+závadnost
+zmatečnost
+zmatečnost *1
+zvukomalebnost
+zženštilost
+žhavost
+agilnost
+distributivnost
+
+emocionálnost
+erudovanost
+globálnost
+heterogennost
+hovornost
+chvástavost
+iniciativnost
+jednobarevnost
+komediálnost
+koncentrovanost
+lajdáckost
+metaznalost
+metaznalost *6
+mlsnost
+
+nedokrevnost
+nenaplněnost
+nenasycenost
+neodbornost
+nepevnost
+nepředvídanost
+nepředvídanost *2
+nesehranost
+nesolidnost
+nesolidnost *1
+nesvéprávnost
+nevyspělost
+nezastupitelnost
+nezlomnost
+nezlomnost *1
+nulovost
+
+odůvodněnost
+odvozenost
+ohroženost
+opožděnost
+perfektnost
+plodivost
+postupnost
+
+pragmatičnost
+prudérnost
+předpověditelnost
+předrážděnost
+přemrštěnost
+přemrštěnost *1
+
+rozmazlenost
+růžovost
+řešitelnost
+schvácenost
+
+snovost
+snovost *1
+souosost
+stanovitelnost
+stejnoměrnost
+stříbřitost
+stříbřitost *2
+svažitost
+svažitost *1
+svědivost
+šeroslepost
+
+tupozrakost
+určenost
+vetchozrakost
+vrtichvost
+vrtichvost *4
+vrženost
+výbojnost
+výslednost
+výtvarnost
+vzteklost
+vzteklost *2
+zaangažovanost
+zadumanost
+zajištěnost
+zamyšlenost
+zapomenutost
+zchytralost
+zkroušenost
+zvučnost
+básnivost
+bezdůvodnost
+bezdůvodnost *3
+bezejmennost
+bezideovost
+bezkoncepčnost
+bezúčelnost
+bezúčelnost *1
+
+
+démoničnost
+determinovanost
+dětskost
+dojivost
+dotčenost
+estetičnost
+excentričnost
+explicitnost
+geniálnost
+graciéznost
+hltavost
+churavost
+
+chytlavost
+impulzivnost
+insolventnost
+introvertnost
+intuitivnost
+
+kampaňovitost
+konformnost
+křiklavost
+křiklavost *1
+lepkavost
+lidnatost
+
+
+mnohojazyčnost
+monstróznost
+nadpřirozenost
+
+
+nedotaženost
+nedotaženost *2
+neférovost
+neférovost *2
+nehostinnost
+nehostinnost *1
+nelegálnost
+
+nenažranost
+neohleduplnost
+nepodstatnost
+nepodstatnost *3
+neprozřetelnost
+nepříslušnost
+nesystémovost
+netransparentnost
+netransparentnost *1
+
+neuspokojenost
+nevstřícnost
+nevýkonnost
+obyvatelnost
+odkázanost
+ošuntělost
+ošuntělost *1
+ověřitelnost
+ovocnost
+ovocnost *1
+perspektivnost
+
+pozorovatelnost
+propletenost
+propletenost *2
+protichůdnost
+protichůdnost *1
+prvoplánovost
+přebujelost
+přeorganizovanost
+pseudoudálost
+pseudoudálost *3
+rovnoběžnost
+rozložitelnost
+roztouženost
+roztouženost *1
+roztrpčenost
+říznost
+skandálnost
+slitovnost
+spisovnost
+splývavost
+stálobarevnost
+suverénnost
+světáckost
+truchlivost
+truchlivost *2
+typičnost
+unylost
+útlost
+vlahost
+vrstevnatost
+vtíravost
+výrazovost
+vyšinutost
+vyšinutost *1
+vztahovačnost
+zahálčivost
+zarytost
+zástupnost
+zasvěcenost
+zážitkovost
+ztrnulost
+
+arogantnost
+baroknost
+bezespornost
+bezporuchovost
+bezrozpornost
+bezvýraznost
+bezzubost
+
+čtvernost
+dějovost
+didaktičnost
+divnost
+dobytnost
+domáckost
+dominantnost
+duchovost
+
+dutost
+dvojlomnost
+evropskost
+extrémnost
+extrémnost *2
+familiárnost
+fantasknost
+fantastičnost
+fundovanost
+hektičnost
+chlapskost
+chybnost
+implicitnost
+implicitnost *1
+indiferentnost
+infantilnost
+konfliktnost
+konzumnost
+krátkodobost
+lapidárnost
+mrazivost
+multikulturnost
+naladěnost
+naladěnost *1
+
+nedomykavost
+
+nehořlavost
+nekonkrétnost
+nekontrolovatelnost
+nelítostnost
+
+nemírnost
+nemírnost *1
+nemluvnost
+nenadálost
+neočekávanost
+neopodstatněnost
+nepodjatost
+nepoučitelnost
+neprůbojnost
+neprůjezdnost
+nepředpověditelnost
+nerozlučitelnost
+nesnadnost
+nesolventnost
+nesoudnost
+nesoudnost *1
+nesoudržnost
+
+nevyhraněnost
+nezatíženost
+nezdrženlivost
+
+obsahovost
+obsahovost *1
+obskurnost
+obskurnost *2
+očividnost
+odlučitelnost
+okrajovost
+opojnost
+pánovitost
+
+podnětnost
+podrobenost
+
+podřadnost
+pohádkovost
+pohádkovost *1
+potrhlost
+potrhlost *1
+
+produktivnost
+
+prozkoumanost
+
+přestavitelnost
+převrácenost
+případnost
+případnost *6
+recyklovatelnost
+recyklovatelnost *1
+rigoróznost
+rozjitřenost
+rozlišnost
+rozvleklost
+samospasitelnost
+samosprašnost
+splnitelnost
+svislost
+sychravost
+sympatičnost
+tenkost
+teplokrevnost
+teplokrevnost *1
+trpnost
+úlisnost
+
+ústnost
+uznalost
+užitnost
+velkohubost
+
+vybíravost
+vybroušenost
+vyhrocenost
+vykonstruovanost
+výpravnost
+výživnost
+zabezpečenost
+zapomětlivost
+zasloužilost
+zastavěnost
+zašlost
+zdráhavost
+zhrzenost
+zhýčkanost
+zlomkovitost
+zsinalost
+zvukovost
+
+akceptovatelnost
+asociálnost
+autobiografičnost
+baculatost
+bedlivost
+bezbarvost
+bezbolestnost
+bezčasovost
+bezednost
+bezkonfliktnost
+bezkonfliktnost *1
+bezpáteřnost
+blazeovanost
+bombastičnost
+brutálnost
+brutálnost *1
+dobrodušnost
+dokazatelnost
+důvtipnost
+důvtipnost *2
+encyklopedičnost
+erotičnost
+exaltovanost
+fajnovost
+fajnovost *3
+fotogeničnost
+chlubivost
+chmurnost
+idyličnost
+iluzivnost
+jadrnost
+jasnovidnost
+
+
+kadeřavost
+klouzavost
+Kněžmost
+kolektivnost
+
+kontrapost
+kreativnost
+křesťanskost
+květnatost
+lakotnost
+léčivost
+léčivost *1
+lepivost
+lesnatost
+materiálnost
+mateřskost
+mnohovrstevnost
+mnohovýznamovost
+mobilnost
+mystičnost
+nahraditelnost
+
+nasládlost
+nedostatkovost
+nemodernost
+nenapravitelnost
+neopravdovost
+nepopulárnost
+neporušitelnost
+nepostižitelnost
+nepoznatelnost
+neproměnnost
+neprozíravost
+nepřátelskost
+nepůvodnost
+neregulérnost
+neregulérnost *1
+
+nerudnost
+neschůdnost
+neslučivost
+nesouvislost
+
+nestejnorodost
+nesvědomitost
+nevědeckost
+nevolitelnost
+nevylučitelnost
+nezajímavost
+nezkrotnost
+nezpochybnitelnost
+nezvladatelnost
+objemnost
+
+
+obnaženost
+obsaditelnost
+
+odbojnost
+odlidštěnost
+opravitelnost
+orientovanost
+památnost
+památnost *5
+parametričnost
+pestrobarevnost
+pihovitost
+pichlavost
+pichlavost *1
+pitvornost
+pitvornost *2
+planost
+podezřelost
+podezřelost *1
+pokřivenost
+potratovost
+potratovost *1
+prázdnost
+privilegovanost
+programovatelnost
+propojištěnost
+prozatímnost
+předběžnost
+předběžnost *1
+předimenzovanost
+publikovatelnost
+reflexivnost
+rozbíhavost
+rozdvojenost
+rozdvojenost *1
+rozechvělost
+rozevlátost
+rozmáchlost
+rozvolněnost
+rvavost
+scestnost
+sdělitelnost
+sentimentálnost
+simultánnost
+sladěnost
+
+solnatost
+solnatost *1
+státotvornost
+stereotypnost
+stoupavost
+strašlivost
+svárlivost
+štiplavost
+štiplavost *1
+taktnost
+tělnatost
+tíživost
+trefnost
+tuctovost
+týmovost
+učenlivost
+uhrančivost
+úpěnlivost
+urážlivost
+úsměvnost
+utopičnost
+úvěruschopnost
+vědoucnost
+
+vrozenost
+všežravost
+vyčůranost
+vykutálenost
+vypjatost
+vypočitatelnost
+vyvrženost
+vyvrženost *1
+vzletnost
+vznosnost
+zabydlenost
+
+zamlženost
+zaraženost
+zatuhlost
+zatuhlost *1
+znakovost
+znechucenost
+znělost
+znepokojivost
+zneužitelnost
+
+zpozdilost
+ztepilost
+adresnost
+agresivnost
+akurátnost
+akurátnost *1
+amorfnost
+analogičnost
+archaičnost
+bědnost
+beztaktnost
+bouřlivost
+buclatost
+čistitelnost
+
+devótnost
+dobrost
+dohledatelnost
+dojímavost
+dokončenost
+dvojrozměrnost
+éteričnost
+fatálnost
+flegmatičnost
+flexibilnost
+frekventovanost
+hádavost
+hmatatelnost
+hovorovost
+hrůzostrašnost
+hrůzostrašnost *2
+chabost
+chorobnost
+iluzívnost
+iluzornost
+inspirativnost
+ireálnost
+ironičnost
+klackovitost
+klamavost
+klamnost
+klasičnost
+komunikovatelnost
+krotkost
+kyprost
+
+
+mozaikovitost
+mrtvolnost
+nadnesenost
+nadnesenost *1
+nadýchanost
+napínavost
+narušenost
+nasáklivost
+nasranost
+neautentičnost
+nediskrétnost
+nekomunikativnost
+
+neobyčejnost
+neobyčejnost *1
+neodůvodněnost
+nepomíjivost
+neprodejnost
+
+nepřeložitelnost
+nepřívětivost
+
+neřešitelnost
+nesdělitelnost
+nestejnost
+nesystematičnost
+neuctivost
+neukotvenost
+neupravenost
+neurovnanost
+neusazenost
+neutěšenost
+neutěšenost *1
+neutrálnost
+nevymahatelnost
+nevyspalost
+nevzhlednost
+
+
+nezjevnost
+nezkaženost
+nezřetelnost
+odvoditelnost
+ohnivost
+ohnivzdornost
+
+okrouhlost
+okrouhlost *1
+omámenost
+osiřelost
+osvědčenost
+ošumělost
+otravnost
+otravnost *1
+ožehavost
+ožralost
+pálivost
+
+
+patřičnost
+pěknost
+periodičnost
+
+plebejskost
+pobavenost
+pobloudilost
+pobloudilost *1
+pohlednost
+pochybovačnost
+porušenost
+potivost
+
+potřeštěnost
+právnost
+primárnost
+progresívnost
+prosaditelnost
+prozaičnost
+předsudečnost
+přemotivovanost
+přemotivovanost *1
+
+přínosnost
+
+
+
+radostivost
+rozehranost
+rozplizlost
+rozplizlost *1
+
+rozpoznatelnost
+roztodivnost
+roztodivnost *2
+sakrálnost
+selektivnost
+sexuálnost
+slaboduchost
+souhlasnost
+spolupatřičnost
+stabilnost
+
+svobodnost
+symboličnost
+šilhavost
+škaredost
+
+úděsnost
+udržovatelnost
+unavenost
+usilovnost
+ustálenost
+vidoucnost
+vodorovnost
+
+vyděděnost
+vyhaslost
+vyježděnost
+vyrobitelnost
+záslužnost
+zaťatost
+závratnost
+zblblost
+zdravost
+zhůvěřilost
+zhůvěřilost *3
+zkratkovitost
+
+zmetkovitost
+zprostředkovanost
+žlučovitost
+akademičnost
+asymetričnost
+bezděčnost
+bezhlavost
+bezmeznost
+bezmeznost *1
+bezprizornost
+bezproblémovost
+bezsrstost
+bezúdržbovost
+bezvýslednost
+bobtnavost
+bravurnost
+brunátnost
+brunátnost *1
+bystrozrakost
+bytelnost
+
+cizokrajnost
+cizokrajnost *1
+cizorodost
+čipernost
+decentnost
+dispozitivnost
+dobráckost
+
+důsažnost
+duševnost
+dvojjedinost
+dvounohost
+efemérnost
+egocentričnost
+elitnost
+faktičnost *
+faktičnost *1
+figurativnost
+frázovitost
+fyzičnost
+hermetičnost
+hlubokomyslnost
+hnusnost
+hnusnost *3
+holohlavost
+homogennost
+horečnatost
+horkokrevnost
+chromatičnost
+chudost
+identifikovatelnost
+identifikovatelnost *1
+ideologičnost
+impozantnost
+infekčnost
+integrovanost
+jarost
+jásavost
+jednorozměrnost
+
+jednovětost
+kladnost
+klipovitost
+kluzkost
+konfigurovatelnost
+konsekventnost
+kontrastnost
+kostrbatost
+kradmost
+krátkověkost
+kresebnost
+
+krvavost
+kujnost
+kujnost *1
+kulovitost
+lakoničnost
+lascívnost
+levnost
+lhavost
+likvidnost
+
+mechaničnost
+mezinárodnost
+milostnost
+
+množnost
+množnost *1
+monochromatičnost
+
+
+mrtvost
+myslitelnost
+nadměrnost
+natvrdlost
+natvrdlost *1
+návykovost
+nebohost
+nedoceněnost
+nedostižnost
+nehumánnost
+nehumánnost *1
+nekonzistentnost
+nekonzistentnost *1
+nekoordinovanost
+nekultivovanost
+nekvalifikovanost
+němost
+nemoudrost
+nenápaditost
+nenaplnitelnost
+neobeznámenost
+neohebnost
+neohraničitelnost
+neokoukanost
+nepodmíněnost
+nepohnutelnost
+neprodyšnost
+nepronajatost
+neprovázanost
+neprůkaznost
+
+neredukovatelnost
+nerentabilnost
+nerovnocennost
+nerozvinutost
+neřestnost
+
+nesrovnatelnost
+nesrovnatelnost *1
+nestatečnost
+nestranickost
+netělesnost
+netradičnost
+neukončenost
+neurotičnost
+neuvážlivost
+nevratnost
+nevýbojnost
+nevyslovitelnost
+nevýslovnost
+nevysvětlitelnost
+nevysvětlitelnost *1
+nezdravost
+
+neznámost
+nezrušitelnost
+
+noblesnost
+normovanost
+obdobnost
+objevnost
+obmyslnost
+obnovitelnost
+
+obšírnost
+odlehčenost
+odosobněnost
+odparnost
+
+odraznost
+ochraptělost
+ochraptělost *1
+okoralost
+optimálnost
+ordinérnost
+organičnost
+ozářenost
+ozářenost *3
+
+parádivost
+pobledlost
+podlízavost
+podprůměrnost
+pojištěnost
+pojmovost
+pokoutnost
+pokoutnost *2
+popletenost
+popuzenost
+poréznost
+pořádnost
+praštěnost
+praštěnost *1
+problémovost
+procítěnost
+proorganizovanost
+propastnost
+protivnost
+protivnost *2
+provinciálnost
+přihlouplost
+příkladnost
+připojitelnost
+příznivost
+přizpůsobitelnost
+
+redukovatelnost
+rozčleněnost
+rozeklanost
+rozeklanost *1
+rozjívenost
+rozměrnost
+různotvárnost
+řízenost
+setrvalost
+sinalost
+sklonitost
+sklonitost *2
+slepost
+slizkost
+
+smířenost
+snědost
+soucitnost
+souladnost
+souměřitelnost
+sourodost
+spravovatelnost
+statnost
+státnost *4
+svařitelnost
+svátostnost
+štěpnost
+tanečnost
+tklivost
+tlachavost
+točivost
+transformovatelnost
+trénovatelnost
+účastnost
+
+ukotvenost
+unavitelnost
+unifikovanost
+usnášeníschopnost
+úžasnost
+vábivost
+vemlouvavost
+víceúčelovost
+vitálnost
+vražednost
+
+výbornost
+vybranost
+vyhranost
+vyloučenost
+výmladnost
+vytěžitelnost
+význačnost
+vzpřímenost
+vzpupnost
+vzpupnost *1
+zacílenost
+zakřivenost
+zakyslost
+zaoblenost
+zápornost
+zaprděnost
+zevrubnost
+zlomenost
+znavenost
+živoucnost
+žluklost
+abnormálnost
+abnormálnost *1
+agitovanost
+akustičnost
+apartnost
+apartnost *1
+apelativnost
+arbitrárnost
+artistnost
+atypičnost
+avantgardnost
+baladičnost
+bezvadnost
+běžnost
+běžnost *1
+blahost
+blahost *1
+blahovolnost
+bohoslužebnost
+bohulibost
+boubelatost
+breptavost
+celostnost
+citovanost
+cizosprašnost
+časoprostorovost
+časoprostorovost
+disponovanost
+distancovanost
+distancovanost *1
+distingovanost
+dogmatičnost
+dokumentárnost
+druhotnost
+
+dvojitost
+dvojtvářnost
+dvouvrstevnost
+dysfunkčnost
+ekvivalentnost
+elastičnost
+epičnost
+etapovitost
+etičnost
+evidentnost
+excelentnost
+expanzivnost
+exponovanost
+expresivnost
+filmovost
+geometričnost
+grandióznost
+harmoničnost
+harmoničnost *1
+heterozygotnost
+hitovost
+
+hněvivost
+hromadnost
+hřmotnost
+hvězdnost
+
+hydrofobnost
+identičnost
+informativnost
+intaktnost
+interpretovatelnost
+iracionálnost
+
+jednohlasnost
+kašírovanost
+kategoričnost
+kombinovatelnost
+komplementárnost
+komutativnost
+kooperativnost
+krátkodechost
+krizovost
+kruhovost
+křupavost
+kurióznost
+lakomost
+lechtivost
+levotočivost
+lineárnost
+
+lítostivost
+loudavost
+malodušnost
+markantnost
+mazlavost
+mezerovitost
+mohoucnost
+mohoucnost *1
+monotematičnost
+Morgenpost
+mylnost
+nabručenost
+nadpozemskost
+nafrněnost
+nahluchlost
+narativnost
+nastalost
+nástrojovost
+naukovost
+neaktuálnost
+neatraktivnost
+necivilizovanost
+nedefinitivnost
+nedemokratičnost
+nedílnost
+nedobrovolnost
+nedovolenost
+nedovtipnost
+nedovzdělanost
+nedovzdělanost *1
+neestetičnost
+nehmotnost
+nekomplexnost
+nelaskavost
+nelaskavost *2
+nenapadnutelnost
+nenulovost
+
+neodvoditelnost
+neortodoxnost
+nepodloženost
+nepomíjejícnost
+nepopsatelnost
+neporanitelnost
+
+nepoživatelnost
+neproduktivnost
+nepromyšlenost
+neproveditelnost
+nepředstavitelnost
+nepřekročitelnost
+nepřevoditelnost
+nerealizovatelnost
+nerozbitnost
+nesdílnost
+neslýchanost
+
+nesolidárnost
+nespecifičnost
+nesplnitelnost
+
+nestálobarevnost
+nestandardnost
+nestandardnost *1
+nešťastnost
+neúmyslnost
+nevěcnost
+neveřejnost
+nevkusnost
+nevnímavost
+nevyčlenitelnost
+nevypočítatelnost
+nezadržitelnost
+nezaměstanost
+nezařaditelnost
+nezručnost
+nezvěstnost
+
+nonšalantnost
+obložnost
+obnošenost
+obrácenost
+obrácenost *1
+odbouratelnost
+odkrytost
+odporovatelnost
+odulost
+odvázanost
+ohlasovost
+omyvatelnost
+osobivost
+ostentativnost
+ostentativnost *1
+ozdobnost
+parotěsnost
+patologičnost
+peprnost
+peprnost *1
+perfidnost
+pitoresknost
+pitoresknost *1
+placatost
+pocitovost
+počitatelnost
+
+podroušenost
+polovzdělanost
+polskost
+
+
+povážlivost
+pověrečnost
+pověrečnost *1
+poživatelnost
+pregnantnost
+prémiovost
+privátnost
+prodělečnost
+prostředečnost
+provizornost
+přebytečnost
+přebytečnost *1
+předčasnost
+předluženost
+přehuštěnost
+přeludnost
+přetíratelnost
+převratnost
+převratnost *1
+přezkoumatelnost
+přežranost
+přiblblost
+přiblblost *1
+příčnost
+příčnost *3
+příhodnost
+přikrčenost
+
+přitroublost
+přitroublost *1
+psavost
+rázovitost
+reakčnost
+regulovatelnost
+rekonstruovatelnost
+rituálnost
+rozložitost
+rozpadlost
+rozplývavost
+rozštěpenost
+roztažitelnost
+
+rychloběžnost
+sametovost
+samonosnost
+
+smrštitelnost
+sošnost
+spektakulárnost
+
+spoutanost
+standardnost
+
+staromódnost
+
+stavitelnost
+stažlivost
+strašnost
+strašnost *2
+strukturnost
+stupidnost
+stylizovanost
+suchopárnost
+supermocnost
+svalnatost
+
+šablonovitost
+šalebnost
+špinivost
+tezovitost
+tranzitivnost
+trojdílnost
+trojdílnost *1
+
+trucovitost
+
+uchopitelnost
+uchvácenost
+ujetost
+uklizenost
+upadlost
+
+voděodolnost
+vodnatost
+voňavost
+
+vstřebatelnost
+vyčerpatelnost
+vydanost
+výdělečnost
+vyjímečnost
+vyplašenost
+vypouklost
+
+vysledovatelnost
+vyvázanost
+vznícenost
+zakřiknutost
+zalidněnost
+zapálenost
+zapamatovatelnost
+
+zastřenost
+zašmodrchanost
+zašmodrchanost *1
+zavalitost
+závrativost
+zavšivenost
+zdařilost
+zdobivost
+zelenost
+zjednodušenost
+
+zmlsanost
+zraněnost
+alegoričnost
+andělskost
+anglickost
+animálnost
+antitetičnost
+apokalyptičnost
+aristokratičnost
+artikulovanost
+artikulovanost *1
+asketičnost
+asociativnost
+bezčasnost
+bezperspektivnost
+bezpodmínečnost
+bezpohlavnost
+bezprašnost
+bezpředmětnost
+beztvárnost
+bezvirovost
+bolestnost
+bulvárnost
+centrálnost
+cyničnost
+čadivost
+částečnost
+definovatelnost
+destruktivnost
+devítkovost
+diplomatičnost
+diskutabilnost
+diváckost
+divost
+divotvornost
+dobovost
+
+dobyvačnost
+dokladovatelnost
+doložitelnost
+
+drtivost
+druhořadost
+duchamornost
+
+dvojdomost
+dvojnost
+dvojpolárnost
+dvojsečnost
+dvojtvárnost
+
+elegantnost
+emancipovanost
+eruptivnost
+etapovost
+exkluzivnost
+expresívnost
+extravagantnost
+
+fanatičnost
+
+funkceschopnost
+gumovitost
+halasnost
+hierarchičnost
+hladovost
+hluchost
+
+hodnotnost
+holost
+hubatost
+huhňavost
+hygieničnost
+hyperkorektnost
+hypotetičnost
+chladivost
+chlapeckost
+
+chraplavost
+chutnost
+chvályhodnost
+
+ideálnost
+ilustrativnost
+imaginárnost
+imaginativnost
+
+integrovatelnost
+interaktivnost
+
+jazykovitost
+jednorázovost
+
+
+
+klíčovost
+klidnost
+kluznost
+kolegiálnost
+komerčnost
+kompatibilnost
+korupčnost
+koupěchtivost
+kouřivost
+kovnatost
+krystaličnost
+křivolakost
+labilnost
+lepost
+letitost
+liduprázdnost
+lichost
+lisovatelnost
+litost
+masitost
+masívnost
+matnost
+mátožnost
+měkkosrdcatost
+měnlivost
+mezitextovost
+mimočasovost
+mlčelivost
+modrost
+mokrost
+mysterióznost
+nádorovitost
+nadupanost
+napodobivost
+navlhavost
+návodnost
+navštěvovanost
+neakceschopnost
+
+nedefinovanost
+nedějinnost
+
+nedořečenost
+nedořešenost
+nedovršenost
+nedozrálost
+neetičnost
+neforemnost
+nehnutost
+nehomogennost
+
+
+nekomplikovanost
+
+nekonfliktnost
+nekonkurenceschopnost
+
+nenadýmavost
+nenáležitost
+nenásilnost
+nenávistnost
+nenávistnost *1
+neobyvatelnost
+neodmítnutelnost
+
+
+neopotřebovanost
+neorganizovanost
+nepečlivost
+nepěknost
+
+nepokrytost
+nepopiratelnost
+nepoučenost
+
+neproblematičnost
+nepropracovanost
+nepřesvědčivost
+nepřitažlivost
+nepříznivost
+nereformovatelnost
+nerozčleněnost
+nerozlišitelnost
+
+nesmířenost
+nesoběstačnost
+nesoučinnost
+nesoustavnost
+nesouvztažnost
+nespočetnost
+nestabilnost
+nestabilnost *1
+nestíhatelnost
+nestravitelnost
+netýkavost
+neukojenost
+neupotřebitelnost
+neurčitelnost
+neuspokojivost
+nevtíravost
+nevyčleněnost
+
+nevykořenitelnost
+nevytíženost
+nevýznamnost
+nezabezpečenost
+nezáludnost
+nezapomenutelnost
+nezápornost
+nezavršenost
+nezbadatelnost
+nezkorumpovatelnost
+
+neznatelnost
+nezřízenost
+neživost
+neživotnost
+obdarovanost
+obdařenost
+
+objemovost
+obojživelnost
+obratovost
+obrobitelnost
+obtloustlost
+odepsanost
+odhalenost
+odhalenost *1
+odlučivost
+odstrčenost
+odvislost
+odvislost *1
+okouzlenost
+opovržlivost
+oprsklost
+
+osudnost
+osvěživost
+ošemetnost
+ošoupanost
+otřesnost
+otřesnost *1
+
+ozvučnost
+
+patlavost
+písňovost
+plavbyschopnost
+plynotěsnost
+podělanost
+podpůrnost
+podsaditost
+podvodnost
+podvyživenost
+pohrouženost
+pohybovost
+pochybenost
+poklidnost
+pokornost
+pokost
+pokrevnost
+pokrevnost *1
+
+polemičnost
+polohovatelnost
+polopatičnost
+polopatičnost *1
+
+posranost
+postižitelnost
+postřehnutelnost
+potupnost
+potutelnost
+pověstnost
+povolanost
+pozvolnost
+prabytost
+práceschopnost
+pravotočivost
+pravotočivost *2
+predikovatelnost
+prestižnost
+
+programovost
+prokreslenost
+prosebnost
+prošlost
+protáhlost
+protizákonnost
+prožitkovost
+průběžnost
+průtažnost
+předposranost
+přehlíživost
+překladovost
+přenost
+přenost *1
+přeplácanost
+přeslazenost
+přesvědčenost
+přetrénovanost
+přezrálost
+
+přiléhavost
+přílišnost
+přírodnost
+
+
+rámcovost
+rentabilnost
+rétoričnost
+riskantnost
+rovinatost
+
+rozbředlost
+rozežranost
+rozhněvanost
+rozkochanost
+rozlícenost
+rozlišenost
+rozmyslnost
+
+rozrušenost
+roztroušenost
+rozvážlivost
+rozvětvenost
+rudost
+
+řemeslnost
+sálavost
+scéničnost
+sdílitelnost
+sešněrovanost
+skálopevnost
+skeptičnost
+
+sličnost
+slovenskost
+slovutnost
+slovutnost *1
+slušivost
+slušivost *1
+smíšenost
+smrtnost
+soběpodobnost
+sociálnost
+
+
+
+spásnost
+spirituálnost
+spojenost
+
+srdceryvnost
+srostitost
+sršatost
+stádovost
+starosvětskost
+stmelenost
+středověkost
+studenost
+stvořenost
+
+syntetičnost
+sypkost
+sžíravost
+širokost
+špičatost
+špičkovost
+táhlost
+textovost
+torzovitost
+totálnost
+toužebnost
+tradičnost
+tragikomičnost
+travnatost
+
+
+tříletost
+tříštivost
+tupohlavost
+tvarovatelnost
+tvarovost
+úchvatnost
+ukecanost
+ukončenost
+umrtvenost
+upachtěnost
+upejpavost
+upravitelnost
+urostlost
+usebranost
+usměvavost
+ustrnulost
+ušmudlanost
+
+utajenost
+utkvělost
+útržkovitost
+utvářenost
+užvaněnost
+vazkost
+veledůležitost
+veledůstojnost
+veledůstojnost *1
+vetchost
+vezdejšnost
+vícejazyčnost
+vícestrannost
+videospolečnost
+vleklost
+vlivnost
+
+vnímatelnost
+vousatost
+vratnost
+
+všehoschopnost
+vybavitelnost
+vyčítavost
+vyčuranost
+vyčůranost *1
+vydíratelnost
+vydíratelnost *1
+výhrůžnost
+vyjevenost
+vykazatelnost
+vykonavatelnost
+vyladěnost
+vylhanost
+vylhanost *2
+vylučitelnost
+vymodlenost
+vypínavost
+výrobnost
+výsadnost
+
+vysokost
+vysokost *1
+vystrašenost
+vyvinutost
+
+
+
+zadrženost
+
+zahalenost
+zahlcenost
+zakázanost
+
+zakulacenost
+zaměstnavatelnost
+zamotanost
+zaostřenost
+zapletenost
+zapletenost *1
+zaplněnost
+zapovězenost
+zařazenost
+záštiplnost
+zavázanost
+
+zavedenost
+zavedenost *1
+zavinutost
+závistivost
+zavrženost
+
+zbědovanost
+
+zdánlivost
+zesláblost
+
+
+zjistitelnost
+zjitřenost
+zkázonosnost
+zkreslenost
+zkřehlost
+zmalátnělost
+znovupoužitelnost
+zpětnost
+zprofanovanost
+
+zužitkovatelnost
+zužitkovatelnost *1
+
+zvlčilost
+žádanost
+
+žáruvzdornost
+židovskost
+žírnost
+žírnost *1
+živorodost
+žíznivost
+adresovatelnost
+alogičnost
+Alost
+americkost
+anachroničnost
+anonymnost
+aromatičnost
+artificiálnost
+asynchronnost
+atletičnost
+barbarskost
+barvitelnost
+béčkovost
+bělostnost
+bestiálnost
+bestiálnost *1
+bezdechost
+bezdějinnost
+bezesnost
+bezhlučnost
+bezměrnost
+bezpodstatnost
+bezprogramovost
+bezpředsudečnost
+bezskrupulóznost
+beztvářnost
+bezvládnost
+bezvýhlednost
+bezvýhlednost *1
+bezzákonnost
+bídnost
+blábolivost
+blankytnost
+blbuvzdornost
+bleskovost
+bleskurychlost
+blouznivost
+bludnost
+brněnskost
+brodivost
+brousitelnost
+byrokratičnost
+
+cílenost
+cílovost
+cituplnost
+cnost
+cnost *2
+
+čarovnost
+časopisovost
+čerpatelnost
+čínskost
+čtyřrozměrnost
+ďábelskost
+dalekosáhlost
+dalekost
+dalekost *1
+daremnost
+daremnost *2
+
+dávnověkost
+defektnost
+dělnickost
+dělnickost *1
+dělnost
+děsnost
+děsnost *2
+
+
+devotnost
+dobyvatelnost
+dojemnost
+dostředivost
+
+dotknutelnost
+dovršenost
+drobnopisnost
+druhovost
+duhovost
+duchaprázdnost
+dumavost
+durovost
+
+dvojhlavost
+dvojosost
+dvouosost
+dvoutvářnost
+elegičnost
+emociálnost
+evolučnost
+
+fakultativnost
+
+fialovost
+fiktivnost
+financovatelnost
+fixovanost
+formovatelnost
+fortelnost
+francouzskost
+
+heroičnost
+hluchoněmost
+hodnotitelnost
+
+hranost
+hrbolatost
+hrdinnost
+
+
+
+huňatost
+hygroskopičnost
+hyperkritičnost
+hýřivost
+chlupatost
+chovnost
+chráněnost
+chvilkovost
+ikoničnost
+ilegálnost
+
+inertnost
+internacionálnost
+irelevantnost
+jedlost
+jednokolejnost
+jednopohlavnost
+jednostejnost
+jinotajnost
+jiskrnost
+jiskřivost
+jizlivost
+klopýtavost
+kočkovitost
+kočkovitost *1
+kogentnost
+kompromisnost
+konejšivost
+
+kontradikčnost
+kontradikčnost *1
+kořeněnost
+kořennost
+koukatelnost
+kožovitost
+krabicovitost
+kroužkovitost
+kruhovitost
+krytosnubnost
+křepkost
+křepkost *1
+
+kulhavost
+kumulativnost
+kurážnost
+kusost
+kuželovitost
+
+
+latentnost
+latinskost
+lehkonohost
+leštitelnost
+
+lidožravost
+lihovitost
+lišáckost
+lokálnost
+lukrativnost
+luxusnost
+
+mačkavost
+malomocnost
+mastnost
+meditativnost
+melodramatičnost
+mezioborovost
+mikrotvrdost
+militantnost
+mimoběžnost
+mísitelnost
+mladickost
+mluvnost
+mlžnost
+mnohobuněčnost
+mnohorozměrnost
+mnohoslibnost
+
+mnohovýznamnost
+mocenskost
+močopudnost
+modulárnost
+mohovitost
+monologičnost
+moravskost
+mrňavost
+mýtotvornost
+nabroušenost
+načuřenost
+načuřenost *1
+nadějnost
+nádhernost
+nadmutost
+
+nadsmyslovost
+nahlodanost
+nahořklost
+náhražkovitost
+
+
+naleštěnost
+nalezenost
+nárazuvzdornost
+nárokovost
+našedlost
+naučenost
+naučitelnost
+navázanost
+navyklost
+neaplikovatelnost
+nebetyčnost
+necelistvost
+nečasovost
+nečleněnost
+nediferencovanost
+nedisponovatelnost
+nedokrvenost
+nedosahovanost
+
+
+nedotvořenost
+nedotvořenost *1
+nedozírnost
+nedůraznost
+nedůvodnost
+nedýchatelnost
+
+nehmatatelnost
+nehodnost
+nejedovatost
+neklidnost
+nekomerčnost
+nekompletnost
+nekompletnost *1
+nekonstruktivnost
+nekontrolovanost
+
+nekritizovatelnost
+nekřesťanskost
+
+nelegitimnost
+neměnitelnost
+nemístnost
+nemotivovanost
+nemužnost
+nemyslitelnost
+nenarušitelnost
+nenáruživost
+nenázornost
+nenechavost
+nenechavost *1
+
+
+neodčinitelnost
+neodčinitelnost *1
+neodkladnost
+
+neoficiálnost
+
+neorientovanost
+neoriginálnost
+neosobitost
+
+neovladatelnost
+neovlivnitelnost
+
+neplanost
+neplánovitost
+nepodlehlost
+nepodplatitelnost
+nepohnutost
+nepohostinnost
+nepochybnost
+nepolapitelnost
+nepolitičnost
+nepominutelnost
+nepotopitelnost
+
+nepoznanost
+nepravověrnost
+neprofesionálnost
+nepromlčitelnost
+neprospěšnost
+
+nepředvídavost
+nepřemýšlivost
+nepříhodnost
+nepříhodnost *1
+nepřilnavost
+nepřímost
+neradostnost
+nerozlišnost
+nerozlučnost
+nerozpoznatelnost
+nerozpustnost
+nerušenost
+neřádnost
+neřádnost *1
+nesmáčivost
+nesmrtnost
+nesouosost
+
+nestavovost
+nestejnoměrnost
+nestlačitelnost
+
+nestylizovanost
+nesvázanost
+nesymetričnost
+nesympatičnost
+netknutost
+
+netrvalost
+netvárnost
+netypičnost
+neukončitelnost
+neúměrnost
+neurčenost
+neúrodnost
+neuspokojitelnost
+neuspokojitelnost *1
+neustálenost
+neútěšnost
+neutříděnost
+neútulnost
+
+nevybavenost
+nevycválanost
+nevyhnutnost
+nevymezenost
+nevypověditelnost
+
+nevyužitost
+nevyvinutost
+nevyvlastnitelnost
+nevyvratitelnost
+nevývratnost
+nevzrušenost
+nezabydlenost
+nezajištěnost
+nezaměstnatelnost
+nezaopatřenost
+nezaostřenost
+nezažitost
+nezáživnost
+nezcizitelnost
+nezdárnost
+
+
+nežádoucnost
+nositelnost
+nuznost
+obdivuhodnost
+obdivuhodnost *1
+obligatornost
+obojetnost
+
+obrovskost
+
+
+očekávatelnost
+odhmotněnost
+odpočatost
+odváženost
+
+odvěkost
+odvrácenost
+oficióznost
+
+ohromnost
+okoukanost
+olejovitost
+oněmělost
+
+
+
+opulentnost
+
+osovost
+ostudnost
+osvojitelnost
+otřesenost
+ouzkost
+ouzkost *2
+
+ověřenost
+panoramatičnost
+parametrizovatelnost
+pasivnost
+patentovatelnost
+
+patrovitost
+pejorativnost
+pekelnost
+pekelnost *1
+Pentecost
+pěstěnost
+pitelnost
+
+plakátovost
+plánovanost
+
+plavnost
+podpásovost
+podrobivost
+
+podujatost
+podvratnost
+
+pochůznost
+
+polyfunkčnost
+polyfoničnost *1
+pominutost
+pomlouvačnost
+populárnost
+poraženost
+póréznost
+porovnatelnost
+
+poslouchanost
+postradatelnost
+povadlost
+poznanost
+pradávnost
+prapodivnost
+prapodivnost *2
+
+prašivost
+
+pravdymilovnost
+pravoplatnost
+
+pravoúhlost
+pravoúhlost *1
+pražskost
+prekérnost
+prkennost
+profesionálnost
+projasněnost
+proklamativnost
+proklatost
+prokomponovanost
+prolínavost
+promodralost
+promořenost
+propečenost
+
+proporčnost
+proslavenost
+prostavěnost
+
+protilehlost
+protismyslnost
+protistátnost
+
+provařenost
+prozářenost
+průběhovost
+
+prvořadost
+přecitlivost
+předchůdnost
+
+předvádivost
+přejícnost
+překombinovanost
+přemístitelnost
+přemítavost
+přemnoženost
+přemoudřelost
+přenesenost
+přepečlivost
+přestárlost
+přestupnost
+přetaktovatelnost
+přežilost
+přežitost
+příběhovost
+přidušenost
+
+příklonnost
+příklonnost *1
+
+přisedlost
+příznačnost
+příznačnost *1
+pseudoskutečnost
+psychologičnost
+pyšnost
+ranost
+reaktivnost
+reformovatelnost
+refrénovitost
+refrénovitost *1
+regionálnost
+regulovanost
+rezignovanost
+Rost
+rouhavost
+rovnoramennost
+rovnovážnost
+rozbitost
+rozbolavělost
+rozbouřenost
+rozbujelost
+rozevřenost
+rozhodnutelnost
+rozhrkanost
+rozjásanost
+rozjasněnost
+rozkošnost
+rozkouskovanost
+rozlámanost
+rozloženost
+rozměklost
+rozmělněnost
+rozněžnělost
+rozpadavost
+rozpojenost
+roztíratelnost
+
+rozveselenost
+rtuťovitost
+rujnost
+rustikálnost
+různolistost
+rzivost
+řádovost
+řečnost
+
+samoobslužnost
+samosprávnost
+sdruženost
+sebedůležitost
+sebevzhlíživost
+sebezahleděnost
+segmentovanost
+senzitivnost
+senzuálnost
+sepjatost
+shánčlivost
+sjednocenost
+skleníkovost
+
+sklovitost
+skoupost
+skrblivost
+skrovnost
+skvostnost
+sladivost
+slávychtivost
+slunečnost
+slunnost
+směnnost
+smrdutost
+smutnost
+soudružnost
+
+spekulativnost
+splašenost
+spolčenost
+spolupřítomnost
+starodávnost
+stařeckost
+stejnolehlost
+stejnolehlost *1
+sterilnost
+
+
+strojovost
+střečkovitost
+středovost
+střelenost
+
+subkontrárnost
+substituovatelnost
+supratekutost
+svalovitost
+
+světoznámost
+svobodymilovnost
+svojskost
+
+
+symfoničnost
+
+šerosvitnost
+šetřivost
+
+širost
+šírost
+šiřitelnost
+škodovost
+šroubovanost
+šťastnost
+šupinatost
+taktičnost
+
+temperamentnost
+teplost
+termínovanost
+tesklivost
+těžitelnost
+
+
+toulavost
+transcendentnost
+transponovatelnost
+trhlost
+triumfálnost
+trnitost
+trojitost
+trojjazyčnost
+
+
+třídílnost
+třídnost
+třpytivost
+tvárlivost
+
+
+udivenost
+ufinancovatelnost
+uhýbavost
+ujímavost
+ukrytost
+
+ulepenost
+
+umdlenost
+uměnímilovnost
+uminutost
+umlčenost
+umnost
+úmornost
+uprdnutost
+
+uspokojivost
+ústojnost
+ustrojenost
+ústřednost
+uštvanost
+utěšenost
+utilitárnost
+utlačivost
+utříděnost
+uzamčenost
+
+
+variantnost
+vazebnost
+vaznost
+věkovitost
+velechvost
+velkopanskost
+věrojatnost
+větrnost
+větruvzdornost
+vícekolejnost
+vidličnatost
+vířivost
+vkusnost
+vlasatost
+vlnitost
+
+vododržnost
+vodonepropustnost
+vodovzdornost
+vrtošivost
+
+všelidskost
+všeobsáhlost
+všeplatnost
+všesměrovost
+vštípivost
+vtělenost
+vybarvenost
+výbavnost
+vyběravost
+výběrovost
+vyčleněnost
+vyčlenitelnost
+vyčpělost
+vyděšenost
+vyhladovělost
+
+vykolejenost
+
+
+vyluhovatelnost
+vymezenost
+vymřelost
+vyostřenost
+vypatlanost
+vypiplanost
+vypracovanost
+vyprodanost
+vyřízenost
+výskytovost
+vysmátost
+vystavenost
+vysvětlitelnost
+vytáhlost
+
+vyvratitelnost
+vyvýšenost
+výzvovost
+vyžilost
+
+vzdornost
+vznášivost
+vzrušenost
+
+vžitost
+zahrnutost
+zachytitelnost
+záchytnost
+zakouřenost
+zakrnělost
+zakrslost
+zakrslost *1
+zakrytost
+
+zaprodanost
+
+
+
+zarudlost
+zastrašenost
+zatemnělost
+zatvrdlost
+zatvrdlost *1
+završenost
+zavrženíhodnost
+zbabranost
+zbloudilost
+zbytnost
+zcestnost
+zdokonalitelnost
+zdůvodnitelnost
+zdvojenost
+zhroucenost
+zimomřivost
+zkoumavost
+zkoumavost *1
+
+
+změnitelnost
+zmoudřelost
+zploštělost
+zpožděnost
+zpracovanost
+
+
+zvadlost
+zvládnutelnost
+zvolitelnost
+zvratnost
+
+životodárnost
+žlutost
+abstrahovanost
+adaptabilnost
+adaptovanost
+administrovatelnost
+agregovatelnost
+akorátnost
+aktualizovanost
+aktualizovatelnost
+akutnost
+animovanost
+animovanost *1
+antikvovanost
+apatičnost
+aprobovanost
+aproximativnost
+aranžovanost
+asexuálnost
+auditovatelnost
+autochtonnost
+autokratičnost
+autokritičnost
+automatizovanost
+automatizovatelnost
+balíkovost
+balkánskost
+bambulovitost
+básnickost
+bázovost
+běhavost
+benevolentnost
+běsnivost
+bezectnost
+bezforemnost
+bezformálnost
+bezhlesnost
+bezhraničnost
+bezhříšnost
+bezkrevnost
+bezkřídlost
+beznárodnost
+beznehodovost
+bezodkladnost
+bezodtokovost
+bezpartijnost
+bezprávnost
+bezprincipiálnost
+bezpříkladnost
+bezrozměrnost
+beztížnost
+bezúčinnost
+bezúplatnost
+bezúročnost
+bezživotnost
+bipolárnost
+blahobytnost
+blahobytnost *1
+blbovzdornost
+blokovitost
+bloudivost
+bodavost
+bohaprázdnost
+bosonohost
+božnost
+brakovost
+brazilskost
+brebtavost
+buchtovitost
+bytostnost
+bývalost
+celočíselnost
+celosvětovost
+
+ctnostnost
+
+
+černobílost
+
+číhavost
+
+čistokrevnost
+čivost
+
+čtveračivost
+čtverhrannost
+čtyřvaznost
+dalekonosnost
+
+davovost
+
+deformovanost
+deformovatelnost
+degenerovanost
+delfínovitost
+
+
+demonstrovatelnost
+depresivnost
+deprimovanost
+derivovatelnost
+despotičnost
+děsuplnost
+deštivost
+detailizovanost
+dezinformovanost
+dezorganizovanost
+direktivnost
+diskutovanost
+disparátnost
+disproporčnost
+
+distinguovanost
+
+dlouhodechost
+dlouholetost
+dlouhonohost
+dlouhost
+dobrodějnost
+
+dodatelnost
+dochovanost
+dojezdovost
+dojmovost
+doloženost
+domyšlenost
+donosnost
+donošenost
+dopálenost
+doplňkovost
+dosebezahleděnost
+dosledovatelnost
+
+dostačitelnost
+
+dotěravost
+dotvořenost
+drápovitost
+drásavost
+drobivost
+držebnost
+dřevitost
+dřevnatost
+dusivost
+dusnost
+
+důtklivost
+dvojčlennost
+dvojdílnost
+dvojklannost
+dvojplánovost
+dvojpólovost
+
+dvojvrstvost
+dvoubarevnost
+dvoufázovost
+dvouhlavost
+dvouhodnotovost
+dvouproudovost
+dvoupyskost
+dvousečnost
+dvouslovnost
+dvousložkovost
+dvousměrnost
+dvoustupňovost
+dvouznačnost
+dvouznačnost *1
+
+
+Džangídost
+eklektičnost
+elektrovodivost
+elementárnost
+elidovatelnost
+eliptičnost
+eloxovatelnost
+enigmatičnost
+etudovitost
+exilovost
+exkluzívnost
+expandovatelnost
+expanzívnost
+experimentálnost
+extrahovatelnost
+
+falzifikovatelnost
+fantasmagoričnost
+favorizovanost
+fázovitost
+fenomenálnost
+filigránskost
+filtrovatelnost
+fintivost
+fixnost
+florbalovost
+formovanost
+fragmentovanost
+
+frustrovanost
+fundovatelnost
+gigantičnost
+graduovanost
+grafičnost
+
+hanbatost
+
+haštěřivost
+hemživost
+heslovitost
+
+hledanost
+hlinnost
+
+hlukovost
+hojivost
+
+horečnost
+hornatost
+hororovost
+hořkosladkost
+hořkosměšnost
+hrbatost
+hrdinskost
+hrdopyšnost
+hroznost
+hrubozrnnost
+
+humornost
+hyenovitost
+hymničnost
+hypercitlivost
+
+charitativnost
+chlubnost
+choleričnost
+chroničnost
+chřupavost
+chudobnost
+chvatnost
+implikovanost
+impresivnost
+improvizovanost
+
+individualisovanost
+individualizovanost
+indoktrinovatelnost
+injektovatelnost
+inspirovanost
+instruktivnost
+intelektuálnost
+intenzivnost
+interdisciplinárnost
+interesantnost
+jadernost
+japonskost
+jednočlennost
+jednokvětost
+jednoletost
+jednomódovost
+jednooborovost
+jednookost
+jednopolohovost
+jednorukost
+jednostrunnost
+jednovrstevnost
+ježatost
+jižanskost
+
+kalkulovanost
+kalnost
+kamarádskost
+kanadskost
+karnevalovost
+kaskádovitost
+kašovitost
+katastrofičnost
+
+kazuističnost
+kdákavost
+kladenost
+klátivost
+klevetivost
+klikatost
+klínovitost
+klipovost
+klopotnost
+knižnost
+
+kočovnost
+koktatelnost
+
+komolost
+komornost
+
+komponovanost
+konciliantnost
+konciliantnost *1
+
+koncíznost
+konjunkturálnost
+konkretizovanost
+koňovitost
+koňskost
+konsolidovanost
+konstruktivnost
+konstruovanost
+kontaktovost
+kontinuálnost
+
+kontraproduktivnost
+kontrárnost
+koordinovanost
+
+korelovanost
+kormutlivost
+korozivzdornost
+korumpovanost
+korumpovatelnost
+kořenitost
+kosmatost
+kostnatost
+
+kouzelnost
+kovanost
+kovovost
+koženost
+králíkovitost
+kráterovost
+krátkonohost
+krémovost
+kritickost
+
+kromobyčejnost
+kropenatost
+křivopřísežnost
+křížitelnost
+kudrnatost
+
+kulisovost
+kultovost
+kulturotvornost
+kvalifikovatelnost
+kvantifikovatelnost
+květennost
+kýlovitost
+kyselinovzdornost
+látkovost
+lazurovost
+léčitelnost
+
+ledovost
+lekavost
+
+lenošnost
+letmost
+levost
+
+lichotivost
+lomenost
+loupeživost
+lysivost
+macatost
+malinkost
+maloměšťáckost
+
+
+maniakálnost
+manýrovitost
+marginálnost
+matematizovanost
+mazlivost
+mdlost
+medonosnost
+melancholičnost
+
+měňavost
+měnivost
+menšinovost
+metatextovost
+milostivost
+mimosmyslovost
+mimovolnost
+miniaturnost
+mírotvornost
+mírovost
+
+
+mluvenost
+mnohakanálovost
+mnohobarevnost
+mnohofázovost
+mnohohlasnost
+mnohohlasost
+mnohohlavost
+mnohojadernost
+
+modálnost
+modelovatelnost
+modelovost
+modifikovatelnost
+
+mondénnost
+monolitnost
+motorizovanost
+moučnatost
+
+mravoučnost
+mrazuodolnost
+mučivost
+multiměnovost
+muzeálnost
+
+mystickost
+myšlenost
+nablblost
+nabouranost
+náctiletost
+načančanost
+načtenost
+
+nadanost
+naddimenzovanost
+nadlidskost
+
+nadpočetnost
+nadprůměrnost
+nadřaděnost
+nadsazenost
+nadskutečnost
+nadšenost
+
+nadužívanost
+nadýchnutost
+nadžánrovost
+nafouklost
+nahnilost
+nahrbenost
+nahuštěnost
+naježenost
+nakaženost
+nakloněnost
+nakynutost
+nakyslost
+námezdnost
+namoženost
+nanicovatost
+
+napadnutelnost
+napadnutost
+naplánovanost
+naplnitelnost
+napodobitelnost
+náramnost
+nárazovitost
+nárazovost
+
+naříkavost
+následovnost
+nasměrovanost
+násobenost
+nastavenost
+nastavovanost
+nastraženost
+
+natřásavost
+
+naučnost
+
+navršenost
+nazdobenost
+nazelenalost
+nazíranost
+náznakovost
+
+neadresnost
+neaplikovanost
+neaplikovanost $ *1
+
+neartikulovanost
+nebarevnost
+neblahost
+nebohulibost
+nectižádostivost
+
+
+nečistotnost
+nečtenost
+nečtivost
+nedávnost
+
+nedědičnost
+nedějovost
+nedělnost
+nedeterminovanost
+nedohlednost
+nedohotovenost
+nedochovanost
+nedokazatelnost
+nedoložitelnost
+nedomrlost
+nedonošenost
+nedopovězenost
+nedopracovanost
+
+nedostižitelnost
+nedoučenost
+nedovednost
+nedovednost *1
+nedramatičnost
+nedráždivost
+nedruhovost
+neduchovnost
+
+nedůvtipnost
+
+neekonomičnost
+neevropskost
+nefalšovanost
+nefilmovost
+nefotbalovost
+negativnost
+nehezkost
+nehlučnost
+nehodnotnost
+nehodnověrnost
+nehrabivost
+nehratelnost
+nehrdinskost
+nechráněnost
+nechristianizovanost
+nechytatelnost
+neidentifikovanost
+neidentifikovatelnost
+neinscenovatelnost
+nejadrnost
+nejedinečnost
+nejedlost
+nejednomyslnost
+nejsoucnost
+nekalkulovatelnost
+několikavrstevnost
+nekolísavost
+nekomiksovost
+nekompaktnost
+
+nekomunikovatelnost
+
+nekorigovatelnost
+nekostýmovanost
+nekrvežíznivost
+nelehkost
+nelevicovost
+nelhostejnost
+neliberálnost
+nelíbivost
+nelibozvučnost
+
+nelítostivost
+nemačkavost
+nemanipulovatelnost
+německost
+
+neměřitelnost
+
+nemísitelnost
+nemyslivost
+nenahodilost
+nenákladnost
+nenaroditelnost
+nenarušenost
+nenasákavost
+nenávaznost
+
+nenavyklost
+nenázorovost
+
+neobezřetnost
+neobhajitelnost
+neobhajitelnost $ *1
+
+
+neobraznost
+neobsáhnutelnost
+
+neobydlenost
+neočekávatelnost
+
+neodhadnutelnost
+neodlišenost
+neodpustitelnost
+neodstranitelnost
+neodvratitelnost
+neoholenost
+neokoralost
+neokrajovost
+neomezitelnost
+neopadavost
+neopominutelnost
+neopotřebitelnost
+neopracovanost
+neostýchavost
+
+nepádovost
+nepalčivost
+nepapouškovitost
+nepárovost
+neperspektivnost
+neplnoletost
+neplnoprávnost
+nepočestnost
+nepočetnost
+nepočitatelnost
+nepodbízivost
+nepodnikavost
+nepodřazenost
+nepohotovost
+nepochopenost
+nepochybitelnost
+nepojmenovatelnost
+nepokojnost
+nepokořenost
+nepokořitelnost
+nepolepšitelnost
+nepomíjitelnost
+nepopsanost
+neposloupnost
+nepostihnutelnost
+nepotlačitelnost
+nepoužívanost
+nepovedenost
+nepovinnost
+nepovolanost
+nepracovitost
+neprobádanost
+neprohloubenost
+neproměnlivost
+nepropojenost
+neprostorovost
+neprovdanost
+neprozkoumanost
+neprozvučnost
+
+neprůměrnost
+neprůtočnost
+neprůzračnost
+
+nepředmětnost
+nepředsudečnost
+nepřekonatelnost
+nepřenosnost
+nepřepisovatelnost
+nepřeplácanost
+nepřerušenost
+nepřevrhnutelnost
+nepřezkoumatelnost
+nepřiléhavost
+
+nepřiměřitelnost
+nepřípadnost
+
+nepřizpůsobenost
+nepřizpůsobitelnost
+nepsavost
+nepůsobivost
+nepůvabnost
+neradost
+nerealističnost
+
+neregulovatelnost
+
+nerozbitost
+nerozbornost
+nerozdvojitelnost
+nerozhodnutost
+nerozhraničenost
+nerozchodnost
+nerozpačitost
+nerozpolcenost
+nerozpornost
+nerozpustitelnost
+nerozrůzněnost
+neroztěkanost
+
+nervóznost
+nerýmovanost
+nerytířskost
+
+nesčíslnost
+nesčíslnost $ *1
+
+nesebekritičnost
+nesečtělost
+nesegmentovanost
+nesestřelitelnost
+neshodnost
+nesjízdnost
+neskladnost
+neskladovatelnost
+
+nesladěnost
+neslušivost
+
+nesmysluplnost
+
+nesoučasnost
+
+nesouladnost
+
+nesounáležitost
+nesoustředivost
+nesoutěživost
+nesouznělost
+nespecializovanost
+nespecifikovanost
+nespisovnost
+nesplavnost
+nesplývavost
+nesplývavost $ *1
+nespojenost
+nespolečenskost
+nespornost
+nespořádanost
+nestádovost
+nestátotvornost
+nestejnocennost
+nestejnolistost
+nestrávenost
+nestrojenost
+nesubvencovanost
+nesvobodomyslnost
+nesvrhnutelnost
+nešablonovitost
+neškodlivost
+netaktičnost
+netalentovanost
+netlumočitelnost
+netotožnost
+netrvanlivost
+netuhost
+neucelenost
+neúčastnost
+neúčelovost
+neučesanost
+
+neudolatelnost
+neudržovanost
+neufinancovatelnost
+neúhybnost
+neúchylnost
+
+neukliditelnost
+neukojitelnost
+neúlisnost
+neuměleckost
+neuměřenost
+neumírněnost
+neunavitelnost
+neupravitelnost
+neuspěchanost
+
+neustálost
+neustrašenost
+neutajitelnost
+neutaženost
+
+neútěšlivost
+neuzákoněnost
+neuznalost
+neuznatelnost
+neúživnost
+nevábnost
+nevábnost *1
+
+nevelikost
+
+nevítanost
+
+nevrstevnatost
+nevybavitelnost
+nevýběrovost
+nevybouřenost
+nevybranost
+nevýbušnost
+nevydařenost
+nevydatnost
+nevydělitelnost
+nevyhubitelnost
+nevyjádřenost
+nevyjádřitelnost
+nevymluvenost
+nevypočítavost
+nevyrušitelnost
+nevyřešenost
+nevyřknutelnost
+nevysvětlenost
+
+nevytrvalost
+nevytříbenost
+nevyumělkovanost
+nevyužitelnost
+
+nevzdělavatelnost
+nevzdušnost
+nezadanost
+nezadatelnost
+nezahladitelnost
+nezachovatelnost
+nezachytitelnost
+nezakomplexovanost
+nezakrytost
+nezakrývanost
+nezaměstnavatelnost
+nezámožnost
+nezamýšlenost
+nezapamatovatelnost
+nezapojenost
+nezasloužilost
+nezastavitelnost
+nezastižitelnost
+nezasvěcenost
+nezávažnost
+nezbádanost
+nezfázovanost
+nezhlédnutelnost
+neziskovost
+nezjednodušitelnost
+nezjistitelnost
+nezjistitelnost *1
+
+nezkreslenost
+
+nezmechanizovatelnost
+
+nezměřitelnost
+nezneužitelnost
+
+nezpracovanost
+nezpůsobnost
+nezřejmost
+nezvedenost
+nezvedenost *1
+
+nezvídavost
+nezvládnutelnost
+nezvládnutost
+nezvratitelnost
+neženatost
+neživotaschopnost
+
+nízkorozpočtovost
+nonkonformnost
+Nordost
+nosovost
+nováckost
+obapolnost
+obávanost
+občanskost
+občasnost
+
+objízdnost
+obklíčenost
+oblečenost
+
+
+oborovost
+oborovost $ *1
+
+oboustrannost
+
+obrněnost
+obroditelnost
+
+
+
+obsaženost
+
+obydlenost
+obývatelnost
+obžernost
+odčinitelnost
+odčitatelnost
+
+oddělitelnost
+odečitatelnost
+
+odhalitelnost
+odchylnost
+odlišenost
+
+odmlouvavost
+
+odpočitatelnost
+odpověděnost
+
+odstíněnost
+odstředivost
+odtokovost
+odůvodnitelnost
+odvážlivost
+
+odvodnitelnost
+
+ohladitelnost
+ohlušivost
+ohýbatelnost
+
+
+okamžikovost
+okatost
+
+okysličenost
+olejnatost
+olezlost
+olysalost
+omluvitelnost
+omluvnost
+omráčenost
+opačnost
+opadavost
+operovatelnost
+opětnost
+opisnost
+oplácanost
+oploštěnost
+opojenost
+opotřebenost
+opotřebitelnost
+opovrženíhodnost
+opozdilost
+opranost
+opravdivost
+oprýskanost
+optimalizovatelnost
+opuchlost
+
+orálnost
+ornamentálnost
+osamostatnělost
+osamostatnitelnost
+oslabenost
+oslavnost
+oslizlost
+oslizlost $ *1
+
+oslněnost
+oslovitelnost
+ospravedlnitelnost
+
+osvobodivost
+osvobozenost
+otrockost
+otřesuvzdornost
+ověšenost
+ovlivněnost
+ovoněnost
+ovoněnost *1
+oživenost
+padělanost
+padělatelnost
+pájivost
+panákovitost
+panoptikálnost
+parodičnost
+párovitost
+partikulárnost
+paušálnost
+pavědeckost
+perifernost
+permanentnost
+pernatost
+pěticípost
+pětimístnost
+pihovatost
+pisklavost
+plánovatelnost
+plavost
+plazivost
+plechovost
+plíživost
+plnokrevnost
+plnoplošnost
+plnoprávnost
+plnoštíhlost
+pluchatost
+plynnost
+poblouzněnost
+poddimenzovanost
+podílnost
+podinvestovanost
+podivínskost
+podlažnost
+podloženost
+poďobanost
+podposloupnost
+
+podšitost
+podvázanost
+podvrženost
+podzákonnost
+
+pohaslost
+pohlcenost
+pohledovost
+pohnutost
+pohodovost
+
+pohybnost
+pohybnost *1
+
+pochcanost
+pochlapenost
+pochlebovačnost
+
+pochroumanost
+pojivost
+
+pokroucenost
+polárnost
+pologramotnost
+poloopilost
+
+poloplnost
+poloprůhlednost
+polovodivost
+polyfoničnost
+
+pomačkanost
+
+
+
+
+ponořenost
+popěvkovost
+popsatelnost
+porušitelnost
+poslouchatelnost
+
+posměšnost
+posmrtnost
+postačitelnost
+postmodernost
+pošahanost
+poškozenost
+potemnělost
+potenciálnost
+potkávatelnost
+
+
+potvornost
+pouhost
+používanost
+povedenost
+
+
+povídkovost
+povislost
+povrchovost
+povyraženost
+
+povzbudivost
+povznešenost
+prajednoduchost
+pramenitost
+práskanost
+práskanost $ *1
+
+prastarost
+
+pravěkost
+pravomocnost
+
+
+prazkušenost
+
+predeterminovanost
+probudilost
+probuzenost
+prodanost
+prodávanost
+prodchnutost
+prodlouženost
+profízlovanost
+
+projektovanost
+projevenost
+prokletost
+prokrvenost
+prokřehlost
+promáčenost
+promarněnost
+proměnitelnost
+promíšenost
+promptnost
+pronajímatelnost
+propadlost
+propočítatelnost
+propojitelnost
+proporcionálnost
+
+
+prorockost
+prorostlost
+prosluněnost
+
+prostnost
+
+prostoročasovost
+
+prostosrdečnost
+prostoupenost
+
+
+prosvětlenost
+prosvítavost
+proškolenost
+protějškovost
+protiamerickost
+protiběžnost
+
+
+
+protlačenost
+
+prověřenost
+provládnost
+provozovatelnost
+provzdušněnost
+
+průstřelnost
+
+prvoplánovitost
+prvotřídnost
+pryskyřičnatost
+
+přecpanost
+
+předdějinnost
+předepsanost
+
+přednastavenost
+předpovídatelnost
+předraženost
+představitelnost
+
+představovost
+
+předzjednanost
+předzjednanost $ *1
+
+přehlcenost
+
+přeinvestovanost
+přejemnost
+překonanost
+překonanost $ *1
+
+překrmenost
+překroucenost
+překroucenost *1
+
+překvalifikovanost
+přelomovost
+přemluvitelnost
+
+
+
+
+přepodivnost
+přepolitizovanost
+přepravitelnost
+přeprodukovanost
+přeregulovanost
+přerušitelnost
+přestrašenost
+přestupkovost
+přestupkovost $ *1
+
+přesvědčitelnost
+přesvětlenost
+přesvětlenost $ *1
+
+přetaženost
+přetechnizovanost
+přetížitelnost
+
+převratovost
+převýšenost
+přezdobenost
+
+
+přiboudlost
+příbuzenskost
+přídatnost
+přídatnost *1
+
+přihrbenost
+
+příkaznost
+
+přikovanost
+
+přilehlost
+
+připojenost
+přírost
+přirovnatelnost
+příručnost
+přiřaditelnost
+přitlumenost
+
+
+přizpůsobenost
+
+psanost
+pseudovědeckost
+psychedeličnost
+půvabnost
+pyskatost
+rádobyvtipnost
+rádobyvtipnost *1
+
+
+rakovinotvornost
+raněnost
+
+
+rektifikovatelnost
+rekurzívnost
+religióznost
+renovovatelnost
+reprízovost
+reservovanost
+respektovanost
+revokovatelnost
+rezavost
+rezivost
+rmutnost
+rockovost
+rodinnost
+románovost
+rostlinnost
+rovnostrannost
+rozběhanost
+rozběžnost
+rozbitelnost
+rozbornost
+rozcapenost
+
+rozcuchanost
+rozčepýřenost
+rozčílenost
+rozčtvrcenost
+rozdělenost
+rozdováděnost
+rozdurděnost
+
+rozebíratelnost
+rozebranost
+rozedranost
+
+rozeřvanost
+rozeřvanost $ *1
+
+rozezlenost
+
+rozhalenost
+rozhorlenost
+rozhořčenost
+rozhýčkanost
+rozjednanost
+rozjímavost
+rozjuchanost
+rozkazovačnost
+rozkladnost
+rozklíženost
+rozkošatělost
+rozlétanost
+
+rozlítanost
+rozlomenost
+rozlučitelnost
+
+rozmazanost
+rozmilost
+rozmlženost
+
+rozmytost
+rozostřenost
+rozparcelovanost
+
+rozpočtenost
+rozpohybovanost
+
+rozpovídanost
+
+rozrušitelnost
+rozřezanost
+rozstříhanost
+
+rozteklost
+
+roztrhanost
+roztřesenost
+rozvedenost
+
+rozvitost
+rozvojovost
+rozvrácenost
+rozzářenost
+rozzlobenost
+rozžhavenost
+ruskost
+rusost
+rutinovanost
+různobarevnost
+různotvarost
+ryšavost
+ředitelnost
+ředitelnost $ *1
+
+řeřavost
+řezavost
+řeznost
+říjnost
+římskost
+samočinnost
+samodružnost
+samomaznost
+samoopravitelnost
+samotnost
+samovolnost
+samozásobitelnost
+sanovatelnost
+satiričnost
+sborovost
+scelenost
+scvrklost
+sčetlost
+sebelítostivost
+sebevědomost
+sebezhlíživost
+sekundárnost
+sekvenčnost
+selskost
+semestrovost
+semestrovost *1
+
+senilnost
+separovanost
+servisovatelnost
+seřiditelnost
+seschlost
+sestavenost
+sestupnost
+sešroubovanost
+
+seznatelnost
+
+shnilost
+
+shrbenost
+schátralost
+schlíplost
+siláckost
+simplifikovanost
+sivost
+sjednotitelnost
+
+skalpelovitost
+skloněnost
+sklonnost
+sklonnost *1
+
+skluznost
+skluznost $ *1
+
+skočnost
+skřípavost
+skupinovost
+sladkobolnost
+slastnost
+slátanost
+slétanost
+slévatelnost
+slibnost
+slídivost
+slinivost
+slizovitost
+slovanskost
+slovitelnost
+
+
+
+smiřitelnost
+smluvnost
+smolnost
+smontovatelnost
+smrtonosnost
+smyslotvornost
+snášelivost
+
+soběstřednost
+socializovanost
+
+
+sonátovost
+součastnost
+soudobost
+souhrnnost
+soukromost
+soumračnost
+soupodstatnost
+sousedskost
+
+souznačnost
+
+spasitelnost
+specializovanost
+speciálnost
+splihlost
+spoluhost
+spolupůsobnost
+
+sporadičnost
+sporost
+
+
+sprostnost
+spřaženost
+srostlost
+srovnalost
+srozuměnost
+stacionárnost
+stahovanost
+staletost
+stáložárnost
+starozákonnost
+
+státnickost
+
+sťatost
+staženost
+
+
+stejnověkost
+stékavost
+sténavost
+stinnost
+stínovost
+stojatost
+stolovost
+stolovost $ *1
+
+strannost
+strannost $ *1
+
+strategičnost
+stratifikovanost
+stresovatelnost
+stresovost
+striktnost
+strukturálnost
+strupatost
+střapatost
+střeženost
+studenokrevnost
+styčnost
+stydlavost
+stýskavost
+subjektovost
+submisívnost
+sudost
+suitovost
+sukovitost
+superhvězdnost
+supermožnost
+superpevnost
+supertajnost
+superzkušenost
+svalovčitost
+
+svedenost
+
+svémocnost
+světlocitlivost
+světlocitlivost $ *1
+
+světlomilnost
+
+světoběžnost
+světodějnost
+svézákonnost
+svinskost
+
+svízelnost
+svlečenost
+svolnost
+svraštělost
+synonymnost
+šavlozubost
+šedost
+šerost
+šestákovost
+šikmookost
+
+
+škudlivost
+šlachovitost
+šlapavost
+šokovanost
+španělskost
+špásovitost
+šprýmovnost
+šťastlivost
+
+štěkavost
+štěpitelnost
+štípatelnost
+
+švarnost
+tajnosnubnost
+talentovanost
+tavitelnost
+tázavost
+tečkovitost
+tečnost
+
+tematičnost
+témbrovost
+
+testovatelnost
+
+tísnivost
+tížnost
+
+tolerovatelnost
+trhanost
+tristnost
+
+
+trýznivost
+tržnost
+třaskavost
+třaslavost
+třeskutost
+tureckost
+tvářitelnost
+
+
+tyčovitost
+typovost
+
+ubrečenost
+ucintanost
+ucpanost
+učesanost
+učtenost
+údajnost
+údajnost *1
+
+udělatelnost
+údělnost
+údivnost
+údivnost *1
+
+údržnost
+udýchanost
+ufňukanost
+uhranutost
+uhrovitost
+úhybnost
+uchovatelnost
+ukázkovost
+úkolovost
+ukončitelnost
+ukoptěnost
+úkornost
+úkornost $ *1
+
+úletovost
+úlevnost
+ulízanost
+umaštěnost
+umazanost
+umělkovanost
+
+umístitelnost
+úmyslnost
+uniformnost
+unikavost
+únikovost
+universálnost
+
+úpadkovost
+upatlanost
+
+upocenost
+upoutanost
+upřenost
+určitelnost
+úřednickost
+uříditelnost
+uříditelnost $ *1
+
+uřvanost
+usápanost
+úsilnost
+uslzenost
+usměrněnost
+uspokojenost
+ustavičnost
+ústrojnost
+ušpiněnost
+utáhnutost
+utěsněnost
+útěšlivost
+útěšnost
+utrácivost
+utrácivost $ *1
+
+utrápenost
+utrmácenost
+
+utuhlost
+úvahovost
+uváženost
+uvězněnost
+uvřeštěnost
+uzardělost
+uzavíratelnost
+úzkopásmovost
+užitost
+užívanost
+vachrlatost
+valivost
+vařivost
+
+
+váživost
+vcítivost
+vdavekchtivost
+věcnatost
+
+vědychtivost
+vejcoživorodost
+
+velejemnost
+veleúčinnost
+velevzácnost
+velitelskost
+
+
+velkomožnost
+
+verifikovatelnost
+vesměrnost
+větevnatost
+větratelnost
+větroplachost
+větrosprašnost
+většinovost
+vícehlasost
+vícekvětost
+víceoborovost
+vícepásmovost
+vícerozměrnost
+vícesborovost
+vícevrstevnatost
+vícevrstevnost
+vícezdrojovost
+
+viklavost
+vínorodost
+virtuálnost
+virulentnost
+vítanost
+vítězoslavnost
+vizuálnost
+vkladuschopnost
+vkladuschopnost $ *1
+
+vklíněnost
+
+vnímanost
+vopatrnost
+voskovost
+vpletenost
+vrásčitost
+vrtohlavost
+vřeštivost
+všelidovost
+
+všenárodnost
+všeobsažnost
+všepřítomnost
+všesvětovost
+všeužitečnost
+
+všeznalost
+všeznalost $ *1
+vybledlost
+vybledlost *1
+
+vyblouzněnost
+vybydlenost
+vycvičenost
+vyčichlost
+vyčíslenost
+vyčkávavost
+vyčouhlost
+vyděračnost
+
+vygumovanost
+vyhládlost
+vyhledatelnost
+vyhodnotitelnost
+vyhořelost
+vyhoštěnost
+výhradnost
+vyhynulost
+vychcanost
+vychladlost
+vychýlenost
+vykloubenost
+výkonovost
+vykotlanost
+vykoupenost
+vykrmenost
+vykrystalizovanost
+vykřičenost
+vykulenost
+vylehčenost
+vylekanost
+
+vymakanost
+vyměnitelnost
+vymetenost
+vymknutost
+vymydlenost
+vynikajícnost
+výnosovost
+vynucenost
+výparnost
+vypasenost
+vypečenost
+
+vyprofilovanost
+vypsanost
+vysílatelnost
+vysílenost
+vyskákanost
+vyslovitelnost
+výsměšnost
+
+vystopovatelnost
+vysvlečenost
+
+vyškolenost
+výtavnost
+vytaženost
+
+vytrénovanost
+vývojnost
+
+vyzbrojenost
+
+významotvornost
+významuplnost
+vyždímanost
+vzestupnost
+vzhlednost
+vznesenost
+vzornost
+
+vzrůstnost
+vztyčenost
+zábavychtivost
+zaběhanost
+zaběhlost
+zaběhnutost
+zabejčenost
+zabejčilost
+zabetonovanost
+zabudovanost
+zacpanost
+zacyklenost
+začleněnost
+začleněnost $ *1
+zádržnost
+zadýchanost
+zahleněnost
+záhodnost
+zahrocenost
+záhřevnost
+zahuštěnost
+záchrannost
+záchvatovitost
+zajatost
+zajíkavost
+zakaboněnost
+zakalkulovatelnost
+zaklíněnost
+zakomplexovanost
+zakonspirovanost
+zakousnutost
+záletnost
+zalitost
+zalykavost
+zalykavost $ *1
+záměnnost
+zamořenost
+zamračenost
+zamřelost
+zanedbatelnost
+zanesenost
+zapadlost
+zapáchavost
+zápalnost
+zapatlanost
+zaplavenost
+započitatelnost
+zapojenost
+zapouzdřenost
+zapředenost
+zapýřenost
+zárodečnost
+zarostlost
+zaručenost
+zaseknutost
+zaslouženost
+zásobenost
+zasolenost
+zasranost
+zastavitelnost
+zastíněnost
+zastuzenost
+zašifrovanost
+zaškatulkovanost
+zatáčivost
+zatemněnost
+zaúčtovatelnost
+zauzlovanost
+závadovost
+zavalenost
+zazděnost
+zazobanost
+záživnost
+zažloutlost
+zbankrotovanost
+zbavenost
+zběžnost
+zbytnělost
+zcestovalost
+zčechranost
+zčeřenost
+zdárnost
+zděděnost
+zdeformovanost
+zděšenost
+zdivočelost
+zdivočilost
+zdomácnělost
+zdrcenost
+zdrsnělost
+zdřevnatělost
+zduchovnělost
+zduchovnělost $ *1
+zemdlelost
+zesnulost
+zetlelost
+zevnějšnost
+zfetovanost
+zhlouplost
+zhutněnost
+zchudlost
+zchvácenost
+zjasněnost
+zjihlost
+zkázněnost
+zklamanost
+zkompromitovanost
+zkormoucenost
+zkornatělost
+zkorumpovatelnost
+zkosenost
+zkvasitelnost
+zkyslost
+zlatorudnost
+zlatost
+zlatovost
+zlobivost
+zlostnost
+zmanipulovatelnost
+zmarněnost
+zmařenost
+změnovost
+zmetkovost
+zmlklost
+zmnoženost
+zmrtvělost
+zmučenost
+zmuchlanost
+zmutovanost
+značkovost
+znatelnost
+zněmčilost
+znetvořenost
+zneuznanost
+zničitelnost
+zobrazitelnost
+zonálnost
+zornost
+zotročenost
+zpackanost
+zpěvavost
+zplanělost
+zpolitizovanost
+zpomalenost
+zpovykanost
+zprohýbanost
+zprostředkovatelnost
+zpřízněnost
+zpuchlost
+zpuchřelost
+zpustošenost
+zpytavost
+zrcadlovost
+zrnatost
+zrost
+zřivost
+zteplalost
+ztěžklost
+ztichlost
+ztrápenost
+ztvrdlost
+zubatost
+zúročitelnost
+zůstalost
+zvěstnost
+zvětralost
+zvětratelnost
+zvladatelnost
+zvlněnost
+zvolnost
+zvonivost
+zvukotěsnost
+zvykovost
+žalostnost
+žalovatelnost
+žánrovitost
+žertovnost
+žilnatost
+žitelnost
+životadárnost
+žmolkovitost

@@ -1,0 +1,7 @@
+We require Ufal::MorphoDiTa for normal usage.
+
+Treex::Tool::Lexicon::DerivDict::Dictionary is required for legacy
+code, but you shouldn't need that. If you do, you can find it in
+a Git version of Treex at https://github.com/ufal/treex.git
+See https://ufal.mff.cuni.cz/treex/install.html for installation
+instructions of Treex.
