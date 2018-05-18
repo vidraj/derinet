@@ -14699,8 +14699,8 @@ smetana	smetánka	N-a --> N-ka	CHANGE: a -> á
 4 GROUPS FOR RULE COMBINATION: N-a --> N-ka, V-at --> N-ka, V-it --> N-ka
 
 * poleva	polévka	N-a --> N-ka	CHANGE: e -> é	
-polevit	polévka	V-it --> N-ka	CHANGE: e -> é	
-* polévat	polévka	V-at --> N-ka		
+* polevit	polévka	V-it --> N-ka	CHANGE: e -> é	
+polévat	polévka	V-at --> N-ka		
 
 * poleva	polívka	N-a --> N-ka	CHANGE: e -> í	
 * polevit	polívka	V-it --> N-ka	CHANGE: e -> í	
