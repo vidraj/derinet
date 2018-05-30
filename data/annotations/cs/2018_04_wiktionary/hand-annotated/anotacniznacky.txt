@@ -1,0 +1,21 @@
+﻿anotace ve formátu csv:
+vztah mezi lexémem A a lexémem B; lexém A; lexém B; základové slovo pro lexém A; základové slovo pro lexém B
+
+
+
+
+ZNAČKY PRO "VZTAH MEZI LEXÉMEM A A LEXÉMEM B":
+	
+PRÁZDNO	lexém A je základové slovo pro lexém B (A=rodič, B=dítě) 
+§	lexém A je derivát lexému B (B=rodič, A=dítě)
+\	lexém A a lexém B nejsou v derivačním vztahu
+	
+	
+
+
+ZNAČKY PRO "ZÁKLADOVÉ SLOVO PRO LEXÉM A" A "ZÁKLADOVÉ SLOVO PRO LEXÉM B" (podle počtu předcházejících středníků):
+
+*	lexém A, nebo B je značkové slovo
+LEXÉM	uvedeno konkrétní základové slovo pro lexém A, nebo B
+C	lexém A, nebo B je kompozitum (--> do pos tagu přidat C)
+

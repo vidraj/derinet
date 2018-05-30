@@ -1,0 +1,10 @@
+﻿sloupec A: vztah mezi lexémem 1 a lexémem 2 
+sloupec B: lexém 1 (potenciální derivát)
+sloupec C: lexém 2 (potenciální základové slovo)
+sloupec D: správné základové slovo, pokud lexém 2 chybně
+
+
+anotační značky pro sloupec A:
+* 	navržený vztah správně (lexém 1 derivát, lexém 2 základové slovo)
+% 	navržené základové slovo není správně, ve sloupci D uvedeno správné (tedy: lexém 1 derivát, základové slovo ve sloupdi D)
+§	mezi lexémem 1 a lexémem 2 není derivační vztah a jiný návrh na základové slovo nemám
