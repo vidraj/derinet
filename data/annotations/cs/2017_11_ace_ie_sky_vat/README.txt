@@ -1,39 +1,39 @@
-Anotace všech slov, která konèí na uvedené kombinace písmen a nemìla v DeriNetu
-rodièe.
+Anotace vÅ¡ech slov, kterÃ¡ konÄÃ­ na uvedenÃ© kombinace pÃ­smen a nemÄ›la v DeriNetu
+rodiÄe.
 
-FORMÁT
+FORMÃT
 ======
 
-Stejnı jako v DeriNetu, tedy ID<tab>lemma<tab>techlemma<tab>POS<tab>parentID,
-navíc jsou pøidány 1-2 sloupeèky pro lemma rodièe a techlemma rodièe 
-(v nìkterıch souborech jen lemma, jinde i techlemma podle toho, jak moc je
-u daného zakonèení podoba techlemmatu dùleitá). Napø.:
+StejnÃ½ jako v DeriNetu, tedy ID<tab>lemma<tab>techlemma<tab>POS<tab>parentID,
+navÃ­c jsou pÅ™idÃ¡ny 1-2 sloupeÄky pro lemma rodiÄe a techlemma rodiÄe
+(v nÄ›kterÃ½ch souborech jen lemma, jinde i techlemma podle toho, jak moc je
+u danÃ©ho zakonÄenÃ­ podoba techlemmatu dÅ¯leÅ¾itÃ¡). NapÅ™.:
 
-79	aarhuskı	aarhuskı_;G_^(Aarhuská_úmluva)	A	77	Aarhus	Aarhus_;G
+79	aarhuskÃ½	aarhuskÃ½_;G_^(AarhuskÃ¡_Ãºmluva)	A	77	Aarhus	Aarhus_;G
 
-Pokud se mi nepodaøilo najít v DeriNetu vhodného rodièe a zároveò jsem ho byla
-schopna najít jinde (buï vím, jakı má bıt, nebo jsem ho vygooglila), je tento
-rodiè uveden v 5. sloupci a oznaèen <<<>>>, øádek pak vypadá napø. takto:
+Pokud se mi nepodaÅ™ilo najÃ­t v DeriNetu vhodnÃ©ho rodiÄe a zÃ¡roveÅˆ jsem ho byla
+schopna najÃ­t jinde (buÄ vÃ­m, jakÃ½ mÃ¡ bÃ½t, nebo jsem ho vygooglila), je tento
+rodiÄ uveden v 5. sloupci a oznaÄen <<<>>>, Å™Ã¡dek pak vypadÃ¡ napÅ™. takto:
 
-5369	ajurvédskı	ajurvédskı	A	<<<ajurvéda>>>
+5369	ajurvÃ©dskÃ½	ajurvÃ©dskÃ½	A	<<<ajurvÃ©da>>>
 
-Pokud se mi nepodaøilo rodièe najít a ani Google si nevìdìl rady, ale myslím si,
-e by nìjakı rodiè existovat mìl, znaèila jsem to <<<?>>>, opìt v 5. sloupci:
+Pokud se mi nepodaÅ™ilo rodiÄe najÃ­t a ani Google si nevÄ›dÄ›l rady, ale myslÃ­m si,
+Å¾e by nÄ›jakÃ½ rodiÄ existovat mÄ›l, znaÄila jsem to <<<?>>>, opÄ›t v 5. sloupci:
 
-5663	akdakajskı	akdakajskı	A	<<<?>>>
+5663	akdÅ¾akajskÃ½	akdÅ¾akajskÃ½	A	<<<?>>>
 
-Pokud se mi nepodaøilo najít rodièe, ale našla jsem jiné potenciální základové
-slovo, které je dostateènì podobné, aby se mohlo jednat o chybu, zapsala jsem
-do 5. sloupce <<<preklep>>>, napø.:
+Pokud se mi nepodaÅ™ilo najÃ­t rodiÄe, ale naÅ¡la jsem jinÃ© potenciÃ¡lnÃ­ zÃ¡kladovÃ©
+slovo, kterÃ© je dostateÄnÄ› podobnÃ©, aby se mohlo jednat o chybu, zapsala jsem
+do 5. sloupce <<<preklep>>>, napÅ™.:
 
-1971	ackionáøskı	ackionáøskı	A	<<<preklep>>>
+1971	ackionÃ¡Å™skÃ½	ackionÃ¡Å™skÃ½	A	<<<preklep>>>
 
-Slova, která podle mì odvozená nejsou (tj. znaèková a pøejatá), mají 5. sloupec 
-volnı:
+Slova, kterÃ¡ podle mÄ› odvozenÃ¡ nejsou (tj. znaÄkovÃ¡ a pÅ™ejatÃ¡), majÃ­ 5. sloupec
+volnÃ½:
 
-509	abdikovat	abdikovat_:T	V		
+509	abdikovat	abdikovat_:T	V
 
-Kromì tìchto slov mají 5. sloupec volnı i kompozita, ta jsou klasicky znaèena
-pøidáním C k oznaèení slovního druhu:
+KromÄ› tÄ›chto slov majÃ­ 5. sloupec volnÃ½ i kompozita, ta jsou klasicky znaÄena
+pÅ™idÃ¡nÃ­m C k oznaÄenÃ­ slovnÃ­ho druhu:
 
-2400	addisabebskı	addisabebskı	AC
+2400	addisabebskÃ½	addisabebskÃ½	AC

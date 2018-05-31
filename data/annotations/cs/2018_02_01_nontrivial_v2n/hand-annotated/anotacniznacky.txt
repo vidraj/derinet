@@ -1,0 +1,21 @@
+sloupec A anotační značka
+sloupec B lexém 1 (potenciání derivát)
+sloupec C lexém 2 (potenciální základové slovo)
+sloupec D původ dvojice z Jonášova/MŠ zdroje (pro přípravu dat nerelevantní)
+
+
+
+
+
+pokud je sloupec A prázdný, vztah neprošel anotací, pro přípravu dat nerelevantní
+
+
+anotační značky použité ve sloupci A:
+
+@    mezi lexémem 1 a 2 není derivační vztah
+>    navržený vztah obrátit: lexém 1 je základové slovo, lexém 2 derivát
+*    navržený vztah dobře: lexém 1 je derivát, lexém 2 základové slovo
+%    původní navržené sloveso (lexém 2) jsem nahradila jiným slovesem
+&    původní navržené sloveso (lexém 2) jsem nahradila slovem jiného slovního druhu
+$    2 pripady, kdy je subst (lexém 1) odvozeno od formalne totozneho adjektiva (lexém 2)
+#    3 případy, kdy je navžené základové slovo (lexém 2) špatně, substantivum (lexém 1) je kompozitum --> do pos tagu přidat C
