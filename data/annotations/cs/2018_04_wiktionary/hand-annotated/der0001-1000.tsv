@@ -65,19 +65,19 @@
 \	šestistěn–N	šestistěnný–A	%					
 \	odměr–N	odměrný–A	odměřit	odměřit				
 \	návrat–N	návratný–A	navrátit	navrátit				
-\	průvod–N	průvodný–A	provázet	provázet				
+\	průvod–N	průvodný–A	provázet	provést				
 \	Pákistán–N	Pákistánka–N	*	Pákistánec				
 \	odměr–N	odměrka–N	odměřit	odměrný				
 \	Alois–N	Aloisie–N	*	*				
 \	personál–N	personálie–N						
 \	skok–N	skokan–N	skočit					
 \	dub–N	dubák–N	*	dubový				
-\	Václav–N	Václavák–N	*	Václavský				
+\	Václav–N	Václavák–N	*	václavský				
 \	výzkum–N	výzkumák–N	vyzkoumat	výzkumný				
 \	amerikanizmus–N	amerikanista–N		amerikanistika				
 \	artizmus–N	artista–N	art	artistika				
 \	mandel–N	mandelík–N						
-\	zájem–N	zájemní–A	zajímat	zajmout				
+\	zájem–N	zájemní–A	zajímat	zájem				
 \	popel–N	popelka–N						
 	běda–N	bědovat–V						
 	důchod–N	důchodní–A	dochodit					
@@ -143,7 +143,7 @@
 §	soupeřit–V	soupeř–N						
 §	hrotit–V	hrot–N		*				
 §	měna–N	měnit–V		*				
-§	řada–N	řadit–V		řád				
+§	řada–N	řadit–V		řada				
 §	Macková–N	Macek–N		*				
 §	Habětínková–N	Habětínek–N		*				
 §	Urválková–N	Urválek–N		*				
@@ -245,7 +245,7 @@
 	kšaft–N	kšaftovat–V	*					
 	filtr–N	filtrovat–V	*					
 	pablesk–N	pableskovat–V						
-	roub–N	roubovat–V	rubat					
+	roub–N	roubovat–V	*					
 	šenk–N	šenkovat–V	*					
 	šampon–N	šamponovat–V	*					
 	flamendr–N	flamendrovat–V						
@@ -533,7 +533,7 @@
 	moč–N	močit–V						
 	kamarád–N	kamarádit–V	*					
 	chmel–N	chmelit–V	*					
-	křen–N	křenit–V	*					
+	křen–N–křen-1_^(nevítaný_společník_mladé_dvojice)	křenit–V	*					
 	rámus–N	rámusit–V	*					
 	pepř–N	pepřit–V	*					
 	šumař–N	šumařit–V						
@@ -556,7 +556,7 @@
 	čaloun–N	čalounit–V	*					
 	popel–N	popelit–V						
 	zápas–N	zápasit–V						
-	proud–N	proudit–V						
+	proud–N	proudit–V–proudit-2_:T_^(pohyb_kap.,_plynu)						
 	pramen–N	pramenit–V	*					
 	pot–N	potit–V	*					
 	tmel–N	tmelit–V	*					
@@ -750,14 +750,14 @@
 	slaďoučký–A	slaďoučce–D	sladký					
 	vratký–A	vratce–D						
 	sladký–A	sladce–D	*					
-	prudký–A	prudce–D	proudit					
+	prudký–A	prudce–D	proudit–V–proudit-2_:T_^(pohyb_kap.,_plynu)					
 	plytký–A	plytce–D						
 	hladký–A	hladce–D	hladit					
 	úzký–A	úzce–D	*					
 	mrzký–A	mrzce–D	*					
 								
 	zmatek–N	zmatkovat–V						
-	řízek–N	řízkovat–V	řez					
+	řízek–N	řízkovat–V	říznout					
 	papoušek–N	papouškovat–V	papouch					
 	koníček–N	koníčkovat–V	koník					
 	paběrek–N	paběrkovat–V						
@@ -822,7 +822,7 @@
 	jasný–A	jasno–D	jas					
 	libý–A	libo–D						
 	parný–A	parno–D						
-	těžký–A	těžko–D						
+	těžký–A	těžko–D–těžko-1_^(souvisící_s_váhou;_i_zdr._stav)						
 	drahý–A	draho–D						
 	vysokánský–A	vysokánsko–D	vysoký					
 	horký–A	horko–D						
@@ -941,7 +941,7 @@
 	gauč–N	gaučák–N	*					
 	žid–N	židák–N	*					
 	gympl–N	gymplák–N						
-	šos–N	šosák–N						
+	šos–N	šosák–N–šosák-1_^(zpátečník)						
 	med–N	medák–N	*					
 	Rus–N–Rus_;E	Rusák–N	*					
 	úchyl–N	úchylák–N	uchýlit					
@@ -1038,6 +1038,6 @@
 	anál–N	anální–A	*					
 	mentál–N	mentální–A						
 	prdel–N	prdelní–A						
-	mor–N	morní–A	mořit					
+	mor–N	morní–A	mřít					
 	fekál–N	fekální–A						
 	protokol–N	protokolní–A	*					
