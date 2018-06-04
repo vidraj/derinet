@@ -284,7 +284,7 @@
 §;Norka_N;Nor_N;;;;;;
 §;progresivní_A;progres_N;;;;;;
 §;abortivní_A;abort_N;;*;;;;
-§;subjektivní_A;subjekt_N;;C;;;;
+§;subjektivní_A;subjekt_N;;%;;;;
 §;efektivní_A;efekt_N;;*;;;;
 §;podpora_N;podpoøit_V;;;;;;
 §;portace_N;port_N;;*;;;;
@@ -357,7 +357,7 @@
 ;;;;;;;;
 ;orbita_N;orbitální_A;*;;;;;
 ;epocha_N;epochální_A;*;;;;;
-;centrifuga_N;centrifugální_A;C;;;;;
+;centrifuga_N;centrifugální_A;%;;;;;
 ;;;;;;;;
 ;atrakce_N;atraktivní_A;;;;;;
 ;inovace_N;inovativní_A;;;;;;
@@ -741,7 +741,7 @@
 ;kulich_N;kulíšek_N;*;;;;;
 ;Jindøich_N;Jindøíšek_N;*;;;;;
 ;ženich_N;ženíšek_N;ženit;;;;;
-;živoèich_N;živoèíšek_N;C;;;;;
+;živoèich_N;živoèíšek_N;%;;;;;
 ;;;;;;;;
 ;fízl_N;fízlárna_N;*;;;;;
 ;losos_N;lososárna_N;*;;;;;
@@ -1148,9 +1148,9 @@
 ;cesmína_N;cesmínovitý_A;*;;;;;
 ;pila_N;pilovitý_A;*;;;;;
 ;;;;;;;;
-;distribuce_N;distribuovat_V;C;;;;;
-;substituce_N;substituovat_V;C;;;;;
-;restituce_N;restituovat_V;C;;;;;
+;distribuce_N;distribuovat_V;%;;;;;
+;substituce_N;substituovat_V;%;;;;;
+;restituce_N;restituovat_V;%;;;;;
 ;;;;;;;;
 ;smìnka_N;smìneèný_A;;;;;;
 ;podmínka_N;podmíneèný_A;;;;;;
