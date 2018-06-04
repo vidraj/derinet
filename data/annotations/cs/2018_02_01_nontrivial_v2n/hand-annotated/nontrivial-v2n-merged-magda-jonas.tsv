@@ -52,7 +52,7 @@
 >	pochyba	pochybovat	M
 %	záhyba	zahýbat	M
 *	přesazba	přesadit	M
-*	vazba	vázat	M
+*	vazba–N–vazba_^(všechny_významy)	vázat	M
 %	převazba	převázat	M
 *	lučba	loučit	M
 *	kuřba	kouřit	M
@@ -61,16 +61,16 @@
 %	zádlažba	zadláždit	M
 %	výdlažba	vydláždit	M
 *	služba	sloužit	M
-&	příslužba	slu6ba	M
+&	příslužba	služba	M
 *	výslužba	vysloužit	M
 *	tužba	toužit	M
->	rada	radit	M
+>	rada–N–rada-1_^(př._dát_někomu_dobrou_radu)	radit	M
 *	dohoda	dohodnout	M
 >	shoda	shodnout	M
 >	nuda	nudit	M
 >	sebevražda	sebevraždit	J
 %	výstraha	vystříhat	M
->	útěcha	utěšit/utěšovat	M
+>	útěcha	utěšit	M
 >	mlha	mlžit	M
 *	výloha	vyložit	M
 *	obsluha	obsloužit	J
@@ -257,7 +257,7 @@
 *	odorávka	odorávat	J
 *	vyorávka	vyorávat	J
 *	omotávka	omotávat	J
-%	stávka	stát	J
+%	stávka	stát–V–stát-3_:T_^(někdo/něco_stojí,_např._na_nohou)	J
 %	obstávka	obstavit	J
 *	nachytávka	nachytávat	J
 *	podmazávka	podmazávat	J
@@ -436,14 +436,14 @@
 *	odrážečka	odrážet	J
 *	podrážečka	podrážet	J
 *	dorážečka	dorážet	J
-&	troubička	trouba	J
+&	troubička	trouba–N–trouba-2_^(na_pečení;_roura)	J
 &	zradička	zrada	J
 	kojička	kojit	J
 	hrdlička	hrdlit	J
 	hnilička	hniličet	J
 	hnilička	hniličit	J
 &	kuklička	kukla	J
-&	stranička	strana	J
+&	stranička	strana–N–strana-4_^(v_knize,_rukopise,...)	J
 	vodnička	vodničit	J
 	rozvodnička	rozvodnit	J
 	vápenička	vápeničit	J
@@ -523,9 +523,9 @@
 &	nadhodnota	hodnota	J
 *	msta	mstít	M
 	obava	obávat	M
-	doprava	dopravit/dopravovat	M
+	doprava–N–doprava-1	dopravit	M
 	domluva	domluvit	M
-	zpráva	zpravit/zpravovat	M
+	zpráva	zpravit	M
 	hrůza	hrozit	M
 	slib	slibovat	M
 	příslib	přislibovat	M
@@ -577,11 +577,11 @@
 *	podběh	podběhnout	J
 *	výdaj	vydat	M
 *	náznak	naznačit	M
-*	úlek	uleknout	M
+*	úlek–N–úlek-1_^(leknutí)	uleknout	M
 *	dotek	dotknout	M
 >	vztek	vztekat	M
-%	požadavek	pož8dat	M
-@	státeček	stát	J
+%	požadavek	požádat	M
+@	státeček	stát–N–stát-1_^(státní_útvar)	J
 *	přeřek	přeřeknout	J
 >	křik	křičet	M
 *	výkřik	vykřiknout	M
@@ -624,11 +624,11 @@
 	plavčík	plavčit	J
 	rybařík	rybařit	J
 	apel	apelovat	M
-*	předatel	předat	J
-*	zatykatel	zatykat	J
-*	přeposílatel	přeposílat	J
-@	obratel	obrat	J
-@	jetel	jet	J
+*	předatel	předat–V–předat-1_:T_,a_^(příst)	J
+*	zatykatel	zatykat–V–zatykat-2_:T_,a_^(zatýkat)	J
+*	přeposílatel	přeposílat–V–přeposílat	J
+@	obratel	obrat–V–obrat-2_:W_^(okrást;_vyčistit)	J
+@	jetel	jet–V–jet-1_:T_^(pohybovat_se,_ne_však_chůzí)	J
 *	rozvíjitel	rozvíjet	J
 *	bydlitel	bydlet	J
 *	přemýšlitel	přemýšlet	J
@@ -727,17 +727,17 @@
 *	náraz	narazit	M
 *	úraz	urazit	M
 %	dotaz	dotázat	M
-	ochlupení	ochlupit	J
+	ochlupení–N–ochlupení_^(*3it)	ochlupit	J
 	hryzení	hryznout	J
-	předtančení	předtančit	J
+	předtančení–N–předtančení_^(*3it)	předtančit	J
 	povodnění	povodit	J
 	zrovnovážnění	zrovnovážit	J
 *	umřití	umřít	J
 *	veplutí	veplout	J
 *	pousmátí	pousmát	J
 &	udatenství	udatný	J
-$	obžalovaný	obžalovaný 	J
-$	podřízený	podřízený	J
+$	obžalovaný–N–obžalovaný-2_^(osoba)	obžalovaný–A–obžalovaný_^(*2t)	J
+$	podřízený–N–podřízený-1_^(člověk)	podřízený–A–podřízený_^(*4dit)	J
 *	cílný	cílit	J
 *	brouzdač	brouzdat	J
 *	strouhač	strouhat	J
@@ -768,11 +768,11 @@ $	podřízený	podřízený	J
 *	hnízdič	hnízdit	J
 *	předčistič	předčistit	J
 *	rozpouštěč	rozpouštět	J
-*	předpověď	přepodvědět	M
+*	předpověď	předpovědět	M
 *	odpověď	odpovědět	M
 *	výpověď	vypovědět	M
 *	koupě	koupit	M
-@	dítě	dít	J
+@	dítě	dít–V–dít-1_:T_^(dít_se)	J
 *	bázeň	bát	M
 &	klubař	klub	J
 *	kuchař	kuchat	J

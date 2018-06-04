@@ -133,7 +133,7 @@
 25639	bakteriurie	bakteriurie_;U	N		
 27328	banderie	banderie	N		
 27608	bankomafie	bankomafie	NC		
-28301	barbie	barbie_,t_^(panenka;;mladá_hezká_dívka)	N	28302	Barbie
+28301	barbie	barbie_,t_^(panenka;;mladá_hezká_dívka)	N	28302	Barbie–N–Barbie-2_;S
 29068	baronie	baronie	N	29071	baron
 30823	baterie	baterie	N		
 31814	bazidie	bazidie	N		
@@ -170,7 +170,7 @@
 69553	cimelie	cimelie	N		
 69736	cínie	cínie	N		
 71456	coeliakie	coeliakie	N		
-74270	curie	curie-2	N	74267	Curie
+74270	curie	curie-2	N	74267	Curie–N–Curie_;S
 74938	cyanobakterie	cyanobakterie	N		
 74970	cydonie	cydonie_;L	N		
 75937	cystektomie	cystektomie	N		
@@ -677,7 +677,7 @@
 634724	saprotrofie	saprotrofie	N		
 635323	satorie	satorie_,h	N		
 635340	satrapie	satrapie	N		
-635362	saturnálie	saturnálie	N	635380	Saturn
+635362	saturnálie	saturnálie	N	635380	Saturn–N–Saturn-1_;G_;K_;R
 636576	scenerie	scenerie	N	636556	scéna
 636900	scrapie	scrapie	N		
 644717	seizmomastie	seizmomastie	N		
@@ -693,7 +693,7 @@
 654782	signorie	signorie	N		
 655555	simonie	simonie	N		
 657426	skapulomancie	skapulomancie	N		
-667389	sodomie	sodomie	N	667387	Sodoma
+667389	sodomie	sodomie	N	667387	Sodoma–N–Sodoma-2_;G
 668889	soredie	soredie	N		
 670544	spagyrie	spagyrie_;U	N		
 670942	sparterie	sparterie	N		

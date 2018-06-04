@@ -159,7 +159,7 @@
 25314	bajlovat	bajlovat_:T_,h	V		
 25817	balancovat	balancovat_:T	V		
 26246	balíčkovat	balíčkovat_:T	V	26230	balíček
-26304	balíkovat	balíkovat_:T	V	26330	balík
+26304	balíkovat	balíkovat_:T	V	26330	balík–N–balík-1_^(předmět)
 26431	balkanizovat	balkanizovat_:T_:W	V	26450	balkánský
 26709	bálovat	bálovat_:T_,h	V	26626	bál
 26940	balzakovat	balzakovat_:T_,h	V	26929	Balzac
@@ -499,7 +499,7 @@
 105574	dobuzovat	dobuzovat_:T	V	<<<dobudit>>>	
 106055	dockovat	dockovat_:T	V	106046	dock
 108495	dofukovat	dofukovat_:T	V	108397	dofouknout
-108698	doháčkovat	doháčkovat_:W	V	188175	háček
+108698	doháčkovat	doháčkovat_:W	V	188175	háčkovat
 108746	dohadovat	dohadovat_:T	V	109494	dohodnout
 108973	dohašovat	dohašovat_:W	V	108950	dohasit
 113280	dokrakonošovat	dokrakonošovat_:T_,h	V	<<<krakonošovat>>>	
@@ -526,7 +526,7 @@
 129171	došlapovat	došlapovat_:T	V	129154	došlápnout
 131361	dotovat	dotovat_:T_:W	V		
 131565	dotřiďovat	dotřiďovat_:T	V	131547	dotřídit
-132332	doumazávat	doumazávat_:T_^(*4at)	V	755980	umazávat
+132332	doumazávat	doumazávat_:T_^(*4at)	V	755980	umazávat–V–umazávat-2_:T_^(mazáním_odstranit)_(*6at-2)
 133766	dovolenkovat	dovolenkovat_:T	V	133736	dovolenka
 134861	dovytvrzovat	dovytvrzovat_:T	V	861761	vytvrzovat
 134901	dovyvažovat	dovyvažovat_:T	V	862768	vyvažovat
@@ -545,7 +545,7 @@
 137656	drancovat	drancovat_:T	V		
 137732	dranžírovat	dranžírovat_:T_,l_^(krájet_na_porce,_rozřezávat)	V		
 137997	drátkovat	drátkovat_:T	V	137968	drátek
-138031	drátovat	drátovat_:T	V	138067	drát
+138031	drátovat	drátovat_:T	V	138067	drát–N–drát-1
 138235	drážkovat	drážkovat_:T	V	138221	drážka
 138275	dražovat	dražovat_:T	V	138210	dražit
 138547	drenážovat	drenážovat_:T	V	138538	drenáž
@@ -708,7 +708,7 @@
 163517	fašizovat	fašizovat_:T	V	163492	fašismus
 163606	fatovat	fatovat_:T	V		
 163674	faulovat	faulovat_:T	V	163664	faul
-163790	favorizovat	favorizovat_:T	V	163780	favorit
+163790	favorizovat	favorizovat_:T	V	163780	favorit–N–favorit-2
 163828	faxovat	faxovat_:T	V	163819	fax
 163914	fazónovat	fazónovat_:T	V	163903	fazóna
 163942	fázovat	fázovat_:T	V	163875	fáze
@@ -861,7 +861,7 @@
 187007	gumovat	gumovat_:T	V	186913	guma
 187332	gustýrovat	gustýrovat_:T_,l_,s_^(zálibně_prohlížet,_zkoušet)	V	187319	gusto
 187919	habilitovat	habilitovat_:T	V		
-188189	háčkovat	háčkovat_:T	V	188173	háček
+188189	háčkovat	háčkovat_:T	V	188173	háček–N–háček_^(^DI*3k)
 189009	hajduchovat	hajduchovat_:T_,a_^(tancovat)	V		
 189170	hajlovat	hajlovat_:T	V		
 189359	hákovat	hákovat_:T	V	189345	hák
@@ -1309,7 +1309,7 @@
 271529	kořenovat	kořenovat_:T	V	271513	kořen
 272306	kostičkovat	kostičkovat_:T	V	272297	kostička
 272639	kostýmovat	kostýmovat_:T	V	272627	kostým
-272786	košerovat	košerovat_:T	V	272798	košer
+272786	košerovat	košerovat_:T	V	272798	košer–N–košer-1_^(pokrm_vyhovující_předpisům_judaizmu)
 273508	kotovat	kotovat_:T	V		
 273509	kótovat	kótovat_:T	V		
 273813	koučovat	koučovat_:T	V	273804	kouč
@@ -1378,7 +1378,7 @@
 289417	kyanovat	kyanovat_:T	V	289404	kyan
 289497	kýblovat	kýblovat_:T	V	289488	kýbl
 290113	kyselňovat	kyselňovat_:T	V	290144	kyselý
-290305	kytovat	kytovat_:T	V	290333	kyt
+290305	kytovat	kytovat_:T	V	290333	kyt–N–kyt-1_^(tmel)
 290369	kývat	kývat_:T	V		
 290574	laborovat	laborovat_:T	V		
 290952	ládovat	ládovat_:T	V		
@@ -1445,7 +1445,7 @@
 304052	lokalizovat	lokalizovat_:T	V	304079	lokální
 304295	lomcovat	lomcovat_:T	V		
 304566	lonžovat	lonžovat_:T	V	304557	lonže
-304965	losovat	losovat_:T	V	304991	los
+304965	losovat	losovat_:T	V	304991	los–N–los-2_^(výherní)
 305321	louhovat	louhovat_:T	V	305309	louh
 306682	luftovat	luftovat_:T_,h	V	306673	luft
 306769	luhovat	luhovat_:T_,n_^(louhovat)	V	306758	luh
@@ -1480,7 +1480,7 @@
 315851	marinovat	marinovat_:T	V		
 316068	markovat	markovat_:T	V		
 316161	markýrovat	markýrovat_:T_,h	V		
-316368	marodovat	marodovat_:T	V	316381	marod
+316368	marodovat	marodovat_:T	V	316381	marod–N–marod-1
 317269	masakrovat	masakrovat_:T_:W	V		
 317460	masírovat	masírovat_:T	V		
 317525	maskovat	maskovat_:T	V	317494	maska
@@ -1661,7 +1661,7 @@
 386001	nuancovat	nuancovat_:T	V	385992	nuance
 386269	nulovat	nulovat_:T	V	386224	nula
 386577	nuzovat	nuzovat_:T	V	384956	nouze
-386818	nýtovat	nýtovat_:T	V	386843	nýt
+386818	nýtovat	nýtovat_:T	V	386843	nýt–N–nýt-2
 386870	oadresovat	oadresovat_:W	V	3095	adresovat
 386998	obálkovat	obálkovat_:T	V	386985	obálka
 387140	obaťůžkovat	obaťůžkovat_:W	V	31191	baťůžek
@@ -1937,8 +1937,8 @@
 448385	pascalizovat	pascalizovat_:T	V	448393	pascal
 448494	pasírovat	pasírovat_:T	V		
 448533	pasivovat	pasivovat_:T	V		
-448575	páskovat	páskovat_:T	V	448438	pásek
-448678	pasovat	pasovat_:T_:W	V	449124	pas
+448575	páskovat	páskovat_:T	V	448438	pásek–N–pásek-1_^(opasek;;proužek;_do_stroje;_magnetofonový)
+448678	pasovat	pasovat_:T_:W	V	449124	pás
 448745	paspartovat	paspartovat_:T	V	448735	pasparta
 448761	pasportizovat	pasportizovat	N	448762	pasport
 448862	pasterizovat	pasterizovat_:T_:W	V		
@@ -2502,7 +2502,7 @@
 582981	pusinkovat	pusinkovat_:T	V	582972	pusinka
 583288	putovat	putovat_:T	V		
 583834	pyskovat	pyskovat_:T	V	583821	pysk
-584002	pytlíkovat	pytlíkovat_:T	V	584020	pytlík
+584002	pytlíkovat	pytlíkovat_:T	V	584020	pytlík–N–pytlík-1_^(^DI*3el)
 584039	pytlovat	pytlovat_:T	V	583903	pytel
 584508	rabovat	rabovat_:T	V	584486	rab
 584612	racionalizovat	racionalizovat_:T_:W	V	584626	racionální
@@ -2760,7 +2760,7 @@
 635287	satirizovat	satirizovat_:T	V	645631	satirický
 635389	saturovat	saturovat_:T_:W	V		
 635493	saunovat	saunovat_:T	V	635472	sauna
-635708	savovat	savovat_:W	V	635727	Savo
+635708	savovat	savovat_:W	V	635727	savo
 635953	sbahňovat	sbahňovat_:T	V	<<<sbahnit>>>	
 636257	sbormistrovat	sbormistrovat_:T	V	636248	sbormistr
 636337	sbrušovat	sbrušovat_:T	V	636323	sbrousit
@@ -2880,7 +2880,7 @@
 666745	snowboardovat	snowboardovat_:T	V	666759	snowboard
 667106	socializovat	socializovat_:T	V	667166	sociální
 667460	sofistikovat	sofistikovat_:T	V		
-667780	sokolovat	sokolovat_:T_,h_^(cvičit_v_Sokole)	V	667824	Sokol
+667780	sokolovat	sokolovat_:T_,h_^(cvičit_v_Sokole)	V	667824	Sokol–N–Sokol-2_;K_^(organizace)
 667897	solarizovat	solarizovat_:T	V	667915	solar
 668043	solidarizovat	solidarizovat_:T	V	668056	solidární
 668277	sólovat	sólovat_:T	V		
@@ -3047,7 +3047,7 @@
 703727	ševingovat	ševingovat_:T	V	<<<?>>>	
 703772	šibalovat	šibalovat_:T_,a	V	703763	šibal
 703854	šíbovat	šíbovat_:T	V		
-703876	šíbrovat	šíbrovat_:T_,h	V	703890	šíbr
+703876	šíbrovat	šíbrovat_:T_,h	V	703890	šíbr–N–šíbr-1_^(odsun)
 704047	šifrovat	šifrovat_:T	V		
 704150	šikanovat	šikanovat_:T	V		
 704490	šimfovat	šimfovat_:T_,n	V		
@@ -3083,7 +3083,7 @@
 709474	šokovat	šokovat_:T_:W	V		
 709649	šopovat	šopovat_:T	V	<<<šop>>>	
 710054	špacírovat	špacírovat_:T	V		
-710085	špačkovat	špačkovat_:T	V	710067	špaček
+710085	špačkovat	špačkovat_:T	V	710067	špaček–N–špaček-1_^(živ.)
 710139	špachtlovat	špachtlovat_:T_,l	V	710129	špachtle
 710198	špaletovat	špaletovat_:T_,s	V	710189	špaleta
 710340	špárovat	špárovat_:T_,h	V	<<<špára>>>	
@@ -3094,7 +3094,7 @@
 710701	šperkovat	šperkovat_:T	V	710691	šperk
 710763	špetkovat	špetkovat_:T	V	710753	špetka
 710833	špiclovat	špiclovat_:T	V		
-710863	špicovat	špicovat_:T	V	710882	špic
+710863	špicovat	špicovat_:T	V	710882	špic–N–špic_^(pes)
 710944	špičkovat	špičkovat_:T	V	710928	špička
 711023	špikovat	špikovat_:T	V		
 711205	špiónovat	špiónovat_:T_,h	V	711183	špión
@@ -3103,7 +3103,7 @@
 711374	špízovat	špízovat_:T	V	711361	špíz
 711615	šponovat	šponovat_:T	V		
 711922	šprýmovat	šprýmovat_:T	V		
-711995	špuntovat	špuntovat_:T_,h	V	712010	špunt
+711995	špuntovat	špuntovat_:T_,h	V	712010	špunt–N–špunt-2_,h_^(malé_dítě)
 712024	špurtovat	špurtovat_:T	V		
 712055	šrafovat	šrafovat_:T	V		
 712179	šrámovat	šrámovat_:T_,s	V	712140	šrám
@@ -3179,7 +3179,7 @@
 720352	taranovat	taranovat_:W	V		
 720536	tarifovat	tarifovat_:T	V	720527	tarif
 720617	tárovat	tárovat_:T	V	720342	tára
-720927	tatarovat	tatarovat_:T_,n_^(šlehat_pomlázkou)	V	720952	tatar
+720927	tatarovat	tatarovat_:T_,n_^(šlehat_pomlázkou)	V	720952	tatar–tatar-2_,a_^(pomlázka)–tatar-2_,a_^(pomlázka)
 721024	taťkovat	taťkovat_:T	V	721015	taťka
 721466	taxovat	taxovat_:T	V	721384	taxa
 721586	teatralizovat	teatralizovat_:W	V	721599	teatrální
@@ -3436,7 +3436,7 @@
 790554	vchlipovat	vchlipovat_:T	V	790537	vchlípnout
 790685	vibrovat	vibrovat_:T	V		
 791565	víčkovat	víčkovat_:T	V	791556	víčko
-792113	videovat	videovat_:T	V	792150	video
+792113	videovat	videovat_:T	V	792150	video–N–video-1
 792179	vidimovat	vidimovat_:T	V		
 792362	vidovat	vidovat_:T	V	792332	vid
 792747	vikarizovat	vikarizovat_:T_;L	V	792785	vikář
@@ -3604,7 +3604,7 @@
 839697	vymyšlovat	vymyšlovat_:T_,a	V	839610	vymyslet
 839800	vynaděkovat	vynaděkovat_:W_,a	V	92033	děkovat
 840241	vynastěžovat	vynastěžovat_:W_,s	V	681870	stěžovat
-840982	vyoutovat	vyoutovat_:W	V	438912	out
+840982	vyoutovat	vyoutovat_:W	V	438912	out–N–out-1
 841040	vypačovat	vypačovat_:T_,s	V	841030	vypáčit
 841469	vyparlamentovat	vyparlamentovat_:W_,e	V	447501	parlament
 841786	vypeckovat	vypeckovat_:W	V	451301	pecka
@@ -3953,7 +3953,7 @@
 953746	zchacharovat	zchacharovat_:W_,n	V	214384	chachar
 954037	zchlapšťovat	zchlapšťovat_:T_,e	V	<<<zchlapštět>>>	
 954439	zchudobňovat	zchudobňovat_:T	V	<<<zchudobnit>>>	
-955362	zimovat	zimovat_:T	V	955224	zima
+955362	zimovat	zimovat_:T	V	955224	zima–N–zima-1
 955574	zindustriovat	zindustriovat_:W_,s	V	224317	industrie
 955787	zinkovat	zinkovat_:T	V	955598	zinek
 956101	zintenzivňovat	zintenzivňovat_:T	V	<<<zintenzivnit>>>	
@@ -3995,7 +3995,7 @@
 967621	zmatkovat	zmatkovat_:T	V		
 967915	zmečiarizovat	zmečiarizovat_:W	V	320874	Mečiar
 968241	zmelodizovat	zmelodizovat_:W	V	323031	melodický
-968394	zmerkovat	zmerkovat_:W_,h_,s	V	324078	merk
+968394	zmerkovat	zmerkovat_:W_,h_,s	V	324078	merk–N–merk-2_,a_^(mít_někoho,_něco_v_merku)
 968470	zmestovat	zmestovat_:W_,n	V	<<<zmestit>>>	
 968555	zmetafyzičťovat	zmetafyzičťovat_:T	V	<<<zmetafyzičtit>>>	
 968726	zmetodizovat	zmetodizovat_:W	V	325471	metodický
@@ -4095,7 +4095,7 @@
 999592	zvěstovat	zvěstovat_:T_:W	V		
 1000366	zvláštňovat	zvláštňovat_:T_,s	V	<<<zvláštnit>>>	
 1000754	zvohavovat	zvohavovat_:T_,h_,x_^(^GC**zohavovat)	V	<<<zvohavit>>>	
-1001007	zvonkovat	zvonkovat_:T	V	1000932	zvonek
+1001007	zvonkovat	zvonkovat_:T	V	1000932	zvonek–N–zvonek-2_^(^DI*2)
 1001207	zvovuzveřejňovat	zvovuzveřejňovat_:T	V	<<<zvovuzveřejnit>>>	
 1002642	zývat	zývat_:T_,a	V	998725	zvát
 1002975	žabičkovat	žabičkovat_:T	V	1002962	žabička

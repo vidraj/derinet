@@ -1,0 +1,457 @@
+*	kojička	kojit	
+*	prosívka	prosít	
+*	obouvátko	obouvat	
+*	obracák	obracet	
+*	kolébavka	kolébat	
+*	obrušovátko	obrušovat	
+*	koledovačka	koledovat	
+*	kolíbavka	kolíbat	
+%	obstávka	obstát	obstavit
+*	zasekávačka	zasekávat	
+%	sídlo	sít	sídlit
+*	prostřihovačka	prostřihovat	
+*	obtahovačka	obtahovat	
+*	sípavka	sípat	
+*	veršovačka	veršovat	
+*	skákačka	skákat	
+*	skákavka	skákat	
+%	odbíračka	odbírat	odbírač
+*	věšitel	věšet	
+*	skartovačka	skartovat	
+%	dozdívka	dozdít	dozdívat
+*	věštička	věštit	
+*	zastrkovátko	zastrkovat	
+*	skružovačka	skružovat	
+*	drbátko	drbat	
+*	kopátko	kopat	
+*	drčák	drčet	
+%	kopička	kopit	kopa
+*	zaškrtávátko	zaškrtávat	
+*	odhalovačka	odhalovat	
+*	drkačka	drkat	
+*	drnčák	drnčet	
+%	vichřička	vichřit	vichřice
+%	družička	družit	družka
+*	držák–N–držák-1_^(neživ.)	držet	
+%	slívka	slít	slíva
+*	pružidlo	pružit	
+%	dudačka	dudat	dudák
+%	přádlo	přát	příst
+*	přebalovačka	přebalovat	
+*	koštovačka	koštovat	
+*	smilovačka	smilovat	
+*	koukačka	koukat	
+*	dusátko	dusat	
+*	koupačka	koupat	
+*	koupátko	koupat	
+*	kousátko	kousat	
+*	odlívka	odlít	
+*	kovadlo	kovat	
+*	zatrhovátko	zatrhovat	
+*	předatel	předat–V–předat-1_:T_,a_^(příst)	
+*	předčistička	předčistit	
+*	předehrávka	předehrát	
+*	zatykatel	zatykat–V–zatykat-2_:T_,a_^(zatýkat)	
+*	vlažička	vlažit	
+%	dvojička	dvojit	dvojice
+*	zaválcovačka	zaválcovat	
+%	vlnička	vlnit	vlna
+%	zavazák	zavazet	vaz
+*	odpichovadlo	odpichovat	
+*	odpočívátko	odpočívat	
+*	zavírátko	zavírat	
+*	voblbovačka	voblbovat	
+*	vobracečka	vobracet	
+*	představovačka	představovat	
+*	odrážečka	odrážet	
+*	odrážedlo	odrážet	
+*	spáječka	spájet	
+*	spájedlo	spájet	
+*	spárovačka	spárovat	
+*	dýchátko	dýchat	
+%	dychtivka	dychtit	dychtivec
+*	dýmačka	dýmat	
+*	krouhátko	krouhat	
+%	zazdívka	zazdívat	
+*	vochlovačka	vochlovat	
+%	volavka	volat	vole
+*	odstrkovadlo	odstrkovat	
+*	odstřeďovačka	odstřeďovat	
+%	křivdička	křivdit	křivda
+*	voračka–N–voračka_,n_^(účastnice_voraček)	vorat	
+%	kuklička	kuklit	kukla
+*	spouštědlo	spouštět	
+*	babračka	babrat	
+%	odvykačka	odvykat	odvykací
+%	bahnička	bahnit	bahnice
+%	vraštička	vraštit	vráska
+%	stáčečka	stáčet	stáčeč
+*	vrčák	vrčet	
+%	kušnička	kušnit	kušna
+*	vroubkovačka	vroubkovat	
+*	kvasidlo	kvasit	
+*	vrzátko	vrzat	
+%	vrzavka	vrzat	vrzavý
+*	kverlačka	kverlat	
+*	přemýšlitel	přemýšlet	
+*	vřeštidlo	vřeštit	
+*	kvičák	kvičet	
+*	vřískačka	vřískat	
+*	kvrdlačka	kvrdlat	
+*	stehovačka	stehovat	
+%	stěhovačka	stěhovat	stěhovací
+*	ohřívátko	ohřívat	
+*	ohýbadlo	ohýbat	
+*	přepínátko	přepínat	
+§	láčka	lát	
+*	okecávačka	okecávat	
+*	stiskátko	stiskat	
+*	zelenačka	zelenat	
+*	lajnovačka	lajnovat	
+*	zelenidlo	zelenit	
+*	lámadlo	lámat	
+*	fackovačka	fackovat	
+%	baštička	baštit	bašta
+%	přerývka	přerýt	přerývat
+*	lapadlo	lapat	
+%	stopička	stopit	stopa
+*	stopovačka	stopovat	
+%	přesívka	přesít	přesívat
+*	stoupátko	stoupat	
+*	olizovačka	olizovat	
+%	stranička	stranit	strana–N–strana-4_^(v_knize,_rukopise,...)
+*	přesmykovačka	přesmykovat	
+%	lávka	lát	lávka
+*	běhadlo	běhat	
+*	běhátko	běhat	
+*	strojička	strojit	
+*	lekačka	lekat	
+*	přešlapovačka	přešlapovat	
+*	střásačka	střásat	
+%	opalovačka	opalovat	opalovací
+*	vyclívka	vyclít	
+*	opékačka	opékat	
+*	fičák	fičet	
+*	fidlovačka	fidlovat	
+*	přetahovačka	přetahovat	
+%	střídavka	střídat	střídavý
+*	stříkátko	stříkat	
+*	stýskavka	stýskat	
+*	ležák–N–ležák-2	ležet	
+*	líbačka	líbat	
+*	líbadlo	líbat	
+*	oprašovačka	oprašovat	
+*	oprašovátko	oprašovat	
+%	opravička	opravit	oprava
+*	oračka	orat	
+*	oradlo	orat	
+*	flusačka	flusat	
+*	fofrovačka	fofrovat	
+*	přezkoušitel	přezkoušet	
+*	surfovačka	surfovat	
+%	osívka	osít	osívat
+%	oslavička	oslavit	oslava
+*	lízačka	lízat	
+*	foukátko	foukat	
+*	svařovačka	svařovat	
+*	vyhlížitel	vyhlížet	
+%	příčka	přít	příčit
+*	frčák	frčet	
+*	svíjedlo	svíjet	
+*	vyhrávka	vyhrát	
+*	svlíkačka	svlíkat	
+*	losovačka	losovat	
+*	loupátko	loupat	
+%	ostýchavka	ostýchat	ostýchavý
+*	sypavka	sypat	
+*	blikavka	blikat	
+*	blinkačka	blinkat	
+*	vykačka	vykat	
+%	šálička	šálit	šála
+*	blýskavka	blýskat	
+*	otírátko	otírat	
+*	vyklepávačka	vyklepávat	
+*	bodátko	bodat	
+*	šavlovačka	šavlovat	
+*	otvíračka	otvírat	
+*	máčedlo	máčet	
+*	mačkátko	mačkat	
+%	šedavka	šedat	šedavý
+§	zubovačka	zubovat	
+*	ovládačka	ovládat	
+*	ovládátko	ovládat	
+*	vykopávačka	vykopávat	
+*	máchadlo	máchat	
+*	vykošťovačka	vykošťovat	
+*	vykrajovačka	vykrajovat	
+*	vykrajovátko	vykrajovat	
+*	šermovačka	šermovat	
+*	připomínátko	připomínat	
+*	vykružovačka	vykružovat	
+*	vykrývka	vykrýt	
+*	ožíračka	ožírat	
+*	vykulovačka	vykulovat	
+*	šibačka	šibat	
+*	malovátko	malovat	
+%	zlostička	zlostit	zlost
+*	paginovačka	paginovat	
+*	šimrátko	šimrat	
+*	bouchátko	bouchat	
+*	boxovačka	boxovat	
+*	škrabátko	škrabat	
+*	škubačka	škubat	
+*	vymetadlo	vymetat–V–vymetat-1_:T_^(smetí)	
+*	grilovačka	grilovat	
+%	škvířička	škvířit	škvírka
+*	šlapavka	šlapat	
+%	šlechtička	šlechtit	šlechtična
+*	páračka	párat	
+*	páradlo	párat	
+*	brnkátko	brnkat	
+*	mašlovačka	mašlovat	
+*	šňupátko	šňupat	
+%	přizdívka	přizdít	přizdívat
+*	šoulačka	šoulat	
+*	šoupačka	šoupat	
+§	znáčka	znát	
+*	bručák	bručet	
+*	hádavka	hádat	
+%	bruslička	bruslit	brusle
+*	mazátko	mazat	
+*	špikovátko	špikovat	
+*	vypichovátko	vypichovat	
+*	patlačka	patlat	
+*	patlátko	patlat	
+*	šplíchátko	šplíchat	
+*	mečák	mečet	
+*	břinkačka	břinkat	
+*	špulička	špulit	
+*	pudrovačka	pudrovat	
+*	bubnovačka	bubnovat	
+*	handrkovačka	handrkovat	
+*	štepovačka	štepovat	
+*	pěchovátko	pěchovat	
+*	štěrchátko	štěrchat	
+*	štípátko	štípat	
+*	měnička	měnit	
+%	burčák	burčet	burcovat
+*	šťouchačka	šťouchat	
+*	šťouchadlo	šťouchat	
+*	šťouračka	šťourat	
+*	šťouradlo	šťourat	
+*	šťourátko	šťourat	
+*	rabovačka	rabovat	
+*	štupovačka	štupovat	
+%	bydlitel	bydlet	bydlit
+*	vyrovnávačka–N–vyrovnávačka	vyrovnávat	
+%	bzikavka	bzikat	bzikavý
+*	hejbátko	hejbat	
+*	rachtátko	rachtat	
+*	výřivka	výřit	
+*	vyřvávačka	vyřvávat	
+*	švihačka–švihačka-2_,l_^(pytlácké_oko)	švihat	
+*	zouvačka	zouvat	
+%	míhavka	míhat	míhavý
+*	míchátko	míchat	
+*	tahadlo	tahat	
+%	vysívka	vysít	vysívat
+*	cejchovačka	cejchovat	
+*	rázovačka	rázovat	
+*	vysoušečka	vysoušet	
+*	hladidlo	hladit	
+*	piglovačka	piglovat	
+*	píchavka	píchat	
+*	pinkátko	pinkat	
+*	cinkátko	cinkat	
+*	pískátko	pískat	
+*	vysvlékačka	vysvlékat	
+*	hodovačka	hodovat	
+*	mlčitel	mlčet	
+*	mlsačka	mlsat	
+*	plandavka	plandat	
+%	holička–N–holička_^(*2)	holit	holič
+*	vyškrtávačka	vyškrtávat	
+*	couračka	courat	
+*	plavačka	plavat	
+*	couvačka	couvat	
+*	modelovátko	modelovat	
+*	cucátko	cucat	
+*	hopsačka	hopsat	
+*	modřidlo	modřit	
+*	cumlátko	cumlat	
+%	zradička	zradit	zrada
+*	zradidlo	zradit	
+*	cvakátko	cvakat	
+%	tipovačka	tipovat	tipovací
+%	hostovačka	hostovat	hostovací
+*	houpátko	houpat	
+*	houpavka	houpat	
+*	tleskátko	tleskat	
+*	pobíječka	pobíjet	
+*	pobíračka	pobírat	
+%	vytíračka	vytírat	vytírací
+*	hradidlo	hradit	
+*	zrnovačka	zrnovat	
+*	mořička	mořit	
+*	čapačka	čapat	
+*	čapadlo	čapat	
+%	hrdlička	hrdlit	hrdlo
+*	hrkačka	hrkat	
+*	vytřásadlo	vytřásat	
+%	rochňátko	rochňat	rochně
+*	podbíječka	podbíjet	
+*	podbízitel	podbízet	
+§	zřídlo	zřít	
+*	rolovátko	rolovat	
+%	čepovačka	čepovat	čepovací
+%	podezdívka	podezdít	podezdívat
+*	trajdačka	trajdat	
+*	vyvěračka	vyvěrat	
+*	hučák	hučet	
+*	muchlovačka	muchlovat	
+*	vyvíjedlo	vyvíjet	
+*	hudradlo	hudrat	
+%	tratička	tratit	trať
+*	rovnadlo	rovnat	
+*	česadlo	česat	
+*	trdlovačka	trdlovat	
+*	rozbrušovačka	rozbrušovat	
+*	hýbadlo	hýbat	
+*	čiřidlo	čiřit	
+*	podrážečka	podrážet	
+*	čítačka	čítat	
+%	rozdávačka	rozdávat	rozdávač
+*	čmuchačka	čmuchat	
+%	podsívka	podsít	podsívat
+%	podšívka	podšít	podšívat
+*	nabírátko	nabírat	
+*	podtrhávátko	podtrhávat	
+*	podtrhovátko	podtrhovat	
+%	čtvrtička	čtvrtit	čtvrtka
+*	rozehřívačka	rozehřívat	
+*	rozechvívačka	rozechvívat	
+%	troubička	troubit	trouba–N–trouba-2_^(na_pečení;_roura)
+*	trucovátko	trucovat	
+*	nacpávačka	nacpávat	
+*	rozhalovačka	rozhalovat	
+%	čundračka	čundrat	čundrák
+%	nadezdívka	nadezdít	nadezdívat
+*	čvachtačka	čvachtat	
+*	vztekačka	vztekat	
+*	chňapavka	chňapat	
+%	pojišťovačka	pojišťovat	pojišťovák
+*	rozkládačka	rozkládat	
+%	nadředitel	nadřídit	ředitel
+*	chroupačka	chroupat	
+%	chrupavka	chrupat	chroupavý
+*	dávačka	dávat	
+%	pokroutička	pokroutit	pokroutka
+*	žehavka	žehat	
+*	žehnátko	žehnat	
+*	žejbrovačka	žejbrovat	
+*	rozmazávátko	rozmazávat	
+*	rozmazlovačka	rozmazlovat	
+*	tykačka	tykat	
+%	polívka	polít	polívat
+*	ženidlo	ženit	
+*	polohovátko	polohovat	
+*	žíhavka	žíhat	
+*	zabalovačka	zabalovat	
+*	rozpočítávadlo	rozpočítávat	
+%	udávka	udát	udávat
+*	žužlátko	žužlat	
+*	rozprašovadlo	rozprašovat	
+%	udidlo	udit	uzda
+*	udržitel	udržet	
+*	rozpustidlo	rozpustit	
+*	rozříkávačka	rozříkávat	
+%	rozsívka	rozsít	rozsívat
+*	nanášečka	nanášet	
+*	roztáčitel	roztáčet	
+%	zadělávačka	zadělávat	zadělávací
+*	popotahovačka	popotahovat	
+*	roztmívačka	roztmívat	
+*	ujímačka	ujímat	
+*	ukazovačka	ukazovat	
+*	napichovátko	napichovat	
+*	ukolébačka	ukolébat	
+*	rozvíjitel	rozvíjet	
+*	zadržitel	zadržet	
+%	rozvodnička	rozvodnit	rozvodnice
+*	napouštědlo	napouštět	
+%	ulívka	ulít	ulívat
+*	posouvátko	posouvat	
+§	postávka	postát	
+*	dlabadlo	dlabat	
+%	jednačka	jednat	jednací
+*	nasávačka	nasávat	
+*	posunovátko	posunovat	
+*	rýhovačka	rýhovat	
+*	posýpátko	posýpat	
+*	zahřívačka	zahřívat	
+§	jetel	jet–V–jet-1_:T_^(pohybovat_se,_ne_však_chůzí)	
+%	dobývka	dobýt	dobývat
+%	řasička	řasit	řasa
+%	jídlo	jít	jíst
+*	řehtadlo	řehtat	
+*	řehtátko	řehtat	
+*	potidlo	potit	
+*	řetízkovačka	řetízkovat	
+*	řezadlo	řezat	
+*	řezátko	řezat	
+%	řezavka	řezat	řezavý
+%	zaječka	zajet	zajíc
+%	sádlo	sát	sadit
+*	pouštědlo	pouštět	
+*	navařovačka	navařovat	
+%	kádrovačka	kádrovat	kádrovák
+%	poznávačka	poznávat	poznávací
+*	pózovačka	pózovat	
+*	sáňkovačka	sáňkovat	
+*	zakružovačka	zakružovat	
+*	dokreslovačka	dokreslovat	
+*	pramenička	pramenit	
+%	pravidlo	pravit	pravý
+*	nažehlovačka	nažehlovat	
+*	pražička	pražit	
+*	prcačka	prcat	
+*	zalétávačka	zalétávat	
+*	prchavka	prchat	
+%	zalívka	zalít	zalívat
+*	karbovačka	karbovat	
+*	utahovačka	utahovat	
+*	probíhačka	probíhat	
+*	utírátko	utírat	
+*	zaměřovadlo	zaměřovat	
+*	kecátko	kecat	
+*	prohazovačka	prohazovat	
+*	zandávačka	zandávat	
+*	dorážečka	dorážet	
+*	zapalovačka	zapalovat	
+*	vakuovačka	vakuovat	
+*	válcovačka	válcovat	
+*	klapátko	klapat	
+*	zapichovátko	zapichovat	
+%	klečák	klečet	kleč
+*	prolízačka	prolízat	
+*	klepavka	klepat	
+%	vápnička	vápnit	vápno
+*	klikačka	klikat	
+*	ňuňátko	ňuňat	
+*	promlčitel	promlčet	
+*	vartovačka	vartovat	
+%	sešívka	sešít	sešívat
+*	obalovačka	obalovat	
+%	vášnička	vášnit	vášeň
+*	občerstvovačka	občerstvovat	
+*	občerstvovadlo	občerstvovat	
+%	obezdívka	obezdít	obezdívat
+*	propichovátko	propichovat	
+*	propisovačka	propisovat	
+*	vdávačka	vdávat	
+*	vdávadlo	vdávat	
+*	proplétačka	proplétat	
+*	objímadlo	objímat	
+*	oblévačka	oblévat	
+*	oblíkačka	oblíkat	
+*	prosekávačka	prosekávat	
