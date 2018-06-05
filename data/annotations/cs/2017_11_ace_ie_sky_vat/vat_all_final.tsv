@@ -249,9 +249,9 @@
 60387	buchancovat	buchancovat_:T_,n_^(tlouci)	V		
 60475	buchcovat	buchcovat_:T	V		
 60639	buchtovat	buchtovat_:T	V	60591	buchta
-60898	bukovat	bukovat_:T_,l	V	61008	buk
+60898	bukovat	bukovat_:T_,l	V	61008	
 61186	bulharizovat	bulharizovat_:T	V	61207	bulharský
-61238	bulíkovat	bulíkovat_:T	V	61253	bulík
+61238	bulíkovat	bulíkovat_:T	V	61253	bulík–N–bulík-1_^(mladý_vůl,_hlupák)
 61410	bulvarizovat	bulvarizovat_:T	V	61424	bulvár
 61532	bumlovat	bumlovat_:T_,n	V		
 61723	buntovat	buntovat_:T	V		
@@ -941,7 +941,7 @@
 212578	hybernovat	hybernovat_:T	V		
 212638	hybridizovat	hybridizovat_:T	V	212651	hybridní
 212738	hydratovat	hydratovat_:T_:W	V		
-212891	hydrogenovat	hydrogenovat_:T_;H	V	212865	hydrogen
+212891	hydrogenovat	hydrogenovat_:T_;H	V	212865	hydrogen–NC–hydrogen_;H
 213785	hypnotizovat	hypnotizovat_:T	V	214069	hypnotický
 214085	hysterizovat	hysterizovat_:T	V	214918	hysterický
 214935	chaotizovat	chaotizovat_:T	V	221701	chaotický

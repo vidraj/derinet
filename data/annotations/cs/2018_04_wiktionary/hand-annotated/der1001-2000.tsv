@@ -2,9 +2,9 @@
 \	rys–N	rysice–N	*					
 \	spárovat–V	spára–N						
 \	osmák–N	osmačka–N						
-\	druh–N	družit–V						
+\	druh–N–druh-2_^(partner)	družit–V						
 \	robota–N	robotárna–N						
-\	matka–N	matice–N						
+\	matka–N–matka-1_^(malá_součástka)	matice–N						
 §	dohad–N	dohadovat–V		hádat				
 \	inkvizitor–N	inkvizitorsko–N						
 \	prim–N	primární–A	*					
@@ -100,7 +100,7 @@
 	šíp–N	šípek–N	*					
 	výsledek–N	výsledný–A						
 \	náramek–N	náramný–A						
-\	leh–N	lehárna–N	ležet	lehávat				
+\	leh–N	lehárna–N	lehnout	lehávat				
 	panel–N	panelárna–N	*					
 \	pozitiv–N	pozitivismus–N		pozitivní				
 \	pepřit–V	peprný–A	pepř	pepř				
@@ -116,10 +116,10 @@
 \	puk–N	pučet–V	*	*				
 \	podkova–N	podkovička–N		podkůvka				
 \	kolektiv–N	kolektivizovat–V		kolektivní				
-\	čtvrt–N	čtvrťák–N						
+\	čtvrt–N	čtvrťák–N–čtvrťák-2_^(mince)						
 \	reflexe–N	reflex–N						
 \	štafle–N	štafl–N						
-\	pikle–N	pikl–N	pikel	*				
+\	pikle–N	pikl–N	*	*				
 \	roj–N	rojáček–N						
 \	chlup–N	chlupáček–N–chlupáček-2_,e_^(^DI*2)	*	chlupáč				
 \	představa–N	představec–N	představit	představit				
@@ -129,11 +129,11 @@
 \	kopat–V	kopanec–N	*	kopnout				
 \	plivat–V	plivanec–N	*	plivnout				
 	bába–N	bábovka–N	*					
-\	statečný–A	statek–N	*	stát–V				
+\	statečný–A	statek–N	*	stát–V–stát-3_:T_^(někdo/něco_stojí,_např._na_nohou)				
 \	prospekt–N	prospektor–N	*					
-\	falzifikát–N	falzifikátor–N	falzifikovat	falzifikovat				
+\	falzifikát–N	falzifikátor–N		falzifikovat				
 \	fakt–N	faktor–N	*	*				
-\	svorka–N	svor–N	sevřít	sevřít				
+\	svorka–N	svor–N						
 \	zálivka–N	záliv–N	zalívat	zalít				
 \	kmotra–N	kmotřit–V	kmotr	kmotr				
 \	odpad–N	odpadky–N	odpadnout	odpadek				
@@ -211,7 +211,7 @@
 §	Galie–N	Gal–N		*				
 §	Abcházie–N	Abcház–N		*				
 \	mor–N	mořit–V	mřít	mřít				
-§	rigorózní–A	rigorózum–N		*				
+§	rigorózní–A–rigorózní-2_^(vztahující_se_k_rigorózu)	rigorózum–N		*				
 §	adjektivní–A	adjektivum–N		*				
 §	intranzitivní–A	intranzitivum–N		tranzitivum				
 §	tranzitivní–A	tranzitivum–N		*				
@@ -456,7 +456,7 @@
 	kurs–N	kursovní–A	*					
 	pluk–N	plukovní–A	*					
 	kult–N	kultovní–A	*					
-	fest–N	festovní–A	*					
+	fest–N–fest-3_,a	festovní–A	*					
 	duch–N	duchovní–A	*					
 								
 	léčba–N	léčebný–A	léčit					
@@ -538,7 +538,7 @@
 								
 	plavba–N	plavební–A	plavit					
 	dražba–N	dražební–A	dražit					
-	svatba–N	svatební–A	stavět					
+	svatba–N	svatební–A	svat					
 	lučba–N	lučební–A	loučit					
 	vazba–N–vazba_^(všechny_významy)	vazební–A	vázat					
 	těžba–N	těžební–A	těžit					
@@ -553,7 +553,7 @@
 								
 								
 	žaludek–N	žaludeční–A						
-	začátek–N	začáteční–A	začít					
+	začátek–N	začáteční–A	začít–V–začít-1_:W_^(začnout)					
 	bok–N	boční–A	*					
 	potok–N	potoční–A						
 	svátek–N	sváteční–A						
@@ -815,9 +815,9 @@
 								
 	Zeman–N	Zemánek–N	*					
 	Pražan–N	Pražánek–N	Praha					
-	stojan–N	stojánek–N	stát					
+	stojan–N	stojánek–N	stát–V–stát-3_:T_^(někdo/něco_stojí,_např._na_nohou)					
 	hafan–N	hafánek–N	hafat					
-	stan–N	stánek–N	stát					
+	stan–N	stánek–N	stát–V–stát-3_:T_^(někdo/něco_stojí,_např._na_nohou)					
 								
 								
 	basa–N	basička–N	bas					

@@ -141,7 +141,7 @@
 \	psanec–N	psaný–A	psát	psát				
 \	purpura–N	purpurový–A	purpur	purpur				
 \	dovozné–N	dovoz–N	dovézt	dovézt				
-\	skladné–N	sklad–N	skladovat	složit				
+\	skladné–N	sklad–N	skladovat	skládat				
 \	skif–N	skifařka–N		skifař				
 \	skeet–N	skeetařka–N		skeetař				
 \	intelektuál–N	intelektualizovat–V	intelekt	intelektuální				
@@ -181,7 +181,7 @@
 \	vybízet–V	nabídka–N	vybídnout	nabídnout				
 \	perla–N	perlivý–A	*	perlit–V–perlit_:T				
 \	Bukovina–N	buk–N–buk-1_^(strom)	bukovina	*				
-\	stačit–V	statek–N		stát				
+\	stačit–V	statek–N		stát–V–stát-3_:T_^(někdo/něco_stojí,_např._na_nohou)				
 \	hrbolatý–A	hrb–N	hrbol	*				
 \	reference–N	referát–N	referovat	referovat				
 \	držební–A	držet–V	držba	*				
@@ -240,7 +240,7 @@
 \	chorobopis–N	choroba–N	%	chorý				
 \	rostlinopis–N	rostlina–N	%	růst–V–růst-2_:T				
 \	cenina–N	cena–N	cenný	*				
-\	měsíčník–N	měsíc–N	měsíční	*				
+\	měsíčník–N–měsíčník-2_^(časopis)	měsíc–N	měsíční	*				
 \	výlevka–N	vylít–V	vylévat	lít				
 \	dvousměnný–A	směna–N	%	směnit				
 \	bubák–N	bu–N	*					
@@ -350,7 +350,7 @@
 §	stylistika–N	styl–N		*				
 §	červotočivý–A	červotoč–N		%				
 §	hněvivý–A	hněv–N						
-§	milostivý–A	milost–N		milý				
+§	milostivý–A	milost–N–milost-1_^(příjemný)_(*5ý-1)		milý–A–milý-1_^(příjemný)				
 §	zatímní–A	zatím–D						
 §	potomní–A	potom–D						
 §	tamní–A	tam–D		*				
@@ -779,7 +779,7 @@
 §	Jezeří–A	jezero–N		*				
 §	předloktí–N	loket–N		*				
 §	meteoroid–N	meteor–N		*				
-§	lázeňský–A	lázně–N		lázeň				
+§	lázeňský–A–lázeňský	lázně–N		lázeň				
 §	realita–N	reálný–A		*				
 §	Etiopan–N	Etiopie–N		*				
 §	tatér–N	tetovat–V						
