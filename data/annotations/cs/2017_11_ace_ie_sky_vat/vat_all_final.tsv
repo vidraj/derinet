@@ -249,7 +249,7 @@
 60387	buchancovat	buchancovat_:T_,n_^(tlouci)	V		
 60475	buchcovat	buchcovat_:T	V		
 60639	buchtovat	buchtovat_:T	V	60591	buchta
-60898	bukovat	bukovat_:T_,l	V	61008	
+60898	bukovat	bukovat_:T_,l	V		
 61186	bulharizovat	bulharizovat_:T	V	61207	bulharský
 61238	bulíkovat	bulíkovat_:T	V	61253	bulík–N–bulík-1_^(mladý_vůl,_hlupák)
 61410	bulvarizovat	bulvarizovat_:T	V	61424	bulvár
@@ -3179,7 +3179,7 @@
 720352	taranovat	taranovat_:W	V		
 720536	tarifovat	tarifovat_:T	V	720527	tarif
 720617	tárovat	tárovat_:T	V	720342	tára
-720927	tatarovat	tatarovat_:T_,n_^(šlehat_pomlázkou)	V	720952	tatar–tatar-2_,a_^(pomlázka)–tatar-2_,a_^(pomlázka)
+720927	tatarovat	tatarovat_:T_,n_^(šlehat_pomlázkou)	V	720952	tatar–N–tatar-2_,a_^(pomlázka)–tatar-2_,a_^(pomlázka)
 721024	taťkovat	taťkovat_:T	V	721015	taťka
 721466	taxovat	taxovat_:T	V	721384	taxa
 721586	teatralizovat	teatralizovat_:W	V	721599	teatrální

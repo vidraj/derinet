@@ -626,7 +626,7 @@
 	apel	apelovat	M
 *	předatel	předat–V–předat-1_:T_,a_^(příst)	J
 *	zatykatel	zatykat–V–zatykat-2_:T_,a_^(zatýkat)	J
-*	přeposílatel	přeposílat–V–přeposílat	J
+*	přeposílatel	přeposílat–V–přeposílat_:T	J
 @	obratel	obrat–V–obrat-2_:W_^(okrást;_vyčistit)	J
 @	jetel	jet–V–jet-1_:T_^(pohybovat_se,_ne_však_chůzí)	J
 *	rozvíjitel	rozvíjet	J

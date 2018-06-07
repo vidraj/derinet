@@ -70,12 +70,12 @@
 \	sak–N	sako–N	*	*				
 \	decimovat–V	decima–N	*	*				
 	butan–N	butanol–N	*					
-	metan–N	metanol–N	*					
+	metan–N	metanol–N						
 	oktan–N	oktanol–N	*					
 	hrb–N	hrbol–N	*					
 	propan–N	propanol–N	*					
 	etan–N	etanol–N	*					
-	pentan–N	pentanol–N	*					
+	pentan–N	pentanol–N						
 \	Masaryk–N	Masaryčka–N	*					
 	úsek–N	úsečka–N	useknout					
 	přesmyk–N	přesmyčka–N	přesmyknout					
@@ -108,11 +108,11 @@
 \	dluh–N	dluhopis–N		%				
 \	nerost–N	nerostopis–N	růst–V–růst-2_:T	%				
 \	fakulta–N	fakultativní–A	*	*				
-	butan–N	butyl–N	*					
+	butan–N	butyl–N						
 	metan–N	metyl–N	*					
 	pentan–N	pentyl–N	*					
-	propan–N	propyl–N	*					
-	etan–N	etyl–N	*					
+	propan–N	propyl–N						
+	etan–N	etyl–N						
 \	puk–N	pučet–V	*	*				
 \	podkova–N	podkovička–N		podkůvka				
 \	kolektiv–N	kolektivizovat–V		kolektivní				
@@ -229,7 +229,7 @@
 §	gilotinovat–V	gilotina–N		*				
 §	budova–N	budovat–V		*				
 §	črta–N	črtat–V		*				
-	sok–N	sočit–V	*					
+	sok–N	sočit–V						
 	zrak–N	zračit–V	zřít					
 	tlak–N	tlačit–V	*					
 §	skok–N	skočit–V		*				
@@ -323,19 +323,19 @@
 	lux–N	luxovat–V	*					
 	skalp–N	skalpovat–V	*					
 	pranýř–N	pranýřovat–V						
-	flirt–N	flirtovat–V	*					
+	flirt–N	flirtovat–V						
 								
 	gibon–N	giboní–A	*					
-	gepard–N	gepardí–A	*					
+	gepard–N	gepardí–A						
 	pavián–N	paviání–A	*					
 	orangutan–N	orangutaní–A	*					
 								
-	Květoslav–N	Květoslava–N	%					
+	Květoslav–N	Květoslava–N	%	%				
 	Gabriel–N	Gabriela–N	*					
 	brunet–N	bruneta–N	*					
 	Bohumír–N	Bohumíra–N	%					
 	Bohuslav–N–Bohuslav-1_;Y	Bohuslava–N	%					
-	Radan–N–Radan-1_;Y	Radana–N	*					
+	Radan–N–Radan-1_;Y	Radana–N						
 								
 	numizmatika–N	numizmatik–N						
 								
@@ -383,8 +383,8 @@
 	spektrum–N	spektrální–A	*					
 	ovarium–N	ovariální–A	*					
 	kontinuum–N	kontinuální–A						
-	adverbium–N	adverbiální–A	*					
-	teritorium–N	teritoriální–A	*					
+	adverbium–N	adverbiální–A						
+	teritorium–N	teritoriální–A						
 	participium–N	participiální–A	*					
 	maximum–N	maximální–A						
 	futurum–N	futurální–A						
@@ -472,7 +472,7 @@
 	frajer–N	frajeřit–V	*					
 	vejr–N	vejřit–V	*					
 	vír–N	vířit–V	*					
-	výr–N	výřit–V	*					
+	výr–N	výřit–V						
 	magor–N	magořit–V	*					
 								
 	kamarád–N	kamarádíček–N	*					
@@ -496,7 +496,7 @@
 								
 	sokol–N–sokol-1_;L_^(pták)	sokolník–N	*					
 	jestřáb–N	jestřábník–N	*					
-	prs–N	prsník–N	*					
+	prs–N	prsník–N						
 	výlet–N	výletník–N	vyletět					
 	kadeř–N	kadeřník–N	*					
 	revír–N	revírník–N	*					
@@ -523,7 +523,7 @@
 	Adam–N	Adamec–N	*					
 	Salvador–N	Salvadorec–N	*					
 	Martin–N–Martin-2_;G	Martinec–N	*					
-	had–N	hadec–N	*					
+	had–N	hadec–N						
 	Dunaj–N–Dunaj_;G	Dunajec–N	*					
 	Bhútán–N	Bhútánec–N	*					
 	Jakub–N	Jakubec–N	*					
@@ -564,8 +564,8 @@
 	komandant–N	komandantura–N	komandovat					
 	docent–N	docentura–N	*					
 	text–N	textura–N	*					
-	kult–N	kultura–N	*					
-	recept–N	receptura–N	*					
+	kult–N	kultura–N						
+	recept–N	receptura–N						
 	oponent–N	oponentura–N	oponovat					
 								
 	dyslektik–N	dyslektička–N	dyslexie					
@@ -582,7 +582,7 @@
 								
 	slintat–V	slinta–N						
 	střídat–V	střída–N						
-	črtat–V	črta–N	*					
+	črtat–V	črta–N						
 	dumat–V	duma–N	*					
 								
 	med–N	medař–N	*					
@@ -624,9 +624,9 @@
 	žid–N	židovna–N	*					
 	Maxim–N	Maximovna–N						
 	server–N	serverovna–N	*					
-	klub–N	klubovna–N	*					
+	klub–N	klubovna–N						
 	štěrk–N	štěrkovna–N	*					
-	Přemysl–N	Přemyslovna–N	*					
+	Přemysl–N	Přemyslovna–N						
 								
 	štulec–N	štuleček–N	*					
 	novorozenec–N	novorozeneček–N	%					
