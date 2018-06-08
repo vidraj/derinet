@@ -130,8 +130,8 @@
 *	nauka	naučit	M
 *	muka	mučit	M
 *	výuka	vyučovat	M
-&	kolébavka	kolébavý	J
-&	kolíbavka	kolíbavý	J
+@	kolébavka	kolébavý	J
+@	kolíbavka	kolíbavý	J
 &	plandavka	plandavý	J
 &	střídavka	střídavý	J
 &	prchavka	prchavý	J
@@ -139,7 +139,7 @@
 &	žehavka	žehavý	J
 &	míhavka	míhavý	J
 &	žíhavka	žíhavý	J
-&	blikavka	blikavý	J
+@	blikavka	blikavý	J
 &	bzikavka	bzikavý	J
 	stýskavka	stýskat	J
 	skákavka	skákat	J
@@ -307,7 +307,7 @@
 *	drkačka	drkat	J
 *	koukačka	koukat	J
 *	tykačka	tykat	J
-*	odvykačka	odvykat	J
+@	odvykačka	odvykat	J
 *	vysvlékačka	vysvlékat	J
 *	opékačka	opékat	J
 *	oblíkačka	oblíkat	J
@@ -521,7 +521,7 @@
 >	rosa	rosit	M
 *	útrata	utratit	M
 &	nadhodnota	hodnota	J
-*	msta	mstít	M
+@	msta	mstít	M
 	obava	obávat	M
 	doprava–N–doprava-1	dopravit	M
 	domluva	domluvit	M
@@ -587,7 +587,7 @@
 *	výkřik	vykřiknout	M
 @	brejk	brejknout	J
 *	švenk	švenknout	J
-*	šok	šokovat	M
+>	šok	šokovat	M
 *	postesk	postesknout	J
 *	rozbřesk	rozbřesknout	J
 *	vřesk	vřesknout	J

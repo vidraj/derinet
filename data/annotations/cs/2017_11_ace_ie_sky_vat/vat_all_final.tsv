@@ -211,7 +211,7 @@
 46778	bobovat	bobovat_:T	V	46749	bob
 47359	bodovat	bodovat_:T	V	47318	bod
 47424	bodyčekovat	bodyčekovat_:T_:W	V	47415	bodyček
-47981	bohemizovat	bohemizovat_:T	V	47964	bohemismus
+47981	bohemizovat	bohemizovat_:T	V		
 48125	bohovat	bohovat_:T_^(zaříkávat)	V		
 48290	bohyňovat	bohyňovat_:T_^(zaříkávat)	V	48280	bohyně
 48539	bojkotovat	bojkotovat_:T	V		
@@ -252,7 +252,7 @@
 60898	bukovat	bukovat_:T_,l	V		
 61186	bulharizovat	bulharizovat_:T	V	61207	bulharský
 61238	bulíkovat	bulíkovat_:T	V	61253	bulík–N–bulík-1_^(mladý_vůl,_hlupák)
-61410	bulvarizovat	bulvarizovat_:T	V	61424	bulvár
+61410	bulvarizovat	bulvarizovat_:T	V		
 61532	bumlovat	bumlovat_:T_,n	V		
 61723	buntovat	buntovat_:T	V		
 61757	bunzírovat	bunzírovat_:T_,l_^(bublat)	V		
@@ -500,7 +500,7 @@
 106055	dockovat	dockovat_:T	V	106046	dock
 108495	dofukovat	dofukovat_:T	V	108397	dofouknout
 108698	doháčkovat	doháčkovat_:W	V	188175	háčkovat
-108746	dohadovat	dohadovat_:T	V	109494	dohodnout
+108746	dohadovat	dohadovat_:T	V		
 108973	dohašovat	dohašovat_:W	V	108950	dohasit
 113280	dokrakonošovat	dokrakonošovat_:T_,h	V	<<<krakonošovat>>>	
 113675	doktorovat	doktorovat_:T	V	113664	doktor
@@ -713,7 +713,7 @@
 163914	fazónovat	fazónovat_:T	V	163903	fazóna
 163942	fázovat	fázovat_:T	V	163875	fáze
 164049	federalizovat	federalizovat_:T	V	164064	federální
-164093	federovat	federovat_:T	V	164025	federace
+164093	federovat	federovat_:T	V		
 164199	fedrovat	fedrovat_:T	V		
 164304	fechtovat	fechtovat_:T_,a	V		
 164665	feminizovat	feminizovat_:T_:W	V	164678	feminní
@@ -874,7 +874,7 @@
 191544	hantýrovat	hantýrovat_:T_,h	V		
 191796	haprovat	haprovat_:T_,h	V		
 192062	harcovat	harcovat_:T	V		
-192420	harmonizovat	harmonizovat_:T	V	197200	harmonický
+192420	harmonizovat	harmonizovat_:T	V		
 192441	harmonovat	harmonovat_:T	V		
 192556	harpunovat	harpunovat_:T	V	192540	harpuna
 193196	haškovat	haškovat_:T	V	193151	Hašek
@@ -1147,7 +1147,7 @@
 250158	katalogizovat	katalogizovat_:T	V	250170	katalog
 250193	katalyzovat	katalyzovat_:T	V		
 250242	katapultovat	katapultovat_:T	V	250233	katapult
-250352	kategorizovat	kategorizovat_:T	V	250554	kategorický
+250352	kategorizovat	kategorizovat_:T	V		
 250383	katechizovat	katechizovat_:T	V	250373	katechismus
 250451	katetrizovat	katetrizovat_:T	V	250463	katetr
 250578	katolizovat	katolizovat_:T	V	257355	katolický
@@ -1168,7 +1168,7 @@
 256931	kličkovat	kličkovat_:T	V	256916	klička
 256976	klíčovat	klíčovat_:T	V	256966	klíč
 257163	klihovat	klihovat_:T	V	257131	klih
-257377	klimatizovat	klimatizovat_:T	V	279196	klimatický
+257377	klimatizovat	klimatizovat_:T	V		
 257757	klínovat	klínovat_:T	V	257741	klín
 258343	klonovat	klonovat_:T	V	258334	klon
 258468	klopovat	klopovat_:T	V	258363	klopa
@@ -1536,7 +1536,7 @@
 331180	ministrovat	ministrovat_:T	V		
 332200	mistrovat	mistrovat_:T	V	332188	mistr
 332527	mitigovat	mitigovat_:T_,t_^(omezit_následky_pandemie)	V		
-332770	mixovat	mixovat_:T	V	332757	mix
+332770	mixovat	mixovat_:T	V		
 333697	mlýnkovat	mlýnkovat_:T	V	333678	mlýnek
 334607	mobilizovat	mobilizovat_:T	V	334622	mobilní
 334633	mobilovat	mobilovat_:T_,h_^(volat_mobilem)	V	334623	mobil
@@ -1691,7 +1691,7 @@
 392497	obstřikovat	obstřikovat_:T	V	392480	obstříknout
 392584	obšancovat	obšancovat_:W_,h	V	<<<šancovat>>>	
 393092	obtrubkovat	obtrubkovat_:W	V	737095	trubka
-393389	obývat	obývat_:T	V	63899	být
+393389	obývat	obývat_:T	V		
 393924	ocitronovat	ocitronovat_:W	V	70414	citron
 394070	oculíkovat	oculíkovat_:W	V	73984	culík
 394116	ocvočkovat	ocvočkovat_:W	V	74739	cvoček
@@ -1880,7 +1880,7 @@
 440998	oždibovat	oždibovat_:T	V	<<<ždibat>>>	
 441441	ožvykovat	ožvykovat_:T	V	<<<ožvýknout>>>	
 441497	paběrkovat	paběrkovat_:T	V	441481	paběrek
-441552	pableskovat	pableskovat_:T	V	45376	bleskat
+441552	pableskovat	pableskovat_:T	V		
 441867	pačokovat	pačokovat_:T	V	441858	pačok
 442320	pádlovat	pádlovat_:T	V	442310	pádlo
 442528	paginovat	paginovat_:T	V		
@@ -1943,8 +1943,8 @@
 448761	pasportizovat	pasportizovat	N	448762	pasport
 448862	pasterizovat	pasterizovat_:T_:W	V		
 448897	pasterovat	pasterovat_:T	V	448915	Pasteur
-449001	pastorovat	pastorovat_:T_,h	V	448991	pastor
-449030	pastovat	pastovat_:T	V	448948	past
+449001	pastorovat	pastorovat_:T_,h	V		
+449030	pastovat	pastovat_:T	V		
 449199	pašovat	pašovat_:T	V		
 449419	patentovat	patentovat_:T_:W	V	449408	patent
 449517	patetizovat	patetizovat_:T_:W	V	475324	patetický
@@ -2102,12 +2102,12 @@
 480303	pokulhávat	pokulhávat_:T	V	285075	kulhat
 480409	pokutovat	pokutovat_:T	V	480396	pokuta
 480663	polarizovat	polarizovat_:T	V	480682	polární
-481105	polemizovat	polemizovat_:T	V	481825	polemický
+481105	polemizovat	polemizovat_:T	V		
 481305	poletovat	poletovat_:T_:W	V	297850	létat
 481487	policajtovat	policajtovat_:T	V	481478	policajt
 481557	políčkovat	políčkovat_:T	V	481533	políček
 481728	polírovat	polírovat_:T	V		
-481877	politizovat	politizovat_:T	V	504186	politický
+481877	politizovat	politizovat_:T	V		
 482477	polohovat	polohovat_:T	V	482423	poloha
 482914	polonizovat	polonizovat_:T_:W	V	484093	Polsko
 483738	polovat	polovat_:T_,t_^(toulat_se;;lovit;;způsob_rafinování)	V		
@@ -2126,7 +2126,7 @@
 486430	pomžourávat	pomžourávat_:T	V	344370	mžourat
 486473	poňafávat	poňafávat_:T	V	350698	ňafat
 488174	popěvovat	popěvovat_:T	V	458381	pět
-488244	popichovat	popichovat_:T	V	459630	píchat
+488244	popichovat	popichovat_:T	V		
 488394	popiskovat	popiskovat_:T	V	488376	popisek
 489241	popošupovat	popošupovat_:T	V	489224	popošoupnout
 489576	poprašovat	poprašovat_:T	V	489546	poprášit
@@ -2228,7 +2228,7 @@
 507208	pretendovat	pretendovat_:T	V		
 507232	preterovat	preterovat_:T_:W_,t	V		
 507294	prevalovat	prevalovat_:T	V		
-507378	prezentovat	prezentovat_:T_:W	V	507365	prezent
+507378	prezentovat	prezentovat_:T_:W	V		
 507411	prezidentovat	prezidentovat_:T_,h	V	507401	prezident
 507607	primářovat	primářovat_:T_,h	V	507597	primář
 507638	primášovat	primášovat_:T	V	507629	primáš
@@ -2941,7 +2941,7 @@
 681604	sterilovat	sterilovat_:T_:W	V		
 681637	stěrkovat	stěrkovat_:T	V	681620	stěrka
 681870	stěžovat	stěžovat_:T	V		
-681980	stigmatizovat	stigmatizovat_:T	V	696869	stigmatický
+681980	stigmatizovat	stigmatizovat_:T	V		
 682139	stimulovat	stimulovat_:T_:W	V		
 682252	stínovat	stínovat_:T	V	682231	stín
 682302	stipulovat	stipulovat_:T	V		
@@ -3103,7 +3103,7 @@
 711374	špízovat	špízovat_:T	V	711361	špíz
 711615	šponovat	šponovat_:T	V		
 711922	šprýmovat	šprýmovat_:T	V		
-711995	špuntovat	špuntovat_:T_,h	V	712010	špunt–N–špunt-2_,h_^(malé_dítě)
+711995	špuntovat	špuntovat_:T_,h	V		
 712024	špurtovat	špurtovat_:T	V		
 712055	šrafovat	šrafovat_:T	V		
 712179	šrámovat	šrámovat_:T_,s	V	712140	šrám
@@ -3270,8 +3270,8 @@
 741938	tupovat	tupovat_:T	V		
 742393	túrovat	túrovat_:T_,l	V	741972	túra
 742547	tušovat	tušovat_:T_,h_,s_^(natírat_tuší;;zakrývat,_zastírat,_tutlat;;sprchovat)	V	742538	tuš
-742840	tvarohovat	tvarohovat_:T	V	742799	tvar
-742883	tvarovat	tvarovat_:T	V	742812	tvaroh
+742840	tvarohovat	tvarohovat_:T	V	742812	tvaroh
+742883	tvarovat	tvarovat_:T	V	742799	tvar
 743196	twistovat	twistovat_:T	V		
 743225	twitterovat	twitterovat_:T	V	743216	Twitter
 743325	týčkovat	týčkovat_:T	V	743309	tyčka
@@ -3494,7 +3494,7 @@
 810342	vrypovat	vrypovat_:T	V	810325	vrýpnout
 811008	vsakovat	vsakovat_:T	V	810991	vsáknout
 811817	vstřikovat	vstřikovat_:T	V	811796	vstříknout
-813894	vtipkovat	vtipkovat_:T	V	813907	vtip
+813894	vtipkovat	vtipkovat_:T	V		
 813918	vtipovat	vtipovat_:T_,s	V	813907	vtip
 814257	vtrapovat	vtrapovat_:T	V	732878	trapovat
 814370	vtrušovat	vtrušovat_:T	V	814333	vtrousit
@@ -4121,6 +4121,6 @@
 1008353	županovat	županovat_:T	V	1008344	župan
 1008443	žurnalizovat	žurnalizovat_:T	V	1008428	žurnalistický
 1008466	žurnálovat	žurnálovat_:T	V	1008457	žurnál
-1008784	hashovat	hashovat	V	1008784	hashovat
+1008784	hashovat	hashovat	V		
 1008803	nadměřovat	nadměřovat	V	<<<nadměřit>>>	
 1008808	naměřovat	naměřovat	V	358638	naměřit

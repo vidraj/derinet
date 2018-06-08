@@ -5,7 +5,7 @@
 \	druh–N–druh-2_^(partner)	družit–V						
 \	robota–N	robotárna–N						
 \	matka–N–matka-1_^(malá_součástka)	matice–N						
-§	dohad–N	dohadovat–V		hádat				
+§	dohad–N	dohadovat–V		dohodnout				
 \	inkvizitor–N	inkvizitorsko–N						
 \	prim–N	primární–A	*					
 	rýže–N	rýžovat–V						
@@ -15,7 +15,7 @@
 	brk–N	brko–N						
 	prs–N	prso–N						
 	kolektivní–A	kolektivum–N						
-	šikanovat–V	šikana–N						
+\	šikanovat–V	šikana–N						
 	váha–N	váhat–V						
 \	lyra–N	lyrika–N						
 	aféra–N	aférista–N	*					
@@ -40,7 +40,7 @@
 \	noneto–N	nonet–N						
 \	septeto–N	septet–N						
 	slovo–N	slovný–A						
-§	pastorace–N	pastor–N						
+	pastorace–N	pastor–N						
 \	Macková–N	Macka–N						
 \	Srbová–N	Srba–N						
 \	drogista–N	droga–N	drogerie	*				
@@ -94,7 +94,7 @@
 \	antagonismus–N	antagonizovat–V	antagonický	antagonický				
 \	byrokratismus–N	byrokratizovat–V	byrokratický	byrokratický				
 \	aktivismus–N	aktivizovat–V	aktivní	aktivní				
-\	hampejz–N	hampejznice–N	*					
+	hampejz–N	hampejznice–N						
 \	veterinář–N	veterinární–A	veterina	veterina				
 \	humanitář–N	humanitární–A	humanita	humanita				
 	šíp–N	šípek–N	*					
@@ -113,7 +113,7 @@
 	pentan–N	pentyl–N	*					
 	propan–N	propyl–N						
 	etan–N	etyl–N						
-\	puk–N	pučet–V	*	*				
+\	puk–N	pučet–V		*				
 \	podkova–N	podkovička–N		podkůvka				
 \	kolektiv–N	kolektivizovat–V		kolektivní				
 \	čtvrt–N	čtvrťák–N–čtvrťák-2_^(mince)						
@@ -132,7 +132,7 @@
 \	statečný–A	statek–N	*	stát–V–stát-3_:T_^(někdo/něco_stojí,_např._na_nohou)				
 \	prospekt–N	prospektor–N	*					
 \	falzifikát–N	falzifikátor–N		falzifikovat				
-\	fakt–N	faktor–N	*	*				
+\	fakt–N	faktor–N		*				
 \	svorka–N	svor–N						
 \	zálivka–N	záliv–N	zalívat	zalít				
 \	kmotra–N	kmotřit–V	kmotr	kmotr				
@@ -143,7 +143,7 @@
 \	chochol–N	chocholačka–N	*	chocholáč				
 \	pohřeb–N	pohřebiště–N	pohřbít	pohřbít				
 \	zápas–N	zápasiště–N		zápasit				
-\	clona–N	clonný–A	clonit	clonit				
+\	clona–N	clonný–A		clonit				
 \	trefa–N	trefný–A	trefit	trefit				
 \	nota–N	notný–A	*					
 \	výr–N	výreček–N	*					
@@ -160,11 +160,11 @@
 \	kotva–N	kotviště–N	*	kotvit				
 \	zásoba–N	zásobiště–N		zásobit				
 \	výsměch–N	výsměšný–A	vysmát	vysmát				
-\	mečet–V	mekat–V						
-\	syčet–V	sykat–V						
+	mečet–V	mekat–V						
+	syčet–V	sykat–V						
 \	frčet–V	frkat–V	*					
 \	Šafránek–N	Šafr–N	Šafrán	*				
-\	paušál–N	paušalizovat–V	paušální	paušální				
+\	paušál–N	paušalizovat–V	paušální					
 \	trojka–N	trojice–N						
 \	koncentrák–N	koncentrovat–V	koncentrační					
 	Kansas–N	Kansasan–N	*					
@@ -221,7 +221,7 @@
 §	optimální–A	optimum–N		*				
 §	adverbiální–A	adverbium–N		*				
 §	teritoriální–A	teritorium–N		*				
-§	labiální–A	labium–N		*				
+\	labiální–A	labium–N		*				
 §	neutrální–A	neutrum–N		*				
 §	pilovat–V	pila–N		*				
 §	eskortovat–V	eskorta–N		*				
@@ -247,7 +247,7 @@
 §	germanista–N	germanistika–N						
 §	nordista–N	nordistika–N						
 §	jek–N	ječet–V		*				
-§	hrk–N	hrčet–V		*				
+\	hrk–N	hrčet–V		*				
 	zvuk–N	zvučet–V	*					
 §	ryk–N	ryčet–V		*				
 	louh–N	loužit–V	*					
@@ -275,28 +275,28 @@
 §	montáž–N	montovat–V		*				
 §	blamáž–N	blamovat–V		*				
 §	sabotáž–N	sabotovat–V		*				
-§	arbitráž–N	arbitrovat–V		*				
+§	arbitráž–N	arbitrovat–V		arbitr				
 §	zlatohlav–N	zlatohlavý–A		%				
 §	náročný–A	nárok–N						
 §	hlučný–A	hluk–N		*				
 §	opačný–A	opak–N		*				
 §	dýmka–N	dým–N						
 §	Norka–N	Nor–N						
-§	progresivní–A	progres–N						
+\	progresivní–A	progres–N						
 §	abortivní–A	abort–N		*				
 §	subjektivní–A	subjekt–N		%				
 §	efektivní–A	efekt–N		*				
 §	podpora–N	podpořit–V						
-§	portace–N	port–N		*				
+\	portace–N	port–N		*				
 §	bonapartista–N	bonapartizmus–N		Bonaparte				
-§	materialista–N	materializmus–N		materiální				
-§	kapitalista–N	kapitalizmus–N		kapitál				
-§	buddhista–N	buddhizmus–N		Buddha				
-§	Pěknicová–N	Pěknica–N		*				
-§	Valentová–N	Valenta–N						
+\	materialista–N	materializmus–N		materialismus				
+\	kapitalista–N	kapitalizmus–N	kapitalismus	kapitalismus				
+\	buddhista–N	buddhizmus–N	buddhismus	buddhismus				
+\	Pěknicová–N	Pěknica–N		*				
+\	Valentová–N	Valenta–N						
 §	protiva–N	protivný–A						
-§	recidivista–N	recidiva–N		*				
-§	kariérista–N	kariéra–N		*				
+\	recidivista–N	recidiva–N		*				
+\	kariérista–N	kariéra–N		*				
 §	brejknout–V	brejk–N		*				
 §	potomní–A	potom–D						
 §	zatímní–A	zatím–D						
@@ -406,7 +406,7 @@
 	vozíček–N	vozíčkář–N	vozík					
 	vejminek–N	vejminkář–N						
 	titulek–N	titulkář–N	titul					
-	došek–N	doškář–N	*					
+	došek–N	doškář–N						
 								
 	mlýn–N	mlýnice–N	mlít					
 	čáp–N	čápice–N	*					
@@ -489,7 +489,7 @@
 	planeta–N	planetární–A	*					
 								
 								
-	pozitivní–A	pozitivum–N	*					
+	pozitivní–A	pozitivum–N						
 	abstraktní–A	abstraktum–N	*					
 	negativní–A	negativum–N	*					
 								
@@ -589,11 +589,11 @@
 	kapr–N	kaprař–N	*					
 	kiks–N	kiksař–N	*					
 	pec–N	pecař–N	*					
-	bič–N	bičař–N	*					
+	bič–N	bičař–N						
 	prs–N	prsař–N	*					
 	pstruh–N	pstruhař–N	*					
 								
-	parcela–N	parcelace–N	*					
+\	parcela–N	parcelace–N	*					
 	jota–N	jotace–N	*					
 	suma–N	sumace–N	*					
 								
@@ -608,7 +608,7 @@
 	drát–N	drátovec–N	*					
 								
 	vřídlo–N	vřídelní–A	vřít					
-	zřídlo–N	zřídelní–A	zřít					
+	zřídlo–N	zřídelní–A						
 	sídlo–N	sídelní–A						
 	kormidlo–N	kormidelní–A	*					
 	divadlo–N	divadelní–A	dívat					
@@ -620,7 +620,8 @@
 	pošta–N	poštovní–A	*					
 	kasa–N	kasovní–A	*					
 	menza–N	menzovní–A	*					
-								
+	pošta–N	poštovné–N	*					
+	
 	žid–N	židovna–N	*					
 	Maxim–N	Maximovna–N						
 	server–N	serverovna–N	*					
@@ -633,7 +634,7 @@
 	krmelec–N	krmeleček–N						
 	ujec–N	uječek–N	*					
 	vdovec–N	vdoveček–N	vdova					
-	Zajíc–N	Zajíček–N	*					
+	Zajíc–N	Zajíček–N						
 								
 \	huť–N	huťmistr–N	*	%				
 \	sbor–N	sbormistr–N		%				
@@ -767,11 +768,12 @@
 	obrat–N	obratem–D	obrátit					
 								
 	synkretický–A	synkretizmus–N	%					
-	erotický–A	erotizmus–N	*					
+	erotický–A	erotizmus–N						
 	archaický–A	archaizmus–N	*					
-	romantický–A	romantizmus–N	*					
+	romantický–A	romantizmus–N						
 	eklektický–A	eklektizmus–N	*					
-								
+	eklektický–A	eklektik–N	*					
+	
 	sát–V	savý–A	*					
 	spát–V	spavý–A	*					
 	žrát–V	žravý–A	*					
@@ -807,11 +809,11 @@
 	Vltava–N	Vltavan–N	*					
 	Kazi–N	Kazin–N	*					
 								
-	tlak–N	tlakoměr–N	tlačit	%				
+	tlak–N	tlakoměr–N		%				
 	krok–N	krokoměr–N	kráčet	%				
 	cukr–N	cukroměr–N	*	%				
 	tuk–N	tukoměr–N		%				
-	hluk–N	hlukoměr–N	hlučet	%				
+	hluk–N	hlukoměr–N		%				
 								
 	Zeman–N	Zemánek–N	*					
 	Pražan–N	Pražánek–N	Praha					
@@ -828,7 +830,7 @@
 	teror–N	terorizovat–V	*					
 	styl–N	stylizovat–V	*					
 	katalog–N	katalogizovat–V	*					
-	typ–N	typizovat–V	*					
+\	typ–N	typizovat–V	*					
 								
 	soustruh–N	soustružit–V						
 	dluh–N	dlužit–V	*					
@@ -968,7 +970,7 @@
 	tvaroh–N	tvarůžek–N	*					
 	roh–N	růžek–N	*					
 	batoh–N	batůžek–N	*					
-	paroh–N	parůžek–N	*					
+	paroh–N	parůžek–N						
 								
 								
 	kostra–N	kosterní–A						
@@ -982,7 +984,7 @@
 	matka–N–matka-2_^(maminka)	matinka–N	*					
 								
 								
-	rebel–N	rebelant–N	*					
+	rebel–N	rebelant–N						
 	duel–N	duelant–N						
 	ministr–N	ministrant–N	*					
 	azyl–N	azylant–N	*					
@@ -1093,7 +1095,7 @@
 	kolba–N	kolbiště–N						
 								
 	vzduch–N	vzdušný–A						
-	ruch–N	rušný–A	*	rušit				
+	ruch–N	rušný–A	*					
 								
 	náměstek–N	náměstkyně–N						
 	pastorek–N	pastorkyně–N						
@@ -1142,6 +1144,7 @@
 								
 	etnický–A	etnicita–N						
 	autentický–A	autenticita–N	*					
+	autentický–A	autentika–N						
 	toxický–A	toxicita–N						
 								
 	houba–N	houbovitý–A	*					

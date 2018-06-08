@@ -135,6 +135,7 @@
 \	sukadlo–N	suk–N	soukat	*				
 \	posuv–N	posuvný–A	posouvat	posouvat				
 \	splav–N	splavný–A	splavit	splavit				
+\	plavat–V	plavit–V						
 \	malírna–N	malíř–N	malovat	malovat				
 \	loupat–V	loupit–V	*	*				
 \	bukva–N	buk–N–buk-1_^(strom)		*				
@@ -177,8 +178,8 @@
 \	vydra–N	voda–N	*	*				
 \	pestrý–A	psát–V	*	*				
 \	Franc–N	František–N	*	*				
-\	bulvarizovat–V	bulvár–N	bulvární	*				
-\	vybízet–V	nabídka–N	vybídnout	nabídnout				
+	bulvarizovat–V	bulvár–N						
+\	vybízet–V	nabídka–N		nabídnout				
 \	perla–N	perlivý–A	*	perlit–V–perlit_:T				
 \	Bukovina–N	buk–N–buk-1_^(strom)	bukovina	*				
 \	stačit–V	statek–N		stát–V–stát-3_:T_^(někdo/něco_stojí,_např._na_nohou)				
@@ -209,7 +210,7 @@
 \	bájesloví–N	bajka–N	%	báje				
 \	metat–V	mést–V	*	*				
 \	Hornorakušan–N	Rakušan–N	%	Rakousy				
-\	dekor–N	dekorativní–A	*	dekorovat				
+\	dekor–N	dekorativní–A	*					
 \	bazilišek–N	Vasil–N		*				
 \	buřtguláš–N	buřt–N	%	*				
 \	vzpomínat–V	paměť–N		*				
@@ -225,7 +226,7 @@
 \	prča–N	prdel–N	*	*				
 \	doposavad–D	dosavadní–A		dosavad				
 \	zalétat–V	letět–V	létat	*				
-\	ochota–N	chtít–V	ochotný	*				
+\	ochota–N	chtít–V		*				
 \	zástěra–N	zastřít–V	zastírat					
 \	průlet–N	let–N	proletět	letět				
 \	uspávanka–N	spát–V	uspávat	*				
@@ -236,6 +237,7 @@
 \	cukrovatět–V	cukr–N	cukrový	*				
 \	mor–N	mořit–V	mřít	*				
 \	šikmooký–A	šikmý–A	%	*				
+	šikmý–A	šikmo–D						
 \	modrooký–A	modrý–A	%	*				
 \	chorobopis–N	choroba–N	%	chorý				
 \	rostlinopis–N	rostlina–N	%	růst–V–růst-2_:T				
@@ -304,7 +306,7 @@
 §	malignita–N	maligní–A						
 §	benignita–N	benigní–A						
 §	Radka–N	Radek–N		*				
-§	Františka–N	František–N		Franc				
+§	Františka–N	František–N						
 §	avantgardistický–A	avantgardizmus–N		avantgarda				
 §	entuziastický–A	entuziazmus–N		*				
 §	bonapartistický–A	bonapartizmus–N		Bonaparte				
@@ -318,7 +320,7 @@
 §	jízdné–N	jízda–N		jezdit				
 §	výchovné–N	výchova–N		vychovat				
 §	válčit–V	válka–N		*				
-§	páčit–V	páka–N		*				
+	páčit–V	páka–N						
 §	ručit–V	ruka–N		*				
 §	patice–N	pata–N		*				
 §	cévice–N	céva–N		*				
@@ -399,7 +401,7 @@
 §	vlčice–N	vlk–N		*				
 §	račice–N	rak–N		*				
 §	modřit–V	modrý–A		*				
-§	mokřit–V	mokrý–A		*				
+§	mokřit–V	mokrý–A						
 §	bystřit–V	bystrý–A		*				
 §	kůlna–N	kůl–N						
 §	výhledna–N	výhled–N						
@@ -445,7 +447,7 @@
 §	vrhcábnice–N	vrhcáby–N		*				
 §	montáž–N	montovat–V		*				
 §	sabotáž–N	sabotovat–V		*				
-§	hovor–N	hovořit–V		*				
+	hovor–N	hovořit–V						
 §	čtrnáctideník–N	čtrnáctidenní–A		%				
 §	dvoutýdeník–N	dvoutýdenní–A		%				
 §	harmonium–N	harmonie–N						
@@ -474,7 +476,7 @@
 §	nádražák–N	nádraží–N		dráha				
 §	Jiřák–N	Jiří–N		*				
 §	ježovka–N	ježek–N		*				
-§	výsledovka–N	výsledek–N		*				
+§	výsledovka–N	výsledek–N						
 §	účtárna–N	účet–N						
 §	octárna–N	ocet–N		*				
 §	pivní–A	pivo–N		pít				
@@ -511,7 +513,7 @@
 §	paroží–N	paroh–N		roh				
 §	hloží–N	hloh–N		*				
 §	orchestrace–N	orchestr–N		*				
-§	pastorace–N	pastor–N		*				
+	pastorace–N	pastor–N						
 §	dezerce–N	dezertovat–V		*				
 §	adopce–N	adoptovat–V		*				
 §	varhanní–A	varhany–N		*				
@@ -653,7 +655,7 @@
 §	břitva–N	břit–N		*				
 §	seník–N	seno–N		*				
 §	plemeník–N	plemeno–N		*				
-§	zhůvěřilec–N	zhůvěřilý–A		*				
+§	zhůvěřilec–N	zhůvěřilý–A						
 §	Bohumila–N	Bohumil–NC		%				
 §	Vlastimila–N	Vlastimil–NC		%				
 §	Théban–N	Théby–N		*				
@@ -693,13 +695,13 @@
 §	mobilizovat–V	mobilní–A						
 §	holenní–A	holeň–N		holý				
 §	jesenní–A	jeseň–N		*				
-§	narcisizmus–N	narcis–N		*				
+§	narcisizmus–N	narcis–N						
 §	klubizmus–N	klub–N		*				
 §	Tunisko–N	Tunis–N		*				
 §	Jablonecko–N	Jablonec–N						
 §	mandelinka–N	mandel–N		*				
 §	bezinka–N	bez–N		*				
-§	sanatorium–N	sanace–N		*				
+§	sanatorium–N	sanace–N						
 §	krematorium–N	kremace–N		*				
 §	grešlička–N	grešle–N		*				
 §	nedělička–N	neděle–N		dělat				
@@ -713,18 +715,18 @@
 §	Turkmenistán–N	Turkmen–N		*				
 §	sloupoví–N	sloup–N		*				
 §	trámoví–N	trám–N		*				
-§	federální–A	federace–N		*				
-§	inaugurální–A	inaugurace–N		*				
+§	federální–A	federace–N						
+§	inaugurální–A	inaugurace–N						
 §	odvážka–N	odvážet–V						
 §	vstřícný–A	vstříc–D						
 §	podélný–A	podél–D						
-§	Františkov–N	František–N		Franc				
+§	Františkov–N	František–N						
 §	Vítkov–N	Vítek–N		Vít				
 §	fyzika–N	fyzický–A		*				
 §	kotevní–A	kotva–N		*				
 §	bitevní–A	bitva–N		bít				
 §	abolicionismus–N	abolice–N		*				
-§	izolacionismus–N	izolace–N		*				
+§	izolacionismus–N	izolace–N						
 §	trafikant–N	trafika–N		*				
 §	poslice–N	posel–N		poslat				
 §	ďáblice–N	ďábel–N		*				
@@ -752,7 +754,7 @@
 §	libretista–N	libreto–N		*				
 §	violoncellista–N	violoncello–N		%				
 §	kapitalismus–N	kapitál–N		*				
-§	líčit–V	líce–N		*				
+§	líčit–V	líce–N						
 §	opičit–V	opice–N		*				
 §	jistojistý–A	jistý–A		*				
 §	pouhopouhý–A	pouhý–A		*				
@@ -817,8 +819,8 @@
 §	vepsí–D	psí–N						
 §	zvířetník–N	zvíře–N		*				
 §	miliardtý–A	miliarda–N						
-§	Hřebeny–N	hřeben–N		hřeb				
-§	mim–N	pantomima–N		%				
+§	Hřebeny–N	hřeben–N						
+\	mim–N	pantomima–N		%				
 §	neduživý–A	neduh–N		duh				
 §	vlásenka–N	vlas–N		*				
 §	žebírko–N	žebro–N		*				
@@ -828,7 +830,7 @@
 §	hrabivý–A	hrabat–V		*				
 §	plátěný–A	plátno–N		*				
 §	podvozek–N	vůz–N		vézt				
-§	obličej–N	líce–N		*				
+§	obličej–N	líce–N						
 §	žalozpěv–N	žal–N	%	želet				
 §	máknout–V	makat–V		*				
 §	zesnout–V	sen–N–sen		*				
@@ -864,12 +866,12 @@
 §	jabčák–N	jablko–N		*				
 §	náměstí–N	město–N		*				
 	oponovat–V	oponent–N						
-	abstinovat–V	abstinent–N						
+\	abstinovat–V	abstinent–N	abstinence					
 	dirigovat–V	dirigent–N						
 	spermie–N	sperma–N						
 	kvarta–N	kvartet–N						
 	kabina–N	kabinet–N						
-	neandertálec–N	neandertálský–A						
+	neandertálec–N	neandertálský–A	neandrtálec–N					
 	akácie–N	akát–N						
 	kalendárium–N	kalendář–N						
 	svačina–N	svačit–V						
@@ -944,7 +946,7 @@
 								
 	špek–N	špekáček–N	*					
 	syn–N	synáček–N	*					
-	Mach–N	Macháček–N	*					
+\	Mach–N	Macháček–N	*					
 								
 								
 								
@@ -956,9 +958,9 @@
 								
 								
 								
-	diftongizovat–V	diftongizace–N	diftong					
-	bolševizovat–V	bolševizace–N	bolševik					
-	arizovat–V	arizace–N	árijec					
+	diftongizovat–V	diftongizace–N						
+	bolševizovat–V	bolševizace–N						
+	arizovat–V	arizace–N						
 								
 								
 								
@@ -978,7 +980,7 @@
 								
 								
 								
-	lesk–N	lesklý–A	lesknout					
+	lesk–N	lesklý–A						
 								
 								
 								
@@ -1005,7 +1007,7 @@
 								
 								
 	Eva–N	Evička–N	*					
-	huba–N	hubička–N	*					
+\	huba–N	hubička–N	*					
 								
 								
 								
@@ -1017,8 +1019,8 @@
 								
 								
 								
-	faraon–N	faraónský–A	*					
-	babylon–N	babylónský–A	*					
+\	faraon–N	faraónský–A	faraón					
+\	babylon–N	babylónský–A						
 	pozdě–D	pozdní–A–pozdní-1_^(v_krátkém_čase,_následující_o_něco_později)	*					
 								
 								
@@ -1082,7 +1084,7 @@
 								
 								
 								
-	federace–N	federální–A	*					
+	federace–N	federální–A						
 								
 	myrha–N	myrhovník–N	*					
 	skořápka–N	skořápkovník–N						
@@ -1129,10 +1131,10 @@
 								
 								
 								
-	asepse–N	aseptický–A	*					
+\	asepse–N	aseptický–A						
 	synopse–N	synoptický–A						
 								
-	alt–N	altistka–N	*					
+\	alt–N	altistka–N	*					
 	skeleton–N	skeletonistka–N	skelet					
 	Vorel–N	Vorlová–N	*					
 	Havel–N	Havlová–N	*					
@@ -1142,9 +1144,9 @@
 	sken–N	skener–N	*					
 	crack–N	cracker–N	*					
 	fík–N	fíkovna–N	*					
-	sněm–N	sněmovna–N	sejmout					
+	sněm–N	sněmovna–N						
 	epocha–N	epochální–A	*					
-	katedra–N	katedrální–A	*					
+\	katedra–N	katedrální–A	*					
 								
 								
 								
@@ -1192,8 +1194,8 @@
 	žandarm–N–žandarm-1_,h_,s_^(četník)	žandarmerie–N	*					
 								
 	ezoterika–N	ezoterický–A	*					
-	Tošov–N	Tošovská–N	*					
-	Náhlov–N	Náhlovská–N	*					
+\	Tošov–N	Tošovská–N	*					
+\	Náhlov–N	Náhlovská–N	*					
 	presumovat–V	presumpce–N	%					
 	subsumovat–V	subsumpce–N	%					
 								
@@ -1214,7 +1216,7 @@
 								
 								
 								
-	Narcis–N	narcis–N	*					
+§	Narcis–N	narcis–N						
 	execírovat–V	execírka–N						
 								
 								
@@ -1227,7 +1229,7 @@
 	zub–N	bezzubý–A	*					
 								
 								
-	banální–A	zbanalizovat–V	*					
+\	banální–A	zbanalizovat–V	*					
 	agnostik–N	agnosticismus–N						
 	šálek–N	podšálek–N	šál					
 	těhotný–A	těhotenství–N						

@@ -1,5 +1,5 @@
 *	kojička	kojit	
-*	prosívka	prosít	
+§	prosívka	prosít	
 *	obouvátko	obouvat	
 *	obracák	obracet	
 *	kolébavka	kolébat	
@@ -45,12 +45,12 @@
 *	koupačka	koupat	
 *	koupátko	koupat	
 *	kousátko	kousat	
-*	odlívka	odlít	
+*	odlívka	odlívat	
 *	kovadlo	kovat	
 *	zatrhovátko	zatrhovat	
 *	předatel	předat–V–předat-1_:T_,a_^(příst)	
 *	předčistička	předčistit	
-*	předehrávka	předehrát	
+§	předehrávka	předehrát	
 *	zatykatel	zatykat–V–zatykat-2_:T_,a_^(zatýkat)	
 *	vlažička	vlažit	
 %	dvojička	dvojit	dvojice
@@ -85,7 +85,7 @@
 %	odvykačka	odvykat	odvykací
 %	bahnička	bahnit	bahnice
 %	vraštička	vraštit	vráska
-%	stáčečka	stáčet	stáčeč
+*	stáčečka	stáčet	
 *	vrčák	vrčet	
 %	kušnička	kušnit	kušna
 *	vroubkovačka	vroubkovat	
@@ -121,7 +121,7 @@
 *	olizovačka	olizovat	
 %	stranička	stranit	strana–N–strana-4_^(v_knize,_rukopise,...)
 *	přesmykovačka	přesmykovat	
-%	lávka	lát	lávka
+§	lávka	lát	
 *	běhadlo	běhat	
 *	běhátko	běhat	
 *	strojička	strojit	
@@ -129,7 +129,7 @@
 *	přešlapovačka	přešlapovat	
 *	střásačka	střásat	
 %	opalovačka	opalovat	opalovací
-*	vyclívka	vyclít	
+§	vyclívka	vyclít	
 *	opékačka	opékat	
 *	fičák	fičet	
 *	fidlovačka	fidlovat	
@@ -173,7 +173,7 @@
 *	vyklepávačka	vyklepávat	
 *	bodátko	bodat	
 *	šavlovačka	šavlovat	
-*	otvíračka	otvírat	
+§	otvíračka	otvírat	
 *	máčedlo	máčet	
 *	mačkátko	mačkat	
 %	šedavka	šedat	šedavý
@@ -260,7 +260,7 @@
 *	vysoušečka	vysoušet	
 *	hladidlo	hladit	
 *	piglovačka	piglovat	
-*	píchavka	píchat	
+§	píchavka	píchat	
 *	pinkátko	pinkat	
 *	cinkátko	cinkat	
 *	pískátko	pískat	
@@ -268,7 +268,7 @@
 *	hodovačka	hodovat	
 *	mlčitel	mlčet	
 *	mlsačka	mlsat	
-*	plandavka	plandat	
+§	plandavka	plandat	
 %	holička–N–holička_^(*2)	holit	holič
 *	vyškrtávačka	vyškrtávat	
 *	couračka	courat	
@@ -355,7 +355,7 @@
 %	polívka	polít	polívat
 *	ženidlo	ženit	
 *	polohovátko	polohovat	
-*	žíhavka	žíhat	
+§	žíhavka	žíhat	
 *	zabalovačka	zabalovat	
 *	rozpočítávadlo	rozpočítávat	
 %	udávka	udát	udávat
@@ -416,7 +416,7 @@
 *	pražička	pražit	
 *	prcačka	prcat	
 *	zalétávačka	zalétávat	
-*	prchavka	prchat	
+§	prchavka	prchat	
 %	zalívka	zalít	zalívat
 *	karbovačka	karbovat	
 *	utahovačka	utahovat	
@@ -427,7 +427,7 @@
 *	prohazovačka	prohazovat	
 *	zandávačka	zandávat	
 *	dorážečka	dorážet	
-*	zapalovačka	zapalovat	
+§	zapalovačka	zapalovat	
 *	vakuovačka	vakuovat	
 *	válcovačka	válcovat	
 *	klapátko	klapat	

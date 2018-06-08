@@ -1,8 +1,8 @@
-\	mat–N	matovat–V	*					
+	mat–N	matovat–V	*					
 \	hod–N	hodovat–V						
 \	rys–N	rysí–A	*					
 \	hrad–N	hradit–V						
-\	dohadovat–V	dohad–N	hádat					
+	dohadovat–V	dohad–N						
 \	stopovat–V	stop–N–stop-1_^(zastavení,_i_stopování)		*				
 \	krk–N	krkat–V						
 \	tok–N	tokat–V		*				
@@ -37,16 +37,16 @@
 \	příjem–N	příjemný–A	přijmout					
 	vagón–N	vagónka–N	*					
 \	nálev–N	nálevka–N	nalévat					
-§	věno–N	věnovat–V						
+\	věno–N	věnovat–V						
 \	mok–N	mokvat–V						
 	inkaso–N	inkasovat–V						
 §	švadronit–V	švadrona–N						
 \	lahodit–V	lahoda–N	lahodný					
-	negativ–N	negativní–A						
+§	negativ–N	negativní–A						
 \	orient–N	orientovat–V	*					
 \	prezent–N	prezentovat–V						
 \	marka–N	markovat–V	*	*				
-\	rejda–N	rejdovat–V	*	rejd				
+\	rejda–N	rejdovat–V		rejd				
 \	reklama–N	reklamovat–V	*	*				
 \	pěst–N	pěstit–V	*	*				
 \	med–N	medit–V	*					
@@ -113,7 +113,7 @@
 §	škrt–N	škrtat–V		*				
 §	ples–N	plesat–V		*				
 §	drb–N	drbat–V		*				
-	čich–N	čichat–V		*				
+	čich–N	čichat–V						
 §	chroust–N	chroustat–V		*				
 §	klik–N	klikat–V		*				
 §	chov–N	chovat–V		*				
@@ -124,7 +124,7 @@
 §	vznik–N	vznikat–V						
 §	flus–N	flusat–V		*				
 §	hrk–N	hrkat–V		*				
-§	dráp–N	drápat–V		*				
+	dráp–N	drápat–V	*					
 §	karamela–N	karamel–N		*				
 §	basa–N	bas–N		*				
 §	Dana–N	Dan–N						
@@ -143,7 +143,7 @@
 §	soupeřit–V	soupeř–N						
 §	hrotit–V	hrot–N		*				
 §	měna–N	měnit–V		*				
-§	řada–N	řadit–V		řada				
+	řada–N	řadit–V						
 §	Macková–N	Macek–N		*				
 §	Habětínková–N	Habětínek–N		*				
 §	Urválková–N	Urválek–N		*				
@@ -160,7 +160,7 @@
 §	celiak–N	celiakie–N		*				
 §	chirurg–N	chirurgie–N		*				
 §	rebel–N	rebelie–N		*				
-§	tyran–N	tyranie–N		*				
+\	tyran–N	tyranie–N		*				
 §	pederast–N	pederastie–N		*				
 §	plebán–N	plebánie–N						
 §	anatom–N	anatomie–N		*				
@@ -201,7 +201,7 @@
 	síť–N	síťovat–V						
 	špás–N	špásovat–V	*					
 	plakát–N	plakátovat–V	*					
-	kolík–N	kolíkovat–V	*					
+	kolík–N	kolíkovat–V						
 	vosk–N	voskovat–V	*					
 	cukr–N	cukrovat–V	*					
 	parazit–N	parazitovat–V						
@@ -323,55 +323,55 @@
 	kontakt–N	kontaktovat–V	*					
 	frank–N	frankovat–V	*					
 								
-	Pátek–N	Pátková–N	*					
+	Pátek–N	Pátková–N						
 	Zbranek–N	Zbranková–N	*					
 	Cejnek–N	Cejnková–N	*					
-	Zajíček–N	Zajíčková–N	*					
+	Zajíček–N	Zajíčková–N						
 	Chalánek–N	Chalánková–N	*					
 	Tichánek–N	Tichánková–N	*					
 	Malivánek–N	Malivánková–N	*					
-	Němeček–N	Němečková–N	*					
+	Němeček–N	Němečková–N						
 	Paroubek–N	Paroubková–N	*					
 	Balínek–N	Balínková–N	*					
-	Macháček–N	Macháčková–N	*					
+	Macháček–N	Macháčková–N						
 	Dolínek–N–Dolínek-2_;S	Dolínková–N	*					
 	Bělobrádek–N	Bělobrádková–N	*					
 	Rejmánek–N	Rejmánková–N	*					
-	Janáček–N	Janáčková–N	*					
-	Svátek–N	Svátková–N	*					
+	Janáček–N	Janáčková–N						
+	Svátek–N	Svátková–N						
 	Habětínek–N	Habětínková–N	*					
-	Roháček–N	Roháčková–N	*					
-	Matoušek–N	Matoušková–N	*					
+	Roháček–N	Roháčková–N						
+	Matoušek–N	Matoušková–N						
 	Kulhánek–N	Kulhánková–N	*					
 	Ječmének–N	Ječménková–N	*					
 	Koláček–N	Koláčková–N	*					
-	Babánek–N	Babánková–N	*					
+	Babánek–N	Babánková–N						
 	Hánek–N	Hánková–N	*					
-	Topolánek–N	Topolánková–N	*					
+	Topolánek–N	Topolánková–N						
 	Rožánek–N	Rožánková–N	*					
-	Sedláček–N	Sedláčková–N	*					
+	Sedláček–N	Sedláčková–N						
 	Nečesánek–N	Nečesánková–N	*					
 	Schovánek–N	Schovánková–N	*					
 	Robenek–N	Robenková–N	*					
 	Bachánek–N	Bachánková–N	*					
-	Bělohlávek–N	Bělohlávková–N	*					
+	Bělohlávek–N	Bělohlávková–N						
 	Mráček–N	Mráčková–N	*					
 	Vízek–N	Vízková–N	*					
 	Rejžek–N	Rejžková–N	*					
 	Křeček–N	Křečková–N	*					
-	Faltýnek–N	Faltýnková–N	*					
+	Faltýnek–N	Faltýnková–N						
 	Labounek–N	Labounková–N	*					
 	Dolének–N	Dolénková–N	*					
 	Rejzek–N	Rejzková–N	*					
 	Hráček–N	Hráčková–N	*					
-	Vondráček–N	Vondráčková–N	*					
+	Vondráček–N	Vondráčková–N						
 	Šefránek–N	Šefránková–N	*					
 	Berousek–N	Berousková–N	*					
 	Křivánek–N	Křivánková–N	*					
 	Válek–N	Válková–N	*					
 	Šajánek–N	Šajánková–N	*					
 	Martínek–N	Martínková–N	*					
-	Balšánek–N	Balšánková–N	*					
+	Balšánek–N	Balšánková–N						
 	Fašánek–N	Fašánková–N	*					
 	Zbožínek–N	Zbožínková–N	*					
 	Ovčáček–N	Ovčáčková–N	*					
@@ -473,7 +473,7 @@
 	kaktus–N	kaktusovitý–A	*					
 	tygr–N	tygrovitý–A	*					
 	hřib–N	hřibovitý–A	*					
-	plž–N	plžovitý–A	*					
+	plž–N	plžovitý–A						
 	jíl–N	jílovitý–A	*					
 	doutník–N	doutníkovitý–A						
 	kotouč–N	kotoučovitý–A						
@@ -565,7 +565,7 @@
 	řád–N	řádit–V						
 								
 	mžikat–V	mžik–N	*					
-	pukat–V	puk–N	*					
+	pukat–V	puk–N						
 	žvástat–V	žvást–N	*					
 	mňoukat–V	mňouk–N						
 	plkat–V	plk–N	*					
@@ -575,7 +575,7 @@
 	drbat–V	drb–N	*					
 	zobat–V	zob–N	*					
 	posypat–V	posyp–N	sypat					
-	kdákat–V	kdák–N	kdák					
+	kdákat–V	kdák–N						
 	šplhat–V	šplh–N	*					
 	chechtat–V	checht–N						
 	tikat–V	tik–N	*					
@@ -631,7 +631,7 @@
 								
 	vandrovat–V	vandr–N	*					
 	rajcovat–V	rajc–N	*					
-	trucovat–V	truc–N	*					
+§	trucovat–V	truc–N						
 								
 	plyn–N	plynatý–A	*					
 	křemík–N	křemíkatý–A						
@@ -667,13 +667,13 @@
 	kvapit–V	kvap–N	*					
 	kazit–V	kaz–N	*					
 	odvalit–V	odval–N	valit					
-	chodit–V	chod–N	*					
+	chodit–V	chod–N						
 	plenit–V	plen–N						
 	bloudit–V	bloud–N	*					
 	popudit–V	popud–N	pudit					
 	třpytit–V	třpyt–N	*					
 	pudit–V	pud–N	*					
-	blábolit–V	blábol–N	*					
+§	blábolit–V	blábol–N						
 	šelestit–V	šelest–N	*					
 	předělit–V	předěl–N	dělit					
 	šklebit–V	škleb–N	*					
@@ -746,7 +746,7 @@
 	lehký–A	lehce–D						
 	mělký–A	mělce–D	*					
 	křehký–A	křehce–D	*					
-	trpký–A	trpce–D	*					
+	trpký–A	trpce–D						
 	slaďoučký–A	slaďoučce–D	sladký					
 	vratký–A	vratce–D						
 	sladký–A	sladce–D	*					
@@ -775,7 +775,7 @@
 	zinek–N	zinkovat–V	*					
 								
 	malinký–A	malinko–N	malý					
-	mokrý–A	mokro–N	*					
+	mokrý–A	mokro–N						
 	zelený–A	zeleno–N	*					
 	veselý–A	veselo–N	*					
 	různý–A	různo–N						
@@ -876,7 +876,7 @@
 	zapalovač–N	zapalovačka–N	zapalovat					
 	průkaz–N	průkazka–N	prokázat					
 	dým–N	dýmka–N						
-	otvírač–N	otvíračka–N	otvírat					
+	otvírač–N	otvíračka–N	otvírat	otevřený				
 	kanafas–N	kanafaska–N	*					
 	holič–N	holička–N–holička_^(*2)	holit					
 	pac–N–pac-2_^(dávat_pac)	packa–N	*					
@@ -969,7 +969,7 @@
 	Adam–N	Adamov–N	*					
 								
 	Čáslav–N	Čáslavsko–N	*					
-	Gottwaldov–N	Gottwaldovsko–N	Gottwald					
+	Gottwaldov–N	Gottwaldovsko–N	Gottwaldův					
 	Jablunkov–N	Jablunkovsko–N						
 	Kolín–N–Kolín-2_;G	Kolínsko–N	*					
 	Krnov–N	Krnovsko–N	*					
@@ -994,13 +994,14 @@
 	měnit–V	měna–N						
 	porobit–V	poroba–N						
 	podstavit–V	podstava–N						
-	nudit–V	nuda–N		*				
+\	nudit–V	nuda–N		*				
 	mísit–V	mísa–N	*					
 	stanovit–V	stanova–N						
 	třídit–V	třída–N						
 	klopit–V	klopa–N						
 								
-	humor–N	humorální–A	*					
+	humor–N	humorka–N	*					
+	humor–N	humorální–A						
 	kanton–N	kantonální–A	*					
 	moment–N	momentální–A	*					
 	monument–N	monumentální–A	*					
@@ -1028,11 +1029,11 @@
 	intuice–N	intuitivní–A	*					
 	erupce–N	eruptivní–A	*					
 	erekce–N	erektivní–A	*					
-	dekorace–N	dekorativní–A	*					
+	dekorace–N	dekorativní–A						
 	prevence–N	preventivní–A	*					
-	presumpce–N	presumptivní–A	*					
+	presumpce–N	presumptivní–A						
 	prohibice–N	prohibitivní–A	*					
-	federace–N	federativní–A	*					
+	federace–N	federativní–A						
 								
 	kolchoz–N	kolchozní–A	*					
 	anál–N	anální–A	*					
