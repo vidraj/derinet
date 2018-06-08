@@ -2,6 +2,9 @@
 
 # This script loads new manual annotations from the following places
 #
+# (x) corrections of derinet (delete incorrect relations)
+# ./delete_tel.tsv
+#
 # (a) nouns derivated by -ace suffix
 # ../../../../data/annotations/cs/2017_11_ace_ie_sky_vat/ace_all_final.tsv
 #
@@ -41,7 +44,7 @@ sys.path.append('../../../data-api/derinet-python/')
 import derinet_api
 
 
-derinet = derinet_api.DeriNet('./derinet-1-5-1.tsv')
+derinet = derinet_api.DeriNet('./derinet-1-5-1.tsv')  # CHANGE TO 1-5.tsv !!!
 
 
 def divideWord(word):
@@ -151,7 +154,7 @@ def markUnmotivated(node_lem, node_pos, node_morph):
 
 
 def createDerivation(ch_lem, par_lem, ch_pos, par_pos, ch_morph, par_morph):
-    """Try to create a derivation relation between nodes/lemmas.
+    """Try to create a derivationanl relation between nodes/lemmas.
     If it is not possible, raise error."""
     try:
         child = (ch_lem, ch_pos, ch_morph)
@@ -205,11 +208,62 @@ def createDerivation(ch_lem, par_lem, ch_pos, par_pos, ch_morph, par_morph):
         print('Tree of these lemmas from their root:\n', t)
 
 
+def removeDerivation(ch_lem, par_lem, ch_pos, par_pos, ch_morph, par_morph):
+    """Remove a derivational relation between nodes/lemmas."""
+    try:
+        child = (ch_lem, ch_pos, ch_morph)
+        parent = (par_lem, par_pos, par_morph)
+
+        derinet.remove_edge_by_lexemes(child_lemma=ch_lem,
+                                       parent_lemma=par_lem,
+                                       child_pos=ch_pos,
+                                       parent_pos=par_pos,
+                                       child_morph=ch_morph,
+                                       parent_morph=par_morph)
+        print('Done: Relation was successfully removed. Child:', child,
+              'Parent:', parent)
+
+    except derinet_api.LexemeNotFoundError:
+        print('Error: Child does not exist. Lemma:', child)
+
+    except derinet_api.IsNotParentError:
+        print('Error: Parent does not exist. Lemma:', parent)
+
+    except derinet_api.ParentNotFoundError:
+        print('Error: Invalid parent in relation. Child:', child,
+              'Parent:', parent)
+
+
 # ---------------- initializing for final processing -------------------
 
 not_relation = defaultdict(list)
 compounds = defaultdict(list)
 unmotivated = defaultdict(list)
+
+# ---------------- part (x) -------------------
+
+filename = './delete_rel.tsv'
+
+with open(filename, mode='r', encoding='utf-8') as f:
+
+    print('File:', filename)
+
+    for line in f:
+
+        if line.startswith('#'):
+            continue
+
+        line = line.rstrip('\n').split('\t')
+
+        parent = eval(line[0])
+        child = eval(line[1])
+
+        removeDerivation(ch_lem=child[0],
+                         ch_pos=child[1],
+                         ch_morph=child[2],
+                         par_lem=parent[0],
+                         par_pos=parent[1],
+                         par_morph=parent[2])
 
 # ---------------- parts (a) (b) (c) (d) -------------------
 
@@ -377,7 +431,8 @@ prep = '../../../../data/annotations/cs/'
 for filename in [
         prep + '2018_04_wiktionary/hand-annotated/der0001-1000.tsv',
         prep + '2018_04_wiktionary/hand-annotated/der1001-2000.tsv',
-        prep + '2018_04_wiktionary/hand-annotated/der2001-3000.tsv']:
+        prep + '2018_04_wiktionary/hand-annotated/der2001-3000.tsv',
+        prep + '2018_04_wiktionary/hand-annotated/der3001-4000.tsv']:
 
     print('File:', filename)
 
@@ -488,4 +543,4 @@ for filename, lemmas in unmotivated.items():
                         node_morph=lemma[2])
 
 # saving DeriNet release 1.6
-# derinet.save('derinet-1-6.tsv')
+derinet.save('derinet-1-6.tsv')
