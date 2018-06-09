@@ -44,7 +44,7 @@ sys.path.append('../../../data-api/derinet-python/')
 import derinet_api
 
 
-derinet = derinet_api.DeriNet('./derinet-1-5-1.tsv')  # CHANGE TO 1-5.tsv !!!
+derinet = derinet_api.DeriNet('./derinet-1-5.tsv')
 
 
 def divideWord(word):
@@ -258,12 +258,14 @@ with open(filename, mode='r', encoding='utf-8') as f:
         parent = eval(line[0])
         child = eval(line[1])
 
-        removeDerivation(ch_lem=child[0],
-                         ch_pos=child[1],
-                         ch_morph=child[2],
-                         par_lem=parent[0],
-                         par_pos=parent[1],
-                         par_morph=parent[2])
+        # relations to remove
+        if child is not None and parent is not None:
+            removeDerivation(ch_lem=child[0],
+                             ch_pos=child[1],
+                             ch_morph=child[2],
+                             par_lem=parent[0],
+                             par_pos=parent[1],
+                             par_morph=parent[2])
 
 # ---------------- parts (a) (b) (c) (d) -------------------
 
@@ -422,7 +424,7 @@ with open(filename, mode='r', encoding='utf-8') as f:
                              par_lem=c_parent[0],
                              par_pos=c_parent[1],
                              par_morph=c_parent[2])
-        elif columns[0] == '§':
+        elif columns[0] == '§' and child is not None and parent is not None:
             not_relation[filename].append((child, parent))
 
 # ---------------- part (g) -------------------
@@ -449,37 +451,35 @@ for filename in [
             parent = searchLexeme(lem=parent_lem, p=parent_p, m=parent_m)
             child = searchLexeme(lem=child_lem, p=child_p, m=child_m)
 
-            if child is None and parent is None:
-                continue
-
             # relations
-            if columns[0] == '':
-                createDerivation(ch_lem=child[0],
-                                 ch_pos=child[1],
-                                 ch_morph=child[2],
-                                 par_lem=parent[0],
-                                 par_pos=parent[1],
-                                 par_morph=parent[2])
-            elif '§' in columns[0]:
-                createDerivation(ch_lem=parent[0],
-                                 ch_pos=parent[1],
-                                 ch_morph=parent[2],
-                                 par_lem=child[0],
-                                 par_pos=child[1],
-                                 par_morph=child[2])
-            elif '\\' in columns[0]:
-                not_relation[filename].append((child, parent))
+            if child is not None and parent is not None:
+                if columns[0] == '':
+                    createDerivation(ch_lem=child[0],
+                                     ch_pos=child[1],
+                                     ch_morph=child[2],
+                                     par_lem=parent[0],
+                                     par_pos=parent[1],
+                                     par_morph=parent[2])
+                elif '§' in columns[0]:
+                    createDerivation(ch_lem=parent[0],
+                                     ch_pos=parent[1],
+                                     ch_morph=parent[2],
+                                     par_lem=child[0],
+                                     par_pos=child[1],
+                                     par_morph=child[2])
+                elif '\\' in columns[0]:
+                    not_relation[filename].append((child, parent))
 
             # unmotivated
-            if columns[3] == '*':
+            if columns[3] == '*' and parent is not None:
                 unmotivated[filename].append(parent)
-            elif columns[4] == '*':
+            elif columns[4] == '*' and child is not None:
                 unmotivated[filename].append(child)
 
             # compound
-            if columns[3] == '%':
+            if columns[3] == '%' and parent is not None:
                 compounds[filename].append(parent)
-            elif columns[4] == '%':
+            elif columns[4] == '%' and child is not None:
                 compounds[filename].append(child)
 
             # proposals of relations
@@ -487,7 +487,7 @@ for filename in [
                 p_parent_lem, p_parent_p, p_parent_m = divideWord(columns[3])
                 p_parent = searchLexeme(lem=p_parent_lem, p=p_parent_p,
                                         m=p_parent_m)
-                if p_parent is not None:
+                if p_parent is not None and parent is not None:
                     createDerivation(ch_lem=parent[0],
                                      ch_pos=parent[1],
                                      ch_morph=parent[2],
@@ -498,7 +498,7 @@ for filename in [
                 p_parent_lem, p_parent_p, p_parent_m = divideWord(columns[4])
                 p_parent = searchLexeme(lem=p_parent_lem, p=p_parent_p,
                                         m=p_parent_m)
-                if p_parent is not None:
+                if p_parent is not None and child is not None:
                     createDerivation(ch_lem=child[0],
                                      ch_pos=child[1],
                                      ch_morph=child[2],
