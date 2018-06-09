@@ -287,7 +287,7 @@
 163054	farmagnosie	farmagnosie	N		
 163256	fascie	fascie	N		
 164246	féerie	féerie	N		
-164548	felicie	felicie_;R_^(vozidlo_Felicie)	N	164549	Felicie
+164548	felicie	felicie	N	164549	Felicie
 164597	felonie	felonie	N		
 164820	fenokopie	fenokopie	NC		
 164985	fenylketonurie	fenylketonurie	N		
@@ -778,7 +778,7 @@
 743671	tympanie	tympanie	N		
 743888	tyranie	tyranie	N		
 758140	unie	unie	N		
-758435	univerzálie	univerzálie	N	758469	univerzální
+758435	univerzálie	univerzálie_,s	N	758469	univerzální
 761997	uraturie	uraturie_;U	N		
 762377	urémie	urémie	N		
 762378	uremie	uremie_;U	N		

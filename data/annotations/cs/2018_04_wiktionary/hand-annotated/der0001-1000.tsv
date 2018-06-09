@@ -370,7 +370,7 @@
 	Křivánek–N	Křivánková–N	*					
 	Válek–N	Válková–N	*					
 	Šajánek–N	Šajánková–N	*					
-	Martínek–N	Martínková–N	*					
+	Martínek–N	Martínková–N						
 	Balšánek–N	Balšánková–N						
 	Fašánek–N	Fašánková–N	*					
 	Zbožínek–N	Zbožínková–N	*					
@@ -785,7 +785,7 @@
 	lehký–A	lehko–N						
 	kyselý–A	kyselo–N–kyselo-2_^(kyselé_prostředí)	*					
 	široký–A	široko–N						
-	neznámý–A	neznámo–N	známý–N–známý-1_^(potkat_známého_[člověka])					
+	neznámý–A	neznámo–N	známý–A–známý-2_^(co_známe)					
 	nedávný–A	nedávno–N	dávný					
 	prázdný–A	prázdno–N	*					
 	hořký–A	hořko–N	*					

@@ -516,8 +516,8 @@
 117674	domrazovat	domrazovat_:T	V	<<<domrazit>>>	
 120250	dopichovat	dopichovat_:T	V	120233	dopíchnout
 121520	dopovat	dopovat_:T	V		
-124299	dorvat	dorvat_:W	V	625652	rvát
-124689	dořvat	dořvat_:W	V	629634	řvát
+124299	dorvat	dorvat	V	625652	rvát
+124689	dořvat	dořvat	V	629634	řvát
 125298	dosévat	dosévat_:T	V	125496	dosít
 125376	dosidlovat	dosidlovat_:T	V	125358	dosídlit
 127648	dostřeďovat	dostřeďovat_:T	V	<<<dostředit>>>	
@@ -1115,7 +1115,7 @@
 245628	kandýrovat	kandýrovat_:T	V		
 245664	kanelovat	kanelovat_:T	V		
 245837	kaňkovat	kaňkovat_:T_,l_^(pářit_se)	V	245817	kaňka
-245946	kanonizovat	kanonizovat_:T_:W	V	250337	kanonický
+245946	kanonizovat	kanonizovat_:T	V	250337	kanonický
 246126	kantorovat	kantorovat_:T	V	246116	kantor
 246510	kapírovat	kapírovat_:T_,s_^(chápat)	V		
 246559	kapitalizovat	kapitalizovat_:T	V	246576	kapitální
@@ -1615,8 +1615,8 @@
 364486	narichtovat	narichtovat_:T_,h	V	<<<richtovat>>>	
 364573	narkotizovat	narkotizovat_:T	V	380983	narkotický
 364735	nárokovat	nárokovat_:T	V		
-365206	narvat	narvat_:W	V	625652	rvát
-365567	nařvat	nařvat_:W	V	629634	řvát
+365206	narvat	narvat	V	625652	rvát
+365567	nařvat	nařvat	V	629634	řvát
 365699	nasakovat	nasakovat_:T	V	365682	nasáknout
 367443	naspídovat	naspídovat_:W_,h	V	<<<spídovat>>>	
 368692	nastřikovat	nastřikovat_:T	V	368674	nastříknout
@@ -1677,7 +1677,7 @@
 388425	oběžovat	oběžovat_:T	V	387620	oběhnout
 388743	obchodovat	obchodovat_:T	V	<<<?>>>	
 388799	obchvat	obchvat	N	388796	obchvátit
-389026	objektivizovat	objektivizovat_:T_:W_,x	V	389040	objektivní
+389026	objektivizovat	objektivizovat_:T	V	389040	objektivní
 389349	obkližovat	obkližovat_:T	V	<<<obklížit>>>	
 389585	obkukovat	obkukovat_:T_,h	V	389447	obkouknout
 390191	obliterovat	obliterovat_:T	V		
@@ -1716,7 +1716,7 @@
 397259	oddupávat	oddupávat_:T_^(*4at)	V	<<<oddupat>>>	
 397280	oddvojmocňovat	oddvojmocňovat_:T	V	<<<oddvojmocnit>>>	
 397698	odentrovat	odentrovat_:W	V	<<<enter>>>	
-397849	odervat	odervat_:W	V	625652	rvát
+397849	odervat	odervat	V	625652	rvát
 398281	odfáčovávat	odfáčovávat_:T_,h_^(*4at)	V	<<<odfáčovat>>>	
 398412	odfenolovat	odfenolovat_:W	V	164840	fenol
 398705	odfukovat	odfukovat_:T	V	398603	odfouknout
@@ -1846,9 +1846,9 @@
 430248	ornamentalizovat	ornamentalizovat_:T	V	430261	ornamentální
 430275	ornamentovat	ornamentovat_:T	V	430266	ornament
 430358	orodovat	orodovat_:T	V		
-430723	orvat	orvat_:W	V	625652	rvát
+430723	orvat	orvat	V	625652	rvát
 430855	ořímsovat	ořímsovat_:W	V	629356	římsa
-430915	ořvat	ořvat_:W	V	629634	řvát
+430915	ořvat	ořvat	V	629634	řvát
 431235	oscilovat	oscilovat_:T	V		
 431280	osečkovat	osečkovat_:T_,l_^(zkracovat_letorosty)	V	642711	sečka
 431610	osidlovat	osidlovat_:T	V	431583	osídlit
@@ -2013,7 +2013,7 @@
 463634	platinovat	platinovat_:T	V	463623	platina
 463680	plátkovat	plátkovat_:T	V	463559	plátek
 463768	platovat	platovat_:T	V	463699	plat
-463769	plátovat	plátovat_:T	V	463812	plát
+463769	plátovat	plátovat_:T	V	463812	plát–N
 464224	plečkovat	plečkovat_:T	V	464208	plečka
 464253	plédovat	plédovat_:T	V		
 464307	plechovat	plechovat_:T	V	464297	plech
@@ -2140,7 +2140,7 @@
 491224	portovat	portovat_:T	V	491186	port
 491254	portrétovat	portrétovat_:T	V	491245	portrét
 491397	poručníkovat	poručníkovat_:T	V	491388	poručník
-491505	porvat	porvat_:W	V	625652	rvát
+491505	porvat	porvat	V	625652	rvát
 491772	pořvávat	pořvávat_:T	V	629634	řvát
 492557	poslancovat	poslancovat_:T	V	492575	poslanec
 492647	poslíčkovat	poslíčkovat_:T	V	492638	poslíček
@@ -2161,7 +2161,7 @@
 496551	poštenkrovat	poštenkrovat_:W	V	<<<štenkrovat>>>	
 496689	poštívat	poštívat_:T	V	<<<?>>>	
 496713	poštmistrovat	poštmistrovat_:T	V	496703	poštmistr
-496887	poštvat	poštvat_:W	V	715893	štvát
+496887	poštvat	poštvat	V	715893	štvát
 496949	pošupovat	pošupovat_:T	V	496129	pošoupnout
 496999	pošušňávat	pošušňávat_:T	V		
 497412	potencovat	potencovat_:T_:W	V	497386	potence
@@ -2289,9 +2289,9 @@
 520765	prorajbovat	prorajbovat_:W	V	<<<rajbovat>>>	
 521071	prorogovat	prorogovat_:W	V		
 521093	prorokovat	prorokovat_:T_:W	V	521083	prorok
-521243	prorvat	prorvat_:W	V	625652	rvát
+521243	prorvat	prorvat	V	625652	rvát
 521348	prořeďovat	prořeďovat_:T	V	<<<proředit>>>	
-521456	prořvat	prořvat_:W	V	629634	řvát
+521456	prořvat	prořvat	V	629634	řvát
 521529	prosakovat	prosakovat_:T	V	521512	prosáknout
 522113	proskribovat	proskribovat_:T_:W	V		
 522791	prosperovat	prosperovat_:T	V		
@@ -2405,10 +2405,10 @@
 550436	přepeřovat	přepeřovat_:T	V	550426	přepeřit
 550492	přepichovat	přepichovat_:T	V	<<<přepíchnout>>>	
 551896	přepsovat	přepsovat_:W_,h_^(přemíra_psů)	V	455709	pes
-552840	přervat	přervat_:W	V	625652	rvát
+552840	přervat	přervat	V	625652	rvát
 552876	přerybňovat	přerybňovat_:T	V	<<<přerybnit>>>	
 553113	přeřizovat	přeřizovat_:T	V	<<<přeřídit>>>	
-553132	přeřvat	přeřvat_:W	V	629634	řvát
+553132	přeřvat	přeřvat	V	629634	řvát
 553265	přesazbovat	přesazbovat_:T	V	635831	sazba
 553322	přesbírkovat	přesbírkovat_:W	V	636167	sbírka
 553529	přeseriálovat	přeseriálovat_:W	V	646974	seriál
@@ -2434,7 +2434,7 @@
 560794	přezatmívat	přezatmívat_:T	V	<<<přezatmít>>>	
 561088	přezkušovat	přezkušovat_:T	V	561059	přezkoušet
 561175	přeznívat	přeznívat_:T	V	<<<přeznít>>>	
-561397	přezvat	přezvat_:W	V	998725	zvát
+561397	přezvat	přezvat	V	998725	zvát
 561817	přežvykovat	přežvykovat_:T	V	561800	přežvýknout
 561837	přiadresovat	přiadresovat_:W	V	3095	adresovat
 561857	přiagregovat	přiagregovat_:W	V	4428	agregovat
@@ -2673,11 +2673,11 @@
 604249	rozčiřovat	rozčiřovat_:T	V	604165	rozčeřit
 604778	rozdmychovat	rozdmychovat_:T	V	604734	rozdmýchat
 604888	rozdouvat	rozdouvat_:T	V	<<<rozdout>>>	
-605909	rozervat	rozervat_:W	V	625652	rvát
-605935	rozeřvat	rozeřvat_:W	V	629634	řvát
+605909	rozervat	rozervat	V	625652	rvát
+605935	rozeřvat	rozeřvat	V	629634	řvát
 606048	rozeskakovat	rozeskakovat_:T	V	606038	rozeskákat
 606068	rozeskupovat	rozeskupovat_:T	V	<<<rozeskupit>>>	
-606461	rozeštvat	rozeštvat_:W	V	715893	štvát
+606461	rozeštvat	rozeštvat	V	715893	štvát
 606492	rozetapovat	rozetapovat_:W	V	157072	etapa
 607108	rozfukovat	rozfukovat_:T	V	607051	rozfouknout
 608547	rozchlipovat	rozchlipovat_:T	V	608530	rozchlípnout
@@ -2797,16 +2797,16 @@
 646546	senzitizovat	senzitizovat_:T	V	646513	senzitivní
 646624	separovat	separovat_:T_:W	V		
 646930	serfovat	serfovat_:T	V	<<<serf>>>	
-647160	servat	servat_:W	V	625652	rvát
+647160	servat	servat	V	625652	rvát
 647191	servírovat	servírovat_:T_:W	V		
 647219	servisovat	servisovat_:T	V	647210	servis
-647407	seřvat	seřvat_:W	V	629634	řvát
+647407	seřvat	seřvat	V	629634	řvát
 647877	sestávat	sestávat_:T	V	<<<?>>>	
 648734	seškrabovat	seškrabovat_:T	V	648717	seškrábnout
 649580	setřiďovat	setřiďovat_:T	V	649570	setřídit
 649622	setupovat	setupovat_:T	V	649613	setup
 650212	sexualizovat	sexualizovat_:T_:W	V	650226	sexuální
-650504	sezvat	sezvat_:W	V	998725	zvát
+650504	sezvat	sezvat	V	998725	zvát
 650733	sežvykovat	sežvykovat_:T	V	650716	sežvýknout
 650753	sfáčovat	sfáčovat_:W	V	<<<fáčovat>>>	
 650918	sfukovat	sfukovat_:T	V	650897	sfouknout
@@ -3341,11 +3341,11 @@
 762281	urdívat	urdívat_:T_,s	V	589335	rdít
 762480	urgovat	urgovat_:T_:W	V		
 762665	úrokovat	úrokovat_:T	V	762648	úrok
-763064	urvat	urvat_:W	V	625652	rvát
+763064	urvat	urvat	V	625652	rvát
 763181	urypovat	urypovat_:T	V	763164	urýpnout
 763293	úřadovat	úřadovat_:T	V	763283	úřad
 763362	úředníčkovat	úředníčkovat_:T_,h	V	763331	úředníček
-763541	uřvat	uřvat_:W	V	629634	řvát
+763541	uřvat	uřvat	V	629634	řvát
 763676	usapovat	usapovat_:T_,n	V	763659	usápnout
 764161	usidlovat	usidlovat_:T	V	764143	usídlit
 764226	usilovat	usilovat_:T	V		
@@ -3358,7 +3358,7 @@
 768960	ušporovat	ušporovat_:T_,h	V	<<<šporovat>>>	
 769267	uštipkovat	uštipkovat_:T_,e_,s	V		
 769302	uštipovat	uštipovat_:T	V	769283	uštípnout
-769532	uštvat	uštvat_:W	V	715893	štvát
+769532	uštvat	uštvat	V	715893	štvát
 769617	ušvicovat	ušvicovat_:W_,h	V		
 770053	utentovat	utentovat_:W_,h	V	<<<tento>>>	
 770103	uteplovat	uteplovat_:T	V	770093	uteplit
@@ -3426,7 +3426,7 @@
 787101	věrovat	věrovat_:T_,a	V		
 787231	veršovat	veršovat_:T	V		
 787313	vertikutovat	vertikutovat_:T_,t_^(vertikální_řez_trávníku)	V		
-787365	vervat	vervat_:W	V	625652	rvát
+787365	vervat	vervat	V	625652	rvát
 787668	veskamontovat	veskamontovat_:W	V		
 787720	veslovat	veslovat_:T	V	787703	veslo
 788466	veštvat	veštvat	V	715893	štvát
@@ -3534,7 +3534,7 @@
 819457	vyčihovat	vyčihovat_:T_,s	V	819440	vyčíhnout
 820003	vyčumovat	vyčumovat_:T_,h	V	86160	čumět
 820518	výdělkovat	výdělkovat_:T_,s	V	820472	výdělek
-820768	vydiplomatizovat	vydiplomatizovat_:T	V	100788	diplomatický
+820768	vydiplomatizovat	vydiplomatizovat_:W	V	100788	diplomatický
 821045	vydlubovat	vydlubovat_:T	V	821019	vydloubnout
 821065	vydlupovat	vydlupovat_:T_,n	V	821028	vydloupnout
 821533	vydrapovat	vydrapovat_:T	V	821514	vydrápnout
@@ -3556,7 +3556,7 @@
 824083	vyglancovat	vyglancovat_:W_,h	V	<<<glancovat>>>	
 824327	vyhajínkovat	vyhajínkovat_:W_,e	V	<<<?>>>	
 825634	vyhopcovat	vyhopcovat_:W_,s	V	<<<hopcovat>>>	
-826212	vyhrávat	vyhrávat-2_:T_^(hudba)	V	207729	hrát
+826212	vyhrávat	vyhrávat-2_:T_^(hudba)	V		
 826272	vyhražovat	vyhražovat_:T	V	826118	vyhradit
 826524	vyhrubovat	vyhrubovat_:W	V	<<<vyhrubit>>>	
 826651	vyhřbílkovat	vyhřbílkovat_:W_,n_,s	V	<<<?>>>	
@@ -3627,10 +3627,10 @@
 846863	vyramovat	vyramovat_:W_,h	V	<<<ramovat>>>	
 847508	výrovat	výrovat_:T_^(lovit_na_výrovce;;dívat_se_jako_výr)	V	847237	výr
 847810	vyrumovat	vyrumovat_:W_,a	V	624530	rum
-847911	vyrvat	vyrvat_:W	V	625652	rvát
+847911	vyrvat	vyrvat	V	625652	rvát
 848050	vyrypovat	vyrypovat_:T	V	848033	vyrýpnout
 848460	vyřihovat	vyřihovat_:T_,s	V	848443	vyříhnout
-848601	vyřvat	vyřvat_:W	V	629634	řvát
+848601	vyřvat	vyřvat	V	629634	řvát
 848764	vysámečkovat	vysámečkovat_:W	V	<<<?>>>	
 848784	vysámkovat	vysámkovat_:W	V	<<<?>>>	
 848999	vyscénovat	vyscénovat_:W_,l	V	636556	scéna
@@ -3663,7 +3663,7 @@
 857871	vyštilcovat	vyštilcovat_:T_,h	V	<<<štilcovat>>>	
 857949	vyštipovat	vyštipovat_:T	V	857932	vyštípnout
 858207	vyšťuchovat	vyšťuchovat_:T_,h	V	858061	vyšťouchnout
-858263	vyštvat	vyštvat_:W	V	715893	štvát
+858263	vyštvat	vyštvat	V	715893	štvát
 858357	vyšumovat	vyšumovat_:W_,n_^(vypěnit_se;;vyhledat)	V	858339	vyšumět
 859211	výtažkovat	výtažkovat_:T	V	859195	výtažek
 859497	vytentovat	vytentovat_:W_,h	V	<<<tentovat>>>	
@@ -3841,7 +3841,7 @@
 913538	zarmucovat	zarmucovat_:T	V	913528	zarmoutit
 914138	zartikulovat	zartikulovat_:W_,s	V	18232	artikulovat
 914344	zarumovat	zarumovat_:W_,s	V	624530	rum
-914469	zarvat	zarvat_:W	V	625652	rvát
+914469	zarvat	zarvat	V	625652	rvát
 914548	zarýglovat	zarýglovat_:W_,h	V	<<<rýglovat>>>	
 915057	zařetězovat	zařetězovat_:W_,s	V	628648	řetěz
 915568	zasakovat	zasakovat_:T	V	915551	zasáknout
@@ -3869,7 +3869,7 @@
 923678	zašporovat	zašporovat_:W_,h	V		
 923996	zaštěnicovat	zaštěnicovat_:W	V	713431	štěnice
 924235	zaštipovat	zaštipovat_:T	V	924218	zaštípnout
-924651	zaštvat	zaštvat_:W_,s	V	715893	štvát
+924651	zaštvat	zaštvat_,s	V	715893	štvát
 924742	zašuplíkovat	zašuplíkovat_:W	V	716722	šuplík
 924762	zašupovat	zašupovat_:T	V	923158	zašoupnout
 924833	zašvandrkovat	zašvandrkovat_:W_,n	V		
@@ -3907,7 +3907,7 @@
 938372	zbytňovat	zbytňovat_:T	V	938360	zbytnět
 938549	zceremonizovat	zceremonizovat_:W	V	68253	ceremonie
 939671	zdefinitizovat	zdefinitizovat_:W	V	<<<definitní>>>	
-939938	zdemagogizovat	zdemagogizovat_:T	V	92744	demagog
+939938	zdemagogizovat	zdemagogizovat_:W	V	92744	demagog
 940542	zdetailovat	zdetailovat_:W	V	96543	detail
 940694	zdeziluzovat	zdeziluzovat_:W	V	98397	deziluze
 940819	zdialogovat	zdialogovat_:W	V	99009	dialog
@@ -3937,7 +3937,7 @@
 949689	zfantovat	zfantovat_:W_,n	V	162802	fant
 949834	zfejetonizovat	zfejetonizovat_:W_,s	V	164412	fejeton
 950306	zfotodokumentovat	zfotodokumentovat_:W	V	171481	fotodokument
-950520	zgalizovat	zgalizovat_:T	V	176859	galský
+950520	zgalizovat	zgalizovat_:W	V	176859	galský
 950777	zgramatizovat	zgramatizovat_:W	V	184157	gramatický
 950856	zgrupírovat	zgrupírovat_:W_,h	V	<<<grupírovat>>>	
 950935	zhachlovat	zhachlovat_:W_,n	V	188765	hachle
@@ -4096,7 +4096,7 @@
 1000366	zvláštňovat	zvláštňovat_:T_,s	V	<<<zvláštnit>>>	
 1000754	zvohavovat	zvohavovat_:T_,h_,x_^(^GC**zohavovat)	V	<<<zvohavit>>>	
 1001007	zvonkovat	zvonkovat_:T	V	1000932	zvonek–N–zvonek-2_^(^DI*2)
-1001207	zvovuzveřejňovat	zvovuzveřejňovat_:T	V	<<<zvovuzveřejnit>>>	
+1001207	zvovuzveřejňovat	zvovuzveřejňovat_:T	V	<<<znovuzveřejnit>>>	
 1002642	zývat	zývat_:T_,a	V	998725	zvát
 1002975	žabičkovat	žabičkovat_:T	V	1002962	žabička
 1003027	žabkovat	žabkovat_:T	V	1003017	žabka
