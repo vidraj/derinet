@@ -57,7 +57,7 @@ def mark_as_compound(node_id):
     new_pos = old_node.pos + "C"
     newnode = old_node._replace(pos=new_pos)
     derinet._data[node_id] = newnode
-    
+
 
 def find_id(lemma,pos):
     candidates=[]
@@ -72,14 +72,14 @@ def find_id(lemma,pos):
     else:
         return candidates[0]
 
-    
+
 def create_derivation(filename,child_lemma,child_pos,parent_lemma,parent_pos):
 #    print("Ladim3")
     try:
 #        print("Ladim4")
         derinet.add_edge_by_lexemes(child_lemma, parent_lemma, child_pos, parent_pos)
         print("Derivation successfully added child="+child_lemma+" parent="+parent_lemma+"\t"+filename)
-        
+
     except (derinet_api.AlreadyHasParentError, derinet_api.AmbiguousLexemeError, derinet_api.AmbiguousParentError, derinet_api.ParentNotFoundError, derinet_api.LexemeNotFoundError, derinet_api.CycleCreationError) as error:
         print("Error: No edge added for child="+child_lemma+" and parent="+parent_lemma+" , either nonexistent or ambiguous")
         print(error)
@@ -95,6 +95,8 @@ for filename in [
     fh = open(filename)
 
     for line in fh:
+        if line.startswith(('>>', '<<', '==')):
+            continue
         columns = line.rstrip('\n').split('\t')
         child_lemma = columns[0]
         parent_lemma = columns[1]
@@ -127,7 +129,7 @@ for line in fh:
             create_derivation(filename, child_lemma, 'A', parent_lemma, None)
 
 # ---------------- part (d) -------------------
-            
+
 filename = "../../../../data/annotations/cs/2017_05_sky_cky_ovy/hand-annotated/kandidati_ze_sirotku.txt"
 
 fh = open(filename)
@@ -171,7 +173,7 @@ for shortfilename in [
             child_lemma = columns[0]
             parent_lemma = columns[1]
             create_derivation(filename, child_lemma, None, parent_lemma, None)
-        
+
 # ---------------- part (h) -------------------
 
 filename = '../../../../data/annotations/cs/2017_08_compounds/all_solitary_compounds'
@@ -188,11 +190,11 @@ for shortlemma in [line.rstrip('\n') for line in fh]:
 filename = '../../../../data/annotations/cs/2017_08_compounds/all_compound_clusters'
 fh = open(filename)
 for line in fh:
-    
+
     tokens = line.rstrip('\n').split(' ')
 
 #    print(repr(tokens))
-    
+
     node_ids = derinet.get_ids(tokens[0])
     if len(node_ids) < 1:
         print("Error: lexeme with lemma %s not found" % tokens[0])
@@ -214,5 +216,5 @@ for line in fh:
 
 
 
-        
+
 derinet.save('derinet-1-5.tsv')
