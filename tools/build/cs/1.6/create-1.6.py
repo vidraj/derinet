@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# coding: utf-8
 
 # This script loads new manual annotations from the following places
 #
@@ -23,18 +24,12 @@
 # (f) verb-noun derivations from Turinsky
 # ../../../../data/annotations/cs/2018_03_turinsky/turinsky-out.tsv
 #
-# (g) derivations extracted from wiktionary (cz, en, ge, fr, pl)
+# (g) derivations extracted from wiktionary (cz, en, ge, fr, pl) part 1
 # ../../../../data/annotations/cs/2018_04_wiktionary/hand-annotated/der0001-1000.tsv
 # ../../../../data/annotations/cs/2018_04_wiktionary/hand-annotated/der1001-2000.tsv
 # ../../../../data/annotations/cs/2018_04_wiktionary/hand-annotated/der2001-3000.tsv
 # ../../../../data/annotations/cs/2018_04_wiktionary/hand-annotated/der3001-4000.tsv
 # ../../../../data/annotations/cs/2018_04_wiktionary/hand-annotated/der4001-5000.tsv
-# ../../../../data/annotations/cs/2018_04_wiktionary/hand-annotated/der5001-6000.tsv
-# ../../../../data/annotations/cs/2018_04_wiktionary/hand-annotated/der6001-7000.tsv
-# ../../../../data/annotations/cs/2018_04_wiktionary/hand-annotated/der7001-8038.tsv
-#
-# (h) derivations extracted from ssjc
-# ../../../../data/annotations/cs/2018_06_ssjc/hand-annotated/
 #
 
 import sys
@@ -429,12 +424,13 @@ with open(filename, mode='r', encoding='utf-8') as f:
 
 # ---------------- part (g) -------------------
 
-prep = '../../../../data/annotations/cs/'
+prep = '../../../../data/annotations/cs/2018_04_wiktionary/hand-annotated/'
 for filename in [
-        prep + '2018_04_wiktionary/hand-annotated/der0001-1000.tsv',
-        prep + '2018_04_wiktionary/hand-annotated/der1001-2000.tsv',
-        prep + '2018_04_wiktionary/hand-annotated/der2001-3000.tsv',
-        prep + '2018_04_wiktionary/hand-annotated/der3001-4000.tsv']:
+        prep + 'der0001-1000.tsv',
+        prep + 'der1001-2000.tsv',
+        prep + 'der2001-3000.tsv',
+        prep + 'der3001-4000.tsv',
+        prep + 'der4001-5000.tsv']:
 
     print('File:', filename)
 
@@ -505,8 +501,6 @@ for filename in [
                                      par_lem=p_parent[0],
                                      par_pos=p_parent[1],
                                      par_morph=p_parent[2])
-
-# ---------------- parts (h) -------------------
 
 # ---------------- final processing -------------------
 

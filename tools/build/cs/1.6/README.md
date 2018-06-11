@@ -11,3 +11,6 @@ Co máme:
     - Zlatá anotace od Magdy, která s tím souvisí, už je hotová.
 
 Turiňského anotace a Wiktionary možná budou kolidovat, protože se nám vyvíjí názor na to, co jak má být.
+
+
+do příštího releasu? : zbytek wiktionary (5000+), ssjč
