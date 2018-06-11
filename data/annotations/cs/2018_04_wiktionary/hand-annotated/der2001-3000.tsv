@@ -235,7 +235,7 @@
 \	fotrovatět–V	fotr–N	fotrovský	*				
 \	tvarohovatět–V	tvaroh–N	tvarohový	*				
 \	cukrovatět–V	cukr–N	cukrový	*				
-\	mor–N	mořit–V	mřít	*				
+\	mor–N	mořit–V	mřít					
 \	šikmooký–A	šikmý–A	%	*				
 	šikmý–A	šikmo–D						
 \	modrooký–A	modrý–A	%	*				
@@ -302,7 +302,7 @@
 §	Předjordánsko–N	Jordánsko–N		Jordán–N–Jordán-2_;G				
 §	předvolební–A	volební–A		volba				
 §	soumrak–N	mrak–N		*				
-§	modernita–N	moderní–A		*				
+§	modernita–N	moderní–A						
 §	malignita–N	maligní–A						
 §	benignita–N	benigní–A						
 §	Radka–N	Radek–N		*				
@@ -344,7 +344,7 @@
 §	ryze–D	ryzí–A		*				
 §	cize–D	cizí–A		*				
 §	svěže–D	svěží–A		*				
-§	Hraničan–N	Hranice–N		*				
+§	Hraničan–N	Hranice–N						
 §	Krasličan–N	Kraslice–N		*				
 §	Košičan–N	Košice–N		*				
 §	archivistika–N	archiv–N		*				
@@ -433,7 +433,7 @@
 §	prérijní–A	prérie–N		*				
 §	hnízdit–V	hnízdo–N						
 §	čelit–V	čelo–N						
-§	zrcadlit–V	zrcadlo–N		zračit				
+§	zrcadlit–V	zrcadlo–N						
 §	běsnit–V	běs–N		*				
 §	mocnit–V	moc–N		moci				
 §	řečnit–V	řeč–N		říkat				
@@ -489,7 +489,7 @@
 §	kategorizovat–V	kategorie–N		*				
 §	harmonizovat–V	harmonie–N		*				
 §	uzdečka–N	uzda–N		*				
-§	Šafářová–N	Šafář–N		*				
+§	Šafářová–N	Šafář–N						
 §	Nasadilová–N	Nasadil–N		*				
 §	hlasivka–N	hlas–N		*				
 §	třes–N	třást–V		*				
@@ -817,7 +817,7 @@
 §	Kulaťák–N	kulatý–A		koule				
 §	doptat–V	ptát–V		*				
 §	vepsí–D	psí–N						
-§	zvířetník–N	zvíře–N		*				
+§	zvířetník–N	zvíře–N						
 §	miliardtý–A	miliarda–N						
 §	Hřebeny–N	hřeben–N						
 \	mim–N	pantomima–N		%				
@@ -829,7 +829,7 @@
 §	cukrle–N	cukr–N		*				
 §	hrabivý–A	hrabat–V		*				
 §	plátěný–A	plátno–N		*				
-§	podvozek–N	vůz–N		vézt				
+§	podvozek–N	vůz–N		vozit				
 §	obličej–N	líce–N						
 §	žalozpěv–N	žal–N	%	želet				
 §	máknout–V	makat–V		*				
@@ -866,7 +866,7 @@
 §	jabčák–N	jablko–N		*				
 §	náměstí–N	město–N		*				
 	oponovat–V	oponent–N						
-\	abstinovat–V	abstinent–N	abstinence					
+\	abstinovat–V	abstinent–N						
 	dirigovat–V	dirigent–N						
 	spermie–N	sperma–N						
 	kvarta–N	kvartet–N						
@@ -958,7 +958,7 @@
 								
 								
 								
-	diftongizovat–V	diftongizace–N						
+	diftongizovat–V	diftongizace–N	diftong					
 	bolševizovat–V	bolševizace–N						
 	arizovat–V	arizace–N						
 								

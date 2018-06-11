@@ -245,7 +245,7 @@
 	kšaft–N	kšaftovat–V	*					
 	filtr–N	filtrovat–V	*					
 	pablesk–N	pableskovat–V						
-	roub–N	roubovat–V	*					
+	roub–N	roubovat–V						
 	šenk–N	šenkovat–V	*					
 	šampon–N	šamponovat–V	*					
 	flamendr–N	flamendrovat–V						
@@ -400,7 +400,7 @@
 	dávka–N	dávkovat–V						
 	póza–N	pózovat–V	*					
 	pomáda–N	pomádovat–V	*					
-	štěpka–N	štěpkovat–V	štěpit					
+	štěpka–N	štěpkovat–V						
 	cenzura–N	cenzurovat–V	*					
 	šifra–N	šifrovat–V	*					
 	tečka–N	tečkovat–V						
@@ -710,7 +710,7 @@
 	nárok–N	náročný–A						
 	přebytek–N	přebytečný–A	přebýt					
 	soumrak–N	soumračný–A						
-	znak–N	značný–A	značit					
+\	znak–N	značný–A	značit	značit				
 	zázrak–N	zázračný–A						
 	nadbytek–N	nadbytečný–A						
 	zvuk–N	zvučný–A						
@@ -877,7 +877,7 @@
 	průkaz–N	průkazka–N	prokázat					
 	dým–N	dýmka–N						
 	otvírač–N	otvíračka–N	otvírat	otevřený				
-	kanafas–N	kanafaska–N	*					
+	kanafas–N	kanafaska–N						
 	holič–N	holička–N–holička_^(*2)	holit					
 	pac–N–pac-2_^(dávat_pac)	packa–N	*					
 	host–N	hostka–N	*					

@@ -58,7 +58,7 @@
 7162	alegorizovat	alegorizovat_:T_:W	V	7146	alegorický
 7318	alergizovat	alergizovat_:T	V	7302	alergický
 7509	alfabetizovat	alfabetizovat_:T	V	7496	alfabetický
-7681	algoritmizovat	algoritmizovat_:T_:W	V	7668	algoritmický
+7681	algoritmizovat	algoritmizovat_:T_:W	V		
 7919	aliterovat	aliterovat_:T	V		
 8006	alkalizovat	alkalizovat_:T	V	7987	alkalický
 8084	alkoholizovat	alkoholizovat_:T	V	8066	alkoholický
@@ -429,7 +429,7 @@
 99729	diferencovat	diferencovat_:T_:W	V		
 99752	diferovat	diferovat_:T	V		
 99794	difraktovat	difraktovat_:T	V		
-99824	diftongizovat	diftongizovat_:T	V	100012	diftongický
+99824	diftongizovat	diftongizovat_:T	V	106900	diftong
 99845	difundovat	difundovat_:T	V		
 99924	digitalizovat	digitalizovat_:T_:W	V	99940	digitální
 100023	dichotomizovat	dichotomizovat_:W	V	137564	dichotomický
@@ -3155,7 +3155,7 @@
 717078	šutovat	šutovat_:T_,l_^(střílet,_ve_sportu)	V	717066	šut
 717107	šutrovat	šutrovat_:T_,h	V	717097	šutr
 717281	švagrovat	švagrovat_:T_,h	V	717270	švagr
-717568	švejkovat	švejkovat_:T	V	717555	švejk
+717568	švejkovat	švejkovat_:T	V	713930	Švejk
 717618	švencovat	švencovat_:T_,l	V		
 717897	švindlovat	švindlovat_:T	V		
 718147	tabelovat	tabelovat_:T	V		

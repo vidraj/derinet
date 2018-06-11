@@ -54,7 +54,7 @@
 \	desetitisíc–N	desetitisíce–N						
 	kytka–N	kytice–N						
 \	Louny–N	Loun–N						
-\	mour–N	mourek–N		mourovatý				
+	mour–N	mourek–N						
 \	hlt–N	hltan–N	hltat	hltat				
 \	sejr–N	sejřit–V						
 \	rum–N	rumíček–N	*					
@@ -68,7 +68,7 @@
 \	nonet–N	noneto–N						
 \	septet–N	septeto–N						
 \	sak–N	sako–N	*	*				
-\	decimovat–V	decima–N	*	*				
+	decimovat–V	decima–N						
 	butan–N	butanol–N	*					
 	metan–N	metanol–N						
 	oktan–N	oktanol–N	*					
@@ -80,7 +80,7 @@
 	úsek–N	úsečka–N	useknout					
 	přesmyk–N	přesmyčka–N	přesmyknout					
 	zvuk–N	zvučka–N						
-\	hořet–V	hoře–N	*	*				
+\	hořet–V	hoře–N		*				
 \	třískat–V	tříska–N	*	*				
 \	nástup–N	nástupce–N	nastoupit	nastoupit				
 \	návod–N	návodce–N	navést	navést				
@@ -119,7 +119,7 @@
 \	čtvrt–N	čtvrťák–N–čtvrťák-2_^(mince)						
 \	reflexe–N	reflex–N						
 \	štafle–N	štafl–N						
-\	pikle–N	pikl–N	*	*				
+\	pikle–N	pikl–N		*				
 \	roj–N	rojáček–N						
 \	chlup–N	chlupáček–N–chlupáček-2_,e_^(^DI*2)	*	chlupáč				
 \	představa–N	představec–N	představit	představit				
@@ -216,7 +216,7 @@
 §	intranzitivní–A	intranzitivum–N		tranzitivum				
 §	tranzitivní–A	tranzitivum–N		*				
 §	konsorciální–A	konsorcium–N		*				
-§	mediální–A	medium–N		*				
+§	mediální–A	medium–N						
 §	individuální–A	individuum–N		*				
 §	optimální–A	optimum–N		*				
 §	adverbiální–A	adverbium–N		*				
@@ -283,7 +283,7 @@
 §	dýmka–N	dým–N						
 §	Norka–N	Nor–N						
 \	progresivní–A	progres–N						
-§	abortivní–A	abort–N		*				
+\	abortivní–A	abort–N		*	abortus			
 §	subjektivní–A	subjekt–N		%				
 §	efektivní–A	efekt–N		*				
 §	podpora–N	podpořit–V						
@@ -312,7 +312,7 @@
 §	žonglér–N	žonglovat–V		*				
 §	mixér–N	mixovat–V		*				
 §	Topolánek–N	Topol–N		*				
-§	copánek–N	cop–N		*				
+\	copánek–N	cop–N		*				
 §	Liberecko–N	Liberec–N		*				
 §	Třinecko–N	Třinec–N						
 §	Prusko–N	Prus–N		*				
@@ -501,7 +501,7 @@
 	kadeř–N	kadeřník–N	*					
 	revír–N	revírník–N	*					
 	koláč–N	koláčník–N						
-	zpěv–N	zpěvník–N	*					
+	zpěv–N	zpěvník–N						
 								
 	huť–N	hutní–A	*					
 	řiť–N	řitní–A	*					
@@ -810,7 +810,7 @@
 	Kazi–N	Kazin–N	*					
 								
 	tlak–N	tlakoměr–N		%				
-	krok–N	krokoměr–N	kráčet	%				
+	krok–N	krokoměr–N		%				
 	cukr–N	cukroměr–N	*	%				
 	tuk–N	tukoměr–N		%				
 	hluk–N	hlukoměr–N		%				
@@ -858,7 +858,7 @@
 	raft–N	rafťák–N	*					
 	byt–N	byťák–N						
 	balet–N	baleťák–N	*					
-	smrt–N	smrťák–N	*					
+	smrt–N	smrťák–N						
 								
 	doch–N	došek–N	*					
 	hrách–N	hrášek–N	*					
