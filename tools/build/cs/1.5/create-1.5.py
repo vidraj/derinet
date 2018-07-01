@@ -34,187 +34,243 @@
 #
 
 
-
-import sys
-sys.path.append('../../../data-api/derinet-python/')
-
-import derinet_api
-
 import re
+import sys
+
+sys.path.append('../../../data-api/derinet-python/')
+import derinet_api
 
 derinet = derinet_api.DeriNet('./derinet-1-4.tsv')
 
-def find_lexeme_by_lemma(lemma):
-    print("Searching for "+lemma)
-    candidates = derinet.search_lexemes(lemma)
-    print("Pokracovani")
-    if len(candidates) > 1:
-        print("Warning: homonymous lemma "+lemma)
-    return(candidates[0])
 
-def mark_as_compound(node_id):
-    old_node = derinet._data[node_id]
-    new_pos = old_node.pos + "C"
-    newnode = old_node._replace(pos=new_pos)
-    derinet._data[node_id] = newnode
-
-
-def find_id(lemma,pos):
-    candidates=[]
-    if pos==None:
-        candidates=derinet.get_ids(lemma)
-    else:
-        candidates=derinet.get_ids(lemma,pos)
-    if len(candidates)==0:
-        print("Error:No node find for lemma="+lemma)
-    elif len(candidates)>1:
-        print("Error:Ambiguous lemma="+lemma)
+def searchLexeme(lem, p=None, m=None):
+    """Search lemma in DeriNet. Raise warnings for not beeing inside the
+    DeriNet and for homonymous lemma."""
+    candidates = derinet.search_lexemes(lem, pos=p, morph=m)
+    if len(candidates) == 0:
+        print('Warning: Node does not exist for lemma:', lem)
+    elif len(candidates) > 1:
+        print('Error: Homonymous lemma (return first):', lem, ':', candidates)
+        # return candidates[0]
     else:
         return candidates[0]
+    return None
 
 
-def create_derivation(filename,child_lemma,child_pos,parent_lemma,parent_pos):
-#    print("Ladim3")
+def markCompound(node_lem, node_pos, node_morph):
+    """Mark lemma as compound. Add 'C' to its pos."""
     try:
-#        print("Ladim4")
-        derinet.add_edge_by_lexemes(child_lemma, parent_lemma, child_pos, parent_pos)
-        print("Derivation successfully added child="+child_lemma+" parent="+parent_lemma+"\t"+filename)
+        lem = (node_lem, node_pos, node_morph)
 
-    except (derinet_api.AlreadyHasParentError, derinet_api.AmbiguousLexemeError, derinet_api.AmbiguousParentError, derinet_api.ParentNotFoundError, derinet_api.LexemeNotFoundError, derinet_api.CycleCreationError) as error:
-        print("Error: No edge added for child="+child_lemma+" and parent="+parent_lemma+" , either nonexistent or ambiguous")
-        print(error)
+        id = derinet.get_id(lemma=node_lem, pos=node_pos, morph=node_morph)
+        old_node = derinet._data[id]
+
+        if 'C' not in old_node.pos:
+            new_pos = old_node.pos + 'C'
+            new_node = old_node._replace(pos=new_pos)
+            derinet._data[id] = new_node
+            print('Done: Lemma was marked as compound. Lemma:',
+                  derinet_api.lexeme_info(new_node))
+        else:
+            print('Warning: Lemma is already marked as compound.',
+                  'Lemma:', derinet_api.lexeme_info(old_node))
+
+    except derinet_api.LexemeNotFoundError:
+        print('Warning: Lemma cannnot be mark as compound because it does not',
+              'exist. Lemma:', lem)
+
+    except derinet_api.AmbiguousLexemeError:
+        print('Error: Lemma cannnot be mark as compound because it is',
+              'ambiguous. Lemma:', lem,
+              derinet.search_lexemes(lemma=node_lem, pos=node_pos,
+                                     morph=node_morph))
 
 
+def createDerivation(ch_lem, par_lem, ch_pos, par_pos):
+    """Try to create a derivationanl relation between nodes/lemmas.
+    If it is not possible, raise error."""
+    try:
+        child = (ch_lem, ch_pos)
+        parent = (par_lem, par_pos)
 
-# ---------------- part (a) and (c) -------------------
+        derinet.add_edge_by_lexemes(child_lemma=ch_lem,
+                                    parent_lemma=par_lem,
+                                    child_pos=ch_pos,
+                                    parent_pos=par_pos)
+        print('Done: Relation was successfully added. Child:', child,
+              'Parent:', parent)
+
+    except derinet_api.LexemeNotFoundError:
+        print('Error: Child does not exist. Lemma:', child)
+
+    except derinet_api.AmbiguousLexemeError:
+        print('Error: Child is ambiguous. Lemma:', child,
+              derinet.search_lexemes(lemma=ch_lem, pos=ch_pos))
+
+    except derinet_api.ParentNotFoundError:
+        print('Error: Parent does not exist. Lemma:', parent)
+
+    except derinet_api.AmbiguousParentError:
+        print('Error: Parent is ambiguous. Lemma:', parent,
+              derinet.search_lexemes(lemma=par_lem, pos=par_pos))
+
+    except derinet_api.AlreadyHasParentError:
+        realParent = derinet.get_parent_by_lexeme(lemma=ch_lem, pos=ch_pos)
+        r_parent = (realParent.lemma, realParent.pos, realParent.morph)
+        if parent != r_parent:
+            print('Error: Child already has other parent. Child:', child,
+                  'Proposed parent:', parent, 'Original parent:', r_parent)
+        else:
+            print('Warning: Child has same parent as proposed parent is.',
+                  'Child:', child, 'Proposed parent:', parent,
+                  'Original parent:', r_parent)
+
+    except derinet_api.CycleCreationError:
+        print('Error: Relation would create a cycle. Child:', child,
+              'Proposed parent:', parent)
+
+        r = derinet.get_root_by_lexeme(child[0], child[1])
+        t = derinet.subtree_as_str_from_lexeme(child[0], child[1])
+        if r is not None:
+            t = derinet.subtree_as_str_from_lexeme(r.lemma, r.pos, r.morph)
+        print('Tree of these lemmas from their root:\n', t)
+
+
+# ---------------- part (a) (c) -------------------
+
+prep = '../../../../data/annotations/cs/2017_05_sky_cky_ovy/hand-annotated/'
 for filename in [
-         "../../../../data/annotations/cs/2017_05_sky_cky_ovy/hand-annotated/candidates_sky_bez_kompozit.txt",
-         "../../../../data/annotations/cs/2017_05_sky_cky_ovy/hand-annotated/candidates_ovy_bez_kompozit.txt"
-        ]:
+         prep + 'candidates_sky_bez_kompozit.txt',
+         prep + 'candidates_ovy_bez_kompozit.txt',
+         prep + 'candidates_cky_bez_kompozit.txt']:
 
-    fh = open(filename)
+    print('File:', filename)
 
-    for line in fh:
-        if line.startswith(('>>', '<<', '==')):
-            continue
-        columns = line.rstrip('\n').split('\t')
-        child_lemma = columns[0]
-        parent_lemma = columns[1]
+    with open(filename, mode='r', encoding='utf-8') as fh:
+        for line in fh:
+            if line.startswith(('>>', '<<', '==')):
+                continue
 
-        matchObj = re.search(r' [A-Z]: (\w+)',line) # manual correction
-        if matchObj and matchObj.groups:
-            parent_lemma = matchObj.group(1)
+            columns = line.rstrip('\n').split('\t')
+            child_lemma = columns[0]
+            parent_lemma = columns[1]
 
-        if not parent_lemma=="UNRESOLVED" and not parent_lemma=="" and not child_lemma.startswith("?"):
-            create_derivation(filename, child_lemma, 'A', parent_lemma, None)
+            matchObj = re.search(r' [A-Z]: (\w+)', line)  # manual correction
+            if matchObj and matchObj.groups:
+                parent_lemma = matchObj.group(1)
 
+            if not (parent_lemma == 'UNRESOLVED' or parent_lemma == ''
+                    or child_lemma.startswith('?')):
+                createDerivation(child_lemma, parent_lemma, 'A', None)
 
 # ---------------- part (b) -------------------
-filename = "../../../../data/annotations/cs/2017_05_sky_cky_ovy/hand-annotated/candidates_cky_bez_kompozit.txt"
 
-fh = open(filename)
+prep = '../../../../data/annotations/cs/2017_05_sky_cky_ovy/hand-annotated/'
+filename = prep + 'candidates_cky_bez_kompozit.txt'
 
-for line in fh:
-    if not re.search(r'^[@\?]',line):
+print('File:', filename)
 
-        columns = line.lstrip('\t').rstrip('\n').split('\t')
-        child_lemma = columns[0]
-        parent_lemma = columns[1]
+with open(filename, mode='r', encoding='utf-8') as fh:
+    for line in fh:
+        if not re.search(r'^[@\?]', line):
+            columns = line.lstrip('\t').rstrip('\n').split('\t')
+            child_lemma = columns[0]
+            parent_lemma = columns[1]
 
-        matchObj = re.search(r' [A-Z]: (\w+)',line) # manual correction
-        if matchObj and matchObj.groups:
-            parent_lemma = matchObj.group(1)
+            matchObj = re.search(r' [A-Z]: (\w+)', line)  # manual correction
+            if matchObj and matchObj.groups:
+                parent_lemma = matchObj.group(1)
 
-        if not parent_lemma=="UNRESOLVED" and not parent_lemma=="":
-            create_derivation(filename, child_lemma, 'A', parent_lemma, None)
+            if not (parent_lemma == 'UNRESOLVED' or parent_lemma == ''):
+                createDerivation(child_lemma, parent_lemma, 'A', None)
 
 # ---------------- part (d) -------------------
 
-filename = "../../../../data/annotations/cs/2017_05_sky_cky_ovy/hand-annotated/kandidati_ze_sirotku.txt"
+prep = '../../../../data/annotations/cs/2017_05_sky_cky_ovy/hand-annotated/'
+filename = prep + 'kandidati_ze_sirotku.txt'
 
-fh = open(filename)
+print('File:', filename)
 
-for line in fh:
-    if re.search(r'^N ',line):
-        line = re.sub(r'^N ','',line)
-        columns = line.rstrip('\n').split('\t')
-        child_lemma = columns[0]
-        parent_lemma = columns[1]
-
-        matchObj = re.search(r' [A-Z]: (\w+)',line) # manual correction
-        if matchObj and matchObj.groups:
-            parent_lemma = matchObj.group(1)
-
-        if not parent_lemma=="UNRESOLVED" and not parent_lemma=="":
-            create_derivation(filename, child_lemma, 'A', parent_lemma, None)
-
-
-
-# ---------------- parts (e)+(f)+(g) -------------------
-
-for shortfilename in [
-        'AavanyDavane-C-final.txt',
-        'AavatelnyDavatelne-C-final.txt',
-        'VtNtel-C-final.txt',
-        'AavanyDavane-E-final.txt',
-        'AavatelnyDavatelne-E-final.txt',
-        'VtNtel-E-final.txt'
-        ]:
-
-    filename = "../../../../data/annotations/cs/2017_08_tel_avane_avatelne/"+shortfilename
-
-    fh = open(filename)
-
+with open(filename, mode='r', encoding='utf-8') as fh:
     for line in fh:
-        if not re.search(r'^@',line):
+        if re.search(r'^N ', line):
+            line = re.sub(r'^N ', '', line)
             columns = line.rstrip('\n').split('\t')
-            if len(columns)<2:
-                print("KRATKE: "+line)
             child_lemma = columns[0]
             parent_lemma = columns[1]
-            create_derivation(filename, child_lemma, None, parent_lemma, None)
+
+            matchObj = re.search(r' [A-Z]: (\w+)', line)  # manual correction
+            if matchObj and matchObj.groups:
+                parent_lemma = matchObj.group(1)
+
+            if not (parent_lemma == 'UNRESOLVED' or parent_lemma == ''):
+                createDerivation(child_lemma, parent_lemma, 'A', None)
+
+# ---------------- parts (e) (f) (g) -------------------
+
+prep = '../../../../data/annotations/cs/2017_08_tel_avane_avatelne/'
+for filename in [
+        prep + 'AavanyDavane-C-final.txt',
+        prep + 'AavatelnyDavatelne-C-final.txt',
+        prep + 'VtNtel-C-final.txt',
+        prep + 'AavanyDavane-E-final.txt',
+        prep + 'AavatelnyDavatelne-E-final.txt',
+        prep + 'VtNtel-E-final.txt']:
+
+    print('File:', filename)
+
+    with open(filename, mode='r', encoding='utf-8') as fh:
+        for line in fh:
+            if not re.search(r'^@', line):
+                columns = line.rstrip('\n').split('\t')
+                child_lemma = columns[0]
+                parent_lemma = columns[1]
+
+                createDerivation(child_lemma, parent_lemma, None, None)
 
 # ---------------- part (h) -------------------
 
-filename = '../../../../data/annotations/cs/2017_08_compounds/all_solitary_compounds'
-fh = open(filename)
-for shortlemma in [line.rstrip('\n') for line in fh]:
-    try:
-        node_ids = derinet.get_ids(shortlemma)
-        mark_as_compound(node_ids[0])
-    except:
-        print("Error: Lemma "+shortlemma+" not found, comes from "+filename)
+prep = '../../../../data/annotations/cs/2017_08_compounds/'
+filename = prep + 'all_solitary_compounds'
+
+print('File:', filename)
+
+with open(filename, mode='r', encoding='utf-8') as fh:
+    for line in fh:
+        lemma = line.rstrip('\n')
+
+        lemma = searchLexeme(lemma)
+        if lemma is not None:
+            markCompound(lemma[0], lemma[1], lemma[2])
 
 # ---------------- part (i) -------------------
 
-filename = '../../../../data/annotations/cs/2017_08_compounds/all_compound_clusters'
-fh = open(filename)
-for line in fh:
+prep = '../../../../data/annotations/cs/2017_08_compounds/'
+filename = prep + 'all_compound_clusters'
 
-    tokens = line.rstrip('\n').split(' ')
+print('File:', filename)
 
-#    print(repr(tokens))
+with open(filename, mode='r', encoding='utf-8') as fh:
+    for line in fh:
+        tokens = line.rstrip('\n').split(' ')
 
-    node_ids = derinet.get_ids(tokens[0])
-    if len(node_ids) < 1:
-        print("Error: lexeme with lemma %s not found" % tokens[0])
-        continue
-    mark_as_compound(node_ids[0])
+        lemma = searchLexeme(tokens[0])
+        if lemma is not None:
+            markCompound(lemma[0], lemma[1], lemma[2])
 
-    last_token = tokens[0]
-    stack = []
-    for index in range(1,len(tokens)):
-        token = tokens[index]
-        if token == "(":
-            stack.append(last_token)
-        elif token == ")":
-            stack.pop()
-        else:
-            print("Child: "+token+"  Parent: "+stack[-1])
-            create_derivation(filename,token,None,stack[-1],None)
-            last_token = token
+        last_token = tokens[0]
+        stack = []
+        for index in range(1, len(tokens)):
+            token = tokens[index]
+            if token == '(':
+                stack.append(last_token)
+            elif token == ')':
+                stack.pop()
+            else:
+                createDerivation(token, stack[-1], None, None)
+                last_token = token
 
+# ---------------- final processing -------------------
 
-
-
+# saving DeriNet release 1.5
 derinet.save('derinet-1-5.tsv')
