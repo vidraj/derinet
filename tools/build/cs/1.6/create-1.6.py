@@ -3,8 +3,9 @@
 
 # This script loads new manual annotations from the following places
 #
-# (x) corrections of derinet (delete incorrect relations)
-# ./delete_tel.tsv
+# (x) corrections of derinet (deleting/changing incorrect relations)
+# ./delete_rel.tsv
+# ./add_rel.tsv
 #
 # (a) nouns derivated by -ace suffix
 # ../../../../data/annotations/cs/2017_11_ace_ie_sky_vat/ace_all_final.tsv
@@ -256,6 +257,31 @@ with open(filename, mode='r', encoding='utf-8') as f:
         # relations to remove
         if child is not None and parent is not None:
             removeDerivation(ch_lem=child[0],
+                             ch_pos=child[1],
+                             ch_morph=child[2],
+                             par_lem=parent[0],
+                             par_pos=parent[1],
+                             par_morph=parent[2])
+
+filename = './add_rel.tsv'
+
+with open(filename, mode='r', encoding='utf-8') as f:
+
+    print('File:', filename)
+
+    for line in f:
+
+        if line.startswith('#'):
+            continue
+
+        line = line.rstrip('\n').split('\t')
+
+        parent = eval(line[0])
+        child = eval(line[1])
+
+        # relations to add
+        if child is not None and parent is not None:
+            createDerivation(ch_lem=child[0],
                              ch_pos=child[1],
                              ch_morph=child[2],
                              par_lem=parent[0],
