@@ -78,8 +78,10 @@ onepar:
 
 # vytvoří soubor obsahující seřazená zbylá data k anotaci, tzn. vztahy,
 # u kterých je navrženo několik potenciálních rodičů
+# dodatečně přidán skript pro úpravu výstupního souboru dle požadavků anotátorky
 morepar:
 	python3 more-parents.py 'comparison/merged-noncomposites.dat' > '../for-annotation/all-more-parent.tsv'
+	cat '../for-annotation/all-more-parent.tsv' | python3 edit-more-parent.py '../for-annotation/'
 
 # ze souboru se všemi páry k anotaci odebere již oanotované páry,
 # a vytvoří tím soubor se zbývajícími páry k anotaci (použito pro
