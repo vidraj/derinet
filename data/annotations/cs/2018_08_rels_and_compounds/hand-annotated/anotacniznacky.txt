@@ -1,0 +1,10 @@
+- manuální anotace na základě pozorování a připomínek při tvorbě releasu 1.6
+- značení dosud neoznačených kompozit
+
+relations.tsv
+§ = přidat derivační vztah
+PRÁZDNÉ = nepřidávat
+
+compounds.tsv
+% = označit slovo jako kompozitum
+PRÁZDNÉ = neoznačovat
