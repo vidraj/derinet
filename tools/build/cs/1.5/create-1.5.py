@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+"""Module for release 1.5."""
+
 # This script loads new manual annotations from the following places
 #
 # (a) adjectives derived by -sky suffix
@@ -44,14 +46,15 @@ derinet = derinet_api.DeriNet('./derinet-1-4.tsv')
 
 
 def searchLexeme(lem, p=None, m=None):
-    """Search lemma in DeriNet. Raise warnings for not beeing inside the
-    DeriNet and for homonymous lemma."""
+    """Search lemma in DeriNet.
+    Raise warnings for not beeing inside theDeriNet and for homonymous lemma.
+    """
     candidates = derinet.search_lexemes(lem, pos=p, morph=m)
     if len(candidates) == 0:
         print('Warning: Node does not exist for lemma:', lem)
     elif len(candidates) > 1:
         print('Error: Homonymous lemma (return first):', lem, ':', candidates)
-        # return candidates[0]
+        return candidates[0]
     else:
         return candidates[0]
     return None
@@ -86,9 +89,57 @@ def markCompound(node_lem, node_pos, node_morph):
                                      morph=node_morph))
 
 
+def checkCompoundAnnotation(node):
+    """Check and correct annotation of compounds. Final processing."""
+    if node.parent_id != '':
+        par_node = derinet._data[int(node.parent_id)]
+
+        c_in_parents = False
+        while True:
+            if 'C' in par_node.pos:
+                c_in_parents = True
+                break
+
+            if par_node.parent_id != '':
+                par_node = derinet._data[int(par_node.parent_id)]
+            else:
+                break
+
+        par_node = derinet._data[int(node.parent_id)]
+        if c_in_parents:
+            new_pos = node.pos.replace('C', '')
+            new_node = node._replace(pos=new_pos)
+            derinet._data[node.lex_id] = new_node
+            print('Warning: Lemma has parent already marked as',
+                  'compound, so C was removed from lemma.',
+                  'Lemma:', derinet_api.lexeme_info(new_node),
+                  'Parent:', derinet_api.lexeme_info(par_node))
+        else:
+            if par_node.lemma in node.lemma:
+                derinet.remove_edge_by_ids(child_id=node.lex_id,
+                                           parent_id=par_node.lex_id)
+                print('Warning: Relation between lemma and parent was',
+                      'removed. Lemma:', derinet_api.lexeme_info(node),
+                      'Parent:', derinet_api.lexeme_info(par_node))
+            else:
+                new_pos = node.pos.replace('C', '')
+                new_node = node._replace(pos=new_pos)
+                derinet._data[node.lex_id] = new_node
+                markCompound(par_node.lemma, par_node.pos, par_node.morph)
+                print('Warning: Lemma has unmarked (compound) parent. Mark of',
+                      'lemma was removed and parent was marked (and checked).',
+                      'Lemma:', derinet_api.lexeme_info(node), 'Parent:',
+                      derinet_api.lexeme_info(par_node))
+                checkCompoundAnnotation(par_node)
+    else:
+        print('Done: Lemma marked as compound. OK. Lemma:',
+              derinet_api.lexeme_info(node))
+
+
 def createDerivation(ch_lem, par_lem, ch_pos, par_pos):
     """Try to create a derivationanl relation between nodes/lemmas.
-    If it is not possible, raise error."""
+    If it is not possible, raise error.
+    """
     try:
         child = (ch_lem, ch_pos)
         parent = (par_lem, par_pos)
@@ -135,6 +186,10 @@ def createDerivation(ch_lem, par_lem, ch_pos, par_pos):
             t = derinet.subtree_as_str_from_lexeme(r.lemma, r.pos, r.morph)
         print('Tree of these lemmas from their root:\n', t)
 
+
+# ---------------- compound initialize ------------
+
+compounds = list()
 
 # ---------------- part (a) (c) -------------------
 
@@ -237,11 +292,15 @@ print('File:', filename)
 
 with open(filename, mode='r', encoding='utf-8') as fh:
     for line in fh:
-        lemma = line.rstrip('\n')
+        entry = line.rstrip('\n').split('\t')
 
-        lemma = searchLexeme(lemma)
-        if lemma is not None:
-            markCompound(lemma[0], lemma[1], lemma[2])
+        mark = entry[0]
+        lemma = entry[1]
+
+        if '@' not in mark:
+            lemma = searchLexeme(lemma)
+            if lemma is not None:
+                compounds.append(lemma)
 
 # ---------------- part (i) -------------------
 
@@ -256,7 +315,7 @@ with open(filename, mode='r', encoding='utf-8') as fh:
 
         lemma = searchLexeme(tokens[0])
         if lemma is not None:
-            markCompound(lemma[0], lemma[1], lemma[2])
+            compounds.append(lemma)
 
         last_token = tokens[0]
         stack = []
@@ -271,6 +330,22 @@ with open(filename, mode='r', encoding='utf-8') as fh:
                 last_token = token
 
 # ---------------- final processing -------------------
+
+# marking compounds
+print('\n', 5*'-', 'marking compound lemmas', 5*'-')
+for lemma in compounds:
+    markCompound(node_lem=lemma[0],
+                 node_pos=lemma[1],
+                 node_morph=lemma[2])
+
+# checking compound annotation
+all_compounds = list()
+for node in derinet._data:
+    if 'C' in node.pos:
+        all_compounds.append(node)
+
+for node in all_compounds:
+    checkCompoundAnnotation(node)
 
 # saving DeriNet release 1.5
 derinet.save('derinet-1-5.tsv')

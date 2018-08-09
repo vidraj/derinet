@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 # coding: utf-8
 
+"""Module for release 1.6."""
+
 # This script loads new manual annotations from the following places
 #
 # (x) corrections of derinet (deleting/changing incorrect relations)
 # ./delete_rel.tsv
-# ./add_rel.tsv
 #
 # (a) nouns derivated by -ace suffix
 # ../../../../data/annotations/cs/2017_11_ace_ie_sky_vat/ace_all_final.tsv
@@ -32,6 +33,10 @@
 # ../../../../data/annotations/cs/2018_04_wiktionary/hand-annotated/der3001-4000.tsv
 # ../../../../data/annotations/cs/2018_04_wiktionary/hand-annotated/der4001-5000.tsv
 #
+# (h) manual observations - add relations, add compounds
+# ../../../../data/annotations/cs/2018_08_rels_and_compounds/hand-annotated/relations.tsv
+# ../../../../data/annotations/cs/2018_08_rels_and_compounds/hand-annotated/compounds.tsv
+#
 
 import sys
 from collections import defaultdict
@@ -45,7 +50,8 @@ derinet = derinet_api.DeriNet('./derinet-1-5.tsv')
 
 def divideWord(word):
     """Return lemma, pos and morph of word in annotated data.
-    Used for ambiguous words. ALT+0150 is separator."""
+    Used for ambiguous words. ALT+0150 is separator.
+    """
     word = word.split('–')
     lemma = word[0]
 
@@ -62,12 +68,13 @@ def divideWord(word):
 
 def searchLexeme(lem, p=None, m=None):
     """Search lemma in DeriNet. Raise warnings for not beeing inside the
-    DeriNet and for homonymous lemma."""
+    DeriNet and for homonymous lemma.
+    """
     candidates = derinet.search_lexemes(lem, pos=p, morph=m)
     if len(candidates) == 0:
         print('Warning: Node does not exist for lemma:', lem)
     elif len(candidates) > 1:
-        print('Error: Homonymous lemma:', lem, ':', candidates)
+        print('Warning: Homonymous lemma:', lem, ':', candidates)
     else:
         return candidates[0]
     return None
@@ -81,7 +88,7 @@ def checkDerivation(ch_lem, par_lem, ch_pos, par_pos, ch_morph, par_morph):
         p = (p.lemma, p.pos, p.morph)
         par = (par_lem, par_pos, par_morph)
         if p == par:
-            print('Error: There should not be a relation. Child:', child,
+            print('Warning: There should not be a relation. Child:', child,
                   'Parent:', parent)
 
 
@@ -104,7 +111,7 @@ def markCompound(node_lem, node_pos, node_morph):
                   'Lemma:', derinet_api.lexeme_info(old_node))
 
     except derinet_api.LexemeNotFoundError:
-        print('Warning: Lemma cannnot be mark as compound because it does not',
+        print('Error: Lemma cannnot be mark as compound because it does not',
               'exist. Lemma:', lem)
 
     except derinet_api.AmbiguousLexemeError:
@@ -112,6 +119,54 @@ def markCompound(node_lem, node_pos, node_morph):
               'ambiguous. Lemma:', lem,
               derinet.search_lexemes(lemma=node_lem, pos=node_pos,
                                      morph=node_morph))
+
+
+def checkCompoundAnnotation(node):
+    """Check and correct annotation of compounds. Final processing."""
+    if node.parent_id != '':
+        par_node = derinet._data[int(node.parent_id)]
+
+        c_in_parents = False
+        while True:
+            if 'C' in par_node.pos:
+                c_in_parents = True
+                break
+
+            if par_node.parent_id != '':
+                par_node = derinet._data[int(par_node.parent_id)]
+            else:
+                break
+
+        par_node = derinet._data[int(node.parent_id)]
+        if c_in_parents:
+            new_pos = node.pos.replace('C', '')
+            new_node = node._replace(pos=new_pos)
+            derinet._data[node.lex_id] = new_node
+            print('Warning: Lemma has parent already marked as',
+                  'compound, so C was removed from lemma.',
+                  'Lemma:', derinet_api.lexeme_info(new_node),
+                  'Parent:', derinet_api.lexeme_info(par_node))
+        else:
+            if (par_node.lemma in node.lemma or (par_node.lemma.endswith('ka')
+               and par_node.lemma[:-1] in node.lemma)):
+                derinet.remove_edge_by_ids(child_id=node.lex_id,
+                                           parent_id=par_node.lex_id)
+                print('Warning: Relation between lemma and parent was',
+                      'removed. Lemma:', derinet_api.lexeme_info(node),
+                      'Parent:', derinet_api.lexeme_info(par_node))
+            else:
+                new_pos = node.pos.replace('C', '')
+                new_node = node._replace(pos=new_pos)
+                derinet._data[node.lex_id] = new_node
+                markCompound(par_node.lemma, par_node.pos, par_node.morph)
+                print('Warning: Lemma has unmarked (compound) parent. Mark of',
+                      'lemma was removed and parent was marked (and checked).',
+                      'Lemma:', derinet_api.lexeme_info(node), 'Parent:',
+                      derinet_api.lexeme_info(par_node))
+                checkCompoundAnnotation(par_node)
+    else:
+        print('Done: Lemma marked as compound. OK. Lemma:',
+              derinet_api.lexeme_info(node))
 
 
 def markUnmotivated(node_lem, node_pos, node_morph):
@@ -139,7 +194,7 @@ def markUnmotivated(node_lem, node_pos, node_morph):
                   'Parent:', derinet_api.lexeme_info(parent))
 
     except derinet_api.LexemeNotFoundError:
-        print('Warning: Lemma cannnot be marked as unmotivated because it',
+        print('Error: Lemma cannnot be marked as unmotivated because it',
               'does not exist. Lemma:', lem)
 
     except derinet_api.AmbiguousLexemeError:
@@ -151,7 +206,8 @@ def markUnmotivated(node_lem, node_pos, node_morph):
 
 def createDerivation(ch_lem, par_lem, ch_pos, par_pos, ch_morph, par_morph):
     """Try to create a derivationanl relation between nodes/lemmas.
-    If it is not possible, raise error."""
+    If it is not possible, raise error.
+    """
     try:
         child = (ch_lem, ch_pos, ch_morph)
         parent = (par_lem, par_pos, par_morph)
@@ -257,31 +313,6 @@ with open(filename, mode='r', encoding='utf-8') as f:
         # relations to remove
         if child is not None and parent is not None:
             removeDerivation(ch_lem=child[0],
-                             ch_pos=child[1],
-                             ch_morph=child[2],
-                             par_lem=parent[0],
-                             par_pos=parent[1],
-                             par_morph=parent[2])
-
-filename = './add_rel.tsv'
-
-with open(filename, mode='r', encoding='utf-8') as f:
-
-    print('File:', filename)
-
-    for line in f:
-
-        if line.startswith('#'):
-            continue
-
-        line = line.rstrip('\n').split('\t')
-
-        parent = eval(line[0])
-        child = eval(line[1])
-
-        # relations to add
-        if child is not None and parent is not None:
-            createDerivation(ch_lem=child[0],
                              ch_pos=child[1],
                              ch_morph=child[2],
                              par_lem=parent[0],
@@ -528,6 +559,46 @@ for filename in [
                                      par_pos=p_parent[1],
                                      par_morph=p_parent[2])
 
+# ---------------- part (h) -------------------
+
+prep = '../../../../data/annotations/cs/2018_08_rels_and_compounds/hand-annotated/'
+
+for filename in [prep + 'relations.tsv',
+                 prep + 'compounds.tsv']:
+
+    print('File:', filename)
+
+    with open(filename, mode='r', encoding='utf-8') as f:
+
+        print('File:', filename)
+
+        for line in f:
+
+            if line.startswith('#'):
+                continue
+
+            line = line.rstrip('\n').split('\t')
+
+            if line[0] == '':
+                continue
+
+            # relations
+            if '§' in line[0]:
+                parent = eval(line[1])
+                child = eval(line[2])
+
+                if child is not None and parent is not None:
+                    createDerivation(ch_lem=child[0],
+                                     ch_pos=child[1],
+                                     ch_morph=child[2],
+                                     par_lem=parent[0],
+                                     par_pos=parent[1],
+                                     par_morph=parent[2])
+            # compounds
+            if '%' in line[0]:
+                lemma = eval(line[1])
+                compounds[filename].append(lemma)
+
 # ---------------- final processing -------------------
 
 # checking if there is not relation
@@ -544,7 +615,7 @@ for filename, relations in not_relation.items():
                         par_pos=parent[1],
                         par_morph=parent[2])
 
-# marking compound lemmas
+# marking compounds
 print('\n', 5*'-', 'marking compound lemmas', 5*'-')
 for filename, lemmas in compounds.items():
     print('File:', filename)
@@ -552,6 +623,16 @@ for filename, lemmas in compounds.items():
         markCompound(node_lem=lemma[0],
                      node_pos=lemma[1],
                      node_morph=lemma[2])
+
+# checking compound annotation
+all_compounds = list()
+for node in derinet._data:
+    if 'C' in node.pos:
+        all_compounds.append(node)
+
+for node in all_compounds:
+    checkCompoundAnnotation(node)
+
 
 # marking unmotivated lemmas
 print('\n', 5*'-', 'marking unmotivated lemmas', 5*'-')
