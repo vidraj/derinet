@@ -1,4 +1,4 @@
-﻿anotace ve formátu csv:
+anotace ve formátu csv:
 vztah mezi lexémem A a lexémem B; lexém A; lexém B; základové slovo pro lexém A; základové slovo pro lexém B
 
 

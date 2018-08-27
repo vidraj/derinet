@@ -1,4 +1,4 @@
-﻿absintový	absint	CHANGE: 0 --> ový
+absintový	absint	CHANGE: 0 --> ový
 adidasový	Adidas	CHANGE: 0 --> ový
 adipový	Adip	CHANGE: 0 --> ový
 aldonový	Aldon	CHANGE: 0 --> ový

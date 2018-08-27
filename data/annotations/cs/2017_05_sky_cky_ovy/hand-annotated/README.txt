@@ -1,4 +1,4 @@
-﻿Adélin komentář z mejlu k kandidati_ze_sirotku:
+Adélin komentář z mejlu k kandidati_ze_sirotku:
 
 prošla jsem ta slova, která jsem automaticky vyřadila jako kompozita,
 a zkontrolovala, jestli se o kompozita opravdu jedná. Pokud ne,

@@ -1,4 +1,4 @@
-﻿N biometanový	biometan	CHANGE: 0 --> ový
+N biometanový	biometan	CHANGE: 0 --> ový
 N biotopový	biotop	CHANGE: 0 --> ový
 N nadhledový	nadhled	CHANGE: 0 --> ový
 pětivlasový	Pětivlas	CHANGE: 0 --> ový

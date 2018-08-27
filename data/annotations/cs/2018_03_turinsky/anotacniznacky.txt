@@ -1,4 +1,4 @@
-﻿sloupec A: vztah mezi lexémem 1 a lexémem 2 
+sloupec A: vztah mezi lexémem 1 a lexémem 2 
 sloupec B: lexém 1 (potenciální derivát)
 sloupec C: lexém 2 (potenciální základové slovo)
 sloupec D: správné základové slovo, pokud lexém 2 chybně

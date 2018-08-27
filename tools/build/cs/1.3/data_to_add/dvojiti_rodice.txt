@@ -1,4 +1,4 @@
-﻿# zjednodušila jsem formát dodaného souboru, teď: 
+# zjednodušila jsem formát dodaného souboru, teď: 
 # dítě POSdítěte: rodič1 POSrodiče1, rodič2 POSrodiče2
 
 # do sekvence „----------“ řádky, kde lze preferovat jednoho z rodičů
