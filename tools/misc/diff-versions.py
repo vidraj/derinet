@@ -1,5 +1,12 @@
 #!/usr/bin/env python3
 
+# diff-versions.py
+# Detect changes between versions of DeriNet databases.
+# The algorithm works in two phases – first, link lexemes that look similar
+#  enough to be considered the same (i.e. abstract away from potential changes
+#  in techlemmas and motivatedness / compound markers), and then find changes
+#  in derivations.
+
 import sys
 from collections import namedtuple, defaultdict
 
