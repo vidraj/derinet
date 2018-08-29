@@ -200,6 +200,8 @@ if __name__ == '__main__':
                 print("New lexeme {}".format(format_lexeme(lexeme)))
 
 
+
+
     # Create lookup tables for transfer between databases in both directions.
     link_old_to_new = {o.id: n.id for (o, n) in linked_lexemes}
     link_new_to_old = {n.id: o.id for (o, n) in linked_lexemes}
@@ -207,10 +209,8 @@ if __name__ == '__main__':
 
     # Find differences in derivations of linked lexemes.
     # TODO find differences among unlinked lexemes. This should probably be done above.
-    for old_id, new_id in link_old_to_new.items():
-        old_lexeme = old_db_id[old_id]
-        new_lexeme = new_db_id[new_id]
-
+    # TODO report reversal-of-derivation-direction specially.
+    for old_lexeme, new_lexeme in linked_lexemes:
         if new_lexeme.parent_id is None:
             if old_lexeme.parent_id is None:
                 # Neither has a parent. Nothing to see here.
