@@ -212,7 +212,12 @@ if __name__ == '__main__':
                 # The old lexeme had a parent, the new one doesn't.
                 # Report a link deletion.
                 old_parent = old_db_id[old_lexeme.parent_id]
-                print("Disconnected {} from {}".format(format_lexeme(new_lexeme), format_lexeme(old_parent)))
+                if old_lexeme.parent_id in link_old_to_new:
+                    # The old parent has a counterpart in the new database.
+                    print("Disconnected {} from {}".format(format_lexeme(new_lexeme), format_lexeme(old_parent)))
+                else:
+                    # The old parent has no counterpart, suggesting it might have been deleted.
+                    print("Disconnected {} from {} with no linked counterpart in the new DB".format(format_lexeme(new_lexeme), format_lexeme(old_parent)))
         else:
             if old_lexeme.parent_id is None:
                 # The new lexeme has a parent, the old one doesn't.
