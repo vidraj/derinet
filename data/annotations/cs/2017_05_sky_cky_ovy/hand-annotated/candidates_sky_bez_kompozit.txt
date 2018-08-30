@@ -1988,7 +1988,7 @@
 	wurzachský		UNRESOLVED
 	xhoský		UNRESOLVED
 	yorkský		UNRESOLVED Z: York
-	yorskhirský		UNRESOLVED Z: Yorkshire
+	yorskhirský		UNRESOLVED Z: Yorkshire–N
 	yorský		UNRESOLVED Z: York
 	yperský		UNRESOLVED Z: Ypres
 	žabokrtský		UNRESOLVED
@@ -2102,7 +2102,7 @@
 	artušovský	Artuš	CHANGE: 0 --> ovský
 	assemblerovský	assembler	CHANGE: 0 --> ovský
 	atreidovský	Atreid	CHANGE: 0 --> ovský
-@	augustinovský	Augustin	CHANGE: 0 --> ovský L: Augustin–N
+@	augustinovský	Augustin–A	CHANGE: 0 --> ovský L: Augustin–N
 	azurovský	azur	CHANGE: 0 --> ovský
 	babelovský	Babel	CHANGE: 0 --> ovský
 	babicovský	Babic	CHANGE: 0 --> ovský
@@ -2234,7 +2234,7 @@
 	drábovský	dráb	CHANGE: 0 --> ovský
 	dřímalovský	Dřímal	CHANGE: 0 --> ovský
 	dubčekovský	Dubček	CHANGE: 0 --> ovský
-@	duchampovský	Duchamp	CHANGE: 0 --> ovský L: Duchamp–N
+@	duchampovský	Duchamp–A	CHANGE: 0 --> ovský L: Duchamp–N
 	dumasovský	Dumas	CHANGE: 0 --> ovský
 	duncanovský	Duncan	CHANGE: 0 --> ovský
 	durkheimovský	Durkheim	CHANGE: 0 --> ovský
@@ -2603,7 +2603,7 @@
 	néhrúovský	Néhrú	CHANGE: 0 --> ovský
 	někrasovovský	Někrasov	CHANGE: 0 --> ovský
 	nepilovský	Nepil	CHANGE: 0 --> ovský
-@	nerezovský	nerez	CHANGE: 0 --> ovský L: nerez–N
+@	nerezovský	nerez–A	CHANGE: 0 --> ovský L: nerez–N
 	nestroyovský	Nestroy	CHANGE: 0 --> ovský
 	neumannovský	Neumann	CHANGE: 0 --> ovský
 	neumanovský	Neuman	CHANGE: 0 --> ovský
@@ -2762,7 +2762,7 @@
 	shellovský	shell	CHANGE: 0 --> ovský
 	siemensovský	siemens	CHANGE: 0 --> ovský M: Siemens
 	sihanukovský	Sihanuk	CHANGE: 0 --> ovský
-	šikovský	šik	CHANGE: 0 --> ovský M: Šik–N
+	šikovský	šik–N	CHANGE: 0 --> ovský M: Šik–N
 	simmelovský	Simmel	CHANGE: 0 --> ovský
 	simpsonovský	Simpson	CHANGE: 0 --> ovský
 	šindelovský	šindel	CHANGE: 0 --> ovský M: Šindel
@@ -3036,7 +3036,7 @@
 	atreidský	Atreid	CHANGE: 0 --> ský
 	aucklandský	Auckland	CHANGE: 0 --> ský
 	augsburgský	Augsburg	CHANGE: 0 --> ský
-	augustinský	Augustin	CHANGE: 0 --> ský L:Augustin–N
+	augustinský	Augustin–A	CHANGE: 0 --> ský L:Augustin–N
 	augustýnský	Augustýn	CHANGE: 0 --> ský
 	autíčkářský	autíčkář	CHANGE: 0 --> ský
 	autokarosářský	autokarosář	CHANGE: 0 --> ský
@@ -4348,7 +4348,7 @@
 	michelinský	Michelin	CHANGE: 0 --> ský
 	michelský	Michel	CHANGE: 0 --> ský M: Michle
 	michiganský	Michigan	CHANGE: 0 --> ský
-	microsoftský	Microsoft	CHANGE: 0 --> ský L: Microsoft–N
+	microsoftský	Microsoft–A	CHANGE: 0 --> ský L: Microsoft–N
 	mičurinský	Mičurin	CHANGE: 0 --> ský
 	midwayský	Midway	CHANGE: 0 --> ský
 	mikovský	Mikov	CHANGE: 0 --> ský
@@ -4512,7 +4512,7 @@
 	ohníčkářský	ohníčkář	CHANGE: 0 --> ský
 	ohníčský	Ohníč	CHANGE: 0 --> ský
 	ohridský	Ohrid	CHANGE: 0 --> ský
-	ojrotský	Ojrot	CHANGE: 0 --> ský L: Ojrot–N
+	ojrotský	Ojrot–A	CHANGE: 0 --> ský L: Ojrot–N
 	okenářský	okenář	CHANGE: 0 --> ský
 	okořský	Okoř	CHANGE: 0 --> ský
 	okrskářský	okrskář	CHANGE: 0 --> ský
@@ -6097,7 +6097,7 @@
 ?	whetstonský	whetstone	CHANGE: e --> ský
 	yalský	Yale	CHANGE: e --> ský
 	yellowstonský	Yellowstone	CHANGE: e --> ský
-	yorkshirský	Yorkshire	CHANGE: e --> ský L: Yorkshire–N
+	yorkshirský	Yorkshire–A	CHANGE: e --> ský L: Yorkshire–N
 	yosemitský	Yosemite	CHANGE: e --> ský
 	zimbabwský	Zimbabwe	CHANGE: e --> ský
 	abelovský	Abeles	CHANGE: es --> ovský
@@ -6210,7 +6210,7 @@
 	hájenský	hájení	CHANGE: í --> ský M: Hájenka
 	horehronský	Horehroní	CHANGE: í --> ský
 	jalubský	Jalubí	CHANGE: í --> ský
-	jestřebský	Jestřebí	CHANGE: í --> ský L: Jestřebí–N
+	jestřebský	Jestřebí–A	CHANGE: í --> ský L: Jestřebí–N
 	kádijánský	Kádijání	CHANGE: í --> ský
 	kaljánský	Kaljání	CHANGE: í --> ský
 ?	lepenský	lepení	CHANGE: í --> ský
@@ -6495,7 +6495,7 @@
 	jordánský	Jordánsko	CHANGE: sko --> ský
 	judský	Judsko	CHANGE: sko --> ský M: Judea
 	jülišský	Jülišsko	CHANGE: sko --> ský
-	kabardský	Kabardsko	CHANGE: sko --> ský L: Kabardsko–N
+	kabardský	Kabardsko–A	CHANGE: sko --> ský L: Kabardsko–N
 	kalifornský	kalifornsko	CHANGE: sko --> ský Z: Kalifornie
 	karačajevský	Karačajevsko	CHANGE: sko --> ský
 @	karlovarský	karlovarsko	CHANGE: sko --> ský

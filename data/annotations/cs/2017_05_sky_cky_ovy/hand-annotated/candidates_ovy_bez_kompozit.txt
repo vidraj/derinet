@@ -17,7 +17,7 @@
 	basketový	basket	CHANGE: 0 --> ový
 ?	bassový	Bass	CHANGE: 0 --> ový
 	bassreflexový	bassreflex	CHANGE: 0 --> ový
-	beachový	beach	CHANGE: 0 --> ový L: beach–N
+	beachový	beach–A	CHANGE: 0 --> ový L: beach–N
 	benefitový	benefit	CHANGE: 0 --> ový
 	besselový	Bessel	CHANGE: 0 --> ový
 	betalaktamový	betalaktam	CHANGE: 0 --> ový
@@ -44,7 +44,7 @@
 	brutnákový	brutnák	CHANGE: 0 --> ový
 	bublifukový	bublifuk	CHANGE: 0 --> ový
 	cejchový	cejch	CHANGE: 0 --> ový
-	cloudový	cloud	CHANGE: 0 --> ový L: cloud–N
+	cloudový	cloud–A	CHANGE: 0 --> ový L: cloud–N
 ?	cottonový	Cotton	CHANGE: 0 --> ový
 	coworkingový	coworking	CHANGE: 0 --> ový
 ?	crossový	Cross	CHANGE: 0 --> ový
@@ -56,13 +56,13 @@
 	dekretový	dekret	CHANGE: 0 --> ový
 	detruzorový	detruzor	CHANGE: 0 --> ový
 	dewarový	Dewar	CHANGE: 0 --> ový
-	dial-upový	dial-up	CHANGE: 0 --> ový L: dial-up–N
+	dial-upový	dial-up–A	CHANGE: 0 --> ový L: dial-up–N
 	dionýsový	Dionýs	CHANGE: 0 --> ový M: Dionýsos
 	doběhový	doběh	CHANGE: 0 --> ový
 	dobošový	Doboš	CHANGE: 0 --> ový
 	doeový	Doe	CHANGE: 0 --> ový
 	doletový	dolet	CHANGE: 0 --> ový
-	dot-comový	dot-com	CHANGE: 0 --> ový L: dot-com–N
+	dot-comový	dot-com–A	CHANGE: 0 --> ový L: dot-com–N
 	downhillový	Downhill	CHANGE: 0 --> ový
 	doyleový	Doyle	CHANGE: 0 --> ový
 	drobový	drob	CHANGE: 0 --> ový
@@ -80,7 +80,7 @@
 	frgálový	frgál	CHANGE: 0 --> ový
 	frotážový	frotáž	CHANGE: 0 --> ový
 	gavestonový	Gaveston	CHANGE: 0 --> ový
-	gore-texový	gore-tex	CHANGE: 0 --> ový L: gore-tex–N
+	gore-texový	gore-tex–A	CHANGE: 0 --> ový L: gore-tex–N
 	grádlový	Grádl	CHANGE: 0 --> ový
 	halloweenový	Halloween	CHANGE: 0 --> ový
 	harasový	Haras	CHANGE: 0 --> ový
@@ -132,7 +132,7 @@
 	pcháčový	pcháč	CHANGE: 0 --> ový
 	pick-upový	pick-up	CHANGE: 0 --> ový
 	piedmontový	Piedmont	CHANGE: 0 --> ový
-	pin-upový	pin-up	CHANGE: 0 --> ový L: pin-up–N
+	pin-upový	pin-up–A	CHANGE: 0 --> ový L: pin-up–N
 	push-upový	push-up	CHANGE: 0 --> ový
 	ratanový	ratan	CHANGE: 0 --> ový
 	redisový	Redis	CHANGE: 0 --> ový
@@ -233,7 +233,7 @@
 	tallový	Talla	CHANGE: a --> ový
 	talmový	Talma	CHANGE: a --> ový
 	talový	tala	CHANGE: a --> ový
-	tempurový	tempura	CHANGE: a --> ový L: tempura–N
+	tempurový	tempura–A	CHANGE: a --> ový L: tempura–N
 	treponemový	Treponema	CHANGE: a --> ový
 	třetinový	Třetina	CHANGE: a --> ový Z: třetina
 	valerový	Valera	CHANGE: a --> ový
@@ -403,7 +403,7 @@
 	tempový	tempo	CHANGE: o --> ový
 	tílkový	tílko	CHANGE: o --> ový
 	tonkový	Tonko	CHANGE: o --> ový
-	veselový	veselo	CHANGE: o --> ový M: veselí
+	veselový	veselo–D	CHANGE: o --> ový M: veselí
 	víčkový	víčko	CHANGE: o --> ový
 	vínový	víno	CHANGE: o --> ový
 	vízový	vízo	CHANGE: o --> ový Z: vízum

@@ -48,7 +48,7 @@ chmelitel	chmelit	(C) NO PARENT BEFORE
 chrlitel	chrlit	(C) NO PARENT BEFORE
 identifikovatel	identifikovat	(C) NO PARENT BEFORE
 jednotitel	jednotit	(C) NO PARENT BEFORE
-@	jetel	jet	(C) NO PARENT BEFORE
+@	jetel	jet–N	(C) NO PARENT BEFORE
 jímatel	jímat	(C) NO PARENT BEFORE
 jitřitel	jitřit	(C) NO PARENT BEFORE
 klamatel	klamat	(C) NO PARENT BEFORE
@@ -106,7 +106,7 @@ obklopovatel	obklopovat	(C) NO PARENT BEFORE
 oblažitel	oblažit	(C) NO PARENT BEFORE
 oblbovatel	oblbovat	(C) NO PARENT BEFORE
 oblibovatel	oblibovat	(C) NO PARENT BEFORE
-@	obratel	obrat	(C) NO PARENT BEFORE
+@	obratel	obrat–N	(C) NO PARENT BEFORE
 obroditel	obrodit	(C) NO PARENT BEFORE
 obrozovatel	obrozovat	(C) NO PARENT BEFORE
 obrušovatel	obrušovat	(C) NO PARENT BEFORE

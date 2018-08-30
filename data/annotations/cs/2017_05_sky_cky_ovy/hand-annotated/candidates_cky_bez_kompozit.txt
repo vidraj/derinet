@@ -71,7 +71,7 @@
 	diopsidický	diopsid	CHANGE: 0 --> ický
 	disulfidický	disulfid	CHANGE: 0 --> ický
 	diterpenický	diterpen	CHANGE: 0 --> ický
-	dolomitický	dolomit	CHANGE: 0 --> ický Z: Dolomity
+	dolomitický	dolomit–N	CHANGE: 0 --> ický Z: Dolomity
 ?	dopický	Dop	CHANGE: 0 --> ický
 	elastomerický	elastomer	CHANGE: 0 --> ický
 	elektrolytický	elektrolyt	CHANGE: 0 --> ický
@@ -477,7 +477,7 @@
 	bludovický	Bludovice	CHANGE: ce --> cký
 	bobnický	Bobnice	CHANGE: ce --> cký
 	bohatický	Bohatice	CHANGE: ce --> cký
-	bohdalický	Bohdalice	CHANGE: ce --> cký L: Bohdalice–N
+	bohdalický	Bohdalice–A	CHANGE: ce --> cký L: Bohdalice–N
 	bohnický	Bohnice	CHANGE: ce --> cký
 	bohučovický	Bohučovice	CHANGE: ce --> cký
 	bohumilický	Bohumilice	CHANGE: ce --> cký
@@ -1940,14 +1940,14 @@
 	zálický	zálik	CHANGE: k --> cký
 	balzamický	balzamiko	CHANGE: ko --> cký
 	harcký	Harko	CHANGE: ko --> cký
-	hlubocký	hluboko	CHANGE: ko --> cký Z: Hluboká
+	hlubocký	hluboko–D	CHANGE: ko --> cký Z: Hluboká
 	lycký	Lyko	CHANGE: ko --> cký
 	marocký	Maroko	CHANGE: ko --> cký
 	mexický	Mexiko	CHANGE: ko --> cký
 	monacký	Monako	CHANGE: ko --> cký
 	orinocký	Orinoko	CHANGE: ko --> cký
 	portorický	portoriko	CHANGE: ko --> cký Z: Portoriko
-	vysocký	vysoko	CHANGE: ko --> cký Z: Vysoká
+	vysocký	vysoko–D	CHANGE: ko --> cký Z: Vysoká
 	analgetický	analgetikum	CHANGE: kum --> cký
 	anestetický	anestetikum	CHANGE: kum --> cký
 	antipyretický	antipyretikum	CHANGE: kum --> cký

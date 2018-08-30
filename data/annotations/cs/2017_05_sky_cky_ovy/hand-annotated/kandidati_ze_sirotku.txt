@@ -62,7 +62,7 @@ N	posuňkový	posuněk	CHANGE: něk --> ňkový
 	pětisedadlový	pětisedadlo	CHANGE: o --> ový
 N	sandrový	Sandro	CHANGE: o --> ový
 	sedmikilový	sedmikilo	CHANGE: o --> ový
-N	šedový	šedo	CHANGE: o --> ový L:šedo–N
+N	šedový	šedo–D	CHANGE: o --> ový L:šedo–N
 	šestikolový	šestikolo	CHANGE: o --> ový
 	trojkolový	trojkolo	CHANGE: o --> ový
 	tříjádrový	tříjádro	CHANGE: o --> ový
@@ -1412,87 +1412,87 @@ N	propionový		UNRESOLVED  A:propion
 	proskupinový		UNRESOLVED
 N	prothesový		UNRESOLVED  A:prothesa
 	proziskový		UNRESOLVED
-	předalbový		UNRESOLVED
-	předaprílový		UNRESOLVED
-	předbalíčkový		UNRESOLVED
-	předbankrotový		UNRESOLVED
-	předbarážový		UNRESOLVED
-	předbouřkový		UNRESOLVED
-	předbrankový		UNRESOLVED
-	předbřeznový		UNRESOLVED
-	předdožínkový		UNRESOLVED
-	předdůchodový		UNRESOLVED
-	předdušičkový		UNRESOLVED
-	předexilový		UNRESOLVED
-	předežňový		UNRESOLVED
-	předfašankový		UNRESOLVED
-	předhodový		UNRESOLVED
-	předinfarktový		UNRESOLVED
-	předjazykový		UNRESOLVED
-	předkapitálový		UNRESOLVED
-	předkolapsový		UNRESOLVED
-	předkongresový		UNRESOLVED
-	předkrizový		UNRESOLVED
-	předlednový		UNRESOLVED
-	předledovcový		UNRESOLVED
-	předledový		UNRESOLVED
-	předletový		UNRESOLVED
-	předligový		UNRESOLVED
-	předmajálesový		UNRESOLVED
-	předmájový		UNRESOLVED
-	předmobilový		UNRESOLVED
-	předmonzunový		UNRESOLVED
-	přednádorový		UNRESOLVED
-	přednárazový		UNRESOLVED
-	předněkomorový		UNRESOLVED
-	předpádový		UNRESOLVED
-	předpočítačový		UNRESOLVED
-	předpohárový		UNRESOLVED
-	předpostelový		UNRESOLVED
-	předpotratový		UNRESOLVED
-	předpouťový		UNRESOLVED
-	předpovodňový		UNRESOLVED
-	předprahový		UNRESOLVED
-	předprázninový		UNRESOLVED
-	předprimárkový		UNRESOLVED
-	předprůmyslový		UNRESOLVED
-	předpřevratový		UNRESOLVED
-	předpříletový		UNRESOLVED
-	předpučový		UNRESOLVED
-	předrakovinový		UNRESOLVED
-	předroznáškový		UNRESOLVED
-	předrozpadový		UNRESOLVED
-	předrozpočtový		UNRESOLVED
-	předrozvodový		UNRESOLVED
-	předrůstový		UNRESOLVED
-	předříjnový		UNRESOLVED
-	předsametový		UNRESOLVED
-	předsériový		UNRESOLVED
-	předseťový		UNRESOLVED  ###(předseťový kompaktor - upravuje půdu před setím)###
-	předsjezdový		UNRESOLVED
-	předsklizňový		UNRESOLVED
-	předsletový		UNRESOLVED
-	předsrpnový		UNRESOLVED
-	předstonkový		UNRESOLVED
-	předsummitový		UNRESOLVED
-	předškolkový		UNRESOLVED
+N	předalbový		UNRESOLVED
+N	předaprílový		UNRESOLVED
+N	předbalíčkový		UNRESOLVED
+N	předbankrotový		UNRESOLVED
+N	předbarážový		UNRESOLVED
+N	předbouřkový		UNRESOLVED
+N	předbrankový		UNRESOLVED
+N	předbřeznový		UNRESOLVED
+N	předdožínkový		UNRESOLVED
+N	předdůchodový		UNRESOLVED
+N	předdušičkový		UNRESOLVED
+N	předexilový		UNRESOLVED
+N	předežňový		UNRESOLVED
+N	předfašankový		UNRESOLVED
+N	předhodový		UNRESOLVED
+N	předinfarktový		UNRESOLVED
+N	předjazykový		UNRESOLVED
+N	předkapitálový		UNRESOLVED
+N	předkolapsový		UNRESOLVED
+N	předkongresový		UNRESOLVED
+N	předkrizový		UNRESOLVED
+N	předlednový		UNRESOLVED
+N	předledovcový		UNRESOLVED
+N	předledový		UNRESOLVED
+N	předletový		UNRESOLVED
+N	předligový		UNRESOLVED
+N	předmajálesový		UNRESOLVED
+N	předmájový		UNRESOLVED
+N	předmobilový		UNRESOLVED
+N	předmonzunový		UNRESOLVED
+N	přednádorový		UNRESOLVED
+N	přednárazový		UNRESOLVED
+N	předněkomorový		UNRESOLVED
+N	předpádový		UNRESOLVED
+N	předpočítačový		UNRESOLVED
+N	předpohárový		UNRESOLVED
+N	předpostelový		UNRESOLVED
+N	předpotratový		UNRESOLVED
+N	předpouťový		UNRESOLVED
+N	předpovodňový		UNRESOLVED
+N	předprahový		UNRESOLVED
+N	předprázninový		UNRESOLVED
+N	předprimárkový		UNRESOLVED
+N	předprůmyslový		UNRESOLVED
+N	předpřevratový		UNRESOLVED
+N	předpříletový		UNRESOLVED
+N	předpučový		UNRESOLVED
+N	předrakovinový		UNRESOLVED
+N	předroznáškový		UNRESOLVED
+N	předrozpadový		UNRESOLVED
+N	předrozpočtový		UNRESOLVED
+N	předrozvodový		UNRESOLVED
+N	předrůstový		UNRESOLVED
+N	předříjnový		UNRESOLVED
+N	předsametový		UNRESOLVED
+N	předsériový		UNRESOLVED
+N	předseťový		UNRESOLVED  ###(předseťový kompaktor - upravuje půdu před setím)###
+N	předsjezdový		UNRESOLVED
+N	předsklizňový		UNRESOLVED
+N	předsletový		UNRESOLVED
+N	předsrpnový		UNRESOLVED
+N	předstonkový		UNRESOLVED
+N	předsummitový		UNRESOLVED
+N	předškolkový		UNRESOLVED
 ?	předtermínový		UNRESOLVED
-	předtréninkový		UNRESOLVED
-	předturnajový		UNRESOLVED
-	předúnorový		UNRESOLVED
-	předúrazový		UNRESOLVED
-	předvíkendový		UNRESOLVED
-	předvýtěrový		UNRESOLVED
-	předvývojový		UNRESOLVED
-	předvýznakový		UNRESOLVED
-	předvzletový		UNRESOLVED
-	předvztahový		UNRESOLVED
+N	předtréninkový		UNRESOLVED
+N	předturnajový		UNRESOLVED
+N	předúnorový		UNRESOLVED
+N	předúrazový		UNRESOLVED
+N	předvíkendový		UNRESOLVED
+N	předvýtěrový		UNRESOLVED
+N	předvývojový		UNRESOLVED
+N	předvýznakový		UNRESOLVED
+N	předvzletový		UNRESOLVED
+N	předvztahový		UNRESOLVED
 ?	předxtový		UNRESOLVED
-	předzáchvatový		UNRESOLVED
-	předzákazový		UNRESOLVED
-	předzápisový		UNRESOLVED
-	předzvukový		UNRESOLVED
-	předžňový		UNRESOLVED
+N	předzáchvatový		UNRESOLVED
+N	předzákazový		UNRESOLVED
+N	předzápisový		UNRESOLVED
+N	předzvukový		UNRESOLVED
+N	předžňový		UNRESOLVED
 	půlgramový		UNRESOLVED
 	půlkulový		UNRESOLVED
 	půlmetrákový		UNRESOLVED
@@ -2401,55 +2401,55 @@ N	pozemanovský		UNRESOLVED
 N	pozemský		UNRESOLVED
 N	pozzuolský		UNRESOLVED  A:Pozzuoli
 	prebakalářský		UNRESOLVED
-	předalpský		UNRESOLVED
-	předárijský		UNRESOLVED
-	předbabylonský		UNRESOLVED
-	předbachovský		UNRESOLVED
-	předbakalářský		UNRESOLVED
-	předbaťovský		UNRESOLVED
-	předbělohorský		UNRESOLVED
-	předdevonský		UNRESOLVED
+N	předalpský		UNRESOLVED
+N	předárijský		UNRESOLVED
+N	předbabylonský		UNRESOLVED
+N	předbachovský		UNRESOLVED
+N	předbakalářský		UNRESOLVED
+N	předbaťovský		UNRESOLVED
+N	předbělohorský		UNRESOLVED
+N	předdevonský		UNRESOLVED
 N	predělský		UNRESOLVED A:Preděl
-	předevropský		UNRESOLVED
-	předfarmářský		UNRESOLVED
-	předfrankovský		UNRESOLVED
-	předharappský		UNRESOLVED
-	předhelénský		UNRESOLVED
-	předhimálajský		UNRESOLVED
-	předhomérovský		UNRESOLVED
-	předhorský		UNRESOLVED
-	předhusitský		UNRESOLVED
-	předislámský		UNRESOLVED
-	předjosefínský		UNRESOLVED
-	předkarolínský		UNRESOLVED
-	předkarpatský		UNRESOLVED
-	předkeltský		UNRESOLVED
-	předkosmovský		UNRESOLVED
-	předkřesťanský		UNRESOLVED
-	předlékařský		UNRESOLVED
-	předlisabonský		UNRESOLVED
-	předmanželský		UNRESOLVED
-	předmartinský		UNRESOLVED
-	předmaurjský		UNRESOLVED
-	předmayský		UNRESOLVED
-	předmikulášský		UNRESOLVED
-	předmistrovský		UNRESOLVED
-	předmnichovský		UNRESOLVED
+N	předevropský		UNRESOLVED
+N	předfarmářský		UNRESOLVED
+N	předfrankovský		UNRESOLVED
+N	předharappský		UNRESOLVED
+N	předhelénský		UNRESOLVED
+N	předhimálajský		UNRESOLVED
+N	předhomérovský		UNRESOLVED
+N	předhorský		UNRESOLVED
+N	předhusitský		UNRESOLVED
+N	předislámský		UNRESOLVED
+N	předjosefínský		UNRESOLVED
+N	předkarolínský		UNRESOLVED
+N	předkarpatský		UNRESOLVED
+N	předkeltský		UNRESOLVED
+N	předkosmovský		UNRESOLVED
+N	předkřesťanský		UNRESOLVED
+N	předlékařský		UNRESOLVED
+N	předlisabonský		UNRESOLVED
+N	předmanželský		UNRESOLVED
+N	předmartinský		UNRESOLVED
+N	předmaurjský		UNRESOLVED
+N	předmayský		UNRESOLVED
+N	předmikulášský		UNRESOLVED
+N	předmistrovský		UNRESOLVED
+N	předmnichovský		UNRESOLVED
 N	přednostenský		UNRESOLVED A:přednosta
-	předpěstounský		UNRESOLVED
-	předpředloňský		UNRESOLVED
-	předřímský		UNRESOLVED
-	předrománský		UNRESOLVED
-	předsarajevský		UNRESOLVED
-	předškolský		UNRESOLVED
-	předslovanský		UNRESOLVED
-	předsóánský		UNRESOLVED
-	předsovětský		UNRESOLVED
-	předšpanělský		UNRESOLVED
-	předstalinský		UNRESOLVED
-	předtkalcovský		UNRESOLVED
-	předverdiovský		UNRESOLVED
-	předvojenský		UNRESOLVED
+N	předpěstounský		UNRESOLVED
+N	předpředloňský		UNRESOLVED
+N	předřímský		UNRESOLVED
+N	předrománský		UNRESOLVED
+N	předsarajevský		UNRESOLVED
+N	předškolský		UNRESOLVED
+N	předslovanský		UNRESOLVED
+N	předsóánský		UNRESOLVED
+N	předsovětský		UNRESOLVED
+N	předšpanělský		UNRESOLVED
+N	předstalinský		UNRESOLVED
+N	předtkalcovský		UNRESOLVED
+N	předverdiovský		UNRESOLVED
+N	předvojenský		UNRESOLVED
 	prekambrijský		UNRESOLVED
 N	prenzlavský		UNRESOLVED A:Prenzlau
 	preobraženský		UNRESOLVED
@@ -2660,7 +2660,7 @@ N	poštmistrovský	poštmistr	CHANGE: 0 --> ovský
 N	potěmkinovský	Potěmkin	CHANGE: 0 --> ovský
 N	potterovský	Potter	CHANGE: 0 --> ovský
 N	poundovský	pound	CHANGE: 0 --> ovský
-	předžákovský	předžák	CHANGE: 0 --> ovský
+N	předžákovský	předžák	CHANGE: 0 --> ovský
 N	preislerovský	Preisler	CHANGE: 0 --> ovský
 N	preisnerovský	Preisner	CHANGE: 0 --> ovský
 N	presleyovský	Presley	CHANGE: 0 --> ovský
@@ -2856,9 +2856,9 @@ N	podřipský	Podřipsko	CHANGE: sko --> ský
 N	podunajský	Podunajsko	CHANGE: sko --> ský
 N	polenský	Polensko	CHANGE: sko --> ský
 N	poličský	Poličsko	CHANGE: sko --> ský A:Polička
-N	porýnský	Porýnsko	CHANGE: sko --> ský L:Porýnsko–N
+N	porýnský	Porýnsko–A	CHANGE: sko --> ský L:Porýnsko–N
 N	posázavský	Posázavsko	CHANGE: sko --> ský
-	předlitavský	Předlitavsko	CHANGE: sko --> ský
+N	předlitavský	Předlitavsko	CHANGE: sko --> ský
 N	předloňský	předloňsko	CHANGE: sko --> ský A:předloni
 	provensálský	provensálsko	CHANGE: sko --> ský A:Provence
 N	sedmihradský	Sedmihradsko	CHANGE: sko --> ský
