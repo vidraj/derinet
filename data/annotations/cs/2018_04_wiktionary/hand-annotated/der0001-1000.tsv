@@ -603,11 +603,11 @@
 	úřad–N	úřada–N						
 	Václav–N	Václava–N	*					
 	hadr–N	hadra–N	*					
-	Vladislav–N–Vladislav_;Y	Vladislava–N	*					
-	Boleslav–N–Boleslav-1_;Y	Boleslava–N	*					
-	Miloslav–N	Miloslava–N	*					
+	Vladislav–N–Vladislav_;Y	Vladislava–N	%					
+	Boleslav–N–Boleslav-1_;Y	Boleslava–N	%					
+	Miloslav–N	Miloslava–N	%					
 	Roman–N	Romana–N	*					
-	Vladimír–N	Vladimíra–N	*					
+	Vladimír–N	Vladimíra–N	%					
 	Dominik–N	Dominika–N–Dominika-2_;Y	*					
 	Martin–N–Martin-1_;Y	Martina–N	*					
 	způsob–N	způsoba–N						
@@ -617,16 +617,16 @@
 	bas–N	basa–N	*					
 	magistr–N	magistra–N	*					
 	karamel–N	karamela–N						
-	Miroslav–N	Miroslava–N	*					
+	Miroslav–N	Miroslava–N						
 	Dan–N	Dana–N	*					
 	Šon–N	Šona–N	*					
-	Stanislav–N	Stanislava–N	*					
+	Stanislav–N	Stanislava–N						
 	Kamil–N	Kamila–N	*					
-	Věnceslav–N	Věnceslava–N	*					
+	Věnceslav–N	Věnceslava–N	%					
 	Ivan–N	Ivana–N	*					
 	Denis–N	Denisa–N	*					
 	Džamil–N	Džamila–N	*					
-	Drahoslav–N	Drahoslava–N	*					
+	Drahoslav–N	Drahoslava–N						
 	markýz–N	markýza–N	*					
 								
 	vandrovat–V	vandr–N	*					
