@@ -8,7 +8,7 @@
 	aldehydický	aldehyd	CHANGE: 0 --> ický
 	algebraický	algebra	CHANGE: 0 --> ický
 	alkanický	alkan	CHANGE: 0 --> ický
-@	alkoholometrický	alkoholometr	CHANGE: 0 --> ický
+	alkoholometrický	alkoholometr	CHANGE: 0 --> ický
 	americký	Amer	CHANGE: 0 --> ický M: Amerika
 	amfolytický	amfolyt	CHANGE: 0 --> ický
 	anaerobický	anaerob	CHANGE: 0 --> ický
@@ -282,7 +282,7 @@
 	mladecký	Mlada	CHANGE: a --> ecký Z: Mladecko
 	olivecký	oliva	CHANGE: a --> ecký
 	pečecký	Peča	CHANGE: a --> ecký Z: Pečky
-?		proturecký	Protura	CHANGE: a --> ecký
+?	proturecký	Protura	CHANGE: a --> ecký
 	skalecký	Skala	CHANGE: a --> ecký Z: Skalka
 	slabecký	Slaba	CHANGE: a --> ecký Z: Slabce
 	sobotecký	sobota	CHANGE: a --> ecký Z: Sobotka
@@ -477,7 +477,7 @@
 	bludovický	Bludovice	CHANGE: ce --> cký
 	bobnický	Bobnice	CHANGE: ce --> cký
 	bohatický	Bohatice	CHANGE: ce --> cký
-	bohdalický	Bohdalice	CHANGE: ce --> cký
+	bohdalický	Bohdalice	CHANGE: ce --> cký L: Bohdalice–N
 	bohnický	Bohnice	CHANGE: ce --> cký
 	bohučovický	Bohučovice	CHANGE: ce --> cký
 	bohumilický	Bohumilice	CHANGE: ce --> cký
@@ -742,7 +742,7 @@
 	chlebovický	Chlebovice	CHANGE: ce --> cký
 	chlístovický	Chlístovice	CHANGE: ce --> cký
 ?	chmelnický	chmelnice	CHANGE: ce --> cký Z: Chmelnice
-	chocovický	Chocovice	CHANGE: ce --> cký 
+	chocovický	Chocovice	CHANGE: ce --> cký
 	chodovický	Chodovice	CHANGE: ce --> cký
 	chomutický	Chomutice	CHANGE: ce --> cký
 	chornický	Chornice	CHANGE: ce --> cký
@@ -1353,7 +1353,7 @@
 	tušimický	Tušimice	CHANGE: ce --> cký
 	tvorovický	Tvorovice	CHANGE: ce --> cký
 	týnický	Týnice	CHANGE: ce --> cký
-	účetnický	účetnice	CHANGE: ce --> cký Z: účetní
+	účetnický	účetnice	CHANGE: ce --> cký Z: účetní–N
 	údernický	údernice	CHANGE: ce --> cký Z: úderník
 	údlický	Údlice	CHANGE: ce --> cký
 	údrnický	Údrnice	CHANGE: ce --> cký
@@ -1432,7 +1432,7 @@
 	vrutický	Vrutice	CHANGE: ce --> cký
 	vřeskovický	Vřeskovice	CHANGE: ce --> cký
 	vřesovický	Vřesovice	CHANGE: ce --> cký
-	výčepnický	výčepnice	CHANGE: ce --> cký Z: výčepní
+	výčepnický	výčepnice	CHANGE: ce --> cký Z: výčepní–N
 ?	výměnický	výměnice	CHANGE: ce --> cký
 	výprachtický	Výprachtice	CHANGE: ce --> cký
 	výrovický	Výrovice	CHANGE: ce --> cký
@@ -1558,7 +1558,7 @@
 	džihadistický	džihadismus	CHANGE: ismus --> istický
 	džihádistický	džihádismus	CHANGE: ismus --> istický
 	džinistický	džinismus	CHANGE: ismus --> istický
-	ekologistický	ekologismus	CHANGE: ismus --> istický
+	ekologistický	ekologismus	CHANGE: ismus --> istický L: ekologista
 	empiristický	empirismus	CHANGE: ismus --> istický
 	etatistický	etatismus	CHANGE: ismus --> istický
 	eufemistický	eufemismus	CHANGE: ismus --> istický
@@ -1627,7 +1627,7 @@
 	autonomistický	autonomizmus	CHANGE: izmus --> istický
 	averroistický	averroizmus	CHANGE: izmus --> istický
 	bahaistický	bahaizmus	CHANGE: izmus --> istický
-	bilingvistický	bilingvizmus	CHANGE: izmus --> istický
+	bilingvistický	bilingvizmus	CHANGE: izmus --> istický L: bilingvista
 	brutalistický	brutalizmus	CHANGE: izmus --> istický
 	děkabristický	děkabrizmus	CHANGE: izmus --> istický
 	donatistický	donatizmus	CHANGE: izmus --> istický

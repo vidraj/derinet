@@ -256,7 +256,7 @@ přeměňovatel	přeměňovat	(C) NO PARENT BEFORE
 přemísťovatel	přemísťovat	(C) NO PARENT BEFORE
 přemnožitel	přemnožit	(C) NO PARENT BEFORE
 přenositel	přenosit	(C) NO PARENT BEFORE
-přeposílatel	přeposílat	(C) NO PARENT BEFORE
+přeposílatel	přeposílat–V	(C) NO PARENT BEFORE
 přerozdělovatel	přerozdělovat	(C) NO PARENT BEFORE
 přerušovatel	přerušovat	(C) NO PARENT BEFORE
 přeskupovatel	přeskupovat	(C) NO PARENT BEFORE

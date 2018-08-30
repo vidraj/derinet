@@ -1,2887 +1,2887 @@
-N biometanový	biometan	CHANGE: 0 --> ový
-N biotopový	biotop	CHANGE: 0 --> ový
-N nadhledový	nadhled	CHANGE: 0 --> ový
-pětivlasový	Pětivlas	CHANGE: 0 --> ový
-N poděbradový	Poděbrad	CHANGE: 0 --> ový  A:Poděbrady
-N polaroidový	Polaroid	CHANGE: 0 --> ový
-N pop-upový	pop-up	CHANGE: 0 --> ový
-N potěmkinový	Potěmkin	CHANGE: 0 --> ový
-N subprostorový	subprostor	CHANGE: 0 --> ový
-N trinitronový	Trinitron	CHANGE: 0 --> ový
-dvouspojkový	dvouspojka	CHANGE: a --> ový
-N podestýlkový	podestýlka	CHANGE: a --> ový
-N proteázový	proteáza	CHANGE: a --> ový
-N předkomůrkový	předkomůrka	CHANGE: a --> ový
-šestitunový	šestituna	CHANGE: a --> ový
-pětimiliardový	pětimiliarda	CHANGE: a --> ový
-jednoloďový	jednolodí	CHANGE: dí --> ďový
-N poschoďový	poschodí	CHANGE: dí --> ďový
-N pozaďový	pozadí	CHANGE: dí --> ďový
-dvouporcový	dvouporce	CHANGE: e --> ový
-pětimílový	pětimíle	CHANGE: e --> ový
-? šestipencový	šestipence	CHANGE: e --> ový
-N trojicový	trojice	CHANGE: e --> ový
-N polníčkový	polníček	CHANGE: ek --> kový
-N nadúrovňový	nadúroveň	CHANGE: eň --> ňový
-N podúrovňový	podúroveň	CHANGE: eň --> ňový
-N pochodňový	pochodeň	CHANGE: eň --> ňový
-N povodňový	povodeň	CHANGE: eň --> ňový
-bezčasový	bezčasí	CHANGE: í --> ový
-dvojveršový	dvojverší	CHANGE: í --> ový
-dvousálový	dvousálí	CHANGE: í --> ový
-dvousloupový	dvousloupí	CHANGE: í --> ový
-dvoustátový	dvoustátí	CHANGE: í --> ový
-dvouveršový	dvouverší	CHANGE: í --> ový
-jednoveršový	jednoverší	CHANGE: í --> ový
-osmitaktový	osmitaktí	CHANGE: í --> ový
-osmiveršový	osmiverší	CHANGE: í --> ový
-pětiveršový	pětiverší	CHANGE: í --> ový
-šestiveršový	šestiverší	CHANGE: í --> ový
-tříveršový	tříverší	CHANGE: í --> ový
-N osmiový	osmium	CHANGE: ium --> iový
-N podiový	podium	CHANGE: ium --> iový
-N proscéniový	proscénium	CHANGE: ium --> iový
-N tritiový	tritium	CHANGE: ium --> iový
-N vanadiový	vanadium	CHANGE: ium --> iový
-N posuňkový	posuněk	CHANGE: něk --> ňkový
-desetieurový	desetieuro	CHANGE: o --> ový
-desetikolový	desetikolo	CHANGE: o --> ový
-dvanáctikolový	dvanáctikolo	CHANGE: o --> ový
-dvoujádrový	dvoujádro	CHANGE: o --> ový
-dvoukilový	dvoukilo	CHANGE: o --> ový
-dvoukolový	dvoukolo	CHANGE: o --> ový
-dvoukřeslový	dvoukřeslo	CHANGE: o --> ový
-dvoulanový	dvoulano	CHANGE: o --> ový
-? jednolůžkový	jednolůžko	CHANGE: o --> ový
-osmijádrový	osmijádro	CHANGE: o --> ový
-osmikolečkový	osmikolečko	CHANGE: o --> ový
-padesátieurový	padesátieuro	CHANGE: o --> ový
-pětidekový	pětideko	CHANGE: o --> ový
-pětikolový	pětikolo	CHANGE: o --> ový
-pětiočkový	Pětiočko	CHANGE: o --> ový
-pětisedadlový	pětisedadlo	CHANGE: o --> ový
-N sandrový	Sandro	CHANGE: o --> ový
-sedmikilový	sedmikilo	CHANGE: o --> ový
-?N šedový	šedo	CHANGE: o --> ový
-šestikolový	šestikolo	CHANGE: o --> ový
-trojkolový	trojkolo	CHANGE: o --> ový
-tříjádrový	tříjádro	CHANGE: o --> ový
-tříkolečkový	tříkolečko	CHANGE: o --> ový
-N propasťový	propast	CHANGE: t --> ťový
-? dvojalbový	dvojalbum	CHANGE: um --> ový
-? dvoualbový	dvoualbum	CHANGE: um --> ový
-? pětialbový	pětialbum	CHANGE: um --> ový
-? šestialbový	šestialbum	CHANGE: um --> ový
-? trojalbový	trojalbum	CHANGE: um --> ový
-N pokrutinový	pokrutiny	CHANGE: y --> ový
-N zarděnkový	zarděnky	CHANGE: y --> ový
-bezalkoholový		UNRESOLVED
-bezatomový		UNRESOLVED
-bezazbestový		UNRESOLVED
-bezbarierový		UNRESOLVED
-bezbariérový		UNRESOLVED
-bezblokový		UNRESOLVED
-bezbodový		UNRESOLVED
-bezbonusový		UNRESOLVED
-bezbrankový		UNRESOLVED
-bezbrýlový		UNRESOLVED
-bezbubnový		UNRESOLVED
-bezcementový		UNRESOLVED
-bezčlunkový		UNRESOLVED
-bezdaňový		UNRESOLVED
-bezdějový		UNRESOLVED
-bezdevizový		UNRESOLVED
-bezdisketový		UNRESOLVED
-bezdiskový		UNRESOLVED
-bezdokladový		UNRESOLVED
-bezdoménový		UNRESOLVED
-bezdoplatkový		UNRESOLVED
-bezdoprovodový		UNRESOLVED
-bezdotekový		UNRESOLVED
-bezdotykový		UNRESOLVED
-bezdrogový		UNRESOLVED
-bezdušový		UNRESOLVED
-bezdýmový		UNRESOLVED
-bezéčkový		UNRESOLVED
-bezespárový		UNRESOLVED
-bezespojový		UNRESOLVED
-bezesrážkový		UNRESOLVED
-bezestavový		UNRESOLVED
-bezestupňový		UNRESOLVED
-bezestykový		UNRESOLVED
-bezezbytkový		UNRESOLVED
-bezeztrátový		UNRESOLVED
-bezfalcový		UNRESOLVED
-bezfasetový		UNRESOLVED
-bezfiltrový		UNRESOLVED
-bezformátový		UNRESOLVED
-bezfosfátový		UNRESOLVED
-bezfreonový		UNRESOLVED
-bezftalátový		UNRESOLVED
-bezgólový		UNRESOLVED
-bezhákový		UNRESOLVED
-bezhalogenový		UNRESOLVED
-bezhledáčkový		UNRESOLVED
-bezhodnotový		UNRESOLVED
-bezhonorářový		UNRESOLVED
-bezchlorový		UNRESOLVED
-bezchlórový		UNRESOLVED
-bezchybový		UNRESOLVED
-bezideový		UNRESOLVED
-bezjádrový		UNRESOLVED
-bezjehlový		UNRESOLVED
-bezjezdcový		UNRESOLVED
-bezkabelový		UNRESOLVED
-bezkalhotový		UNRESOLVED
-bezkanálový		UNRESOLVED
-bezkapotový		UNRESOLVED
-bezkartáčový		UNRESOLVED
-bezkazetový		UNRESOLVED
-bezklecový		UNRESOLVED
-bezklíčkový		UNRESOLVED
-bezklíčový		UNRESOLVED
-bezkofeinový		UNRESOLVED
-bezkolejnicový		UNRESOLVED
-bezkolejový		UNRESOLVED
-bezkolkový		UNRESOLVED
-bezkomentářový		UNRESOLVED
-bezkoncový		UNRESOLVED
-bezkontextový		UNRESOLVED
-bezkouřový		UNRESOLVED
-bezkvótový		UNRESOLVED
-bezkýlový		UNRESOLVED
-bezkyslíkový		UNRESOLVED
-bezlampový		UNRESOLVED
-bezlepkový		UNRESOLVED
-bezletový		UNRESOLVED
-bezlopatkový		UNRESOLVED
-bezmindrákový		UNRESOLVED
-bezmodemový		UNRESOLVED
-bezmodový		UNRESOLVED
-bezmotorový		UNRESOLVED
-bezmyšlenkový		UNRESOLVED
-beznábojnicový		UNRESOLVED
-beznákladový		UNRESOLVED
-beznapěťový		UNRESOLVED
-beznehodový		UNRESOLVED
-bezobratlový		UNRESOLVED
-bezobrázkový		UNRESOLVED
-bezodpadkový		UNRESOLVED
-bezodpadový		UNRESOLVED
-bezodrazový		UNRESOLVED
-bezodtokový		UNRESOLVED
-bezolejový		UNRESOLVED
-bezoplachový		UNRESOLVED
-bezosádkový		UNRESOLVED
-N bezovníkový		UNRESOLVED A:bezovník
-bezpapírový		UNRESOLVED
-bezpaticový		UNRESOLVED
-bezpatkový		UNRESOLVED
-bezpažbový		UNRESOLVED
-bezpeckový		UNRESOLVED
-bezpedálový		UNRESOLVED
-bezpískový		UNRESOLVED
-bezplamenový		UNRESOLVED
-bezpláštíkový		UNRESOLVED
-bezplavkový		UNRESOLVED
-bezplenkový		UNRESOLVED
-bezpobočkový		UNRESOLVED
-bezpodílový		UNRESOLVED
-bezpodvozkový		UNRESOLVED
-bezpointový		UNRESOLVED
-bezpomlčkový		UNRESOLVED
-bezponorkový		UNRESOLVED
-bezpoplatkový		UNRESOLVED
-bezporuchový		UNRESOLVED
-bezposunový		UNRESOLVED
-bezpozvánkový		UNRESOLVED
-bezprahový		UNRESOLVED
-bezprachový		UNRESOLVED
-bezpražcový		UNRESOLVED
-bezprefixový		UNRESOLVED
-bezproblémový		UNRESOLVED
-bezprogramový		UNRESOLVED
-bezprostorový		UNRESOLVED
-bezprstový		UNRESOLVED
-bezprůvanový		UNRESOLVED
-bezprůvlakový		UNRESOLVED
-bezpředložkový		UNRESOLVED
-bezpředmětový		UNRESOLVED
-bezpředponový		UNRESOLVED
-bezpřehradový		UNRESOLVED
-bezpřepadový		UNRESOLVED
-bezpřestupový		UNRESOLVED
-bezpřevodový		UNRESOLVED
-bezpříplatkový		UNRESOLVED
-bezpříspěvkový		UNRESOLVED
-bezpříznakový		UNRESOLVED
-bezpůltónový		UNRESOLVED
-bezpulzový		UNRESOLVED
-bezpylový		UNRESOLVED
-bezraketový		UNRESOLVED
-bezrámečkový		UNRESOLVED
-bezramínkový		UNRESOLVED
-bezrámový		UNRESOLVED
-bezrázový		UNRESOLVED
-bezrizikový		UNRESOLVED
-bezroštový		UNRESOLVED
-bezrozměrový		UNRESOLVED
-bezrozpočtový		UNRESOLVED
-bezrozporový		UNRESOLVED
-bezrozstřikový		UNRESOLVED
-bezrozumový		UNRESOLVED
-bezsáčkový		UNRESOLVED
-bezsacharidový		UNRESOLVED
-bezsenzorový		UNRESOLVED
-bezservítkový		UNRESOLVED
-bezsíťový		UNRESOLVED
-bezsloupový		UNRESOLVED
-bezsmyčkový		UNRESOLVED
-bezspárový		UNRESOLVED
-bezspojkový		UNRESOLVED
-bezsrážkový		UNRESOLVED
-bezstavový		UNRESOLVED
-bezstehový		UNRESOLVED
-bezstelivový		UNRESOLVED
-bezstopkový		UNRESOLVED
-bezstresový		UNRESOLVED
-bezstupnicový		UNRESOLVED
-bezstupňový		UNRESOLVED
-bezstykový		UNRESOLVED
-bezsvětlíkový		UNRESOLVED
-bezšňůrový		UNRESOLVED
-bezšroubový		UNRESOLVED
-beztlakový		UNRESOLVED
-beztřískový		UNRESOLVED
-beztukový		UNRESOLVED
-beztypový		UNRESOLVED
-bezucpávkový		UNRESOLVED
-bezúčelový		UNRESOLVED
-bezúderový		UNRESOLVED
-bezúdržbový		UNRESOLVED
-bezúchytkový		UNRESOLVED
-bezúchytový		UNRESOLVED
-bezuličkový		UNRESOLVED
-bezúrazový		UNRESOLVED
-bezúvazkový		UNRESOLVED
-bezventilový		UNRESOLVED
-bezvěžový		UNRESOLVED
-bezvíčkový		UNRESOLVED
-bezvirový		UNRESOLVED
-bezvízový		UNRESOLVED
-bezvoskový		UNRESOLVED
-bezvřetenový		UNRESOLVED
-bezvůlový		UNRESOLVED
-bezvýkopový		UNRESOLVED
-bezvýkresový		UNRESOLVED
-bezvýlomový		UNRESOLVED
-bezvýpadkový		UNRESOLVED
-bezvýřezový		UNRESOLVED
-bezvýznamový		UNRESOLVED
-bezvzduchový		UNRESOLVED
-bezzábranový		UNRESOLVED
-bezzákluzový		UNRESOLVED
-bezzápachový		UNRESOLVED
-bezzásadový		UNRESOLVED
-bezzásahový		UNRESOLVED
-bezzátkový		UNRESOLVED
-bezzávadový		UNRESOLVED
-bezzávalový		UNRESOLVED
-bezzávorkový		UNRESOLVED
-bezziskový		UNRESOLVED
-bezznaménkový		UNRESOLVED
-bezzrcátkový		UNRESOLVED
-bezztrátový		UNRESOLVED
-bezživcový		UNRESOLVED
-bezžlučníkový		UNRESOLVED
-béžovobronzový		UNRESOLVED
-béžovofialový		UNRESOLVED
-béžovooranžový		UNRESOLVED
-béžovorůžový		UNRESOLVED
-béžovovínový		UNRESOLVED
-bílobéžový		UNRESOLVED
-bílofialový		UNRESOLVED
-bílokarmínový		UNRESOLVED
-bílonachový		UNRESOLVED
-bílooranžový		UNRESOLVED
-bíloplášťový		UNRESOLVED
-bílorůžový		UNRESOLVED
-N biosový		UNRESOLVED A:bios
-božíhodový		UNRESOLVED
-božítělový		UNRESOLVED
-černobéžový		UNRESOLVED
-černobordový		UNRESOLVED
-černobronzový		UNRESOLVED
-černoděrový		UNRESOLVED
-černofialový		UNRESOLVED
-černofigurový		UNRESOLVED
-černohumorový		UNRESOLVED
-černokronikový		UNRESOLVED
-černolímcový		UNRESOLVED
-černookrový		UNRESOLVED
-černooranžový		UNRESOLVED
-černopurpurový		UNRESOLVED
-černorůžový		UNRESOLVED
-černorybízový		UNRESOLVED
-černotříslový		UNRESOLVED
-černovínový		UNRESOLVED
-českosodový		UNRESOLVED
-čtrnáctibitový		UNRESOLVED
-čtrnáctibodový		UNRESOLVED
-čtrnáctibytový		UNRESOLVED
-čtrnáctigólový		UNRESOLVED
-čtrnáctikilový		UNRESOLVED
-čtrnáctikolový		UNRESOLVED
-N čtvrtinový		UNRESOLVED  A:čtvrtina
-čtvrtkilový		UNRESOLVED
-čtvrtminutový		UNRESOLVED
-čtvrtpalcový		UNRESOLVED
-čtvrtřádkový		UNRESOLVED
-čtvrtstránkový		UNRESOLVED
-čtvrttunový		UNRESOLVED
-desetibitový		UNRESOLVED
-desetibytový		UNRESOLVED
-desetigramový		UNRESOLVED
-desetihodinový		UNRESOLVED
-desetikilový		UNRESOLVED
-desetilibrový		UNRESOLVED
-desetilitrový		UNRESOLVED
-desetilůžkový		UNRESOLVED
-desetipatrový		UNRESOLVED
-desetiproudový		UNRESOLVED
-desetitunový		UNRESOLVED
-devítialbový		UNRESOLVED
-devítiarový		UNRESOLVED
-devítibitový		UNRESOLVED
-devítibodový		UNRESOLVED
-devítibytový		UNRESOLVED
-devítičlánkový		UNRESOLVED
-devítičtvrťový		UNRESOLVED
-devítidélkový		UNRESOLVED
-devítiděrový		UNRESOLVED
-devítidiskový		UNRESOLVED
-devítidlahový		UNRESOLVED
-devítidolarový		UNRESOLVED
-devítietapový		UNRESOLVED
-devítieurový		UNRESOLVED
-devítifázový		UNRESOLVED
-devítigólový		UNRESOLVED
-devítigramový		UNRESOLVED
-devítihodinový		UNRESOLVED
-devítichodový		UNRESOLVED
-devítijádrový		UNRESOLVED
-devítijehlový		UNRESOLVED
-devítikarátový		UNRESOLVED
-devítikilový		UNRESOLVED
-devítikolíkový		UNRESOLVED
-devítikolový		UNRESOLVED
-devítikoňový		UNRESOLVED
-devítikorunový		UNRESOLVED
-devítikošový		UNRESOLVED
-devítikubíkový		UNRESOLVED
-devítikusový		UNRESOLVED
-devítilistový		UNRESOLVED
-devítilopatový		UNRESOLVED
-devítilůžkový		UNRESOLVED
-devítimegový		UNRESOLVED
-devítimílový		UNRESOLVED
-devítiminutový		UNRESOLVED
-devítinulový		UNRESOLVED
-devítioscarový		UNRESOLVED
-devítipalcový		UNRESOLVED
-devítipatrový		UNRESOLVED
-devítipinový		UNRESOLVED
-devítipísňový		UNRESOLVED
-devítipokojový		UNRESOLVED
-devítipólový		UNRESOLVED
-devítiproudový		UNRESOLVED
-devítiprvkový		UNRESOLVED
-devítiřádkový		UNRESOLVED
-devítislotový		UNRESOLVED
-devítistěžňový		UNRESOLVED
-devítistovkový		UNRESOLVED
-devítistupňový		UNRESOLVED
-devítisvazkový		UNRESOLVED
-devítitahový		UNRESOLVED
-devítitisícový		UNRESOLVED
-devítitunový		UNRESOLVED
-devítiúderový		UNRESOLVED
-devítivěžový		UNRESOLVED
-devítivodičový		UNRESOLVED
-devítivoltový		UNRESOLVED
-devítivozový		UNRESOLVED
-devítivývodový		UNRESOLVED
-devítizápasový		UNRESOLVED
-devítiznakový		UNRESOLVED
-devítižilový		UNRESOLVED
-devítižílový		UNRESOLVED
-druholigový		UNRESOLVED
-druhoplánový		UNRESOLVED
-druhosledový		UNRESOLVED
-druhostupňový		UNRESOLVED
-druhovlnový		UNRESOLVED
-dvaapůlkilový		UNRESOLVED
-dvaapůlpalcový		UNRESOLVED
-dvaapůltunový		UNRESOLVED
-dvacetibitový		UNRESOLVED
-dvacetibytový		UNRESOLVED
-dvacetieurový		UNRESOLVED
-dvacetigramový		UNRESOLVED
-dvacetilitrový		UNRESOLVED
-dvacetimetrový		UNRESOLVED
-dvanáctialbový		UNRESOLVED
-dvanáctiarový		UNRESOLVED
-dvanáctibitový		UNRESOLVED
-dvanáctibodový		UNRESOLVED
-dvanáctibytový		UNRESOLVED
-dvanáctigigový		UNRESOLVED
-dvanáctigólový		UNRESOLVED
-dvanáctikilový		UNRESOLVED
-dvanáctikusový		UNRESOLVED
-dvanáctimílový		UNRESOLVED
-N dvanáctinový		UNRESOLVED  A:dvanáctina
-dvanáctipólový		UNRESOLVED
-dvanáctitónový		UNRESOLVED
-dvanáctitunový		UNRESOLVED
-dvanáctivozový		UNRESOLVED
-dvanáctižilový		UNRESOLVED
-dvojbitový		UNRESOLVED
-dvojmanuálový		UNRESOLVED
-dvojmetový		UNRESOLVED
-dvojmetrový		UNRESOLVED
-dvojminutový		UNRESOLVED
-dvouáčkový		UNRESOLVED
-dvouadresový		UNRESOLVED
-dvouakordový		UNRESOLVED
-dvouakrový		UNRESOLVED
-dvouapsidový		UNRESOLVED
-dvouapůlkilový		UNRESOLVED
-dvouapůltunový		UNRESOLVED
-dvouarchový		UNRESOLVED
-dvouarový		UNRESOLVED
-dvouatomový		UNRESOLVED
-dvouatriový		UNRESOLVED
-dvoubalonkový		UNRESOLVED
-dvoubalónkový		UNRESOLVED
-dvoubalonový		UNRESOLVED
-dvoubasový		UNRESOLVED
-dvoubečkový		UNRESOLVED
-dvoubéčkový		UNRESOLVED
-dvoubiliónový		UNRESOLVED
-dvoubitový		UNRESOLVED
-dvoublokový		UNRESOLVED
-dvoubodový		UNRESOLVED
-dvouborový		UNRESOLVED
-dvoubrakový		UNRESOLVED
-dvoubránový		UNRESOLVED
-dvoubříškový		UNRESOLVED
-dvoubřitový		UNRESOLVED
-dvoubřitvový		UNRESOLVED
-dvoububnový		UNRESOLVED
-dvoucifrový		UNRESOLVED
-dvoucoulový		UNRESOLVED
-dvoucyklový		UNRESOLVED
-dvoucylindrový		UNRESOLVED
-dvoučelisťový		UNRESOLVED
-dvoučipový		UNRESOLVED
-dvoučíslicový		UNRESOLVED
-dvoučlánkový		UNRESOLVED
-dvoučtvrťový		UNRESOLVED
-dvoudávkový		UNRESOLVED
-dvoudecový		UNRESOLVED
-dvoudějový		UNRESOLVED
-dvoudélkový		UNRESOLVED
-dvouděrový		UNRESOLVED
-dvoudesetinový		UNRESOLVED
-dvoudesítkový		UNRESOLVED
-dvoudezénový		UNRESOLVED
-dvoudisketový		UNRESOLVED
-dvoudolarový		UNRESOLVED
-? dvoudopadový		UNRESOLVED
-dvoudrážkový		UNRESOLVED
-dvoudruhový		UNRESOLVED
-dvoudutinový		UNRESOLVED
-dvoudveřový		UNRESOLVED
-dvoudvéřový		UNRESOLVED
-dvoudvorcový		UNRESOLVED
-dvouerzetový		UNRESOLVED
-dvouetážový		UNRESOLVED
-dvoufaktorový		UNRESOLVED
-dvoufalcový		UNRESOLVED
-dvoufázový		UNRESOLVED
-dvouformátový		UNRESOLVED
-dvoufotonový		UNRESOLVED
-dvougamový		UNRESOLVED
-dvougigový		UNRESOLVED
-dvougólový		UNRESOLVED
-dvougolový		UNRESOLVED
-dvougramový		UNRESOLVED
-dvouhadicový		UNRESOLVED
-dvouhektarový		UNRESOLVED
-dvouhlavňový		UNRESOLVED
-dvouhmatníkový		UNRESOLVED
-dvouhmotový		UNRESOLVED
-dvouhodnotový		UNRESOLVED
-dvouhororový		UNRESOLVED
-dvouhořákový		UNRESOLVED
-dvouhřídelový		UNRESOLVED
-dvouhvězdicový		UNRESOLVED
-dvouchodový		UNRESOLVED
-dvouchórový		UNRESOLVED
-dvoujamkový		UNRESOLVED
-dvoukajutový		UNRESOLVED
-dvoukamerový		UNRESOLVED
-dvoukarátový		UNRESOLVED
-dvoukariérový		UNRESOLVED
-dvoukazetový		UNRESOLVED
-dvouklapkový		UNRESOLVED
-dvouklíčový		UNRESOLVED
-dvoukloubový		UNRESOLVED
-dvoukohoutkový		UNRESOLVED
-dvoukolečkový		UNRESOLVED
-dvoukolejový		UNRESOLVED
-dvoukolesový		UNRESOLVED
-dvoukolíkový		UNRESOLVED
-dvoukolonový		UNRESOLVED
-dvoukomínový		UNRESOLVED
-dvoukomorový		UNRESOLVED
-dvoukomůrkový		UNRESOLVED
-dvoukoncový		UNRESOLVED
-dvoukopákový		UNRESOLVED
-dvoukošilový		UNRESOLVED
-dvoukošový		UNRESOLVED
-dvoukotlový		UNRESOLVED
-dvoukotoučový		UNRESOLVED
-dvoukrokový		UNRESOLVED
-dvoukruhový		UNRESOLVED
-dvoukřídlový		UNRESOLVED
-dvoukubíkový		UNRESOLVED
-dvoukurtový		UNRESOLVED
-dvoukuželový		UNRESOLVED
-dvoukytarový		UNRESOLVED
-dvoulamelový		UNRESOLVED
-dvoulampový		UNRESOLVED
-dvoulopatkový		UNRESOLVED
-dvouložnicový		UNRESOLVED
-dvoumadlový		UNRESOLVED
-dvoumandátový		UNRESOLVED
-dvoumanuálový		UNRESOLVED
-dvoumarkový		UNRESOLVED
-dvoumegabitový		UNRESOLVED
-dvoumegabytový		UNRESOLVED
-dvoumegový		UNRESOLVED
-dvoumembránový		UNRESOLVED
-dvoumetový		UNRESOLVED
-dvoumetrákový		UNRESOLVED
-dvoumiliardový		UNRESOLVED
-dvoumiliónový		UNRESOLVED
-dvoumílový		UNRESOLVED
-dvoumincový		UNRESOLVED
-dvoumódový		UNRESOLVED
-dvoumonitorový		UNRESOLVED
-dvoumužový		UNRESOLVED
-dvounádobový		UNRESOLVED
-dvounbrankový		UNRESOLVED
-dvounístějový		UNRESOLVED
-dvounormový		UNRESOLVED
-dvounožový		UNRESOLVED
-dvounulový		UNRESOLVED
-dvouobálkový		UNRESOLVED
-dvouobloukový		UNRESOLVED
-dvouocáskový		UNRESOLVED
-dvouočkový		UNRESOLVED
-dvouodrůdový		UNRESOLVED
-dvouodstavcový		UNRESOLVED
-dvouohniskový		UNRESOLVED
-dvouohnišťový		UNRESOLVED
-dvouokapový		UNRESOLVED
-dvouokénkový		UNRESOLVED
-dvouokruhový		UNRESOLVED
-dvouoktávový		UNRESOLVED
-dvouoperandový		UNRESOLVED
-dvouoscarový		UNRESOLVED
-dvouosmičkový		UNRESOLVED
-dvouotáčkový		UNRESOLVED
-dvouotvorový		UNRESOLVED
-dvoupákový		UNRESOLVED
-dvoupalácový		UNRESOLVED
-dvoupalcový		UNRESOLVED
-dvoupaletový		UNRESOLVED
-dvoupalivový		UNRESOLVED
-dvoupalubový		UNRESOLVED
-dvoupánvový		UNRESOLVED
-dvoupaprskový		UNRESOLVED
-dvoupásmový		UNRESOLVED
-dvoupatrový		UNRESOLVED
-dvoupedálový		UNRESOLVED
-dvoupérový		UNRESOLVED
-dvoupětinový		UNRESOLVED
-dvoupilířový		UNRESOLVED
-dvoupísmenkový		UNRESOLVED
-dvoupísmenový		UNRESOLVED
-dvoupísničkový		UNRESOLVED
-dvoupísňový		UNRESOLVED
-dvoupístový		UNRESOLVED
-dvouplátkový		UNRESOLVED
-dvouplísňový		UNRESOLVED
-dvouploténkový		UNRESOLVED
-dvouplotýnkový		UNRESOLVED
-dvouplovákový		UNRESOLVED
-dvoupohonový		UNRESOLVED
-dvoupolohový		UNRESOLVED
-dvoupólový		UNRESOLVED
-dvoupoložkový		UNRESOLVED
-dvoupopruhový		UNRESOLVED
-dvouposchoďový		UNRESOLVED
-dvouprocesový		UNRESOLVED
-dvouprostorový		UNRESOLVED
-dvouproudový		UNRESOLVED
-dvouproužkový		UNRESOLVED
-dvouprstencový		UNRESOLVED
-dvouprstový		UNRESOLVED
-dvouprůchodový		UNRESOLVED
-dvouprvkový		UNRESOLVED
-dvoupředmětový		UNRESOLVED
-dvoupříjmový		UNRESOLVED
-dvoupůlový		UNRESOLVED
-dvouradlicový		UNRESOLVED
-dvourámkový		UNRESOLVED
-dvouranový		UNRESOLVED
-dvourasový		UNRESOLVED
-dvourázový		UNRESOLVED
-dvouregistrový		UNRESOLVED
-dvourežimový		UNRESOLVED
-dvourmutový		UNRESOLVED
-dvourotorový		UNRESOLVED
-dvourozsahový		UNRESOLVED
-dvouručičkový		UNRESOLVED
-dvourupiový		UNRESOLVED
-dvousazbový		UNRESOLVED
-dvousběrnicový		UNRESOLVED
-dvousborový		UNRESOLVED
-dvousedmičkový		UNRESOLVED
-dvousegmentový		UNRESOLVED
-dvousekerkový		UNRESOLVED
-dvousekundový		UNRESOLVED
-dvousemestrový		UNRESOLVED
-dvousetbodový		UNRESOLVED
-dvousetdílkový		UNRESOLVED
-dvousetkolový		UNRESOLVED
-dvousetkoňový		UNRESOLVED
-dvousetkusový		UNRESOLVED
-dvousetlůžkový		UNRESOLVED
-dvousetmarkový		UNRESOLVED
-dvousetmegový		UNRESOLVED
-dvousetmílový		UNRESOLVED
-dvousetobodový		UNRESOLVED
-dvousetpatrový		UNRESOLVED
-dvousetwattový		UNRESOLVED
-dvousilový		UNRESOLVED
-dvousimkový		UNRESOLVED
-dvouskladbový		UNRESOLVED
-dvouskupinový		UNRESOLVED
-dvouslabikový		UNRESOLVED
-dvousladový		UNRESOLVED
-dvousledový		UNRESOLVED
-dvouslokový		UNRESOLVED
-dvouslotový		UNRESOLVED
-dvousložkový		UNRESOLVED
-dvousnímkový		UNRESOLVED
-dvousoškový		UNRESOLVED
-dvousouborový		UNRESOLVED
-dvoustanicový		UNRESOLVED
-dvoustavový		UNRESOLVED
-dvoustěžňový		UNRESOLVED
-dvoustojanový		UNRESOLVED
-dvoustolicový		UNRESOLVED
-dvoustreamový		UNRESOLVED
-dvoustrojový		UNRESOLVED
-dvoustupňový		UNRESOLVED
-dvousvátkový		UNRESOLVED
-dvousvazkový		UNRESOLVED
-dvousvíčkový		UNRESOLVED
-dvousystémový		UNRESOLVED
-dvoušachtový		UNRESOLVED
-dvoušlapákový		UNRESOLVED
-dvoušroubový		UNRESOLVED
-dvouštítový		UNRESOLVED
-dvoušuplíkový		UNRESOLVED
-dvoutabletový		UNRESOLVED
-dvoutahový		UNRESOLVED
-dvoutalířový		UNRESOLVED
-dvoutarifový		UNRESOLVED
-dvoutělesový		UNRESOLVED
-dvoutisícový		UNRESOLVED
-dvoutlačítkový		UNRESOLVED
-dvoutónový		UNRESOLVED
-dvoutrubicový		UNRESOLVED
-dvoutrubkový		UNRESOLVED
-dvoutřetinový		UNRESOLVED
-dvoutřídový		UNRESOLVED
-dvoutuctový		UNRESOLVED
-dvoutunelový		UNRESOLVED
-dvoutunerový		UNRESOLVED
-dvoutunový		UNRESOLVED
-dvouturnajový		UNRESOLVED
-dvouturnusový		UNRESOLVED
-dvoutyčový		UNRESOLVED
-dvoutýmový		UNRESOLVED
-dvouúčelový		UNRESOLVED
-dvouúderový		UNRESOLVED
-dvouúrovňový		UNRESOLVED
-dvouúsekový		UNRESOLVED
-dvouuzlový		UNRESOLVED
-dvouvagonový		UNRESOLVED
-dvouvalbový		UNRESOLVED
-dvouvěrtelový		UNRESOLVED
-dvouveslový		UNRESOLVED
-dvouvchodový		UNRESOLVED
-dvouvíkendový		UNRESOLVED
-dvouvláknový		UNRESOLVED
-dvouvodičový		UNRESOLVED
-dvouvozový		UNRESOLVED
-dvouvrtulový		UNRESOLVED
-dvouvřetenový		UNRESOLVED
-dvouvstupový		UNRESOLVED
-dvouvteřinový		UNRESOLVED
-dvouvýfukový		UNRESOLVED
-dvouvýpalový		UNRESOLVED
-dvouwattový		UNRESOLVED
-dvouzábleskový		UNRESOLVED
-dvouzastávkový		UNRESOLVED
-dvouzávažový		UNRESOLVED
-dvouznačkový		UNRESOLVED
-dvouznakový		UNRESOLVED
-dvouznámkový		UNRESOLVED
-dvouzónový		UNRESOLVED
-dvouzvonkový		UNRESOLVED
-dvoužárovkový		UNRESOLVED
-dvoužilový		UNRESOLVED
-dvouživotový		UNRESOLVED
-dvoužloutkový		UNRESOLVED
-N excimerový		UNRESOLVED
-exdruholigový		UNRESOLVED
-N exekventový		UNRESOLVED A:exekvent
-exligový		UNRESOLVED
-exprvoligový		UNRESOLVED
-expřeborový		UNRESOLVED
-extřetiligový		UNRESOLVED
-fenyloctový		UNRESOLVED
-fenylpropanový		UNRESOLVED
-fenylpropenový		UNRESOLVED
-hlubokotónový		UNRESOLVED
-hnědobéžový		UNRESOLVED
-hnědobronzový		UNRESOLVED
-hnědofialový		UNRESOLVED
-hnědonachový		UNRESOLVED
-hnědookrový		UNRESOLVED
-hnědoolivový		UNRESOLVED
-hnědooranžový		UNRESOLVED
-hnědopurpurový		UNRESOLVED
-hnědorůžový		UNRESOLVED
-hnědovínový		UNRESOLVED
-jednoaktový		UNRESOLVED
-jednoatomový		UNRESOLVED
-jednobajtový		UNRESOLVED
-jednobitový		UNRESOLVED
-jednoblokový		UNRESOLVED
-jednobodový		UNRESOLVED
-jednoboxový		UNRESOLVED
-jednobrankový		UNRESOLVED
-jednobránový		UNRESOLVED
-jednobukový		UNRESOLVED
-jednobytový		UNRESOLVED
-jednocentový		UNRESOLVED
-jednocyklový		UNRESOLVED
-jednočárkový		UNRESOLVED
-jednočarový		UNRESOLVED
-jednočásticový		UNRESOLVED
-jednočíslicový		UNRESOLVED
-jednočlánkový		UNRESOLVED
-jednoděrový		UNRESOLVED
-jednodeskový		UNRESOLVED
-jednodinárový		UNRESOLVED
-jednodížový		UNRESOLVED
-jednodolarový		UNRESOLVED
-jednodotykový		UNRESOLVED
-jednodrážkový		UNRESOLVED
-jednodruhový		UNRESOLVED
-jednodvéřový		UNRESOLVED
-jednoetapový		UNRESOLVED
-jednofaktorový		UNRESOLVED
-jednofázový		UNRESOLVED
-jednofotonový		UNRESOLVED
-jednogólový		UNRESOLVED
-jednohadicový		UNRESOLVED
-jednohektarový		UNRESOLVED
-jednohláskový		UNRESOLVED
-jednohlavňový		UNRESOLVED
-jednohodinový		UNRESOLVED
-jednojazýčkový		UNRESOLVED
-jednojehlový		UNRESOLVED
-jednokanálový		UNRESOLVED
-jednokarátový		UNRESOLVED
-jednokazetový		UNRESOLVED
-jednokloubový		UNRESOLVED
-jednokobkový		UNRESOLVED
-jednokódový		UNRESOLVED
-jednokolový		UNRESOLVED
-jednokomorový		UNRESOLVED
-jednokomůrkový		UNRESOLVED
-jednokorunový		UNRESOLVED
-jednokotoučový		UNRESOLVED
-jednokrokový		UNRESOLVED
-jednokruhový		UNRESOLVED
-jednokřídlový		UNRESOLVED
-jednolamelový		UNRESOLVED
-jednolampový		UNRESOLVED
-jednolanový		UNRESOLVED
-jednolinkový		UNRESOLVED
-jednolískový		UNRESOLVED
-jednolistový		UNRESOLVED
-jednomandátový		UNRESOLVED
-jednomarkový		UNRESOLVED
-jednomiliónový		UNRESOLVED
-jednominutový		UNRESOLVED
-jednomódový		UNRESOLVED
-jednomotorový		UNRESOLVED
-jednonápravový		UNRESOLVED
-jednonormový		UNRESOLVED
-jednonosníkový		UNRESOLVED
-jednooborový		UNRESOLVED
-jednoobvodový		UNRESOLVED
-jednoodborový		UNRESOLVED
-jednoohniskový		UNRESOLVED
-jednookénkový		UNRESOLVED
-jednookruhový		UNRESOLVED
-jednopákový		UNRESOLVED
-jednopalcový		UNRESOLVED
-jednopaprskový		UNRESOLVED
-jednopásmový		UNRESOLVED
-jednopásový		UNRESOLVED
-jednopatrový		UNRESOLVED
-jednopedálový		UNRESOLVED
-jednopísmenový		UNRESOLVED
-jednopístkový		UNRESOLVED
-jednoplášťový		UNRESOLVED
-jednoplotnový		UNRESOLVED
-jednopohledový		UNRESOLVED
-jednopokojový		UNRESOLVED
-jednopolohový		UNRESOLVED
-jednopólový		UNRESOLVED
-jednopolový		UNRESOLVED
-jednopoložkový		UNRESOLVED
-jednoporcový		UNRESOLVED
-jednoposádkový		UNRESOLVED
-jednopovrchový		UNRESOLVED
-jednoprocesový		UNRESOLVED
-jednopruhový		UNRESOLVED
-jednoprvkový		UNRESOLVED
-jednopříčkový		UNRESOLVED
-jednopytlový		UNRESOLVED
-jednoranový		UNRESOLVED
-jednorázový		UNRESOLVED
-jednorovinový		UNRESOLVED
-jednorublový		UNRESOLVED
-jednořádkový		UNRESOLVED
-jednořadový		UNRESOLVED
-jednořetězcový		UNRESOLVED
-jednořetězový		UNRESOLVED
-jednosálový		UNRESOLVED
-jednosazbový		UNRESOLVED
-jednosedačkový		UNRESOLVED
-jednosedadlový		UNRESOLVED
-jednosekundový		UNRESOLVED
-jednosetový		UNRESOLVED
-jednoslabikový		UNRESOLVED
-jednosladový		UNRESOLVED
-jednosloupcový		UNRESOLVED
-jednosložkový		UNRESOLVED
-jednosnímkový		UNRESOLVED
-jednosouborový		UNRESOLVED
-jednospádový		UNRESOLVED
-jednospirálový		UNRESOLVED
-jednostěžňový		UNRESOLVED
-jednostojanový		UNRESOLVED
-jednostránkový		UNRESOLVED
-jednostupňový		UNRESOLVED
-jednosvazkový		UNRESOLVED
-jednosystémový		UNRESOLVED
-jednotahový		UNRESOLVED
-jednotělesový		UNRESOLVED
-jednotroubový		UNRESOLVED
-jednotrubkový		UNRESOLVED
-jednotunový		UNRESOLVED
-jednotyčový		UNRESOLVED
-jednoúborový		UNRESOLVED
-jednoúčelový		UNRESOLVED
-jednouhlíkový		UNRESOLVED
-jednoúlohový		UNRESOLVED
-jednoúrovňový		UNRESOLVED
-jednouzlový		UNRESOLVED
-jednovagónový		UNRESOLVED
-jednovidový		UNRESOLVED
-jednovláknový		UNRESOLVED
-jednovodičový		UNRESOLVED
-jednovozový		UNRESOLVED
-jednovrcholový		UNRESOLVED
-jednovřetenový		UNRESOLVED
-jednovýznamový		UNRESOLVED
-jednozáběrový		UNRESOLVED
-jednozápasový		UNRESOLVED
-jednozdrojový		UNRESOLVED
-jednozipový		UNRESOLVED
-jednoznakový		UNRESOLVED
-jednožerďový		UNRESOLVED
-jednožilový		UNRESOLVED
-modrobéžový		UNRESOLVED
-modrofialový		UNRESOLVED
-modrokarmínový		UNRESOLVED
-modroklínový		UNRESOLVED
-modrokrémový		UNRESOLVED
-modrokroužkový		UNRESOLVED
-modronachový		UNRESOLVED
-modrooranžový		UNRESOLVED
-modrorůžový		UNRESOLVED
-modrošarlatový		UNRESOLVED
-modrotyrkysový		UNRESOLVED
-modrovínový		UNRESOLVED
-nadčasový		UNRESOLVED
-nadhltanový		UNRESOLVED
-nadhrtanový		UNRESOLVED
-nadhřebenový		UNRESOLVED
-nadkmenový		UNRESOLVED
-nadkrajový		UNRESOLVED
-nadmolekulový		UNRESOLVED
-nadnapěťový		UNRESOLVED
-nadnulový		UNRESOLVED
-nadpodnikový		UNRESOLVED
-nadprahový		UNRESOLVED
-nadprojektový		UNRESOLVED
-nadprostorový		UNRESOLVED
-nadprůtokový		UNRESOLVED
-nadpultový		UNRESOLVED
-nadrasový		UNRESOLVED
-nadrepublikový		UNRESOLVED
-nadrovníkový		UNRESOLVED
-nadrozumový		UNRESOLVED
-nadsmyslový		UNRESOLVED
-nadstovkový		UNRESOLVED
-nadstylový		UNRESOLVED
-nadsvětový		UNRESOLVED
-nadzvukový		UNRESOLVED
-nadžánrový		UNRESOLVED
-několikabitový		UNRESOLVED
-několikabodový		UNRESOLVED
-několikabytový		UNRESOLVED
-několikafázový		UNRESOLVED
-několikagólový		UNRESOLVED
-několikakilový		UNRESOLVED
-několikakolový		UNRESOLVED
-několikařádový		UNRESOLVED
-několikasálový		UNRESOLVED
-několikatunový		UNRESOLVED
-osmiakrový		UNRESOLVED
-osmialbový		UNRESOLVED
-osmiapůlkilový		UNRESOLVED
-osmiapůltunový		UNRESOLVED
-osmiarový		UNRESOLVED
-osmibilionový		UNRESOLVED
-osmibrankový		UNRESOLVED
-osmibytový		UNRESOLVED
-osmicoulový		UNRESOLVED
-osmičíslicový		UNRESOLVED
-osmičlánkový		UNRESOLVED
-osmidávkový		UNRESOLVED
-osmidélkový		UNRESOLVED
-osmidělový		UNRESOLVED
-osmidesetinový		UNRESOLVED
-osmidesítkový		UNRESOLVED
-osmideskový		UNRESOLVED
-osmidírkový		UNRESOLVED
-osmidiskový		UNRESOLVED
-osmidolarový		UNRESOLVED
-osmidvorcový		UNRESOLVED
-osmietapový		UNRESOLVED
-osmietážový		UNRESOLVED
-osmifázový		UNRESOLVED
-osmigigabitový		UNRESOLVED
-osmigigabytový		UNRESOLVED
-osmigigový		UNRESOLVED
-osmigólový		UNRESOLVED
-osmigramový		UNRESOLVED
-osmihaléřový		UNRESOLVED
-osmihektarový		UNRESOLVED
-osmihodinový		UNRESOLVED
-osmihodový		UNRESOLVED
-osmichodový		UNRESOLVED
-osmijamkový		UNRESOLVED
-osmijehličkový		UNRESOLVED
-osmikamenový		UNRESOLVED
-osmikanálový		UNRESOLVED
-osmikarátový		UNRESOLVED
-osmikartový		UNRESOLVED
-osmikilobitový		UNRESOLVED
-osmikilobytový		UNRESOLVED
-osmikilový		UNRESOLVED
-osmikolíčkový		UNRESOLVED
-osmikolíkový		UNRESOLVED
-osmikolový		UNRESOLVED
-osmikoncovkový		UNRESOLVED
-osmikoňový		UNRESOLVED
-osmikorunový		UNRESOLVED
-osmikošový		UNRESOLVED
-osmikrokový		UNRESOLVED
-osmikubíkový		UNRESOLVED
-osmikusový		UNRESOLVED
-osmilahvový		UNRESOLVED
-osmilanový		UNRESOLVED
-osmilibrový		UNRESOLVED
-osmilopatkový		UNRESOLVED
-osmilůžkový		UNRESOLVED
-osmimandátový		UNRESOLVED
-osmimarkový		UNRESOLVED
-osmimedailový		UNRESOLVED
-osmimegabitový		UNRESOLVED
-osmimegabytový		UNRESOLVED
-osmimegový		UNRESOLVED
-osmimelounový		UNRESOLVED
-osmimetrákový		UNRESOLVED
-osmimiliardový		UNRESOLVED
-osmimiliónový		UNRESOLVED
-osmimílový		UNRESOLVED
-osmiminutový		UNRESOLVED
-osmimotorový		UNRESOLVED
-osminápravový		UNRESOLVED
-osmiobloukový		UNRESOLVED
-osmiobrazový		UNRESOLVED
-osmiohmový		UNRESOLVED
-osmioscarový		UNRESOLVED
-osmioskarový		UNRESOLVED
-osmiotvorový		UNRESOLVED
-osmipalcový		UNRESOLVED
-osmipánvový		UNRESOLVED
-osmipárový		UNRESOLVED
-osmipásmový		UNRESOLVED
-osmipatrový		UNRESOLVED
-osmipinový		UNRESOLVED
-osmipísmenkový		UNRESOLVED
-osmipísmenový		UNRESOLVED
-osmipísňový		UNRESOLVED
-osmipístkový		UNRESOLVED
-osmipokojový		UNRESOLVED
-osmipolohový		UNRESOLVED
-osmipoložkový		UNRESOLVED
-osmiporcový		UNRESOLVED
-osmiportový		UNRESOLVED
-osmiposádkový		UNRESOLVED
-osmiposchoďový		UNRESOLVED
-osmipromilový		UNRESOLVED
-osmiproudový		UNRESOLVED
-osmiprůchodový		UNRESOLVED
-osmiprutový		UNRESOLVED
-osmiprvkový		UNRESOLVED
-osmiřádkový		UNRESOLVED
-osmisáhový		UNRESOLVED
-osmisálový		UNRESOLVED
-osmisedadlový		UNRESOLVED
-osmisekundový		UNRESOLVED
-osmisetbodový		UNRESOLVED
-osmisetgramový		UNRESOLVED
-osmisetinový		UNRESOLVED
-osmisetkilový		UNRESOLVED
-osmisetkoňový		UNRESOLVED
-osmisetkusový		UNRESOLVED
-osmisetlibrový		UNRESOLVED
-osmisettunový		UNRESOLVED
-osmiskladbový		UNRESOLVED
-osmiskupinový		UNRESOLVED
-osmislabikový		UNRESOLVED
-osmislotový		UNRESOLVED
-osmisloupcový		UNRESOLVED
-osmistanicový		UNRESOLVED
-osmistránkový		UNRESOLVED
-osmistupňový		UNRESOLVED
-osmisvazkový		UNRESOLVED
-osmitabulkový		UNRESOLVED
-osmitahový		UNRESOLVED
-osmitisícový		UNRESOLVED
-osmitunový		UNRESOLVED
-osmiúderový		UNRESOLVED
-osmiuncový		UNRESOLVED
-osmiúrovňový		UNRESOLVED
-osmivagónový		UNRESOLVED
-osmivečerový		UNRESOLVED
-osmiventilový		UNRESOLVED
-osmivláknový		UNRESOLVED
-osmivodičový		UNRESOLVED
-osmivozový		UNRESOLVED
-osmivřetenový		UNRESOLVED
-osmivteřinový		UNRESOLVED
-osmiwattový		UNRESOLVED
-osmizápasový		UNRESOLVED
-osmizastávkový		UNRESOLVED
-osmizásuvkový		UNRESOLVED
-osmiznakový		UNRESOLVED
-osmižilový		UNRESOLVED
-osmnáctibodový		UNRESOLVED
-osmnáctikilový		UNRESOLVED
-padesátibodový		UNRESOLVED
-padesátigólový		UNRESOLVED
-padesátikilový		UNRESOLVED
-padesátikoňový		UNRESOLVED
-padesátikusový		UNRESOLVED
-padesátilirový		UNRESOLVED
-padesátimegový		UNRESOLVED
-padesátitunový		UNRESOLVED
-patnáctibitový		UNRESOLVED
-patnáctibodový		UNRESOLVED
-patnáctibytový		UNRESOLVED
-patnáctigólový		UNRESOLVED
-patnáctikilový		UNRESOLVED
-patnáctipólový		UNRESOLVED
-patnáctitunový		UNRESOLVED
-pětiakrový		UNRESOLVED
-pětiaktový		UNRESOLVED
-pětiapůltunový		UNRESOLVED
-pětiarový		UNRESOLVED
-pětibilionový		UNRESOLVED
-pětibitový		UNRESOLVED
-pětiblokový		UNRESOLVED
-pětibodový		UNRESOLVED
-pětibrankový		UNRESOLVED
-pětibytový		UNRESOLVED
-pěticédéčkový		UNRESOLVED
-pěticinchový		UNRESOLVED
-pěticoulový		UNRESOLVED
-pětičíslicový		UNRESOLVED
-pětičlánkový		UNRESOLVED
-pětičtvrťový		UNRESOLVED
-pětidélkový		UNRESOLVED
-pětideskový		UNRESOLVED
-pětidílkový		UNRESOLVED
-pětidiodový		UNRESOLVED
-pětidiskový		UNRESOLVED
-pětidráhový		UNRESOLVED
-pětidrátový		UNRESOLVED
-pětidruhový		UNRESOLVED
-pětidvéřový		UNRESOLVED
-pětidveřový		UNRESOLVED
-pětietapový		UNRESOLVED
-pětifaktorový		UNRESOLVED
-pětifaulový		UNRESOLVED
-pětifázový		UNRESOLVED
-pětiforintový		UNRESOLVED
-pětigalonový		UNRESOLVED
-pětigólový		UNRESOLVED
-pětigramový		UNRESOLVED
-pětihektarový		UNRESOLVED
-pětihodinový		UNRESOLVED
-pětichodový		UNRESOLVED
-pětikajutový		UNRESOLVED
-pětikamenový		UNRESOLVED
-pětikamerový		UNRESOLVED
-pětikapsový		UNRESOLVED
-pětikarátový		UNRESOLVED
-pětikilowatový		UNRESOLVED
-pětiklapkový		UNRESOLVED
-pětikolejový		UNRESOLVED
-pětikolíčkový		UNRESOLVED
-pětikoncovkový		UNRESOLVED
-pětikošový		UNRESOLVED
-pětikrokový		UNRESOLVED
-pětikruhový		UNRESOLVED
-pětikřížkový		UNRESOLVED
-pětikubíkový		UNRESOLVED
-pětikusový		UNRESOLVED
-pětilampový		UNRESOLVED
-pětilibrový		UNRESOLVED
-pětiligový		UNRESOLVED
-pětilopatkový		UNRESOLVED
-pětiluxový		UNRESOLVED
-pětilůžkový		UNRESOLVED
-pětimandátový		UNRESOLVED
-pětimanuálový		UNRESOLVED
-pětimedvídkový		UNRESOLVED
-pětimegabytový		UNRESOLVED
-pětimegový		UNRESOLVED
-pětimetrákový		UNRESOLVED
-pětimilardový		UNRESOLVED
-pětiminutový		UNRESOLVED
-pětimodulový		UNRESOLVED
-pětimotorový		UNRESOLVED
-pětinápravový		UNRESOLVED
-N pětinový		UNRESOLVED  A:pětina
-pětinožový		UNRESOLVED
-pětiobloukový		UNRESOLVED
-pětiobráncový		UNRESOLVED
-pětiobvodový		UNRESOLVED
-pětiodstavcový		UNRESOLVED
-pětiokruhový		UNRESOLVED
-pětioktávový		UNRESOLVED
-pětioscarový		UNRESOLVED
-pětioskarový		UNRESOLVED
-pětiotvorový		UNRESOLVED
-pětipalcový		UNRESOLVED
-pětipaprskový		UNRESOLVED
-pětipásmový		UNRESOLVED
-pětipatrový		UNRESOLVED
-pětipísmenkový		UNRESOLVED
-pětipísmenový		UNRESOLVED
-pětipísničkový		UNRESOLVED
-pětipísňový		UNRESOLVED
-pětipixelový		UNRESOLVED
-pětiplachtový		UNRESOLVED
-pětiplatový		UNRESOLVED
-pětipokojový		UNRESOLVED
-pětipólový		UNRESOLVED
-pětiposádkový		UNRESOLVED
-pětiposchoďový		UNRESOLVED
-pětipromilový		UNRESOLVED
-pětiproudový		UNRESOLVED
-pětiprstíkový		UNRESOLVED
-pětiprstový		UNRESOLVED
-pětiprůchodový		UNRESOLVED
-pětiprvkový		UNRESOLVED
-pětiputnový		UNRESOLVED
-pětiputýnkový		UNRESOLVED
-pětirozměrový		UNRESOLVED
-pětiřádkový		UNRESOLVED
-pětisáčkový		UNRESOLVED
-pětisálový		UNRESOLVED
-pětisedlový		UNRESOLVED
-pětisegmentový		UNRESOLVED
-pětisekundový		UNRESOLVED
-pětisemestrový		UNRESOLVED
-pětisériový		UNRESOLVED
-pětisetbodový		UNRESOLVED
-pětisetgigový		UNRESOLVED
-pětisetgramový		UNRESOLVED
-pětisetkilový		UNRESOLVED
-pětisetkolový		UNRESOLVED
-pětisetkoňový		UNRESOLVED
-pětisetkusový		UNRESOLVED
-pětisetlibrový		UNRESOLVED
-pětisetlůžkový		UNRESOLVED
-pětisetmarkový		UNRESOLVED
-pětisetmílový		UNRESOLVED
-pětisetový		UNRESOLVED
-pětisettunový		UNRESOLVED
-pětisetwattový		UNRESOLVED
-pětiskladbový		UNRESOLVED
-pětislabikový		UNRESOLVED
-pětisledový		UNRESOLVED
-pětisloupcový		UNRESOLVED
-pětisložkový		UNRESOLVED
-pětisouborový		UNRESOLVED
-pětistěžňový		UNRESOLVED
-pětistránkový		UNRESOLVED
-pětistupínkový		UNRESOLVED
-pětistupňový		UNRESOLVED
-pětisvazkový		UNRESOLVED
-pětišestinový		UNRESOLVED
-pětiškálový		UNRESOLVED
-pětitahový		UNRESOLVED
-pětitaktový		UNRESOLVED
-pětitisícový		UNRESOLVED
-pětitlačítkový		UNRESOLVED
-pětitónový		UNRESOLVED
-pětiúderový		UNRESOLVED
-pětiuhlíkový		UNRESOLVED
-pětiúrovňový		UNRESOLVED
-pětiválečkový		UNRESOLVED
-pětiventilový		UNRESOLVED
-pětivchodový		UNRESOLVED
-pětivodičový		UNRESOLVED
-pětivoltový		UNRESOLVED
-pětivozový		UNRESOLVED
-pětivřetenový		UNRESOLVED
-pětivteřinový		UNRESOLVED
-pětivýhonkový		UNRESOLVED
-pětiyardový		UNRESOLVED
-pětizápasový		UNRESOLVED
-pětizávodový		UNRESOLVED
-pětiznakový		UNRESOLVED
-pětiznámkový		UNRESOLVED
-pětizónový		UNRESOLVED
-pětižilkový		UNRESOLVED
-pětižilový		UNRESOLVED
-pětižílový		UNRESOLVED
-počervnový		UNRESOLVED
-podhladinový		UNRESOLVED
-podhlasivkový		UNRESOLVED
-podhltanový		UNRESOLVED
-podhrotový		UNRESOLVED
-podjazykový		UNRESOLVED
-podklíčkový		UNRESOLVED
-podkolejnicový		UNRESOLVED
-podkorový		UNRESOLVED
-podkošový		UNRESOLVED
-? podkreslový		UNRESOLVED
-podledovcový		UNRESOLVED
-podlinkový		UNRESOLVED
-podlopatkový		UNRESOLVED
-podnulový		UNRESOLVED
-podočnicový		UNRESOLVED
-podpásový		UNRESOLVED
-podpatrový		UNRESOLVED
-N podpěťový		UNRESOLVED A:podpětí
-podpodlahový		UNRESOLVED
-podpokožkový		UNRESOLVED
-podponorový		UNRESOLVED
-podpovrchový		UNRESOLVED
-podprahový		UNRESOLVED
-podpultový		UNRESOLVED
-podsedlový		UNRESOLVED
-podtrupový		UNRESOLVED
-podzvukový		UNRESOLVED
-pohorečkový		UNRESOLVED
-N pohotový		UNRESOLVED  A:hotový
-pochřipkový		UNRESOLVED
-poinfarktový		UNRESOLVED
-pokoncilový		UNRESOLVED
-pokongresový		UNRESOLVED
-pokrizový		UNRESOLVED
-N pokrový		UNRESOLVED A:poker
-pokřídový		UNRESOLVED
-pokvětnový		UNRESOLVED
-poledový		UNRESOLVED
-poletový		UNRESOLVED
-poligový		UNRESOLVED
-polistopadový		UNRESOLVED
-pomonzunový		UNRESOLVED
-poodpalový		UNRESOLVED
-poosvitový		UNRESOLVED
-? popjazzový		UNRESOLVED
-? popmetalový		UNRESOLVED
-poporodový		UNRESOLVED
-popovodňový		UNRESOLVED
-poprázdninový		UNRESOLVED
-popremiérový		UNRESOLVED
-popřestavbový		UNRESOLVED
-popřevratový		UNRESOLVED
-? popsoulový		UNRESOLVED
-N poromerový		UNRESOLVED  A:poromer
-porozpadový		UNRESOLVED
-porozsudkový		UNRESOLVED
-porozvodový		UNRESOLVED
-poříjnový		UNRESOLVED
-posametový		UNRESOLVED
-poschůzový		UNRESOLVED
-posjezdový		UNRESOLVED
-posklizňový		UNRESOLVED
-posňatkový		UNRESOLVED
-? pospilitový		UNRESOLVED
-posrpnový		UNRESOLVED
-pošokový		UNRESOLVED
-poúnorový		UNRESOLVED
-poúrazový		UNRESOLVED
-povojnový		UNRESOLVED
-povýbuchový		UNRESOLVED
-povýcvikový		UNRESOLVED
-povýstřelový		UNRESOLVED
-? powermetalový		UNRESOLVED
-powerpointový		UNRESOLVED
-pozápasový		UNRESOLVED
-pozáplavový		UNRESOLVED
-pozářijový		UNRESOLVED
-pozásahový		UNRESOLVED
-pozátěžový		UNRESOLVED
-pozávorkový		UNRESOLVED
-N pozemnicový		UNRESOLVED A:pozemnice
-N požerový		UNRESOLVED  A:požer
-požloutenkový		UNRESOLVED
-N prehledový		UNRESOLVED  A:přehled
-N presinkový		UNRESOLVED  A:presink
-proazulenový		UNRESOLVED
-prodohodový		UNRESOLVED
-prokrizový		UNRESOLVED
-N prolegomenový		UNRESOLVED A:prolegomenon
-prolevicový		UNRESOLVED
-promírový		UNRESOLVED
-N proofový		UNRESOLVED  A:proof
-N propandiový		UNRESOLVED A:propandiol
-N propionový		UNRESOLVED  A:propion
-propočítačový		UNRESOLVED
-propotratový		UNRESOLVED
-proradarový		UNRESOLVED
-proreferendový		UNRESOLVED
-prorežimový		UNRESOLVED
-prorozvojový		UNRESOLVED
-prorůstový		UNRESOLVED
-proskupinový		UNRESOLVED
-N prothesový		UNRESOLVED  A:prothesa
-proziskový		UNRESOLVED
-předalbový		UNRESOLVED
-předaprílový		UNRESOLVED
-předbalíčkový		UNRESOLVED
-předbankrotový		UNRESOLVED
-předbarážový		UNRESOLVED
-předbouřkový		UNRESOLVED
-předbrankový		UNRESOLVED
-předbřeznový		UNRESOLVED
-předdožínkový		UNRESOLVED
-předdůchodový		UNRESOLVED
-předdušičkový		UNRESOLVED
-předexilový		UNRESOLVED
-předežňový		UNRESOLVED
-předfašankový		UNRESOLVED
-předhodový		UNRESOLVED
-předinfarktový		UNRESOLVED
-předjazykový		UNRESOLVED
-předkapitálový		UNRESOLVED
-předkolapsový		UNRESOLVED
-předkongresový		UNRESOLVED
-předkrizový		UNRESOLVED
-předlednový		UNRESOLVED
-předledovcový		UNRESOLVED
-předledový		UNRESOLVED
-předletový		UNRESOLVED
-předligový		UNRESOLVED
-předmajálesový		UNRESOLVED
-předmájový		UNRESOLVED
-předmobilový		UNRESOLVED
-předmonzunový		UNRESOLVED
-přednádorový		UNRESOLVED
-přednárazový		UNRESOLVED
-předněkomorový		UNRESOLVED
-předpádový		UNRESOLVED
-předpočítačový		UNRESOLVED
-předpohárový		UNRESOLVED
-předpostelový		UNRESOLVED
-předpotratový		UNRESOLVED
-předpouťový		UNRESOLVED
-předpovodňový		UNRESOLVED
-předprahový		UNRESOLVED
-předprázninový		UNRESOLVED
-předprimárkový		UNRESOLVED
-předprůmyslový		UNRESOLVED
-předpřevratový		UNRESOLVED
-předpříletový		UNRESOLVED
-předpučový		UNRESOLVED
-předrakovinový		UNRESOLVED
-předroznáškový		UNRESOLVED
-předrozpadový		UNRESOLVED
-předrozpočtový		UNRESOLVED
-předrozvodový		UNRESOLVED
-předrůstový		UNRESOLVED
-předříjnový		UNRESOLVED
-předsametový		UNRESOLVED
-předsériový		UNRESOLVED
-předseťový		UNRESOLVED  ###(předseťový kompaktor - upravuje půdu před setím)###
-předsjezdový		UNRESOLVED
-předsklizňový		UNRESOLVED
-předsletový		UNRESOLVED
-předsrpnový		UNRESOLVED
-předstonkový		UNRESOLVED
-předsummitový		UNRESOLVED
-předškolkový		UNRESOLVED
-? předtermínový		UNRESOLVED
-předtréninkový		UNRESOLVED
-předturnajový		UNRESOLVED
-předúnorový		UNRESOLVED
-předúrazový		UNRESOLVED
-předvíkendový		UNRESOLVED
-předvýtěrový		UNRESOLVED
-předvývojový		UNRESOLVED
-předvýznakový		UNRESOLVED
-předvzletový		UNRESOLVED
-předvztahový		UNRESOLVED
-? předxtový		UNRESOLVED
-předzáchvatový		UNRESOLVED
-předzákazový		UNRESOLVED
-předzápisový		UNRESOLVED
-předzvukový		UNRESOLVED
-předžňový		UNRESOLVED
-půlgramový		UNRESOLVED
-půlkulový		UNRESOLVED
-půlmetrákový		UNRESOLVED
-půlmikronový		UNRESOLVED
-půlpalcový		UNRESOLVED
-půlsezónový		UNRESOLVED
-půlstránkový		UNRESOLVED
-půlstupňový		UNRESOLVED
-půlválcový		UNRESOLVED
-rudofialový		UNRESOLVED
-rudonachový		UNRESOLVED
-rudooranžový		UNRESOLVED
-rudopáskový		UNRESOLVED
-rudorůžový		UNRESOLVED
-N sanktusový		UNRESOLVED  A:sanktus
-N santálový		UNRESOLVED A:santal
-N sanytrový		UNRESOLVED A:var. salnitrový
-sedmiakrový		UNRESOLVED
-sedmialbový		UNRESOLVED
-sedmibitový		UNRESOLVED
-sedmibodový		UNRESOLVED
-sedmibrankový		UNRESOLVED
-sedmibytový		UNRESOLVED
-sedmičíslicový		UNRESOLVED
-sedmičlánkový		UNRESOLVED
-sedmideckový		UNRESOLVED
-sedmidecový		UNRESOLVED
-sedmidélkový		UNRESOLVED
-sedmidolarový		UNRESOLVED
-sedmietapový		UNRESOLVED
-sedmigólový		UNRESOLVED
-sedmigramový		UNRESOLVED
-sedmihektarový		UNRESOLVED
-sedmihodinový		UNRESOLVED
-sedmichodový		UNRESOLVED
-sedmikanálkový		UNRESOLVED
-sedmikanálový		UNRESOLVED
-sedmikarátový		UNRESOLVED
-sedmikartový		UNRESOLVED
-sedmikolíčkový		UNRESOLVED
-sedmikolový		UNRESOLVED
-sedmikorunový		UNRESOLVED
-sedmikošový		UNRESOLVED
-sedmikrokový		UNRESOLVED
-sedmikubíkový		UNRESOLVED
-sedmikurtový		UNRESOLVED
-sedmilamelový		UNRESOLVED
-sedmilampový		UNRESOLVED
-sedmilůžkový		UNRESOLVED
-sedmimandátový		UNRESOLVED
-sedmimilionový		UNRESOLVED
-sedmimiliónový		UNRESOLVED
-sedmimílový		UNRESOLVED
-sedmiminutový		UNRESOLVED
-sedminulový		UNRESOLVED
-sedmioscarový		UNRESOLVED
-sedmiosminový		UNRESOLVED
-sedmipalcový		UNRESOLVED
-sedmipásmový		UNRESOLVED
-sedmipatrový		UNRESOLVED
-sedmipísmenový		UNRESOLVED
-sedmipísňový		UNRESOLVED
-sedmipokojový		UNRESOLVED
-sedmipolíčkový		UNRESOLVED
-sedmipólový		UNRESOLVED
-sedmiproudový		UNRESOLVED
-sedmiprvkový		UNRESOLVED
-sedmirunový		UNRESOLVED
-sedmiřádkový		UNRESOLVED
-sedmiřadový		UNRESOLVED
-sedmisálový		UNRESOLVED
-sedmisedadlový		UNRESOLVED
-sedmisekundový		UNRESOLVED
-sedmisetbodový		UNRESOLVED
-sedmisetkilový		UNRESOLVED
-sedmisetkoňový		UNRESOLVED
-sedmisettunový		UNRESOLVED
-sedmiskladbový		UNRESOLVED
-sedmislabikový		UNRESOLVED
-sedmisloupcový		UNRESOLVED
-sedmisměnový		UNRESOLVED
-N sedmistovkový		UNRESOLVED A:sedmistovka
-sedmistránkový		UNRESOLVED
-sedmistupňový		UNRESOLVED
-sedmisvazkový		UNRESOLVED
-sedmišilinkový		UNRESOLVED
-sedmitahový		UNRESOLVED
-sedmitisícový		UNRESOLVED
-sedmitónový		UNRESOLVED
-sedmitrackový		UNRESOLVED
-sedmitunový		UNRESOLVED
-sedmiúderový		UNRESOLVED
-sedmiúrovňový		UNRESOLVED
-sedmivětvový		UNRESOLVED
-sedmivchodový		UNRESOLVED
-sedmivodičový		UNRESOLVED
-sedmivozový		UNRESOLVED
-sedmivrstvový		UNRESOLVED
-sedmivteřinový		UNRESOLVED
-sedmiwattový		UNRESOLVED
-sedmizápasový		UNRESOLVED
-sedmiznakový		UNRESOLVED
-sedmizónový		UNRESOLVED
-sedmižilový		UNRESOLVED
-sedmižílový		UNRESOLVED
-stoakrový		UNRESOLVED
-stobilionový		UNRESOLVED
-stobodový		UNRESOLVED
-stobrankový		UNRESOLVED
-stodecibelový		UNRESOLVED
-stodeskový		UNRESOLVED
-stodolarový		UNRESOLVED
-stodvoukoňový		UNRESOLVED
-stoeurový		UNRESOLVED
-stoforintový		UNRESOLVED
-stogólový		UNRESOLVED
-stogramový		UNRESOLVED
-stohaléřový		UNRESOLVED
-stohektarový		UNRESOLVED
-stohodinový		UNRESOLVED
-stojednotkový		UNRESOLVED
-stokarátový		UNRESOLVED
-stokilogramový		UNRESOLVED
-stokilový		UNRESOLVED
-stokilowatový		UNRESOLVED
-stokilowattový		UNRESOLVED
-stokomínový		UNRESOLVED
-stokoňový		UNRESOLVED
-stokorcový		UNRESOLVED
-stokubíkový		UNRESOLVED
-stokusový		UNRESOLVED
-stolibrový		UNRESOLVED
-stolirový		UNRESOLVED
-stolnětenisový		UNRESOLVED
-stolůžkový		UNRESOLVED
-stomandátový		UNRESOLVED
-stomarkový		UNRESOLVED
-stomegabajtový		UNRESOLVED
-stomegabitový		UNRESOLVED
-stomegawattový		UNRESOLVED
-stomegový		UNRESOLVED
-stometrákový		UNRESOLVED
-stomiligramový		UNRESOLVED
-stomilionový		UNRESOLVED
-stomiliónový		UNRESOLVED
-stomílový		UNRESOLVED
-stominutový		UNRESOLVED
-stooktanový		UNRESOLVED
-stoosmikilový		UNRESOLVED
-stoosmipalcový		UNRESOLVED
-stopalcový		UNRESOLVED
-stopatrový		UNRESOLVED
-stopětikilový		UNRESOLVED
-stopětikoňový		UNRESOLVED
-stoposchoďový		UNRESOLVED
-N stopovkový		UNRESOLVED  A:stopovka
-storublový		UNRESOLVED
-stosedadlový		UNRESOLVED
-stosedmikilový		UNRESOLVED
-stosekundový		UNRESOLVED
-stostránkový		UNRESOLVED
-stostupňový		UNRESOLVED
-stosvazkový		UNRESOLVED
-stošestitunový		UNRESOLVED
-stošilinkový		UNRESOLVED
-stotabletový		UNRESOLVED
-stotahový		UNRESOLVED
-stotřípalcový		UNRESOLVED
-stotunový		UNRESOLVED
-stovoltový		UNRESOLVED
-stovteřinový		UNRESOLVED
-stowattový		UNRESOLVED
-stožárovkový		UNRESOLVED
-subatomový		UNRESOLVED
-N suberinový		UNRESOLVED  A:suberin
-submikronový		UNRESOLVED
-submolekulový		UNRESOLVED
-N subtaskový		UNRESOLVED  A:subtask
-subvirový		UNRESOLVED
-šedesátiarový		UNRESOLVED
-šedesátibodový		UNRESOLVED
-šedesátidekový		UNRESOLVED
-šedesátieurový		UNRESOLVED
-šedesátigólový		UNRESOLVED
-šedesátikilový		UNRESOLVED
-šedesátikolový		UNRESOLVED
-šedesátikoňový		UNRESOLVED
-šedesátikusový		UNRESOLVED
-šedesátiletový		UNRESOLVED
-šedesátimílový		UNRESOLVED
-šedesátitunový		UNRESOLVED
-šedobéžový		UNRESOLVED
-šedofialový		UNRESOLVED
-šedokaštanový		UNRESOLVED
-šedokrémový		UNRESOLVED
-šedookrový		UNRESOLVED
-šedoolivový		UNRESOLVED
-šedooranžový		UNRESOLVED
-šedopískový		UNRESOLVED
-šedoplastový		UNRESOLVED
-šedopurpurový		UNRESOLVED
-šedorůžový		UNRESOLVED
-šedoškálový		UNRESOLVED
-šedotónový		UNRESOLVED
-šedotyrkysový		UNRESOLVED
-šedovínový		UNRESOLVED
-šestiaktový		UNRESOLVED
-šestianodový		UNRESOLVED
-šestiarchový		UNRESOLVED
-šestiarový		UNRESOLVED
-šestibitový		UNRESOLVED
-šestibrankový		UNRESOLVED
-šestibytový		UNRESOLVED
-šesticédéčkový		UNRESOLVED
-šesticentový		UNRESOLVED
-šestičíslicový		UNRESOLVED
-šestičlánkový		UNRESOLVED
-šestidecový		UNRESOLVED
-šestidélkový		UNRESOLVED
-šestidiodový		UNRESOLVED
-šestidiskový		UNRESOLVED
-šestidolarový		UNRESOLVED
-šestidrátový		UNRESOLVED
-šestidutinkový		UNRESOLVED
-šestietapový		UNRESOLVED
-šestifázový		UNRESOLVED
-šestiforintový		UNRESOLVED
-šestigólový		UNRESOLVED
-šestigramový		UNRESOLVED
-šestihektarový		UNRESOLVED
-šestihlavňový		UNRESOLVED
-šestihodinový		UNRESOLVED
-šestihořákový		UNRESOLVED
-šestichodový		UNRESOLVED
-šestijádrový		UNRESOLVED
-šestijamkový		UNRESOLVED
-šestikabinkový		UNRESOLVED
-šestikamerový		UNRESOLVED
-šestikanálkový		UNRESOLVED
-šestikarátový		UNRESOLVED
-šestikilový		UNRESOLVED
-šestikolíčkový		UNRESOLVED
-šestikolíkový		UNRESOLVED
-šestikorunový		UNRESOLVED
-šestikošový		UNRESOLVED
-šestikrokový		UNRESOLVED
-šestikroužkový		UNRESOLVED
-šestikubíkový		UNRESOLVED
-šestikůlový		UNRESOLVED
-šestikurtový		UNRESOLVED
-šestikusový		UNRESOLVED
-šestilampový		UNRESOLVED
-šestilehátkový		UNRESOLVED
-šestilibrový		UNRESOLVED
-šestiligový		UNRESOLVED
-šestilistový		UNRESOLVED
-šestiložnicový		UNRESOLVED
-šestilůžkový		UNRESOLVED
-šestimedailový		UNRESOLVED
-šestimegový		UNRESOLVED
-šestimetrákový		UNRESOLVED
-šestimiliónový		UNRESOLVED
-šestimiliónový		UNRESOLVED
-šestimílový		UNRESOLVED
-šestiminutový		UNRESOLVED
-šestimotorový		UNRESOLVED
-šestinápravový		UNRESOLVED
-N šestinový		UNRESOLVED A:šestina
-šestinulový		UNRESOLVED
-šestiobrázkový		UNRESOLVED
-šestiokruhový		UNRESOLVED
-šestioktávový		UNRESOLVED
-šestioscarový		UNRESOLVED
-šestioskarový		UNRESOLVED
-šestiosminový		UNRESOLVED
-šestiotvorový		UNRESOLVED
-šestipalcový		UNRESOLVED
-šestipánvový		UNRESOLVED
-šestipárový		UNRESOLVED
-šestipáskový		UNRESOLVED
-šestipásmový		UNRESOLVED
-šestipatrový		UNRESOLVED
-šestipinový		UNRESOLVED
-šestipísmenový		UNRESOLVED
-šestipísňový		UNRESOLVED
-šestipístkový		UNRESOLVED
-šestipístový		UNRESOLVED
-šestiplatinový		UNRESOLVED
-šestipokojový		UNRESOLVED
-šestipólový		UNRESOLVED
-šestiportový		UNRESOLVED
-šestiposádkový		UNRESOLVED
-šestipromilový		UNRESOLVED
-šestiproudový		UNRESOLVED
-šestiprvkový		UNRESOLVED
-šestiputnový		UNRESOLVED
-šestiranový		UNRESOLVED
-šestiřádkový		UNRESOLVED
-šestiřadový		UNRESOLVED
-šestisálový		UNRESOLVED
-šestisedadlový		UNRESOLVED
-šestisedlový		UNRESOLVED
-šestisektorový		UNRESOLVED
-šestisekundový		UNRESOLVED
-šestisetakrový		UNRESOLVED
-šestisetbodový		UNRESOLVED
-šestiseteurový		UNRESOLVED
-šestisetgólový		UNRESOLVED
-šestisetkilový		UNRESOLVED
-šestisetkoňový		UNRESOLVED
-šestisetový		UNRESOLVED
-šestisettunový		UNRESOLVED
-šestiskladbový		UNRESOLVED
-šestiskladový		UNRESOLVED
-šestislabikový		UNRESOLVED
-šestisloupcový		UNRESOLVED
-šestisložkový		UNRESOLVED
-šestisouborový		UNRESOLVED
-šestistěžňový		UNRESOLVED
-šestistopový		UNRESOLVED
-šestistovkový		UNRESOLVED
-šestistránkový		UNRESOLVED
-šestistupňový		UNRESOLVED
-šestisvazkový		UNRESOLVED
-šestisvodový		UNRESOLVED
-šestitabulkový		UNRESOLVED
-šestitahový		UNRESOLVED
-šestitisícový		UNRESOLVED
-šestitónový		UNRESOLVED
-šestiturnajový		UNRESOLVED
-šestiúderový		UNRESOLVED
-šestiuncový		UNRESOLVED
-šestiúrovňový		UNRESOLVED
-šestiuzlový		UNRESOLVED
-šestiveslový		UNRESOLVED
-šestivětvový		UNRESOLVED
-šestivchodový		UNRESOLVED
-šestivodičový		UNRESOLVED
-šestivoltový		UNRESOLVED
-šestivozový		UNRESOLVED
-šestivteřinový		UNRESOLVED
-šestizápasový		UNRESOLVED
-šestiznakový		UNRESOLVED
-šestižilový		UNRESOLVED
-tisícibodový		UNRESOLVED
-tisícidolarový		UNRESOLVED
-tisícifrankový		UNRESOLVED
-tisícigramový		UNRESOLVED
-tisícikusový		UNRESOLVED
-tisícilibrový		UNRESOLVED
-tisícilirový		UNRESOLVED
-tisícimílový		UNRESOLVED
-N triacetátový		UNRESOLVED  A:triacetát
-N triazolový		UNRESOLVED  A:triazol
-trifluoroctový		UNRESOLVED
-N trichimonádový		UNRESOLVED  A:trichimonáda
-N trichomonádový		UNRESOLVED  A:trichomonáda
-trikarboxylový		UNRESOLVED
-? triphopový		UNRESOLVED
-trojaktový		UNRESOLVED
-trojbitový		UNRESOLVED
-N trojčatový		UNRESOLVED  A:trojče
-trojlůžkový		UNRESOLVED
-trojmetový		UNRESOLVED
-trojmetrový		UNRESOLVED
-trojslabikový		UNRESOLVED
-tříáčkový		UNRESOLVED
-tříakordový		UNRESOLVED
-tříaktový		UNRESOLVED
-tříalbový		UNRESOLVED
-tříapůlbodový		UNRESOLVED
-tříapůlkilový		UNRESOLVED
-tříapůlpalcový		UNRESOLVED
-tříapůltunový		UNRESOLVED
-tříapůlvoltový		UNRESOLVED
-tříargumentový		UNRESOLVED
-tříarchový		UNRESOLVED
-tříatomový		UNRESOLVED
-tříbečkový		UNRESOLVED
-tříbéčkový		UNRESOLVED
-tříbilionový		UNRESOLVED
-tříbitový		UNRESOLVED
-tříblokový		UNRESOLVED
-tříbodový		UNRESOLVED
-tříbrakový		UNRESOLVED
-tříbrankový		UNRESOLVED
-tříbřitový		UNRESOLVED
-tříbytový		UNRESOLVED
-třícédéčkový		UNRESOLVED
-třícellový		UNRESOLVED
-tříciferníkový		UNRESOLVED
-třícoulový		UNRESOLVED
-třícyklový		UNRESOLVED
-tříčárkový		UNRESOLVED
-tříčásticový		UNRESOLVED
-tříčipový		UNRESOLVED
-tříčíslicový		UNRESOLVED
-tříčlánkový		UNRESOLVED
-tříčtvrťový		UNRESOLVED
-třídávkový		UNRESOLVED
-třídecový		UNRESOLVED
-třídélkový		UNRESOLVED
-třídesetinový		UNRESOLVED
-třídeskový		UNRESOLVED
-třídiamantový		UNRESOLVED
-třídírkový		UNRESOLVED
-třídiskový		UNRESOLVED
-třídolarový		UNRESOLVED
-třídrátový		UNRESOLVED
-třídrážkový		UNRESOLVED
-třídvéřový		UNRESOLVED
-třídveřový		UNRESOLVED
-tříelektrodový		UNRESOLVED
-tříetapový		UNRESOLVED
-tříetážový		UNRESOLVED
-tříeurový		UNRESOLVED
-třífázový		UNRESOLVED
-třífuntový		UNRESOLVED
-třígamový		UNRESOLVED
-třígigabytový		UNRESOLVED
-třígigový		UNRESOLVED
-třígolový		UNRESOLVED
-třígramový		UNRESOLVED
-třígrošový		UNRESOLVED
-tříhabrový		UNRESOLVED
-tříhektarový		UNRESOLVED
-tříhlavňový		UNRESOLVED
-tříhodinový		UNRESOLVED
-tříhodnotový		UNRESOLVED
-tříhořákový		UNRESOLVED
-tříhřišťový		UNRESOLVED
-tříhvězdičkový		UNRESOLVED
-tříchipový		UNRESOLVED
-tříchodový		UNRESOLVED
-tříjamkový		UNRESOLVED
-tříjehlový		UNRESOLVED
-tříkabelový		UNRESOLVED
-tříkajutový		UNRESOLVED
-tříkamerový		UNRESOLVED
-tříkanálový		UNRESOLVED
-tříkatrový		UNRESOLVED
-tříkilogramový		UNRESOLVED
-tříkilový		UNRESOLVED
-tříkilowattový		UNRESOLVED
-tříkládový		UNRESOLVED
-tříklenbový		UNRESOLVED
-tříkloubový		UNRESOLVED
-tříknoflíkový		UNRESOLVED
-tříkolíčkový		UNRESOLVED
-tříkolový		UNRESOLVED
-tříkomorový		UNRESOLVED
-tříkoncovkový		UNRESOLVED
-tříkorunkový		UNRESOLVED
-tříkošilový		UNRESOLVED
-tříkošový		UNRESOLVED
-tříkotlový		UNRESOLVED
-tříkrálový		UNRESOLVED
-tříkrokový		UNRESOLVED
-tříkřídlový		UNRESOLVED
-tříkřížkový		UNRESOLVED
-tříkřížový		UNRESOLVED
-tříkubíkový		UNRESOLVED
-tříkurtový		UNRESOLVED
-tříkusový		UNRESOLVED
-tříkuželkový		UNRESOLVED
-tříkytarový		UNRESOLVED
-třílamelový		UNRESOLVED
-třílampový		UNRESOLVED
-třílegový		UNRESOLVED
-třílibrový		UNRESOLVED
-třílirový		UNRESOLVED
-třílistový		UNRESOLVED
-třílopatkový		UNRESOLVED
-třílopatový		UNRESOLVED
-tříložnicový		UNRESOLVED
-třílůžkový		UNRESOLVED
-třímandátový		UNRESOLVED
-třímanéžový		UNRESOLVED
-třímanuálový		UNRESOLVED
-třímedailový		UNRESOLVED
-třímegatunový		UNRESOLVED
-třímegawatový		UNRESOLVED
-třímegawattový		UNRESOLVED
-třímegový		UNRESOLVED
-třímetový		UNRESOLVED
-třímiliardový		UNRESOLVED
-třímiligramový		UNRESOLVED
-třímilionový		UNRESOLVED
-třímiliónový		UNRESOLVED
-třímílový		UNRESOLVED
-tříminutový		UNRESOLVED
-třímiskový		UNRESOLVED
-třímolekulový		UNRESOLVED
-třímotorový		UNRESOLVED
-třínálevový		UNRESOLVED
-třínápravový		UNRESOLVED
-třínástrojový		UNRESOLVED
-třínormový		UNRESOLVED
-třínulový		UNRESOLVED
-tříobloukový		UNRESOLVED
-tříoborový		UNRESOLVED
-tříobráncový		UNRESOLVED
-tříobrázkový		UNRESOLVED
-tříobrazovkový		UNRESOLVED
-tříodstavcový		UNRESOLVED
-tříokénkový		UNRESOLVED
-tříokruhový		UNRESOLVED
-tříoktávový		UNRESOLVED
-tříoscarový		UNRESOLVED
-tříoskarový		UNRESOLVED
-tříosmičkový		UNRESOLVED
-tříosminový		UNRESOLVED
-tříosový		UNRESOLVED
-tříotáčkový		UNRESOLVED
-tříotočkový		UNRESOLVED
-tříotvorový		UNRESOLVED
-třípalácový		UNRESOLVED
-třípalcový		UNRESOLVED
-třípalubový		UNRESOLVED
-třípanelový		UNRESOLVED
-třípaprskový		UNRESOLVED
-třípárový		UNRESOLVED
-třípásmový		UNRESOLVED
-třípásový		UNRESOLVED
-třípatrový		UNRESOLVED
-třípavilónový		UNRESOLVED
-třípedálový		UNRESOLVED
-třípenaltový		UNRESOLVED
-třípesový		UNRESOLVED
-třípětinový		UNRESOLVED
-třípětkový		UNRESOLVED
-třípilířový		UNRESOLVED
-třípinový		UNRESOLVED
-třípísmenkový		UNRESOLVED
-třípísmenový		UNRESOLVED
-třípísničkový		UNRESOLVED
-třípísňový		UNRESOLVED
-třípístový		UNRESOLVED
-tříplášťový		UNRESOLVED
-tříplotnový		UNRESOLVED
-tříplotýnkový		UNRESOLVED
-třípodnikový		UNRESOLVED
-třípohledový		UNRESOLVED
-třípokojový		UNRESOLVED
-třípokusový		UNRESOLVED
-třípolohový		UNRESOLVED
-třípólový		UNRESOLVED
-třípolový		UNRESOLVED
-tříportálový		UNRESOLVED
-tříposádkový		UNRESOLVED
-tříposchoďový		UNRESOLVED
-třípovídkový		UNRESOLVED
-tříprocesorový		UNRESOLVED
-tříproduktový		UNRESOLVED
-tříprostorový		UNRESOLVED
-tříprotokolový		UNRESOLVED
-tříprstencový		UNRESOLVED
-třípruhový		UNRESOLVED
-tříprůchodový		UNRESOLVED
-tříprvkový		UNRESOLVED
-třípřihláškový		UNRESOLVED
-tříputnový		UNRESOLVED
-třírampový		UNRESOLVED
-třírmutový		UNRESOLVED
-tříročníkový		UNRESOLVED
-třírotorový		UNRESOLVED
-třířádkový		UNRESOLVED
-třířadový		UNRESOLVED
-třísáhový		UNRESOLVED
-třísálový		UNRESOLVED
-třísborový		UNRESOLVED
-třísedadlový		UNRESOLVED
-třísedmičkový		UNRESOLVED
-třísegmentový		UNRESOLVED
-třísektorový		UNRESOLVED
-třísekundový		UNRESOLVED
-třísemestrový		UNRESOLVED
-třísetakrový		UNRESOLVED
-třísetbodový		UNRESOLVED
-třísetdolarový		UNRESOLVED
-tříseteurový		UNRESOLVED
-třísetgólový		UNRESOLVED
-třísetgramový		UNRESOLVED
-třísethodinový		UNRESOLVED
-třísetinový		UNRESOLVED
-třísetkilový		UNRESOLVED
-třísetkolový		UNRESOLVED
-třísetkoňový		UNRESOLVED
-třísetkorunový		UNRESOLVED
-třísetkusový		UNRESOLVED
-třísetminutový		UNRESOLVED
-třísetový		UNRESOLVED
-třísetpokojový		UNRESOLVED
-třísetstupňový		UNRESOLVED
-třísettisícový		UNRESOLVED
-třísettunový		UNRESOLVED
-třísetwattový		UNRESOLVED
-tříschémový		UNRESOLVED
-třísinglový		UNRESOLVED
-třískladbový		UNRESOLVED
-třískupinový		UNRESOLVED
-tříslabikový		UNRESOLVED
-třísladový		UNRESOLVED
-tříslotový		UNRESOLVED
-třísloupcový		UNRESOLVED
-třísložkový		UNRESOLVED
-třísongový		UNRESOLVED
-třísouborový		UNRESOLVED
-třísoustavový		UNRESOLVED
-třístavový		UNRESOLVED
-třístěžňový		UNRESOLVED
-třístoličkový		UNRESOLVED
-třístránkový		UNRESOLVED
-třístudňový		UNRESOLVED
-třístupňový		UNRESOLVED
-třísvazkový		UNRESOLVED
-třísvětlový		UNRESOLVED
-třísystémový		UNRESOLVED
-tříšňůrový		UNRESOLVED
-třítabulový		UNRESOLVED
-třítahový		UNRESOLVED
-třítaktový		UNRESOLVED
-třítarifový		UNRESOLVED
-třítělesový		UNRESOLVED
-třítisícový		UNRESOLVED
-třítlačítkový		UNRESOLVED
-třítónový		UNRESOLVED
-třítraktový		UNRESOLVED
-třítréninkový		UNRESOLVED
-třítřetinový		UNRESOLVED
-tříturnajový		UNRESOLVED
-tříúderový		UNRESOLVED
-tříúrovňový		UNRESOLVED
-tříuzlový		UNRESOLVED
-třívagónový		UNRESOLVED
-tříventilový		UNRESOLVED
-třívěžový		UNRESOLVED
-třívchodový		UNRESOLVED
-třívíkendový		UNRESOLVED
-třívodičový		UNRESOLVED
-třívoltový		UNRESOLVED
-třívozový		UNRESOLVED
-třívrstvový		UNRESOLVED
-třívřetenový		UNRESOLVED
-třívteřinový		UNRESOLVED
-třívýhonkový		UNRESOLVED
-tříwattový		UNRESOLVED
-třízámkový		UNRESOLVED
-třízápasový		UNRESOLVED
-třízapasový		UNRESOLVED
-třízastávkový		UNRESOLVED
-třízávodový		UNRESOLVED
-třízdrojový		UNRESOLVED
-tříznakový		UNRESOLVED
-třízónový		UNRESOLVED
-třízvonový		UNRESOLVED
-třížánrový		UNRESOLVED
-třížilový		UNRESOLVED
-zahumnový		UNRESOLVED
-zakanálový		UNRESOLVED
-zapažnicový		UNRESOLVED
-? zaponový		UNRESOLVED  A:zápon
-zelenobéžový		UNRESOLVED
-zelenofialový		UNRESOLVED
-zelenokrémový		UNRESOLVED
-zelenookrový		UNRESOLVED
-zelenoolivový		UNRESOLVED
-zelenooranžový		UNRESOLVED
-zelenopepřový		UNRESOLVED
-zelenorůžový		UNRESOLVED
-zelenovínový		UNRESOLVED
-zubodásňový		UNRESOLVED
-železnooponový		UNRESOLVED
-žlutobéžový		UNRESOLVED
-žlutobronzový		UNRESOLVED
-žlutofialový		UNRESOLVED
-žlutokarmínový		UNRESOLVED
-žlutokrémový		UNRESOLVED
-žlutomramorový		UNRESOLVED
-žlutonachový		UNRESOLVED
-žlutookrový		UNRESOLVED
-žlutoolivový		UNRESOLVED
-žlutooranžový		UNRESOLVED
-žlutopískový		UNRESOLVED
-žlutorůžový		UNRESOLVED
-žlutotyrkysový		UNRESOLVED
-žlutovínový		UNRESOLVED
-beztvarový		UNRESOLVED
-dvousetfilmový		UNRESOLVED
-dvousetgramový		UNRESOLVED
-dvousettunový		UNRESOLVED
-N expertízový		UNRESOLVED A:expertíza
-jednomodový		UNRESOLVED
-nadúčelový		UNRESOLVED
-osmimilionový		UNRESOLVED
-pětimilionový		UNRESOLVED
-N proteínový		UNRESOLVED  A:protein
-šestimilionový		UNRESOLVED
-angloarabský		UNRESOLVED
-angloirský		UNRESOLVED
-anglokanadský		UNRESOLVED
-anglonormanský		UNRESOLVED
-anglosaský		UNRESOLVED
-bělobranský		UNRESOLVED
-bělocerkevský		UNRESOLVED
-bělogvardějský		UNRESOLVED
-bělohorský		UNRESOLVED
-N bělojarský		UNRESOLVED  A:Bělojarsk
-bělokarpatský		UNRESOLVED
-bělokostelský		UNRESOLVED
-bělomořský		UNRESOLVED
-běloveský		UNRESOLVED
-bělovežský		UNRESOLVED
-? bezenský		UNRESOLVED
-bezmanželský		UNRESOLVED
-beznáboženský		UNRESOLVED
-bezpopovský		UNRESOLVED
-bezúplatkářský		UNRESOLVED
-bezwatersovský		UNRESOLVED
-bílokarpatský		UNRESOLVED
-bílokostelský		UNRESOLVED
-bílopodolský		UNRESOLVED
-N biokovský		UNRESOLVED A:Biokovo
-biokuchařský		UNRESOLVED
-biolékařský		UNRESOLVED
-biozemědělský		UNRESOLVED
-černodolský		UNRESOLVED
-černoleský		UNRESOLVED
-černomorský		UNRESOLVED
-? černopetrovský		UNRESOLVED
-černopolský		UNRESOLVED
-N černosotěnský		UNRESOLVED M:černosotěnec
-N černosotněnský		UNRESOLVED  A:černosotněnec
-českobavorský		UNRESOLVED
-českobělský		UNRESOLVED
-českobratrský		UNRESOLVED
-českobritský		UNRESOLVED
-českoitalský		UNRESOLVED
-českokanadský		UNRESOLVED
-českolatinský		UNRESOLVED
-českomalínský		UNRESOLVED
-českomoravský		UNRESOLVED
-českopolský		UNRESOLVED
-českorajský		UNRESOLVED
-českorakouský		UNRESOLVED
-českoruský		UNRESOLVED
-českosaský		UNRESOLVED
-českoslávský		UNRESOLVED
-českoslovanský		UNRESOLVED
-českošvýcarský		UNRESOLVED
-českožidovský		UNRESOLVED
-cisalpinský		UNRESOLVED
-cisalpínský		UNRESOLVED
-cispadánský		UNRESOLVED
-N dvojčátkovský		UNRESOLVED A:dvojčátko
-dvouautorský		UNRESOLVED
-dvoupyský		UNRESOLVED
-exargentinský		UNRESOLVED
-exbenešovský		UNRESOLVED
-exblšanský		UNRESOLVED
-exboleslavský		UNRESOLVED
-exbrněnský		UNRESOLVED
-exchomutovský		UNRESOLVED
-exděčínský		UNRESOLVED
-exházenkářský		UNRESOLVED
-exhlučínský		UNRESOLVED
-exjihlavský		UNRESOLVED
-exjugoslávský		UNRESOLVED
-exkarlovarský		UNRESOLVED
-exkarvinský		UNRESOLVED
-exkladenský		UNRESOLVED
-exkrumlovský		UNRESOLVED
-exlitvínovský		UNRESOLVED
-N exploatátorský		UNRESOLVED  A:exploatátor
-explzeňský		UNRESOLVED
-exprešovský		UNRESOLVED
-expříbramský		UNRESOLVED
-exprostějovský		UNRESOLVED
-exsevillský		UNRESOLVED
-exsokolovský		UNRESOLVED
-exsovětský		UNRESOLVED
-exstudentský		UNRESOLVED
-exšumperský		UNRESOLVED
-extáborský		UNRESOLVED
-extřebíčský		UNRESOLVED
-extrenčínský		UNRESOLVED
-exvsetínský		UNRESOLVED
-exžižkovský		UNRESOLVED
-exzlínský		UNRESOLVED
-exznojemský		UNRESOLVED
-hlubokodolský		UNRESOLVED
-hlubokomořský		UNRESOLVED
-jednobožský		UNRESOLVED
-jednoklientský		UNRESOLVED
-N jednotenský		UNRESOLVED A:jednota
-králodvorský		UNRESOLVED
-královodvorský		UNRESOLVED
-královopolský		UNRESOLVED
-krásnodvorský		UNRESOLVED
-krásnohorský		UNRESOLVED
-modrodolský		UNRESOLVED
-modrohorský		UNRESOLVED
-modropyský		UNRESOLVED
-? nadbožský		UNRESOLVED
-naddunajský		UNRESOLVED
-? nadlidský		UNRESOLVED
-nadměstský		UNRESOLVED
-nadmořský		UNRESOLVED
-nadnáboženský		UNRESOLVED
-? nadpozemský		UNRESOLVED
-nadsvětský		UNRESOLVED
-nadzemský		UNRESOLVED
-N newcomerský		UNRESOLVED A:newcomer
-newgateský		UNRESOLVED
-newhampshirský		UNRESOLVED
-newjerseyský		UNRESOLVED
-neworleanský		UNRESOLVED
-neworleánský		UNRESOLVED
-newyorkský		UNRESOLVED
-newyorský		UNRESOLVED
-orlickohorský		UNRESOLVED
-N pětipeský		UNRESOLVED A:Pětipsy
-poapoštolský		UNRESOLVED
-pobartoškovský		UNRESOLVED
-pobártovský		UNRESOLVED
-pobělohorský		UNRESOLVED
-poberounský		UNRESOLVED
-pobonnský		UNRESOLVED
-počapelský		UNRESOLVED
-pocastrovský		UNRESOLVED
-pocézannovský		UNRESOLVED
-podalpínský		UNRESOLVED
-podbělohorský		UNRESOLVED
-podbranský		UNRESOLVED
-podčerchovský		UNRESOLVED
-podčeskoleský		UNRESOLVED
-N poddanský		UNRESOLVED A:poddaný
-podegaullovský		UNRESOLVED
-podfarmářský		UNRESOLVED
-podhalanský		UNRESOLVED
-podhimálajský		UNRESOLVED
-podjavorinský		UNRESOLVED
-podkavkazský		UNRESOLVED
-podkrajský		UNRESOLVED
-podkumburský		UNRESOLVED
-N podleský		UNRESOLVED  A:podlesí
-podlidský		UNRESOLVED
-podlipský		UNRESOLVED
-podmokelský		UNRESOLVED
-podmoskevský		UNRESOLVED
-podnovinářský		UNRESOLVED
-podpolianský		UNRESOLVED
-podroháčský		UNRESOLVED
-podsaharský		UNRESOLVED
-podtatranský		UNRESOLVED
-poevropský		UNRESOLVED
-pofrankovský		UNRESOLVED
-pogiottovský		UNRESOLVED
-N pogramátorský		UNRESOLVED A:var. programátorský
-pohegelovský		UNRESOLVED
-pohomérský		UNRESOLVED
-N pohostinský		UNRESOLVED A:pohostiství
-pohusitský		UNRESOLVED
-N pojišťovenský		UNRESOLVED A:pojišťovna
-pojizerský		UNRESOLVED
-pokantovský		UNRESOLVED
-poklausovský		UNRESOLVED
-pokraskovský		UNRESOLVED
-pokřesťanský		UNRESOLVED
-pokrkonošský		UNRESOLVED
-N poláčkovský		UNRESOLVED A:Poláček
-polipanský		UNRESOLVED
-polipenský		UNRESOLVED
-N polničský		UNRESOLVED A:Polnička
-polpotovský		UNRESOLVED
-polskočeský		UNRESOLVED
-polskoslezský		UNRESOLVED
-polubenský		UNRESOLVED  A:Polubný
-pomečiarovský		UNRESOLVED
-pomnichovský		UNRESOLVED
-N pomorský		UNRESOLVED
-ponapoleonský		UNRESOLVED
-? ponikelský		UNRESOLVED
-N ponocenský		UNRESOLVED  A:ponocný
-N pontinský		UNRESOLVED A:Pontus
-poolympijský		UNRESOLVED
-poosvícenský		UNRESOLVED
-N poradenský		UNRESOLVED  A:poradna
-pořímský		UNRESOLVED
-N portorikánský		UNRESOLVED A:Portoriko
-portroyalský		UNRESOLVED
-porurský		UNRESOLVED
-porúrský		UNRESOLVED
-porushdiovský		UNRESOLVED
-posarajevský		UNRESOLVED
-? pošechonský		UNRESOLVED
-posovětský		UNRESOLVED
-N poštorenský		UNRESOLVED A:Poštorná
-potalichovský		UNRESOLVED
-potridentský		UNRESOLVED
-N potůčský		UNRESOLVED  A:Potůčky
-N powellovský		UNRESOLVED A:Powell
-powimbledonský		UNRESOLVED
-pozdněřímský		UNRESOLVED
-pozemanovský		UNRESOLVED
-pozemský		UNRESOLVED
-N pozzuolský		UNRESOLVED  A:Pozzuoli
-prebakalářský		UNRESOLVED
-předalpský		UNRESOLVED
-předárijský		UNRESOLVED
-předbabylonský		UNRESOLVED
-předbachovský		UNRESOLVED
-předbakalářský		UNRESOLVED
-předbaťovský		UNRESOLVED
-předbělohorský		UNRESOLVED
-předdevonský		UNRESOLVED
-N predělský		UNRESOLVED A:Preděl
-předevropský		UNRESOLVED
-předfarmářský		UNRESOLVED
-předfrankovský		UNRESOLVED
-předharappský		UNRESOLVED
-předhelénský		UNRESOLVED
-předhimálajský		UNRESOLVED
-předhomérovský		UNRESOLVED
-předhorský		UNRESOLVED
-předhusitský		UNRESOLVED
-předislámský		UNRESOLVED
-předjosefínský		UNRESOLVED
-předkarolínský		UNRESOLVED
-předkarpatský		UNRESOLVED
-předkeltský		UNRESOLVED
-předkosmovský		UNRESOLVED
-předkřesťanský		UNRESOLVED
-předlékařský		UNRESOLVED
-předlisabonský		UNRESOLVED
-předmanželský		UNRESOLVED
-předmartinský		UNRESOLVED
-předmaurjský		UNRESOLVED
-předmayský		UNRESOLVED
-předmikulášský		UNRESOLVED
-předmistrovský		UNRESOLVED
-předmnichovský		UNRESOLVED
-N přednostenský		UNRESOLVED A:přednosta
-předpěstounský		UNRESOLVED
-předpředloňský		UNRESOLVED
-předřímský		UNRESOLVED
-předrománský		UNRESOLVED
-předsarajevský		UNRESOLVED
-předškolský		UNRESOLVED
-předslovanský		UNRESOLVED
-předsóánský		UNRESOLVED
-předsovětský		UNRESOLVED
-předšpanělský		UNRESOLVED
-předstalinský		UNRESOLVED
-předtkalcovský		UNRESOLVED
-předverdiovský		UNRESOLVED
-předvojenský		UNRESOLVED
-prekambrijský		UNRESOLVED
-N prenzlavský		UNRESOLVED A:Prenzlau
-preobraženský		UNRESOLVED
-N prespanský		UNRESOLVED  A:Prespa
-N prespánský		UNRESOLVED  A:Prespa
-N prestonský		UNRESOLVED  A:Preston
-proarabský		UNRESOLVED
-proarménský		UNRESOLVED
-probagdádský		UNRESOLVED
-probavorský		UNRESOLVED
-probělehradský		UNRESOLVED
-probosenský		UNRESOLVED
-probritský		UNRESOLVED
-probruselský		UNRESOLVED
-procarský		UNRESOLVED
-procastrovský		UNRESOLVED
-pročečenský		UNRESOLVED
-pročeský		UNRESOLVED
-prochorvatský		UNRESOLVED
-N prochotský		UNRESOLVED  A:Prochot
-procikánský		UNRESOLVED
-pročínský		UNRESOLVED
-pročtenářský		UNRESOLVED
-produdajevský		UNRESOLVED
-proegyptský		UNRESOLVED
-proevropský		UNRESOLVED
-profarmářský		UNRESOLVED
-profrancouzský		UNRESOLVED
-profučíkovský		UNRESOLVED
-progabčíkovský		UNRESOLVED
-progajdarovský		UNRESOLVED
-progorbačovský		UNRESOLVED
-progruzínský		UNRESOLVED
-progusejnovský		UNRESOLVED
-prohabsburský		UNRESOLVED
-prohavlovský		UNRESOLVED
-prohitlerovský		UNRESOLVED
-prohusitský		UNRESOLVED
-proilieskovský		UNRESOLVED
-proindonéský		UNRESOLVED
-proíránský		UNRESOLVED
-proirský		UNRESOLVED
-proislámský		UNRESOLVED
-proitalský		UNRESOLVED
-proizraelský		UNRESOLVED
-projakartský		UNRESOLVED
-projaponský		UNRESOLVED
-projelcinovský		UNRESOLVED
-projugoslávský		UNRESOLVED
-proklausovský		UNRESOLVED
-proklepáčovský		UNRESOLVED
-proklientský		UNRESOLVED
-prokonžský		UNRESOLVED
-prokrálovský		UNRESOLVED
-prokremelský		UNRESOLVED
-prokubánský		UNRESOLVED
-prokurdský		UNRESOLVED
-prokurtizánský		UNRESOLVED
-prolibyjský		UNRESOLVED
-prolidský		UNRESOLVED
-prolisabonský		UNRESOLVED
-promaďarský		UNRESOLVED
-promečiarovský		UNRESOLVED
-prométheovský		UNRESOLVED
-promilionářský		UNRESOLVED
-promuslimský		UNRESOLVED
-promužský		UNRESOLVED
-proobamovský		UNRESOLVED
-proochranářský		UNRESOLVED
-proodborářský		UNRESOLVED
-propákistánský		UNRESOLVED
-propalestinský		UNRESOLVED
-propapežský		UNRESOLVED
-propekingský		UNRESOLVED
-propotratářský		UNRESOLVED
-propruský		UNRESOLVED
-proputinovský		UNRESOLVED
-proputinský		UNRESOLVED
-prorakouský		UNRESOLVED
-prořímský		UNRESOLVED
-proromský		UNRESOLVED
-prorumunský		UNRESOLVED
-proruský		UNRESOLVED
-prosaddámovský		UNRESOLVED
-prosarajevský		UNRESOLVED
-prosovětský		UNRESOLVED
-prošpanělský		UNRESOLVED
-prosrbský		UNRESOLVED
-prostalinský		UNRESOLVED
-prosyrský		UNRESOLVED
-protemelínský		UNRESOLVED
-protemplářský		UNRESOLVED
-N proteovský		UNRESOLVED  A:Proteus
-protunelářský		UNRESOLVED
-protutsijský		UNRESOLVED
-proukrajinský		UNRESOLVED
-N proutkářský		UNRESOLVED A:proutkář
-N provázkářský		UNRESOLVED  A:provázkář
-? provázkovský		UNRESOLVED  A:Provázek
-provelrybářský		UNRESOLVED
-N provencalský		UNRESOLVED  A:Provence
-provídeňský		UNRESOLVED
-provietnamský		UNRESOLVED
-provojenský		UNRESOLVED
-prozemanovský		UNRESOLVED
-prozemědělský		UNRESOLVED
-proženský		UNRESOLVED
-římskolatinský		UNRESOLVED
-římskopapežský		UNRESOLVED
-říšskoradský		UNRESOLVED
-rudoarmějský		UNRESOLVED
-rudokhmerský		UNRESOLVED
-N rudolfinský		UNRESOLVED A:Rudolf
-rudomořský		UNRESOLVED
-ruskočečenský		UNRESOLVED
-ruskoslovanský		UNRESOLVED
-safraholtský		UNRESOLVED
-saframentský		UNRESOLVED
-safraportský		UNRESOLVED
-sandiegský		UNRESOLVED
-N sandinovský		UNRESOLVED A:Sandin
-N sandoměřský		UNRESOLVED A:Sandoměř
-sanfranciský		UNRESOLVED
-sanktpöltenský		UNRESOLVED
-sanmarinský		UNRESOLVED
-sansalvadorský		UNRESOLVED
-N sanskritský		UNRESOLVED A:sanskrt
-sanstefanský		UNRESOLVED
-N santiagský		UNRESOLVED  A:Santiago
-N santraginský		UNRESOLVED  A:Santragin
-sedmidubský		UNRESOLVED
-sedmihorský		UNRESOLVED
-sedmihůrský		UNRESOLVED
-sedmipanský		UNRESOLVED
-šestipanský		UNRESOLVED
-N stolářský		UNRESOLVED A:stolář
-stouživatelský		UNRESOLVED
-subalpinský		UNRESOLVED
-subalpínský		UNRESOLVED
-subsaharský		UNRESOLVED
-subsahelský		UNRESOLVED
-tichoceánský		UNRESOLVED
-tichooceánský		UNRESOLVED
-N tichošlápskský		UNRESOLVED  A:tichošlápek
-N tichošlápský		UNRESOLVED  A:tichošlápek
-třídvorský		UNRESOLVED
-tříkrálovský		UNRESOLVED
-N třímanský		UNRESOLVED A:Třímany
-třísekerský		UNRESOLVED
-třísekyrský		UNRESOLVED
-třísesterský		UNRESOLVED
-třísestrovský		UNRESOLVED
-tříuživatelský		UNRESOLVED
-N trivenetský		UNRESOLVED A:Triveneto
-N trojánský		UNRESOLVED A:Trójan
-N trojský		UNRESOLVED A:Troja
-vandammovský		UNRESOLVED
-vandyckovský		UNRESOLVED
-vandykovský		UNRESOLVED
-vangoghovský		UNRESOLVED
-zaalajský		UNRESOLVED
-zaalpský		UNRESOLVED
-zaaltajský		UNRESOLVED
-N zaanský		UNRESOLVED A:Zaan
-zaatlantský		UNRESOLVED
-N zabranovský		UNRESOLVED A:Zábrana
-zadnotřebaňský		UNRESOLVED
-N zahradkářský		UNRESOLVED  A:zahrádkář
-N zahurský		UNRESOLVED  A:Zahura
-zailijský		UNRESOLVED
-zakarlovarský		UNRESOLVED
-? zalamejský		UNRESOLVED
-N zambezský		UNRESOLVED A:Zambezi
-zamoskevský		UNRESOLVED
-N zangelanský		UNRESOLVED A:Zangelan
-N zangezurský		UNRESOLVED A:Zangezur
-zaoceánský		UNRESOLVED
-N zasilatelský		UNRESOLVED  A:zasilatel
-N zašovský		UNRESOLVED  A:Zašov
-zauralský		UNRESOLVED
-zelenobranský		UNRESOLVED
-zelenodolský		UNRESOLVED
-zelenogorský		UNRESOLVED
-zelenohorský		UNRESOLVED
-zelenolhotský		UNRESOLVED
-zelenoluský		UNRESOLVED
-železnohorský		UNRESOLVED
-železnovodský		UNRESOLVED
-žlutoluský		UNRESOLVED
-zubolékařský		UNRESOLVED
-N dvouoborářský	dvouobor	CHANGE: 0 --> ářský
-N exotářský	exot	CHANGE: 0 --> ářský
-N počasářský	počas	CHANGE: 0 --> ářský  A:počasí
-N pohonářský	pohon	CHANGE: 0 --> ářský
-N programářský	program	CHANGE: 0 --> ářský
-N proutníkářský	proutník	CHANGE: 0 --> ářský
-N bezručovský	Bezruč	CHANGE: 0 --> ovský
-N excelovský	excel	CHANGE: 0 --> ovský
-N newtonovský	newton	CHANGE: 0 --> ovský  A:Newton
-N poeovský	Poe	CHANGE: 0 --> ovský
-N popperovský	Popper	CHANGE: 0 --> ovský
-N portmanovský	Portman	CHANGE: 0 --> ovský
-N portnoyovský	Portnoy	CHANGE: 0 --> ovský
-N posixovský	Posix	CHANGE: 0 --> ovský
-N poslovský	Posl	CHANGE: 0 --> ovský  A:posel
-N pospíšilovský	Pospíšil	CHANGE: 0 --> ovský
-N poštmistrovský	poštmistr	CHANGE: 0 --> ovský
-N potěmkinovský	Potěmkin	CHANGE: 0 --> ovský
-N potterovský	Potter	CHANGE: 0 --> ovský
-M poundovský	pound	CHANGE: 0 --> ovský
-předžákovský	předžák	CHANGE: 0 --> ovský
-N preislerovský	Preisler	CHANGE: 0 --> ovský
-N preisnerovský	Preisner	CHANGE: 0 --> ovský
-N presleyovský	Presley	CHANGE: 0 --> ovský
-N procovský	proc	CHANGE: 0 --> ovský
-N prologovský	prolog	CHANGE: 0 --> ovský
-N proustovský	Proust	CHANGE: 0 --> ovský
-N sandburgovský	Sandburg	CHANGE: 0 --> ovský
-N santiniovský	Santini	CHANGE: 0 --> ovský
-N stoiberovský	Stoiber	CHANGE: 0 --> ovský
-N stoneovský	Stone	CHANGE: 0 --> ovský
-N stonesovský	Stones	CHANGE: 0 --> ovský
-N stounovský	Stoun	CHANGE: 0 --> ovský
-N tichonovovský	Tichonov	CHANGE: 0 --> ovský
-N tristanovský	Tristan	CHANGE: 0 --> ovský
-N bělohradský	Bělohrad	CHANGE: 0 --> ský
-N bělotínský	Bělotín	CHANGE: 0 --> ský
-N bělověžský	Bělověž	CHANGE: 0 --> ský
-N bělovský	Bělov	CHANGE: 0 --> ský
-N bezděkovský	Bezděkov	CHANGE: 0 --> ský
-N bezdězský	Bezděz	CHANGE: 0 --> ský
-N bezdrevský	Bezdrev	CHANGE: 0 --> ský
-N bezměrovský	Bezměrov	CHANGE: 0 --> ský
-N bezvěrovský	Bezvěrov	CHANGE: 0 --> ský
-N bílovský	Bílov	CHANGE: 0 --> ský
-N černobylský	Černobyl	CHANGE: 0 --> ský
-N černodubský	Černodub	CHANGE: 0 --> ský
-N černošínský	Černošín	CHANGE: 0 --> ský
-N černotínský	Černotín	CHANGE: 0 --> ský
-N černovírský	Černovír	CHANGE: 0 --> ský
-N černovský	Černov	CHANGE: 0 --> ský
-N exeterský	Exeter	CHANGE: 0 --> ský
-N královský	Králov	CHANGE: 0 --> ský  A:král
-N nadějkovský	Nadějkov	CHANGE: 0 --> ský
-N nadějovský	Nadějov	CHANGE: 0 --> ský
-N nadžafský	Nadžaf	CHANGE: 0 --> ský
-N newportský	Newport	CHANGE: 0 --> ský
-N podhájský	Podháj	CHANGE: 0 --> ský
-N podhradský	Podhrad	CHANGE: 0 --> ský
-N podkováňský	Podkováň	CHANGE: 0 --> ský
-N podlešínský	Podlešín	CHANGE: 0 --> ský
-N podolský	Podol	CHANGE: 0 --> ský  A:Podolí
-N pohořský	Pohoř	CHANGE: 0 --> ský
-N pokémonský	Pokémon	CHANGE: 0 --> ský
-N pokojský	pokoj	CHANGE: 0 --> ský
-poleský	pole	CHANGE: 0 --> ský
-N polevský	Polev	CHANGE: 0 --> ský  A:Polevsko
-N poljanský	Poljan	CHANGE: 0 --> ský
-N polský	Pol	CHANGE: 0 --> ský  A:Polsko
-N ponědražský	Ponědraž	CHANGE: 0 --> ský
-N poníkářský	poníkář	CHANGE: 0 --> ský
-N popíkářský	popíkář	CHANGE: 0 --> ský
-N popradský	Poprad	CHANGE: 0 --> ský
-N popronský	Popron	CHANGE: 0 --> ský
-N pořejovský	Pořejov	CHANGE: 0 --> ský
-N poříčský	Poříč	CHANGE: 0 --> ský  A:Poříčí
-N portsmouthský	Portsmouth	CHANGE: 0 --> ský
-N poseidonský	Poseidon	CHANGE: 0 --> ský
-N poteauský	Poteau	CHANGE: 0 --> ský
-N potěmkinský	Potěmkin	CHANGE: 0 --> ský
-N poťomkinský	Poťomkin	CHANGE: 0 --> ský
-N potrubářský	potrubář	CHANGE: 0 --> ský
-N potštátský	Potštát	CHANGE: 0 --> ský
-N potštejnský	Potštejn	CHANGE: 0 --> ský
-N pouchovský	Pouchov	CHANGE: 0 --> ský
-N pozdeňský	Pozdeň	CHANGE: 0 --> ský
-N poznaňský	Poznaň	CHANGE: 0 --> ský
-N předbořský	Předboř	CHANGE: 0 --> ský
-předčtenářský	předčtenář	CHANGE: 0 --> ský
-N předínský	Předín	CHANGE: 0 --> ský
-N preslavský	Preslav	CHANGE: 0 --> ský
-N prešovský	Prešov	CHANGE: 0 --> ský
-N proboštovský	Proboštov	CHANGE: 0 --> ský
-N prosečský	Proseč	CHANGE: 0 --> ský
-N prosetínský	Prosetín	CHANGE: 0 --> ský
-N prostějovský	Prostějov	CHANGE: 0 --> ský
-N proutěnkářský	proutěnkář	CHANGE: 0 --> ský
-N provodínský	Provodín	CHANGE: 0 --> ský
-N provodovský	Provodov	CHANGE: 0 --> ský
-N prozorovský	Prozorov	CHANGE: 0 --> ský
-N rudolfovský	Rudolfov	CHANGE: 0 --> ský
-N rudolstadtský	Rudolstadt	CHANGE: 0 --> ský
-N santanderský	Santander	CHANGE: 0 --> ský
-N stochovský	Stochov	CHANGE: 0 --> ský
-N stockholmský	Stockholm	CHANGE: 0 --> ský
-N stodský	Stod	CHANGE: 0 --> ský
-N stonařovský	Stonařov	CHANGE: 0 --> ský
-N stormontský	Stormont	CHANGE: 0 --> ský
-N trianonský	Trianon	CHANGE: 0 --> ský
-N tridentský	Trident	CHANGE: 0 --> ský
-N triglavský	Triglav	CHANGE: 0 --> ský
-N trinidadský	Trinidad	CHANGE: 0 --> ský
-N trinitářský	trinitář	CHANGE: 0 --> ský
-N tripoliský	Tripoli	CHANGE: 0 --> ský
-N třísovský	Třísov	CHANGE: 0 --> ský
-N trojanský	Trojan	CHANGE: 0 --> ský
-N vancouverský	Vancouver	CHANGE: 0 --> ský
-N vanovský	Vanov	CHANGE: 0 --> ský
-N zadarský	Zadar	CHANGE: 0 --> ský
-N zaháňský	Zaháň	CHANGE: 0 --> ský
-N zairský	Zair	CHANGE: 0 --> ský
-N zaječovský	Zaječov	CHANGE: 0 --> ský
-N zanzibarský	Zanzibar	CHANGE: 0 --> ský
-N zapský	Zap	CHANGE: 0 --> ský
-N zastrkovský	Zastrkov	CHANGE: 0 --> ský
-N zelenovský	Zelenov	CHANGE: 0 --> ský
-N jednotářský	jednota	CHANGE: a --> ářský
-N pochutinářský	pochutina	CHANGE: a --> ářský
-N podzemkářský	podzemka	CHANGE: a --> ářský
-N ponorkářský	ponorka	CHANGE: a --> ářský
-N popravářský	poprava	CHANGE: a --> ářský
-N proměnářský	proměna	CHANGE: a --> ářský
-N vanilkářský	vanilka	CHANGE: a --> ářský
-N popelkovský	popelka	CHANGE: a --> ovský
-N potápkovský	potápka	CHANGE: a --> ovský
-N procházkovský	procházka	CHANGE: a --> ovský A:Procházka
-N prokrustovský	Prokrusta	CHANGE: a --> ovský
-N santanovský	Santana	CHANGE: a --> ovský
-N vančurovský	Vančura	CHANGE: a --> ovský
-N zapatovský	Zapata	CHANGE: a --> ovský
-N zappovský	Zappa	CHANGE: a --> ovský
-N podbabský	Podbaba	CHANGE: a --> ský
-N podhorský	Podhora	CHANGE: a --> ský
-N potvorský	potvora	CHANGE: a --> ský
-N rudolfínský	Rudolfína	CHANGE: a --> ský A:Rudolf
-N stodolský	stodola	CHANGE: a --> ský
-N stonavský	Stonava	CHANGE: a --> ský
-N tripurský	Tripura	CHANGE: a --> ský
-N vanuatský	Vanuata	CHANGE: a --> ský A:Vanuatu
-N zamský	Zama	CHANGE: a --> ský
-N poradcovský	poradce	CHANGE: ce --> covský
-N pompejský	Pompeje	CHANGE: e --> ský
-N pretorijský	Pretorie	CHANGE: ie --> ijský
-N zambijský	Zambie	CHANGE: ie --> ijský
-N cislajtánský	Cislajtánie	CHANGE: ie --> ský
-N bezdomovský	bezdomoví	CHANGE: í --> ský
-N černomořský	Černomoří	CHANGE: í --> ský
-N dvouměstský	dvouměstí	CHANGE: í --> ský
-N pobaltský	Pobaltí	CHANGE: í --> ský
-N podalpský	Podalpí	CHANGE: í --> ský
-N podbeskydský	Podbeskydí	CHANGE: í --> ský
-N podještědský	Podještědí	CHANGE: í --> ský
-N podkrkonošský	Podkrkonoší	CHANGE: í --> ský
-podměstský	podměstí	CHANGE: í --> ský
-podmořský	podmoří	CHANGE: í --> ský
-N podpálavský	Podpálaví	CHANGE: í --> ský
-N podskalský	podskalí	CHANGE: í --> ský
-N podyjský	Podyjí	CHANGE: í --> ský
-podzemský	podzemí	CHANGE: í --> ský
-N pohlavský	pohlaví	CHANGE: í --> ský
-N pohronský	Pohroní	CHANGE: í --> ský
-N pokladenský	pokladení	CHANGE: í --> ský A:pokladna
-N polabský	Polabí	CHANGE: í --> ský
-N pomořský	pomoří	CHANGE: í --> ský
-N pootavský	Pootaví	CHANGE: í --> ský
-N poručenský	poručení	CHANGE: í --> ský
-N posávský	Posáví	CHANGE: í --> ský
-N pošumavský	Pošumaví	CHANGE: í --> ský
-N posvícenský	posvícení	CHANGE: í --> ský
-N povážský	Pováží	CHANGE: í --> ský
-N povltavský	Povltaví	CHANGE: í --> ský
-N povolžský	Povolží	CHANGE: í --> ský
-N předměstský	předměstí	CHANGE: í --> ský
-N předmostský	předmostí	CHANGE: í --> ský
-N probuzenský	probuzení	CHANGE: í --> ský
-proslovenský	proslovení	CHANGE: í --> ský
-N tichomořský	tichomoří	CHANGE: í --> ský
-N zadunajský	Zadunají	CHANGE: í --> ský
-zamagurský	Zamagurí	CHANGE: í --> ský
-N zasvěcenský	zasvěcení	CHANGE: í --> ský A:zasvěcenec
-N pressburský	Pressburg	CHANGE: rg --> rský
-N prešporský	Prešpork	CHANGE: rk --> rský
-N prešpurský	Prešpurk	CHANGE: rk --> rský
-N provazárenský	provazárna	CHANGE: rna --> renský
-N třídírenský	třídírna	CHANGE: rna --> renský
-N zastavárenský	zastavárna	CHANGE: rna --> renský
-N běloruský	Bělorusko	CHANGE: sko --> ský
-božídarský	Božídarsko	CHANGE: sko --> ský
-černohorský	Černohorsko	CHANGE: sko --> ský
-českobrodský	Českobrodsko	CHANGE: sko --> ský
-českodubský	Českodubsko	CHANGE: sko --> ský
-českolipský	Českolipsko	CHANGE: sko --> ský
-N československý	Československo	CHANGE: sko --> ský
-českotěšínský	Českotěšínsko	CHANGE: sko --> ský
-českotřebovský	Českotřebovsko	CHANGE: sko --> ský
-královédvorský	Královédvorsko	CHANGE: sko --> ský
-krásnolipský	Krásnolipsko	CHANGE: sko --> ský
-podbrdský	Podbrdsko	CHANGE: sko --> ský
-podhostýnský	Podhostýnsko	CHANGE: sko --> ský
-podkarpatský	Podkarpatsko	CHANGE: sko --> ský
-podlipanský	Podlipansko	CHANGE: sko --> ský
-podněsterský	Podněstersko	CHANGE: sko --> ský
-podřipský	Podřipsko	CHANGE: sko --> ský
-podunajský	Podunajsko	CHANGE: sko --> ský
-polenský	Polensko	CHANGE: sko --> ský
-N poličský	Poličsko	CHANGE: sko --> ský A:Polička 
-porýnský	Porýnsko	CHANGE: sko --> ský
-posázavský	Posázavsko	CHANGE: sko --> ský
-předlitavský	Předlitavsko	CHANGE: sko --> ský
-N předloňský	předloňsko	CHANGE: sko --> ský A:předloni
-provensálský	provensálsko	CHANGE: sko --> ský A:Provence
-N sedmihradský	Sedmihradsko	CHANGE: sko --> ský
-N tripolský	Tripolsko	CHANGE: sko --> ský
-zabajkalský	Zabajkalsko	CHANGE: sko --> ský
-zajordánský	Zajordánsko	CHANGE: sko --> ský
-zakarpatský	Zakarpatsko	CHANGE: sko --> ský
-zakavkazský	Zakavkazsko	CHANGE: sko --> ský
-zalitavský	Zalitavsko	CHANGE: sko --> ský
-zatatranský	Zatatransko	CHANGE: sko --> ský
-železnobrodský	Železnobrodsko	CHANGE: sko --> ský
-železnorudský	Železnorudsko	CHANGE: sko --> ský
-N počeradský	Počerady	CHANGE: y --> ský
-N podbořanský	Podbořany	CHANGE: y --> ský
-N poděvousský	Poděvousy	CHANGE: y --> ský
-N podhořanský	Podhořany	CHANGE: y --> ský
-N podůlšanský	Podůlšany	CHANGE: y --> ský
-pohorský	pohory	CHANGE: y --> ský
-N polabinský	Polabiny	CHANGE: y --> ský
-N poříčanský	Poříčany	CHANGE: y --> ský
-N pouzdřanský	Pouzdřany	CHANGE: y --> ský
-N povrlský	Povrly	CHANGE: y --> ský
-N prorubský	Proruby	CHANGE: y --> ský A:Poruba
-N stolanský	Stolany	CHANGE: y --> ský
-N zabrušanský	Zabrušany	CHANGE: y --> ský
-N zalužanský	Zalužany	CHANGE: y --> ský
+N	biometanový	biometan	CHANGE: 0 --> ový
+N	biotopový	biotop	CHANGE: 0 --> ový
+N	nadhledový	nadhled	CHANGE: 0 --> ový
+	pětivlasový	Pětivlas	CHANGE: 0 --> ový
+N	poděbradový	Poděbrad	CHANGE: 0 --> ový  A:Poděbrady
+N	polaroidový	Polaroid	CHANGE: 0 --> ový
+N	pop-upový	pop-up	CHANGE: 0 --> ový
+N	potěmkinový	Potěmkin	CHANGE: 0 --> ový
+N	subprostorový	subprostor	CHANGE: 0 --> ový
+N	trinitronový	Trinitron	CHANGE: 0 --> ový
+	dvouspojkový	dvouspojka	CHANGE: a --> ový
+N	podestýlkový	podestýlka	CHANGE: a --> ový
+N	proteázový	proteáza	CHANGE: a --> ový
+N	předkomůrkový	předkomůrka	CHANGE: a --> ový
+	šestitunový	šestituna	CHANGE: a --> ový
+	pětimiliardový	pětimiliarda	CHANGE: a --> ový
+	jednoloďový	jednolodí	CHANGE: dí --> ďový
+N	poschoďový	poschodí	CHANGE: dí --> ďový
+N	pozaďový	pozadí	CHANGE: dí --> ďový
+	dvouporcový	dvouporce	CHANGE: e --> ový
+	pětimílový	pětimíle	CHANGE: e --> ový
+?	šestipencový	šestipence	CHANGE: e --> ový
+N	trojicový	trojice	CHANGE: e --> ový
+N	polníčkový	polníček	CHANGE: ek --> kový
+N	nadúrovňový	nadúroveň	CHANGE: eň --> ňový
+N	podúrovňový	podúroveň	CHANGE: eň --> ňový
+N	pochodňový	pochodeň	CHANGE: eň --> ňový
+N	povodňový	povodeň	CHANGE: eň --> ňový
+N	bezčasový	bezčasí	CHANGE: í --> ový
+	dvojveršový	dvojverší	CHANGE: í --> ový
+	dvousálový	dvousálí	CHANGE: í --> ový
+	dvousloupový	dvousloupí	CHANGE: í --> ový
+	dvoustátový	dvoustátí	CHANGE: í --> ový
+	dvouveršový	dvouverší	CHANGE: í --> ový
+	jednoveršový	jednoverší	CHANGE: í --> ový
+	osmitaktový	osmitaktí	CHANGE: í --> ový
+	osmiveršový	osmiverší	CHANGE: í --> ový
+	pětiveršový	pětiverší	CHANGE: í --> ový
+	šestiveršový	šestiverší	CHANGE: í --> ový
+	tříveršový	tříverší	CHANGE: í --> ový
+N	osmiový	osmium	CHANGE: ium --> iový
+N	podiový	podium	CHANGE: ium --> iový
+N	proscéniový	proscénium	CHANGE: ium --> iový
+N	tritiový	tritium	CHANGE: ium --> iový
+N	vanadiový	vanadium	CHANGE: ium --> iový
+N	posuňkový	posuněk	CHANGE: něk --> ňkový
+?	desetieurový	desetieuro	CHANGE: o --> ový
+	desetikolový	desetikolo	CHANGE: o --> ový
+	dvanáctikolový	dvanáctikolo	CHANGE: o --> ový
+	dvoujádrový	dvoujádro	CHANGE: o --> ový
+	dvoukilový	dvoukilo	CHANGE: o --> ový
+	dvoukolový	dvoukolo	CHANGE: o --> ový
+	dvoukřeslový	dvoukřeslo	CHANGE: o --> ový
+	dvoulanový	dvoulano	CHANGE: o --> ový
+?	jednolůžkový	jednolůžko	CHANGE: o --> ový
+	osmijádrový	osmijádro	CHANGE: o --> ový
+	osmikolečkový	osmikolečko	CHANGE: o --> ový
+	padesátieurový	padesátieuro	CHANGE: o --> ový
+	pětidekový	pětideko	CHANGE: o --> ový
+	pětikolový	pětikolo	CHANGE: o --> ový
+	pětiočkový	Pětiočko	CHANGE: o --> ový
+	pětisedadlový	pětisedadlo	CHANGE: o --> ový
+N	sandrový	Sandro	CHANGE: o --> ový
+	sedmikilový	sedmikilo	CHANGE: o --> ový
+N	šedový	šedo	CHANGE: o --> ový L:šedo–N
+	šestikolový	šestikolo	CHANGE: o --> ový
+	trojkolový	trojkolo	CHANGE: o --> ový
+	tříjádrový	tříjádro	CHANGE: o --> ový
+	tříkolečkový	tříkolečko	CHANGE: o --> ový
+N	propasťový	propast	CHANGE: t --> ťový
+?	dvojalbový	dvojalbum	CHANGE: um --> ový
+?	dvoualbový	dvoualbum	CHANGE: um --> ový
+?	pětialbový	pětialbum	CHANGE: um --> ový
+?	šestialbový	šestialbum	CHANGE: um --> ový
+?	trojalbový	trojalbum	CHANGE: um --> ový
+N	pokrutinový	pokrutiny	CHANGE: y --> ový
+N	zarděnkový	zarděnky	CHANGE: y --> ový
+N	bezalkoholový		UNRESOLVED
+N	bezatomový		UNRESOLVED
+N	bezazbestový		UNRESOLVED
+N	bezbarierový		UNRESOLVED
+N	bezbariérový		UNRESOLVED
+N	bezblokový		UNRESOLVED
+N	bezbodový		UNRESOLVED
+N	bezbonusový		UNRESOLVED
+N	bezbrankový		UNRESOLVED
+N	bezbrýlový		UNRESOLVED
+N	bezbubnový		UNRESOLVED
+N	bezcementový		UNRESOLVED
+N	bezčlunkový		UNRESOLVED
+N	bezdaňový		UNRESOLVED
+N	bezdějový		UNRESOLVED
+N	bezdevizový		UNRESOLVED
+N	bezdisketový		UNRESOLVED
+N	bezdiskový		UNRESOLVED
+N	bezdokladový		UNRESOLVED
+N	bezdoménový		UNRESOLVED
+N	bezdoplatkový		UNRESOLVED
+N	bezdoprovodový		UNRESOLVED
+N	bezdotekový		UNRESOLVED
+N	bezdotykový		UNRESOLVED
+N	bezdrogový		UNRESOLVED
+N	bezdušový		UNRESOLVED
+N	bezdýmový		UNRESOLVED
+N	bezéčkový		UNRESOLVED
+N	bezespárový		UNRESOLVED
+N	bezespojový		UNRESOLVED
+N	bezesrážkový		UNRESOLVED
+N	bezestavový		UNRESOLVED
+N	bezestupňový		UNRESOLVED
+N	bezestykový		UNRESOLVED
+N	bezezbytkový		UNRESOLVED
+N	bezeztrátový		UNRESOLVED
+N	bezfalcový		UNRESOLVED
+N	bezfasetový		UNRESOLVED
+N	bezfiltrový		UNRESOLVED
+N	bezformátový		UNRESOLVED
+N	bezfosfátový		UNRESOLVED
+N	bezfreonový		UNRESOLVED
+N	bezftalátový		UNRESOLVED
+N	bezgólový		UNRESOLVED
+N	bezhákový		UNRESOLVED
+N	bezhalogenový		UNRESOLVED
+N	bezhledáčkový		UNRESOLVED
+N	bezhodnotový		UNRESOLVED
+N	bezhonorářový		UNRESOLVED
+N	bezchlorový		UNRESOLVED
+N	bezchlórový		UNRESOLVED
+N	bezchybový		UNRESOLVED
+N	bezideový		UNRESOLVED
+N	bezjádrový		UNRESOLVED
+N	bezjehlový		UNRESOLVED
+N	bezjezdcový		UNRESOLVED
+N	bezkabelový		UNRESOLVED
+N	bezkalhotový		UNRESOLVED
+N	bezkanálový		UNRESOLVED
+N	bezkapotový		UNRESOLVED
+N	bezkartáčový		UNRESOLVED
+N	bezkazetový		UNRESOLVED
+N	bezklecový		UNRESOLVED
+N	bezklíčkový		UNRESOLVED
+N	bezklíčový		UNRESOLVED
+N	bezkofeinový		UNRESOLVED
+N	bezkolejnicový		UNRESOLVED
+N	bezkolejový		UNRESOLVED
+N	bezkolkový		UNRESOLVED
+N	bezkomentářový		UNRESOLVED
+N	bezkoncový		UNRESOLVED
+N	bezkontextový		UNRESOLVED
+N	bezkouřový		UNRESOLVED
+N	bezkvótový		UNRESOLVED
+N	bezkýlový		UNRESOLVED
+N	bezkyslíkový		UNRESOLVED
+N	bezlampový		UNRESOLVED
+N	bezlepkový		UNRESOLVED
+N	bezletový		UNRESOLVED
+N	bezlopatkový		UNRESOLVED
+N	bezmindrákový		UNRESOLVED
+N	bezmodemový		UNRESOLVED
+N	bezmodový		UNRESOLVED
+N	bezmotorový		UNRESOLVED
+N	bezmyšlenkový		UNRESOLVED
+N	beznábojnicový		UNRESOLVED
+N	beznákladový		UNRESOLVED
+N	beznapěťový		UNRESOLVED
+N	beznehodový		UNRESOLVED
+N	bezobratlový		UNRESOLVED
+N	bezobrázkový		UNRESOLVED
+N	bezodpadkový		UNRESOLVED
+N	bezodpadový		UNRESOLVED
+N	bezodrazový		UNRESOLVED
+N	bezodtokový		UNRESOLVED
+N	bezolejový		UNRESOLVED
+N	bezoplachový		UNRESOLVED
+N	bezosádkový		UNRESOLVED
+N	bezovníkový		UNRESOLVED A:bezovník
+N	bezpapírový		UNRESOLVED
+N	bezpaticový		UNRESOLVED
+N	bezpatkový		UNRESOLVED
+N	bezpažbový		UNRESOLVED
+N	bezpeckový		UNRESOLVED
+N	bezpedálový		UNRESOLVED
+N	bezpískový		UNRESOLVED
+N	bezplamenový		UNRESOLVED
+N	bezpláštíkový		UNRESOLVED
+N	bezplavkový		UNRESOLVED
+N	bezplenkový		UNRESOLVED
+N	bezpobočkový		UNRESOLVED
+N	bezpodílový		UNRESOLVED
+N	bezpodvozkový		UNRESOLVED
+N	bezpointový		UNRESOLVED
+N	bezpomlčkový		UNRESOLVED
+N	bezponorkový		UNRESOLVED
+N	bezpoplatkový		UNRESOLVED
+N	bezporuchový		UNRESOLVED
+N	bezposunový		UNRESOLVED
+N	bezpozvánkový		UNRESOLVED
+N	bezprahový		UNRESOLVED
+N	bezprachový		UNRESOLVED
+N	bezpražcový		UNRESOLVED
+N	bezprefixový		UNRESOLVED
+N	bezproblémový		UNRESOLVED
+N	bezprogramový		UNRESOLVED
+N	bezprostorový		UNRESOLVED
+N	bezprstový		UNRESOLVED
+N	bezprůvanový		UNRESOLVED
+N	bezprůvlakový		UNRESOLVED
+N	bezpředložkový		UNRESOLVED
+N	bezpředmětový		UNRESOLVED
+N	bezpředponový		UNRESOLVED
+N	bezpřehradový		UNRESOLVED
+N	bezpřepadový		UNRESOLVED
+N	bezpřestupový		UNRESOLVED
+N	bezpřevodový		UNRESOLVED
+N	bezpříplatkový		UNRESOLVED
+N	bezpříspěvkový		UNRESOLVED
+N	bezpříznakový		UNRESOLVED
+N	bezpůltónový		UNRESOLVED
+N	bezpulzový		UNRESOLVED
+N	bezpylový		UNRESOLVED
+N	bezraketový		UNRESOLVED
+N	bezrámečkový		UNRESOLVED
+N	bezramínkový		UNRESOLVED
+N	bezrámový		UNRESOLVED
+N	bezrázový		UNRESOLVED
+N	bezrizikový		UNRESOLVED
+N	bezroštový		UNRESOLVED
+N	bezrozměrový		UNRESOLVED
+N	bezrozpočtový		UNRESOLVED
+N	bezrozporový		UNRESOLVED
+N	bezrozstřikový		UNRESOLVED
+N	bezrozumový		UNRESOLVED
+N	bezsáčkový		UNRESOLVED
+N	bezsacharidový		UNRESOLVED
+N	bezsenzorový		UNRESOLVED
+N	bezservítkový		UNRESOLVED
+N	bezsíťový		UNRESOLVED
+N	bezsloupový		UNRESOLVED
+N	bezsmyčkový		UNRESOLVED
+N	bezspárový		UNRESOLVED
+N	bezspojkový		UNRESOLVED
+N	bezsrážkový		UNRESOLVED
+N	bezstavový		UNRESOLVED
+N	bezstehový		UNRESOLVED
+N	bezstelivový		UNRESOLVED
+N	bezstopkový		UNRESOLVED
+N	bezstresový		UNRESOLVED
+N	bezstupnicový		UNRESOLVED
+N	bezstupňový		UNRESOLVED
+N	bezstykový		UNRESOLVED
+N	bezsvětlíkový		UNRESOLVED
+N	bezšňůrový		UNRESOLVED
+N	bezšroubový		UNRESOLVED
+N	beztlakový		UNRESOLVED
+N	beztřískový		UNRESOLVED
+N	beztukový		UNRESOLVED
+N	beztypový		UNRESOLVED
+N	bezucpávkový		UNRESOLVED
+N	bezúčelový		UNRESOLVED
+N	bezúderový		UNRESOLVED
+N	bezúdržbový		UNRESOLVED
+N	bezúchytkový		UNRESOLVED
+N	bezúchytový		UNRESOLVED
+N	bezuličkový		UNRESOLVED
+N	bezúrazový		UNRESOLVED
+N	bezúvazkový		UNRESOLVED
+N	bezventilový		UNRESOLVED
+N	bezvěžový		UNRESOLVED
+N	bezvíčkový		UNRESOLVED
+N	bezvirový		UNRESOLVED
+N	bezvízový		UNRESOLVED
+N	bezvoskový		UNRESOLVED
+N	bezvřetenový		UNRESOLVED
+N	bezvůlový		UNRESOLVED
+N	bezvýkopový		UNRESOLVED
+N	bezvýkresový		UNRESOLVED
+N	bezvýlomový		UNRESOLVED
+N	bezvýpadkový		UNRESOLVED
+N	bezvýřezový		UNRESOLVED
+N	bezvýznamový		UNRESOLVED
+N	bezvzduchový		UNRESOLVED
+N	bezzábranový		UNRESOLVED
+N	bezzákluzový		UNRESOLVED
+N	bezzápachový		UNRESOLVED
+N	bezzásadový		UNRESOLVED
+N	bezzásahový		UNRESOLVED
+N	bezzátkový		UNRESOLVED
+N	bezzávadový		UNRESOLVED
+N	bezzávalový		UNRESOLVED
+N	bezzávorkový		UNRESOLVED
+N	bezziskový		UNRESOLVED
+N	bezznaménkový		UNRESOLVED
+N	bezzrcátkový		UNRESOLVED
+N	bezztrátový		UNRESOLVED
+N	bezživcový		UNRESOLVED
+N	bezžlučníkový		UNRESOLVED
+	béžovobronzový		UNRESOLVED
+	béžovofialový		UNRESOLVED
+	béžovooranžový		UNRESOLVED
+	béžovorůžový		UNRESOLVED
+	béžovovínový		UNRESOLVED
+	bílobéžový		UNRESOLVED
+	bílofialový		UNRESOLVED
+	bílokarmínový		UNRESOLVED
+	bílonachový		UNRESOLVED
+	bílooranžový		UNRESOLVED
+	bíloplášťový		UNRESOLVED
+	bílorůžový		UNRESOLVED
+N	biosový		UNRESOLVED A:bios
+	božíhodový		UNRESOLVED
+	božítělový		UNRESOLVED
+	černobéžový		UNRESOLVED
+	černobordový		UNRESOLVED
+	černobronzový		UNRESOLVED
+	černoděrový		UNRESOLVED
+	černofialový		UNRESOLVED
+	černofigurový		UNRESOLVED
+	černohumorový		UNRESOLVED
+	černokronikový		UNRESOLVED
+	černolímcový		UNRESOLVED
+	černookrový		UNRESOLVED
+	černooranžový		UNRESOLVED
+	černopurpurový		UNRESOLVED
+	černorůžový		UNRESOLVED
+	černorybízový		UNRESOLVED
+	černotříslový		UNRESOLVED
+	černovínový		UNRESOLVED
+	českosodový		UNRESOLVED
+	čtrnáctibitový		UNRESOLVED
+	čtrnáctibodový		UNRESOLVED
+	čtrnáctibytový		UNRESOLVED
+	čtrnáctigólový		UNRESOLVED
+	čtrnáctikilový		UNRESOLVED
+	čtrnáctikolový		UNRESOLVED
+N	čtvrtinový		UNRESOLVED  A:čtvrtina
+	čtvrtkilový		UNRESOLVED
+	čtvrtminutový		UNRESOLVED
+	čtvrtpalcový		UNRESOLVED
+	čtvrtřádkový		UNRESOLVED
+	čtvrtstránkový		UNRESOLVED
+	čtvrttunový		UNRESOLVED
+	desetibitový		UNRESOLVED
+	desetibytový		UNRESOLVED
+	desetigramový		UNRESOLVED
+	desetihodinový		UNRESOLVED
+	desetikilový		UNRESOLVED
+	desetilibrový		UNRESOLVED
+	desetilitrový		UNRESOLVED
+	desetilůžkový		UNRESOLVED
+	desetipatrový		UNRESOLVED
+	desetiproudový		UNRESOLVED
+	desetitunový		UNRESOLVED
+	devítialbový		UNRESOLVED
+	devítiarový		UNRESOLVED
+	devítibitový		UNRESOLVED
+	devítibodový		UNRESOLVED
+	devítibytový		UNRESOLVED
+	devítičlánkový		UNRESOLVED
+	devítičtvrťový		UNRESOLVED
+	devítidélkový		UNRESOLVED
+	devítiděrový		UNRESOLVED
+	devítidiskový		UNRESOLVED
+	devítidlahový		UNRESOLVED
+	devítidolarový		UNRESOLVED
+	devítietapový		UNRESOLVED
+	devítieurový		UNRESOLVED
+	devítifázový		UNRESOLVED
+	devítigólový		UNRESOLVED
+	devítigramový		UNRESOLVED
+	devítihodinový		UNRESOLVED
+	devítichodový		UNRESOLVED
+	devítijádrový		UNRESOLVED
+	devítijehlový		UNRESOLVED
+	devítikarátový		UNRESOLVED
+	devítikilový		UNRESOLVED
+	devítikolíkový		UNRESOLVED
+	devítikolový		UNRESOLVED
+	devítikoňový		UNRESOLVED
+	devítikorunový		UNRESOLVED
+	devítikošový		UNRESOLVED
+	devítikubíkový		UNRESOLVED
+	devítikusový		UNRESOLVED
+	devítilistový		UNRESOLVED
+	devítilopatový		UNRESOLVED
+	devítilůžkový		UNRESOLVED
+	devítimegový		UNRESOLVED
+	devítimílový		UNRESOLVED
+	devítiminutový		UNRESOLVED
+	devítinulový		UNRESOLVED
+	devítioscarový		UNRESOLVED
+	devítipalcový		UNRESOLVED
+	devítipatrový		UNRESOLVED
+	devítipinový		UNRESOLVED
+	devítipísňový		UNRESOLVED
+	devítipokojový		UNRESOLVED
+	devítipólový		UNRESOLVED
+	devítiproudový		UNRESOLVED
+	devítiprvkový		UNRESOLVED
+	devítiřádkový		UNRESOLVED
+	devítislotový		UNRESOLVED
+	devítistěžňový		UNRESOLVED
+	devítistovkový		UNRESOLVED
+	devítistupňový		UNRESOLVED
+	devítisvazkový		UNRESOLVED
+	devítitahový		UNRESOLVED
+	devítitisícový		UNRESOLVED
+	devítitunový		UNRESOLVED
+	devítiúderový		UNRESOLVED
+	devítivěžový		UNRESOLVED
+	devítivodičový		UNRESOLVED
+	devítivoltový		UNRESOLVED
+	devítivozový		UNRESOLVED
+	devítivývodový		UNRESOLVED
+	devítizápasový		UNRESOLVED
+	devítiznakový		UNRESOLVED
+	devítižilový		UNRESOLVED
+	devítižílový		UNRESOLVED
+	druholigový		UNRESOLVED
+	druhoplánový		UNRESOLVED
+	druhosledový		UNRESOLVED
+	druhostupňový		UNRESOLVED
+	druhovlnový		UNRESOLVED
+	dvaapůlkilový		UNRESOLVED
+	dvaapůlpalcový		UNRESOLVED
+	dvaapůltunový		UNRESOLVED
+	dvacetibitový		UNRESOLVED
+	dvacetibytový		UNRESOLVED
+	dvacetieurový		UNRESOLVED
+	dvacetigramový		UNRESOLVED
+	dvacetilitrový		UNRESOLVED
+	dvacetimetrový		UNRESOLVED
+	dvanáctialbový		UNRESOLVED
+	dvanáctiarový		UNRESOLVED
+	dvanáctibitový		UNRESOLVED
+	dvanáctibodový		UNRESOLVED
+	dvanáctibytový		UNRESOLVED
+	dvanáctigigový		UNRESOLVED
+	dvanáctigólový		UNRESOLVED
+	dvanáctikilový		UNRESOLVED
+	dvanáctikusový		UNRESOLVED
+	dvanáctimílový		UNRESOLVED
+N	dvanáctinový		UNRESOLVED  A:dvanáctina
+	dvanáctipólový		UNRESOLVED
+	dvanáctitónový		UNRESOLVED
+	dvanáctitunový		UNRESOLVED
+	dvanáctivozový		UNRESOLVED
+	dvanáctižilový		UNRESOLVED
+	dvojbitový		UNRESOLVED
+	dvojmanuálový		UNRESOLVED
+	dvojmetový		UNRESOLVED
+	dvojmetrový		UNRESOLVED
+	dvojminutový		UNRESOLVED
+	dvouáčkový		UNRESOLVED
+	dvouadresový		UNRESOLVED
+	dvouakordový		UNRESOLVED
+	dvouakrový		UNRESOLVED
+	dvouapsidový		UNRESOLVED
+	dvouapůlkilový		UNRESOLVED
+	dvouapůltunový		UNRESOLVED
+	dvouarchový		UNRESOLVED
+	dvouarový		UNRESOLVED
+	dvouatomový		UNRESOLVED
+	dvouatriový		UNRESOLVED
+	dvoubalonkový		UNRESOLVED
+	dvoubalónkový		UNRESOLVED
+	dvoubalonový		UNRESOLVED
+	dvoubasový		UNRESOLVED
+	dvoubečkový		UNRESOLVED
+	dvoubéčkový		UNRESOLVED
+	dvoubiliónový		UNRESOLVED
+	dvoubitový		UNRESOLVED
+	dvoublokový		UNRESOLVED
+	dvoubodový		UNRESOLVED
+	dvouborový		UNRESOLVED
+	dvoubrakový		UNRESOLVED
+	dvoubránový		UNRESOLVED
+	dvoubříškový		UNRESOLVED
+	dvoubřitový		UNRESOLVED
+	dvoubřitvový		UNRESOLVED
+	dvoububnový		UNRESOLVED
+	dvoucifrový		UNRESOLVED
+	dvoucoulový		UNRESOLVED
+	dvoucyklový		UNRESOLVED
+	dvoucylindrový		UNRESOLVED
+	dvoučelisťový		UNRESOLVED
+	dvoučipový		UNRESOLVED
+	dvoučíslicový		UNRESOLVED
+	dvoučlánkový		UNRESOLVED
+	dvoučtvrťový		UNRESOLVED
+	dvoudávkový		UNRESOLVED
+	dvoudecový		UNRESOLVED
+	dvoudějový		UNRESOLVED
+	dvoudélkový		UNRESOLVED
+	dvouděrový		UNRESOLVED
+	dvoudesetinový		UNRESOLVED
+	dvoudesítkový		UNRESOLVED
+	dvoudezénový		UNRESOLVED
+	dvoudisketový		UNRESOLVED
+	dvoudolarový		UNRESOLVED
+?	dvoudopadový		UNRESOLVED
+	dvoudrážkový		UNRESOLVED
+	dvoudruhový		UNRESOLVED
+	dvoudutinový		UNRESOLVED
+	dvoudveřový		UNRESOLVED
+	dvoudvéřový		UNRESOLVED
+	dvoudvorcový		UNRESOLVED
+	dvouerzetový		UNRESOLVED
+	dvouetážový		UNRESOLVED
+	dvoufaktorový		UNRESOLVED
+	dvoufalcový		UNRESOLVED
+	dvoufázový		UNRESOLVED
+	dvouformátový		UNRESOLVED
+	dvoufotonový		UNRESOLVED
+	dvougamový		UNRESOLVED
+	dvougigový		UNRESOLVED
+	dvougólový		UNRESOLVED
+	dvougolový		UNRESOLVED
+	dvougramový		UNRESOLVED
+	dvouhadicový		UNRESOLVED
+	dvouhektarový		UNRESOLVED
+	dvouhlavňový		UNRESOLVED
+	dvouhmatníkový		UNRESOLVED
+	dvouhmotový		UNRESOLVED
+	dvouhodnotový		UNRESOLVED
+	dvouhororový		UNRESOLVED
+	dvouhořákový		UNRESOLVED
+	dvouhřídelový		UNRESOLVED
+	dvouhvězdicový		UNRESOLVED
+	dvouchodový		UNRESOLVED
+	dvouchórový		UNRESOLVED
+	dvoujamkový		UNRESOLVED
+	dvoukajutový		UNRESOLVED
+	dvoukamerový		UNRESOLVED
+	dvoukarátový		UNRESOLVED
+	dvoukariérový		UNRESOLVED
+	dvoukazetový		UNRESOLVED
+	dvouklapkový		UNRESOLVED
+	dvouklíčový		UNRESOLVED
+	dvoukloubový		UNRESOLVED
+	dvoukohoutkový		UNRESOLVED
+	dvoukolečkový		UNRESOLVED
+	dvoukolejový		UNRESOLVED
+	dvoukolesový		UNRESOLVED
+	dvoukolíkový		UNRESOLVED
+	dvoukolonový		UNRESOLVED
+	dvoukomínový		UNRESOLVED
+	dvoukomorový		UNRESOLVED
+	dvoukomůrkový		UNRESOLVED
+	dvoukoncový		UNRESOLVED
+	dvoukopákový		UNRESOLVED
+	dvoukošilový		UNRESOLVED
+	dvoukošový		UNRESOLVED
+	dvoukotlový		UNRESOLVED
+	dvoukotoučový		UNRESOLVED
+	dvoukrokový		UNRESOLVED
+	dvoukruhový		UNRESOLVED
+	dvoukřídlový		UNRESOLVED
+	dvoukubíkový		UNRESOLVED
+	dvoukurtový		UNRESOLVED
+	dvoukuželový		UNRESOLVED
+	dvoukytarový		UNRESOLVED
+	dvoulamelový		UNRESOLVED
+	dvoulampový		UNRESOLVED
+	dvoulopatkový		UNRESOLVED
+	dvouložnicový		UNRESOLVED
+	dvoumadlový		UNRESOLVED
+	dvoumandátový		UNRESOLVED
+	dvoumanuálový		UNRESOLVED
+	dvoumarkový		UNRESOLVED
+	dvoumegabitový		UNRESOLVED
+	dvoumegabytový		UNRESOLVED
+	dvoumegový		UNRESOLVED
+	dvoumembránový		UNRESOLVED
+	dvoumetový		UNRESOLVED
+	dvoumetrákový		UNRESOLVED
+	dvoumiliardový		UNRESOLVED
+	dvoumiliónový		UNRESOLVED
+	dvoumílový		UNRESOLVED
+	dvoumincový		UNRESOLVED
+	dvoumódový		UNRESOLVED
+	dvoumonitorový		UNRESOLVED
+	dvoumužový		UNRESOLVED
+	dvounádobový		UNRESOLVED
+	dvounbrankový		UNRESOLVED
+	dvounístějový		UNRESOLVED
+	dvounormový		UNRESOLVED
+	dvounožový		UNRESOLVED
+	dvounulový		UNRESOLVED
+	dvouobálkový		UNRESOLVED
+	dvouobloukový		UNRESOLVED
+	dvouocáskový		UNRESOLVED
+	dvouočkový		UNRESOLVED
+	dvouodrůdový		UNRESOLVED
+	dvouodstavcový		UNRESOLVED
+	dvouohniskový		UNRESOLVED
+	dvouohnišťový		UNRESOLVED
+	dvouokapový		UNRESOLVED
+	dvouokénkový		UNRESOLVED
+	dvouokruhový		UNRESOLVED
+	dvouoktávový		UNRESOLVED
+	dvouoperandový		UNRESOLVED
+	dvouoscarový		UNRESOLVED
+	dvouosmičkový		UNRESOLVED
+	dvouotáčkový		UNRESOLVED
+	dvouotvorový		UNRESOLVED
+	dvoupákový		UNRESOLVED
+	dvoupalácový		UNRESOLVED
+	dvoupalcový		UNRESOLVED
+	dvoupaletový		UNRESOLVED
+	dvoupalivový		UNRESOLVED
+	dvoupalubový		UNRESOLVED
+	dvoupánvový		UNRESOLVED
+	dvoupaprskový		UNRESOLVED
+	dvoupásmový		UNRESOLVED
+	dvoupatrový		UNRESOLVED
+	dvoupedálový		UNRESOLVED
+	dvoupérový		UNRESOLVED
+	dvoupětinový		UNRESOLVED
+	dvoupilířový		UNRESOLVED
+	dvoupísmenkový		UNRESOLVED
+	dvoupísmenový		UNRESOLVED
+	dvoupísničkový		UNRESOLVED
+	dvoupísňový		UNRESOLVED
+	dvoupístový		UNRESOLVED
+	dvouplátkový		UNRESOLVED
+	dvouplísňový		UNRESOLVED
+	dvouploténkový		UNRESOLVED
+	dvouplotýnkový		UNRESOLVED
+	dvouplovákový		UNRESOLVED
+	dvoupohonový		UNRESOLVED
+	dvoupolohový		UNRESOLVED
+	dvoupólový		UNRESOLVED
+	dvoupoložkový		UNRESOLVED
+	dvoupopruhový		UNRESOLVED
+	dvouposchoďový		UNRESOLVED
+	dvouprocesový		UNRESOLVED
+	dvouprostorový		UNRESOLVED
+	dvouproudový		UNRESOLVED
+	dvouproužkový		UNRESOLVED
+	dvouprstencový		UNRESOLVED
+	dvouprstový		UNRESOLVED
+	dvouprůchodový		UNRESOLVED
+	dvouprvkový		UNRESOLVED
+	dvoupředmětový		UNRESOLVED
+	dvoupříjmový		UNRESOLVED
+	dvoupůlový		UNRESOLVED
+	dvouradlicový		UNRESOLVED
+	dvourámkový		UNRESOLVED
+	dvouranový		UNRESOLVED
+	dvourasový		UNRESOLVED
+	dvourázový		UNRESOLVED
+	dvouregistrový		UNRESOLVED
+	dvourežimový		UNRESOLVED
+	dvourmutový		UNRESOLVED
+	dvourotorový		UNRESOLVED
+	dvourozsahový		UNRESOLVED
+	dvouručičkový		UNRESOLVED
+	dvourupiový		UNRESOLVED
+	dvousazbový		UNRESOLVED
+	dvousběrnicový		UNRESOLVED
+	dvousborový		UNRESOLVED
+	dvousedmičkový		UNRESOLVED
+	dvousegmentový		UNRESOLVED
+	dvousekerkový		UNRESOLVED
+	dvousekundový		UNRESOLVED
+	dvousemestrový		UNRESOLVED
+	dvousetbodový		UNRESOLVED
+	dvousetdílkový		UNRESOLVED
+	dvousetkolový		UNRESOLVED
+	dvousetkoňový		UNRESOLVED
+	dvousetkusový		UNRESOLVED
+	dvousetlůžkový		UNRESOLVED
+	dvousetmarkový		UNRESOLVED
+	dvousetmegový		UNRESOLVED
+	dvousetmílový		UNRESOLVED
+	dvousetobodový		UNRESOLVED
+	dvousetpatrový		UNRESOLVED
+	dvousetwattový		UNRESOLVED
+	dvousilový		UNRESOLVED
+	dvousimkový		UNRESOLVED
+	dvouskladbový		UNRESOLVED
+	dvouskupinový		UNRESOLVED
+	dvouslabikový		UNRESOLVED
+	dvousladový		UNRESOLVED
+	dvousledový		UNRESOLVED
+	dvouslokový		UNRESOLVED
+	dvouslotový		UNRESOLVED
+	dvousložkový		UNRESOLVED
+	dvousnímkový		UNRESOLVED
+	dvousoškový		UNRESOLVED
+	dvousouborový		UNRESOLVED
+	dvoustanicový		UNRESOLVED
+	dvoustavový		UNRESOLVED
+	dvoustěžňový		UNRESOLVED
+	dvoustojanový		UNRESOLVED
+	dvoustolicový		UNRESOLVED
+	dvoustreamový		UNRESOLVED
+	dvoustrojový		UNRESOLVED
+	dvoustupňový		UNRESOLVED
+	dvousvátkový		UNRESOLVED
+	dvousvazkový		UNRESOLVED
+	dvousvíčkový		UNRESOLVED
+	dvousystémový		UNRESOLVED
+	dvoušachtový		UNRESOLVED
+	dvoušlapákový		UNRESOLVED
+	dvoušroubový		UNRESOLVED
+	dvouštítový		UNRESOLVED
+	dvoušuplíkový		UNRESOLVED
+	dvoutabletový		UNRESOLVED
+	dvoutahový		UNRESOLVED
+	dvoutalířový		UNRESOLVED
+	dvoutarifový		UNRESOLVED
+	dvoutělesový		UNRESOLVED
+	dvoutisícový		UNRESOLVED
+	dvoutlačítkový		UNRESOLVED
+	dvoutónový		UNRESOLVED
+	dvoutrubicový		UNRESOLVED
+	dvoutrubkový		UNRESOLVED
+	dvoutřetinový		UNRESOLVED
+	dvoutřídový		UNRESOLVED
+	dvoutuctový		UNRESOLVED
+	dvoutunelový		UNRESOLVED
+	dvoutunerový		UNRESOLVED
+	dvoutunový		UNRESOLVED
+	dvouturnajový		UNRESOLVED
+	dvouturnusový		UNRESOLVED
+	dvoutyčový		UNRESOLVED
+	dvoutýmový		UNRESOLVED
+	dvouúčelový		UNRESOLVED
+	dvouúderový		UNRESOLVED
+	dvouúrovňový		UNRESOLVED
+	dvouúsekový		UNRESOLVED
+	dvouuzlový		UNRESOLVED
+	dvouvagonový		UNRESOLVED
+	dvouvalbový		UNRESOLVED
+	dvouvěrtelový		UNRESOLVED
+	dvouveslový		UNRESOLVED
+	dvouvchodový		UNRESOLVED
+	dvouvíkendový		UNRESOLVED
+	dvouvláknový		UNRESOLVED
+	dvouvodičový		UNRESOLVED
+	dvouvozový		UNRESOLVED
+	dvouvrtulový		UNRESOLVED
+	dvouvřetenový		UNRESOLVED
+	dvouvstupový		UNRESOLVED
+	dvouvteřinový		UNRESOLVED
+	dvouvýfukový		UNRESOLVED
+	dvouvýpalový		UNRESOLVED
+	dvouwattový		UNRESOLVED
+	dvouzábleskový		UNRESOLVED
+	dvouzastávkový		UNRESOLVED
+	dvouzávažový		UNRESOLVED
+	dvouznačkový		UNRESOLVED
+	dvouznakový		UNRESOLVED
+	dvouznámkový		UNRESOLVED
+	dvouzónový		UNRESOLVED
+	dvouzvonkový		UNRESOLVED
+	dvoužárovkový		UNRESOLVED
+	dvoužilový		UNRESOLVED
+	dvouživotový		UNRESOLVED
+	dvoužloutkový		UNRESOLVED
+N	excimerový		UNRESOLVED
+	exdruholigový		UNRESOLVED
+N	exekventový		UNRESOLVED A:exekvent
+	exligový		UNRESOLVED
+	exprvoligový		UNRESOLVED
+	expřeborový		UNRESOLVED
+	extřetiligový		UNRESOLVED
+	fenyloctový		UNRESOLVED
+	fenylpropanový		UNRESOLVED
+	fenylpropenový		UNRESOLVED
+	hlubokotónový		UNRESOLVED
+	hnědobéžový		UNRESOLVED
+	hnědobronzový		UNRESOLVED
+	hnědofialový		UNRESOLVED
+	hnědonachový		UNRESOLVED
+	hnědookrový		UNRESOLVED
+	hnědoolivový		UNRESOLVED
+	hnědooranžový		UNRESOLVED
+	hnědopurpurový		UNRESOLVED
+	hnědorůžový		UNRESOLVED
+	hnědovínový		UNRESOLVED
+	jednoaktový		UNRESOLVED
+	jednoatomový		UNRESOLVED
+	jednobajtový		UNRESOLVED
+	jednobitový		UNRESOLVED
+	jednoblokový		UNRESOLVED
+	jednobodový		UNRESOLVED
+	jednoboxový		UNRESOLVED
+	jednobrankový		UNRESOLVED
+	jednobránový		UNRESOLVED
+	jednobukový		UNRESOLVED
+	jednobytový		UNRESOLVED
+	jednocentový		UNRESOLVED
+	jednocyklový		UNRESOLVED
+	jednočárkový		UNRESOLVED
+	jednočarový		UNRESOLVED
+	jednočásticový		UNRESOLVED
+	jednočíslicový		UNRESOLVED
+	jednočlánkový		UNRESOLVED
+	jednoděrový		UNRESOLVED
+	jednodeskový		UNRESOLVED
+	jednodinárový		UNRESOLVED
+	jednodížový		UNRESOLVED
+	jednodolarový		UNRESOLVED
+	jednodotykový		UNRESOLVED
+	jednodrážkový		UNRESOLVED
+	jednodruhový		UNRESOLVED
+	jednodvéřový		UNRESOLVED
+	jednoetapový		UNRESOLVED
+	jednofaktorový		UNRESOLVED
+	jednofázový		UNRESOLVED
+	jednofotonový		UNRESOLVED
+	jednogólový		UNRESOLVED
+	jednohadicový		UNRESOLVED
+	jednohektarový		UNRESOLVED
+	jednohláskový		UNRESOLVED
+	jednohlavňový		UNRESOLVED
+	jednohodinový		UNRESOLVED
+	jednojazýčkový		UNRESOLVED
+	jednojehlový		UNRESOLVED
+	jednokanálový		UNRESOLVED
+	jednokarátový		UNRESOLVED
+	jednokazetový		UNRESOLVED
+	jednokloubový		UNRESOLVED
+	jednokobkový		UNRESOLVED
+	jednokódový		UNRESOLVED
+	jednokolový		UNRESOLVED
+	jednokomorový		UNRESOLVED
+	jednokomůrkový		UNRESOLVED
+	jednokorunový		UNRESOLVED
+	jednokotoučový		UNRESOLVED
+	jednokrokový		UNRESOLVED
+	jednokruhový		UNRESOLVED
+	jednokřídlový		UNRESOLVED
+	jednolamelový		UNRESOLVED
+	jednolampový		UNRESOLVED
+	jednolanový		UNRESOLVED
+	jednolinkový		UNRESOLVED
+	jednolískový		UNRESOLVED
+	jednolistový		UNRESOLVED
+	jednomandátový		UNRESOLVED
+	jednomarkový		UNRESOLVED
+	jednomiliónový		UNRESOLVED
+	jednominutový		UNRESOLVED
+	jednomódový		UNRESOLVED
+	jednomotorový		UNRESOLVED
+	jednonápravový		UNRESOLVED
+	jednonormový		UNRESOLVED
+	jednonosníkový		UNRESOLVED
+	jednooborový		UNRESOLVED
+	jednoobvodový		UNRESOLVED
+	jednoodborový		UNRESOLVED
+	jednoohniskový		UNRESOLVED
+	jednookénkový		UNRESOLVED
+	jednookruhový		UNRESOLVED
+	jednopákový		UNRESOLVED
+	jednopalcový		UNRESOLVED
+	jednopaprskový		UNRESOLVED
+	jednopásmový		UNRESOLVED
+	jednopásový		UNRESOLVED
+	jednopatrový		UNRESOLVED
+	jednopedálový		UNRESOLVED
+	jednopísmenový		UNRESOLVED
+	jednopístkový		UNRESOLVED
+	jednoplášťový		UNRESOLVED
+	jednoplotnový		UNRESOLVED
+	jednopohledový		UNRESOLVED
+	jednopokojový		UNRESOLVED
+	jednopolohový		UNRESOLVED
+	jednopólový		UNRESOLVED
+	jednopolový		UNRESOLVED
+	jednopoložkový		UNRESOLVED
+	jednoporcový		UNRESOLVED
+	jednoposádkový		UNRESOLVED
+	jednopovrchový		UNRESOLVED
+	jednoprocesový		UNRESOLVED
+	jednopruhový		UNRESOLVED
+	jednoprvkový		UNRESOLVED
+	jednopříčkový		UNRESOLVED
+	jednopytlový		UNRESOLVED
+	jednoranový		UNRESOLVED
+	jednorázový		UNRESOLVED
+	jednorovinový		UNRESOLVED
+	jednorublový		UNRESOLVED
+	jednořádkový		UNRESOLVED
+	jednořadový		UNRESOLVED
+	jednořetězcový		UNRESOLVED
+	jednořetězový		UNRESOLVED
+	jednosálový		UNRESOLVED
+	jednosazbový		UNRESOLVED
+	jednosedačkový		UNRESOLVED
+	jednosedadlový		UNRESOLVED
+	jednosekundový		UNRESOLVED
+	jednosetový		UNRESOLVED
+	jednoslabikový		UNRESOLVED
+	jednosladový		UNRESOLVED
+	jednosloupcový		UNRESOLVED
+	jednosložkový		UNRESOLVED
+	jednosnímkový		UNRESOLVED
+	jednosouborový		UNRESOLVED
+	jednospádový		UNRESOLVED
+	jednospirálový		UNRESOLVED
+	jednostěžňový		UNRESOLVED
+	jednostojanový		UNRESOLVED
+	jednostránkový		UNRESOLVED
+	jednostupňový		UNRESOLVED
+	jednosvazkový		UNRESOLVED
+	jednosystémový		UNRESOLVED
+	jednotahový		UNRESOLVED
+	jednotělesový		UNRESOLVED
+	jednotroubový		UNRESOLVED
+	jednotrubkový		UNRESOLVED
+	jednotunový		UNRESOLVED
+	jednotyčový		UNRESOLVED
+	jednoúborový		UNRESOLVED
+	jednoúčelový		UNRESOLVED
+	jednouhlíkový		UNRESOLVED
+	jednoúlohový		UNRESOLVED
+	jednoúrovňový		UNRESOLVED
+	jednouzlový		UNRESOLVED
+	jednovagónový		UNRESOLVED
+	jednovidový		UNRESOLVED
+	jednovláknový		UNRESOLVED
+	jednovodičový		UNRESOLVED
+	jednovozový		UNRESOLVED
+	jednovrcholový		UNRESOLVED
+	jednovřetenový		UNRESOLVED
+	jednovýznamový		UNRESOLVED
+	jednozáběrový		UNRESOLVED
+	jednozápasový		UNRESOLVED
+	jednozdrojový		UNRESOLVED
+	jednozipový		UNRESOLVED
+	jednoznakový		UNRESOLVED
+	jednožerďový		UNRESOLVED
+	jednožilový		UNRESOLVED
+	modrobéžový		UNRESOLVED
+	modrofialový		UNRESOLVED
+	modrokarmínový		UNRESOLVED
+	modroklínový		UNRESOLVED
+	modrokrémový		UNRESOLVED
+	modrokroužkový		UNRESOLVED
+	modronachový		UNRESOLVED
+	modrooranžový		UNRESOLVED
+	modrorůžový		UNRESOLVED
+	modrošarlatový		UNRESOLVED
+	modrotyrkysový		UNRESOLVED
+	modrovínový		UNRESOLVED
+	nadčasový		UNRESOLVED
+	nadhltanový		UNRESOLVED
+	nadhrtanový		UNRESOLVED
+	nadhřebenový		UNRESOLVED
+	nadkmenový		UNRESOLVED
+	nadkrajový		UNRESOLVED
+	nadmolekulový		UNRESOLVED
+	nadnapěťový		UNRESOLVED
+	nadnulový		UNRESOLVED
+	nadpodnikový		UNRESOLVED
+	nadprahový		UNRESOLVED
+	nadprojektový		UNRESOLVED
+	nadprostorový		UNRESOLVED
+	nadprůtokový		UNRESOLVED
+	nadpultový		UNRESOLVED
+	nadrasový		UNRESOLVED
+	nadrepublikový		UNRESOLVED
+	nadrovníkový		UNRESOLVED
+	nadrozumový		UNRESOLVED
+	nadsmyslový		UNRESOLVED
+	nadstovkový		UNRESOLVED
+	nadstylový		UNRESOLVED
+	nadsvětový		UNRESOLVED
+	nadzvukový		UNRESOLVED
+	nadžánrový		UNRESOLVED
+	několikabitový		UNRESOLVED
+	několikabodový		UNRESOLVED
+	několikabytový		UNRESOLVED
+	několikafázový		UNRESOLVED
+	několikagólový		UNRESOLVED
+	několikakilový		UNRESOLVED
+	několikakolový		UNRESOLVED
+	několikařádový		UNRESOLVED
+	několikasálový		UNRESOLVED
+	několikatunový		UNRESOLVED
+	osmiakrový		UNRESOLVED
+	osmialbový		UNRESOLVED
+	osmiapůlkilový		UNRESOLVED
+	osmiapůltunový		UNRESOLVED
+	osmiarový		UNRESOLVED
+	osmibilionový		UNRESOLVED
+	osmibrankový		UNRESOLVED
+	osmibytový		UNRESOLVED
+	osmicoulový		UNRESOLVED
+	osmičíslicový		UNRESOLVED
+	osmičlánkový		UNRESOLVED
+	osmidávkový		UNRESOLVED
+	osmidélkový		UNRESOLVED
+	osmidělový		UNRESOLVED
+	osmidesetinový		UNRESOLVED
+	osmidesítkový		UNRESOLVED
+	osmideskový		UNRESOLVED
+	osmidírkový		UNRESOLVED
+	osmidiskový		UNRESOLVED
+	osmidolarový		UNRESOLVED
+	osmidvorcový		UNRESOLVED
+	osmietapový		UNRESOLVED
+	osmietážový		UNRESOLVED
+	osmifázový		UNRESOLVED
+	osmigigabitový		UNRESOLVED
+	osmigigabytový		UNRESOLVED
+	osmigigový		UNRESOLVED
+	osmigólový		UNRESOLVED
+	osmigramový		UNRESOLVED
+	osmihaléřový		UNRESOLVED
+	osmihektarový		UNRESOLVED
+	osmihodinový		UNRESOLVED
+	osmihodový		UNRESOLVED
+	osmichodový		UNRESOLVED
+	osmijamkový		UNRESOLVED
+	osmijehličkový		UNRESOLVED
+	osmikamenový		UNRESOLVED
+	osmikanálový		UNRESOLVED
+	osmikarátový		UNRESOLVED
+	osmikartový		UNRESOLVED
+	osmikilobitový		UNRESOLVED
+	osmikilobytový		UNRESOLVED
+	osmikilový		UNRESOLVED
+	osmikolíčkový		UNRESOLVED
+	osmikolíkový		UNRESOLVED
+	osmikolový		UNRESOLVED
+	osmikoncovkový		UNRESOLVED
+	osmikoňový		UNRESOLVED
+	osmikorunový		UNRESOLVED
+	osmikošový		UNRESOLVED
+	osmikrokový		UNRESOLVED
+	osmikubíkový		UNRESOLVED
+	osmikusový		UNRESOLVED
+	osmilahvový		UNRESOLVED
+	osmilanový		UNRESOLVED
+	osmilibrový		UNRESOLVED
+	osmilopatkový		UNRESOLVED
+	osmilůžkový		UNRESOLVED
+	osmimandátový		UNRESOLVED
+	osmimarkový		UNRESOLVED
+	osmimedailový		UNRESOLVED
+	osmimegabitový		UNRESOLVED
+	osmimegabytový		UNRESOLVED
+	osmimegový		UNRESOLVED
+	osmimelounový		UNRESOLVED
+	osmimetrákový		UNRESOLVED
+	osmimiliardový		UNRESOLVED
+	osmimiliónový		UNRESOLVED
+	osmimílový		UNRESOLVED
+	osmiminutový		UNRESOLVED
+	osmimotorový		UNRESOLVED
+	osminápravový		UNRESOLVED
+	osmiobloukový		UNRESOLVED
+	osmiobrazový		UNRESOLVED
+	osmiohmový		UNRESOLVED
+	osmioscarový		UNRESOLVED
+	osmioskarový		UNRESOLVED
+	osmiotvorový		UNRESOLVED
+	osmipalcový		UNRESOLVED
+	osmipánvový		UNRESOLVED
+	osmipárový		UNRESOLVED
+	osmipásmový		UNRESOLVED
+	osmipatrový		UNRESOLVED
+	osmipinový		UNRESOLVED
+	osmipísmenkový		UNRESOLVED
+	osmipísmenový		UNRESOLVED
+	osmipísňový		UNRESOLVED
+	osmipístkový		UNRESOLVED
+	osmipokojový		UNRESOLVED
+	osmipolohový		UNRESOLVED
+	osmipoložkový		UNRESOLVED
+	osmiporcový		UNRESOLVED
+	osmiportový		UNRESOLVED
+	osmiposádkový		UNRESOLVED
+	osmiposchoďový		UNRESOLVED
+	osmipromilový		UNRESOLVED
+	osmiproudový		UNRESOLVED
+	osmiprůchodový		UNRESOLVED
+	osmiprutový		UNRESOLVED
+	osmiprvkový		UNRESOLVED
+	osmiřádkový		UNRESOLVED
+	osmisáhový		UNRESOLVED
+	osmisálový		UNRESOLVED
+	osmisedadlový		UNRESOLVED
+	osmisekundový		UNRESOLVED
+	osmisetbodový		UNRESOLVED
+	osmisetgramový		UNRESOLVED
+	osmisetinový		UNRESOLVED
+	osmisetkilový		UNRESOLVED
+	osmisetkoňový		UNRESOLVED
+	osmisetkusový		UNRESOLVED
+	osmisetlibrový		UNRESOLVED
+	osmisettunový		UNRESOLVED
+	osmiskladbový		UNRESOLVED
+	osmiskupinový		UNRESOLVED
+	osmislabikový		UNRESOLVED
+	osmislotový		UNRESOLVED
+	osmisloupcový		UNRESOLVED
+	osmistanicový		UNRESOLVED
+	osmistránkový		UNRESOLVED
+	osmistupňový		UNRESOLVED
+	osmisvazkový		UNRESOLVED
+	osmitabulkový		UNRESOLVED
+	osmitahový		UNRESOLVED
+	osmitisícový		UNRESOLVED
+	osmitunový		UNRESOLVED
+	osmiúderový		UNRESOLVED
+	osmiuncový		UNRESOLVED
+	osmiúrovňový		UNRESOLVED
+	osmivagónový		UNRESOLVED
+	osmivečerový		UNRESOLVED
+	osmiventilový		UNRESOLVED
+	osmivláknový		UNRESOLVED
+	osmivodičový		UNRESOLVED
+	osmivozový		UNRESOLVED
+	osmivřetenový		UNRESOLVED
+	osmivteřinový		UNRESOLVED
+	osmiwattový		UNRESOLVED
+	osmizápasový		UNRESOLVED
+	osmizastávkový		UNRESOLVED
+	osmizásuvkový		UNRESOLVED
+	osmiznakový		UNRESOLVED
+	osmižilový		UNRESOLVED
+	osmnáctibodový		UNRESOLVED
+	osmnáctikilový		UNRESOLVED
+	padesátibodový		UNRESOLVED
+	padesátigólový		UNRESOLVED
+	padesátikilový		UNRESOLVED
+	padesátikoňový		UNRESOLVED
+	padesátikusový		UNRESOLVED
+	padesátilirový		UNRESOLVED
+	padesátimegový		UNRESOLVED
+	padesátitunový		UNRESOLVED
+	patnáctibitový		UNRESOLVED
+	patnáctibodový		UNRESOLVED
+	patnáctibytový		UNRESOLVED
+	patnáctigólový		UNRESOLVED
+	patnáctikilový		UNRESOLVED
+	patnáctipólový		UNRESOLVED
+	patnáctitunový		UNRESOLVED
+	pětiakrový		UNRESOLVED
+	pětiaktový		UNRESOLVED
+	pětiapůltunový		UNRESOLVED
+	pětiarový		UNRESOLVED
+	pětibilionový		UNRESOLVED
+	pětibitový		UNRESOLVED
+	pětiblokový		UNRESOLVED
+	pětibodový		UNRESOLVED
+	pětibrankový		UNRESOLVED
+	pětibytový		UNRESOLVED
+	pěticédéčkový		UNRESOLVED
+	pěticinchový		UNRESOLVED
+	pěticoulový		UNRESOLVED
+	pětičíslicový		UNRESOLVED
+	pětičlánkový		UNRESOLVED
+	pětičtvrťový		UNRESOLVED
+	pětidélkový		UNRESOLVED
+	pětideskový		UNRESOLVED
+	pětidílkový		UNRESOLVED
+	pětidiodový		UNRESOLVED
+	pětidiskový		UNRESOLVED
+	pětidráhový		UNRESOLVED
+	pětidrátový		UNRESOLVED
+	pětidruhový		UNRESOLVED
+	pětidvéřový		UNRESOLVED
+	pětidveřový		UNRESOLVED
+	pětietapový		UNRESOLVED
+	pětifaktorový		UNRESOLVED
+	pětifaulový		UNRESOLVED
+	pětifázový		UNRESOLVED
+	pětiforintový		UNRESOLVED
+	pětigalonový		UNRESOLVED
+	pětigólový		UNRESOLVED
+	pětigramový		UNRESOLVED
+	pětihektarový		UNRESOLVED
+	pětihodinový		UNRESOLVED
+	pětichodový		UNRESOLVED
+	pětikajutový		UNRESOLVED
+	pětikamenový		UNRESOLVED
+	pětikamerový		UNRESOLVED
+	pětikapsový		UNRESOLVED
+	pětikarátový		UNRESOLVED
+	pětikilowatový		UNRESOLVED
+	pětiklapkový		UNRESOLVED
+	pětikolejový		UNRESOLVED
+	pětikolíčkový		UNRESOLVED
+	pětikoncovkový		UNRESOLVED
+	pětikošový		UNRESOLVED
+	pětikrokový		UNRESOLVED
+	pětikruhový		UNRESOLVED
+	pětikřížkový		UNRESOLVED
+	pětikubíkový		UNRESOLVED
+	pětikusový		UNRESOLVED
+	pětilampový		UNRESOLVED
+	pětilibrový		UNRESOLVED
+	pětiligový		UNRESOLVED
+	pětilopatkový		UNRESOLVED
+	pětiluxový		UNRESOLVED
+	pětilůžkový		UNRESOLVED
+	pětimandátový		UNRESOLVED
+	pětimanuálový		UNRESOLVED
+	pětimedvídkový		UNRESOLVED
+	pětimegabytový		UNRESOLVED
+	pětimegový		UNRESOLVED
+	pětimetrákový		UNRESOLVED
+	pětimilardový		UNRESOLVED
+	pětiminutový		UNRESOLVED
+	pětimodulový		UNRESOLVED
+	pětimotorový		UNRESOLVED
+	pětinápravový		UNRESOLVED
+N	pětinový		UNRESOLVED  A:pětina
+	pětinožový		UNRESOLVED
+	pětiobloukový		UNRESOLVED
+	pětiobráncový		UNRESOLVED
+	pětiobvodový		UNRESOLVED
+	pětiodstavcový		UNRESOLVED
+	pětiokruhový		UNRESOLVED
+	pětioktávový		UNRESOLVED
+	pětioscarový		UNRESOLVED
+	pětioskarový		UNRESOLVED
+	pětiotvorový		UNRESOLVED
+	pětipalcový		UNRESOLVED
+	pětipaprskový		UNRESOLVED
+	pětipásmový		UNRESOLVED
+	pětipatrový		UNRESOLVED
+	pětipísmenkový		UNRESOLVED
+	pětipísmenový		UNRESOLVED
+	pětipísničkový		UNRESOLVED
+	pětipísňový		UNRESOLVED
+	pětipixelový		UNRESOLVED
+	pětiplachtový		UNRESOLVED
+	pětiplatový		UNRESOLVED
+	pětipokojový		UNRESOLVED
+	pětipólový		UNRESOLVED
+	pětiposádkový		UNRESOLVED
+	pětiposchoďový		UNRESOLVED
+	pětipromilový		UNRESOLVED
+	pětiproudový		UNRESOLVED
+	pětiprstíkový		UNRESOLVED
+	pětiprstový		UNRESOLVED
+	pětiprůchodový		UNRESOLVED
+	pětiprvkový		UNRESOLVED
+	pětiputnový		UNRESOLVED
+	pětiputýnkový		UNRESOLVED
+	pětirozměrový		UNRESOLVED
+	pětiřádkový		UNRESOLVED
+	pětisáčkový		UNRESOLVED
+	pětisálový		UNRESOLVED
+	pětisedlový		UNRESOLVED
+	pětisegmentový		UNRESOLVED
+	pětisekundový		UNRESOLVED
+	pětisemestrový		UNRESOLVED
+	pětisériový		UNRESOLVED
+	pětisetbodový		UNRESOLVED
+	pětisetgigový		UNRESOLVED
+	pětisetgramový		UNRESOLVED
+	pětisetkilový		UNRESOLVED
+	pětisetkolový		UNRESOLVED
+	pětisetkoňový		UNRESOLVED
+	pětisetkusový		UNRESOLVED
+	pětisetlibrový		UNRESOLVED
+	pětisetlůžkový		UNRESOLVED
+	pětisetmarkový		UNRESOLVED
+	pětisetmílový		UNRESOLVED
+	pětisetový		UNRESOLVED
+	pětisettunový		UNRESOLVED
+	pětisetwattový		UNRESOLVED
+	pětiskladbový		UNRESOLVED
+	pětislabikový		UNRESOLVED
+	pětisledový		UNRESOLVED
+	pětisloupcový		UNRESOLVED
+	pětisložkový		UNRESOLVED
+	pětisouborový		UNRESOLVED
+	pětistěžňový		UNRESOLVED
+	pětistránkový		UNRESOLVED
+	pětistupínkový		UNRESOLVED
+	pětistupňový		UNRESOLVED
+	pětisvazkový		UNRESOLVED
+	pětišestinový		UNRESOLVED
+	pětiškálový		UNRESOLVED
+	pětitahový		UNRESOLVED
+	pětitaktový		UNRESOLVED
+	pětitisícový		UNRESOLVED
+	pětitlačítkový		UNRESOLVED
+	pětitónový		UNRESOLVED
+	pětiúderový		UNRESOLVED
+	pětiuhlíkový		UNRESOLVED
+	pětiúrovňový		UNRESOLVED
+	pětiválečkový		UNRESOLVED
+	pětiventilový		UNRESOLVED
+	pětivchodový		UNRESOLVED
+	pětivodičový		UNRESOLVED
+	pětivoltový		UNRESOLVED
+	pětivozový		UNRESOLVED
+	pětivřetenový		UNRESOLVED
+	pětivteřinový		UNRESOLVED
+	pětivýhonkový		UNRESOLVED
+	pětiyardový		UNRESOLVED
+	pětizápasový		UNRESOLVED
+	pětizávodový		UNRESOLVED
+	pětiznakový		UNRESOLVED
+	pětiznámkový		UNRESOLVED
+	pětizónový		UNRESOLVED
+	pětižilkový		UNRESOLVED
+	pětižilový		UNRESOLVED
+	pětižílový		UNRESOLVED
+N	počervnový		UNRESOLVED
+N	podhladinový		UNRESOLVED
+N	podhlasivkový		UNRESOLVED
+N	podhltanový		UNRESOLVED
+N	podhrotový		UNRESOLVED
+N	podjazykový		UNRESOLVED
+N	podklíčkový		UNRESOLVED
+N	podkolejnicový		UNRESOLVED
+N	podkorový		UNRESOLVED
+N	podkošový		UNRESOLVED
+?	podkreslový		UNRESOLVED
+N	podledovcový		UNRESOLVED
+N	podlinkový		UNRESOLVED
+N	podlopatkový		UNRESOLVED
+N	podnulový		UNRESOLVED
+N	podočnicový		UNRESOLVED
+N	podpásový		UNRESOLVED
+N	podpatrový		UNRESOLVED
+N	podpěťový		UNRESOLVED A:podpětí
+N	podpodlahový		UNRESOLVED
+N	podpokožkový		UNRESOLVED
+N	podponorový		UNRESOLVED
+N	podpovrchový		UNRESOLVED
+N	podprahový		UNRESOLVED
+N	podpultový		UNRESOLVED
+N	podsedlový		UNRESOLVED
+N	podtrupový		UNRESOLVED
+N	podzvukový		UNRESOLVED
+N	pohorečkový		UNRESOLVED
+N	pohotový		UNRESOLVED  A:hotový
+N	pochřipkový		UNRESOLVED
+N	poinfarktový		UNRESOLVED
+N	pokoncilový		UNRESOLVED
+N	pokongresový		UNRESOLVED
+N	pokrizový		UNRESOLVED
+N	pokrový		UNRESOLVED A:poker
+N	pokřídový		UNRESOLVED
+N	pokvětnový		UNRESOLVED
+N	poledový		UNRESOLVED
+N	poletový		UNRESOLVED
+N	poligový		UNRESOLVED
+N	polistopadový		UNRESOLVED
+N	pomonzunový		UNRESOLVED
+N	poodpalový		UNRESOLVED
+N	poosvitový		UNRESOLVED
+?	popjazzový		UNRESOLVED
+?	popmetalový		UNRESOLVED
+N	poporodový		UNRESOLVED
+N	popovodňový		UNRESOLVED
+N	poprázdninový		UNRESOLVED
+N	popremiérový		UNRESOLVED
+N	popřestavbový		UNRESOLVED
+N	popřevratový		UNRESOLVED
+?	popsoulový		UNRESOLVED
+N	poromerový		UNRESOLVED  A:poromer
+N	porozpadový		UNRESOLVED
+N	porozsudkový		UNRESOLVED
+N	porozvodový		UNRESOLVED
+N	poříjnový		UNRESOLVED
+N	posametový		UNRESOLVED
+N	poschůzový		UNRESOLVED
+N	posjezdový		UNRESOLVED
+N	posklizňový		UNRESOLVED
+N	posňatkový		UNRESOLVED
+?	pospilitový		UNRESOLVED
+N	posrpnový		UNRESOLVED
+N	pošokový		UNRESOLVED
+N	poúnorový		UNRESOLVED
+N	poúrazový		UNRESOLVED
+N	povojnový		UNRESOLVED
+N	povýbuchový		UNRESOLVED
+N	povýcvikový		UNRESOLVED
+N	povýstřelový		UNRESOLVED
+?	powermetalový		UNRESOLVED
+	powerpointový		UNRESOLVED
+N	pozápasový		UNRESOLVED
+N	pozáplavový		UNRESOLVED
+N	pozářijový		UNRESOLVED
+N	pozásahový		UNRESOLVED
+N	pozátěžový		UNRESOLVED
+N	pozávorkový		UNRESOLVED
+N	pozemnicový		UNRESOLVED A:pozemnice
+N	požerový		UNRESOLVED  A:požer
+N	požloutenkový		UNRESOLVED
+N	prehledový		UNRESOLVED  A:přehled
+N	presinkový		UNRESOLVED  A:presink
+	proazulenový		UNRESOLVED
+	prodohodový		UNRESOLVED
+	prokrizový		UNRESOLVED
+N	prolegomenový		UNRESOLVED A:prolegomenon
+	prolevicový		UNRESOLVED
+	promírový		UNRESOLVED
+N	proofový		UNRESOLVED  A:proof
+N	propandiový		UNRESOLVED A:propandiol
+N	propionový		UNRESOLVED  A:propion
+	propočítačový		UNRESOLVED
+	propotratový		UNRESOLVED
+	proradarový		UNRESOLVED
+	proreferendový		UNRESOLVED
+	prorežimový		UNRESOLVED
+	prorozvojový		UNRESOLVED
+	prorůstový		UNRESOLVED
+	proskupinový		UNRESOLVED
+N	prothesový		UNRESOLVED  A:prothesa
+	proziskový		UNRESOLVED
+	předalbový		UNRESOLVED
+	předaprílový		UNRESOLVED
+	předbalíčkový		UNRESOLVED
+	předbankrotový		UNRESOLVED
+	předbarážový		UNRESOLVED
+	předbouřkový		UNRESOLVED
+	předbrankový		UNRESOLVED
+	předbřeznový		UNRESOLVED
+	předdožínkový		UNRESOLVED
+	předdůchodový		UNRESOLVED
+	předdušičkový		UNRESOLVED
+	předexilový		UNRESOLVED
+	předežňový		UNRESOLVED
+	předfašankový		UNRESOLVED
+	předhodový		UNRESOLVED
+	předinfarktový		UNRESOLVED
+	předjazykový		UNRESOLVED
+	předkapitálový		UNRESOLVED
+	předkolapsový		UNRESOLVED
+	předkongresový		UNRESOLVED
+	předkrizový		UNRESOLVED
+	předlednový		UNRESOLVED
+	předledovcový		UNRESOLVED
+	předledový		UNRESOLVED
+	předletový		UNRESOLVED
+	předligový		UNRESOLVED
+	předmajálesový		UNRESOLVED
+	předmájový		UNRESOLVED
+	předmobilový		UNRESOLVED
+	předmonzunový		UNRESOLVED
+	přednádorový		UNRESOLVED
+	přednárazový		UNRESOLVED
+	předněkomorový		UNRESOLVED
+	předpádový		UNRESOLVED
+	předpočítačový		UNRESOLVED
+	předpohárový		UNRESOLVED
+	předpostelový		UNRESOLVED
+	předpotratový		UNRESOLVED
+	předpouťový		UNRESOLVED
+	předpovodňový		UNRESOLVED
+	předprahový		UNRESOLVED
+	předprázninový		UNRESOLVED
+	předprimárkový		UNRESOLVED
+	předprůmyslový		UNRESOLVED
+	předpřevratový		UNRESOLVED
+	předpříletový		UNRESOLVED
+	předpučový		UNRESOLVED
+	předrakovinový		UNRESOLVED
+	předroznáškový		UNRESOLVED
+	předrozpadový		UNRESOLVED
+	předrozpočtový		UNRESOLVED
+	předrozvodový		UNRESOLVED
+	předrůstový		UNRESOLVED
+	předříjnový		UNRESOLVED
+	předsametový		UNRESOLVED
+	předsériový		UNRESOLVED
+	předseťový		UNRESOLVED  ###(předseťový kompaktor - upravuje půdu před setím)###
+	předsjezdový		UNRESOLVED
+	předsklizňový		UNRESOLVED
+	předsletový		UNRESOLVED
+	předsrpnový		UNRESOLVED
+	předstonkový		UNRESOLVED
+	předsummitový		UNRESOLVED
+	předškolkový		UNRESOLVED
+?	předtermínový		UNRESOLVED
+	předtréninkový		UNRESOLVED
+	předturnajový		UNRESOLVED
+	předúnorový		UNRESOLVED
+	předúrazový		UNRESOLVED
+	předvíkendový		UNRESOLVED
+	předvýtěrový		UNRESOLVED
+	předvývojový		UNRESOLVED
+	předvýznakový		UNRESOLVED
+	předvzletový		UNRESOLVED
+	předvztahový		UNRESOLVED
+?	předxtový		UNRESOLVED
+	předzáchvatový		UNRESOLVED
+	předzákazový		UNRESOLVED
+	předzápisový		UNRESOLVED
+	předzvukový		UNRESOLVED
+	předžňový		UNRESOLVED
+	půlgramový		UNRESOLVED
+	půlkulový		UNRESOLVED
+	půlmetrákový		UNRESOLVED
+	půlmikronový		UNRESOLVED
+	půlpalcový		UNRESOLVED
+	půlsezónový		UNRESOLVED
+	půlstránkový		UNRESOLVED
+	půlstupňový		UNRESOLVED
+	půlválcový		UNRESOLVED
+	rudofialový		UNRESOLVED
+	rudonachový		UNRESOLVED
+	rudooranžový		UNRESOLVED
+	rudopáskový		UNRESOLVED
+	rudorůžový		UNRESOLVED
+N	sanktusový		UNRESOLVED  A:sanktus
+N	santálový		UNRESOLVED A:santal
+N	sanytrový		UNRESOLVED A:sanytr
+	sedmiakrový		UNRESOLVED
+	sedmialbový		UNRESOLVED
+	sedmibitový		UNRESOLVED
+	sedmibodový		UNRESOLVED
+	sedmibrankový		UNRESOLVED
+	sedmibytový		UNRESOLVED
+	sedmičíslicový		UNRESOLVED
+	sedmičlánkový		UNRESOLVED
+	sedmideckový		UNRESOLVED
+	sedmidecový		UNRESOLVED
+	sedmidélkový		UNRESOLVED
+	sedmidolarový		UNRESOLVED
+	sedmietapový		UNRESOLVED
+	sedmigólový		UNRESOLVED
+	sedmigramový		UNRESOLVED
+	sedmihektarový		UNRESOLVED
+	sedmihodinový		UNRESOLVED
+	sedmichodový		UNRESOLVED
+	sedmikanálkový		UNRESOLVED
+	sedmikanálový		UNRESOLVED
+	sedmikarátový		UNRESOLVED
+	sedmikartový		UNRESOLVED
+	sedmikolíčkový		UNRESOLVED
+	sedmikolový		UNRESOLVED
+	sedmikorunový		UNRESOLVED
+	sedmikošový		UNRESOLVED
+	sedmikrokový		UNRESOLVED
+	sedmikubíkový		UNRESOLVED
+	sedmikurtový		UNRESOLVED
+	sedmilamelový		UNRESOLVED
+	sedmilampový		UNRESOLVED
+	sedmilůžkový		UNRESOLVED
+	sedmimandátový		UNRESOLVED
+	sedmimilionový		UNRESOLVED
+	sedmimiliónový		UNRESOLVED
+	sedmimílový		UNRESOLVED
+	sedmiminutový		UNRESOLVED
+	sedminulový		UNRESOLVED
+	sedmioscarový		UNRESOLVED
+	sedmiosminový		UNRESOLVED
+	sedmipalcový		UNRESOLVED
+	sedmipásmový		UNRESOLVED
+	sedmipatrový		UNRESOLVED
+	sedmipísmenový		UNRESOLVED
+	sedmipísňový		UNRESOLVED
+	sedmipokojový		UNRESOLVED
+	sedmipolíčkový		UNRESOLVED
+	sedmipólový		UNRESOLVED
+	sedmiproudový		UNRESOLVED
+	sedmiprvkový		UNRESOLVED
+	sedmirunový		UNRESOLVED
+	sedmiřádkový		UNRESOLVED
+	sedmiřadový		UNRESOLVED
+	sedmisálový		UNRESOLVED
+	sedmisedadlový		UNRESOLVED
+	sedmisekundový		UNRESOLVED
+	sedmisetbodový		UNRESOLVED
+	sedmisetkilový		UNRESOLVED
+	sedmisetkoňový		UNRESOLVED
+	sedmisettunový		UNRESOLVED
+	sedmiskladbový		UNRESOLVED
+	sedmislabikový		UNRESOLVED
+	sedmisloupcový		UNRESOLVED
+	sedmisměnový		UNRESOLVED
+N	sedmistovkový		UNRESOLVED A:sedmistovka
+	sedmistránkový		UNRESOLVED
+	sedmistupňový		UNRESOLVED
+	sedmisvazkový		UNRESOLVED
+	sedmišilinkový		UNRESOLVED
+	sedmitahový		UNRESOLVED
+	sedmitisícový		UNRESOLVED
+	sedmitónový		UNRESOLVED
+	sedmitrackový		UNRESOLVED
+	sedmitunový		UNRESOLVED
+	sedmiúderový		UNRESOLVED
+	sedmiúrovňový		UNRESOLVED
+	sedmivětvový		UNRESOLVED
+	sedmivchodový		UNRESOLVED
+	sedmivodičový		UNRESOLVED
+	sedmivozový		UNRESOLVED
+	sedmivrstvový		UNRESOLVED
+	sedmivteřinový		UNRESOLVED
+	sedmiwattový		UNRESOLVED
+	sedmizápasový		UNRESOLVED
+	sedmiznakový		UNRESOLVED
+	sedmizónový		UNRESOLVED
+	sedmižilový		UNRESOLVED
+	sedmižílový		UNRESOLVED
+	stoakrový		UNRESOLVED
+	stobilionový		UNRESOLVED
+	stobodový		UNRESOLVED
+	stobrankový		UNRESOLVED
+	stodecibelový		UNRESOLVED
+	stodeskový		UNRESOLVED
+	stodolarový		UNRESOLVED
+	stodvoukoňový		UNRESOLVED
+	stoeurový		UNRESOLVED
+	stoforintový		UNRESOLVED
+	stogólový		UNRESOLVED
+	stogramový		UNRESOLVED
+	stohaléřový		UNRESOLVED
+	stohektarový		UNRESOLVED
+	stohodinový		UNRESOLVED
+	stojednotkový		UNRESOLVED
+	stokarátový		UNRESOLVED
+	stokilogramový		UNRESOLVED
+	stokilový		UNRESOLVED
+	stokilowatový		UNRESOLVED
+	stokilowattový		UNRESOLVED
+	stokomínový		UNRESOLVED
+	stokoňový		UNRESOLVED
+	stokorcový		UNRESOLVED
+	stokubíkový		UNRESOLVED
+	stokusový		UNRESOLVED
+	stolibrový		UNRESOLVED
+	stolirový		UNRESOLVED
+	stolnětenisový		UNRESOLVED
+	stolůžkový		UNRESOLVED
+	stomandátový		UNRESOLVED
+	stomarkový		UNRESOLVED
+	stomegabajtový		UNRESOLVED
+	stomegabitový		UNRESOLVED
+	stomegawattový		UNRESOLVED
+	stomegový		UNRESOLVED
+	stometrákový		UNRESOLVED
+	stomiligramový		UNRESOLVED
+	stomilionový		UNRESOLVED
+	stomiliónový		UNRESOLVED
+	stomílový		UNRESOLVED
+	stominutový		UNRESOLVED
+	stooktanový		UNRESOLVED
+	stoosmikilový		UNRESOLVED
+	stoosmipalcový		UNRESOLVED
+	stopalcový		UNRESOLVED
+	stopatrový		UNRESOLVED
+	stopětikilový		UNRESOLVED
+	stopětikoňový		UNRESOLVED
+	stoposchoďový		UNRESOLVED
+N	stopovkový		UNRESOLVED  A:stopovka
+	storublový		UNRESOLVED
+	stosedadlový		UNRESOLVED
+	stosedmikilový		UNRESOLVED
+	stosekundový		UNRESOLVED
+	stostránkový		UNRESOLVED
+	stostupňový		UNRESOLVED
+	stosvazkový		UNRESOLVED
+	stošestitunový		UNRESOLVED
+	stošilinkový		UNRESOLVED
+	stotabletový		UNRESOLVED
+	stotahový		UNRESOLVED
+	stotřípalcový		UNRESOLVED
+	stotunový		UNRESOLVED
+	stovoltový		UNRESOLVED
+	stovteřinový		UNRESOLVED
+	stowattový		UNRESOLVED
+	stožárovkový		UNRESOLVED
+	subatomový		UNRESOLVED
+N	suberinový		UNRESOLVED  A:suberin
+	submikronový		UNRESOLVED
+	submolekulový		UNRESOLVED
+N	subtaskový		UNRESOLVED  A:subtask
+	subvirový		UNRESOLVED
+	šedesátiarový		UNRESOLVED
+	šedesátibodový		UNRESOLVED
+	šedesátidekový		UNRESOLVED
+	šedesátieurový		UNRESOLVED
+	šedesátigólový		UNRESOLVED
+	šedesátikilový		UNRESOLVED
+	šedesátikolový		UNRESOLVED
+	šedesátikoňový		UNRESOLVED
+	šedesátikusový		UNRESOLVED
+	šedesátiletový		UNRESOLVED
+	šedesátimílový		UNRESOLVED
+	šedesátitunový		UNRESOLVED
+	šedobéžový		UNRESOLVED
+	šedofialový		UNRESOLVED
+	šedokaštanový		UNRESOLVED
+	šedokrémový		UNRESOLVED
+	šedookrový		UNRESOLVED
+	šedoolivový		UNRESOLVED
+	šedooranžový		UNRESOLVED
+	šedopískový		UNRESOLVED
+	šedoplastový		UNRESOLVED
+	šedopurpurový		UNRESOLVED
+	šedorůžový		UNRESOLVED
+	šedoškálový		UNRESOLVED
+	šedotónový		UNRESOLVED
+	šedotyrkysový		UNRESOLVED
+	šedovínový		UNRESOLVED
+	šestiaktový		UNRESOLVED
+	šestianodový		UNRESOLVED
+	šestiarchový		UNRESOLVED
+	šestiarový		UNRESOLVED
+	šestibitový		UNRESOLVED
+	šestibrankový		UNRESOLVED
+	šestibytový		UNRESOLVED
+	šesticédéčkový		UNRESOLVED
+	šesticentový		UNRESOLVED
+	šestičíslicový		UNRESOLVED
+	šestičlánkový		UNRESOLVED
+	šestidecový		UNRESOLVED
+	šestidélkový		UNRESOLVED
+	šestidiodový		UNRESOLVED
+	šestidiskový		UNRESOLVED
+	šestidolarový		UNRESOLVED
+	šestidrátový		UNRESOLVED
+	šestidutinkový		UNRESOLVED
+	šestietapový		UNRESOLVED
+	šestifázový		UNRESOLVED
+	šestiforintový		UNRESOLVED
+	šestigólový		UNRESOLVED
+	šestigramový		UNRESOLVED
+	šestihektarový		UNRESOLVED
+	šestihlavňový		UNRESOLVED
+	šestihodinový		UNRESOLVED
+	šestihořákový		UNRESOLVED
+	šestichodový		UNRESOLVED
+	šestijádrový		UNRESOLVED
+	šestijamkový		UNRESOLVED
+	šestikabinkový		UNRESOLVED
+	šestikamerový		UNRESOLVED
+	šestikanálkový		UNRESOLVED
+	šestikarátový		UNRESOLVED
+	šestikilový		UNRESOLVED
+	šestikolíčkový		UNRESOLVED
+	šestikolíkový		UNRESOLVED
+	šestikorunový		UNRESOLVED
+	šestikošový		UNRESOLVED
+	šestikrokový		UNRESOLVED
+	šestikroužkový		UNRESOLVED
+	šestikubíkový		UNRESOLVED
+	šestikůlový		UNRESOLVED
+	šestikurtový		UNRESOLVED
+	šestikusový		UNRESOLVED
+	šestilampový		UNRESOLVED
+	šestilehátkový		UNRESOLVED
+	šestilibrový		UNRESOLVED
+	šestiligový		UNRESOLVED
+	šestilistový		UNRESOLVED
+	šestiložnicový		UNRESOLVED
+	šestilůžkový		UNRESOLVED
+	šestimedailový		UNRESOLVED
+	šestimegový		UNRESOLVED
+	šestimetrákový		UNRESOLVED
+	šestimiliónový		UNRESOLVED
+	šestimiliónový		UNRESOLVED
+	šestimílový		UNRESOLVED
+	šestiminutový		UNRESOLVED
+	šestimotorový		UNRESOLVED
+	šestinápravový		UNRESOLVED
+N	šestinový		UNRESOLVED A:šestina
+	šestinulový		UNRESOLVED
+	šestiobrázkový		UNRESOLVED
+	šestiokruhový		UNRESOLVED
+	šestioktávový		UNRESOLVED
+	šestioscarový		UNRESOLVED
+	šestioskarový		UNRESOLVED
+	šestiosminový		UNRESOLVED
+	šestiotvorový		UNRESOLVED
+	šestipalcový		UNRESOLVED
+	šestipánvový		UNRESOLVED
+	šestipárový		UNRESOLVED
+	šestipáskový		UNRESOLVED
+	šestipásmový		UNRESOLVED
+	šestipatrový		UNRESOLVED
+	šestipinový		UNRESOLVED
+	šestipísmenový		UNRESOLVED
+	šestipísňový		UNRESOLVED
+	šestipístkový		UNRESOLVED
+	šestipístový		UNRESOLVED
+	šestiplatinový		UNRESOLVED
+	šestipokojový		UNRESOLVED
+	šestipólový		UNRESOLVED
+	šestiportový		UNRESOLVED
+	šestiposádkový		UNRESOLVED
+	šestipromilový		UNRESOLVED
+	šestiproudový		UNRESOLVED
+	šestiprvkový		UNRESOLVED
+	šestiputnový		UNRESOLVED
+	šestiranový		UNRESOLVED
+	šestiřádkový		UNRESOLVED
+	šestiřadový		UNRESOLVED
+	šestisálový		UNRESOLVED
+	šestisedadlový		UNRESOLVED
+	šestisedlový		UNRESOLVED
+	šestisektorový		UNRESOLVED
+	šestisekundový		UNRESOLVED
+	šestisetakrový		UNRESOLVED
+	šestisetbodový		UNRESOLVED
+	šestiseteurový		UNRESOLVED
+	šestisetgólový		UNRESOLVED
+	šestisetkilový		UNRESOLVED
+	šestisetkoňový		UNRESOLVED
+	šestisetový		UNRESOLVED
+	šestisettunový		UNRESOLVED
+	šestiskladbový		UNRESOLVED
+	šestiskladový		UNRESOLVED
+	šestislabikový		UNRESOLVED
+	šestisloupcový		UNRESOLVED
+	šestisložkový		UNRESOLVED
+	šestisouborový		UNRESOLVED
+	šestistěžňový		UNRESOLVED
+	šestistopový		UNRESOLVED
+	šestistovkový		UNRESOLVED
+	šestistránkový		UNRESOLVED
+	šestistupňový		UNRESOLVED
+	šestisvazkový		UNRESOLVED
+	šestisvodový		UNRESOLVED
+	šestitabulkový		UNRESOLVED
+	šestitahový		UNRESOLVED
+	šestitisícový		UNRESOLVED
+	šestitónový		UNRESOLVED
+	šestiturnajový		UNRESOLVED
+	šestiúderový		UNRESOLVED
+	šestiuncový		UNRESOLVED
+	šestiúrovňový		UNRESOLVED
+	šestiuzlový		UNRESOLVED
+	šestiveslový		UNRESOLVED
+	šestivětvový		UNRESOLVED
+	šestivchodový		UNRESOLVED
+	šestivodičový		UNRESOLVED
+	šestivoltový		UNRESOLVED
+	šestivozový		UNRESOLVED
+	šestivteřinový		UNRESOLVED
+	šestizápasový		UNRESOLVED
+	šestiznakový		UNRESOLVED
+	šestižilový		UNRESOLVED
+	tisícibodový		UNRESOLVED
+	tisícidolarový		UNRESOLVED
+	tisícifrankový		UNRESOLVED
+	tisícigramový		UNRESOLVED
+	tisícikusový		UNRESOLVED
+	tisícilibrový		UNRESOLVED
+	tisícilirový		UNRESOLVED
+	tisícimílový		UNRESOLVED
+N	triacetátový		UNRESOLVED  A:triacetát
+N	triazolový		UNRESOLVED  A:triazol
+	trifluoroctový		UNRESOLVED
+N	trichimonádový		UNRESOLVED  A:trichimonáda
+N	trichomonádový		UNRESOLVED  A:trichomonáda
+	trikarboxylový		UNRESOLVED
+?	triphopový		UNRESOLVED
+	trojaktový		UNRESOLVED
+	trojbitový		UNRESOLVED
+N	trojčatový		UNRESOLVED  A:trojče
+	trojlůžkový		UNRESOLVED
+	trojmetový		UNRESOLVED
+	trojmetrový		UNRESOLVED
+	trojslabikový		UNRESOLVED
+	tříáčkový		UNRESOLVED
+	tříakordový		UNRESOLVED
+	tříaktový		UNRESOLVED
+	tříalbový		UNRESOLVED
+	tříapůlbodový		UNRESOLVED
+	tříapůlkilový		UNRESOLVED
+	tříapůlpalcový		UNRESOLVED
+	tříapůltunový		UNRESOLVED
+	tříapůlvoltový		UNRESOLVED
+	tříargumentový		UNRESOLVED
+	tříarchový		UNRESOLVED
+	tříatomový		UNRESOLVED
+	tříbečkový		UNRESOLVED
+	tříbéčkový		UNRESOLVED
+	tříbilionový		UNRESOLVED
+	tříbitový		UNRESOLVED
+	tříblokový		UNRESOLVED
+	tříbodový		UNRESOLVED
+	tříbrakový		UNRESOLVED
+	tříbrankový		UNRESOLVED
+	tříbřitový		UNRESOLVED
+	tříbytový		UNRESOLVED
+	třícédéčkový		UNRESOLVED
+	třícellový		UNRESOLVED
+	tříciferníkový		UNRESOLVED
+	třícoulový		UNRESOLVED
+	třícyklový		UNRESOLVED
+	tříčárkový		UNRESOLVED
+	tříčásticový		UNRESOLVED
+	tříčipový		UNRESOLVED
+	tříčíslicový		UNRESOLVED
+	tříčlánkový		UNRESOLVED
+	tříčtvrťový		UNRESOLVED
+	třídávkový		UNRESOLVED
+	třídecový		UNRESOLVED
+	třídélkový		UNRESOLVED
+	třídesetinový		UNRESOLVED
+	třídeskový		UNRESOLVED
+	třídiamantový		UNRESOLVED
+	třídírkový		UNRESOLVED
+	třídiskový		UNRESOLVED
+	třídolarový		UNRESOLVED
+	třídrátový		UNRESOLVED
+	třídrážkový		UNRESOLVED
+	třídvéřový		UNRESOLVED
+	třídveřový		UNRESOLVED
+	tříelektrodový		UNRESOLVED
+	tříetapový		UNRESOLVED
+	tříetážový		UNRESOLVED
+	tříeurový		UNRESOLVED
+	třífázový		UNRESOLVED
+	třífuntový		UNRESOLVED
+	třígamový		UNRESOLVED
+	třígigabytový		UNRESOLVED
+	třígigový		UNRESOLVED
+	třígolový		UNRESOLVED
+	třígramový		UNRESOLVED
+	třígrošový		UNRESOLVED
+	tříhabrový		UNRESOLVED
+	tříhektarový		UNRESOLVED
+	tříhlavňový		UNRESOLVED
+	tříhodinový		UNRESOLVED
+	tříhodnotový		UNRESOLVED
+	tříhořákový		UNRESOLVED
+	tříhřišťový		UNRESOLVED
+	tříhvězdičkový		UNRESOLVED
+	tříchipový		UNRESOLVED
+	tříchodový		UNRESOLVED
+	tříjamkový		UNRESOLVED
+	tříjehlový		UNRESOLVED
+	tříkabelový		UNRESOLVED
+	tříkajutový		UNRESOLVED
+	tříkamerový		UNRESOLVED
+	tříkanálový		UNRESOLVED
+	tříkatrový		UNRESOLVED
+	tříkilogramový		UNRESOLVED
+	tříkilový		UNRESOLVED
+	tříkilowattový		UNRESOLVED
+	tříkládový		UNRESOLVED
+	tříklenbový		UNRESOLVED
+	tříkloubový		UNRESOLVED
+	tříknoflíkový		UNRESOLVED
+	tříkolíčkový		UNRESOLVED
+	tříkolový		UNRESOLVED
+	tříkomorový		UNRESOLVED
+	tříkoncovkový		UNRESOLVED
+	tříkorunkový		UNRESOLVED
+	tříkošilový		UNRESOLVED
+	tříkošový		UNRESOLVED
+	tříkotlový		UNRESOLVED
+	tříkrálový		UNRESOLVED
+	tříkrokový		UNRESOLVED
+	tříkřídlový		UNRESOLVED
+	tříkřížkový		UNRESOLVED
+	tříkřížový		UNRESOLVED
+	tříkubíkový		UNRESOLVED
+	tříkurtový		UNRESOLVED
+	tříkusový		UNRESOLVED
+	tříkuželkový		UNRESOLVED
+	tříkytarový		UNRESOLVED
+	třílamelový		UNRESOLVED
+	třílampový		UNRESOLVED
+	třílegový		UNRESOLVED
+	třílibrový		UNRESOLVED
+	třílirový		UNRESOLVED
+	třílistový		UNRESOLVED
+	třílopatkový		UNRESOLVED
+	třílopatový		UNRESOLVED
+	tříložnicový		UNRESOLVED
+	třílůžkový		UNRESOLVED
+	třímandátový		UNRESOLVED
+	třímanéžový		UNRESOLVED
+	třímanuálový		UNRESOLVED
+	třímedailový		UNRESOLVED
+	třímegatunový		UNRESOLVED
+	třímegawatový		UNRESOLVED
+	třímegawattový		UNRESOLVED
+	třímegový		UNRESOLVED
+	třímetový		UNRESOLVED
+	třímiliardový		UNRESOLVED
+	třímiligramový		UNRESOLVED
+	třímilionový		UNRESOLVED
+	třímiliónový		UNRESOLVED
+	třímílový		UNRESOLVED
+	tříminutový		UNRESOLVED
+	třímiskový		UNRESOLVED
+	třímolekulový		UNRESOLVED
+	třímotorový		UNRESOLVED
+	třínálevový		UNRESOLVED
+	třínápravový		UNRESOLVED
+	třínástrojový		UNRESOLVED
+	třínormový		UNRESOLVED
+	třínulový		UNRESOLVED
+	tříobloukový		UNRESOLVED
+	tříoborový		UNRESOLVED
+	tříobráncový		UNRESOLVED
+	tříobrázkový		UNRESOLVED
+	tříobrazovkový		UNRESOLVED
+	tříodstavcový		UNRESOLVED
+	tříokénkový		UNRESOLVED
+	tříokruhový		UNRESOLVED
+	tříoktávový		UNRESOLVED
+	tříoscarový		UNRESOLVED
+	tříoskarový		UNRESOLVED
+	tříosmičkový		UNRESOLVED
+	tříosminový		UNRESOLVED
+	tříosový		UNRESOLVED
+	tříotáčkový		UNRESOLVED
+	tříotočkový		UNRESOLVED
+	tříotvorový		UNRESOLVED
+	třípalácový		UNRESOLVED
+	třípalcový		UNRESOLVED
+	třípalubový		UNRESOLVED
+	třípanelový		UNRESOLVED
+	třípaprskový		UNRESOLVED
+	třípárový		UNRESOLVED
+	třípásmový		UNRESOLVED
+	třípásový		UNRESOLVED
+	třípatrový		UNRESOLVED
+	třípavilónový		UNRESOLVED
+	třípedálový		UNRESOLVED
+	třípenaltový		UNRESOLVED
+	třípesový		UNRESOLVED
+	třípětinový		UNRESOLVED
+	třípětkový		UNRESOLVED
+	třípilířový		UNRESOLVED
+	třípinový		UNRESOLVED
+	třípísmenkový		UNRESOLVED
+	třípísmenový		UNRESOLVED
+	třípísničkový		UNRESOLVED
+	třípísňový		UNRESOLVED
+	třípístový		UNRESOLVED
+	tříplášťový		UNRESOLVED
+	tříplotnový		UNRESOLVED
+	tříplotýnkový		UNRESOLVED
+	třípodnikový		UNRESOLVED
+	třípohledový		UNRESOLVED
+	třípokojový		UNRESOLVED
+	třípokusový		UNRESOLVED
+	třípolohový		UNRESOLVED
+	třípólový		UNRESOLVED
+	třípolový		UNRESOLVED
+	tříportálový		UNRESOLVED
+	tříposádkový		UNRESOLVED
+	tříposchoďový		UNRESOLVED
+	třípovídkový		UNRESOLVED
+	tříprocesorový		UNRESOLVED
+	tříproduktový		UNRESOLVED
+	tříprostorový		UNRESOLVED
+	tříprotokolový		UNRESOLVED
+	tříprstencový		UNRESOLVED
+	třípruhový		UNRESOLVED
+	tříprůchodový		UNRESOLVED
+	tříprvkový		UNRESOLVED
+	třípřihláškový		UNRESOLVED
+	tříputnový		UNRESOLVED
+	třírampový		UNRESOLVED
+	třírmutový		UNRESOLVED
+	tříročníkový		UNRESOLVED
+	třírotorový		UNRESOLVED
+	třířádkový		UNRESOLVED
+	třířadový		UNRESOLVED
+	třísáhový		UNRESOLVED
+	třísálový		UNRESOLVED
+	třísborový		UNRESOLVED
+	třísedadlový		UNRESOLVED
+	třísedmičkový		UNRESOLVED
+	třísegmentový		UNRESOLVED
+	třísektorový		UNRESOLVED
+	třísekundový		UNRESOLVED
+	třísemestrový		UNRESOLVED
+	třísetakrový		UNRESOLVED
+	třísetbodový		UNRESOLVED
+	třísetdolarový		UNRESOLVED
+	tříseteurový		UNRESOLVED
+	třísetgólový		UNRESOLVED
+	třísetgramový		UNRESOLVED
+	třísethodinový		UNRESOLVED
+	třísetinový		UNRESOLVED
+	třísetkilový		UNRESOLVED
+	třísetkolový		UNRESOLVED
+	třísetkoňový		UNRESOLVED
+	třísetkorunový		UNRESOLVED
+	třísetkusový		UNRESOLVED
+	třísetminutový		UNRESOLVED
+	třísetový		UNRESOLVED
+	třísetpokojový		UNRESOLVED
+	třísetstupňový		UNRESOLVED
+	třísettisícový		UNRESOLVED
+	třísettunový		UNRESOLVED
+	třísetwattový		UNRESOLVED
+	tříschémový		UNRESOLVED
+	třísinglový		UNRESOLVED
+	třískladbový		UNRESOLVED
+	třískupinový		UNRESOLVED
+	tříslabikový		UNRESOLVED
+	třísladový		UNRESOLVED
+	tříslotový		UNRESOLVED
+	třísloupcový		UNRESOLVED
+	třísložkový		UNRESOLVED
+	třísongový		UNRESOLVED
+	třísouborový		UNRESOLVED
+	třísoustavový		UNRESOLVED
+	třístavový		UNRESOLVED
+	třístěžňový		UNRESOLVED
+	třístoličkový		UNRESOLVED
+	třístránkový		UNRESOLVED
+	třístudňový		UNRESOLVED
+	třístupňový		UNRESOLVED
+	třísvazkový		UNRESOLVED
+	třísvětlový		UNRESOLVED
+	třísystémový		UNRESOLVED
+	tříšňůrový		UNRESOLVED
+	třítabulový		UNRESOLVED
+	třítahový		UNRESOLVED
+	třítaktový		UNRESOLVED
+	třítarifový		UNRESOLVED
+	třítělesový		UNRESOLVED
+	třítisícový		UNRESOLVED
+	třítlačítkový		UNRESOLVED
+	třítónový		UNRESOLVED
+	třítraktový		UNRESOLVED
+	třítréninkový		UNRESOLVED
+	třítřetinový		UNRESOLVED
+	tříturnajový		UNRESOLVED
+	tříúderový		UNRESOLVED
+	tříúrovňový		UNRESOLVED
+	tříuzlový		UNRESOLVED
+	třívagónový		UNRESOLVED
+	tříventilový		UNRESOLVED
+	třívěžový		UNRESOLVED
+	třívchodový		UNRESOLVED
+	třívíkendový		UNRESOLVED
+	třívodičový		UNRESOLVED
+	třívoltový		UNRESOLVED
+	třívozový		UNRESOLVED
+	třívrstvový		UNRESOLVED
+	třívřetenový		UNRESOLVED
+	třívteřinový		UNRESOLVED
+	třívýhonkový		UNRESOLVED
+	tříwattový		UNRESOLVED
+	třízámkový		UNRESOLVED
+	třízápasový		UNRESOLVED
+	třízapasový		UNRESOLVED
+	třízastávkový		UNRESOLVED
+	třízávodový		UNRESOLVED
+	třízdrojový		UNRESOLVED
+	tříznakový		UNRESOLVED
+	třízónový		UNRESOLVED
+	třízvonový		UNRESOLVED
+	třížánrový		UNRESOLVED
+	třížilový		UNRESOLVED
+N	zahumnový		UNRESOLVED
+N	zakanálový		UNRESOLVED
+N	zapažnicový		UNRESOLVED
+?	zaponový		UNRESOLVED  A:zápon
+	zelenobéžový		UNRESOLVED
+	zelenofialový		UNRESOLVED
+	zelenokrémový		UNRESOLVED
+	zelenookrový		UNRESOLVED
+	zelenoolivový		UNRESOLVED
+	zelenooranžový		UNRESOLVED
+	zelenopepřový		UNRESOLVED
+	zelenorůžový		UNRESOLVED
+	zelenovínový		UNRESOLVED
+	zubodásňový		UNRESOLVED
+	železnooponový		UNRESOLVED
+	žlutobéžový		UNRESOLVED
+	žlutobronzový		UNRESOLVED
+	žlutofialový		UNRESOLVED
+	žlutokarmínový		UNRESOLVED
+	žlutokrémový		UNRESOLVED
+	žlutomramorový		UNRESOLVED
+	žlutonachový		UNRESOLVED
+	žlutookrový		UNRESOLVED
+	žlutoolivový		UNRESOLVED
+	žlutooranžový		UNRESOLVED
+	žlutopískový		UNRESOLVED
+	žlutorůžový		UNRESOLVED
+	žlutotyrkysový		UNRESOLVED
+	žlutovínový		UNRESOLVED
+N	beztvarový		UNRESOLVED
+	dvousetfilmový		UNRESOLVED
+	dvousetgramový		UNRESOLVED
+	dvousettunový		UNRESOLVED
+N	expertízový		UNRESOLVED A:expertíza
+	jednomodový		UNRESOLVED
+	nadúčelový		UNRESOLVED
+	osmimilionový		UNRESOLVED
+	pětimilionový		UNRESOLVED
+N	proteínový		UNRESOLVED  A:protein
+	šestimilionový		UNRESOLVED
+	angloarabský		UNRESOLVED
+	angloirský		UNRESOLVED
+	anglokanadský		UNRESOLVED
+	anglonormanský		UNRESOLVED
+	anglosaský		UNRESOLVED
+	bělobranský		UNRESOLVED
+	bělocerkevský		UNRESOLVED
+	bělogvardějský		UNRESOLVED
+	bělohorský		UNRESOLVED
+N	bělojarský		UNRESOLVED  A:Bělojarsk
+	bělokarpatský		UNRESOLVED
+	bělokostelský		UNRESOLVED
+	bělomořský		UNRESOLVED
+	běloveský		UNRESOLVED
+	bělovežský		UNRESOLVED
+?	bezenský		UNRESOLVED
+N	bezmanželský		UNRESOLVED
+N	beznáboženský		UNRESOLVED
+N	bezpopovský		UNRESOLVED
+N	bezúplatkářský		UNRESOLVED
+N	bezwatersovský		UNRESOLVED
+	bílokarpatský		UNRESOLVED
+	bílokostelský		UNRESOLVED
+	bílopodolský		UNRESOLVED
+N	biokovský		UNRESOLVED A:Biokovo
+	biokuchařský		UNRESOLVED
+	biolékařský		UNRESOLVED
+	biozemědělský		UNRESOLVED
+	černodolský		UNRESOLVED
+	černoleský		UNRESOLVED
+	černomorský		UNRESOLVED
+?	černopetrovský		UNRESOLVED
+	černopolský		UNRESOLVED
+N	černosotěnský		UNRESOLVED M:černosotěnec
+N	černosotněnský		UNRESOLVED  A:černosotněnec
+	českobavorský		UNRESOLVED
+	českobělský		UNRESOLVED
+	českobratrský		UNRESOLVED
+	českobritský		UNRESOLVED
+	českoitalský		UNRESOLVED
+	českokanadský		UNRESOLVED
+	českolatinský		UNRESOLVED
+	českomalínský		UNRESOLVED
+	českomoravský		UNRESOLVED
+	českopolský		UNRESOLVED
+	českorajský		UNRESOLVED
+	českorakouský		UNRESOLVED
+	českoruský		UNRESOLVED
+	českosaský		UNRESOLVED
+	českoslávský		UNRESOLVED
+	českoslovanský		UNRESOLVED
+	českošvýcarský		UNRESOLVED
+	českožidovský		UNRESOLVED
+	cisalpinský		UNRESOLVED
+	cisalpínský		UNRESOLVED
+	cispadánský		UNRESOLVED
+N	dvojčátkovský		UNRESOLVED A:dvojčátko
+	dvouautorský		UNRESOLVED
+	dvoupyský		UNRESOLVED
+	exargentinský		UNRESOLVED
+	exbenešovský		UNRESOLVED
+	exblšanský		UNRESOLVED
+	exboleslavský		UNRESOLVED
+	exbrněnský		UNRESOLVED
+	exchomutovský		UNRESOLVED
+	exděčínský		UNRESOLVED
+	exházenkářský		UNRESOLVED
+	exhlučínský		UNRESOLVED
+	exjihlavský		UNRESOLVED
+	exjugoslávský		UNRESOLVED
+	exkarlovarský		UNRESOLVED
+	exkarvinský		UNRESOLVED
+	exkladenský		UNRESOLVED
+	exkrumlovský		UNRESOLVED
+	exlitvínovský		UNRESOLVED
+N	exploatátorský		UNRESOLVED  A:exploatátor
+	explzeňský		UNRESOLVED
+	exprešovský		UNRESOLVED
+	expříbramský		UNRESOLVED
+	exprostějovský		UNRESOLVED
+	exsevillský		UNRESOLVED
+	exsokolovský		UNRESOLVED
+	exsovětský		UNRESOLVED
+	exstudentský		UNRESOLVED
+	exšumperský		UNRESOLVED
+	extáborský		UNRESOLVED
+	extřebíčský		UNRESOLVED
+	extrenčínský		UNRESOLVED
+	exvsetínský		UNRESOLVED
+	exžižkovský		UNRESOLVED
+	exzlínský		UNRESOLVED
+	exznojemský		UNRESOLVED
+	hlubokodolský		UNRESOLVED
+	hlubokomořský		UNRESOLVED
+	jednobožský		UNRESOLVED
+	jednoklientský		UNRESOLVED
+N	jednotenský		UNRESOLVED A:jednota
+	králodvorský		UNRESOLVED
+	královodvorský		UNRESOLVED
+	královopolský		UNRESOLVED
+	krásnodvorský		UNRESOLVED
+	krásnohorský		UNRESOLVED
+	modrodolský		UNRESOLVED
+	modrohorský		UNRESOLVED
+	modropyský		UNRESOLVED
+?	nadbožský		UNRESOLVED
+	naddunajský		UNRESOLVED
+?	nadlidský		UNRESOLVED
+	nadměstský		UNRESOLVED
+	nadmořský		UNRESOLVED
+	nadnáboženský		UNRESOLVED
+?	nadpozemský		UNRESOLVED
+	nadsvětský		UNRESOLVED
+	nadzemský		UNRESOLVED
+N	newcomerský		UNRESOLVED A:newcomer
+	newgateský		UNRESOLVED
+	newhampshirský		UNRESOLVED
+	newjerseyský		UNRESOLVED
+	neworleanský		UNRESOLVED
+	neworleánský		UNRESOLVED
+	newyorkský		UNRESOLVED
+	newyorský		UNRESOLVED
+	orlickohorský		UNRESOLVED
+N	pětipeský		UNRESOLVED A:Pětipsy
+N	poapoštolský		UNRESOLVED
+N	pobartoškovský		UNRESOLVED
+N	pobártovský		UNRESOLVED
+N	pobělohorský		UNRESOLVED
+N	poberounský		UNRESOLVED
+N	pobonnský		UNRESOLVED
+N	počapelský		UNRESOLVED
+N	pocastrovský		UNRESOLVED
+N	pocézannovský		UNRESOLVED
+N	podalpínský		UNRESOLVED
+N	podbělohorský		UNRESOLVED
+N	podbranský		UNRESOLVED
+N	podčerchovský		UNRESOLVED
+N	podčeskoleský		UNRESOLVED
+N	poddanský		UNRESOLVED A:poddaný–N
+N	podegaullovský		UNRESOLVED
+N	podfarmářský		UNRESOLVED
+N	podhalanský		UNRESOLVED
+N	podhimálajský		UNRESOLVED
+N	podjavorinský		UNRESOLVED
+N	podkavkazský		UNRESOLVED
+N	podkrajský		UNRESOLVED
+N	podkumburský		UNRESOLVED
+N	podleský		UNRESOLVED  A:podlesí
+N	podlidský		UNRESOLVED
+N	podlipský		UNRESOLVED
+N	podmokelský		UNRESOLVED
+N	podmoskevský		UNRESOLVED
+N	podnovinářský		UNRESOLVED
+N	podpolianský		UNRESOLVED
+N	podroháčský		UNRESOLVED
+N	podsaharský		UNRESOLVED
+N	podtatranský		UNRESOLVED
+N	poevropský		UNRESOLVED
+N	pofrankovský		UNRESOLVED
+N	pogiottovský		UNRESOLVED
+N	pogramátorský		UNRESOLVED A:programátor
+N	pohegelovský		UNRESOLVED
+N	pohomérský		UNRESOLVED
+N	pohostinský		UNRESOLVED A:pohostiství
+N	pohusitský		UNRESOLVED
+N	pojišťovenský		UNRESOLVED A:pojišťovna
+N	pojizerský		UNRESOLVED
+N	pokantovský		UNRESOLVED
+N	poklausovský		UNRESOLVED
+N	pokraskovský		UNRESOLVED
+N	pokřesťanský		UNRESOLVED
+N	pokrkonošský		UNRESOLVED
+N	poláčkovský		UNRESOLVED A:Poláček
+N	polipanský		UNRESOLVED
+N	polipenský		UNRESOLVED
+N	polničský		UNRESOLVED A:Polnička
+N	polpotovský		UNRESOLVED
+N	polskočeský		UNRESOLVED
+N	polskoslezský		UNRESOLVED
+N	polubenský		UNRESOLVED  A:Polubný
+N	pomečiarovský		UNRESOLVED
+N	pomnichovský		UNRESOLVED
+N	pomorský		UNRESOLVED
+N	ponapoleonský		UNRESOLVED
+?	ponikelský		UNRESOLVED
+N	ponocenský		UNRESOLVED  A:ponocný
+N	pontinský		UNRESOLVED A:Pontus
+N	poolympijský		UNRESOLVED
+N	poosvícenský		UNRESOLVED
+N	poradenský		UNRESOLVED  A:poradna
+N	pořímský		UNRESOLVED
+N	portorikánský		UNRESOLVED A:Portoriko
+N	portroyalský		UNRESOLVED
+N	porurský		UNRESOLVED
+N	porúrský		UNRESOLVED
+N	porushdiovský		UNRESOLVED
+N	posarajevský		UNRESOLVED
+?	pošechonský		UNRESOLVED
+N	posovětský		UNRESOLVED
+N	poštorenský		UNRESOLVED A:Poštorná
+N	potalichovský		UNRESOLVED
+N	potridentský		UNRESOLVED
+N	potůčský		UNRESOLVED  A:Potůčky
+N	powellovský		UNRESOLVED A:Powell
+N	powimbledonský		UNRESOLVED
+	pozdněřímský		UNRESOLVED
+N	pozemanovský		UNRESOLVED
+N	pozemský		UNRESOLVED
+N	pozzuolský		UNRESOLVED  A:Pozzuoli
+	prebakalářský		UNRESOLVED
+	předalpský		UNRESOLVED
+	předárijský		UNRESOLVED
+	předbabylonský		UNRESOLVED
+	předbachovský		UNRESOLVED
+	předbakalářský		UNRESOLVED
+	předbaťovský		UNRESOLVED
+	předbělohorský		UNRESOLVED
+	předdevonský		UNRESOLVED
+N	predělský		UNRESOLVED A:Preděl
+	předevropský		UNRESOLVED
+	předfarmářský		UNRESOLVED
+	předfrankovský		UNRESOLVED
+	předharappský		UNRESOLVED
+	předhelénský		UNRESOLVED
+	předhimálajský		UNRESOLVED
+	předhomérovský		UNRESOLVED
+	předhorský		UNRESOLVED
+	předhusitský		UNRESOLVED
+	předislámský		UNRESOLVED
+	předjosefínský		UNRESOLVED
+	předkarolínský		UNRESOLVED
+	předkarpatský		UNRESOLVED
+	předkeltský		UNRESOLVED
+	předkosmovský		UNRESOLVED
+	předkřesťanský		UNRESOLVED
+	předlékařský		UNRESOLVED
+	předlisabonský		UNRESOLVED
+	předmanželský		UNRESOLVED
+	předmartinský		UNRESOLVED
+	předmaurjský		UNRESOLVED
+	předmayský		UNRESOLVED
+	předmikulášský		UNRESOLVED
+	předmistrovský		UNRESOLVED
+	předmnichovský		UNRESOLVED
+N	přednostenský		UNRESOLVED A:přednosta
+	předpěstounský		UNRESOLVED
+	předpředloňský		UNRESOLVED
+	předřímský		UNRESOLVED
+	předrománský		UNRESOLVED
+	předsarajevský		UNRESOLVED
+	předškolský		UNRESOLVED
+	předslovanský		UNRESOLVED
+	předsóánský		UNRESOLVED
+	předsovětský		UNRESOLVED
+	předšpanělský		UNRESOLVED
+	předstalinský		UNRESOLVED
+	předtkalcovský		UNRESOLVED
+	předverdiovský		UNRESOLVED
+	předvojenský		UNRESOLVED
+	prekambrijský		UNRESOLVED
+N	prenzlavský		UNRESOLVED A:Prenzlau
+	preobraženský		UNRESOLVED
+N	prespanský		UNRESOLVED  A:Prespa
+N	prespánský		UNRESOLVED  A:Prespa
+N	prestonský		UNRESOLVED  A:Preston
+	proarabský		UNRESOLVED
+	proarménský		UNRESOLVED
+	probagdádský		UNRESOLVED
+	probavorský		UNRESOLVED
+	probělehradský		UNRESOLVED
+	probosenský		UNRESOLVED
+	probritský		UNRESOLVED
+	probruselský		UNRESOLVED
+	procarský		UNRESOLVED
+	procastrovský		UNRESOLVED
+	pročečenský		UNRESOLVED
+	pročeský		UNRESOLVED
+	prochorvatský		UNRESOLVED
+N	prochotský		UNRESOLVED  A:Prochot
+	procikánský		UNRESOLVED
+	pročínský		UNRESOLVED
+	pročtenářský		UNRESOLVED
+	produdajevský		UNRESOLVED
+	proegyptský		UNRESOLVED
+	proevropský		UNRESOLVED
+	profarmářský		UNRESOLVED
+	profrancouzský		UNRESOLVED
+	profučíkovský		UNRESOLVED
+	progabčíkovský		UNRESOLVED
+	progajdarovský		UNRESOLVED
+	progorbačovský		UNRESOLVED
+	progruzínský		UNRESOLVED
+	progusejnovský		UNRESOLVED
+	prohabsburský		UNRESOLVED
+	prohavlovský		UNRESOLVED
+	prohitlerovský		UNRESOLVED
+	prohusitský		UNRESOLVED
+	proilieskovský		UNRESOLVED
+	proindonéský		UNRESOLVED
+	proíránský		UNRESOLVED
+	proirský		UNRESOLVED
+	proislámský		UNRESOLVED
+	proitalský		UNRESOLVED
+	proizraelský		UNRESOLVED
+	projakartský		UNRESOLVED
+	projaponský		UNRESOLVED
+	projelcinovský		UNRESOLVED
+	projugoslávský		UNRESOLVED
+	proklausovský		UNRESOLVED
+	proklepáčovský		UNRESOLVED
+	proklientský		UNRESOLVED
+	prokonžský		UNRESOLVED
+	prokrálovský		UNRESOLVED
+	prokremelský		UNRESOLVED
+	prokubánský		UNRESOLVED
+	prokurdský		UNRESOLVED
+	prokurtizánský		UNRESOLVED
+	prolibyjský		UNRESOLVED
+	prolidský		UNRESOLVED
+	prolisabonský		UNRESOLVED
+	promaďarský		UNRESOLVED
+	promečiarovský		UNRESOLVED
+	prométheovský		UNRESOLVED
+	promilionářský		UNRESOLVED
+	promuslimský		UNRESOLVED
+	promužský		UNRESOLVED
+	proobamovský		UNRESOLVED
+	proochranářský		UNRESOLVED
+	proodborářský		UNRESOLVED
+	propákistánský		UNRESOLVED
+	propalestinský		UNRESOLVED
+	propapežský		UNRESOLVED
+	propekingský		UNRESOLVED
+	propotratářský		UNRESOLVED
+	propruský		UNRESOLVED
+	proputinovský		UNRESOLVED
+	proputinský		UNRESOLVED
+	prorakouský		UNRESOLVED
+	prořímský		UNRESOLVED
+	proromský		UNRESOLVED
+	prorumunský		UNRESOLVED
+	proruský		UNRESOLVED
+	prosaddámovský		UNRESOLVED
+	prosarajevský		UNRESOLVED
+	prosovětský		UNRESOLVED
+	prošpanělský		UNRESOLVED
+	prosrbský		UNRESOLVED
+	prostalinský		UNRESOLVED
+	prosyrský		UNRESOLVED
+	protemelínský		UNRESOLVED
+	protemplářský		UNRESOLVED
+N	proteovský		UNRESOLVED  A:Proteus
+	protunelářský		UNRESOLVED
+	protutsijský		UNRESOLVED
+	proukrajinský		UNRESOLVED
+N	proutkářský		UNRESOLVED A:proutkář
+N	provázkářský		UNRESOLVED  A:provázkář
+?	provázkovský		UNRESOLVED  A:Provázek
+	provelrybářský		UNRESOLVED
+N	provencalský		UNRESOLVED  A:Provence
+	provídeňský		UNRESOLVED
+	provietnamský		UNRESOLVED
+	provojenský		UNRESOLVED
+	prozemanovský		UNRESOLVED
+	prozemědělský		UNRESOLVED
+	proženský		UNRESOLVED
+	římskolatinský		UNRESOLVED
+	římskopapežský		UNRESOLVED
+	říšskoradský		UNRESOLVED
+	rudoarmějský		UNRESOLVED
+	rudokhmerský		UNRESOLVED
+N	rudolfinský		UNRESOLVED A:Rudolf
+	rudomořský		UNRESOLVED
+	ruskočečenský		UNRESOLVED
+	ruskoslovanský		UNRESOLVED
+	safraholtský		UNRESOLVED
+	saframentský		UNRESOLVED
+	safraportský		UNRESOLVED
+	sandiegský		UNRESOLVED
+N	sandinovský		UNRESOLVED A:Sandin
+N	sandoměřský		UNRESOLVED A:Sandoměř
+	sanfranciský		UNRESOLVED
+	sanktpöltenský		UNRESOLVED
+	sanmarinský		UNRESOLVED
+	sansalvadorský		UNRESOLVED
+N	sanskritský		UNRESOLVED A:sanskrt
+	sanstefanský		UNRESOLVED
+N	santiagský		UNRESOLVED  A:Santiago
+N	santraginský		UNRESOLVED  A:Santragin
+	sedmidubský		UNRESOLVED
+	sedmihorský		UNRESOLVED
+	sedmihůrský		UNRESOLVED
+	sedmipanský		UNRESOLVED
+	šestipanský		UNRESOLVED
+N	stolářský		UNRESOLVED A:stolář
+	stouživatelský		UNRESOLVED
+	subalpinský		UNRESOLVED
+	subalpínský		UNRESOLVED
+	subsaharský		UNRESOLVED
+	subsahelský		UNRESOLVED
+	tichoceánský		UNRESOLVED
+	tichooceánský		UNRESOLVED
+N	tichošlápskský		UNRESOLVED  A:tichošlápek
+N	tichošlápský		UNRESOLVED  A:tichošlápek
+	třídvorský		UNRESOLVED
+	tříkrálovský		UNRESOLVED
+N	třímanský		UNRESOLVED A:Třímany
+	třísekerský		UNRESOLVED
+	třísekyrský		UNRESOLVED
+	třísesterský		UNRESOLVED
+	třísestrovský		UNRESOLVED
+	tříuživatelský		UNRESOLVED
+N	trivenetský		UNRESOLVED A:Triveneto
+N	trojánský		UNRESOLVED A:Trójan
+N	trojský		UNRESOLVED A:Troja
+	vandammovský		UNRESOLVED
+	vandyckovský		UNRESOLVED
+	vandykovský		UNRESOLVED
+	vangoghovský		UNRESOLVED
+N	zaalajský		UNRESOLVED
+N	zaalpský		UNRESOLVED
+N	zaaltajský		UNRESOLVED
+N	zaanský		UNRESOLVED A:Zaan
+N	zaatlantský		UNRESOLVED
+N	zabranovský		UNRESOLVED A:Zábrana
+	zadnotřebaňský		UNRESOLVED
+N	zahradkářský		UNRESOLVED  A:zahrádkář
+N	zahurský		UNRESOLVED  A:Zahura
+N	zailijský		UNRESOLVED
+N	zakarlovarský		UNRESOLVED
+?	zalamejský		UNRESOLVED
+N	zambezský		UNRESOLVED A:Zambezi
+N	zamoskevský		UNRESOLVED
+N	zangelanský		UNRESOLVED A:Zangelan
+N	zangezurský		UNRESOLVED A:Zangezur
+N	zaoceánský		UNRESOLVED
+N	zasilatelský		UNRESOLVED  A:zasilatel
+N	zašovský		UNRESOLVED  A:Zašov
+N	zauralský		UNRESOLVED
+	zelenobranský		UNRESOLVED
+	zelenodolský		UNRESOLVED
+	zelenogorský		UNRESOLVED
+	zelenohorský		UNRESOLVED
+	zelenolhotský		UNRESOLVED
+	zelenoluský		UNRESOLVED
+	železnohorský		UNRESOLVED
+	železnovodský		UNRESOLVED
+	žlutoluský		UNRESOLVED
+	zubolékařský		UNRESOLVED
+N	dvouoborářský	dvouobor	CHANGE: 0 --> ářský
+N	exotářský	exot	CHANGE: 0 --> ářský
+N	počasářský	počas	CHANGE: 0 --> ářský  A:počasí
+N	pohonářský	pohon	CHANGE: 0 --> ářský
+N	programářský	program	CHANGE: 0 --> ářský
+N	proutníkářský	proutník	CHANGE: 0 --> ářský
+N	bezručovský	Bezruč	CHANGE: 0 --> ovský
+N	excelovský	excel	CHANGE: 0 --> ovský
+N	newtonovský	newton	CHANGE: 0 --> ovský  A:Newton
+N	poeovský	Poe	CHANGE: 0 --> ovský
+N	popperovský	Popper	CHANGE: 0 --> ovský
+N	portmanovský	Portman	CHANGE: 0 --> ovský
+N	portnoyovský	Portnoy	CHANGE: 0 --> ovský
+N	posixovský	Posix	CHANGE: 0 --> ovský
+N	poslovský	Posl	CHANGE: 0 --> ovský  A:posel
+N	pospíšilovský	Pospíšil	CHANGE: 0 --> ovský
+N	poštmistrovský	poštmistr	CHANGE: 0 --> ovský
+N	potěmkinovský	Potěmkin	CHANGE: 0 --> ovský
+N	potterovský	Potter	CHANGE: 0 --> ovský
+N	poundovský	pound	CHANGE: 0 --> ovský
+	předžákovský	předžák	CHANGE: 0 --> ovský
+N	preislerovský	Preisler	CHANGE: 0 --> ovský
+N	preisnerovský	Preisner	CHANGE: 0 --> ovský
+N	presleyovský	Presley	CHANGE: 0 --> ovský
+N	procovský	proc	CHANGE: 0 --> ovský
+N	prologovský	prolog	CHANGE: 0 --> ovský
+N	proustovský	Proust	CHANGE: 0 --> ovský
+N	sandburgovský	Sandburg	CHANGE: 0 --> ovský
+N	santiniovský	Santini	CHANGE: 0 --> ovský
+N	stoiberovský	Stoiber	CHANGE: 0 --> ovský
+N	stoneovský	Stone	CHANGE: 0 --> ovský
+N	stonesovský	Stones	CHANGE: 0 --> ovský
+N	stounovský	Stoun	CHANGE: 0 --> ovský
+N	tichonovovský	Tichonov	CHANGE: 0 --> ovský
+N	tristanovský	Tristan	CHANGE: 0 --> ovský
+N	bělohradský	Bělohrad	CHANGE: 0 --> ský
+N	bělotínský	Bělotín	CHANGE: 0 --> ský
+N	bělověžský	Bělověž	CHANGE: 0 --> ský
+N	bělovský	Bělov	CHANGE: 0 --> ský
+N	bezděkovský	Bezděkov	CHANGE: 0 --> ský
+N	bezdězský	Bezděz	CHANGE: 0 --> ský
+N	bezdrevský	Bezdrev	CHANGE: 0 --> ský
+N	bezměrovský	Bezměrov	CHANGE: 0 --> ský
+N	bezvěrovský	Bezvěrov	CHANGE: 0 --> ský
+N	bílovský	Bílov	CHANGE: 0 --> ský
+N	černobylský	Černobyl	CHANGE: 0 --> ský
+N	černodubský	Černodub	CHANGE: 0 --> ský
+N	černošínský	Černošín	CHANGE: 0 --> ský
+N	černotínský	Černotín	CHANGE: 0 --> ský
+N	černovírský	Černovír	CHANGE: 0 --> ský
+N	černovský	Černov	CHANGE: 0 --> ský
+N	exeterský	Exeter	CHANGE: 0 --> ský
+N	královský	Králov	CHANGE: 0 --> ský  A:král
+N	nadějkovský	Nadějkov	CHANGE: 0 --> ský
+N	nadějovský	Nadějov	CHANGE: 0 --> ský
+N	nadžafský	Nadžaf	CHANGE: 0 --> ský
+N	newportský	Newport	CHANGE: 0 --> ský
+N	podhájský	Podháj	CHANGE: 0 --> ský
+N	podhradský	Podhrad	CHANGE: 0 --> ský
+N	podkováňský	Podkováň	CHANGE: 0 --> ský
+N	podlešínský	Podlešín	CHANGE: 0 --> ský
+N	podolský	Podol	CHANGE: 0 --> ský  A:Podolí
+N	pohořský	Pohoř	CHANGE: 0 --> ský
+N	pokémonský	Pokémon	CHANGE: 0 --> ský
+N	pokojský	pokoj	CHANGE: 0 --> ský
+N	poleský	pole	CHANGE: 0 --> ský
+N	polevský	Polev	CHANGE: 0 --> ský  A:Polevsko
+N	poljanský	Poljan	CHANGE: 0 --> ský
+N	polský	Pol	CHANGE: 0 --> ský  A:Polsko
+N	ponědražský	Ponědraž	CHANGE: 0 --> ský
+N	poníkářský	poníkář	CHANGE: 0 --> ský
+N	popíkářský	popíkář	CHANGE: 0 --> ský
+N	popradský	Poprad	CHANGE: 0 --> ský
+N	popronský	Popron	CHANGE: 0 --> ský
+N	pořejovský	Pořejov	CHANGE: 0 --> ský
+N	poříčský	Poříč	CHANGE: 0 --> ský  A:Poříčí
+N	portsmouthský	Portsmouth	CHANGE: 0 --> ský
+N	poseidonský	Poseidon	CHANGE: 0 --> ský
+N	poteauský	Poteau	CHANGE: 0 --> ský
+N	potěmkinský	Potěmkin	CHANGE: 0 --> ský
+N	poťomkinský	Poťomkin	CHANGE: 0 --> ský
+N	potrubářský	potrubář	CHANGE: 0 --> ský
+N	potštátský	Potštát	CHANGE: 0 --> ský
+N	potštejnský	Potštejn	CHANGE: 0 --> ský
+N	pouchovský	Pouchov	CHANGE: 0 --> ský
+N	pozdeňský	Pozdeň	CHANGE: 0 --> ský
+N	poznaňský	Poznaň	CHANGE: 0 --> ský
+N	předbořský	Předboř	CHANGE: 0 --> ský
+N	předčtenářský	předčtenář	CHANGE: 0 --> ský
+N	předínský	Předín	CHANGE: 0 --> ský
+N	preslavský	Preslav	CHANGE: 0 --> ský
+N	prešovský	Prešov	CHANGE: 0 --> ský
+N	proboštovský	Proboštov	CHANGE: 0 --> ský
+N	prosečský	Proseč	CHANGE: 0 --> ský
+N	prosetínský	Prosetín	CHANGE: 0 --> ský
+N	prostějovský	Prostějov	CHANGE: 0 --> ský
+N	proutěnkářský	proutěnkář	CHANGE: 0 --> ský
+N	provodínský	Provodín	CHANGE: 0 --> ský
+N	provodovský	Provodov	CHANGE: 0 --> ský
+N	prozorovský	Prozorov	CHANGE: 0 --> ský
+N	rudolfovský	Rudolfov	CHANGE: 0 --> ský
+N	rudolstadtský	Rudolstadt	CHANGE: 0 --> ský
+N	santanderský	Santander	CHANGE: 0 --> ský
+N	stochovský	Stochov	CHANGE: 0 --> ský
+N	stockholmský	Stockholm	CHANGE: 0 --> ský
+N	stodský	Stod	CHANGE: 0 --> ský
+N	stonařovský	Stonařov	CHANGE: 0 --> ský
+N	stormontský	Stormont	CHANGE: 0 --> ský
+N	trianonský	Trianon	CHANGE: 0 --> ský
+N	tridentský	Trident	CHANGE: 0 --> ský
+N	triglavský	Triglav	CHANGE: 0 --> ský
+N	trinidadský	Trinidad	CHANGE: 0 --> ský
+N	trinitářský	trinitář	CHANGE: 0 --> ský
+N	tripoliský	Tripoli	CHANGE: 0 --> ský
+N	třísovský	Třísov	CHANGE: 0 --> ský
+N	trojanský	Trojan	CHANGE: 0 --> ský
+N	vancouverský	Vancouver	CHANGE: 0 --> ský
+N	vanovský	Vanov	CHANGE: 0 --> ský
+N	zadarský	Zadar	CHANGE: 0 --> ský
+N	zaháňský	Zaháň	CHANGE: 0 --> ský
+N	zairský	Zair	CHANGE: 0 --> ský
+N	zaječovský	Zaječov	CHANGE: 0 --> ský
+N	zanzibarský	Zanzibar	CHANGE: 0 --> ský
+N	zapský	Zap	CHANGE: 0 --> ský
+N	zastrkovský	Zastrkov	CHANGE: 0 --> ský
+N	zelenovský	Zelenov	CHANGE: 0 --> ský
+N	jednotářský	jednota	CHANGE: a --> ářský
+N	pochutinářský	pochutina	CHANGE: a --> ářský
+N	podzemkářský	podzemka	CHANGE: a --> ářský
+N	ponorkářský	ponorka	CHANGE: a --> ářský
+N	popravářský	poprava	CHANGE: a --> ářský
+N	proměnářský	proměna	CHANGE: a --> ářský
+N	vanilkářský	vanilka	CHANGE: a --> ářský
+N	popelkovský	popelka	CHANGE: a --> ovský
+N	potápkovský	potápka	CHANGE: a --> ovský
+N	procházkovský	procházka	CHANGE: a --> ovský A:Procházka
+N	prokrustovský	Prokrusta	CHANGE: a --> ovský
+N	santanovský	Santana	CHANGE: a --> ovský
+N	vančurovský	Vančura	CHANGE: a --> ovský
+N	zapatovský	Zapata	CHANGE: a --> ovský
+N	zappovský	Zappa	CHANGE: a --> ovský
+N	podbabský	Podbaba	CHANGE: a --> ský
+N	podhorský	Podhora	CHANGE: a --> ský
+N	potvorský	potvora	CHANGE: a --> ský
+N	rudolfínský	Rudolfína	CHANGE: a --> ský A:Rudolf
+N	stodolský	stodola	CHANGE: a --> ský
+N	stonavský	Stonava	CHANGE: a --> ský
+N	tripurský	Tripura	CHANGE: a --> ský
+N	vanuatský	Vanuata	CHANGE: a --> ský A:Vanuatu
+N	zamský	Zama	CHANGE: a --> ský
+N	poradcovský	poradce	CHANGE: ce --> covský
+N	pompejský	Pompeje	CHANGE: e --> ský
+N	pretorijský	Pretorie	CHANGE: ie --> ijský
+N	zambijský	Zambie	CHANGE: ie --> ijský
+N	cislajtánský	Cislajtánie	CHANGE: ie --> ský
+N	bezdomovský	bezdomoví	CHANGE: í --> ský
+N	černomořský	Černomoří	CHANGE: í --> ský
+N	dvouměstský	dvouměstí	CHANGE: í --> ský
+N	pobaltský	Pobaltí	CHANGE: í --> ský
+N	podalpský	Podalpí	CHANGE: í --> ský
+N	podbeskydský	Podbeskydí	CHANGE: í --> ský
+N	podještědský	Podještědí	CHANGE: í --> ský
+N	podkrkonošský	Podkrkonoší	CHANGE: í --> ský
+N	podměstský	podměstí	CHANGE: í --> ský
+N	podmořský	podmoří	CHANGE: í --> ský
+N	podpálavský	Podpálaví	CHANGE: í --> ský
+N	podskalský	podskalí	CHANGE: í --> ský
+N	podyjský	Podyjí	CHANGE: í --> ský
+N	podzemský	podzemí	CHANGE: í --> ský
+N	pohlavský	pohlaví	CHANGE: í --> ský
+N	pohronský	Pohroní	CHANGE: í --> ský
+N	pokladenský	pokladení	CHANGE: í --> ský A:pokladna
+N	polabský	Polabí	CHANGE: í --> ský
+N	pomořský	pomoří	CHANGE: í --> ský
+N	pootavský	Pootaví	CHANGE: í --> ský
+N	poručenský	poručení	CHANGE: í --> ský
+N	posávský	Posáví	CHANGE: í --> ský
+N	pošumavský	Pošumaví	CHANGE: í --> ský
+N	posvícenský	posvícení	CHANGE: í --> ský
+N	povážský	Pováží	CHANGE: í --> ský
+N	povltavský	Povltaví	CHANGE: í --> ský
+N	povolžský	Povolží	CHANGE: í --> ský
+N	předměstský	předměstí	CHANGE: í --> ský
+N	předmostský	předmostí	CHANGE: í --> ský
+N	probuzenský	probuzení	CHANGE: í --> ský
+?	proslovenský	proslovení	CHANGE: í --> ský
+N	tichomořský	tichomoří	CHANGE: í --> ský
+N	zadunajský	Zadunají	CHANGE: í --> ský
+N	zamagurský	Zamagurí	CHANGE: í --> ský
+N	zasvěcenský	zasvěcení	CHANGE: í --> ský A:zasvěcenec
+N	pressburský	Pressburg	CHANGE: rg --> rský
+N	prešporský	Prešpork	CHANGE: rk --> rský
+N	prešpurský	Prešpurk	CHANGE: rk --> rský
+N	provazárenský	provazárna	CHANGE: rna --> renský
+N	třídírenský	třídírna	CHANGE: rna --> renský
+N	zastavárenský	zastavárna	CHANGE: rna --> renský
+N	běloruský	Bělorusko	CHANGE: sko --> ský
+	božídarský	Božídarsko	CHANGE: sko --> ský
+	černohorský	Černohorsko	CHANGE: sko --> ský
+	českobrodský	Českobrodsko	CHANGE: sko --> ský
+	českodubský	Českodubsko	CHANGE: sko --> ský
+	českolipský	Českolipsko	CHANGE: sko --> ský
+N	československý	Československo	CHANGE: sko --> ský
+	českotěšínský	Českotěšínsko	CHANGE: sko --> ský
+	českotřebovský	Českotřebovsko	CHANGE: sko --> ský
+	královédvorský	Královédvorsko	CHANGE: sko --> ský
+	krásnolipský	Krásnolipsko	CHANGE: sko --> ský
+N	podbrdský	Podbrdsko	CHANGE: sko --> ský
+N	podhostýnský	Podhostýnsko	CHANGE: sko --> ský
+N	podkarpatský	Podkarpatsko	CHANGE: sko --> ský
+N	podlipanský	Podlipansko	CHANGE: sko --> ský
+N	podněsterský	Podněstersko	CHANGE: sko --> ský
+N	podřipský	Podřipsko	CHANGE: sko --> ský
+N	podunajský	Podunajsko	CHANGE: sko --> ský
+N	polenský	Polensko	CHANGE: sko --> ský
+N	poličský	Poličsko	CHANGE: sko --> ský A:Polička
+N	porýnský	Porýnsko	CHANGE: sko --> ský L:Porýnsko–N
+N	posázavský	Posázavsko	CHANGE: sko --> ský
+	předlitavský	Předlitavsko	CHANGE: sko --> ský
+N	předloňský	předloňsko	CHANGE: sko --> ský A:předloni
+	provensálský	provensálsko	CHANGE: sko --> ský A:Provence
+N	sedmihradský	Sedmihradsko	CHANGE: sko --> ský
+N	tripolský	Tripolsko	CHANGE: sko --> ský
+N	zabajkalský	Zabajkalsko	CHANGE: sko --> ský
+N	zajordánský	Zajordánsko	CHANGE: sko --> ský
+N	zakarpatský	Zakarpatsko	CHANGE: sko --> ský
+N	zakavkazský	Zakavkazsko	CHANGE: sko --> ský
+N	zalitavský	Zalitavsko	CHANGE: sko --> ský
+N	zatatranský	Zatatransko	CHANGE: sko --> ský
+	železnobrodský	Železnobrodsko	CHANGE: sko --> ský
+	železnorudský	Železnorudsko	CHANGE: sko --> ský
+N	počeradský	Počerady	CHANGE: y --> ský
+N	podbořanský	Podbořany	CHANGE: y --> ský
+N	poděvousský	Poděvousy	CHANGE: y --> ský
+N	podhořanský	Podhořany	CHANGE: y --> ský
+N	podůlšanský	Podůlšany	CHANGE: y --> ský
+N	pohorský	pohory	CHANGE: y --> ský
+N	polabinský	Polabiny	CHANGE: y --> ský
+N	poříčanský	Poříčany	CHANGE: y --> ský
+N	pouzdřanský	Pouzdřany	CHANGE: y --> ský
+N	povrlský	Povrly	CHANGE: y --> ský
+N	prorubský	Proruby	CHANGE: y --> ský A:Poruba
+N	stolanský	Stolany	CHANGE: y --> ský
+N	zabrušanský	Zabrušany	CHANGE: y --> ský
+N	zalužanský	Zalužany	CHANGE: y --> ský

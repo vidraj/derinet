@@ -1,1213 +1,1213 @@
-absintový	absint	CHANGE: 0 --> ový
-adidasový	Adidas	CHANGE: 0 --> ový
-adipový	Adip	CHANGE: 0 --> ový
-aldonový	Aldon	CHANGE: 0 --> ový
-androidový	android	CHANGE: 0 --> ový
-anhydritový	anhydrit	CHANGE: 0 --> ový
-antiagingový	antiaging	CHANGE: 0 --> ový
+	absintový	absint	CHANGE: 0 --> ový
+	adidasový	Adidas	CHANGE: 0 --> ový
+	adipový	Adip	CHANGE: 0 --> ový
+	aldonový	Aldon	CHANGE: 0 --> ový
+	androidový	android	CHANGE: 0 --> ový
+	anhydritový	anhydrit	CHANGE: 0 --> ový
+	antiagingový	antiaging	CHANGE: 0 --> ový
 ?	arganový	Argan	CHANGE: 0 --> ový
-babytenisový	babytenis	CHANGE: 0 --> ový
-badyánový	badyán	CHANGE: 0 --> ový
-bajtový	Bajt	CHANGE: 0 --> ový
-baklažánový	baklažán	CHANGE: 0 --> ový
-bandážový	bandáž	CHANGE: 0 --> ový
-bannerový	banner	CHANGE: 0 --> ový
-baryový	Bary	CHANGE: 0 --> ový Z: baryum
+	babytenisový	babytenis	CHANGE: 0 --> ový
+	badyánový	badyán	CHANGE: 0 --> ový
+	bajtový	Bajt	CHANGE: 0 --> ový
+	baklažánový	baklažán	CHANGE: 0 --> ový
+	bandážový	bandáž	CHANGE: 0 --> ový
+	bannerový	banner	CHANGE: 0 --> ový
+	baryový	Bary	CHANGE: 0 --> ový Z: baryum
 ?	basketballový	Basketball	CHANGE: 0 --> ový
-basketový	basket	CHANGE: 0 --> ový
+	basketový	basket	CHANGE: 0 --> ový
 ?	bassový	Bass	CHANGE: 0 --> ový
-bassreflexový	bassreflex	CHANGE: 0 --> ový
-beachový	beach	CHANGE: 0 --> ový
-benefitový	benefit	CHANGE: 0 --> ový
-besselový	Bessel	CHANGE: 0 --> ový
-betalaktamový	betalaktam	CHANGE: 0 --> ový
-bičíkový	bičík	CHANGE: 0 --> ový
-biftekový	biftek	CHANGE: 0 --> ový
-bigboardový	bigboard	CHANGE: 0 --> ový
-bikesharingový	bikesharing	CHANGE: 0 --> ový
-bitcoinový	bitcoin	CHANGE: 0 --> ový
-bivakový	bivak	CHANGE: 0 --> ový
-bixenonový	bixenon	CHANGE: 0 --> ový
-blackoutový	blackout	CHANGE: 0 --> ový
-blatouchový	blatouch	CHANGE: 0 --> ový
-bolidový	bolid	CHANGE: 0 --> ový
-bookingový	booking	CHANGE: 0 --> ový
+	bassreflexový	bassreflex	CHANGE: 0 --> ový
+	beachový	beach	CHANGE: 0 --> ový L: beach–N
+	benefitový	benefit	CHANGE: 0 --> ový
+	besselový	Bessel	CHANGE: 0 --> ový
+	betalaktamový	betalaktam	CHANGE: 0 --> ový
+	bičíkový	bičík	CHANGE: 0 --> ový
+	biftekový	biftek	CHANGE: 0 --> ový
+	bigboardový	bigboard	CHANGE: 0 --> ový
+	bikesharingový	bikesharing	CHANGE: 0 --> ový
+	bitcoinový	bitcoin	CHANGE: 0 --> ový
+	bivakový	bivak	CHANGE: 0 --> ový
+	bixenonový	bixenon	CHANGE: 0 --> ový
+	blackoutový	blackout	CHANGE: 0 --> ový
+	blatouchový	blatouch	CHANGE: 0 --> ový
+	bolidový	bolid	CHANGE: 0 --> ový
+	bookingový	booking	CHANGE: 0 --> ový
 ?	bootový	Boot	CHANGE: 0 --> ový
-botnetový	botnet	CHANGE: 0 --> ový
+	botnetový	botnet	CHANGE: 0 --> ový
 ?	bramový	Bram	CHANGE: 0 --> ový
-brandingový	branding	CHANGE: 0 --> ový
-brandový	brand	CHANGE: 0 --> ový
-broadbandový	broadband	CHANGE: 0 --> ový
+	brandingový	branding	CHANGE: 0 --> ový
+	brandový	brand	CHANGE: 0 --> ový
+	broadbandový	broadband	CHANGE: 0 --> ový
 ?	bromový	Brom	CHANGE: 0 --> ový
-bronzingový	bronzing	CHANGE: 0 --> ový
-brunchový	brunch	CHANGE: 0 --> ový
-brutnákový	brutnák	CHANGE: 0 --> ový
-bublifukový	bublifuk	CHANGE: 0 --> ový
-cejchový	cejch	CHANGE: 0 --> ový
-cloudový	cloud	CHANGE: 0 --> ový
+	bronzingový	bronzing	CHANGE: 0 --> ový
+	brunchový	brunch	CHANGE: 0 --> ový
+	brutnákový	brutnák	CHANGE: 0 --> ový
+	bublifukový	bublifuk	CHANGE: 0 --> ový
+	cejchový	cejch	CHANGE: 0 --> ový
+	cloudový	cloud	CHANGE: 0 --> ový L: cloud–N
 ?	cottonový	Cotton	CHANGE: 0 --> ový
-coworkingový	coworking	CHANGE: 0 --> ový
+	coworkingový	coworking	CHANGE: 0 --> ový
 ?	crossový	Cross	CHANGE: 0 --> ový
-cunninghamový	Cunningham	CHANGE: 0 --> ový
-cybexový	Cybex	CHANGE: 0 --> ový
-čedokový	Čedok	CHANGE: 0 --> ový
-daviesový	Davies	CHANGE: 0 --> ový
-daviscupový	Daviscup	CHANGE: 0 --> ový
-dekretový	dekret	CHANGE: 0 --> ový
-detruzorový	detruzor	CHANGE: 0 --> ový
-dewarový	Dewar	CHANGE: 0 --> ový
-dial-upový	dial-up	CHANGE: 0 --> ový
-dionýsový	Dionýs	CHANGE: 0 --> ový M: Dionýsos
-doběhový	doběh	CHANGE: 0 --> ový
-dobošový	Doboš	CHANGE: 0 --> ový
-doeový	Doe	CHANGE: 0 --> ový
-doletový	dolet	CHANGE: 0 --> ový
-dot-comový	dot-com	CHANGE: 0 --> ový
-downhillový	Downhill	CHANGE: 0 --> ový
-doyleový	Doyle	CHANGE: 0 --> ový
-drobový	drob	CHANGE: 0 --> ový
-dřevákový	dřevák	CHANGE: 0 --> ový
-dřevořezový	dřevořez	CHANGE: 0 --> ový
-dublový	dubl	CHANGE: 0 --> ový
-džebelový	Džebel	CHANGE: 0 --> ový
-e-mailový	e-mail	CHANGE: 0 --> ový
-facebookový	Facebook	CHANGE: 0 --> ový
-fáčový	fáč	CHANGE: 0 --> ový
-fanový	fan	CHANGE: 0 --> ový
+	cunninghamový	Cunningham	CHANGE: 0 --> ový
+	cybexový	Cybex	CHANGE: 0 --> ový
+	čedokový	Čedok	CHANGE: 0 --> ový
+	daviesový	Davies	CHANGE: 0 --> ový
+	daviscupový	Daviscup	CHANGE: 0 --> ový
+	dekretový	dekret	CHANGE: 0 --> ový
+	detruzorový	detruzor	CHANGE: 0 --> ový
+	dewarový	Dewar	CHANGE: 0 --> ový
+	dial-upový	dial-up	CHANGE: 0 --> ový L: dial-up–N
+	dionýsový	Dionýs	CHANGE: 0 --> ový M: Dionýsos
+	doběhový	doběh	CHANGE: 0 --> ový
+	dobošový	Doboš	CHANGE: 0 --> ový
+	doeový	Doe	CHANGE: 0 --> ový
+	doletový	dolet	CHANGE: 0 --> ový
+	dot-comový	dot-com	CHANGE: 0 --> ový L: dot-com–N
+	downhillový	Downhill	CHANGE: 0 --> ový
+	doyleový	Doyle	CHANGE: 0 --> ový
+	drobový	drob	CHANGE: 0 --> ový
+	dřevákový	dřevák	CHANGE: 0 --> ový
+	dřevořezový	dřevořez	CHANGE: 0 --> ový
+	dublový	dubl	CHANGE: 0 --> ový
+	džebelový	Džebel	CHANGE: 0 --> ový
+	e-mailový	e-mail	CHANGE: 0 --> ový
+	facebookový	Facebook	CHANGE: 0 --> ový
+	fáčový	fáč	CHANGE: 0 --> ový
+	fanový	fan	CHANGE: 0 --> ový
 ?	fleetový	Fleet	CHANGE: 0 --> ový
-fordový	ford	CHANGE: 0 --> ový
-fotbalgolfový	fotbalgolf	CHANGE: 0 --> ový
-frgálový	frgál	CHANGE: 0 --> ový
-frotážový	frotáž	CHANGE: 0 --> ový
-gavestonový	Gaveston	CHANGE: 0 --> ový
-gore-texový	gore-tex	CHANGE: 0 --> ový
-grádlový	Grádl	CHANGE: 0 --> ový
-halloweenový	Halloween	CHANGE: 0 --> ový
-harasový	Haras	CHANGE: 0 --> ový
-hodový	hod	CHANGE: 0 --> ový
-holokaustový	holokaust	CHANGE: 0 --> ový
-hopový	hop	CHANGE: 0 --> ový
-hostelový	hostel	CHANGE: 0 --> ový
-?hotový	Hot	CHANGE: 0 --> ový
-chraplákový	chraplák	CHANGE: 0 --> ový
-imbusový	imbus	CHANGE: 0 --> ový
-invexový	Invex	CHANGE: 0 --> ový
-?jalový	Jal	CHANGE: 0 --> ový
-jarový	Jar	CHANGE: 0 --> ový
-jeansový	Jeans	CHANGE: 0 --> ový
-kapslíkový	kapslík	CHANGE: 0 --> ový
-karmazínový	Karmazín	CHANGE: 0 --> ový
-karterový	Karter	CHANGE: 0 --> ový
-kaštanovníkový	kaštanovník	CHANGE: 0 --> ový
-kickstarterový	kickstarter	CHANGE: 0 --> ový
-klezmerový	Klezmer	CHANGE: 0 --> ový
-kodakový	Kodak	CHANGE: 0 --> ový
-kornetový	kornet	CHANGE: 0 --> ový
-líhový	líh	CHANGE: 0 --> ový
-linuxový	Linux	CHANGE: 0 --> ový
-lotusový	Lotus	CHANGE: 0 --> ový
-macintoshový	Macintosh	CHANGE: 0 --> ový
-mainstreamový	mainstream	CHANGE: 0 --> ový
-make-upový	make-up	CHANGE: 0 --> ový
-makový	Mak	CHANGE: 0 --> ový Z: mák
-mash-upový	mash-up	CHANGE: 0 --> ový
-megapixelový	megapixel	CHANGE: 0 --> ový
-mercatorový	Mercator	CHANGE: 0 --> ový
-mercedesový	mercedes	CHANGE: 0 --> ový
-mokový	mok	CHANGE: 0 --> ový
-morseový	Morse	CHANGE: 0 --> ový
-nankinový	Nankin	CHANGE: 0 --> ový
-nešporový	Nešpor	CHANGE: 0 --> ový
-novellový	Novell	CHANGE: 0 --> ový
-oborový	obor	CHANGE: 0 --> ový
-obsidiánový	obsidián	CHANGE: 0 --> ový
-odkapový	odkap	CHANGE: 0 --> ový
-odleskový	odlesk	CHANGE: 0 --> ový
-orlonový	Orlon	CHANGE: 0 --> ový
-ořešákový	ořešák	CHANGE: 0 --> ový
-oscarový	Oscar	CHANGE: 0 --> ový
-oskarový	Oskar	CHANGE: 0 --> ový
-pasteurový	Pasteur	CHANGE: 0 --> ový
-patchworkový	patchwork	CHANGE: 0 --> ový
-pcháčový	pcháč	CHANGE: 0 --> ový
-pick-upový	pick-up	CHANGE: 0 --> ový
-piedmontový	Piedmont	CHANGE: 0 --> ový
-pin-upový	pin-up	CHANGE: 0 --> ový
-push-upový	push-up	CHANGE: 0 --> ový
-ratanový	ratan	CHANGE: 0 --> ový
-redisový	Redis	CHANGE: 0 --> ový
-rejdový	rejd	CHANGE: 0 --> ový
-remizový	Remiz	CHANGE: 0 --> ový Z: remíza
-ricochetový	ricochet	CHANGE: 0 --> ový
-rolový	Rol	CHANGE: 0 --> ový
-rotarový	Rotar	CHANGE: 0 --> ový
-rozpěrákový	rozpěrák	CHANGE: 0 --> ový
-rozprachový	rozprach	CHANGE: 0 --> ový
-rugbyový	Rugby	CHANGE: 0 --> ový
-rumpálový	rumpál	CHANGE: 0 --> ový
-sealový	Seal	CHANGE: 0 --> ový
-sekvojový	sekvoj	CHANGE: 0 --> ový
-sennový	Senn	CHANGE: 0 --> ový
-sinclairový	Sinclair	CHANGE: 0 --> ový
-sinový	Sin	CHANGE: 0 --> ový Z: sinus
-skafandrový	skafandr	CHANGE: 0 --> ový
-skateový	skate	CHANGE: 0 --> ový
-skejtový	skejt	CHANGE: 0 --> ový
-stand-upový	stand-up	CHANGE: 0 --> ový
-streetový	Street	CHANGE: 0 --> ový
-svítiplynový	svítiplyn	CHANGE: 0 --> ový
-svorový	svor	CHANGE: 0 --> ový
-swiftový	swift	CHANGE: 0 --> ový
-timový	Tim	CHANGE: 0 --> ový
-tizianový	Tizian	CHANGE: 0 --> ový
-tumpachový	Tumpach	CHANGE: 0 --> ový
-tweedový	Tweed	CHANGE: 0 --> ový
-twitterový	Twitter	CHANGE: 0 --> ový
-ultimový	ultim	CHANGE: 0 --> ový
-vagový	Vag	CHANGE: 0 --> ový
-valeriánový	Valerián	CHANGE: 0 --> ový
-varhanový	Varhan	CHANGE: 0 --> ový Z: varhany
-vetterový	Vetter	CHANGE: 0 --> ový
-volkswagenový	volkswagen	CHANGE: 0 --> ový
-wattový	Watt	CHANGE: 0 --> ový
-windowsový	Windows	CHANGE: 0 --> ový
-workoutový	workout	CHANGE: 0 --> ový
-xeonový	Xeon	CHANGE: 0 --> ový
-záhybový	záhyb	CHANGE: 0 --> ový
-závěrový	závěr	CHANGE: 0 --> ový
-závěsový	závěs	CHANGE: 0 --> ový
-zlatobýlový	zlatobýl	CHANGE: 0 --> ový
-árónový	Árón	CHANGE: 0 --> ový
-ethanový	Ethan	CHANGE: 0 --> ový Z: etan
-kurzový	Kurz	CHANGE: 0 --> ový Z: kurs
-nachový	nach	CHANGE: 0 --> ový
-purpurový	purpur	CHANGE: 0 --> ový
-roentgenový	Roentgen	CHANGE: 0 --> ový
-röntgenový	Röntgen	CHANGE: 0 --> ový
-visový	vis	CHANGE: 0 --> ový
-balerínkový	balerínka	CHANGE: a --> ový
-balerínový	balerína	CHANGE: a --> ový
-banjový	Banja	CHANGE: a --> ový Z: banjo
-bikový	bika	CHANGE: a --> ový
-bojovkový	bojovka	CHANGE: a --> ový
-bránový	brána	CHANGE: a --> ový
-březový	Březa	CHANGE: a --> ový Z: bříza
-cappellový	Cappella	CHANGE: a --> ový
-čivový	čiva	CHANGE: a --> ový
-damarový	Damara	CHANGE: a --> ový
-dřevoštěpkový	dřevoštěpka	CHANGE: a --> ový
-feratový	ferata	CHANGE: a --> ový
-ferátový	feráta	CHANGE: a --> ový
-férový	féra	CHANGE: a --> ový Z: fér
-flétničkový	flétnička	CHANGE: a --> ový
-fluorový	Fluora	CHANGE: a --> ový Z: fluór
-hínajánový	hínajána	CHANGE: a --> ový
-houbičkový	houbička	CHANGE: a --> ový
-hrazdičkový	hrazdička	CHANGE: a --> ový
-jamajkový	Jamajka	CHANGE: a --> ový
-javový	Java	CHANGE: a --> ový
-jogový	Joga	CHANGE: a --> ový
-kardový	Karda	CHANGE: a --> ový
-klihovkový	klihovka	CHANGE: a --> ový
-kosinový	Kosina	CHANGE: a --> ový Z: kosinus
-laurový	Laura	CHANGE: a --> ový
-lobeliový	Lobelia	CHANGE: a --> ový
-lungový	Lunga	CHANGE: a --> ový
-madeirový	Madeira	CHANGE: a --> ový
-mitrový	mitra	CHANGE: a --> ový
-moniliový	Monilia	CHANGE: a --> ový
-mostovkový	mostovka	CHANGE: a --> ový
-nopkový	nopka	CHANGE: a --> ový
-obložkový	obložka	CHANGE: a --> ový
-pajetkový	pajetka	CHANGE: a --> ový
-pešmergový	pešmerga	CHANGE: a --> ový
-plávkový	Plávka	CHANGE: a --> ový
-plevový	pleva	CHANGE: a --> ový
-přistýlkový	přistýlka	CHANGE: a --> ový
-ráčnový	ráčna	CHANGE: a --> ový
-soudničkový	soudnička	CHANGE: a --> ový
-?surový	Sura	CHANGE: a --> ový
-sviluškový	sviluška	CHANGE: a --> ový
-šlahačkový	šlahačka	CHANGE: a --> ový
-špachtový	Špachta	CHANGE: a --> ový
-tallový	Talla	CHANGE: a --> ový
-talmový	Talma	CHANGE: a --> ový
-talový	tala	CHANGE: a --> ový
-tempurový	tempura	CHANGE: a --> ový
-treponemový	Treponema	CHANGE: a --> ový
-třetinový	Třetina	CHANGE: a --> ový Z: třetina
-valerový	Valera	CHANGE: a --> ový
-valonkový	valonka	CHANGE: a --> ový
-žehrový	Žehra	CHANGE: a --> ový
-rosetový	Roseta	CHANGE: a --> ový Z: roseta
-sepiový	Sepia	CHANGE: a --> ový Z: sépie
-hýžďový	hýždě	CHANGE: dě --> ďový
-drožďový	droždí	CHANGE: dí --> ďový
-nářaďový	nářadí	CHANGE: dí --> ďový
-bočnicový	bočnice	CHANGE: e --> ový
-boulový	boule	CHANGE: e --> ový
-breakdancový	breakdance	CHANGE: e --> ový
-freeridový	freeride	CHANGE: e --> ový
-hardcorový	hardcore	CHANGE: e --> ový
-kapsáčový	kapsáče	CHANGE: e --> ový
-kašový	kaše	CHANGE: e --> ový
-koulový	koule	CHANGE: e --> ový
-kytový	Kyte	CHANGE: e --> ový Z: kyt
-lacláčový	lacláče	CHANGE: e --> ový
-maleinový	Maleine	CHANGE: e --> ový
-penthousový	penthouse	CHANGE: e --> ový
-perkusový	perkuse	CHANGE: e --> ový
-rýžový	rýže	CHANGE: e --> ový
-shakespearový	Shakespeare	CHANGE: e --> ový
-slidový	slide	CHANGE: e --> ový
-spádnicový	spádnice	CHANGE: e --> ový
-splinový	spline	CHANGE: e --> ový
-tolicový	tolice	CHANGE: e --> ový
-updatový	update	CHANGE: e --> ový
-vizový	vize	CHANGE: e --> ový
-vodnicový	vodnice	CHANGE: e --> ový
-volšový	volše	CHANGE: e --> ový
-volumový	volume	CHANGE: e --> ový
-vonicový	vonice	CHANGE: e --> ový
-výtvarnicový	výtvarnice	CHANGE: e --> ový
-kanicový	Kanice	CHANGE: e --> ový
-?modový	Mode	CHANGE: e --> ový
-bazénkový	bazének	CHANGE: ek --> kový
-bločkový	bloček	CHANGE: ek --> kový
-blogískový	blogísek	CHANGE: ek --> kový
-bochánkový	bochánek	CHANGE: ek --> kový
-broučkový	brouček	CHANGE: ek --> kový
-drůbkový	Drůbek	CHANGE: ek --> kový Z: drůbky
-háčkový	Háček	CHANGE: ek --> kový Z: háček
-jílkový	jílek	CHANGE: ek --> kový
-kartáčkový	kartáček	CHANGE: ek --> kový
-koníčkový	koníček	CHANGE: ek --> kový
-letáčkový	letáček	CHANGE: ek --> kový
-lilkový	lilek	CHANGE: ek --> kový
-lístečkový	lísteček	CHANGE: ek --> kový
-loubkový	loubek	CHANGE: ek --> kový
-máčkový	máček	CHANGE: ek --> kový
-míčkový	míček	CHANGE: ek --> kový
-neckový	Necek	CHANGE: ek --> kový Z: necky
-obuškový	obušek	CHANGE: ek --> kový
-rybníčkový	rybníček	CHANGE: ek --> kový
-šamánkový	Šamánek	CHANGE: ek --> kový
-tunýlkový	tunýlek	CHANGE: ek --> kový
-bobkovišňový	bobkovišeň	CHANGE: eň --> ňový
-dásňový	dáseň	CHANGE: eň --> ňový
-hlavňový	hlaveň	CHANGE: eň --> ňový
-hrušňový	hrušeň	CHANGE: eň --> ňový
-chlopňový	chlopeň	CHANGE: eň --> ňový
-líhňový	líheň	CHANGE: eň --> ňový
-písňový	píseň	CHANGE: eň --> ňový
-plísňový	plíseň	CHANGE: eň --> ňový
-sklizňový	sklizeň	CHANGE: eň --> ňový
-tísňový	tíseň	CHANGE: eň --> ňový
-třešňový	třešeň	CHANGE: eň --> ňový
-úrovňový	úroveň	CHANGE: eň --> ňový
-usňový	useň	CHANGE: eň --> ňový
-višňový	višeň	CHANGE: eň --> ňový
-vrátňový	vráteň	CHANGE: eň --> ňový
-výhňový	výheň	CHANGE: eň --> ňový
-zárubňový	zárubeň	CHANGE: eň --> ňový
-žňový	žeň	CHANGE: eň --> ňový
-čtyřveršový	čtyřverší	CHANGE: í --> ový
-lešenový	lešení	CHANGE: í --> ový
-nářečový	nářečí	CHANGE: í --> ový
-odvětvový	odvětví	CHANGE: í --> ový
-třenový	tření	CHANGE: í --> ový
-záhrobový	záhrobí	CHANGE: í --> ový
-zásvětový	zásvětí	CHANGE: í --> ový
-závažový	závaží	CHANGE: í --> ový
-zbožový	zboží	CHANGE: í --> ový
-aktiniový	aktinium	CHANGE: ium --> iový
-akváriový	akvárium	CHANGE: ium --> iový
-aluminiový	aluminium	CHANGE: ium --> iový
-amoniový	amonium	CHANGE: ium --> iový
-atriový	atrium	CHANGE: ium --> iový
-ceriový	cerium	CHANGE: ium --> iový
-cesiový	cesium	CHANGE: ium --> iový
-deuteriový	deuterium	CHANGE: ium --> iový
-estuáriový	estuárium	CHANGE: ium --> iový
-ferrosiliciový	ferrosilicium	CHANGE: ium --> iový
-foliový	folium	CHANGE: ium --> iový
-fusariový	Fusarium	CHANGE: ium --> iový
-germaniový	germanium	CHANGE: ium --> iový
-heliový	helium	CHANGE: ium --> iový
-iridiový	iridium	CHANGE: ium --> iový
-kadmiový	kadmium	CHANGE: ium --> iový
-kambriový	kambrium	CHANGE: ium --> iový
-kolodiový	kolodium	CHANGE: ium --> iový
-lithiový	lithium	CHANGE: ium --> iový
-magneziový	magnezium	CHANGE: ium --> iový
-masmédiový	masmédium	CHANGE: ium --> iový
-médiový	médium	CHANGE: ium --> iový
-miléniový	milénium	CHANGE: ium --> iový
-morfiový	morfium	CHANGE: ium --> iový
-natriový	natrium	CHANGE: ium --> iový
-omniový	omnium	CHANGE: ium --> iový
-opiový	opium	CHANGE: ium --> iový
-paládiový	paládium	CHANGE: ium --> iový
-palladiový	palladium	CHANGE: ium --> iový
-pentiový	pentium	CHANGE: ium --> iový
-plasmodiový	plasmodium	CHANGE: ium --> iový
-plutoniový	plutonium	CHANGE: ium --> iový
-pódiový	pódium	CHANGE: ium --> iový
-rubidiový	rubidium	CHANGE: ium --> iový
-thoriový	thorium	CHANGE: ium --> iový
-uraniový	uranium	CHANGE: ium --> iový
-yttriový	yttrium	CHANGE: ium --> iový
-zirkoniový	zirkonium	CHANGE: ium --> iový
-doplňkový	doplněk	CHANGE: něk --> ňkový
-pelyňkový	pelyněk	CHANGE: něk --> ňkový
-úplňkový	úplněk	CHANGE: něk --> ňkový
-výplňkový	výplněk	CHANGE: něk --> ňkový
-amarettový	amaretto	CHANGE: o --> ový
-avizový	avizo	CHANGE: o --> ový
-ažiový	ažio	CHANGE: o --> ový
-balzamikový	balzamiko	CHANGE: o --> ový
-belcantový	belcanto	CHANGE: o --> ový
-břemenový	břemeno	CHANGE: o --> ový
-cicerový	cicero	CHANGE: o --> ový
-cukrátkový	cukrátko	CHANGE: o --> ový
-číslový	číslo	CHANGE: o --> ový
-čtyřkolečkový	čtyřkolečko	CHANGE: o --> ový
-čtyřlůžkový	čtyřlůžko	CHANGE: o --> ový
-čtyřsedadlový	čtyřsedadlo	CHANGE: o --> ový
-déčkový	déčko	CHANGE: o --> ový
-éčkový	éčko	CHANGE: o --> ový
-endurový	enduro	CHANGE: o --> ový
-enkový	enko	CHANGE: o --> ový
-gétéčkový	gétéčko	CHANGE: o --> ový
-kablový	Kablo	CHANGE: o --> ový
-kápový	kápo	CHANGE: o --> ový
-kladivový	kladivo	CHANGE: o --> ový
-kolový	kolo	CHANGE: o --> ový
-křidélkový	křidélko	CHANGE: o --> ový
-křídlový	křídlo	CHANGE: o --> ový
-kvantový	Kvanto	CHANGE: o --> ový Z: kvantum
-létový	léto	CHANGE: o --> ový
-meníčkový	meníčko	CHANGE: o --> ový
-mumiový	mumio	CHANGE: o --> ový
-pádlový	pádlo	CHANGE: o --> ový
-palermový	Palermo	CHANGE: o --> ový
-pérový	péro	CHANGE: o --> ový
-plavidlový	plavidlo	CHANGE: o --> ový
-přáníčkový	přáníčko	CHANGE: o --> ový
-savový	savo	CHANGE: o --> ový
-silový	silo	CHANGE: o --> ový Z: síla
-skáčkový	skáčko	CHANGE: o --> ový
-srdéčkový	srdéčko	CHANGE: o --> ový
-světýlkový	světýlko	CHANGE: o --> ový
-téčkový	téčko	CHANGE: o --> ový
-tempový	tempo	CHANGE: o --> ový
-tílkový	tílko	CHANGE: o --> ový
-tonkový	Tonko	CHANGE: o --> ový
-veselový	veselo	CHANGE: o --> ový M: veselí
-víčkový	víčko	CHANGE: o --> ový
-vínový	víno	CHANGE: o --> ový
-vízový	vízo	CHANGE: o --> ový Z: vízum
-zelový	zelo	CHANGE: o --> ový
-zrcadélkový	zrcadélko	CHANGE: o --> ový
-železový	železo	CHANGE: o --> ový
-ážiový	ážio	CHANGE: o --> ový
-čelisťový	čelist	CHANGE: t --> ťový
-hrásťový	hrást	CHANGE: t --> ťový
-masťový	mast	CHANGE: t --> ťový
-náplasťový	náplast	CHANGE: t --> ťový
-niťový	nit	CHANGE: t --> ťový
-úbyťový	úbyt	CHANGE: t --> ťový
-čtyřalbový	čtyřalbum	CHANGE: um --> ový
-fluidový	fluidum	CHANGE: um --> ový
-imperfektový	imperfektum	CHANGE: um --> ový
-?nový	Num	CHANGE: um --> ový
-pyrethrový	Pyrethrum	CHANGE: um --> ový
-referendový	referendum	CHANGE: um --> ový
-vaselinový	Vaselinum	CHANGE: um --> ový
-censový	census	CHANGE: us --> ový
-cenzový	cenzus	CHANGE: us --> ový
-detritový	detritus	CHANGE: us --> ový
-dryopitékový	dryopitékus	CHANGE: us --> ový
-hypotalamový	hypotalamus	CHANGE: us --> ový
-iktový	iktus	CHANGE: us --> ový
-meniskový	meniskus	CHANGE: us --> ový
-noniový	nonius	CHANGE: us --> ový
-nukleový	nukleus	CHANGE: us --> ový
-papyrový	papyrus	CHANGE: us --> ový
-paratyfový	paratyfus	CHANGE: us --> ový
-pteropodový	pteropodus	CHANGE: us --> ový
-rotavirový	rotavirus	CHANGE: us --> ový
-strofantový	Strofantus	CHANGE: us --> ový
-?syrový	Syrus	CHANGE: us --> ový
-temporytmový	temporytmus	CHANGE: us --> ový
-tyfový	tyfus	CHANGE: us --> ový
-chlorový	Chlorus	CHANGE: us --> ový Z: chlór
-albový	Alby	CHANGE: y --> ový Z: album
-alpový	Alpy	CHANGE: y --> ový
-bermudový	bermudy	CHANGE: y --> ový
-bikeový	Bikey	CHANGE: y --> ový
-brdový	Brdy	CHANGE: y --> ový
-coreový	Corey	CHANGE: y --> ový
-čtyřkolový	Čtyřkoly	CHANGE: y --> ový
-derbový	derby	CHANGE: y --> ový
-dožínkový	dožínky	CHANGE: y --> ový
-dudový	dudy	CHANGE: y --> ový
-dupačkový	dupačky	CHANGE: y --> ový
-džínový	džíny	CHANGE: y --> ový
-džínskový	džínsky	CHANGE: y --> ový
-džínsový	džínsy	CHANGE: y --> ový
-hrabičkový	hrabičky	CHANGE: y --> ový
-chůdový	chůdy	CHANGE: y --> ový
-jesličkový	jesličky	CHANGE: y --> ový
-kalhotový	kalhoty	CHANGE: y --> ový
-lutrový	Lutry	CHANGE: y --> ový Z: lutra
-mimikrový	mimikry	CHANGE: y --> ový
-mydlinkový	mydlinky	CHANGE: y --> ový
-narozeninový	narozeniny	CHANGE: y --> ový
-nůžkový	nůžky	CHANGE: y --> ový
-obžínkový	obžínky	CHANGE: y --> ový
-oddavkový	oddavky	CHANGE: y --> ový
-otrubový	otruby	CHANGE: y --> ový
-plavečkový	plavečky	CHANGE: y --> ový
-plavkový	plavky	CHANGE: y --> ový
-prázdninový	prázdniny	CHANGE: y --> ový
-rohačkový	rohačky	CHANGE: y --> ový
-sáňkový	sáňky	CHANGE: y --> ový
-souchotinový	souchotiny	CHANGE: y --> ový
-spalinový	spaliny	CHANGE: y --> ový
-spalničkový	spalničky	CHANGE: y --> ový
-splaškový	splašky	CHANGE: y --> ový
-stamiliardový	stamiliardy	CHANGE: y --> ový
-šibřinkový	šibřinky	CHANGE: y --> ový
-teplákový	tepláky	CHANGE: y --> ový
-úvodkový	úvodky	CHANGE: y --> ový
-vedřinový	vedřiny	CHANGE: y --> ový
-whiskový	whisky	CHANGE: y --> ový
-abietový		UNRESOLVED
-abscisový		UNRESOLVED
-acetooctový		UNRESOLVED
-adagiový		UNRESOLVED Z: adagio
-adamantiový		UNRESOLVED
-adwarový		UNRESOLVED
-ajbišový		UNRESOLVED
-akažuový		UNRESOLVED
-akcizový		UNRESOLVED
-aktomyozinový		UNRESOLVED
-alamodový		UNRESOLVED
-albikový		UNRESOLVED
-aldarový		UNRESOLVED
-aleuronový		UNRESOLVED
-algový		UNRESOLVED
-alkoránový		UNRESOLVED
-amniový		UNRESOLVED
-amonnoledkový		UNRESOLVED
-amonoledkový		UNRESOLVED
-ampérhodinový		UNRESOLVED
-ampérvoltový		UNRESOLVED
-amylový		UNRESOLVED
-anhydrový		UNRESOLVED
-antocyanový		UNRESOLVED
-antranilový		UNRESOLVED
-arachidonový		UNRESOLVED
-arašidový		UNRESOLVED Z: arašíd
-arendiazoniový		UNRESOLVED
-arensulfonový		UNRESOLVED
-arexxový		UNRESOLVED
-argilikový		UNRESOLVED
-argonarkový		UNRESOLVED
-artpopový		UNRESOLVED
-artprotisový		UNRESOLVED
-asfaltodehtový		UNRESOLVED
-askorbinový		UNRESOLVED
-askorbový		UNRESOLVED
-asparagový		UNRESOLVED
-atabrinový		UNRESOLVED
-autosalonový		UNRESOLVED
-azinový		UNRESOLVED
-azurovofialový		UNRESOLVED
-babassový		UNRESOLVED
-backhandový		UNRESOLVED
-baclofenový		UNRESOLVED
-bahnopískový		UNRESOLVED
-balsamikový		UNRESOLVED
-balustrový		UNRESOLVED
-barbiturový		UNRESOLVED
-barexový		UNRESOLVED
-barikový		UNRESOLVED
-bártrový		UNRESOLVED
-batchový		UNRESOLVED
-bejbypunkový		UNRESOLVED
-bekendový		UNRESOLVED
-bělinový		UNRESOLVED
-benzilový		UNRESOLVED
-benzoový		UNRESOLVED
-benzoylový		UNRESOLVED
-béžový		UNRESOLVED Z: béž
-bikranový		UNRESOLVED
-bittorentový		UNRESOLVED
-bleděrůžový		UNRESOLVED
-bluegrasový		UNRESOLVED
-blugrassový		UNRESOLVED Z: bluegrass
-bočnokolesový		UNRESOLVED
-bolusový		UNRESOLVED Z: bolus
-bonbonový		UNRESOLVED Z: bonbón
-bootlegový		UNRESOLVED
-bordový		UNRESOLVED Z: bordó
-brilantový		UNRESOLVED
-broadcastový		UNRESOLVED
-brokerpoolový		UNRESOLVED
-bromfenolový		UNRESOLVED
-bromoctový		UNRESOLVED
-bromsalanový		UNRESOLVED
-bromthymolový		UNRESOLVED
-bryerový		UNRESOLVED
-březodehtový		UNRESOLVED
-bubblegumový		UNRESOLVED
-buflérový		UNRESOLVED
-bukodubový		UNRESOLVED
-bukosmrkový		UNRESOLVED
-butendiový		UNRESOLVED
-campingový		UNRESOLVED Z: camping
-celofanový		UNRESOLVED Z: celofán
-celotáborový		UNRESOLVED
-cembalitový		UNRESOLVED
-citronellový		UNRESOLVED
-cizoměnový		UNRESOLVED
-coelinový		UNRESOLVED
-comfaxový		UNRESOLVED
-cyprisový		UNRESOLVED
-čarový		UNRESOLVED
-červenobéžový		UNRESOLVED
-červenoduhový		UNRESOLVED
-červenofialový		UNRESOLVED
-červenokrémový		UNRESOLVED
-červenonachový		UNRESOLVED
-červenorůžový		UNRESOLVED
-červenovínový		UNRESOLVED
-čchanový		UNRESOLVED
-čislicový		UNRESOLVED Z: číslice
-čtyrkolkový		UNRESOLVED
-čtyřakordový		UNRESOLVED
-čtyřaktový		UNRESOLVED
-čtyřapůlbodový		UNRESOLVED
-čtyřapůlkilový		UNRESOLVED
-čtyřapůltunový		UNRESOLVED
-čtyřbitový		UNRESOLVED
-čtyřbytový		UNRESOLVED
-čtyřdvéřový		UNRESOLVED
-čtyřdveřový		UNRESOLVED
-čtyřgigabitový		UNRESOLVED
-čtyřgigový		UNRESOLVED
-čtyřgramový		UNRESOLVED
-čtyřhodinový		UNRESOLVED
-čtyřkabinkový		UNRESOLVED
-čtyřlampový		UNRESOLVED
-čtyřmandátový		UNRESOLVED
-čtyřmanuálový		UNRESOLVED
-čtyřmegabitový		UNRESOLVED
-čtyřmegabytový		UNRESOLVED
-čtyřminutový		UNRESOLVED
-čtyřmotorový		UNRESOLVED
-čtyřpokojový		UNRESOLVED
-čtyřsetgramový		UNRESOLVED
-čtyřsetmetrový		UNRESOLVED
-čtyřsetový		UNRESOLVED
-čtyřslabikový		UNRESOLVED
-čtyřtahový		UNRESOLVED
-čtyřveslový		UNRESOLVED
-čtyřžilový		UNRESOLVED
-dancehallový		UNRESOLVED
-davisový		UNRESOLVED Z: Davis
-deionový		UNRESOLVED
-dekofeinový		UNRESOLVED
-délkošířkový		UNRESOLVED
-deltoidový		UNRESOLVED
-děrnopáskový		UNRESOLVED
-děrnoštítkový		UNRESOLVED
-desítigólový		UNRESOLVED
-dhjánový		UNRESOLVED
-dieslový		UNRESOLVED Z: diesel
-digitalisový		UNRESOLVED
-diglykolový		UNRESOLVED
-dihydrolipoový		UNRESOLVED
-dikarboxylový		UNRESOLVED
-diploporový		UNRESOLVED
-dodekanový		UNRESOLVED
-dolistopadový		UNRESOLVED
-domainový		UNRESOLVED
-doommetalový		UNRESOLVED
-doopravdový		UNRESOLVED Z: doopravdy
-dopřevratový		UNRESOLVED
-dosový		UNRESOLVED Z: DOS
-drahokamenový		UNRESOLVED
-drapový		UNRESOLVED
-dubobukový		UNRESOLVED
-dubohabrový		UNRESOLVED
-dusíkovodíkový		UNRESOLVED
-dvěstěfilmový		UNRESOLVED
-dvěstěgramový		UNRESOLVED
-dvěstěmetrový		UNRESOLVED
-dyloftový		UNRESOLVED
-dýňový		UNRESOLVED Z: dýně
-džambuový		UNRESOLVED
-egirinový		UNRESOLVED
-elcédéčkový		UNRESOLVED
-emorockový		UNRESOLVED
-ergolinový		UNRESOLVED
-ergotový		UNRESOLVED
-erukový		UNRESOLVED
-erytrinový		UNRESOLVED
-facetový		UNRESOLVED
-factoringový		UNRESOLVED
-fajáncový		UNRESOLVED
-faksmilový		UNRESOLVED
-faxserverový		UNRESOLVED
-fayencový		UNRESOLVED
-fedcupový		UNRESOLVED
-fefrmincový		UNRESOLVED
-fenanthrenový		UNRESOLVED
-fenolčpavkový		UNRESOLVED
-fensterový		UNRESOLVED
-fernambukový		UNRESOLVED
-fialovorůžový		UNRESOLVED
-fíbrový		UNRESOLVED
-fisetový		UNRESOLVED
-flamenkový		UNRESOLVED Z: flamenco
-flashový		UNRESOLVED
-fleecový		UNRESOLVED
-fleesový		UNRESOLVED
-flokulový		UNRESOLVED
-floppydiskový		UNRESOLVED
-floretový		UNRESOLVED
-fluátový		UNRESOLVED
-fluoroctový		UNRESOLVED
-fluroctový		UNRESOLVED
-folový		UNRESOLVED
-forfaitový		UNRESOLVED
-fosfoniový		UNRESOLVED
-fosforbronzový		UNRESOLVED
-fošinkový		UNRESOLVED
-freónový		UNRESOLVED Z: freon
-ftaleinový		UNRESOLVED
-ftalový		UNRESOLVED
-fulárový		UNRESOLVED
-fulminový		UNRESOLVED
-funglnový		UNRESOLVED
-funkmetalový		UNRESOLVED
-fytový		UNRESOLVED
-galónový		UNRESOLVED Z: galon
-gartlandový		UNRESOLVED
-giberelový		UNRESOLVED
-glampunkový		UNRESOLVED
-globigerinový		UNRESOLVED
-glukonový		UNRESOLVED
-glukosový		UNRESOLVED
-glukuronový		UNRESOLVED
-glutamový		UNRESOLVED
-glykocholový		UNRESOLVED
-glykopeptidový		UNRESOLVED
-glyoxylátový		UNRESOLVED
-glyoxylový		UNRESOLVED
-gramicidinový		UNRESOLVED
-greensetový		UNRESOLVED
-groupwarový		UNRESOLVED
-grungeový		UNRESOLVED
-guarový		UNRESOLVED
-guerilový		UNRESOLVED
-guluronový		UNRESOLVED
-handballový		UNRESOLVED
-harcový		UNRESOLVED
-hardbopový		UNRESOLVED
-heavyrockový		UNRESOLVED
-hedgeový		UNRESOLVED
-héfaistový		UNRESOLVED
-hektarový		UNRESOLVED Z: hektar
-hektokotylový		UNRESOLVED
-helvelový		UNRESOLVED
-hendikepový		UNRESOLVED
-hexandiový		UNRESOLVED
-hietanenový		UNRESOLVED
-hiphopový		UNRESOLVED
-histikový		UNRESOLVED
-hlinitojílový		UNRESOLVED
-hlinocementový		UNRESOLVED
-hodobožový		UNRESOLVED
-horčinový		UNRESOLVED
-hořkomandlový		UNRESOLVED
-houňový		UNRESOLVED Z: houně
-hyaluronový		UNRESOLVED
-chairoscurový		UNRESOLVED
-chilloutový		UNRESOLVED
-chlorkaučukový		UNRESOLVED
-chloroctový		UNRESOLVED
-chlorsulfonový		UNRESOLVED
-chrámový		UNRESOLVED Z: chrám
-chromniklový		UNRESOLVED
-imidazolový		UNRESOLVED
-impulzový		UNRESOLVED Z: impuls
-inbusový		UNRESOLVED
-incomingový		UNRESOLVED
-incroyablový		UNRESOLVED
-indenový		UNRESOLVED
-infuzoriový		UNRESOLVED
-invarový		UNRESOLVED
-isoftalový		UNRESOLVED
-jaborandový		UNRESOLVED
-jalovinkový		UNRESOLVED
-jarmuzový		UNRESOLVED
-jasmonový		UNRESOLVED
-jazzfunkový		UNRESOLVED
-jedenáctinový		UNRESOLVED
-jedlobukový		UNRESOLVED
-jílocementový		UNRESOLVED
-jodobromový		UNRESOLVED
-jodooctový		UNRESOLVED
-jodoškrobový		UNRESOLVED
-jodpentoxidový		UNRESOLVED
-jódškrobový		UNRESOLVED
-jojobový		UNRESOLVED
-jomkipurový		UNRESOLVED
-jungleový		UNRESOLVED
-junglový		UNRESOLVED
-junktimový		UNRESOLVED
-juralitový		UNRESOLVED
-kablonový		UNRESOLVED
-kajalový		UNRESOLVED
-kalotový		UNRESOLVED
-kampeškový		UNRESOLVED
-kandytový		UNRESOLVED
-kanonový		UNRESOLVED
-kaprolaktanový		UNRESOLVED
-karafiolový		UNRESOLVED
-karnaubový		UNRESOLVED
-karobový		UNRESOLVED
-katechový		UNRESOLVED
-kazetopáskový		UNRESOLVED
-kebračový		UNRESOLVED
-kečový		UNRESOLVED
-kempingový		UNRESOLVED
-kentumový		UNRESOLVED
-klešťový		UNRESOLVED Z: kleště
-klihkový		UNRESOLVED
-klíšťový		UNRESOLVED Z: klíště
-knoflikový		UNRESOLVED
-kolikastupňový		UNRESOLVED
-kolopásový		UNRESOLVED
-komprasový		UNRESOLVED
-koniinový		UNRESOLVED
-kontidrátový		UNRESOLVED
-kontisochorový		UNRESOLVED
-konvejerový		UNRESOLVED
-kopajvový		UNRESOLVED
-kortisonový		UNRESOLVED
-kořeninový		UNRESOLVED
-kosminový		UNRESOLVED
-koverkotový		UNRESOLVED
-kručcový		UNRESOLVED
-krychtový		UNRESOLVED
-křehkolomový		UNRESOLVED
-kubébový		UNRESOLVED
-kubebový		UNRESOLVED
-kuponový		UNRESOLVED
-kvebrachový		UNRESOLVED
-kyanhydridový		UNRESOLVED
-kypový		UNRESOLVED
-kyslíkoniklový		UNRESOLVED
-lavandinový		UNRESOLVED
-learningový		UNRESOLVED
-lešeninový		UNRESOLVED
-lešeňový		UNRESOLVED
-lifestylový		UNRESOLVED
-lihobenzínový		UNRESOLVED
-likusový		UNRESOLVED
-lilákový		UNRESOLVED
-limetový		UNRESOLVED
-liparitový		UNRESOLVED
-lískooříškový		UNRESOLVED
-lněnoolejový		UNRESOLVED
-localtalkový		UNRESOLVED
-lodenový		UNRESOLVED
-loftový		UNRESOLVED
-ľudový		UNRESOLVED
-lusitový		UNRESOLVED
-lysergový		UNRESOLVED
-madreporový		UNRESOLVED
-magnesitový		UNRESOLVED
-magnetopáskový		UNRESOLVED
-mangrový		UNRESOLVED
-mannurový		UNRESOLVED
-marketinkový		UNRESOLVED
-masozeleninový		UNRESOLVED
-měděnoduhový		UNRESOLVED
-megavoltový		UNRESOLVED
-méněkolový		UNRESOLVED
-méněstupňový		UNRESOLVED
-menilitový		UNRESOLVED
-mentholový		UNRESOLVED Z: mentol
-merfenový		UNRESOLVED
-měrový		UNRESOLVED Z: míra
-metylakrylový		UNRESOLVED
-metylolový		UNRESOLVED
-metylpentanový		UNRESOLVED
-metylpropenový		UNRESOLVED
-metyltymolový		UNRESOLVED
-millefleurový		UNRESOLVED
-mirikový		UNRESOLVED
-mnohobitový		UNRESOLVED
-modakrylový		UNRESOLVED
-molikový		UNRESOLVED
-mopanový		UNRESOLVED
-muramylový		UNRESOLVED
-naftenový		UNRESOLVED
-naftyloctový		UNRESOLVED
-nachovofialový		UNRESOLVED
-nákrojový		UNRESOLVED
-namátkový		UNRESOLVED Z: namátka
-námětkový		UNRESOLVED
-napěťový		UNRESOLVED Z: napětí
-nátronový		UNRESOLVED
-nektriový		UNRESOLVED
-nervosvalový		UNRESOLVED
-niklkadmiový		UNRESOLVED
-niklohydridový		UNRESOLVED
-niklokadmiový		UNRESOLVED
-níťový		UNRESOLVED Z: nit
-obdélnikový		UNRESOLVED Z: obdélník
-obličejnový		UNRESOLVED
-obouformátový		UNRESOLVED
-obousměrový		UNRESOLVED
-obouvidový		UNRESOLVED
-obtočnový		UNRESOLVED
-obzorníkový		UNRESOLVED
-ocelobetonový		UNRESOLVED
-ocelogumový		UNRESOLVED
-oceloplechový		UNRESOLVED
-odhodový		UNRESOLVED Z: odhod
-offshorový		UNRESOLVED
-ogamový		UNRESOLVED
-ochrikový		UNRESOLVED
-oktálový		UNRESOLVED
-olejovzduchový		UNRESOLVED
-olizarinový		UNRESOLVED
-olovoacidový		UNRESOLVED
-omnifontový		UNRESOLVED
-onlinový		UNRESOLVED
-oplenový		UNRESOLVED
-opravdový		UNRESOLVED
-optickopáskový		UNRESOLVED
-optovláknový		UNRESOLVED
-oreléový		UNRESOLVED
-organtinový		UNRESOLVED
-orchestriónový		UNRESOLVED
-orthocerový		UNRESOLVED
-ortislimový		UNRESOLVED
-osmapůlkilový		UNRESOLVED
-osmdesátiarový		UNRESOLVED
-oxokovový		UNRESOLVED
-oxolinový		UNRESOLVED
-oxoniový		UNRESOLVED
-pageingový		UNRESOLVED
-paintbalový		UNRESOLVED
-palagonitový		UNRESOLVED
-palivomotorový		UNRESOLVED
-palmitový		UNRESOLVED
-passwordový		UNRESOLVED
-pazdeřový		UNRESOLVED
-pělyňkový		UNRESOLVED Z: pelyněk
-penicilanový		UNRESOLVED
-pentandiový		UNRESOLVED
-peprmintový		UNRESOLVED
-permititový		UNRESOLVED
-péřový		UNRESOLVED Z: peří
-pětapůltunový		UNRESOLVED
-pevnolátkový		UNRESOLVED
-phoenixový		UNRESOLVED
-pikrový		UNRESOLVED
-pimentový		UNRESOLVED
-pimperlový		UNRESOLVED
-piperazinový		UNRESOLVED
-pískovobéžový		UNRESOLVED
-pišingerový		UNRESOLVED Z: pišingr
-placikový		UNRESOLVED
-plazmatronový		UNRESOLVED
-plénerový		UNRESOLVED
-pluskový		UNRESOLVED
-plusplusový		UNRESOLVED
-prcičkový		UNRESOLVED
-princmetálový		UNRESOLVED
-průtkový		UNRESOLVED
-prvolednový		UNRESOLVED
-prvoligový		UNRESOLVED
-prvomájový		UNRESOLVED
-prvoplánový		UNRESOLVED
-prvosledový		UNRESOLVED
-prvostupňový		UNRESOLVED
-prvovlnový		UNRESOLVED
-prýmový		UNRESOLVED
-přečnělkový		UNRESOLVED
-přepěťový		UNRESOLVED
-přespomlčkový		UNRESOLVED
-přespultový		UNRESOLVED
-přežahový		UNRESOLVED
-příhrádkový		UNRESOLVED
-přihradový		UNRESOLVED
-příledovcový		UNRESOLVED
-připojový		UNRESOLVED Z: přípoj
-připovrchový		UNRESOLVED
-pthreadový		UNRESOLVED
-ptosový		UNRESOLVED
-publishingový		UNRESOLVED
-pubrockový		UNRESOLVED
-pulorový		UNRESOLVED
-pyrazolový		UNRESOLVED
-pyrimidonový		UNRESOLVED
-pyrimidový		UNRESOLVED
-pyžamopapučový		UNRESOLVED
-quicktimový		UNRESOLVED
-rabicový		UNRESOLVED
-rádioreléový		UNRESOLVED
-raficový		UNRESOLVED
-rahatový		UNRESOLVED
-rajčatový		UNRESOLVED Z: rajče
-rajčinový		UNRESOLVED
-rallycrossový		UNRESOLVED
-raminový		UNRESOLVED
-rašlový		UNRESOLVED
-rattanový		UNRESOLVED Z: ratan
-reggaerockový		UNRESOLVED
-releový		UNRESOLVED Z: relé
-relykrosový		UNRESOLVED
-rezavooranžový		UNRESOLVED
-rhacopterisový		UNRESOLVED
-ribonukleový		UNRESOLVED
-ripsový		UNRESOLVED
-riscový		UNRESOLVED
-roadový		UNRESOLVED
-rockenrollový		UNRESOLVED
-rockrapový		UNRESOLVED
-rokajlový		UNRESOLVED
-rollwerkový		UNRESOLVED
-rubáňový		UNRESOLVED
-ruditový		UNRESOLVED
-rušový		UNRESOLVED
-rynchosporiový		UNRESOLVED
-safesový		UNRESOLVED
-safetový		UNRESOLVED
-salepový		UNRESOLVED
-sargasový		UNRESOLVED
-satemový		UNRESOLVED
-sedaminový		UNRESOLVED
-sederový		UNRESOLVED
-sedmapůlkilový		UNRESOLVED
-sedmapůltunový		UNRESOLVED
-setinový		UNRESOLVED Z: setina
-seťový		UNRESOLVED
-shedový		UNRESOLVED
-scheelitový		UNRESOLVED
-schodišťový		UNRESOLVED Z: schodiště
-sifónový		UNRESOLVED Z: sifon
-singletaskový		UNRESOLVED
-sinixový		UNRESOLVED
-síňokomorový		UNRESOLVED
-sírodehtový		UNRESOLVED
-skopový		UNRESOLVED Z: skopec
-slámovinový		UNRESOLVED
-slovnědruhový		UNRESOLVED
-smalltalkový		UNRESOLVED
-snídaňový		UNRESOLVED Z: snídaně
-solvátový		UNRESOLVED
-sorbový		UNRESOLVED
-soufázový		UNRESOLVED
-soukrytový		UNRESOLVED
-sparcový		UNRESOLVED
-spodikový		UNRESOLVED
-spodový		UNRESOLVED
-spřahadlový		UNRESOLVED
-srdečkový		UNRESOLVED
-stablefordový		UNRESOLVED
-staccattový		UNRESOLVED
-stamilionový		UNRESOLVED
-staplový		UNRESOLVED
-start-upový		UNRESOLVED
-statimový		UNRESOLVED
-statisícový		UNRESOLVED
-stearový		UNRESOLVED
-streamingový		UNRESOLVED
-strečový		UNRESOLVED
-streetbalový		UNRESOLVED
-streetrockový		UNRESOLVED
-strnišťový		UNRESOLVED
-střednětraťový		UNRESOLVED
-stříbrnorůžový		UNRESOLVED
-styfnový		UNRESOLVED
-suffetový		UNRESOLVED
-sukňový		UNRESOLVED Z: sukně
-sulfanilový		UNRESOLVED
-sulfhydrylový		UNRESOLVED
-sulfinový		UNRESOLVED
-sulfonaftenový		UNRESOLVED
-sulfoniový		UNRESOLVED
-suportový		UNRESOLVED
-supremový		UNRESOLVED
-suprový		UNRESOLVED Z: super
-svícnový		UNRESOLVED
-svrchněkřídový		UNRESOLVED
-syřišťový		UNRESOLVED
-šestnáctinový		UNRESOLVED
-širtingový		UNRESOLVED
-špaličkový		UNRESOLVED
-šterkový		UNRESOLVED
-tabletennisový		UNRESOLVED
-taurocholový		UNRESOLVED
-teichoový		UNRESOLVED
-telariový		UNRESOLVED
-temněrůžový		UNRESOLVED
-tereftalový		UNRESOLVED
-terpentinový		UNRESOLVED
-tersilonový		UNRESOLVED
-těžišťový		UNRESOLVED Z: těžiště
-thiazolový		UNRESOLVED
-thrashmetalový		UNRESOLVED
-thymolinový		UNRESOLVED
-tchajpchingový		UNRESOLVED
-titanátový		UNRESOLVED
-titanozinkový		UNRESOLVED
-tokenringový		UNRESOLVED
-tradingový		UNRESOLVED
-trashmetalový		UNRESOLVED
-trashový		UNRESOLVED
-travertrnový		UNRESOLVED
-trekingový		UNRESOLVED
-trekinkový		UNRESOLVED
-trubový		UNRESOLVED
-truetypový		UNRESOLVED
-třetiligový		UNRESOLVED
-třiapůlpalcový		UNRESOLVED
-třicetigramový		UNRESOLVED
-třicetimetrový		UNRESOLVED
-třináctibitový		UNRESOLVED
-třináctibodový		UNRESOLVED
-třináctibytový		UNRESOLVED
-třináctigólový		UNRESOLVED
-třináctikilový		UNRESOLVED
-třináctipólový		UNRESOLVED
-třistagramový		UNRESOLVED
-třistametrový		UNRESOLVED
-tuberkulínový		UNRESOLVED
-tunningový		UNRESOLVED
-turnantový		UNRESOLVED
-tutový		UNRESOLVED
-twinningový		UNRESOLVED
-tymolinový		UNRESOLVED
-uhlíkozinkový		UNRESOLVED
-uměleckoideový		UNRESOLVED
-umpirový		UNRESOLVED
-upasový		UNRESOLVED
-uronový		UNRESOLVED
-úsťový		UNRESOLVED Z: ústí
-vahový		UNRESOLVED
-vápenopískový		UNRESOLVED
-vařidlový		UNRESOLVED
-versatinový		UNRESOLVED
-věstový		UNRESOLVED
-vetiverový		UNRESOLVED
-viskósový		UNRESOLVED
-viskozový		UNRESOLVED
-vlásinový		UNRESOLVED
-vobrázkový		UNRESOLVED
-volnočasový		UNRESOLVED
-volnoměnový		UNRESOLVED
-voltampérový		UNRESOLVED
-vopravdový		UNRESOLVED
-vrásnozlomový		UNRESOLVED
-vtroušeninový		UNRESOLVED
-výlučníkový		UNRESOLVED
-výšepříjmový		UNRESOLVED
-wapový		UNRESOLVED
-watthodinový		UNRESOLVED
-waveformový		UNRESOLVED
-welterový		UNRESOLVED
-westcoastový		UNRESOLVED
-wokýnkový		UNRESOLVED
-xantogenový		UNRESOLVED
-xBasový		UNRESOLVED
-ylangový		UNRESOLVED
-záměsový		UNRESOLVED
-zámyšový		UNRESOLVED
-zárovníkový		UNRESOLVED
-zářijový		UNRESOLVED
-záříjový		UNRESOLVED
-závažkový		UNRESOLVED
-zemčatový		UNRESOLVED
-zinkooxidový		UNRESOLVED
-zinkouhlíkový		UNRESOLVED
-zinkovzduchový		UNRESOLVED
-zlatavěduhový		UNRESOLVED
-zlatavofialový		UNRESOLVED
-zlatavorůžový		UNRESOLVED
-zlatobéžový		UNRESOLVED
-zlatobronzový		UNRESOLVED
-zlatofialový		UNRESOLVED
-zlatookrový		UNRESOLVED
-zlatooranžový		UNRESOLVED
-zlatopískový		UNRESOLVED
-zlatopurpurový		UNRESOLVED
-zlatorůžový		UNRESOLVED
-zrdcadlový		UNRESOLVED
-zvukoobrazový		UNRESOLVED
-žakarový		UNRESOLVED
-žakonový		UNRESOLVED
-žebérkový		UNRESOLVED
-železoniklový		UNRESOLVED
-železovodíkový		UNRESOLVED
-žernový		UNRESOLVED
-žilový		UNRESOLVED
-žinilkový		UNRESOLVED
-žůžový		UNRESOLVED
-anthranilový		UNRESOLVED
-asylový		UNRESOLVED Z: azyl
-bedmintonový		UNRESOLVED
-bonsaiový		UNRESOLVED Z: bonzai
-celulosový		UNRESOLVED Z: celulóza
-celulozový		UNRESOLVED Z: celulóza
-čtyrstránkový		UNRESOLVED
-čtyrstupový		UNRESOLVED
-čtyrúhelníkový		UNRESOLVED
-devisový		UNRESOLVED
-fefermincový		UNRESOLVED
-franšízinkový		UNRESOLVED
-glukozový		UNRESOLVED Z: glukóza
-jomkippurový		UNRESOLVED
-kamionový		UNRESOLVED Z: kamión
-kbytový		UNRESOLVED
-kursorový		UNRESOLVED
-maltosový		UNRESOLVED
-methakrylový		UNRESOLVED
-methanový		UNRESOLVED Z: metan
-methylakrylový		UNRESOLVED
-nasákový		UNRESOLVED
-ozonový		UNRESOLVED Z: ozón
-plasmový		UNRESOLVED Z: plazma
-plotterový		UNRESOLVED
-přírustkový		UNRESOLVED
-rajonový		UNRESOLVED Z: rajón
-rallyecrossový		UNRESOLVED
-resistorový		UNRESOLVED Z: rezistor
-ricínový		UNRESOLVED
-scatový		UNRESOLVED
-screeningový		UNRESOLVED
-sequencerový		UNRESOLVED
-softverový		UNRESOLVED
-stadionový		UNRESOLVED Z: stadión
+	fordový	ford	CHANGE: 0 --> ový
+	fotbalgolfový	fotbalgolf	CHANGE: 0 --> ový
+	frgálový	frgál	CHANGE: 0 --> ový
+	frotážový	frotáž	CHANGE: 0 --> ový
+	gavestonový	Gaveston	CHANGE: 0 --> ový
+	gore-texový	gore-tex	CHANGE: 0 --> ový L: gore-tex–N
+	grádlový	Grádl	CHANGE: 0 --> ový
+	halloweenový	Halloween	CHANGE: 0 --> ový
+	harasový	Haras	CHANGE: 0 --> ový
+	hodový	hod	CHANGE: 0 --> ový
+	holokaustový	holokaust	CHANGE: 0 --> ový
+	hopový	hop	CHANGE: 0 --> ový
+	hostelový	hostel	CHANGE: 0 --> ový
+?	hotový	Hot	CHANGE: 0 --> ový
+	chraplákový	chraplák	CHANGE: 0 --> ový
+	imbusový	imbus	CHANGE: 0 --> ový
+	invexový	Invex	CHANGE: 0 --> ový
+?	jalový	Jal	CHANGE: 0 --> ový
+	jarový	Jar	CHANGE: 0 --> ový
+	jeansový	Jeans	CHANGE: 0 --> ový
+	kapslíkový	kapslík	CHANGE: 0 --> ový
+	karmazínový	Karmazín	CHANGE: 0 --> ový
+	karterový	Karter	CHANGE: 0 --> ový
+	kaštanovníkový	kaštanovník	CHANGE: 0 --> ový
+	kickstarterový	kickstarter	CHANGE: 0 --> ový
+	klezmerový	Klezmer	CHANGE: 0 --> ový
+	kodakový	Kodak	CHANGE: 0 --> ový
+	kornetový	kornet	CHANGE: 0 --> ový
+	líhový	líh	CHANGE: 0 --> ový
+	linuxový	Linux	CHANGE: 0 --> ový
+	lotusový	Lotus	CHANGE: 0 --> ový
+	macintoshový	Macintosh	CHANGE: 0 --> ový
+	mainstreamový	mainstream	CHANGE: 0 --> ový
+	make-upový	make-up	CHANGE: 0 --> ový
+	makový	Mak	CHANGE: 0 --> ový Z: mák
+	mash-upový	mash-up	CHANGE: 0 --> ový
+	megapixelový	megapixel	CHANGE: 0 --> ový
+	mercatorový	Mercator	CHANGE: 0 --> ový
+	mercedesový	mercedes	CHANGE: 0 --> ový
+	mokový	mok	CHANGE: 0 --> ový
+	morseový	Morse	CHANGE: 0 --> ový
+	nankinový	Nankin	CHANGE: 0 --> ový
+	nešporový	Nešpor	CHANGE: 0 --> ový
+	novellový	Novell	CHANGE: 0 --> ový
+	oborový	obor	CHANGE: 0 --> ový
+	obsidiánový	obsidián	CHANGE: 0 --> ový
+	odkapový	odkap	CHANGE: 0 --> ový
+	odleskový	odlesk	CHANGE: 0 --> ový
+	orlonový	Orlon	CHANGE: 0 --> ový
+	ořešákový	ořešák	CHANGE: 0 --> ový
+	oscarový	Oscar	CHANGE: 0 --> ový
+	oskarový	Oskar	CHANGE: 0 --> ový
+	pasteurový	Pasteur	CHANGE: 0 --> ový
+	patchworkový	patchwork	CHANGE: 0 --> ový
+	pcháčový	pcháč	CHANGE: 0 --> ový
+	pick-upový	pick-up	CHANGE: 0 --> ový
+	piedmontový	Piedmont	CHANGE: 0 --> ový
+	pin-upový	pin-up	CHANGE: 0 --> ový L: pin-up–N
+	push-upový	push-up	CHANGE: 0 --> ový
+	ratanový	ratan	CHANGE: 0 --> ový
+	redisový	Redis	CHANGE: 0 --> ový
+	rejdový	rejd	CHANGE: 0 --> ový
+	remizový	Remiz	CHANGE: 0 --> ový Z: remíza
+	ricochetový	ricochet	CHANGE: 0 --> ový
+	rolový	Rol	CHANGE: 0 --> ový
+	rotarový	Rotar	CHANGE: 0 --> ový
+	rozpěrákový	rozpěrák	CHANGE: 0 --> ový
+	rozprachový	rozprach	CHANGE: 0 --> ový
+	rugbyový	Rugby	CHANGE: 0 --> ový
+	rumpálový	rumpál	CHANGE: 0 --> ový
+	sealový	Seal	CHANGE: 0 --> ový
+	sekvojový	sekvoj	CHANGE: 0 --> ový
+	sennový	Senn	CHANGE: 0 --> ový
+	sinclairový	Sinclair	CHANGE: 0 --> ový
+	sinový	Sin	CHANGE: 0 --> ový Z: sinus
+	skafandrový	skafandr	CHANGE: 0 --> ový
+	skateový	skate	CHANGE: 0 --> ový
+	skejtový	skejt	CHANGE: 0 --> ový
+	stand-upový	stand-up	CHANGE: 0 --> ový
+	streetový	Street	CHANGE: 0 --> ový
+	svítiplynový	svítiplyn	CHANGE: 0 --> ový
+	svorový	svor	CHANGE: 0 --> ový
+	swiftový	swift	CHANGE: 0 --> ový
+	timový	Tim	CHANGE: 0 --> ový
+	tizianový	Tizian	CHANGE: 0 --> ový
+	tumpachový	Tumpach	CHANGE: 0 --> ový
+	tweedový	Tweed	CHANGE: 0 --> ový
+	twitterový	Twitter	CHANGE: 0 --> ový
+	ultimový	ultim	CHANGE: 0 --> ový
+	vagový	Vag	CHANGE: 0 --> ový
+	valeriánový	Valerián	CHANGE: 0 --> ový
+	varhanový	Varhan	CHANGE: 0 --> ový Z: varhany
+	vetterový	Vetter	CHANGE: 0 --> ový
+	volkswagenový	volkswagen	CHANGE: 0 --> ový
+	wattový	Watt	CHANGE: 0 --> ový
+	windowsový	Windows	CHANGE: 0 --> ový
+	workoutový	workout	CHANGE: 0 --> ový
+	xeonový	Xeon	CHANGE: 0 --> ový
+	záhybový	záhyb	CHANGE: 0 --> ový
+	závěrový	závěr	CHANGE: 0 --> ový
+	závěsový	závěs	CHANGE: 0 --> ový
+	zlatobýlový	zlatobýl	CHANGE: 0 --> ový
+	árónový	Árón	CHANGE: 0 --> ový
+	ethanový	Ethan	CHANGE: 0 --> ový Z: etan
+	kurzový	Kurz	CHANGE: 0 --> ový Z: kurs
+	nachový	nach	CHANGE: 0 --> ový
+	purpurový	purpur	CHANGE: 0 --> ový L: purpura
+	roentgenový	Roentgen	CHANGE: 0 --> ový
+	röntgenový	Röntgen	CHANGE: 0 --> ový
+	visový	vis	CHANGE: 0 --> ový
+	balerínkový	balerínka	CHANGE: a --> ový
+	balerínový	balerína	CHANGE: a --> ový
+	banjový	Banja	CHANGE: a --> ový Z: banjo
+	bikový	bika	CHANGE: a --> ový
+	bojovkový	bojovka	CHANGE: a --> ový
+	bránový	brána	CHANGE: a --> ový
+	březový	Březa	CHANGE: a --> ový Z: bříza
+	cappellový	Cappella	CHANGE: a --> ový
+	čivový	čiva	CHANGE: a --> ový
+	damarový	Damara	CHANGE: a --> ový
+	dřevoštěpkový	dřevoštěpka	CHANGE: a --> ový
+	feratový	ferata	CHANGE: a --> ový
+	ferátový	feráta	CHANGE: a --> ový
+	férový	féra	CHANGE: a --> ový Z: fér
+	flétničkový	flétnička	CHANGE: a --> ový
+	fluorový	Fluora	CHANGE: a --> ový Z: fluór
+	hínajánový	hínajána	CHANGE: a --> ový
+	houbičkový	houbička	CHANGE: a --> ový
+	hrazdičkový	hrazdička	CHANGE: a --> ový
+	jamajkový	Jamajka	CHANGE: a --> ový
+	javový	Java	CHANGE: a --> ový
+	jogový	Joga	CHANGE: a --> ový
+	kardový	Karda	CHANGE: a --> ový
+	klihovkový	klihovka	CHANGE: a --> ový
+	kosinový	Kosina	CHANGE: a --> ový Z: kosinus
+	laurový	Laura	CHANGE: a --> ový
+	lobeliový	Lobelia	CHANGE: a --> ový
+	lungový	Lunga	CHANGE: a --> ový
+	madeirový	Madeira	CHANGE: a --> ový
+	mitrový	mitra	CHANGE: a --> ový
+	moniliový	Monilia	CHANGE: a --> ový
+	mostovkový	mostovka	CHANGE: a --> ový
+	nopkový	nopka	CHANGE: a --> ový
+	obložkový	obložka	CHANGE: a --> ový
+	pajetkový	pajetka	CHANGE: a --> ový
+	pešmergový	pešmerga	CHANGE: a --> ový
+	plávkový	Plávka	CHANGE: a --> ový
+	plevový	pleva	CHANGE: a --> ový
+	přistýlkový	přistýlka	CHANGE: a --> ový
+	ráčnový	ráčna	CHANGE: a --> ový
+	soudničkový	soudnička	CHANGE: a --> ový
+?	surový	Sura	CHANGE: a --> ový
+	sviluškový	sviluška	CHANGE: a --> ový
+	šlahačkový	šlahačka	CHANGE: a --> ový
+	špachtový	Špachta	CHANGE: a --> ový
+	tallový	Talla	CHANGE: a --> ový
+	talmový	Talma	CHANGE: a --> ový
+	talový	tala	CHANGE: a --> ový
+	tempurový	tempura	CHANGE: a --> ový L: tempura–N
+	treponemový	Treponema	CHANGE: a --> ový
+	třetinový	Třetina	CHANGE: a --> ový Z: třetina
+	valerový	Valera	CHANGE: a --> ový
+	valonkový	valonka	CHANGE: a --> ový
+	žehrový	Žehra	CHANGE: a --> ový
+	rosetový	Roseta	CHANGE: a --> ový Z: roseta
+	sepiový	Sepia	CHANGE: a --> ový Z: sépie
+	hýžďový	hýždě	CHANGE: dě --> ďový
+	drožďový	droždí	CHANGE: dí --> ďový
+	nářaďový	nářadí	CHANGE: dí --> ďový
+	bočnicový	bočnice	CHANGE: e --> ový
+	boulový	boule	CHANGE: e --> ový
+	breakdancový	breakdance	CHANGE: e --> ový
+	freeridový	freeride	CHANGE: e --> ový
+	hardcorový	hardcore	CHANGE: e --> ový
+	kapsáčový	kapsáče	CHANGE: e --> ový
+	kašový	kaše	CHANGE: e --> ový
+	koulový	koule	CHANGE: e --> ový
+	kytový	Kyte	CHANGE: e --> ový Z: kyt
+	lacláčový	lacláče	CHANGE: e --> ový
+	maleinový	Maleine	CHANGE: e --> ový
+	penthousový	penthouse	CHANGE: e --> ový
+	perkusový	perkuse	CHANGE: e --> ový
+	rýžový	rýže	CHANGE: e --> ový
+	shakespearový	Shakespeare	CHANGE: e --> ový
+	slidový	slide	CHANGE: e --> ový
+	spádnicový	spádnice	CHANGE: e --> ový
+	splinový	spline	CHANGE: e --> ový
+	tolicový	tolice	CHANGE: e --> ový
+	updatový	update	CHANGE: e --> ový
+	vizový	vize	CHANGE: e --> ový
+	vodnicový	vodnice	CHANGE: e --> ový
+	volšový	volše	CHANGE: e --> ový
+	volumový	volume	CHANGE: e --> ový
+	vonicový	vonice	CHANGE: e --> ový
+	výtvarnicový	výtvarnice	CHANGE: e --> ový
+	kanicový	Kanice	CHANGE: e --> ový
+?	modový	Mode	CHANGE: e --> ový
+	bazénkový	bazének	CHANGE: ek --> kový
+	bločkový	bloček	CHANGE: ek --> kový
+	blogískový	blogísek	CHANGE: ek --> kový
+	bochánkový	bochánek	CHANGE: ek --> kový
+	broučkový	brouček	CHANGE: ek --> kový
+	drůbkový	Drůbek	CHANGE: ek --> kový Z: drůbky
+	háčkový	Háček	CHANGE: ek --> kový Z: háček
+	jílkový	jílek	CHANGE: ek --> kový
+	kartáčkový	kartáček	CHANGE: ek --> kový
+	koníčkový	koníček	CHANGE: ek --> kový
+	letáčkový	letáček	CHANGE: ek --> kový
+	lilkový	lilek	CHANGE: ek --> kový
+	lístečkový	lísteček	CHANGE: ek --> kový
+	loubkový	loubek	CHANGE: ek --> kový
+	máčkový	máček	CHANGE: ek --> kový
+	míčkový	míček	CHANGE: ek --> kový
+	neckový	Necek	CHANGE: ek --> kový Z: necky
+	obuškový	obušek	CHANGE: ek --> kový
+	rybníčkový	rybníček	CHANGE: ek --> kový
+	šamánkový	Šamánek	CHANGE: ek --> kový
+	tunýlkový	tunýlek	CHANGE: ek --> kový
+	bobkovišňový	bobkovišeň	CHANGE: eň --> ňový
+	dásňový	dáseň	CHANGE: eň --> ňový
+	hlavňový	hlaveň	CHANGE: eň --> ňový
+	hrušňový	hrušeň	CHANGE: eň --> ňový
+	chlopňový	chlopeň	CHANGE: eň --> ňový
+	líhňový	líheň	CHANGE: eň --> ňový
+	písňový	píseň	CHANGE: eň --> ňový
+	plísňový	plíseň	CHANGE: eň --> ňový
+	sklizňový	sklizeň	CHANGE: eň --> ňový
+	tísňový	tíseň	CHANGE: eň --> ňový
+	třešňový	třešeň	CHANGE: eň --> ňový
+	úrovňový	úroveň	CHANGE: eň --> ňový
+	usňový	useň	CHANGE: eň --> ňový
+	višňový	višeň	CHANGE: eň --> ňový
+	vrátňový	vráteň	CHANGE: eň --> ňový
+	výhňový	výheň	CHANGE: eň --> ňový
+	zárubňový	zárubeň	CHANGE: eň --> ňový
+	žňový	žeň	CHANGE: eň --> ňový
+	čtyřveršový	čtyřverší	CHANGE: í --> ový
+	lešenový	lešení	CHANGE: í --> ový
+	nářečový	nářečí	CHANGE: í --> ový
+	odvětvový	odvětví	CHANGE: í --> ový
+	třenový	tření	CHANGE: í --> ový
+	záhrobový	záhrobí	CHANGE: í --> ový
+	zásvětový	zásvětí	CHANGE: í --> ový
+	závažový	závaží	CHANGE: í --> ový
+	zbožový	zboží	CHANGE: í --> ový
+	aktiniový	aktinium	CHANGE: ium --> iový
+	akváriový	akvárium	CHANGE: ium --> iový
+	aluminiový	aluminium	CHANGE: ium --> iový
+	amoniový	amonium	CHANGE: ium --> iový
+	atriový	atrium	CHANGE: ium --> iový
+	ceriový	cerium	CHANGE: ium --> iový
+	cesiový	cesium	CHANGE: ium --> iový
+	deuteriový	deuterium	CHANGE: ium --> iový
+	estuáriový	estuárium	CHANGE: ium --> iový
+	ferrosiliciový	ferrosilicium	CHANGE: ium --> iový
+	foliový	folium	CHANGE: ium --> iový
+	fusariový	Fusarium	CHANGE: ium --> iový
+	germaniový	germanium	CHANGE: ium --> iový
+	heliový	helium	CHANGE: ium --> iový
+	iridiový	iridium	CHANGE: ium --> iový
+	kadmiový	kadmium	CHANGE: ium --> iový
+	kambriový	kambrium	CHANGE: ium --> iový
+	kolodiový	kolodium	CHANGE: ium --> iový
+	lithiový	lithium	CHANGE: ium --> iový
+	magneziový	magnezium	CHANGE: ium --> iový
+	masmédiový	masmédium	CHANGE: ium --> iový
+	médiový	médium	CHANGE: ium --> iový
+	miléniový	milénium	CHANGE: ium --> iový
+	morfiový	morfium	CHANGE: ium --> iový
+	natriový	natrium	CHANGE: ium --> iový
+	omniový	omnium	CHANGE: ium --> iový
+	opiový	opium	CHANGE: ium --> iový
+	paládiový	paládium	CHANGE: ium --> iový
+	palladiový	palladium	CHANGE: ium --> iový
+	pentiový	pentium	CHANGE: ium --> iový
+	plasmodiový	plasmodium	CHANGE: ium --> iový
+	plutoniový	plutonium	CHANGE: ium --> iový
+	pódiový	pódium	CHANGE: ium --> iový
+	rubidiový	rubidium	CHANGE: ium --> iový
+	thoriový	thorium	CHANGE: ium --> iový
+	uraniový	uranium	CHANGE: ium --> iový
+	yttriový	yttrium	CHANGE: ium --> iový
+	zirkoniový	zirkonium	CHANGE: ium --> iový
+	doplňkový	doplněk	CHANGE: něk --> ňkový
+	pelyňkový	pelyněk	CHANGE: něk --> ňkový
+	úplňkový	úplněk	CHANGE: něk --> ňkový
+	výplňkový	výplněk	CHANGE: něk --> ňkový
+	amarettový	amaretto	CHANGE: o --> ový
+	avizový	avizo	CHANGE: o --> ový
+	ažiový	ažio	CHANGE: o --> ový
+	balzamikový	balzamiko	CHANGE: o --> ový
+	belcantový	belcanto	CHANGE: o --> ový
+	břemenový	břemeno	CHANGE: o --> ový
+	cicerový	cicero	CHANGE: o --> ový
+	cukrátkový	cukrátko	CHANGE: o --> ový
+	číslový	číslo	CHANGE: o --> ový
+	čtyřkolečkový	čtyřkolečko	CHANGE: o --> ový
+	čtyřlůžkový	čtyřlůžko	CHANGE: o --> ový
+	čtyřsedadlový	čtyřsedadlo	CHANGE: o --> ový
+	déčkový	déčko	CHANGE: o --> ový
+	éčkový	éčko	CHANGE: o --> ový
+	endurový	enduro	CHANGE: o --> ový
+	enkový	enko	CHANGE: o --> ový
+	gétéčkový	gétéčko	CHANGE: o --> ový
+	kablový	Kablo	CHANGE: o --> ový
+	kápový	kápo	CHANGE: o --> ový
+	kladivový	kladivo	CHANGE: o --> ový
+	kolový	kolo	CHANGE: o --> ový
+	křidélkový	křidélko	CHANGE: o --> ový
+	křídlový	křídlo	CHANGE: o --> ový
+	kvantový	Kvanto	CHANGE: o --> ový Z: kvantum
+	létový	léto	CHANGE: o --> ový
+	meníčkový	meníčko	CHANGE: o --> ový
+	mumiový	mumio	CHANGE: o --> ový
+	pádlový	pádlo	CHANGE: o --> ový
+	palermový	Palermo	CHANGE: o --> ový
+	pérový	péro	CHANGE: o --> ový
+	plavidlový	plavidlo	CHANGE: o --> ový
+	přáníčkový	přáníčko	CHANGE: o --> ový
+	savový	savo	CHANGE: o --> ový
+	silový	silo	CHANGE: o --> ový Z: síla
+	skáčkový	skáčko	CHANGE: o --> ový
+	srdéčkový	srdéčko	CHANGE: o --> ový
+	světýlkový	světýlko	CHANGE: o --> ový
+	téčkový	téčko	CHANGE: o --> ový
+	tempový	tempo	CHANGE: o --> ový
+	tílkový	tílko	CHANGE: o --> ový
+	tonkový	Tonko	CHANGE: o --> ový
+	veselový	veselo	CHANGE: o --> ový M: veselí
+	víčkový	víčko	CHANGE: o --> ový
+	vínový	víno	CHANGE: o --> ový
+	vízový	vízo	CHANGE: o --> ový Z: vízum
+	zelový	zelo	CHANGE: o --> ový
+	zrcadélkový	zrcadélko	CHANGE: o --> ový
+	železový	železo	CHANGE: o --> ový
+	ážiový	ážio	CHANGE: o --> ový
+	čelisťový	čelist	CHANGE: t --> ťový
+	hrásťový	hrást	CHANGE: t --> ťový
+	masťový	mast	CHANGE: t --> ťový
+	náplasťový	náplast	CHANGE: t --> ťový
+	niťový	nit	CHANGE: t --> ťový
+	úbyťový	úbyt	CHANGE: t --> ťový
+	čtyřalbový	čtyřalbum	CHANGE: um --> ový
+	fluidový	fluidum	CHANGE: um --> ový
+	imperfektový	imperfektum	CHANGE: um --> ový
+?	nový	Num	CHANGE: um --> ový
+	pyrethrový	Pyrethrum	CHANGE: um --> ový
+	referendový	referendum	CHANGE: um --> ový
+	vaselinový	Vaselinum	CHANGE: um --> ový
+	censový	census	CHANGE: us --> ový
+	cenzový	cenzus	CHANGE: us --> ový
+	detritový	detritus	CHANGE: us --> ový
+	dryopitékový	dryopitékus	CHANGE: us --> ový
+	hypotalamový	hypotalamus	CHANGE: us --> ový
+	iktový	iktus	CHANGE: us --> ový
+	meniskový	meniskus	CHANGE: us --> ový
+	noniový	nonius	CHANGE: us --> ový
+	nukleový	nukleus	CHANGE: us --> ový
+	papyrový	papyrus	CHANGE: us --> ový
+	paratyfový	paratyfus	CHANGE: us --> ový
+	pteropodový	pteropodus	CHANGE: us --> ový
+	rotavirový	rotavirus	CHANGE: us --> ový
+	strofantový	Strofantus	CHANGE: us --> ový
+?	syrový	Syrus	CHANGE: us --> ový
+	temporytmový	temporytmus	CHANGE: us --> ový
+	tyfový	tyfus	CHANGE: us --> ový
+	chlorový	Chlorus	CHANGE: us --> ový Z: chlór
+	albový	Alby	CHANGE: y --> ový Z: album
+	alpový	Alpy	CHANGE: y --> ový
+	bermudový	bermudy	CHANGE: y --> ový
+	bikeový	Bikey	CHANGE: y --> ový
+	brdový	Brdy	CHANGE: y --> ový
+	coreový	Corey	CHANGE: y --> ový
+?	čtyřkolový	Čtyřkoly	CHANGE: y --> ový
+	derbový	derby	CHANGE: y --> ový
+	dožínkový	dožínky	CHANGE: y --> ový
+	dudový	dudy	CHANGE: y --> ový
+	dupačkový	dupačky	CHANGE: y --> ový
+	džínový	džíny	CHANGE: y --> ový
+	džínskový	džínsky	CHANGE: y --> ový
+	džínsový	džínsy	CHANGE: y --> ový
+	hrabičkový	hrabičky	CHANGE: y --> ový
+	chůdový	chůdy	CHANGE: y --> ový
+	jesličkový	jesličky	CHANGE: y --> ový
+	kalhotový	kalhoty	CHANGE: y --> ový
+	lutrový	Lutry	CHANGE: y --> ový Z: lutra
+	mimikrový	mimikry	CHANGE: y --> ový
+	mydlinkový	mydlinky	CHANGE: y --> ový
+	narozeninový	narozeniny	CHANGE: y --> ový
+	nůžkový	nůžky	CHANGE: y --> ový
+	obžínkový	obžínky	CHANGE: y --> ový
+	oddavkový	oddavky	CHANGE: y --> ový
+	otrubový	otruby	CHANGE: y --> ový
+	plavečkový	plavečky	CHANGE: y --> ový
+	plavkový	plavky	CHANGE: y --> ový
+	prázdninový	prázdniny	CHANGE: y --> ový
+	rohačkový	rohačky	CHANGE: y --> ový
+	sáňkový	sáňky	CHANGE: y --> ový
+	souchotinový	souchotiny	CHANGE: y --> ový
+	spalinový	spaliny	CHANGE: y --> ový
+	spalničkový	spalničky	CHANGE: y --> ový
+	splaškový	splašky	CHANGE: y --> ový
+	stamiliardový	stamiliardy	CHANGE: y --> ový
+	šibřinkový	šibřinky	CHANGE: y --> ový
+	teplákový	tepláky	CHANGE: y --> ový
+	úvodkový	úvodky	CHANGE: y --> ový
+	vedřinový	vedřiny	CHANGE: y --> ový
+	whiskový	whisky	CHANGE: y --> ový
+	abietový		UNRESOLVED
+	abscisový		UNRESOLVED
+	acetooctový		UNRESOLVED
+	adagiový		UNRESOLVED Z: adagio
+	adamantiový		UNRESOLVED
+	adwarový		UNRESOLVED
+	ajbišový		UNRESOLVED
+	akažuový		UNRESOLVED
+	akcizový		UNRESOLVED
+	aktomyozinový		UNRESOLVED
+	alamodový		UNRESOLVED
+	albikový		UNRESOLVED
+	aldarový		UNRESOLVED
+	aleuronový		UNRESOLVED
+	algový		UNRESOLVED
+	alkoránový		UNRESOLVED
+	amniový		UNRESOLVED
+	amonnoledkový		UNRESOLVED
+	amonoledkový		UNRESOLVED
+	ampérhodinový		UNRESOLVED
+	ampérvoltový		UNRESOLVED
+	amylový		UNRESOLVED
+	anhydrový		UNRESOLVED
+	antocyanový		UNRESOLVED
+	antranilový		UNRESOLVED
+	arachidonový		UNRESOLVED
+	arašidový		UNRESOLVED Z: arašíd
+	arendiazoniový		UNRESOLVED
+	arensulfonový		UNRESOLVED
+	arexxový		UNRESOLVED
+	argilikový		UNRESOLVED
+	argonarkový		UNRESOLVED
+	artpopový		UNRESOLVED
+	artprotisový		UNRESOLVED
+	asfaltodehtový		UNRESOLVED
+	askorbinový		UNRESOLVED
+	askorbový		UNRESOLVED
+	asparagový		UNRESOLVED
+	atabrinový		UNRESOLVED
+	autosalonový		UNRESOLVED
+	azinový		UNRESOLVED
+	azurovofialový		UNRESOLVED
+	babassový		UNRESOLVED
+	backhandový		UNRESOLVED
+	baclofenový		UNRESOLVED
+	bahnopískový		UNRESOLVED
+	balsamikový		UNRESOLVED
+	balustrový		UNRESOLVED
+	barbiturový		UNRESOLVED
+	barexový		UNRESOLVED
+	barikový		UNRESOLVED
+	bártrový		UNRESOLVED
+	batchový		UNRESOLVED
+	bejbypunkový		UNRESOLVED
+	bekendový		UNRESOLVED
+	bělinový		UNRESOLVED
+	benzilový		UNRESOLVED
+	benzoový		UNRESOLVED
+	benzoylový		UNRESOLVED
+	béžový		UNRESOLVED Z: béž
+	bikranový		UNRESOLVED
+	bittorentový		UNRESOLVED
+	bleděrůžový		UNRESOLVED
+	bluegrasový		UNRESOLVED
+	blugrassový		UNRESOLVED Z: bluegrass
+	bočnokolesový		UNRESOLVED
+	bolusový		UNRESOLVED Z: bolus
+	bonbonový		UNRESOLVED Z: bonbón
+	bootlegový		UNRESOLVED
+	bordový		UNRESOLVED Z: bordó
+	brilantový		UNRESOLVED
+	broadcastový		UNRESOLVED
+	brokerpoolový		UNRESOLVED
+	bromfenolový		UNRESOLVED
+	bromoctový		UNRESOLVED
+	bromsalanový		UNRESOLVED
+	bromthymolový		UNRESOLVED
+	bryerový		UNRESOLVED
+	březodehtový		UNRESOLVED
+	bubblegumový		UNRESOLVED
+	buflérový		UNRESOLVED
+	bukodubový		UNRESOLVED
+	bukosmrkový		UNRESOLVED
+	butendiový		UNRESOLVED
+	campingový		UNRESOLVED Z: camping
+	celofanový		UNRESOLVED Z: celofán
+	celotáborový		UNRESOLVED
+	cembalitový		UNRESOLVED
+	citronellový		UNRESOLVED
+	cizoměnový		UNRESOLVED
+	coelinový		UNRESOLVED
+	comfaxový		UNRESOLVED
+	cyprisový		UNRESOLVED
+	čarový		UNRESOLVED
+	červenobéžový		UNRESOLVED
+	červenoduhový		UNRESOLVED
+	červenofialový		UNRESOLVED
+	červenokrémový		UNRESOLVED
+	červenonachový		UNRESOLVED
+	červenorůžový		UNRESOLVED
+	červenovínový		UNRESOLVED
+	čchanový		UNRESOLVED
+	čislicový		UNRESOLVED Z: číslice
+	čtyrkolkový		UNRESOLVED
+	čtyřakordový		UNRESOLVED
+	čtyřaktový		UNRESOLVED
+	čtyřapůlbodový		UNRESOLVED
+	čtyřapůlkilový		UNRESOLVED
+	čtyřapůltunový		UNRESOLVED
+	čtyřbitový		UNRESOLVED
+	čtyřbytový		UNRESOLVED
+	čtyřdvéřový		UNRESOLVED
+	čtyřdveřový		UNRESOLVED
+	čtyřgigabitový		UNRESOLVED
+	čtyřgigový		UNRESOLVED
+	čtyřgramový		UNRESOLVED
+	čtyřhodinový		UNRESOLVED
+	čtyřkabinkový		UNRESOLVED
+	čtyřlampový		UNRESOLVED
+	čtyřmandátový		UNRESOLVED
+	čtyřmanuálový		UNRESOLVED
+	čtyřmegabitový		UNRESOLVED
+	čtyřmegabytový		UNRESOLVED
+	čtyřminutový		UNRESOLVED
+	čtyřmotorový		UNRESOLVED
+	čtyřpokojový		UNRESOLVED
+	čtyřsetgramový		UNRESOLVED
+	čtyřsetmetrový		UNRESOLVED
+	čtyřsetový		UNRESOLVED
+	čtyřslabikový		UNRESOLVED
+	čtyřtahový		UNRESOLVED
+	čtyřveslový		UNRESOLVED
+	čtyřžilový		UNRESOLVED
+	dancehallový		UNRESOLVED
+	davisový		UNRESOLVED Z: Davis
+	deionový		UNRESOLVED
+	dekofeinový		UNRESOLVED
+	délkošířkový		UNRESOLVED
+	deltoidový		UNRESOLVED
+	děrnopáskový		UNRESOLVED
+	děrnoštítkový		UNRESOLVED
+	desítigólový		UNRESOLVED
+	dhjánový		UNRESOLVED
+	dieslový		UNRESOLVED Z: diesel
+	digitalisový		UNRESOLVED
+	diglykolový		UNRESOLVED
+	dihydrolipoový		UNRESOLVED
+	dikarboxylový		UNRESOLVED
+	diploporový		UNRESOLVED
+	dodekanový		UNRESOLVED
+	dolistopadový		UNRESOLVED
+	domainový		UNRESOLVED
+	doommetalový		UNRESOLVED
+	doopravdový		UNRESOLVED Z: doopravdy
+	dopřevratový		UNRESOLVED
+	dosový		UNRESOLVED Z: DOS
+	drahokamenový		UNRESOLVED
+	drapový		UNRESOLVED
+	dubobukový		UNRESOLVED
+	dubohabrový		UNRESOLVED
+	dusíkovodíkový		UNRESOLVED
+	dvěstěfilmový		UNRESOLVED
+	dvěstěgramový		UNRESOLVED
+	dvěstěmetrový		UNRESOLVED
+	dyloftový		UNRESOLVED
+	dýňový		UNRESOLVED Z: dýně
+	džambuový		UNRESOLVED
+	egirinový		UNRESOLVED
+	elcédéčkový		UNRESOLVED
+	emorockový		UNRESOLVED
+	ergolinový		UNRESOLVED
+	ergotový		UNRESOLVED
+	erukový		UNRESOLVED
+	erytrinový		UNRESOLVED
+	facetový		UNRESOLVED
+	factoringový		UNRESOLVED
+	fajáncový		UNRESOLVED
+	faksmilový		UNRESOLVED
+	faxserverový		UNRESOLVED
+	fayencový		UNRESOLVED
+	fedcupový		UNRESOLVED
+	fefrmincový		UNRESOLVED
+	fenanthrenový		UNRESOLVED
+	fenolčpavkový		UNRESOLVED
+	fensterový		UNRESOLVED
+	fernambukový		UNRESOLVED
+	fialovorůžový		UNRESOLVED
+	fíbrový		UNRESOLVED
+	fisetový		UNRESOLVED
+	flamenkový		UNRESOLVED Z: flamenco
+	flashový		UNRESOLVED
+	fleecový		UNRESOLVED
+	fleesový		UNRESOLVED
+	flokulový		UNRESOLVED
+	floppydiskový		UNRESOLVED
+	floretový		UNRESOLVED
+	fluátový		UNRESOLVED
+	fluoroctový		UNRESOLVED
+	fluroctový		UNRESOLVED
+	folový		UNRESOLVED
+	forfaitový		UNRESOLVED
+	fosfoniový		UNRESOLVED
+	fosforbronzový		UNRESOLVED
+	fošinkový		UNRESOLVED
+	freónový		UNRESOLVED Z: freon
+	ftaleinový		UNRESOLVED
+	ftalový		UNRESOLVED
+	fulárový		UNRESOLVED
+	fulminový		UNRESOLVED
+	funglnový		UNRESOLVED
+	funkmetalový		UNRESOLVED
+	fytový		UNRESOLVED
+	galónový		UNRESOLVED Z: galon
+	gartlandový		UNRESOLVED
+	giberelový		UNRESOLVED
+	glampunkový		UNRESOLVED
+	globigerinový		UNRESOLVED
+	glukonový		UNRESOLVED
+	glukosový		UNRESOLVED
+	glukuronový		UNRESOLVED
+	glutamový		UNRESOLVED
+	glykocholový		UNRESOLVED
+	glykopeptidový		UNRESOLVED
+	glyoxylátový		UNRESOLVED
+	glyoxylový		UNRESOLVED
+	gramicidinový		UNRESOLVED
+	greensetový		UNRESOLVED
+	groupwarový		UNRESOLVED
+	grungeový		UNRESOLVED
+	guarový		UNRESOLVED
+	guerilový		UNRESOLVED
+	guluronový		UNRESOLVED
+	handballový		UNRESOLVED
+	harcový		UNRESOLVED
+	hardbopový		UNRESOLVED
+	heavyrockový		UNRESOLVED
+	hedgeový		UNRESOLVED
+	héfaistový		UNRESOLVED
+	hektarový		UNRESOLVED Z: hektar
+	hektokotylový		UNRESOLVED
+	helvelový		UNRESOLVED
+	hendikepový		UNRESOLVED
+	hexandiový		UNRESOLVED
+	hietanenový		UNRESOLVED
+	hiphopový		UNRESOLVED
+	histikový		UNRESOLVED
+	hlinitojílový		UNRESOLVED
+	hlinocementový		UNRESOLVED
+	hodobožový		UNRESOLVED
+	horčinový		UNRESOLVED
+	hořkomandlový		UNRESOLVED
+	houňový		UNRESOLVED Z: houně
+	hyaluronový		UNRESOLVED
+	chairoscurový		UNRESOLVED
+	chilloutový		UNRESOLVED
+	chlorkaučukový		UNRESOLVED
+	chloroctový		UNRESOLVED
+	chlorsulfonový		UNRESOLVED
+	chrámový		UNRESOLVED Z: chrám
+	chromniklový		UNRESOLVED
+	imidazolový		UNRESOLVED
+	impulzový		UNRESOLVED Z: impuls
+	inbusový		UNRESOLVED
+	incomingový		UNRESOLVED
+	incroyablový		UNRESOLVED
+	indenový		UNRESOLVED
+	infuzoriový		UNRESOLVED
+	invarový		UNRESOLVED
+	isoftalový		UNRESOLVED
+	jaborandový		UNRESOLVED
+	jalovinkový		UNRESOLVED
+	jarmuzový		UNRESOLVED
+	jasmonový		UNRESOLVED
+	jazzfunkový		UNRESOLVED
+	jedenáctinový		UNRESOLVED
+	jedlobukový		UNRESOLVED
+	jílocementový		UNRESOLVED
+	jodobromový		UNRESOLVED
+	jodooctový		UNRESOLVED
+	jodoškrobový		UNRESOLVED
+	jodpentoxidový		UNRESOLVED
+	jódškrobový		UNRESOLVED
+	jojobový		UNRESOLVED
+	jomkipurový		UNRESOLVED
+	jungleový		UNRESOLVED
+	junglový		UNRESOLVED
+	junktimový		UNRESOLVED
+	juralitový		UNRESOLVED
+	kablonový		UNRESOLVED
+	kajalový		UNRESOLVED
+	kalotový		UNRESOLVED
+	kampeškový		UNRESOLVED
+	kandytový		UNRESOLVED
+	kanonový		UNRESOLVED
+	kaprolaktanový		UNRESOLVED
+	karafiolový		UNRESOLVED
+	karnaubový		UNRESOLVED
+	karobový		UNRESOLVED
+	katechový		UNRESOLVED
+	kazetopáskový		UNRESOLVED
+	kebračový		UNRESOLVED
+	kečový		UNRESOLVED
+	kempingový		UNRESOLVED
+	kentumový		UNRESOLVED
+	klešťový		UNRESOLVED Z: kleště
+	klihkový		UNRESOLVED
+	klíšťový		UNRESOLVED Z: klíště
+	knoflikový		UNRESOLVED
+	kolikastupňový		UNRESOLVED
+	kolopásový		UNRESOLVED
+	komprasový		UNRESOLVED
+	koniinový		UNRESOLVED
+	kontidrátový		UNRESOLVED
+	kontisochorový		UNRESOLVED
+	konvejerový		UNRESOLVED
+	kopajvový		UNRESOLVED
+	kortisonový		UNRESOLVED
+	kořeninový		UNRESOLVED
+	kosminový		UNRESOLVED
+	koverkotový		UNRESOLVED
+	kručcový		UNRESOLVED
+	krychtový		UNRESOLVED
+	křehkolomový		UNRESOLVED
+	kubébový		UNRESOLVED
+	kubebový		UNRESOLVED
+	kuponový		UNRESOLVED
+	kvebrachový		UNRESOLVED
+	kyanhydridový		UNRESOLVED
+	kypový		UNRESOLVED
+	kyslíkoniklový		UNRESOLVED
+	lavandinový		UNRESOLVED
+	learningový		UNRESOLVED
+	lešeninový		UNRESOLVED
+	lešeňový		UNRESOLVED
+	lifestylový		UNRESOLVED
+	lihobenzínový		UNRESOLVED
+	likusový		UNRESOLVED
+	lilákový		UNRESOLVED
+	limetový		UNRESOLVED
+	liparitový		UNRESOLVED
+	lískooříškový		UNRESOLVED
+	lněnoolejový		UNRESOLVED
+	localtalkový		UNRESOLVED
+	lodenový		UNRESOLVED
+	loftový		UNRESOLVED
+	ľudový		UNRESOLVED
+	lusitový		UNRESOLVED
+	lysergový		UNRESOLVED
+	madreporový		UNRESOLVED
+	magnesitový		UNRESOLVED
+	magnetopáskový		UNRESOLVED
+	mangrový		UNRESOLVED
+	mannurový		UNRESOLVED
+	marketinkový		UNRESOLVED
+	masozeleninový		UNRESOLVED
+	měděnoduhový		UNRESOLVED
+	megavoltový		UNRESOLVED
+	méněkolový		UNRESOLVED
+	méněstupňový		UNRESOLVED
+	menilitový		UNRESOLVED
+	mentholový		UNRESOLVED Z: mentol
+	merfenový		UNRESOLVED
+	měrový		UNRESOLVED Z: míra
+	metylakrylový		UNRESOLVED
+	metylolový		UNRESOLVED
+	metylpentanový		UNRESOLVED
+	metylpropenový		UNRESOLVED
+	metyltymolový		UNRESOLVED
+	millefleurový		UNRESOLVED
+	mirikový		UNRESOLVED
+	mnohobitový		UNRESOLVED
+	modakrylový		UNRESOLVED
+	molikový		UNRESOLVED
+	mopanový		UNRESOLVED
+	muramylový		UNRESOLVED
+	naftenový		UNRESOLVED
+	naftyloctový		UNRESOLVED
+	nachovofialový		UNRESOLVED
+	nákrojový		UNRESOLVED
+	namátkový		UNRESOLVED Z: namátka
+	námětkový		UNRESOLVED
+	napěťový		UNRESOLVED Z: napětí
+	nátronový		UNRESOLVED
+	nektriový		UNRESOLVED
+	nervosvalový		UNRESOLVED
+	niklkadmiový		UNRESOLVED
+	niklohydridový		UNRESOLVED
+	niklokadmiový		UNRESOLVED
+	níťový		UNRESOLVED Z: nit
+	obdélnikový		UNRESOLVED Z: obdélník
+	obličejnový		UNRESOLVED
+	obouformátový		UNRESOLVED
+	obousměrový		UNRESOLVED
+	obouvidový		UNRESOLVED
+	obtočnový		UNRESOLVED
+	obzorníkový		UNRESOLVED
+	ocelobetonový		UNRESOLVED
+	ocelogumový		UNRESOLVED
+	oceloplechový		UNRESOLVED
+	odhodový		UNRESOLVED Z: odhod
+	offshorový		UNRESOLVED
+	ogamový		UNRESOLVED
+	ochrikový		UNRESOLVED
+	oktálový		UNRESOLVED
+	olejovzduchový		UNRESOLVED
+	olizarinový		UNRESOLVED
+	olovoacidový		UNRESOLVED
+	omnifontový		UNRESOLVED
+	onlinový		UNRESOLVED
+	oplenový		UNRESOLVED
+	opravdový		UNRESOLVED
+	optickopáskový		UNRESOLVED
+	optovláknový		UNRESOLVED
+	oreléový		UNRESOLVED
+	organtinový		UNRESOLVED
+	orchestriónový		UNRESOLVED
+	orthocerový		UNRESOLVED
+	ortislimový		UNRESOLVED
+	osmapůlkilový		UNRESOLVED
+	osmdesátiarový		UNRESOLVED
+	oxokovový		UNRESOLVED
+	oxolinový		UNRESOLVED
+	oxoniový		UNRESOLVED
+	pageingový		UNRESOLVED
+	paintbalový		UNRESOLVED
+	palagonitový		UNRESOLVED
+	palivomotorový		UNRESOLVED
+	palmitový		UNRESOLVED
+	passwordový		UNRESOLVED
+	pazdeřový		UNRESOLVED
+	pělyňkový		UNRESOLVED Z: pelyněk
+	penicilanový		UNRESOLVED
+	pentandiový		UNRESOLVED
+	peprmintový		UNRESOLVED
+	permititový		UNRESOLVED
+	péřový		UNRESOLVED Z: peří
+	pětapůltunový		UNRESOLVED
+	pevnolátkový		UNRESOLVED
+	phoenixový		UNRESOLVED
+	pikrový		UNRESOLVED
+	pimentový		UNRESOLVED
+	pimperlový		UNRESOLVED
+	piperazinový		UNRESOLVED
+	pískovobéžový		UNRESOLVED
+	pišingerový		UNRESOLVED Z: pišingr
+	placikový		UNRESOLVED
+	plazmatronový		UNRESOLVED
+	plénerový		UNRESOLVED
+	pluskový		UNRESOLVED
+	plusplusový		UNRESOLVED
+	prcičkový		UNRESOLVED
+	princmetálový		UNRESOLVED
+	průtkový		UNRESOLVED
+	prvolednový		UNRESOLVED
+	prvoligový		UNRESOLVED
+	prvomájový		UNRESOLVED
+	prvoplánový		UNRESOLVED
+	prvosledový		UNRESOLVED
+	prvostupňový		UNRESOLVED
+	prvovlnový		UNRESOLVED
+	prýmový		UNRESOLVED
+	přečnělkový		UNRESOLVED
+	přepěťový		UNRESOLVED
+	přespomlčkový		UNRESOLVED
+	přespultový		UNRESOLVED
+	přežahový		UNRESOLVED
+	příhrádkový		UNRESOLVED
+	přihradový		UNRESOLVED
+	příledovcový		UNRESOLVED
+	připojový		UNRESOLVED Z: přípoj
+	připovrchový		UNRESOLVED
+	pthreadový		UNRESOLVED
+	ptosový		UNRESOLVED
+	publishingový		UNRESOLVED
+	pubrockový		UNRESOLVED
+	pulorový		UNRESOLVED
+	pyrazolový		UNRESOLVED
+	pyrimidonový		UNRESOLVED
+	pyrimidový		UNRESOLVED
+	pyžamopapučový		UNRESOLVED
+	quicktimový		UNRESOLVED
+	rabicový		UNRESOLVED
+	rádioreléový		UNRESOLVED
+	raficový		UNRESOLVED
+	rahatový		UNRESOLVED
+	rajčatový		UNRESOLVED Z: rajče
+	rajčinový		UNRESOLVED
+	rallycrossový		UNRESOLVED
+	raminový		UNRESOLVED
+	rašlový		UNRESOLVED
+	rattanový		UNRESOLVED Z: ratan
+	reggaerockový		UNRESOLVED
+	releový		UNRESOLVED Z: relé
+	relykrosový		UNRESOLVED
+	rezavooranžový		UNRESOLVED
+	rhacopterisový		UNRESOLVED
+	ribonukleový		UNRESOLVED
+	ripsový		UNRESOLVED
+	riscový		UNRESOLVED
+	roadový		UNRESOLVED
+	rockenrollový		UNRESOLVED
+	rockrapový		UNRESOLVED
+	rokajlový		UNRESOLVED
+	rollwerkový		UNRESOLVED
+	rubáňový		UNRESOLVED
+	ruditový		UNRESOLVED
+	rušový		UNRESOLVED
+	rynchosporiový		UNRESOLVED
+	safesový		UNRESOLVED
+	safetový		UNRESOLVED
+	salepový		UNRESOLVED
+	sargasový		UNRESOLVED
+	satemový		UNRESOLVED
+	sedaminový		UNRESOLVED
+	sederový		UNRESOLVED
+	sedmapůlkilový		UNRESOLVED
+	sedmapůltunový		UNRESOLVED
+	setinový		UNRESOLVED Z: setina
+	seťový		UNRESOLVED
+	shedový		UNRESOLVED
+	scheelitový		UNRESOLVED
+	schodišťový		UNRESOLVED Z: schodiště
+	sifónový		UNRESOLVED Z: sifon
+	singletaskový		UNRESOLVED
+	sinixový		UNRESOLVED
+	síňokomorový		UNRESOLVED
+	sírodehtový		UNRESOLVED
+	skopový		UNRESOLVED Z: skopec
+	slámovinový		UNRESOLVED
+	slovnědruhový		UNRESOLVED
+	smalltalkový		UNRESOLVED
+	snídaňový		UNRESOLVED Z: snídaně–N
+	solvátový		UNRESOLVED
+	sorbový		UNRESOLVED
+	soufázový		UNRESOLVED
+	soukrytový		UNRESOLVED
+	sparcový		UNRESOLVED
+	spodikový		UNRESOLVED
+	spodový		UNRESOLVED
+	spřahadlový		UNRESOLVED
+	srdečkový		UNRESOLVED
+	stablefordový		UNRESOLVED
+	staccattový		UNRESOLVED
+	stamilionový		UNRESOLVED
+	staplový		UNRESOLVED
+	start-upový		UNRESOLVED
+	statimový		UNRESOLVED
+	statisícový		UNRESOLVED
+	stearový		UNRESOLVED
+	streamingový		UNRESOLVED
+	strečový		UNRESOLVED
+	streetbalový		UNRESOLVED
+	streetrockový		UNRESOLVED
+	strnišťový		UNRESOLVED
+	střednětraťový		UNRESOLVED
+	stříbrnorůžový		UNRESOLVED
+	styfnový		UNRESOLVED
+	suffetový		UNRESOLVED
+	sukňový		UNRESOLVED Z: sukně
+	sulfanilový		UNRESOLVED
+	sulfhydrylový		UNRESOLVED
+	sulfinový		UNRESOLVED
+	sulfonaftenový		UNRESOLVED
+	sulfoniový		UNRESOLVED
+	suportový		UNRESOLVED
+	supremový		UNRESOLVED
+	suprový		UNRESOLVED Z: super
+	svícnový		UNRESOLVED
+	svrchněkřídový		UNRESOLVED
+	syřišťový		UNRESOLVED
+	šestnáctinový		UNRESOLVED
+	širtingový		UNRESOLVED
+	špaličkový		UNRESOLVED
+	šterkový		UNRESOLVED
+	tabletennisový		UNRESOLVED
+	taurocholový		UNRESOLVED
+	teichoový		UNRESOLVED
+	telariový		UNRESOLVED
+	temněrůžový		UNRESOLVED
+	tereftalový		UNRESOLVED
+	terpentinový		UNRESOLVED
+	tersilonový		UNRESOLVED
+	těžišťový		UNRESOLVED Z: těžiště
+	thiazolový		UNRESOLVED
+	thrashmetalový		UNRESOLVED
+	thymolinový		UNRESOLVED
+	tchajpchingový		UNRESOLVED
+	titanátový		UNRESOLVED
+	titanozinkový		UNRESOLVED
+	tokenringový		UNRESOLVED
+	tradingový		UNRESOLVED
+	trashmetalový		UNRESOLVED
+	trashový		UNRESOLVED
+	travertrnový		UNRESOLVED
+	trekingový		UNRESOLVED
+	trekinkový		UNRESOLVED
+	trubový		UNRESOLVED
+	truetypový		UNRESOLVED
+	třetiligový		UNRESOLVED
+	třiapůlpalcový		UNRESOLVED
+	třicetigramový		UNRESOLVED
+	třicetimetrový		UNRESOLVED
+	třináctibitový		UNRESOLVED
+	třináctibodový		UNRESOLVED
+	třináctibytový		UNRESOLVED
+	třináctigólový		UNRESOLVED
+	třináctikilový		UNRESOLVED
+	třináctipólový		UNRESOLVED
+	třistagramový		UNRESOLVED
+	třistametrový		UNRESOLVED
+	tuberkulínový		UNRESOLVED
+	tunningový		UNRESOLVED
+	turnantový		UNRESOLVED
+	tutový		UNRESOLVED
+	twinningový		UNRESOLVED
+	tymolinový		UNRESOLVED
+	uhlíkozinkový		UNRESOLVED
+	uměleckoideový		UNRESOLVED
+	umpirový		UNRESOLVED
+	upasový		UNRESOLVED
+	uronový		UNRESOLVED
+	úsťový		UNRESOLVED Z: ústí
+	vahový		UNRESOLVED
+	vápenopískový		UNRESOLVED
+	vařidlový		UNRESOLVED
+	versatinový		UNRESOLVED
+	věstový		UNRESOLVED
+	vetiverový		UNRESOLVED
+	viskósový		UNRESOLVED
+	viskozový		UNRESOLVED
+	vlásinový		UNRESOLVED
+	vobrázkový		UNRESOLVED
+	volnočasový		UNRESOLVED
+	volnoměnový		UNRESOLVED
+	voltampérový		UNRESOLVED
+	vopravdový		UNRESOLVED
+	vrásnozlomový		UNRESOLVED
+	vtroušeninový		UNRESOLVED
+	výlučníkový		UNRESOLVED
+	výšepříjmový		UNRESOLVED
+	wapový		UNRESOLVED
+	watthodinový		UNRESOLVED
+	waveformový		UNRESOLVED
+	welterový		UNRESOLVED
+	westcoastový		UNRESOLVED
+	wokýnkový		UNRESOLVED
+	xantogenový		UNRESOLVED
+	xBasový		UNRESOLVED
+	ylangový		UNRESOLVED
+	záměsový		UNRESOLVED
+	zámyšový		UNRESOLVED
+	zárovníkový		UNRESOLVED
+	zářijový		UNRESOLVED
+	záříjový		UNRESOLVED
+	závažkový		UNRESOLVED
+	zemčatový		UNRESOLVED
+	zinkooxidový		UNRESOLVED
+	zinkouhlíkový		UNRESOLVED
+	zinkovzduchový		UNRESOLVED
+	zlatavěduhový		UNRESOLVED
+	zlatavofialový		UNRESOLVED
+	zlatavorůžový		UNRESOLVED
+	zlatobéžový		UNRESOLVED
+	zlatobronzový		UNRESOLVED
+	zlatofialový		UNRESOLVED
+	zlatookrový		UNRESOLVED
+	zlatooranžový		UNRESOLVED
+	zlatopískový		UNRESOLVED
+	zlatopurpurový		UNRESOLVED
+	zlatorůžový		UNRESOLVED
+	zrdcadlový		UNRESOLVED
+	zvukoobrazový		UNRESOLVED
+	žakarový		UNRESOLVED
+	žakonový		UNRESOLVED
+	žebérkový		UNRESOLVED
+	železoniklový		UNRESOLVED
+	železovodíkový		UNRESOLVED
+	žernový		UNRESOLVED
+	žilový		UNRESOLVED
+	žinilkový		UNRESOLVED
+	žůžový		UNRESOLVED
+	anthranilový		UNRESOLVED
+	asylový		UNRESOLVED Z: azyl
+	bedmintonový		UNRESOLVED
+	bonsaiový		UNRESOLVED Z: bonzai
+	celulosový		UNRESOLVED Z: celulóza
+	celulozový		UNRESOLVED Z: celulóza
+	čtyrstránkový		UNRESOLVED
+	čtyrstupový		UNRESOLVED
+	čtyrúhelníkový		UNRESOLVED
+	devisový		UNRESOLVED
+	fefermincový		UNRESOLVED
+	franšízinkový		UNRESOLVED
+	glukozový		UNRESOLVED Z: glukóza
+	jomkippurový		UNRESOLVED
+	kamionový		UNRESOLVED Z: kamión
+	kbytový		UNRESOLVED
+	kursorový		UNRESOLVED
+	maltosový		UNRESOLVED
+	methakrylový		UNRESOLVED
+	methanový		UNRESOLVED Z: metan
+	methylakrylový		UNRESOLVED
+	nasákový		UNRESOLVED
+	ozonový		UNRESOLVED Z: ozón
+	plasmový		UNRESOLVED Z: plazma
+	plotterový		UNRESOLVED
+	přírustkový		UNRESOLVED
+	rajonový		UNRESOLVED Z: rajón
+	rallyecrossový		UNRESOLVED
+	resistorový		UNRESOLVED Z: rezistor
+	ricínový		UNRESOLVED
+	scatový		UNRESOLVED
+	screeningový		UNRESOLVED
+	sequencerový		UNRESOLVED
+	softverový		UNRESOLVED
+	stadionový		UNRESOLVED Z: stadión
 <<<<<<< HEAD
-svrchnokřídový		UNRESOLVED
-=======
-svrchnokřídový		UNRESOLVED 
+	svrchnokřídový		UNRESOLVED
+<<Chyba:510
+	svrchnokřídový		UNRESOLVED
 >>>>>>> 794f8f3f847dc20f13710e0d8e00a2915f6c6a2f
-torpedový		UNRESOLVED Z: torpédo
-visitkový		UNRESOLVED Z: vizitka
-viskosový		UNRESOLVED
-vysocezátěžový		UNRESOLVED
-worchestrový		UNRESOLVED
-ytriový		UNRESOLVED
-flísový		UNRESOLVED
+	torpedový		UNRESOLVED Z: torpédo
+	visitkový		UNRESOLVED Z: vizitka
+	viskosový		UNRESOLVED
+	vysocezátěžový		UNRESOLVED
+	worchestrový		UNRESOLVED
+	ytriový		UNRESOLVED
+	flísový		UNRESOLVED
