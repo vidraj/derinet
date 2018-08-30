@@ -4,6 +4,9 @@
 
 # This script loads new manual annotations from the following places
 #
+# (x) corrections of derinet (deleting/changing incorrect relations)
+# ./delete_rel.tsv
+#
 # (a) adjectives derived by -sky suffix
 # ../../../../data/annotations/cs/2017_05_sky_cky_ovy/hand-annotated/candidates_sky_bez_kompozit.txt
 #
@@ -38,11 +41,27 @@
 
 import re
 import sys
+from collections import defaultdict
 
 sys.path.append('../../../data-api/derinet-python/')
 import derinet_api
 
 derinet = derinet_api.DeriNet('./derinet-1-4.tsv')
+
+
+def divideWord(word):
+    """Return lemma and pos of word in annotated data.
+    Used for ambiguous words. ALT+0150 is separator.
+    """
+    word = word.split('–')
+    lemma = word[0]
+
+    pos = None
+    if len(word) > 1:
+        if word[1] != 'None':
+            pos = word[1]
+
+    return lemma, pos
 
 
 def searchLexeme(lem, p=None, m=None):
@@ -115,7 +134,8 @@ def checkCompoundAnnotation(node):
                   'Lemma:', derinet_api.lexeme_info(new_node),
                   'Parent:', derinet_api.lexeme_info(par_node))
         else:
-            if par_node.lemma in node.lemma:
+            if (par_node.lemma in node.lemma
+               and len(node.lemma.replace(par_node.lemma, '')) > 3):
                 derinet.remove_edge_by_ids(child_id=node.lex_id,
                                            parent_id=par_node.lex_id)
                 print('Warning: Relation between lemma and parent was',
@@ -136,18 +156,20 @@ def checkCompoundAnnotation(node):
               derinet_api.lexeme_info(node))
 
 
-def createDerivation(ch_lem, par_lem, ch_pos, par_pos):
+def createDerivation(ch_lem, par_lem, ch_pos, par_pos, ch_morph, par_morph):
     """Try to create a derivationanl relation between nodes/lemmas.
     If it is not possible, raise error.
     """
     try:
-        child = (ch_lem, ch_pos)
-        parent = (par_lem, par_pos)
+        child = (ch_lem, ch_pos, ch_morph)
+        parent = (par_lem, par_pos, par_morph)
 
         derinet.add_edge_by_lexemes(child_lemma=ch_lem,
                                     parent_lemma=par_lem,
                                     child_pos=ch_pos,
-                                    parent_pos=par_pos)
+                                    parent_pos=par_pos,
+                                    child_morph=ch_morph,
+                                    parent_morph=par_morph)
         print('Done: Relation was successfully added. Child:', child,
               'Parent:', parent)
 
@@ -156,17 +178,20 @@ def createDerivation(ch_lem, par_lem, ch_pos, par_pos):
 
     except derinet_api.AmbiguousLexemeError:
         print('Error: Child is ambiguous. Lemma:', child,
-              derinet.search_lexemes(lemma=ch_lem, pos=ch_pos))
+              derinet.search_lexemes(lemma=ch_lem, pos=ch_pos,
+                                     morph=ch_morph))
 
     except derinet_api.ParentNotFoundError:
         print('Error: Parent does not exist. Lemma:', parent)
 
     except derinet_api.AmbiguousParentError:
         print('Error: Parent is ambiguous. Lemma:', parent,
-              derinet.search_lexemes(lemma=par_lem, pos=par_pos))
+              derinet.search_lexemes(lemma=par_lem, pos=par_pos,
+                                     morph=par_morph))
 
     except derinet_api.AlreadyHasParentError:
-        realParent = derinet.get_parent_by_lexeme(lemma=ch_lem, pos=ch_pos)
+        realParent = derinet.get_parent_by_lexeme(lemma=ch_lem, pos=ch_pos,
+                                                  morph=ch_morph)
         r_parent = (realParent.lemma, realParent.pos, realParent.morph)
         if parent != r_parent:
             print('Error: Child already has other parent. Child:', child,
@@ -180,18 +205,87 @@ def createDerivation(ch_lem, par_lem, ch_pos, par_pos):
         print('Error: Relation would create a cycle. Child:', child,
               'Proposed parent:', parent)
 
-        r = derinet.get_root_by_lexeme(child[0], child[1])
-        t = derinet.subtree_as_str_from_lexeme(child[0], child[1])
+        r = derinet.get_root_by_lexeme(child[0], child[1], child[2])
+        t = derinet.subtree_as_str_from_lexeme(child[0], child[1], child[2])
         if r is not None:
             t = derinet.subtree_as_str_from_lexeme(r.lemma, r.pos, r.morph)
         print('Tree of these lemmas from their root:\n', t)
 
 
+def checkDerivation(ch_lem, par_lem, ch_pos, par_pos, ch_morph, par_morph):
+    """Check if there is NOT relation between two nodes."""
+    child = (ch_lem, ch_pos, ch_morph)
+    p = derinet.get_parent_by_lexeme(lemma=ch_lem, pos=ch_pos, morph=ch_morph)
+    if p is not None:
+        p = (p.lemma, p.pos, p.morph)
+        par = (par_lem, par_pos, par_morph)
+        if p == par:
+            print('Warning: There should not be a relation. Child:', child,
+                  'Parent:', parent)
+
+
+def removeDerivation(ch_lem, par_lem, ch_pos, par_pos, ch_morph, par_morph):
+    """Remove a derivational relation between nodes/lemmas."""
+    try:
+        child = (ch_lem, ch_pos, ch_morph)
+        parent = (par_lem, par_pos, par_morph)
+
+        derinet.remove_edge_by_lexemes(child_lemma=ch_lem,
+                                       parent_lemma=par_lem,
+                                       child_pos=ch_pos,
+                                       parent_pos=par_pos,
+                                       child_morph=ch_morph,
+                                       parent_morph=par_morph)
+        print('Done: Relation was successfully removed. Child:', child,
+              'Parent:', parent)
+
+    except derinet_api.LexemeNotFoundError:
+        print('Error: Child does not exist. Lemma:', child)
+
+    except derinet_api.IsNotParentError:
+        print('Error: Parent does not exist. Lemma:', parent)
+
+    except derinet_api.ParentNotFoundError:
+        print('Error: Invalid parent in relation. Child:', child,
+              'Parent:', parent)
+
+
 # ---------------- compound initialize ------------
 
-compounds = list()
+not_relation = defaultdict(list)
+compounds = defaultdict(list)
 
-# ---------------- part (a) (c) -------------------
+# ---------------- part (x) -------------------
+
+filename = './delete_rel.tsv'
+
+with open(filename, mode='r', encoding='utf-8') as f:
+
+    print('File:', filename)
+
+    for line in f:
+
+        if line.startswith('#'):
+            continue
+
+        line = line.rstrip('\n').split('\t')
+
+        parent_lemma, parent_pos = divideWord(line[0])
+        child_lemma, child_pos = divideWord(line[1])
+
+        parent = searchLexeme(parent_lemma, parent_pos)
+        child = searchLexeme(child_lemma, child_pos)
+
+        # relations to remove
+        if child is not None and parent is not None:
+            removeDerivation(ch_lem=child[0],
+                             ch_pos=child[1],
+                             ch_morph=child[2],
+                             par_lem=parent[0],
+                             par_pos=parent[1],
+                             par_morph=parent[2])
+
+# ---------------- part (a) (b) (c) -------------------
 
 prep = '../../../../data/annotations/cs/2017_05_sky_cky_ovy/hand-annotated/'
 for filename in [
@@ -201,43 +295,57 @@ for filename in [
 
     print('File:', filename)
 
-    with open(filename, mode='r', encoding='utf-8') as fh:
-        for line in fh:
+    with open(filename, mode='r', encoding='utf-8') as f:
+        for line in f:
             if line.startswith(('>>', '<<', '==')):
                 continue
 
             columns = line.rstrip('\n').split('\t')
-            child_lemma = columns[0]
-            parent_lemma = columns[1]
 
-            matchObj = re.search(r' [A-Z]: (\w+)', line)  # manual correction
+            child = searchLexeme(columns[1], 'A')
+            parent_lemma, parent_pos = divideWord(columns[2])
+            man_par_lem = ''
+
+            # manual correction of parent
+            manual_parent = None
+            matchObj = re.search(r' [A-Z]\: (\w+[\–]\w+)', columns[3])
             if matchObj and matchObj.groups:
-                parent_lemma = matchObj.group(1)
+                man_par_lem, man_par_pos = divideWord(matchObj.group(1))
+                manual_parent = searchLexeme(man_par_lem, man_par_pos)
 
-            if not (parent_lemma == 'UNRESOLVED' or parent_lemma == ''
-                    or child_lemma.startswith('?')):
-                createDerivation(child_lemma, parent_lemma, 'A', None)
+            # incorrect relation
+            inc = False
+            if parent_lemma != '' and columns[0] in ('@', '?'):
+                inc = True
+            elif parent_lemma != '' and columns[0] == '' and man_par_lem != '':
+                inc = True
 
-# ---------------- part (b) -------------------
+            if inc:
+                parent = searchLexeme(parent_lemma, parent_pos)
+                if child is not None and parent is not None:
+                    not_relation[filename].append((child, parent))
 
-prep = '../../../../data/annotations/cs/2017_05_sky_cky_ovy/hand-annotated/'
-filename = prep + 'candidates_cky_bez_kompozit.txt'
+            # correct relation with manual parent
+            if man_par_lem != '':
+                if child is not None and manual_parent is not None:
+                    createDerivation(ch_lem=child[0],
+                                     ch_pos=child[1],
+                                     ch_morph=child[2],
+                                     par_lem=manual_parent[0],
+                                     par_pos=manual_parent[1],
+                                     par_morph=manual_parent[2])
 
-print('File:', filename)
-
-with open(filename, mode='r', encoding='utf-8') as fh:
-    for line in fh:
-        if not re.search(r'^[@\?]', line):
-            columns = line.lstrip('\t').rstrip('\n').split('\t')
-            child_lemma = columns[0]
-            parent_lemma = columns[1]
-
-            matchObj = re.search(r' [A-Z]: (\w+)', line)  # manual correction
-            if matchObj and matchObj.groups:
-                parent_lemma = matchObj.group(1)
-
-            if not (parent_lemma == 'UNRESOLVED' or parent_lemma == ''):
-                createDerivation(child_lemma, parent_lemma, 'A', None)
+            # correct relation with automatic parent
+            elif (columns[0] not in ('@', '?') and parent_lemma != ''
+                  and man_par_lem == ''):
+                parent = searchLexeme(parent_lemma, parent_pos)
+                if child is not None and parent is not None:
+                    createDerivation(ch_lem=child[0],
+                                     ch_pos=child[1],
+                                     ch_morph=child[2],
+                                     par_lem=parent[0],
+                                     par_pos=parent[1],
+                                     par_morph=parent[2])
 
 # ---------------- part (d) -------------------
 
@@ -246,20 +354,74 @@ filename = prep + 'kandidati_ze_sirotku.txt'
 
 print('File:', filename)
 
-with open(filename, mode='r', encoding='utf-8') as fh:
-    for line in fh:
-        if re.search(r'^N ', line):
-            line = re.sub(r'^N ', '', line)
-            columns = line.rstrip('\n').split('\t')
-            child_lemma = columns[0]
-            parent_lemma = columns[1]
+with open(filename, mode='r', encoding='utf-8') as f:
+    for line in f:
+        columns = line.rstrip('\n').split('\t')
 
-            matchObj = re.search(r' [A-Z]: (\w+)', line)  # manual correction
-            if matchObj and matchObj.groups:
-                parent_lemma = matchObj.group(1)
+        # ignore lemma/relation
+        if '?' in columns[0]:
+            continue
 
-            if not (parent_lemma == 'UNRESOLVED' or parent_lemma == ''):
-                createDerivation(child_lemma, parent_lemma, 'A', None)
+        child = searchLexeme(columns[1], 'A')
+        parent_lemma, parent_pos = divideWord(columns[2])
+        man_par_lem = ''
+
+        # manual correction of parent
+        manual_parent = None
+        matchObj = re.search(r' [A-Z]\:(\w+[\–]\w+)', columns[3])
+        if matchObj and matchObj.groups:
+            man_par_lem, man_par_pos = divideWord(matchObj.group(1))
+            manual_parent = searchLexeme(man_par_lem, man_par_pos)
+
+        # incorrect relation
+        if man_par_lem != '' and parent_lemma != '':
+            parent = searchLexeme(parent_lemma, parent_pos)
+            if child is not None and parent is not None:
+                not_relation[filename].append((child, parent))
+
+        # correct relation with compound mark
+        if 'N' not in columns[0]:
+            if man_par_lem != '':
+                if child is not None and manual_parent is not None:
+                    createDerivation(ch_lem=child[0],
+                                     ch_pos=child[1],
+                                     ch_morph=child[2],
+                                     par_lem=manual_parent[0],
+                                     par_pos=manual_parent[1],
+                                     par_morph=manual_parent[2])
+                    compounds[filename].append(manual_parent)
+            elif parent_lemma != '':
+                parent = searchLexeme(parent_lemma, parent_pos)
+                if child is not None and parent is not None:
+                    createDerivation(ch_lem=child[0],
+                                     ch_pos=child[1],
+                                     ch_morph=child[2],
+                                     par_lem=parent[0],
+                                     par_pos=parent[1],
+                                     par_morph=parent[2])
+                    compounds[filename].append(parent)
+            if child is not None:
+                compounds[filename].append(child)
+
+        # correct relation without compound mark
+        if 'N' in columns[0]:
+            if man_par_lem != '':
+                if child is not None and manual_parent is not None:
+                    createDerivation(ch_lem=child[0],
+                                     ch_pos=child[1],
+                                     ch_morph=child[2],
+                                     par_lem=manual_parent[0],
+                                     par_pos=manual_parent[1],
+                                     par_morph=manual_parent[2])
+            elif parent_lemma != '':
+                parent = searchLexeme(parent_lemma, parent_pos)
+                if child is not None and parent is not None:
+                    createDerivation(ch_lem=child[0],
+                                     ch_pos=child[1],
+                                     ch_morph=child[2],
+                                     par_lem=parent[0],
+                                     par_pos=parent[1],
+                                     par_morph=parent[2])
 
 # ---------------- parts (e) (f) (g) -------------------
 
@@ -274,14 +436,37 @@ for filename in [
 
     print('File:', filename)
 
-    with open(filename, mode='r', encoding='utf-8') as fh:
-        for line in fh:
+    with open(filename, mode='r', encoding='utf-8') as f:
+        for line in f:
+
+            # incorect relation
+            if re.search(r'^@', line):
+                columns = line.rstrip('\n').split('\t')
+
+                child_lemma, child_pos = divideWord(columns[1])
+                parent_lemma, parent_pos = divideWord(columns[2])
+                child = searchLexeme(child_lemma, child_pos)
+                parent = searchLexeme(parent_lemma, parent_pos)
+
+                if child is not None and parent is not None:
+                    not_relation[filename].append((child, parent))
+
+            # correct relation
             if not re.search(r'^@', line):
                 columns = line.rstrip('\n').split('\t')
-                child_lemma = columns[0]
-                parent_lemma = columns[1]
 
-                createDerivation(child_lemma, parent_lemma, None, None)
+                child_lemma, child_pos = divideWord(columns[0])
+                parent_lemma, parent_pos = divideWord(columns[1])
+                child = searchLexeme(child_lemma, child_pos)
+                parent = searchLexeme(parent_lemma, parent_pos)
+
+                if child is not None and parent is not None:
+                    createDerivation(ch_lem=child[0],
+                                     ch_pos=child[1],
+                                     ch_morph=child[2],
+                                     par_lem=parent[0],
+                                     par_pos=parent[1],
+                                     par_morph=parent[2])
 
 # ---------------- part (h) -------------------
 
@@ -290,17 +475,16 @@ filename = prep + 'all_solitary_compounds'
 
 print('File:', filename)
 
-with open(filename, mode='r', encoding='utf-8') as fh:
-    for line in fh:
-        entry = line.rstrip('\n').split('\t')
+with open(filename, mode='r', encoding='utf-8') as f:
+    for line in f:
+        columns = line.rstrip('\n').split('\t')
 
-        mark = entry[0]
-        lemma = entry[1]
-
-        if '@' not in mark:
-            lemma = searchLexeme(lemma)
+        # correct compound
+        if '@' not in columns[0]:
+            lemma_lemma, lemma_pos = divideWord(columns[1])
+            lemma = searchLexeme(lemma_lemma, lemma_pos)
             if lemma is not None:
-                compounds.append(lemma)
+                compounds[filename].append(lemma)
 
 # ---------------- part (i) -------------------
 
@@ -309,13 +493,26 @@ filename = prep + 'all_compound_clusters'
 
 print('File:', filename)
 
-with open(filename, mode='r', encoding='utf-8') as fh:
-    for line in fh:
-        tokens = line.rstrip('\n').split(' ')
+with open(filename, mode='r', encoding='utf-8') as f:
+    for line in f:
+        line = line.rstrip('\n').split('\t')
+        tokens = None
 
-        lemma = searchLexeme(tokens[0])
+        # incorect compounds
+        if '@' in line[0]:
+            if len(line) == 3:
+                tokens = line[2].split(' ')
+            else:
+                continue
+
+        # correct compounds
+        if '@' not in line[0]:
+            tokens = line[1].split(' ')
+
+        lemma_lemma, lemma_pos = divideWord(tokens[0])
+        lemma = searchLexeme(lemma_lemma, lemma_pos)
         if lemma is not None:
-            compounds.append(lemma)
+            compounds[filename].append(lemma)
 
         last_token = tokens[0]
         stack = []
@@ -326,19 +523,47 @@ with open(filename, mode='r', encoding='utf-8') as fh:
             elif token == ')':
                 stack.pop()
             else:
-                createDerivation(token, stack[-1], None, None)
+                child_lemma, child_pos = divideWord(token)
+                parent_lemma, parent_pos = divideWord(stack[-1])
+                child = searchLexeme(child_lemma, child_pos)
+                parent = searchLexeme(parent_lemma, parent_pos)
+
+                if child is not None and parent is not None:
+                    createDerivation(ch_lem=child[0],
+                                     ch_pos=child[1],
+                                     ch_morph=child[2],
+                                     par_lem=parent[0],
+                                     par_pos=parent[1],
+                                     par_morph=parent[2])
                 last_token = token
 
 # ---------------- final processing -------------------
 
+# checking if there is not relation
+print('\n', 5*'-', 'checking if there is not relation', 5*'-')
+for filename, relations in not_relation.items():
+    print('File:', filename)
+    for rel in relations:
+        child = rel[0]
+        parent = rel[1]
+        checkDerivation(ch_lem=child[0],
+                        ch_pos=child[1],
+                        ch_morph=child[2],
+                        par_lem=parent[0],
+                        par_pos=parent[1],
+                        par_morph=parent[2])
+
 # marking compounds
 print('\n', 5*'-', 'marking compound lemmas', 5*'-')
-for lemma in compounds:
-    markCompound(node_lem=lemma[0],
-                 node_pos=lemma[1],
-                 node_morph=lemma[2])
+for filename, compound_list in compounds.items():
+    print('File:', filename)
+    for lemma in compound_list:
+        markCompound(node_lem=lemma[0],
+                     node_pos=lemma[1],
+                     node_morph=lemma[2])
 
 # checking compound annotation
+print('\n', 5*'-', 'checking compound annotation', 5*'-')
 all_compounds = list()
 for node in derinet._data:
     if 'C' in node.pos:
