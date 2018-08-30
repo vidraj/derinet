@@ -1,118 +1,118 @@
 # smazat z derinetu, 1. závorka = rodič , 2. závorka = dítě
-('archiválie', 'N', 'archiválie')	('archivální', 'A', 'archivální')
-('připlývat', 'V', 'připlývat_:T')	('připlynout', 'V', 'připlynout')
-('vplývat', 'V', 'vplývat_:T')	('vplynout', 'V', 'vplynout')
-('vzplývat', 'V', 'vzplývat_:T')	('vzplynout', 'V', 'vzplynout_,s')
-('zaplývat', 'V', 'zaplývat_:T_,a')	('zaplynout', 'V', 'zaplynout_,s')
-('paušál', 'N', 'paušál')	('paušální', 'A', 'paušální')
-('vdovec', 'N', 'vdovec')	('vdova', 'N', 'vdova')
-('koloniál', 'N', 'koloniál')	('koloniální', 'A', 'koloniální')
-('lokál', 'N', 'lokál')	('lokální', 'A', 'lokální')
-('maskérna', 'N', 'maskérna')	('maskér', 'N', 'maskér')
-('moře', 'N', 'moře')	('morče', 'N', 'morče')
-('žitý', 'A', 'žitý_^(*3ít)')	('žito', 'N', 'žito')
-('kapat', 'V', 'kapat_:T')	('kapoun', 'N', 'kapoun')
-('asfaltovna', 'N', 'asfaltovna')	('asfalt', 'N', 'asfalt')
-('niklovna', 'N', 'niklovna')	('nikl', 'N', 'nikl')
-('bal', 'N', 'bal')	('balík', 'N', 'balík-1_^(předmět)')
-('zvěřinec', 'N', 'zvěřinec')	('zvíře', 'N', 'zvíře')
-('šumovat', 'V', 'šumovat_:T_,h_,n_^(pěnit_se;;prohledávat)')	('vyšumovat', 'V', 'vyšumovat_:W_,n_^(vypěnit_se;;vyhledat)')
-('roubit', 'V', 'roubit_:T')	('obroubit', 'V', 'obroubit_:W')
-('těšit', 'V', 'těšit_:T')	('utěšit', 'V', 'utěšit_:W')
-('spět', 'V', 'spět')	('prospět', 'V', 'prospět')
-('úl', 'N', 'úl')	('úlek', 'N', 'úlek-1_^(leknutí)')
-('ujmout', 'V', 'ujmout')	('zaujmout', 'V', 'zaujmout_^(upoutat_pozornost)')
-('hole', 'D', 'hole_^(*1ý)')	('holička', 'N', 'holička_^(*2)')
-('Mack', 'N', 'Mack_;S')	('Macková', 'N', 'Macková_;S')
-('Staško', 'N', 'Staško_;S')	('Stašková', 'N', 'Stašková_;S')
-('Plačko', 'N', 'Plačko_;S')	('Plačková', 'N', 'Plačková_;S')
-('Furka', 'N', 'Furka_;S')	('Furková', 'N', 'Furková_;S')
-('Vohryzka', 'N', 'Vohryzka_;S')	('Vohryzková', 'N', 'Vohryzková_;S')
-('řezat', 'V', 'řezat_:T')	('řízek', 'N', 'řízek')
-('loupežit', 'V', 'loupežit_:T')	('loupežník', 'N', 'loupežník')
-('zalít', 'V', 'zalít')	('zálivka', 'N', 'zálivka')
-('slavík', 'N', 'slavík')	('slavista', 'N', 'slavista')
-('nájezdný', 'A', 'nájezdný')	('nájezdník', 'N', 'nájezdník')
-('Nora', 'N', 'Nora_;Y')	('Norka', 'N', 'Norka_;E_^(^FM*2)')
-('protivit', 'V', 'protivit_:T')	('protiva', 'N', 'protiva')
-('mixáž', 'N', 'mixáž')	('mixér', 'N', 'mixér')
-('veksl', 'N', 'veksl-1_,h_^(výměnný_obchod)')	('vekslák', 'N', 'vekslák')
-('civil', 'N', 'civil_^(civilní_stav,_doba_mimo_voj._služby)')	('civilka', 'N', 'civilka_,h_^(civilní_služba)')
-('časovat', 'V', 'časovat_:T')	('časovka', 'N', 'časovka_,l_^(časová_jízdenka;;závod_na_čas)')
-('začatý', 'A', 'začatý-1_^(začnout)_(*5ít-1)')	('začátek', 'N', 'začátek')
-('vrátit', 'V', 'vrátit_:W')	('vrátka', 'N', 'vrátka_^(dvířka)')
-('synoptik', 'N', 'synoptik')	('synoptický', 'A', 'synoptický')
-('bájit', 'V', 'bájit_:T')	('bajka', 'N', 'bajka')
-('rostlý', 'A', 'rostlý')	('rostlina', 'N', 'rostlina')
-('Jordán', 'N', 'Jordán-1_;S')	('Jordánsko', 'N', 'Jordánsko_;G')
-('brousit', 'V', 'brousit_:T')	('brousek', 'N', 'brousek-1_^(malý_brus)')
-('lázeň', 'N', 'lázeň')	('lázeňský', 'A', 'lázeňský')
-('neandrtálec', 'N', 'neandrtálec')	('neandertálský', 'A', 'neandertálský')
-('lesknout', 'V', 'lesknout_:T')	('lesklý', 'A', 'lesklý_^(*2nout)')
-('chaotik', 'N', 'chaotik')	('chaotický', 'A', 'chaotický')
-('astmatik', 'N', 'astmatik')	('astmatický', 'A', 'astmatický')
-('dogmatika', 'N', 'dogmatika')	('dogmatický', 'A', 'dogmatický')
-('eukalypt', 'N', 'eukalypt')	('eukalyptový', 'A', 'eukalyptový')
-('Kula', 'N', 'Kula-1_;G')	('Kulová', 'N', 'Kulová_;S')
-('Jora', 'N', 'Jora_;S')	('Jorová', 'N', 'Jorová_;S')
-('sněmovat', 'V', 'sněmovat_:T')	('sněmovna', 'N', 'sněmovna')
-('vejražek', 'N', 'vejražek_,h')	('vejražkový', 'A', 'vejražkový_,h')
-('boubel', 'N', 'boubel')	('boubelka', 'N', 'boubelka')
-('ezoterik', 'N', 'ezoterik')	('ezoterický', 'A', 'ezoterický')
-('těhotenský', 'A', 'těhotenský')	('těhotenství', 'N', 'těhotenství')
-('pozitiv', 'N', 'pozitiv')	('pozitivní', 'A', 'pozitivní')
-('poštovné', 'N', 'poštovné')	('pošta', 'N', 'pošta')
-('eklektik', 'N', 'eklektik')	('eklektický', 'A', 'eklektický')
-('autentika', 'N', 'autentika')	('autentický', 'A', 'autentický')
-('šikmo', 'D', 'šikmo')	('šikmý', 'A', 'šikmý')
-('plavit', 'V', 'plavit_:T')	('plavat', 'V', 'plavat')
-('elektrika', 'N', 'elektrika')	('elektrický', 'A', 'elektrický')
-('impotence', 'N', 'impotence')	('impotentní', 'A', 'impotentní')
-('bula', 'N', 'bula')	('bulka', 'N', 'bulka')
-('zmrzat', 'V', 'zmrzat_:T')	('zmrznout', 'V', 'zmrznout_:W')
-('stát', 'V', 'stát-3_^(někdo/něco_stojí,_např._na_nohou)')	('zůstat', 'V', 'zůstat')
-('purpura', 'N', 'purpura')	('purpurový', 'A', 'purpurový')
-('gothaj', 'N', 'gothaj_;R_,h_^(gothajský_salám)')	('gothajský', 'A', 'gothajský')
-('rodič', 'N', 'rodič')	('rodička', 'N', 'rodička')
-('ohyb', 'N', 'ohyb')	('ohybník', 'N', 'ohybník')
-('dýchnout', 'V', 'dýchnout_:W')	('nadchnout', 'V', 'nadchnout_:W')
-('uzávěr', 'N', 'uzávěr')	('uzávěrka', 'N', 'uzávěrka')
-('úschova', 'N', 'úschova')	('úschovna', 'N', 'úschovna')
-('Tumpach', 'N', 'Tumpach_;S')	('tumpachový', 'A', 'tumpachový')
-('Irkut', 'N', 'Irkut_;K')	('irkutský', 'A', 'irkutský')
-('bordeaux', 'N', 'bordeaux_,t')	('bordeauxský', 'A', 'bordeauxský')
-('ekvádor', 'N', 'ekvádor')	('ekvádorský', 'A', 'ekvádorský')
-('vyšehrad', 'N', 'vyšehrad')	('vyšehradský', 'A', 'vyšehradský')
-('Mazur', 'N', 'Mazur_;S')	('mazurský', 'A', 'mazurský')
-('Dalmat', 'N', 'Dalmat_;E')	('dalmatský', 'A', 'dalmatský')
-('Benát', 'N', 'Benát_;S')	('benátský', 'A', 'benátský')
-('krov', 'N', 'krov')	('krovka', 'N', 'krovka')
-('aromatikum', 'N', 'aromatikum')	('aromatický', 'A', 'aromatický')
-('pícní', 'A', 'pícní')	('pícnina', 'N', 'pícnina')
-('fantastika', 'N', 'fantastika')	('fantastický', 'A', 'fantastický')
-('apokalyptika', 'N', 'apokalyptika')	('apokalyptický', 'A', 'apokalyptický')
-('rytmika', 'N', 'rytmika')	('rytmický', 'A', 'rytmický')
-('přednosta', 'N', 'přednosta')	('přednostní', 'A', 'přednostní')
-('pýchat', 'V', 'pýchat_:T')	('pýchavka', 'N', 'pýchavka')
-('Jeans', 'N', 'Jeans_;S')	('jeansový', 'A', 'jeansový')
-('bolševička', 'N', 'bolševička')	('bolševik', 'N', 'bolševik')
-('alkoholik', 'N', 'alkoholik')	('alkoholický', 'A', 'alkoholický')
-('alkoholický', 'A', 'alkoholický')	('alkoholismus', 'N', 'alkoholismus')
-('bolševický', 'A', 'bolševický')	('bolševismus', 'N', 'bolševismus')
-('cynický', 'A', 'cynický')	('cynismus', 'N', 'cynismus')
-('egocentrický', 'A', 'egocentrický')	('egocentrismus', 'N', 'egocentrismus')
-('eklektický', 'A', 'eklektický')	('eklekticismus', 'N', 'eklekticismus')
-('fanatický', 'A', 'fanatický')	('fanatismus', 'N', 'fanatismus')
-('gnostický', 'A', 'gnostický')	('gnosticismus', 'N', 'gnosticismus')
-('gnostik', 'N', 'gnostik')	('gnostický', 'A', 'gnostický')
-('hédonický', 'A', 'hédonický')	('hédonismus', 'N', 'hédonismus')
-('mystický', 'A', 'mystický')	('mysticismus', 'N', 'mysticismus')
-('mystik', 'N', 'mystik')	('mystický', 'A', 'mystický')
-('organický', 'A', 'organický')	('organismus', 'N', 'organismus')
-('reumatický', 'A', 'reumatický')	('reumatismus', 'N', 'reumatismus')
-('revmatik', 'N', 'revmatik')	('revmatický', 'A', 'revmatický')
-('revmatický', 'A', 'revmatický')	('revmatismus', 'N', 'revmatismus')
-('sangvinický', 'A', 'sangvinický')	('sangvinismus', 'N', 'sangvinismus')
-('skeptický', 'A', 'skeptický')	('skepticismus', 'N', 'skepticismus')
-('skeptik', 'N', 'skeptik')	('skeptický', 'A', 'skeptický')
-('stoický', 'A', 'stoický')	('stoicismus', 'N', 'stoicismus')
+archiválie–N–archiválie	archivální–A–archivální
+připlývat–V–připlývat_:T	připlynout–V–připlynout
+vplývat–V–vplývat_:T	vplynout–V–vplynout
+vzplývat–V–vzplývat_:T	vzplynout–V–vzplynout_,s
+zaplývat–V–zaplývat_:T_,a	zaplynout–V–zaplynout_,s
+paušál–N–paušál	paušální–A–paušální
+vdovec–N–vdovec	vdova–N–vdova
+koloniál–N–koloniál	koloniální–A–koloniální
+lokál–N–lokál	lokální–A–lokální
+maskérna–N–maskérna	maskér–N–maskér
+moře–N–moře	morče–N–morče
+žitý–A–žitý_^(*3ít)	žito–N–žito
+kapat–V–kapat_:T	kapoun–N–kapoun
+asfaltovna–N–asfaltovna	asfalt–N–asfalt
+niklovna–N–niklovna	nikl–N–nikl
+bal–N–bal	balík–N–balík-1_^(předmět)
+zvěřinec–N–zvěřinec	zvíře–N–zvíře
+šumovat–V–šumovat_:T_,h_,n_^(pěnit_se;;prohledávat)	vyšumovat–V–vyšumovat_:W_,n_^(vypěnit_se;;vyhledat)
+roubit–V–roubit_:T	obroubit–V–obroubit_:W
+těšit–V–těšit_:T	utěšit–V–utěšit_:W
+spět–V–spět	prospět–V–prospět
+úl–N–úl	úlek–N–úlek-1_^(leknutí)
+ujmout–V–ujmout	zaujmout–V–zaujmout_^(upoutat_pozornost)
+hole–D–hole_^(*1ý)	holička–N–holička_^(*2)
+Mack–N–Mack_;S	Macková–N–Macková_;S
+Staško–N–Staško_;S	Stašková–N–Stašková_;S
+Plačko–N–Plačko_;S	Plačková–N–Plačková_;S
+Furka–N–Furka_;S	Furková–N–Furková_;S
+Vohryzka–N–Vohryzka_;S	Vohryzková–N–Vohryzková_;S
+řezat–V–řezat_:T	řízek–N–řízek
+loupežit–V–loupežit_:T	loupežník–N–loupežník
+zalít–V–zalít	zálivka–N–zálivka
+slavík–N–slavík	slavista–N–slavista
+nájezdný–A–nájezdný	nájezdník–N–nájezdník
+Nora–N–Nora_;Y	Norka–N–Norka_;E_^(^FM*2)
+protivit–V–protivit_:T	protiva–N–protiva
+mixáž–N–mixáž	mixér–N–mixér
+veksl–N–veksl-1_,h_^(výměnný_obchod)	vekslák–N–vekslák
+civil–N–civil_^(civilní_stav,_doba_mimo_voj._služby)	civilka–N–civilka_,h_^(civilní_služba)
+časovat–V–časovat_:T	časovka–N–časovka_,l_^(časová_jízdenka;;závod_na_čas)
+začatý–A–začatý-1_^(začnout)_(*5ít-1)	začátek–N–začátek
+vrátit–V–vrátit_:W	vrátka–N–vrátka_^(dvířka)
+synoptik–N–synoptik	synoptický–A–synoptický
+bájit–V–bájit_:T	bajka–N–bajka
+rostlý–A–rostlý	rostlina–N–rostlina
+Jordán–N–Jordán-1_;S	Jordánsko–N–Jordánsko_;G
+brousit–V–brousit_:T	brousek–N–brousek-1_^(malý_brus)
+lázeň–N–lázeň	lázeňský–A–lázeňský
+neandrtálec–N–neandrtálec	neandertálský–A–neandertálský
+lesknout–V–lesknout_:T	lesklý–A–lesklý_^(*2nout)
+chaotik–N–chaotik	chaotický–A–chaotický
+astmatik–N–astmatik	astmatický–A–astmatický
+dogmatika–N–dogmatika	dogmatický–A–dogmatický
+eukalypt–N–eukalypt	eukalyptový–A–eukalyptový
+Kula–N–Kula-1_;G	Kulová–N–Kulová_;S
+Jora–N–Jora_;S	Jorová–N–Jorová_;S
+sněmovat–V–sněmovat_:T	sněmovna–N–sněmovna
+vejražek–N–vejražek_,h	vejražkový–A–vejražkový_,h
+boubel–N–boubel	boubelka–N–boubelka
+ezoterik–N–ezoterik	ezoterický–A–ezoterický
+těhotenský–A–těhotenský	těhotenství–N–těhotenství
+pozitiv–N–pozitiv	pozitivní–A–pozitivní
+poštovné–N–poštovné	pošta–N–pošta
+eklektik–N–eklektik	eklektický–A–eklektický
+autentika–N–autentika	autentický–A–autentický
+šikmo–D–šikmo	šikmý–A–šikmý
+plavit–V–plavit_:T	plavat–V–plavat
+elektrika–N–elektrika	elektrický–A–elektrický
+impotence–N–impotence	impotentní–A–impotentní
+bula–N–bula	bulka–N–bulka
+zmrzat–V–zmrzat_:T	zmrznout–V–zmrznout_:W
+stát–V–stát-3_^(někdo/něco_stojí,_např._na_nohou)	zůstat–V–zůstat
+purpura–N–purpura	purpurový–A–purpurový
+gothaj–N–gothaj_;R_,h_^(gothajský_salám)	gothajský–A–gothajský
+rodič–N–rodič	rodička–N–rodička
+ohyb–N–ohyb	ohybník–N–ohybník
+dýchnout–V–dýchnout_:W	nadchnout–V–nadchnout_:W
+uzávěr–N–uzávěr	uzávěrka–N–uzávěrka
+úschova–N–úschova	úschovna–N–úschovna
+Tumpach–N–Tumpach_;S	tumpachový–A–tumpachový
+Irkut–N–Irkut_;K	irkutský–A–irkutský
+bordeaux–N–bordeaux_,t	bordeauxský–A–bordeauxský
+ekvádor–N–ekvádor	ekvádorský–A–ekvádorský
+vyšehrad–N–vyšehrad	vyšehradský–A–vyšehradský
+Mazur–N–Mazur_;S	mazurský–A–mazurský
+Dalmat–N–Dalmat_;E	dalmatský–A–dalmatský
+Benát–N–Benát_;S	benátský–A–benátský
+krov–N–krov	krovka–N–krovka
+aromatikum–N–aromatikum	aromatický–A–aromatický
+pícní–A–pícní	pícnina–N–pícnina
+fantastika–N–fantastika	fantastický–A–fantastický
+apokalyptika–N–apokalyptika	apokalyptický–A–apokalyptický
+rytmika–N–rytmika	rytmický–A–rytmický
+přednosta–N–přednosta	přednostní–A–přednostní
+pýchat–V–pýchat_:T	pýchavka–N–pýchavka
+Jeans–N–Jeans_;S	jeansový–A–jeansový
+bolševička–N–bolševička	bolševik–N–bolševik
+alkoholik–N–alkoholik	alkoholický–A–alkoholický
+alkoholický–A–alkoholický	alkoholismus–N–alkoholismus
+bolševický–A–bolševický	bolševismus–N–bolševismus
+cynický–A–cynický	cynismus–N–cynismus
+egocentrický–A–egocentrický	egocentrismus–N–egocentrismus
+eklektický–A–eklektický	eklekticismus–N–eklekticismus
+fanatický–A–fanatický	fanatismus–N–fanatismus
+gnostický–A–gnostický	gnosticismus–N–gnosticismus
+gnostik–N–gnostik	gnostický–A–gnostický
+hédonický–A–hédonický	hédonismus–N–hédonismus
+mystický–A–mystický	mysticismus–N–mysticismus
+mystik–N–mystik	mystický–A–mystický
+organický–A–organický	organismus–N–organismus
+reumatický–A–reumatický	reumatismus–N–reumatismus
+revmatik–N–revmatik	revmatický–A–revmatický
+revmatický–A–revmatický	revmatismus–N–revmatismus
+sangvinický–A–sangvinický	sangvinismus–N–sangvinismus
+skeptický–A–skeptický	skepticismus–N–skepticismus
+skeptik–N–skeptik	skeptický–A–skeptický
+stoický–A–stoický	stoicismus–N–stoicismus

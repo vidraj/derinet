@@ -49,7 +49,7 @@ derinet = derinet_api.DeriNet('./derinet-1-5.tsv')
 
 
 def divideWord(word):
-    """Return lemma, pos and morph of word in annotated data.
+    """Return lemma and pos of word in annotated data.
     Used for ambiguous words. ALT+0150 is separator.
     """
     word = word.split('–')
@@ -60,21 +60,19 @@ def divideWord(word):
         if word[1] != 'None':
             pos = word[1]
 
-    morph = None
-    if len(word) > 2:
-        morph = word[2]
-    return lemma, pos, morph
+    return lemma, pos
 
 
-def searchLexeme(lem, p=None, m=None):
+def searchLexeme(lem, p=None):
     """Search lemma in DeriNet. Raise warnings for not beeing inside the
     DeriNet and for homonymous lemma.
     """
-    candidates = derinet.search_lexemes(lem, pos=p, morph=m)
+    candidates = derinet.search_lexemes(lem, pos=p)
     if len(candidates) == 0:
         print('Warning: Node does not exist for lemma:', lem)
     elif len(candidates) > 1:
-        print('Warning: Homonymous lemma:', lem, ':', candidates)
+        print('Error: Homonymous lemma (return first):', lem, ':', candidates)
+        return candidates[0]
     else:
         return candidates[0]
     return None
@@ -307,8 +305,11 @@ with open(filename, mode='r', encoding='utf-8') as f:
 
         line = line.rstrip('\n').split('\t')
 
-        parent = eval(line[0])
-        child = eval(line[1])
+        parent_lemma, parent_pos = divideWord(line[0])
+        parent = searchLexeme(parent_lemma, parent_pos)
+
+        child_lemma, child_pos = divideWord(line[1])
+        child = searchLexeme(child_lemma, child_pos)
 
         # relations to remove
         if child is not None and parent is not None:
@@ -336,11 +337,9 @@ for filename in [
             columns = line.rstrip('\n').split('\t')
 
             child_lemma = columns[1]
-            child_morph = columns[2]
             child_pos = columns[3]
 
             parent_lemma = ''
-            parent_morph = None
             parent_pos = None
 
             if columns[5] != '':
@@ -353,15 +352,10 @@ for filename in [
             if parent_lemma == '':
                 continue
 
-            parent_lemma, parent_pos, parent_morph = divideWord(parent_lemma)
+            parent_lemma, parent_pos = divideWord(parent_lemma)
 
-            if len(columns) == 7:
-                if columns[6] != '':
-                    parent_morph = columns[6]
-
-            child = (child_lemma, child_pos, child_morph)
-            parent = searchLexeme(lem=parent_lemma, p=parent_pos,
-                                  m=parent_morph)
+            child = searchLexeme(child_lemma, child_pos)
+            parent = searchLexeme(parent_lemma, p=parent_pos)
 
             # relations
             if child is not None and parent is not None:
@@ -386,19 +380,15 @@ with open(filename, mode='r', encoding='utf-8') as f:
 
         child_lemma = columns[1]
         child_pos = None
-        child_morph = None
 
         parent_lemma = columns[2]
         parent_pos = None
-        parent_morph = None
 
-        parent_lemma, parent_pos, parent_morph = divideWord(parent_lemma)
-        child_lemma, child_pos, child_morph = divideWord(child_lemma)
+        parent_lemma, parent_pos = divideWord(parent_lemma)
+        child_lemma, child_pos = divideWord(child_lemma)
 
-        parent = searchLexeme(lem=parent_lemma, p=parent_pos,
-                              m=parent_morph)
-        child = searchLexeme(lem=child_lemma, p=child_pos,
-                             m=child_morph)
+        parent = searchLexeme(lem=parent_lemma, p=parent_pos)
+        child = searchLexeme(lem=child_lemma, p=child_pos)
 
         if child is None or parent is None:
             continue
@@ -437,26 +427,22 @@ with open(filename, mode='r', encoding='utf-8') as f:
 
         child_lem = columns[1]
         child_p = None
-        child_m = None
 
         parent_lem = columns[2]
         parent_p = None
-        parent_m = None
 
         c_parent_lem = columns[3]
         c_parent_p = None
-        c_parent_m = None
 
-        parent_lem, parent_p, parent_m = divideWord(parent_lem)
-        child_lem, child_p, child_m = divideWord(child_lem)
-        c_parent_lem, c_parent_p, c_parent_m = divideWord(c_parent_lem)
+        parent_lem, parent_p = divideWord(parent_lem)
+        child_lem, child_p = divideWord(child_lem)
+        c_parent_lem, c_parent_p = divideWord(c_parent_lem)
 
-        parent = searchLexeme(lem=parent_lem, p=parent_p, m=parent_m)
-        child = searchLexeme(lem=child_lem, p=child_p, m=child_m)
+        parent = searchLexeme(lem=parent_lem, p=parent_p)
+        child = searchLexeme(lem=child_lem, p=child_p)
         c_parent = None
         if c_parent_lem != '':
-            c_parent = searchLexeme(lem=c_parent_lem, p=c_parent_p,
-                                    m=c_parent_m)
+            c_parent = searchLexeme(lem=c_parent_lem, p=c_parent_p)
 
         if child is None:
             continue
@@ -498,11 +484,11 @@ for filename in [
             if all(clm == '' for clm in columns[:5]):
                 continue
 
-            parent_lem, parent_p, parent_m = divideWord(columns[1])
-            child_lem, child_p, child_m = divideWord(columns[2])
+            parent_lem, parent_p = divideWord(columns[1])
+            child_lem, child_p = divideWord(columns[2])
 
-            parent = searchLexeme(lem=parent_lem, p=parent_p, m=parent_m)
-            child = searchLexeme(lem=child_lem, p=child_p, m=child_m)
+            parent = searchLexeme(lem=parent_lem, p=parent_p)
+            child = searchLexeme(lem=child_lem, p=child_p)
 
             # relations
             if child is not None and parent is not None:
@@ -537,9 +523,9 @@ for filename in [
 
             # proposals of relations
             if columns[3] not in ('', '*', '%'):
-                p_parent_lem, p_parent_p, p_parent_m = divideWord(columns[3])
-                p_parent = searchLexeme(lem=p_parent_lem, p=p_parent_p,
-                                        m=p_parent_m)
+                p_parent_lem, p_parent_p = divideWord(columns[3])
+                p_parent = searchLexeme(lem=p_parent_lem, p=p_parent_p)
+
                 if p_parent is not None and parent is not None:
                     createDerivation(ch_lem=parent[0],
                                      ch_pos=parent[1],
@@ -547,10 +533,11 @@ for filename in [
                                      par_lem=p_parent[0],
                                      par_pos=p_parent[1],
                                      par_morph=p_parent[2])
+
             elif columns[4] not in ('', '*', '%'):
-                p_parent_lem, p_parent_p, p_parent_m = divideWord(columns[4])
-                p_parent = searchLexeme(lem=p_parent_lem, p=p_parent_p,
-                                        m=p_parent_m)
+                p_parent_lem, p_parent_p = divideWord(columns[4])
+                p_parent = searchLexeme(lem=p_parent_lem, p=p_parent_p)
+
                 if p_parent is not None and child is not None:
                     createDerivation(ch_lem=child[0],
                                      ch_pos=child[1],
@@ -561,10 +548,10 @@ for filename in [
 
 # ---------------- part (h) -------------------
 
-prep = '../../../../data/annotations/cs/2018_08_rels_and_compounds/hand-annotated/'
+prep = '../../../../data/annotations/cs/2018_08_rels_and_compounds/'
 
-for filename in [prep + 'relations.tsv',
-                 prep + 'compounds.tsv']:
+for filename in [prep + 'hand-annotated/relations.tsv',
+                 prep + 'hand-annotated/compounds.tsv']:
 
     print('File:', filename)
 
@@ -584,8 +571,11 @@ for filename in [prep + 'relations.tsv',
 
             # relations
             if '§' in line[0]:
-                parent = eval(line[1])
-                child = eval(line[2])
+                parent_lemma, parent_pos = divideWord(line[1])
+                parent = searchLexeme(parent_lemma, parent_pos)
+
+                child_lemma, child_pos = divideWord(line[2])
+                child = searchLexeme(child_lemma, child_pos)
 
                 if child is not None and parent is not None:
                     createDerivation(ch_lem=child[0],
@@ -596,8 +586,10 @@ for filename in [prep + 'relations.tsv',
                                      par_morph=parent[2])
             # compounds
             if '%' in line[0]:
-                lemma = eval(line[1])
-                compounds[filename].append(lemma)
+                lem, p = divideWord(line[1])
+                lemma = searchLexeme(lem, p)
+                if lemma is not None:
+                    compounds[filename].append(lemma)
 
 # ---------------- final processing -------------------
 
@@ -625,6 +617,7 @@ for filename, lemmas in compounds.items():
                      node_morph=lemma[2])
 
 # checking compound annotation
+print('\n', 5*'-', 'checking compound annotation', 5*'-')
 all_compounds = list()
 for node in derinet._data:
     if 'C' in node.pos:
@@ -642,6 +635,13 @@ for filename, lemmas in unmotivated.items():
         markUnmotivated(node_lem=lemma[0],
                         node_pos=lemma[1],
                         node_morph=lemma[2])
+
+# checking compound-unmotivated collisions
+print('\n', 5*'-', 'checking compound-unmotivated annotation', 5*'-')
+for node in derinet._data:
+    if 'U' in node.pos and 'C' in node.pos:
+        print('Error: Lemma is marked as coumpound and also as unmotivated.',
+              'Lemma:', derinet_api.lexeme_info(node))
 
 # saving DeriNet release 1.6
 derinet.save('derinet-1-6.tsv')
