@@ -308,7 +308,7 @@ for filename in [
 
             # manual correction of parent
             manual_parent = None
-            matchObj = re.search(r' [A-Z]\: (\w+[\–]\w+)', columns[3])
+            matchObj = re.search(r' [A-Z]\: (\w+[\-]*\w+[\–]*\w+)', columns[3])
             if matchObj and matchObj.groups:
                 man_par_lem, man_par_pos = divideWord(matchObj.group(1))
                 manual_parent = searchLexeme(man_par_lem, man_par_pos)
@@ -368,7 +368,7 @@ with open(filename, mode='r', encoding='utf-8') as f:
 
         # manual correction of parent
         manual_parent = None
-        matchObj = re.search(r' [A-Z]\:(\w+[\–]\w+)', columns[3])
+        matchObj = re.search(r' [A-Z]\:(\w+[\-]*\w+[\–]*\w+)', columns[3])
         if matchObj and matchObj.groups:
             man_par_lem, man_par_pos = divideWord(matchObj.group(1))
             manual_parent = searchLexeme(man_par_lem, man_par_pos)
