@@ -3,8 +3,11 @@ export PERL5LIB::=$(CURDIR)/lib:$(PERL5LIB)
 export ANNOT::=../../../data/annotations/cs/2015-07-gold-standard/annot-devel.tsv
 export DERIMOR_MAIN_DIR::=$(CURDIR)
 
-MORFFLEX::=data/morfflex-cz.2016-11-15.utf8.lemmaID_suff-tag-form.tab.csv.xz
+#MORFFLEX::=$(abspath data/morfflex-cz.2016-11-15.utf8.lemmaID_suff-tag-form.tab.csv.xz)
+MORFFLEX::=$(abspath data/czech-morfflex-180626-devel.raw.xz)
 MORPHODITA_MODEL::=data/models/morphodita/cs/czech-morfflex-161115.dict
+
+export MORFFLEX
 
 .PHONY: release build precision clean mrproper
 
