@@ -23,13 +23,13 @@ lemmas_from_syn.tsv: ../data/pro-zdenka-syn-lemata-od-ondreje.gz ./select_syn_le
 lemmas_from_morfflex.tsv: ${MORFFLEX} ./select_morfflex_lemmas.pl lemmas-to-ignore.tsv
 	xz -dkvvc $< | ./select_morfflex_lemmas.pl --ignore-list lemmas-to-ignore.tsv > $@
 
-sorted_lemmas.tsv: ${LEMMAS} ./remove_false_homonyms.pl
+sorted_lemmas.tsv: ${LEMMAS} ./remove_false_homonyms.pl ../data/straka_same_lemma_sense_classes.txt
 	./remove_false_homonyms.pl < "$<" | sort > $@
 
 # This target reads the extra words that should be inserted into the database
 #  and guesses their techlemmas and POS-tags. These guesses then have to be
 #  manually desambiguated and saved to extra_lemmas.tsv
-extra_lemmas.tsv: extra_words.txt ./words_to_lemmas.pl ./select_morfflex_lemmas.pl ./remove_false_homonyms.pl
+extra_lemmas.tsv: extra_words.txt ./words_to_lemmas.pl ./select_morfflex_lemmas.pl ./remove_false_homonyms.pl ../data/straka_same_lemma_sense_classes.txt
 	./words_to_lemmas.pl < "$<" | ./select_morfflex_lemmas.pl | ./remove_false_homonyms.pl | sort > $@
 
 otaznickovi.tsv: ../data/annotated_cleaned_otaznickovi_kandidati.tsv ./priprav_otaznickove.pl # zz otaznikovi potvrzeni
@@ -70,6 +70,7 @@ stats:
 ost-added-lexemes.txt: log.txt
 	# Print all adjectival lexemes added (and then derived into -ost nouns) by AddOstLexemes…
 	sed -ne '/NEW LEXEME CREATED:/ b nprint; d; :nprint; n; s/^.*Adding derivation //; p' "$<" > "$@"
+	#sed -ne '/NEW LEXEME CREATED/ b print ; d ; : print ; N ; p' "$<" > "$@"
 
 clean:
 	rm -f lemmas_from_syn.tsv sorted_lemmas.tsv extra_lemmas.tsv otaznickovi.tsv $(BASE).tsv $(BASE).slex log.txt stats.txt stats-derivation-creator.txt lemmas_diff.txt # lemmas_from_morfflex.tsv
