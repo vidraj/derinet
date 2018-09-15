@@ -73,4 +73,5 @@ ost-added-lexemes.txt: log.txt
 	#sed -ne '/NEW LEXEME CREATED/ b print ; d ; : print ; N ; p' "$<" > "$@"
 
 clean:
-	rm -f lemmas_from_syn.tsv sorted_lemmas.tsv extra_lemmas.tsv otaznickovi.tsv $(BASE).tsv $(BASE).slex log.txt stats.txt stats-derivation-creator.txt lemmas_diff.txt # lemmas_from_morfflex.tsv
+	rm -f lemmas_from_syn.tsv sorted_lemmas.tsv extra_lemmas.tsv otaznickovi.tsv $(BASE).tsv $(BASE).slex log.txt stats.txt stats-derivation-creator.txt lemmas_diff.txt
+	rm -f lemmas_from_morfflex.tsv
