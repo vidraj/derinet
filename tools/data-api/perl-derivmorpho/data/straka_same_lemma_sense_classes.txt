@@ -6886,3 +6886,5 @@ pektorál-1 pektorál-2 pektorál-3
 věšadlo-1 věšadlo-2
 frajkumšt-1 frajkumšt-2
 EEK-1 EEK-2
+poddaný poddaný-2
+starý-1 starý-2

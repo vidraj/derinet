@@ -2074,7 +2074,6 @@
 271041	koupat	koupat_:T	V	271087	koupit_:W_^(něco_sobě/někomu)
 271051	koupávat	koupávat_:T_^(*4at)	V	271041	koupat_:T
 271218	kousnout	kousnout_:W	V	271173	kousat_:T
-271218	kousnout	kousnout_:W	V	758330	usnout_:W
 271581	kovat	kovat_:T	V	271270	kout_:T_^(např._železo)
 272691	krachnout	krachnout_:W	V	272678	krachat_:T
 272708	krachovat	krachovat_:T	V	272691	krachnout_:W
@@ -8276,7 +8275,7 @@
 529639	přečurat	přečurat_:W	V	85007	čurat_:T
 529670	předabovat	předabovat_:T	V	85363	dabovat_:T
 529732	předanit	předanit_:W	V	86583	danit_:T_^(proces_výpočtu_daní)
-529757	předat	předat-1_:T_,a_^(příst)	V	87438	dát_:T
+529757	předat	předat-1_:T_,a_^(příst)	V	87438	příst
 529758	předat	předat-2_:W_^(se;_dát_něčeho_příliš)	V	87438	dát_:T
 529778	předávat	předávat-1_:T_,a_^(příst)_(*6at-1)	V	529757	předat-1_:T_,a_^(příst)
 529788	předávkovat	předávkovat_:W	V	87716	dávkovat_:T
@@ -11993,7 +11992,7 @@
 654734	skutit	skutit_:W_,e	V	284313	kutit_:T
 654914	skytovat	skytovat_:W	V	286956	kytovat_:T
 655134	sladit	sladit	V	287554	ladit_:T
-655135	sladit	sladit-1_:T_^(cukrem)	V	287554	ladit_:T
+655135	sladit	sladit-1_:T_^(cukrem)	V	287554	sladký
 655136	sladit	sladit-2_:W_^(naladit;_uvést_v_soulad)	V	287554	ladit_:T
 655246	slaďovat	slaďovat_:T	V	655136	sladit-2_:W_^(naladit;_uvést_v_soulad)
 655550	slaňovat	slaňovat_:T	V	655522	slanit_:W
@@ -15160,7 +15159,7 @@
 818941	vyhraňovat	vyhraňovat_:T	V	818928	vyhranit_:W
 818957	vyhrát	vyhrát_:W	V	205278	hrát_:T
 818976	vyhrávat	vyhrávat_:T_^(*3t)	V	818957	vyhrát_:W
-818977	vyhrávat	vyhrávat-2_:T_^(hudba)	V	818957	vyhrát_:W
+818977	vyhrávat	vyhrávat-2_:T_^(hudba)	V	818957	hrávat_:T_^(*3t)
 819013	vyhrazovat	vyhrazovat_:T	V	818883	vyhradit_:W
 819056	vyhrbit	vyhrbit_:W	V	205461	hrbit_:T
 819069	vyhrbovat	vyhrbovat_:T	V	819056	vyhrbit_:W
@@ -17897,7 +17896,7 @@
 881697	zahvízdat	zahvízdat_:W	V	209878	hvízdat_:T
 881709	zahvízdnout	zahvízdnout_:W	V	209893	hvízdnout_:W
 881743	zahýbat	zahýbat-1_:T_^(odbočovat)	V	879653	zahnout_:W
-881744	zahýbat	zahýbat-2_:W_^(pohnout)	V	879653	zahnout_:W
+881744	zahýbat	zahýbat-2_:W_^(pohnout)	V	879653	hýbat_:T
 881760	zahýbnout	zahýbnout_:W_,s	V	210096	hýbnout_:W
 881779	zahybovat	zahybovat_:T_,a	V	879653	zahnout_:W
 881807	zahýkat	zahýkat_:W	V	210761	hýkat_:T

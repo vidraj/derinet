@@ -20212,9 +20212,9 @@
 *	podnítit --> podnětný (CHANGE: í -> ě)
 	podrobit --> podrobný
 	podřadit --> podřadný
-	pohonit --> pohonný
+*	pohonit --> pohonný
 	pojistit --> pojistný
-	poklidit --> poklidný
+*	poklidit --> poklidný
 	pomyslit --> pomyslný
 	poplatit --> poplatný
 	poplašit --> poplašný
@@ -20283,7 +20283,7 @@
 	topit --> topný
 *	trápit --> trapný (CHANGE: á -> a)
 	trudit --> trudný
-	točit --> tučný (CHANGE: o -> u)
+*	točit --> tučný (CHANGE: o -> u)
 	tvářit --> tvářný
 	třpytit --> třpytný
 	valit --> valný
