@@ -450,7 +450,7 @@
 	básnický	básnice	CHANGE: ce --> cký Z: básník
 	batňovický	Batňovice	CHANGE: ce --> cký
 	bavorovický	Bavorovice	CHANGE: ce --> cký
-	bažantnický	bažantnice	CHANGE: ce --> cký M: Bažantice
+	bažantnický	bažantnice	CHANGE: ce --> cký M: Bažantnice
 	bedřichovický	Bedřichovice	CHANGE: ce --> cký
 	běchovický	Běchovice	CHANGE: ce --> cký
 	bělčický	Bělčice	CHANGE: ce --> cký
