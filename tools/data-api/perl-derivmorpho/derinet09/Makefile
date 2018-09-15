@@ -8,7 +8,8 @@ LEMMAS::=lemmas_from_${LEMMAS_SOURCE}.tsv
 
 # ../data/morfflex-cz.2013-11-12.utf8.lemmaID_suff-tag-form.tab.csv.xz
 #MORFFLEX::=../data/morfflex-cz.2016-03-10.utf8.lemmaID_suff-tag-form.tab.csv.xz
-MORFFLEX::=../data/morfflex-cz.2016-11-15.utf8.lemmaID_suff-tag-form.tab.csv.xz
+#MORFFLEX::=../data/morfflex-cz.2016-11-15.utf8.lemmaID_suff-tag-form.tab.csv.xz
+MORFFLEX?=../data/morfflex-cz.2016-11-15.utf8.lemmaID_suff-tag-form.tab.csv.xz
 
 .PHONY: all slex diff stats clean
 
