@@ -1,6 +1,7 @@
 package Treex::Tool::DerivMorpho::Block::PrintStats;
 use utf8;
 use Moose;
+use Moose::Util::TypeConstraints;
 use List::Util qw(sum max);
 
 extends 'Treex::Tool::DerivMorpho::Block';
@@ -11,6 +12,12 @@ has singletons_file => (
     is => 'ro',
     isa => 'Str',
     documentation => q(filename for saving a list of all singleton clusters in the database)
+);
+
+has delete_composition_markers => (
+    is => 'ro',
+    isa => 'Str',
+    documentation => q(delete the trailing 'C' marker of composed lexeme from the POS before processing any lexemes. Ruins the database, don't save afterwards),
 );
 
 sub mean {
@@ -39,6 +46,13 @@ sub process_dictionary {
     my %derived_lexemes_cnt;
     my %lemmas;
     my %deriv_creators_cnt;
+
+    if ($self->delete_composition_markers and $self->delete_composition_markers + 0) {
+        foreach my $lexeme ($dict->get_lexemes) {
+            (my $pos = $lexeme->pos) =~ s/C*$//;
+            $lexeme->set_pos($pos);
+        }
+    }
 
     foreach my $lexeme ($dict->get_lexemes) {
         $pos_cnt{$lexeme->pos}++;
@@ -127,6 +141,11 @@ sub process_dictionary {
 
         close $SINGLE;
     }
+
+
+    # Create statistics about singletons: How many are there (including by POS) and how many start with a lowercase letter.
+    # TODO
+
 
     print "  Biggest cluster: " . $sorted_sizes[0] . "\n"
         . "  Number of singleton clusters: " . $sizes{'1'} . "\n"
