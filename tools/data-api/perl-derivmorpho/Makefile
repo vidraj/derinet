@@ -41,7 +41,8 @@ data/czech-morfflex-pdt-161115.zip:
 	wget -O "$@" 'https://lindat.mff.cuni.cz/repository/xmlui/bitstream/handle/11234/1-1836/czech-morfflex-pdt-161115.zip?sequence=1&isAllowed=y'
 
 
-
+deleted.txt: build
+	grep 'Deleting relation ' ./*/log.txt | sed -e 's/^.*	Deleting relation //; s/ made by .*$$//' |sort > "$@"
 
 clean:
 	$(MAKE) -C derinet09 clean
