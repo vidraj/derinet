@@ -134,8 +134,9 @@ def checkCompoundAnnotation(node):
                   'Lemma:', derinet_api.lexeme_info(new_node),
                   'Parent:', derinet_api.lexeme_info(par_node))
         else:
+            cp = node.lemma.replace(par_node.lemma, '')
             if (par_node.lemma in node.lemma
-               and len(node.lemma.replace(par_node.lemma, '')) > 3):
+               and len(cp) >= 3 and cp != 'elný'):
                 derinet.remove_edge_by_ids(child_id=node.lex_id,
                                            parent_id=par_node.lex_id)
                 print('Warning: Relation between lemma and parent was',
