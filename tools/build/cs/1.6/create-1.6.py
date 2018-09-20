@@ -166,40 +166,40 @@ def checkCompoundAnnotation(node):
         print('Done: Lemma marked as compound. OK. Lemma:',
               derinet_api.lexeme_info(node))
 
-
-def markUnmotivated(node_lem, node_pos, node_morph):
-    """Mark lemma as unmotivated. Add 'U' to its pos."""
-    try:
-        lem = (node_lem, node_pos, node_morph)
-
-        id = derinet.get_id(lemma=node_lem, pos=node_pos, morph=node_morph)
-        old_node = derinet._data[id]
-
-        if old_node.parent_id == '':
-            if 'U' not in old_node.pos:
-                new_pos = old_node.pos + 'U'
-                new_node = old_node._replace(pos=new_pos)
-                derinet._data[id] = new_node
-                print('Done: Lemma was marked as unmotivated. Lemma:',
-                      derinet_api.lexeme_info(new_node))
-            else:
-                print('Warning: Lemma is already marked as unmotivated.',
-                      'Lemma:', derinet_api.lexeme_info(old_node))
-        else:
-            parent = derinet._data[old_node.parent_id]
-            print('Error: Lemma cannot be marked as unmotivated because it',
-                  'has a parent. Lemma:', derinet_api.lexeme_info(old_node),
-                  'Parent:', derinet_api.lexeme_info(parent))
-
-    except derinet_api.LexemeNotFoundError:
-        print('Error: Lemma cannnot be marked as unmotivated because it',
-              'does not exist. Lemma:', lem)
-
-    except derinet_api.AmbiguousLexemeError:
-        print('Error: Lemma cannnot be marked as unmotivated because it is',
-              'ambiguous. Lemma:', lem,
-              derinet.search_lexemes(lemma=node_lem, pos=node_pos,
-                                     morph=node_morph))
+#
+# def markUnmotivated(node_lem, node_pos, node_morph):
+#     """Mark lemma as unmotivated. Add 'U' to its pos."""
+#     try:
+#         lem = (node_lem, node_pos, node_morph)
+#
+#         id = derinet.get_id(lemma=node_lem, pos=node_pos, morph=node_morph)
+#         old_node = derinet._data[id]
+#
+#         if old_node.parent_id == '':
+#             if 'U' not in old_node.pos:
+#                 new_pos = old_node.pos + 'U'
+#                 new_node = old_node._replace(pos=new_pos)
+#                 derinet._data[id] = new_node
+#                 print('Done: Lemma was marked as unmotivated. Lemma:',
+#                       derinet_api.lexeme_info(new_node))
+#             else:
+#                 print('Warning: Lemma is already marked as unmotivated.',
+#                       'Lemma:', derinet_api.lexeme_info(old_node))
+#         else:
+#             parent = derinet._data[old_node.parent_id]
+#             print('Error: Lemma cannot be marked as unmotivated because it',
+#                   'has a parent. Lemma:', derinet_api.lexeme_info(old_node),
+#                   'Parent:', derinet_api.lexeme_info(parent))
+#
+#     except derinet_api.LexemeNotFoundError:
+#         print('Error: Lemma cannnot be marked as unmotivated because it',
+#               'does not exist. Lemma:', lem)
+#
+#     except derinet_api.AmbiguousLexemeError:
+#         print('Error: Lemma cannnot be marked as unmotivated because it is',
+#               'ambiguous. Lemma:', lem,
+#               derinet.search_lexemes(lemma=node_lem, pos=node_pos,
+#                                      morph=node_morph))
 
 
 def createDerivation(ch_lem, par_lem, ch_pos, par_pos, ch_morph, par_morph):
@@ -288,7 +288,7 @@ def removeDerivation(ch_lem, par_lem, ch_pos, par_pos, ch_morph, par_morph):
 
 not_relation = defaultdict(list)
 compounds = defaultdict(list)
-unmotivated = defaultdict(list)
+# unmotivated = defaultdict(list)
 
 # ---------------- part (x) -------------------
 
@@ -509,11 +509,11 @@ for filename in [
                 elif '\\' in columns[0]:
                     not_relation[filename].append((child, parent))
 
-            # unmotivated
-            if columns[3] == '*' and parent is not None:
-                unmotivated[filename].append(parent)
-            elif columns[4] == '*' and child is not None:
-                unmotivated[filename].append(child)
+            # # unmotivated
+            # if columns[3] == '*' and parent is not None:
+            #     unmotivated[filename].append(parent)
+            # elif columns[4] == '*' and child is not None:
+            #     unmotivated[filename].append(child)
 
             # compound
             if columns[3] == '%' and parent is not None:
@@ -556,9 +556,6 @@ for filename in [prep + 'hand-annotated/relations.tsv',
     print('File:', filename)
 
     with open(filename, mode='r', encoding='utf-8') as f:
-
-        print('File:', filename)
-
         for line in f:
 
             if line.startswith('#'):
@@ -627,21 +624,21 @@ for node in all_compounds:
     checkCompoundAnnotation(node)
 
 
-# marking unmotivated lemmas
-print('\n', 5*'-', 'marking unmotivated lemmas', 5*'-')
-for filename, lemmas in unmotivated.items():
-    print('File:', filename)
-    for lemma in lemmas:
-        markUnmotivated(node_lem=lemma[0],
-                        node_pos=lemma[1],
-                        node_morph=lemma[2])
-
-# checking compound-unmotivated collisions
-print('\n', 5*'-', 'checking compound-unmotivated annotation', 5*'-')
-for node in derinet._data:
-    if 'U' in node.pos and 'C' in node.pos:
-        print('Error: Lemma is marked as coumpound and also as unmotivated.',
-              'Lemma:', derinet_api.lexeme_info(node))
+# # marking unmotivated lemmas
+# print('\n', 5*'-', 'marking unmotivated lemmas', 5*'-')
+# for filename, lemmas in unmotivated.items():
+#     print('File:', filename)
+#     for lemma in lemmas:
+#         markUnmotivated(node_lem=lemma[0],
+#                         node_pos=lemma[1],
+#                         node_morph=lemma[2])
+#
+# # checking compound-unmotivated collisions
+# print('\n', 5*'-', 'checking compound-unmotivated annotation', 5*'-')
+# for node in derinet._data:
+#     if 'U' in node.pos and 'C' in node.pos:
+#         print('Error: Lemma is marked as coumpound and also as unmotivated.',
+#               'Lemma:', derinet_api.lexeme_info(node))
 
 # saving DeriNet release 1.6
 derinet.save('derinet-1-6.tsv')
