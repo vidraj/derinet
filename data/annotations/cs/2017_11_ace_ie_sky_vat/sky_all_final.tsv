@@ -101,8 +101,8 @@
 19665	aškeranský	aškeranský	A	<<<Askeran>>>		
 19888	athabaský	athabaský	A	<<<?>>>		
 20370	auburnský	auburnský	A	20373	Auburn	Auburn-1_;G
-20683	augustinovský	augustinovský	A	20688	Augustin	Augustin_;S_;Y
-20686	augustinský	augustinský	A	20688	Augustin	Augustin_;S_;Y
+20683	augustinovský	augustinovský	A	20688	Augustin–N	Augustin_;S_;Y
+20686	augustinský	augustinský	A	20688	Augustin–N	Augustin_;S_;Y
 20952	austroasijský	austroasijský	AC			
 20973	austronéský	austronéský	A	<<<Austronésie>>>		
 22048	autsajderský	autsajderský_,h	A	<<<autsajder>>>		
@@ -158,7 +158,7 @@
 37339	beuronský	beuronský	A	<<<Beuron>>>		
 37700	bezenský	bezenský	A	38161	Bezno	Bezno_;G
 39729	bídarský	bídarský	A	<<<Bídar>>>		
-41787	biokovský	biokovský	A	41733	Bioko	Bioko_;G
+41787	biokovský	biokovský	A	<<<Biokovo>>>		
 42979	birmanský	birmanský	A	<<<Barma>>>		
 42990	birnamský	birnamský	A	<<<?>>>		
 43144	biskajský	biskajský	A	<<<Biskajsko>>>		
@@ -196,7 +196,7 @@
 55148	breslovský	breslovský	A	<<<Breslov>>>		
 55175	brestlitevský	brestlitevský	AC			
 55178	brestovanský	brestovanský	A	<<<Brestovany>>>		
-55183	brestský	brestský	A	55170	Brest	Brest
+55183	brestský	brestský	A	55170	Brest–N	Brest
 55218	bretoňský	bretoňský	A	<<<Bretaň>>>		
 55241	brettonwoodský	brettonwoodský	AC			
 55819	britskoitalský	britskoitalský	AC			
@@ -358,7 +358,7 @@
 106865	dodekaneský	dodekaneský	A	106869	Dodekanesos	Dodekanesos_;G
 106866	dodekanéský	dodekanéský	A	106869	Dodekanesos	Dodekanesos_;G
 107450	dodrechtský	dodrechtský	A	<<<Dodrecht>>>		
-116039	domácenský	domácenský	A	116042	domácí	domácí-2
+116039	domácenský	domácenský	A	116042	domácí–N	domácí-2
 116575	domečkářský	domečkářský	A	116567	domeček	domeček
 117032	domingovský	domingovský	A	117028	Domingo	Domingo_;G
 118320	dongsonský	dongsonský	AC			
@@ -382,8 +382,8 @@
 139983	drůběžářský	drůběžářský	A	139994	drůbež	drůbež
 140189	druženářský	druženářský	A	<<<druženář>>>		
 140446	držovský	držovský	A	140441	Držovice	Držovice_;G
-141799	duchampovský	duchampovský	A	141804	Duchamp	Duchamp-1_;S
-141922	duchovenský	duchovenský	A	141934	duchovní	duchovní-2
+141799	duchampovský	duchampovský	A	141804	Duchamp–N	Duchamp-1_;S
+141922	duchovenský	duchovenský	A	141934	duchovní–N	duchovní-2
 142037	dukljanský	dukljanský	A	142035	Duklja	Duklja_;G
 142130	důlněměřičský	důlněměřičský	AC			
 142282	dunajský	dunajský	A	142271	Dunaj	Dunaj_;G
@@ -436,7 +436,7 @@
 166256	fierlingerovský	fierlingerovský	A	166258	Fierlinger	Fierlinger_;S
 166764	filhelénský	filhelénský	A	<<<filhelén>>>		
 166856	filipojakubský	filipojakubský	AC			
-167136	filosofský	filosofský	A	167115	filosofos	filosofos
+167136	filosofský	filosofský	A	<<<filosof>>>		
 167573	finskošvédský	finskošvédský	AC			
 167978	fitzgeraldovský	fitzgeraldovský	A	167981	Fitzgerald	Fitzgerald_;Y
 168641	flaviovský	flaviovský	A	168644	Flavius	Flavius_;S
@@ -530,7 +530,7 @@
 193847	haverhillský	haverhillský	A	<<<Haverhill>>>		
 196534	henkinovský	henkinovský	A	<<<Henkinov>>>		
 196587	henochiánský	henochiánský	A	196589	Henoch	Henoch_;S
-196761	herakleitovský	herakleitovský	A	196758	Hérakleitos	Hérakleitos_;S
+196761	herakleitovský	herakleitovský	A	<<<Herakleitos>>>		
 196762	hérakleitovský	hérakleitovský	A	196758	Hérakleitos	Hérakleitos_;S
 196960	hercynský	hercynský	A	192868	Harz	Harz_;G
 197106	herkuleský	herkuleský	A	197108	Herkules	Herkules-1_;S
@@ -667,7 +667,7 @@
 239089	jomkippurský	jomkippurský	AC			
 239090	jómkippúrský	jómkippúrský	AC			
 239171	jonkopinský	jonkopinský	A	239169	Jönköping	Jönköping_;G
-239307	jorkširský	jorkširský	A	875280	Yorkshire	Yorkshire-1_;G
+239307	jorkširský	jorkširský	A	875280	Yorkshire–N	Yorkshire-1_;G
 239598	joviánský	joviánský	A	<<<Jovián>>>		
 240328	julský	julský	A	240313	Julius	Julius_;S_;Y
 240400	jungiánský	jungiánský	A	240432	Jung	Jung_;S
@@ -746,7 +746,7 @@
 259474	kněhyňský	kněhyňský	A	259472	Kněhyně	Kněhyně_;G
 259845	kníničský	kníničský	A	259843	Kníničky	Kníničky_;G
 260065	knósský	knósský	A	260068	Knóssos	Knóssos_;G
-260510	koburský	koburský	A	71374	Coburg	Coburg-1_;G
+260510	koburský	koburský	A	71374	Coburg–N	Coburg-1_;G
 262190	köktürský	köktürský	A	<<<Köktürk>>>		
 262530	kolbušovský	kolbušovský	A	<<<Kolbušova>>>		
 263231	kolínský	kolínský	A	263237	Kolín	Kolín-2_;G
@@ -843,7 +843,7 @@
 294673	lažišťský	lažišťský	A	294671	Lažiště	Lažiště_;G
 294700	leadrovský	leadrovský	A	294695	leader	leader
 294895	lecanský	lecanský	A	<<<?>>>		
-296749	leninský	leninský	A	296754	Lenin	Lenin-2_;S
+296749	leninský	leninský	A	296754	Lenin–N	Lenin-2_;S
 296974	leonbergský	leonbergský	A	<<<Leonberg>>>		
 297006	leoninský	leoninský	A	297010	Leonin	Leonin_;Y_^(*2a)
 297043	leontýnský	leontýnský	A	297029	Leontina	Leontina_;Y
@@ -953,7 +953,7 @@
 314709	mansijský	mansijský_;G_^(Chantsko-mansijský_autonomní_okruh)	A	314707	Mansijsk	Mansijsk_;G
 314768	manteňský	manteňský	A	<<<?>>>		
 314951	maorijský	maorijský	A	314949	Maori	Maori_;E
-314954	maorský	maorský	A	314949	Maori	Maori_;E
+314954	maorský	maorský	A	<<<Maor>>>		
 315027	maracaibský	maracaibský	A	315025	Maracaibo	Maracaibo_;G
 315041	maradakertský	maradakertský	A	<<<Maradakert>>>		
 315089	maranellský	maranellský	A	315087	Maranello	Maranello_;K
@@ -1015,7 +1015,7 @@
 325813	mezeňský	mezeňský	A	326676	Mezno	Mezno_;G
 326839	miamský	miamský	A	326837	Miami	Miami_;G
 326885	mickiewiczovský	mickiewiczovský	A	326887	Mickiewicz	Mickiewicz_;S
-326922	microsoftský	microsoftský	A	326920	Microsoft	Microsoft_;K_;b_;c
+326922	microsoftský	microsoftský	A	326920	Microsoft–N	Microsoft_;K_;b_;c
 327109	midwichský	midwichský	A	<<<Midwich>>>		
 327605	michelangelovský	michelangelovský	A	327603	Michelangelo	Michelangelo_;S
 328288	mikronéský	mikronéský	A	328286	Mikronésie	Mikronésie_;G
@@ -1046,7 +1046,7 @@
 333169	mládský	mládský	A	<<<?>>>		
 333398	mlékojedský	mlékojedský	A	333400	Mlékojedy	Mlékojedy_;G
 334576	mobilářský	mobilářský	A	334623	mobil	mobil
-334677	mocenský	mocenský	A	334757	moc	moc-1_^(nad_někým;_politická,_vojenská;_plná,...)
+334677	mocenský	mocenský	A	334757	moc–N	moc-1_^(nad_někým;_politická,_vojenská;_plná,...)
 335103	modiglianovský	modiglianovský	A	335101	Modigliani	Modigliani_;S
 335221	modranský	modranský	A	335208	Modra	Modra_;G
 335733	mogollonský	mogollonský	A	<<<Mogollon>>>		
@@ -1060,7 +1060,7 @@
 337419	montpelerinský	montpelerinský	AC			
 337423	montpellierský	montpellierský	A	337427	Montpellier	Montpellier-2_;G
 337456	montypythonský	montypythonský	AC			
-337706	moravanský	moravanský	A	337712	Moravan	Moravan-2_;E
+337706	moravanský	moravanský	A	<<<Moravany>>>		
 337927	morejský	morejský	A	337915	Morea	Morea_;G
 338053	morgensternovský	morgensternovský	A	338055	Morgenstern	Morgenstern_;S
 338451	mosanský	mosanský	A	<<<?>>>		
@@ -1124,7 +1124,7 @@
 378744	nemšovský	nemšovský	A	378742	Nemšová	Nemšová_;S
 378761	nemyšelský	nemyšelský	A	378763	Nemyšl	Nemyšl_;G
 379772	něrčinský	něrčinský	A	379770	Něrčinsk	Něrčinsk_;G
-379801	nerezovský	nerezovský	A	379804	nerez	nerez-1
+379801	nerezovský	nerezovský	A	<<<Nerez>>>		
 380572	netwarovský	netwarovský	A	380568	netware	netware_;K
 381056	neusiedelský	neusiedelský	A	<<<Neusiedl>>>		
 381193	névárský	névárský	A	<<<?>>>		
@@ -1177,7 +1177,7 @@
 419671	ochtinský	ochtinský	A	<<<Ochtiná>>>		
 419789	oidipovský	oidipovský	A	419791	Oidipus	Oidipus_;S
 420046	ojratský	ojratský	A	<<<Ojrat>>>		
-420052	ojrotský	ojrotský	A	420049	Ojrot	Ojrot_;E
+420052	ojrotský	ojrotský	A	420049	Ojrot–N	Ojrot_;E
 420366	okcitánský	okcitánský	A	<<<Okcitánie>>>		
 421572	okrouhelský	okrouhelský	A	421596	Okrouhlo	Okrouhlo_;G
 421822	okříšský	okříšský	A	421820	Okříšky	Okříšky_;G
@@ -1308,7 +1308,7 @@
 464555	plesenský	plesenský	A	464643	Plesná	Plesná_;G
 466605	pneumatikárenský	pneumatikárenský	A	466607	pneumatikárna	pneumatikárna
 467540	pobožňůstkářský	pobožňůstkářský	A	<<<preklep>>>		
-469320	poddanský	poddanský	A	469323	poddaný	poddaný-1_^(v_královstvích)
+469320	poddanský	poddanský	A	469323	poddaný–N	poddaný-1_^(v_královstvích)
 471273	podleský	podleský	A	471270	podlesí	
 475662	pogramátorský	pogramátorský	A	<<<preklep>>>		
 476590	pohostinský	pohostinský	A	476588	pohostinný	pohostinný
@@ -1364,7 +1364,7 @@
 507789	princezničkovský	princezničkovský	A	507787	princeznička	princeznička_,l
 508075	prkénkářský	prkénkářský	A	508077	prkénko	prkénko_,e
 513205	prochotský	prochotský	A	<<<Prochot>>>		
-525538	proteovský	proteovský	A	525694	Próteus	Próteus_;S_;Y
+525538	proteovský	proteovský	A	<<<Proteus>>>		
 526447	protikarenský	protikarenský	A	<<<?>>>		
 527693	protivínský	protivínský	A	527688	Protivín	Protivín_;G
 528793	proutkářský	proutkářský	A	528735	proutek	proutek
@@ -1380,7 +1380,7 @@
 551547	přepracovatelský	přepracovatelský	A	<<<přepracovatel>>>		
 552051	přepyšský	přepyšský	A	<<<Přepychy>>>		
 554373	přesoceánský	přesoceánský	AC			
-562720	příbuzenský	příbuzenský	A	562728	příbuzný	příbuzný-1_^(člen_rodiny)
+562720	příbuzenský	příbuzenský	A	562728	příbuzný–N	příbuzný-1_^(člen_rodiny)
 566529	přikarpatský	přikarpatský	AC			
 567903	přikryvačský	přikryvačský	A	<<<přikryvač>>>		
 567904	přikrývačský	přikrývačský	A	<<<přikrývač>>>		
@@ -1495,7 +1495,7 @@
 635066	sásánovský	sásánovský	A	<<<Sásán>>>		
 635094	saskoanhaltský	saskoanhaltský	AC			
 635097	saskočeský	saskočeský	AC			
-635106	saský	saský	A	635071	Sas	Sas_;E
+635106	saský	saský	A	<<<Sasko>>>		
 635434	saudskoarabský	saudskoarabský	AC			
 635435	saúdskoarabský	saúdskoarabský	AC			
 635568	savarijský	savarijský	A	<<<Savarie>>>		
@@ -1784,7 +1784,7 @@
 730777	torinský	torinský	A	730775	Torino	Torino_;G
 730854	torontský	torontský	A	730852	Toronto	Toronto_;G
 730926	torremolinoský	torremolinoský	A	<<<Torremolinos>>>		
-731262	toulouský	toulouský	A	731259	Toulouse	Toulouse_;G
+731262	toulouský	toulouský	A	731259	Toulouse–N	Toulouse_;G
 731309	tourský	tourský	A	731307	Tours	Tours_;G
 731777	traismauerský	traismauerský	A	<<<Traismauer>>>		
 731782	trajánský	trajánský	A	731784	Trajan	Trajan_;S
@@ -1797,7 +1797,7 @@
 733721	trenčianský	trenčianský	A	733724	Trenčín	Trenčín_;G
 734894	trivenetský	trivenetský	A	<<<Triveneto>>>		
 735322	trojánský	trojánský	A	735299	Trójan	Trójan_;E
-736031	trojský	trojský	A	735256	Troia	Troia_;G
+736031	trojský	trojský	A	<<<Troja>>>		
 736523	tröstrovský	tröstrovský	A	<<<?>>>		
 737692	trypilský	trypilský	A	<<<Trypillja>>>		
 738024	třebetínský	třebetínský	A	<<<preklep>>>		
@@ -1863,7 +1863,7 @@
 776480	vachkovský	vachkovský	A	776471	Vachek	Vachek_;S
 778570	vaňkovský	vaňkovský	A	778430	Vaněk	Vaněk_;S
 778915	vardeniský	vardeniský	A	<<<Vardenis>>>		
-778949	varenský	varenský	A	779270	varna	varna
+778949	varenský	varenský	A	<<<Varna>>>		
 778955	vareský	vareský	A	<<<?>>>		
 779229	varjažský	varjažský	A	779224	Varjag	Varjag_;E
 779255	varmiňský	varmiňský	A	<<<?>>>		
@@ -1937,7 +1937,7 @@
 806053	votkinský	votkinský	A	<<<Votkinsk>>>		
 806154	votský	votský	A	806159	Votus	Votus_;K
 806315	voyerský	voyerský	A	806321	voyeur	voyeur
-808476	vrátenský	vrátenský_,s	A	808612	vrátný	vrátný-1_^(osoba)
+808476	vrátenský	vrátenský_,s	A	808612	vrátný–N	vrátný-1_^(osoba)
 808517	vratislavský	vratislavský	A	808521	Vratislav	Vratislav-2_;G_^(město)
 809116	vrchnopanský	vrchnopanský_,s	AC			
 809122	vrchnoradovský	vrchnoradovský_,s	AC			
@@ -1983,8 +1983,8 @@
 874891	xenofontovský	xenofontovský_,s	A	<<<Xenofont>>>		
 874894	xenofontský	xenofontský_,s	A	<<<Xenofont>>>		
 874970	xhoský	xhoský	A	874967	Xhosa	Xhosa_;E
-875283	yorkshirský	yorkshirský	A	875280	Yorkshire	Yorkshire-1_;G
-875299	yorskhirský	yorskhirský	A	875280	Yorkshire	Yorkshire-1_;G
+875283	yorkshirský	yorkshirský	A	875280	Yorkshire–N	Yorkshire-1_;G
+875299	yorskhirský	yorskhirský	A	875280	Yorkshire–N	Yorkshire-1_;G
 875302	yorský	yorský	A	875297	York	York-2_;G
 875572	zaanský	zaanský	A	<<<Zaan>>>		
 877938	zabranovský	zabranovský	A	<<<preklep>>>		

@@ -305,7 +305,7 @@
 \	přiměřený–A	příměr–N	přiměřit	přiměřit				
 \	rod–N	rozrod–N	rodit	rozrodit				
 \	ocet–N	octovatět–V	*	octový				
-\	denní–A	třídenní–A	den–N–den_^(jednotka_času)	%				
+\	denní–A	třídenní–A		%				
 \	Janek–None	jankovitý–A	Jan	janek				
 \	zdrhnout–V	drhat–V						
 \	hořet–V	oharek–N						
@@ -522,7 +522,7 @@
 	Alžběta–N	alžbětinka–N						
 \	Američan–N	Iroameričan–N	Amerika	%				
 	archaický–A	archaikum–N						
-	Atlas–N	Atlantův–A						
+\	Atlas–N	Atlantův–A						
 	atraktivní–A	zatraktivnit–V						
 	austromarxizmus–NC	austromarxista–N	%					
 	Babiš–N	babišovec–N						

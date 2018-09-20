@@ -3036,7 +3036,7 @@
 	atreidský	Atreid	CHANGE: 0 --> ský
 	aucklandský	Auckland	CHANGE: 0 --> ský
 	augsburgský	Augsburg	CHANGE: 0 --> ský
-	augustinský	Augustin–A	CHANGE: 0 --> ský L:Augustin–N
+	augustinský	Augustin–A	CHANGE: 0 --> ský L: Augustin–N
 	augustýnský	Augustýn	CHANGE: 0 --> ský
 	autíčkářský	autíčkář	CHANGE: 0 --> ský
 	autokarosářský	autokarosář	CHANGE: 0 --> ský
@@ -4158,7 +4158,7 @@
 	lengyelský	Lengyel	CHANGE: 0 --> ský
 	leninabadský	Leninabad	CHANGE: 0 --> ský
 	leningradský	Leningrad	CHANGE: 0 --> ský
-	leninský	Lenin	CHANGE: 0 --> ský
+	leninský	Lenin	CHANGE: 0 --> ský L: Lenin–N
 	leonský	Leon	CHANGE: 0 --> ský
 	leónský	León	CHANGE: 0 --> ský
 	leopoldovský	Leopoldov	CHANGE: 0 --> ský

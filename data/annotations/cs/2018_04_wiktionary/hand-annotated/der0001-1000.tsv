@@ -841,7 +841,7 @@
 	rohlík–N	rohlíček–N						
 	loupežník–N	loupežníček–N	loupež					
 	perník–N	perníček–N	*					
-	vrták–N–vrták-2_^(nemotora)	vrtáček–N–vrtáček-2_,e_^(nemotora)	zvrtat					
+	vrták–N–vrták-2_^(nemotora)	vrtáček–N–vrtáček-2_,e_^(nemotora)						
 	lajdák–N	lajdáček–N						
 	hnědák–N	hnědáček–N	hnědý					
 	hák–N	háček–N–háček_^(^DI*3k)	*					
@@ -953,7 +953,7 @@
 	bergsonizmus–N	bergsonista–N	Bergson					
 	akméizmus–N	akméista–N						
 	maoizmus–N	maoista–N	Mao					
-	marxizmus–N	marxista–N	Marx					
+\	marxizmus–N	marxista–N	Marx	marxismus–N				
 	bonapartizmus–N	bonapartista–N	Bonaparte					
 								
 	Rudolf–N	Rudolfov–N	*					

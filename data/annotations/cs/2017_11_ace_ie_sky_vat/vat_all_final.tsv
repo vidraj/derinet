@@ -526,7 +526,7 @@
 129171	došlapovat	došlapovat_:T	V	129154	došlápnout
 131361	dotovat	dotovat_:T_:W	V		
 131565	dotřiďovat	dotřiďovat_:T	V	131547	dotřídit
-132332	doumazávat	doumazávat_:T_^(*4at)	V	755980	umazávat–V–umazávat-2_:T_^(mazáním_odstranit)_(*6at-2)
+132332	doumazávat	doumazávat_:T_^(*4at)	V	<<<doumazat>>>		
 133766	dovolenkovat	dovolenkovat_:T	V	133736	dovolenka
 134861	dovytvrzovat	dovytvrzovat_:T	V	861761	vytvrzovat
 134901	dovyvažovat	dovyvažovat_:T	V	862768	vyvažovat
@@ -2395,7 +2395,7 @@
 548900	přemuzikálovat	přemuzikálovat_:W	V	343238	muzikál
 548974	přemyšlovat	přemyšlovat_:T_,s	V	548942	přemýšlet
 549545	přeoknovat	přeoknovat_:T	V	420759	okno
-549695	přeorchestrovat	přeorchestrovat_:W	V	429909	orchestr
+549695	přeorchestrovat	přeorchestrovat_:W	V	<<<orchestrovat>>>	
 549954	přepanelákovat	přepanelákovat_:W	V	444885	panelák
 549994	přepapouškovat	přepapouškovat_:W	V	445880	papouškovat
 550134	přeparlamentarizovat	přeparlamentarizovat_:W	V	447491	parlamentární
@@ -4036,7 +4036,7 @@
 978461	zoomovat	zoomovat_:T	V		
 978600	zoperetizovat	zoperetizovat_:W_,s	V	426258	opereta
 978805	zorbovat	zorbovat_:T	V		
-978857	zorchestrovat	zorchestrovat_:W	V	429909	orchestr
+978857	zorchestrovat	zorchestrovat_:W	V	<<<orchestrovat>>>	
 979543	zoubkovat	zoubkovat_:T	V	979524	zoubek
 979766	zozonovat	zozonovat_:W	V	440747	ozón
 980157	zpanšťovat	zpanšťovat_:T	V	980147	zpanštět
