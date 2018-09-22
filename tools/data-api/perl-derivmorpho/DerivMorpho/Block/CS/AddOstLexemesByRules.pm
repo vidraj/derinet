@@ -8,6 +8,12 @@ use Treex::Core::Log;
 use Treex::Tool::Lexicon::CS;
 use Treex::Tool::Lexicon::Generation::CS;
 
+has add_lexemes => (
+    is => 'ro',
+    isa => 'Bool',
+    documentation => q(create required lexemes if not already present in the database)
+);
+
 sub acceptable_adj { # adjectives that are not recognized by JH's morphology but are more or less acceptable
     my $adj = shift;
     return $adj =~ /^(bezdějinný|bezprincipiální|dosebezahleděný|držebný|dvojpolární|dvojtvářný|glasný|házivý|jaký|kazivý|kovnatý|mačkavý|metaznalý|mikrotvrdý|mrtvorozený|nasáklivý|neprůzvučný|neslučivý|obložný|osobivý|podposloupný|podujatý|podzaměstnaný|prazkušený|propojištěný|pseudoskutečný|pseudoudálý|pufrovitý|pórézní|předvádivý|přináležitý|příležitý|působný|různočnělečný|sebedůležitý|sebelítý|sebezahleděný|slučivý|soběpodobný|soudružný|soumezný|spolupůsobný|střečkovitý|subkontrární|supermocný|supermožný|svalovčitý|ujímavý|videospolečný|vzcházivý|váživý|špinivý|žánrovitý)$/
@@ -156,13 +162,18 @@ sub process_dictionary {
                             
                             my $long_lemma = $long_lemmas[0] || $source_lemma;
 
-                            $new_source_lexeme = $dict->create_lexeme({
-                                lemma  => $source_lemma,
-                                mlemma => $long_lemma,
-                                pos => 'A',
-                                lexeme_creator => $self->signature,
-                            });
-                            log_info("NEW LEXEME CREATED: $source_lemma");
+                            if ($self->add_lexemes) {
+                                $new_source_lexeme = $dict->create_lexeme({
+                                    lemma  => $source_lemma,
+                                    mlemma => $long_lemma,
+                                    pos => 'A',
+                                    lexeme_creator => $self->signature,
+                                });
+                                log_info("NEW LEXEME CREATED: $source_lemma");
+                            }
+                            else {
+                                log_warn("NEW LEXEME SHOULD BE CREATED: $source_lemma");
+                            }
                         }
 
                         if ($new_source_lexeme) {
