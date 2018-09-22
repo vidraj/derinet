@@ -117,7 +117,11 @@ sub save {
                 log_warn('Non-matching lemma ' . $lexeme->lemma . ' and techlemma ' . $lexeme->mlemma);
             }
 
-            print $F join("\t",($lexeme->{_id}, $lexeme->lemma, $lexeme->mlemma || '', $lexeme->pos || '',
+            print $F join("\t",($lexeme->{_id},
+                                $lexeme->lemma,
+                                $lexeme->mlemma || '',
+#                                 $lexeme->tag || ($lexeme->pos . '??????????????') || '',
+                                $lexeme->pos || '',
                                 $source_lexeme_number,
                                 ($lexeme->deriv_type || '' ),
                                 ($lexeme->lexeme_creator || '' ),
