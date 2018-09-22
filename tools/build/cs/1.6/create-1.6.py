@@ -536,7 +536,7 @@ for filename in [
                                      par_pos=p_parent[1],
                                      par_morph=p_parent[2])
 
-            elif columns[4] not in ('', '*', '%'):
+            if columns[4] not in ('', '*', '%'):
                 p_parent_lem, p_parent_p = divideWord(columns[4])
                 p_parent = searchLexeme(lem=p_parent_lem, p=p_parent_p)
 
