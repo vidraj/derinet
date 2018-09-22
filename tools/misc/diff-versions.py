@@ -200,6 +200,15 @@ if __name__ == '__main__':
                 print("New homonymous lexeme {}".format(format_lexeme(lexeme)))
 
 
+    # Iterate over the entries from the new database that were added over the old one.
+    for lemma, new_lexemes in new_db.items():
+        if lemma in old_db:
+            # We've already seen this key, skip it.
+            continue
+        else:
+            for lexeme in new_lexemes:
+                print("New lexeme {}".format(format_lexeme(lexeme)))
+
 
 
     # Create lookup tables for transfer between databases in both directions.
