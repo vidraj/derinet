@@ -197,7 +197,7 @@ if __name__ == '__main__':
         for lexeme in new_lexemes:
             if lexeme not in processed:
                 # TODO report if the new lexeme has a parent or children.
-                print("New lexeme {}".format(format_lexeme(lexeme)))
+                print("New homonymous lexeme {}".format(format_lexeme(lexeme)))
 
 
 
