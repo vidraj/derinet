@@ -308,19 +308,17 @@ with open(filename, mode='r', encoding='utf-8') as f:
         parent_lemma, parent_pos = divideWord(line[0])
         child_lemma, child_pos = divideWord(line[1])
 
-        parents = derinet.search_lexemes(parent_lemma, pos=parent_pos, morph=None)
-        children = derinet.search_lexemes(child_lemma, pos=child_pos, morph=None)
+        parent = searchLexeme(parent_lemma, parent_pos)
+        child = searchLexeme(child_lemma, child_pos)
 
         # relations to remove
-        #if child is not None and parent is not None:
-        for child in children:
-            for parent in parents:
-                removeDerivation(ch_lem=child[0],
-                                 ch_pos=child[1],
-                                 ch_morph=child[2],
-                                 par_lem=parent[0],
-                                 par_pos=parent[1],
-                                 par_morph=parent[2])
+        if child is not None and parent is not None:
+            removeDerivation(ch_lem=child[0],
+                             ch_pos=child[1],
+                             ch_morph=child[2],
+                             par_lem=parent[0],
+                             par_pos=parent[1],
+                             par_morph=parent[2])
 
 # ---------------- parts (a) (b) (c) (d) -------------------
 
