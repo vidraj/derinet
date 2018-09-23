@@ -25,7 +25,7 @@
 \	Titan–N	Titán–N		*				
 \	pan–N	pán–N		*				
 \	normála–N	norma–N						
-\	garance–N	garant–N	garantovat	garantovat				
+\	garance–N	garant–N	garantovat					
 \	prezence–N	prezent–N						
 \	softball–N	softbal–N						
 \	naturalismus–N	naturel–N						
@@ -63,7 +63,7 @@
 \	masarykovec–N	masarykovský–A	Masaryk	Masaryk				
 \	darwinovec–N	darwinovský–A	Darwin	Darwin				
 \	chrom–N	chromý–A	*	*				
-\	uhelna–N	uhelný–A	uhlí	uhlí				
+\	uhelna–N	uhelný–A	uhel	uhel				
 \	normál–N	norma–N	normální	*				
 \	morna–N	mor–N	mřít	mřít				
 \	kruháč–N	kruh–N	kruhový	*				
@@ -112,8 +112,8 @@
 \	advent–N	adventista–N						
 \	ego–N	egoista–N		egoismus				
 \	rádius–N	rádiový–A	*	rádio				
-\	blažit–V	blahý–A	blaho	blaho				
-\	množit–V	mnohý–A	mnoho	mnoho				
+\	blažit–V	blahý–A	blaho					
+\	množit–V	mnohý–A	mnoho					
 \	dramatizovat–V	dramatik–N	dramatický	drama				
 \	mediace–N	mediální–A		medium				
 \	Kratochvíle–N–Kratochvíle-1_;S	Kratochvílová–N	*	Kratochvíl				
@@ -909,7 +909,7 @@
 								
 								
 								
-	bráhman–N	bráhmanismus–N	*					
+\	bráhman–N	bráhmanismus–N	Bráhma	Bráhma				
 	analfabet–N	analfabetismus–N	%					
 								
 								
