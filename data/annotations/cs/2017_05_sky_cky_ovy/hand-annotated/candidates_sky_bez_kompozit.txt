@@ -3231,7 +3231,7 @@
 	břeclavský	Břeclav	CHANGE: 0 --> ský
 	bremerhavenský	Bremerhaven	CHANGE: 0 --> ský
 	brennerský	Brenner	CHANGE: 0 --> ský
-	brestský	Brest	CHANGE: 0 --> ský L: Brest–N
+	brestský	Brest–A	CHANGE: 0 --> ský L: Brest–N
 	břestský	Břest	CHANGE: 0 --> ský
 	bretaňský	Bretaň	CHANGE: 0 --> ský
 	bretonský	Breton	CHANGE: 0 --> ský
@@ -4158,7 +4158,7 @@
 	lengyelský	Lengyel	CHANGE: 0 --> ský
 	leninabadský	Leninabad	CHANGE: 0 --> ský
 	leningradský	Leningrad	CHANGE: 0 --> ský
-	leninský	Lenin	CHANGE: 0 --> ský L: Lenin–N
+	leninský	Lenin–A	CHANGE: 0 --> ský L: Lenin–N
 	leonský	Leon	CHANGE: 0 --> ský
 	leónský	León	CHANGE: 0 --> ský
 	leopoldovský	Leopoldov	CHANGE: 0 --> ský
