@@ -36,6 +36,41 @@ Nástřel řešení souborového formátu pro DeriNet 2.0
     (ideál: co nejvíc derivačních hran bude realizováno sousedními řádky, depth-first tím pádem určitě lepší než breadth-first)
    - každopádně to musí být deterministické, ať nemáme problém s roundtripem
 
+
+
+Přesnější popis souborového formátu, domluvený na schůzce 22. 11. 2018 a doplněný Jonášem:
+V současné verzi API je formát vypisovaný následovně:
+	print(pretty_id, lemma, techlemma, pos, tag_mask, parent_id,  [(self._ids[p1], self._ids[p2]) for p1, p2 in composition_parents], misc, sep="\t", file=ofile)
+Ale identifikátory by měly být neměnné, nečíselné, univerzální. Takže něco s tagovou maskou. (Permalemma)
+Techlemma je specifické pro MorfFlex.CZ, takže bychom ho měli přesunout do WILD sekce.
+POS je skrytý v tagové masce, ale stejně ho nemůžeme vyhodit, protože tagová maska (morphological features) je typická pro češtinu, ostatní jazyky tam budou mít spíš jenom POS tag. Takže kvůli univerzalitě zachovat.
+Zároveň se chceme inspirovat UD, kde to jen jde, takže bychom vzali formát: Univerzální POS tag, jazykově specifický POS tag (pro češtinu tagová maska), morfologické featury (seznam key=value – v UD jsou oddělované svislítkem, my to uděláme po svém).
+Chceme označovat informaci o hranách. V UD to dělají pomocí seznamu dvojic (hrana, popis).
+	V UD to vypisují jako 14:advmod|16:advmod|18:advmod – tedy seznam dvojic oddělených svislítky, každá dvojice má prvky oddělené dvojtečkou.
+My ale budeme seznamy zapisovat jinak – primárním oddělovačem nebude dvojtečka nebo svislítko, ale striktně ampersand, svislítko bude striktně druhotný oddělovač.
+	Takže seznam možností bude vypadat jako a=x&b=y|a=z&b=w|a=fň&b=bž
+Chtěli bychom zachovat „primárně stromovou strukturu“, takže bychom měli mít sloupec pro hlavního předka, hlavní label této hrany, a pak seznam dalších vlastností – kompoziční hrany, alternativní derivační hrany, …
+	Je to kvůli zachování užitečných vlastností vyplývajících ze stromovitosti. Např. že se strukturou dá procházet do hloubky/šířky a každý uzel navštívím právě jednou.
+Chceme explicitně zachycovat morfematickou strukturu. Zase asi jako seznam uspořádaných n-tic, které by měly obsahovat:
+	- morf (tj. přímý substring slova, tak, že konkatenace všech morfů složí celé lemma),
+	- typ (jeden z {předpona, kořen, přípona, koncovka}; nebo tak něco – TODO vyzkoumat jazykově univerzální reprezentaci),
+	- morfém (kanonickou podobu morfu),
+	- sémantickou informaci nesenou morfémem (?),
+	- co ještě?
+	- Chceme nějak vyznačovat stromové složení morfémů?
+	Problémy: jak vyznačovat cirkumfixy, co nekonkatenativní morfologie? Zatím nebudeme řešit.
+Chceme mít v souborech komentáře, značí se # na prvním znaku nové řádky. Formát souboru bych jinak specifikoval jako text v UTF-8, bez BOM, Unixové newlines.
+
+Na schůzce 27. 11. jsme dohodli následující formát:
+ID	LEMID	LEMMA	POS	FEATS	SEGMENTATION	PARENTID	RELTYPE	OTHERRELS	JSON
+81.2	vybrat#V??????	vybrat	Verb	aspect=def&… (InterSet)	morph=vy&type=prefix&…|morph=br&type=root&…|…	81.1	form=prefixation&function=perfectivization	id=…&type=…|id=…&…|…	{"syn6freq": 12345, "techlemma": vybrat-1, "tagmask": V??????", …}
+
+Slova v každém bloku budou uložená jako průchod stromem do hloubky, aby se minimalizovalo množství sousedních řádků, jejichž uzly nejsou spojené hranou. Sourozenci jsou tříděni lexikograficky podle lemidů nebo tak něco. Jednotlivé stromy jsou taky tříděny, aby to celé bylo deterministické.
+
+Syntakticky je možné zapsat odkaz do stromu bez připojení ke konkrétnímu uzlu – místo odkazu 81.1 se napíše jenom 81 a tím je jasné, který strom.
+
+
+
 --------------------------------------------------------
 
 Požadavky na nové pythoní API
