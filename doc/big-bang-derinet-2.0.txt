@@ -49,6 +49,7 @@ Chceme označovat informaci o hranách. V UD to dělají pomocí seznamu dvojic 
 	V UD to vypisují jako 14:advmod|16:advmod|18:advmod – tedy seznam dvojic oddělených svislítky, každá dvojice má prvky oddělené dvojtečkou.
 My ale budeme seznamy zapisovat jinak – primárním oddělovačem nebude dvojtečka nebo svislítko, ale striktně ampersand, svislítko bude striktně druhotný oddělovač.
 	Takže seznam možností bude vypadat jako a=x&b=y|a=z&b=w|a=fň&b=bž
+	Ze specifikace UD: „It is possible to declare that a feature has two or more values for a given word: Case=Acc,Dat.“ To taky chceme.
 Chtěli bychom zachovat „primárně stromovou strukturu“, takže bychom měli mít sloupec pro hlavního předka, hlavní label této hrany, a pak seznam dalších vlastností – kompoziční hrany, alternativní derivační hrany, …
 	Je to kvůli zachování užitečných vlastností vyplývajících ze stromovitosti. Např. že se strukturou dá procházet do hloubky/šířky a každý uzel navštívím právě jednou.
 Chceme explicitně zachycovat morfematickou strukturu. Zase asi jako seznam uspořádaných n-tic, které by měly obsahovat:
