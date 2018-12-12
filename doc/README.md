@@ -146,3 +146,4 @@ Some advice is:
 
     1.  Bad input (i.e. the words in the derivational pair are themselves wrong, so deciding on whether they are related is meaningless,
     2.  a free-form field that contains the correct decision – e.g. the correct derivational parent, if the automatically discovered candidate is not the right one.
+    3.  a comment field detailing the reasons for the decision and/or a discussion about the issues.
