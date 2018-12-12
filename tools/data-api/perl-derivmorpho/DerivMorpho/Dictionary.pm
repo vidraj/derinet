@@ -278,7 +278,7 @@ sub _get_lexemes_for_lemma_pos {
     my @lexemes = $self->get_lexemes_by_lemma($lemma);
 
     if ($pos) {
-        my @lexemes = grep {$_->pos eq $pos} @lexemes;
+        @lexemes = grep {$_->pos eq $pos} @lexemes;
     }
 
     if (!@lexemes) {
