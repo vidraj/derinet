@@ -14,6 +14,9 @@ logger = logging.getLogger(__name__)
 
 
 if __name__ == '__main__':
+    import random
+    random.seed(42)
+
     modules = []
 
     # The first argument must always specify the first module to load.
