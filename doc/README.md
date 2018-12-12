@@ -112,7 +112,7 @@ Our advice for writing modules:
 
 -   Log all decisions using the `logging` module. Be more verbose than you think is necessary. Use the levels (`logger.info`, `.warning`, `.error`) appropriately.
 
--   Do not change the dictionary set by adding or removing lexemes. Our stance on this may change, but you should just log the required changes and merge them at the very beginning of the pipeline, because each such change is very serious. We strive to be as compatible with the MorfFlex CZ dictionary as possible, so these changes should be reported to MorfFlex CZ developers anyway.
+-   In Czech, do not change the dictionary set by adding or removing lexemes. Our stance on this may change, but you should just log the required changes and merge them at the very beginning of the pipeline, because each such change is very serious. We strive to be as compatible with the MorfFlex CZ dictionary as possible, so these changes should be reported to MorfFlex CZ developers anyway.
 
 -   The output of each module must be deterministic. Therefore, whenever you choose from an unordered set of options, first order them according to some externally-defined criterion.
 
