@@ -10969,13 +10969,13 @@
     chybět#V
         chybít + rule V-ít => N-ení from mluv-subst1|mluvnice
 
-+ OK	chybění#N   (antecedent in DeriNet1.0: chybět#A)
++ chybět#V	chybění#N   (antecedent in DeriNet1.0: chybět#A)
     chybit#V
         chybít + rule V-ít => N-ění from mluv-subst1|mluvnice
     chybět#V
         chybít + rule V-ít => N-ění from mluv-subst1|mluvnice
 
-+ OK	chyběný#A   (antecedent in DeriNet1.0: chybět#A)
++ chybět#V	chyběný#A   (antecedent in DeriNet1.0: chybět#A)
     chybit#V
         chybít + rule V-ít => A-ěný from mluv-adj
     chybět#V
@@ -16929,11 +16929,11 @@
     zmrtvět#V
         zmrtvít + rule V-ít => N-ení from mluv-subst1|mluvnice
 
-+ OK	vyrážení#N   (antecedent in DeriNet1.0: vyrážet#A)
+-	vyrážení#N   (antecedent in DeriNet1.0: vyrážet#A)
     vyrážet#V
         vyrážít + rule V-ít => N-ení from mluv-subst1|mluvnice
 
-+ OK	vyrážený#A   (antecedent in DeriNet1.0: vyrážet#A)
+-	vyrážený#A   (antecedent in DeriNet1.0: vyrážet#A)
     vyrážet#V
         vyrážít + rule V-ít => A-ený from mluv-adj
 
@@ -18260,7 +18260,7 @@
     předvolit#V
         předvolít + rule V-ít => A-avší from mluv-adj
 
-+ OK	odvolavší#A   (antecedent in DeriNet1.0: odvolat#A)
++ odvolat#V	odvolavší#A   (antecedent in DeriNet1.0: odvolat#A)
     odvolit#V
         odvolít + rule V-ít => A-avší from mluv-adj
 
@@ -22128,7 +22128,7 @@
     stanout#V
         stanut + rule V-t => A-jící from mluv-adj
 
-+ OK	utanuvší#A   (antecedent in DeriNet1.0: utanout#A)
+-	utanuvší#A   (antecedent in DeriNet1.0: utanout#A)
     utanout#V
         utanut + rule V-t => A-vší from mluv-adj
 
@@ -22352,7 +22352,7 @@
     plynout#V
         plynut + rule V-t => A-jící from mluv-adj
 
-+ OK	ubyvší#A   (antecedent in DeriNet1.0: ubýt#A)
+-	ubyvší#A   (antecedent in DeriNet1.0: ubýt#A)
     ubýt#V
         ubyt + rule V-t => A-vší from mluv-adj
 
