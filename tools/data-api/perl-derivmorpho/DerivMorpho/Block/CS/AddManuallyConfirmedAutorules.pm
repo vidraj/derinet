@@ -43,7 +43,7 @@ sub process_dictionary {
     open my $I, '<:utf8', $self->instances or log_fatal($!);
     while (<$I>) {
         next if /^@/;
-        if (/^novy par: (\w+) --> (\w+)\s+pravidlo: (\w)-(\w*) --> (\w)-(\w*)/) {
+        if (/^novy par: (\w+) --> (\w+)\s+pravidlo: (\w)-(\w*) --> (\w)-(\w*)$/) {
             my ($source_lemma, $target_lemma, $source_pos,$source_suffix,$target_pos,$target_suffix) = ($1,$2,$3,$4,$5,$6);
             if ($allowed_rules{"$source_pos-$source_suffix $target_pos-$target_suffix"}) {
 
