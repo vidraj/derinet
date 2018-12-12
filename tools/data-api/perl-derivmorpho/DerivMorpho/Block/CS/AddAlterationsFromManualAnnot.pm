@@ -152,7 +152,9 @@ sub process_dictionary {
 		}
 		
 		if (!defined $child_lexeme) {
-			$child_lexeme = add_lexeme($self, $dict, $child_lemma, $child_pos);
+# 			$child_lexeme = add_lexeme($self, $dict, $child_lemma, $child_pos);
+			log_warn("Child $child_lemma not found, skipping.");
+			next;
 		}
 		
 		
