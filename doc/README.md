@@ -47,6 +47,41 @@ See the description in [big-bang-derinet-2.0.txt](./big-bang-derinet-2.0.txt).
 
 TODO write a correct, up-to-date version in English.
 
+The DeriNet 2.0 database is stored in a TSV file format inspired by CONLL-U. The main structure of the file is still tree-based, but it can contain secondary edges, which can form general directed acyclic graphs, including multiple derivational parent options and compounding.
+
+The file format can also store additional information, including morphological segmentation, relation labels and free-form JSON annotation.
+
+The database file is divided into blocks separated by empty lines (two newlines). These blocks correspond to connected components formed by the primary edges.
+
+Each line in a block describes a single lexeme in the following format:
+
+ID LEMID LEMMA POS FEATS SEGMENTATION PARENTID RELTYPE OTHERRELS JSON 81.2 vybrat\#V?????? vybrat Verb aspect=def&… (InterSet) morph=vy&type=prefix&…|morph=br&type=root&…|… 81.1 form=prefixation&function=perfectivization id=…&type=…|id=…&…|… {"syn6freq": 12345, "techlemma": vybrat-1, "tagmask": V??????", …}
+
+1.  ID
+    A dot-separated pair of integers. The former identifies the tree in the file, the latter identifies the lexeme in the tree.
+
+2.  LEMID
+
+3.  LEMMA
+
+4.  POS
+
+5.  FEATS
+
+6.  SEGMENTATION
+
+7.  PARENTID
+
+8.  RELTYPE
+
+9.  OTHERRELS
+    Relations that did not fit into the main PARENTID / RELTYPE pair.
+
+    Conceptually, all the relations have the same importance and are contained in a single list. This list is then broken, with the first element stored in PARENTID and RELTYPE and the rest listed here. This is because it enables us to use simple algorithms designed for trees to process the data. E.g. if you start from the roots and follow the main relations only, you are guaranteed to process each lexeme exactly once.
+
+10. JSON
+    General data in the JSON format. It may contain e.g. annotation not fitting elsewhere, debugging labels, authorship information or comments.
+
 Building the Czech DeriNet
 --------------------------
 
