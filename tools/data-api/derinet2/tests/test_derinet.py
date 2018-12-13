@@ -32,9 +32,17 @@ class TestFiles(unittest.TestCase):
 580230	psův	psův_^(zvíře)_(*3es)	A	455709
 """
 
+        data_v4 = """1\ttest\ttest-1\tN\t
+2\ttest\ttest-2\tN\t
+3\ttestův\ttestův-1\tN\t2
+4\ttestův\ttestův-2\tN\t1
+5\tzatrest\tzatrest\tN\t3
+"""
+
         self.data_stream_v1 = io.StringIO(data_v1)
         self.data_stream_v2 = io.StringIO(data_v2)
         self.data_stream_v3 = io.StringIO(data_v3)
+        self.data_stream_v4 = io.StringIO(data_v4)
 
     def test_data_v1_loaded(self):
         derinet = DeriNet(fname=self.data_stream_v1)
@@ -238,3 +246,36 @@ class TestFiles(unittest.TestCase):
         # neseřazen seřazen, pes
         expected_roots_2 = {0, 1}
         self.assertEqual(derinet._roots, expected_roots_2)
+
+    def test_homonym_selection(self):
+        derinet = DeriNet(fname=self.data_stream_v4)
+        # It should be possible to remove the existing derivation, but it should
+        #  not be possible to remove the nonexisting derivation.
+        # Bug #16 caused homonyms to be confused, this should prevent
+        #  reoccurence.
+        homonym_1_id = derinet.get_id("test", "N", "test-1")
+        homonym_2_id = derinet.get_id("test", "N", "test-2")
+        child_1_id = derinet.get_id("testův", "N", "testův-1")
+        child_2_id = derinet.get_id("testův", "N", "testův-2")
+        grandchild_id = derinet.get_id("zatrest", "N", "zatrest")
+
+        self.assertNotEqual(homonym_1_id, homonym_2_id)
+        self.assertNotEqual(child_1_id, child_2_id)
+
+        homonym_1 = derinet.get_lexeme(homonym_1_id)
+        homonym_2 = derinet.get_lexeme(homonym_2_id)
+        child_1 = derinet.get_lexeme(child_1_id)
+        child_2 = derinet.get_lexeme(child_2_id)
+        grandchild = derinet.get_lexeme(grandchild_id)
+
+        self.assertNotEqual(homonym_1, homonym_2)
+        self.assertNotEqual(child_1, child_2)
+
+        self.assertFalse(derinet.remove_derivation(child_1, homonym_1))
+        self.assertTrue(derinet.remove_derivation(child_1, homonym_2))
+
+        self.assertFalse(derinet.remove_derivation(child_2, homonym_2))
+        self.assertTrue(derinet.remove_derivation(child_2, homonym_1))
+
+        self.assertFalse(derinet.remove_derivation(grandchild, child_2))
+        self.assertTrue(derinet.remove_derivation(grandchild, child_1))

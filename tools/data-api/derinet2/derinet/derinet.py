@@ -386,10 +386,17 @@ class DeriNet(object):
         Get lexeme id by lemma and optionally
         by pos and morphological string.
         """
+        assert node is not None
         if isinstance(node, int):
             return node
         if isinstance(node, Node):
+            # FIXME the code should be really restructured, so that we don't
+            #  need to search for fully specified nodes by lemma, pos and morph.
+            # It should be possible to search by ID.
+            assert pos == None and morph == None
             lemma = node.lemma
+            pos = node.pos
+            morph = node.morph
         else:
             lemma = node
         id_list = self.get_ids(lemma, pos, morph)
