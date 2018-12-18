@@ -134,12 +134,10 @@ def checkCompoundAnnotation(node):
                   'Lemma:', derinet_api.lexeme_info(new_node),
                   'Parent:', derinet_api.lexeme_info(par_node))
         else:
-            cp = node.lemma.replace(par_node.lemma, '')
-            if (par_node.lemma in node.lemma
-               and len(cp) >= 3 and cp != 'elný'):
-                derinet.remove_edge_by_ids(child_id=node.lex_id,
-                                           parent_id=par_node.lex_id)
-                print('Warning: Relation between lemma and parent was',
+            if par_node.lemma in node.lemma:
+                # derinet.remove_edge_by_ids(child_id=node.lex_id,
+                #                            parent_id=par_node.lex_id)
+                print('Erorr: Relation between lemma and parent might be',
                       'removed. Lemma:', derinet_api.lexeme_info(node),
                       'Parent:', derinet_api.lexeme_info(par_node))
             else:
@@ -499,20 +497,22 @@ with open(filename, mode='r', encoding='utf-8') as f:
         line = line.rstrip('\n').split('\t')
         tokens = None
 
-        # incorect compounds
+        # incorect relation
         if '@' in line[0]:
             if len(line) == 3:
                 tokens = line[2].split(' ')
             else:
                 continue
 
-        # correct compounds
+        # correct relation
         if '@' not in line[0]:
             tokens = line[1].split(' ')
 
         lemma_lemma, lemma_pos = divideWord(tokens[0])
         lemma = searchLexeme(lemma_lemma, lemma_pos)
-        if lemma is not None:
+
+        # correct compound
+        if lemma is not None and '$' not in line[0]:
             compounds[filename].append(lemma)
 
         last_token = tokens[0]
