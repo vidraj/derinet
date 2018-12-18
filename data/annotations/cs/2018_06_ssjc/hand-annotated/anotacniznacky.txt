@@ -1,0 +1,16 @@
+anotace ve formátu csv:
+vztah mezi lexémem A a lexémem B; lexém A; lexém B
+
+
+ZNAČKY PRO "VZTAH MEZI LEXÉMEM A A LEXÉMEM B":
+PRÁZDNO	lexém A je základové slovo pro lexém B (A=rodič, B=dítě)
+\	lexém A a lexém B nejsou v derivačním vztahu
+
+
+Postup provedeného postprocessingu anotovaných dat (před použitím v modulu)
+1. změna podtržítek na pomlčku (ALT+0150): cat 'file.csv' | sed -e 's/_/–/g' > 'file.csv'
+2. změna středníků na taby: cat 'file.csv' | sed -e 's/;/\t/g' > 'file.tsv'
+3. spuštění '../../2018_04_wiktionary/tools/consistency.py' skriptu
+3.1. úprava/oprava zjištěných překlepů, chyb a víceznačností
+
+Značky byly v originální anotaci používané jinak (PRÁZDNO = špatně, % = správně) a následně byl styl sjednocen s wiktionary
