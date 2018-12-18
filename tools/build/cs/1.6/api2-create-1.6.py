@@ -145,12 +145,11 @@ def checkCompoundAnnotation(node):
                   'Lemma:', der.show_lexeme(new_node),
                   'Parent:', der.show_lexeme(par_node))
         else:
-            if (par_node.lemma in node.lemma or (par_node.lemma.endswith('ka')
-               and par_node.lemma[:-1] in node.lemma)):
-                der.remove_derivation(child=node.lemma, parent=par_node.lemma,
-                                      child_morph=node.morph,
-                                      parent_morph=par_node.morph)
-                print('Warning: Relation between lemma and parent was',
+            if par_node.lemma in node.lemma:
+                # der.remove_derivation(child=node.lemma, parent=par_node.lemma,
+                #                       child_morph=node.morph,
+                #                       parent_morph=par_node.morph)
+                print('Erorr: Relation between lemma and parent might be',
                       'removed. Lemma:', der.show_lexeme(node),
                       'Parent:', der.show_lexeme(par_node))
             else:
