@@ -328,9 +328,9 @@
 §	autentizovat–V	autentický–A		*				
 §	ironizovat–V	ironický–A		ironie				
 §	dynamizovat–V	dynamický–A		dynamika				
-§	křivkoměr–N	křivka–N	%					
-§	hloubkoměr–N	hloubka–N	%					
-§	srážkoměr–N	srážka–N	%					
+\	křivkoměr–N	křivka–N	%					
+\	hloubkoměr–N	hloubka–N	%					
+\	srážkoměr–N	srážka–N	%					
 §	Chilan–N	Chile–N		*				
 §	Pompejan–N	Pompeje–N		*				
 §	Zimbabwan–N	Zimbabwe–N		*				
@@ -803,7 +803,7 @@
 §	koňák–N	kůň–N		*				
 §	předprseň–N	prs–N		*				
 §	Trosky–N	troska–N						
-§	dělostřelec–N	dělo–N	%	*				
+\	dělostřelec–N	dělo–N	%	*				
 §	předobře–D	dobře–D		dobrý				
 §	datlovník–N	datle–N		*				
 §	výlev–N	vylít–V		lít				
@@ -831,7 +831,7 @@
 §	plátěný–A	plátno–N		*				
 §	podvozek–N	vůz–N		vozit				
 §	obličej–N	líce–N						
-§	žalozpěv–N	žal–N	%					
+\	žalozpěv–N	žal–N	%					
 §	máknout–V	makat–V		*				
 §	zesnout–V	sen–N–sen		*				
 §	trpělivý–A	trpět–V		*				
@@ -859,8 +859,8 @@
 §	vrstevník–N	vrstva–N		*				
 §	kurevník–N	kurva–N		*				
 §	ježit–V	ježek–N		*				
-§	Stalingrad–N	Stalin–N	%	*				
-§	Leningrad–N	Lenin–N	%	*				
+\	Stalingrad–N	Stalin–N	%	*				
+\	Leningrad–N	Lenin–N	%	*				
 §	relikviář–N	relikvie–N		*				
 §	blýskat–V	blesk–N		*				
 §	jabčák–N	jablko–N		*				

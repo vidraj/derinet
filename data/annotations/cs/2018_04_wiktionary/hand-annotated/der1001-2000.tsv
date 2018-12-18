@@ -809,11 +809,11 @@
 	Vltava–N	Vltavan–N	*					
 	Kazi–N	Kazin–N	*					
 								
-	tlak–N	tlakoměr–N		%				
-	krok–N	krokoměr–N		%				
-	cukr–N	cukroměr–N	*	%				
-	tuk–N	tukoměr–N		%				
-	hluk–N	hlukoměr–N		%				
+\	tlak–N	tlakoměr–N		%				
+\	krok–N	krokoměr–N		%				
+\	cukr–N	cukroměr–N	*	%				
+\	tuk–N	tukoměr–N		%				
+\	hluk–N	hlukoměr–N		%				
 								
 	Zeman–N	Zemánek–N	*					
 	Pražan–N	Pražánek–N	Praha					
@@ -946,7 +946,7 @@
 	snášet–V	snášenlivý–A						
 	mlčet–V	mlčenlivý–A	*					
 								
-	pravěk–N	pravěký–A	%					
+	pravěk–N	pravěký–A						
 	ozim–N	ozimý–A	zima–N–zima-1					
 								
 								
@@ -1024,8 +1024,8 @@
 								
 \	moč–N	močovod–N		%				
 \	chám–N	chámovod–N	*	%				
-	kouř–N	kouřovod–N		%				
-	zvuk–N	zvukovod–N	*	%				
+\	kouř–N	kouřovod–N		%				
+\	zvuk–N	zvukovod–N	*	%				
 								
 	golf–N	golfky–N	*					
 	nůž–N	nůžky–N	*					

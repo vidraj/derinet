@@ -1,0 +1,3 @@
+v prvním sloupci:
+@   špatný vztah
+$ není kompozitum, ale vztah dobrý

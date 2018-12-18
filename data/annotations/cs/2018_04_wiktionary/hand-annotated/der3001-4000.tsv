@@ -522,7 +522,7 @@
 §	Vydra–N	vydra–N		*				
 §	winnipežský–A	Winnipeg–N						
 §	výměra–N	vyměřit–V		měřit				
-§	cukrobaron–N	cukr–N	%	*				
+\	cukrobaron–N	cukr–N	%	*				
 §	necičky–N	necky–N		*				
 §	zmasit–V	maso–N		*				
 \	kroj–N	krájet–V	krojit	krojit				
@@ -645,7 +645,7 @@
 §	sexualizace–N	sexualizovat–V		sexuální				
 §	kalhotky–N	kalhoty–N						
 §	Vnuk–N	vnuk–N						
-§	železodárný–A	železo–N	%					
+\	železodárný–A	železo–N	%					
 \	strýčkování–N	strýc–N	strýček					
 §	vtělit–V	tělo–N						
 §	vyprázdnit–V	prázdný–A						
@@ -826,7 +826,7 @@
 §	kredencká–N	kredenc–N						
 §	úplata–N	uplatit–V		platit				
 §	náušnice–N	ucho–N		*				
-\	jakkoliv–D	jak–N	%	*				
+\	jakkoliv–D	jak–N		*				
 §	piják–N	pít–V		*				
 §	hukot–N	houkat–V						
 \	sestrovrah–N	vrah–N	%					
@@ -934,7 +934,7 @@
 \	kůra–N	kůrovec–N						
 	labuť–N	labutí–A						
 \	majstrštyk–N	majstr–N	%					
-	market–N	hypermarket–NC		%				
+\	market–N	hypermarket–NC		%				
 	masáž–N	masírovat–V						
 \	matematika–N	zmatematizovat–V		matematizovat				
 	mělký–A	mělce–D						
@@ -958,7 +958,7 @@
 	pytel–N	pytlák–N						
 \	rabí–N	rabínský–A						
 	reálný–A	realita–N						
-	rys–N	velkorysý–AC		%				
+\	rys–N	velkorysý–AC		%				
 	řvát–V	řev–N						
 \	Samojed–N	samojedský–A	samojed					
 	Sarajevo–N	sarajevský–A						

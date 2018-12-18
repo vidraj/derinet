@@ -380,102 +380,102 @@
 	anthologie
 	anthropologie
 	anthroposofie
-	antialergikum
-	antianemikum
-	antiarytmikum
-	antiastmatikum
-	antibarbarus
-	antibióza
-	antibolševizmus
-	antibufonista
-	anticelulitidní
-	anticelulitidový
-	antičechizmus
-	antidegradant
-	antidekubitální
-	antidekubitní
-	antidepresivum
-	antidiabetikum
-	antidiaroikum
-	antidiuretin
-	antidotum
-	antidumpigový
-	antiedematózní
-	antiemetikum
-	antiepileptikum
-	antievropan
-	antifašizmus
-	antiflagistikum
-	antiflogistikum
-	antifobikum
-	antifouling
-	antifungální
-	antigerontismus
-	antigest
-	antigraffitový
-	antihalační
-	antihistaminikum
-	antihistirizmus
-	antihypertenzivum
-	antichlor
-	antiintelektualizmus
-	antiislamismus
-	antikafkistický
-	antikatolicismus
-	antikizovat
-	antiklinála
-	antiklinorium
-	antikoaguant
-	antikoagulancium
-	antikokcidikum
-	antikonvulsivum
-	antikonzumerismus
-	antikrist
-	antiliberalizmus
-	antimalarikum
-	antimečiarismus
+@	antialergikum
+@	antianemikum
+@	antiarytmikum
+@	antiastmatikum
+@	antibarbarus
+@	antibióza
+@	antibolševizmus
+@	antibufonista
+@	anticelulitidní
+@	anticelulitidový
+@	antičechizmus
+@	antidegradant
+@	antidekubitální
+@	antidekubitní
+@	antidepresivum
+@	antidiabetikum
+@	antidiaroikum
+@	antidiuretin
+@	antidotum
+@	antidumpigový
+@	antiedematózní
+@	antiemetikum
+@	antiepileptikum
+@	antievropan
+@	antifašizmus
+@	antiflagistikum
+@	antiflogistikum
+@	antifobikum
+@	antifouling
+@	antifungální
+@	antigerontismus
+@	antigest
+@	antigraffitový
+@	antihalační
+@	antihistaminikum
+@	antihistirizmus
+@	antihypertenzivum
+@	antichlor
+@	antiintelektualizmus
+@	antiislamismus
+@	antikafkistický
+@	antikatolicismus
+@	antikizovat
+@	antiklinála
+@	antiklinorium
+@	antikoaguant
+@	antikoagulancium
+@	antikokcidikum
+@	antikonvulsivum
+@	antikonzumerismus
+@	antikrist
+@	antiliberalizmus
+@	antimalarikum
+@	antimečiarismus
 	antimonovodík
 	antimonyldraselný
 	antimonylodraselný
-	antimoravan
-	antimykotikum
-	antinatalitní
-	antinomie
-	antinomizmus
-	antiobezitikum
-	antioscar
-	antipapinovský
-	antiparazitikum
-	antiparkinsonikum
-	antiparoubkismus
-	antipatie
-	antiplakový
-	antipod
-	antipód
-	antipsychotikum
-	antipyrin
-	antipyrín
-	antirabický
-	antiradarista
-	antiretrovirální
-	antirevmatikum
-	antirushdieovský
-	antirusismus
-	antiseptikum
-	antiséra
-	antisklerotikum
-	antisocializmus
-	antisovětčík
-	antispastikum
-	antispywarový
-	antistatikum
-	antitelefonika
-	antiterorismus
-	antitopolánkovec
-	antitoxní
-	antitrombotikum
-	antiulcerózum
-	antivietnamizmus
+@	antimoravan
+@	antimykotikum
+@	antinatalitní
+@	antinomie
+@	antinomizmus
+@	antiobezitikum
+@	antioscar
+@	antipapinovský
+@	antiparazitikum
+@	antiparkinsonikum
+@	antiparoubkismus
+@	antipatie
+@	antiplakový
+@	antipod
+@	antipód
+@	antipsychotikum
+@	antipyrin
+@	antipyrín
+@	antirabický
+@	antiradarista
+@	antiretrovirální
+@	antirevmatikum
+@	antirushdieovský
+@	antirusismus
+@	antiseptikum
+@	antiséra
+@	antisklerotikum
+@	antisocializmus
+@	antisovětčík
+@	antispastikum
+@	antispywarový
+@	antistatikum
+@	antitelefonika
+@	antiterorismus
+@	antitopolánkovec
+@	antitoxní
+@	antitrombotikum
+@	antiulcerózum
+@	antivietnamizmus
 	antofág
 	antologie
 	antropoekologie
@@ -1999,6 +1999,7 @@
 	biorostlina
 	biorovnováha
 	biorozložitelný
+	biorozložit
 	bioryba
 	biorýže
 	bioředkvička
@@ -10387,6 +10388,7 @@
 	kilovar
 	kilowatthodina
 	kilowattový
+	kilowatt
 	kimberlit
 	kinachtivý
 	kinantropologie
@@ -17536,10 +17538,10 @@
 	prachychtivý
 	praktickohospodářský
 	praktickopolitický
-	prakuchtivý
-	pramáti
+@	prakuchtivý
+@	pramáti
 	pramenověda
-	prapraprapraneteř
+@	prapraprapraneteř
 	praskoleský
 	prasopes
 	práškůchtivý
@@ -18811,31 +18813,31 @@
 	přivýdělkuchtivý
 	psammofilní
 	psaníchtivý
-	pseudoacacia
-	pseudocapsicum
-	pseudodiskuze
-	pseudodisky
-	pseudogamie
-	pseudogeostrofický
-	pseudogynekonym
-	pseudoimpresionizmus
-	pseudoliberalizmus
-	pseudomakarenkovský
-	pseudomixe
-	pseudomyceliální
-	pseudonym
-	pseudonymografie
-	pseudoovidianum
-	Pseudoperonospora
-	pseudoplatanus
-	pseudopodie
-	pseudoproměnný
-	pseudorevolučný
-	Pseudoscaphirhynchus
-	Pseudoscorpiones
-	pseudospravedlný
-	pseudotragédie
-	pseuodosocialistický
+@	pseudoacacia
+@	pseudocapsicum
+@	pseudodiskuze
+@	pseudodisky
+@	pseudogamie
+@	pseudogeostrofický
+@	pseudogynekonym
+@	pseudoimpresionizmus
+@	pseudoliberalizmus
+@	pseudomakarenkovský
+@	pseudomixe
+@	pseudomyceliální
+@	pseudonym
+@	pseudonymografie
+@	pseudoovidianum
+@	Pseudoperonospora
+@	pseudoplatanus
+@	pseudopodie
+@	pseudoproměnný
+@	pseudorevolučný
+@	Pseudoscaphirhynchus
+@	Pseudoscorpiones
+@	pseudospravedlný
+@	pseudotragédie
+@	pseuodosocialistický
 	psofometr
 	psůmilovný
 	psychiatrie
@@ -24378,6 +24380,7 @@
 	šestnáctiznakový
 	šestsetletý
 	šestsettisícový
+	šestsettisíc
 	šídlolistý
 	šifrogram
 	Šimbal-klimbal
@@ -29022,6 +29025,7 @@
 	samoprodukovat
 	samoreprodukovat
 	samorozšiřovat
+	samospasit
 	samospasitel
 	samospasitelný
 	samostavitel
