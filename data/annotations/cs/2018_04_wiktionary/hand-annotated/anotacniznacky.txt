@@ -2,19 +2,13 @@ anotace ve formátu csv:
 vztah mezi lexémem A a lexémem B; lexém A; lexém B; základové slovo pro lexém A; základové slovo pro lexém B
 
 
-
-
 ZNAČKY PRO "VZTAH MEZI LEXÉMEM A A LEXÉMEM B":
-
 PRÁZDNO	lexém A je základové slovo pro lexém B (A=rodič, B=dítě)
 §	lexém A je derivát lexému B (B=dítě, A=rodič)
 \	lexém A a lexém B nejsou v derivačním vztahu
 
 
-
-
 ZNAČKY PRO "ZÁKLADOVÉ SLOVO PRO LEXÉM A" A "ZÁKLADOVÉ SLOVO PRO LEXÉM B" (podle počtu předcházejících středníků):
-
 *	lexém A, nebo B je značkové slovo
 LEXÉM	uvedeno konkrétní základové slovo pro lexém A, nebo B
 %	lexém A, nebo B je kompozitum (--> do pos tagu přidat C)
@@ -23,9 +17,15 @@ LEXÉM	uvedeno konkrétní základové slovo pro lexém A, nebo B
 Postup provedeného postprocessingu notovaných dat (před použitím v modulu)
 1. změna podtržítek na pomlčku (ALT+0150): cat 'file.csv' | sed -e 's/_/–/g' > 'file.csv'
 2. změna středníků na taby: cat 'file.csv' | sed -e 's/;/\t/g' > 'file.tsv'
-
 3. spuštění 'consistency.py' skriptu
 3.1. úprava/oprava zjištěných překlepů, chyb a víceznačností
-
 4. spuštění 'handproposal.py' skriptu
 4.1. úprava/oprava zjištěných chybných návrhů na rodiče
+
+
+Zjednodušená anotace druhého kola anotací spočívala v tom, že se již:
+- neznačila nemotivovanost,
+- nedávaly se manuální návrhy na rodiče,
+- nedávaly se návrhy na rodiče kompozit, pouze se značily vztahy, kde bylo kompozitum
+Týkala se der5001+ a more-der-0+
+Značky byly v originální anotaci používané jinak (PRÁZDNO = špatně, % = správně) a následně byl styl sjednocen
