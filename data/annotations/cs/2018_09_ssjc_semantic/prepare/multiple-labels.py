@@ -7,11 +7,10 @@ import sys
 from collections import defaultdict
 
 
-data = defaultdict(list)
-with open(sys.argv[1], mode='r', encoding='utf-8') as f:
-    for line in f:
-        entry = tuple(line.rstrip('\n').split('\t'))
-        data[entry[:2]].append(entry[2])
+data = defaultdict(set)
+for line in sys.stdin:
+    entry = tuple(line.rstrip('\n').split('\t'))
+    data[entry[:2]].add(entry[2])
 
 for rel, labels in data.items():
     if len(labels) > 1:

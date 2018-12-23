@@ -15,6 +15,19 @@ derinet = derinet_api.DeriNet(sys.argv[2])
 
 def searchLexeme(lem, p=None):
     """Search lemma in DeriNet. Return None if lemma is not in DeriNet."""
+    def divideWord(word):
+        """Return lemma and pos of word in annotated data (sep=ALT+0150)."""
+        word = word.split('–')
+        lemma = word[0]
+
+        pos = None
+        if len(word) > 1:
+            if word[1] != 'None':
+                pos = word[1]
+
+        return lemma, pos
+
+    lem, p = divideWord(lem)
     candidates = derinet.search_lexemes(lem, pos=p)
     if len(candidates) == 0:  # not in
         return None
