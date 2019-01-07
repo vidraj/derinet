@@ -249,7 +249,7 @@ class DeriNet(object):
         # TODO check types of fields – most should be strings, some ints, some arrays/dicts.
 
         # Check that the internal ID is not set and set it to the future node position in the data array.
-        assert node.lex_id is None, "Node %s has filled lex_id. That field is internal, do not set it yourself" % ()
+        assert node.lex_id is None, "Node %s has filled lex_id. That field is internal, do not set it yourself" % (pretty_lexeme(node.lemma, node.pos, node.morph))
         node = node._replace(lex_id=current_index)
 
         # If the node doesn't have an external ID, set it. This may be required somewhere. TODO check whether and where.
@@ -267,9 +267,9 @@ class DeriNet(object):
             node = node._replace(morph=node.lemma)
 
         # Check that the node doesn't contain any derivational information and stands completely on its own.
-        assert no_parent(node), "The newly added node '%s' must not have any parents set" % ()
-        assert node.composition_parents is None or node.composition_parents == [], "The newly added node '%s' must not have any parents set" % ()
-        assert node.children is None or node.children == [], "The newly added node '%s' must not have any children set" % ()
+        assert no_parent(node), "The newly added node '%s' must not have any parents set" % (pretty_lexeme(node.lemma, node.pos, node.morph))
+        assert node.composition_parents is None or node.composition_parents == [], "The newly added node '%s' must not have any parents set" % (pretty_lexeme(node.lemma, node.pos, node.morph))
+        assert node.children is None or node.children == [], "The newly added node '%s' must not have any children set" % (pretty_lexeme(node.lemma, node.pos, node.morph))
 
         if node.tag_mask is None:
             node = node._replace(tag_mask="")
