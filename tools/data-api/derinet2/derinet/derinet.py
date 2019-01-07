@@ -393,7 +393,7 @@ class DeriNet(object):
             # FIXME the code should be really restructured, so that we don't
             #  need to search for fully specified nodes by lemma, pos and morph.
             # It should be possible to search by ID.
-            assert pos == None and morph == None
+            assert pos is None and morph is None
             lemma = node.lemma
             pos = node.pos
             morph = node.morph
@@ -632,7 +632,7 @@ class DeriNet(object):
         """
         for child, parent in edge_list:
             self.add_derivation(child[0], parent[0], child_pos=child[1], parent_pos=parent[1],
-                                child_morph=child[2], parent_morph=parent[2],force=force)
+                                child_morph=child[2], parent_morph=parent[2], force=force)
 
     def remove_derivation(self, child, parent, child_pos=None, parent_pos=None,
                            child_morph=None, parent_morph=None):
@@ -693,7 +693,7 @@ class DeriNet(object):
 
 
         # Try to find one that is already connected. If it is there, return it.
-        for source_candidate in  source_candidates:
+        for source_candidate in source_candidates:
             for target_candidate in target_candidates:
                 source_candidate = self._data[source_candidate]
                 target_candidate = self._data[target_candidate]
