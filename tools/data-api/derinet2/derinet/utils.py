@@ -1,3 +1,4 @@
+import re
 from collections import namedtuple
 
 # a simple structure to represent a node
@@ -52,6 +53,13 @@ def flatten_list(l):
             yield from flatten_list(el)
         else:
             yield el
+
+
+def techlemma_to_lemma(techlemma):
+    """Cut off the technical suffixes from the string techlemma and return the raw lemma"""
+    shortlemma = re.sub("[_`].+", "", techlemma)
+    lemma = re.sub("-\d+$", "", shortlemma)
+    return lemma
 
 
 class DeriNetError(Exception):
