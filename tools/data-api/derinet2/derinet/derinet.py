@@ -334,9 +334,7 @@ class DeriNet(object):
             :param morph: morph string to resolve ambiguity
             :return: instance of the parent node
         """
-        lex_id = self.get_id(node, pos=pos, morph=morph)
-        self._valid_lex_id_or_raise(lex_id)
-        lexeme = self._data[lex_id]
+        lexeme = self.get_lexeme(node, pos, morph)
         return (lexeme.lemma, lexeme.pos, lexeme.morph)
 
     def search_lexemes(self, lemma, pos=None, morph=None, allow_fallback=False):
@@ -452,9 +450,8 @@ class DeriNet(object):
             :param morph: morph string to resolve ambiguity
             :return: list of found children
         """
-        lex_id = self.get_id(node, pos=pos, morph=morph)
-        self._valid_lex_id_or_raise(lex_id)
-        return [self._data[child_id] for child_id in self._data[lex_id].children]
+        lexeme = self.get_lexeme(node, pos=pos, morph=morph)
+        return [self._data[child_id] for child_id in lexeme.children]
 
     def get_subtree(self, node, pos=None, morph=None):
         """
@@ -467,9 +464,7 @@ class DeriNet(object):
             :return tree of the form:
                 [root, [[ch1, [[ch1.1, ...], [ch1.2, ...], ...]], [ch2, ...]]
         """
-        lex_id = self.get_id(node, pos=pos, morph=morph)
-        self._valid_lex_id_or_raise(lex_id)
-        lexeme = self._data[lex_id]
+        lexeme = self.get_lexeme(node, pos=pos, morph=morph)
         return [lexeme, [self.get_subtree(child)
                          for child in lexeme.children]]
 
@@ -481,9 +476,7 @@ class DeriNet(object):
         Recursively build a string visualizing the tree
         with the specified node as its root.
         """
-        root_id = self.get_id(root, pos=pos, morph=morph)
-        self._valid_lex_id_or_raise(root_id)
-        lexeme = self._data[root_id]
+        lexeme = self.get_lexeme(root, pos=pos, morph=morph)
         subtree_str = form1 + form3
         subtree_str += '\t'.join(str(item) for item in lexeme[:-1])
         if lexeme.children != []:
@@ -591,9 +584,9 @@ class DeriNet(object):
         parent = self._data[parent_id]
 
         if not force and child.parent_id != '' and child.parent_id is not None:
-            actual_parent = self.get_lexeme(self._data[child_id].parent_id)
-            parent_lemma = self._data[parent_id].lemma
-            child_lemma = self._data[child_id].lemma
+            actual_parent = self.get_lexeme(child.parent_id)
+            parent_lemma = parent.lemma
+            child_lemma = child.lemma
             if not ignore_if_exists or not partial_lexeme_match(actual_parent, parent_lemma, parent_pos, parent_morph):
                 raise AlreadyHasParentError('node {} already has a parent '
                                             'assigned to it: {}'.format(
@@ -601,19 +594,23 @@ class DeriNet(object):
                     pretty_lexeme(actual_parent.lemma, actual_parent.pos, actual_parent.morph)))
 
         elif not self.exists_loop(parent_id, child_id):
-            if self._data[child_id].parent_id != '' and force:
+            if child.parent_id != '' and force:
                 # remove the child from old parent children
                 old_parent = self._data[child.parent_id]
                 self._data[child.parent_id] = old_parent._replace(
-                    children = [new_child for new_child in old_parent.children if new_child != child.lex_id])
-            if self._data[parent_id].parent_id == child_id and force:
+                    children = [new_child for new_child in old_parent.children if new_child != child.lex_id]
+                )
+                parent = self._data[parent_id]
+            if parent.parent_id == child_id and force:
                 # turned out we have to reverse the edge
-                self._data[parent_id] = self._data[parent_id]._replace(parent_id=self._data[child_id].parent_id)
+                self._data[parent_id] = parent._replace(parent_id=child.parent_id)
+                parent = self._data[parent_id]
                 child = self._data[child_id]
                 self._data[child_id] = child._replace(
-                    children=[new_child for new_child in child.children if new_child != parent.lex_id])
-                if self._data[parent_id].lex_id == self._data[parent_id].parent_id:
-                    self._data[parent_id] = self._data[parent_id]._replace(parent_id='')
+                    children=[new_child for new_child in child.children if new_child != parent.lex_id]
+                )
+                if parent.lex_id == parent.parent_id:
+                    self._data[parent_id] = parent._replace(parent_id='')
 
             if self.get_root(child_id).lex_id == child_id:
                 # the new children was actually a root node
