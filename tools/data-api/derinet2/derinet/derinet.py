@@ -811,6 +811,72 @@ class DeriNet(object):
     def set_execution_context(self, context):
         self._execution_context = context
 
+    def add_boundary(self, lexeme, boundary_position, name, description, propagated):
+        """Add a new morph boundary into lexeme after boundary_position-th character."""
+        assert boundary_position <= len(lexeme.lemma)
+        assert boundary_position >= 0
+
+        if boundary_position == 0 or boundary_position == len(lexeme.lemma):
+            return
+
+        if "segmentation" not in lexeme.misc:
+            lexeme.misc["segmentation"] = {}
+
+        if name not in lexeme.misc["segmentation"]:
+            lexeme.misc["segmentation"][name] = {"manual": False, "segments": [lexeme.lemma[:boundary_position], lexeme.lemma[boundary_position:]], "description": {boundary_position: {"text": description, "propagated": propagated, "allowed": True}}}
+        else:
+            if boundary_position in lexeme.misc["segmentation"][name]["description"] and not lexeme.misc["segmentation"][name]["description"][boundary_position]["allowed"]:
+                logger.warning("Trying to add boundary at a forbidden position %d in lemma %s", boundary_position, lexeme.lemma)
+                return
+
+            new_morphs = []
+            position = 0
+
+            for morph in lexeme.misc["segmentation"][name]["segments"]:
+                if position < boundary_position and position + len(morph) > boundary_position:
+                    # The boundary lies in the current morph. Split it.
+                    new_morphs.append(morph[:boundary_position - position])
+                    new_morphs.append(morph[boundary_position - position:])
+                elif position == boundary_position:
+                    # Do not insert empty morphs – if the boundary was already known, do nothing.
+                    #logger.info("Boundary %d in lemma %s discovered twice", boundary_position, lexeme.lemma)
+                    new_morphs.append(morph)
+                else:
+                    # We are behind or ahead of the boundary, just copy the morphs.
+                    new_morphs.append(morph)
+                position += len(morph)
+
+            lexeme.misc["segmentation"][name]["segments"] = new_morphs
+            lexeme.misc["segmentation"][name]["description"][boundary_position] = {"text": description, "propagated": propagated, "allowed": True}
+
+    def forbid_boundary(self, lexeme, boundary_position, name, description, propagated):
+        """Forbid boundary creation after boundary_position-th character in lemma."""
+        assert boundary_position <= len(lexeme.lemma)
+        assert boundary_position >= 0
+
+        if boundary_position == 0 or boundary_position == len(lexeme.lemma):
+            return
+
+        if "segmentation" not in lexeme.misc:
+            lexeme.misc["segmentation"] = {}
+
+        if name not in lexeme.misc["segmentation"]:
+            lexeme.misc["segmentation"][name] = {"manual": False, "segments": [lexeme.lemma], "description": {boundary_position: {"text": description, "propagated": propagated, "allowed": False}}}
+        elif boundary_position in lexeme.misc["segmentation"][name]["description"] and lexeme.misc["segmentation"][name]["description"][boundary_position]["allowed"]:
+            logger.error("Forbidding position %d in lemma %s that was already used.", boundary_position, lexeme.lemma)
+        else:
+            lexeme.misc["segmentation"][name]["description"][boundary_position] = {"text": description, "propagated": propagated, "allowed": False}
+
+    def add_morpheme(self, lexeme, start, end, name, description, propagated):
+        """Add a whole atomic morph ranging from start to end in lexeme."""
+        assert start < end
+
+        self.add_boundary(lexeme, start, name, description, propagated)
+        self.add_boundary(lexeme, end, name, description, propagated)
+
+        for i in range(start + 1, end):
+            self.forbid_boundary(lexeme, i, name, description, propagated)
+
 
 if __name__ == "__main__":
     if len(sys.argv) == 2:
