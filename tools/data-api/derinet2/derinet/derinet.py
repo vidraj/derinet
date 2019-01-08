@@ -36,12 +36,14 @@ class DeriNet(object):
                  '_ids2internal', # mapping of human-readable ids to internal representation
                  '_ids',
                  '_roots', # list of roots of trees
+                 '_execution_context' # Signature of the currently-running module, if we launch DeriNet from the scenario manager.
                  ]
 
     def __init__(self, fname=None, version="1.4", locales='cs'):
         self._ids2internal = {}
         self._roots = set()
         self._ids = []
+        self._execution_context = None
         if fname is None:
             self._data = []
             self._index = {}
@@ -706,6 +708,9 @@ class DeriNet(object):
 
         return (self._data[source_candidates[0]],
                 self._data[unconnected_targets[0]] if len(unconnected_targets) == 0 else self._data[target_candidates[0]])
+
+    def set_execution_context(self, context):
+        self._execution_context = context
 
 
 if __name__ == "__main__":

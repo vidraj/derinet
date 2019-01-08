@@ -45,6 +45,16 @@ class Scenario:
 
         # Run all instances.
         for instance in modules:
+            # Set the arg_string and class_name (or even module_name) as a property of derinet.
+            #  That way, we don't have to pass the signature to every derinet method manually,
+            #  no-one forgets about it and it is all clean, without stack inpection and other nasty
+            #  hacks.
+            if derinet is not None:
+                # The derinet object may be None for the first module in the pipeline.
+                #  FIXME in that case, we should set the execution context somewhere else!
+                #  But where and how?
+                derinet.set_execution_context((module_name, arg_string))
+
             derinet = instance.process(derinet)
             logger.info('Module {} processed.'.format(instance.signature))
 
