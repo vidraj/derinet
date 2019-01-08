@@ -516,6 +516,38 @@ class DeriNet(object):
             root_id = root.lex_id
         return self.subtree_as_str_from_root(root_id)
 
+    def iter_lexemes(self):
+        """
+        Iterate through all lexemes in the database in an unspecified order,
+        visiting each one exactly once. The method is guaranteed to work even
+        if new lexemes are added (they will be visited) or removed (lexemes
+        removed before being visited will not be visited) while iterating.
+        """
+
+        # Use a while-cycle to ensure correctness even with concurrent changes
+        #  of the datastore.
+        i = 0
+        while i < len(self._data):
+            lexeme = self._data[i]
+
+            assert isinstance(lexeme, Node)
+            yield lexeme
+
+            i += 1
+
+    def iter_roots(self):
+        """
+        Iterate through all roots of all trees. Concurrent edits are not visible,
+        therefore newly added roots are not visited and removed roots will be
+        visited anyway.
+        """
+        roots = sorted(self._roots)
+        for root_id in roots:
+            root = self._data[root_id]
+            assert isinstance(root, Node)
+            assert root.parent_id == "", "Node {} is cached as a root, but has a parent".format(pretty_lexeme(root.lemma, root.pos, root.morph))
+            yield root
+
     def list_ambiguous_lemmas(self):
         """
         Return a dictionary with all ambiguous lemmas.

@@ -21,7 +21,7 @@ class Save(Block):
         # TODO assert that there are no arguments other than "file" in self.args.
         if self.version == 1:
             with open(self.fname, 'wt', encoding='utf8') as f:
-                for lexeme in derinet._data:
+                for lexeme in derinet.iter_lexemes():
                     if self.morph_source is None:
                         techlemma = lexeme.techlemma
                     else:

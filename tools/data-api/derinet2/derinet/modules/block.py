@@ -3,7 +3,7 @@ class Block:
         self.args = args
 
     def process(self, derinet):
-        for lexeme in derinet._data:
+        for lexeme in derinet.iter_lexemes():
             self.process_lexeme(lexeme)
 
         return derinet
