@@ -34,7 +34,7 @@ class DeriNet(object):
                  '_index',  # _index[lemma][pos][morph] = lex_id
                  '_fname',  # name of file from which DeriNet was loaded
                  '_ids2internal', # mapping of human-readable ids to internal representation
-                 '_ids',
+                 '_ids', # used when saving
                  '_roots', # list of roots of trees
                  '_execution_context' # Signature of the currently-running module, if we launch DeriNet from the scenario manager.
                  ]
@@ -139,7 +139,7 @@ class DeriNet(object):
             self._roots = new_roots
 
     def _valid_lex_id_or_raise(self, lex_id, exc_cls=LexemeNotFoundError):
-        if lex_id < 0 or lex_id > len(self._data):
+        if lex_id < 0 or lex_id > len(self._data) or self._data[lex_id] is None:
             raise exc_cls('Lexeme with id "{}" not found'.format(lex_id))
 
     def load(self, fname, version):
@@ -296,6 +296,50 @@ class DeriNet(object):
         self._index.setdefault(node.lemma, {})
         self._index[node.lemma].setdefault(node.pos, {})
         self._index[node.lemma][node.pos][node.morph] = node.lex_id
+
+    def remove_lexeme(self, node, pos=None, morph=None):
+        """
+            Delete all traces of node from the database, including all incident
+            derivation links.
+            :param node: identification of the node (instance, lemma or id)
+            :param pos: POS tag to resolve ambiguity
+            :param morph: morph string to resolve ambiguity
+        """
+        lexeme = self.get_lexeme(node, pos, morph)
+
+        # Delete all links to children.
+        for child in self.get_children(lexeme):
+            assert child is not None, "A child of {} is None".format(pretty_lexeme(lexeme.lemma, lexeme.pos, lexeme.morph))
+            if not self.remove_derivation(child, lexeme):
+                raise Exception("Something bad happened, the lexeme was not found.")
+
+        # Delete the link to the parent.
+        if lexeme.parent_id != "":
+            if not self.remove_derivation(lexeme, lexeme.parent_id):
+                parent = self.get_lexeme(lexeme.parent_id)
+                raise Exception("Something bad happened, the lexeme {} or {} was not found.".format(
+                    pretty_lexeme(lexeme.lemma, lexeme.pos, lexeme.morph),
+                    pretty_lexeme(parent.lemma, parent.pos, parent.morph)))
+
+        # Delete the lexeme itself.
+
+        # Delete from ._roots.
+        self._roots = self._roots.difference((lexeme.lex_id,))
+
+        # Delete from ._index.
+        # TODO is this enough? Shouldn't we also delete the intervening layers, if they become empty?
+        del self._index[lexeme.lemma][lexeme.pos][lexeme.morph]
+
+        # Delete from ._ids2internal.
+        if lexeme.pretty_id in self._ids2internal:
+            del self._ids2internal[lexeme.pretty_id]
+        elif int(lexeme.pretty_id) in self._ids2internal:
+            del self._ids2internal[int(lexeme.pretty_id)]
+        else:
+            logger.warning("Pretty_id %s not found in ids2internal.", lexeme.pretty_id)
+
+        # Delete from ._data.
+        self._data[lexeme.lex_id] = None
 
     def lexeme_exists(self, node):
         """Return a boolean indicating whether the node is already in the database.
@@ -468,6 +512,31 @@ class DeriNet(object):
         return [lexeme, [self.get_subtree(child)
                          for child in lexeme.children]]
 
+    def remove_subtree(self, node, pos=None, morph=None):
+        """
+            Recursively delete all lexemes in the tree rooted at node.
+            :param node: identification of the node (instance, lemma or id)
+            :param pos: POS tag to resolve ambiguity
+            :param morph: morph string to resolve ambiguity
+        """
+        root = self.get_lexeme(node, pos, morph)
+        for child_id in root.children:
+            self.remove_subtree(child_id)
+        self.remove_lexeme(root.lex_id)
+
+    def get_subtree_size(self, node, pos=None, morph=None):
+        """
+            Recursively find the size in lexemes of a subtree rooted at node,
+            including the node itself. I.e. the size of a leaf is 1, the size
+            of a node with a single leaf child is 2.
+            :param node: identification of the node (instance, lemma or id)
+            :param pos: POS tag to resolve ambiguity
+            :param morph: morph string to resolve ambiguity
+            :return: a single integer, denoting the size of the tree rooted at node
+        """
+        children = self.get_children(node, pos, morph)
+        return 1 + sum([self.get_subtree_size(child) for child in children])
+
     def subtree_as_str_from_root(self, root, pos=Node, morph=None,
                                  form1='',
                                  form2='  ',
@@ -523,8 +592,9 @@ class DeriNet(object):
         while i < len(self._data):
             lexeme = self._data[i]
 
-            assert isinstance(lexeme, Node)
-            yield lexeme
+            if lexeme is not None:
+                assert isinstance(lexeme, Node)
+                yield lexeme
 
             i += 1
 
@@ -537,7 +607,7 @@ class DeriNet(object):
         roots = sorted(self._roots)
         for root_id in roots:
             root = self._data[root_id]
-            assert isinstance(root, Node)
+            assert root is not None and isinstance(root, Node)
             assert root.parent_id == "", "Node {} is cached as a root, but has a parent".format(pretty_lexeme(root.lemma, root.pos, root.morph))
             yield root
 
