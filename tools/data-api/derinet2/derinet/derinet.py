@@ -10,7 +10,7 @@ from itertools import chain
 
 from .utils import pretty_lexeme, partial_lexeme_match, Node, flatten_list, no_parent, \
     LexemeNotFoundError, ParentNotFoundError, AlreadyHasParentError, CycleCreationError, \
-    LexemeAlreadyExistsError, UnknownFileVersion
+    LexemeAlreadyExistsError, LexemeAmbiguousError, UnknownFileVersion
 
 
 logging.basicConfig(level=logging.DEBUG,
@@ -471,6 +471,28 @@ class DeriNet(object):
         # return first available lexeme
         id_list.sort()
         return id_list[0]
+
+    def get_unique_id(self, node, pos=None, morph=None):
+        """
+        Get an ID of the only node in the database matching the arguments. Raise LexemeAmbiguousError
+        if multiple lexemes match.
+        :param node: identification of the node (instance, lemma or id)
+        :param pos: POS tag to resolve ambiguity
+        :param morph: techlemma string to resolve ambiguity
+        :return: ID of the specified lexeme
+        """
+        ids = self.get_ids(node, pos, morph)
+
+        if len(ids) == 1:
+            return ids[0]
+        elif len(ids) == 0:
+            raise LexemeNotFoundError("lexeme {} not found".format(pretty_lexeme(node, pos, morph)))
+        else:
+            raise LexemeAmbiguousError("lexeme spec {} is homonymous: {}".format(
+                pretty_lexeme(node, pos, morph),
+                ", ".join([pretty_lexeme(self.get_lexeme(id)) for id in ids])
+            ))
+
 
     def get_parent(self, node, pos=None, morph=None):
         """

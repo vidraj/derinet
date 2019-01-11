@@ -3,7 +3,7 @@ import io
 
 from nose.tools import assert_raises, raises
 
-from derinet import DeriNetError, LexemeNotFoundError, LexemeAlreadyExistsError
+from derinet import DeriNetError, LexemeNotFoundError, LexemeAlreadyExistsError, LexemeAmbiguousError
 from derinet.derinet import DeriNet
 from derinet.utils import Node
 
@@ -95,6 +95,17 @@ class TestFiles(unittest.TestCase):
         self.assertFalse(derinet.lexeme_exists(Node(lex_id=3, pretty_id='3', lemma='Aabarůvovo', morph='Aabarův_;S_^(*2)', pos='A', tag_mask='', parent_id=2, composition_parents=[], misc={}, children=[])))
         self.assertFalse(derinet.lexeme_exists(Node(lex_id=3, pretty_id='3', lemma='Aabarův', morph='Aabarův_;S_^(*2a)', pos='A', tag_mask='', parent_id=2, composition_parents=[], misc={}, children=[])))
         self.assertFalse(derinet.lexeme_exists(Node(lex_id=3, pretty_id='3', lemma='Aabarův', morph='Aabarův_;S_^(*2)', pos='D', tag_mask='', parent_id=2, composition_parents=[], misc={}, children=[])))
+
+    def test_get_unique_id(self):
+        derinet = DeriNet(fname=self.data_stream_v1)
+
+        self.assertEqual(derinet.get_unique_id("Aaasen", "N", "Aaasen_;S"), 0)
+        self.assertEqual(derinet.get_unique_id("Aaasen"), 0)
+        self.assertRaises(LexemeNotFoundError, derinet.get_unique_id, "abc", "N", "abc")
+        self.assertRaises(LexemeAmbiguousError, derinet.get_unique_id, "Aabarův")
+        self.assertEqual(derinet.get_unique_id("Aabarův", "A"), 3)
+        self.assertEqual(derinet.get_unique_id("Aabarův", morph="Aabarův_;X_^(*2)"), 4)
+
 
     def test_add_lexeme(self):
         derinet = DeriNet(fname=self.data_stream_v1)

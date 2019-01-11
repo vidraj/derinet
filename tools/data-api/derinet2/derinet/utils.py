@@ -113,3 +113,7 @@ class UnknownFileVersion(DeriNetError):
 class LexemeAlreadyExistsError(DeriNetError):
     """Thrown when adding a lexeme that was already defined in the database."""
     pass
+
+class LexemeAmbiguousError(DeriNetError):
+    """Thrown when multiple lexemes match at a place where only one should match."""
+    pass
