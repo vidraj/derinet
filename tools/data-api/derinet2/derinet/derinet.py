@@ -138,9 +138,28 @@ class DeriNet(object):
                     new_roots.add(self._ids2internal[root])
             self._roots = new_roots
 
+
+    def _valid_lex_id(self, lex_id):
+        """
+        Indicate whether the lex_id is contained in the database, e.g. whether a get_lexeme(lex_id) will return a lexeme.
+
+        :param lex_id: The lexeme ID to test.
+        :return: True if a lexeme with this ID is contained in the database, False otherwise.
+        """
+        return 0 <= lex_id < len(self._data) and self._data[lex_id] is not None
+
+
     def _valid_lex_id_or_raise(self, lex_id, exc_cls=LexemeNotFoundError):
-        if lex_id < 0 or lex_id > len(self._data) or self._data[lex_id] is None:
+        """
+        Raise exc_cls if the lex_id is not contained in the database, e.g. when a get_lexeme(lex_id) returns None.
+
+        :param lex_id: The lexeme ID to test.
+        :param exc_cls: The exception to raise when the lexeme ID is not valid.
+        :return: None on success, raise exc_cls on failure.
+        """
+        if not self._valid_lex_id(lex_id):
             raise exc_cls('Lexeme with id "{}" not found'.format(lex_id))
+
 
     def load(self, fname, version):
         """Load DeriNet from tsv file."""
