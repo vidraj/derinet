@@ -30,11 +30,30 @@ def no_parent(parent_id_or_node):
     return parent_id == '' or parent_id is None
 
 
-def pretty_lexeme(lemma, pos, morph):
+def pretty_lexeme(node, pos=None, morph=None):
+    """
+    Converts the specified lexeme to a string.
+    :param node: Either a string containing the lemma, or a Node to print.
+    :param pos: If node is a lemma string, then a string containing the part of speech tag. Otherwise None.
+    :param morph: If node is a lemma string, then a string containing the techlemma. Otherwise None.
+    :return: A string representation of the specified lexeme.
+    """
+    if isinstance(node, str):
+        lemma = node
+    elif isinstance(node, Node):
+        lemma = node.lemma
+        if pos is not None and morph is not None:
+            raise ValueError("pos and morph may only be filled if node is a string containing the lemma")
+        pos = node.pos
+        morph = node.morph
+    else:
+        raise ValueError("node must be either a lemma string or a Node")
+
     items = [lemma]
     for item in (pos, morph):
         if item is not None:
             items.extend([' ', item])
+
     return '"{}"'.format(''.join(items))
 
 
