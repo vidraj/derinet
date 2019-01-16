@@ -360,20 +360,46 @@ class DeriNet(object):
         # Delete from ._data.
         self._data[lexeme.lex_id] = None
 
-    def lexeme_exists(self, node):
+    def lexeme_exists(self, node, pos=None, morph=None):
         """Return a boolean indicating whether the node is already in the database.
 
-        The method checks node.lemma, node.pos and node.morph for equality with any lexeme in the database.
-        If node has a truthy pretty_id, it is checked as well, otherwise it is ignored."""
+        If node is a Node, the method checks node.lemma, node.pos, node.morph and node.lex_id for equality with any lexeme in the database.
+        If node is a string, it is taken to be a lemma and it is checked together with the pos and morph.
 
-        similar_lexemes = self.search_lexemes(node.lemma, node.pos, node.morph)
-        if similar_lexemes and not node.pretty_id: # FIXME what exactly is the pretty_id? Can it be an int? If so, fix this for the case when pretty_id == 0.
+        :param node: A Node or a string representation of the lemma to check.
+        :param pos: If node is a string, a string representation of the POS.
+        :param morph: If node is a string, a string representation of the techlemma.
+        :return: A boolean indicating the presence of the specified lexeme in the database.
+        """
+
+        if isinstance(node, Node):
+            if pos is not None or morph is not None:
+                raise ValueError("POS and morph should only be filled if node is a string indicating the lemma")
+            pos = node.pos
+            morph = node.morph
+            lemma = node.lemma
+            lex_id = node.lex_id
+        elif isinstance(node, int):
+            if pos is not None or morph is not None:
+                raise ValueError("POS and morph should only be filled if node is a string indicating the lemma")
+            if self._valid_lex_id(node):
+                return True
+            else:
+                return False
+        elif isinstance(node, str):
+            lemma = node
+            lex_id = None
+        else:
+            raise ValueError("node must be a Node, an int ID or a lemma string")
+
+        similar_lexemes = self.search_lexemes(lemma, pos, morph)
+        if similar_lexemes and lex_id is None:
             # The candidate matches in lemma, pos and morph and there is no ID to check.
             return True
         else:
             # We have to check the ID for a match.
             for candidate in similar_lexemes:
-                if candidate.pretty_id == node.pretty_id:
+                if candidate.lex_id == lex_id:
                     return True
         return False
 
