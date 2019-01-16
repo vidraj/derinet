@@ -1,10 +1,17 @@
-# !usr/bin/env python3
+#!usr/bin/env python3
 # coding: utf-8
 
 """Extraction of semantic labels from SSJČ."""
 
 import re
 import sys
+
+sys.path.append('../../../../../tools/data-api/derinet-python/')
+import derinet_api
+
+
+# load DeriNet (for finding if extracted lemmas exist)
+derinet = derinet_api.DeriNet(sys.argv[2])
 
 
 def clean_parents(text):
@@ -61,6 +68,30 @@ def clean_childrens(text):
     return list(set(children))
 
 
+def searchLexeme(lem, p=None):
+    """Search lemma in DeriNet. Return None if lemma is not in DeriNet."""
+    def divideWord(word):
+        """Return lemma and pos of word in annotated data (sep=ALT+0150)."""
+        word = word.split('–')
+        lemma = word[0]
+
+        pos = None
+        if len(word) > 1:
+            if word[1] != 'None':
+                pos = word[1]
+
+        return lemma, pos
+
+    if p is None:
+        lem, p = divideWord(lem)
+
+    candidates = derinet.search_lexemes(lem, pos=p)
+    if len(candidates) == 0:  # not in
+        return None
+    else:  # homonymous and OK
+        return candidates[0]
+
+
 # load
 content = ''
 with open(file=sys.argv[1], mode='r', encoding='utf-8') as f:
@@ -98,7 +129,15 @@ for cont in relevant:
             if children != []:
                 for child in children:
                     for par in parents:
-                        data.add((child, par, 'zdrob.'))
+                        # check if lemmas exist in DeriNet and take POS
+                        check_ch = searchLexeme(child)
+                        check_pr = searchLexeme(par)
+                        if check_ch and check_pr:
+                            if '–' not in child:
+                                child = child + '–' + check_ch[1]
+                            if '–' not in par:
+                                par = par + '–' + check_pr[1]
+                            data.add((child, par, 'zdrob.'))
 
         children = re.search(r'expr\. zdrob\. k[e]* ([0-9][^\;\:]*)', cont)
         if children:
@@ -106,7 +145,15 @@ for cont in relevant:
             if children != []:
                 for par in parents:
                     for child in children:
-                        data.add((par, child, 'zdrob.'))
+                        # check if lemmas exist in DeriNet and take POS
+                        check_ch = searchLexeme(child)
+                        check_pr = searchLexeme(par)
+                        if check_ch and check_pr:
+                            if '–' not in child:
+                                child = child + '–' + check_ch[1]
+                            if '–' not in par:
+                                par = par + '–' + check_pr[1]
+                            data.add((par, child, 'zdrob.'))
 
         children = re.search(r'expr\. zdrob\.(?! k[e]*) ([^\;\:]*)', cont)
         if children:
@@ -114,7 +161,15 @@ for cont in relevant:
             if children != []:
                 for par in parents:
                     for child in children:
-                        data.add((par, child, 'zdrob.'))
+                        # check if lemmas exist in DeriNet and take POS
+                        check_ch = searchLexeme(child)
+                        check_pr = searchLexeme(par)
+                        if check_ch and check_pr:
+                            if '–' not in child:
+                                child = child + '–' + check_ch[1]
+                            if '–' not in par:
+                                par = par + '–' + check_pr[1]
+                            data.add((par, child, 'zdrob.'))
 
         cont = cont.replace('expr. zdrob.', '')
 
@@ -125,7 +180,15 @@ for cont in relevant:
             if children != []:
                 for par in parents:
                     for child in children:
-                        data.add((par, child, 'zdrob.'))
+                        # check if lemmas exist in DeriNet and take POS
+                        check_ch = searchLexeme(child)
+                        check_pr = searchLexeme(par)
+                        if check_ch and check_pr:
+                            if '–' not in child:
+                                child = child + '–' + check_ch[1]
+                            if '–' not in par:
+                                par = par + '–' + check_pr[1]
+                            data.add((par, child, 'zdrob.'))
 
         cont = cont.replace('zdrob. expr.', '')
 
@@ -136,7 +199,15 @@ for cont in relevant:
             if children != []:
                 for child in children:
                     for par in parents:
-                        data.add((child, par, 'zdrob.'))
+                        # check if lemmas exist in DeriNet and take POS
+                        check_ch = searchLexeme(child)
+                        check_pr = searchLexeme(par)
+                        if check_ch and check_pr:
+                            if '–' not in child:
+                                child = child + '–' + check_ch[1]
+                            if '–' not in par:
+                                par = par + '–' + check_pr[1]
+                            data.add((child, par, 'zdrob.'))
 
         children = re.search(r'zdrob\. k[e]* ([0-9][^\;\:]*)', cont)
         if children:
@@ -144,7 +215,15 @@ for cont in relevant:
             if children != []:
                 for par in parents:
                     for child in children:
-                        data.add((par, child, 'zdrob.'))
+                        # check if lemmas exist in DeriNet and take POS
+                        check_ch = searchLexeme(child)
+                        check_pr = searchLexeme(par)
+                        if check_ch and check_pr:
+                            if '–' not in child:
+                                child = child + '–' + check_ch[1]
+                            if '–' not in par:
+                                par = par + '–' + check_pr[1]
+                            data.add((par, child, 'zdrob.'))
 
         children = re.search(r'zdrob\.(?! k[e]*) ([^\;\:]*)', cont)
         if children:
@@ -152,7 +231,15 @@ for cont in relevant:
             if children != []:
                 for par in parents:
                     for child in children:
-                        data.add((par, child, 'zdrob.'))
+                        # check if lemmas exist in DeriNet and take POS
+                        check_ch = searchLexeme(child)
+                        check_pr = searchLexeme(par)
+                        if check_ch and check_pr:
+                            if '–' not in child:
+                                child = child + '–' + check_ch[1]
+                            if '–' not in par:
+                                par = par + '–' + check_pr[1]
+                            data.add((par, child, 'zdrob.'))
 
         cont = cont.replace('zdrob.', '')
 
@@ -163,7 +250,15 @@ for cont in relevant:
             if children != []:
                 for par in parents:
                     for child in children:
-                        data.add((par, child, 'zpodst.'))
+                        # check if lemmas exist in DeriNet and take POS
+                        check_ch = searchLexeme(child)
+                        check_pr = searchLexeme(par)
+                        if check_ch and check_pr:
+                            if '–' not in child:
+                                child = child + '–' + check_ch[1]
+                            if '–' not in par:
+                                par = par + '–' + check_pr[1]
+                            data.add((par, child, 'zpodst.'))
 
         children = re.search(r'zpodst\.(?! k[e]*) ([^\;\:]*)', cont)
         if children:
@@ -171,7 +266,15 @@ for cont in relevant:
             if children != []:
                 for par in parents:
                     for child in children:
-                        data.add((par, child, 'zpodst.'))
+                        # check if lemmas exist in DeriNet and take POS
+                        check_ch = searchLexeme(child)
+                        check_pr = searchLexeme(par)
+                        if check_ch and check_pr:
+                            if '–' not in child:
+                                child = child + '–' + check_ch[1]
+                            if '–' not in par:
+                                par = par + '–' + check_pr[1]
+                            data.add((par, child, 'zpodst.'))
 
         cont = cont.replace('zpodst.', '')
 
@@ -182,7 +285,15 @@ for cont in relevant:
             if children != []:
                 for child in children:
                     for par in parents:
-                        data.add((child, par, 'podst.'))
+                        # check if lemmas exist in DeriNet and take POS
+                        check_ch = searchLexeme(child)
+                        check_pr = searchLexeme(par)
+                        if check_ch and check_pr:
+                            if '–' not in child:
+                                child = child + '–' + check_ch[1]
+                            if '–' not in par:
+                                par = par + '–' + check_pr[1]
+                            data.add((child, par, 'podst.'))
 
         children = re.search(r'podst\. k[e]* ([0-9][^\;\:]*)', cont)
         if children:
@@ -190,7 +301,15 @@ for cont in relevant:
             if children != []:
                 for par in parents:
                     for child in children:
-                        data.add((par, child, 'podst.'))
+                        # check if lemmas exist in DeriNet and take POS
+                        check_ch = searchLexeme(child)
+                        check_pr = searchLexeme(par)
+                        if check_ch and check_pr:
+                            if '–' not in child:
+                                child = child + '–' + check_ch[1]
+                            if '–' not in par:
+                                par = par + '–' + check_pr[1]
+                            data.add((par, child, 'podst.'))
 
         children = re.search(r'podst\.(?! k[e]*) ([^\;\:]*)', cont)
         if children:
@@ -198,7 +317,15 @@ for cont in relevant:
             if children != []:
                 for par in parents:
                     for child in children:
-                        data.add((par, child, 'podst.'))
+                        # check if lemmas exist in DeriNet and take POS
+                        check_ch = searchLexeme(child)
+                        check_pr = searchLexeme(par)
+                        if check_ch and check_pr:
+                            if '–' not in child:
+                                child = child + '–' + check_ch[1]
+                            if '–' not in par:
+                                par = par + '–' + check_pr[1]
+                            data.add((par, child, 'podst.'))
 
         cont = cont.replace('podst.', '')
 
@@ -209,7 +336,15 @@ for cont in relevant:
             if children != []:
                 for child in children:
                     for par in parents:
-                        data.add((child, par, 'nás.'))
+                        # check if lemmas exist in DeriNet and take POS
+                        check_ch = searchLexeme(child)
+                        check_pr = searchLexeme(par)
+                        if check_ch and check_pr:
+                            if '–' not in child:
+                                child = child + '–' + check_ch[1]
+                            if '–' not in par:
+                                par = par + '–' + check_pr[1]
+                            data.add((child, par, 'nás.'))
 
         children = re.search(r'nás\. k[e]* ([0-9][^\;\:]*)', cont)
         if children:
@@ -217,7 +352,15 @@ for cont in relevant:
             if children != []:
                 for par in parents:
                     for child in children:
-                        data.add((par, child, 'nás.'))
+                        # check if lemmas exist in DeriNet and take POS
+                        check_ch = searchLexeme(child)
+                        check_pr = searchLexeme(par)
+                        if check_ch and check_pr:
+                            if '–' not in child:
+                                child = child + '–' + check_ch[1]
+                            if '–' not in par:
+                                par = par + '–' + check_pr[1]
+                            data.add((par, child, 'nás.'))
 
         children = re.search(r'nás\.(?! k[e]*) ([^\;\:]*)', cont)
         if children:
@@ -225,7 +368,15 @@ for cont in relevant:
             if children != []:
                 for par in parents:
                     for child in children:
-                        data.add((par, child, 'nás.'))
+                        # check if lemmas exist in DeriNet and take POS
+                        check_ch = searchLexeme(child)
+                        check_pr = searchLexeme(par)
+                        if check_ch and check_pr:
+                            if '–' not in child:
+                                child = child + '–' + check_ch[1]
+                            if '–' not in par:
+                                par = par + '–' + check_pr[1]
+                            data.add((par, child, 'nás.'))
 
         cont = cont.replace('nás.', '')
 
@@ -239,7 +390,15 @@ for cont in relevant:
             if children != []:
                 for child in children:
                     for par in parents:
-                        data.add((child, par, 'dok.'))
+                        # check if lemmas exist in DeriNet and take POS
+                        check_ch = searchLexeme(child)
+                        check_pr = searchLexeme(par)
+                        if check_ch and check_pr:
+                            if '–' not in child:
+                                child = child + '–' + check_ch[1]
+                            if '–' not in par:
+                                par = par + '–' + check_pr[1]
+                            data.add((child, par, 'dok.'))
 
         children = re.search(r'dok\.(?! k[e]*) ([^\;\:]*)', cont)
         if children:
@@ -247,7 +406,15 @@ for cont in relevant:
             if children != []:
                 for par in parents:
                     for child in children:
-                        data.add((par, child, 'dok.'))
+                        # check if lemmas exist in DeriNet and take POS
+                        check_ch = searchLexeme(child)
+                        check_pr = searchLexeme(par)
+                        if check_ch and check_pr:
+                            if '–' not in child:
+                                child = child + '–' + check_ch[1]
+                            if '–' not in par:
+                                par = par + '–' + check_pr[1]
+                            data.add((par, child, 'dok.'))
 
         cont = cont.replace('dok.', '')
 
@@ -258,7 +425,15 @@ for cont in relevant:
             if children != []:
                 for child in children:
                     for par in parents:
-                        data.add((child, par, 'ned.'))
+                        # check if lemmas exist in DeriNet and take POS
+                        check_ch = searchLexeme(child)
+                        check_pr = searchLexeme(par)
+                        if check_ch and check_pr:
+                            if '–' not in child:
+                                child = child + '–' + check_ch[1]
+                            if '–' not in par:
+                                par = par + '–' + check_pr[1]
+                            data.add((child, par, 'ned.'))
 
         cont = cont.replace('ned.', '')
 
@@ -269,7 +444,15 @@ for cont in relevant:
             if children != []:
                 for par in parents:
                     for child in children:
-                        data.add((par, child, 'přech.'))
+                        # check if lemmas exist in DeriNet and take POS
+                        check_ch = searchLexeme(child)
+                        check_pr = searchLexeme(par)
+                        if check_ch and check_pr:
+                            if '–' not in child:
+                                child = child + '–' + check_ch[1]
+                            if '–' not in par:
+                                par = par + '–' + check_pr[1]
+                            data.add((par, child, 'přech.'))
 
 # save extracted relations and labels
 for entry in data:
