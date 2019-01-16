@@ -112,14 +112,11 @@ class TestFiles(unittest.TestCase):
 
         test_lexeme = Node(lex_id=None, pretty_id='5', lemma='lexém', morph='lexém', pos='N', tag_mask='', parent_id=None, composition_parents=[], misc={}, children=[])
         self.assertFalse(derinet.lexeme_exists(test_lexeme))
-        derinet.add_lexeme(test_lexeme)
+        derinet.add_lexeme('lexém', 'N', 'lexém')
         self.assertTrue(derinet.lexeme_exists(test_lexeme))
 
         with assert_raises(LexemeAlreadyExistsError):
-            derinet.add_lexeme(Node(lex_id=None, pretty_id='5', lemma='lexém', morph='lexém', pos='N', tag_mask='', parent_id=None, composition_parents=[], misc={}, children=[]))
-
-        with assert_raises(DeriNetError): # It is possible for this to raise a different error. But it must be a subclass of DeriNetError anyway.
-            derinet.add_lexeme(Node(lex_id=None, pretty_id='5', lemma='pseudolexém', morph='lexém-2', pos='N', tag_mask='', parent_id=None, composition_parents=[], misc={}, children=[]))
+            derinet.add_lexeme('lexém', 'N', 'lexém')
 
         # TODO test inserting malformatted lexemes.
 
@@ -209,13 +206,11 @@ class TestFiles(unittest.TestCase):
         expected_roots_0 = set()
         self.assertEqual(derinet._roots, expected_roots_0)
 
-        derinet.add_lexeme(Node(lex_id=None, pretty_id='0', lemma='lexém', morph='lexém', pos='N', tag_mask='',
-                                parent_id=None, composition_parents=[], misc={}, children=[]))
+        derinet.add_lexeme('lexém', 'N', 'lexém-1')
         expected_roots_1 = {0}
         self.assertEqual(derinet._roots, expected_roots_1)
 
-        derinet.add_lexeme(Node(lex_id=None, pretty_id='1', lemma='lexéma', morph='lexém', pos='N', tag_mask='',
-                                parent_id=None, composition_parents=[], misc={}, children=[]))
+        derinet.add_lexeme('lexém', 'N', 'lexém-2')
         expected_roots_2 = {0, 1}
         self.assertEqual(derinet._roots, expected_roots_2)
 
@@ -223,9 +218,7 @@ class TestFiles(unittest.TestCase):
     def test_roots_add_derivation(self):
         derinet = DeriNet(fname=self.data_stream_v1)
 
-        test_lexeme = Node(lex_id=None, pretty_id='5', lemma='lexém', morph='lexém', pos='N', tag_mask='',
-                           parent_id=None, composition_parents=[], misc={}, children=[])
-        derinet.add_lexeme(test_lexeme)
+        derinet.add_lexeme('lexém', 'N', 'lexém')
 
         expected_roots_1 = {0, 2, 5}
         self.assertEqual(derinet._roots, expected_roots_1)
@@ -247,9 +240,7 @@ class TestFiles(unittest.TestCase):
     def test_roots_updated_when_sort(self):
         derinet = DeriNet(fname=self.data_stream_v3)
 
-        test_lexeme = Node(lex_id=None, pretty_id='5', lemma='neseřazen', morph='neseřazen', pos='A', tag_mask='',
-                           parent_id=None, composition_parents=[], misc={}, children=[])
-        derinet.add_lexeme(test_lexeme)
+        derinet.add_lexeme('neseřazen', 'A', 'neseřazen')
         # pes, neseřazen
         expected_roots_1 = {0, 11}
         self.assertEqual(derinet._roots, expected_roots_1)

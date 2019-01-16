@@ -249,72 +249,78 @@ class DeriNet(object):
         except LexemeNotFoundError:
             logger.error('Failed to save tree with root %s', str(root))
 
-    def add_lexeme(self, node):
+    def add_lexeme(self, lemma, pos, techlemma="", tag_mask="", json=None):
         """
-        Add a new node to the database.
+        Create a new node and add it to the database. Returns the newly added node.
+        """
 
-        Doesn't add any derivations, you have to take care of these yourself.
-        In fact, the node mustn't contain any outstanding derivational links,
-        otherwise an assertion is violated.
-        """
+        # Verify that the fields are set correctly.
+        if not isinstance(lemma, str):
+            raise TypeError("lemma '{}' must be a string".format(lemma))
+
+        if not isinstance(pos, str):
+            raise TypeError("POS '{}' must be a string".format(pos))
+
+        if not isinstance(techlemma, str):
+            raise TypeError("techlemma '{}' must be a string".format(techlemma))
+
+        if not isinstance(tag_mask, str):
+            raise TypeError("tag mask '{}' must be a ".format(tag_mask))
+
+        if json is None:
+            json = {}
+
+
+        # Create the node itself.
+        node = Node(lex_id=None,
+                    pretty_id=None, # This may be required somewhere. TODO check whether and where.
+                    lemma=lemma,
+                    morph=techlemma,
+                    pos=pos,
+                    tag_mask=tag_mask,
+                    parent_id=None,
+                    composition_parents=None,
+                    misc=json,
+                    children=[])
 
         # Check that node is not present yet.
         if self.lexeme_exists(node):
             raise LexemeAlreadyExistsError("lexeme {} already exists in the database".format(pretty_lexeme(node.lemma, node.pos, node.morph)))
 
-        # Find the position to insert the node to. This also becomes its internal ID.
-        current_index = len(self._data)
 
+        # If the user doesn't have a preferred ID for the node, generate a new one.
+        lex_id = len(self._data)
+        node = node._replace(lex_id=lex_id)
 
-        # Check that the necessary fields are filled in properly.
-        # TODO check types of fields – most should be strings, some ints, some arrays/dicts.
+        if self._valid_lex_id(lex_id):
+            # TODO this allows replacing None values in the database, e.g. deleted values.
+            #  Is this actually wanted? I think so, but some may disagree.
+            raise LexemeAlreadyExistsError("lexeme with ID {} is already present as {}, cannot replace it with {}".format(
+                lex_id, self.get_lexeme(lex_id), pretty_lexeme(lemma, pos, techlemma)
+            ))
 
-        # Check that the internal ID is not set and set it to the future node position in the data array.
-        assert node.lex_id is None, "Node %s has filled lex_id. That field is internal, do not set it yourself" % (pretty_lexeme(node.lemma, node.pos, node.morph))
-        node = node._replace(lex_id=current_index)
+        if node.pretty_id:
+            if node.pretty_id in self._ids2internal:
+                raise LexemeAlreadyExistsError("lexeme id {} already exists in the database".format(node.pretty_id))
+            self._ids2internal[node.pretty_id] = lex_id
+        else:
+            # Not having a pretty_id is not a problem, self._ids2internal is not actually read anywhere.
+            logger.info("Lexeme %s doesn't have an ID" % pretty_lexeme(lemma, pos, techlemma))
 
-        # If the node doesn't have an external ID, set it. This may be required somewhere. TODO check whether and where.
-        if node.pretty_id is None:
-            node = node._replace(pretty_id="")
-
-        # Check that at least the basic node information is set.
-        assert node.lemma is not None
-        assert node.pos is not None
-        if node.morph is None:
-            # If there is no m-layer Hajič's morphology information (which, apart from Czech,
-            #  there isn't), set it to the lemma.
-            # This might be actually not the best way of handling things, but whatever.
-            #  Maybe we'd rather like to leave the field blank in that case.
-            node = node._replace(morph=node.lemma)
-
-        # Check that the node doesn't contain any derivational information and stands completely on its own.
-        assert no_parent(node), "The newly added node '%s' must not have any parents set" % (pretty_lexeme(node.lemma, node.pos, node.morph))
-        assert node.composition_parents is None or node.composition_parents == [], "The newly added node '%s' must not have any parents set" % (pretty_lexeme(node.lemma, node.pos, node.morph))
-        assert node.children is None or node.children == [], "The newly added node '%s' must not have any children set" % (pretty_lexeme(node.lemma, node.pos, node.morph))
-
-        if node.tag_mask is None:
-            node = node._replace(tag_mask="")
-        if node.misc is None:
-            node = node._replace(misc={})
 
         # Add it.
 
         self._data.append(node)
 
-        # The new node is always a root, so record it as such.
-        self._roots.add(node.lex_id)
+        self._index.setdefault(lemma, {})
+        self._index[lemma].setdefault(pos, {})
+        self._index[lemma][pos][techlemma] = lex_id
 
-        if node.pretty_id:
-            if node.pretty_id in self._ids2internal:
-                raise LexemeAlreadyExistsError("lexeme id {} already exists in the database".format(node.pretty_id))
-            self._ids2internal[node.pretty_id] = current_index
-        else:
-            # Not having a pretty_id is not a problem, self._ids2internal is not actually read anywhere.
-            logger.info("Lexeme %s doesn't have an ID" % pretty_lexeme(node.lemma, node.pos, node.morph))
+        self._roots.add(lex_id)
 
-        self._index.setdefault(node.lemma, {})
-        self._index[node.lemma].setdefault(node.pos, {})
-        self._index[node.lemma][node.pos][node.morph] = node.lex_id
+        # Return an updated representation of the lexeme.
+        return self.get_lexeme(lex_id)
+
 
     def remove_lexeme(self, node, pos=None, morph=None):
         """
