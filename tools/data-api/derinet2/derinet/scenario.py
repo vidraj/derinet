@@ -1,4 +1,5 @@
 import importlib
+from derinet.utils import DeriNetError
 import logging
 
 logging.basicConfig(level=logging.DEBUG,
@@ -55,7 +56,11 @@ class Scenario:
                 #  But where and how?
                 derinet.set_execution_context((module_name, arg_string))
 
-            derinet = instance.process(derinet)
+            try:
+                derinet = instance.process(derinet)
+            except DeriNetError as e:
+                logger.error(e)
+
             logger.info('Module {} processed.'.format(instance.signature))
 
         return derinet

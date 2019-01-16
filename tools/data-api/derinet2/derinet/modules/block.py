@@ -1,10 +1,23 @@
+from derinet.utils import DeriNetError
+import logging
+
+logging.basicConfig(level=logging.DEBUG,
+                    format='%(asctime)s %(levelname)-8s %(message)s',
+                    datefmt='%a, %d %b %Y %H:%M:%S')
+
+logger = logging.getLogger(__name__)
+
+
 class Block:
     def __init__(self, args):
         self.args = args
 
     def process(self, derinet):
         for lexeme in derinet.iter_lexemes():
-            self.process_lexeme(lexeme)
+            try:
+                self.process_lexeme(lexeme)
+            except DeriNetError as e:
+                logger.error(e)
 
         return derinet
 
