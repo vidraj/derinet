@@ -85,10 +85,15 @@ Sloučení všech extrahovaných a anotovaných dat tak, aby v datech nebyly dup
 
 ## Příznaky
 Přidání relevantních příznaků pro strojové učení.
-Rodič z DeriNetu přidán při přípravě dat, stejně tak slovní druh (N=noun, A=adjective, V=verb, D=adverb) dítěte a rodiče.
-Rod (M=masculine animate, I=masculine inanimate, F=feminine, N=neuter) přidán ze SYN2015, pouze k substantivům (v případě více možností vybrán nejfrekventovanější).
-N-gramové rozložení konce slov zatím od 1-gram do 6-gram.
+Rodič z DeriNetu (dáno automatickou anotací, u PMC dáno počáteční extrakcí) přidán při přípravě dat, stejně tak slovní druh (N=noun, A=adjective, V=verb, D=adverb) rodiče a dítěte. Ze slovního druhu byl odebrán příznak C (kompozitnosti).
+Rod (M=masculine animate, I=masculine inanimate, F=feminine, N=neuter) přidán na základě analýzy MorphoDiTa (vyskytuje se u substantiv a neposesivních adjektiv).
+Vid (P=perfective, I=imperfective, B=both) přidán na zákládě analýzy SYN2015 pouze ke slovesům (v případě více možností vybrán nejfrekventovanější pro dané lemma).
+N-gramové rozložení začátků a konců slov (zatím) od 1-gram do 6-gram.
+Začátek velkým písmenem (1=proprium, 0=non-proprium).
+Totožný začátek (1-gram) dítěte a rodiče (1=same_begin, 0=different_begin).
 
+Značka "-" znamená nespecifikovaný příznak.
+Slovní druhy, rody a vidy jsou ve tvaru kartézského součinu (RodičxDítě). Například: pokud je rodič adjektivum a dítě substantivum, výsledný příznak je AN.
 
 
 

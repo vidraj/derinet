@@ -12,6 +12,7 @@ preprocess: MergeAnnotations AddFeatures
 # extrahuje sémantické labely ze SSJČ a automaticky je anotuje
 SSJC: ../for-annotation/semantic-labels-ssjc.tsv
 	@echo 'Extraction and annotation from SSJC complete. See file: ../for-annotation/semantic-labels-ssjc.tsv'
+	@echo 'WARNING: BE CAREFUL, DATA CAN CONTAIN MANUAL ANNOTATIONS!'
 
 ../for-annotation/semantic-labels-ssjc.tsv: ssjc-utf8.xml
 	python3 'extract-ssjc.py' 'ssjc-utf8.xml' $(DERINET) > '../for-annotation/potentials-ssjc.tsv'
@@ -25,6 +26,7 @@ ssjc-utf8.xml:
 # extrahuje sémantické labely z MorfFlexu a automaticky je anotuje
 MORFFLEXCZ: ../for-annotation/semantic-labels-morfflex.tsv
 	@echo 'Extraction and annotation from MorfFlexCZ completed. See file: ../for-annotation/semantic-labels-morfflex.tsv'
+	@echo 'WARNING: BE CAREFUL, DATA CAN CONTAIN MANUAL ANNOTATIONS!'
 
 ../for-annotation/semantic-labels-morfflex.tsv:
 	python3 'extract-morfflex.py' $(DERINET) > '../for-annotation/potentials-morfflex.tsv'
@@ -35,6 +37,7 @@ MORFFLEXCZ: ../for-annotation/semantic-labels-morfflex.tsv
 # extrahuje potenciální vztahy z DeriNetu na základě Příruční mluvnice češtiny (nutná manuální anotace)
 PMC: ../for-annotation/semantic-labels-pmc.tsv
 	@echo 'Extraction and annotation from PMC completed. See file: ../for-annotation/semantic-labels-pcm.tsv'
+	@echo 'WARNING: BE CAREFUL, DATA CAN CONTAIN MANUAL ANNOTATIONS!'
 
 ../for-annotation/semantic-labels-pmc.tsv:
 	python3 'extract-pmc.py' $(DERINET) > '../for-annotation/semantic-labels-pmc.tsv'
@@ -50,30 +53,33 @@ Multiple: ../for-annotation/semantic-labels-ssjc.tsv ../for-annotation/semantic-
 # PREPROCESING DAT
 
 # sloučí anotace všech souborů
-MergeAnnotations: ../hand-annotated/semnatic-labels.tsv
-	@echo 'Merging of annotated files completed. See file: ../hand-annotated/semnatic-labels.tsv'
+MergeAnnotations: ../hand-annotated/semantic-labels.tsv
+	@echo 'Merging of annotated files completed. See file: ../hand-annotated/semantic-labels.tsv'
 
-../hand-annotated/semnatic-labels.tsv: ../for-annotation/semantic-labels-ssjc.tsv ../for-annotation/semantic-labels-morfflex.tsv ../for-annotation/semantic-labels-pmc.tsv
-	cat '../for-annotation/semantic-labels-ssjc.tsv' | grep $$'^\%' >> '../hand-annotated/semnatic-labels-1.tsv'
-	cat '../for-annotation/semantic-labels-morfflex.tsv' | grep $$'^\%' >> '../hand-annotated/semnatic-labels-1.tsv'
-	cat '../for-annotation/semantic-labels-pmc.tsv' | grep $$'^\%' >> '../hand-annotated/semnatic-labels-1.tsv'
-	cat '../hand-annotated/semnatic-labels-1.tsv' | sort | uniq > '../hand-annotated/semnatic-labels.tsv'
-	rm '../hand-annotated/semnatic-labels-1.tsv'
-	# přidat kontrolu více sémantických labelů
-	# poznámky v jednotlivých souborech (někde mizí samy?)
+../hand-annotated/semantic-labels.tsv: ../for-annotation/semantic-labels-ssjc.tsv ../for-annotation/semantic-labels-morfflex.tsv ../for-annotation/semantic-labels-pmc.tsv
+	cat '../for-annotation/semantic-labels-ssjc.tsv' | grep $$'^\%' >> '../hand-annotated/semantic-labels-1.tsv'
+	cat '../for-annotation/semantic-labels-morfflex.tsv' | grep $$'^\%' >> '../hand-annotated/semantic-labels-1.tsv'
+	cat '../for-annotation/semantic-labels-pmc.tsv' | grep $$'^\%' >> '../hand-annotated/semantic-labels-1.tsv'
+	cat '../hand-annotated/semantic-labels-1.tsv' | sed -e 's/\r//g' | sort | uniq > '../hand-annotated/semantic-labels.tsv'
+	cat '../hand-annotated/semantic-labels.tsv' | cut -d $$'\t' -f 2,3,4 | python3 'multiple-labels.py' > '../hand-annotated/multiple-labeled-all.tsv'
+	rm '../hand-annotated/semantic-labels-1.tsv'
 
 
 # restrukturalizuje dosavadní a přidá nové příznaky do dat
-AddFeatures: ../hand-annotated/MLdata-semnatic-labels.tsv
-	@echo 'Adding of features completed. See file: ../hand-annotated/MLdata-semnatic-labels.tsv'
+AddFeatures: ../hand-annotated/MLdata-semantic-labels.tsv
+	@echo 'Adding of features completed. See file: ../hand-annotated/MLdata-semantic-labels.tsv'
 
-../hand-annotated/MLdata-semnatic-labels.tsv: ../hand-annotated/semnatic-labels.tsv word-list.tsv
-	python3 'add-features.py' '../hand-annotated/semnatic-labels.tsv' 'word-list.tsv' > '../hand-annotated/MLdata-semnatic-labels.tsv'
-	# rm 'word-list.tsv'
-	# přidat rod, poč. písmeno (velké/malé), vid, request na MorphoDitu
+../hand-annotated/MLdata-semantic-labels.tsv: ../hand-annotated/semantic-labels.tsv word-list-syn2015.tsv word-list-morphodita.json
+	python3 'add-features.py' '../hand-annotated/semantic-labels.tsv' 'word-list-syn2015.tsv' 'word-list-morphodita.json' > '../hand-annotated/MLdata-semantic-labels.tsv'
+	rm 'word-list-syn2015.tsv' 'word-list-morphodita.json'
 
-word-list.tsv: syn2015.gz
-	zgrep -v '^<' 'syn2015.gz' | cut -d $$'\t' -f 1,2,3 | sort | uniq -c | sort -nr > 'word-list.tsv'
+word-list-syn2015.tsv: syn2015.gz
+	zgrep -v '^<' 'syn2015.gz' | cut -d $$'\t' -f 1,2,3 | sort | uniq -c | sort -nr > 'word-list-syn2015.tsv'
+
+word-list-morphodita.json: ../hand-annotated/semantic-labels.tsv
+	cat '../hand-annotated/semantic-labels.tsv' | cut -d $$'\t' -f 2,3 | sed -e 's/–[A-Z]*//g' | sed -e 's/\t/\n/g' | sort | uniq > 'for-analyze.txt'
+	curl -F 'data=@for-analyze.txt' -F 'output=json' http://lindat.mff.cuni.cz/services/morphodita/api/tag > 'word-list-morphodita.json'
+	rm 'for-analyze.txt'
 
 syn2015.gz:
 	echo 'You need syn2015.gz corpus from Czech National Corpus Institution.'

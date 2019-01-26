@@ -4,26 +4,40 @@
 """Add relevant features to the data."""
 
 import sys
+import json
 from collections import defaultdict, Counter
 
 
 # load SYN2015 data (freq, word, lemma, tag)
-genders = defaultdict(lambda: Counter())
+syn_aspects = defaultdict(list)
 with open(sys.argv[2], mode='r', encoding='utf-8') as f:
     for line in f:
         entry = line.rstrip('\n').split()
 
-        # gender of substantives
-        if entry[3][0] == 'N':
-            genders[(entry[2], entry[3][0])][entry[3][2]] += 1
+        if entry[3][0] == 'V':
+            syn_aspects[(entry[2], 'V')].append(entry[3][-1])
+
+for key in syn_aspects:
+    syn_aspects[key] = Counter(syn_aspects[key]).most_common(1)[0][0]
+
+
+# load MorphoDiTa data (analysed lemmas from sys.argv[1])
+modita = defaultdict()
+with open(sys.argv[3], mode='r', encoding='utf-8') as f:
+    morphodita = json.load(f)
+    for i in range(len(morphodita['result'])):
+        for entry in morphodita['result'][i]:
+            modita[entry['token']] = entry['tag']
 
 
 # header
-print('parent', 'child', 'pos_parent', 'pos_child', 'gender_parent',
-      'gender_child',
-      *reversed([str(i) + 'gram_parent' for i in range(1, 7)]),
-      *reversed([str(i) + 'gram_child' for i in range(1, 7)]),
+print('parent', 'child', 'posPC', 'genderPC', 'aspectPC', 'same_start',
+      *[str(i) + 'gram_Parent_start' for i in range(1, 7)],
+      *[str(i) + 'gram_Child_start' for i in range(1, 7)],
+      *reversed([str(i) + 'gram_Parent_end' for i in range(1, 7)]),
+      *reversed([str(i) + 'gram_Child_end' for i in range(1, 7)]),
       'label', sep='\t')
+
 
 # load input data and add features
 with open(sys.argv[1], mode='r', encoding='utf-8') as f:
@@ -34,26 +48,35 @@ with open(sys.argv[1], mode='r', encoding='utf-8') as f:
         parent = entry[1].split('–')[0]
         child = entry[2].split('–')[0]
 
-        pos_parent = entry[1].split('–')[1].replace('C', '')
+        pos_par = entry[1].split('–')[1].replace('C', '')
         pos_child = entry[2].split('–')[1].replace('C', '')
 
         label = entry[3]
 
-        # gender mark from SYN2015
-        gdr_parent = 'NA'
-        gdr_child = 'NA'
+        # gender marks from MorphoDita
+        gdr_par = modita[parent][2] if modita[parent][1] == pos_par else '-'
+        gdr_child = modita[child][2] if modita[child][1] == pos_child else '-'
+        gdr_par = gdr_par.replace('X', '-')
+        gdr_child = gdr_child.replace('X', '-')
 
-        if (parent, pos_parent) in genders:
-            gdr_parent = genders[(parent, pos_parent)].most_common(1)[0][0]
+        # aspect marks from SYN2015
+        p_key = (parent, pos_par)
+        c_key = (child, pos_child)
+        asp_par = '-' if p_key not in syn_aspects else syn_aspects[p_key]
+        asp_child = '-' if c_key not in syn_aspects else syn_aspects[c_key]
 
-        if (child, pos_child) in genders:
-            gdr_child = genders[(child, pos_child)].most_common(1)[0][0]
+        # starting n-gram
+        bg_par = [parent[:i] if len(parent) >= i else '-' for i in range(1, 7)]
+        bg_child = [child[:i] if len(child) >= i else '-' for i in range(1, 7)]
 
         # ending n-gram
-        ending_parent = reversed([parent[-i:] for i in range(1, 7)])
-        ending_child = reversed([child[-i:] for i in range(1, 7)])
+        end_par = reversed([parent[-i:] if len(parent) >= i else '-' for i in range(1, 7)])
+        end_child = reversed([child[-i:] if len(child) >= i else '-' for i in range(1, 7)])
+
+        # same start
+        same_start = '1' if parent[0].lower() == child[0].lower() else '0'
 
         # output values
-        print(parent, child, pos_parent, pos_child, gdr_parent, gdr_child,
-              *ending_parent, *ending_child, label,
-              sep='\t')
+        print(parent, child, pos_par + pos_child, gdr_par + gdr_child,
+              asp_par + asp_child, same_start, *bg_par, *bg_child, *end_par,
+              *end_child, label, sep='\t')
