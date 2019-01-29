@@ -6,12 +6,12 @@
 \	masař–N	masařka–N						
 \	Bohuš–N	Bohuška–N						
 	zvěřina–N	zvěřinečka–N						
-	vila–N	vilečka–N						
-	črta–N	črtečka–N						
+\	vila–N	vilečka–N		vilka				
+\	črta–N	črtečka–N		črtka				
 	záda–N	zádečka–N						
-	Zuzana–N	Zuzanečka–N						
+\	Zuzana–N	Zuzanečka–N		Zuzanka–N				
 \	vlna–N	vlnečka–N						
-	sláma–N	slámečka–N						
+\	sláma–N	slámečka–N		slámka				
 	hříva–N	hřívečka–N						
 	ústa–N	ústečka–N						
 	skýva–N	skývečka–N						
@@ -259,7 +259,7 @@
 	flastr–N	flastřík–N						
 	Petr–N	Petřík–N						
 	Ela–N	Elinka–N						
-	Klára–N	Klárinka–N						
+\	Klára–N	Klárinka–N		Klárka–N				
 	Lojza–N	Lojzinka–N						
 \	čuba–N	čubinka–N						
 \	bota–N	botinka–N						
@@ -621,7 +621,7 @@
 	povléci–V	povlíknout–V						
 	svléci–V	svlíknout–V						
 	mez–N	mezička–N						
-	událost–N	událostička–N						
+\	událost–N	událostička–N		událostka–N				
 	zlost–N	zlostička–N						
 	kancelář–N	kancelářička–N						
 	korporativismus–N	korporativistický–A						
