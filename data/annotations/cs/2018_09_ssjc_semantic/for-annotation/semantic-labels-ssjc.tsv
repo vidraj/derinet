@@ -123,10 +123,10 @@
 %	brzdit–V	brzdívat–V	nás.
 %	orosit–V	orosovat–V	ned.
 %	hrát–V	hraní–N	podst.
-%	hoblovat–V	ohoblovat–V	dok.
+@	hoblovat–V	ohoblovat–V	dok.
 %	dáma–N	dámička–N	zdrob.
 %	zadek–N	zadeček–N	zdrob.
-%	šachta–N	šachtice–N	zdrob.
+@	šachta–N	šachtice–N	zdrob.
 %	plínka–N	plínečka–N	zdrob.
 	poscípat–V	pojít–V	dok.
 %	Zbyněk–N	Zbyněček–N	zdrob.
@@ -225,7 +225,7 @@
 %	bloud–N	bloudek–N	zdrob.
 %	secvičit–V	secvičovat–V	ned.
 %	přeformovat–V	přeformovávat–V	ned.
-%	kazit–V	zkazit–V	dok.
+@	kazit–V	zkazit–V	dok.
 	velbloudice–N	velbloudička–N	zdrob.
 %	olovo–N	olůvko–N	zdrob.
 %	proměnný–A	proměnnost–N	podst.
@@ -543,7 +543,7 @@
 %	ukrojit–V	ukrajovat–V	ned.
 	vyřídnout–V	prořídnout–V	podst.
 %	pivnice–N	pivnička–N	zdrob.
-%	Zuzana–N	Zuzanečka–N	zdrob.
+	Zuzana–N	Zuzanečka–N	zdrob.
 %	Plzeň–N	plzeňské–N	zpodst.
 %	lyžař–N	lyžařka–N	přech.
 	nastříbřit–V	pokrýt–V	dok.
@@ -664,7 +664,7 @@
 	Róza–N	Rozina–N	zdrob.
 	znečitelnit–V	učinit–V	dok.
 	zavzlykat–V	vzlyknout–V	dok.
-%	volat–V	zavolat–V	dok.
+@	volat–V	zavolat–V	dok.
 %	zpackaný–A	zpackanost–N	podst.
 %	kridatář–N	kridatářka–N	přech.
 %	plát–N	plátek–N	zdrob.
@@ -705,7 +705,7 @@
 %	nastat–V	nastávat–V	ned.
 	ohlušit–V	schopnost–N	dok.
 	zrozeně–D	zrozeňátko–N	zdrob.
-%	šklebit–V	zešklebit–V	dok.
+@	šklebit–V	zešklebit–V	dok.
 	povystoupit–V	trochu–D	dok.
 %	čápě–N	čápátko–N	zdrob.
 %	puška–N	puštička–N	zdrob.
@@ -771,7 +771,7 @@
 	přicvokovat–V	přibít–V	dok.
 %	obkreslit–V	obkreslovat–V	ned.
 	ohledat–V	obhlédnout–V	dok.
-%	sušit–V	usušit–V	dok.
+@	sušit–V	usušit–V	dok.
 %	vplavit–V	vplavovat–V	ned.
 %	hřešit–V	hřešívat–V	nás.
 	obličej–N	obličejíček–N	zdrob.
@@ -949,7 +949,7 @@
 %	dříč–N	dříčka–N	přech.
 	postátnit–V	státní–A	dok.
 	vykysat–V	kysat–V	dok.
-%	dcera–N	dcerunka–N	zdrob.
+	dcera–N	dcerunka–N	zdrob.
 	zlapit–V	chytit–V	dok.
 	unýt–V	zmalátnět–V	podst.
 %	ustranit–V	ustraňovat–V	ned.
@@ -1189,7 +1189,7 @@
 	střihat–V	stříhávat–V	nás.
 %	titánský–A	titánskost–N	podst.
 %	převtělit–V	převtělovat–V	ned.
-%	cuchat–V	zcuchat–V	dok.
+@	cuchat–V	zcuchat–V	dok.
 	odškodnit–V	nahradit–V	dok.
 	pohubnout–V	trochu–D	dok.
 	posolit–V	posypat–V	dok.
@@ -1245,7 +1245,7 @@
 	nalízat–V	sníst–V	dok.
 	odvozit–V	dopravit–V	dok.
 %	informátor–N	informátorka–N	přech.
-%	dcera–N	dceruška–N	zdrob.
+	dcera–N	dceruška–N	zdrob.
 	prošetřit–V	důkladně–D	dok.
 %	škádlil–N	škádlílek–N	zdrob.
 	uslabit–V	zeslabit–V	dok.
@@ -1289,7 +1289,7 @@
 	omládnout–V	mládí–N	dok.
 	přistlat–V	nastlat–V	dok.
 %	barbarský–A	barbarskost–N	podst.
-%	línat–V	vylínat–V	dok.
+@	línat–V	vylínat–V	dok.
 %	uhasínat–V	uhasínávat–V	nás.
 	nakřivit–V	zkřivit–V	dok.
 %	obdivovat–V	obdivovávat–V	nás.
@@ -1676,7 +1676,7 @@
 %	obživit–V	obživovat–V	ned.
 	zadřímat–V	upadnout–V	dok.
 %	upalovat–V	upalovávat–V	nás.
-%	bobtnat–V	zbobtnat–V	dok.
+@	bobtnat–V	zbobtnat–V	dok.
 	vsout–V	vsouvat–V	ned.
 %	znít–V	znívat–V	nás.
 	podkopnout–V	porušit–V	dok.
@@ -1816,7 +1816,7 @@
 	ztuchnout–V	zatuchnout–V	dok.
 %	oplácaný–A	oplácanost–N	podst.
 %	hřích–N	hříšek–N	zdrob.
-%	kleště–N	kleštičky–N	zdrob.
+	kleště–N	kleštičky–N	zdrob.
 	zatriumfovat–V	nad–A	dok.
 %	náhoda–N	náhodička–N	zdrob.
 	bota–N	botička–N	zdrob.
@@ -1834,7 +1834,7 @@
 	vyvolený–N	vyvolenost–N	podst.
 	zasout–V	zakrýt–V	dok.
 	olíbat–V	častokrát–DC	dok.
-%	rosolovatět–V	zrosolovatět–V	dok.
+@	rosolovatět–V	zrosolovatět–V	dok.
 %	vkrádat–V	vkrádávat–V	nás.
 %	nádherný–A	nádhernost–N	podst.
 	oddrobit–V	odlámat–V	dok.
@@ -1875,11 +1875,11 @@
 	přišněrovat–V	připevnit–V	dok.
 %	nářadí–N	nářadíčko–N	zdrob.
 %	dostihnout–V	dostihovat–V	ned.
-%	číča–N	čičinka–N	zdrob.
+	číča–N	čičinka–N	zdrob.
 %	bolet–V	bolívat–V	nás.
 %	prodlévat–V	prodlévávat–V	nás.
 	zachlácholit–V	krátce–D	dok.
-%	hanbit–V	zhanbit–V	dok.
+@	hanbit–V	zhanbit–V	dok.
 	zvládnout–V	zvládat–V	ned.
 	uručit–V	dát–V	dok.
 	vchrstnout–V	prudce–D	dok.
@@ -2150,7 +2150,7 @@
 	experimentátor–N	experimentátorství–N	podst.
 	zkřišťálovět–V	zbarvení–N	dok.
 	vnuknout–V	podnět–N	dok.
-%	schovat–V	uschovat–V	dok.
+@	schovat–V	uschovat–V	dok.
 %	sosna–N	sosnička–N	zdrob.
 	doplít–V	doplivnout–V	dok.
 	nabílit–V	natřít–V	dok.
@@ -2585,7 +2585,7 @@
 	záslibní–A	záslibná–N	zpodst.
 %	zpuchřelý–A	zpuchřelost–N	podst.
 	přemotat–V	znovu–D	dok.
-%	bořit–V	zbořit–V	dok.
+@	bořit–V	zbořit–V	dok.
 	trochu–D	povzdychávat–V	ned.
 	vyškviknout–V	zakviknout–V	dok.
 %	hřib–N	hříbek–N	zdrob.
@@ -2622,7 +2622,7 @@
 	hospodář–N	hospodáříček–N	zdrob.
 %	strkat–V	strkávat–V	nás.
 %	obtěžovat–V	obtěžovávat–V	nás.
-%	koncentrovat–V	zkoncentrovat–V	dok.
+@	koncentrovat–V	zkoncentrovat–V	dok.
 	rozběsnit–V	přivést–V	dok.
 	vychrlit–V	dostat–V	dok.
 	adoptovat–V	vlastní–A	dok.
@@ -2838,7 +2838,7 @@
 	vškrabat–V	vpravit–V	dok.
 %	hodnotitel–N	hodnotitelka–N	přech.
 %	udupat–V	udupávat–V	ned.
-%	kormoutit–V	zkormoutit–V	dok.
+@	kormoutit–V	zkormoutit–V	dok.
 %	zasvěcovatel–N	zasvěcovatelka–N	přech.
 	svině–N	sviňka–N	zdrob.
 	popolézt–V	vzdálenost–N	dok.
@@ -3148,7 +3148,7 @@
 %	kačena–N	kačenka–N	zdrob.
 %	študák–N	študačka–N	přech.
 	vyrýhovat–V	vyznačit–V	dok.
-%	žádat–V	zažádat–V	dok.
+@	žádat–V	zažádat–V	dok.
 %	znesmělit–V	znesmělovat–V	ned.
 	rozbahnit–V	bahno–N	dok.
 	odběhat–V	absolvovat–V	dok.
@@ -3341,7 +3341,7 @@
 %	rozhodovat–V	rozhodovávat–V	nás.
 	okrašlovat–V	zkrášlovat–V	ned.
 	přikulhat–V	kam–D	dok.
-	bradka–N	bradička–N	zdrob.
+%	bradka–N	bradička–N	zdrob.
 %	sedlář–N	sedlářka–N	přech.
 %	vežrat–V	vežrání–N	podst.
 	razit–V	zformovat–V	dok.
@@ -3351,7 +3351,7 @@
 	ujedinit–V	osamostatnit–V	dok.
 	zaryknout–V	vzkřiknout–V	podst.
 	přesednout–V	přesedávat–V	ned.
-%	črta–N	črtečka–N	zdrob.
+	črta–N	črtečka–N	zdrob.
 %	toaleta–N	toaletka–N	zdrob.
 	sklenice–N	sklenka–N	zdrob.
 %	vypovídat–V	vypovídávat–V	nás.
@@ -3361,7 +3361,7 @@
 %	bručavý–A	bručavost–N	podst.
 	uslabit–V	oslabit–V	dok.
 	opovrhnout–V	odmítnout–V	dok.
-%	dlaň–N	dlanička–N	zdrob.
+	dlaň–N	dlanička–N	zdrob.
 	omrzet–V	přestat–V	dok.
 	zvrubovat–V	vyrýt–V	dok.
 	mžourat–V	mhourávat–V	nás.
@@ -3502,7 +3502,7 @@
 %	chládek–N	chládeček–N	zdrob.
 	načeřit–V	rozčeřit–V	dok.
 %	rukavice–N	rukavička–N	zdrob.
-%	bubnovat–V	zabubnovat–V	dok.
+@	bubnovat–V	zabubnovat–V	dok.
 %	přispěchat–V	přispěchávat–V	ned.
 %	dobýt–V	dobývat–V	ned.
 	amoroso–D	amoroso–D	zpodst.
@@ -3553,7 +3553,7 @@
 	zacvrnknout–V	cvrnknout–V	dok.
 %	nadělit–V	nadělovat–V	ned.
 %	sloužit–V	sloužívat–V	nás.
-%	mřížkovat–V	zamřížkovat–V	dok.
+@	mřížkovat–V	zamřížkovat–V	dok.
 %	primář–N	primářka–N	přech.
 %	špagát–N	špagátek–N	zdrob.
 %	lupat–V	lupnout–V	dok.
@@ -3567,7 +3567,7 @@
 	tvářit–V	tvářívat–V	nás.
 	zgalisovat–V	přijmout–V	dok.
 	vystražit–V	dát–V	dok.
-%	hojit–V	zhojit–V	dok.
+@	hojit–V	zhojit–V	dok.
 	zobsílat–V	obeslat–V	dok.
 	zamanévrovat–V	krátce–D	dok.
 	višně–N	višnička–N	zdrob.
@@ -3586,7 +3586,7 @@
 %	zobat–V	zobávat–V	nás.
 %	napravovatel–N	napravovatelka–N	přech.
 	diferencovat–V	zjišťovat–V	dok.
-%	troskotat–V	ztroskotat–V	dok.
+@	troskotat–V	ztroskotat–V	dok.
 %	odhrnout–V	odhrnovat–V	ned.
 	zvraždit–V	povraždit–V	dok.
 	sežít–V	posekat–V	dok.
@@ -3744,7 +3744,7 @@
 	rozpoznat–V	zjistit–V	dok.
 	nadvýšit–V	povýšit–V	dok.
 %	umírat–V	umírávat–V	nás.
-%	kalit–V	zkalit–V	dok.
+@	kalit–V	zkalit–V	dok.
 	přitemnit–V	zatemnit–V	dok.
 	troník–N	trojníček–N	zdrob.
 	oposlouchat–V	zevšednět–V	dok.
@@ -3886,7 +3886,7 @@
 	vyrachotit–V	vyjít–V	dok.
 %	promýt–V	promývat–V	ned.
 	zchladnět–V	zchladnout–V	dok.
-%	zopernit–V	zoperňovat–V	dok.
+@	zopernit–V	zoperňovat–V	dok.
 %	sudič–N	sudička–N	přech.
 	obtéci–V	protéci–V	dok.
 	vyhrbit–V	ohnout–V	dok.
@@ -3919,7 +3919,7 @@
 %	násobit–V	násobívat–V	nás.
 %	dub–N	doubek–N	zdrob.
 	poněmčit–V	dodat–V	dok.
-%	žalovat–V	požalovat–V	dok.
+@	žalovat–V	požalovat–V	dok.
 	přeškolit–V	vyškolit–V	dok.
 	přicupat–V	kam–D	dok.
 	přihustit–V	stlačený–A	dok.
@@ -4145,7 +4145,7 @@
 %	dojídat–V	dojídávat–V	nás.
 %	odebírat–V	odebírávat–V	nás.
 %	revident–N	revidentka–N	přech.
-%	mizet–V	zmizet–V	dok.
+@	mizet–V	zmizet–V	dok.
 %	obvázat–V	obvazovat–V	ned.
 %	podvodník–N	podvodníček–N	zdrob.
 	zatřísknout–V	zavřít–V	podst.
@@ -4470,7 +4470,7 @@
 	rozbahnit–V	proměnit–V	dok.
 %	umocňovatel–N	umocňovatelka–N	přech.
 %	účelný–A	účelnost–N	podst.
-%	dožít–V	dožínat–V	ned.
+	dožít–V	dožínat–V	ned.
 	předehnat–V	předhonit–V	dok.
 %	fald–N	faldík–N	zdrob.
 %	Mirek–N	Mireček–N	zdrob.
@@ -4725,7 +4725,7 @@
 %	přikrášlit–V	přikrašlovat–V	ned.
 	srolovat–V	svinout–V	dok.
 %	ujistit–V	ujišťovat–V	ned.
-%	čimčarovat–V	začimčarovat–V	dok.
+@	čimčarovat–V	začimčarovat–V	dok.
 	dokroutit–V	dokončit–V	dok.
 	doschnout–V	dosýchat–V	ned.
 	obrýt–V	kolem–D	dok.
@@ -5009,7 +5009,7 @@
 %	rozvírat–V	rozvírávat–V	nás.
 	přiloudat–V	dojít–V	dok.
 	přimrazit–V	domněle–D	dok.
-%	bodovat–V	obodovat–V	dok.
+@	bodovat–V	obodovat–V	dok.
 	zkoncipovat–V	sestavit–V	dok.
 	zulámat–V	zlámat–V	dok.
 %	unášet–V	unášívat–V	nás.
@@ -5222,7 +5222,7 @@
 	syn–N	syneček–N	zdrob.
 	zkosmopolitisovat–V	učinit–V	dok.
 %	salón–N	salónek–N	zdrob.
-%	třepotat–V	zatřepotat–V	dok.
+@	třepotat–V	zatřepotat–V	dok.
 	zujímat–V	ujmout–V	dok.
 	dychtit–V	žádat–V	podst.
 	vymlít–V	vymílat–V	ned.
@@ -5242,7 +5242,7 @@
 	bosý–A	bosý–A	zpodst.
 %	dávný–A	dávno–D	zpodst.
 	ustarat–V	prací–A	dok.
-%	špičatit–V	zašpičatit–V	dok.
+@	špičatit–V	zašpičatit–V	dok.
 %	vybarvit–V	vybarvovat–V	ned.
 %	rámař–N	rámařka–N	přech.
 	zčasovět–V	učinit–V	dok.
@@ -5306,7 +5306,7 @@
 %	inženýr–N	inženýrek–N	zdrob.
 %	rutinér–N	rutinérka–N	přech.
 %	bramborář–N	bramborářka–N	přech.
-%	čeřit–V	zčeřit–V	dok.
+@	čeřit–V	zčeřit–V	dok.
 %	odštípnout–V	odštipovat–V	ned.
 	pookřát–V	trochu–D	dok.
 	promoknout–V	zmoknout–V	dok.
@@ -5346,7 +5346,7 @@
 	vplížit–V	dostat–V	dok.
 %	frejíř–N	frejířka–N	přech.
 %	banda–N	bandička–N	zdrob.
-%	dřímat–V	podřimovat–V	ned.
+@	dřímat–V	podřimovat–V	ned.
 	zasvítat–V	ukázat–V	dok.
 	zašplíchnout–V	šplíchnout–V	dok.
 	zaplápolat–V	začít–V	dok.
@@ -5360,7 +5360,7 @@
 %	hovorný–A	hovornost–N	podst.
 	zmohutnit–V	učinit–V	dok.
 %	tvořitel–N	tvořitelka–N	přech.
-%	lámat–V	zlámat–V	dok.
+@	lámat–V	zlámat–V	dok.
 	žonglér–N	žonglérství–N	podst.
 %	čít–V	čití–N	podst.
 %	vydatný–A	vydatnost–N	podst.
@@ -5499,7 +5499,7 @@
 	zvýhodnit–V	učinit–V	dok.
 %	skuhrat–V	skuhrávat–V	nás.
 %	zezřejmit–V	zezřejmovat–V	ned.
-%	tyč–N	tyčinka–N	zdrob.
+	tyč–N	tyčinka–N	zdrob.
 	omrzet–V	těšit–V	dok.
 	odletět–V	odlétnout–V	dok.
 	podvléknout–V	podvlékat–V	ned.
@@ -5605,7 +5605,7 @@
 	rozčísnout–V	rozčesávat–V	ned.
 %	rozdíl–N	rozdílek–N	zdrob.
 %	dolina–N	dolinka–N	zdrob.
-%	krabatit–V	zkrabatit–V	dok.
+@	krabatit–V	zkrabatit–V	dok.
 %	karatel–N	karatelka–N	přech.
 	šuhaj–N	šohajík–N	zdrob.
 %	zchvět–V	zchvívat–V	ned.
@@ -5639,7 +5639,7 @@
 %	obkročit–V	obkročovat–V	ned.
 	zrýpat–V	zpracovat–V	dok.
 %	žerď–N	žerdička–N	zdrob.
-%	přerážet–V	zpřerážet–V	dok.
+@	přerážet–V	zpřerážet–V	dok.
 	poslovanštit–V	učinit–V	dok.
 %	nadhodit–V	nadhazovat–V	ned.
 	vypřáhnout–V	vypřahat–V	ned.
@@ -5669,7 +5669,7 @@
 %	děsný–A	děsnost–N	podst.
 	okysličit–V	nasytit–V	dok.
 %	zohavit–V	zohavovat–V	ned.
-%	zelenat–V	zezelenat–V	dok.
+@	zelenat–V	zezelenat–V	dok.
 %	záškodník–N	záškodníček–N	zdrob.
 %	jasný–A	jasno–N	zpodst.
 %	podnik–N	podniček–N	zdrob.
@@ -5990,7 +5990,7 @@
 %	ohřívač–N	ohříváček–N	zdrob.
 	proslídit–V	prohledat–V	dok.
 %	rozklobat–V	rozklobávat–V	ned.
-%	Pavel–N	Pavlíček–N	zdrob.
+	Pavel–N	Pavlíček–N	zdrob.
 	združstevnit–V	učinit–V	dok.
 %	vlasáč–N	vlasáček–N	zdrob.
 %	roubovat–V	roubovávat–V	nás.
@@ -6008,7 +6008,7 @@
 	ushromáždit–V	nashromáždit–V	dok.
 %	zalévat–V	zalévávat–V	nás.
 %	zunkat–V	zunkávat–V	nás.
-%	sláma–N	slámečka–N	zdrob.
+	sláma–N	slámečka–N	zdrob.
 	zleptat–V	rozleptat–V	dok.
 %	pofrancouzštit–V	pofrancouzšťovat–V	ned.
 %	škapulíř–N	škapulířek–N	zdrob.
@@ -6257,7 +6257,7 @@
 %	obchvátit–V	obchvacovat–V	ned.
 	obtloustnout–V	ztloustnout–V	podst.
 	rozčtvrtit–V	vytvořit–V	dok.
-%	vila–N	vilička–N	zdrob.
+	vila–N	vilička–N	zdrob.
 %	užívat–V	užívávat–V	nás.
 %	Madla–N	Madlenka–N	zdrob.
 	uchytnout–V	uchytávat–V	ned.
@@ -6275,7 +6275,7 @@
 	zahřmět–V	zahřímat–V	podst.
 %	olovnice–N	olovnička–N	zdrob.
 	úpět–V	zaúpovat–V	ned.
-%	Eva–N	Evička–N	zdrob.
+	Eva–N	Evička–N	zdrob.
 	oblíknout–V	oblékat–V	ned.
 	dechnout–V	vzduch–N	podst.
 	rozstrouhat–V	rozdrtit–V	dok.
@@ -6384,8 +6384,8 @@
 	doběhat–V	přestat–V	dok.
 %	přirůst–V	přirůstat–V	ned.
 	boule–N	boulička–N	zdrob.
-%	bručet–V	pobručovat–V	ned.
-%	chmuřit–V	zachmuřit–V	dok.
+@	bručet–V	pobručovat–V	ned.
+@	chmuřit–V	zachmuřit–V	dok.
 	dokrást–V	ukrást–V	dok.
 	plachta–N	plachtička–N	zdrob.
 	umrlý–A	umrlý–A	zpodst.
@@ -6426,7 +6426,7 @@
 	zub–N	zoubeček–N	zdrob.
 	zvěnčit–V	ověnčit–V	dok.
 %	šibenice–N	šibenička–N	zdrob.
-%	rýhovat–V	zrýhovat–V	dok.
+@	rýhovat–V	zrýhovat–V	dok.
 %	dokopat–V	dokopávat–V	ned.
 	přistřihat–V	zkrátit–V	dok.
 	prostavět–V	utratit–V	dok.
@@ -6499,7 +6499,7 @@
 %	úřední–A	úřednost–N	podst.
 	přilétnout–V	přilétat–V	ned.
 	poklesnout–V	poklesat–V	ned.
-%	jajkat–V	zajajkat–V	dok.
+@	jajkat–V	zajajkat–V	dok.
 	rozbořit–V	zbořit–V	dok.
 	vyďobnout–V	dostat–V	podst.
 %	chatař–N	chatařka–N	přech.
@@ -6518,7 +6518,7 @@
 %	vštěpovatel–N	vštěpovatelka–N	přech.
 %	lyrický–A	lyrično–N	zpodst.
 %	odpuzovat–V	odpuzovávat–V	nás.
-%	pěnit–V	zpěnit–V	dok.
+@	pěnit–V	zpěnit–V	dok.
 	ozdobit–V	pohled–N	dok.
 %	inženýr–N	inženýrka–N	přech.
 %	nepamětný–A	nepamětno–N	zpodst.
@@ -6672,7 +6672,7 @@
 %	rozpovídat–V	rozpovídávat–V	ned.
 	potmět–V	ztemnět–V	dok.
 %	zvyklost–N	zvyklůstka–N	zdrob.
-%	stupňovat–V	vystupňovat–V	dok.
+@	stupňovat–V	vystupňovat–V	dok.
 %	pověřit–V	pověřovat–V	ned.
 	ovařit–V	uvařit–V	dok.
 	šmakat–V	šmáknout–V	dok.
@@ -6687,7 +6687,7 @@
 %	probírat–V	probírávat–V	nás.
 %	stupeň–N	stupínek–N	zdrob.
 %	vypláchnout–V	vyplachovat–V	ned.
-%	osnovat–V	zosnovat–V	dok.
+@	osnovat–V	zosnovat–V	dok.
 %	hučet–V	hučívat–V	nás.
 	poledník–N	poledníček–N	zdrob.
 %	hojit–V	hojívat–V	nás.
@@ -6792,7 +6792,7 @@
 	vykrášlit–V	učinit–V	dok.
 	uchovavatel–N	uchovatelka–N	přech.
 	zalistit–V	obalit–V	dok.
-%	deformovat–V	zdeformovat–V	dok.
+@	deformovat–V	zdeformovat–V	dok.
 %	ubitý–A	ubitost–N	podst.
 	zkrotnout–V	krotnout–V	podst.
 %	šmajchlíř–N	šmajchlířka–N	přech.
@@ -7129,7 +7129,7 @@
 %	myšlenka–N	myšlenčička–N	zdrob.
 %	prohřešit–V	prohřešovat–V	ned.
 %	úzký–A	úzkost–N	podst.
-%	žalovat–V	zažalovat–V	dok.
+@	žalovat–V	zažalovat–V	dok.
 %	přepracovat–V	přepracovávat–V	ned.
 	brebtat–V	breptávat–V	nás.
 	zopravovat–V	postupně–D	dok.
@@ -7171,12 +7171,12 @@
 %	bláznit–V	bláznívat–V	nás.
 	oschnout–V	vlhkost–N	dok.
 %	potit–V	potívat–V	nás.
-%	strnout–V	ustrnout–V	dok.
+@	strnout–V	ustrnout–V	dok.
 	odpotácet–V	potácivě–D	dok.
 	ťukat–V	poťukávat–V	ned.
 %	ulhaný–A	ulhanost–N	podst.
 	zaklovat–V	klovnout–V	dok.
-%	křížkovat–V	zkřížkovat–V	dok.
+@	křížkovat–V	zkřížkovat–V	dok.
 %	pojit–V	pojívat–V	nás.
 	malér–N	maléreček–N	zdrob.
 %	Žernoseky–N	žernosecké–N	zpodst.
@@ -7321,7 +7321,7 @@
 %	šňupat–V	šňupnout–V	dok.
 	zadrchnout–V	zadrhnout–V	podst.
 %	řádit–V	řádívat–V	nás.
-%	formovat–V	zformovat–V	dok.
+@	formovat–V	zformovat–V	dok.
 	dohledat–V	úspěšně–D	dok.
 %	sát–V	sátí–N	podst.
 %	přelézat–V	přelézávat–V	nás.
@@ -7541,7 +7541,7 @@
 	zaštípit–V	vštípit–V	dok.
 	přistěhovat–V	bydliště–N	dok.
 %	upocený–A	upocenost–N	podst.
-%	tleskat–V	potleskávat–V	ned.
+@	tleskat–V	potleskávat–V	ned.
 %	zabloudit–V	zabluzovat–V	ned.
 	zdesateronásobnit–V	zdesateronásobovat–V	ned.
 	dolétnout–V	doletovat–V	ned.
@@ -7559,7 +7559,7 @@
 %	slabost–N	slabůstka–N	zdrob.
 	zamyslit–V	zamýšlet–V	ned.
 	ovládnout–V	ovládat–V	ned.
-%	vlnit–V	zvlnit–V	dok.
+@	vlnit–V	zvlnit–V	dok.
 %	dudat–V	dudávat–V	nás.
 %	pít–V	pívat–V	nás.
 %	zhovadilý–A	zhovadilost–N	podst.
@@ -7663,7 +7663,7 @@
 	zesvětlet–V	nabýt–V	dok.
 	skupit–V	skupovat–V	ned.
 	prostydnout–V	prostudit–V	podst.
-%	opakovat–V	zopakovat–V	dok.
+@	opakovat–V	zopakovat–V	dok.
 %	zmodrat–V	zmodrávat–V	ned.
 	podebrat–V	zhnisat–V	dok.
 	učitelský–A	učitelský–A	zpodst.
@@ -8050,7 +8050,7 @@
 	vkomponovat–V	zasadit–V	dok.
 	dojmout–V	hluboce–D	dok.
 %	varhany–N	varhánky–N	zdrob.
-%	láhev–N	lahvice–N	zdrob.
+@	láhev–N	lahvice–N	zdrob.
 	zapípnout–V	pípnout–V	podst.
 %	vydědit–V	vyděďovat–V	ned.
 	podezdít–V	část–N	dok.
@@ -8100,11 +8100,11 @@
 	zespolečnit–V	učinit–V	dok.
 %	pramen–N	pramínek–N	zdrob.
 	zafičet–V	fičet–V	dok.
-%	kabonit–V	zkabonit–V	dok.
+@	kabonit–V	zkabonit–V	dok.
 %	kořen–N	kořínek–N	zdrob.
 %	ztracený–A	ztracenost–N	podst.
 %	čuně–N	čuňátko–N	zdrob.
-%	črta–N	črtička–N	zdrob.
+	črta–N	črtička–N	zdrob.
 	zabitý–A	zabitý–A	zpodst.
 	usnést–V	stanovit–V	dok.
 %	pomačkat–V	pomačkávat–V	ned.
@@ -8244,7 +8244,7 @@
 %	stavař–N	stavařka–N	přech.
 %	združstevnit–V	združstevňovat–V	ned.
 	muzikant–N	muzikantství–N	podst.
-%	malovat–V	vymalovat–V	dok.
+@	malovat–V	vymalovat–V	dok.
 %	excísař–N	excísařovna–N	přech.
 %	bosý–A	bosost–N	podst.
 	zahřížit–V	pokrýt–V	dok.
@@ -8291,7 +8291,7 @@
 %	brebtavý–A	brebtavost–N	podst.
 %	poodhrnout–V	poodhrnovat–V	ned.
 	provlhnout–V	zvlhnout–V	dok.
-%	hlava–N	hlavička–N	zdrob.
+	hlava–N	hlavička–N	zdrob.
 %	marný–A	marno–D	zpodst.
 	zleknout–V	leknout–V	dok.
 %	vytopit–V	vytápět–V	ned.
@@ -8302,7 +8302,7 @@
 %	vesmírný–A	vesmírnost–N	podst.
 	rozposlat–V	dopravit–V	dok.
 %	vycválaný–A	vycválanost–N	podst.
-%	hníst–V	zhníst–V	dok.
+@	hníst–V	zhníst–V	dok.
 %	jednotitel–N	jednotitelka–N	přech.
 	zhutnit–V	zpracovat–V	dok.
 	pokývat–V	trochu–D	dok.
@@ -8591,7 +8591,7 @@
 	šťoura–N	šťourálek–N	zdrob.
 %	funkce–N	funkcička–N	zdrob.
 %	získat–V	získávat–V	ned.
-%	řadit–V	seřadit–V	dok.
+@	řadit–V	seřadit–V	dok.
 	zachovávatel–N	zachovatelka–N	přech.
 %	vyrábět–V	vyrábívat–V	nás.
 %	bleptat–V	bleptávat–V	nás.
@@ -8665,7 +8665,7 @@
 %	ruchadlo–N	ruchadýlko–N	zdrob.
 	přistihnout–V	při–A	dok.
 %	rozvést–V	rozvádět–V	ned.
-%	dělat–V	udělat–V	dok.
+@	dělat–V	udělat–V	dok.
 	vypustnout–V	vyblednout–V	podst.
 %	ložnice–N	ložnička–N	zdrob.
 %	Petr–N	Petřík–N	zdrob.
@@ -8693,7 +8693,7 @@
 %	flirt–N	flirtík–N	zdrob.
 	začíst–V	ponořit–V	podst.
 	vyhorovat–V	užít–V	dok.
-%	lakovat–V	nalakovat–V	dok.
+@	lakovat–V	nalakovat–V	dok.
 	rozžvýkat–V	rozmělnit–V	dok.
 %	vydrbat–V	vydrbávat–V	ned.
 %	cihla–N	cihelka–N	zdrob.
@@ -8965,7 +8965,7 @@
 %	vlažný–A	vlažnost–N	podst.
 	utvárnit–V	ztvárnit–V	dok.
 	svrasknout–V	nabýt–V	dok.
-%	cenit–V	vycenit–V	dok.
+@	cenit–V	vycenit–V	dok.
 	hádač–N	hadačka–N	přech.
 	rozhlédnout–V	rozhlížet–V	ned.
 %	střádat–V	střádávat–V	nás.
@@ -9029,7 +9029,7 @@
 %	Jelena–N	Jelenka–N	zdrob.
 	dopídit–V	dovědět–V	dok.
 	sladovnický–A	sladovnický–A	zpodst.
-%	paličkovat–V	zpaličkovat–V	dok.
+@	paličkovat–V	zpaličkovat–V	dok.
 	upozdit–V	zpozdit–V	dok.
 	zahvízdnout–V	zapísknout–V	dok.
 %	varhaník–N	varhaníček–N	zdrob.
@@ -9051,7 +9051,7 @@
 	vychlemtnout–V	zhltnout–V	dok.
 	překomplikovat–V	přespříliš–D	dok.
 	zbřednout–V	rozbřednout–V	dok.
-%	třepetat–V	zatřepetat–V	dok.
+@	třepetat–V	zatřepetat–V	dok.
 %	odplakat–V	odplakávat–V	ned.
 %	horovat–V	horovávat–V	nás.
 	perspektiva–N	perspektivnost–N	podst.
@@ -9266,7 +9266,7 @@
 %	ztratit–V	ztrácet–V	ned.
 %	namítat–V	namítnout–V	dok.
 %	odvětrat–V	odvětrávat–V	ned.
-%	uniformovat–V	zuniformovat–V	dok.
+@	uniformovat–V	zuniformovat–V	dok.
 %	roh–N	růžek–N	zdrob.
 %	zmlsat–V	zmlsávat–V	ned.
 	přikulit–V	dopravit–V	dok.
@@ -9302,7 +9302,7 @@
 %	svléci–V	svlékat–V	ned.
 	vklouznout–V	vklouzávat–V	ned.
 %	vmačkat–V	vmačkávat–V	ned.
-%	zout–V	vyzout–V	dok.
+@	zout–V	vyzout–V	dok.
 %	svěřovat–V	svěřovávat–V	nás.
 %	cent–N	centík–N	zdrob.
 %	vzmoci–V	vzmáhat–V	ned.
@@ -9399,7 +9399,7 @@
 %	vštěpovat–V	vštěpovávat–V	nás.
 %	tesař–N	tesařka–N	přech.
 	fakt–N	faktíček–N	zdrob.
-%	krokev–N	krokvice–N	zdrob.
+@	krokev–N	krokvice–N	zdrob.
 %	růženec–N	růženeček–N	zdrob.
 	svědit–V	zvláštní–A	podst.
 %	remíz–N	remízek–N	zdrob.
@@ -9448,7 +9448,7 @@
 %	řvavý–A	řvavost–N	podst.
 	přeplánovat–V	množství–N	dok.
 %	zaječice–N	zaječička–N	zdrob.
-%	bankrotovat–V	zbankrotovat–V	dok.
+@	bankrotovat–V	zbankrotovat–V	dok.
 %	láska–N	lástička–N	zdrob.
 	zlakotnit–V	zlakotnět–V	dok.
 	zřáskovat–V	zřasit–V	dok.
@@ -9586,7 +9586,7 @@
 	odeslat–V	odněkud–D	dok.
 	zachrustnout–V	zaskřípnout–V	dok.
 %	solit–V	solívat–V	nás.
-%	třepat–V	zatřepat–V	dok.
+@	třepat–V	zatřepat–V	dok.
 %	rozstrkat–V	rozstrkávat–V	ned.
 %	zvýšenina–N	zvýšeninka–N	zdrob.
 %	povídat–V	povídávat–V	nás.
@@ -9720,7 +9720,7 @@
 %	vstřebat–V	vstřebávat–V	ned.
 %	zajet–V	zajíždět–V	ned.
 %	bleptat–V	bleptnout–V	dok.
-%	blažit–V	zblažit–V	ned.
+@	blažit–V	zblažit–V	ned.
 	vyvřísknout–V	vydat–V	dok.
 	poodletět–V	odletět–V	dok.
 	nadvýšit–V	poněkud–D	dok.
@@ -9866,7 +9866,7 @@
 %	švitořit–V	švitořívat–V	nás.
 %	ušák–N	ušáček–N	zdrob.
 	čistidlo–N	čistítko–N	zdrob.
-	skupinka–N	skupinečka–N	zdrob.
+%	skupinka–N	skupinečka–N	zdrob.
 	uveřejnit–V	veřejnost–N	dok.
 %	provinit–V	proviňovat–V	ned.
 	ožvýkat–V	poškodit–V	dok.
@@ -10035,7 +10035,7 @@
 	povečeřet–V	pojíst–V	dok.
 %	přesytit–V	přesycovat–V	ned.
 %	dovodit–V	dovozovat–V	ned.
-%	ježit–V	zježit–V	dok.
+@	ježit–V	zježit–V	dok.
 	nadivit–V	projevit–V	dok.
 	pikolík–N	pikolíček–N	zdrob.
 %	odmítat–V	odmítávat–V	nás.
@@ -10113,7 +10113,7 @@
 %	šlehat–V	šlehávat–V	nás.
 %	diktovat–V	diktovávat–V	nás.
 	vysmolit–V	pokrýt–V	dok.
-%	vítat–V	uvítat–V	dok.
+@	vítat–V	uvítat–V	dok.
 %	vycházet–V	vycházívat–V	nás.
 	roztavit–V	skupenství–N	dok.
 	utrhat–V	postupně–D	dok.
@@ -10247,7 +10247,7 @@
 	odestlat–V	spaní–N	dok.
 	vzezvučet–V	rozeznít–V	dok.
 	zaoblit–V	učinit–V	dok.
-%	korodovat–V	zkorodovat–V	dok.
+@	korodovat–V	zkorodovat–V	dok.
 %	zámek–N	zámeček–N	zdrob.
 %	zchytralý–A	zchytralost–N	podst.
 	převyprávět–V	podat–V	dok.
@@ -10410,7 +10410,7 @@
 %	rozprášit–V	rozprašovat–V	ned.
 	stříhat–V	střihávat–V	nás.
 %	stráň–N	stráňka–N	zdrob.
-%	chránit–V	uchránit–V	dok.
+@	chránit–V	uchránit–V	dok.
 %	výpomoc–N	výpomůcka–N	zdrob.
 %	sočit–V	sočívat–V	nás.
 	zadrbat–V	krátce–D	dok.
@@ -10516,8 +10516,8 @@
 %	zbloudilec–N	zbloudilka–N	přech.
 	ztovárnit–V	zindustrializovat–V	dok.
 	zaharašit–V	zachrastit–V	dok.
-%	záplatovat–V	vyzáplatovat–V	dok.
-%	zpívat–V	pozpěvovat–V	ned.
+@	záplatovat–V	vyzáplatovat–V	dok.
+@	zpívat–V	pozpěvovat–V	ned.
 	rozchlípit–V	rozchlipovat–V	ned.
 	proplížit–V	kudy–D	dok.
 %	rozhazovač–N	rozhazovačka–N	přech.
@@ -10531,7 +10531,7 @@
 	okrvavit–V	poranit–V	podst.
 %	pročichat–V	pročichávat–V	ned.
 	podšít–V	našít–V	dok.
-%	onikat–V	zaonikat–V	dok.
+@	onikat–V	zaonikat–V	dok.
 %	předsadit–V	předsazovat–V	ned.
 	uzdvihnout–V	způsobilost–N	dok.
 %	přeříkat–V	přeříkávat–V	ned.
@@ -10763,7 +10763,7 @@
 %	pohlednice–N	pohlednička–N	zdrob.
 %	nastřelit–V	nastřelovat–V	ned.
 %	drnkat–V	drnkávat–V	nás.
-%	vila–N	vilečka–N	zdrob.
+	vila–N	vilečka–N	zdrob.
 %	bouřit–V	bouřívat–V	nás.
 	universitán–N	universitánka–N	přech.
 	hazardér–N	hazardérství–N	podst.
@@ -10903,7 +10903,7 @@
 %	zatloukat–V	zatloukávat–V	nás.
 %	státnický–A	státnickost–N	podst.
 %	tůň–N	tůňka–N	zdrob.
-%	kabonit–V	zakabonit–V	dok.
+@	kabonit–V	zakabonit–V	dok.
 	ztmavit–V	učinit–V	dok.
 %	oklepat–V	oklepávat–V	ned.
 %	osmělit–V	osmělovat–V	ned.
@@ -10936,7 +10936,7 @@
 %	poameričtit–V	poameričťovat–V	ned.
 %	Johan–N	Johana–N	přech.
 	odmočit–V	uvolnit–V	dok.
-%	pánev–N	pánvice–N	zdrob.
+@	pánev–N	pánvice–N	zdrob.
 	rozplesknout–V	dopadnout–V	dok.
 %	přehrnout–V	přehrnovat–V	ned.
 	sesle–N	seslička–N	zdrob.
@@ -11015,7 +11015,7 @@
 	ukýchat–V	zničit–V	dok.
 %	rozkývat–V	rozkývávat–V	ned.
 	předváděč–N	předváděčka–N	přech.
-%	časit–V	vyčasit–V	dok.
+@	časit–V	vyčasit–V	dok.
 %	jít–V	chodit–V	nás.
 	krouhat–V	krupka–N	zdrob.
 	odlákat–V	odvést–V	dok.
@@ -11115,7 +11115,7 @@
 %	zkrvácet–V	zkrvácovat–V	ned.
 %	rohlíkář–N	rohlíkářka–N	přech.
 %	měchýř–N	měchýřek–N	zdrob.
-%	děvče–N	dívčice–N	zdrob.
+@	děvče–N	dívčice–N	zdrob.
 %	rozetnout–V	roztětí–N	podst.
 %	polévkář–N	polévkářka–N	přech.
 %	přihrát–V	přihrávat–V	ned.
@@ -11143,7 +11143,7 @@
 %	oslavovatel–N	oslavovatelka–N	přech.
 %	přiklopit–V	přiklopovat–V	ned.
 %	špunt–N	špuntík–N	zdrob.
-%	halekat–V	zahalekat–V	dok.
+@	halekat–V	zahalekat–V	dok.
 	myslivecký–A	myslivecký–A	zpodst.
 	odbarvit–V	zbavit–V	dok.
 	ústav–N	ústaveček–N	zdrob.
@@ -11249,7 +11249,7 @@
 	sežnout–V	požít–V	dok.
 	zavlát–V	krátce–D	dok.
 %	scházet–V	scházívat–V	nás.
-%	Ruda–N	Rudýnek–N	zdrob.
+	Ruda–N	Rudýnek–N	zdrob.
 	čekan–N	čakánek–N	zdrob.
 %	šplounat–V	šplounávat–V	nás.
 %	tele–N	telátko–N	zdrob.
@@ -11269,7 +11269,7 @@
 %	pružina–N	pružinka–N	zdrob.
 	podemlít–V	odplavit–V	dok.
 	vypudit–V	odstranit–V	dok.
-%	třást–V	zatřást–V	dok.
+@	třást–V	zatřást–V	dok.
 	nakutat–V	nakopat–V	dok.
 %	odolat–V	odolávat–V	ned.
 %	šumný–A	šumno–D	zpodst.
@@ -11632,7 +11632,7 @@
 %	posvětitel–N	posvětitelka–N	přech.
 %	upříjemnit–V	upříjemňovat–V	ned.
 %	tragický–A	tragičnost–N	podst.
-%	konsolidovat–V	zkonsolidovat–V	dok.
+@	konsolidovat–V	zkonsolidovat–V	dok.
 %	zahýbat–V	zahýbávat–V	nás.
 %	stín–N	stínek–N	zdrob.
 %	utírat–V	utírávat–V	nás.
@@ -11670,7 +11670,7 @@
 	přestrašit–V	poděsit–V	dok.
 	vhostit–V	uhostit–V	dok.
 %	zchlazovat–V	zchlazovávat–V	nás.
-%	hnusit–V	zhnusit–V	dok.
+@	hnusit–V	zhnusit–V	dok.
 	odvozit–V	někam–D	dok.
 %	převtělovat–V	převtělovávat–V	nás.
 %	trávit–V	trávívat–V	nás.
@@ -11803,7 +11803,7 @@
 	zdvíhat–V	zdvihávat–V	nás.
 %	uhlíř–N	uhlířka–N	přech.
 %	zaprahnout–V	zaprahovat–V	ned.
-%	syn–N	synáček–N	zdrob.
+	syn–N	synáček–N	zdrob.
 %	podarovat–V	podarovávat–V	ned.
 	neznámý–N	neznámost–N	podst.
 %	nařídit–V	nařizovat–V	ned.
@@ -11888,7 +11888,7 @@
 %	zamodrat–V	zamodrávat–V	ned.
 %	lev–N	lvíček–N	zdrob.
 %	dožvýkat–V	dožvýkávat–V	ned.
-%	Eva–N	Evinka–N	zdrob.
+	Eva–N	Evinka–N	zdrob.
 %	povídkář–N	povídkářka–N	přech.
 	usmrtit–V	smrt–N	dok.
 	zakňučet–V	zvuk–N	dok.
@@ -11914,7 +11914,7 @@
 	vytrčet–V	nehybně–D	dok.
 %	vyrovnat–V	vyrovnávat–V	ned.
 	nabájit–V	mnoho–D	dok.
-%	hynout–V	uhynout–V	dok.
+@	hynout–V	uhynout–V	dok.
 %	bažant–N	bažantík–N	zdrob.
 %	podehnít–V	podehnívat–V	ned.
 	vydovádět–V	užít–V	dok.
@@ -12642,7 +12642,7 @@
 	rozmělnit–V	rozdrobit–V	dok.
 %	odškrabat–V	odškrabovat–V	ned.
 %	hrubián–N	hrubiánka–N	přech.
-%	komplikovat–V	zkomplikovat–V	dok.
+@	komplikovat–V	zkomplikovat–V	dok.
 	nakabonit–V	učinit–V	dok.
 	proplynit–V	nasytit–V	dok.
 %	Julius–N	Julínek–N	zdrob.
@@ -12725,11 +12725,11 @@
 %	Miloš–N	Milošek–N	zdrob.
 %	štramák–N	štramáček–N	zdrob.
 %	kominík–N	kominíček–N	zdrob.
-%	končit–V	skončit–V	dok.
+@	končit–V	skončit–V	dok.
 %	špendlíkář–N	špendlíkářka–N	přech.
 	vyrousat–V	užít–V	dok.
 %	odkopat–V	odkopávat–V	ned.
-%	sladovat–V	zesladovat–V	dok.
+@	sladovat–V	zesladovat–V	dok.
 %	obráběč–N	obráběčka–N	přech.
 	vylapat–V	schytat–V	dok.
 	ohromný–A	opatřit–V	dok.
@@ -13184,7 +13184,7 @@
 %	potvrzovat–V	potvrzovávat–V	nás.
 	zkreslit–V	zachytit–V	dok.
 	vytrácet–V	vytracovávat–V	nás.
-%	formulovat–V	zformulovat–V	dok.
+@	formulovat–V	zformulovat–V	dok.
 	odtransportovat–V	přepravit–V	dok.
 %	poutat–V	poutávat–V	nás.
 	dopídit–V	dopátrat–V	podst.
@@ -13212,7 +13212,7 @@
 %	přetížit–V	přetěžovat–V	ned.
 %	růžový–A	růžovost–N	podst.
 	trochu–D	pohekávat–V	ned.
-%	letovat–V	zaletovat–V	dok.
+@	letovat–V	zaletovat–V	dok.
 	ohlídat–V	dát–V	dok.
 %	prapor–N	praporek–N	zdrob.
 	pofoukat–V	zmírnění–N	dok.
@@ -13338,10 +13338,10 @@
 %	podělovat–V	podělovávat–V	nás.
 %	flanel–N	flanýlek–N	zdrob.
 	rozvášnit–V	vzbouřit–V	dok.
-%	mučit–V	umučit–V	dok.
+@	mučit–V	umučit–V	dok.
 	vyhýřit–V	užít–V	dok.
 %	odlidštit–V	odlidšťovat–V	ned.
-%	šňůra–N	šňůrečka–N	zdrob.
+	šňůra–N	šňůrečka–N	zdrob.
 	vycpavač–N	vycpávačka–N	přech.
 %	geniální–A	geniálnost–N	podst.
 	zestranit–V	ústraní–N	dok.
@@ -13472,7 +13472,7 @@
 	donutit–V	pohnout–V	dok.
 %	roztřídit–V	roztřiďovat–V	ned.
 %	chrt–N	chrtík–N	zdrob.
-%	hlava–N	hlavinka–N	zdrob.
+	hlava–N	hlavinka–N	zdrob.
 	přiúčtovat–V	účtování–N	dok.
 	půjčit–V	dát–V	dok.
 	ubytovat–V	opatřit–V	dok.
@@ -13569,7 +13569,7 @@
 %	rozžvýkat–V	rozžvýkávat–V	ned.
 	opuchnout–V	napuchnout–V	podst.
 %	ploužit–V	ploužívat–V	nás.
-%	tvořit–V	vytvořit–V	dok.
+@	tvořit–V	vytvořit–V	dok.
 	nahrbit–V	trochu–D	dok.
 	promáchat–V	důkladně–D	dok.
 %	zájem–N	zájmiček–N	zdrob.
@@ -13689,7 +13689,7 @@
 %	utřít–V	utírat–V	ned.
 %	okyselit–V	okyselovat–V	ned.
 %	zamotat–V	zamotávat–V	ned.
-%	pajzl–N	pajzlíček–N	zdrob.
+	pajzl–N	pajzlíček–N	zdrob.
 %	psina–N	psinka–N	zdrob.
 	napomenout–V	napomínat–V	ned.
 %	Cecílie–N	Cecilka–N	zdrob.
@@ -13728,7 +13728,7 @@
 	teplo–N	teploučko–N	zdrob.
 	zapohybovat–V	pohnout–V	dok.
 %	cicvár–N	cicvárek–N	zdrob.
-%	klusat–V	poklusávat–V	ned.
+@	klusat–V	poklusávat–V	ned.
 %	tleskat–V	tlesknout–V	dok.
 %	zdát–V	zdávat–V	nás.
 %	brambor–N	brambůrek–N	zdrob.
@@ -13785,7 +13785,7 @@
 %	obeplout–V	obeplouvat–V	ned.
 %	přimhouřit–V	přimhuřovat–V	ned.
 %	ředina–N	ředinečka–N	zdrob.
-%	burcovat–V	vyburcovat–V	dok.
+@	burcovat–V	vyburcovat–V	dok.
 	zpodtrhovat–V	postupně–D	dok.
 %	olíznout–V	olizovat–V	ned.
 %	vykrášlit–V	vykrášlovat–V	ned.
@@ -13809,7 +13809,7 @@
 %	předtisknout–V	předtiskovat–V	ned.
 	zdobit–V	zkrášlovat–V	ned.
 %	počínat–V	počínávat–V	nás.
-%	brada–N	bradička–N	zdrob.
+	brada–N	bradička–N	zdrob.
 %	ztužit–V	ztužovat–V	ned.
 	rozškrtnout–V	zapálit–V	dok.
 %	podlepit–V	podlepovat–V	ned.
@@ -13848,7 +13848,7 @@
 %	dostřelit–V	dostřelovat–V	ned.
 %	řídit–V	řídívat–V	nás.
 %	zaměřit–V	zaměřovat–V	ned.
-%	bránit–V	ubránit–V	dok.
+@	bránit–V	ubránit–V	dok.
 %	umazat–V	umazávat–V	ned.
 %	pochybovat–V	pochybovávat–V	nás.
 	zlý–A	zlý–A	zpodst.
@@ -13858,7 +13858,7 @@
 	zesentimentálnit–V	učinit–V	dok.
 	špión–N	špiónství–N	podst.
 	vyslídit–V	často–D	dok.
-%	jizba–N	jizbice–N	zdrob.
+@	jizba–N	jizbice–N	zdrob.
 %	účet–N	účtík–N	zdrob.
 %	královna–N	královnička–N	zdrob.
 %	rozčarovat–V	rozčarovávat–V	ned.
@@ -13948,7 +13948,7 @@
 %	značkář–N	značkářka–N	přech.
 %	vtancovat–V	vtancovávat–V	ned.
 	agitato–D	agitato–D	zpodst.
-%	bortit–V	zbortit–V	dok.
+@	bortit–V	zbortit–V	dok.
 %	pracovník–N	pracovníček–N	zdrob.
 	zuhelnatět–V	uhel–N	dok.
 %	vypřáhnout–V	vypřahovat–V	ned.
@@ -14003,7 +14003,7 @@
 	navolat–V	přivolat–V	dok.
 %	referent–N	referentka–N	přech.
 	sečíst–V	sčítat–V	ned.
-%	lano–N	laníčko–N	zdrob.
+	lano–N	laníčko–N	zdrob.
 %	štípat–V	štípávat–V	nás.
 %	utnout–V	utínat–V	ned.
 	vyštípnout–V	ven–D	dok.
@@ -14157,7 +14157,7 @@
 	přikovat–V	připevnit–V	dok.
 	vydovádět–V	dovádění–N	dok.
 	vyvatelínovat–V	opatřit–V	dok.
-%	Klára–N	Klárinka–N	zdrob.
+	Klára–N	Klárinka–N	zdrob.
 %	nadsadit–V	nadsazovat–V	ned.
 %	hroužit–V	hroužívat–V	nás.
 	doputovat–V	kam–D	dok.
@@ -14189,7 +14189,7 @@
 	popískovat–V	posypat–V	dok.
 	zestátnit–V	učinit–V	dok.
 	okřát–V	nabýt–V	dok.
-%	žehnat–V	požehnat–V	dok.
+@	žehnat–V	požehnat–V	dok.
 	ofotografovat–V	zobrazit–V	dok.
 %	moment–N	momentík–N	zdrob.
 	předvolat–V	zavolat–V	dok.
@@ -14235,7 +14235,7 @@
 	učitel–N	učitelíček–N	zdrob.
 	zamanévrovat–V	manévrovat–V	dok.
 	čap–N	čápek–N	zdrob.
-%	žádat–V	požádat–V	dok.
+@	žádat–V	požádat–V	dok.
 %	sbíhat–V	sbíhávat–V	nás.
 	zaječí–A	vzít–V	zpodst.
 	předaleký–A	předaleko–D	zpodst.
@@ -14278,7 +14278,7 @@
 %	západnický–A	západnickost–N	podst.
 	zatřesknout–V	třasknout–V	podst.
 	poleptat–V	trochu–D	dok.
-%	kynout–V	zkynout–V	dok.
+@	kynout–V	zkynout–V	dok.
 	doposlouchat–V	poslouchání–N	dok.
 %	košíkář–N	košíkářka–N	přech.
 	nadhodnotit–V	příliš–D	dok.
@@ -14356,7 +14356,7 @@
 	vzrojit–V	vyrojit–V	dok.
 %	chrupat–V	chrupnout–V	dok.
 	vyhopkovat–V	odkud–D	dok.
-	šňůrka–N	šňůrečka–N	zdrob.
+%	šňůrka–N	šňůrečka–N	zdrob.
 %	zadržet–V	zadržovat–V	ned.
 %	ochrnout–V	ochrnovat–V	ned.
 	chybit–V	chybívat–V	nás.
@@ -14472,7 +14472,7 @@
 	otupět–V	vztah–N	podst.
 %	přicházet–V	přicházívat–V	nás.
 	trám–N	trámeček–N	zdrob.
-%	kuklit–V	zakuklit–V	dok.
+@	kuklit–V	zakuklit–V	dok.
 %	provdat–V	provdávat–V	ned.
 %	dívčina–N	dívčinka–N	zdrob.
 	proškrábat–V	proškrabávat–V	ned.
@@ -14559,7 +14559,7 @@
 	chcípat–V	scípnout–V	dok.
 %	tesat–V	tesávat–V	nás.
 %	vystřihat–V	vystřihávat–V	ned.
-%	limonáda–N	limonádička–N	zdrob.
+	limonáda–N	limonádička–N	zdrob.
 	opěra–N	opěrka–N	zdrob.
 %	bouřný–A	bouřnost–N	podst.
 %	dloužit–V	dloužívat–V	nás.
@@ -14924,7 +14924,7 @@
 %	kovář–N	kovářík–N	zdrob.
 %	vesničan–N	vesničánek–N	zdrob.
 	zámecký–A	zámecký–A	zpodst.
-%	chvíle–N	chvilenka–N	zdrob.
+	chvíle–N	chvilenka–N	zdrob.
 	pohubnout–V	zhubnout–V	podst.
 	rozesmutnit–V	zármutek–N	dok.
 	čmárat–V	čárnout–V	dok.
@@ -15196,7 +15196,7 @@
 	rozrůznit–V	rozlišit–V	dok.
 %	rozrůznit–V	rozrůzňovat–V	ned.
 %	starat–V	starávat–V	nás.
-%	událost–N	událostička–N	zdrob.
+	událost–N	událostička–N	zdrob.
 %	vykašlat–V	vykašlávat–V	ned.
 	sepnout–V	spět–V	podst.
 %	dohovořit–V	dohovořovat–V	ned.
@@ -15425,7 +15425,7 @@
 %	obeznámit–V	obeznamovat–V	ned.
 %	cumel–N	cumlík–N	zdrob.
 	stát–N	stávat–V	nás.
-%	růže–N	růžice–N	zdrob.
+@	růže–N	růžice–N	zdrob.
 %	zabrat–V	zabírat–V	ned.
 %	napojit–V	napojovat–V	ned.
 	nasupit–V	hněvivě–D	dok.
@@ -15438,7 +15438,7 @@
 	nalinkovat–V	opatřit–V	dok.
 	zburžoasnět–V	nabýt–V	dok.
 %	Hanys–N	Hanýsek–N	zdrob.
-%	mhouřit–V	zamhouřit–V	dok.
+@	mhouřit–V	zamhouřit–V	dok.
 	probořit–V	prolomit–V	dok.
 %	posedlý–A	posedlost–N	podst.
 	rozbubnovat–V	bubnování–N	dok.
@@ -15463,7 +15463,7 @@
 %	odklinkat–V	odklinkávat–V	ned.
 %	palčivý–A	palčivost–N	podst.
 	převzít–V	přejmout–V	dok.
-%	zamknout–V	uzamknout–V	dok.
+@	zamknout–V	uzamknout–V	dok.
 %	vyvracet–V	vyvracívat–V	nás.
 	prosunout–V	dopravit–V	dok.
 	předsušit–V	usušit–V	dok.
@@ -15488,7 +15488,7 @@
 %	špendlit–V	špendlívat–V	nás.
 %	družit–V	družívat–V	nás.
 %	vpíchnout–V	vpichovat–V	ned.
-%	balancovat–V	vybalancovat–V	dok.
+@	balancovat–V	vybalancovat–V	dok.
 %	zatáhnout–V	zatahovat–V	ned.
 %	štepovat–V	štepovávat–V	nás.
 	dovykládat–V	vykládání–N	dok.
@@ -15759,14 +15759,14 @@
 	napilovat–V	poněkud–D	dok.
 %	svoboda–N	svoboděnka–N	zdrob.
 %	voskovice–N	voskovička–N	zdrob.
-%	tupit–V	ztupit–V	dok.
+@	tupit–V	ztupit–V	dok.
 %	zšeřený–A	zšeřenost–N	podst.
 	přispořit–V	uspořit–V	dok.
 %	zlehčit–V	zlehčovat–V	ned.
 %	Vladimír–NC	Vladimíra–N	přech.
 	opěvovatel–N	opěvatelka–N	přech.
 %	vytěsnit–V	vytěsňovat–V	ned.
-%	Věra–N	Věruška–N	zdrob.
+	Věra–N	Věruška–N	zdrob.
 	podplout–V	proniknout–V	dok.
 	přivinout–V	přitulit–V	dok.
 %	prskat–V	prsknout–V	dok.
@@ -15911,7 +15911,7 @@
 	zastěhotat–V	zaštěbetat–V	dok.
 	vsedat–V	usednout–V	dok.
 %	parketář–N	parketářka–N	přech.
-%	měnit–V	vyměnit–V	dok.
+@	měnit–V	vyměnit–V	dok.
 	propočíst–V	propočítávat–V	ned.
 %	vroubek–N	vroubeček–N	zdrob.
 %	začíst–V	začítat–V	ned.
@@ -15978,7 +15978,7 @@
 	tajný–N	tajný–N	zpodst.
 	veprat–V	vtlouci–V	dok.
 	zgalisovat–V	ráz–N	dok.
-%	hrbit–V	shrbit–V	dok.
+@	hrbit–V	shrbit–V	dok.
 %	živočichář–N	živočichářka–N	přech.
 	zabsolutisovat–V	učinit–V	dok.
 	udolat–V	zničit–V	dok.
@@ -16020,7 +16020,7 @@
 	mladý–A	mladý–A	zpodst.
 %	pole–N	políčko–N	zdrob.
 	přesázet–V	jedno–D	dok.
-%	skupina–N	skupinečka–N	zdrob.
+	skupina–N	skupinečka–N	zdrob.
 	odestát–V	odbýt–V	dok.
 %	rozčlenit–V	rozčleňovat–V	ned.
 	usoužit–V	připravit–V	dok.
@@ -16082,7 +16082,7 @@
 	začazovat–V	začuzovat–V	ned.
 	Bára–N	Barunka–N	zdrob.
 %	dosušit–V	dosušovat–V	ned.
-%	klímat–V	poklímávat–V	ned.
+@	klímat–V	poklímávat–V	ned.
 	turnér–N	turnerka–N	přech.
 	odkousnout–V	oddělit–V	dok.
 	rozchlípit–V	vyhrnout–V	dok.
@@ -16179,7 +16179,7 @@
 	doburácet–V	přestat–V	dok.
 %	holubice–N	holubička–N	zdrob.
 	přiskřípnout–V	poněkud–D	dok.
-%	koupat–V	vykoupat–V	dok.
+@	koupat–V	vykoupat–V	dok.
 %	postát–V	postávat–V	ned.
 %	záda–N	zádíčka–N	zdrob.
 %	vyhnít–V	vyhnívat–V	ned.
@@ -16560,7 +16560,7 @@
 %	deník–N	deníček–N	zdrob.
 %	Kristina–N	Kristinka–N	zdrob.
 	tresor–N	trezorek–N	zdrob.
-%	revolucionovat–V	zrevolucionovat–V	dok.
+@	revolucionovat–V	zrevolucionovat–V	dok.
 	přepepřit–V	příliš–D	dok.
 %	léčitel–N	léčitelka–N	přech.
 	přimotat–V	trochu–D	dok.
@@ -16820,7 +16820,7 @@
 	doplout–V	kam–D	dok.
 %	obsloužit–V	obsluhovat–V	ned.
 	vtyčit–V	vztyčit–V	dok.
-%	hekat–V	pohekávat–V	ned.
+@	hekat–V	pohekávat–V	ned.
 	doskřípat–V	skřípat–V	dok.
 	nadzdvihnout–V	zdvihnout–V	dok.
 	splasknout–V	zmenšit–V	podst.
@@ -16848,7 +16848,7 @@
 	zmáselnit–V	dodat–V	dok.
 %	hostitel–N	hostitelka–N	přech.
 	vletět–V	vlítat–V	ned.
-%	bolet–V	pobolívat–V	ned.
+@	bolet–V	pobolívat–V	ned.
 	zešimlovatět–V	zbělet–V	dok.
 %	odlidnit–V	odlidňovat–V	ned.
 %	železo–N	želízko–N	zdrob.
@@ -17086,7 +17086,7 @@
 	zhorečnit–V	uvést–V	dok.
 	zasoupeřit–V	oddat–V	dok.
 	uslitovat–V	slitovat–V	dok.
-%	rovnat–V	srovnat–V	dok.
+@	rovnat–V	srovnat–V	dok.
 %	teplý–A	teplost–N	podst.
 %	ústupek–N	ústupeček–N	zdrob.
 	přepepřit–V	opepřit–V	dok.
@@ -17369,7 +17369,7 @@
 	zamoknout–V	zamokávat–V	ned.
 	blondýn–N	blondýna–N	přech.
 %	zchlapštělý–A	zchlapštělost–N	podst.
-%	váza–N	vázička–N	zdrob.
+	váza–N	vázička–N	zdrob.
 	zčernět–V	zčernat–V	dok.
 %	prošoupat–V	prošoupávat–V	ned.
 	šplíchat–V	šplouchávat–V	nás.
@@ -17536,7 +17536,7 @@
 %	bobr–N	bobřík–N	zdrob.
 	vyplundrovat–V	vyloupit–V	dok.
 	výpravčí–N	výpravčí–N	přech.
-%	mokvat–V	zmokvat–V	dok.
+@	mokvat–V	zmokvat–V	dok.
 %	ohrnout–V	ohrnovat–V	ned.
 %	dopočítat–V	dopočítávat–V	ned.
 %	rohatý–A	rohatost–N	podst.
@@ -17898,7 +17898,7 @@
 %	vybrnkat–V	vybrnkávat–V	ned.
 	rozplesknout–V	zploštit–V	dok.
 %	loupežník–N	loupežníček–N	zdrob.
-%	soukat–V	usoukat–V	dok.
+@	soukat–V	usoukat–V	dok.
 %	promíjet–V	promíjívat–V	nás.
 	vytrávit–V	zcela–D	dok.
 %	květ–N	kvítek–N	zdrob.
@@ -18103,7 +18103,7 @@
 	nastydnout–V	prochladnutí–N	podst.
 	rozpadat–V	hustě–D	dok.
 	slunce–N	slunečko–N	zdrob.
-%	puta–N	putička–N	zdrob.
+	puta–N	putička–N	zdrob.
 %	rozeznít–V	rozeznívat–V	ned.
 	zhezčit–V	učinit–V	dok.
 %	žláza–N	žlázka–N	zdrob.
@@ -18136,7 +18136,7 @@
 %	hanbit–V	hanbívat–V	nás.
 	vyklíčit–V	klíčit–V	dok.
 	dohrkat–V	přestat–V	dok.
-%	pozorovat–V	zpozorovat–V	dok.
+@	pozorovat–V	zpozorovat–V	dok.
 %	poddaný–N	poddaná–N	přech.
 %	dobíhat–V	dobíhávat–V	nás.
 	vklenout–V	způsob–N	dok.
