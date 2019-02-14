@@ -53,31 +53,32 @@ Multiple: ../for-annotation/semantic-labels-ssjc.tsv ../for-annotation/semantic-
 # PREPROCESING DAT
 
 # sloučí anotace všech souborů
-MergeAnnotations: ../hand-annotated/semantic-labels.tsv
-	@echo 'Merging of annotated files completed. See file: ../hand-annotated/semantic-labels.tsv'
+MergeAnnotations: ../for-annotation/semantic-labels.tsv
+	@echo 'Merging of annotated files completed. See file: ../for-annotation/semantic-labels.tsv'
 
-../hand-annotated/semantic-labels.tsv: ../for-annotation/semantic-labels-ssjc.tsv ../for-annotation/semantic-labels-morfflex.tsv ../for-annotation/semantic-labels-pmc.tsv
-	cat '../for-annotation/semantic-labels-ssjc.tsv' | grep $$'^\%' >> '../hand-annotated/semantic-labels-1.tsv'
-	cat '../for-annotation/semantic-labels-morfflex.tsv' | grep $$'^\%' >> '../hand-annotated/semantic-labels-1.tsv'
-	cat '../for-annotation/semantic-labels-pmc.tsv' | grep $$'^\%' >> '../hand-annotated/semantic-labels-1.tsv'
-	cat '../hand-annotated/semantic-labels-1.tsv' | sed -e 's/\r//g' | sort | uniq > '../hand-annotated/semantic-labels.tsv'
-	cat '../hand-annotated/semantic-labels.tsv' | cut -d $$'\t' -f 2,3,4 | python3 'multiple-labels.py' > '../hand-annotated/multiple-labeled-all.tsv'
-	rm '../hand-annotated/semantic-labels-1.tsv'
+../for-annotation/semantic-labels.tsv: ../for-annotation/semantic-labels-ssjc.tsv ../for-annotation/semantic-labels-morfflex.tsv ../for-annotation/semantic-labels-pmc.tsv
+	cat '../for-annotation/semantic-labels-ssjc.tsv' | grep $$'^\%' >> '../for-annotation/semantic-labels-1.tsv'
+	cat '../for-annotation/semantic-labels-morfflex.tsv' | grep $$'^\%' >> '../for-annotation/semantic-labels-1.tsv'
+	cat '../for-annotation/semantic-labels-pmc.tsv' | grep $$'^\%' >> '../for-annotation/semantic-labels-1.tsv'
+	cat '../for-annotation/semantic-labels-1.tsv' | sed -e 's/\r//g' | sort | uniq > '../for-annotation/semantic-labels.tsv'
+	cat '../for-annotation/semantic-labels.tsv' | cut -d $$'\t' -f 2,3,4 | python3 'multiple-labels.py' > '../for-annotation/multiple-labeled-all.tsv'
+	rm '../for-annotation/semantic-labels-1.tsv'
 
 
 # restrukturalizuje dosavadní a přidá nové příznaky do dat
-AddFeatures: ../hand-annotated/MLdata-semantic-labels.tsv
-	@echo 'Adding of features completed. See file: ../hand-annotated/MLdata-semantic-labels.tsv'
+AddFeatures: ../for-annotation/MLdata-semantic-labels.tsv
+	@echo 'Adding of features completed. See file: ../for-annotation/MLdata-semantic-labels.tsv'
 
-../hand-annotated/MLdata-semantic-labels.tsv: ../hand-annotated/semantic-labels.tsv word-list-syn2015.tsv word-list-morphodita.json
-	python3 'add-features.py' '../hand-annotated/semantic-labels.tsv' 'word-list-syn2015.tsv' 'word-list-morphodita.json' > '../hand-annotated/MLdata-semantic-labels.tsv'
-	rm 'word-list-syn2015.tsv' 'word-list-morphodita.json'
+../for-annotation/MLdata-semantic-labels.tsv: ../for-annotation/semantic-labels.tsv word-list-syn2015.tsv word-list-morphodita.json
+	python3 'add-features.py' '../for-annotation/semantic-labels.tsv' 'word-list-syn2015.tsv' 'word-list-morphodita.json' > '../for-annotation/MLdata-semantic-labels.tsv'
+	rm 'word-list-morphodita.json' 
+	# rm 'word-list-syn2015.tsv' 
 
 word-list-syn2015.tsv: syn2015.gz
 	zgrep -v '^<' 'syn2015.gz' | cut -d $$'\t' -f 1,2,3 | sort | uniq -c | sort -nr > 'word-list-syn2015.tsv'
 
-word-list-morphodita.json: ../hand-annotated/semantic-labels.tsv
-	cat '../hand-annotated/semantic-labels.tsv' | cut -d $$'\t' -f 2,3 | sed -e 's/–[A-Z]*//g' | sed -e 's/\t/\n/g' | sort | uniq > 'for-analyze.txt'
+word-list-morphodita.json: ../for-annotation/semantic-labels.tsv
+	cat '../for-annotation/semantic-labels.tsv' | cut -d $$'\t' -f 2,3 | sed -e 's/–[A-Z]*//g' | sed -e 's/\t/\n/g' | sort | uniq > 'for-analyze.txt'
 	curl -F 'data=@for-analyze.txt' -F 'output=json' http://lindat.mff.cuni.cz/services/morphodita/api/tag > 'word-list-morphodita.json'
 	rm 'for-analyze.txt'
 

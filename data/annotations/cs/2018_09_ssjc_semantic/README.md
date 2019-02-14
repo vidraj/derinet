@@ -30,7 +30,7 @@ Anotační sada přidávající sémantické značky z t-lemmatu Derinetu. Hlavn
 2. automatická anotace
     - automaticky přidány značky ke vztahům, které v DeriNetu existují
     - **prepare/annotate.py** --> **for-annotation/semantic-morfflex.tsv**
-    - **hand-annotated/semantic-labels-morfflex.tsv** sloupce: značka - rodič - dítě - label
+    - **for-annotation/semantic-labels-morfflex.tsv** sloupce: značka - rodič - dítě - label
 3. vícenásobné sémantické značení
     - kontrola vztahů s více sémantickými labely
     - **prepare/multiple-labels.py** --> **for-annotation/multiple-labeled-morfflex.tsv**
@@ -38,14 +38,19 @@ Anotační sada přidávající sémantické značky z t-lemmatu Derinetu. Hlavn
 4. manuální opravy
     - manuální zásahy (opravy slovních druhů, vícenásobného labelování atd.)
 
+- v t-lemmatu DeriNetu
+    - grep '\^DI\*\*'    zdrob., např. adresáříček_,e_^(^DI*3k)
+    - grep '\^FM\*\*'    fem. a přech, např. agrobioložčin_^(^FM*3g)_(*3ka)_
+    - grep '\^FC\*\*'    přech., např. pštrosice_^(^FC*3)
+
 # Extrakce sémanických labelů z Příruční mluvnice češtiny (z t-lemmatu DeriNetu)
 Anotační sada přidávající sémantické značky manuálně získané z Derinetu. Hlavní anotace prováděna manuálně. Extrahována deminutiva (adjektivní, slovesná a adverbiální) a posesiva.
 
 ## Postup
 1. extrakce potenciálních vztahů a jejich sémantických labelů
     - na základě koncovek morfémů (koncovky z PMČ), rodiče přidány z DeriNetu
-    - **prepare/extract-pmc.py** --> **hand-annotated/potentials-pmc.tsv**
-    - **hand-annotated/semantic-labels-pmc.tsv** sloupce: značka - rodič - dítě - label
+    - **prepare/extract-pmc.py** --> **for-annotation/potentials-pmc.tsv**
+    - **for-annotation/semantic-labels-pmc.tsv** sloupce: značka - rodič - dítě - label
 2. vícenásobné sémantické značení
     - kontrola vztahů s více sémantickými labely
     - **prepare/multiple-labels.py** --> **for-annotation/multiple-labeled-pmc.tsv**
@@ -53,6 +58,9 @@ Anotační sada přidávající sémantické značky manuálně získané z Deri
 3. manuální anotace
     - manuálně oanotováno
 
+- vztahy z derinetu (viz Poznámky)
+    - potomci končící na -ův, -in
+    - potomci končící na (adjektivní, slovesné a příslovečné) deminutivní affixy (z PMČ)
 
 # Anotační značky a sémantické labely
 ## Anotační značky
@@ -65,23 +73,23 @@ Anotační sada přidávající sémantické značky manuálně získané z Deri
 ## Sémantické labely
 Platí pro vztah (sloupce: anot. značka - rodič - dítě - label), respektive pro dítě vdaném vztahu.
 
-| značka | vysvětlivka |
-| - | - |
-| zdrob. | zdrobnělina |
-| zpodst. | zpodstatnělé |
-| podst. | substantivizace |
-| nás. | násobení |
-| dok. | dokonavost |
-| ned. | nedokonavost |
-| přech. | přechýlení |
-| poses. | posesivum |
+| značka | vysvětlivka | výstupní label |
+| - | - | - |
+| zdrob. | zdrobnělina | DIMINUTIVE |
+| zpodst. | zpodstatnělé | |
+| podst. | substantivizace | |
+| nás. | násobení | ITERATIVE |
+| dok. | dokonavost | ASPECT |
+| ned. | nedokonavost | ASPECT |
+| přech. | přechýlení | FEMALE |
+| poses. | posesivum | POSSESSIVE |
 
 
-# Sloučení extrahovaných dat a přidání příznaků
+# Sloučení extrahovaných dat, přidání příznaků, závěrečná manuální anotace
 Zpracování extrahovaných dat a předpříprava pro strojové učení.
 
 ## Sloučení
-Sloučení všech extrahovaných a anotovaných dat tak, aby v datech nebyly duplicity vztahů. Výstupem data pozitivních (sémanticky labelovaných) příkladů bez duplicit. **hand-annotated/semantic-labels.tsv** sloupce: pozitivníznačka - rodič - dítě - label
+Sloučení všech extrahovaných a anotovaných dat tak, aby v datech nebyly duplicity vztahů. Výstupem data pozitivních (sémanticky labelovaných) příkladů bez duplicit. **for-annotation/semantic-labels.tsv** sloupce: pozitivníznačka - rodič - dítě - label
 
 ## Příznaky
 Přidání relevantních příznaků pro strojové učení.
@@ -95,37 +103,14 @@ Totožný začátek (1-gram) dítěte a rodiče (1=same_begin, 0=different_begin
 Značka "-" znamená nespecifikovaný příznak.
 Slovní druhy, rody a vidy jsou ve tvaru kartézského součinu (RodičxDítě). Například: pokud je rodič adjektivum a dítě substantivum, výsledný příznak je AN.
 
+## Manuální anotace
+Pomocí doplněných příznaků byla data ještě jednou zkontrolována (např. zda odpovídá vid u vztahů dok. a ned., zda odpovídá rod u přech. atp.) a na základě toho byla provedena poslední oprava/úprava, respektive anotace dat.
+
+# Strojové učení
 
 
-# Poznámky ke skriptům, návrhu anotační sady a postupu práce
-- hvězdička * znamená "použít"
-
-- statistiky
-    - z release 1.6 bylo automaticky oanotováno 9,176 vztahů sémantickým labelem
-        - z toho 9 vztahů se 2 sémantickými labely
-    - z releasu 1.7 bylo automaticky oanotováno 9,903 vztahů sémantickým labelem
-        - z toho 9 vztahů se 2 sémantickými labely
-        - zdrob.   2,783    *
-        - zpodst.  149
-        - podst.   1,009
-        - nás.     1,508    *
-        - dok.     263      *
-        - ned.     3,131    *
-        - přech.   1,209    *
-
-- v t-lemmatu DeriNetu
-    - grep '\^DI\*\*'    adresáříček_,e_^(^DI*3k)           659     zdrob.  *
-    - grep '\^FM\*\*'    agrobioložčin_^(^FM*3g)_(*3ka)_    589     fem.přivl. (+přech.)    *
-    - grep '\^FC\*\*'    pštrosice_^(^FC*3)                 10      přech    *
-
-- manuálně z PMČ
-    - přidat přivlasťovací jména 'ův', 'in' - přivl. adj.   *
-    - nesubstantivní vnitřně-slovně-druhové sémanticé vztahy (u zdrob.) - přidat z Příruční mluvnice češtiny
-
-- features (kart. souč.?)
-
+# Poznámky
 - možnost přidat deminutiva na základě SFG Adély Kalužové (vyžadovalo by obsáhlejší manuální anotaci)
-
 
 - poznámky k sémantickým labelům ([PMČ] & [B]AGASHEVA & Czech[E]ncy)
     - deminutiva {B: DIMINUTIVE}
@@ -159,7 +144,7 @@ Slovní druhy, rody a vidy jsou ve tvaru kartézského součinu (RodičxDítě).
         - E: stylistické/reduplikativní [dělá-vá-vá-vá-vá-va-t]
         - E: iterativa nemění vid svého rodiče a nelze jimi vyjádřit přítomnost; -va- slouží také ke změně vidu (tzv. sekundární imperfektiva) [zkrac-ova-t, dá-va-t] a lze jimi vyjádřit přítomnost, což iterativy nelze
 
-    - (im)perfektivizace {B: ???}
+    - (im)perfektivizace {B: ???} {ASPECT}
         - přidat ze SSJČ
         - zkontrolovat opačnost hran v SSJČ
         - E: "Vedle vidových párů se v č. vyskytují také vidové trojice typu hradit (nedok.) × nahradit (dok.) × nahrazovat (nedok.); blížit se (nedok.) × přiblížit se (dok.) × přibližovat se (nedok.). U těchto trojic existují tedy dublety v nedok. v., které jsou víceméně synonymní: hradit a nahrazovat, blížit se a přibližovat se. Patrně tady jde o rezultát koexistence a konkurence dvou různých prostředků pro tvoření vidových dvojic"
@@ -176,8 +161,8 @@ Slovní druhy, rody a vidy jsou ve tvaru kartézského součinu (RodičxDítě).
             - E: u druhově posesivních -í pro zvířata, -ský pro lidi
 
     - nezahrnout: jiný label
-        - PMČ mužské protějšky [vdova -> vdov-ec, husa -> hous-er, koza -> koz-el]; E [myš -> myš-ák]
-        - PMČ přechylováním neuter [ptáč-e, vlč-e, cikán-ě, kachn-ě, hříb-ě]; E [pod-svin-če]
+        - {MALE} PMČ mužské protějšky [vdova -> vdov-ec, husa -> hous-er, koza -> koz-el]; E [myš -> myš-ák]
+        - {YOUNG} PMČ přechylováním neuter [ptáč-e, vlč-e, cikán-ě, kachn-ě, hříb-ě]; E [pod-svin-če]
         - {SIMILATIVE} PMČ individuálně posesivní, ale význam podobnosti [kafk-ovský]; E [otc-ovský]
 
     - nazahrnout: vztahová adj. {B: RELATIONAL}
