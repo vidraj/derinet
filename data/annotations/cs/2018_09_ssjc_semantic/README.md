@@ -43,8 +43,8 @@ Anotační sada přidávající sémantické značky z t-lemmatu Derinetu. Hlavn
     - grep '\^FM\*\*'    fem. a přech, např. agrobioložčin_^(^FM*3g)_(*3ka)_
     - grep '\^FC\*\*'    přech., např. pštrosice_^(^FC*3)
 
-# Extrakce sémanických labelů z Příruční mluvnice češtiny (z t-lemmatu DeriNetu)
-Anotační sada přidávající sémantické značky manuálně získané z Derinetu. Hlavní anotace prováděna manuálně. Extrahována deminutiva (adjektivní, slovesná a adverbiální) a posesiva.
+# Extrakce sémanických labelů z Příruční mluvnice češtiny
+Anotační sada přidávající sémantické značky manuálně získané z Derinetu na základě afixů z PMČ. Hlavní anotace prováděna manuálně. Extrahována deminutiva (adjektivní, slovesná a adverbiální) a posesiva.
 
 ## Postup
 1. extrakce potenciálních vztahů a jejich sémantických labelů
@@ -62,6 +62,24 @@ Anotační sada přidávající sémantické značky manuálně získané z Deri
     - potomci končící na -ův, -in
     - potomci končící na (adjektivní, slovesné a příslovečné) deminutivní affixy (z PMČ)
 
+# Extrakce sémantických labelů z VALLEX3
+Anotační sada přidávající sémantické labely z VALLEX3. Hlavní anotace prováděna automaticky. Následně manuální kontrola. Extrahována dokonavost, nedokonavost, násobení.
+
+## Postup
+1. extrakce potenciálních vztahů a jejich sémantických labelů
+    - strukturovaná data (permutace všech dvojic v každém slovesném clusteru)
+    - **prepare/extract-vallex.py** --> **for-annotation/potentials-vallex.tsv**
+    - **for-annotation/potentials-vallex.tsv** sloupce: rodič - dítě - label
+2. automatická anotace
+    - automaticky přidány značky ke vztahům, které v DeriNetu existují
+    - **prepare/annotate.py** --> **for-annotation/semantic-labels-vallex.tsv**
+    - **for-annotation/semantic-labels-vallex.tsv** sloupce: značka - rodič - dítě - label
+3. vícenásobné sémantické značení
+    - kontrola vztahů s více sémantickými labely
+    - **prepare/multiple-labels.py** --> **for-annotation/multiple-labeled-vallex.tsv**
+    - **for-annotation/multiple-labeled-vallex.tsv** sloupce: rodič - dítě - label1 - label2 - ... - labelN
+4. manuální opravy
+
 # Anotační značky a sémantické labely
 ## Anotační značky
 | značka | vysvětlivka |
@@ -76,8 +94,8 @@ Platí pro vztah (sloupce: anot. značka - rodič - dítě - label), respektive 
 | značka | vysvětlivka | výstupní label |
 | - | - | - |
 | zdrob. | zdrobnělina | DIMINUTIVE |
-| zpodst. | zpodstatnělé | |
-| podst. | substantivizace | |
+| zpodst. | zpodstatnělé |  |
+| podst. | substantivizace |  |
 | nás. | násobení | ITERATIVE |
 | dok. | dokonavost | ASPECT |
 | ned. | nedokonavost | ASPECT |
@@ -89,7 +107,7 @@ Platí pro vztah (sloupce: anot. značka - rodič - dítě - label), respektive 
 Zpracování extrahovaných dat a předpříprava pro strojové učení.
 
 ## Sloučení
-Sloučení všech extrahovaných a anotovaných dat tak, aby v datech nebyly duplicity vztahů. Výstupem data pozitivních (sémanticky labelovaných) příkladů bez duplicit. **for-annotation/semantic-labels.tsv** sloupce: pozitivníznačka - rodič - dítě - label
+Sloučení všech extrahovaných a anotovaných dat tak, aby v datech nebyly duplicity vztahů. Výstupem data pozitivních (sémanticky labelovaných) příkladů bez duplicit. **for-annotation/semantic-labels.tsv** sloupce: pozitivníznačka - rodič - dítě - label - opravený label (je-li potřeba)
 
 ## Příznaky
 Přidání relevantních příznaků pro strojové učení.
@@ -105,12 +123,15 @@ Slovní druhy, rody a vidy jsou ve tvaru kartézského součinu (RodičxDítě).
 
 ## Manuální anotace
 Pomocí doplněných příznaků byla data ještě jednou zkontrolována (např. zda odpovídá vid u vztahů dok. a ned., zda odpovídá rod u přech. atp.) a na základě toho byla provedena poslední oprava/úprava, respektive anotace dat.
+V případě nesprávného labelu byl v souboru **for-annotation/semantic-labels.tsv** přidán do posledního (pátého) sloupce opravený label.
+Oprava chybně doplněných feature byla provedena do souboru **hand-annotated/MLdata-semantic-labels.tsv**, což je kopie téhož souboru z adresáře **for-annotation/**.
 
 # Strojové učení
 
 
 # Poznámky
 - možnost přidat deminutiva na základě SFG Adély Kalužové (vyžadovalo by obsáhlejší manuální anotaci)
+- možnost přidat iterativa a (im)perfektiva z VALLEX 3.0
 
 - poznámky k sémantickým labelům ([PMČ] & [B]AGASHEVA & Czech[E]ncy)
     - deminutiva {B: DIMINUTIVE}

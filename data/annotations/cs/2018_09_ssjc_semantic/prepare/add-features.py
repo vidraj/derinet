@@ -30,6 +30,14 @@ with open(sys.argv[3], mode='r', encoding='utf-8') as f:
             modita[entry['token']] = entry['tag']
 
 
+# load VALLEX3 data (lemma, aspect)
+vallex = defaultdict()
+with open(sys.argv[4], mode='r', encoding='utf-8') as f:
+    for line in f:
+        entry = line.rstrip('\n').split()
+        vallex[(entry[0], 'V')] = entry[1]
+
+
 # header
 print('parent', 'child', 'posPC', 'genderPC', 'aspectPC', 'same_start',
       *[str(i) + 'gram_Parent_start' for i in range(1, 7)],
@@ -38,6 +46,11 @@ print('parent', 'child', 'posPC', 'genderPC', 'aspectPC', 'same_start',
       *reversed([str(i) + 'gram_Child_end' for i in range(1, 7)]),
       'label', sep='\t')
 
+# translate Czech labels to universal labels
+labels = {'zdrob.': 'DIMINUTIVE', 'poses.': 'POSSESSIVE',
+          'dok.': 'ASPECT', 'ned.': 'ASPECT',
+          'nás.': 'ITERATIVE', 'přech.': 'FEMALE',
+          '': '-'}
 
 # load input data and add features
 with open(sys.argv[1], mode='r', encoding='utf-8') as f:
@@ -51,7 +64,7 @@ with open(sys.argv[1], mode='r', encoding='utf-8') as f:
         pos_par = entry[1].split('–')[1].replace('C', '')
         pos_child = entry[2].split('–')[1].replace('C', '')
 
-        label = entry[3]
+        label = labels[entry[4]] if len(entry) == 5 else labels[entry[3]]
 
         # gender marks from MorphoDita
         gdr_par = modita[parent][2] if modita[parent][1] == pos_par else '-'
@@ -59,11 +72,16 @@ with open(sys.argv[1], mode='r', encoding='utf-8') as f:
         gdr_par = gdr_par.replace('X', '-')
         gdr_child = gdr_child.replace('X', '-')
 
-        # aspect marks from SYN2015
+        # aspect marks from SYN2015 or VALLEX3 (if aspect is not in SYN2015)
         p_key = (parent, pos_par)
         c_key = (child, pos_child)
         asp_par = '-' if p_key not in syn_aspects else syn_aspects[p_key]
         asp_child = '-' if c_key not in syn_aspects else syn_aspects[c_key]
+
+        if asp_par == '-' and p_key in vallex:
+            asp_par = vallex[p_key]
+        if asp_child == '-' and c_key in vallex:
+            asp_child = vallex[c_key]
 
         # starting n-gram
         bg_par = [parent[:i] if len(parent) >= i else '-' for i in range(1, 7)]
