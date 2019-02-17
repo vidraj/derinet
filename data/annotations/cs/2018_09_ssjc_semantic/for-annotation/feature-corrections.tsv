@@ -1,0 +1,2375 @@
+---DIMINUTIVE---					
+(gender)					
+num	parent	child	gender_P	gender_C	
+1	adresářík	adresáříček	M	I	gender_P:I
+2	arch	aršík	M	I	gender_P:I
+3	auditek	auditeček	F	I	gender_P:I
+4	bavlník	bavlníček	I	M	gender_C:I
+5	bažant	bažantík	I	M	gender_P:M
+6	běhoun	běhounek	M	I	gender_P:I
+7	biják	bijáček	M	I	gender_P:I
+8	biják	bijásek	M	I	gender_P:I
+9	blázen	blázínek	M	I	gender_C:M
+10	bolák	boláček	I	M	gender_C:I
+11	bombarďák	bombarďáček	M	I	gender_C:M
+12	bor	borek	I	F	gender_C:I
+13	Božena	Boženka	F	M	gender_C:F
+14	budník	budníček	I	M	gender_C:I
+15	bulík	bulíček	I	M	gender_P:M
+16	buřt	buřtík	I	M	gender_C:I
+17	čáp	čápek	M	I	gender_C:M
+18	čepel	čepelka	I	F	gender_P:F
+19	čertík	čertíček	I	M	gender_P:M
+20	čert	čertík	M	I	gender_C:M
+21	chuděra	chuděrka	F	M	gender_C:F
+22	cimbál	cimbálek	I	F	gender_C:I
+23	činel	činýlek	F	I	gender_P:I
+24	citrón	citrónek	I	F	gender_C:I
+25	čurák	čuráček	I	M	gender_C:I
+26	cvok	cvoček	M	I	gender_P:I
+27	dieselák	dieseláček	M	I	gender_P:I
+28	dřevák	dřeváček	M	I	gender_P:I
+29	dřín	dřínek	I	F	gender_C:I
+30	dveře	dvířka	F	N	
+31	dýňák	dýňáček	M	I	gender_P:I
+32	fena	fenka	F	M	gender_C:F
+33	fotel	fotýlek	I	M	gender_C:I
+34	had	hádek	M	F	gender_C:M
+35	hajzl	hajzlík	M	I	gender_C:M
+36	hák	háček	I	M	gender_C:I
+37	Hilda	Hildička	M	F	gender_P:F
+38	hlaváč	hlaváček	M	I	gender_C:M
+39	hora	horka	F	N	gender_C:F
+40	hrabě	hrabátko	M	N	gender_P:N
+41	hranol	hranolek	I	F	gender_C:I
+42	inženýr	inženýrek	M	F	gender_C:M
+43	jáhelník	jáhelníček	M	I	gender_P:I
+44	jeřáb	jeřábek	M	I	gender_P:I
+45	Jura	Jurka	F	M	gender_P:M
+46	kačer	kačírek	M	I	gender_C:M
+47	Karolína	Karolínka	M	F	gender_P:F
+48	koník	koníček	M	I	gender_C:M
+49	kořen	kořínek	M	I	gender_P:I
+50	květ	kvítek	I	N	gender_C:I
+51	labutě	labuťátko	F	N	gender_P:N
+52	lázeňák	lázeňáček	M	I	gender_C:M
+53	líce	líčko	I	N	gender_P:N
+54	Madla	Madlenka	N	F	gender_P:F
+55	máj	májka	I	F	
+56	malina	malinka	F	N	gender_C:F
+57	metrák	metráček	I	M	gender_C:I
+58	milovník	milovníček	M	I	gender_C:M
+59	Mína	Minka	F	M	gender_C:F
+60	modrák	modráček	I	M	gender_C:I
+61	Morava	Moravěnka	M	F	gender_P:F
+62	motýl	motýlek	M	I	gender_C:M
+63	mýdelník	mýdelníček	M	I	gender_P:I
+64	obr	obřík	I	M	gender_P:M
+65	okoun	okounek	M	I	gender_C:M
+66	papírek	papíreček	F	I	gender_P:I
+67	papír	papírek	I	F	gender_C:I
+68	pás	pásek	I	M	gender_C:I
+69	pazour	pazourek	F	I	gender_P:I
+70	piroh	pirožek	I	F	gender_C:I
+71	plavák	plaváček	I	M	gender_C:I
+72	plena	plenka	N	F	gender_P:F
+73	plena	plénka	N	F	gender_P:F
+74	poříz	pořízek	I	M	gender_C:I
+75	prašule	prašulky	F	I	gender_C:F
+76	princ	princátko	M	N	gender_C:M
+77	Prokop	Prokůpek	I	M	gender_P:M
+78	prostředník	prostředníček	M	I	gender_P:I
+79	prsťák	prsťáček	M	I	gender_P:I
+80	puchýř	puchýřek	I	F	gender_C:I
+81	reparátek	reparáteček	F	I	gender_P:I
+82	robot	robotek	I	F	gender_C:I
+83	šafrán	šafránek	I	M	gender_C:I
+84	šálek	šáleček	F	I	gender_P:I
+85	škamna	škamnička	N	F	gender_P:F
+86	skokan	skokánek	M	I	gender_C:M
+87	škvrně	škvrňátko	F	N	gender_P:N
+88	šlehoun	šlehounek	I	M	gender_C:I
+89	šmírák	šmíráček	I	M	gender_P:M
+90	špína	špinka	F	M	gender_C:F
+91	stánek	stáneček	F	I	gender_P:I
+92	stan	stánek	I	F	gender_C:I
+93	stěhovák	stěhováček	M	I	gender_C:M
+94	stěžej	stěžejka	I	F	gender_P:F
+95	štipec	štipeček	I	F	gender_C:I
+96	štokrle	štokrlátko	F	N	gender_P:N
+97	strašák	strašáček	M	I	gender_C:M
+98	stříbrník	stříbrníček	M	I	gender_P:I
+99	stříž	střížek	F	I	gender_P:I
+100	štruple	štruplátko	F	N	gender_P:N
+101	suchar	suchárek	M	I	gender_P:I
+102	sukně	sukýnka	F	N	gender_C:F
+103	titěra	titěrka	M	F	gender_P:F
+104	titul	titulek	I	F	gender_C:I
+105	tlama	tlamka	N	F	gender_P:N
+106	traktor	traktorek	I	F	gender_C:I
+107	tričo	tričinko	M	N	gender_P:N
+108	trus	trusek	I	F	gender_C:I
+109	ústa	ústka	N	F	gender_P:F
+110	vagón	vagónek	I	F	gender_C:I
+111	vana	vanička	M	F	gender_P:F
+112	Vašek	Vašík	I	M	gender_P:M
+113	večerník	večerníček	I	M	gender_C:I
+114	vestibul	vestibulek	N	I	gender_P:I
+115	vidlák	vidláček	I	M	gender_P:M
+116	vlys	vlýsek	I	F	gender_C:I
+117	vrkoč	vrkoček	F	I	gender_P:I
+118	vrkoč	vrkůček	F	I	gender_P:I
+119	výlupek	výlupeček	M	I	gender_P:I
+120	výměnek	výměneček	F	I	gender_P:I
+121	výškrabek	výškrabeček	F	I	gender_P:I
+122	zabiják	zabijáček	M	I	gender_C:M
+123	zahradník	zahradníček	M	I	gender_C:M
+124	záhyb	záhybek	F	I	gender_P:I
+125	žalovník	žalovníček	I	M	gender_P:M
+126	zárohák	zároháček	I	M	gender_C:I
+127	závitek	záviteček	F	I	gender_P:I
+128	závod	závodek	I	F	gender_C:I
+129	zbytkák	zbytkáček	M	I	gender_P:I
+130	žejdlík	žejdlíček	I	M	gender_C:I
+131	zlatník	zlatníček	M	I	gender_C:M
+132	zmol	zmolka	I	F	gender_P:F
+133	zoře	zořička	N	F	gender_P:F
+134	žrout	žroutek	I	M	gender_P:M
+135	zvonek	zvoneček	M	I	gender_P:I
+136	zvon	zvonek	I	M	gender_C:I
+					
+num	parent	child	gender_P	gender_C	
+1	blít	blinkat	<NA>	<NA>	
+2	blouznil	blouznílek	<NA>	M	gender_P:M
+3	brána	branka	<NA>	F	gender_P:F
+4	brzy	brzičko	<NA>	<NA>	
+5	capat	capkat	<NA>	<NA>	
+6	chlubil	chlubílek	<NA>	M	gender_P:M
+7	chrupat	chrupkat	<NA>	<NA>	
+8	cupat	cupitat	<NA>	<NA>	
+9	cupat	cupkat	<NA>	<NA>	
+10	dělo	dělíčko	<NA>	N	gender_P:N
+11	dívčina	dívčinka	<NA>	F	gender_P:F
+12	drát	drátek	<NA>	I	gender_P:I
+13	drobet	drobítek	<NA>	I	gender_P:I
+14	dupat	dupitat	<NA>	<NA>	
+15	dupat	dupkat	<NA>	<NA>	
+16	hajat	hajinkat	<NA>	<NA>	
+17	halena	halenka	<NA>	F	gender_P:F
+18	hnedle	hnedlinko	<NA>	<NA>	
+19	kapat	kapkat	<NA>	<NA>	
+20	kašlík	kašlíček	<NA>	M	gender_P:I gender_C:I
+21	křáp	křápek	<NA>	I	gender_P:I
+22	Mařena	Mařenka	<NA>	F	gender_P:F
+23	minuta	minutečka	<NA>	F	gender_P:F
+24	minuta	minutka	<NA>	F	gender_P:F
+25	místo	místečko	<NA>	N	gender_P:N
+26	mlsal	mlsálek	<NA>	M	gender_P:M
+27	mučit	mučinkat	<NA>	<NA>	
+28	nutit	nutkat	<NA>	<NA>	
+29	Olina	Olinka	<NA>	F	gender_P:F
+30	papá	papínek	<NA>	M	gender_P:M
+31	papat	papinkat	<NA>	<NA>	
+32	peklo	pekélko	<NA>	N	gender_P:N
+33	peklo	peklíčko	<NA>	N	gender_P:N
+34	pidilyže	pidilyžička	<NA>	F	gender_P:F
+35	pidiměsto	pidiměstečko	<NA>	N	gender_P:N
+36	plát	plátek	<NA>	I	gender_P:I
+37	pohoří	pohoříčko	<NA>	N	gender_P:N
+38	prach	prášek	<NA>	I	gender_P:I
+39	přadeno	přadénko	<NA>	N	gender_P:N
+40	přadeno	přadýnko	<NA>	N	gender_P:N
+41	puclík	puclíček	<NA>	I	gender_P:I
+42	radlo	radýlko	<NA>	N	gender_P:N
+43	ráno	raníčko	<NA>	N	gender_P:N
+44	rubáš	rubášek	<NA>	I	gender_P:I
+45	rudl	rudlík	<NA>	I	gender_P:I
+46	šeptal	šeptálek	<NA>	M	gender_P:M
+47	šetřil	šetřílek	<NA>	M	gender_P:M
+48	šklebil	šklebílek	<NA>	M	gender_P:M
+49	škodil	škodílek	<NA>	M	gender_P:M
+50	škrtil	škrtílek	<NA>	M	gender_P:M
+51	spát	spinkat	<NA>	<NA>	
+52	spořil	spořílek	<NA>	M	gender_P:M
+53	štěbetal	štěbetálek	<NA>	M	gender_P:M
+54	šukal	šukálek	<NA>	M	gender_P:M
+55	světlo	světélko	<NA>	N	gender_P:N
+56	světlo	světýlko	<NA>	N	gender_P:N
+57	ťapat	ťapkat	<NA>	<NA>	
+58	teplo	teplíčko	<NA>	N	gender_P:N
+59	tlapat	tlapkat	<NA>	<NA>	
+60	tulení	tuleníčko	<NA>	N	gender_P:N
+61	ťupat	ťupkat	<NA>	<NA>	
+62	ulita	ulitka	<NA>	F	gender_P:F
+63	večer	večírek	<NA>	I	gender_P:I
+64	veselí	veselíčko	<NA>	N	gender_P:N
+65	vila	vilka	<NA>	F	gender_P:F
+66	Vít	Vítek	<NA>	M	gender_P:M
+67	volán	volánek	<NA>	I	gender_P:I
+68	vychloubal	vychloubálek	<NA>	M	gender_P:M
+69	zdání	zdáníčko	N	<NA>	gender_C:N
+70	žito	žitko	<NA>	N	gender_P:N
+71	žvanil	žvanílek	<NA>	M	gender_P:M
+72	žvatlal	žvatlálek	<NA>	M	gender_P:M
+					
+(apect)					
+num	parent	child	aspect_P	aspect_C	
+1	dupat	dupitat	I	<NA>	aspect_C:I
+2	hajat	hajinkat	I	<NA>	aspect_C:I
+3	mučit	mučinkat	I	<NA>	aspect_C:I
+4	papat	papinkat	I	<NA>	aspect_C:I
+5	ťupat	ťupkat	<NA>	I	aspect_P:I
+					
+---POSSESSIVE---					
+(gender)					
+num	parent	child	gender_P		
+1	Brell	Brellův	<NA>		gender_P:M
+2	Gyges	Gygův	<NA>		gender_P:M
+3	Naoko	Naočin	<NA>		gender_P:F
+4	Pener	Penrův	<NA>		gender_P:M
+5	Rochat	Rochatův	<NA>		gender_P:M
+6	Šmodrchal	Šmodrchalův	<NA>		gender_P:M
+					
+(poses)					
+num	parent	child	poses_C		
+1	archeobotanička	archeobotaniččin	0		poses_C:1
+2	aviatička	aviatiččin	0		poses_C:1
+3	Brell	Brellův	0		poses_C:1
+4	čertice	čertičin	0		poses_C:1
+5	Elena	Elenin	0		poses_C:1
+6	Francíček	Francíčkův	0		poses_C:1
+7	Hedčanka	Hedčančin	0		poses_C:1
+8	hiphoperka	hiphoperčin	0		poses_C:1
+9	hipísačka	hipísaččin	0		poses_C:1
+10	karambolistka	karambolistčin	0		poses_C:1
+11	kolistka	kolistčin	0		poses_C:1
+12	koňačka	koňaččin	0		poses_C:1
+13	konsekvencialistka	konsekvencialistčin	0		poses_C:1
+14	majolenka	majolenčin	0		poses_C:1
+15	mopedistka	mopedistčin	0		poses_C:1
+16	numizmatička	numizmatiččin	0		poses_C:1
+17	páťačka	páťaččin	0		poses_C:1
+18	Pener	Penrův	0		poses_C:1
+19	řízkařka	řízkařčin	0		poses_C:1
+20	Rončka	Rončkův	0		poses_C:1
+21	rytečka	ryteččin	0		poses_C:1
+22	spammerka	spammerčin	0		poses_C:1
+23	srnečka	srneččin	0		poses_C:1
+24	Valtičanka	Valtičančin	0		poses_C:1
+25	Varvara	Varvařin	0		poses_C:1
+26	završitelka	završitelčin	0		poses_C:1
+					
+---FEMALE---					
+(gender)					
+num	parent	child	gender_P	gender_C	
+1	albín	albínka	F	F	gender_P:M
+2	Alexandr	Alexandra	M	M	gender_C:F
+3	archeobotanik	archeobotanička	M	M	gender_C:F
+4	aviatik	aviatička	M	M	gender_C:F
+5	Bohdan	Bohdana	M	M	gender_C:F
+6	brunet	bruneta	F	M	gender_P:M gender_C:F
+7	cikán	cikánka	M	M	gender_C:F
+8	Čud	Čudka	I	F	gender_P:M gender_C:F
+9	Dalmatinec	Dalmatinka	M	M	gender_C:F
+10	Daniel	Daniela	M	M	gender_C:F
+11	diagnostik	diagnostička	F	F	gender_P:M
+12	dotahovák	dotahovačka	I	F	gender_P:I
+13	druh	družka	I	F	gender_P:M
+14	elektronik	elektronička	F	F	gender_P:M
+15	elementarista	elementaristka	N	F	gender_P:M
+16	Emil	Emílie	I	F	gender_P:M
+17	esoterik	esoterička	F	F	gender_P:M
+18	exponent	exponentka	I	F	
+19	František	Františka	M	M	gender_C:F
+20	Gabriel	Gabriela	M	M	gender_C:F
+21	geriatrik	geriatrička	I	F	gender_P:M
+22	hipísák	hipísačka	M	N	gender_C:F
+23	homeopatik	homeopatička	N	F	gender_P:M
+24	Hradečan	Hradečanka	I	F	gender_P:M
+25	Indián	Indiánka	M	M	gender_C:F
+26	informatik	informatička	F	F	gender_P:M
+27	iniciátor	iniciátorka	I	F	gender_P:M
+28	inženýr	inženýrka	M	M	gender_C:F
+29	Ivan	Ivana	M	M	gender_C:F
+30	jaguár	jaguářice	I	F	gender_P:M
+31	Johan	Johana	M	M	gender_C:F
+32	Kamil	Kamila	M	M	gender_C:F
+33	Karel	Karla	M	M	gender_C:F
+34	kompilátor	kompilátorka	I	F	gender_P:M
+35	koňák	koňačka	M	N	gender_C:F
+36	Ladislav	Ladislava	M	M	gender_C:F
+37	Leopold	Leopolda	F	F	gender_P:M
+38	Marcel	Marcela	M	M	gender_C:F
+39	Michael	Michaela	M	M	gender_C:F
+40	Miloslav	Miloslava	M	M	gender_C:F
+41	Miroslav	Miroslava	M	M	gender_C:F
+42	mixér	mixérka	I	F	
+43	návodce	návodkyně	F	F	gender_P:M
+44	neonatolog	neonatoložka	F	F	gender_P:M
+45	Nor	Norka	N	F	gender_P:M
+46	numizmatik	numizmatička	M	N	gender_C:F
+47	obr	obryně	I	F	gender_P:M
+48	osteolog	osteoložka	F	F	
+49	Pavel	Pavla	M	M	gender_C:F
+50	Petr	Petra	M	M	gender_C:F
+51	pilot	pilotka	I	F	gender_P:M
+52	ponocný	ponocná	F	F	gender_P:M
+53	preparátor	preparátorka	I	F	gender_P:M
+54	primatolog	primatoložka	I	F	gender_P:M
+55	prior	priorka	N	F	gender_P:M
+56	prognostik	prognostička	F	F	gender_P:M
+57	radikál	radikálka	I	F	gender_P:M
+58	Rafael	Rafaela	M	M	gender_C:F
+59	robopsycholog	robopsycholožka	F	F	gender_P:M
+60	Rudolf	Rudolfka	M	M	gender_C:F
+61	rytec	rytečka	M	N	gender_C:F
+62	Sas	Saska	M	M	gender_C:F
+63	skandinavista	skandinavistka	N	F	gender_P:M
+64	škarohlídek	škarohlídka	F	F	gender_P:M
+65	šlapač	šlapačka	I	F	gender_P:M
+66	šosák	šosačka	I	F	gender_P:M
+67	srneček	srnečka	M	M	gender_C:F
+68	Stanislav	Stanislava	M	M	gender_C:F
+69	Štěpán	Štěpánka	M	M	gender_C:F
+70	sufražista	sufražistka	N	F	gender_P:M
+71	Talián	Taliánka	I	F	gender_P:M
+72	Tatar	Tatarka	M	M	gender_C:F
+73	tercián	terciánka	F	F	gender_P:M
+74	Tyrolák	Tyrolačka	I	F	gender_P:M
+75	Uher	Uherka	I	F	gender_P:M
+76	ukládač	ukládačka	I	F	gender_P:M
+77	ukulelista	ukulelistka	N	F	gender_P:M
+78	umocňovatel	umocňovatelka	I	F	gender_P:M
+79	Velkorus	Velkoruska	M	N	gender_C:F
+80	Vladek	Vladka	M	M	gender_C:F
+81	Vladimír	Vladimíra	M	M	gender_C:F
+82	Vladislav	Vladislava	M	M	gender_C:F
+83	Vojtěch	Vojtěška	M	M	gender_C:F
+84	vyhledávač	vyhledávačka	I	F	gender_P:M
+85	vyhoštěnec	vyhoštěnka	M	M	gender_C:F
+86	zákusek	zákuska	I	F	
+87	zimomřivec	zimomřivka	I	N	gender_P:M
+88	zootechnik	zootechnička	F	F	gender_P:M
+					
+num	parent	child	gender_P	gender_C	
+1	chmelař	chmelařka	<NA>	F	gender_P:M
+2	hostinský	hostinská	<NA>	F	gender_P:M
+3	lyžař	lyžařka	<NA>	F	gender_P:M
+4	obžalovaný	obžalovaná	<NA>	<NA>	gender_P:M gender_C:F
+5	odsouzený	odsouzená	<NA>	<NA>	gender_P:M gender_C:F
+6	poddaný	poddaná	<NA>	<NA>	gender_P:M gender_C:F
+7	představený	představená	<NA>	<NA>	gender_P:M gender_C:F
+8	proutkař	proutkařka	<NA>	F	gender_P:M
+9	šidil	šidilka	<NA>	F	gender_P:M
+10	šprýmař	šprýmařka	<NA>	F	gender_P:M
+11	Valencien	Valencienka	<NA>	F	gender_P:M
+12	žvanil	žvanilka	<NA>	F	gender_P:M
+13	žvatlal	žvatlalka	<NA>	F	gender_P:M
+					
+---ITERATIVE---					
+(aspect)					
+num	parent	child	aspect_P	aspect_C	
+1	pást	pásat	I	P	aspect_C:I
+					
+num	parent	child	aspect_P	aspect_C	
+1	agitovat	agitovávat	I	<NA>	aspect_C:I
+2	bafat	bafávat	I	<NA>	aspect_C:I
+3	bájit	bájívat	I	<NA>	aspect_C:I
+4	baletit	baletívat	I	<NA>	aspect_C:I
+5	balit	balívat	I	<NA>	aspect_C:I
+6	bánit	bánívat	I	<NA>	aspect_C:I
+7	barvit	barvívat	I	<NA>	aspect_C:I
+8	básnit	básnívat	I	<NA>	aspect_C:I
+9	baštit	baštívat	I	<NA>	aspect_C:I
+10	batolit	batolívat	I	<NA>	aspect_C:I
+11	bažit	bažívat	I	<NA>	aspect_C:I
+12	bdít	bdívat	I	<NA>	aspect_C:I
+13	bědovat	bědovávat	I	<NA>	aspect_C:I
+14	bekat	bekávat	I	<NA>	aspect_C:I
+15	bělat	bělávat	I	<NA>	aspect_C:I
+16	belhat	belhávat	I	<NA>	aspect_C:I
+17	bělit	bělívat	I	<NA>	aspect_C:I
+18	besedovat	besedovávat	I	<NA>	aspect_C:I
+19	běsnit	běsnívat	I	<NA>	aspect_C:I
+20	bičovat	bičovávat	I	<NA>	aspect_C:I
+21	biflovat	biflovávat	I	<NA>	aspect_C:I
+22	bílit	bílívat	I	<NA>	aspect_C:I
+23	blábolit	blábolívat	I	<NA>	aspect_C:I
+24	blafat	blafávat	I	<NA>	aspect_C:I
+25	blažit	blažívat	I	<NA>	aspect_C:I
+26	blebtat	blebtávat	<NA>	<NA>	aspect_P:I aspect_C:I
+27	bleptat	bleptávat	<NA>	<NA>	aspect_P:I aspect_C:I
+28	blikat	blikávat	I	<NA>	aspect_C:I
+29	blinkat	blinkávat	I	<NA>	aspect_C:I
+30	blížit	blížívat	I	<NA>	aspect_C:I
+31	blokovat	blokovávat	I	<NA>	aspect_C:I
+32	bloumat	bloumávat	I	<NA>	aspect_C:I
+33	blýskat	blýskávat	I	<NA>	aspect_C:I
+34	bodat	bodávat	I	<NA>	aspect_C:I
+35	bořit	bořívat	I	<NA>	aspect_C:I
+36	bouchat	bouchávat	I	<NA>	aspect_C:I
+37	bourat	bourávat	I	<NA>	aspect_C:I
+38	boxovat	boxovávat	I	<NA>	aspect_C:I
+39	bránit	bránívat	I	<NA>	aspect_C:I
+40	bratřit	bratřívat	I	<NA>	aspect_C:I
+41	brázdit	brázdívat	I	<NA>	aspect_C:I
+42	brblat	brblávat	I	<NA>	aspect_C:I
+43	brebtat	brebtávat	I	<NA>	aspect_C:I
+44	brečet	brečívat	I	<NA>	aspect_C:I
+45	brejlit	brejlívat	I	<NA>	aspect_C:I
+46	breptat	breptávat	I	<NA>	aspect_C:I
+47	břinkat	břinkávat	I	<NA>	aspect_C:I
+48	brkat	brkávat	I	<NA>	aspect_C:I
+49	brnkat	brnkávat	I	<NA>	aspect_C:I
+50	brodit	brodívat	I	<NA>	aspect_C:I
+51	brojit	brojívat	I	<NA>	aspect_C:I
+52	brouzdat	brouzdávat	I	<NA>	aspect_C:I
+53	bručet	bručívat	I	<NA>	aspect_C:I
+54	bryndat	bryndávat	I	<NA>	aspect_C:I
+55	brzdit	brzdívat	I	<NA>	aspect_C:I
+56	bublat	bublávat	I	<NA>	aspect_C:I
+57	bubnovat	bubnovávat	I	<NA>	aspect_C:I
+58	bučet	bučívat	I	<NA>	aspect_C:I
+59	budovat	budovávat	I	<NA>	aspect_C:I
+60	burácet	burácívat	I	<NA>	aspect_C:I
+61	burcovat	burcovávat	I	<NA>	aspect_C:I
+62	bytovat	bytovávat	I	<NA>	aspect_C:I
+63	bzikat	bzikávat	I	<NA>	aspect_C:I
+64	cákat	cákávat	I	<NA>	aspect_C:I
+65	camrat	camrávat	I	<NA>	aspect_C:I
+66	capkat	capkávat	I	<NA>	aspect_C:I
+67	čarovat	čarovávat	I	<NA>	aspect_C:I
+68	častovat	častovávat	I	<NA>	aspect_C:I
+69	čechrat	čechrávat	I	<NA>	aspect_C:I
+70	cedit	cedívat	I	<NA>	aspect_C:I
+71	čelit	čelívat	I	<NA>	aspect_C:I
+72	čenichat	čenichávat	I	<NA>	aspect_C:I
+73	černat	černávat	I	<NA>	aspect_C:I
+74	černit	černívat	I	<NA>	aspect_C:I
+75	čerpat	čerpávat	I	<NA>	aspect_C:I
+76	čertit	čertívat	I	<NA>	aspect_C:I
+77	červenat	červenávat	I	<NA>	aspect_C:I
+78	chechtat	chechtávat	I	<NA>	aspect_C:I
+79	chlácholit	chlácholívat	I	<NA>	aspect_C:I
+80	chladit	chladívat	I	<NA>	aspect_C:I
+81	chlemstat	chlemstávat	I	<NA>	aspect_C:I
+82	chlemtat	chlemtávat	I	<NA>	aspect_C:I
+83	chmuřit	chmuřívat	I	<NA>	aspect_C:I
+84	chránit	chránívat	I	<NA>	aspect_C:I
+85	chrchlat	chrchlávat	I	<NA>	aspect_C:I
+86	chřestit	chřestívat	I	<NA>	aspect_C:I
+87	chrlit	chrlívat	I	<NA>	aspect_C:I
+88	chroupat	chroupávat	I	<NA>	aspect_C:I
+89	chrupat	chrupávat	I	<NA>	aspect_C:I
+90	chumlat	chumlávat	I	<NA>	aspect_C:I
+91	chvástat	chvástávat	I	<NA>	aspect_C:I
+92	chvátat	chvátávat	I	<NA>	aspect_C:I
+93	chýlit	chýlívat	I	<NA>	aspect_C:I
+94	čichat	čichávat	I	<NA>	aspect_C:I
+95	cídit	cídívat	I	<NA>	aspect_C:I
+96	čistit	čistívat	I	<NA>	aspect_C:I
+97	citovat	citovávat	I	<NA>	aspect_C:I
+98	členit	členívat	I	<NA>	aspect_C:I
+99	cmrndat	cmrndávat	<NA>	<NA>	aspect_P:I aspect_C:I
+100	čmuchat	čmuchávat	I	<NA>	aspect_C:I
+101	čnít	čnívat	I	<NA>	aspect_C:I
+102	čouhat	čouhávat	I	<NA>	aspect_C:I
+103	courat	courávat	I	<NA>	aspect_C:I
+104	cpát	cpávat	I	<NA>	aspect_C:I
+105	crnkat	crnkávat	<NA>	<NA>	aspect_P:I aspect_C:I
+106	črtat	črtávat	I	<NA>	aspect_C:I
+107	čtát	čtávat	<NA>	<NA>	aspect_P:I aspect_C:I
+108	ctít	ctívat	I	<NA>	aspect_C:I
+109	čtveračit	čtveračívat	I	<NA>	aspect_C:I
+110	cucat	cucávat	I	<NA>	aspect_C:I
+111	cuchat	cuchávat	I	<NA>	aspect_C:I
+112	cukat	cukávat	I	<NA>	aspect_C:I
+113	čumět	čumívat	I	<NA>	aspect_C:I
+114	cupat	cupávat	I	<NA>	aspect_C:I
+115	cupitat	cupitávat	I	<NA>	aspect_C:I
+116	čurat	čurávat	I	<NA>	aspect_C:I
+117	cvakat	cvakávat	I	<NA>	aspect_C:I
+118	cválat	cválávat	I	<NA>	aspect_C:I
+119	cvikat	cvikávat	<NA>	<NA>	aspect_P:I aspect_C:I
+120	cvrkat	cvrkávat	I	<NA>	aspect_C:I
+121	cvrnkat	cvrnkávat	I	<NA>	aspect_C:I
+122	dařit	dařívat	I	<NA>	aspect_C:I
+123	dávat	dávávat	I	<NA>	aspect_C:I
+124	dědit	dědívat	I	<NA>	aspect_C:I
+125	deklamovat	deklamovávat	I	<NA>	aspect_C:I
+126	děkovat	děkovávat	I	<NA>	aspect_C:I
+127	diktovat	diktovávat	I	<NA>	aspect_C:I
+128	disputovat	disputovávat	I	<NA>	aspect_C:I
+129	dlabat	dlabávat	I	<NA>	aspect_C:I
+130	dláždit	dláždívat	I	<NA>	aspect_C:I
+131	dlít	dlívat	I	<NA>	aspect_C:I
+132	dloubat	dloubávat	I	<NA>	aspect_C:I
+133	dloužit	dloužívat	I	<NA>	aspect_C:I
+134	dmýchat	dmýchávat	I	<NA>	aspect_C:I
+135	ďobat	ďobávat	I	<NA>	aspect_C:I
+136	dobíhat	dobíhávat	I	<NA>	aspect_C:I
+137	dobírat	dobírávat	I	<NA>	aspect_C:I
+138	dobývat	dobývávat	I	<NA>	aspect_C:I
+139	dočítat	dočítávat	I	<NA>	aspect_C:I
+140	dohánět	dohánívat	I	<NA>	aspect_C:I
+141	dohlížet	dohlížívat	I	<NA>	aspect_C:I
+142	dojídat	dojídávat	I	<NA>	aspect_C:I
+143	dojímat	dojímávat	I	<NA>	aspect_C:I
+144	dojit	dojívat	I	<NA>	aspect_C:I
+145	dojíždět	dojíždívat	I	<NA>	aspect_C:I
+146	dokazovat	dokazovávat	I	<NA>	aspect_C:I
+147	dokládat	dokládávat	I	<NA>	aspect_C:I
+148	doléhat	doléhávat	I	<NA>	aspect_C:I
+149	dolézat	dolézávat	I	<NA>	aspect_C:I
+150	domáhat	domáhávat	I	<NA>	aspect_C:I
+151	domlouvat	domlouvávat	I	<NA>	aspect_C:I
+152	donášet	donášívat	I	<NA>	aspect_C:I
+153	dopadat	dopadávat	I	<NA>	aspect_C:I
+154	dopínat	dopínávat	I	<NA>	aspect_C:I
+155	dopouštět	dopouštívat	I	<NA>	aspect_C:I
+156	dorůstat	dorůstávat	I	<NA>	aspect_C:I
+157	dotírat	dotírávat	I	<NA>	aspect_C:I
+158	dotloukat	dotloukávat	<NA>	<NA>	aspect_P:I aspect_C:I
+159	dotýkat	dotýkávat	I	<NA>	aspect_C:I
+160	doufat	doufávat	I	<NA>	aspect_C:I
+161	doutnat	doutnávat	I	<NA>	aspect_C:I
+162	dovádět	dovádívat	I	<NA>	aspect_C:I
+163	drásat	drásávat	I	<NA>	aspect_C:I
+164	drát	drávat	I	<NA>	aspect_C:I
+165	dráždit	dráždívat	I	<NA>	aspect_C:I
+166	drbat	drbávat	I	<NA>	aspect_C:I
+167	dřímat	dřímávat	I	<NA>	aspect_C:I
+168	drkat	drkávat	I	<NA>	aspect_C:I
+169	drkotat	drkotávat	I	<NA>	aspect_C:I
+170	drmolit	drmolívat	I	<NA>	aspect_C:I
+171	drncat	drncávat	I	<NA>	aspect_C:I
+172	drnkat	drnkávat	I	<NA>	aspect_C:I
+173	drobit	drobívat	I	<NA>	aspect_C:I
+174	družit	družívat	I	<NA>	aspect_C:I
+175	dudat	dudávat	<NA>	<NA>	aspect_P:I aspect_C:I
+176	dupat	dupávat	I	<NA>	aspect_C:I
+177	dusat	dusávat	I	<NA>	aspect_C:I
+178	dvořit	dvořívat	I	<NA>	aspect_C:I
+179	dýchat	dýchávat	I	<NA>	aspect_C:I
+180	dychtit	dychtívat	I	<NA>	aspect_C:I
+181	dýmat	dýmávat	I	<NA>	aspect_C:I
+182	fičet	fičívat	I	<NA>	aspect_C:I
+183	fintit	fintívat	I	<NA>	aspect_C:I
+184	fňukat	fňukávat	I	<NA>	aspect_C:I
+185	foukat	foukávat	I	<NA>	aspect_C:I
+186	frkat	frkávat	I	<NA>	aspect_C:I
+187	hafat	hafávat	I	<NA>	aspect_C:I
+188	hajat	hajávat	I	<NA>	aspect_C:I
+189	hájit	hájívat	I	<NA>	aspect_C:I
+190	hanbit	hanbívat	I	<NA>	aspect_C:I
+191	hanobit	hanobívat	I	<NA>	aspect_C:I
+192	harašit	harašívat	I	<NA>	aspect_C:I
+193	hárat	hárávat	I	<NA>	aspect_C:I
+194	harcovat	harcovávat	I	<NA>	aspect_C:I
+195	hartusit	hartusívat	I	<NA>	aspect_C:I
+196	hasit	hasívat	I	<NA>	aspect_C:I
+197	hašteřit	hašteřívat	I	<NA>	aspect_C:I
+198	hatit	hatívat	I	<NA>	aspect_C:I
+199	hekat	hekávat	I	<NA>	aspect_C:I
+200	hemžit	hemžívat	I	<NA>	aspect_C:I
+201	hlaholit	hlaholívat	I	<NA>	aspect_C:I
+202	hlásat	hlásávat	I	<NA>	aspect_C:I
+203	hlasovat	hlasovávat	I	<NA>	aspect_C:I
+204	hlodat	hlodávat	I	<NA>	aspect_C:I
+205	hloubat	hloubávat	I	<NA>	aspect_C:I
+206	hloubit	hloubívat	I	<NA>	aspect_C:I
+207	hmatat	hmatávat	I	<NA>	aspect_C:I
+208	hmoždit	hmoždívat	I	<NA>	aspect_C:I
+209	hněvat	hněvávat	I	<NA>	aspect_C:I
+210	hnojit	hnojívat	I	<NA>	aspect_C:I
+211	hnusit	hnusívat	I	<NA>	aspect_C:I
+212	hodlat	hodlávat	I	<NA>	aspect_C:I
+213	hodnotit	hodnotívat	I	<NA>	aspect_C:I
+214	hodovat	hodovávat	I	<NA>	aspect_C:I
+215	hojit	hojívat	I	<NA>	aspect_C:I
+216	hopkat	hopkávat	I	<NA>	aspect_C:I
+217	hopkovat	hopkovávat	I	<NA>	aspect_C:I
+218	hopsat	hopsávat	I	<NA>	aspect_C:I
+219	horlit	horlívat	I	<NA>	aspect_C:I
+220	horovat	horovávat	I	<NA>	aspect_C:I
+221	horšit	horšívat	I	<NA>	aspect_C:I
+222	hostit	hostívat	I	<NA>	aspect_C:I
+223	hostovat	hostovávat	I	<NA>	aspect_C:I
+224	hotovit	hotovívat	I	<NA>	aspect_C:I
+225	hrabat	hrabávat	I	<NA>	aspect_C:I
+226	hradit	hradívat	I	<NA>	aspect_C:I
+227	hřát	hřávat	I	<NA>	aspect_C:I
+228	hřešit	hřešívat	I	<NA>	aspect_C:I
+229	hřímat	hřímávat	I	<NA>	aspect_C:I
+230	hrkat	hrkávat	I	<NA>	aspect_C:I
+231	hromadit	hromadívat	I	<NA>	aspect_C:I
+232	hroužit	hroužívat	I	<NA>	aspect_C:I
+233	hrozit	hrozívat	I	<NA>	aspect_C:I
+234	hryzat	hryzávat	I	<NA>	aspect_C:I
+235	hubičkovat	hubičkovávat	I	<NA>	aspect_C:I
+236	hubit	hubívat	I	<NA>	aspect_C:I
+237	hubovat	hubovávat	I	<NA>	aspect_C:I
+238	huhlat	huhlávat	I	<NA>	aspect_C:I
+239	hulit	hulívat	I	<NA>	aspect_C:I
+240	hvízdat	hvízdávat	I	<NA>	aspect_C:I
+241	hýbat	hýbávat	I	<NA>	aspect_C:I
+242	hýčkat	hýčkávat	I	<NA>	aspect_C:I
+243	hýkat	hýkávat	I	<NA>	aspect_C:I
+244	hyzdit	hyzdívat	I	<NA>	aspect_C:I
+245	hyzlit	hyzlívat	<NA>	<NA>	aspect_P:I aspect_C:I
+246	jančit	jančívat	I	<NA>	aspect_C:I
+247	jasnit	jasnívat	I	<NA>	aspect_C:I
+248	jechat	jechávat	I	<NA>	aspect_C:I
+249	ježit	ježívat	I	<NA>	aspect_C:I
+250	jímat	jímávat	I	<NA>	aspect_C:I
+251	jinačit	jinačívat	I	<NA>	aspect_C:I
+252	jiskřit	jiskřívat	I	<NA>	aspect_C:I
+253	jistit	jistívat	I	<NA>	aspect_C:I
+254	jitřit	jitřívat	I	<NA>	aspect_C:I
+255	jmenovat	jmenovávat	B	<NA>	aspect_C:I
+256	kašlat	kašlávat	I	<NA>	aspect_C:I
+257	kazit	kazívat	I	<NA>	aspect_C:I
+258	klamat	klamávat	I	<NA>	aspect_C:I
+259	klesat	klesávat	I	<NA>	aspect_C:I
+260	klouzat	klouzávat	I	<NA>	aspect_C:I
+261	koncertovat	koncertovávat	I	<NA>	aspect_C:I
+262	krátit	krátívat	I	<NA>	aspect_C:I
+263	ladit	ladívat	I	<NA>	aspect_C:I
+264	lahodit	lahodívat	I	<NA>	aspect_C:I
+265	lakovat	lakovávat	I	<NA>	aspect_C:I
+266	lapat	lapávat	I	<NA>	aspect_C:I
+267	laskat	laskávat	I	<NA>	aspect_C:I
+268	laškovat	laškovávat	I	<NA>	aspect_C:I
+269	látat	látávat	I	<NA>	aspect_C:I
+270	láteřit	láteřívat	I	<NA>	aspect_C:I
+271	lebedit	lebedívat	I	<NA>	aspect_C:I
+272	lechtat	lechtávat	I	<NA>	aspect_C:I
+273	léčit	léčívat	I	<NA>	aspect_C:I
+274	léhat	léhávat	I	<NA>	aspect_C:I
+275	lenošit	lenošívat	I	<NA>	aspect_C:I
+276	leptat	leptávat	I	<NA>	aspect_C:I
+277	libovat	libovávat	I	<NA>	aspect_C:I
+278	lichotit	lichotívat	I	<NA>	aspect_C:I
+279	lišit	lišívat	I	<NA>	aspect_C:I
+280	listovat	listovávat	I	<NA>	aspect_C:I
+281	litovat	litovávat	I	<NA>	aspect_C:I
+282	lízat	lízávat	I	<NA>	aspect_C:I
+283	lomit	lomívat	I	<NA>	aspect_C:I
+284	lopotit	lopotívat	I	<NA>	aspect_C:I
+285	loudat	loudávat	I	<NA>	aspect_C:I
+286	loupat	loupávat	I	<NA>	aspect_C:I
+287	louskat	louskávat	I	<NA>	aspect_C:I
+288	luskat	luskávat	I	<NA>	aspect_C:I
+289	luštit	luštívat	I	<NA>	aspect_C:I
+290	máčet	máčívat	I	<NA>	aspect_C:I
+291	máchat	máchávat	I	<NA>	aspect_C:I
+292	mačkat	mačkávat	I	<NA>	aspect_C:I
+293	makat	makávat	I	<NA>	aspect_C:I
+294	malovat	malovávat	I	<NA>	aspect_C:I
+295	mámit	mámívat	I	<NA>	aspect_C:I
+296	mařit	mařívat	I	<NA>	aspect_C:I
+297	marodit	marodívat	I	<NA>	aspect_C:I
+298	mastit	mastívat	I	<NA>	aspect_C:I
+299	mekat	mekávat	I	<NA>	aspect_C:I
+300	meškat	meškávat	I	<NA>	aspect_C:I
+301	městnat	městnávat	I	<NA>	aspect_C:I
+302	mhourat	mhourávat	I	<NA>	aspect_C:I
+303	mhouřit	mhouřívat	I	<NA>	aspect_C:I
+304	míhat	míhávat	I	<NA>	aspect_C:I
+305	miliskovat	miliskovávat	I	<NA>	aspect_C:I
+306	ministrovat	ministrovávat	I	<NA>	aspect_C:I
+307	minovat	minovávat	I	<NA>	aspect_C:I
+308	mírnit	mírnívat	I	<NA>	aspect_C:I
+309	mísit	mísívat	I	<NA>	aspect_C:I
+310	mlátit	mlátívat	I	<NA>	aspect_C:I
+311	mlsat	mlsávat	I	<NA>	aspect_C:I
+312	množit	množívat	I	<NA>	aspect_C:I
+313	močit	močívat	I	<NA>	aspect_C:I
+314	modrat	modrávat	I	<NA>	aspect_C:I
+315	modřit	modřívat	I	<NA>	aspect_C:I
+316	mořit	mořívat	I	<NA>	aspect_C:I
+317	motat	motávat	I	<NA>	aspect_C:I
+318	mračit	mračívat	I	<NA>	aspect_C:I
+319	mrazit	mrazívat	I	<NA>	aspect_C:I
+320	mrhat	mrhávat	I	<NA>	aspect_C:I
+321	mrkat	mrkávat	I	<NA>	aspect_C:I
+322	mudrovat	mudrovávat	I	<NA>	aspect_C:I
+323	mumlat	mumlávat	I	<NA>	aspect_C:I
+324	mýtit	mýtívat	I	<NA>	aspect_C:I
+325	mžikat	mžikávat	I	<NA>	aspect_C:I
+326	mžít	mžívat	I	<NA>	aspect_C:I
+327	mžourat	mžourávat	I	<NA>	aspect_C:I
+328	nabízet	nabízívat	I	<NA>	aspect_C:I
+329	nadcházet	nadcházívat	I	<NA>	aspect_C:I
+330	nadužívat	nadužívávat	I	<NA>	aspect_C:I
+331	ňafat	ňafávat	I	<NA>	aspect_C:I
+332	nahánět	nahánívat	I	<NA>	aspect_C:I
+333	nahlížet	nahlížívat	I	<NA>	aspect_C:I
+334	nahorovat	nahorovávat	<NA>	<NA>	aspect_P:B aspect_C:I
+335	najímat	najímávat	I	<NA>	aspect_C:I
+336	nakupovat	nakupovávat	I	<NA>	aspect_C:I
+337	nalézat	nalézávat	I	<NA>	aspect_C:I
+338	namáhat	namáhávat	I	<NA>	aspect_C:I
+339	namítat	namítávat	I	<NA>	aspect_C:I
+340	napomáhat	napomáhávat	I	<NA>	aspect_C:I
+341	napomínat	napomínávat	I	<NA>	aspect_C:I
+342	napovídat	napovídávat	B	<NA>	aspect_C:I
+343	narážet	narážívat	I	<NA>	aspect_C:I
+344	následovat	následovávat	I	<NA>	aspect_C:I
+345	násobit	násobívat	I	<NA>	aspect_C:I
+346	nastupovat	nastupovávat	I	<NA>	aspect_C:I
+347	natírat	natírávat	I	<NA>	aspect_C:I
+348	navlékat	navlékávat	I	<NA>	aspect_C:I
+349	navracet	navracívat	I	<NA>	aspect_C:I
+350	navštěvovat	navštěvovávat	I	<NA>	aspect_C:I
+351	nazývat	nazývávat	I	<NA>	aspect_C:I
+352	nořit	nořívat	I	<NA>	aspect_C:I
+353	notit	notívat	<NA>	<NA>	aspect_P:I aspect_C:I
+354	notovat	notovávat	I	<NA>	aspect_C:I
+355	nudit	nudívat	I	<NA>	aspect_C:I
+356	nutkat	nutkávat	I	<NA>	aspect_C:I
+357	obcovat	obcovávat	I	<NA>	aspect_C:I
+358	obdivovat	obdivovávat	I	<NA>	aspect_C:I
+359	obhlížet	obhlížívat	I	<NA>	aspect_C:I
+360	obírat	obírávat	I	<NA>	aspect_C:I
+361	objímat	objímávat	I	<NA>	aspect_C:I
+362	obléhat	obléhávat	I	<NA>	aspect_C:I
+363	obnášet	obnášívat	I	<NA>	aspect_C:I
+364	obracet	obracívat	I	<NA>	aspect_C:I
+365	obrážet	obrážívat	I	<NA>	aspect_C:I
+366	obtěžovat	obtěžovávat	I	<NA>	aspect_C:I
+367	obveselovat	obveselovávat	I	<NA>	aspect_C:I
+368	obývat	obývávat	I	<NA>	aspect_C:I
+369	obzírat	obzírávat	I	<NA>	aspect_C:I
+370	očekávat	očekávávat	I	<NA>	aspect_C:I
+371	oceňovat	oceňovávat	I	<NA>	aspect_C:I
+372	ochládat	ochládávat	I	<NA>	aspect_C:I
+373	ochotničit	ochotničívat	I	<NA>	aspect_C:I
+374	očkovat	očkovávat	I	<NA>	aspect_C:I
+375	odbírat	odbírávat	I	<NA>	aspect_C:I
+376	odbývat	odbývávat	I	<NA>	aspect_C:I
+377	odčítat	odčítávat	I	<NA>	aspect_C:I
+378	odebírat	odebírávat	I	<NA>	aspect_C:I
+379	odhánět	odhánívat	I	<NA>	aspect_C:I
+380	odírat	odírávat	I	<NA>	aspect_C:I
+381	odívat	odívávat	I	<NA>	aspect_C:I
+382	odkazovat	odkazovávat	I	<NA>	aspect_C:I
+383	odkládat	odkládávat	I	<NA>	aspect_C:I
+384	odkupovat	odkupovávat	I	<NA>	aspect_C:I
+385	odkvétat	odkvétávat	I	<NA>	aspect_C:I
+386	odkvítat	odkvítávat	<NA>	<NA>	aspect_P:I aspect_C:I
+387	odlehčovat	odlehčovávat	I	<NA>	aspect_C:I
+388	odmetat	odmetávat	I	<NA>	aspect_C:I
+389	odmlouvat	odmlouvávat	I	<NA>	aspect_C:I
+390	odmykat	odmykávat	I	<NA>	aspect_C:I
+391	odpírat	odpírávat	I	<NA>	aspect_C:I
+392	odpočívat	odpočívávat	I	<NA>	aspect_C:I
+393	odpouštět	odpouštívat	I	<NA>	aspect_C:I
+394	odpovídat	odpovídávat	I	<NA>	aspect_C:I
+395	odpuzovat	odpuzovávat	I	<NA>	aspect_C:I
+396	odrůstat	odrůstávat	I	<NA>	aspect_C:I
+397	odstrkovat	odstrkovávat	I	<NA>	aspect_C:I
+398	odsuzovat	odsuzovávat	I	<NA>	aspect_C:I
+399	odtékat	odtékávat	I	<NA>	aspect_C:I
+400	odvádět	odvádívat	I	<NA>	aspect_C:I
+401	odvážet	odvážívat	I	<NA>	aspect_C:I
+402	odvracet	odvracívat	I	<NA>	aspect_C:I
+403	odvykat	odvykávat	I	<NA>	aspect_C:I
+404	ohánět	ohánívat	I	<NA>	aspect_C:I
+405	ohlédat	ohlédávat	I	<NA>	aspect_C:I
+406	ohlížet	ohlížívat	I	<NA>	aspect_C:I
+407	okoušet	okoušívat	I	<NA>	aspect_C:I
+408	okrádat	okrádávat	I	<NA>	aspect_C:I
+409	okukovat	okukovávat	I	<NA>	aspect_C:I
+410	ometat	ometávat	I	<NA>	aspect_C:I
+411	opatrovat	opatrovávat	I	<NA>	aspect_C:I
+412	opatřovat	opatřovávat	I	<NA>	aspect_C:I
+413	operovat	operovávat	I	<NA>	aspect_C:I
+414	opětovat	opětovávat	I	<NA>	aspect_C:I
+415	opičit	opičívat	I	<NA>	aspect_C:I
+416	opírat	opírávat	I	<NA>	aspect_C:I
+417	opouštět	opouštívat	I	<NA>	aspect_C:I
+418	opuchat	opuchávat	I	<NA>	aspect_C:I
+419	orodovat	orodovávat	I	<NA>	aspect_C:I
+420	oslavovat	oslavovávat	I	<NA>	aspect_C:I
+421	ostřit	ostřívat	I	<NA>	aspect_C:I
+422	ostýchat	ostýchávat	I	<NA>	aspect_C:I
+423	otáčet	otáčívat	I	<NA>	aspect_C:I
+424	otálet	otálívat	I	<NA>	aspect_C:I
+425	otírat	otírávat	I	<NA>	aspect_C:I
+426	označovat	označovávat	I	<NA>	aspect_C:I
+427	ozývat	ozývávat	I	<NA>	aspect_C:I
+428	páchat	páchávat	I	<NA>	aspect_C:I
+429	pachtovat	pachtovávat	<NA>	<NA>	aspect_P:B aspect_C:I
+430	pádit	pádívat	I	<NA>	aspect_C:I
+431	pajdat	pajdávat	I	<NA>	aspect_C:I
+432	pakovat	pakovávat	I	<NA>	aspect_C:I
+433	paličkovat	paličkovávat	I	<NA>	aspect_C:I
+434	pamatovat	pamatovávat	I	<NA>	aspect_C:I
+435	papat	papávat	I	<NA>	aspect_C:I
+436	parádit	parádívat	I	<NA>	aspect_C:I
+437	pařit	pařívat	I	<NA>	aspect_C:I
+438	pašovat	pašovávat	I	<NA>	aspect_C:I
+439	patlat	patlávat	I	<NA>	aspect_C:I
+440	pečetit	pečetívat	I	<NA>	aspect_C:I
+441	pěchovat	pěchovávat	I	<NA>	aspect_C:I
+442	péci	pékat	I	<NA>	aspect_C:I
+443	péci	pékávat	I	<NA>	aspect_C:I
+444	pékat	pekávat	<NA>	<NA>	aspect_P:I aspect_C:I
+445	pelášit	pelášívat	I	<NA>	aspect_C:I
+446	pelichat	pelichávat	I	<NA>	aspect_C:I
+447	pěnit	pěnívat	I	<NA>	aspect_C:I
+448	pepřit	pepřívat	I	<NA>	aspect_C:I
+449	píchat	píchávat	I	<NA>	aspect_C:I
+450	pídit	pídívat	I	<NA>	aspect_C:I
+451	pilovat	pilovávat	I	<NA>	aspect_C:I
+452	pípat	pípávat	I	<NA>	aspect_C:I
+453	piplat	piplávat	I	<NA>	aspect_C:I
+454	pitvat	pitvávat	I	<NA>	aspect_C:I
+455	pižlat	pižlávat	I	<NA>	aspect_C:I
+456	plahočit	plahočívat	I	<NA>	aspect_C:I
+457	plápolat	plápolávat	I	<NA>	aspect_C:I
+458	plašit	plašívat	I	<NA>	aspect_C:I
+459	plazit	plazívat	I	<NA>	aspect_C:I
+460	plečkovat	plečkovávat	I	<NA>	aspect_C:I
+461	plenit	plenívat	I	<NA>	aspect_C:I
+462	plesat	plesávat	I	<NA>	aspect_C:I
+463	pleskat	pleskávat	I	<NA>	aspect_C:I
+464	plísnit	plísnívat	I	<NA>	aspect_C:I
+465	plivat	plivávat	I	<NA>	aspect_C:I
+466	plkat	plkávat	I	<NA>	aspect_C:I
+467	plnit	plnívat	I	<NA>	aspect_C:I
+468	plodit	plodívat	I	<NA>	aspect_C:I
+469	plouhat	plouhávat	I	<NA>	aspect_C:I
+470	ploužit	ploužívat	I	<NA>	aspect_C:I
+471	plýtvat	plýtvávat	I	<NA>	aspect_C:I
+472	pobádat	pobádávat	P	<NA>	aspect_P:I aspect_C:I
+473	pobíhat	pobíhávat	I	<NA>	aspect_C:I
+474	pobízet	pobízívat	I	<NA>	aspect_C:I
+475	pocházet	pocházívat	I	<NA>	aspect_C:I
+476	pochodovat	pochodovávat	I	<NA>	aspect_C:I
+477	pochvalovat	pochvalovávat	I	<NA>	aspect_C:I
+478	pochybovat	pochybovávat	I	<NA>	aspect_C:I
+479	počínat	počínávat	I	<NA>	aspect_C:I
+480	podělovat	podělovávat	I	<NA>	aspect_C:I
+481	podepírat	podepírávat	I	<NA>	aspect_C:I
+482	podkládat	podkládávat	I	<NA>	aspect_C:I
+483	podnikat	podnikávat	I	<NA>	aspect_C:I
+484	podobat	podobávat	I	<NA>	aspect_C:I
+485	podpírat	podpírávat	I	<NA>	aspect_C:I
+486	podpisovat	podpisovávat	I	<NA>	aspect_C:I
+487	podporovat	podporovávat	I	<NA>	aspect_C:I
+488	podvádět	podvádívat	I	<NA>	aspect_C:I
+489	pohlížet	pohlížívat	I	<NA>	aspect_C:I
+490	pohrdat	pohrdávat	I	<NA>	aspect_C:I
+491	pohybovat	pohybovávat	I	<NA>	aspect_C:I
+492	pojídat	pojídávat	I	<NA>	aspect_C:I
+493	pojit	pojívat	I	<NA>	aspect_C:I
+494	pokládat	pokládávat	I	<NA>	aspect_C:I
+495	pokoušet	pokoušívat	I	<NA>	aspect_C:I
+496	pokračovat	pokračovávat	I	<NA>	aspect_C:I
+497	pokřikovat	pokřikovávat	I	<NA>	aspect_C:I
+498	pokyvovat	pokyvovávat	I	<NA>	aspect_C:I
+499	poltit	poltívat	I	<NA>	aspect_C:I
+500	polykat	polykávat	I	<NA>	aspect_C:I
+501	pomlouvat	pomlouvávat	I	<NA>	aspect_C:I
+502	pomýšlet	pomýšlívat	I	<NA>	aspect_C:I
+503	ponocovat	ponocovávat	I	<NA>	aspect_C:I
+504	ponoukat	ponoukávat	I	<NA>	aspect_C:I
+505	popelit	popelívat	I	<NA>	aspect_C:I
+506	popíjet	popíjívat	I	<NA>	aspect_C:I
+507	popírat	popírávat	I	<NA>	aspect_C:I
+508	popouzet	popouzívat	I	<NA>	aspect_C:I
+509	popravovat	popravovávat	I	<NA>	aspect_C:I
+510	porážet	porážívat	I	<NA>	aspect_C:I
+511	posílat	posílávat	I	<NA>	aspect_C:I
+512	poskytovat	poskytovávat	I	<NA>	aspect_C:I
+513	posluhovat	posluhovávat	I	<NA>	aspect_C:I
+514	postit	postívat	I	<NA>	aspect_C:I
+515	postrádat	postrádávat	I	<NA>	aspect_C:I
+516	posuzovat	posuzovávat	I	<NA>	aspect_C:I
+517	potácet	potácívat	I	<NA>	aspect_C:I
+518	potírat	potírávat	I	<NA>	aspect_C:I
+519	potit	potívat	I	<NA>	aspect_C:I
+520	potloukat	potloukávat	I	<NA>	aspect_C:I
+521	potřásat	potřásávat	I	<NA>	aspect_C:I
+522	potvrzovat	potvrzovávat	I	<NA>	aspect_C:I
+523	potýkat	potýkávat	I	<NA>	aspect_C:I
+524	poučovat	poučovávat	I	<NA>	aspect_C:I
+525	poulit	poulívat	I	<NA>	aspect_C:I
+526	poutat	poutávat	I	<NA>	aspect_C:I
+527	povalovat	povalovávat	I	<NA>	aspect_C:I
+528	považovat	považovávat	I	<NA>	aspect_C:I
+529	povídat	povídávat	I	<NA>	aspect_C:I
+530	povzbuzovat	povzbuzovávat	I	<NA>	aspect_C:I
+531	povznášet	povznášívat	I	<NA>	aspect_C:I
+532	pozapomínat	pozapomínávat	I	<NA>	aspect_C:I
+533	pozdit	pozdívat	I	<NA>	aspect_C:I
+534	pozdravovat	pozdravovávat	I	<NA>	aspect_C:I
+535	práskat	práskávat	I	<NA>	aspect_C:I
+536	přátelit	přátelívat	I	<NA>	aspect_C:I
+537	prchat	prchávat	I	<NA>	aspect_C:I
+538	přebírat	přebírávat	I	<NA>	aspect_C:I
+539	přebývat	přebývávat	I	<NA>	aspect_C:I
+540	předcházet	předcházívat	I	<NA>	aspect_C:I
+541	předčítat	předčítávat	I	<NA>	aspect_C:I
+542	předjíždět	předjíždívat	I	<NA>	aspect_C:I
+543	předkládat	předkládávat	I	<NA>	aspect_C:I
+544	přednášet	přednášívat	I	<NA>	aspect_C:I
+545	předpracovat	předpracovávat	<NA>	<NA>	aspect_P:P aspect_C:I
+546	předsedat	předsedávat	I	<NA>	aspect_C:I
+547	předstírat	předstírávat	I	<NA>	aspect_C:I
+548	předvádět	předvádívat	I	<NA>	aspect_C:I
+549	přeexponovat	přeexponovávat	P	<NA>	aspect_C:I
+550	přehlížet	přehlížívat	I	<NA>	aspect_C:I
+551	přejídat	přejídávat	I	<NA>	aspect_C:I
+552	přejíždět	přejíždívat	I	<NA>	aspect_C:I
+553	překážet	překážívat	I	<NA>	aspect_C:I
+554	překládat	překládávat	I	<NA>	aspect_C:I
+555	přelézat	přelézávat	I	<NA>	aspect_C:I
+556	přemítat	přemítávat	I	<NA>	aspect_C:I
+557	preparovat	preparovávat	B	<NA>	aspect_C:I
+558	přepisovat	přepisovávat	I	<NA>	aspect_C:I
+559	přepřahat	přepřahávat	I	<NA>	aspect_C:I
+560	přeskakovat	přeskakovávat	I	<NA>	aspect_C:I
+561	přetékat	přetékávat	I	<NA>	aspect_C:I
+562	přetřásat	přetřásávat	I	<NA>	aspect_C:I
+563	převalovat	převalovávat	I	<NA>	aspect_C:I
+564	převládat	převládávat	I	<NA>	aspect_C:I
+565	převrhat	převrhávat	<NA>	I	aspect_P:B
+566	převtělovat	převtělovávat	I	<NA>	aspect_C:I
+567	přibíhat	přibíhávat	I	<NA>	aspect_C:I
+568	přičítat	přičítávat	I	<NA>	aspect_C:I
+569	přidržovat	přidržovávat	I	<NA>	aspect_C:I
+570	přihánět	přihánívat	I	<NA>	aspect_C:I
+571	přihlížet	přihlížívat	I	<NA>	aspect_C:I
+572	přihrnovat	přihrnovávat	I	<NA>	aspect_C:I
+573	přiklánět	přiklánívat	I	<NA>	aspect_C:I
+574	přiklekat	přiklekávat	I	<NA>	aspect_C:I
+575	přikupovat	přikupovávat	I	<NA>	aspect_C:I
+576	přimykat	přimykávat	I	<NA>	aspect_C:I
+577	připomínat	připomínávat	I	<NA>	aspect_C:I
+578	připouštět	připouštívat	I	<NA>	aspect_C:I
+579	připravovat	připravovávat	I	<NA>	aspect_C:I
+580	přísahat	přísahávat	I	<NA>	aspect_C:I
+581	přispívat	přispívávat	I	<NA>	aspect_C:I
+582	přivádět	přivádívat	I	<NA>	aspect_C:I
+583	přivážet	přivážívat	I	<NA>	aspect_C:I
+584	probíhat	probíhávat	I	<NA>	aspect_C:I
+585	probírat	probírávat	I	<NA>	aspect_C:I
+586	probouzet	probouzívat	I	<NA>	aspect_C:I
+587	prochvívat	prochvívávat	I	<NA>	aspect_C:I
+588	pročítat	pročítávat	I	<NA>	aspect_C:I
+589	prodírat	prodírávat	I	<NA>	aspect_C:I
+590	prodlévat	prodlévávat	I	<NA>	aspect_C:I
+591	prohánět	prohánívat	I	<NA>	aspect_C:I
+592	prohlížet	prohlížívat	I	<NA>	aspect_C:I
+593	projíždět	projíždívat	I	<NA>	aspect_C:I
+594	prokládat	prokládávat	I	<NA>	aspect_C:I
+595	proklínat	proklínávat	I	<NA>	aspect_C:I
+596	prometat	prometávat	I	<NA>	aspect_C:I
+597	promíjet	promíjívat	I	<NA>	aspect_C:I
+598	promítat	promítávat	I	<NA>	aspect_C:I
+599	pronášet	pronášívat	I	<NA>	aspect_C:I
+600	pronikat	pronikávat	I	<NA>	aspect_C:I
+601	prorokovat	prorokovávat	B	<NA>	aspect_C:I
+602	prostírat	prostírávat	I	<NA>	aspect_C:I
+603	protloukat	protloukávat	I	<NA>	aspect_C:I
+604	provádět	provádívat	I	<NA>	aspect_C:I
+605	provozovat	provozovávat	I	<NA>	aspect_C:I
+606	prozírat	prozírávat	I	<NA>	aspect_C:I
+607	prozpěvovat	prozpěvovávat	I	<NA>	aspect_C:I
+608	prýskat	prýskávat	I	<NA>	aspect_C:I
+609	prýštit	prýštívat	I	<NA>	aspect_C:I
+610	pudit	pudívat	I	<NA>	aspect_C:I
+611	pudrovat	pudrovávat	I	<NA>	aspect_C:I
+612	pukat	pukávat	I	<NA>	aspect_C:I
+613	pumpovat	pumpovávat	I	<NA>	aspect_C:I
+614	pustošit	pustošívat	I	<NA>	aspect_C:I
+615	pykat	pykávat	I	<NA>	aspect_C:I
+616	pytlačit	pytlačívat	I	<NA>	aspect_C:I
+617	rabovat	rabovávat	I	<NA>	aspect_C:I
+618	rachat	rachávat	<NA>	<NA>	aspect_P:I aspect_C:I
+619	rachotit	rachotívat	I	<NA>	aspect_C:I
+620	ráčit	ráčívat	I	<NA>	aspect_C:I
+621	řadit	řadívat	I	<NA>	aspect_C:I
+622	radovat	radovávat	I	<NA>	aspect_C:I
+623	rašit	rašívat	I	<NA>	aspect_C:I
+624	rdousit	rdousívat	I	<NA>	aspect_C:I
+625	recitovat	recitovávat	I	<NA>	aspect_C:I
+626	řehotat	řehotávat	I	<NA>	aspect_C:I
+627	řehtat	řehtávat	I	<NA>	aspect_C:I
+628	rejdit	rejdívat	I	<NA>	aspect_C:I
+629	rejdovat	rejdovávat	I	<NA>	aspect_C:I
+630	řemeslovat	řemeslovávat	<NA>	<NA>	aspect_P:I aspect_C:I
+631	reptat	reptávat	I	<NA>	aspect_C:I
+632	řičet	řičívat	I	<NA>	aspect_C:I
+633	řídit	řídívat	I	<NA>	aspect_C:I
+634	řinčet	řinčívat	I	<NA>	aspect_C:I
+635	rmoutit	rmoutívat	I	<NA>	aspect_C:I
+636	robit	robívat	I	<NA>	aspect_C:I
+637	rojit	rojívat	I	<NA>	aspect_C:I
+638	rokovat	rokovávat	I	<NA>	aspect_C:I
+639	ronit	ronívat	I	<NA>	aspect_C:I
+640	rosit	rosívat	I	<NA>	aspect_C:I
+641	roubovat	roubovávat	I	<NA>	aspect_C:I
+642	rouhat	rouhávat	I	<NA>	aspect_C:I
+643	rousat	rousávat	I	<NA>	aspect_C:I
+644	rozbíhat	rozbíhávat	I	<NA>	aspect_C:I
+645	rozbírat	rozbírávat	I	<NA>	aspect_C:I
+646	rozcházet	rozcházívat	I	<NA>	aspect_C:I
+647	rozhlížet	rozhlížívat	I	<NA>	aspect_C:I
+648	rozhodovat	rozhodovávat	I	<NA>	aspect_C:I
+649	rozjímat	rozjímávat	I	<NA>	aspect_C:I
+650	rozkládat	rozkládávat	I	<NA>	aspect_C:I
+651	rozkvétat	rozkvétávat	I	<NA>	aspect_C:I
+652	rozkvítat	rozkvítávat	<NA>	<NA>	aspect_P:I aspect_C:I
+653	rozmlouvat	rozmlouvávat	I	<NA>	aspect_C:I
+654	roznášet	roznášívat	I	<NA>	aspect_C:I
+655	rozpalovat	rozpalovávat	I	<NA>	aspect_C:I
+656	rozpínat	rozpínávat	I	<NA>	aspect_C:I
+657	rozpouštět	rozpouštívat	I	<NA>	aspect_C:I
+658	rozpřádat	rozpřádávat	I	<NA>	aspect_C:I
+659	rozprávět	rozprávívat	I	<NA>	aspect_C:I
+660	roztáčet	roztáčívat	I	<NA>	aspect_C:I
+661	roztloukat	roztloukávat	I	<NA>	aspect_C:I
+662	roztřásat	roztřásávat	I	<NA>	aspect_C:I
+663	rozumět	rozumívat	I	<NA>	aspect_C:I
+664	rozvážet	rozvážívat	I	<NA>	aspect_C:I
+665	rozveselovat	rozveselovávat	I	<NA>	aspect_C:I
+666	rozvírat	rozvírávat	I	<NA>	aspect_C:I
+667	rubat	rubávat	I	<NA>	aspect_C:I
+668	ručit	ručívat	I	<NA>	aspect_C:I
+669	různit	různívat	I	<NA>	aspect_C:I
+670	rybařit	rybařívat	I	<NA>	aspect_C:I
+671	rýmovat	rýmovávat	I	<NA>	aspect_C:I
+672	rýpat	rýpávat	I	<NA>	aspect_C:I
+673	sahat	sahávat	I	<NA>	aspect_C:I
+674	šálit	šálívat	I	<NA>	aspect_C:I
+675	sápat	sápávat	I	<NA>	aspect_C:I
+676	šatit	šatívat	I	<NA>	aspect_C:I
+677	sbíhat	sbíhávat	I	<NA>	aspect_C:I
+678	schvalovat	schvalovávat	I	<NA>	aspect_C:I
+679	schylovat	schylovávat	I	<NA>	aspect_C:I
+680	sčítat	sčítávat	I	<NA>	aspect_C:I
+681	sdělovat	sdělovávat	I	<NA>	aspect_C:I
+682	sdílet	sdílívat	I	<NA>	aspect_C:I
+683	sečítat	sečítávat	I	<NA>	aspect_C:I
+684	sedlat	sedlávat	I	<NA>	aspect_C:I
+685	šepotat	šepotávat	I	<NA>	aspect_C:I
+686	šeřit	šeřívat	I	<NA>	aspect_C:I
+687	šermovat	šermovávat	I	<NA>	aspect_C:I
+688	sesílat	sesílávat	I	<NA>	aspect_C:I
+689	šetřit	šetřívat	I	<NA>	aspect_C:I
+690	shánět	shánívat	I	<NA>	aspect_C:I
+691	shromažďovat	shromažďovávat	I	<NA>	aspect_C:I
+692	šidit	šidívat	I	<NA>	aspect_C:I
+693	šikovat	šikovávat	I	<NA>	aspect_C:I
+694	šilhat	šilhávat	I	<NA>	aspect_C:I
+695	sílit	sílívat	I	<NA>	aspect_C:I
+696	šimrat	šimrávat	I	<NA>	aspect_C:I
+697	šišlat	šišlávat	I	<NA>	aspect_C:I
+698	šít	šívat	I	<NA>	aspect_C:I
+699	sjíždět	sjíždívat	I	<NA>	aspect_C:I
+700	škaredit	škaredívat	I	<NA>	aspect_C:I
+701	skicovat	skicovávat	I	<NA>	aspect_C:I
+702	šklebit	šklebívat	I	<NA>	aspect_C:I
+703	škodit	škodívat	I	<NA>	aspect_C:I
+704	skoncovat	skoncovávat	P	<NA>	aspect_C:I
+705	škorpit	škorpívat	I	<NA>	aspect_C:I
+706	skotačit	skotačívat	I	<NA>	aspect_C:I
+707	škrabat	škrabávat	I	<NA>	aspect_C:I
+708	skrblit	skrblívat	I	<NA>	aspect_C:I
+709	skřehotat	skřehotávat	I	<NA>	aspect_C:I
+710	skřípat	skřípávat	I	<NA>	aspect_C:I
+711	škrtat	škrtávat	I	<NA>	aspect_C:I
+712	škrtit	škrtívat	I	<NA>	aspect_C:I
+713	skrývat	skrývávat	I	<NA>	aspect_C:I
+714	škubat	škubávat	I	<NA>	aspect_C:I
+715	skuhrat	skuhrávat	I	<NA>	aspect_C:I
+716	skupovat	skupovávat	I	<NA>	aspect_C:I
+717	škvařit	škvařívat	I	<NA>	aspect_C:I
+718	škytat	škytávat	I	<NA>	aspect_C:I
+719	slabikovat	slabikovávat	I	<NA>	aspect_C:I
+720	sladit	sladívat	I	<NA>	aspect_C:I
+721	šlechtit	šlechtívat	I	<NA>	aspect_C:I
+722	sléhat	sléhávat	I	<NA>	aspect_C:I
+723	slézat	slézávat	I	<NA>	aspect_C:I
+724	slídit	slídívat	I	<NA>	aspect_C:I
+725	slinit	slinívat	I	<NA>	aspect_C:I
+726	slintat	slintávat	I	<NA>	aspect_C:I
+727	slunit	slunívat	I	<NA>	aspect_C:I
+728	smáčet	smáčívat	I	<NA>	aspect_C:I
+729	smažit	smažívat	I	<NA>	aspect_C:I
+730	šmejdit	šmejdívat	I	<NA>	aspect_C:I
+731	smět	smívat	I	<NA>	aspect_C:I
+732	šmikat	šmikávat	I	<NA>	aspect_C:I
+733	smiřovat	smiřovávat	I	<NA>	aspect_C:I
+734	smlouvat	smlouvávat	I	<NA>	aspect_C:I
+735	smolit	smolívat	I	<NA>	aspect_C:I
+736	smrkat	smrkávat	I	<NA>	aspect_C:I
+737	šmudlat	šmudlávat	I	<NA>	aspect_C:I
+738	smýčit	smýčívat	I	<NA>	aspect_C:I
+739	smýkat	smýkávat	I	<NA>	aspect_C:I
+740	smýšlet	smýšlívat	I	<NA>	aspect_C:I
+741	snášet	snášívat	I	<NA>	aspect_C:I
+742	sněmovat	sněmovávat	I	<NA>	aspect_C:I
+743	šněrovat	šněrovávat	I	<NA>	aspect_C:I
+744	sněžit	sněžívat	I	<NA>	aspect_C:I
+745	šňořit	šňořívat	I	<NA>	aspect_C:I
+746	šňupat	šňupávat	I	<NA>	aspect_C:I
+747	sočit	sočívat	I	<NA>	aspect_C:I
+748	somrovat	somrovávat	I	<NA>	aspect_C:I
+749	soptit	soptívat	I	<NA>	aspect_C:I
+750	soukat	soukávat	I	<NA>	aspect_C:I
+751	šoulat	šoulávat	I	<NA>	aspect_C:I
+752	šoupat	šoupávat	I	<NA>	aspect_C:I
+753	soužit	soužívat	I	<NA>	aspect_C:I
+754	spásat	spásávat	I	<NA>	aspect_C:I
+755	špendlit	špendlívat	I	<NA>	aspect_C:I
+756	šperkovat	šperkovávat	I	<NA>	aspect_C:I
+757	špikovat	špikovávat	I	<NA>	aspect_C:I
+758	spílat	spílávat	I	<NA>	aspect_C:I
+759	spínat	spínávat	I	<NA>	aspect_C:I
+760	špinit	špinívat	I	<NA>	aspect_C:I
+761	spinkat	spinkávat	I	<NA>	aspect_C:I
+762	špitat	špitávat	I	<NA>	aspect_C:I
+763	splácet	splácívat	I	<NA>	aspect_C:I
+764	splétat	splétávat	I	<NA>	aspect_C:I
+765	šplíchat	šplíchávat	I	<NA>	aspect_C:I
+766	šplouchat	šplouchávat	I	<NA>	aspect_C:I
+767	šplounat	šplounávat	I	<NA>	aspect_C:I
+768	splývat	splývávat	I	<NA>	aspect_C:I
+769	spočívat	spočívávat	I	<NA>	aspect_C:I
+770	spojovat	spojovávat	I	<NA>	aspect_C:I
+771	spoléhat	spoléhávat	I	<NA>	aspect_C:I
+772	spořit	spořívat	I	<NA>	aspect_C:I
+773	spouštět	spouštívat	I	<NA>	aspect_C:I
+774	spřádat	spřádávat	I	<NA>	aspect_C:I
+775	spravovat	spravovávat	I	<NA>	aspect_C:I
+776	špulit	špulívat	I	<NA>	aspect_C:I
+777	šramotit	šramotívat	I	<NA>	aspect_C:I
+778	srážet	srážívat	I	<NA>	aspect_C:I
+779	srkat	srkávat	I	<NA>	aspect_C:I
+780	šroubovat	šroubovávat	I	<NA>	aspect_C:I
+781	stáčet	stáčívat	I	<NA>	aspect_C:I
+782	stačit	stačívat	I	<NA>	aspect_C:I
+783	stahovat	stahovávat	I	<NA>	aspect_C:I
+784	starat	starávat	I	<NA>	aspect_C:I
+785	šťárat	šťárávat	I	<NA>	aspect_C:I
+786	stávat	stávávat	I	<NA>	aspect_C:I
+787	štěbetat	štěbetávat	I	<NA>	aspect_C:I
+788	stěhovat	stěhovávat	I	<NA>	aspect_C:I
+789	štěkat	štěkávat	I	<NA>	aspect_C:I
+790	štěpit	štěpívat	I	<NA>	aspect_C:I
+791	štepovat	štepovávat	I	<NA>	aspect_C:I
+792	stěžovat	stěžovávat	I	<NA>	aspect_C:I
+793	stíhat	stíhávat	I	<NA>	aspect_C:I
+794	stínat	stínávat	I	<NA>	aspect_C:I
+795	stínit	stínívat	I	<NA>	aspect_C:I
+796	štípat	štípávat	I	<NA>	aspect_C:I
+797	štířit	štířívat	<NA>	<NA>	aspect_P:I aspect_C:I
+798	štítit	štítívat	I	<NA>	aspect_C:I
+799	štkát	štkávat	I	<NA>	aspect_C:I
+800	stolovat	stolovávat	I	<NA>	aspect_C:I
+801	stopovat	stopovávat	I	<NA>	aspect_C:I
+802	šťouchat	šťouchávat	I	<NA>	aspect_C:I
+803	šťourat	šťourávat	I	<NA>	aspect_C:I
+804	strachovat	strachovávat	I	<NA>	aspect_C:I
+805	strádat	strádávat	I	<NA>	aspect_C:I
+806	střádat	střádávat	I	<NA>	aspect_C:I
+807	stranit	stranívat	I	<NA>	aspect_C:I
+808	střásat	střásávat	I	<NA>	aspect_C:I
+809	střebat	střebávat	I	<NA>	aspect_C:I
+810	stříbřit	stříbřívat	I	<NA>	aspect_C:I
+811	stříkat	stříkávat	I	<NA>	aspect_C:I
+812	strouhat	strouhávat	I	<NA>	aspect_C:I
+813	šťuchat	šťuchávat	I	<NA>	aspect_C:I
+814	studit	studívat	I	<NA>	aspect_C:I
+815	studovat	studovávat	I	<NA>	aspect_C:I
+816	šturmovat	šturmovávat	I	<NA>	aspect_C:I
+817	štvát	štvávat	I	<NA>	aspect_C:I
+818	stýkat	stýkávat	I	<NA>	aspect_C:I
+819	stylisovat	stylisovávat	<NA>	<NA>	aspect_P:I aspect_C:I
+820	šumět	šumívat	I	<NA>	aspect_C:I
+821	supat	supávat	I	<NA>	aspect_C:I
+822	šuškat	šuškávat	I	<NA>	aspect_C:I
+823	šustit	šustívat	I	<NA>	aspect_C:I
+824	sužovat	sužovávat	I	<NA>	aspect_C:I
+825	svážet	svážívat	I	<NA>	aspect_C:I
+826	svědčit	svědčívat	I	<NA>	aspect_C:I
+827	svědit	svědívat	I	<NA>	aspect_C:I
+828	šveholit	šveholívat	I	<NA>	aspect_C:I
+829	svěřovat	svěřovávat	I	<NA>	aspect_C:I
+830	švihat	švihávat	I	<NA>	aspect_C:I
+831	svíjet	svíjívat	I	<NA>	aspect_C:I
+832	svinovat	svinovávat	I	<NA>	aspect_C:I
+833	svírat	svírávat	I	<NA>	aspect_C:I
+834	svítat	svítávat	I	<NA>	aspect_C:I
+835	švitořit	švitořívat	I	<NA>	aspect_C:I
+836	sykat	sykávat	I	<NA>	aspect_C:I
+837	sypat	sypávat	I	<NA>	aspect_C:I
+838	sytit	sytívat	I	<NA>	aspect_C:I
+839	sžírat	sžírávat	I	<NA>	aspect_C:I
+840	tajit	tajívat	I	<NA>	aspect_C:I
+841	ťapat	ťapávat	I	<NA>	aspect_C:I
+842	tápat	tápávat	I	<NA>	aspect_C:I
+843	tarasit	tarasívat	I	<NA>	aspect_C:I
+844	tasit	tasívat	I	<NA>	aspect_C:I
+845	taškařit	taškařívat	<NA>	<NA>	aspect_C:I aspect_C:I
+846	tavit	tavívat	I	<NA>	aspect_C:I
+847	tázat	tázávat	I	<NA>	aspect_C:I
+848	těkat	těkávat	I	<NA>	aspect_C:I
+849	telit	telívat	I	<NA>	aspect_C:I
+850	tepat	tepávat	I	<NA>	aspect_C:I
+851	tesat	tesávat	I	<NA>	aspect_C:I
+852	tesknit	tesknívat	I	<NA>	aspect_C:I
+853	těsnat	těsnávat	I	<NA>	aspect_C:I
+854	tetelit	tetelívat	I	<NA>	aspect_C:I
+855	tetovat	tetovávat	P	<NA>	aspect_P:I aspect_C:I
+856	tikat	tikávat	I	<NA>	aspect_C:I
+857	tišit	tišívat	I	<NA>	aspect_C:I
+858	tiskat	tiskávat	I	<NA>	aspect_C:I
+859	tísnit	tísnívat	I	<NA>	aspect_C:I
+860	titulovat	titulovávat	I	<NA>	aspect_C:I
+861	tížit	tížívat	I	<NA>	aspect_C:I
+862	tkalcovat	tkalcovávat	<NA>	<NA>	aspect_P:I aspect_C:I
+863	tkát	tkávat	I	<NA>	aspect_C:I
+864	tkvět	tkvívat	I	<NA>	aspect_C:I
+865	tlachat	tlachávat	I	<NA>	aspect_C:I
+866	tlačit	tlačívat	I	<NA>	aspect_C:I
+867	tlapat	tlapávat	I	<NA>	aspect_C:I
+868	tleskat	tleskávat	I	<NA>	aspect_C:I
+869	tlouci	tloukávat	I	<NA>	aspect_C:I
+870	tlumit	tlumívat	I	<NA>	aspect_C:I
+871	tokat	tokávat	I	<NA>	aspect_C:I
+872	tratit	tratívat	I	<NA>	aspect_C:I
+873	trčet	trčívat	I	<NA>	aspect_C:I
+874	trefovat	trefovávat	I	<NA>	aspect_C:I
+875	třepat	třepávat	I	<NA>	aspect_C:I
+876	třepetat	třepetávat	I	<NA>	aspect_C:I
+877	třepit	třepívat	I	<NA>	aspect_C:I
+878	třepotat	třepotávat	I	<NA>	aspect_C:I
+879	třeskat	třeskávat	I	<NA>	aspect_C:I
+880	třeštit	třeštívat	I	<NA>	aspect_C:I
+881	třídit	třídívat	I	<NA>	aspect_C:I
+882	třímat	třímávat	I	<NA>	aspect_C:I
+883	třísnit	třísnívat	I	<NA>	aspect_C:I
+884	tříštit	tříštívat	I	<NA>	aspect_C:I
+885	trkat	trkávat	I	<NA>	aspect_C:I
+886	trmácet	trmácívat	I	<NA>	aspect_C:I
+887	trojčit	trojčívat	I	<NA>	aspect_C:I
+888	tropit	tropívat	I	<NA>	aspect_C:I
+889	troštovat	troštovávat	<NA>	<NA>	aspect_P:I aspect_C:I
+890	troubit	troubívat	I	<NA>	aspect_C:I
+891	trousit	trousívat	I	<NA>	aspect_C:I
+892	truchlit	truchlívat	I	<NA>	aspect_C:I
+893	trudit	trudívat	<NA>	<NA>	aspect_P:I aspect_C:I
+894	trůnit	trůnívat	I	<NA>	aspect_C:I
+895	tryskat	tryskávat	I	<NA>	aspect_C:I
+896	trýznit	trýznívat	I	<NA>	aspect_C:I
+897	tržit	tržívat	I	<NA>	aspect_C:I
+898	tulit	tulívat	I	<NA>	aspect_C:I
+899	tupit	tupívat	I	<NA>	aspect_C:I
+900	tušit	tušívat	I	<NA>	aspect_C:I
+901	tužit	tužívat	I	<NA>	aspect_C:I
+902	tykat	tykávat	I	<NA>	aspect_C:I
+903	týkat	týkávat	I	<NA>	aspect_C:I
+904	týrat	týrávat	I	<NA>	aspect_C:I
+905	ubíhat	ubíhávat	I	<NA>	aspect_C:I
+906	ubírat	ubírávat	I	<NA>	aspect_C:I
+907	ubližovat	ubližovávat	I	<NA>	aspect_C:I
+908	ucházet	ucházívat	I	<NA>	aspect_C:I
+909	účinkovat	účinkovávat	I	<NA>	aspect_C:I
+910	učitelovat	učitelovávat	I	<NA>	aspect_C:I
+911	účtovat	účtovávat	I	<NA>	aspect_C:I
+912	uhánět	uhánívat	I	<NA>	aspect_C:I
+913	uhasínat	uhasínávat	I	<NA>	aspect_C:I
+914	ujímat	ujímávat	I	<NA>	aspect_C:I
+915	ujišťovat	ujišťovávat	I	<NA>	aspect_C:I
+916	ukazovat	ukazovávat	I	<NA>	aspect_C:I
+917	ukládat	ukládávat	I	<NA>	aspect_C:I
+918	uklízet	uklízívat	I	<NA>	aspect_C:I
+919	ukrývat	ukrývávat	I	<NA>	aspect_C:I
+920	uléhat	uléhávat	I	<NA>	aspect_C:I
+921	umírat	umírávat	I	<NA>	aspect_C:I
+922	unášet	unášívat	I	<NA>	aspect_C:I
+923	upalovat	upalovávat	I	<NA>	aspect_C:I
+924	úpět	úpívat	I	<NA>	aspect_C:I
+925	upírat	upírávat	I	<NA>	aspect_C:I
+926	uplétat	uplétávat	<NA>	<NA>	aspect_P:I aspect_C:I
+927	upomínat	upomínávat	I	<NA>	aspect_C:I
+928	upotřebovat	upotřebovávat	<NA>	<NA>	aspect_P:I aspect_C:I
+929	uprchat	uprchávat	I	<NA>	aspect_C:I
+930	úřadovat	úřadovávat	I	<NA>	aspect_C:I
+931	urážet	urážívat	I	<NA>	aspect_C:I
+932	usilovat	usilovávat	I	<NA>	aspect_C:I
+933	usínat	usínávat	I	<NA>	aspect_C:I
+934	usmívat	usmívávat	I	<NA>	aspect_C:I
+935	utěšovat	utěšovávat	I	<NA>	aspect_C:I
+936	utírat	utírávat	I	<NA>	aspect_C:I
+937	uvadat	uvadávat	I	<NA>	aspect_C:I
+938	uvazovat	uvazovávat	I	<NA>	aspect_C:I
+939	uvažovat	uvažovávat	I	<NA>	aspect_C:I
+940	uvítat	uvítávat	P	<NA>	aspect_C:I
+941	užírat	užírávat	I	<NA>	aspect_C:I
+942	užívat	užívávat	I	<NA>	aspect_C:I
+943	vábit	vábívat	I	<NA>	aspect_C:I
+944	vadit	vadívat	I	<NA>	aspect_C:I
+945	váhat	váhávat	I	<NA>	aspect_C:I
+946	válčit	válčívat	I	<NA>	aspect_C:I
+947	válet	válívat	I	<NA>	aspect_C:I
+948	valit	valívat	I	<NA>	aspect_C:I
+949	vandrovat	vandrovávat	I	<NA>	aspect_C:I
+950	vartovat	vartovávat	I	<NA>	aspect_C:I
+951	velebit	velebívat	I	<NA>	aspect_C:I
+952	velet	velívat	I	<NA>	aspect_C:I
+953	věnčit	věnčívat	I	<NA>	aspect_C:I
+954	verbovat	verbovávat	I	<NA>	aspect_C:I
+955	veršovat	veršovávat	I	<NA>	aspect_C:I
+956	veslovat	veslovávat	I	<NA>	aspect_C:I
+957	veštvat	veštvávat	<NA>	<NA>	aspect_P:P aspect_C:I
+958	větit	větívat	<NA>	<NA>	aspect_P:I aspect_C:I
+959	větřit	větřívat	I	<NA>	aspect_C:I
+960	věznit	věznívat	I	<NA>	aspect_C:I
+961	vhánět	vhánívat	I	<NA>	aspect_C:I
+962	vhrkat	vhrkávat	<NA>	<NA>	aspect_P:I aspect_C:I
+963	vinit	vinívat	I	<NA>	aspect_C:I
+964	vířit	vířívat	I	<NA>	aspect_C:I
+965	vítězit	vítězívat	I	<NA>	aspect_C:I
+966	vjíždět	vjíždívat	I	<NA>	aspect_C:I
+967	vkrádat	vkrádávat	I	<NA>	aspect_C:I
+968	vláčet	vláčívat	I	<NA>	aspect_C:I
+969	vlát	vlávat	I	<NA>	aspect_C:I
+970	vlažit	vlažívat	I	<NA>	aspect_C:I
+971	vlékat	vlékávat	<NA>	<NA>	aspect_P:I aspect_C:I
+972	vlíbat	vlíbávat	P	<NA>	aspect_C:I
+973	vlnit	vlnívat	I	<NA>	aspect_C:I
+974	vnadit	vnadívat	I	<NA>	aspect_C:I
+975	vnášet	vnášívat	I	<NA>	aspect_C:I
+976	voskovat	voskovávat	I	<NA>	aspect_C:I
+977	vplétat	vplétávat	I	<NA>	aspect_C:I
+978	vraždit	vraždívat	I	<NA>	aspect_C:I
+979	vrčet	vrčívat	I	<NA>	aspect_C:I
+980	vrcholit	vrcholívat	I	<NA>	aspect_C:I
+981	vřeštět	vřeštívat	I	<NA>	aspect_C:I
+982	vřískat	vřískávat	I	<NA>	aspect_C:I
+983	vrkat	vrkávat	I	<NA>	aspect_C:I
+984	vrnět	vrnívat	I	<NA>	aspect_C:I
+985	vrstvit	vrstvívat	I	<NA>	aspect_C:I
+986	vrtat	vrtávat	I	<NA>	aspect_C:I
+987	vrzat	vrzávat	I	<NA>	aspect_C:I
+988	všímat	všímávat	I	<NA>	aspect_C:I
+989	vstávat	vstávávat	I	<NA>	aspect_C:I
+990	vštěpovat	vštěpovávat	I	<NA>	aspect_C:I
+991	vstupovat	vstupovávat	I	<NA>	aspect_C:I
+992	vtipkovat	vtipkovávat	I	<NA>	aspect_C:I
+993	vtírat	vtírávat	I	<NA>	aspect_C:I
+994	vtloukat	vtloukávat	I	<NA>	aspect_C:I
+995	vybírat	vybírávat	I	<NA>	aspect_C:I
+996	vybízet	vybízívat	I	<NA>	aspect_C:I
+997	vybočovat	vybočovávat	I	<NA>	aspect_C:I
+998	vychloubat	vychloubávat	I	<NA>	aspect_C:I
+999	vychvalovat	vychvalovávat	I	<NA>	aspect_C:I
+1000	vydělávat	vydělávávat	I	<NA>	aspect_C:I
+1001	vyhánět	vyhánívat	I	<NA>	aspect_C:I
+1002	vyhlížet	vyhlížívat	I	<NA>	aspect_C:I
+1003	vyhřívat	vyhřívávat	I	<NA>	aspect_C:I
+1004	vyhýbat	vyhýbávat	I	<NA>	aspect_C:I
+1005	vyjídat	vyjídávat	I	<NA>	aspect_C:I
+1006	vyjímat	vyjímávat	I	<NA>	aspect_C:I
+1007	vykat	vykávat	I	<NA>	aspect_C:I
+1008	vykračovat	vykračovávat	I	<NA>	aspect_C:I
+1009	vykrádat	vykrádávat	I	<NA>	aspect_C:I
+1010	vykvétat	vykvétávat	I	<NA>	aspect_C:I
+1011	vykvítat	vykvítávat	<NA>	<NA>	aspect_P:I aspect_C:I
+1012	vylézat	vylézávat	I	<NA>	aspect_C:I
+1013	vymáhat	vymáhávat	I	<NA>	aspect_C:I
+1014	vymýšlet	vymýšlívat	I	<NA>	aspect_C:I
+1015	vynášet	vynášívat	I	<NA>	aspect_C:I
+1016	vynikat	vynikávat	I	<NA>	aspect_C:I
+1017	vyplácet	vyplácívat	I	<NA>	aspect_C:I
+1018	vyplétat	vyplétávat	I	<NA>	aspect_C:I
+1019	vypomáhat	vypomáhávat	I	<NA>	aspect_C:I
+1020	vypouštět	vypouštívat	I	<NA>	aspect_C:I
+1021	vypravovat	vypravovávat	I	<NA>	aspect_C:I
+1022	vyprazdňovat	vyprazdňovávat	I	<NA>	aspect_C:I
+1023	vyrážet	vyrážívat	I	<NA>	aspect_C:I
+1024	vysílat	vysílávat	I	<NA>	aspect_C:I
+1025	výskat	výskávat	I	<NA>	aspect_C:I
+1026	vyslýchat	vyslýchávat	I	<NA>	aspect_C:I
+1027	vysoušet	vysoušívat	I	<NA>	aspect_C:I
+1028	vyspravovat	vyspravovávat	I	<NA>	aspect_C:I
+1029	vystavovat	vystavovávat	I	<NA>	aspect_C:I
+1030	vystřihovat	vystřihovávat	I	<NA>	aspect_C:I
+1031	vystrkovat	vystrkovávat	I	<NA>	aspect_C:I
+1032	vystupovat	vystupovávat	I	<NA>	aspect_C:I
+1033	vysvětlovat	vysvětlovávat	I	<NA>	aspect_C:I
+1034	vysychat	vysychávat	I	<NA>	aspect_C:I
+1035	vysýchat	vysýchávat	I	<NA>	aspect_C:I
+1036	vytáčet	vytáčívat	I	<NA>	aspect_C:I
+1037	vytahovat	vytahovávat	I	<NA>	aspect_C:I
+1038	vytékat	vytékávat	I	<NA>	aspect_C:I
+1039	vytrhovat	vytrhovávat	I	<NA>	aspect_C:I
+1040	vytrubovat	vytrubovávat	I	<NA>	aspect_C:I
+1041	vytvářet	vytvářívat	I	<NA>	aspect_C:I
+1042	vyučovat	vyučovávat	I	<NA>	aspect_C:I
+1043	využívat	využívávat	I	<NA>	aspect_C:I
+1044	vyvádět	vyvádívat	I	<NA>	aspect_C:I
+1045	vyvracet	vyvracívat	I	<NA>	aspect_C:I
+1046	vzbouzet	vzbouzívat	I	<NA>	aspect_C:I
+1047	vzcházet	vzcházívat	I	<NA>	aspect_C:I
+1048	vzdorovat	vzdorovávat	I	<NA>	aspect_C:I
+1049	vzhlédat	vzhlédávat	I	<NA>	aspect_C:I
+1050	vzhlížet	vzhlížívat	I	<NA>	aspect_C:I
+1051	vzírat	vzírávat	<NA>	<NA>	aspect_P:I aspect_C:I
+1052	vzkvétat	vzkvétávat	I	<NA>	aspect_C:I
+1053	vzkvítat	vzkvítávat	<NA>	<NA>	aspect_P:I aspect_C:I
+1054	vzlykat	vzlykávat	I	<NA>	aspect_C:I
+1055	vznikat	vznikávat	I	<NA>	aspect_C:I
+1056	vzpírat	vzpírávat	I	<NA>	aspect_C:I
+1057	vzpomínat	vzpomínávat	I	<NA>	aspect_C:I
+1058	vzpouzet	vzpouzívat	I	<NA>	aspect_C:I
+1059	vzrůstat	vzrůstávat	I	<NA>	aspect_C:I
+1060	vztekat	vztekávat	I	<NA>	aspect_C:I
+1061	vzývat	vzývávat	I	<NA>	aspect_C:I
+1062	zabíhat	zabíhávat	I	<NA>	aspect_C:I
+1063	zabíjet	zabíjívat	I	<NA>	aspect_C:I
+1064	zabírat	zabírávat	I	<NA>	aspect_C:I
+1065	zabloudit	zabloudívat	P	<NA>	aspect_C:I
+1066	zacházet	zacházívat	I	<NA>	aspect_C:I
+1067	zachycovat	zachycovávat	I	<NA>	aspect_C:I
+1068	začítat	začítávat	I	<NA>	aspect_C:I
+1069	žádat	žádávat	I	<NA>	aspect_C:I
+1070	žadonit	žadonívat	I	<NA>	aspect_C:I
+1071	zahálet	zahálívat	I	<NA>	aspect_C:I
+1072	zahánět	zahánívat	I	<NA>	aspect_C:I
+1073	zahlížet	zahlížívat	I	<NA>	aspect_C:I
+1074	zahýbat	zahýbávat	B	<NA>	aspect_C:I
+1075	zajíždět	zajíždívat	I	<NA>	aspect_C:I
+1076	zaklínat	zaklínávat	I	<NA>	aspect_C:I
+1077	zakoušet	zakoušívat	I	<NA>	aspect_C:I
+1078	zakupovat	zakupovávat	I	<NA>	aspect_C:I
+1079	zalévat	zalévávat	I	<NA>	aspect_C:I
+1080	zalézat	zalézávat	I	<NA>	aspect_C:I
+1081	záležet	záležívat	I	<NA>	aspect_C:I
+1082	žalovat	žalovávat	I	<NA>	aspect_C:I
+1083	zametat	zametávat	I	<NA>	aspect_C:I
+1084	zamlouvat	zamlouvávat	I	<NA>	aspect_C:I
+1085	zamykat	zamykávat	I	<NA>	aspect_C:I
+1086	zamýšlet	zamýšlívat	I	<NA>	aspect_C:I
+1087	zanášet	zanášívat	I	<NA>	aspect_C:I
+1088	zanikat	zanikávat	I	<NA>	aspect_C:I
+1089	zápasit	zápasívat	I	<NA>	aspect_C:I
+1090	zapínat	zapínávat	I	<NA>	aspect_C:I
+1091	zapírat	zapírávat	I	<NA>	aspect_C:I
+1092	zapisovat	zapisovávat	I	<NA>	aspect_C:I
+1093	zaplétat	zaplétávat	I	<NA>	aspect_C:I
+1094	zapomínat	zapomínávat	I	<NA>	aspect_C:I
+1095	zapouštět	zapouštívat	I	<NA>	aspect_C:I
+1096	zapřahat	zapřahávat	I	<NA>	aspect_C:I
+1097	zarůstat	zarůstávat	I	<NA>	aspect_C:I
+1098	zasílat	zasílávat	I	<NA>	aspect_C:I
+1099	zastírat	zastírávat	I	<NA>	aspect_C:I
+1100	zastlat	zastlávat	P	<NA>	aspect_C:I
+1101	zatáčet	zatáčívat	I	<NA>	aspect_C:I
+1102	zatínat	zatínávat	I	<NA>	aspect_C:I
+1103	zatloukat	zatloukávat	I	<NA>	aspect_C:I
+1104	zatýkat	zatýkávat	I	<NA>	aspect_C:I
+1105	zaujímat	zaujímávat	I	<NA>	aspect_C:I
+1106	zavádět	zavádívat	I	<NA>	aspect_C:I
+1107	zavírat	zavírávat	I	<NA>	aspect_C:I
+1108	záviset	závisívat	I	<NA>	aspect_C:I
+1109	závodit	závodívat	I	<NA>	aspect_C:I
+1110	zažíhat	zažíhávat	I	<NA>	aspect_C:I
+1111	žblunkat	žblunkávat	<NA>	<NA>	aspect_P:I aspect_C:I
+1112	žbluňkat	žbluňkávat	I	<NA>	aspect_C:I
+1113	zbožňovat	zbožňovávat	I	<NA>	aspect_C:I
+1114	zbrojit	zbrojívat	I	<NA>	aspect_C:I
+1115	zbývat	zbývávat	I	<NA>	aspect_C:I
+1116	zchlazovat	zchlazovávat	I	<NA>	aspect_C:I
+1117	ždát	ždávat	I	<NA>	aspect_C:I
+1118	ždímat	ždímávat	I	<NA>	aspect_C:I
+1119	zdráhat	zdráhávat	I	<NA>	aspect_C:I
+1120	zdržovat	zdržovávat	I	<NA>	aspect_C:I
+1121	zdvihat	zdvihávat	I	<NA>	aspect_C:I
+1122	žebrat	žebrávat	I	<NA>	aspect_C:I
+1123	žebronit	žebronívat	I	<NA>	aspect_C:I
+1124	zedničit	zedničívat	I	<NA>	aspect_C:I
+1125	žehrat	žehrávat	I	<NA>	aspect_C:I
+1126	zelenat	zelenávat	I	<NA>	aspect_C:I
+1127	zevlovat	zevlovávat	I	<NA>	aspect_C:I
+1128	zhasínat	zhasínávat	I	<NA>	aspect_C:I
+1129	zhlížet	zhlížívat	I	<NA>	aspect_C:I
+1130	zhrdat	zhrdávat	I	<NA>	aspect_C:I
+1131	žíhat	žíhávat	I	<NA>	aspect_C:I
+1132	živořit	živořívat	I	<NA>	aspect_C:I
+1133	žíznit	žíznívat	I	<NA>	aspect_C:I
+1134	zjevovat	zjevovávat	I	<NA>	aspect_C:I
+1135	zkájet	zkájívat	<NA>	<NA>	aspect_P:I aspect_C:I
+1136	zlatit	zlatívat	I	<NA>	aspect_C:I
+1137	změnit	změnívat	P	<NA>	aspect_C:I
+1138	zmítat	zmítávat	I	<NA>	aspect_C:I
+1139	žmolit	žmolívat	I	<NA>	aspect_C:I
+1140	značit	značívat	I	<NA>	aspect_C:I
+1141	zobat	zobávat	I	<NA>	aspect_C:I
+1142	zpěčovat	zpěčovávat	I	<NA>	aspect_C:I
+1143	zpíjet	zpíjívat	I	<NA>	aspect_C:I
+1144	zpovídat	zpovídávat	I	<NA>	aspect_C:I
+1145	zračit	zračívat	I	<NA>	aspect_C:I
+1146	zrát	zrávat	I	<NA>	aspect_C:I
+1147	zrazovat	zrazovávat	I	<NA>	aspect_C:I
+1148	zrcadlit	zrcadlívat	I	<NA>	aspect_C:I
+1149	zříkat	zříkávat	I	<NA>	aspect_C:I
+1150	zřít	zřívat	I	<NA>	aspect_C:I
+1151	ztrácet	ztrácívat	I	<NA>	aspect_C:I
+1152	zunkat	zunkávat	I	<NA>	aspect_C:I
+1153	zurčet	zurčívat	I	<NA>	aspect_C:I
+1154	zuřit	zuřívat	I	<NA>	aspect_C:I
+1155	žvastat	žvastávat	<NA>	<NA>	aspect_P:I aspect_C:I
+1156	žvástat	žvástávat	I	<NA>	aspect_C:I
+1157	žvatlat	žvatlávat	I	<NA>	aspect_C:I
+1158	zvěstovat	zvěstovávat	I	<NA>	aspect_C:I
+1159	zvídat	zvídávat	I	<NA>	aspect_C:I
+1160	zvučet	zvučívat	I	<NA>	aspect_C:I
+1161	žvýkat	žvýkávat	I	<NA>	aspect_C:I
+					
+num	parent	child	aspect_P		
+1	dolétat	dolétávat	P		aspect_P:I
+2	padělat	padělávat	P		aspect_P:B
+3	pásat	pásávat	P		aspect_P:I
+4	pobádat	pobádávat	P		aspect_P:I
+5	potrhat	potrhávat	P		
+6	pravit	pravívat	P		aspect_P:I
+7	přeexponovat	přeexponovávat	P		
+8	přehlasovat	přehlasovávat	P		
+9	přiházet	přiházívat	P		aspect_P:I
+10	rozlétat	rozlétávat	P		
+11	skoncovat	skoncovávat	P		
+12	spořádat	spořádávat	P		
+13	stavit	stavívat	P		aspect_P:B
+14	tetovat	tetovávat	P		aspect_P:I
+15	ulétat	ulétávat	P		aspect_P:I
+16	urvat	urvávat	P		
+17	uvítat	uvítávat	P		
+18	vlíbat	vlíbávat	P		
+19	zabarikádovat	zabarikádovávat	P		
+20	zabloudit	zabloudívat	P		
+21	zastlat	zastlávat	P		
+22	zauzlovat	zauzlovávat	P		
+23	změnit	změnívat	P		
+					
+---ASPECT---					
+(aspect)					
+num	parent	child	aspect_P	aspect_C	
+1	bleptat	bleptnout	<NA>	<NA>	aspect_P:I aspect_C:P
+2	čmárat	čmárnout	I	<NA>	aspect_C:P
+3	čmuchat	čmuchnout	I	<NA>	aspect_C:P
+4	ďoubat	ďoubnout	I	<NA>	aspect_C:P
+5	juchat	juchnout	I	<NA>	aspect_C:P
+6	louskat	lousknout	I	<NA>	aspect_C:P
+7	scípat	scípnout	<NA>	P	aspect_P:I
+8	smrákat	smráknout	I	<NA>	aspect_C:P
+9	ťafat	ťafnout	<NA>	P	aspect_P:I
+10	vřískat	vřesknout	I	<NA>	aspect_C:P
+11	zešedat	zešednout	<NA>	P	aspect_P:P
+12	zmítat	zmítnout	I	<NA>	aspect_C:P
+13	zšedat	zšednout	<NA>	P	aspect_P:P
+14	žuchat	žuchnout	<NA>	P	aspect_P:I
+					
+---ASPECT---					
+(aspect)					
+num	parent	child	aspect_P	aspect_C	
+1	dohasit	dohašovat	P	P	aspect_C:I
+2	dohodnout	dohodovat	P	P	aspect_C:I
+3	domočit	domočovat	<NA>	P	aspect_P:P
+4	oddrolit	oddrolovat	P	P	aspect_C:I
+5	odlétnout	odletovat	P	P	aspect_C:I
+6	odvápnit	odvápňovat	P	P	aspect_C:I
+7	přikrášlit	přikrášlovat	P	P	aspect_C:I
+8	přilétnout	přiletovat	P	P	aspect_C:I
+9	rozdrolit	rozdrolovat	P	P	aspect_C:I
+10	vydrolit	vydrolovat	P	P	aspect_C:I
+11	vyhloubit	vyhlubovat	P	P	aspect_C:I
+12	vypovědět	vypovídat	P	B	
+13	vyvrcholit	vyvrcholovat	P	P	aspect_C:I
+14	zahlušit	zahlušovat	P	P	aspect_C:I
+15	zahnout	zahýbat	P	B	
+					
+num	parent	child	aspect_P	aspect_C	
+1	dobásnit	dobásňovat	P	<NA>	aspect_C:I
+2	dobelhat	dobelhávat	P	<NA>	aspect_C:I
+3	dobetonovat	dobetonovávat	P	<NA>	aspect_C:I
+4	dobojovat	dobojovávat	P	<NA>	aspect_C:I
+5	dobolet	dobolívat	<NA>	<NA>	aspect_P:P aspect_C:I
+6	dochvět	dochvívat	<NA>	<NA>	aspect_P:P aspect_C:I
+7	dodrápat	dodrápávat	P	<NA>	aspect_C:I
+8	dodupat	dodupávat	P	<NA>	aspect_C:I
+9	dohopsat	dohopsávat	P	<NA>	aspect_C:I
+10	dohoukat	dohoukávat	P	<NA>	aspect_C:I
+11	dohoupat	dohoupávat	P	<NA>	aspect_C:I
+12	dohovořit	dohovořovat	P	<NA>	aspect_C:I
+13	dohřmít	dohřmívat	P	<NA>	aspect_C:I
+14	dohustit	dohušťovat	P	<NA>	aspect_C:I
+15	dohvízdat	dohvízdávat	<NA>	<NA>	aspect_P:P aspect_C:I
+16	dokalkulovat	dokalkulovávat	<NA>	<NA>	aspect_P:P aspect_C:I
+17	dokašlat	dokašlávat	P	<NA>	aspect_C:I
+18	doklopýtat	doklopýtávat	P	<NA>	aspect_C:I
+19	doklouzat	doklouzávat	P	<NA>	aspect_C:I
+20	doklusat	doklusávat	P	<NA>	aspect_C:I
+21	dokmitat	dokmitávat	<NA>	<NA>	aspect_P:P aspect_C:I
+22	dokodrcat	dokodrcávat	P	<NA>	aspect_C:I
+23	dokolébat	dokolébávat	P	<NA>	aspect_C:I
+24	dokomponovat	dokomponovávat	P	<NA>	aspect_C:I
+25	dokousat	dokousávat	<NA>	I	aspect_P:P
+26	dokročit	dokračovat	P	<NA>	aspect_C:I
+27	dokulhat	dokulhávat	P	<NA>	aspect_C:I
+28	doletovat	doletovávat	<NA>	<NA>	aspect_P:P aspect_C:I
+29	dolíčit	doličovat	P	<NA>	aspect_C:I
+30	dolistovat	dolistovávat	P	<NA>	aspect_C:I
+31	domakat	domakávat	P	<NA>	aspect_C:I
+32	domočit	domočovat	<NA>	P	aspect_P:P
+33	domotat	domotávat	P	<NA>	aspect_C:I
+34	doobjednat	doobjednávat	P	<NA>	aspect_C:I
+35	doorat	doorávat	P	<NA>	aspect_C:I
+36	doosídlit	doosídlovat	<NA>	<NA>	aspect_P:P aspect_C:I
+37	dopěstovat	dopěstovávat	P	<NA>	aspect_C:I
+38	dopískat	dopískávat	<NA>	<NA>	aspect_P:P aspect_C:I
+39	doposlouchat	doposlouchávat	P	<NA>	aspect_C:I
+40	doputovat	doputovávat	P	<NA>	aspect_C:I
+41	došeptat	došeptávat	P	<NA>	aspect_C:I
+42	dosít	dosévat	P	<NA>	aspect_C:I
+43	doškrabat	doškrabávat	P	<NA>	aspect_C:I
+44	došlapat	došlapávat	<NA>	I	aspect_P:P
+45	doslovit	doslovovat	P	<NA>	aspect_C:I
+46	došoupat	došoupávat	P	<NA>	aspect_C:I
+47	dostřelit	dostřelovat	P	<NA>	aspect_C:I
+48	dostříknout	dostřikovat	P	<NA>	aspect_C:I
+49	dostrkat	dostrkávat	P	<NA>	aspect_C:I
+50	dostrojit	dostrojovat	P	<NA>	aspect_C:I
+51	dostrouhat	dostrouhávat	<NA>	<NA>	aspect_P:P aspect_C:I
+52	dostudovat	dostudovávat	P	<NA>	aspect_C:I
+53	dotancovat	dotancovávat	P	<NA>	aspect_C:I
+54	dotlouci	dotloukat	P	<NA>	aspect_C:I
+55	dotrhat	dotrhávat	<NA>	I	aspect_P:P
+56	doťukat	doťukávat	P	<NA>	aspect_C:I
+57	doválcovat	doválcovávat	<NA>	<NA>	aspect_P:P aspect_C:I
+58	dovinout	dovinovat	<NA>	<NA>	aspect_P:P aspect_C:I
+59	dovléci	dovlíkat	P	<NA>	aspect_C:I
+60	dovrtat	dovrtávat	P	<NA>	aspect_C:I
+61	dozbrojit	dozbrojovat	<NA>	<NA>	aspect_P:P aspect_C:I
+62	dožebrat	dožebrávat	<NA>	I	aspect_P:P
+63	dozpívat	dozpívávat	P	<NA>	aspect_C:I
+64	dožvýkat	dožvýkávat	P	<NA>	aspect_C:I
+65	nabarvit	nabarvovat	P	<NA>	aspect_C:I
+66	nabotnat	nabotnávat	<NA>	<NA>	aspect_P:P aspect_C:I
+67	nabrousit	nabrušovat	P	<NA>	aspect_C:I
+68	načesat	načesávat	P	<NA>	aspect_C:I
+69	nadepsat	nadpisovat	P	<NA>	aspect_C:I
+70	nadlepšit	nadlepšovat	<NA>	I	aspect_P:P
+71	nadřadit	nadřaďovat	P	<NA>	aspect_C:I
+72	nadužít	nadužívat	<NA>	I	aspect_P:P
+73	nahrabat	nahrabávat	P	<NA>	aspect_C:I
+74	nahrabat	nahrabovat	P	<NA>	aspect_C:I
+75	nahromadit	nahromaďovat	P	<NA>	aspect_C:I
+76	nahustit	nahušťovat	P	<NA>	aspect_C:I
+77	naježit	naježovat	P	<NA>	aspect_C:I
+78	nakřivit	nakřivovat	P	<NA>	aspect_C:I
+79	nakydat	nakydávat	P	<NA>	aspect_C:I
+80	nakysat	nakysávat	<NA>	<NA>	aspect_P:P aspect_C:I
+81	namalovat	namalovávat	P	<NA>	aspect_C:I
+82	naměstnat	naměstnávat	P	<NA>	aspect_C:I
+83	namlsat	namlsávat	P	<NA>	aspect_C:I
+84	namontovat	namontovávat	P	<NA>	aspect_C:I
+85	naorat	naorávat	P	<NA>	aspect_C:I
+86	napracovat	napracovávat	P	<NA>	aspect_C:I
+87	nasít	nasévat	P	<NA>	aspect_C:I
+88	nasít	nasívat	P	<NA>	aspect_C:I
+89	naškrobit	naškrobovat	P	<NA>	aspect_C:I
+90	naštípnout	naštipovat	P	<NA>	aspect_C:I
+91	nastřádat	nastřádávat	P	<NA>	aspect_C:I
+92	nastřihnout	nastřihovat	P	<NA>	aspect_C:I
+93	nastříknout	nastřikovat	P	<NA>	aspect_C:I
+94	natnout	natínat	P	<NA>	aspect_C:I
+95	natrhnout	natrhovat	P	<NA>	aspect_C:I
+96	navlažit	navlažovat	P	<NA>	aspect_C:I
+97	navnadit	navnaďovat	P	<NA>	aspect_C:I
+98	oběhat	oběhávat	P	<NA>	aspect_C:I
+99	obelstít	obelstívat	P	<NA>	aspect_C:I
+100	obetkat	obetkávat	P	<NA>	aspect_C:I
+101	obeznat	obeznávat	P	<NA>	aspect_C:I
+102	obháčkovat	obháčkovávat	P	<NA>	aspect_C:I
+103	obkročit	obkročovat	P	<NA>	aspect_C:I
+104	oblomit	oblomovat	P	<NA>	aspect_C:I
+105	oblýskat	oblýskávat	P	<NA>	aspect_C:I
+106	oborat	oborávat	<NA>	<NA>	aspect_P:P aspect_C:I
+107	obrovnat	obrovnávat	<NA>	<NA>	aspect_P:P aspect_C:I
+108	obrýt	obrývat	P	<NA>	aspect_C:I
+109	obsekat	obsekávat	<NA>	I	aspect_P:P
+110	očíslovat	očíslovávat	P	<NA>	aspect_C:I
+111	odběhat	odběhávat	P	<NA>	aspect_C:I
+112	odbelhat	odbelhávat	P	<NA>	aspect_C:I
+113	odcinkat	odcinkávat	<NA>	I	aspect_P:P
+114	oddlužit	oddlužovat	P	<NA>	aspect_C:I
+115	oddrobit	oddrobovat	<NA>	<NA>	aspect_P:P aspect_C:I
+116	odhoukat	odhoukávat	P	<NA>	aspect_C:I
+117	odklapat	odklapávat	P	<NA>	aspect_C:I
+118	odklinkat	odklinkávat	P	<NA>	aspect_C:I
+119	odklonit	odkloňovat	P	<NA>	aspect_C:I
+120	odkolébat	odkolébávat	P	<NA>	aspect_C:I
+121	odkolíbat	odkolíbávat	<NA>	<NA>	aspect_P:P aspect_C:I
+122	odkřesťanit	odkřesťaňovat	<NA>	<NA>	aspect_P:P aspect_C:I
+123	odkulhat	odkulhávat	P	<NA>	aspect_C:I
+124	odkysličit	odkysličovat	<NA>	<NA>	aspect_P:P aspect_C:I
+125	odlevit	odlevovat	<NA>	<NA>	aspect_P:P aspect_C:I
+126	odlidnit	odlidňovat	P	<NA>	aspect_C:I
+127	odlidštit	odlidšťovat	<NA>	I	aspect_P:P
+128	odmaskovat	odmaskovávat	P	<NA>	aspect_C:I
+129	odmořit	odmořovat	<NA>	I	aspect_P:P
+130	odnárodnit	odnárodňovat	P	<NA>	aspect_C:I
+131	odnožit	odnožovat	<NA>	I	aspect_P:P
+132	odorat	odorávat	<NA>	<NA>	aspect_P:P aspect_C:I
+133	odpečetit	odpečeťovat	P	<NA>	aspect_C:I
+134	odpeckovat	odpeckovávat	P	<NA>	aspect_C:I
+135	odpilovat	odpilovávat	P	<NA>	aspect_C:I
+136	odplakat	odplakávat	P	<NA>	aspect_C:I
+137	odrýpat	odrýpávat	<NA>	I	aspect_P:P
+138	odškrabat	odškrabávat	<NA>	I	aspect_P:P
+139	odškrabat	odškrabovat	<NA>	I	aspect_P:P
+140	odtancovat	odtancovávat	P	<NA>	aspect_C:I
+141	odvařit	odvařovat	P	<NA>	aspect_C:I
+142	odvíčkovat	odvíčkovávat	P	<NA>	aspect_C:I
+143	odvléci	odvlíkat	P	<NA>	aspect_C:I
+144	odvšivit	odvšivovat	P	<NA>	aspect_C:I
+145	odzátkovat	odzátkovávat	P	<NA>	aspect_C:I
+146	odznačit	odznačovat	P	<NA>	aspect_C:I
+147	odznít	odznívat	P	<NA>	aspect_C:I
+148	odzpívat	odzpěvovat	P	<NA>	aspect_C:I
+149	odzrcadlit	odzrcadlovat	P	<NA>	aspect_C:I
+150	ofoukat	ofoukávat	<NA>	I	aspect_P:P
+151	ohloupit	ohlupovat	<NA>	I	aspect_P:P
+152	ohnít	ohnívat	<NA>	I	aspect_P:P
+153	ohořet	ohořívat	P	<NA>	aspect_C:I
+154	ohryznout	ohryzovat	<NA>	I	aspect_P:P
+155	okouřit	okuřovat	<NA>	I	aspect_P:P
+156	okřídlit	okřídlovat	P	<NA>	aspect_C:I
+157	omazat	omazávat	P	<NA>	aspect_C:I
+158	opařit	opařovat	P	<NA>	aspect_C:I
+159	opentlit	opentlovat	P	<NA>	aspect_C:I
+160	opleskat	opleskávat	<NA>	I	aspect_P:P
+161	opotit	opocovat	P	<NA>	aspect_C:I
+162	oprchat	oprchávat	P	<NA>	aspect_C:I
+163	optat	optávat	P	<NA>	aspect_C:I
+164	orazítkovat	orazítkovávat	P	<NA>	aspect_C:I
+165	oštípnout	oštipovat	<NA>	I	aspect_P:P
+166	ostřihnout	ostřihovat	P	<NA>	aspect_C:I
+167	ovanout	ovanovat	P	<NA>	aspect_C:I
+168	ovařit	ovařovat	P	<NA>	aspect_C:I
+169	ovětrat	ovětrávat	<NA>	<NA>	aspect_P:P aspect_C:I
+170	ovlažit	ovlažovat	P	<NA>	aspect_C:I
+171	ožehnout	ožehovat	P	<NA>	aspect_C:I
+172	ozlatit	ozlacovat	P	<NA>	aspect_C:I
+173	oznobit	oznobovat	P	<NA>	aspect_C:I
+174	poameričtit	poameričťovat	P	<NA>	aspect_C:I
+175	poangličtit	poangličťovat	P	<NA>	aspect_C:I
+176	počechrat	počechrávat	P	<NA>	aspect_C:I
+177	pochytit	pochycovat	P	<NA>	aspect_C:I
+178	počichat	počichávat	<NA>	<NA>	aspect_P:P aspect_C:I
+179	počíhat	počíhávat	P	<NA>	aspect_C:I
+180	pocínovat	pocínovávat	P	<NA>	aspect_C:I
+181	počínštit	počínšťovat	P	<NA>	aspect_C:I
+182	počistit	počišťovat	<NA>	I	aspect_P:P
+183	pocuchat	pocuchávat	P	<NA>	aspect_C:I
+184	podchytnout	podchytávat	<NA>	<NA>	aspect_P:P aspect_C:I
+185	podebrat	podbírat	P	<NA>	aspect_C:I
+186	podehnít	podehnívat	<NA>	I	aspect_P:P
+187	podfouknout	podfukovat	P	<NA>	aspect_C:I
+188	podhrnout	podhrnovat	<NA>	<NA>	aspect_P:P aspect_C:I
+189	podloubat	podloubávat	P	<NA>	aspect_C:I
+190	podpíchnout	podpichovat	P	<NA>	aspect_C:I
+191	podplést	podplétat	<NA>	<NA>	aspect_P:P aspect_C:I
+192	podřadit	podřaďovat	P	<NA>	aspect_C:I
+193	podrbat	podrbávat	P	<NA>	aspect_C:I
+194	podrůst	podrůstat	<NA>	I	aspect_P:P
+195	podvléci	podvlékat	P	<NA>	aspect_C:I
+196	pofrancouzštit	pofrancouzšťovat	P	<NA>	aspect_C:I
+197	pokatoličtit	pokatoličťovat	P	<NA>	aspect_C:I
+198	pokolébat	pokolébávat	<NA>	<NA>	aspect_P:P aspect_C:I
+199	pokolíbat	pokolíbávat	<NA>	<NA>	aspect_P:P aspect_C:I
+200	pokřesťanštit	pokřesťanšťovat	P	<NA>	aspect_C:I
+201	pokřtít	pokřtívat	P	<NA>	aspect_C:I
+202	polechtat	polechtávat	P	<NA>	aspect_C:I
+203	pomačkat	pomačkávat	P	<NA>	aspect_C:I
+204	pomaďarštit	pomaďaršťovat	P	<NA>	aspect_C:I
+205	pomilovat	pomilovávat	P	<NA>	aspect_C:I
+206	pomlaskat	pomlaskávat	<NA>	I	aspect_P:P
+207	pomotat	pomotávat	P	<NA>	aspect_C:I
+208	popolštit	popolšťovat	<NA>	<NA>	aspect_P:P aspect_C:I
+209	popošít	popošívat	P	<NA>	aspect_C:I
+210	poprášit	poprašovat	P	<NA>	aspect_C:I
+211	pořečtit	pořečťovat	P	<NA>	aspect_C:I
+212	porobit	porobovat	P	<NA>	aspect_C:I
+213	porubat	porubávat	P	<NA>	aspect_C:I
+214	poškrabat	poškrabávat	P	<NA>	aspect_C:I
+215	poslovenštit	poslovenšťovat	<NA>	I	aspect_P:P
+216	pošoupnout	pošupovat	P	<NA>	aspect_C:I
+217	postátnit	postátňovat	P	<NA>	aspect_C:I
+218	postrojit	postrojovat	P	<NA>	aspect_C:I
+219	pošvihnout	pošvihovat	<NA>	<NA>	aspect_P:P aspect_C:I
+220	potrkat	potrkávat	P	<NA>	aspect_C:I
+221	potýrat	potýrávat	P	<NA>	aspect_C:I
+222	poženštit	poženšťovat	P	<NA>	aspect_C:I
+223	pozhasínat	pozhasínávat	P	<NA>	aspect_C:I
+224	požidovštit	požidovšťovat	<NA>	<NA>	aspect_P:P aspect_C:I
+225	přebodovat	přebodovávat	<NA>	I	aspect_P:P
+226	přebolet	přebolívat	P	<NA>	aspect_C:I
+227	přečarovat	přečarovávat	<NA>	<NA>	aspect_P:P aspect_C:I
+228	přecedit	přecezovat	P	<NA>	aspect_C:I
+229	přečesat	přečesávat	P	<NA>	aspect_C:I
+230	předkovat	předkovávat	<NA>	<NA>	aspect_P:P aspect_C:I
+231	předláždit	předlažďovat	P	<NA>	aspect_C:I
+232	předpéci	předpékat	P	<NA>	aspect_C:I
+233	předržet	předržovat	P	<NA>	aspect_C:I
+234	předsušit	předsušovat	<NA>	<NA>	aspect_P:P aspect_C:I
+235	předtisknout	předtiskovat	P	<NA>	aspect_C:I
+236	přehlodat	přehlodávat	<NA>	<NA>	aspect_P:P aspect_C:I
+237	přehryznout	přehryzovat	P	<NA>	aspect_C:I
+238	překapat	překapovat	P	<NA>	aspect_C:I
+239	překazit	překazovat	P	<NA>	aspect_C:I
+240	překlížit	překližovat	<NA>	<NA>	aspect_P:P aspect_C:I
+241	překompensovat	překompensovávat	<NA>	<NA>	aspect_P:P aspect_C:I
+242	překomponovat	překomponovávat	P	<NA>	aspect_C:I
+243	překřtít	překřtívat	P	<NA>	aspect_C:I
+244	přelhat	přelhávat	<NA>	I	aspect_P:P
+245	přemotat	přemotávat	<NA>	<NA>	aspect_P:P aspect_C:I
+246	přeorganisovat	přeorganisovávat	<NA>	<NA>	aspect_P:P aspect_C:I
+247	přepéci	přepékat	P	<NA>	aspect_C:I
+248	přepeřit	přepeřovat	<NA>	I	aspect_P:P
+249	přepudrovat	přepudrovávat	P	<NA>	aspect_C:I
+250	přeřadit	přeřaďovat	P	<NA>	aspect_C:I
+251	přerazítkovat	přerazítkovávat	<NA>	<NA>	aspect_P:P aspect_C:I
+252	přesloužit	přesluhovat	<NA>	I	aspect_P:P
+253	přetlumočit	přetlumočovat	P	<NA>	aspect_C:I
+254	přetřepat	přetřepávat	<NA>	<NA>	aspect_P:P aspect_C:I
+255	přetřídit	přetřiďovat	P	<NA>	aspect_C:I
+256	přežehlit	přežehlovat	P	<NA>	aspect_C:I
+257	přezvat	přezývat	P	<NA>	aspect_C:I
+258	přibudovat	přibudovávat	<NA>	<NA>	aspect_P:P aspect_C:I
+259	přichovat	přichovávat	<NA>	<NA>	aspect_P:P aspect_C:I
+260	přichystat	přichystávat	P	<NA>	aspect_C:I
+261	přicpat	přicpávat	P	<NA>	aspect_C:I
+262	přidražit	přidražovat	<NA>	<NA>	aspect_P:P aspect_C:I
+263	přidusat	přidusávat	P	<NA>	aspect_C:I
+264	přihoblovat	přihoblovávat	P	<NA>	aspect_C:I
+265	přihrabat	přihrabovat	P	<NA>	aspect_C:I
+266	přihrbit	přihrbovat	P	<NA>	aspect_C:I
+267	přihustit	přihušťovat	P	<NA>	aspect_C:I
+268	přijednat	přijednávat	<NA>	<NA>	aspect_P:P aspect_C:I
+269	přiklopit	přiklopovat	P	<NA>	aspect_C:I
+270	přikomponovat	přikomponovávat	P	<NA>	aspect_C:I
+271	přikopat	přikopávat	P	<NA>	aspect_C:I
+272	přikulhat	přikulhávat	P	<NA>	aspect_C:I
+273	přikyselit	přikyselovat	P	<NA>	aspect_C:I
+274	přilnout	přilínat	P	<NA>	aspect_C:I
+275	přimalovat	přimalovávat	P	<NA>	aspect_C:I
+276	přimastit	přimašťovat	P	<NA>	aspect_C:I
+277	přiměřit	přiměřovat	P	<NA>	aspect_C:I
+278	přimísit	přiměšovat	P	<NA>	aspect_C:I
+279	přimotat	přimotávat	P	<NA>	aspect_C:I
+280	přiorat	přiorávat	<NA>	<NA>	aspect_P:P aspect_C:I
+281	připovědět	připovídat	<NA>	<NA>	aspect_P:P aspect_C:I
+282	připudrovat	připudrovávat	<NA>	<NA>	aspect_P:P aspect_C:I
+283	přiřezat	přiřezávat	<NA>	I	aspect_P:P
+284	přiskřípnout	přiskřipovat	P	<NA>	aspect_C:I
+285	přiškvařit	přiškvařovat	P	<NA>	aspect_C:I
+286	přispěchat	přispěchávat	P	<NA>	aspect_C:I
+287	přištípnout	přištipovat	<NA>	<NA>	aspect_P:P aspect_C:I
+288	přistřihat	přistřihávat	<NA>	I	aspect_P:P
+289	přistříhat	přistříhávat	<NA>	<NA>	aspect_P:P aspect_C:I
+290	přistrojit	přistrojovat	P	<NA>	aspect_C:I
+291	přisypat	přisýpat	P	<NA>	aspect_C:I
+292	přitisknout	přitiskovat	P	<NA>	aspect_C:I
+293	přivařit	přivařovat	P	<NA>	aspect_C:I
+294	přivěsit	přivěšovat	P	<NA>	aspect_C:I
+295	přivinout	přivinovat	P	<NA>	aspect_C:I
+296	přivléci	přivlíkat	P	<NA>	aspect_C:I
+297	přivolit	přivolovat	P	<NA>	aspect_C:I
+298	proběhat	proběhávat	P	<NA>	aspect_C:I
+299	probělit	probělovat	<NA>	<NA>	aspect_P:P aspect_C:I
+300	prochutnat	prochutnávat	<NA>	I	aspect_P:P
+301	pročichat	pročichávat	P	<NA>	aspect_C:I
+302	proclít	proclívat	P	<NA>	aspect_C:I
+303	produševnit	produševňovat	<NA>	<NA>	aspect_P:P aspect_C:I
+304	prohnít	prohnívat	P	<NA>	aspect_C:I
+305	prohovořit	prohovořovat	P	<NA>	aspect_C:I
+306	proklestit	proklesťovat	P	<NA>	aspect_C:I
+307	proklobat	proklobávat	<NA>	<NA>	aspect_P:P aspect_C:I
+308	prokrmit	prokrmovat	P	<NA>	aspect_C:I
+309	prokvasit	prokvašovat	P	<NA>	aspect_C:I
+310	prokypřit	prokypřovat	P	<NA>	aspect_C:I
+311	prokysličit	prokysličovat	P	<NA>	aspect_C:I
+312	promlsat	promlsávat	P	<NA>	aspect_C:I
+313	propilovat	propilovávat	<NA>	<NA>	aspect_P:P aspect_C:I
+314	proplakat	proplakávat	P	<NA>	aspect_C:I
+315	prorýt	prorývat	<NA>	I	aspect_P:P
+316	proškrabat	proškrabávat	<NA>	<NA>	aspect_P:P aspect_C:I
+317	prosmažit	prosmažovat	P	<NA>	aspect_C:I
+318	proštípnout	proštipovat	P	<NA>	aspect_C:I
+319	prostřihat	prostřihávat	<NA>	I	aspect_P:P
+320	prostřihnout	prostřihovat	P	<NA>	aspect_C:I
+321	prostříkat	prostříkávat	I	<NA>	aspect_P:P aspect_C:I
+322	prosvětlat	prosvětlávat	<NA>	<NA>	aspect_P:P aspect_C:I
+323	protoulat	protoulávat	P	<NA>	aspect_C:I
+324	rozbahnit	rozbahňovat	P	<NA>	aspect_C:I
+325	rozbřesknout	rozbřeskovat	P	<NA>	aspect_C:I
+326	rozčarovat	rozčarovávat	P	<NA>	aspect_C:I
+327	rozčechrat	rozčechrávat	P	<NA>	aspect_C:I
+328	rozcuchat	rozcuchávat	P	<NA>	aspect_C:I
+329	rozdoutnat	rozdoutnávat	<NA>	<NA>	aspect_P:P aspect_C:I
+330	rozdrásat	rozdrásávat	P	<NA>	aspect_C:I
+331	rozdýmat	rozdýmávat	P	<NA>	aspect_C:I
+332	rozehřát	rozehřávat	P	<NA>	aspect_C:I
+333	rozeštkat	rozeštkávat	P	<NA>	aspect_C:I
+334	rozhalit	rozhalovat	P	<NA>	aspect_C:I
+335	rozhárat	rozhárávat	P	<NA>	aspect_C:I
+336	rozjektat	rozjektávat	P	<NA>	aspect_C:I
+337	rozklobat	rozklobávat	<NA>	<NA>	aspect_P:P aspect_C:I
+338	rozklofat	rozklofávat	<NA>	<NA>	aspect_P:P aspect_C:I
+339	rozkloktat	rozkloktávat	P	<NA>	aspect_C:I
+340	rozkochat	rozkochávat	<NA>	<NA>	aspect_P:P aspect_C:I
+341	rozkřesat	rozkřesávat	P	<NA>	aspect_C:I
+342	rozkydat	rozkydávat	<NA>	<NA>	aspect_P:P aspect_C:I
+343	rozkývat	rozkývávat	P	<NA>	aspect_C:I
+344	rozloupat	rozloupávat	<NA>	I	aspect_P:P
+345	rozpařit	rozpařovat	P	<NA>	aspect_C:I
+346	rozpíchat	rozpichovat	P	<NA>	aspect_C:I
+347	rozpleskat	rozpleskávat	<NA>	I	aspect_P:P
+348	rozplodit	rozplozovat	<NA>	I	aspect_P:P
+349	rozplýtvat	rozplýtvávat	P	<NA>	aspect_C:I
+350	rozposílat	rozposílávat	<NA>	<NA>	aspect_P:P aspect_C:I
+351	rozřadit	rozřaďovat	P	<NA>	aspect_C:I
+352	rozradovat	rozradovávat	P	<NA>	aspect_C:I
+353	rozřehtat	rozřehtávat	P	<NA>	aspect_C:I
+354	rozrýpat	rozrýpávat	<NA>	<NA>	aspect_P:P aspect_C:I
+355	rozškrabat	rozškrabávat	P	<NA>	aspect_C:I
+356	rozškrabat	rozškrabovat	P	<NA>	aspect_C:I
+357	rozskřípat	rozskřípávat	P	<NA>	aspect_C:I
+358	rozškrtat	rozškrtávat	<NA>	I	aspect_P:P
+359	rozškubat	rozškubávat	P	<NA>	aspect_C:I
+360	rozškvařit	rozškvařovat	P	<NA>	aspect_C:I
+361	rozštípat	rozštípávat	P	<NA>	aspect_C:I
+362	roztepat	roztepávat	P	<NA>	aspect_C:I
+363	rozvléci	rozvlékat	P	<NA>	aspect_C:I
+364	rozžehlit	rozžehlovat	P	<NA>	aspect_C:I
+365	sbrousit	sbrušovat	P	<NA>	aspect_C:I
+366	scedit	scezovat	P	<NA>	aspect_C:I
+367	sdělat	sdělávat	P	<NA>	aspect_C:I
+368	sdrhnout	sdrhovat	P	<NA>	aspect_C:I
+369	sečkat	sečkávat	I	<NA>	aspect_P:P aspect_C:I
+370	seřadit	seřaďovat	P	<NA>	aspect_C:I
+371	sesekat	sesekávat	I	<NA>	aspect_P:P aspect_C:I
+372	sešlehat	sešlehávat	I	<NA>	aspect_P:P aspect_C:I
+373	sesmyknout	sesmykovat	<NA>	<NA>	aspect_P:P aspect_C:I
+374	sestehovat	sestehovávat	P	<NA>	aspect_C:I
+375	sesypat	sesýpat	P	<NA>	aspect_C:I
+376	sežehlit	sežehlovat	P	<NA>	aspect_C:I
+377	sežmoulat	sežmoulávat	P	<NA>	aspect_C:I
+378	sklížit	skližovat	P	<NA>	aspect_C:I
+379	skreslit	skreslovat	<NA>	I	aspect_P:P
+380	smlsat	smlsávat	<NA>	I	aspect_P:P
+381	spěchovat	spěchovávat	<NA>	<NA>	aspect_P:P aspect_C:I
+382	splasknout	splaskovat	P	<NA>	aspect_C:I
+383	srozumět	srozumívat	P	<NA>	aspect_C:I
+384	stesat	stesávat	P	<NA>	aspect_C:I
+385	svážit	svažovat	<NA>	I	aspect_P:P
+386	ubodat	ubodávat	P	<NA>	aspect_C:I
+387	ubourat	ubourávat	P	<NA>	aspect_C:I
+388	ubrousit	ubrušovat	P	<NA>	aspect_C:I
+389	uchystat	uchystávat	P	<NA>	aspect_C:I
+390	učíhat	učíhávat	<NA>	<NA>	aspect_P:P aspect_C:I
+391	ucítit	uciťovat	P	<NA>	aspect_C:I
+392	učlenit	učleňovat	<NA>	<NA>	aspect_P:P aspect_C:I
+393	udávit	udavovat	P	<NA>	aspect_C:I
+394	udrobit	udrobovat	<NA>	<NA>	aspect_P:P aspect_C:I
+395	udrolit	udrolovat	P	<NA>	aspect_C:I
+396	udýchat	udýchávat	P	<NA>	aspect_C:I
+397	uhájit	uhajovat	P	<NA>	aspect_C:I
+398	uhodit	uhozovat	P	<NA>	aspect_C:I
+399	ujednat	ujednávat	P	<NA>	aspect_C:I
+400	ujemnit	ujemňovat	<NA>	<NA>	aspect_P:P aspect_C:I
+401	ukořistit	ukořisťovat	P	<NA>	aspect_C:I
+402	ukovat	ukovávat	P	<NA>	aspect_C:I
+403	ukrášlit	ukrašlovat	<NA>	<NA>	aspect_P:P aspect_C:I
+404	ukřivit	ukřivovat	<NA>	<NA>	aspect_P:P aspect_C:I
+405	ulechtat	ulechtávat	P	<NA>	aspect_C:I
+406	ulhat	ulhávat	P	<NA>	aspect_C:I
+407	ulichotit	ulichocovat	<NA>	<NA>	aspect_P:P aspect_C:I
+408	unýt	unývat	<NA>	<NA>	aspect_P:P aspect_C:I
+409	uorat	uorávat	<NA>	<NA>	aspect_P:P aspect_C:I
+410	upěchovat	upěchovávat	P	<NA>	aspect_C:I
+411	upéci	upékat	P	<NA>	aspect_C:I
+412	upleskat	upleskávat	<NA>	<NA>	aspect_P:P aspect_C:I
+413	uplést	uplétat	P	<NA>	aspect_C:I
+414	upotřebit	upotřebovat	P	<NA>	aspect_C:I
+415	upříjemnit	upříjemňovat	<NA>	<NA>	aspect_P:P aspect_C:I
+416	uprostranit	uprostraňovat	<NA>	<NA>	aspect_P:P aspect_C:I
+417	urýt	urývat	P	<NA>	aspect_C:I
+418	uskřinout	uskřinovat	P	<NA>	aspect_C:I
+419	uskřípnout	uskřipovat	P	<NA>	aspect_C:I
+420	uškrtit	uškrcovat	P	<NA>	aspect_C:I
+421	usoustředit	usoustřeďovat	<NA>	<NA>	aspect_P:P aspect_C:I
+422	usplavnit	usplavňovat	<NA>	<NA>	aspect_P:P aspect_C:I
+423	ušplíchnout	ušplichovat	<NA>	<NA>	aspect_P:P aspect_C:I
+424	uspořit	uspořovat	P	<NA>	aspect_C:I
+425	usrovnat	usrovnávat	<NA>	<NA>	aspect_P:P aspect_C:I
+426	ustejnit	ustejňovat	<NA>	<NA>	aspect_P:P aspect_C:I
+427	ustranit	ustraňovat	<NA>	<NA>	aspect_P:P aspect_C:I
+428	ustředit	ustřeďovat	<NA>	<NA>	aspect_P:P aspect_C:I
+429	ustrojit	ustrojovat	P	<NA>	aspect_C:I
+430	usyknout	usykovat	P	<NA>	aspect_C:I
+431	usypat	usýpat	P	<NA>	aspect_C:I
+432	uvábit	uvabovat	P	<NA>	aspect_C:I
+433	uvarovat	uvarovávat	P	<NA>	aspect_C:I
+434	uvláčet	uvlačovat	P	<NA>	aspect_C:I
+435	uvléci	uvlékat	<NA>	<NA>	aspect_P:P aspect_C:I
+436	uvřít	uvírat	<NA>	<NA>	aspect_P:P aspect_C:I
+437	užasnout	užasínat	P	<NA>	aspect_C:I
+438	užnout	užínat	P	<NA>	aspect_C:I
+439	vbičovat	vbičovávat	<NA>	<NA>	aspect_P:P aspect_C:I
+440	vbočit	vbočovat	<NA>	<NA>	aspect_P:P aspect_C:I
+441	vbořit	vbořovat	P	<NA>	aspect_C:I
+442	vdívat	vdívávat	<NA>	<NA>	aspect_P:P aspect_C:I
+443	vdmychnout	vdmychovat	<NA>	<NA>	aspect_P:P aspect_C:I
+444	vedrat	vedrávat	P	<NA>	aspect_C:I
+445	vefouknout	vefukovat	P	<NA>	aspect_C:I
+446	vešlehat	vešlehávat	P	<NA>	aspect_C:I
+447	vevázat	vevazovat	P	<NA>	aspect_C:I
+448	veznít	veznívat	<NA>	<NA>	aspect_P:P aspect_C:I
+449	vháčkovat	vháčkovávat	<NA>	<NA>	aspect_P:P aspect_C:I
+450	vkapat	vkapávat	<NA>	I	aspect_P:P
+451	vkolébat	vkolébávat	P	<NA>	aspect_C:I
+452	vkoupit	vkupovat	<NA>	<NA>	aspect_P:P aspect_C:I
+453	vleptat	vleptávat	<NA>	<NA>	aspect_P:P aspect_C:I
+454	vpašovat	vpašovávat	P	<NA>	aspect_C:I
+455	vpěchovat	vpěchovávat	<NA>	<NA>	aspect_P:P aspect_C:I
+456	vpíchat	vpíchávat	P	<NA>	aspect_C:I
+457	vplavit	vplavovat	P	<NA>	aspect_C:I
+458	vplazit	vplazívat	P	<NA>	aspect_C:I
+459	vrojit	vrojovat	<NA>	<NA>	aspect_P:P aspect_C:I
+460	vrovnat	vrovnávat	<NA>	<NA>	aspect_P:P aspect_C:I
+461	vsít	vsévat	P	<NA>	aspect_C:I
+462	vsít	vsívat	P	<NA>	aspect_C:I
+463	vškrabat	vškrabovat	<NA>	<NA>	aspect_P:P aspect_C:I
+464	všlapat	všlapovat	<NA>	<NA>	aspect_P:P aspect_C:I
+465	všoupat	všoupávat	<NA>	<NA>	aspect_P:P aspect_C:I
+466	vsypat	vsýpat	P	<NA>	aspect_C:I
+467	vtancovat	vtancovávat	<NA>	I	aspect_P:P
+468	vtesat	vtesávat	P	<NA>	aspect_C:I
+469	vtetovat	vtetovávat	<NA>	<NA>	aspect_P:P aspect_C:I
+470	vústit	vúsťovat	P	<NA>	aspect_C:I
+471	vybalancovat	vybalancovávat	P	<NA>	aspect_C:I
+472	vybednit	vybedňovat	P	<NA>	aspect_C:I
+473	vyblýsknout	vyblyskovat	P	<NA>	aspect_C:I
+474	vybodat	vybodávat	<NA>	<NA>	aspect_P:P aspect_C:I
+475	vyburcovat	vyburcovávat	P	<NA>	aspect_C:I
+476	vybýt	vybývat	P	<NA>	aspect_C:I
+477	vycedit	vycezovat	P	<NA>	aspect_C:I
+478	vychechtat	vychechtávat	P	<NA>	aspect_C:I
+479	vydeklamovat	vydeklamovávat	<NA>	<NA>	aspect_P:P aspect_C:I
+480	vydlužit	vydlužovat	P	<NA>	aspect_C:I
+481	vyďobat	vyďobávat	<NA>	<NA>	aspect_P:P aspect_C:I
+482	vydolovat	vydolovávat	P	<NA>	aspect_C:I
+483	vydoutnat	vydoutnávat	P	<NA>	aspect_C:I
+484	vydrbat	vydrbávat	P	<NA>	aspect_C:I
+485	vyhalit	vyhalovat	<NA>	<NA>	aspect_P:P aspect_C:I
+486	vyhlaholit	vyhlaholovat	<NA>	<NA>	aspect_P:P aspect_C:I
+487	vyhloubat	vyhloubávat	P	<NA>	aspect_C:I
+488	vyhraničit	vyhraničovat	<NA>	<NA>	aspect_P:P aspect_C:I
+489	vyhýčkat	vyhýčkávat	P	<NA>	aspect_C:I
+490	vyjeknout	vyjekovat	P	<NA>	aspect_C:I
+491	vyjezdit	vyjezdívat	P	<NA>	aspect_C:I
+492	vykácet	vykacovat	P	<NA>	aspect_C:I
+493	vyklestit	vyklesťovat	P	<NA>	aspect_C:I
+494	vykleštit	vyklešťovat	P	<NA>	aspect_C:I
+495	vyklobat	vyklobávat	<NA>	<NA>	aspect_P:P aspect_C:I
+496	vyklouzat	vyklouzávat	<NA>	I	aspect_P:P
+497	vykrášlit	vykrašlovat	P	<NA>	aspect_C:I
+498	vykrášlit	vykrášlovat	P	<NA>	aspect_C:I
+499	vykropit	vykropovat	P	<NA>	aspect_C:I
+500	vykrvácet	vykrvacovat	P	<NA>	aspect_C:I
+501	vykuklit	vykuklovat	P	<NA>	aspect_C:I
+502	vykvést	vykvítat	P	<NA>	aspect_C:I
+503	vykviknout	vykvikovat	P	<NA>	aspect_C:I
+504	vylechtat	vylechtávat	<NA>	<NA>	aspect_P:P aspect_C:I
+505	vyléčit	vyléčovat	P	<NA>	aspect_C:I
+506	vylišit	vylišovat	P	<NA>	aspect_C:I
+507	vylouskat	vylouskávat	P	<NA>	aspect_C:I
+508	vymísit	vymisovat	<NA>	<NA>	aspect_P:P aspect_C:I
+509	vymizet	vymizovat	P	<NA>	aspect_C:I
+510	vymlsat	vymlsávat	<NA>	<NA>	aspect_P:P aspect_C:I
+511	vymrazit	vymrazovat	P	<NA>	aspect_C:I
+512	vymrsknout	vymrskovat	P	<NA>	aspect_C:I
+513	vymručet	vymručovat	<NA>	<NA>	aspect_P:P aspect_C:I
+514	vypozorovat	vypozorovávat	P	<NA>	aspect_C:I
+515	vypřáhnout	vypřahovat	P	<NA>	aspect_C:I
+516	vypražit	vypražovat	<NA>	<NA>	aspect_P:P aspect_C:I
+517	vypřímit	vypřimovat	<NA>	<NA>	aspect_P:P aspect_C:I
+518	vypružit	vypružovat	P	<NA>	aspect_C:I
+519	vypučet	vypučívat	P	<NA>	aspect_C:I
+520	vypůsobit	vypůsobovat	<NA>	<NA>	aspect_P:P aspect_C:I
+521	vyřadit	vyřaďovat	P	<NA>	aspect_C:I
+522	vyřešit	vyřešovat	P	<NA>	aspect_C:I
+523	vyrodit	vyrozovat	P	<NA>	aspect_C:I
+524	vysípat	vysípávat	<NA>	<NA>	aspect_P:P aspect_C:I
+525	vyškvařit	vyškvařovat	P	<NA>	aspect_C:I
+526	vysladit	vyslazovat	<NA>	I	aspect_P:P
+527	vyslavit	vyslavovat	P	<NA>	aspect_C:I
+528	vyslídit	vysliďovat	P	<NA>	aspect_C:I
+529	vysmahnout	vysmahovat	P	<NA>	aspect_C:I
+530	vysmažit	vysmažovat	P	<NA>	aspect_C:I
+531	vysmolit	vysmolovat	P	<NA>	aspect_C:I
+532	vysoukat	vysoukávat	P	<NA>	aspect_C:I
+533	vyšplhat	vyšplhávat	P	<NA>	aspect_C:I
+534	vysrkat	vysrkávat	P	<NA>	aspect_C:I
+535	vysršet	vysršovat	P	<NA>	aspect_C:I
+536	vyštepovat	vyštepovávat	<NA>	<NA>	aspect_P:P aspect_C:I
+537	vyštěrbat	vyštěrbávat	<NA>	<NA>	aspect_P:P aspect_C:I
+538	vyštěrbit	vyštěrbovat	<NA>	<NA>	aspect_P:P aspect_C:I
+539	vystonat	vystonávat	P	<NA>	aspect_C:I
+540	vystopovat	vystopovávat	P	<NA>	aspect_C:I
+541	vystředit	vystřeďovat	P	<NA>	aspect_C:I
+542	vystřízlivět	vystřízlivovat	P	<NA>	aspect_C:I
+543	vystrmět	vystrmovat	<NA>	<NA>	aspect_P:P aspect_C:I
+544	vystrouhat	vystrouhávat	I	<NA>	aspect_P:P aspect_C:I
+545	vystružit	vystružovat	<NA>	I	aspect_P:P
+546	vyštvat	vyštvávat	P	<NA>	aspect_C:I
+547	vysvědčit	vysvědčovat	<NA>	I	aspect_P:P
+548	vysyčet	vysyčovat	P	<NA>	aspect_C:I
+549	vytasit	vytasovat	P	<NA>	aspect_C:I
+550	vytavit	vytavovat	P	<NA>	aspect_C:I
+551	vytečkovat	vytečkovávat	P	<NA>	aspect_C:I
+552	vytkat	vytkávat	P	<NA>	aspect_C:I
+553	vytrestat	vytrestávat	P	<NA>	aspect_C:I
+554	vytřídit	vytřiďovat	P	<NA>	aspect_C:I
+555	vytřískat	vytřískávat	P	<NA>	aspect_C:I
+556	vytrysknout	vytryskovat	P	<NA>	aspect_C:I
+557	vytužit	vytužovat	<NA>	<NA>	aspect_P:P aspect_C:I
+558	vyvanout	vyvanovat	P	<NA>	aspect_C:I
+559	vyvzdechnout	vyvzdechovat	<NA>	<NA>	aspect_P:P aspect_C:I
+560	vyždímat	vyždimovat	P	<NA>	aspect_C:I
+561	vyžehlit	vyžehlovat	P	<NA>	aspect_C:I
+562	vyzískat	vyzískávat	P	<NA>	aspect_C:I
+563	vyzlatit	vyzlacovat	<NA>	<NA>	aspect_P:P aspect_C:I
+564	vyzvučet	vyzvučovat	<NA>	<NA>	aspect_P:P aspect_C:I
+565	vzbouřit	vzbuřovat	P	<NA>	aspect_C:I
+566	vženit	vženívat	<NA>	<NA>	aspect_P:P aspect_C:I
+567	vzkřísit	vzkřišovat	P	<NA>	aspect_C:I
+568	vzkypět	vzkypovat	P	<NA>	aspect_C:I
+569	zabahnit	zabahňovat	P	<NA>	aspect_C:I
+570	zabělat	zabělávat	P	<NA>	aspect_C:I
+571	zablátit	zablacovat	P	<NA>	aspect_C:I
+572	zabloudit	zabluzovat	P	<NA>	aspect_C:I
+573	zabolet	zabolívat	P	<NA>	aspect_C:I
+574	zabsolutnit	zabsolutňovat	<NA>	I	aspect_P:P
+575	začadit	začazovat	<NA>	<NA>	aspect_P:P aspect_C:I
+576	začernat	začernávat	P	<NA>	aspect_C:I
+577	začesat	začesávat	P	<NA>	aspect_C:I
+578	zachraplat	zachraplávat	P	<NA>	aspect_C:I
+579	zachtít	zachtívat	P	<NA>	aspect_C:I
+580	začinit	začiňovat	<NA>	<NA>	aspect_P:P aspect_C:I
+581	začistit	začisťovat	P	<NA>	aspect_C:I
+582	začoudit	začuzovat	<NA>	<NA>	aspect_P:P aspect_C:I
+583	zadechnout	zadechovat	P	<NA>	aspect_C:I
+584	zadívat	zadívávat	P	<NA>	aspect_C:I
+585	zadlabat	zadlabávat	<NA>	<NA>	aspect_P:P aspect_C:I
+586	zadýchnout	zadychovat	P	<NA>	aspect_C:I
+587	zadýmovat	zadýmovávat	<NA>	<NA>	aspect_P:P aspect_C:I
+588	zahledět	zahledívat	P	<NA>	aspect_C:I
+589	zahlodat	zahlodávat	P	<NA>	aspect_C:I
+590	zahořet	zahořívat	P	<NA>	aspect_C:I
+591	zahospodařit	zahospodařovat	P	<NA>	aspect_C:I
+592	zahrabat	zahrabovat	P	<NA>	aspect_C:I
+593	zahřížit	zahřižovat	<NA>	<NA>	aspect_P:P aspect_C:I
+594	zahrotit	zahrocovat	P	<NA>	aspect_C:I
+595	zahrozit	zahrožovat	P	<NA>	aspect_C:I
+596	zahučet	zahučívat	P	<NA>	aspect_C:I
+597	zahučet	zahučovat	P	<NA>	aspect_C:I
+598	zajektat	zajektávat	P	<NA>	aspect_C:I
+599	zajínit	zajíňovat	<NA>	<NA>	aspect_P:P aspect_C:I
+600	zajizvit	zajizvovat	P	<NA>	aspect_C:I
+601	zaklestit	zaklešťovat	<NA>	<NA>	aspect_P:P aspect_C:I
+602	zaklokotat	zaklokotávat	P	<NA>	aspect_C:I
+603	zakrást	zakrádat	<NA>	I	aspect_P:P
+604	zakrojit	zakrojovat	P	<NA>	aspect_C:I
+605	zakroutit	zakrucovat	P	<NA>	aspect_C:I
+606	zakvasit	zakvašovat	P	<NA>	aspect_C:I
+607	zakyselit	zakyselovat	P	<NA>	aspect_C:I
+608	zalakovat	zalakovávat	P	<NA>	aspect_C:I
+609	zalemovat	zalemovávat	<NA>	<NA>	aspect_P:P aspect_C:I
+610	zaleptat	zaleptávat	P	<NA>	aspect_C:I
+611	zalíbit	zalibovat	P	<NA>	aspect_C:I
+612	zalkat	zalkávat	P	<NA>	aspect_C:I
+613	zaloudit	zaluzovat	<NA>	<NA>	aspect_P:P aspect_C:I
+614	zalovit	zalovovat	P	<NA>	aspect_C:I
+615	zamaskovat	zamaskovávat	P	<NA>	aspect_C:I
+616	zameškat	zameškávat	P	<NA>	aspect_C:I
+617	zamhouřit	zamhuřovat	P	<NA>	aspect_C:I
+618	zamíhat	zamíhávat	P	<NA>	aspect_C:I
+619	zaminovat	zaminovávat	P	<NA>	aspect_C:I
+620	zamířit	zamiřovat	P	<NA>	aspect_C:I
+621	zamodrat	zamodrávat	P	<NA>	aspect_C:I
+622	zamuchlat	zamuchlávat	P	<NA>	aspect_C:I
+623	zamydlit	zamydlovat	<NA>	<NA>	aspect_P:P aspect_C:I
+624	zanešvařit	zanešvařovat	<NA>	I	aspect_P:P
+625	zaobroubit	zaobrubovat	P	<NA>	aspect_C:I
+626	zaolovnit	zaolovňovat	<NA>	<NA>	aspect_P:P aspect_C:I
+627	zapažit	zapažovat	P	<NA>	aspect_C:I
+628	zapěchovat	zapěchovávat	<NA>	<NA>	aspect_P:P aspect_C:I
+629	zapilovat	zapilovávat	P	<NA>	aspect_C:I
+630	zaplynout	zaplývat	<NA>	<NA>	aspect_P:P aspect_C:I
+631	zaprahnout	zaprahovat	P	<NA>	aspect_C:I
+632	zapražit	zapražovat	P	<NA>	aspect_C:I
+633	zapudrovat	zapudrovávat	P	<NA>	aspect_C:I
+634	zardousit	zardušovat	P	<NA>	aspect_C:I
+635	zarosit	zarosívat	P	<NA>	aspect_C:I
+636	zarosit	zarosovat	P	<NA>	aspect_C:I
+637	zaškrabat	zaškrabávat	P	<NA>	aspect_C:I
+638	zaskřípnout	zaskřipovat	P	<NA>	aspect_C:I
+639	zaslzet	zaslzovat	P	<NA>	aspect_C:I
+640	zasmát	zasmávat	P	<NA>	aspect_C:I
+641	zasmažit	zasmažovat	P	<NA>	aspect_C:I
+642	zašoupnout	zašupovat	P	<NA>	aspect_C:I
+643	zastříknout	zastřikovat	P	<NA>	aspect_C:I
+644	zastýskat	zastýskávat	<NA>	<NA>	aspect_P:P aspect_C:I
+645	zateplat	zateplávat	P	<NA>	aspect_C:I
+646	zatlít	zatlívat	<NA>	<NA>	aspect_P:P aspect_C:I
+647	zatoužit	zatoužívat	P	<NA>	aspect_C:I
+648	zatřepetat	zatřepetávat	P	<NA>	aspect_C:I
+649	zatupit	zatupovat	<NA>	<NA>	aspect_P:P aspect_C:I
+650	zatvořit	zatvořovat	P	<NA>	aspect_C:I
+651	zaúpět	zaúpovat	P	<NA>	aspect_C:I
+652	zaválcovat	zaválcovávat	<NA>	<NA>	aspect_P:P aspect_C:I
+653	zavinšovat	zavinšovávat	P	<NA>	aspect_C:I
+654	zavláčet	zavlačovat	<NA>	<NA>	aspect_P:P aspect_C:I
+655	zavlát	zavlávat	P	<NA>	aspect_C:I
+656	zavraždit	zavražďovat	P	<NA>	aspect_C:I
+657	zavšivit	zavšivovat	P	<NA>	aspect_C:I
+658	zavzdušit	zavzdušovat	<NA>	<NA>	aspect_P:P aspect_C:I
+659	zavzdušnit	zavzdušňovat	<NA>	<NA>	aspect_P:P aspect_C:I
+660	zazářit	zazařovat	P	<NA>	aspect_C:I
+661	zazelenat	zazelenávat	P	<NA>	aspect_C:I
+662	zazlatit	zazlacovat	<NA>	<NA>	aspect_P:P aspect_C:I
+663	zazobat	zazobávat	P	<NA>	aspect_C:I
+664	zbásnit	zbásňovat	P	<NA>	aspect_C:I
+665	zbezpečnit	zbezpečňovat	<NA>	<NA>	aspect_P:P aspect_C:I
+666	zbičovat	zbičovávat	P	<NA>	aspect_C:I
+667	zbobtnat	zbobtnávat	<NA>	<NA>	aspect_P:P aspect_C:I
+668	zbočit	zbočovat	<NA>	<NA>	aspect_P:P aspect_C:I
+669	zbotnat	zbotnávat	<NA>	<NA>	aspect_P:P aspect_C:I
+670	zbubřet	zbubřovat	<NA>	<NA>	aspect_P:P aspect_C:I
+671	zbudovat	zbudovávat	P	<NA>	aspect_C:I
+672	zchmuřit	zchmuřovat	<NA>	<NA>	aspect_P:P aspect_C:I
+673	zchodit	zchodívat	P	<NA>	aspect_C:I
+674	zchvět	zchvívat	<NA>	<NA>	aspect_P:P aspect_C:I
+675	zchystat	zchystávat	P	<NA>	aspect_C:I
+676	zcivilnit	zcivilňovat	P	<NA>	aspect_C:I
+677	zdesateronásobit	zdesateronásobovat	P	<NA>	aspect_C:I
+678	zděsit	zděsívat	P	<NA>	aspect_C:I
+679	zděsit	zděšovat	P	<NA>	aspect_C:I
+680	zdrtit	zdrcovat	P	<NA>	aspect_C:I
+681	združstevnit	združstevňovat	P	<NA>	aspect_C:I
+682	zduřet	zduřovat	P	<NA>	aspect_C:I
+683	zdusat	zdusávat	<NA>	<NA>	aspect_P:P aspect_C:I
+684	zduševnit	zduševňovat	<NA>	<NA>	aspect_P:P aspect_C:I
+685	zdužnatět	zdužnaťovat	P	<NA>	aspect_C:I
+686	zepičtět	zepičťovat	<NA>	<NA>	aspect_P:P aspect_C:I
+687	zeptat	zeptávat	P	<NA>	aspect_C:I
+688	zesekat	zesekávat	<NA>	<NA>	aspect_P:P aspect_C:I
+689	zešeřit	zešeřívat	P	<NA>	aspect_C:I
+690	zesilnit	zesilňovat	<NA>	<NA>	aspect_P:P aspect_C:I
+691	zešířit	zešiřovat	<NA>	<NA>	aspect_P:P aspect_C:I
+692	zešklebit	zešklebovat	P	<NA>	aspect_C:I
+693	zeskromnit	zeskromňovat	<NA>	<NA>	aspect_P:P aspect_C:I
+694	zeskrovnit	zeskrovňovat	<NA>	<NA>	aspect_P:P aspect_C:I
+695	zeslovanit	zeslovaňovat	<NA>	<NA>	aspect_P:P aspect_C:I
+696	zeslovanštit	zeslovanšťovat	P	<NA>	aspect_C:I
+697	zespolečnit	zespolečňovat	<NA>	<NA>	aspect_P:P aspect_C:I
+698	zestonásobit	zestonásobovat	P	<NA>	aspect_C:I
+699	zetlít	zetlívat	P	<NA>	aspect_C:I
+700	zezelenat	zezelenávat	P	<NA>	aspect_C:I
+701	zezřejmit	zezřejmovat	<NA>	<NA>	aspect_P:P aspect_C:I
+702	zhnisat	zhnisávat	P	<NA>	aspect_C:I
+703	zhospodárnit	zhospodárňovat	P	<NA>	aspect_C:I
+704	zhroutit	zhrucovat	P	<NA>	aspect_C:I
+705	zhýčkat	zhýčkávat	P	<NA>	aspect_C:I
+706	zjalovět	zjalovovat	P	<NA>	aspect_C:I
+707	zkolébat	zkolébávat	P	<NA>	aspect_C:I
+708	zkomolit	zkomolovat	P	<NA>	aspect_C:I
+709	zkomunálnit	zkomunálňovat	<NA>	<NA>	aspect_P:P aspect_C:I
+710	zkosit	zkosovat	P	<NA>	aspect_C:I
+711	zkousat	zkousávat	<NA>	<NA>	aspect_P:P aspect_C:I
+712	zkouzlit	zkouzlovat	<NA>	<NA>	aspect_P:P aspect_C:I
+713	zkrvácet	zkrvácovat	<NA>	<NA>	aspect_P:P aspect_C:I
+714	zkrvavit	zkrvavovat	P	<NA>	aspect_C:I
+715	zkujnit	zkujňovat	<NA>	I	aspect_P:P
+716	zkyselit	zkyselovat	<NA>	<NA>	aspect_P:P aspect_C:I
+717	zladnit	zladňovat	<NA>	<NA>	aspect_P:P aspect_C:I
+718	zlahodit	zlahoďovat	<NA>	<NA>	aspect_P:P aspect_C:I
+719	zlaičtit	zlaičťovat	<NA>	<NA>	aspect_P:P aspect_C:I
+720	zlenivět	zlenivovat	P	<NA>	aspect_C:I
+721	zlenošit	zlenošovat	P	<NA>	aspect_C:I
+722	zlít	zlévat	P	<NA>	aspect_C:I
+723	zlomit	zlomovat	P	<NA>	aspect_C:I
+724	zlotřit	zlotřovat	<NA>	<NA>	aspect_P:P aspect_C:I
+725	zloupit	zlupovat	P	<NA>	aspect_C:I
+726	zmařit	zmařovat	P	<NA>	aspect_C:I
+727	zmáselnit	zmáselňovat	<NA>	<NA>	aspect_P:P aspect_C:I
+728	změnit	změňovat	P	<NA>	aspect_C:I
+729	zmlsat	zmlsávat	P	<NA>	aspect_C:I
+730	zmodrat	zmodrávat	P	<NA>	aspect_C:I
+731	zmokřit	zmokřovat	<NA>	<NA>	aspect_P:P aspect_C:I
+732	zmrvit	zmrvovat	P	<NA>	aspect_C:I
+733	zmýdelnit	zmýdelňovat	<NA>	<NA>	aspect_P:P aspect_C:I
+734	zněkolikanásobit	zněkolikanásobovat	P	<NA>	aspect_C:I
+735	znepřátelit	znepřátelovat	P	<NA>	aspect_C:I
+736	znesmělit	znesmělovat	<NA>	<NA>	aspect_P:P aspect_C:I
+737	zobracet	zobracívat	P	<NA>	aspect_C:I
+738	zobzvláštnit	zobzvláštňovat	<NA>	<NA>	aspect_P:P aspect_C:I
+739	zočit	zočívat	P	<NA>	aspect_C:I
+740	zohyzdit	zohyžďovat	P	<NA>	aspect_C:I
+741	zopětovat	zopětovávat	<NA>	<NA>	aspect_P:P aspect_C:I
+742	zosadit	zosazovat	<NA>	<NA>	aspect_P:P aspect_C:I
+743	zosobit	zosobovat	<NA>	<NA>	aspect_P:P aspect_C:I
+744	zpateronásobit	zpateronásobovat	<NA>	<NA>	aspect_P:P aspect_C:I
+745	zpěnit	zpěňovat	P	<NA>	aspect_C:I
+746	zpětinásobit	zpětinásobovat	P	<NA>	aspect_C:I
+747	zpitvořit	zpitvořovat	P	<NA>	aspect_C:I
+748	zplápolat	zplápolávat	<NA>	<NA>	aspect_P:P aspect_C:I
+749	zplodit	zplozovat	P	<NA>	aspect_C:I
+750	zplošit	zplošovat	<NA>	<NA>	aspect_P:P aspect_C:I
+751	zplstit	zplsťovat	<NA>	<NA>	aspect_P:P aspect_C:I
+752	zpoddanit	zpoddaňovat	<NA>	<NA>	aspect_P:P aspect_C:I
+753	zpohltit	zpohlcovat	<NA>	<NA>	aspect_P:P aspect_C:I
+754	zponenáhlit	zponenáhlovat	<NA>	<NA>	aspect_P:P aspect_C:I
+755	zpořídit	zpořizovat	<NA>	<NA>	aspect_P:P aspect_C:I
+756	zpřímit	zpřimovat	<NA>	<NA>	aspect_P:P aspect_C:I
+757	zprohýbat	zprohýbávat	P	<NA>	aspect_C:I
+758	zprostornit	zprostorňovat	P	<NA>	aspect_C:I
+759	zprotivit	zprotivovat	P	<NA>	aspect_C:I
+760	zpuchýřit	zpuchýřovat	<NA>	<NA>	aspect_P:P aspect_C:I
+761	zřemeslnit	zřemeslňovat	<NA>	<NA>	aspect_P:P aspect_C:I
+762	zruštit	zrušťovat	<NA>	<NA>	aspect_P:P aspect_C:I
+763	zrýmovat	zrýmovávat	P	<NA>	aspect_C:I
+764	ztesat	ztesávat	P	<NA>	aspect_C:I
+765	ztisíceronásobit	ztisíceronásobovat	<NA>	<NA>	aspect_P:P aspect_C:I
+766	ztlumočit	ztlumočovat	<NA>	<NA>	aspect_P:P aspect_C:I
+767	ztopořit	ztopořovat	P	<NA>	aspect_C:I
+768	ztrhat	ztrhávat	P	<NA>	aspect_C:I
+769	ztrhnout	ztrhovat	<NA>	<NA>	aspect_P:P aspect_C:I
+770	ztupit	ztupovat	P	<NA>	aspect_C:I
+771	zvábit	zvábívat	P	<NA>	aspect_C:I
+772	zvelebnit	zvelebňovat	<NA>	<NA>	aspect_P:P aspect_C:I
+773	zvolat	zvolávat	P	<NA>	aspect_C:I
+774	zvolit	zvolovat	P	<NA>	aspect_C:I
+775	zvýtvarnit	zvýtvarňovat	<NA>	<NA>	aspect_P:P aspect_C:I
+776	zželet	zželívat	P	<NA>	aspect_C:I
