@@ -4,7 +4,7 @@ DERINET='../../../../releases/cs/derinet-1-7.tsv'
 
 # provede jednotlivé kroky
 data: SSJC MORFFLEXCZ PMC VALLEX Multiple
-preprocess: MergeAnnotations AddFeatures
+preprocess: MergeAnnotations AddFeatures CorrectFeatures
 install: virtual
 
 
@@ -86,12 +86,13 @@ MergeAnnotations: ../for-annotation/semantic-labels.tsv
 # restrukturalizuje dosavadní a přidá nové příznaky do dat
 AddFeatures: ../for-annotation/MLdata-semantic-labels.tsv
 	@echo 'Adding of features completed. See file: ../for-annotation/MLdata-semantic-labels.tsv'
+	@echo 'WARNING: BE CAREFUL, DATA CAN CONTAIN MANUAL ANNOTATIONS!'
 
 ../for-annotation/MLdata-semantic-labels.tsv: ../for-annotation/semantic-labels.tsv word-list-syn2015.tsv word-list-morphodita.json word-list-vallex.tsv
 	cat '../for-annotation/semantic-labels.tsv' | grep -v $$'\tpodst\.' | grep -v $$'\tzpodst\.' > '../for-annotation/semantic-labels-1.tsv'
 	python3 'add-features.py' '../for-annotation/semantic-labels-1.tsv' 'word-list-syn2015.tsv' 'word-list-morphodita.json' 'word-list-vallex.tsv' > '../for-annotation/MLdata-semantic-labels.tsv'
 	rm '../for-annotation/semantic-labels-1.tsv'
-	# rm 'word-list-morphodita.json' 'word-list-syn2015.tsv'
+	# rm 'word-list-morphodita.json' 'word-list-syn2015.tsv' 'word-list-vallex.tsv'
 
 word-list-syn2015.tsv: syn2015.gz
 	zgrep -v '^<' 'syn2015.gz' | cut -d $$'\t' -f 1,2,3 | sort | uniq -c | sort -nr > 'word-list-syn2015.tsv'
@@ -106,6 +107,11 @@ word-list-vallex.tsv: vallex_3.0.xml
 
 syn2015.gz:
 	@echo 'You need syn2015.gz corpus from Czech National Corpus Institution.'
+
+# opraví chybně zadané příznaky (manuální anotace zvášť v souboru: feature-corrections.tsv)
+CorrectFeatures: ../for-annotation/MLdata-semantic-labels.tsv ../for-annotation/feature-corrections.tsv
+	python3 'correct-features.py' '../for-annotation/MLdata-semantic-labels.tsv' '../for-annotation/feature-corrections.tsv' > '../hand-annotated/MLSemLab.tsv'
+	@echo 'Data was corrected. It is prepared for Machine Learning experiments. Date is placed in: hand-annotated/MLSemLab.tsv'
 
 
 # PŘÍPRAVA VIRTUÁLNÍHO PROSTŘEDÍ PRO ML METODY

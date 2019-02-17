@@ -123,8 +123,8 @@ Slovní druhy, rody a vidy jsou ve tvaru kartézského součinu (RodičxDítě).
 
 ## Manuální anotace
 Pomocí doplněných příznaků byla data ještě jednou zkontrolována (např. zda odpovídá vid u vztahů dok. a ned., zda odpovídá rod u přech. atp.) a na základě toho byla provedena poslední oprava/úprava, respektive anotace dat.
-V případě nesprávného labelu byl v souboru **for-annotation/semantic-labels.tsv** přidán do posledního (pátého) sloupce opravený label.
-Oprava chybně doplněných feature byla provedena do souboru **hand-annotated/MLdata-semantic-labels.tsv**, což je kopie téhož souboru z adresáře **for-annotation/**.
+V případě nesprávného labelu byl v souboru **for-annotation/semantic-labels.tsv** přidán do posledního (pátého) sloupce opravený label a data přegenerována, aby obsahovala opravené labely.
+Oprava chybně doplněných feature byla provedena do souboru **for-annotation/feature-corrections.tsv**, odkud byla pomocí skriptu **prepare/correct-features.py** aplikována na data **for-annotation/MLdata-semantic-labels.tsv**, čímž vznikla jejich opravená verze pro strojové učení: **hand-annotated/MLSemLab.tsv**.
 
 # Strojové učení
 
