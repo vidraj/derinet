@@ -66,7 +66,7 @@ with open(sys.argv[1], mode='r', encoding='utf-8') as f:
         pos_par = entry[1].split('–')[1].replace('C', '')
         pos_child = entry[2].split('–')[1].replace('C', '')
 
-        label = labels[entry[3]]
+        label = labels[entry[3]] if len(entry) != 5 else labels[entry[4]]
 
         # gender marks (for nouns) from MorphoDita
         gdr_par = modita[parent][2] if modita[parent][0] == pos_par else 'NA'

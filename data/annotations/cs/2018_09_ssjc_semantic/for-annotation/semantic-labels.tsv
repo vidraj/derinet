@@ -6234,7 +6234,7 @@
 %	potřebný–A	potřebnost–N	podst.
 %	potřepat–V	potřepávat–V	ned.
 %	potřeštěný–A	potřeštěnost–N	podst.
-%	potrhat–V	potrhávat–V	nás.
+%	potrhat–V	potrhávat–V	nás.	ned.
 %	potřít–V	potírat–V	ned.
 %	potrkat–V	potrkávat–V	ned.
 %	potrsání–N	potrsáníčko–N	zdrob.
@@ -6454,7 +6454,7 @@
 %	předplatitel–N	předplatitelka–N	přech.
 %	předpokládat–V	předpokládávat–V	nás.
 %	předpovědět–V	předpovídat–V	ned.
-%	předpracovat–V	předpracovávat–V	nás.
+%	předpracovat–V	předpracovávat–V	nás.	ned.
 %	předřadit–V	předřazovat–V	ned.
 %	předražit–V	předražovat–V	ned.
 %	předříkat–V	předříkávat–V	ned.
@@ -6483,10 +6483,10 @@
 %	předznamenat–V	předznamenávat–V	ned.
 %	předzpěvák–N	předzpěvačka–N	přech.
 %	předzpívat–V	předzpěvovat–V	ned.
-%	přeexponovat–V	přeexponovávat–V	nás.
+%	přeexponovat–V	přeexponovávat–V	nás.	ned.
 %	prefekt–N	prefektka–N	přech.
 %	přeformovat–V	přeformovávat–V	ned.
-%	přehlasovat–V	přehlasovávat–V	nás.
+%	přehlasovat–V	přehlasovávat–V	nás.	ned.
 %	přehlížet–V	přehlédnout–V	dok.
 %	přehlížet–V	přehlížívat–V	nás.
 %	přehlížitel–N	přehlížitelka–N	přech.
@@ -7751,7 +7751,7 @@
 %	rozladit–V	rozlaďovat–V	ned.
 %	rozlepit–V	rozlepovat–V	ned.
 %	rozleptat–V	rozleptávat–V	ned.
-%	rozlétat–V	rozlétávat–V	nás.
+%	rozlétat–V	rozlétávat–V	nás.	ned.
 %	rozlézt–V	rozlézat–V	ned.
 %	rozlišit–V	rozlišovat–V	ned.
 %	rozlítostnit–V	rozlítostňovat–V	ned.
@@ -8469,7 +8469,7 @@
 %	školkař–N	školkařka–N	přech.
 %	školmistryně–N	školmistrynin–A	poses.
 %	skonat–V	skonávat–V	ned.
-%	skoncovat–V	skoncovávat–V	nás.
+%	skoncovat–V	skoncovávat–V	nás.	ned.
 %	skopat–V	skopávat–V	ned.
 %	skopičina–N	skopičinka–N	zdrob.
 %	škopík–N	škopíček–N	zdrob.
@@ -8952,7 +8952,7 @@
 %	spoluzadavatelka–N	spoluzadavatelčin–A	poses.
 %	spona–N	sponka–N	zdrob.
 %	spořádaný–A	spořádanost–N	podst.
-%	spořádat–V	spořádávat–V	nás.
+%	spořádat–V	spořádávat–V	nás.	ned.
 %	sporák–N	sporáček–N	zdrob.
 %	spoření–N	spořeníčko–N	zdrob.
 %	spořil–N	spořílek–N	zdrob.
@@ -10246,7 +10246,7 @@
 %	Uruguayec–N	Uruguayka–N	přech.
 %	Uruguayka–N	Uruguayčin–A	poses.
 %	uřvaný–A	uřvanost–N	podst.
-%	urvat–V	urvávat–V	nás.
+%	urvat–V	urvávat–V	nás.	ned.
 %	urychlit–V	urychlovat–V	ned.
 %	urýt–V	urývat–V	ned.
 %	úryvek–N	úryveček–N	zdrob.
@@ -10395,7 +10395,7 @@
 %	uveřejnit–V	uveřejňovat–V	ned.
 %	uvést–V	uvádět–V	ned.
 %	uvěznit–V	uvězňovat–V	ned.
-%	uvítat–V	uvítávat–V	nás.
+%	uvítat–V	uvítávat–V	nás.	ned.
 %	uvláčet–V	uvlačovat–V	ned.
 %	uvléci–V	uvlékat–V	ned.
 %	úvodník–N	úvodníček–N	zdrob.
@@ -10666,7 +10666,7 @@
 %	věstitel–N	věstitelův–A	poses.
 %	věštit–V	věštívat–V	nás.
 %	věštka–N	věštčin–A	poses.
-%	veštvat–V	veštvávat–V	nás.
+%	veštvat–V	veštvávat–V	nás.	ned.
 %	věta–N	větička–N	zdrob.
 %	vetchý–A	vetchoučký–A	zdrob.
 %	veterinář–N	veterinářka–N	přech.
@@ -10827,7 +10827,7 @@
 %	vleptat–V	vleptávat–V	ned.
 %	vlétat–V	vlétávat–V	nás.
 %	vlézt–V	vlézat–V	ned.
-%	vlíbat–V	vlíbávat–V	nás.
+%	vlíbat–V	vlíbávat–V	nás.	ned.
 %	vlichotit–V	vlichocovat–V	ned.
 %	vlít–V	vlévat–V	ned.
 %	vlk–N	vlček–N	zdrob.
@@ -11853,7 +11853,7 @@
 %	žabák–N	žabáček–N	zdrob.
 %	zabalit–V	zabalovat–V	ned.
 %	žába–N	žabka–N	zdrob.
-%	zabarikádovat–V	zabarikádovávat–V	nás.
+%	zabarikádovat–V	zabarikádovávat–V	nás.	ned.
 %	žabař–N	žabařka–N	přech.
 %	zabarvit–V	zabarvovat–V	ned.
 %	zábava–N	zábavka–N	zdrob.
@@ -11872,7 +11872,7 @@
 %	zabít–V	zabíjet–V	ned.
 %	žabka–N	žabička–N	zdrob.
 %	zablátit–V	zablacovat–V	ned.
-%	zabloudit–V	zabloudívat–V	nás.
+%	zabloudit–V	zabloudívat–V	nás.	ned.
 %	zabloudit–V	zabluzovat–V	ned.
 %	zabočit–V	zabočovat–V	ned.
 %	zabolet–V	zabolívat–V	ned.
@@ -12335,7 +12335,7 @@
 %	zastínit–V	zastiňovat–V	ned.
 %	zaštípnout–V	zaštipovat–V	ned.
 %	zastírat–V	zastírávat–V	nás.
-%	zastlat–V	zastlávat–V	nás.
+%	zastlat–V	zastlávat–V	nás.	ned.
 %	zastoupit–V	zastupovat–V	ned.
 %	zastrčený–A	zastrčenost–N	podst.
 %	zastřešovatelka–N	zastřešovatelčin–A	poses.
@@ -12404,7 +12404,7 @@
 %	zaujmout–V	zaujímat–V	ned.
 %	zaúpět–V	zaúpovat–V	ned.
 %	záušnice–N	záušnička–N	zdrob.
-%	zauzlovat–V	zauzlovávat–V	nás.
+%	zauzlovat–V	zauzlovávat–V	nás.	ned.
 %	zavádět–V	zavádívat–V	nás.
 %	zaválcovat–V	zaválcovávat–V	ned.
 %	zával–N	závalek–N	zdrob.
@@ -12873,7 +12873,7 @@
 %	zmáselnit–V	zmáselňovat–V	ned.
 %	změkčit–V	změkčovat–V	ned.
 %	změlčit–V	změlčovat–V	ned.
-%	změnit–V	změnívat–V	nás.
+%	změnit–V	změnívat–V	nás.	ned.
 %	změnit–V	změňovat–V	ned.
 %	zmenšit–V	zmenšovat–V	ned.
 %	zmeškat–V	zmeškávat–V	ned.

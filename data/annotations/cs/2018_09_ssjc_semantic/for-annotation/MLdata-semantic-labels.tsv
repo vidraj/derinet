@@ -5829,7 +5829,7 @@ potratářka	potratářčin	N	A	F	NA	NA	NA	0	1	1	0	p	po	pot	potr	potra	potrat	p	
 potratář	potratářka	N	N	M	F	NA	NA	0	0	1	0	p	po	pot	potr	potra	potrat	p	po	pot	potr	potra	potrat	tratář	ratář	atář	tář	ář	ř	atářka	tářka	ářka	řka	ka	a	FEMALE
 potravinářka	potravinářčin	N	A	F	NA	NA	NA	0	1	1	0	p	po	pot	potr	potra	potrav	p	po	pot	potr	potra	potrav	inářka	nářka	ářka	řka	ka	a	nářčin	ářčin	řčin	čin	in	n	POSSESSIVE
 potřepat	potřepávat	V	V	NA	NA	P	I	0	0	1	1	p	po	pot	potř	potře	potřep	p	po	pot	potř	potře	potřep	třepat	řepat	epat	pat	at	t	epávat	pávat	ávat	vat	at	t	ASPECT
-potrhat	potrhávat	V	V	NA	NA	P	I	0	0	1	1	p	po	pot	potr	potrh	potrha	p	po	pot	potr	potrh	potrhá	otrhat	trhat	rhat	hat	at	t	rhávat	hávat	ávat	vat	at	t	ITERATIVE
+potrhat	potrhávat	V	V	NA	NA	P	I	0	0	1	1	p	po	pot	potr	potrh	potrha	p	po	pot	potr	potrh	potrhá	otrhat	trhat	rhat	hat	at	t	rhávat	hávat	ávat	vat	at	t	ASPECT
 potřít	potírat	V	V	NA	NA	P	I	0	0	1	1	p	po	pot	potř	potří	potřít	p	po	pot	potí	potír	potíra	potřít	otřít	třít	řít	ít	t	otírat	tírat	írat	rat	at	t	ASPECT
 potrkat	potrkávat	V	V	NA	NA	P	NA	0	0	1	1	p	po	pot	potr	potrk	potrka	p	po	pot	potr	potrk	potrká	otrkat	trkat	rkat	kat	at	t	rkávat	kávat	ávat	vat	at	t	ASPECT
 potrsání	potrsáníčko	N	N	N	N	NA	NA	0	0	1	0	p	po	pot	potr	potrs	potrsá	p	po	pot	potr	potrs	potrsá	trsání	rsání	sání	ání	ní	í	áníčko	níčko	íčko	čko	ko	o	DIMINUTIVE
@@ -6036,7 +6036,7 @@ předpéci	předpékat	V	V	NA	NA	P	NA	0	0	1	0	p	př	pře	před	předp	předpé	p
 předplatitel	předplatitelka	N	N	M	F	NA	NA	0	0	1	0	p	př	pře	před	předp	předpl	p	př	pře	před	předp	předpl	atitel	titel	itel	tel	el	l	itelka	telka	elka	lka	ka	a	FEMALE
 předpokládat	předpokládávat	V	V	NA	NA	I	I	0	0	1	1	p	př	pře	před	předp	předpo	p	př	pře	před	předp	předpo	kládat	ládat	ádat	dat	at	t	ádávat	dávat	ávat	vat	at	t	ITERATIVE
 předpovědět	předpovídat	V	V	NA	NA	P	I	0	0	1	1	p	př	pře	před	předp	předpo	p	př	pře	před	předp	předpo	ovědět	vědět	ědět	dět	ět	t	ovídat	vídat	ídat	dat	at	t	ASPECT
-předpracovat	předpracovávat	V	V	NA	NA	NA	NA	0	0	1	1	p	př	pře	před	předp	předpr	p	př	pře	před	předp	předpr	acovat	covat	ovat	vat	at	t	ovávat	vávat	ávat	vat	at	t	ITERATIVE
+předpracovat	předpracovávat	V	V	NA	NA	NA	NA	0	0	1	1	p	př	pře	před	předp	předpr	p	př	pře	před	předp	předpr	acovat	covat	ovat	vat	at	t	ovávat	vávat	ávat	vat	at	t	ASPECT
 předřadit	předřazovat	V	V	NA	NA	P	I	0	0	1	1	p	př	pře	před	předř	předřa	p	př	pře	před	předř	předřa	dřadit	řadit	adit	dit	it	t	azovat	zovat	ovat	vat	at	t	ASPECT
 předražit	předražovat	V	V	NA	NA	P	I	0	0	1	1	p	př	pře	před	předr	předra	p	př	pře	před	předr	předra	dražit	ražit	ažit	žit	it	t	ažovat	žovat	ovat	vat	at	t	ASPECT
 předříkat	předříkávat	V	V	NA	NA	P	I	0	0	1	1	p	př	pře	před	předř	předří	p	př	pře	před	předř	předří	dříkat	říkat	íkat	kat	at	t	íkávat	kávat	ávat	vat	at	t	ASPECT
@@ -6064,10 +6064,10 @@ předžákyně	předžákynin	N	A	F	NA	NA	NA	0	1	1	0	p	př	pře	před	předž	p�
 předznamenat	předznamenávat	V	V	NA	NA	P	I	0	0	1	1	p	př	pře	před	předz	předzn	p	př	pře	před	předz	předzn	amenat	menat	enat	nat	at	t	enávat	návat	ávat	vat	at	t	ASPECT
 předzpěvák	předzpěvačka	N	N	M	F	NA	NA	0	0	1	0	p	př	pře	před	předz	předzp	p	př	pře	před	předz	předzp	zpěvák	pěvák	ěvák	vák	ák	k	ěvačka	vačka	ačka	čka	ka	a	FEMALE
 předzpívat	předzpěvovat	V	V	NA	NA	P	I	0	0	1	1	p	př	pře	před	předz	předzp	p	př	pře	před	předz	předzp	zpívat	pívat	ívat	vat	at	t	ěvovat	vovat	ovat	vat	at	t	ASPECT
-přeexponovat	přeexponovávat	V	V	NA	NA	P	NA	0	0	1	1	p	př	pře	přee	přeex	přeexp	p	př	pře	přee	přeex	přeexp	onovat	novat	ovat	vat	at	t	ovávat	vávat	ávat	vat	at	t	ITERATIVE
+přeexponovat	přeexponovávat	V	V	NA	NA	P	NA	0	0	1	1	p	př	pře	přee	přeex	přeexp	p	př	pře	přee	přeex	přeexp	onovat	novat	ovat	vat	at	t	ovávat	vávat	ávat	vat	at	t	ASPECT
 prefekt	prefektka	N	N	M	F	NA	NA	0	0	1	0	p	pr	pre	pref	prefe	prefek	p	pr	pre	pref	prefe	prefek	refekt	efekt	fekt	ekt	kt	t	fektka	ektka	ktka	tka	ka	a	FEMALE
 přeformovat	přeformovávat	V	V	NA	NA	P	I	0	0	1	1	p	př	pře	přef	přefo	přefor	p	př	pře	přef	přefo	přefor	rmovat	movat	ovat	vat	at	t	ovávat	vávat	ávat	vat	at	t	ASPECT
-přehlasovat	přehlasovávat	V	V	NA	NA	P	I	0	0	1	1	p	př	pře	přeh	přehl	přehla	p	př	pře	přeh	přehl	přehla	asovat	sovat	ovat	vat	at	t	ovávat	vávat	ávat	vat	at	t	ITERATIVE
+přehlasovat	přehlasovávat	V	V	NA	NA	P	I	0	0	1	1	p	př	pře	přeh	přehl	přehla	p	př	pře	přeh	přehl	přehla	asovat	sovat	ovat	vat	at	t	ovávat	vávat	ávat	vat	at	t	ASPECT
 přehlížet	přehlédnout	V	V	NA	NA	I	P	0	0	1	1	p	př	pře	přeh	přehl	přehlí	p	př	pře	přeh	přehl	přehlé	hlížet	lížet	ížet	žet	et	t	édnout	dnout	nout	out	ut	t	ASPECT
 přehlížet	přehlížívat	V	V	NA	NA	I	NA	0	0	1	1	p	př	pře	přeh	přehl	přehlí	p	př	pře	přeh	přehl	přehlí	hlížet	lížet	ížet	žet	et	t	ížívat	žívat	ívat	vat	at	t	ITERATIVE
 přehlížitel	přehlížitelka	N	N	M	F	NA	NA	0	0	1	0	p	př	pře	přeh	přehl	přehlí	p	př	pře	přeh	přehl	přehlí	ížitel	žitel	itel	tel	el	l	itelka	telka	elka	lka	ka	a	FEMALE
@@ -7259,7 +7259,7 @@ rozkývat	rozkývávat	V	V	NA	NA	P	NA	0	0	1	1	r	ro	roz	rozk	rozký	rozkýv	r	ro	
 rozladit	rozlaďovat	V	V	NA	NA	P	I	0	0	1	1	r	ro	roz	rozl	rozla	rozlad	r	ro	roz	rozl	rozla	rozlaď	zladit	ladit	adit	dit	it	t	aďovat	ďovat	ovat	vat	at	t	ASPECT
 rozlepit	rozlepovat	V	V	NA	NA	P	I	0	0	1	1	r	ro	roz	rozl	rozle	rozlep	r	ro	roz	rozl	rozle	rozlep	zlepit	lepit	epit	pit	it	t	epovat	povat	ovat	vat	at	t	ASPECT
 rozleptat	rozleptávat	V	V	NA	NA	P	I	0	0	1	1	r	ro	roz	rozl	rozle	rozlep	r	ro	roz	rozl	rozle	rozlep	leptat	eptat	ptat	tat	at	t	ptávat	távat	ávat	vat	at	t	ASPECT
-rozlétat	rozlétávat	V	V	NA	NA	P	I	0	0	1	1	r	ro	roz	rozl	rozlé	rozlét	r	ro	roz	rozl	rozlé	rozlét	zlétat	létat	état	tat	at	t	étávat	távat	ávat	vat	at	t	ITERATIVE
+rozlétat	rozlétávat	V	V	NA	NA	P	I	0	0	1	1	r	ro	roz	rozl	rozlé	rozlét	r	ro	roz	rozl	rozlé	rozlét	zlétat	létat	état	tat	at	t	étávat	távat	ávat	vat	at	t	ASPECT
 rozlézt	rozlézat	V	V	NA	NA	P	I	0	0	1	1	r	ro	roz	rozl	rozlé	rozléz	r	ro	roz	rozl	rozlé	rozléz	ozlézt	zlézt	lézt	ézt	zt	t	zlézat	lézat	ézat	zat	at	t	ASPECT
 rozlišit	rozlišovat	V	V	NA	NA	P	I	0	0	1	1	r	ro	roz	rozl	rozli	rozliš	r	ro	roz	rozl	rozli	rozliš	zlišit	lišit	išit	šit	it	t	išovat	šovat	ovat	vat	at	t	ASPECT
 rozlítostnit	rozlítostňovat	V	V	NA	NA	P	I	0	0	1	1	r	ro	roz	rozl	rozlí	rozlít	r	ro	roz	rozl	rozlí	rozlít	ostnit	stnit	tnit	nit	it	t	tňovat	ňovat	ovat	vat	at	t	ASPECT
@@ -7911,7 +7911,7 @@ skokan	skokánek	N	N	M	I	NA	NA	0	0	1	0	s	sk	sko	skok	skoka	skokan	s	sk	sko	skok	
 školkař	školkařka	N	N	M	F	NA	NA	0	0	1	0	š	šk	ško	škol	školk	školka	š	šk	ško	škol	školk	školka	kolkař	olkař	lkař	kař	ař	ř	lkařka	kařka	ařka	řka	ka	a	FEMALE
 školmistryně	školmistrynin	N	A	F	NA	NA	NA	0	1	1	0	š	šk	ško	škol	školm	školmi	š	šk	ško	škol	školm	školmi	stryně	tryně	ryně	yně	ně	ě	trynin	rynin	ynin	nin	in	n	POSSESSIVE
 skonat	skonávat	V	V	NA	NA	P	I	0	0	1	1	s	sk	sko	skon	skona	skonat	s	sk	sko	skon	skoná	skonáv	skonat	konat	onat	nat	at	t	onávat	návat	ávat	vat	at	t	ASPECT
-skoncovat	skoncovávat	V	V	NA	NA	P	NA	0	0	1	1	s	sk	sko	skon	skonc	skonco	s	sk	sko	skon	skonc	skonco	ncovat	covat	ovat	vat	at	t	ovávat	vávat	ávat	vat	at	t	ITERATIVE
+skoncovat	skoncovávat	V	V	NA	NA	P	NA	0	0	1	1	s	sk	sko	skon	skonc	skonco	s	sk	sko	skon	skonc	skonco	ncovat	covat	ovat	vat	at	t	ovávat	vávat	ávat	vat	at	t	ASPECT
 skopat	skopávat	V	V	NA	NA	P	I	0	0	1	1	s	sk	sko	skop	skopa	skopat	s	sk	sko	skop	skopá	skopáv	skopat	kopat	opat	pat	at	t	opávat	pávat	ávat	vat	at	t	ASPECT
 skopičina	skopičinka	N	N	F	F	NA	NA	0	0	1	1	s	sk	sko	skop	skopi	skopič	s	sk	sko	skop	skopi	skopič	pičina	ičina	čina	ina	na	a	ičinka	činka	inka	nka	ka	a	DIMINUTIVE
 škopík	škopíček	N	N	I	I	NA	NA	0	0	1	1	š	šk	ško	škop	škopí	škopík	š	šk	ško	škop	škopí	škopíč	škopík	kopík	opík	pík	ík	k	opíček	píček	íček	ček	ek	k	DIMINUTIVE
@@ -8349,7 +8349,7 @@ spolustrůjce	spolustrůjcův	N	A	M	NA	NA	NA	0	1	1	0	s	sp	spo	spol	spolu	spolus	
 spoluvězeňkyně	spoluvězeňkynin	N	A	F	NA	NA	NA	0	1	1	0	s	sp	spo	spol	spolu	spoluv	s	sp	spo	spol	spolu	spoluv	eňkyně	ňkyně	kyně	yně	ně	ě	ňkynin	kynin	ynin	nin	in	n	POSSESSIVE
 spoluzadavatelka	spoluzadavatelčin	N	A	F	NA	NA	NA	0	1	1	0	s	sp	spo	spol	spolu	spoluz	s	sp	spo	spol	spolu	spoluz	atelka	telka	elka	lka	ka	a	telčin	elčin	lčin	čin	in	n	POSSESSIVE
 spona	sponka	N	N	F	F	NA	NA	0	0	1	1	s	sp	spo	spon	spona	NA	s	sp	spo	spon	sponk	sponka	NA	spona	pona	ona	na	a	sponka	ponka	onka	nka	ka	a	DIMINUTIVE
-spořádat	spořádávat	V	V	NA	NA	P	I	0	0	1	1	s	sp	spo	spoř	spořá	spořád	s	sp	spo	spoř	spořá	spořád	ořádat	řádat	ádat	dat	at	t	ádávat	dávat	ávat	vat	at	t	ITERATIVE
+spořádat	spořádávat	V	V	NA	NA	P	I	0	0	1	1	s	sp	spo	spoř	spořá	spořád	s	sp	spo	spoř	spořá	spořád	ořádat	řádat	ádat	dat	at	t	ádávat	dávat	ávat	vat	at	t	ASPECT
 sporák	sporáček	N	N	I	I	NA	NA	0	0	1	1	s	sp	spo	spor	sporá	sporák	s	sp	spo	spor	sporá	sporáč	sporák	porák	orák	rák	ák	k	oráček	ráček	áček	ček	ek	k	DIMINUTIVE
 spoření	spořeníčko	N	N	N	N	NA	NA	0	0	1	0	s	sp	spo	spoř	spoře	spořen	s	sp	spo	spoř	spoře	spořen	poření	oření	ření	ení	ní	í	eníčko	níčko	íčko	čko	ko	o	DIMINUTIVE
 spořil	spořílek	N	N	NA	M	NA	NA	0	0	1	0	s	sp	spo	spoř	spoři	spořil	s	sp	spo	spoř	spoří	spoříl	spořil	pořil	ořil	řil	il	l	ořílek	řílek	ílek	lek	ek	k	DIMINUTIVE
@@ -9520,7 +9520,7 @@ urozenka	urozenčin	N	A	F	NA	NA	NA	0	1	1	0	u	ur	uro	uroz	uroze	urozen	u	ur	uro	u
 urputnice	urputničin	N	A	F	NA	NA	NA	0	1	1	0	u	ur	urp	urpu	urput	urputn	u	ur	urp	urpu	urput	urputn	utnice	tnice	nice	ice	ce	e	tničin	ničin	ičin	čin	in	n	POSSESSIVE
 Uruguayec	Uruguayka	N	N	M	F	NA	NA	0	0	1	0	U	Ur	Uru	Urug	Urugu	Urugua	U	Ur	Uru	Urug	Urugu	Urugua	guayec	uayec	ayec	yec	ec	c	guayka	uayka	ayka	yka	ka	a	FEMALE
 Uruguayka	Uruguayčin	N	A	F	NA	NA	NA	0	1	1	0	U	Ur	Uru	Urug	Urugu	Urugua	U	Ur	Uru	Urug	Urugu	Urugua	guayka	uayka	ayka	yka	ka	a	uayčin	ayčin	yčin	čin	in	n	POSSESSIVE
-urvat	urvávat	V	V	NA	NA	P	I	0	0	1	1	u	ur	urv	urva	urvat	NA	u	ur	urv	urvá	urváv	urváva	NA	urvat	rvat	vat	at	t	rvávat	vávat	ávat	vat	at	t	ITERATIVE
+urvat	urvávat	V	V	NA	NA	P	I	0	0	1	1	u	ur	urv	urva	urvat	NA	u	ur	urv	urvá	urváv	urváva	NA	urvat	rvat	vat	at	t	rvávat	vávat	ávat	vat	at	t	ASPECT
 urychlit	urychlovat	V	V	NA	NA	P	I	0	0	1	1	u	ur	ury	uryc	urych	urychl	u	ur	ury	uryc	urych	urychl	ychlit	chlit	hlit	lit	it	t	hlovat	lovat	ovat	vat	at	t	ASPECT
 urýt	urývat	V	V	NA	NA	P	NA	0	0	1	1	u	ur	urý	urýt	NA	NA	u	ur	urý	urýv	urýva	urývat	NA	NA	urýt	rýt	ýt	t	urývat	rývat	ývat	vat	at	t	ASPECT
 úryvek	úryveček	N	N	I	I	NA	NA	0	0	1	1	ú	úr	úry	úryv	úryve	úryvek	ú	úr	úry	úryv	úryve	úryveč	úryvek	ryvek	yvek	vek	ek	k	yveček	veček	eček	ček	ek	k	DIMINUTIVE
@@ -9654,7 +9654,7 @@ uvědomovatel	uvědomovatelka	N	N	M	F	NA	NA	0	0	1	0	u	uv	uvě	uvěd	uvědo	uvěd
 uveřejnit	uveřejňovat	V	V	NA	NA	P	I	0	0	1	1	u	uv	uve	uveř	uveře	uveřej	u	uv	uve	uveř	uveře	uveřej	řejnit	ejnit	jnit	nit	it	t	jňovat	ňovat	ovat	vat	at	t	ASPECT
 uvést	uvádět	V	V	NA	NA	P	I	0	0	1	1	u	uv	uvé	uvés	uvést	NA	u	uv	uvá	uvád	uvádě	uvádět	NA	uvést	vést	ést	st	t	uvádět	vádět	ádět	dět	ět	t	ASPECT
 uvěznit	uvězňovat	V	V	NA	NA	P	I	0	0	1	1	u	uv	uvě	uvěz	uvězn	uvězni	u	uv	uvě	uvěz	uvězň	uvězňo	věznit	ěznit	znit	nit	it	t	zňovat	ňovat	ovat	vat	at	t	ASPECT
-uvítat	uvítávat	V	V	NA	NA	P	NA	0	0	1	1	u	uv	uví	uvít	uvíta	uvítat	u	uv	uví	uvít	uvítá	uvítáv	uvítat	vítat	ítat	tat	at	t	ítávat	távat	ávat	vat	at	t	ITERATIVE
+uvítat	uvítávat	V	V	NA	NA	P	NA	0	0	1	1	u	uv	uví	uvít	uvíta	uvítat	u	uv	uví	uvít	uvítá	uvítáv	uvítat	vítat	ítat	tat	at	t	ítávat	távat	ávat	vat	at	t	ASPECT
 uvláčet	uvlačovat	V	V	NA	NA	P	NA	0	0	1	1	u	uv	uvl	uvlá	uvláč	uvláče	u	uv	uvl	uvla	uvlač	uvlačo	vláčet	láčet	áčet	čet	et	t	ačovat	čovat	ovat	vat	at	t	ASPECT
 uvléci	uvlékat	V	V	NA	NA	NA	NA	0	0	1	0	u	uv	uvl	uvlé	uvléc	uvléci	u	uv	uvl	uvlé	uvlék	uvléka	uvléci	vléci	léci	éci	ci	i	vlékat	lékat	ékat	kat	at	t	ASPECT
 úvodník	úvodníček	N	N	I	I	NA	NA	0	0	1	1	ú	úv	úvo	úvod	úvodn	úvodní	ú	úv	úvo	úvod	úvodn	úvodní	vodník	odník	dník	ník	ík	k	dníček	níček	íček	ček	ek	k	DIMINUTIVE
@@ -9899,7 +9899,7 @@ věstitel	věstitelka	N	N	M	F	NA	NA	0	0	1	0	v	vě	věs	věst	věsti	věstit	v	v�
 věstitel	věstitelův	N	A	M	NA	NA	NA	0	1	1	0	v	vě	věs	věst	věsti	věstit	v	vě	věs	věst	věsti	věstit	stitel	titel	itel	tel	el	l	itelův	telův	elův	lův	ův	v	POSSESSIVE
 věštit	věštívat	V	V	NA	NA	I	I	0	0	1	1	v	vě	věš	věšt	věšti	věštit	v	vě	věš	věšt	věští	věštív	věštit	ěštit	štit	tit	it	t	štívat	tívat	ívat	vat	at	t	ITERATIVE
 věštka	věštčin	N	A	F	NA	NA	NA	0	1	1	0	v	vě	věš	věšt	věštk	věštka	v	vě	věš	věšt	věštč	věštči	věštka	ěštka	štka	tka	ka	a	ěštčin	štčin	tčin	čin	in	n	POSSESSIVE
-veštvat	veštvávat	V	V	NA	NA	NA	NA	0	0	1	1	v	ve	veš	vešt	veštv	veštva	v	ve	veš	vešt	veštv	veštvá	eštvat	štvat	tvat	vat	at	t	tvávat	vávat	ávat	vat	at	t	ITERATIVE
+veštvat	veštvávat	V	V	NA	NA	NA	NA	0	0	1	1	v	ve	veš	vešt	veštv	veštva	v	ve	veš	vešt	veštv	veštvá	eštvat	štvat	tvat	vat	at	t	tvávat	vávat	ávat	vat	at	t	ASPECT
 věta	větička	N	N	F	F	NA	NA	0	0	1	1	v	vě	vět	věta	NA	NA	v	vě	vět	věti	větič	větičk	NA	NA	věta	ěta	ta	a	ětička	tička	ička	čka	ka	a	DIMINUTIVE
 vetchý	vetchoučký	A	A	NA	NA	NA	NA	0	0	1	1	v	ve	vet	vetc	vetch	vetchý	v	ve	vet	vetc	vetch	vetcho	vetchý	etchý	tchý	chý	hý	ý	houčký	oučký	učký	čký	ký	ý	DIMINUTIVE
 veterinář	veterinářka	N	N	M	F	NA	NA	0	0	1	0	v	ve	vet	vete	veter	veteri	v	ve	vet	vete	veter	veteri	erinář	rinář	inář	nář	ář	ř	inářka	nářka	ářka	řka	ka	a	FEMALE
@@ -10048,7 +10048,7 @@ vlepit	vlepovat	V	V	NA	NA	P	I	0	0	1	1	v	vl	vle	vlep	vlepi	vlepit	v	vl	vle	vlep	v
 vleptat	vleptávat	V	V	NA	NA	NA	NA	0	0	1	1	v	vl	vle	vlep	vlept	vlepta	v	vl	vle	vlep	vlept	vleptá	leptat	eptat	ptat	tat	at	t	ptávat	távat	ávat	vat	at	t	ASPECT
 vlétat	vlétávat	V	V	NA	NA	I	I	0	0	1	1	v	vl	vlé	vlét	vléta	vlétat	v	vl	vlé	vlét	vlétá	vlétáv	vlétat	létat	état	tat	at	t	étávat	távat	ávat	vat	at	t	ITERATIVE
 vlézt	vlézat	V	V	NA	NA	P	I	0	0	1	1	v	vl	vlé	vléz	vlézt	NA	v	vl	vlé	vléz	vléza	vlézat	NA	vlézt	lézt	ézt	zt	t	vlézat	lézat	ézat	zat	at	t	ASPECT
-vlíbat	vlíbávat	V	V	NA	NA	P	NA	0	0	1	1	v	vl	vlí	vlíb	vlíba	vlíbat	v	vl	vlí	vlíb	vlíbá	vlíbáv	vlíbat	líbat	íbat	bat	at	t	íbávat	bávat	ávat	vat	at	t	ITERATIVE
+vlíbat	vlíbávat	V	V	NA	NA	P	NA	0	0	1	1	v	vl	vlí	vlíb	vlíba	vlíbat	v	vl	vlí	vlíb	vlíbá	vlíbáv	vlíbat	líbat	íbat	bat	at	t	íbávat	bávat	ávat	vat	at	t	ASPECT
 vlichotit	vlichocovat	V	V	NA	NA	P	I	0	0	1	1	v	vl	vli	vlic	vlich	vlicho	v	vl	vli	vlic	vlich	vlicho	chotit	hotit	otit	tit	it	t	ocovat	covat	ovat	vat	at	t	ASPECT
 vlít	vlévat	V	V	NA	NA	P	I	0	0	1	1	v	vl	vlí	vlít	NA	NA	v	vl	vlé	vlév	vléva	vlévat	NA	NA	vlít	lít	ít	t	vlévat	lévat	évat	vat	at	t	ASPECT
 vlk	vlček	N	N	M	M	NA	NA	0	0	1	1	v	vl	vlk	NA	NA	NA	v	vl	vlč	vlče	vlček	NA	NA	NA	NA	vlk	lk	k	NA	vlček	lček	ček	ek	k	DIMINUTIVE
@@ -11011,7 +11011,7 @@ zabahnit	zabahňovat	V	V	NA	NA	P	NA	0	0	1	1	z	za	zab	zaba	zabah	zabahn	z	za	zab	
 žabák	žabáček	N	N	M	M	NA	NA	0	0	1	1	ž	ža	žab	žabá	žabák	NA	ž	ža	žab	žabá	žabáč	žabáče	NA	žabák	abák	bák	ák	k	abáček	báček	áček	ček	ek	k	DIMINUTIVE
 zabalit	zabalovat	V	V	NA	NA	P	I	0	0	1	1	z	za	zab	zaba	zabal	zabali	z	za	zab	zaba	zabal	zabalo	abalit	balit	alit	lit	it	t	alovat	lovat	ovat	vat	at	t	ASPECT
 žába	žabka	N	N	F	F	NA	NA	0	0	0	1	ž	žá	žáb	žába	NA	NA	ž	ža	žab	žabk	žabka	NA	NA	NA	žába	ába	ba	a	NA	žabka	abka	bka	ka	a	DIMINUTIVE
-zabarikádovat	zabarikádovávat	V	V	NA	NA	P	I	0	0	1	1	z	za	zab	zaba	zabar	zabari	z	za	zab	zaba	zabar	zabari	ádovat	dovat	ovat	vat	at	t	ovávat	vávat	ávat	vat	at	t	ITERATIVE
+zabarikádovat	zabarikádovávat	V	V	NA	NA	P	I	0	0	1	1	z	za	zab	zaba	zabar	zabari	z	za	zab	zaba	zabar	zabari	ádovat	dovat	ovat	vat	at	t	ovávat	vávat	ávat	vat	at	t	ASPECT
 žabař	žabařka	N	N	M	F	NA	NA	0	0	1	0	ž	ža	žab	žaba	žabař	NA	ž	ža	žab	žaba	žabař	žabařk	NA	žabař	abař	bař	ař	ř	abařka	bařka	ařka	řka	ka	a	FEMALE
 zabarvit	zabarvovat	V	V	NA	NA	P	I	0	0	1	1	z	za	zab	zaba	zabar	zabarv	z	za	zab	zaba	zabar	zabarv	barvit	arvit	rvit	vit	it	t	rvovat	vovat	ovat	vat	at	t	ASPECT
 zábava	zábavka	N	N	F	F	NA	NA	0	0	1	1	z	zá	záb	zába	zábav	zábava	z	zá	záb	zába	zábav	zábavk	zábava	ábava	bava	ava	va	a	ábavka	bavka	avka	vka	ka	a	DIMINUTIVE
@@ -11030,7 +11030,7 @@ zabírat	zabírávat	V	V	NA	NA	I	NA	0	0	1	1	z	za	zab	zabí	zabír	zabíra	z	za	z
 zabít	zabíjet	V	V	NA	NA	P	I	0	0	1	1	z	za	zab	zabí	zabít	NA	z	za	zab	zabí	zabíj	zabíje	NA	zabít	abít	bít	ít	t	abíjet	bíjet	íjet	jet	et	t	ASPECT
 žabka	žabička	N	N	F	F	NA	NA	0	0	1	1	ž	ža	žab	žabk	žabka	NA	ž	ža	žab	žabi	žabič	žabičk	NA	žabka	abka	bka	ka	a	abička	bička	ička	čka	ka	a	DIMINUTIVE
 zablátit	zablacovat	V	V	NA	NA	P	NA	0	0	1	1	z	za	zab	zabl	zablá	zablát	z	za	zab	zabl	zabla	zablac	blátit	látit	átit	tit	it	t	acovat	covat	ovat	vat	at	t	ASPECT
-zabloudit	zabloudívat	V	V	NA	NA	P	NA	0	0	1	1	z	za	zab	zabl	zablo	zablou	z	za	zab	zabl	zablo	zablou	loudit	oudit	udit	dit	it	t	udívat	dívat	ívat	vat	at	t	ITERATIVE
+zabloudit	zabloudívat	V	V	NA	NA	P	NA	0	0	1	1	z	za	zab	zabl	zablo	zablou	z	za	zab	zabl	zablo	zablou	loudit	oudit	udit	dit	it	t	udívat	dívat	ívat	vat	at	t	ASPECT
 zabloudit	zabluzovat	V	V	NA	NA	P	NA	0	0	1	1	z	za	zab	zabl	zablo	zablou	z	za	zab	zabl	zablu	zabluz	loudit	oudit	udit	dit	it	t	uzovat	zovat	ovat	vat	at	t	ASPECT
 zabočit	zabočovat	V	V	NA	NA	P	I	0	0	1	1	z	za	zab	zabo	zaboč	zaboči	z	za	zab	zabo	zaboč	zabočo	abočit	bočit	očit	čit	it	t	očovat	čovat	ovat	vat	at	t	ASPECT
 zabolet	zabolívat	V	V	NA	NA	P	NA	0	0	1	1	z	za	zab	zabo	zabol	zabole	z	za	zab	zabo	zabol	zabolí	abolet	bolet	olet	let	et	t	olívat	lívat	ívat	vat	at	t	ASPECT
@@ -11464,7 +11464,7 @@ zastihnout	zastihovat	V	V	NA	NA	P	I	0	0	1	1	z	za	zas	zast	zasti	zastih	z	za	zas	
 zastínit	zastiňovat	V	V	NA	NA	P	I	0	0	1	1	z	za	zas	zast	zastí	zastín	z	za	zas	zast	zasti	zastiň	stínit	tínit	ínit	nit	it	t	iňovat	ňovat	ovat	vat	at	t	ASPECT
 zaštípnout	zaštipovat	V	V	NA	NA	P	I	0	0	1	1	z	za	zaš	zašt	zaští	zaštíp	z	za	zaš	zašt	zašti	zaštip	ípnout	pnout	nout	out	ut	t	ipovat	povat	ovat	vat	at	t	ASPECT
 zastírat	zastírávat	V	V	NA	NA	I	NA	0	0	1	1	z	za	zas	zast	zastí	zastír	z	za	zas	zast	zastí	zastír	stírat	tírat	írat	rat	at	t	írávat	rávat	ávat	vat	at	t	ITERATIVE
-zastlat	zastlávat	V	V	NA	NA	P	NA	0	0	1	1	z	za	zas	zast	zastl	zastla	z	za	zas	zast	zastl	zastlá	astlat	stlat	tlat	lat	at	t	tlávat	lávat	ávat	vat	at	t	ITERATIVE
+zastlat	zastlávat	V	V	NA	NA	P	NA	0	0	1	1	z	za	zas	zast	zastl	zastla	z	za	zas	zast	zastl	zastlá	astlat	stlat	tlat	lat	at	t	tlávat	lávat	ávat	vat	at	t	ASPECT
 zastoupit	zastupovat	V	V	NA	NA	P	I	0	0	1	1	z	za	zas	zast	zasto	zastou	z	za	zas	zast	zastu	zastup	toupit	oupit	upit	pit	it	t	upovat	povat	ovat	vat	at	t	ASPECT
 zastřešovatelka	zastřešovatelčin	N	A	F	NA	NA	NA	0	1	1	0	z	za	zas	zast	zastř	zastře	z	za	zas	zast	zastř	zastře	atelka	telka	elka	lka	ka	a	telčin	elčin	lčin	čin	in	n	POSSESSIVE
 zastřihat	zastřihávat	V	V	NA	NA	I	I	0	0	1	1	z	za	zas	zast	zastř	zastři	z	za	zas	zast	zastř	zastři	třihat	řihat	ihat	hat	at	t	ihávat	hávat	ávat	vat	at	t	ASPECT
@@ -11528,7 +11528,7 @@ zaujímat	zaujímávat	V	V	NA	NA	I	NA	0	0	1	1	z	za	zau	zauj	zaují	zaujím	z	za	
 zaujmout	zaujímat	V	V	NA	NA	P	I	0	0	1	1	z	za	zau	zauj	zaujm	zaujmo	z	za	zau	zauj	zaují	zaujím	ujmout	jmout	mout	out	ut	t	ujímat	jímat	ímat	mat	at	t	ASPECT
 zaúpět	zaúpovat	V	V	NA	NA	P	NA	0	0	1	1	z	za	zaú	zaúp	zaúpě	zaúpět	z	za	zaú	zaúp	zaúpo	zaúpov	zaúpět	aúpět	úpět	pět	ět	t	úpovat	povat	ovat	vat	at	t	ASPECT
 záušnice	záušnička	N	N	F	F	NA	NA	0	0	1	0	z	zá	záu	záuš	záušn	záušni	z	zá	záu	záuš	záušn	záušni	ušnice	šnice	nice	ice	ce	e	šnička	nička	ička	čka	ka	a	DIMINUTIVE
-zauzlovat	zauzlovávat	V	V	NA	NA	P	I	0	0	1	1	z	za	zau	zauz	zauzl	zauzlo	z	za	zau	zauz	zauzl	zauzlo	zlovat	lovat	ovat	vat	at	t	ovávat	vávat	ávat	vat	at	t	ITERATIVE
+zauzlovat	zauzlovávat	V	V	NA	NA	P	I	0	0	1	1	z	za	zau	zauz	zauzl	zauzlo	z	za	zau	zauz	zauzl	zauzlo	zlovat	lovat	ovat	vat	at	t	ovávat	vávat	ávat	vat	at	t	ASPECT
 zavádět	zavádívat	V	V	NA	NA	I	NA	0	0	1	1	z	za	zav	zavá	zavád	zavádě	z	za	zav	zavá	zavád	zavádí	avádět	vádět	ádět	dět	ět	t	ádívat	dívat	ívat	vat	at	t	ITERATIVE
 zaválcovat	zaválcovávat	V	V	NA	NA	NA	NA	0	0	1	1	z	za	zav	zavá	zavál	zaválc	z	za	zav	zavá	zavál	zaválc	lcovat	covat	ovat	vat	at	t	ovávat	vávat	ávat	vat	at	t	ASPECT
 zával	závalek	N	N	I	I	NA	NA	0	0	1	0	z	zá	záv	záva	zával	NA	z	zá	záv	záva	zával	závale	NA	zával	ával	val	al	l	ávalek	valek	alek	lek	ek	k	DIMINUTIVE
@@ -11944,7 +11944,7 @@ zmařit	zmařovat	V	V	NA	NA	P	NA	0	0	1	1	z	zm	zma	zmař	zmaři	zmařit	z	zm	zma	
 zmáselnit	zmáselňovat	V	V	NA	NA	NA	NA	0	0	1	1	z	zm	zmá	zmás	zmáse	zmásel	z	zm	zmá	zmás	zmáse	zmásel	selnit	elnit	lnit	nit	it	t	lňovat	ňovat	ovat	vat	at	t	ASPECT
 změkčit	změkčovat	V	V	NA	NA	P	I	0	0	1	1	z	zm	změ	změk	změkč	změkči	z	zm	změ	změk	změkč	změkčo	měkčit	ěkčit	kčit	čit	it	t	kčovat	čovat	ovat	vat	at	t	ASPECT
 změlčit	změlčovat	V	V	NA	NA	P	I	0	0	1	1	z	zm	změ	změl	změlč	změlči	z	zm	změ	změl	změlč	změlčo	mělčit	ělčit	lčit	čit	it	t	lčovat	čovat	ovat	vat	at	t	ASPECT
-změnit	změnívat	V	V	NA	NA	P	NA	0	0	1	1	z	zm	změ	změn	změni	změnit	z	zm	změ	změn	změní	změnív	změnit	měnit	ěnit	nit	it	t	ěnívat	nívat	ívat	vat	at	t	ITERATIVE
+změnit	změnívat	V	V	NA	NA	P	NA	0	0	1	1	z	zm	změ	změn	změni	změnit	z	zm	změ	změn	změní	změnív	změnit	měnit	ěnit	nit	it	t	ěnívat	nívat	ívat	vat	at	t	ASPECT
 změnit	změňovat	V	V	NA	NA	P	NA	0	0	1	1	z	zm	změ	změn	změni	změnit	z	zm	změ	změň	změňo	změňov	změnit	měnit	ěnit	nit	it	t	ěňovat	ňovat	ovat	vat	at	t	ASPECT
 zmenšit	zmenšovat	V	V	NA	NA	P	I	0	0	1	1	z	zm	zme	zmen	zmenš	zmenši	z	zm	zme	zmen	zmenš	zmenšo	menšit	enšit	nšit	šit	it	t	nšovat	šovat	ovat	vat	at	t	ASPECT
 zmeškat	zmeškávat	V	V	NA	NA	P	I	0	0	1	1	z	zm	zme	zmeš	zmešk	zmeška	z	zm	zme	zmeš	zmešk	zmešká	meškat	eškat	škat	kat	at	t	škávat	kávat	ávat	vat	at	t	ASPECT
