@@ -3,12 +3,12 @@ SHELL=/bin/bash
 DERINET='../../../../releases/cs/derinet-1-7.tsv'
 
 # provede jednotlivé kroky
-data: SSJC MORFFLEXCZ PMC VALLEX Multiple
-preprocess: MergeAnnotations AddFeatures CorrectFeatures
-install: virtual
+data: SSJC MORFFLEXCZ PMC VALLEX DERINET Multiple
+preprocess: MergeAnnotations AddNegatives AddFeatures CorrectFeatures
+install: py3env/
 
 
-# EXTRAKCE A ANOTACE DAT
+# EXTRAKCE DAT
 
 # extrahuje sémantické labely ze SSJČ a automaticky je anotuje
 SSJC: ../for-annotation/semantic-labels-ssjc.tsv
@@ -80,27 +80,34 @@ MergeAnnotations: ../for-annotation/semantic-labels.tsv
 	cat '../for-annotation/semantic-labels-vallex.tsv' | grep $$'^\%' >> '../for-annotation/semantic-labels-1.tsv'
 	cat '../for-annotation/semantic-labels-1.tsv' | sed -e 's/\r//g' | sort | uniq > '../for-annotation/semantic-labels.tsv'
 	cat '../for-annotation/semantic-labels.tsv' | cut -d $$'\t' -f 2,3,4 | python3 'multiple-labels.py' > '../for-annotation/multiple-labeled-all.tsv'
-	rm '../for-annotation/semantic-labels-1.tsv'
+	rm -f '../for-annotation/semantic-labels-1.tsv'
 
 
-# restrukturalizuje dosavadní a přidá nové příznaky do dat
+# přidá negativní příklady
+AddNegatives: training-data.tsv
+	@echo 'Adding of negative exampes completed. See file: ../for-annotation/training-data.tsv'
+
+training-data.tsv: ../for-annotation/semantic-labels.tsv
+	python3 'extract-derinet.py' $(DERINET) > '../for-annotation/non-labeled-derinet.tsv'
+	cat '../for-annotation/semantic-labels.tsv' | grep -v $$'\tpodst\.' | grep -v $$'\tzpodst\.' | cut -f 2,3,4,5 > 'training-data.tsv'
+	python3 'add-negatives.py' 'training-data.tsv' '../for-annotation/non-labeled-derinet.tsv' >> 'training-data.tsv'
+	rm -f '../for-annotation/non-labeled-derinet.tsv'
+
+
+# rozšíří data o non-labeled vtahy z derinetu, restrukturalizuje dosavadní a přidá nové příznaky do dat
 AddFeatures: ../for-annotation/MLdata-semantic-labels.tsv
 	@echo 'Adding of features completed. See file: ../for-annotation/MLdata-semantic-labels.tsv'
 	@echo 'WARNING: BE CAREFUL, DATA CAN CONTAIN MANUAL ANNOTATIONS!'
 
-../for-annotation/MLdata-semantic-labels.tsv: ../for-annotation/semantic-labels.tsv word-list-syn2015.tsv word-list-morphodita.json word-list-vallex.tsv
-	cat '../for-annotation/semantic-labels.tsv' | grep -v $$'\tpodst\.' | grep -v $$'\tzpodst\.' > '../for-annotation/semantic-labels-1.tsv'
-	python3 'add-features.py' '../for-annotation/semantic-labels-1.tsv' 'word-list-syn2015.tsv' 'word-list-morphodita.json' 'word-list-vallex.tsv' > '../for-annotation/MLdata-semantic-labels.tsv'
-	rm '../for-annotation/semantic-labels-1.tsv'
-	# rm 'word-list-morphodita.json' 'word-list-syn2015.tsv' 'word-list-vallex.tsv'
+../for-annotation/MLdata-semantic-labels.tsv: ../for-annotation/semantic-labels.tsv training-data.tsv word-list-syn2015.tsv word-list-vallex.tsv
+	cat 'training-data.tsv' | cut -d $$'\t' -f 1,2 | sed -e 's/–[A-Z]*//g' | sed -e 's/\t/\n/g' | sort | uniq > 'for-analyze.txt'
+	curl -F 'data=@for-analyze.txt' -F 'output=json' -F 'input=vertical' http://lindat.mff.cuni.cz/services/morphodita/api/tag > 'word-list-morphodita.json'
+	python3 'add-features.py' 'training-data.tsv' 'word-list-syn2015.tsv' 'word-list-morphodita.json' 'word-list-vallex.tsv' > '../for-annotation/MLdata-semantic-labels.tsv'
+	rm -f 'training-data.tsv' 'for-analyze.txt' 'word-list-morphodita.json'
+	# rm 'word-list-syn2015.tsv' 'word-list-vallex.tsv'
 
 word-list-syn2015.tsv: syn2015.gz
 	zgrep -v '^<' 'syn2015.gz' | cut -d $$'\t' -f 1,2,3 | sort | uniq -c | sort -nr > 'word-list-syn2015.tsv'
-
-word-list-morphodita.json: ../for-annotation/semantic-labels.tsv
-	cat '../for-annotation/semantic-labels.tsv' | cut -d $$'\t' -f 2,3 | sed -e 's/–[A-Z]*//g' | sed -e 's/\t/\n/g' | sort | uniq > 'for-analyze.txt'
-	curl -F 'data=@for-analyze.txt' -F 'output=json' -F 'input=vertical' http://lindat.mff.cuni.cz/services/morphodita/api/tag > 'word-list-morphodita.json'
-	rm 'for-analyze.txt'
 
 word-list-vallex.tsv: vallex_3.0.xml
 	cat 'vallex_3.0.xml' | grep -o $$'\<mlemma.*' | sed -e 's/>/ /g' -e 's/<\/mlemma//g' | grep -e $$'aspect' | awk '{print $$NF " " $$2}' | grep -v $$'"iter"' | sed -e 's/aspect="impf"/I/g' -e 's/aspect="pf"/P/g' -e 's/aspect="biasp"/B/g' | sort | uniq > word-list-vallex.tsv
@@ -108,21 +115,25 @@ word-list-vallex.tsv: vallex_3.0.xml
 syn2015.gz:
 	@echo 'You need syn2015.gz corpus from Czech National Corpus Institution.'
 
-# opraví chybně zadané příznaky (manuální anotace zvášť v souboru: feature-corrections.tsv)
+
+# opraví chybně zadané příznaky (manuální anotace zvášť v souboru: feature-corrections.tsv) - stále potřebuje kontrolu při přegenerování
 CorrectFeatures: ../for-annotation/MLdata-semantic-labels.tsv ../for-annotation/feature-corrections.tsv
 	python3 'correct-features.py' '../for-annotation/MLdata-semantic-labels.tsv' '../for-annotation/feature-corrections.tsv' > '../hand-annotated/MLSemLab.tsv'
-	@echo 'Data was corrected. It is prepared for Machine Learning experiments. Date is placed in: hand-annotated/MLSemLab.tsv'
+	@echo 'Data was corrected. It is prepared for Machine Learning experiments. Date is placed in: ../hand-annotated/MLSemLab.tsv'
 
 
 # PŘÍPRAVA VIRTUÁLNÍHO PROSTŘEDÍ PRO ML METODY
 
 # nainstaluje virtuální prostředí s potřebnými knihovnami
-virtual:
+py3env/:
 	virtualenv -p /usr/bin/python3 py3env
 	@( \
 	source py3env/bin/activate; \
 	pip3 install pandas; \
 	pip3 install numpy; \
+	pip3 install scikit-learn; \
+	pip3 install scipy; \
+	pip3 install graphviz; \
 	)
 
 

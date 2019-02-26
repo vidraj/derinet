@@ -23,11 +23,12 @@ for key in syn_aspects:
 
 # load MorphoDiTa data (analysed lemmas from sys.argv[1])
 modita = defaultdict()
-with open(sys.argv[3], mode='r', encoding='utf-8') as f:
-    morphodita = json.load(f)
-    for i in range(len(morphodita['result'])):
-        for entry in morphodita['result'][i]:
-            modita[entry['token']] = entry['tag']
+for path in sys.argv[3].split('|'):
+    with open(path, mode='r', encoding='utf-8') as f:
+        morphodita = json.load(f)
+        for i in range(len(morphodita['result'])):
+            for entry in morphodita['result'][i]:
+                modita[entry['token']] = entry['tag']
 
 
 # load VALLEX3 data (lemma, aspect)
@@ -49,67 +50,72 @@ print('parent', 'child', 'pos_P', 'pos_C', 'gender_P', 'gender_C',
       'label', sep='\t')
 
 # translate Czech labels to universal labels
-labels = {'zdrob.': 'DIMINUTIVE', 'poses.': 'POSSESSIVE',
-          'dok.': 'ASPECT', 'ned.': 'ASPECT',
-          'nás.': 'ITERATIVE', 'přech.': 'FEMALE',
-          '': 'NA'}
+labels = {'zdrob.': 'DIMINUTIVE', 'poses.': 'POSSESSIVE', 'dok.': 'ASPECT',
+          'ned.': 'ASPECT', 'nás.': 'ITERATIVE', 'přech.': 'FEMALE',
+          'non-lab.': 'NONE', '': 'NA'}
 
-# load input data and add features
-with open(sys.argv[1], mode='r', encoding='utf-8') as f:
-    for line in f:
-        entry = line.rstrip('\n').split('\t')
+# load input data (from file or stdin) and add features
+content = ''
+if sys.argv[1] == '@stdin':
+    content = sys.stdin.readlines()
+else:
+    with open(sys.argv[1], mode='r', encoding='utf-8') as f:
+        content = f.readlines()
 
-        # default given values (lemma, pos and label)
-        parent = entry[1].split('–')[0]
-        child = entry[2].split('–')[0]
+for line in content:
+    entry = line.rstrip('\n').split('\t')
 
-        pos_par = entry[1].split('–')[1].replace('C', '')
-        pos_child = entry[2].split('–')[1].replace('C', '')
+    # default given values (lemma, pos and label)
+    parent = entry[0].split('–')[0]
+    child = entry[1].split('–')[0]
 
-        label = labels[entry[3]] if len(entry) != 5 else labels[entry[4]]
+    pos_par = entry[0].split('–')[1].replace('C', '')
+    pos_child = entry[1].split('–')[1].replace('C', '')
 
-        # gender marks (for nouns) from MorphoDita
-        gdr_par = modita[parent][2] if modita[parent][0] == pos_par else 'NA'
-        gdr_child = modita[child][2] if modita[child][0] == pos_child else 'NA'
-        gdr_par = gdr_par.replace('X', 'NA').replace('-', 'NA')
-        gdr_child = gdr_child.replace('X', 'NA').replace('-', 'NA')
-        if pos_par != 'N':
-            gdr_par = 'NA'
-        if pos_child != 'N':
-            gdr_child = 'NA'
+    label = labels[entry[2]] if len(entry) != 5 else labels[entry[3]]
 
-        # posesive marks from MorphoDita
-        pss_par = modita[parent][1] if modita[parent][0] == pos_par else 'NA'
-        pss_child = modita[child][1] if modita[child][0] == pos_child else 'NA'
-        pss_par = '1' if pss_par == 'U' else '0'
-        pss_child = '1' if pss_child == 'U' else '0'
+    # gender marks (for nouns) from MorphoDita
+    gdr_par = modita[parent][2] if modita[parent][0] == pos_par else 'NA'
+    gdr_child = modita[child][2] if modita[child][0] == pos_child else 'NA'
+    gdr_par = gdr_par.replace('X', 'NA').replace('-', 'NA')
+    gdr_child = gdr_child.replace('X', 'NA').replace('-', 'NA')
+    if pos_par != 'N':
+        gdr_par = 'NA'
+    if pos_child != 'N':
+        gdr_child = 'NA'
 
-        # aspect marks from SYN2015 or VALLEX3 (if aspect is not in SYN2015)
-        p_key = (parent, pos_par)
-        c_key = (child, pos_child)
-        asp_par = 'NA' if p_key not in syn_aspects else syn_aspects[p_key]
-        asp_child = 'NA' if c_key not in syn_aspects else syn_aspects[c_key]
+    # posesive marks from MorphoDita
+    pss_par = modita[parent][1] if modita[parent][0] == pos_par else 'NA'
+    pss_child = modita[child][1] if modita[child][0] == pos_child else 'NA'
+    pss_par = '1' if pss_par == 'U' else '0'
+    pss_child = '1' if pss_child == 'U' else '0'
 
-        if asp_par == 'NA' and p_key in vallex:
-            asp_par = vallex[p_key]
-        if asp_child == 'NA' and c_key in vallex:
-            asp_child = vallex[c_key]
+    # aspect marks from SYN2015 or VALLEX3 (if aspect is not in SYN2015)
+    p_key = (parent, pos_par)
+    c_key = (child, pos_child)
+    asp_par = 'NA' if p_key not in syn_aspects else syn_aspects[p_key]
+    asp_child = 'NA' if c_key not in syn_aspects else syn_aspects[c_key]
 
-        # starting n-gram
-        bg_par = [parent[:i] if len(parent) >= i else 'NA' for i in range(1, 7)]
-        bg_child = [child[:i] if len(child) >= i else 'NA' for i in range(1, 7)]
+    if asp_par == 'NA' and p_key in vallex:
+        asp_par = vallex[p_key]
+    if asp_child == 'NA' and c_key in vallex:
+        asp_child = vallex[c_key]
 
-        # ending n-gram
-        end_par = reversed([parent[-i:] if len(parent) >= i else 'NA' for i in range(1, 7)])
-        end_child = reversed([child[-i:] if len(child) >= i else 'NA' for i in range(1, 7)])
+    # starting n-gram
+    bg_par = [parent[:i] if len(parent) >= i else 'NA' for i in range(1, 7)]
+    bg_child = [child[:i] if len(child) >= i else 'NA' for i in range(1, 7)]
 
-        # same start
-        same_start = '1' if parent[:2].lower() == child[:2].lower() else '0'
+    # ending n-gram
+    end_par = reversed([parent[-i:] if len(parent) >= i else 'NA' for i in range(1, 7)])
+    end_child = reversed([child[-i:] if len(child) >= i else 'NA' for i in range(1, 7)])
 
-        # same end
-        same_end = '1' if parent[-1].lower() == child[-1].lower() else '0'
+    # same start
+    same_start = '1' if parent[:2].lower() == child[:2].lower() else '0'
 
-        # output values
-        print(parent, child, pos_par, pos_child, gdr_par, gdr_child,
-              asp_par, asp_child, pss_par, pss_child, same_start, same_end,
-              *bg_par, *bg_child, *end_par, *end_child, label, sep='\t')
+    # same end
+    same_end = '1' if parent[-1].lower() == child[-1].lower() else '0'
+
+    # output values
+    print(parent, child, pos_par, pos_child, gdr_par, gdr_child,
+          asp_par, asp_child, pss_par, pss_child, same_start, same_end,
+          *bg_par, *bg_child, *end_par, *end_child, label, sep='\t')
