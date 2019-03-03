@@ -96,10 +96,15 @@ for line in content:
     asp_par = 'NA' if p_key not in syn_aspects else syn_aspects[p_key]
     asp_child = 'NA' if c_key not in syn_aspects else syn_aspects[c_key]
 
-    if asp_par == 'NA' and p_key in vallex:
+    if asp_par not in ('P', 'I', 'B') and p_key in vallex:
         asp_par = vallex[p_key]
-    if asp_child == 'NA' and c_key in vallex:
+    else:
+        asp_par = 'NA'
+
+    if asp_child not in ('P', 'I', 'B') and c_key in vallex:
         asp_child = vallex[c_key]
+    else:
+        asp_child = 'NA'
 
     # starting n-gram
     bg_par = [parent[:i] if len(parent) >= i else 'NA' for i in range(1, 7)]
