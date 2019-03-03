@@ -2,15 +2,20 @@ SHELL=/bin/bash
 
 DERINET='../../../../releases/cs/derinet-1-7.tsv'
 
-# provede jednotlivé kroky
+all: data preprocess install mlexperiments mlprocess mleval done
+
+# individual steps
 data: SSJC MORFFLEXCZ PMC VALLEX DERINET Multiple
 preprocess: MergeAnnotations AddNegatives AddFeatures CorrectFeatures
 install: py3env/
+mlexperiments: Experiments
+mlprocess: PrepareForPrediction Predict ApplyTreshold
+mleval: PrepareForEvaluation Evaluate
+done: clean
 
+# DATA EXTRACTION
 
-# EXTRAKCE DAT
-
-# extrahuje sémantické labely ze SSJČ a automaticky je anotuje
+# extraction of semantic labels from SSJČ, automatic annotation
 SSJC: ../for-annotation/semantic-labels-ssjc.tsv
 	@echo 'Extraction and annotation from SSJC complete. See file: ../for-annotation/semantic-labels-ssjc.tsv'
 	@echo 'WARNING: BE CAREFUL, DATA CAN CONTAIN MANUAL ANNOTATIONS!'
@@ -24,7 +29,7 @@ ssjc-utf8.xml:
 	@echo -e 'You need SSJČ .xml data.'
 
 
-# extrahuje sémantické labely z MorfFlexu a automaticky je anotuje
+# extraction of semantic labels from MorfFlexCZ, automatic annotation
 MORFFLEXCZ: ../for-annotation/semantic-labels-morfflex.tsv
 	@echo 'Extraction and annotation from MorfFlexCZ completed. See file: ../for-annotation/semantic-labels-morfflex.tsv'
 	@echo 'WARNING: BE CAREFUL, DATA CAN CONTAIN MANUAL ANNOTATIONS!'
@@ -35,7 +40,7 @@ MORFFLEXCZ: ../for-annotation/semantic-labels-morfflex.tsv
 	rm '../for-annotation/potentials-morfflex.tsv'
 
 
-# extrahuje potenciální vztahy z DeriNetu na základě Příruční mluvnice češtiny (nutná manuální anotace)
+# extraction of semantic labels from PMČ, need manual annotation
 PMC: ../for-annotation/semantic-labels-pmc.tsv
 	@echo 'Extraction and annotation from PMC completed. See file: ../for-annotation/semantic-labels-pcm.tsv'
 	@echo 'WARNING: BE CAREFUL, DATA CAN CONTAIN MANUAL ANNOTATIONS!'
@@ -44,7 +49,7 @@ PMC: ../for-annotation/semantic-labels-pmc.tsv
 	python3 'extract-pmc.py' $(DERINET) > '../for-annotation/semantic-labels-pmc.tsv'
 
 
-# extrahuje potenciální vztahy z VALLEXu a automaticky je anotuje
+# extraction of semantic labels from VALLEX, automatic annotation
 VALLEX: ../for-annotation/semantic-labels-vallex.tsv
 	@echo 'Extraction and annotation from VALLEX3 completed. See file: ../for-annotation/semantic-labels-vallex.tsv'
 	@echo 'WARNING: BE CAREFUL, DATA CAN CONTAIN MANUAL ANNOTATIONS!'
@@ -58,7 +63,7 @@ vallex_3.0.xml:
 	@echo 'You need vallex_3.0.xml dictionary from LINDAT/CLARIN (http://hdl.handle.net/11234/1-2307).'
 
 
-# vypíše vztahy s více sémantickými labely
+# check relations with more than one semantic labels
 Multiple: ../for-annotation/semantic-labels-ssjc.tsv ../for-annotation/semantic-labels-morfflex.tsv ../for-annotation/semantic-labels-pmc.tsv
 	cat '../for-annotation/semantic-labels-ssjc.tsv' | sed '1d' | grep -e '^%' | cut -d $$'\t' -f 2,3,4 | python3 'multiple-labels.py' > '../for-annotation/multiple-labeled-ssjc.tsv'
 	cat '../for-annotation/semantic-labels-morfflex.tsv' | sed '1d' | grep -e '^%' | cut -d $$'\t' -f 2,3,4 | python3 'multiple-labels.py' > '../for-annotation/multiple-labeled-morfflex.tsv'
@@ -66,9 +71,9 @@ Multiple: ../for-annotation/semantic-labels-ssjc.tsv ../for-annotation/semantic-
 	cat '../for-annotation/semantic-labels-vallex.tsv' | sed '1d' | grep -e '^%' | cut -d $$'\t' -f 2,3,4 | python3 'multiple-labels.py' > '../for-annotation/multiple-labeled-vallex.tsv'
 
 
-# PREPROCESING DAT
+# DATA PREPROCESING
 
-# sloučí anotace všech souborů
+# Merge all extracted data to one file and check wheather there are relations with more labels
 MergeAnnotations: ../for-annotation/semantic-labels.tsv
 	@echo 'Merging of annotated files completed. See file: ../for-annotation/semantic-labels.tsv'
 	@echo 'WARNING: BE CAREFUL, DATA CAN CONTAIN MANUAL ANNOTATIONS!'
@@ -83,7 +88,7 @@ MergeAnnotations: ../for-annotation/semantic-labels.tsv
 	rm -f '../for-annotation/semantic-labels-1.tsv'
 
 
-# přidá negativní příklady
+# add random negative examples from DeriNet to training data
 AddNegatives: training-data.tsv
 	@echo 'Adding of negative exampes completed. See file: ../for-annotation/training-data.tsv'
 
@@ -94,17 +99,15 @@ training-data.tsv: ../for-annotation/semantic-labels.tsv
 	rm -f '../for-annotation/non-labeled-derinet.tsv'
 
 
-# rozšíří data o non-labeled vtahy z derinetu, restrukturalizuje dosavadní a přidá nové příznaky do dat
+# merge extracted positive and negative examples, automaticaly add features from MorphoDiTa, SYN2015 and VALLEX
 AddFeatures: ../for-annotation/MLdata-semantic-labels.tsv
 	@echo 'Adding of features completed. See file: ../for-annotation/MLdata-semantic-labels.tsv'
-	@echo 'WARNING: BE CAREFUL, DATA CAN CONTAIN MANUAL ANNOTATIONS!'
 
 ../for-annotation/MLdata-semantic-labels.tsv: ../for-annotation/semantic-labels.tsv training-data.tsv word-list-syn2015.tsv word-list-vallex.tsv
 	cat 'training-data.tsv' | cut -d $$'\t' -f 1,2 | sed -e 's/–[A-Z]*//g' | sed -e 's/\t/\n/g' | sort | uniq > 'for-analyze.txt'
 	curl -F 'data=@for-analyze.txt' -F 'output=json' -F 'input=vertical' http://lindat.mff.cuni.cz/services/morphodita/api/tag > 'word-list-morphodita.json'
 	python3 'add-features.py' 'training-data.tsv' 'word-list-syn2015.tsv' 'word-list-morphodita.json' 'word-list-vallex.tsv' > '../for-annotation/MLdata-semantic-labels.tsv'
 	rm -f 'training-data.tsv' 'for-analyze.txt' 'word-list-morphodita.json'
-	# rm 'word-list-syn2015.tsv' 'word-list-vallex.tsv'
 
 word-list-syn2015.tsv: syn2015.gz
 	zgrep -v '^<' 'syn2015.gz' | cut -d $$'\t' -f 1,2,3 | sort | uniq -c | sort -nr > 'word-list-syn2015.tsv'
@@ -116,15 +119,15 @@ syn2015.gz:
 	@echo 'You need syn2015.gz corpus from Czech National Corpus Institution.'
 
 
-# opraví chybně zadané příznaky (manuální anotace zvášť v souboru: feature-corrections.tsv) - stále potřebuje kontrolu při přegenerování
+# fix some incorrect features
 CorrectFeatures: ../for-annotation/MLdata-semantic-labels.tsv ../for-annotation/feature-corrections.tsv
 	python3 'correct-features.py' '../for-annotation/MLdata-semantic-labels.tsv' '../for-annotation/feature-corrections.tsv' > '../hand-annotated/MLSemLab.tsv'
+	rm -f '../for-annotation/MLdata-semantic-labels.tsv'
 	@echo 'Data was corrected. It is prepared for Machine Learning experiments. Date is placed in: ../hand-annotated/MLSemLab.tsv'
 
 
-# PŘÍPRAVA VIRTUÁLNÍHO PROSTŘEDÍ PRO ML METODY
+# INSTALLATION OF VIRTUAL ENVIRONMENT FOR MACHINE LEARNING
 
-# nainstaluje virtuální prostředí s potřebnými knihovnami
 py3env/:
 	virtualenv -p /usr/bin/python3 py3env
 	@( \
@@ -138,3 +141,63 @@ py3env/:
 
 
 # MACHINE LEARNING
+
+# various experiments (before training final models)
+Experiments: py3env/ ../hand-annotated/MLSemLab.tsv
+	py3env/bin/python3 'ml-experiments.py' '../hand-annotated/MLSemLab.tsv' > '../hand-annotated/ml-exp-results.txt'
+	rm -f '../hand-annotated/SemLab-DTree-experiment'
+
+
+# extraction of data for prediction from DeriNet
+PrepareForPrediction: ../hand-annotated/for-prediction.tsv
+	@echo 'Data for prediction (from DeriNet) was prepared. It is prepared for labeling by Machine Learning. Date is placed in: ../hand-annotated/for-prediction.tsv'
+
+../hand-annotated/for-prediction.tsv:
+	python3 'ml-for-prediction.py' $(DERINET) | cut -d $$'\t' -f 1,2 | sed -e 's/–[A-Z]*//g' | sed -e 's/\t/\n/g' | sort | uniq > 'for-analyze.txt'
+	split -l 75000 'for-analyze.txt'
+	curl -F 'data=@xaa' -F 'output=json' -F 'input=vertical' http://lindat.mff.cuni.cz/services/morphodita/api/tag > 'word-list-morphodita1.json'
+	curl -F 'data=@xab' -F 'output=json' -F 'input=vertical' http://lindat.mff.cuni.cz/services/morphodita/api/tag > 'word-list-morphodita2.json'
+	curl -F 'data=@xac' -F 'output=json' -F 'input=vertical' http://lindat.mff.cuni.cz/services/morphodita/api/tag > 'word-list-morphodita3.json'
+	curl -F 'data=@xad' -F 'output=json' -F 'input=vertical' http://lindat.mff.cuni.cz/services/morphodita/api/tag > 'word-list-morphodita4.json'
+	curl -F 'data=@xae' -F 'output=json' -F 'input=vertical' http://lindat.mff.cuni.cz/services/morphodita/api/tag > 'word-list-morphodita5.json'
+	python3 'ml-for-prediction.py' $(DERINET) | python3 'add-features.py' '@stdin' 'word-list-syn2015.tsv' 'word-list-morphodita1.json|word-list-morphodita2.json|word-list-morphodita3.json|word-list-morphodita4.json|word-list-morphodita5.json' 'word-list-vallex.tsv' > '../hand-annotated/for-prediction.tsv'
+	rm -f 'for-analyze.txt' 'xaa' 'xab' 'xac' 'xad' 'xae' 'word-list-morphodita1.json' 'word-list-morphodita2.json' 'word-list-morphodita3.json' 'word-list-morphodita4.json' 'word-list-morphodita5.json'
+
+
+# train models for prediction and predict given data
+Predict: ../hand-annotated/predicted.tsv
+	@echo 'Unkwnon relations were predicted. See ../hand-annotated/predicted.tsv.'
+	@echo 'Various tresholds were tested. See ../hand-annotated/tested-tresholds.txt'
+
+../hand-annotated/predicted.tsv: ../hand-annotated/for-prediction.tsv
+	py3env/bin/python3 'ml-predict.py' '../hand-annotated/MLSemLab.tsv' '../hand-annotated/for-prediction.tsv' '../hand-annotated/predicted.tsv' > '../hand-annotated/tested-tresholds.txt'
+	# rm -f '../hand-annotated/for-prediction.tsv' 'SemLab-DTree'
+
+
+# apply choosen treshold [ ! ZVOLIT TRESHOLD ! ]
+ApplyTreshold: ../hand-annotated/predicted-with-treshold.tsv
+	@echo 'Treshold was applied. Predicted data saved: ../hand-annotated/predicted-with-treshold.tsv'
+
+../hand-annotated/predicted-with-treshold.tsv: ../hand-annotated/predicted.tsv
+	python3 'ml-apply-treshold.py' '../hand-annotated/predicted.tsv' '0' > '../hand-annotated/predicted-with-treshold-0.tsv'
+
+# prepare data for final evaluation of models (for manual annotation) [ ! OPRAVIT VELIKOST VZORKU ! ]
+PrepareForEvaluation: ../hand-annotated/for-evaluation.tsv
+	@echo 'Data for evaluation (manual annotation) was prepared. See ../hand-annotated/for-evaluation.tsv'
+	@echo 'WARNING: BE CAREFUL, DATA CAN CONTAIN MANUAL ANNOTATIONS!'
+
+../hand-annotated/for-evaluation.tsv: ../hand-annotated/predicted-with-treshold.tsv
+	python3 'ml-for-evaluation.py' '../hand-annotated/predicted-with-treshold.tsv' > '../hand-annotated/for-evaluation.tsv'
+
+
+# measure evaluation metrics for manualy annotated data
+Evaluate: ../hand-annotated/eval-results.txt
+	@echo 'Evaluation done. Results are saved here: ../hand-annotated/eval-results.txt'
+
+../hand-annotated/eval-results.txt: ../hand-annotated/for-evaluation.tsv
+	py3env/bin/python3 'ml-evaluate.py' '../hand-annotated/for-evaluation.tsv' > '../hand-annotated/eval-results.txt'
+
+
+# clean project folders
+clean:
+	rm -f 'word-list-syn2015.tsv' 'word-list-vallex.tsv'
