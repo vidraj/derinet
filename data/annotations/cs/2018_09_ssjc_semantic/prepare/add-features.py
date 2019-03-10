@@ -15,20 +15,31 @@ with open(sys.argv[2], mode='r', encoding='utf-8') as f:
         entry = line.rstrip('\n').split()
 
         if entry[3][0] == 'V':
-            syn_aspects[(entry[2], 'V')].append(entry[3][-1])
+            if entry[3][-1] != '-':
+                syn_aspects[(entry[2], 'V')].append(entry[3][-1])
 
 for key in syn_aspects:
     syn_aspects[key] = Counter(syn_aspects[key]).most_common(1)[0][0]
 
 
 # load MorphoDiTa data (analysed lemmas from sys.argv[1])
-modita = defaultdict()
+modita_t = defaultdict()  # tags
+modita_a = defaultdict()  # aspect
 for path in sys.argv[3].split('|'):
     with open(path, mode='r', encoding='utf-8') as f:
         morphodita = json.load(f)
         for i in range(len(morphodita['result'])):
             for entry in morphodita['result'][i]:
-                modita[entry['token']] = entry['tag']
+                # save tag
+                modita_t[entry['token']] = entry['tag']
+                # save aspect
+                if entry['tag'][0] == 'V':
+                    if '_:T' in entry['lemma'] and '_:W' in entry['lemma']:
+                        modita_a[entry['token']] = 'B'
+                    elif '_:T' in entry['lemma']:
+                        modita_a[entry['token']] = 'I'
+                    elif '_:W' in entry['lemma']:
+                        modita_a[entry['token']] = 'P'
 
 
 # load VALLEX3 data (lemma, aspect)
@@ -75,8 +86,8 @@ for line in content:
     label = labels[entry[2]] if len(entry) != 5 else labels[entry[3]]
 
     # gender marks (for nouns) from MorphoDita
-    gdr_par = modita[parent][2] if modita[parent][0] == pos_par else 'NA'
-    gdr_child = modita[child][2] if modita[child][0] == pos_child else 'NA'
+    gdr_par = modita_t[parent][2] if modita_t[parent][0] == pos_par else 'NA'
+    gdr_child = modita_t[child][2] if modita_t[child][0] == pos_child else 'NA'
     gdr_par = gdr_par.replace('X', 'NA').replace('-', 'NA')
     gdr_child = gdr_child.replace('X', 'NA').replace('-', 'NA')
     if pos_par != 'N':
@@ -85,26 +96,27 @@ for line in content:
         gdr_child = 'NA'
 
     # posesive marks from MorphoDita
-    pss_par = modita[parent][1] if modita[parent][0] == pos_par else 'NA'
-    pss_child = modita[child][1] if modita[child][0] == pos_child else 'NA'
+    pss_par = modita_t[parent][1] if modita_t[parent][0] == pos_par else 'NA'
+    pss_child = modita_t[child][1] if modita_t[child][0] == pos_child else 'NA'
     pss_par = '1' if pss_par == 'U' else '0'
     pss_child = '1' if pss_child == 'U' else '0'
 
-    # aspect marks from SYN2015 or VALLEX3 (if aspect is not in SYN2015)
-    p_key = (parent, pos_par)
-    c_key = (child, pos_child)
-    asp_par = 'NA' if p_key not in syn_aspects else syn_aspects[p_key]
-    asp_child = 'NA' if c_key not in syn_aspects else syn_aspects[c_key]
+    # aspect marks from MorphoDita, potentialy from SYN2015 or VALLEX3
+    asp_par = modita_a[parent] if parent in modita_a else 'NA'
+    asp_child = modita_a[child] if child in modita_a else 'NA'
 
-    if asp_par not in ('P', 'I', 'B') and p_key in vallex:
-        asp_par = vallex[p_key]
-    else:
-        asp_par = 'NA'
+    if asp_par == 'NA' and (parent, pos_par) in syn_aspects:
+        asp_par = syn_aspects[(parent, pos_par)]
+    elif asp_par == 'NA' and (parent, pos_par) in vallex:
+        asp_par = vallex[(parent, pos_par)]
 
-    if asp_child not in ('P', 'I', 'B') and c_key in vallex:
-        asp_child = vallex[c_key]
-    else:
-        asp_child = 'NA'
+    if asp_child == 'NA' and (child, pos_child) in syn_aspects:
+        asp_child = syn_aspects[(child, pos_child)]
+    elif asp_child == 'NA' and (child, pos_child) in vallex:
+        asp_child = vallex[(child, pos_child)]
+
+    if asp_par in 'B' and pos_par == 'V' and parent.endswith('ovat'):
+        asp_par = 'I'
 
     # starting n-gram
     bg_par = [parent[:i] if len(parent) >= i else 'NA' for i in range(1, 7)]
