@@ -14,9 +14,8 @@ with open(sys.argv[1], mode='r', encoding='utf-8') as f:
         predicted.append(line.rstrip('\n').split('\t'))
 
 # return random sample
-random.seed(123)
+random.seed(246)
 print('# manual annotation: + = predicted label is true')
-print('# header: dtree \\t lreg \\t parent \\t child \\t'
-      'dtree-label \\t lreg-label')
-for entry in random.sample(predicted, 200):
-    print('', '', *entry, sep='\t')
+print('# header: dtree \\t lreg \\t parent \\t child \\t lreg-label')
+for entry in random.sample(predicted, 2000):
+    print('', *entry, sep='\t')

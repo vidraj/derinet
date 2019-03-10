@@ -6,14 +6,14 @@ all: data preprocess install mlexperiments mlprocess mleval done
 
 # individual steps
 data: SSJC MORFFLEXCZ PMC VALLEX DERINET Multiple
-preprocess: MergeAnnotations AddNegatives AddFeatures CorrectFeatures
+preprocess: MergeAnnotations NEGATIVES AddFeatures CorrectFeatures
 install: py3env/
 mlexperiments: Experiments
-mlprocess: PrepareForPrediction Predict ApplyTreshold
+mlprocess: PrepareForPrediction Predict ApplyTreshold MakeAnnotationFile
 mleval: PrepareForEvaluation Evaluate
 done: clean
 
-# DATA EXTRACTION
+# DATA EXTRACTION AND PREPROCESSING
 
 # extraction of semantic labels from SSJČ, automatic annotation
 SSJC: ../for-annotation/semantic-labels-ssjc.tsv
@@ -23,7 +23,7 @@ SSJC: ../for-annotation/semantic-labels-ssjc.tsv
 ../for-annotation/semantic-labels-ssjc.tsv: ssjc-utf8.xml
 	python3 'extract-ssjc.py' 'ssjc-utf8.xml' $(DERINET) > '../for-annotation/potentials-ssjc.tsv'
 	python3 'annotate.py' '../for-annotation/potentials-ssjc.tsv' $(DERINET) > '../for-annotation/semantic-labels-ssjc.tsv'
-	rm '../for-annotation/potentials-ssjc.tsv'
+	rm -f '../for-annotation/potentials-ssjc.tsv'
 
 ssjc-utf8.xml:
 	@echo -e 'You need SSJČ .xml data.'
@@ -37,7 +37,7 @@ MORFFLEXCZ: ../for-annotation/semantic-labels-morfflex.tsv
 ../for-annotation/semantic-labels-morfflex.tsv:
 	python3 'extract-morfflex.py' $(DERINET) > '../for-annotation/potentials-morfflex.tsv'
 	python3 'annotate.py' '../for-annotation/potentials-morfflex.tsv' $(DERINET) > '../for-annotation/semantic-labels-morfflex.tsv'
-	rm '../for-annotation/potentials-morfflex.tsv'
+	rm -f '../for-annotation/potentials-morfflex.tsv'
 
 
 # extraction of semantic labels from PMČ, need manual annotation
@@ -57,7 +57,7 @@ VALLEX: ../for-annotation/semantic-labels-vallex.tsv
 ../for-annotation/semantic-labels-vallex.tsv: vallex_3.0.xml
 	python3 'extract-vallex.py' 'vallex_3.0.xml' > '../for-annotation/potentials-vallex.tsv'
 	python3 'annotate.py' '../for-annotation/potentials-vallex.tsv' $(DERINET) > '../for-annotation/semantic-labels-vallex.tsv'
-	rm '../for-annotation/potentials-vallex.tsv'
+	rm -f '../for-annotation/potentials-vallex.tsv'
 
 vallex_3.0.xml:
 	@echo 'You need vallex_3.0.xml dictionary from LINDAT/CLARIN (http://hdl.handle.net/11234/1-2307).'
@@ -71,9 +71,7 @@ Multiple: ../for-annotation/semantic-labels-ssjc.tsv ../for-annotation/semantic-
 	cat '../for-annotation/semantic-labels-vallex.tsv' | sed '1d' | grep -e '^%' | cut -d $$'\t' -f 2,3,4 | python3 'multiple-labels.py' > '../for-annotation/multiple-labeled-vallex.tsv'
 
 
-# DATA PREPROCESING
-
-# Merge all extracted data to one file and check wheather there are relations with more labels
+# merge all extracted data to one file and check wheather there are relations with more labels
 MergeAnnotations: ../for-annotation/semantic-labels.tsv
 	@echo 'Merging of annotated files completed. See file: ../for-annotation/semantic-labels.tsv'
 	@echo 'WARNING: BE CAREFUL, DATA CAN CONTAIN MANUAL ANNOTATIONS!'
@@ -88,22 +86,25 @@ MergeAnnotations: ../for-annotation/semantic-labels.tsv
 	rm -f '../for-annotation/semantic-labels-1.tsv'
 
 
-# add random negative examples from DeriNet to training data
-AddNegatives: training-data.tsv
-	@echo 'Adding of negative exampes completed. See file: ../for-annotation/training-data.tsv'
+# extraction of semantic labels (NONE) from DeriNet, manual annotation
+NEGATIVES: ../for-annotation/negatives-derinet.tsv
+	@echo 'Extraction from DeriNet completed. See file: ../for-annotation/negatives-derinet.tsv'
+	@echo 'WARNING: BE CAREFUL, DATA CAN CONTAIN MANUAL ANNOTATIONS!'
 
-training-data.tsv: ../for-annotation/semantic-labels.tsv
+../for-annotation/negatives-derinet.tsv: ../for-annotation/semantic-labels.tsv
 	python3 'extract-derinet.py' $(DERINET) > '../for-annotation/non-labeled-derinet.tsv'
-	cat '../for-annotation/semantic-labels.tsv' | grep -v $$'\tpodst\.' | grep -v $$'\tzpodst\.' | cut -f 2,3,4,5 > 'training-data.tsv'
-	python3 'add-negatives.py' 'training-data.tsv' '../for-annotation/non-labeled-derinet.tsv' >> 'training-data.tsv'
-	rm -f '../for-annotation/non-labeled-derinet.tsv'
+	cat '../for-annotation/semantic-labels.tsv' | grep -v $$'\tpodst\.' | grep -v $$'\tzpodst\.' | cut -f 2,3,4,5 > '../for-annotation/labeled-data.tsv'
+	python3 'add-negatives.py' '../for-annotation/labeled-data.tsv' '../for-annotation/non-labeled-derinet.tsv' > '../for-annotation/negatives-derinet.tsv'
+	rm -f '../for-annotation/non-labeled-derinet.tsv' '../for-annotation/labeled-data.tsv'
 
 
 # merge extracted positive and negative examples, automaticaly add features from MorphoDiTa, SYN2015 and VALLEX
 AddFeatures: ../for-annotation/MLdata-semantic-labels.tsv
 	@echo 'Adding of features completed. See file: ../for-annotation/MLdata-semantic-labels.tsv'
 
-../for-annotation/MLdata-semantic-labels.tsv: ../for-annotation/semantic-labels.tsv training-data.tsv word-list-syn2015.tsv word-list-vallex.tsv
+../for-annotation/MLdata-semantic-labels.tsv: ../for-annotation/semantic-labels.tsv ../for-annotation/negatives-derinet.tsv word-list-syn2015.tsv word-list-vallex.tsv
+	cat '../for-annotation/semantic-labels.tsv' | grep -v $$'\tpodst\.' | grep -v $$'\tzpodst\.' | cut -f 2,3,4,5 > 'training-data.tsv'
+	cat '../for-annotation/negatives-derinet.tsv' | grep $$'^\%' | cut -f 2,3,4 >> 'training-data.tsv'
 	cat 'training-data.tsv' | cut -d $$'\t' -f 1,2 | sed -e 's/–[A-Z]*//g' | sed -e 's/\t/\n/g' | sort | uniq > 'for-analyze.txt'
 	curl -F 'data=@for-analyze.txt' -F 'output=json' -F 'input=vertical' http://lindat.mff.cuni.cz/services/morphodita/api/tag > 'word-list-morphodita.json'
 	python3 'add-features.py' 'training-data.tsv' 'word-list-syn2015.tsv' 'word-list-morphodita.json' 'word-list-vallex.tsv' > '../for-annotation/MLdata-semantic-labels.tsv'
@@ -167,37 +168,57 @@ PrepareForPrediction: ../hand-annotated/for-prediction.tsv
 # train models for prediction and predict given data
 Predict: ../hand-annotated/predicted.tsv
 	@echo 'Unkwnon relations were predicted. See ../hand-annotated/predicted.tsv.'
-	@echo 'Various tresholds were tested. See ../hand-annotated/tested-tresholds.txt'
+	@echo 'Various tresholds were tested. See ../hand-annotated/evaluation-test-devel-train.txt'
 
 ../hand-annotated/predicted.tsv: ../hand-annotated/for-prediction.tsv
-	py3env/bin/python3 'ml-predict.py' '../hand-annotated/MLSemLab.tsv' '../hand-annotated/for-prediction.tsv' '../hand-annotated/predicted.tsv' > '../hand-annotated/tested-tresholds.txt'
-	# rm -f '../hand-annotated/for-prediction.tsv' 'SemLab-DTree'
+	py3env/bin/python3 'ml-predict.py' '../hand-annotated/MLSemLab.tsv' '../hand-annotated/for-prediction.tsv' '../hand-annotated/predicted.tsv' > '../hand-annotated/evaluation-test-devel-train.txt'
+	rm -f '../hand-annotated/SemLab-DTree'
 
 
-# apply choosen treshold [ ! ZVOLIT TRESHOLD ! ]
+# apply choosen treshold
 ApplyTreshold: ../hand-annotated/predicted-with-treshold.tsv
-	@echo 'Treshold was applied. Predicted data saved: ../hand-annotated/predicted-with-treshold.tsv'
+	@echo 'Tresholds were applied. Predicted data saved: ../hand-annotated/predicted-with-treshold.tsv'
 
 ../hand-annotated/predicted-with-treshold.tsv: ../hand-annotated/predicted.tsv
-	python3 'ml-apply-treshold.py' '../hand-annotated/predicted.tsv' '0' > '../hand-annotated/predicted-with-treshold-0.tsv'
+	python3 'ml-apply-treshold.py' '../hand-annotated/predicted.tsv' 'DIMINUTIVE:0.75|FEMALE:0.4|POSSESSIVE:0.0|ASPECT:0.0|ITERATIVE:0.5|NONE:0.0' > '../hand-annotated/predicted-with-treshold.tsv'
 
-# prepare data for final evaluation of models (for manual annotation) [ ! OPRAVIT VELIKOST VZORKU ! ]
-PrepareForEvaluation: ../hand-annotated/for-evaluation.tsv
-	@echo 'Data for evaluation (manual annotation) was prepared. See ../hand-annotated/for-evaluation.tsv'
+
+# prepare data for final evaluation of models (for manual annotation)
+PrepareForEvaluation: ../hand-annotated/evaluation-data.tsv
+	@echo 'Data for evaluation (manual annotation) was prepared. See ../hand-annotated/evaluation-data.tsv'
 	@echo 'WARNING: BE CAREFUL, DATA CAN CONTAIN MANUAL ANNOTATIONS!'
 
-../hand-annotated/for-evaluation.tsv: ../hand-annotated/predicted-with-treshold.tsv
-	python3 'ml-for-evaluation.py' '../hand-annotated/predicted-with-treshold.tsv' > '../hand-annotated/for-evaluation.tsv'
+../hand-annotated/evaluation-data.tsv: ../hand-annotated/predicted-with-treshold.tsv
+	python3 'ml-for-evaluation.py' '../hand-annotated/predicted-with-treshold.tsv' > '../hand-annotated/evaluation-data.tsv'
 
 
 # measure evaluation metrics for manualy annotated data
-Evaluate: ../hand-annotated/eval-results.txt
-	@echo 'Evaluation done. Results are saved here: ../hand-annotated/eval-results.txt'
+Evaluate: ../hand-annotated/evaluation-results.txt
+	@echo 'Evaluation done. Results are saved here: ../hand-annotated/evaluation-results.txt'
 
-../hand-annotated/eval-results.txt: ../hand-annotated/for-evaluation.tsv
-	py3env/bin/python3 'ml-evaluate.py' '../hand-annotated/for-evaluation.tsv' > '../hand-annotated/eval-results.txt'
+../hand-annotated/evaluation-results.txt: ../hand-annotated/evaluation-data.tsv
+	py3env/bin/python3 'ml-evaluate.py' '../hand-annotated/evaluation-data.tsv' > '../hand-annotated/evaluation-results.txt'
+
+
+# create anonation file of semnatic labels (parent \t child \t label \t probability),
+# only those relations with higher probbility than given tresholds
+# these relations will be released in DeriNet database
+MakeAnnotationFile: ../hand-annotated/final-semantic-labels.tsv
+	@echo 'Annotation file created and saved. See ../hand-annotated/final-semantic-labels.tsv'
+	@echo 'WARNING: BE CAREFUL, DATA CAN CONTAIN MANUAL ANNOTATIONS!'
+
+../hand-annotated/final-semantic-labels.tsv: ../hand-annotated/predicted-with-treshold.tsv
+	cat '../hand-annotated/predicted-with-treshold.tsv' | grep -v $$'NONE' | sed -e 's/|/\t/g' > '../hand-annotated/final-semantic-labels.tsv'
+	rm -f '../hand-annotated/predicted-with-treshold.tsv' '../hand-annotated/for-prediction.tsv' '../hand-annotated/predicted.tsv'
 
 
 # clean project folders
 clean:
-	rm -f 'word-list-syn2015.tsv' 'word-list-vallex.tsv'
+	rm -f 'word-list-syn2015.tsv' 'word-list-vallex.tsv' 'training-data.tsv' 'for-analyze.txt' 'word-list-morphodita.json'
+	rm -f '../hand-annotated/predicted-with-treshold.tsv' '../hand-annotated/for-prediction.tsv' '../hand-annotated/predicted.tsv'
+	rm -f '../for-annotation/potentials-ssjc.tsv' '../for-annotation/potentials-morfflex.tsv' '../for-annotation/potentials-vallex.tsv'
+	rm -f '../for-annotation/semantic-labels-1.tsv' '../for-annotation/non-labeled-derinet.tsv' '../for-annotation/labeled-data.tsv'
+	rm -f '../for-annotation/MLdata-semantic-labels.tsv' '../hand-annotated/SemLab-DTree-experiment' '../hand-annotated/SemLab-DTree-experiment.pdf'
+	rm -f 'for-analyze.txt' 'xaa' 'xab' 'xac' 'xad' 'xae' 'word-list-morphodita1.json' 'word-list-morphodita2.json' 'word-list-morphodita3.json'
+	rm -f 'word-list-morphodita4.json' 'word-list-morphodita5.json' '../hand-annotated/SemLab-DTree' '../hand-annotated/SemLab-DTree.pdf'
+	rm -rf 'py3env/'
