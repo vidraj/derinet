@@ -3,7 +3,7 @@
 PROJECT_ROOT::=$(dir $(abspath $(lastword $(MAKEFILE_LIST))))
 PYTHON=python3
 DERINET="../../../data/releases/cs/derinet-1-7.tsv"
-PICKLE_FILE=output.pickle
+PICKLE_FILE=output.pkl
 PYTHONPATH=$(PROJECT_ROOT)
 
 export PYTHONPATH
@@ -15,22 +15,23 @@ profile: profile-load.pyprof
 	snakeviz "$<"
 
 time-load: test/profile_load.py $(wildcard derinet/*.py)
-	/usr/bin/time -v "$(PYTHON)" -O "$<" "$(DERINET)"
+	/usr/bin/time -v "$(PYTHON)" -O "$<" derinet-v1 < "$(DERINET)"
 
 time-load-pickle: test/profile_load.py $(wildcard derinet/*.py)
-	/usr/bin/time -v "$(PYTHON)" -O "$<" "$(DERINET)" "$(PICKLE_FILE)"
+	/usr/bin/time -v "$(PYTHON)" -O "$<" --save pickle-v4 derinet-v1 < "$(DERINET)" > "$(PICKLE_FILE)"
 
-time-unpickle: test/python_load_pickle.py $(wildcard derinet/*.py)
-	/usr/bin/time -v "$(PYTHON)" -O "$<" "$(PICKLE_FILE)"
+time-unpickle: test/profile_load.py $(wildcard derinet/*.py)
+	/usr/bin/time -v "$(PYTHON)" -O "$<" pickle-v4 < "$(PICKLE_FILE)"
 
 profile-load.pyprof: test/profile_load.py $(wildcard derinet/*.py)
-	"$(PYTHON)" -O -m cProfile -o "$@" "$<" "$(DERINET)"
+	"$(PYTHON)" -O -m cProfile -o "$@" "$<" derinet-v1 < "$(DERINET)"
 
 profile-load-pickle.pyprof: test/profile_load.py $(wildcard derinet/*.py)
-	"$(PYTHON)" -O -m cProfile -o "$@" "$<" "$(DERINET)" "$(PICKLE_FILE)"
+	"$(PYTHON)" -O -m cProfile -o "$@" "$<" --save pickle-v4 derinet-v1 < "$(DERINET)" > "$(PICKLE_FILE)"
 
-profile-unpickle.pyprof: test/python_load_pickle.py $(wildcard derinet/*.py)
-	"$(PYTHON)" -O -m cProfile -o "$@" "$<" "$(PICKLE_FILE)"
+profile-unpickle.pyprof: test/profile_load.py $(wildcard derinet/*.py)
+	"$(PYTHON)" -O -m cProfile -o "$@" "$<" pickle-v4 < "$(PICKLE_FILE)"
 
 clean:
 	rm -f profile-load.pyprof profile-load-pickle.pyprof profile-unpickle.pyprof
+	rm -f "$(PICKLE_FILE)"
