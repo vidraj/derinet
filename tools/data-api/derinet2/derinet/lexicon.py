@@ -1,6 +1,7 @@
 import enum
 import json
 import pickle
+import re
 
 from .lexeme import Lexeme
 import derinet.relation
@@ -176,9 +177,22 @@ class Lexicon(object):
                 errors="strict",
                 newline="\n"
             )
+
+        comment_regex = re.compile(r"^\s*#")
+        id_map = {}
+
         try:
             for line_nr, line in enumerate(data_source, start=1):
+                if comment_regex.match(line):
+                    # The line is a comment. Ignore it fully.
+                    continue
+
                 line = line.rstrip("\n")
+
+                if not line:
+                    # The line is empty → block separator.
+                    continue
+
                 fields = line.split("\t", maxsplit=9)
 
                 if len(fields) != 10:
@@ -187,6 +201,13 @@ class Lexicon(object):
 
                 lex_id, lemid, lemma, pos, feats, segmentation, parent_id, reltype, otherrels, misc = fields
 
+                # If the ID was used already, raise an error.
+                if lex_id in id_map:
+                    raise DerinetFileParseError("ID {} defined a second time at line nr. {}".format(lex_id, line_nr))
+
+                # TODO Parse the ID and check that the block ID is constant in a block and not seen
+                #  in other blocks, and that the lexeme-in-block ID is unique in a block.
+
                 feats = parse_kwstring(feats)
                 segmentation = parse_kwstring(segmentation)
                 reltype = parse_kwstring(reltype)
@@ -194,6 +215,17 @@ class Lexicon(object):
                 misc = json.loads(misc)
 
                 lexeme = self.create_lexeme(lemma, pos, lemid=lemid, feats=feats, segmentation=segmentation, misc=misc)
+
+                # We already know that the ID wasn't encountered previously.
+                id_map[lex_id] = lexeme
+
+                # The file structure guarantees that the primary parent was encountered before all its children.
+                parent_lexeme = id_map[parent_id]
+
+                # TODO Check that reltype is derivation.
+                self.add_derivation(parent_lexeme, lexeme)
+
+                # TODO Parse secondary relations.
         finally:
             # If we are supposed to close the data source, do it now.
             if close_at_end:
