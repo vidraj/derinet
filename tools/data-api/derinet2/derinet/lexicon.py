@@ -45,7 +45,8 @@ from .utils import DerinetFileParseError, parse_v1_id, format_kwstring, parse_kw
 #        everything should stay as simple as possible.
 #        TODO write tests for that, and then the code.
 
-class FileFormatType(enum.Enum):
+@enum.unique
+class Format(enum.Enum):
     DERINET_V1 = 1
     DERINET_V2 = 2
     PICKLE_V4 = 3
@@ -63,7 +64,7 @@ class Lexicon(object):
         self._data = []
         self._index = {}
 
-    def load(self, data_source, fmt: FileFormatType = FileFormatType.DERINET_V2):
+    def load(self, data_source, fmt: Format = Format.DERINET_V2):
         """
         Load data from data_source and append them to this instance of the lexicon.
         Returns the modified lexicon object for convenience.
@@ -74,9 +75,9 @@ class Lexicon(object):
         :return: The lexicon with the new data in it.
         """
         switch = {
-            FileFormatType.DERINET_V1: self._load_derinet_v1,
-            FileFormatType.DERINET_V2: self._load_derinet_v2,
-            FileFormatType.PICKLE_V4: self._load_pickle_v4
+            Format.DERINET_V1: self._load_derinet_v1,
+            Format.DERINET_V2: self._load_derinet_v2,
+            Format.PICKLE_V4: self._load_pickle_v4
         }
 
         if fmt not in switch:
@@ -219,11 +220,11 @@ class Lexicon(object):
             if close_at_end:
                 data_source.close()
 
-    def save(self, data_sink, fmt: FileFormatType = FileFormatType.DERINET_V2):
+    def save(self, data_sink, fmt: Format = Format.DERINET_V2):
         switch = {
-            FileFormatType.DERINET_V1: self._save_derinet_v1,
-            FileFormatType.DERINET_V2: self._save_derinet_v2,
-            FileFormatType.PICKLE_V4: self._save_pickle_v4
+            Format.DERINET_V1: self._save_derinet_v1,
+            Format.DERINET_V2: self._save_derinet_v2,
+            Format.PICKLE_V4: self._save_pickle_v4
         }
 
         if fmt not in switch:

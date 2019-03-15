@@ -2,7 +2,7 @@ import unittest
 import io
 import itertools
 from derinet.lexeme import Lexeme
-from derinet.lexicon import Lexicon, FileFormatType
+from derinet.lexicon import Lexicon, Format
 from derinet.utils import DerinetError, DerinetFileParseError
 
 
@@ -169,7 +169,7 @@ class TestLexicon(unittest.TestCase):
     def test_load_old_basic(self):
         db = ("0\tdog\tdog-1\tN\t\n", "1\tcat\tcat\tN\t\n")
         lexicon = Lexicon()
-        lexicon.load(db, FileFormatType.DERINET_V1)
+        lexicon.load(db, Format.DERINET_V1)
 
         lex_dog = lexicon.get_lexemes("dog", "N")
         self.assertEqual(len(lex_dog), 1)
@@ -185,7 +185,7 @@ class TestLexicon(unittest.TestCase):
     def test_load_old_deriv(self):
         db = ("0\tdog\tdog-1\tN\t\n", "1\tdoggie\tdoggie\tN\t0\n", "2\tkitten\tkitten-1\tN\t3\n", "3\tcat\tcat\tN\t\n")
         lexicon = Lexicon()
-        lexicon.load(db, FileFormatType.DERINET_V1)
+        lexicon.load(db, Format.DERINET_V1)
 
         lexemes = list(lexicon.iter_lexemes())
         self.assertEqual(len(lexemes), 4)
@@ -218,14 +218,14 @@ class TestLexicon(unittest.TestCase):
     def test_load_old_return(self):
         db = ("0\tdog\tdog-1\tN\t\n",)
         lexicon_1 = Lexicon()
-        lexicon_2 = lexicon_1.load(db, FileFormatType.DERINET_V1)
+        lexicon_2 = lexicon_1.load(db, Format.DERINET_V1)
 
         self.assertIs(lexicon_2, lexicon_1)
 
     def test_load_old_nonseq(self):
         db = ("2\tdog\tdog-1\tN\t\n", "1\tdoggie\tdoggie\tN\t2\n", "10000\tkitten\tkitten-1\tN\t666\n", "666\tcat\tcat\tN\t\n")
         lexicon = Lexicon()
-        lexicon.load(db, FileFormatType.DERINET_V1)
+        lexicon.load(db, Format.DERINET_V1)
 
         lexemes = list(lexicon.iter_lexemes())
         self.assertEqual(len(lexemes), 4)
@@ -260,7 +260,7 @@ class TestLexicon(unittest.TestCase):
         lexicon = Lexicon()
 
         with self.assertRaises(DerinetFileParseError):
-            lexicon.load(db, FileFormatType.DERINET_V1)
+            lexicon.load(db, Format.DERINET_V1)
 
     def test_load_old_multiple(self):
         """
@@ -271,8 +271,8 @@ class TestLexicon(unittest.TestCase):
         db_2 = ("0\tman\tman-1\tN\t\n", "1\tMAN\tman-2\tN\t0\n")
 
         lexicon = Lexicon()
-        lexicon.load(db_1, FileFormatType.DERINET_V1)
-        lexicon.load(db_2, FileFormatType.DERINET_V1)
+        lexicon.load(db_1, Format.DERINET_V1)
+        lexicon.load(db_2, Format.DERINET_V1)
 
         lexemes = list(lexicon.iter_lexemes())
         self.assertEqual(len(lexemes), 6)
@@ -344,7 +344,7 @@ class TestLexicon(unittest.TestCase):
         lexicon.add_derivation(dog, doggie)
 
         saved_data = io.StringIO()
-        lexicon.save(saved_data, FileFormatType.DERINET_V2)
+        lexicon.save(saved_data, Format.DERINET_V2)
 
         self.maxDiff = None
 
@@ -397,10 +397,10 @@ class TestLexicon(unittest.TestCase):
         lexicon.add_derivation(dog, doggie)
 
         saved_data = io.BytesIO()
-        lexicon.save(saved_data, fmt=FileFormatType.PICKLE_V4)
+        lexicon.save(saved_data, fmt=Format.PICKLE_V4)
         saved_data.seek(0)
         loaded_lexicon = Lexicon()
-        loaded_lexicon.load(saved_data, fmt=FileFormatType.PICKLE_V4)
+        loaded_lexicon.load(saved_data, fmt=Format.PICKLE_V4)
         saved_data.close()
 
         for lexeme_a, lexeme_b in itertools.zip_longest(lexicon.iter_lexemes(), loaded_lexicon.iter_lexemes()):
@@ -437,8 +437,8 @@ class TestLexicon(unittest.TestCase):
         db_file_in = io.StringIO(db)
         db_file_out = io.StringIO()
         lexicon = Lexicon()
-        lexicon.load(db_file_in, fmt=FileFormatType.DERINET_V1)
-        lexicon.save(db_file_out, fmt=FileFormatType.DERINET_V1)
+        lexicon.load(db_file_in, fmt=Format.DERINET_V1)
+        lexicon.save(db_file_out, fmt=Format.DERINET_V1)
         self.assertMultiLineEqual(db_file_out.getvalue(), db)
 
 

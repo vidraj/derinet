@@ -1,8 +1,8 @@
 import sys
-from derinet.lexicon import Lexicon, FileFormatType
+from derinet.lexicon import Lexicon, Format
 
 lexicon = Lexicon()
-lexicon.load(sys.argv[1], fmt=FileFormatType.DERINET_V1)
+lexicon.load(sys.argv[1], fmt=Format.DERINET_V1)
 
 if len(sys.argv) == 3:
-    lexicon.save(sys.argv[2], FileFormatType.PICKLE_V4)
+    lexicon.save(sys.argv[2], Format.PICKLE_V4)
