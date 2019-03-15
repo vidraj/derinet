@@ -1,4 +1,4 @@
-.PHONY: all test profile time-load time-load-pickle time-unpickle clean
+.PHONY: all test coverage profile time-load time-load-pickle time-unpickle clean
 
 PROJECT_ROOT::=$(dir $(abspath $(lastword $(MAKEFILE_LIST))))
 PYTHON=python3
@@ -12,6 +12,9 @@ all: profile
 
 test:
 	"$(PYTHON)" -m unittest discover -s test/ -p 'test_*.py'
+
+coverage:
+	coverage run --branch --omit 'test/test_*.py' -m unittest discover -s test/ -p 'test_*.py' ; coverage report
 
 profile: profile-load.pyprof
 	# pyprof2calltree -i "$<" -k
