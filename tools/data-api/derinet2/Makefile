@@ -41,3 +41,4 @@ profile-unpickle.pyprof: test/profile_load.py $(wildcard derinet/*.py)
 clean:
 	rm -f profile-load.pyprof profile-load-pickle.pyprof profile-unpickle.pyprof
 	rm -f "$(PICKLE_FILE)"
+	coverage erase
