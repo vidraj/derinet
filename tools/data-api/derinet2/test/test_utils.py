@@ -38,3 +38,7 @@ class TestUtils(unittest.TestCase):
 
         with self.assertRaises(ValueError):
             u.parse_v1_id("A15")
+
+
+if __name__ == '__main__':
+    unittest.main()
