@@ -384,15 +384,27 @@ class Lexicon(object):
             if close_at_end:
                 data_sink.close()
 
-    def create_lexeme(self, *args, **kwargs):
+    def create_lexeme(self, lemma: str, pos: str, lemid: str = None, feats=None, segmentation=None, misc: dict = None):
         """
         Create a new Lexeme and add it to the database as a root of a new tree.
 
-        :returns: the new lexeme
-
-        FIXME specify concrete args instead of the two metavariables.
+        :param lemma: The lemma of the lexeme, preferably recognizable both by speakers of the language
+                and by language processing tools. If the lemmas for those two uses differ, specify
+                the machine-readable form as the "techlemma" key in `misc`.
+        :param pos: The part-of-speech tag of the lexeme, preferably one of the Universal POS tags;
+                see https://universaldependencies.org/u/pos/
+        :param lemid: An universal identifier of the lexeme for distinguishing homonyms from one another.
+        :param feats: Morphological features of the lexeme other than the part-of-speech tag, preferably
+                from the set of Universal features; see https://universaldependencies.org/u/feat/index.html
+                TODO specify the format.
+        :param segmentation: Specification of the internal morphological (morphematical) structure of the word.
+                TODO specify the format.
+        :param misc: Other features not covered elsewhere. You can use this field for storing your own data
+                together with the lexemes. Make sure that the contents are serializable to JSON, i.e. strings
+                as keys and dicts, lists or primitive types as values.
+        :return: The new lexeme.
         """
-        lexeme = Lexeme(*args, **kwargs)
+        lexeme = Lexeme(lemma, pos, lemid, feats, segmentation, misc)
 
         # Add the lexeme to the datastore.
         self._data.append(lexeme)
