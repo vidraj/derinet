@@ -153,7 +153,7 @@ Experiments: py3env/ ../hand-annotated/MLSemLab.tsv
 PrepareForPrediction: ../hand-annotated/for-prediction.tsv
 	@echo 'Data for prediction (from DeriNet) was prepared. It is prepared for labeling by Machine Learning. Date is placed in: ../hand-annotated/for-prediction.tsv'
 
-../hand-annotated/for-prediction.tsv:
+../hand-annotated/for-prediction.tsv: word-list-syn2015.tsv word-list-vallex.tsv
 	python3 'ml-for-prediction.py' $(DERINET) | cut -d $$'\t' -f 1,2 | sed -e 's/–[A-Z]*//g' | sed -e 's/\t/\n/g' | sort | uniq > 'for-analyze.txt'
 	split -l 75000 'for-analyze.txt'
 	curl -F 'data=@xaa' -F 'output=json' -F 'input=vertical' http://lindat.mff.cuni.cz/services/morphodita/api/tag > 'word-list-morphodita1.json'
@@ -180,7 +180,7 @@ ApplyTreshold: ../hand-annotated/predicted-with-treshold.tsv
 	@echo 'Tresholds were applied. Predicted data saved: ../hand-annotated/predicted-with-treshold.tsv'
 
 ../hand-annotated/predicted-with-treshold.tsv: ../hand-annotated/predicted.tsv
-	python3 'ml-apply-treshold.py' '../hand-annotated/predicted.tsv' 'DIMINUTIVE:0.75|FEMALE:0.4|POSSESSIVE:0.0|ASPECT:0.0|ITERATIVE:0.5|NONE:0.0' > '../hand-annotated/predicted-with-treshold.tsv'
+	python3 'ml-apply-treshold.py' '../hand-annotated/predicted.tsv' 'DIMINUTIVE:0.75|FEMALE:0.4|POSSESSIVE:0.4|ASPECT:0.4|ITERATIVE:0.5|NONE:0.0' > '../hand-annotated/predicted-with-treshold.tsv'
 
 
 # prepare data for final evaluation of models (for manual annotation)

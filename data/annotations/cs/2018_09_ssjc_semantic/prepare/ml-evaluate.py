@@ -38,10 +38,10 @@ print()
 
 
 # print results of each individual label
-labels = ('POSSESSIVE', 'DIMINUTIVE', 'FEMALE', 'ASPECT', 'ITERATIVE')
+labels = ('POSSESSIVE', 'DIMINUTIVE', 'FEMALE', 'ASPECT', 'ITERATIVE', 'NONE')
 for lab in labels:
-    true_label = ['NONE' if item != lab else item for item in data_true]
-    pred_label = ['NONE' if item != lab else item for item in data_pred]
+    true_label = ['NON' if item != lab else item for item in data_true]
+    pred_label = ['NON' if item != lab else item for item in data_pred]
     pre = precision_score(true_label, pred_label, average='macro')
     rec = recall_score(true_label, pred_label, average='macro')
     print(lab, 'pre:', pre)
