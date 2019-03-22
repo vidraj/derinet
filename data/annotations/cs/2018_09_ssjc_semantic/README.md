@@ -1,135 +1,191 @@
-Stále probíhá příprava a zpracování.
+# First experiment with Machine Learning for semantic labelling word-formation relations in DeriNet
+This folder contains codes of a supervised machine-learning approach to semantic labelling of word-formation relations in DeriNet.
+The work consists of:
+1. data preprocessing (data extraction from linguistically representative resources, annotation of extracted data, adding relevant features to the data, dividing data to train/development/test sets),
+2. machine-learning experimenting with various methods for classification,
+3. labelling word-formation relations in DeriNet, and
+4. evaluation.
 
-# Extrakce sémantických labelů ze SSJČ
-Anotační sada přidávající sémantické labely ze SSJČ. Hlavní anotace prováděna automaticky. Následně potenciálně manuální kontrola. Extrahována deminutiva, přechýlení, dokonavost, nedokonavost, násobení, substantivizace, zpodstatnění.
+Each step is well-documented and commented bellow and in **Makefile**.
 
-## Postup
-1. extrakce potenciálních vztahů a jejich sémantických labelů
-    - na základě vypozorovaných vzorů v semi-strukturovaných datech
+*Supported by Student's Faculty Grant (SFG) at [Faculty of Mathematics and Physics, Charles University](https://www.mff.cuni.cz/), in the academic year 2018/2019.*
+
+## Data preprocessing
+### Data extraction
+#### From *Slovník spisovného jazyka českého*
+Adds semantically labelled relations from SSJČ. The annotation has been done automatically (see bellow).
+Extracted: diminutive, female names, possessive, imperfectivization, perfectivization, iterativity, substantivization.
+
+1. collecting candidates and their semantic labels
+    - from semi-sructured data of an electronic version of SSJČ
     - **prepare/extract-ssjc.py** --> **for-annotation/potentials-ssjc.tsv**
-    - **for-annotation/potentials-ssjc.tsv** sloupce: rodič - dítě - label
-2. automatická anotace
-    - automaticky přidány značky ke vztahům, které v DeriNetu existují
+    - **for-annotation/potentials-ssjc.tsv** columns: parent - child - label
+2. automatic annotation
     - **prepare/annotate.py** --> **for-annotation/semantic-labels-ssjc.tsv**
-    - **for-annotation/semantic-labels-ssjc.tsv** sloupce: značka - rodič - dítě - label
-3. vícenásobné sémantické značení
-    - kontrola vztahů s více sémantickými labely
+    - **for-annotation/semantic-labels-ssjc.tsv** columns: annotation-mark - parent - child - label
+3. check (and manually fix) relations with more semnatic labels
     - **prepare/multiple-labels.py** --> **for-annotation/multiple-labeled-ssjc.tsv**
-    - **for-annotation/multiple-labeled-ssjc.tsv** sloupce: rodič - dítě - label1 - label2 - ... - labelN
-4. manuální opravy
-    - manuální zásahy (opravy slovních druhů, vícenásobného labelování atd.)
+    - **for-annotation/multiple-labeled-ssjc.tsv** columns: parent - child - label1 - label2 - ... - labelN
 
-# Extrakce sémanických labelů z MorfFlexCZ (z t-lemmatu DeriNetu)
-Anotační sada přidávající sémantické značky z t-lemmatu Derinetu. Hlavní anotace prováděna automaticky. Následně potenciální manuální kontrola. Extrahována deminutiva, posesiva, přechálení.
+#### From *MorfFlex CZ*
+Adds semantically labelled relations from morphological dictionary MorfFlex CZ. The annotation has been done automatically (see bellow).
+Extracted: diminutive, female names, possessive.
 
-## Postup
-1. extrakce potenciálních vztahů a jejich sémantických labelů
-    - na základě značek (^DI, ^FM) v t-lemmatu, zároveň rekonstruovány rodiče
+1. collecting candidates and their semantic labels
+    - from sructured data; parents reconstructed from morphological lemmas
+    - labels base on marks: ^DI = diminutives, ^FM = female names and possessive, ^FC = female names
     - **prepare/extract-morfflex.py** --> **for-annotation/potentials-morfflex.tsv**
-    - **for-annotation/potentials-t-derinet.tsv** sloupce: rodič - dítě - label
-2. automatická anotace
-    - automaticky přidány značky ke vztahům, které v DeriNetu existují
+    - **for-annotation/potentials-t-derinet.tsv** columns: parent - child - label
+2. automatic annotation
     - **prepare/annotate.py** --> **for-annotation/semantic-morfflex.tsv**
-    - **for-annotation/semantic-labels-morfflex.tsv** sloupce: značka - rodič - dítě - label
-3. vícenásobné sémantické značení
-    - kontrola vztahů s více sémantickými labely
+    - **for-annotation/semantic-labels-morfflex.tsv** columns: annotation-mark - parent - child - label
+3. check (and manually fix) relations with more semnatic labels
     - **prepare/multiple-labels.py** --> **for-annotation/multiple-labeled-morfflex.tsv**
-    - **for-annotation/multiple-labeled-morfflex.tsv** sloupce: rodič - dítě - label1 - label2 - ... - labelN
-4. manuální opravy
-    - manuální zásahy (opravy slovních druhů, vícenásobného labelování atd.)
+    - **for-annotation/multiple-labeled-morfflex.tsv** columns: parent - child - label1 - label2 - ... - labelN
 
-- v t-lemmatu DeriNetu
-    - grep '\^DI\*\*'    zdrob., např. adresáříček_,e_^(^DI*3k)
-    - grep '\^FM\*\*'    fem. a přech, např. agrobioložčin_^(^FM*3g)_(*3ka)_
-    - grep '\^FC\*\*'    přech., např. pštrosice_^(^FC*3)
+#### From *VALLEX*
+Adds semantically labelled relations from VALLEX3. The annotation has been done automatically (see bellow).
+Extracted: perfectivization, imperfectivization, iterativity.
 
-# Extrakce sémanických labelů z Příruční mluvnice češtiny
-Anotační sada přidávající sémantické značky manuálně získané z Derinetu na základě afixů z PMČ. Hlavní anotace prováděna manuálně. Extrahována deminutiva (adjektivní, slovesná a adverbiální) a posesiva.
-
-## Postup
-1. extrakce potenciálních vztahů a jejich sémantických labelů
-    - na základě koncovek morfémů (koncovky z PMČ), rodiče přidány z DeriNetu
-    - **prepare/extract-pmc.py** --> **for-annotation/potentials-pmc.tsv**
-    - **for-annotation/semantic-labels-pmc.tsv** sloupce: značka - rodič - dítě - label
-2. vícenásobné sémantické značení
-    - kontrola vztahů s více sémantickými labely
-    - **prepare/multiple-labels.py** --> **for-annotation/multiple-labeled-pmc.tsv**
-    - **for-annotation/multiple-labeled-pmc.tsv** sloupce: rodič - dítě - label1 - label2 - ... - labelN
-3. manuální anotace
-    - manuálně oanotováno
-
-- vztahy z derinetu (viz Poznámky)
-    - potomci končící na -ův, -in
-    - potomci končící na (adjektivní, slovesné a příslovečné) deminutivní affixy (z PMČ)
-
-# Extrakce sémantických labelů z VALLEX3
-Anotační sada přidávající sémantické labely z VALLEX3. Hlavní anotace prováděna automaticky. Následně manuální kontrola. Extrahována dokonavost, nedokonavost, násobení.
-
-## Postup
-1. extrakce potenciálních vztahů a jejich sémantických labelů
-    - strukturovaná data (permutace všech dvojic v každém slovesném clusteru)
+1. collecting candidates and their semantic labels
+    - from sructured data
+    - labels base on marks: ^DI = diminutives, ^FM = female names and possessive, ^FC = female names
     - **prepare/extract-vallex.py** --> **for-annotation/potentials-vallex.tsv**
-    - **for-annotation/potentials-vallex.tsv** sloupce: rodič - dítě - label
-2. automatická anotace
-    - automaticky přidány značky ke vztahům, které v DeriNetu existují
+    - **for-annotation/potentials-vallex.tsv** columns: parent - child - label
+2. automatic annotation
     - **prepare/annotate.py** --> **for-annotation/semantic-labels-vallex.tsv**
-    - **for-annotation/semantic-labels-vallex.tsv** sloupce: značka - rodič - dítě - label
-3. vícenásobné sémantické značení
-    - kontrola vztahů s více sémantickými labely
+    - **for-annotation/semantic-labels-vallex.tsv** columns: annotation-mark - parent - child - label
+3. check (and manually fix) relations with more semnatic labels
     - **prepare/multiple-labels.py** --> **for-annotation/multiple-labeled-vallex.tsv**
-    - **for-annotation/multiple-labeled-vallex.tsv** sloupce: rodič - dítě - label1 - label2 - ... - labelN
-4. manuální opravy
+    - **for-annotation/multiple-labeled-vallex.tsv** columns: parent - child - label1 - label2 - ... - labelN
 
-# Anotační značky a sémantické labely
-## Anotační značky
-| značka | vysvětlivka |
+#### From *Příruční mluvnice češtiny*, *Slovník afixů užívaných v češtině*, *Nový encyklopedický slovník češtiny*
+Adds semantically labelled relations from paper publication: *Příruční mluvnice češtiny*, *Slovník afixů užívaných v češtině*, *Nový encyklopedický slovník češtiny*. The annotation has been done manually (see bellow).
+Extracted: diminutive (of adjectives, verbs, adverbs), possessive.
+
+1. manual extraction of formal patterns from mentioned paper publications
+    - see bellow to the Section **Czech notes about extracted patterns from paper publications** (written in Czech)
+2. collecting candidates and their semantic labels
+    - from from sructured data of DeriNet
+    - labels base on extracted patterns
+    - **prepare/extract-pmc.py** --> **for-annotation/potentials-pmc.tsv**
+    - **for-annotation/semantic-labels-pmc.tsv** columns: parent - child - label
+3. manual annotation
+    - **for-annotation/semantic-labels-pmc.tsv** columns: annotation-mark - parent - child - label
+4. check (and manually fix) relations with more semnatic labels
+    - **prepare/multiple-labels.py** --> **for-annotation/multiple-labeled-pmc.tsv**
+    - **for-annotation/multiple-labeled-pmc.tsv** columns: parent - child - label1 - label2 - ... - labelN
+
+#### From *DeriNet*
+Adds semantically labelled relations (negative exmaples) from DeriNet. The annotation has been done manually (see bellow).
+Extracted: relations which are not diminutive, female names, possessive, imperfectivization, perfectivization, iterative.
+These candidates serves as negative examples for machine-learning approach.
+
+1. collecting candidates and their semantic labels
+    - from sructured data
+    - **prepare/add-negatives.py** --> **for-annotation/negatives-derinet.tsv**
+    - **for-annotation/negatives-derinet.tsv** columns: parent - child - label
+2. manual annotation
+    - **for-annotation/negatives-derinet.tsv** columns: annotation-mark - parent - child - label
+
+
+### Annotation of candidates
+#### Automatic annotation
+The automatic annotation means, that each candidate relation was automaticaly checked whether it is in DeriNet. If yes, than candidate is accepted, otherwise unaccepted. It was used for large data extracted from SSJČ, MorfFlex CZ and VALLEX.
+
+#### Manual annotation
+The manual annotaion means, that each candidate relation was manually checked and annotated. It was used for data extracted from DeriNet based on above-mentioned paper publications.
+
+#### Annotation marks (independent on type of annotation)
+| annotation mark | meaning |
 | - | - |
-| PRÁZDNO |  vztah v DeriNetu není, nebo nebyl manuálně anotován; nepřidávat sémantický label |
-| % | vztah je v DeriNetu; přidat sémantické label |
-| @ | label pro vztah byl manuální anotací označen za špatný; nepřidávat sémantické label |
+| EMPTY |  unaccept candidate (the candidate relation is not in DeriNet) |
+| % | accept candidate (the candidate is in DeriNetu or it was manually accepted) |
+| @ | unaccept candidate (the candidate was manually unaccepted) |
 
-## Sémantické labely
-Platí pro vztah (sloupce: anot. značka - rodič - dítě - label), respektive pro dítě vdaném vztahu.
+### Selecting of relevant semantic labels
+Inspired by Bagasheva (2017), 5 semantic labels were selected based on extracted and annotated data.
+Semantic label ASPECT was used as a compromise (Bagasheva uses more semantic labels for these relations) for further work.
 
-| značka | vysvětlivka | výstupní label |
+| semantic label (detailed, Czech) | semantic label (universal, cross-lingual) | meaning | example |
+| - | - | - | - |
+| zdrob. | DIMINUTIVE | diminutive (zdrobnělina) | auto(Noun) > autíčko(Noun) |
+| zpodst. | (not processed) | sustantivization (zpodstatnělé) | jehněčí(Adjective) > jehněčí(Noun) |
+| podst. | (not processed) | substantivization (podstatné) | proměnný(Adjective) > proměnnost(Noun) |
+| nás. | ITERATIVE | iterative of verbs (násobení/iterativnost) | zbývat(Verb) > zvývávat(Verb) |
+| dok. | ASPECT | perfectivization (zdokonavění) | čichat(Verb) > čichnout(Verb) |
+| ned. | ASPECT | imperfectivization (znedokonavění) | oddat(Verb) > oddávat(Verb) |
+| přech. | FEMALE | female names (přechýlení) | manžel(Noun) > manželka(Noun) |
+| poses. | POSSESSIVE | possessive (přivlastnění) | otec(Noun) > otcův(Adjective) |
+| non-lab. | none | technical label for ML-approach; relations which are not DIMINUTIVE, ITERATIVE, ASPECT, FEMALE, POSSESSIVE | |
+
+### Preprocessing of the data
+Data was merged and checked whether it contains multiple-labelled relations. Potential multiple-labeled relation were fixex.
+File **for-annotation/semantic-labels.tsv** (columns: accepted-annotation-mark - parent - child - label - fixed-label (if necessary)) contains all merged positive examples for machine-learning approach.
+
+Then, each relation in the data was enlarged with relevant features.
+
+| feature | values | comment |
 | - | - | - |
-| zdrob. | zdrobnělina | DIMINUTIVE |
-| zpodst. | zpodstatnělé |  |
-| podst. | substantivizace |  |
-| nás. | násobení | ITERATIVE |
-| dok. | dokonavost | ASPECT |
-| ned. | nedokonavost | ASPECT |
-| přech. | přechýlení | FEMALE |
-| poses. | posesivum | POSSESSIVE |
+| part-of-speech of child | N (noun), A (adjective), V (verb), D (adverb) | source: DeriNet |
+| part-of-speech of parent | N (noun), A (adjective), V (verb), D (adverb) | source: DeriNet |
+| gender of child | M (masc. animate), I (masc. inanim.), F (feminine), N (neuter) | source: MorfFlex CZ using MorphoDiTa; only for nouns |
+| gender of parent | M (masc. animate), I (masc. inanim.), F (feminine), N (neuter) | source: MorfFlex CZ using MorphoDiTa; only for nouns |
+| aspect of child | P (perfective), I (imperfective), B (biaspectual) | source: MorfFlex CZ using MorhoDiTa, SYN2015, VALLEX; only for verbs |
+| aspect of parent | P (perfective), I (imperfective), B (biaspectual) | source: MorfFlex CZ using MorhoDiTa, SYN2015, VALLEX; only for verbs |
+| possessivy tag of child | 1 (possesive), 0 (not possessive) | source: MorfFlex CZ using MorhoDiTa |
+| possessivity tags of parent | 1 (possesive), 0 (not possessive) | source: MorfFlex CZ using MorhoDiTa |
+| same start | 1 (same 2 letters on starts), 0 (otherwise) | |
+| same end | 1 (same 2 letters on ends), 0 (otherwise) | |
+| n-grams of child from its start | uni-, bi-, tri-, tetra-, penta-, hexa-grams | |
+| n-grams of child from its end | uni-, bi-, tri-, tetra-, penta-, hexa-grams | |
+| n-grams of parent from its start | uni-, bi-, tri-, tetra-, penta-, hexa-grams | |
+| n-grams of parent from its end | uni-, bi-, tri-, tetra-, penta-, hexa-grams | |
+| semantic label | DIMINUTIVE, FEMALE, POSSESSIVE, ASPECT, ITERATIVE, none | |
+
+If any of values was not present, then NA value was assign.
+Some of added features (in semantically labeled data) were semi-automatically checked and manually corrected (see **for-annotation/feature-corrections.tsv**) Final semantically labeled data occurs in **hand-annotated/MLSemLab.tsv**.
+
+### Dividing data
+Data was (during the machine-learning experiments) divided on three data sets (with no overlaps):
+- 80% training data
+- 10% development data
+- 10% test data
 
 
-# Sloučení extrahovaných dat, přidání příznaků, závěrečná manuální anotace
-Zpracování extrahovaných dat a předpříprava pro strojové učení.
+## Machine learning model
+The decision to focus only on suffixation was made because of a huge dimensionality in case of prefixation or circumfixation (and because of extracted data).
 
-## Sloučení
-Sloučení všech extrahovaných a anotovaných dat tak, aby v datech nebyly duplicity vztahů. Výstupem data pozitivních (sémanticky labelovaných) příkladů bez duplicit. **for-annotation/semantic-labels.tsv** sloupce: pozitivníznačka - rodič - dítě - label - opravený label (je-li potřeba)
+After various experiments:
+- these features were selected for the final model: part-of-speech of child, part-of-speech of parent, gender of child, gender of parent, aspect of child, aspect of parent, possessivity tags of parent, n-grams of child from its end (only: bi-, tri-, tetra-, penta-, hexa-grams), n-grams of parent from its end (only: bi-, tri-, tetra-, penta-grams), semantic label;
+- as method, Multinomial logistic regression was chosen;
+- these probability treshold for individual semantic label were selected based on development data: 0.75 for DIMINUTIVE, 0.4 for FEMALE, 0.4 for POSSESSIVE, 0.4 for ASPECT, and 0.5 for ITERATIVE.
 
-## Příznaky
-Přidání relevantních příznaků pro strojové učení.
-Rodič z DeriNetu (dáno automatickou anotací, u PMC dáno počáteční extrakcí) přidán při přípravě dat, stejně tak slovní druh (N=noun, A=adjective, V=verb, D=adverb) rodiče a dítěte. Ze slovního druhu byl odebrán příznak C (kompozitnosti).
-Rod (M=masculine animate, I=masculine inanimate, F=feminine, N=neuter) přidán na základě analýzy MorphoDiTa (vyskytuje se u substantiv a neposesivních adjektiv).
-Vid (P=perfective, I=imperfective, B=both) přidán na zákládě analýzy SYN2015 pouze ke slovesům (v případě více možností vybrán nejfrekventovanější pro dané lemma).
-N-gramové rozložení začátků a konců slov (zatím) od 1-gram do 6-gram.
-Začátek velkým písmenem (1=proprium, 0=non-proprium).
-Totožný začátek (1-gram) dítěte a rodiče (1=same_begin, 0=different_begin).
+Multinomial logistic regression reached following results on trainign and testing data:
 
-Značka "-" znamená nespecifikovaný příznak.
-Slovní druhy, rody a vidy jsou ve tvaru kartézského součinu (RodičxDítě). Například: pokud je rodič adjektivum a dítě substantivum, výsledný příznak je AN.
-
-## Manuální anotace
-Pomocí doplněných příznaků byla data ještě jednou zkontrolována (např. zda odpovídá vid u vztahů dok. a ned., zda odpovídá rod u přech. atp.) a na základě toho byla provedena poslední oprava/úprava, respektive anotace dat.
-V případě nesprávného labelu byl v souboru **for-annotation/semantic-labels.tsv** přidán do posledního (pátého) sloupce opravený label a data přegenerována, aby obsahovala opravené labely.
-Oprava chybně doplněných feature byla provedena do souboru **for-annotation/feature-corrections.tsv**, odkud byla pomocí skriptu **prepare/correct-features.py** aplikována na data **for-annotation/MLdata-semantic-labels.tsv**, čímž vznikla jejich opravená verze pro strojové učení: **hand-annotated/MLSemLab.tsv**.
-
-# Strojové učení
+| data set | accuracy | precision | recall | f1-score |
+| - | - | - | - | - |
+| training data set | 0.992 | 0.991 | 0.992 | 0.991 |
+| evaluation test data | 0.986 | 0.984 | 0.984 | 0.984 |
 
 
-# Poznámky
+## Labeling word-formation relations in DeriNet
+Using **prepare/ml-for-prediction.py** all potential candidates for selected semantic labels were extracted and enlarged with relevant features. Then, trained model predict their semantic labels. The model assigned one of the five semantic labels to 150,521 derivational relations in total. The POSSESSIVE label was the most frequent one (predicted with 88,620 derivational relations), followed by the FEMALE label (28,510 rel.), ASPECT (15,459 rel.), ITERATIVE (11,890 rel.), and DIMINUTIVE (6,042 rel.)
+
+## Evaluation
+The precision and recall of the labelling procedure were evaluated on a randomly selected sample of 2,000 relations assigned either one of the five semantic categories or the none label. The accuracy was 0.971, the precision was 0.962, the recall was 0.963 and the f1-score was 0.962. Table bellow shows precision and recall for each semantic label.
+
+| label | DIMINUTIVE | FEMALE | POSSESSIVE | ASPECT | ITERATIVE | none |
+| - | - | - | - | - | - | - |
+| precision | 0.969 | 0.982 | 0.999 | 0.987 | 0.985 | 0.948 |
+| recall | 0.983 | 0.941 | 0.999 | 0.987 | 0.988 | 0.976 |
+
+## Final semanticaly labeled data
+List of prepared semantically labelled relations from DeriNet is listed in **hand-annotated/final-semantic-labels.tsv**, or [here with documentation](https://github.com/vidraj/derinet/tree/master/data/annotations/cs/2019_03_semantic_labelling).
+
+
+
+# Czech notes about extracted patterns from paper publications
 - možnost přidat deminutiva na základě SFG Adély Kalužové (vyžadovalo by obsáhlejší manuální anotaci)
 - možnost přidat iterativa a (im)perfektiva z VALLEX 3.0
 
