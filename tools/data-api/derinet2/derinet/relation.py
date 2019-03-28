@@ -1,6 +1,6 @@
 from abc import ABCMeta, abstractmethod
 import derinet.lexeme
-import derinet.utils
+from .utils import DerinetCycleCreationError
 
 
 class Relation(object, metaclass=ABCMeta):  # Defining it as Relation(ABC) doesn't mix well with slots usage – it doesn't prevent __dict__ from forming.
@@ -63,7 +63,7 @@ class Relation(object, metaclass=ABCMeta):  # Defining it as Relation(ABC) doesn
         while to_check:
             lexeme_to_check = to_check.pop()
             if lexeme_to_check == self.main_target:
-                raise derinet.utils.DerinetCycleCreationError("Cyclic relation detected")
+                raise DerinetCycleCreationError("Cyclic relation detected")
             if lexeme_to_check.parent_relation is not None:
                 to_check.extend(lexeme_to_check.parent_relation.sources)
 

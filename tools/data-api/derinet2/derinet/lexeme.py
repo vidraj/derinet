@@ -1,4 +1,4 @@
-import derinet.relation
+from .relation import Relation
 from .utils import DerinetError
 
 # The lexeme class
@@ -145,7 +145,7 @@ class Lexeme(object):
         return self._parent_relation
 
     def _set_parent_relation(self, relation):
-        assert isinstance(relation, derinet.relation.Relation)
+        assert isinstance(relation, Relation)
 
         if self._parent_relation is not None and self._parent_relation != relation:
             raise DerinetError("A relation was already set for lexeme {}".format(self))
@@ -183,7 +183,7 @@ class Lexeme(object):
         return [child_relation.main_target for child_relation in self.child_relations if child_relation.main_source is self]
 
     def _add_child_relation(self, relation):
-        assert isinstance(relation, derinet.relation.Relation)
+        assert isinstance(relation, Relation)
 
         self._child_relations.append(relation)
 

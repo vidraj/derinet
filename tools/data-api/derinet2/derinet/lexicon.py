@@ -4,7 +4,7 @@ import pickle
 import re
 
 from .lexeme import Lexeme
-import derinet.relation
+from .relation import DerivationalRelation
 from .utils import DerinetFileParseError, parse_v1_id, format_kwstring, parse_kwstring
 
 
@@ -482,7 +482,7 @@ class Lexicon(object):
         raise NotImplementedError()
 
     def add_derivation(self, source, target):
-        rel = derinet.relation.DerivationalRelation(source, target)
+        rel = DerivationalRelation(source, target)
         rel.add_to_lexemes()
 
         # TODO should we remember the relation somewhere?
