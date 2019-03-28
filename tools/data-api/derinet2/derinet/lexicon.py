@@ -245,8 +245,8 @@ class Lexicon(object):
             if not isinstance(new_lexicon, Lexicon):
                 raise DerinetFileParseError("The pickled stream does not contain a Lexicon")
 
-            self._data = new_lexicon._data
-            self._index = new_lexicon._index
+            self._data = new_lexicon._data  # pylint: disable=protected-access
+            self._index = new_lexicon._index  # pylint: disable=protected-access
         finally:
             # If we are supposed to close the data source, do it now.
             if close_at_end:

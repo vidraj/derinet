@@ -1,4 +1,4 @@
-.PHONY: all test coverage profile time-load time-load-pickle time-unpickle clean
+.PHONY: all test coverage profile pylint time-load time-load-pickle time-unpickle clean
 
 PROJECT_ROOT::=$(dir $(abspath $(lastword $(MAKEFILE_LIST))))
 PYTHON=python3
@@ -19,6 +19,9 @@ coverage:
 profile: profile-load.pyprof
 	# pyprof2calltree -i "$<" -k
 	snakeviz "$<"
+
+pylint:
+	pylint derinet
 
 time-load: test/profile_load.py $(wildcard derinet/*.py)
 	/usr/bin/time -v "$(PYTHON)" -O "$<" derinet-v1 < "$(DERINET)"

@@ -69,9 +69,9 @@ class Relation(object, metaclass=ABCMeta):  # Defining it as Relation(ABC) doesn
 
         # TODO test that they haven't been set already
         # noinspection PyProtectedMember
-        self.main_source._add_child_relation(self)
+        self.main_source._add_child_relation(self)  # pylint: disable=protected-access
         # noinspection PyProtectedMember
-        self.main_target._set_parent_relation(self)
+        self.main_target._set_parent_relation(self)  # pylint: disable=protected-access
 
     def remove_from_lexemes(self):
         # Remove this relation from the lexemes.

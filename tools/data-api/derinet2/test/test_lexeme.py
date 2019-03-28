@@ -79,7 +79,7 @@ class TestLexeme(unittest.TestCase):
 
         with self.assertRaises(AttributeError):
             # noinspection PyDunderSlots,PyUnresolvedReferences
-            a.nonexistent_attribute = True
+            a.nonexistent_attribute = True  # pylint: disable=assigning-non-slot
 
     # # TODO Test parent relations, child relations etc.
     # def test_setting_parent_relation(self):

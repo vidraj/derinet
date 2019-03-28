@@ -12,7 +12,7 @@ class TestRelation(unittest.TestCase):
                 TypeError,
                 "^Can't instantiate abstract class Relation with abstract methods __init__$"
         ):
-            r.Relation([a], a, [b], b)
+            r.Relation([a], a, [b], b)  # pylint: disable=abstract-class-instantiated
 
     def test_relation_creation(self):
         a = Lexeme("cat", "N")
@@ -81,7 +81,7 @@ class TestRelation(unittest.TestCase):
         relation = r.DerivationalRelation(a, b)
         with self.assertRaises(AttributeError):
             # noinspection PyDunderSlots,PyUnresolvedReferences
-            relation.nonexistent_attribute = True
+            relation.nonexistent_attribute = True  # pylint: disable=assigning-non-slot
 
     def test_derivation_equality_reflexive(self):
         a = Lexeme("cat", "N")
