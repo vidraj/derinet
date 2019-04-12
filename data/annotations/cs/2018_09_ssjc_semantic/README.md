@@ -181,11 +181,31 @@ The precision and recall of the labelling procedure were evaluated on a randoml
 | recall | 0.983 | 0.941 | 0.999 | 0.987 | 0.988 | 0.976 |
 
 ## Final semanticaly labeled data
-List of prepared semantically labelled relations from DeriNet is listed in **hand-annotated/final-semantic-labels.tsv**, or [here with documentation](https://github.com/vidraj/derinet/tree/master/data/annotations/cs/2019_03_semantic_labelling).
+List of prepared semantically labelled relations from DeriNet is listed in **hand-annotated/final-semantic-labels.tsv**.
+The list is a result of initial experiments in field of semantic labelling using machine learning methods.
+In this initial experiment, five semantic labels were predicted (DIMINUTIVE, FEMALE, POSSESSIVE, ASPECT, ITERATIVE).
+
+### File format
+The list of semantically labeled relations is saved to file `final-semantic-labels.tsv` in simple tab separated **.tsv** format.
+
+The order of columns is as follow:
+1. derivational parent (base word) with its part-of-speech tag separated by a dash,
+2. derivationa child (derivative) with its part-of-speech tag separated by a dash,
+3. predicted semantic label of the relation,
+4. probability of predicted semantic label.
+
+### Numbers of labelled relations for each semantic label
+| Semantic label  | Count |
+| ------------- | ------------- |
+| DIMINUTIVE  | 6,042 |
+| FEMALE  | 28,510 |
+| POSSESSIVE | 88,620 |
+| ASPECT | 15,459 |
+| ITERATIVE | 11,890 |
+| **total:** | **150,521** |
 
 
-
-# Czech notes about extracted patterns from paper publications
+# Czech notes about some extracted patterns from paper publications
 - možnost přidat deminutiva na základě SFG Adély Kalužové (vyžadovalo by obsáhlejší manuální anotaci)
 - možnost přidat iterativa a (im)perfektiva z VALLEX 3.0
 
