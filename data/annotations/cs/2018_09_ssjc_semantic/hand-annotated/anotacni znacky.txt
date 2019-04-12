@@ -1,0 +1,12 @@
+Predikované sémantické labely jsou uloženy v souboru: final-semantic-labels.tsv
+Opravy predikovaných labelů jsou uloženy v souboru: final-correction-fix.tsv
+Vztahy, ke kterým by se měly přidat labely: final-correction-add.tsv
+
+Do DeriNetu se nahraje final-semantic-labels.tsv (sloupce: rodič–pos \tab dítě–pos \tab label \tab pravděpodobnost);
+před tím je ale potřeba z final-semantic-labels.tsv opravit chyby, které jsou manuálně anotované ve final-correction-fix.tsv.
+Další seznam manuálně anotovaných sémanticky labelovaných vztahů je ve final-correction-add.tsv.
+
+final-correction-fix.tsv a final-correction-add.tsv (sloupce: značka \tab rodič–pos \tab dítě–pos \tab label)
+značky:
++ přidat tomuto vztahu daný label
+$ odebrat tomuto vztahu daný label
