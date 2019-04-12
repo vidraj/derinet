@@ -222,3 +222,11 @@ clean:
 	rm -f 'for-analyze.txt' 'xaa' 'xab' 'xac' 'xad' 'xae' 'word-list-morphodita1.json' 'word-list-morphodita2.json' 'word-list-morphodita3.json'
 	rm -f 'word-list-morphodita4.json' 'word-list-morphodita5.json' '../hand-annotated/SemLab-DTree' '../hand-annotated/SemLab-DTree.pdf'
 	rm -rf 'py3env/'
+
+
+# MANUAL POSTPROCESSING
+possessives: ../hand-annotated/final-correction-fix.tsv
+	@echo 'WARNING: BE CAREFUL, DATA CAN CONTAIN MANUAL ANNOTATIONS!'
+
+../hand-annotated/final-correction-fix.tsv: ../hand-annotated/final-semantic-labels.tsv 
+	python3 'poses-check.py' $(DERINET) '../hand-annotated/final-semantic-labels.tsv' '../hand-annotated/final-correction-fix.tsv' '../hand-annotated/final-correction-add.tsv'
