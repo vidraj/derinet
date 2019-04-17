@@ -9,4 +9,4 @@ Další seznam manuálně anotovaných sémanticky labelovaných vztahů je ve f
 final-correction-fix.tsv a final-correction-add.tsv (sloupce: značka \tab rodič–pos \tab dítě–pos \tab label)
 značky:
 + přidat tomuto vztahu daný label
-$ odebrat tomuto vztahu daný label
+$ odebrat/nedávat tomuto vztahu daný label

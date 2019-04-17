@@ -225,8 +225,9 @@ clean:
 
 
 # MANUAL POSTPROCESSING
-possessives: ../hand-annotated/final-correction-fix.tsv
+possessives_female: ../hand-annotated/final-correction-fix.tsv
 	@echo 'WARNING: BE CAREFUL, DATA CAN CONTAIN MANUAL ANNOTATIONS!'
 
 ../hand-annotated/final-correction-fix.tsv: ../hand-annotated/final-semantic-labels.tsv 
 	python3 'poses-check.py' $(DERINET) '../hand-annotated/final-semantic-labels.tsv' '../hand-annotated/final-correction-fix.tsv' '../hand-annotated/final-correction-add.tsv'
+	python3 'female-check.py' $(DERINET) '../hand-annotated/final-semantic-labels.tsv' >> '../hand-annotated/final-correction-add.tsv'

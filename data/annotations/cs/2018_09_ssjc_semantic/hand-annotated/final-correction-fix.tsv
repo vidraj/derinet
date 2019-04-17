@@ -1,192 +1,201 @@
+$	Abcház–N	Abcházie–N	FEMALE
 $	Adirondack–A	Adirondackův–A	POSSESSIVE
+$	advokát–N	advokacie–N	FEMALE
+$	akta–N	aktovka–N	DIMINUTIVE
+$	Amazonka–N	amazonka–N	DIMINUTIVE
+$	Amerika–N	amerika–N	DIMINUTIVE
+$	Amerika–N	amerikanistika–N	DIMINUTIVE
+$	aparátek–N	aparátčík–N	DIMINUTIVE
+$	apotéka–N	apatyka–N	DIMINUTIVE
+$	archivář–N	archivařina–N	FEMALE
+$	Armén–N	Arménie–N	FEMALE
+$	astrofyzika–N	astrofyzik–N	FEMALE
+$	astrofyzik–N	astrofyzička–N	DIMINUTIVE
+$	automat–N	automatčík–N	DIMINUTIVE
+$	autoopravář–N	autoopravna–N	FEMALE
+$	bačkora–N	bačkorka–N	FEMALE
+$	bačkora–N	bačkůrka–N	FEMALE
+$	bafuňář–N	bafuňařina–N	FEMALE
+$	Bakchus–N	bakchanálie–N	FEMALE
+$	Barborka–N	barborka–N	DIMINUTIVE
+$	baron–N	baronie–N	FEMALE
+$	bianco–A	bianko–A	DIMINUTIVE
+$	biobrambora–N	biobramboračka–N	DIMINUTIVE
+$	biogeograf–N	biogeografie–N	FEMALE
 $	Blondin–A	Blondinův–A	POSSESSIVE
+$	bodovač–N	bodovačka–N	FEMALE
+$	borovička–N	Borovička–N	DIMINUTIVE
 $	Boynton–A	Boyntonův–A	POSSESSIVE
+$	brada–N	bradka–N	DIMINUTIVE
+$	brambora–N	brambořík–N	DIMINUTIVE
+$	Budulínek–N	budulínek–N	DIMINUTIVE
+$	buržoa–N	buržoazie–N	FEMALE
 $	Celestin–A	celestin–A	POSSESSIVE
+$	cena–N	ceník–N	DIMINUTIVE
+$	cibule–N	cibulačka–N	DIMINUTIVE
+$	cihla–N	cihlovka–N	DIMINUTIVE
+$	cikánka–N	cikánečka–N	FEMALE
+$	číslo–N	číselka–N	DIMINUTIVE
 $	Colloredo–A	Colloredův–A	POSSESSIVE
 $	Costa–A	Costův–A	POSSESSIVE
-$	Dorotin–A	Dorotinův–A	POSSESSIVE
-$	East–A	Eastův–A	POSSESSIVE
-$	gadža–A	gadžův–A	POSSESSIVE
-$	Hardouin–A	Hardouinův–A	POSSESSIVE
-$	Hieronymus–A	Hieronymův–A	POSSESSIVE
-$	Karin–A	Karinův–A	POSSESSIVE
-$	Kašina–A	Kašinův–A	POSSESSIVE
-$	Leonin–A	Leoninův–A	POSSESSIVE
-$	Majerčin–A	Majerčinův–A	POSSESSIVE
-$	Šara–A	Šarův–A	POSSESSIVE
-$	pedant–N	pedanterie–N	FEMALE
-$	had–N	hadice–N	FEMALE
-$	bianco–A	bianko–A	DIMINUTIVE
-$	ředitel–N	ředitelna–N	FEMALE
-$	hudlař–N	hudlařina–N	FEMALE
-$	akta–N	aktovka–N	DIMINUTIVE
-$	houbař–N	houbařina–N	FEMALE
-$	docent–N	docentura–N	FEMALE
-$	hrnčíř–N	hrnčířina–N	FEMALE
-$	Méd–N	Médie–N	FEMALE
-$	jachtař–N	jachtařina–N	FEMALE
-$	aparátek–N	aparátčík–N	DIMINUTIVE
-$	astrofyzik–N	astrofyzička–N	DIMINUTIVE
-$	archivář–N	archivařina–N	FEMALE
-$	prefekt–N	prefektura–N	FEMALE
-$	zlato–N	zlatěnka–N	DIMINUTIVE
-$	zloděj–N	zlodějovina–N	FEMALE
-$	šerpa–N	šerpička–N	FEMALE
-$	dvojpremiéra–N	dvojpremiérka–N	FEMALE
-$	vychovatel–N	vychovatelna–N	FEMALE
-$	biobrambora–N	biobramboračka–N	DIMINUTIVE
-$	funkcionář–N	funkcionařina–N	FEMALE
-$	diktátor–N	diktatura–N	FEMALE
-$	plechař–N	plechařina–N	FEMALE
-$	brambora–N	brambořík–N	DIMINUTIVE
-$	minus–N	minuska–N	FEMALE
-$	dráb–N	drábovna–N	FEMALE
-$	kmotra–N	kmotřička–N	FEMALE
-$	kýčař–N	kýčařina–N	FEMALE
-$	Tabara–N	Tabarka–N	FEMALE
-$	fráter–N	frátrie–N	FEMALE
-$	ježek–N	ježura–N	FEMALE
-$	misogyn–N	misogynie–N	FEMALE
-$	Zázvora–N	Zázvorka–N	FEMALE
-$	šampus–N	šampuska–N	FEMALE
-$	Valach–N	Valachie–N	FEMALE
-$	Ind–N	Indie–N	FEMALE
-$	vechtr–N	vechtrovna–N	FEMALE
-$	prolézačka–N	prolejzačka–N	DIMINUTIVE
-$	automat–N	automatčík–N	DIMINUTIVE
-$	sestřenec–N	sestra–N	FEMALE
-$	Vincenc–N	Vincencie–N	FEMALE
-$	ministr–N	ministerie–N	FEMALE
-$	pták–N	ptákovina–N	FEMALE
-$	loutkař–N	loutkařina–N	FEMALE
-$	Amerika–N	amerikanistika–N	DIMINUTIVE
-$	Amazonka–N	amazonka–N	DIMINUTIVE
-$	houslař–N	houslařina–N	FEMALE
-$	zloděj–N	zlodějna–N	FEMALE
-$	hračka–N	hračička–N	DIMINUTIVE
-$	žid–N	židovna–N	FEMALE
-$	kazatel–N	kazatelna–N	FEMALE
-$	povídačka–N	poudačka–N	DIMINUTIVE
-$	zelí–N	zelovka–N	DIMINUTIVE
-$	Armén–N	Arménie–N	FEMALE
-$	cena–N	ceník–N	DIMINUTIVE
-$	Bakchus–N	bakchanálie–N	FEMALE
-$	humor–N	humorka–N	FEMALE
-$	apotéka–N	apatyka–N	DIMINUTIVE
-$	Germán–N	Germánie–N	FEMALE
-$	titěra–N	titěrka–N	FEMALE
-$	biogeograf–N	biogeografie–N	FEMALE
-$	velký–A	veliký–A	DIMINUTIVE
-$	žíně–N	žíněnka–N	DIMINUTIVE
-$	bafuňář–N	bafuňařina–N	FEMALE
-$	tambor–N	tamburina–N	FEMALE
-$	výdělkář–N	výdělkařina–N	FEMALE
-$	humor–N	humoreska–N	FEMALE
-$	satrapa–N	satrapie–N	FEMALE
-$	smrt–N	smrtka–N	DIMINUTIVE
-$	komandant–N	komandantura–N	FEMALE
-$	prelát–N	prelatura–N	FEMALE
-$	Abcház–N	Abcházie–N	FEMALE
-$	kulinář–N	kulinařina–N	FEMALE
-$	taxikář–N	taxikařina–N	FEMALE
-$	kapradina–N	kapradiník–N	DIMINUTIVE
-$	prdel–N	prdelačka–N	DIMINUTIVE
-$	hrnčíř–N	hrnčina–N	FEMALE
-$	melodik–N	melodie–N	FEMALE
-$	včelař–N	včelařina–N	FEMALE
-$	myslivec–N	myslivna–N	FEMALE
-$	fořt–N	fořtovna–N	FEMALE
-$	Barborka–N	barborka–N	DIMINUTIVE
-$	advokát–N	advokacie–N	FEMALE
-$	kořala–N	kořalna–N	FEMALE
-$	fauna–N	faunka–N	FEMALE
-$	rival–N	rivalita–N	FEMALE
-$	havíř–N	havířina–N	FEMALE
-$	astrofyzika–N	astrofyzik–N	FEMALE
-$	pozorovatel–N	pozorovatelna–N	FEMALE
-$	orel–N	orlovna–N	FEMALE
-$	číslo–N	číselka–N	DIMINUTIVE
-$	otec–N	otčina–N	FEMALE
-$	Onan–N	onanie–N	FEMALE
+$	čtvrtek–N	Čtvrtek–N	DIMINUTIVE
 $	dál–N	dálka–N	FEMALE
-$	protikandidát–N	protikandidatura–N	FEMALE
-$	textař–N	textařina–N	FEMALE
-$	baron–N	baronie–N	FEMALE
-$	diplomat–N	diplomacie–N	FEMALE
-$	inspektor–N	inspektorie–N	FEMALE
-$	voják–N	vojančina–N	FEMALE
-$	Amerika–N	amerika–N	DIMINUTIVE
-$	šmelinář–N	šmelinařina–N	FEMALE
-$	fazole–N	fazolačka–N	DIMINUTIVE
-$	bačkora–N	bačkorka–N	FEMALE
-$	krtek–N	krtina–N	FEMALE
-$	autoopravář–N	autoopravna–N	FEMALE
-$	cibule–N	cibulačka–N	DIMINUTIVE
-$	televize–N	telka–N	DIMINUTIVE
-$	síťoví–N	síťovka–N	DIMINUTIVE
-$	bačkora–N	bačkůrka–N	FEMALE
-$	seňora–N	seňorita–N	FEMALE
-$	zbrojař–N	zbrojařina–N	FEMALE
-$	senior–N	seniorita–N	FEMALE
-$	brada–N	bradka–N	DIMINUTIVE
-$	kormidelník–N	kormidelna–N	FEMALE
-$	Lawrie–N	Lawrieová–N	FEMALE
+$	Damašek–N	damašek–N	DIMINUTIVE
 $	darebák–N	darebačina–N	FEMALE
-$	kandidát–N	kandidatura–N	FEMALE
-$	suplent–N	suplentura–N	FEMALE
-$	zloděj–N	zlodějčovina–N	FEMALE
-$	ras–N	rasovna–N	FEMALE
-$	koželuh–N	koželužna–N	FEMALE
-$	hygienik–N	hygiena–N	FEMALE
-$	prokurátor–N	prokuratura–N	FEMALE
-$	zvěrolékař–N	zvěrolékařina–N	FEMALE
-$	buržoa–N	buržoazie–N	FEMALE
+$	diktátor–N	diktatura–N	FEMALE
+$	diplomat–N	diplomacie–N	FEMALE
+$	docent–N	docentura–N	FEMALE
+$	Dorotin–A	Dorotinův–A	POSSESSIVE
 $	dráb–N	drábovna–N	FEMALE
-$	cihla–N	cihlovka–N	DIMINUTIVE
-$	profesor–N	profesura–N	FEMALE
+$	dvojpremiéra–N	dvojpremiérka–N	FEMALE
+$	East–A	Eastův–A	POSSESSIVE
+$	faktor–N	faktorka–N	FEMALE
+$	fauna–N	faunka–N	FEMALE
+$	fazole–N	fazolačka–N	DIMINUTIVE
+$	fořt–N	fořtovna–N	FEMALE
+$	František–N	františek–N	DIMINUTIVE
+$	fráter–N	frátrie–N	FEMALE
+$	funkcionář–N	funkcionařina–N	FEMALE
+$	gadža–A	gadžův–A	POSSESSIVE
 $	Gal–N	Galie–N	FEMALE
-$	oponent–N	oponentura–N	FEMALE
-$	žabař–N	žabařina–N	FEMALE
-$	moskyt–N	moskytiéra–N	FEMALE
+$	Germán–N	Germánie–N	FEMALE
+$	had–N	hadice–N	FEMALE
+$	Hardouin–A	Hardouinův–A	POSSESSIVE
+$	havíř–N	havířina–N	FEMALE
+$	Hieronymus–A	Hieronymův–A	POSSESSIVE
+$	houbař–N	houbařina–N	FEMALE
+$	houslař–N	houslařina–N	FEMALE
+$	hračka–N	hračička–N	DIMINUTIVE
+$	hrnčíř–N	hrnčina–N	FEMALE
+$	hrnčíř–N	hrnčířina–N	FEMALE
+$	hudlař–N	hudlařina–N	FEMALE
+$	humor–N	humoreska–N	FEMALE
+$	humor–N	humorka–N	FEMALE
+$	hygienik–N	hygiena–N	FEMALE
+$	Ind–N	Indie–N	FEMALE
+$	inspektor–N	inspektorie–N	FEMALE
+$	jachtař–N	jachtařina–N	FEMALE
+$	Janek–N	janek–N	DIMINUTIVE
+$	Japonka–N	japonka–N	DIMINUTIVE
+$	ječmínek–N	Ječmínek–N	DIMINUTIVE
+$	jedlička–N	Jedlička–N	DIMINUTIVE
+$	ježek–N	ježura–N	FEMALE
+$	Ježíšek–N	ježíšek–N	DIMINUTIVE
+$	kandidát–N	kandidatura–N	FEMALE
+$	kapradina–N	kapradiník–N	DIMINUTIVE
+$	Karin–A	Karinův–A	POSSESSIVE
+$	karkulka–N	Karkulka–N	DIMINUTIVE
+$	Kašina–A	Kašinův–A	POSSESSIVE
+$	kazatel–N	kazatelna–N	FEMALE
+$	kmotra–N	kmotřička–N	FEMALE
 $	knihař–N	knihařina–N	FEMALE
+$	koláček–N	Koláček–N	DIMINUTIVE
+$	komandant–N	komandantura–N	FEMALE
+$	kořala–N	kořalna–N	FEMALE
+$	kormidelník–N	kormidelna–N	FEMALE
+$	kovařík–N	Kovařík–N	DIMINUTIVE
+$	koželuh–N	koželužna–N	FEMALE
+$	křeček–N	Křeček–N	DIMINUTIVE
 $	krejčí–N	krejčovna–N	FEMALE
-$	Amazonka–N	amazonka–N
-$	Amerika–N	amerika–N
-$	Barborka–N	barborka–N
-$	borovička–N	Borovička–N
-$	Budulínek–N	budulínek–N
-$	Celestin–A	celestin–A
-$	čtvrtek–N	Čtvrtek–N
-$	Damašek–N	damašek–N
-$	František–N	františek–N
-$	Janek–N	janek–N
-$	Japonka–N	japonka–N
-$	ječmínek–N	Ječmínek–N
-$	jedlička–N	Jedlička–N
-$	Ježíšek–N	ježíšek–N
-$	karkulka–N	Karkulka–N
-$	koláček–N	Koláček–N
-$	kovařík–N	Kovařík–N
-$	křeček–N	Křeček–N
-$	kuřátko–N	Kuřátko–N
-$	kytka–N	Kytka–N
-$	Marokánka–N	marokánka–N
-$	Mílek–N	mílek–N
-$	mráček–N	Mráček–N
-$	otesánek–N	Otesánek–N
-$	pátek–N	Pátek–N
-$	písek–N	Písek–N
-$	Polka–N	polka–N
-$	růžička–N	Růžička–N
-$	škopek–N	Škopek–N
-$	sněžka–N	Sněžka–N
-$	Sodoma–N	sodoma–N
-$	straka–N	Straka–N
-$	strejček–N	Strejček–N
-$	stromovka–N	Stromovka–N
-$	svátek–N	Svátek–N
-$	švestka–N	Švestka–N
-$	Turek–N	turek–N
-$	Vašek–N	vašek–N
-$	voříšek–N	Voříšek–N
-$	Zuzka–N	zuzka–N
+$	krtek–N	krtina–N	FEMALE
+$	kulinář–N	kulinařina–N	FEMALE
+$	kuřátko–N	Kuřátko–N	DIMINUTIVE
+$	kýčař–N	kýčařina–N	FEMALE
+$	kytka–N	Kytka–N	DIMINUTIVE
+$	Lawrie–N	Lawrieová–N	FEMALE
+$	Leonin–A	Leoninův–A	POSSESSIVE
+$	loutkař–N	loutkařina–N	FEMALE
+$	Majerčin–A	Majerčinův–A	POSSESSIVE
+$	Marokánka–N	marokánka–N	DIMINUTIVE
+$	Méd–N	Médie–N	FEMALE
+$	melodik–N	melodie–N	FEMALE
+$	Mílek–N	mílek–N	DIMINUTIVE
+$	ministr–N	ministerie–N	FEMALE
+$	minus–N	minuska–N	FEMALE
+$	misogyn–N	misogynie–N	FEMALE
+$	moskyt–N	moskytiéra–N	FEMALE
+$	mráček–N	Mráček–N	DIMINUTIVE
+$	myšlení–N	myšlenka–N	DIMINUTIVE
+$	myslivec–N	myslivna–N	FEMALE
+$	okolí–N	okolek–N	DIMINUTIVE
+$	Onan–N	onanie–N	FEMALE
+$	oponent–N	oponentura–N	FEMALE
+$	orel–N	orlovna–N	FEMALE
+$	otec–N	otčina–N	FEMALE
+$	otesánek–N	Otesánek–N	DIMINUTIVE
+$	pátek–N	Pátek–N	DIMINUTIVE
+$	pedant–N	pedanterie–N	FEMALE
+$	písek–N	Písek–N	DIMINUTIVE
+$	plechař–N	plechařina–N	FEMALE
+$	Polka–N	polka–N	DIMINUTIVE
+$	povídačka–N	poudačka–N	DIMINUTIVE
+$	pozorovatel–N	pozorovatelna–N	FEMALE
+$	prdel–N	prdelačka–N	DIMINUTIVE
+$	prefekt–N	prefektura–N	FEMALE
+$	prelát–N	prelatura–N	FEMALE
+$	přitankovat–V	přitankovávat–V	ASPECT
+$	profesor–N	profesura–N	FEMALE
+$	prokurátor–N	prokuratura–N	FEMALE
+$	prolézačka–N	prolejzačka–N	DIMINUTIVE
+$	protikandidát–N	protikandidatura–N	FEMALE
+$	pták–N	ptákovina–N	FEMALE
+$	ras–N	rasovna–N	FEMALE
+$	ředitel–N	ředitelna–N	FEMALE
+$	rival–N	rivalita–N	FEMALE
+$	rozťupkat–V	rozťupkávat–V	ITERATIVE
+$	růžička–N	Růžička–N	DIMINUTIVE
+$	šampus–N	šampuska–N	FEMALE
+$	Šara–A	Šarův–A	POSSESSIVE
+$	satrapa–N	satrapie–N	FEMALE
+$	senior–N	seniorita–N	FEMALE
+$	seňora–N	seňorita–N	FEMALE
+$	šerpa–N	šerpička–N	FEMALE
+$	sešrotovat–V	sešrotovávat–V	ITERATIVE
+$	sestřenec–N	sestra–N	FEMALE
+$	síťoví–N	síťovka–N	DIMINUTIVE
+$	škopek–N	Škopek–N	DIMINUTIVE
+$	šlehat–V	šlehávat–V	ASPECT
+$	šmelinář–N	šmelinařina–N	FEMALE
+$	smrt–N	smrtka–N	DIMINUTIVE
+$	sněžka–N	Sněžka–N	DIMINUTIVE
+$	Sodoma–N	sodoma–N	FEMALE
+$	straka–N	Straka–N	DIMINUTIVE
+$	strejček–N	Strejček–N	DIMINUTIVE
+$	stromovka–N	Stromovka–N	DIMINUTIVE
+$	suplent–N	suplentura–N	FEMALE
+$	svátek–N	Svátek–N	DIMINUTIVE
+$	švestka–N	Švestka–N	DIMINUTIVE
+$	Tabara–N	Tabarka–N	FEMALE
+$	tambor–N	tamburina–N	FEMALE
+$	taxikář–N	taxikařina–N	FEMALE
+$	televize–N	telka–N	DIMINUTIVE
+$	textař–N	textařina–N	FEMALE
+$	titěra–N	titěrka–N	FEMALE
+$	třasavka–N	třaskavka–N	DIMINUTIVE
+$	Turek–N	turek–N	DIMINUTIVE
+$	ucítit–V	ucejtit–V	ASPECT
+$	uzdvíhat–V	uzdvíhávat–V	ASPECT
+$	Valach–N	Valachie–N	FEMALE
+$	Vašek–N	vašek–N	DIMINUTIVE
+$	včelař–N	včelařina–N	FEMALE
+$	vechtr–N	vechtrovna–N	FEMALE
+$	velký–A	veliký–A	DIMINUTIVE
+$	Vincenc–N	Vincencie–N	FEMALE
+$	voják–N	vojančina–N	FEMALE
+$	voříšek–N	Voříšek–N	DIMINUTIVE
+$	vychovatel–N	vychovatelna–N	FEMALE
+$	výdělkář–N	výdělkařina–N	FEMALE
+$	vysáňkovat–V	vysáňkovávat–V	ITERATIVE
+$	žabař–N	žabařina–N	FEMALE
+$	zabloudit–V	zabloudívat–V	ITERATIVE
+$	Zázvora–N	Zázvorka–N	FEMALE
+$	zbrojař–N	zbrojařina–N	FEMALE
+$	zelí–N	zelovka–N	DIMINUTIVE
+$	žid–N	židovna–N	FEMALE
+$	žíně–N	žíněnka–N	DIMINUTIVE
+$	zlato–N	zlatěnka–N	DIMINUTIVE
+$	zloděj–N	zlodějčovina–N	FEMALE
+$	zloděj–N	zlodějna–N	FEMALE
+$	zloděj–N	zlodějovina–N	FEMALE
+$	Zuzka–N	zuzka–N	DIMINUTIVE
+$	zvěrolékař–N	zvěrolékařina–N	FEMALE
