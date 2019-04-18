@@ -15,3 +15,8 @@ freq-word-list.tsv: syn2015.gz
 prepare: freq-word-list.tsv
 	python3 'list-roots-by-freq.py' 'freq-word-list.tsv' '../../../../releases/cs/derinet-1-7.tsv' '-ex' > '../for-annotation/freq-roots-exclude-compounds.tsv'
 	python3 'list-roots-by-freq.py' 'freq-word-list.tsv' '../../../../releases/cs/derinet-1-7.tsv' '-in' > '../for-annotation/freq-roots-include-compounds.tsv'
+
+# vytvoří první sadu k anotaci (3k nejfrekventovanějších)
+first_sample:
+	cat '../for-annotation/freq-roots-exclude-compounds.tsv' | cut -f 2,3 | head -n 3000 > '../for-annotation/roots-exclude-3k.tsv'
+	
