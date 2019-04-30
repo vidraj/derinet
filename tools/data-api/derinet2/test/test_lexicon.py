@@ -262,6 +262,20 @@ class TestLexicon(unittest.TestCase):
         with self.assertRaises(DerinetFileParseError):
             lexicon.load(db, Format.DERINET_V1)
 
+    def test_load_old_reflexive(self):
+        db = ("0\tdog\tdog-1\tN\t0\n",)
+        lexicon = Lexicon()
+
+        with self.assertRaises(DerinetFileParseError):
+            lexicon.load(db, Format.DERINET_V1)
+
+    def test_load_old_missing_parent(self):
+        db = ("0\tdog\tdog-1\tN\t1\n",)
+        lexicon = Lexicon()
+
+        with self.assertRaises(DerinetFileParseError):
+            lexicon.load(db, Format.DERINET_V1)
+
     def test_load_old_multiple(self):
         """
         Test that multiple databases with identical IDs don't clobber one another when loaded into a single Lexicon.
