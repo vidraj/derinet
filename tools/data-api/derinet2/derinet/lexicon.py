@@ -135,6 +135,8 @@ class Lexicon(object):
                 if this_id in id_map:
                     raise DerinetFileParseError("Lexeme with ID {} defined a second time on line nr. {} '{}'.".format(this_id, line_nr, line))
 
+                # FIXME parse out the xC POSes and store the information in misc. But first write a test for it.
+
                 # Create the lexeme itself, without any links.
                 lexeme = self.create_lexeme(lemma, pos, misc={"techlemma": techlemma})
 
