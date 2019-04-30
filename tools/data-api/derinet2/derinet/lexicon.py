@@ -5,7 +5,7 @@ import re
 
 from .lexeme import Lexeme
 from .relation import DerivationalRelation
-from .utils import DerinetFileParseError, parse_v1_id, format_kwstring, parse_kwstring
+from .utils import DerinetFileParseError, parse_v1_id, parse_v2_id, format_kwstring, parse_kwstring
 
 
 # The main database.
@@ -182,6 +182,8 @@ class Lexicon(object):
 
         comment_regex = re.compile(r"^\s*#")
         id_map = {}
+        seen_trees = set()
+        this_tree = None
 
         try:
             for line_nr, line in enumerate(data_source, start=1):
@@ -193,6 +195,10 @@ class Lexicon(object):
 
                 if not line:
                     # The line is empty → block separator.
+                    if this_tree is not None:
+                        # We've just finished reading a tree. Record it to the set of finished trees.
+                        seen_trees.add(this_tree)
+                        this_tree = None
                     continue
 
                 fields = line.split("\t", maxsplit=9)
@@ -201,13 +207,29 @@ class Lexicon(object):
                     # The line was too short; report an error.
                     raise DerinetFileParseError("Line nr. {} '{}' is too short, more data required.".format(line_nr, line))
 
-                lex_id, lemid, lemma, pos, feats, segmentation, parent_id, reltype, otherrels, misc = fields
+                lex_id_str, lemid, lemma, pos, feats, segmentation, parent_id_str, reltype, otherrels, misc = fields
+
+                lex_id = parse_v2_id(lex_id_str)
+                tree_id, lex_in_tree_id = lex_id
 
                 # If the ID was used already, raise an error.
                 if lex_id in id_map:
-                    raise DerinetFileParseError("ID {} defined a second time at line nr. {}".format(lex_id, line_nr))
+                    raise DerinetFileParseError("ID {} defined a second time at line nr. {}".format(lex_id_str, line_nr))
 
-                # TODO Parse the ID and check that the block ID is constant in a block and not seen
+                if this_tree is None:
+                    # We've just started reading this tree.
+                    # Check that the tree_id was not seen before.
+                    # If it was, raise an error.
+                    if tree_id in seen_trees:
+                        raise DerinetFileParseError("Tree with ID {} encountered in a second block at line nr. {}".format(tree_id, line_nr))
+                    else:
+                        this_tree = tree_id
+                else:
+                    if tree_id != this_tree:
+                        # Tree ID mismatch.
+                        raise DerinetFileParseError("Lexeme with tree ID {} found in a block of tree ID {} at line nr. {}".format(tree_id, this_tree, line_nr))
+
+                # TODO Check that the block ID is constant in a block and not seen
                 #  in other blocks, and that the lexeme-in-block ID is unique in a block.
 
                 feats = parse_kwstring(feats)
@@ -221,11 +243,24 @@ class Lexicon(object):
                 # We already know that the ID wasn't encountered previously.
                 id_map[lex_id] = lexeme
 
-                # The file structure guarantees that the primary parent was encountered before all its children.
-                parent_lexeme = id_map[parent_id]
+                if parent_id_str != "":
+                    parent_id = parse_v2_id(parent_id_str)
 
-                # TODO Check that reltype is derivation.
-                self.add_derivation(parent_lexeme, lexeme)
+                    parent_tree_id, parent_lex_in_tree_id = parent_id
+
+                    # Check that the the main reference does not cross trees.
+                    if parent_tree_id != this_tree:
+                        raise DerinetFileParseError("Lexeme with ID {} on line nr. {} refers to an out-of-tree lexeme ID {}".format(lex_id_str, line_nr, parent_id_str))
+
+                    # The file structure guarantees that the primary parent was encountered before all its children.
+                    # Check that this holds.
+                    if parent_id in id_map:
+                        parent_lexeme = id_map[parent_id]
+                    else:
+                        raise DerinetFileParseError("Lexeme with ID {} on line nr. {} refers to an in-tree lexeme ID {}, which was not encountered yet.".format(lex_id_str, line_nr, parent_id_str))
+
+                    # TODO Check that reltype is derivation.
+                    self.add_derivation(parent_lexeme, lexeme)
 
                 # TODO Parse secondary relations.
         finally:
