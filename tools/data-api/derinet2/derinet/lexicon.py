@@ -360,7 +360,6 @@ class Lexicon(object):
         try:
             id_mapping = {}
 
-            # FIXME ensure that the output is sorted.
             for tree_id, root in enumerate(self.iter_trees(sort=True)):
                 if tree_id > 0:
                     # Separate unrelated trees by a newline.
