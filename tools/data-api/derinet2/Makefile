@@ -1,4 +1,4 @@
-.PHONY: all test coverage profile pylint time-load time-load-pickle time-unpickle clean
+.PHONY: all test coverage profile pylint time-load time-load-pickle time-unpickle test-scenario clean
 
 PROJECT_ROOT::=$(dir $(abspath $(lastword $(MAKEFILE_LIST))))
 PYTHON=python3
@@ -40,6 +40,10 @@ profile-load-pickle.pyprof: test/profile_load.py $(wildcard derinet/*.py)
 
 profile-unpickle.pyprof: test/profile_load.py $(wildcard derinet/*.py)
 	"$(PYTHON)" -O -m cProfile -o "$@" "$<" pickle-v4 < "$(PICKLE_FILE)"
+
+test-scenario: process_scenario.py
+	./process_scenario.py Load derinet-2-0.tsv Save derinet-2-0.tsv.tmp
+	diff -q derinet-2-0.tsv derinet-2-0.tsv.tmp
 
 clean:
 	rm -f profile-load.pyprof profile-load-pickle.pyprof profile-unpickle.pyprof

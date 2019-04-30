@@ -78,7 +78,7 @@ def parse_first_module(args):
     logger.info('Classloading {}/{}'.format(module_file_name, class_name))
 
     # Import the module.
-    mdl = '{}'.format(module_file_name)
+    mdl = '.{}'.format(module_file_name)
     module = importlib.import_module(mdl, "derinet.modules")
 
     # Get the module's main class.
