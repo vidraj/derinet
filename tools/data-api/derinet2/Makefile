@@ -48,4 +48,5 @@ test-scenario: process_scenario.py
 clean:
 	rm -f profile-load.pyprof profile-load-pickle.pyprof profile-unpickle.pyprof
 	rm -f "$(PICKLE_FILE)"
+	find . -name '__pycache__' -type d -exec rm -rf '{}' '+'
 	coverage erase
