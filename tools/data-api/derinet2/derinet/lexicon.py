@@ -2,7 +2,6 @@ import enum
 import json
 import pickle
 import re
-import io
 
 from .lexeme import Lexeme
 from .relation import DerivationalRelation
@@ -49,121 +48,9 @@ from .utils import DerinetFileParseError, parse_v1_id, parse_v2_id, format_kwstr
 
 @enum.unique
 class Format(enum.Enum):
-    """
-    The file formats supported by DeriNet. Not all of them have to be supported
-    for both saving and loading.
-    """
-    UNKNOWN = 0
     DERINET_V1 = 1
     DERINET_V2 = 2
     PICKLE_V4 = 3
-
-    @staticmethod
-    def infer_format(f):
-        """
-        Try to guess which format is the file `f` in.
-        :param f: The file or file name to guess the format of
-        :return: An instance of Format: the format of `f`.
-        """
-        file_name = None
-        file_mode = None
-        first_line = None
-        last_item = None
-        possible_formats = {Format.DERINET_V1, Format.DERINET_V2, Format.PICKLE_V4}
-
-        id_somewhere_regex = re.compile("^[0-9].*\t")
-
-        if isinstance(f, str):
-            # The data_source is a file name.
-            file_name = f
-
-            # Try to open it. Pickle files contain pickle.STOP as the last item in the valid part of the file.
-            # If we assume that the user didn't put anything after the end of the file, it should be at the very end.
-            try:
-                with open(file_name, "rb") as open_f:
-                    open_f.seek(-len(pickle.STOP), io.SEEK_END)
-                    last_item = open_f.read(len(pickle.STOP))
-            finally:
-                pass
-
-            # Also, try reading the file in textual mode to detect the number of tab stops.
-            try:
-                with open(file_name, "rt") as open_f:
-                    # Read until we reach content → an ID at the beginning and a tab somewhere.
-                    for line in f:
-                        if len(line) >= 1 and id_somewhere_regex.match(line):
-                            first_line = line
-                            break
-            finally:
-                pass
-        elif isinstance(f, io.IOBase):
-            # The file is opened.
-            # Maybe it has a name?
-            if hasattr(f, "name"):
-                file_name = f.name
-
-            if isinstance(f, io.TextIOBase):
-                # The file is textual.
-                file_mode = "t"
-
-                if f.seekable():
-                    # We can safely read a piece of the file and rewind.
-                    position = f.tell()
-
-                    # Read until we reach content → an ID at the beginning and a tab somewhere.
-                    for line in f:
-                        if len(line) >= 1 and id_somewhere_regex.match(line):
-                            first_line = line
-                            break
-
-                    f.seek(position)
-            else:
-                # The file is binary.
-                file_mode = "b"
-        elif hasattr(f, "__getitem__") and len(f) > 0:
-            # The object is sequence-like.
-            first_line = f[0]
-        else:
-            # Perhaps the object is an iterator? We could peek that using itertools.tee.
-            return Format.UNKNOWN
-
-        if file_name is not None:
-            # We have the file name. Read its extension.
-            match = re.match(r".*\.([^.]*)$", f)
-            if match is not None:
-                extension = match.group(1)
-                if extension == "tsv":
-                    possible_formats.discard(Format.PICKLE_V4)
-                elif extension in {"p", "pkl", "pickle"}:
-                    possible_formats.discard(Format.DERINET_V1)
-                    possible_formats.discard(Format.DERINET_V2)
-
-        if file_mode is not None:
-            if file_mode == "t":
-                possible_formats.discard(Format.PICKLE_V4)
-            elif file_mode == "b":
-                possible_formats.discard(Format.DERINET_V1)
-                possible_formats.discard(Format.DERINET_V2)
-            else:
-                raise ValueError("File mode '{}' not recognized".format(file_mode))
-
-        if first_line is not None:
-            column_count = first_line.count("\t") + 1
-            if column_count != 5:
-                possible_formats.discard(Format.DERINET_V1)
-            if column_count != 10:
-                possible_formats.discard(Format.DERINET_V2)
-
-        if last_item is not None and last_item != pickle.STOP:
-            possible_formats.discard(Format.PICKLE_V4)
-
-        if not possible_formats:
-            return Format.UNKNOWN
-        elif len(possible_formats) == 1:
-            return possible_formats.pop()
-        else:
-            # Multiple formats are possible.
-            return Format.UNKNOWN
 
 
 class Lexicon(object):
@@ -188,15 +75,6 @@ class Lexicon(object):
         :param fmt: The format of the data_source.
         :return: The lexicon with the new data in it.
         """
-
-        if fmt == Format.UNKNOWN:
-            # The user didn't specify the format. Try to glean it from the data_source.
-            fmt = Format.infer_format(data_source)
-
-            if fmt == Format.UNKNOWN:
-                # The attempt was unsuccessful. Abort.
-                raise DerinetFileParseError("Cannot load file {}; the format was not specified and we couldn't infer it".format(repr(data_source)))
-
         switch = {
             Format.DERINET_V1: self._load_derinet_v1,
             Format.DERINET_V2: self._load_derinet_v2,
