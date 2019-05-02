@@ -1,5 +1,5 @@
 from .relation import Relation
-from .utils import DerinetError
+from .utils import DerinetError, DerinetMorphError, range_overlaps
 
 # The lexeme class
 # Must have all the fields from the DeriNet 2.0 documentation.
@@ -60,7 +60,16 @@ class Lexeme(object):
         # segmentation, otherrels = a set of dicts
 
         self._feats = feats if feats is not None else {}
-        self._segmentation = segmentation if segmentation is not None else {}
+        # TODO check that the passed segmentation is correct if we use it.
+        self._segmentation = segmentation if segmentation is not None else {
+            "boundaries": {},
+            "morphs": [{
+                "type": "implicit",
+                "start": 0,
+                "end": len(lemma),
+                "morph": lemma
+            }]
+        }
 
         self._parent_relation = None
         self._child_relations = []
@@ -133,7 +142,7 @@ class Lexeme(object):
 
     @property
     def segmentation(self):
-        return self._segmentation
+        return self._segmentation["morphs"]
 
     @property
     def parent_relation(self):
@@ -217,3 +226,181 @@ class Lexeme(object):
 
         for child in children:
             yield from child.iter_subtree()
+
+    def add_morph(self, start: int, end: int, annot):
+        """
+        Identify a new morph in the lexeme's lemma, starting with character
+        index `start` in the lemma and containing all characters up to index
+        `end` exclusive. The parameter `annot` identifies properties of the
+        morph. The morph may not be further subdivided. Raise DerinetMorphError
+        if the morph is not compatible with other segmentation already present.
+
+        :param start: index of the first character in the morph
+        :param end: index just after the last character in the morph
+        :param annot: a map of features of the morph
+        :return: None
+        """
+
+        # Check that the morph may be safely added.
+        # Check start and end bounds.
+        if start < 0:
+            raise ValueError("Morph start position {} is out-of-bounds in lexeme {}".format(start, self))
+        if end > len(self.lemma):
+            raise ValueError("Morph end position {} is out-of-bounds in lexeme {}".format(end, self))
+        if start >= end:
+            raise ValueError("Starting position {} not smaller than end position {} in lexeme {}".format(start, end, self))
+
+        # The string form of the morph.
+        morph = self.lemma[start:end]
+
+        # Check that annot doesn't contain any forbidden keys.
+        if "start" in annot:
+            if annot["start"] != start:
+                raise ValueError("'start' specified in annot {} doesn't match given start {}".format(annot["start"], start))
+        if "end" in annot:
+            if annot["end"] != end:
+                raise ValueError("'end' specified in annot {} doesn't match given end {}".format(annot["end"], end))
+        if "morph" in annot:
+            if annot["morph"] != morph:
+                raise ValueError("'morph' specified in annot {} doesn't match actual morph {}".format(annot["morph"], morph))
+
+        # Make sure that annot contains the required "type" key.
+        if "type" not in annot:
+            annot["type"] = "unknown"
+
+        # Check that making a new boundary is allowed at start and end.
+        if not (self.is_boundary_allowed(start) and self.is_boundary_allowed(end)):
+            raise DerinetMorphError("Creating a new boundary is not allowed at positions {} or {} in lexeme {}".format(start, end, self))
+
+        # Check that any morphs overlapping this one are implicit only.
+        for segment in self._segmentation["morphs"]:
+            if range_overlaps((start, end), (segment["start"], segment["end"])) and segment["type"] != "implicit":
+                # The morphs overlap and the recorded one is an actual, user-specified morph.
+                raise DerinetMorphError("Morph {} overlaps existing morph {} in lexeme {}",
+                                        (start, end), (segment["start"], segment["end"]), self)
+
+        # Record constraints for future morphs.
+        # Explicitly allow boundaries at start and end.
+        self.add_boundary(start, True)
+        self.add_boundary(end, True)
+
+        # Disallow boundaries in between.
+        for position in range(start + 1, end):
+            self.add_boundary(position, False)
+
+        # Add the morph.
+        annot["start"] = start
+        annot["end"] = end
+        annot["morph"] = morph
+
+        new_morphs = []
+        for segment in self._segmentation["morphs"]:
+            if range_overlaps((start, end), (segment["start"], segment["end"])):
+                if (start, end) == (segment["start"], segment["end"]):
+                    assert segment["type"] == "implicit", "We already checked for this above!"
+                    # The morphs are exactly in the same spot.
+                    new_morphs.append(annot)
+                else:
+                    raise Exception("Adding a boundary did not subdivide a morph.")
+            else:
+                # Copy the other ones over as they are.
+                new_morphs.append(segment)
+
+        self._segmentation["morphs"] = new_morphs
+
+    def add_boundary(self, position: int, allowed: bool):
+        """
+        Annotate a place in lemma as either a morph boundary or morph-internal
+        place where placing a boundary is prohibited. Raise DerinetMorphError
+        if the place is already annotated with a non-compatible annotation.
+
+        :param position: the index in lemma to add the boundary to
+        :param allowed: whether the boundary is a split or a forbidden split
+        :return: None
+        """
+        # Check that the boundary is in bounds.
+        if position < 0 or position > len(self.lemma):
+            raise ValueError("Position {} out-of-bounds in lexeme {}".format(position, self))
+
+        # See whether the position already exists.
+        if position in self._segmentation["boundaries"]:
+            # The boundary at this position was already recorded.
+            if self._segmentation["boundaries"][position] != allowed:
+                # The present boundary has opposite allowedness. Raise an error.
+                current_state = "allowed" if self._segmentation["boundaries"][position] else "disallowed"
+                new_state = "allow" if allowed else "disallow"
+                raise DerinetMorphError("Boundary at position {} in {} already {}, cannot {} it".format(position, self, current_state, new_state))
+            else:
+                # The present boundary is the same as the new one. Nothing to do.
+                return
+
+        # The boundary was not recorded yet.
+        # Check that it can be allowed / disallowed. These checks should be unnecessary, but let's do them anyway.
+
+        if allowed:
+            # Subdivide the appropriate segment in self.segmentation.
+            new_morphs = []
+            for segment in self._segmentation["morphs"]:
+                if segment["start"] <= position and segment["end"] >= position:
+                    # This is the appropriate morph to subdivide.
+                    if segment["type"] != "implicit" or segment.keys() != {"type", "start", "end", "morph"}:
+                        # But the segment is not a "rest" type, it is an actual user-specified morph!
+                        # Raise an error.
+                        raise Exception("Attempted to subdivide morpheme {} in {} at position {}."
+                                        " Curiously, its internals were not forbidden!".format(segment, self, position))
+
+                    if segment["start"] < position:
+                        left_segment = {
+                            "type": "implicit",
+                            "start": segment["start"],
+                            "end": position,
+                            "morph": segment["morph"][:position - segment["start"]]
+                        }
+                        new_morphs.append(left_segment)
+
+                    if segment["end"] > position:
+                        right_segment = {
+                            "type": "implicit",
+                            "start": position,
+                            "end": segment["end"],
+                            "morph": segment["morph"][position - segment["start"]:]
+                        }
+                        new_morphs.append(right_segment)
+                else:
+                    # Do not subdivide this, just copy.
+                    new_morphs.append(segment)
+
+            # Store the edited morph list.
+            self._segmentation["morphs"] = new_morphs
+        else:
+            # Make sure there is not a boundary there.
+            for segment in self._segmentation["morphs"]:
+                if position == segment["start"] or position == segment["end"]:
+                    raise DerinetMorphError("Cannot forbid position {} in {};"
+                                            " segment {} already has a boundary there".format(position, self, segment))
+
+        # Record the actual boundary.
+        self._segmentation["boundaries"][position] = allowed
+
+        return
+
+    def is_boundary_allowed(self, position: int, default=True):
+        """
+        Check whether it is allowed to add a morpheme boundary at `position` in lemma.
+        Out-of-bounds positions evaluate to False, unknown positions default to `default`.
+        Set `default` to False if you want to query for explicitly allowed boundaries.
+
+        :param position: The index in lemma to query
+        :param default: The value to return when the position was not annotated
+        :return: A boolean specifying whether the boundary at `position` is allowed
+        """
+        if position < 0 or position > len(self.lemma):
+            # The position is out-of-bounds.
+            return False
+
+        if position in self._segmentation["boundaries"]:
+            # The position is recorded. Return what the record says.
+            return self._segmentation["boundaries"][position]
+        else:
+            # The position was not recorded yet. Return the default.
+            return default
