@@ -227,7 +227,7 @@ class Lexeme(object):
         for child in children:
             yield from child.iter_subtree()
 
-    def add_morph(self, start: int, end: int, annot):
+    def add_morph(self, start: int, end: int, annot=None):
         """
         Identify a new morph in the lexeme's lemma, starting with character
         index `start` in the lemma and containing all characters up to index
@@ -253,16 +253,19 @@ class Lexeme(object):
         # The string form of the morph.
         morph = self.lemma[start:end]
 
-        # Check that annot doesn't contain any forbidden keys.
-        if "start" in annot:
-            if annot["start"] != start:
-                raise ValueError("'start' specified in annot {} doesn't match given start {}".format(annot["start"], start))
-        if "end" in annot:
-            if annot["end"] != end:
-                raise ValueError("'end' specified in annot {} doesn't match given end {}".format(annot["end"], end))
-        if "morph" in annot:
-            if annot["morph"] != morph:
-                raise ValueError("'morph' specified in annot {} doesn't match actual morph {}".format(annot["morph"], morph))
+        if annot is None:
+            annot = {}
+        else:
+            # Check that annot doesn't contain any forbidden keys.
+            if "start" in annot:
+                if annot["start"] != start:
+                    raise ValueError("'start' specified in annot {} doesn't match given start {}".format(annot["start"], start))
+            if "end" in annot:
+                if annot["end"] != end:
+                    raise ValueError("'end' specified in annot {} doesn't match given end {}".format(annot["end"], end))
+            if "morph" in annot:
+                if annot["morph"] != morph:
+                    raise ValueError("'morph' specified in annot {} doesn't match actual morph {}".format(annot["morph"], morph))
 
         # Make sure that annot contains the required "type" key.
         if "type" not in annot:

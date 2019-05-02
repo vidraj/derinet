@@ -16,6 +16,22 @@ class TestMorphs(unittest.TestCase):
         self.assertEqual(2, len(lexeme.segmentation))
         self.assertEqual("un", lexeme.segmentation[0]["morph"])
 
+    def test_morph_add_empty_desc(self):
+        lexeme = Lexeme("unnecessarily", "A")
+        lexeme.add_morph(0, 2, {})
+
+        self.assertEqual(2, len(lexeme.segmentation))
+        self.assertEqual("un", lexeme.segmentation[0]["morph"])
+        self.assertEqual("unknown", lexeme.segmentation[0]["type"])
+
+    def test_morph_add_unannotated(self):
+        lexeme = Lexeme("unnecessarily", "A")
+        lexeme.add_morph(0, 2)
+
+        self.assertEqual(2, len(lexeme.segmentation))
+        self.assertEqual("un", lexeme.segmentation[0]["morph"])
+        self.assertEqual("unknown", lexeme.segmentation[0]["type"])
+
     def test_morph_add_multiple(self):
         lexeme = Lexeme("unnecessarily", "A")
         lexeme.add_morph(0, 2, {"type": "prefix"})
