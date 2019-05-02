@@ -155,6 +155,31 @@ class TestUtils(unittest.TestCase):
             (10, 7)
         )
 
+    def test_print_kwstring_empty(self):
+        """
+        The empty kwstring can be produced in several different ways, making the format ambiguous.
+        """
+        self.assertEqual("", u.format_kwstring([]))
+        self.assertEqual("", u.format_kwstring([{}]))
+        self.assertEqual("|", u.format_kwstring([{}, {}]))
+
+
+    def test_print_kwstring(self):
+        self.assertEqual(
+            "k1=v1&k2=v2&k3=v3|k1=v1&k5=v5",
+            u.format_kwstring([{"k1": "v1", "k3": "v3", "k2": "v2"},
+                               {"k5": "v5", "k1": "v1"}])
+        )
+
+    def test_parse_kwstring_empty(self):
+        self.assertListEqual([], u.parse_kwstring(""))
+
+    def test_parse_kwstring(self):
+        d = u.parse_kwstring("k1=v1&k2=v2&k3=v3|k1=v1&k5=v5")
+        self.assertEqual(2, len(d))
+        self.assertDictEqual({"k1": "v1", "k3": "v3", "k2": "v2"}, d[0])
+        self.assertDictEqual({"k5": "v5", "k1": "v1"}, d[1])
+
 
 if __name__ == '__main__':
     unittest.main()

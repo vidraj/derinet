@@ -66,14 +66,26 @@ def format_kwstring(d):
     if d is None or len(d) == 0:
         return ""
     else:
-        raise NotImplementedError()
+        return "|".join(
+            ["&".join(["{}={}".format(k, v) for k, v in sorted(inner_dict.items())]) for inner_dict in d]
+        )
 
 
-def parse_kwstring(s):
+def parse_kwstring(s: str):
     if s == "":
         return []
     else:
-        raise NotImplementedError()
+        l = []
+        dict_strs = s.split("|")
+
+        for dict_str in dict_strs:
+            inner_dict = {}
+            for eqstring in dict_str.split("&"):
+                k, v = eqstring.split("=", maxsplit=1)
+                inner_dict[k] = v
+            l.append(inner_dict)
+
+        return l
 
 
 def _valid_range(r):
