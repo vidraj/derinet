@@ -38,7 +38,7 @@ class TestLexeme(unittest.TestCase):
             Lexeme("dog", "N", lemid=[])
 
         with self.assertRaises(Exception):
-            Lexeme("dog", "N", segmentation=[])
+            Lexeme("dog", "N", segmentation={})
 
         with self.assertRaises(Exception):
             Lexeme("dog", "N", misc=[])

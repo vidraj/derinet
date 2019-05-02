@@ -48,7 +48,7 @@ class Lexeme(object):
         assert len(lemma) > 0
         assert isinstance(pos, str)
         assert lemid is None or isinstance(lemid, str)
-        assert segmentation is None or isinstance(segmentation, dict)
+        assert segmentation is None or isinstance(segmentation, list)
         assert misc is None or isinstance(misc, dict)
 
         self._lemid = lemid if lemid is not None else "{}#{}".format(lemma, pos)

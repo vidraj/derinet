@@ -71,7 +71,7 @@ def format_kwstring(d):
 
 def parse_kwstring(s):
     if s == "":
-        return {}
+        return []
     else:
         raise NotImplementedError()
 
