@@ -232,9 +232,21 @@ class Lexicon(object):
                 # TODO Check that the block ID is constant in a block and not seen
                 #  in other blocks, and that the lexeme-in-block ID is unique in a block.
 
-                feats = parse_kwstring(feats)
+                feats_list = parse_kwstring(feats)
+                if len(feats_list) == 0:
+                    feats = []
+                elif len(feats_list) == 1:
+                    feats = feats_list[0]
+                else:
+                    raise DerinetFileParseError() # TODO Write a proper error message.
                 segmentation = parse_kwstring(segmentation)
-                reltype = parse_kwstring(reltype)
+                reltype_list = parse_kwstring(reltype)
+                if len(reltype_list) == 0:
+                    reltype = []
+                elif len(reltype_list) == 1:
+                    reltype = feats_list[0]
+                else:
+                    raise DerinetFileParseError() # TODO Write a proper error message.
                 otherrels = parse_kwstring(otherrels)
                 misc = json.loads(misc)
 
