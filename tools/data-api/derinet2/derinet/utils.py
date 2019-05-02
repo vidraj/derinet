@@ -74,3 +74,46 @@ def parse_kwstring(s):
         return {}
     else:
         raise NotImplementedError()
+
+
+def _valid_range(r):
+    if isinstance(r, tuple) and len(r) == 2 and r[0] < r[1]:
+        return True
+    else:
+        return False
+
+
+def range_overlaps(a, b):
+    """
+    Check whether range a overlaps range b in any way.
+
+    :param a: A tuple of (start, end)
+    :param b: A tuple of (start, end)
+    :return: True if there is overlap, False otherwise
+    """
+    if not _valid_range(a):
+        raise ValueError("Invalid range {}".format(a))
+    if not _valid_range(b):
+        raise ValueError("Invalid range {}".format(b))
+
+    a_start, a_end = a
+    b_start, b_end = b
+
+    # B starts inside A.
+    if a_start <= b_start < a_end:
+        return True
+
+    # B ends inside A.
+    if a_start < b_end <= a_end:
+        return True
+
+    # A starts inside B.
+    if b_start <= a_start < b_end:
+        return True
+
+    # A ends inside B.
+    if b_start < a_end <= b_end:
+        return True
+
+    # None of the above.
+    return False

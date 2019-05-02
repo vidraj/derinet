@@ -101,6 +101,60 @@ class TestUtils(unittest.TestCase):
         with self.assertRaises(AssertionError):
             u.parse_v2_id("0.01")
 
+    def test_range_overlap(self):
+        # Trivial cases.
+        self.assertTrue(u.range_overlaps((0, 1), (0, 1)))
+        self.assertTrue(u.range_overlaps((0, 10), (0, 10)))
+
+        # Not so trivial cases.
+        self.assertTrue(u.range_overlaps((0, 10), (0, 1)))
+        self.assertTrue(u.range_overlaps((0, 10), (-3, 1)))
+        self.assertTrue(u.range_overlaps((0, 10), (3, 5)))
+        self.assertTrue(u.range_overlaps((0, 10), (9, 10)))
+        self.assertTrue(u.range_overlaps((0, 10), (9, 12)))
+
+        # The same in reverse.
+        self.assertTrue(u.range_overlaps((0, 1), (0, 10)))
+        self.assertTrue(u.range_overlaps((-3, 1), (0, 10)))
+        self.assertTrue(u.range_overlaps((3, 5), (0, 10)))
+        self.assertTrue(u.range_overlaps((9, 10), (0, 10)))
+        self.assertTrue(u.range_overlaps((9, 12), (0, 10)))
+
+    def test_range_nonoverlap(self):
+        self.assertFalse(u.range_overlaps((0, 10), (-3, -1)))
+        self.assertFalse(u.range_overlaps((0, 10), (12, 50)))
+        self.assertFalse(u.range_overlaps((0, 10), (-1, 0)))
+        self.assertFalse(u.range_overlaps((0, 10), (10, 15)))
+
+    def test_range_invalid(self):
+        self.assertRaises(
+            ValueError,
+            u.range_overlaps,
+            (0, 0),
+            (1, 5)
+        )
+
+        self.assertRaises(
+            ValueError,
+            u.range_overlaps,
+            (0, 5),
+            (0, 0)
+        )
+
+        self.assertRaises(
+            ValueError,
+            u.range_overlaps,
+            (3, 2),
+            (1, 5)
+        )
+
+        self.assertRaises(
+            ValueError,
+            u.range_overlaps,
+            (1, 5),
+            (10, 7)
+        )
+
 
 if __name__ == '__main__':
     unittest.main()
