@@ -180,6 +180,54 @@ class TestUtils(unittest.TestCase):
         self.assertDictEqual({"k1": "v1", "k3": "v3", "k2": "v2"}, d[0])
         self.assertDictEqual({"k5": "v5", "k1": "v1"}, d[1])
 
+    def test_kwstring_illegal_chars_eq_key(self):
+        d = [{"ke=y": "val"}]
+        self.assertRaises(
+            ValueError,
+            u.format_kwstring,
+            d
+        )
+
+    def test_kwstring_illegal_chars_eq_val(self):
+        d = [{"key": "v=al"}]
+        self.assertRaises(
+            ValueError,
+            u.format_kwstring,
+            d
+        )
+
+    def test_kwstring_illegal_chars_amp_key(self):
+        d = [{"ke&y": "val"}]
+        self.assertRaises(
+            ValueError,
+            u.format_kwstring,
+            d
+        )
+
+    def test_kwstring_illegal_chars_amp_val(self):
+        d = [{"key": "v&al"}]
+        self.assertRaises(
+            ValueError,
+            u.format_kwstring,
+            d
+        )
+
+    def test_kwstring_illegal_chars_or_key(self):
+        d = [{"ke|y": "val"}]
+        self.assertRaises(
+            ValueError,
+            u.format_kwstring,
+            d
+        )
+
+    def test_kwstring_illegal_chars_or_val(self):
+        d = [{"key": "v|al"}]
+        self.assertRaises(
+            ValueError,
+            u.format_kwstring,
+            d
+        )
+
 
 if __name__ == '__main__':
     unittest.main()

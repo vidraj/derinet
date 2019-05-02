@@ -71,12 +71,24 @@ def parse_v2_id(val: str) -> Tuple[int, int]:
     return tree_id, lex_id
 
 
+def _format_kwpair(k, v):
+    for x in (k, v):
+        for c in {"=", "&", "|"}:
+            if c in x:
+                raise ValueError("Illegal char '{}' in kwstring part '{}'".format(c, x))
+
+    return "{}={}".format(k, v)
+
+
 def format_kwstring(d):
+    if not isinstance(d, list):
+        raise TypeError("d must be a list of dicts")
+
     if d is None or len(d) == 0:
         return ""
     else:
         return "|".join(
-            ["&".join(["{}={}".format(k, v) for k, v in sorted(inner_dict.items())]) for inner_dict in d]
+            ["&".join([_format_kwpair(k, v) for k, v in sorted(inner_dict.items())]) for inner_dict in d]
         )
 
 
