@@ -13,7 +13,7 @@ my @root_allomorphs;
 
 sub penalty_for_spurious_occurrence {
     my ($segmented) = @_;
-    return ($segmented =~ /\(t\)$|^(sub)?\(d\)o|^po\(d\)|^(pře|vy)\(d\)|^p\(řed\)|^(v)?o\(d\)|\([nt]\)[íěý]$|^(pro|pod)\(n\)a|^\(po\)|^\(n\)a|\(kův\)$|\(nos\)t(ní)?$|\(š\)í$|pseu\(d\)o|\(ší\)$|^\(vod\)v|\(s\)t$|\([tn]\)ost|^\(zn\)e|\(d\)lo$|^\(jist\)o/);
+    return ($segmented =~ /\(t\)$|^(sub)?\(d\)o|^po\(d\)|^(pře|vy)\(d\)|^p\(řed\)|^(v)?o\(d\)|\([nt]\)[íěý]$|^(pro|pod)\(n\)a|^\(po\)|^\(n\)a|\(kův\)$|\(nos\)t(ní)?$|\(š\)í$|pseu\(d\)o|\(ší\)$|^\(vod\)v|\(s\)t$|\([tn]\)ost|^\(zn\)e|\(d\)lo$|^\(jist\)o|\(va\)$|^\(pro\)|^\(pr\)o|su\(per\)|\(v[aá]\)(t|ní|tí|ný|vající|jící|nost|cí)$|\(čk\)a$|\(vě\)$|\(nov\)[ýě]$|\(va\)$/);
 }
    
 
@@ -30,6 +30,8 @@ sub root_len {
 }
 
 
+my $ignore_composite = 0;
+
 while (<>) {
     chomp;
 
@@ -42,11 +44,14 @@ while (<>) {
     s/"$//;
     
 
-    if (/^\s*$/ or /^Automatic/ ) {  } # empty lines ignored too
+    if (/^\s*$/ or /Automatic roots/ ) {  } # empty lines ignored too
 
+    elsif (/Manual roots for (\S+\#VC):/ or /telef/) {
+	$ignore_composite = 1;
+    }
     
     elsif (/Manual roots for (\S+):/) {
-	print "QQQQ $1\n";
+	$ignore_composite = 0;
 	my $root_lemma = $1;
 	my @columns = split /\t/;
 	@root_allomorphs = grep {/\S/} split / /, $columns[1];
@@ -54,6 +59,10 @@ while (<>) {
     }
 
     elsif (/\t[\$\!]/) { } # lines to be ignored
+
+    elsif ($ignore_composite) {
+
+    }
     
     elsif (/^(\S+)\t(\S+)\t([A-Z])/) {
 	my $short_lemma = $1;
