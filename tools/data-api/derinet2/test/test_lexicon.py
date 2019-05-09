@@ -82,9 +82,6 @@ class TestLexicon(unittest.TestCase):
 
     # TODO test that iter_lexemes() works correctly with concurrent changes to the datastore.
 
-    def test_iter_trees(self):
-        raise NotImplementedError()
-
     def test_add_derivation_basic(self):
         lexicon = Lexicon()
 
@@ -454,6 +451,40 @@ class TestLexicon(unittest.TestCase):
         lexicon.load(db_file_in, fmt=Format.DERINET_V1)
         lexicon.save(db_file_out, fmt=Format.DERINET_V1)
         self.assertMultiLineEqual(db_file_out.getvalue(), db)
+
+
+    def test_iter_trees(self):
+        db = """0	psí	psí-1	A	
+1	psí	psí-2_,t_^(název_písmene_řecké_abecedy)	N	
+2	psice	psice_^(*3ík)	N	11
+3	psíček	psíček	N	11
+4	psičin	psičin_^(*3ce)	A	2
+5	psíčkař	psíčkař	N	
+6	psíčkařův	psíčkařův_^(*2)	A	5
+7	psíčkův	psíčkův_^(*3ek)	A	3
+8	Pšikalová	Pšikalová_;S	N	9
+9	Pšikal	Pšikal_;S	N	
+10	Pšikalův	Pšikalův_;S_^(*2)	A	9
+11	psík	psík	N	
+12	Psíková	Psíková_;S	N	14
+13	Pšikovová	Pšikovová_;S	N	
+14	Psík	Psík_;S	N	
+15	psíkův	psíkův_^(*2)	A	11
+16	Psíkův	Psíkův_;S_^(*2)	A	14
+"""
+        db_file_in = io.StringIO(db)
+        lexicon = Lexicon()
+        lexicon.load(db_file_in, fmt=Format.DERINET_V1)
+
+        trees = list(lexicon.iter_trees())
+        self.assertEqual(7, len(trees))
+
+        lemmas = set()
+        for root in trees:
+            self.assertTrue(isinstance(root, Lexeme))
+            lemmas.add(root.lemma)
+
+        self.assertSetEqual({"psí", "psíčkař", "Pšikal", "psík", "Pšikovová", "Psík"}, lemmas)
 
 
 if __name__ == '__main__':
