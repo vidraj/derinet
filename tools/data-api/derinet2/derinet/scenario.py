@@ -23,6 +23,15 @@ class Scenario:
         self._modules = modules
 
     def process(self, lexicon=None, keep_going=False):
+        """
+        Process the scenario by threading `lexicon` through the specified list
+        of Blocks.
+
+        :param lexicon: The lexicon to pass to the first Block.
+        :param keep_going: If set, continue execution when a DerinetError is
+                raised in a Block.
+        :return: The lexicon, as returned by the last Block.
+        """
         scenario = self._modules
 
         logger.info("Processing a scenario of {} modules.".format(len(scenario)))
