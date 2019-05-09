@@ -135,6 +135,10 @@ class Lexicon(object):
                 if this_id in id_map:
                     raise DerinetFileParseError("Lexeme with ID {} defined a second time on line nr. {} '{}'.".format(this_id, line_nr, line))
 
+                if not lemma:
+                    raise DerinetFileParseError("Empty lemma encountered in lexeme ID {} on line {} '{}'".format(this_id_str, line_nr, line))
+
+
                 # FIXME parse out the xC POSes and store the information in misc. But first write a test for it.
 
                 # Create the lexeme itself, without any links.
@@ -209,7 +213,10 @@ class Lexicon(object):
 
                 lex_id_str, lemid, lemma, pos, feats, segmentation, parent_id_str, reltype, otherrels, misc = fields
 
-                lex_id = parse_v2_id(lex_id_str)
+                try:
+                    lex_id = parse_v2_id(lex_id_str)
+                except ValueError:
+                    raise DerinetFileParseError("Unparseable ID '{}' encountered on line nr. {} '{}'.".format(lex_id_str, line_nr, line))
                 tree_id, lex_in_tree_id = lex_id
 
                 # If the ID was used already, raise an error.
@@ -232,6 +239,9 @@ class Lexicon(object):
                 # TODO Check that the block ID is constant in a block and not seen
                 #  in other blocks, and that the lexeme-in-block ID is unique in a block.
 
+                if not lemma:
+                    raise DerinetFileParseError("Empty lemma encountered in lexeme ID {} on line {} '{}'".format(lex_id_str, line_nr, line))
+
                 feats_list = parse_kwstring(feats)
                 if len(feats_list) == 0:
                     feats = []
@@ -248,7 +258,10 @@ class Lexicon(object):
                 else:
                     raise DerinetFileParseError() # TODO Write a proper error message.
                 otherrels = parse_kwstring(otherrels)
-                misc = json.loads(misc)
+                try:
+                    misc = json.loads(misc)
+                except json.decoder.JSONDecodeError:
+                    raise DerinetFileParseError("Couldn't parse the JSON-encoded misc section of lexeme {} at line {} '{}'".format(lex_id_str, line_nr, line))
 
                 lexeme = self.create_lexeme(lemma, pos, lemid=lemid, feats=feats, segmentation=segmentation, misc=misc)
 
@@ -256,7 +269,10 @@ class Lexicon(object):
                 id_map[lex_id] = lexeme
 
                 if parent_id_str != "":
-                    parent_id = parse_v2_id(parent_id_str)
+                    try:
+                        parent_id = parse_v2_id(parent_id_str)
+                    except ValueError:
+                        raise DerinetFileParseError("Unparseable parent ID '{}' encountered on line nr. {} '{}'.".format(parent_id_str, line_nr, line))
 
                     parent_tree_id, parent_lex_in_tree_id = parent_id
 
