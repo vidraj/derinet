@@ -5,7 +5,7 @@ import re
 
 from .lexeme import Lexeme
 from .relation import DerivationalRelation
-from .utils import DerinetFileParseError, parse_v1_id, parse_v2_id, format_kwstring, parse_kwstring
+from .utils import DerinetError, DerinetFileParseError, parse_v1_id, parse_v2_id, format_kwstring, parse_kwstring
 
 
 # The main database.
@@ -90,7 +90,7 @@ class Lexicon(object):
             switch[fmt](data_source)
         except DerinetFileParseError:
             raise
-        except Exception:
+        except DerinetError:
             raise DerinetFileParseError("An error happened while parsing input file.")
 
         return self
