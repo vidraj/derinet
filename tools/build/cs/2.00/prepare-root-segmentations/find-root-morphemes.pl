@@ -64,13 +64,14 @@ while (<>) {
 	}
 	$firstcluster = 0;
 	    
-	print "STARTOFCLUSTER\n";
+	print "STARTOFCLUSTER\t".(join " ",@root_allomorphs)."\n";
     }
 
     elsif (/\t[\$\!]/) { 
 	my ($shortlemma,$longlemma,$pos) = split /\t/;
-	print "STOPNODE\t$longlemma\n";
-
+	if ($shortlemma and $longlemma) {
+	    print "STOPNODE\t$longlemma\n";
+	}
     }
 
     elsif ($ignore_composite) {
@@ -112,11 +113,9 @@ while (<>) {
 	
 	else {
 	    if ($rootnode) {
-		print "ROOTNODE\t$long_lemma\t$solutions[0]\n";
+		print "ROOTNODE\t$short_lemma\t$long_lemma\t$solutions[0]\n";
 	    }
-	    else {
-		print "INNERNODE\t$long_lemma\t$solutions[0]\n";
-	    }
+	    print "SEGMENTEDNODE\t$long_lemma\t$solutions[0]\n";
 	}
 	$rootnode = 0;
 

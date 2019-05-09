@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 """Process a derivational network using a scenario specified as individual args."""
-
+import derinet.modules
 import sys
 import importlib
 import logging

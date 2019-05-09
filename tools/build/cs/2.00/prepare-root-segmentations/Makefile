@@ -22,5 +22,9 @@ batch2:
 merge:
 	cat batch1-induced-segmentations.tsv batch2-induced-segmentations.tsv > induced-segmentations.tsv
 
+overlap:
+	cat induced-segmentations.tsv | ./check_allomorph_overlaps.py | sort -nr
+
+
 clean:
 	rm *tsv *txt *csv
