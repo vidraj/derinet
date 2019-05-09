@@ -418,10 +418,10 @@ class Lexicon(object):
                         lexeme.lemid,
                         lexeme.lemma,
                         lexeme.pos,
-                        format_kwstring(lexeme.feats),
-                        format_kwstring(lexeme.segmentation),
+                        format_kwstring([lexeme.feats]),
+                        format_kwstring([segment for segment in lexeme.segmentation if segment["type"] != "implicit"]),
                         parent_id,
-                        format_kwstring(reltype),
+                        format_kwstring([reltype]),
                         format_kwstring(lexeme.otherrels),
                         json.dumps(lexeme.misc, ensure_ascii=False, allow_nan=False, indent=None, sort_keys=True),
                         sep="\t", end="\n", file=data_sink
