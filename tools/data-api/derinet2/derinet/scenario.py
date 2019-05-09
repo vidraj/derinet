@@ -22,7 +22,7 @@ class Scenario:
         """
         self._modules = modules
 
-    def process(self, lexicon=None):
+    def process(self, lexicon=None, keep_going=False):
         scenario = self._modules
 
         logger.info("Processing a scenario of {} modules.".format(len(scenario)))
@@ -44,6 +44,8 @@ class Scenario:
                 lexicon = instance.process(lexicon)
             except DerinetError as e:
                 logger.error(e)
+                if not keep_going:
+                    raise
 
             logger.info('Module {} finished.'.format(instance.signature))
 

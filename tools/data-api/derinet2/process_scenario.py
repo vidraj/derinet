@@ -38,6 +38,13 @@ def parse_args():
               "as per Python's default.")
     )
     parser.add_argument(
+        "-k",
+        "--keep-going",
+        dest="keep_going",
+        action="store_true",
+        help="Continue the scenario after a module raises DerinetError."
+    )
+    parser.add_argument(
         "-l",
         "--list-modules",
         dest="list_modules",
@@ -182,7 +189,7 @@ def main():
     modules = parse_modules(rest_args)
 
     scenario = Scenario(modules)
-    scenario.process()
+    scenario.process(keep_going=main_args.keep_going)
 
     return 0
 
