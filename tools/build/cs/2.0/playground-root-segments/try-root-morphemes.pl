@@ -31,6 +31,8 @@ sub root_len {
 
 
 my $ignore_composite = 0;
+my $rootnode = 0;
+my $firstcluster = 1;
 
 while (<>) {
     chomp;
@@ -55,10 +57,21 @@ while (<>) {
 	my $root_lemma = $1;
 	my @columns = split /\t/;
 	@root_allomorphs = grep {/\S/} split / /, $columns[1];
-#	print "XXXXXXXXXXXXXXXx ".(join " ",@root_allomorphs)."\n";
+	$rootnode = 1;
+	
+	if (not $firstcluster) {
+	    print "ENDOFCLUSTER\n";
+	}
+	$firstcluster = 0;
+	    
+	print "STARTOFCLUSTER\n";
     }
 
-    elsif (/\t[\$\!]/) { } # lines to be ignored
+    elsif (/\t[\$\!]/) { 
+	my ($shortlemma,$longlemma,$pos) = split /\t/;
+	print "STOPNODE\t$longlemma\n";
+
+    }
 
     elsif ($ignore_composite) {
 
@@ -81,10 +94,7 @@ while (<>) {
 		push @solutions_for_this_root, $segmented_lemma;
 
 	    }
-
-
 	    push @solutions, @solutions_for_this_root;
-	    
 	}
 
 	@solutions = sort { root_len($b) <=> root_len($a) } @solutions; 
@@ -101,15 +111,22 @@ while (<>) {
 	}
 	
 	else {
-	    chomp;
-	    print $_."\t".$solutions[0]."\n";
+	    if ($rootnode) {
+		print "ROOTNODE\t$long_lemma\t$solutions[0]\n";
+	    }
+	    else {
+		print "INNERNODE\t$long_lemma\t$solutions[0]\n";
+	    }
 	}
+	$rootnode = 0;
 
     }
 
     else {
 	print STDERR "Error: unrecognized line: $_ \n";
     }
-    
+
     
 }
+
+print "ENDOFCLUSTER\n";
