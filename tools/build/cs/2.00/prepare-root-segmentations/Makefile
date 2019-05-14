@@ -1,13 +1,12 @@
-#INPUTDIR=../../../../../data/annotations/cs/2019_01_freq_roots/hand-annotated/
-##  DIRTY HACK, the absolute path must be replaced after git merge
-INPUTDIR=/home/zabokrtsky/git_clones/derinet/data/annotations/cs/2019_01_freq_roots/hand-annotated/
+INPUTDIR=../../../../../data/annotations/cs/2019_01_freq_roots/hand-annotated/
 
 all: batch1 batch2 merge
 
 
 
-batch1:
-	libreoffice --convert-to csv --infilter=CSV:44,34,76,1 --headless  --outdir . ${INPUTDIR}/fixed-after-tests-by-ZZ.xlsx
+batch1: batch1-induced-segmentations.tsv
+
+batch1-induced-segmentations.tsv: fixed-after-tests-by-ZZ.csv
 	cat fixed-after-tests-by-ZZ.csv | ./find-root-morphemes.pl > batch1-induced-segmentations.tsv 2>errlog1.txt
 
 #pripravdruhoudavku:  # druha davka
@@ -15,11 +14,17 @@ batch1:
 #	./spoj-druhou-davku.pl > druha-davka-spojena.tsv
 
 
-batch2:
-	libreoffice --convert-to csv --infilter=CSV:44,34,76,1 --headless  --outdir . ${INPUTDIR}/druha-davka-fixed-by-ZZ.xlsx
+batch2: batch2-induced-segmentations.tsv
+
+batch2-induced-segmentations.tsv: druha-davka-fixed-by-ZZ.csv
 	cat druha-davka-fixed-by-ZZ.csv | ./find-root-morphemes.pl > batch2-induced-segmentations.tsv 2> errlog2.txt
 
-merge:
+%-by-ZZ.csv: ${INPUTDIR}/%-by-ZZ.xlsx
+	libreoffice --convert-to csv --infilter=CSV:44,34,76,1 --headless  --outdir . "$<"
+
+merge: induced-segmentations.tsv
+
+induced-segmentations.tsv: batch1-induced-segmentations.tsv batch2-induced-segmentations.tsv
 	cat batch1-induced-segmentations.tsv batch2-induced-segmentations.tsv > induced-segmentations.tsv
 
 overlap:
