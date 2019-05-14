@@ -47,6 +47,11 @@ sub process_dictionary {
     my %lemmas;
     my %deriv_creators_cnt;
 
+    # Whether the lexeme starts with a capital letter.
+    my $capitalized = 0;
+    my $capitalized_singletons = 0;
+    my $capitalized_roots = 0;
+
     if ($self->delete_composition_markers and $self->delete_composition_markers + 0) {
         foreach my $lexeme ($dict->get_lexemes) {
             (my $pos = $lexeme->pos) =~ s/C*$//;
@@ -65,6 +70,20 @@ sub process_dictionary {
 
         $lemmas{$lexeme->lemma}++;
 
+        if ($lexeme->lemma =~ /^\p{Uppercase}/) {
+            # The lexeme itself is capitalized.
+            $capitalized++;
+            if (not $lexeme->source_lexeme) {
+                # And it is a root.
+                $capitalized_roots++;
+
+                if (scalar($lexeme->get_derived_lexemes) == 0) {
+                    # And it is a singleton.
+                    $capitalized_singletons++;
+                }
+            }
+        }
+
         my $deriv_creator = $lexeme->source_lexeme ? ($lexeme->get_derivation_creator() || 'unknown') : 'no parent';
         $deriv_creators_cnt{$deriv_creator}++;
     }
@@ -76,6 +95,10 @@ sub process_dictionary {
         print "    $pos $pos_cnt{$pos}\n";
     }
     print "  Number of lemmas: " . scalar(keys %lemmas) . "\n";
+
+    print "  Number of lexemes starting with a capital letter: $capitalized\n";
+    print "  Number of roots starting with a capital letter: $capitalized_roots\n";
+    print "  Number of singletons starting with a capital letter: $capitalized_singletons\n";
 
     print "\nDERIVATIVE RELATIONS BETWEEN LEXEMES\n";
     print "  Total number of derivative relations: $relations_cnt\n";
