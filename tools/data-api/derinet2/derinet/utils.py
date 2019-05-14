@@ -98,6 +98,11 @@ def format_kwstring(d):
     if not isinstance(d, list):
         raise TypeError("d must be a list of dicts")
 
+    for item in d:
+        if not isinstance(item, dict):
+            # import pdb; pdb.set_trace()
+            raise TypeError("d must be a list of dicts")
+
     if len(d) == 0:
         return ""
     else:
