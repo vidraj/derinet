@@ -138,11 +138,19 @@ class Lexicon(object):
                 if not lemma:
                     raise DerinetFileParseError("Empty lemma encountered in lexeme ID {} on line {} '{}'".format(this_id_str, line_nr, line))
 
+                misc = {"techlemma": techlemma}
 
                 # FIXME parse out the xC POSes and store the information in misc. But first write a test for it.
+                if len(pos) > 1:
+                    extra_pos_bits = pos[1:]
+                    pos = pos[0]
+                    if "C" in extra_pos_bits:
+                        misc["is_compound"] = True
+                    if "U" in extra_pos_bits:
+                        misc["is_nonderived"] = True
 
                 # Create the lexeme itself, without any links.
-                lexeme = self.create_lexeme(lemma, pos, misc={"techlemma": techlemma})
+                lexeme = self.create_lexeme(lemma, pos, misc=misc)
 
                 # Record the lexeme ID for creating the links in the future.
                 id_map[this_id] = lexeme

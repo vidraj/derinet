@@ -486,6 +486,34 @@ class TestLexicon(unittest.TestCase):
 
         self.assertSetEqual({"psí", "psíčkař", "Pšikal", "psík", "Pšikovová", "Psík"}, lemmas)
 
+    def test_parse_extra_pos(self):
+        """
+        The xC and xU should be parsed and the extra annotation stored into misc.
+        """
+        db = """0	zelenomodrý	zelenomodrý	AC	
+1	text	text	NU	
+"""
+        db_file_in = io.StringIO(db)
+        lexicon = Lexicon()
+        lexicon.load(db_file_in, fmt=Format.DERINET_V1)
+
+        z = lexicon.get_lexemes("zelenomodrý")
+        self.assertEqual(len(z), 1)
+        self.assertEqual(z[0].pos, "A")
+        self.assertIn("is_compound", z[0].misc)
+        self.assertIs(z[0].misc["is_compound"], True)
+
+        self.assertFalse("is_nonderived" in z[0].misc and z[0].misc["is_nonderived"])
+
+        t = lexicon.get_lexemes("text")
+        self.assertEqual(len(t), 1)
+        self.assertEqual(t[0].pos, "N")
+        self.assertIn("is_nonderived", t[0].misc)
+        self.assertIs(t[0].misc["is_nonderived"], True)
+
+        self.assertFalse("is_compound" in t[0].misc and t[0].misc["is_compound"])
+
+
 
 if __name__ == '__main__':
     unittest.main()
