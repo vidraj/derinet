@@ -140,7 +140,6 @@ class Lexicon(object):
 
                 misc = {"techlemma": techlemma}
 
-                # FIXME parse out the xC POSes and store the information in misc. But first write a test for it.
                 if len(pos) > 1:
                     extra_pos_bits = pos[1:]
                     pos = pos[0]
@@ -252,20 +251,24 @@ class Lexicon(object):
 
                 feats_list = parse_kwstring(feats)
                 if len(feats_list) == 0:
-                    feats = []
+                    feats = {}
                 elif len(feats_list) == 1:
                     feats = feats_list[0]
                 else:
                     raise DerinetFileParseError() # TODO Write a proper error message.
+
                 segmentation = parse_kwstring(segmentation)
+
                 reltype_list = parse_kwstring(reltype)
                 if len(reltype_list) == 0:
-                    reltype = []
+                    reltype = {}
                 elif len(reltype_list) == 1:
                     reltype = feats_list[0]
                 else:
                     raise DerinetFileParseError() # TODO Write a proper error message.
+
                 otherrels = parse_kwstring(otherrels)
+
                 try:
                     misc = json.loads(misc)
                 except json.decoder.JSONDecodeError:
