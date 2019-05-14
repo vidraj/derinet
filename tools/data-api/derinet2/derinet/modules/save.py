@@ -11,6 +11,7 @@ class Save(Block):
         lexicon.save(self.file, fmt=self.format)
         return lexicon
 
+    @staticmethod
     def parse_args(args):
         parser = argparse.ArgumentParser(
             prog=__class__.__name__,

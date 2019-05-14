@@ -117,6 +117,7 @@ class AddRootMorphemesFromFile(Block):
             
         pass
 
+    @staticmethod
     def parse_args(args):
         """Parse a list of strings containing the arguments, pick the relevant
         ones from the beginning and leave the rest be. Return the parsed args
