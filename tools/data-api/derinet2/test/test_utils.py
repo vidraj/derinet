@@ -228,6 +228,13 @@ class TestUtils(unittest.TestCase):
             d
         )
 
+    def test_techlemma_to_lemma(self):
+        self.assertEqual("ninety", u.techlemma_to_lemma("ninety`90"))
+        self.assertEqual("bank", u.techlemma_to_lemma("bank-1"))
+        self.assertEqual("Aachen", u.techlemma_to_lemma("Aachen_;S"))
+        self.assertEqual("Aaheimův", u.techlemma_to_lemma("Aaheimův-1_;S_^(*4-1)"))
+        self.assertEqual("čtrnácteronásobnost", u.techlemma_to_lemma("čtrnácteronásobnost`14_,s_^(*3ý)"))
+
 
 if __name__ == '__main__':
     unittest.main()

@@ -169,3 +169,10 @@ def range_overlaps(a, b):
 
     # None of the above.
     return False
+
+
+def techlemma_to_lemma(techlemma):
+    """Cut off the technical suffixes from the string techlemma and return the raw lemma"""
+    shortlemma = re.sub("[_`].+", "", techlemma)
+    lemma = re.sub("-\d+$", "", shortlemma)
+    return lemma
