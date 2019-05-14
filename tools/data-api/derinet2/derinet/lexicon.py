@@ -257,7 +257,7 @@ class Lexicon(object):
                 else:
                     raise DerinetFileParseError() # TODO Write a proper error message.
 
-                segmentation = parse_kwstring(segmentation)
+                morph_list = parse_kwstring(segmentation)
 
                 reltype_list = parse_kwstring(reltype)
                 if len(reltype_list) == 0:
@@ -274,7 +274,25 @@ class Lexicon(object):
                 except json.decoder.JSONDecodeError:
                     raise DerinetFileParseError("Couldn't parse the JSON-encoded misc section of lexeme {} at line {} '{}'".format(lex_id_str, line_nr, line))
 
-                lexeme = self.create_lexeme(lemma, pos, lemid=lemid, feats=feats, segmentation=segmentation, misc=misc)
+                lexeme = self.create_lexeme(lemma, pos, lemid=lemid, feats=feats, misc=misc)
+
+                # Add the segmentation.
+                for morph in morph_list:
+                    if "start" not in morph:
+                        raise DerinetFileParseError("Morph specification '{}' on line nr. {} doesn't include its start".format(morph, line_nr))
+                    if "end" not in morph:
+                        raise DerinetFileParseError("Morph specification '{}' on line nr. {} doesn't include its end".format(morph, line_nr))
+
+                    try:
+                        morph["start"] = int(morph["start"])
+                    except ValueError:
+                        raise DerinetFileParseError("Morpheme start '{}' on line nr. {} is not integral".format(morph["start"], line_nr))
+                    try:
+                        morph["end"] = int(morph["end"])
+                    except ValueError:
+                        raise DerinetFileParseError("Morpheme end '{}' on line nr. {} is not integral".format(morph["start"], line_nr))
+
+                    lexeme.add_morph(morph["start"], morph["end"], morph)
 
                 # We already know that the ID wasn't encountered previously.
                 id_map[lex_id] = lexeme
@@ -459,7 +477,7 @@ class Lexicon(object):
             if close_at_end:
                 data_sink.close()
 
-    def create_lexeme(self, lemma: str, pos: str, lemid: str = None, feats=None, segmentation=None, misc: dict = None):
+    def create_lexeme(self, lemma: str, pos: str, lemid: str = None, feats=None, misc: dict = None):
         """
         Create a new Lexeme and add it to the database as a root of a new tree.
 
@@ -479,7 +497,7 @@ class Lexicon(object):
                 as keys and dicts, lists or primitive types as values.
         :return: The new lexeme.
         """
-        lexeme = Lexeme(lemma, pos, lemid, feats, segmentation, misc)
+        lexeme = Lexeme(lemma, pos, lemid, feats, misc)
 
         # Add the lexeme to the datastore.
         self._data.append(lexeme)

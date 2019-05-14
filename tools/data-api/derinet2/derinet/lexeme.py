@@ -43,12 +43,11 @@ class Lexeme(object):
         "misc"
     ]
 
-    def __init__(self, lemma, pos, lemid=None, feats=None, segmentation=None, misc=None):
+    def __init__(self, lemma, pos, lemid=None, feats=None, misc=None):
         assert isinstance(lemma, str)
         assert len(lemma) > 0
         assert isinstance(pos, str)
         assert lemid is None or isinstance(lemid, str)
-        assert segmentation is None or isinstance(segmentation, list)
         assert misc is None or isinstance(misc, dict)
 
         self._lemid = lemid if lemid is not None else "{}#{}".format(lemma, pos)
@@ -60,8 +59,7 @@ class Lexeme(object):
         # segmentation, otherrels = a set of dicts
 
         self._feats = feats if feats is not None else {}
-        # TODO check that the passed segmentation is correct if we use it.
-        self._segmentation = segmentation if segmentation is not None else {
+        self._segmentation = {
             "boundaries": {},
             "morphs": [{
                 "type": "implicit",
