@@ -31,7 +31,7 @@ class AddSemanticRelationLabels(Block):
                 fields = line.rstrip("\n").split("\t")
                 assert len(fields) == 4
                 parent_lemmapos, child_lemmapos, label, prob_str = fields
-                label = label.lower()
+                label = label.title()
 
                 try:
                     parent_lexemes = self.get_lexemes_for_lemmapos(lexicon, parent_lemmapos)
@@ -59,7 +59,7 @@ class AddSemanticRelationLabels(Block):
                     continue
                 else:
                     parent_lexeme, child_lexeme = valid_pairs[0]
-                    child_lexeme.parent_relation.type["semantic-label"] = label
+                    child_lexeme.parent_relation.type["SemanticLabel"] = label
 
         return lexicon
 
