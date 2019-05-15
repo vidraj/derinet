@@ -9,6 +9,7 @@ from sklearn.metrics import accuracy_score
 from sklearn.metrics import recall_score
 from sklearn.metrics import precision_score
 from sklearn.metrics import f1_score
+from sklearn.metrics import confusion_matrix
 
 
 # load data and create vector of prediction and true_prediction
@@ -34,6 +35,8 @@ print('All predicted data acc:', accuracy_score(data_true, data_pred))
 print('All predicted data pre:', precision_score(data_true, data_pred, average='macro'))
 print('All predicted data rec:', recall_score(data_true, data_pred, average='macro'))
 print('All predicted data f1m:', f1_score(data_true, data_pred, average='macro'))
+print('All CMX: [aspect diminutive female iterative none possessive]')
+print(confusion_matrix(data_true, data_pred))
 print()
 
 

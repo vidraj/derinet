@@ -5,6 +5,13 @@ All predicted data acc: 0.971
 All predicted data pre: 0.9623993647356567
 All predicted data rec: 0.9638336676823295
 All predicted data f1m: 0.9623516600299702
+All CMX: [aspect diminutive female iterative none possessive]
+[[170   0   0   4   0   0]
+ [  0  62   1   0   1   0]
+ [  0   0 296   0  39   0]
+ [  3   0   0 135   0   0]
+ [  1   4   3   0 374   1]
+ [  0   0   0   0   1 905]]
 
 POSSESSIVE pre: 0.9989910852290842
 POSSESSIVE rec: 0.9989910852290842
