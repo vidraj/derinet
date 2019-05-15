@@ -1,5 +1,6 @@
 import unittest
 from derinet.lexeme import Lexeme
+from derinet.utils import DerinetError
 
 
 class TestLexeme(unittest.TestCase):
@@ -81,17 +82,51 @@ class TestLexeme(unittest.TestCase):
             # noinspection PyDunderSlots,PyUnresolvedReferences
             a.nonexistent_attribute = True  # pylint: disable=assigning-non-slot
 
+    def test_feat_add(self):
+        a = Lexeme("cat", "N")
+        a.add_feature("Animacy", "Anim")
+
+        self.assertEqual("Anim", a.feats["Animacy"])
+        self.assertEqual(1, len(a.feats))
+
+    def test_feat_del(self):
+        a = Lexeme("cat", "N")
+        a.add_feature("Animacy", "Anim")
+        a.add_feature("Animacy", None)
+
+        self.assertNotIn("Animacy", a.feats)
+
+    def test_feat_del_nonexistent(self):
+        a = Lexeme("cat", "N")
+        a.add_feature("Animacy", None)
+        self.assertNotIn("Animacy", a.feats)
+
+    def test_feat_add_multiple_same(self):
+        a = Lexeme("cat", "N")
+        a.add_feature("Animacy", "Anim")
+        a.add_feature("Animacy", "Anim")
+
+        self.assertEqual("Anim", a.feats["Animacy"])
+
+    def test_feat_add_multiple_different(self):
+        a = Lexeme("cat", "N")
+        a.add_feature("Animacy", "Anim")
+        with self.assertRaises(DerinetError):
+            a.add_feature("Animacy", "Inan")
+
+        self.assertEqual("Anim", a.feats["Animacy"])
+
     # # TODO Test parent relations, child relations etc.
     # def test_setting_parent_relation(self):
     #     # TODO maybe these tests shouldn't be here? If we set the relations through the API of Relation,
     #     #  maybe we should check through that, as there is little checkable code here anyway?
     #     raise NotImplementedError()
 
-    def test_get_tree_root(self):
-        raise NotImplementedError()
-
-    def test_iter_subtree(self):
-        raise NotImplementedError()
+    # def test_get_tree_root(self):
+    #     raise NotImplementedError()
+    #
+    # def test_iter_subtree(self):
+    #     raise NotImplementedError()
 
 
 if __name__ == '__main__':

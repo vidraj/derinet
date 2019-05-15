@@ -405,3 +405,17 @@ class Lexeme(object):
         else:
             # The position was not recorded yet. Return the default.
             return default
+
+    def add_feature(self, feature, value):
+        if value is None:
+            if feature in self._feats:
+                self._feats.pop(feature)
+            return
+
+        if feature in self._feats:
+            if self._feats[feature] == value:
+                return
+            else:
+                raise DerinetError("The feature '{}' is already present in lexeme {}".format(feature, self))
+        else:
+            self._feats[feature] = value
