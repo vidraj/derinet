@@ -122,6 +122,10 @@ def parse_kwstring(s: str):
             inner_dict = {}
             for eqstring in dict_str.split("&"):
                 k, v = eqstring.split("=", maxsplit=1)
+
+                if k in inner_dict:
+                    raise ValueError("Key {} encountered twice".format(k))
+
                 inner_dict[k] = v
             l.append(inner_dict)
 

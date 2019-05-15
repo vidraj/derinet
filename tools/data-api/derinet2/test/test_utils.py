@@ -228,6 +228,13 @@ class TestUtils(unittest.TestCase):
             d
         )
 
+    def test_parse_kwstring_duplicate_key(self):
+        self.assertRaises(
+            ValueError,
+            u.parse_kwstring,
+            "k1=v1&k1=v2"
+        )
+
     def test_techlemma_to_lemma(self):
         self.assertEqual("ninety", u.techlemma_to_lemma("ninety`90"))
         self.assertEqual("bank", u.techlemma_to_lemma("bank-1"))
