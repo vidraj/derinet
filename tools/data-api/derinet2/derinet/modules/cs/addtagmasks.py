@@ -168,8 +168,17 @@ class AddTagMasks(Block):
             features = self.term_feature_map[term]
             for k, v in features.items():
                 if k in all_features and all_features[k] != v:
-                    logger.warning("Key {} defined multiple times in techlemma {}".format(k, techlemma))
-                    all_features[k] = None
+                    if k == "NameType" and {all_features[k], v} == {"Giv", "Sur"}:
+                        # Officially: "This value is used if it is not known
+                        #  whether it is a given or a family name, but it is
+                        #  known that it is a personal name."
+                        #  So it is not quite what we want, but close enough.
+                        logger.info("Techlemma {} can be both Giv and Sur, setting it to the general Prs".format(techlemma))
+                        v = "Prs"
+                    else:
+                        logger.warning("Key {} defined multiple times in techlemma {} with values {} and {}".format(k, techlemma, all_features[k], v))
+                        all_features[k] = None
+                        continue
                 all_features[k] = v
 
         # Style: _, followed by a letter.
@@ -181,8 +190,9 @@ class AddTagMasks(Block):
             features = self.style_feature_map[style]
             for k, v in features.items():
                 if k in all_features and all_features[k] != v:
-                    logger.warning("Key {} defined multiple times in techlemma {}".format(k, techlemma))
+                    logger.warning("Key {} defined multiple times in techlemma {} with values {} and {}".format(k, techlemma, all_features[k], v))
                     all_features[k] = None
+                    continue
                 all_features[k] = v
 
         return all_features
