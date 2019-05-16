@@ -17,8 +17,8 @@ derinet-1-7-tag-masks.tsv: derinet-1-7.tsv tag-masks.tsv
 		cs.GenerateFakeTagMasks \
 		Save "$@" > log-tag-masks 2>&1
 
-tag-masks.tsv: ../../../data-api/perl-derivmorpho/derinet09/lemmas_from_morfflex.tsv ../../../data-api/perl-derivmorpho/derinet09/extra_lemmas.tsv
-	cut -f1,2 $^ > "$@"
+tag-masks.tsv: ../../../data-api/perl-derivmorpho/derinet-1-3b.tsv
+	cut -f3,4 "$<" > "$@"
 
 prepare-root-segmentations/induced-segmentations.tsv:
 	$(MAKE) -C prepare-root-segmentations induced-segmentations.tsv
