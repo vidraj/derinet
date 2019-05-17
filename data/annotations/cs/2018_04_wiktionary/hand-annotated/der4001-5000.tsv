@@ -36,7 +36,7 @@
 §	auditor–N	audit–N						
 §	komsomolec–N	Komsomol–N		%				
 \	strana–N–strana-1_^(v_prostoru)	odstranit–V		stranit				
-§	hořet–V	horký–A						
+\	hořet–V	horký–A						
 	psychický–A	psychóza–N						
 	pod–A	spodní–A						
 	slupka–N	šlupka–N						
@@ -181,7 +181,7 @@
 \	jímat–V	zajímat–V	jmout	zajmout				
 \	národ–N	znárodnit–V	narodit	národní				
 	žlutý–A	žluč–N						
-\	voj–N	Slavoj–N–Slavoj-1_;Y	vést					
+\	voj–N	Slavoj–N–Slavoj-1_;Y						
 §	pikle–N	pikel–N						
 \	div–N	obdivovat–V		divit				
 \	lnout–V	přilnavý–A		přilnout				
@@ -961,7 +961,7 @@
 	vítr–N	povětroň–N						
 	vítr–N	závětří–N						
 	vláda–N	bezvládí–N	vládnout					
-\	voj–N	vévoda–N	vést	%				
+\	voj–N	vévoda–N		%				
 	Vojtěch–N	Vojtíšek–N						
 	Volha–N	Povolží–N						
 \	volič–N	prvovolič–N		%				
@@ -989,7 +989,7 @@
 	zlatý–N	zlatulenký–A						
 	znak–N	naznak–D						
 	znát–V	známý–A						
-	zrcadlo–N	zrcátko–N	zřít					
+	zrcadlo–N	zrcátko–N						
 	zřít–V	zřitel–N						
 \	ztékat–V	zteč–N		ztéci				
 \	zub–N	kolozubý–A		%				

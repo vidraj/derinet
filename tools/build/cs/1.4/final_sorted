@@ -1890,7 +1890,6 @@
 135120	dožehlovat	dožehlovat_:T	V	135110	dožehlit_:W
 135140	doželatinovat	doželatinovat_:W	V	996869	želatinovat_:T_:W
 135163	dožhavit	dožhavit_:W	V	997768	žhavit_:T
-135177	dožínat	dožínat_:T	V	135215	dožít_:W
 135201	dožírat	dožírat_:T	V	135296	dožrat_:W
 135215	dožít	dožít_:W	V	998563	žít_:T
 135226	dožívat	dožívat_:T_^(*3t)	V	135215	dožít_:W
@@ -5586,7 +5585,6 @@
 427596	oslavit	oslavit_:W	V	655793	slavit_:T
 427614	oslavovat	oslavovat_:T	V	427596	oslavit_:W
 427641	oslazovat	oslazovat_:T	V	427555	osladit_:W
-427661	oslepit	oslepit_:W	V	656127	slepit_:W
 427669	oslepnout	oslepnout_:W	V	656132	slepnout_:T
 427686	oslepovat	oslepovat_:T	V	427661	oslepit_:W
 427714	oslinit	oslinit_:W	V	656604	slinit_:T
@@ -7168,7 +7166,6 @@
 498060	pozpřeházet	pozpřeházet_:W	V	978725	zpřeházet_:W
 498072	pozrušit	pozrušit_:W	V	983840	zrušit_:W
 498082	pozrušovat	pozrušovat_:W	V	983850	zrušovat_:T
-498099	pozřít	pozřít_:W	V	984724	zřít_:T
 498108	pozřizovat	pozřizovat_:W	V	984776	zřizovat_:T
 498125	poztrácet	poztrácet_:W	V	986706	ztrácet_:T
 498138	pozúčtovat	pozúčtovat_:W	V	988505	zúčtovat_:W
@@ -14391,7 +14388,7 @@
 799651	vpíchat	vpíchat_:W	V	455013	píchat_:T
 799667	vpíchnout	vpíchnout_:W	V	455060	píchnout_:W
 799704	vpíjet	vpíjet_:T	V	799789	vpít_:W
-799730	vpínat	vpínat_:T	V	799789	vpít_:W
+799730	vpínat	vpínat_:T	V	799789	vepnout
 799789	vpít	vpít_:W	V	457529	pít_:T
 799821	vplácet	vplácet_:T	V	799860	vplatit_:W
 799860	vplatit	vplatit_:W	V	458992	platit_:T
@@ -14808,7 +14805,7 @@
 811551	vycumlat	vycumlat_:W	V	73289	cumlat_:T
 811571	vycupat	vycupat_:W	V	73387	cupat_:T
 811591	vycupitat	vycupitat_:W	V	73418	cupitat_:T
-811631	vycupovat	vycupovat_:T_,s	V	811571	vycupat_:W
+811631	vycupovat	vycupovat_:T_,s	V	811571	cupovat
 811671	vycvakat	vycvakat_:W	V	73694	cvakat_:T
 811691	vycválat	vycválat_:W	V	73730	cválat_:T
 811710	vycvičit	vycvičit_:W	V	73863	cvičit_:T
@@ -20018,7 +20015,6 @@
 927139	zažhnout	zažhnout_:W	V	997799	žhnout_:T
 927175	zažihlit	zažihlit_:W_,n	V	998078	žihlit_:T_,e_,n
 927177	zažíhnout	zažíhnout_:W_,s	V	927157	zažíhat_:T
-927199	zažínat	zažínat_:T_,n	V	927250	zažít_:W
 927220	zažírat	zažírat_:T	V	927447	zažrat_:W
 927235	zažířit	zažířit_:W_,s	V	998471	žířit_,s
 927250	zažít	zažít_:W	V	998563	žít_:T

@@ -127,7 +127,7 @@ Valencien	N
 zakladač	NNM
 
 # Required by other modules
-komparz	NN
+komparz	NNI??-----A---?
 druhý	AA
 tisící	AA
 desetitisící	AA
@@ -1317,3 +1317,6 @@ rozumazávat	V
 uskupit	V
 vařívávat	V
 vyblejt	V
+
+# Discovered when annotating the morphological roots.
+zažnout	V
