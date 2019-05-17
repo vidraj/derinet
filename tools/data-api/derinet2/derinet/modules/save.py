@@ -1,37 +1,33 @@
-from derinet.modules.block import Block
+from derinet import Block, Format, Lexicon
+import argparse
+
 
 class Save(Block):
-    def __init__(self, args):
-        if "file" not in args:
-            raise ValueError("Argument 'file' must be supplied.")
-        else:
-            self.fname = args["file"]
+    def __init__(self, file, format=Format.DERINET_V2):
+        self.file = file
+        self.format = format
 
-        if "version" in args:
-            self.version = int(args["version"])
-        else:
-            self.version = 2
+    def process(self, lexicon: Lexicon):
+        lexicon.save(self.file, fmt=self.format)
+        return lexicon
 
-        if "morph_source" in args:
-            self.morph_source = args["morph_source"]
-        else:
-            self.morph_source = None
+    @staticmethod
+    def parse_args(args):
+        parser = argparse.ArgumentParser(
+            prog=__class__.__name__,
+            formatter_class=argparse.ArgumentDefaultsHelpFormatter
+        )
 
-    def process(self, derinet):
-        # TODO assert that there are no arguments other than "file" in self.args.
-        if self.version == 1:
-            with open(self.fname, 'wt', encoding='utf8') as f:
-                for lexeme in derinet.iter_lexemes():
-                    if self.morph_source is None:
-                        techlemma = lexeme.techlemma
-                    else:
-                        if "segmentation" in lexeme.misc and self.morph_source in lexeme.misc["segmentation"]:
-                            techlemma = '‧'.join(lexeme.misc["segmentation"][self.morph_source]["segments"])
-                        else:
-                            techlemma = lexeme.lemma
-                    print("{}\t{}\t{}\t{}\t{}".format(lexeme.lex_id, lexeme.lemma, techlemma, lexeme.pos, lexeme.parent_id if lexeme.parent_id is not None else ""), file=f)
-        elif self.version == 2:
-            derinet.save(self.fname)
-        else:
-            raise ValueError("Unknown version {}.".format(self.version))
-        return derinet
+        known_formats = {fmt.name: fmt for fmt in Format}
+
+        parser.add_argument("-f", "--format", choices=known_formats.keys(), default=Format.DERINET_V2.name, help="The format of the file to save.")
+        parser.add_argument("file", help="The file to save to.")
+        parser.add_argument("rest", nargs=argparse.REMAINDER, help="A list of other modules and their arguments.")
+
+        args = parser.parse_args(args)
+
+        fmt = known_formats.get(args.format)
+
+        file = args.file
+
+        return [file], {"format": fmt}, args.rest

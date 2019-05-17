@@ -120,7 +120,7 @@ sub save {
             print $F join("\t",($lexeme->{_id},
                                 $lexeme->lemma,
                                 $lexeme->mlemma || '',
-#                                 $lexeme->tag || ($lexeme->pos . '??????????????') || '',
+                                $lexeme->tag || ($lexeme->pos . '??????????????') || '',
                                 $lexeme->pos || '',
                                 $source_lexeme_number,
                                 ($lexeme->deriv_type || '' ),

@@ -1,1 +1,15 @@
+# Ignore IDE files and config.
+/.idea/
+/derinet2.iml
+
+# Ignore the profiling and benchmarking outputs.
+/profile-*.pyprof
+/*.pkl
+
+# Ignore cached Python compilation output.
 __pycache__/
+
+# Ignore coverage.py files.
+/.coverage
+/htmlcov/
+*.py,cover

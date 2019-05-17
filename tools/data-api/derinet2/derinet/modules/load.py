@@ -1,30 +1,33 @@
-from derinet.modules.block import Block
-from derinet import DeriNet
+from derinet import Block, Format, Lexicon
+import argparse
 
-import logging
-
-logging.basicConfig(level=logging.DEBUG,
-                    format='%(asctime)s %(levelname)-8s %(message)s',
-                    datefmt='%a, %d %b %Y %H:%M:%S')
-
-logger = logging.getLogger(__name__)
 
 class Load(Block):
-    def __init__(self, args):
-        if "file" not in args:
-            raise ValueError("Argument 'file' must be supplied.")
-        else:
-            self.fname = args["file"]
+    def __init__(self, file, format=Format.DERINET_V2):
+        self.file = file
+        self.format = format
 
-            # We'll pass the other arguments to the DeriNet constructor.
-            #  Therefore, delete 'file' as it is passed separately as 'fname'.
-            del args["file"]
+    def process(self, lexicon: Lexicon):
+        lexicon.load(self.file, fmt=self.format)
+        return lexicon
 
-            self.args = args
+    @staticmethod
+    def parse_args(args):
+        parser = argparse.ArgumentParser(
+            prog=__class__.__name__,
+            formatter_class=argparse.ArgumentDefaultsHelpFormatter
+        )
 
-    def process(self, derinet):
-        if derinet is not None:
-            logger.warning("You are throwing the previous database away by loading a new one from '{}'.".format(self.fname))
+        known_formats = {fmt.name: fmt for fmt in Format}
 
-        derinet = DeriNet(fname=self.fname, **self.args)
-        return derinet
+        parser.add_argument("-f", "--format", choices=known_formats, default=Format.DERINET_V2.name, help="The format of the file to load.")
+        parser.add_argument("file", help="The file to load.")
+        parser.add_argument("rest", nargs=argparse.REMAINDER, help="A list of other modules and their arguments.")
+
+        args = parser.parse_args(args)
+
+        fmt = known_formats.get(args.format)
+
+        file = args.file
+
+        return [file], {"format": fmt}, args.rest

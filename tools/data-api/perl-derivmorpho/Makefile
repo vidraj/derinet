@@ -13,7 +13,7 @@ export MORFFLEX
 
 release: derinet-$(RELVER).tsv
 derinet-%.tsv: derinet-%b.tsv
-	cut -f1-5 "$<" > "$@"
+	cut -f1-3,5-6 "$<" > "$@"
 
 
 build: derinet-1-3b.tsv

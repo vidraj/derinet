@@ -1,5 +1,5 @@
-import importlib
-from derinet.utils import DeriNetError
+from .lexicon import Lexicon
+from .utils import DerinetError
 import logging
 
 logging.basicConfig(level=logging.DEBUG,
@@ -8,59 +8,56 @@ logging.basicConfig(level=logging.DEBUG,
 
 logger = logging.getLogger(__name__)
 
+
 class Scenario:
+    __slots__ = [
+        "_modules"
+    ]
 
     def __init__(self, modules):
-        """Initialize a scenario using either a list of tuples – module specifiers, each containing a module name and a dictionary of its arguments.
+        """
+        Initialize a scenario using a list of Blocks.
 
-        >>> modules = [("Load", {"file": "in.tsv"}), ("Save", {"format": "2", "file": "out.tsv"})]
-        >>> Scenario(modules)    # doctest: +ELLIPSIS
-        <scenario.Scenario object at 0x...>"""
-        self.modules = modules
+        :param modules: A list of Blocks
+        """
+        self._modules = modules
 
-    def process(self, derinet=None):
+    def process(self, lexicon=None, keep_going=False):
+        """
+        Process the scenario by threading `lexicon` through the specified list
+        of Blocks.
 
-        # Initialize all modules.
-        modules = []
-        for module_name, module_args in self.modules:
-            # The file name is simply lowercased module name.
-            module_file_name = module_name.lower()
-            # The class name is the last component of the module name.
-            class_name = module_name.split(".")[-1]
+        :param lexicon: The lexicon to pass to the first Block.
+        :param keep_going: If set, continue execution when a DerinetError is
+                raised in a Block.
+        :return: The lexicon, as returned by the last Block.
+        """
+        scenario = self._modules
 
-            arg_string = " ".join(["{}={}".format(k, v) for k, v in sorted(module_args.items())])
-            logger.info('Initializing {}/{} {}.'.format(module_file_name, class_name, arg_string))
+        logger.info("Processing a scenario of {} modules.".format(len(scenario)))
 
-            # Import the module.
-            mdl = 'derinet.modules.{}'.format(module_file_name)
-            module = importlib.import_module(mdl)
-
-            # Create an instance of its main class.
-            module_class = getattr(module, class_name)
-            module_instance = module_class(module_args)
-
-            # Store the initialized module.
-            modules.append(module_instance)
-
-        logger.info('Initialization done.')
+        if lexicon is None:
+            lexicon = Lexicon()
 
         # Run all instances.
-        for instance in modules:
-            # Set the arg_string and class_name (or even module_name) as a property of derinet.
+        for i, instance in enumerate(scenario, start=1):
+            logger.info("Running module {} ({}/{}).".format(instance.signature, i, len(scenario)))
+
+            # Set the arg_string and class_name (or even module_name) as a property of the lexicon.
             #  That way, we don't have to pass the signature to every derinet method manually,
-            #  no-one forgets about it and it is all clean, without stack inpection and other nasty
+            #  no-one forgets about it and it is all clean, without stack inspection and other nasty
             #  hacks.
-            if derinet is not None:
-                # The derinet object may be None for the first module in the pipeline.
-                #  FIXME in that case, we should set the execution context somewhere else!
-                #  But where and how?
-                derinet.set_execution_context((module_name, arg_string))
+            # lexicon.set_execution_context(instance.signature)
 
             try:
-                derinet = instance.process(derinet)
-            except DeriNetError as e:
+                lexicon = instance.process(lexicon)
+            except DerinetError as e:
                 logger.error(e)
+                if not keep_going:
+                    raise
 
-            logger.info('Module {} processed.'.format(instance.signature))
+            logger.info('Module {} finished.'.format(instance.signature))
 
-        return derinet
+        logger.info("Scenario processed.")
+
+        return lexicon

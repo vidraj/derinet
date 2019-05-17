@@ -1,88 +1,9 @@
 import re
-from collections import namedtuple
+from typing import Tuple
 
-# a simple structure to represent a node
-Node = namedtuple('Node',
-                  ['lex_id', # internal reference for the node
-                   'pretty_id', # more readable hierarchical id
-                   'lemma',
-                   'morph',
-                   'pos',
-                   'tag_mask',
-                   'parent_id',
-                   'composition_parents', # list of pairs of parents that compose
-                   'misc', # miscellaneous information about the node in the JSON format
-                   'children',  # these are actual children nodes, not ids
-                   ])
-
-
-def safe_str(line):
-    if line is None:
-        return ''
-    return line
-
-
-def no_parent(parent_id_or_node):
-    if isinstance(parent_id_or_node, Node):
-        parent_id = parent_id_or_node.parent_id
-    else:
-        parent_id = parent_id_or_node
-    return parent_id == '' or parent_id is None
-
-
-def pretty_lexeme(node, pos=None, morph=None):
+class DerinetError(Exception):
     """
-    Converts the specified lexeme to a string.
-    :param node: Either a string containing the lemma, or a Node to print.
-    :param pos: If node is a lemma string, then a string containing the part of speech tag. Otherwise None.
-    :param morph: If node is a lemma string, then a string containing the techlemma. Otherwise None.
-    :return: A string representation of the specified lexeme.
-    """
-    if isinstance(node, str):
-        lemma = node
-    elif isinstance(node, Node):
-        lemma = node.lemma
-        if pos is not None and morph is not None:
-            raise ValueError("pos and morph may only be filled if node is a string containing the lemma")
-        pos = node.pos
-        morph = node.morph
-    else:
-        raise ValueError("node must be either a lemma string or a Node")
-
-    items = [lemma]
-    for item in (pos, morph):
-        if item is not None:
-            items.extend([' ', item])
-
-    return '"{}"'.format(''.join(items))
-
-
-def partial_lexeme_match(node, lemma, pos, morph):
-    return all(item is None or node[field] == item
-               for field, item in (
-                   (1, lemma),
-                   (3, pos),
-                   (2, morph)
-               ))
-
-
-def flatten_list(l):
-    for el in l:
-        if isinstance(el, list) and not isinstance(el, (str, bytes)):
-            yield from flatten_list(el)
-        else:
-            yield el
-
-
-def techlemma_to_lemma(techlemma):
-    """Cut off the technical suffixes from the string techlemma and return the raw lemma"""
-    shortlemma = re.sub("[_`].+", "", techlemma)
-    lemma = re.sub("-\d+$", "", shortlemma)
-    return lemma
-
-
-class DeriNetError(Exception):
-    """The base class for all custom DeriNet errors.
+    The base class for all custom Derinet errors.
 
     It is defined so that you can safely catch all linguistic and annotation
     errors with a single `except` type statement, while not catching unintended
@@ -90,30 +11,172 @@ class DeriNetError(Exception):
     """
     pass
 
-class LexemeNotFoundError(DeriNetError):
+
+class DerinetFileParseError(DerinetError):
+    """
+    The exception raised when a Derinet file cannot be parsed while loading the lexicon.
+    """
     pass
 
 
-class ParentNotFoundError(LexemeNotFoundError):
+class DerinetCycleCreationError(DerinetError):
+    """
+    The exception created when an attempt of changing a relation forms a cycle
+    in the spanning tree of main relations.
+    """
     pass
 
 
-class AlreadyHasParentError(DeriNetError):
+class DerinetMorphError(DerinetError):
+    """
+    The exception raised when an incorrect morph is identified in a lexeme.
+    For example, when the morph boundaries are out of range or when the morph
+    overlaps another morph.
+    """
     pass
 
 
-class CycleCreationError(DeriNetError):
-    pass
+def parse_v1_id(val: str) -> int:
+    """
+    Parse a textual representation of a DeriNet-1.X ID to an integer.
+
+    :param val: a string containing the ID
+    :return: an integer representing the same ID
+    """
+    num = int(val)
+    if num < 0:
+        raise ValueError("ID must be a positive integer, is '{}'".format(val))
+    return num
 
 
-class UnknownFileVersion(DeriNetError):
-    pass
+v2_id_regex = re.compile(r"([0-9]+)\.([0-9]+)")
+def parse_v2_id(val: str) -> Tuple[int, int]:
+    """
+    Parse a textual representation of a DeriNet-2.X ID to a pair of integers.
+
+    :param val: a string containing the ID
+    :return: a tuple of two integers representing the same ID
+    """
+    match = v2_id_regex.fullmatch(val)
+    if match is None:
+        raise ValueError("ID must be a pair of two positive integers separated by a dot, is '{}'".format(val))
+
+    tree_id_str, lex_id_str = match.groups()
+    tree_id, lex_id = int(tree_id_str), int(lex_id_str)
+
+    # Check that the numbers are not overlong, i.e. 0001 is not allowed.
+    assert str(tree_id) == tree_id_str
+    assert str(lex_id) == lex_id_str
+
+    return tree_id, lex_id
 
 
-class LexemeAlreadyExistsError(DeriNetError):
-    """Thrown when adding a lexeme that was already defined in the database."""
-    pass
+def _sanitize_kwpair_item(x):
+    if isinstance(x, int):
+        return x
 
-class LexemeAmbiguousError(DeriNetError):
-    """Thrown when multiple lexemes match at a place where only one should match."""
-    pass
+    x = str(x)
+
+    for c in {"=", "&", "|"}:
+        if c in x:
+            raise ValueError("Illegal char '{}' in kwstring part '{}'".format(c, x))
+
+    return x
+
+
+def _format_kwpair(k, v):
+    k = _sanitize_kwpair_item(k)
+    v = _sanitize_kwpair_item(v)
+
+    return "{}={}".format(k, v)
+
+
+def format_kwstring(d):
+    if d is None:
+        return ""
+
+    if not isinstance(d, list):
+        raise TypeError("d must be a list of dicts")
+
+    for item in d:
+        if not isinstance(item, dict):
+            # import pdb; pdb.set_trace()
+            raise TypeError("d must be a list of dicts")
+
+    if len(d) == 0:
+        return ""
+    else:
+        return "|".join(
+            ["&".join([_format_kwpair(k, v) for k, v in sorted(inner_dict.items())]) for inner_dict in d]
+        )
+
+
+def parse_kwstring(s: str):
+    if s == "":
+        return []
+    else:
+        l = []
+        dict_strs = s.split("|")
+
+        for dict_str in dict_strs:
+            inner_dict = {}
+            for eqstring in dict_str.split("&"):
+                k, v = eqstring.split("=", maxsplit=1)
+
+                if k in inner_dict:
+                    raise ValueError("Key {} encountered twice".format(k))
+
+                inner_dict[k] = v
+            l.append(inner_dict)
+
+        return l
+
+
+def _valid_range(r):
+    if isinstance(r, tuple) and len(r) == 2 and r[0] < r[1]:
+        return True
+    else:
+        return False
+
+
+def range_overlaps(a, b):
+    """
+    Check whether range a overlaps range b in any way.
+
+    :param a: A tuple of (start, end)
+    :param b: A tuple of (start, end)
+    :return: True if there is overlap, False otherwise
+    """
+    if not _valid_range(a):
+        raise ValueError("Invalid range {}".format(a))
+    if not _valid_range(b):
+        raise ValueError("Invalid range {}".format(b))
+
+    a_start, a_end = a
+    b_start, b_end = b
+
+    # B starts inside A.
+    if a_start <= b_start < a_end:
+        return True
+
+    # B ends inside A.
+    if a_start < b_end <= a_end:
+        return True
+
+    # A starts inside B.
+    if b_start <= a_start < b_end:
+        return True
+
+    # A ends inside B.
+    if b_start < a_end <= b_end:
+        return True
+
+    # None of the above.
+    return False
+
+
+def techlemma_to_lemma(techlemma):
+    """Cut off the technical suffixes from the string techlemma and return the raw lemma"""
+    shortlemma = re.sub("[_`].+", "", techlemma)
+    lemma = re.sub("-\d+$", "", shortlemma)
+    return lemma
