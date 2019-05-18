@@ -1,0 +1,2 @@
+in tools/build/cs/2.00/prepare-root-segmentations
+make overlap > allomorph-overlap.tsv
