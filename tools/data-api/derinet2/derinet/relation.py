@@ -63,7 +63,7 @@ class Relation(object, metaclass=ABCMeta):  # Defining it as Relation(ABC) doesn
         while to_check:
             lexeme_to_check = to_check.pop()
             if lexeme_to_check == self.main_target:
-                raise DerinetCycleCreationError("Cyclic relation detected")
+                raise DerinetCycleCreationError("Cyclic relation detected between {} and {}".format(self.main_source, lexeme_to_check))
             if lexeme_to_check.parent_relation is not None:
                 to_check.extend(lexeme_to_check.parent_relation.sources)
 
