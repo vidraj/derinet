@@ -138,7 +138,10 @@ class Lexicon(object):
                 if not lemma:
                     raise DerinetFileParseError("Empty lemma encountered in lexeme ID {} on line {} '{}'".format(this_id_str, line_nr, line))
 
-                misc = {"techlemma": techlemma}
+                misc = {}
+
+                if techlemma:
+                    misc["techlemma"] = techlemma
 
                 if len(pos) > 1:
                     extra_pos_bits = pos[1:]
