@@ -51,7 +51,12 @@ class AddTagMasks(Block):
         # Grade.
         {},
         # Negation.
-        {},
+        {
+            "-": {"Polarity": None},
+            "A": {"Polarity": "Pos"},
+            "N": {"Polarity": "Neg"},
+            "?": {"Polarity": None}
+        },
         # Voice.
         {},
         # 13, 14: reserved
