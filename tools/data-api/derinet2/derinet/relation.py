@@ -40,6 +40,13 @@ class Relation(object, metaclass=ABCMeta):  # Defining it as Relation(ABC) doesn
                 ", ".join((str(p) for p in targets))
             ))
 
+        # Check that the sources and targets don't overlap.
+        if not set(sources).isdisjoint(targets):
+            raise DerinetCycleCreationError("The sets of sources [{}] and targets [{}] are not disjoint".format(
+                ", ".join((str(p) for p in sources)),
+                ", ".join((str(p) for p in targets))
+            ))
+
         # Check that the related lexemes are actually lexemes.
         assert isinstance(main_source, derinet.lexeme.Lexeme)
         assert isinstance(main_target, derinet.lexeme.Lexeme)

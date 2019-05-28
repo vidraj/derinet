@@ -1,6 +1,7 @@
 import unittest
 from derinet.lexeme import Lexeme
 import derinet.relation as r
+from derinet.utils import DerinetCycleCreationError
 
 
 class TestRelation(unittest.TestCase):
@@ -69,6 +70,21 @@ class TestRelation(unittest.TestCase):
 
         with self.assertRaises(ValueError):
             r.CompoundRelation((c, b), a, d)
+
+    def test_composition_target_in_sources(self):
+        a = Lexeme("cat", "N")
+        d = Lexeme("tomcat", "N")
+
+        with self.assertRaises(DerinetCycleCreationError):
+            r.CompoundRelation((d, a), a, d)
+
+    def test_relation_reflexive(self):
+        a = Lexeme("cat", "N")
+        b = Lexeme("kitten", "N")
+
+        with self.assertRaises(DerinetCycleCreationError):
+            r.DerivationalRelation(a, a)
+
 
     def test_dict_nonexistence(self):
         """
