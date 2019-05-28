@@ -383,8 +383,17 @@ class Lexicon(object):
             )
 
         try:
-            lex_id_map = {lexeme: i for i, lexeme in enumerate(self.iter_lexemes())}
-            for lexeme, i in lex_id_map.items():
+            # We're not sorting the items, because that would break identity
+            #  of the IDs between input and output files in case the IDs are
+            #  consecutive and start from 0. (If there are holes in the
+            #  numbering, the IDs won't stay the same anyway – the old format
+            #  is only partially supported by this new API.
+            # Also, we save the lexemes to a list so that the numbering stays
+            #  the same between runs. Today, this is guaranteed anyway, but that
+            #  may change in the future.
+            lexemes = list(self.iter_lexemes(sort=False))
+            lex_id_map = {lexeme: i for i, lexeme in enumerate(lexemes)}
+            for i, lexeme in enumerate(lexemes):
                 if lexeme.parent is not None:
                     parent_id = str(lex_id_map[lexeme.parent])
                 else:
