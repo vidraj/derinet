@@ -55,7 +55,13 @@ class AddSemanticRelationLabels(Block):
                     logger.error("Lexemes '{}' and '{}' are not derived from one another".format(parent_lemmapos, child_lemmapos))
                     continue
                 elif len(valid_pairs) > 1:
-                    logger.error("Relation '{}' -> '{}' is ambiguous".format(parent_lemmapos, child_lemmapos))
+                    logger.info("Relation '{}' -> '{}' is ambiguous, picking an arbitrary one".format(parent_lemmapos, child_lemmapos))
+                    for parent_lexeme, child_lexeme in valid_pairs:
+                        if "SemanticLabel" not in child_lexeme.parent_relation.type:
+                            child_lexeme.parent_relation.type["SemanticLabel"] = label
+                            break
+                    else:
+                        logger.warning("All pairs already have a label filled in. This label was therefore ignored.")
                     continue
                 else:
                     parent_lexeme, child_lexeme = valid_pairs[0]
