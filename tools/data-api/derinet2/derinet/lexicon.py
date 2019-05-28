@@ -502,8 +502,6 @@ class Lexicon(object):
         :param feats: Morphological features of the lexeme other than the part-of-speech tag, preferably
                 from the set of Universal features; see https://universaldependencies.org/u/feat/index.html
                 TODO specify the format.
-        :param segmentation: Specification of the internal morphological (morphematical) structure of the word.
-                TODO specify the format.
         :param misc: Other features not covered elsewhere. You can use this field for storing your own data
                 together with the lexemes. Make sure that the contents are serializable to JSON, i.e. strings
                 as keys and dicts, lists or primitive types as values.
