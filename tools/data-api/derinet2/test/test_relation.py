@@ -55,7 +55,7 @@ class TestRelation(unittest.TestCase):
 
         self.assertEqual(len(a.child_relations), 2)
         self.assertEqual(len(a.children), 2)
-        self.assertEqual(len(c.child_relations), 0)
+        self.assertEqual(len(c.child_relations), 1)
         self.assertEqual(len(c.children), 0)
 
         self.assertIs(d.parent_relation, c_relation)

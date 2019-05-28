@@ -68,10 +68,15 @@ class Relation(object, metaclass=ABCMeta):  # Defining it as Relation(ABC) doesn
                 to_check.extend(lexeme_to_check.parent_relation.sources)
 
         # TODO test that they haven't been set already
-        # noinspection PyProtectedMember
-        self.main_source._add_child_relation(self)  # pylint: disable=protected-access
-        # noinspection PyProtectedMember
-        self.main_target._set_parent_relation(self)  # pylint: disable=protected-access
+        # The set() below does basically that – in cases of reduplication,
+        #  a single lexeme may be in the sources or targets multiple times,
+        #  but we have to add the relation just once.
+        for source in set(self.sources):
+            # noinspection PyProtectedMember
+            source._add_child_relation(self)  # pylint: disable=protected-access
+        for target in set(self.targets):
+            # noinspection PyProtectedMember
+            self.main_target._set_parent_relation(self)  # pylint: disable=protected-access
 
     def remove_from_lexemes(self):
         # Remove this relation from the lexemes.
