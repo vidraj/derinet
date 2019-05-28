@@ -266,7 +266,7 @@ class Lexicon(object):
                 if len(reltype_list) == 0:
                     reltype = {}
                 elif len(reltype_list) == 1:
-                    reltype = feats_list[0]
+                    reltype = reltype_list[0]
                 else:
                     raise DerinetFileParseError() # TODO Write a proper error message.
 
