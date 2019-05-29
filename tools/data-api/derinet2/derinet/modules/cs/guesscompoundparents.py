@@ -19,7 +19,12 @@ class GuessCompoundParents(Block):
 
     def process(self, lexicon: Lexicon):
         """
-        Example processing method. Assumes that the opened file contains a list of morphs separated by spaces on each line.
+        Find compounds by searching the database for lexemes annotated as
+        `is_compound` without parents, which contain a single `o` in the lemma.
+        Try to split the words at that `o`, find the second part as a lexeme,
+        find the first part (optionally adding some common suffixes) as a lexeme,
+        and if there is only one possibility, print it as a candidate compound
+        to the output file.
         """
 
         cutting_regex = re.compile(r"^([^o]+)o([^o]+)$") # FIXME this doesn't iterate over the possibilities!
