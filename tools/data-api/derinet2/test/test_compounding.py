@@ -1,7 +1,7 @@
 import unittest
 from derinet.lexicon import Lexicon
 from derinet.relation import CompoundRelation
-from derinet.utils import DerinetError
+from derinet.utils import DerinetError, DerinetCycleCreationError
 
 
 class TestCompounding(unittest.TestCase):
@@ -63,7 +63,40 @@ class TestCompounding(unittest.TestCase):
         self.assertEqual(1, len(cerny.children))
         self.assertIs(cernocerny, cerny.children[0])
 
+    def test_cycle_deriv_comp(self):
+        lexicon = Lexicon()
 
+        telephone = lexicon.create_lexeme("telephone", "N")
+        tele = lexicon.create_lexeme("tele", "A")
+        phone = lexicon.create_lexeme("phone", "N")
+
+        lexicon.add_derivation(telephone, phone)
+        with self.assertRaises(DerinetCycleCreationError):
+            lexicon.add_composition([tele, phone], phone, telephone)
+
+    def test_cycle_comp_deriv(self):
+        lexicon = Lexicon()
+
+        telephone = lexicon.create_lexeme("telephone", "N")
+        tele = lexicon.create_lexeme("tele", "A")
+        phone = lexicon.create_lexeme("phone", "N")
+
+        lexicon.add_composition([tele, phone], phone, telephone)
+        with self.assertRaises(DerinetCycleCreationError):
+            lexicon.add_derivation(telephone, phone)
+
+    def test_noncycle_secondary_relation(self):
+        lexicon = Lexicon()
+
+        telephone = lexicon.create_lexeme("telephone", "N")
+        tele = lexicon.create_lexeme("tele", "A")
+        phone = lexicon.create_lexeme("phone", "N")
+
+        lexicon.add_derivation(telephone, phone)
+        lexicon.add_composition([tele, phone], tele, telephone)
+
+        self.assertIs(telephone, phone.parent)
+        self.assertIs(tele, telephone.parent)
 
 
 if __name__ == '__main__':
