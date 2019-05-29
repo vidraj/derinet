@@ -11,7 +11,7 @@ class TestRelation(unittest.TestCase):
 
         with self.assertRaisesRegex(
                 TypeError,
-                "^Can't instantiate abstract class Relation with abstract methods __init__$"
+                "^Can't instantiate abstract class Relation with abstract methods .*__init__"
         ):
             r.Relation([a], a, [b], b)  # pylint: disable=abstract-class-instantiated
 
