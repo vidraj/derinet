@@ -118,6 +118,11 @@ class Relation(object, metaclass=ABCMeta):  # Defining it as Relation(ABC) doesn
     def feats(self):
         return self._feats
 
+    @property
+    @abstractmethod
+    def type(self):
+        return None
+
     def __eq__(self, other):
         object_types_equal = type(self) is type(other)
         main_lexemes_equal = self.main_source is other.main_source and self.main_target is other.main_target
@@ -143,6 +148,10 @@ class DerivationalRelation(Relation):
     def __init__(self, source, target):
         super().__init__((source,), source, (target,), target)
 
+    @property
+    def type(self):
+        return "Derivation"
+
 
 class CompoundRelation(Relation):
     """
@@ -152,3 +161,7 @@ class CompoundRelation(Relation):
 
     def __init__(self, sources, main_source, target):
         super().__init__(sources, main_source, (target,), target)
+
+    @property
+    def type(self):
+        return "Compounding"

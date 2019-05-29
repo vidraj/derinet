@@ -206,6 +206,21 @@ class TestRelation(unittest.TestCase):
         relation = r.CompoundRelation((b, a, b, b), a, c)
         self.assertEqual(relation.other_sources, (b, b, b))
 
+    def test_relation_type_deriv(self):
+        a = Lexeme("dog", "N")
+        b = Lexeme("doggie", "N")
+
+        relation = r.DerivationalRelation(a, b)
+        self.assertEqual("Derivation", relation.type)
+
+    def test_relation_type_comp(self):
+        a = Lexeme("cat", "N")
+        b = Lexeme("Tom", "N")
+        c = Lexeme("tomcat", "N")
+
+        relation = r.CompoundRelation((a, b), a, c)
+        self.assertEqual("Compounding", relation.type)
+
 
 if __name__ == '__main__':
     unittest.main()
