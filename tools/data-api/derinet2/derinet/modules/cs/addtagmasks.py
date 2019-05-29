@@ -53,7 +53,9 @@ class AddTagMasks(Block):
         # Negation.
         {
             "-": {"Polarity": None},
-            "A": {"Polarity": "Pos"},
+            #"A": {"Polarity": "Pos"},
+            # Don't annotate positive polarity, because it is everywhere and it doesn't mean much.
+            "A": {"Polarity": None},
             "N": {"Polarity": "Neg"},
             "?": {"Polarity": None}
         },
