@@ -3,7 +3,7 @@ import io
 from derinet import Lexicon, DerinetError, DerinetFileParseError
 
 
-class MyTestCase(unittest.TestCase):
+class TestNewFormat(unittest.TestCase):
     def test_load_empty(self):
         db = ""
 
