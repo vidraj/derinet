@@ -47,7 +47,7 @@ class AddRootMorphemesFromFile(Block):
                     segmentednodes[columns[1]] = columns[2]  # keys: techlemmas, values: shortlemmas with indicated root morpheme boundaries
 
                 elif columns[0] == "STOPNODE":
-#                    print("adding STOPtechlemma "+columns[1])
+#                    logger.debug("adding STOPtechlemma "+columns[1])
                     stopnodes[columns[1]] = True
 
                 elif columns[0] == "ENDOFCLUSTER":
@@ -91,25 +91,25 @@ class AddRootMorphemesFromFile(Block):
     def _process_subtree(self, subtreeroot, lexicon, segmentednodes, stopnodes, allomorph_regex):  # recursive processing of derivational cluster
        
         if subtreeroot.techlemma in stopnodes:
-            print("SKIPPED SUBTREE\t" +subtreeroot.techlemma)
+            logger.info("SKIPPED SUBTREE\t" +subtreeroot.techlemma)
 
         else:
             if subtreeroot.techlemma in segmentednodes:
-                print("SEGMENTATION LOADED FROM PERL\t" +subtreeroot.techlemma+"\t"+segmentednodes[subtreeroot.techlemma])
+                logger.info("SEGMENTATION LOADED FROM PERL\t" +subtreeroot.techlemma+"\t"+segmentednodes[subtreeroot.techlemma])
                 subtreeroot.misc['segmentation'] = segmentednodes[subtreeroot.techlemma]
 
             elif subtreeroot.parent and 'segmentation' in subtreeroot.parent.misc:
 
                 if self.same_prefix_and_root(subtreeroot.lemma, subtreeroot.parent.misc['segmentation']):
                     subtreeroot.misc['segmentation'] = self.guess_from_parent(subtreeroot.lemma,subtreeroot.parent.misc['segmentation'])
-                    print("SEGMENTATION PROJECTED FROM PARENT\t" + subtreeroot.lemma + " from " + subtreeroot.parent.misc['segmentation'] + " as " + subtreeroot.misc['segmentation'])
+                    logger.info("SEGMENTATION PROJECTED FROM PARENT\t" + subtreeroot.lemma + " from " + subtreeroot.parent.misc['segmentation'] + " as " + subtreeroot.misc['segmentation'])
 
                 elif len(re.findall(allomorph_regex,subtreeroot.lemma, re.IGNORECASE)) == 1:
                     subtreeroot.misc['segmentation'] = self.guess_using_allomorphs(subtreeroot.lemma,allomorph_regex)
-                    print("SEGMENTATION USING ALLOMORPHS\t" + subtreeroot.lemma + " as " + subtreeroot.misc['segmentation'])
+                    logger.info("SEGMENTATION USING ALLOMORPHS\t" + subtreeroot.lemma + " as " + subtreeroot.misc['segmentation'])
                     
                 else:
-                    print("UNSUCCESSFUL SEGMENTATION\t"+subtreeroot.lemma + " from " + subtreeroot.parent.misc['segmentation'])
+                    logger.info("UNSUCCESSFUL SEGMENTATION\t"+subtreeroot.lemma + " from " + subtreeroot.parent.misc['segmentation'])
                 
                             
             for childnode in subtreeroot.children: # the recursion step
