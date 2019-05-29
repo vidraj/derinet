@@ -359,21 +359,21 @@ class TestLexicon(unittest.TestCase):
 
         self.maxDiff = None
 
-        self.assertMultiLineEqual(saved_data.getvalue(), """0.0	dog#N	dog	N						{}
-0.1	doggie#N	doggie	N			0.0			{}
+        self.assertMultiLineEqual("""0.0	dog#N	dog	N						{}
+0.1	doggie#N	doggie	N			0.0	Type=Derivation		{}
 
 1.0	pes#N	pes	N						{}
-1.1	psovitý#A	psovitý	A			1.0			{}
-1.2	psovitě#D	psovitě	D			1.1			{}
-1.3	psovitost#N	psovitost	N			1.1			{}
-1.4	psík#N	psík	N			1.0			{}
-1.5	psice#N	psice	N			1.4			{}
-1.6	psičin#A	psičin	A			1.5			{}
-1.7	psíček#N	psíček	N			1.4			{}
-1.8	psíčkův#A	psíčkův	A			1.7			{}
-1.9	psíkův#A	psíkův	A			1.4			{}
-1.10	psův#A	psův	A			1.0			{}
-""")
+1.1	psovitý#A	psovitý	A			1.0	Type=Derivation		{}
+1.2	psovitě#D	psovitě	D			1.1	Type=Derivation		{}
+1.3	psovitost#N	psovitost	N			1.1	Type=Derivation		{}
+1.4	psík#N	psík	N			1.0	Type=Derivation		{}
+1.5	psice#N	psice	N			1.4	Type=Derivation		{}
+1.6	psičin#A	psičin	A			1.5	Type=Derivation		{}
+1.7	psíček#N	psíček	N			1.4	Type=Derivation		{}
+1.8	psíčkův#A	psíčkův	A			1.7	Type=Derivation		{}
+1.9	psíkův#A	psíkův	A			1.4	Type=Derivation		{}
+1.10	psův#A	psův	A			1.0	Type=Derivation		{}
+""", saved_data.getvalue())
         saved_data.close()
 
     def test_pickle_roundtrip(self):

@@ -454,6 +454,10 @@ class Lexicon(object):
                     if lexeme.parent_relation:
                         reltype = lexeme.parent_relation.feats
 
+                        # TODO proper check instead of an assert.
+                        assert "Type" not in reltype
+                        reltype["Type"] = lexeme.parent_relation.type
+
                     print(
                         full_id,
                         lexeme.lemid,
