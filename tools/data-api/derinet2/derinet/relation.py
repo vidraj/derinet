@@ -21,7 +21,7 @@ class Relation(object, metaclass=ABCMeta):  # Defining it as Relation(ABC) doesn
         "_main_source",
         "_targets",
         "_main_target",
-        "_type"  # TODO Document what the type is and actually use it somewhere.
+        "_feats"  # TODO Document what the type is and actually use it somewhere.
     ]
 
     @abstractmethod
@@ -60,7 +60,7 @@ class Relation(object, metaclass=ABCMeta):  # Defining it as Relation(ABC) doesn
         self._sources = tuple(sources)
         self._main_target = main_target
         self._targets = tuple(targets)
-        self._type = {}  # TODO Add this field to the constructor and use it.
+        self._feats = {}  # TODO Add this field to the constructor and use it.
 
     def add_to_lexemes(self):
         # Add this relation to the lexemes.
@@ -115,8 +115,8 @@ class Relation(object, metaclass=ABCMeta):  # Defining it as Relation(ABC) doesn
         return tuple(t for t in self.targets if t is not self.main_target)
 
     @property
-    def type(self):
-        return self._type
+    def feats(self):
+        return self._feats
 
     def __eq__(self, other):
         object_types_equal = type(self) is type(other)
@@ -124,9 +124,9 @@ class Relation(object, metaclass=ABCMeta):  # Defining it as Relation(ABC) doesn
         sources_equal = len(self.sources) == len(other.sources) and all([src_self is src_other for src_self, src_other in zip(self.sources, other.sources)])
         targets_equal = len(self.targets) == len(other.targets) and all([tgt_self is tgt_other for tgt_self, tgt_other in zip(self.targets, other.targets)])
         # FIXME compare the types properly (I wrote this before defining how they are stored and used).
-        relation_types_equal = self.type == other.type
+        relation_feats_equal = self.feats == other.feats
 
-        return object_types_equal and main_lexemes_equal and sources_equal and targets_equal and relation_types_equal
+        return object_types_equal and main_lexemes_equal and sources_equal and targets_equal and relation_feats_equal
 
     def __hash__(self):
         # self._type is not used to determine the hash, because it is mutable and of an unhashable type.

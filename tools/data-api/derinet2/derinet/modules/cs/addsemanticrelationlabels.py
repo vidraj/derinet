@@ -57,15 +57,15 @@ class AddSemanticRelationLabels(Block):
                 elif len(valid_pairs) > 1:
                     logger.info("Relation '{}' -> '{}' is ambiguous, picking an arbitrary one".format(parent_lemmapos, child_lemmapos))
                     for parent_lexeme, child_lexeme in valid_pairs:
-                        if "SemanticLabel" not in child_lexeme.parent_relation.type:
-                            child_lexeme.parent_relation.type["SemanticLabel"] = label
+                        if "SemanticLabel" not in child_lexeme.parent_relation.feats:
+                            child_lexeme.parent_relation.feats["SemanticLabel"] = label
                             break
                     else:
                         logger.warning("All pairs already have a label filled in. This label was therefore ignored.")
                     continue
                 else:
                     parent_lexeme, child_lexeme = valid_pairs[0]
-                    child_lexeme.parent_relation.type["SemanticLabel"] = label
+                    child_lexeme.parent_relation.feats["SemanticLabel"] = label
 
         return lexicon
 

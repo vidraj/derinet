@@ -452,7 +452,7 @@ class Lexicon(object):
 
                     reltype = {}
                     if lexeme.parent_relation:
-                        reltype = lexeme.parent_relation.type
+                        reltype = lexeme.parent_relation.feats
 
                     print(
                         full_id,
