@@ -1,7 +1,4 @@
-.PHONY: rootmorphemes clean
-
-rootmorphemes:
-	../../../data-api/derinet2/process_scenario.py Load -f DERINET_V1 ../../../../data/releases/cs/derinet-1-7.tsv cs.AddRootMorphemesFromFile ./prepare-root-segmentations/induced-segmentations.tsv Save annotated-morphs.tsv
+.PHONY: clean
 
 derinet-2-0.tsv: derinet-1-7-tag-masks.tsv prepare-root-segmentations/induced-segmentations.tsv ../../../../data/annotations/cs/2018_09_ssjc_semantic/hand-annotated/final-semantic-labels-fixed.tsv
 	../../../data-api/derinet2/process_scenario.py \
