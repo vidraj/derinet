@@ -1,4 +1,4 @@
-from derinet import Block, Format, Lexicon
+from derinet import Block, Format, Lexicon, DerinetMorphError
 import argparse
 import logging
 
@@ -96,16 +96,23 @@ class AddRootMorphemesFromFile(Block):
         else:
             if subtreeroot.techlemma in segmentednodes:
                 logger.info("SEGMENTATION LOADED FROM PERL\t" +subtreeroot.techlemma+"\t"+segmentednodes[subtreeroot.techlemma])
-                subtreeroot.misc['segmentation'] = segmentednodes[subtreeroot.techlemma]
+
+                segmentation = segmentednodes[subtreeroot.techlemma]
+                self.add_segmentation_with_parens(subtreeroot, segmentation)
+                subtreeroot.misc['segmentation'] = segmentation
 
             elif subtreeroot.parent and 'segmentation' in subtreeroot.parent.misc:
 
                 if self.same_prefix_and_root(subtreeroot.lemma, subtreeroot.parent.misc['segmentation']):
-                    subtreeroot.misc['segmentation'] = self.guess_from_parent(subtreeroot.lemma,subtreeroot.parent.misc['segmentation'])
+                    segmentation = self.guess_from_parent(subtreeroot.lemma,subtreeroot.parent.misc['segmentation'])
+                    self.add_segmentation_with_parens(subtreeroot, segmentation)
+                    subtreeroot.misc['segmentation'] = segmentation
                     logger.info("SEGMENTATION PROJECTED FROM PARENT\t" + subtreeroot.lemma + " from " + subtreeroot.parent.misc['segmentation'] + " as " + subtreeroot.misc['segmentation'])
 
                 elif len(re.findall(allomorph_regex,subtreeroot.lemma, re.IGNORECASE)) == 1:
-                    subtreeroot.misc['segmentation'] = self.guess_using_allomorphs(subtreeroot.lemma,allomorph_regex)
+                    segmentation = self.guess_using_allomorphs(subtreeroot.lemma,allomorph_regex)
+                    self.add_segmentation_with_parens(subtreeroot, segmentation)
+                    subtreeroot.misc['segmentation'] = segmentation
                     logger.info("SEGMENTATION USING ALLOMORPHS\t" + subtreeroot.lemma + " as " + subtreeroot.misc['segmentation'])
                     
                 else:
@@ -114,8 +121,23 @@ class AddRootMorphemesFromFile(Block):
                             
             for childnode in subtreeroot.children: # the recursion step
                 self._process_subtree(childnode, lexicon, segmentednodes, stopnodes, allomorph_regex)
-            
-        pass
+
+    def parse_segmentation_parens(self, lemma_with_parens):
+        open_paren_index = lemma_with_parens.index("(")
+        close_paren_index = lemma_with_parens.index(")", open_paren_index)
+
+        root_start = open_paren_index
+        root_end = close_paren_index - 1
+
+        return root_start, root_end
+
+    def add_segmentation_with_parens(self, lexeme, lemma_with_parens):
+        root_start, root_end = self.parse_segmentation_parens(lemma_with_parens)
+
+        try:
+            lexeme.add_morph(root_start, root_end, annot={"Type": "Root"})
+        except DerinetMorphError as e:
+            logger.error("Couldn't annotate {}:".format(lemma_with_parens), exc_info=e)
 
     @staticmethod
     def parse_args(args):
