@@ -20,7 +20,10 @@ class AddTagMasks(Block):
         # POS tag.
         {},
         # Extended POS tag.
-        {},
+        {
+            # All the other variants seem not to be interesting.
+            "U": {"Poss": "Yes"}
+        },
         # Gender.
         {
             "-": {"Gender": None},  # N/A
