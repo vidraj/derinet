@@ -1,10 +1,11 @@
 .PHONY: clean
 
-derinet-2-0.tsv: derinet-1-7-tag-masks.tsv prepare-root-segmentations/induced-segmentations.tsv ../../../../data/annotations/cs/2018_09_ssjc_semantic/hand-annotated/final-semantic-labels-fixed.tsv
+derinet-2-0.tsv: derinet-1-7-tag-masks.tsv prepare-root-segmentations/induced-segmentations.tsv ../../../../data/annotations/cs/2018_09_ssjc_semantic/hand-annotated/final-semantic-labels-fixed.tsv ../../../../data/annotations/cs/2019_05_compounds/annotated/compounds-annotated.tsv
 	../../../data-api/derinet2/process_scenario.py \
 		Load "$<" \
 		cs.AddRootMorphemesFromFile ./prepare-root-segmentations/induced-segmentations.tsv \
 		cs.AddSemanticRelationLabels ../../../../data/annotations/cs/2018_09_ssjc_semantic/hand-annotated/final-semantic-labels-fixed.tsv \
+		cs.AddCompounds ../../../../data/annotations/cs/2019_05_compounds/annotated/compounds-annotated.tsv \
 		Save "$@" > log 2>&1
 
 derinet-1-7-tag-masks.tsv: derinet-1-7.tsv tag-masks.tsv
