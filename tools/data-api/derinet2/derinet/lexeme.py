@@ -62,10 +62,10 @@ class Lexeme(object):
         self._segmentation = {
             "boundaries": {},
             "morphs": [{
-                "type": "implicit",
-                "start": 0,
-                "end": len(lemma),
-                "morph": lemma
+                "Type": "Implicit",
+                "Start": 0,
+                "End": len(lemma),
+                "Morph": lemma
             }]
         }
 
@@ -255,19 +255,19 @@ class Lexeme(object):
             annot = {}
         else:
             # Check that annot doesn't contain any forbidden keys.
-            if "start" in annot:
-                if annot["start"] != start:
-                    raise ValueError("'start' specified in annot {} doesn't match given start {}".format(annot["start"], start))
-            if "end" in annot:
-                if annot["end"] != end:
-                    raise ValueError("'end' specified in annot {} doesn't match given end {}".format(annot["end"], end))
-            if "morph" in annot:
-                if annot["morph"] != morph:
-                    raise ValueError("'morph' specified in annot {} doesn't match actual morph {}".format(annot["morph"], morph))
+            if "Start" in annot:
+                if annot["Start"] != start:
+                    raise ValueError("'Start' specified in annot {} doesn't match given start {}".format(annot["Start"], start))
+            if "End" in annot:
+                if annot["End"] != end:
+                    raise ValueError("'end' specified in annot {} doesn't match given end {}".format(annot["End"], end))
+            if "Morph" in annot:
+                if annot["Morph"] != morph:
+                    raise ValueError("'morph' specified in annot {} doesn't match actual morph {}".format(annot["Morph"], morph))
 
-        # Make sure that annot contains the required "type" key.
-        if "type" not in annot:
-            annot["type"] = "unknown"
+        # Make sure that annot contains the required "Type" key.
+        if "Type" not in annot:
+            annot["Type"] = "Unknown"
 
         # Check that making a new boundary is allowed at start and end.
         if not (self.is_boundary_allowed(start) and self.is_boundary_allowed(end)):
@@ -275,10 +275,14 @@ class Lexeme(object):
 
         # Check that any morphs overlapping this one are implicit only.
         for segment in self._segmentation["morphs"]:
-            if range_overlaps((start, end), (segment["start"], segment["end"])) and segment["type"] != "implicit":
+            if range_overlaps((start, end), (segment["Start"], segment["End"])) and segment["Type"] != "Implicit":
                 # The morphs overlap and the recorded one is an actual, user-specified morph.
-                raise DerinetMorphError("Morph {} overlaps existing morph {} in lexeme {}",
-                                        (start, end), (segment["start"], segment["end"]), self)
+                raise DerinetMorphError(
+                    "Morph {} overlaps existing morph {} in lexeme {}".format(
+                        (start, end),
+                        (segment["Start"], segment["End"]),
+                        self)
+                )
 
         # Record constraints for future morphs.
         # Explicitly allow boundaries at start and end.
@@ -290,15 +294,15 @@ class Lexeme(object):
             self.add_boundary(position, False)
 
         # Add the morph.
-        annot["start"] = start
-        annot["end"] = end
-        annot["morph"] = morph
+        annot["Start"] = start
+        annot["End"] = end
+        annot["Morph"] = morph
 
         new_morphs = []
         for segment in self._segmentation["morphs"]:
-            if range_overlaps((start, end), (segment["start"], segment["end"])):
-                if (start, end) == (segment["start"], segment["end"]):
-                    assert segment["type"] == "implicit", "We already checked for this above!"
+            if range_overlaps((start, end), (segment["Start"], segment["End"])):
+                if (start, end) == (segment["Start"], segment["End"]):
+                    assert segment["Type"] == "Implicit", "We already checked for this above!"
                     # The morphs are exactly in the same spot.
                     new_morphs.append(annot)
                 else:
@@ -342,29 +346,29 @@ class Lexeme(object):
             # Subdivide the appropriate segment in self.segmentation.
             new_morphs = []
             for segment in self._segmentation["morphs"]:
-                if segment["start"] <= position and segment["end"] >= position:
+                if segment["Start"] <= position and segment["End"] >= position:
                     # This is the appropriate morph to subdivide.
-                    if segment["type"] != "implicit" or segment.keys() != {"type", "start", "end", "morph"}:
+                    if segment["Type"] != "Implicit" or segment.keys() != {"Type", "Start", "End", "Morph"}:
                         # But the segment is not a "rest" type, it is an actual user-specified morph!
                         # Raise an error.
                         raise Exception("Attempted to subdivide morpheme {} in {} at position {}."
                                         " Curiously, its internals were not forbidden!".format(segment, self, position))
 
-                    if segment["start"] < position:
+                    if segment["Start"] < position:
                         left_segment = {
-                            "type": "implicit",
-                            "start": segment["start"],
-                            "end": position,
-                            "morph": segment["morph"][:position - segment["start"]]
+                            "Type": "Implicit",
+                            "Start": segment["Start"],
+                            "End": position,
+                            "Morph": segment["Morph"][:position - segment["Start"]]
                         }
                         new_morphs.append(left_segment)
 
-                    if segment["end"] > position:
+                    if segment["End"] > position:
                         right_segment = {
-                            "type": "implicit",
-                            "start": position,
-                            "end": segment["end"],
-                            "morph": segment["morph"][position - segment["start"]:]
+                            "Type": "Implicit",
+                            "Start": position,
+                            "End": segment["End"],
+                            "Morph": segment["Morph"][position - segment["Start"]:]
                         }
                         new_morphs.append(right_segment)
                 else:
@@ -376,7 +380,7 @@ class Lexeme(object):
         else:
             # Make sure there is not a boundary there.
             for segment in self._segmentation["morphs"]:
-                if position == segment["start"] or position == segment["end"]:
+                if position == segment["Start"] or position == segment["End"]:
                     raise DerinetMorphError("Cannot forbid position {} in {};"
                                             " segment {} already has a boundary there".format(position, self, segment))
 

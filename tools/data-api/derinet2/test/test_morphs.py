@@ -7,46 +7,46 @@ class TestMorphs(unittest.TestCase):
     def test_segmentation_default(self):
         lexeme = Lexeme("unnecessarily", "A")
         self.assertEqual(1, len(lexeme.segmentation))
-        self.assertEqual("unnecessarily", lexeme.segmentation[0]["morph"])
+        self.assertEqual("unnecessarily", lexeme.segmentation[0]["Morph"])
 
     def test_morph_add(self):
         lexeme = Lexeme("unnecessarily", "A")
         lexeme.add_morph(0, 2, {"type": "prefix"})
 
         self.assertEqual(2, len(lexeme.segmentation))
-        self.assertEqual("un", lexeme.segmentation[0]["morph"])
+        self.assertEqual("un", lexeme.segmentation[0]["Morph"])
 
     def test_morph_add_empty_desc(self):
         lexeme = Lexeme("unnecessarily", "A")
         lexeme.add_morph(0, 2, {})
 
         self.assertEqual(2, len(lexeme.segmentation))
-        self.assertEqual("un", lexeme.segmentation[0]["morph"])
-        self.assertEqual("unknown", lexeme.segmentation[0]["type"])
+        self.assertEqual("un", lexeme.segmentation[0]["Morph"])
+        self.assertEqual("Unknown", lexeme.segmentation[0]["Type"])
 
     def test_morph_add_unannotated(self):
         lexeme = Lexeme("unnecessarily", "A")
         lexeme.add_morph(0, 2)
 
         self.assertEqual(2, len(lexeme.segmentation))
-        self.assertEqual("un", lexeme.segmentation[0]["morph"])
-        self.assertEqual("unknown", lexeme.segmentation[0]["type"])
+        self.assertEqual("un", lexeme.segmentation[0]["Morph"])
+        self.assertEqual("Unknown", lexeme.segmentation[0]["Type"])
 
     def test_morph_add_multiple(self):
         lexeme = Lexeme("unnecessarily", "A")
-        lexeme.add_morph(0, 2, {"type": "prefix"})
-        lexeme.add_morph(2, 11, {"type": "root", "morpheme": "necessary"})
-        lexeme.add_morph(11, 13, {"type": "suffix"})
+        lexeme.add_morph(0, 2, {"Type": "Prefix"})
+        lexeme.add_morph(2, 11, {"Type": "Root", "Morpheme": "necessary"})
+        lexeme.add_morph(11, 13, {"Type": "Suffix"})
 
         self.assertEqual(3, len(lexeme.segmentation))
-        self.assertEqual("un", lexeme.segmentation[0]["morph"])
-        self.assertEqual("necessari", lexeme.segmentation[1]["morph"])
-        self.assertEqual("ly", lexeme.segmentation[2]["morph"])
+        self.assertEqual("un", lexeme.segmentation[0]["Morph"])
+        self.assertEqual("necessari", lexeme.segmentation[1]["Morph"])
+        self.assertEqual("ly", lexeme.segmentation[2]["Morph"])
 
     def test_morph_add_overlapping(self):
         lexeme = Lexeme("unnecessarily", "A")
-        lexeme.add_morph(0, 2, {"type": "prefix"})
-        lexeme.add_morph(2, 11, {"type": "root", "morpheme": "necessary"})
+        lexeme.add_morph(0, 2, {"Type": "Prefix"})
+        lexeme.add_morph(2, 11, {"Type": "Root", "Morpheme": "necessary"})
 
         self.assertRaises(
             DerinetMorphError,
@@ -58,19 +58,19 @@ class TestMorphs(unittest.TestCase):
 
     def test_morph_add_overlapping_short(self):
         lexeme = Lexeme("dogs", "N")
-        lexeme.add_morph(3, 4, {"type": "suffix"})
+        lexeme.add_morph(3, 4, {"Type": "Suffix"})
 
         self.assertRaises(
             DerinetMorphError,
             lexeme.add_morph,
             2,
             4,
-            {"type": "suffix"}
+            {"Type": "Suffix"}
         )
 
     def test_morph_add_identical(self):
         lexeme = Lexeme("dogs", "N")
-        lexeme.add_morph(3, 4, {"type": "suffix"})
+        lexeme.add_morph(3, 4, {"Type": "Suffix"})
 
         # TODO do we want an exception to be raised here, or rather a silent acceptance of the duplicate?
         self.assertRaises(
@@ -78,7 +78,7 @@ class TestMorphs(unittest.TestCase):
             lexeme.add_morph,
             3,
             4,
-            {"type": "suffix"}
+            {"Type": "Suffix"}
         )
 
     def test_morph_add_oob(self):
@@ -89,7 +89,7 @@ class TestMorphs(unittest.TestCase):
             lexeme.add_morph,
             0,
             4,
-            {"type": "root"}
+            {"Type": "Root"}
         )
 
         self.assertRaises(
@@ -97,7 +97,7 @@ class TestMorphs(unittest.TestCase):
             lexeme.add_morph,
             -1,
             1,
-            {"type": "prefix"}
+            {"Type": "Prefix"}
         )
 
     def test_morph_add_zero_len(self):
@@ -108,7 +108,7 @@ class TestMorphs(unittest.TestCase):
             lexeme.add_morph,
             0,
             0,
-            {"type": "prefix"}
+            {"Type": "Prefix"}
         )
 
         self.assertRaises(
@@ -116,7 +116,7 @@ class TestMorphs(unittest.TestCase):
             lexeme.add_morph,
             1,
             1,
-            {"type": "root"}
+            {"Type": "Root"}
         )
 
     def test_boundary_add(self):
@@ -177,8 +177,8 @@ class TestMorphs(unittest.TestCase):
         lexeme.add_boundary(3, True)
 
         self.assertEqual(2, len(lexeme.segmentation))
-        self.assertEqual("dog", lexeme.segmentation[0]["morph"])
-        self.assertEqual("s", lexeme.segmentation[1]["morph"])
+        self.assertEqual("dog", lexeme.segmentation[0]["Morph"])
+        self.assertEqual("s", lexeme.segmentation[1]["Morph"])
 
     def test_nonboundary_nonsplits(self):
         """
@@ -188,13 +188,13 @@ class TestMorphs(unittest.TestCase):
         lexeme.add_boundary(2, False)
 
         self.assertEqual(1, len(lexeme.segmentation))
-        self.assertEqual("dogs", lexeme.segmentation[0]["morph"])
+        self.assertEqual("dogs", lexeme.segmentation[0]["Morph"])
 
     def test_morph_allows_boundaries(self):
         lexeme = Lexeme("unnecessarily", "A")
-        lexeme.add_morph(0, 2, {"type": "prefix"})
-        lexeme.add_morph(2, 11, {"type": "root", "morpheme": "necessary"})
-        lexeme.add_morph(11, 13, {"type": "suffix"})
+        lexeme.add_morph(0, 2, {"Type": "Prefix"})
+        lexeme.add_morph(2, 11, {"Type": "Root", "Morpheme": "necessary"})
+        lexeme.add_morph(11, 13, {"Type": "Suffix"})
 
         self.assertTrue(lexeme.is_boundary_allowed(0, False))
         self.assertTrue(lexeme.is_boundary_allowed(2, False))
@@ -203,9 +203,9 @@ class TestMorphs(unittest.TestCase):
 
     def test_morph_disallows_boundaries(self):
         lexeme = Lexeme("unnecessarily", "A")
-        lexeme.add_morph(0, 2, {"type": "prefix"})
-        lexeme.add_morph(2, 11, {"type": "root", "morpheme": "necessary"})
-        lexeme.add_morph(11, 13, {"type": "suffix"})
+        lexeme.add_morph(0, 2, {"Type": "Prefix"})
+        lexeme.add_morph(2, 11, {"Type": "Root", "Morpheme": "necessary"})
+        lexeme.add_morph(11, 13, {"Type": "Suffix"})
 
         self.assertFalse(lexeme.is_boundary_allowed(1))
         self.assertFalse(lexeme.is_boundary_allowed(3))

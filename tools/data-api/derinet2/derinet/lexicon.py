@@ -464,7 +464,7 @@ class Lexicon(object):
                         lexeme.lemma,
                         lexeme.pos,
                         format_kwstring([lexeme.feats]),
-                        format_kwstring([segment for segment in lexeme.segmentation if segment["type"] != "implicit"]),
+                        format_kwstring([segment for segment in lexeme.segmentation if segment["Type"] != "Implicit"]),
                         parent_id,
                         format_kwstring([reltype]),
                         format_kwstring(lexeme.otherrels),
