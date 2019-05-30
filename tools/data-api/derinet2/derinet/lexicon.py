@@ -427,13 +427,15 @@ class Lexicon(object):
             )
 
         try:
+
+            # First, make a full mapping of lexeme → ID.
+            # This is necessary, because we may need to refer to out-of-tree
+            #  lexemes that weren't processed yet – for example in compounds.
             id_mapping = {}
 
-            for tree_id, root in enumerate(self.iter_trees(sort=True)):
-                if tree_id > 0:
-                    # Separate unrelated trees by a newline.
-                    print("", end="\n", file=data_sink)
+            all_roots = list(self.iter_trees(sort=True))
 
+            for tree_id, root in enumerate(all_roots):
                 for lex_in_tree_id, lexeme in enumerate(root.iter_subtree(sort=True)):
                     full_id = "{}.{}".format(tree_id, lex_in_tree_id)
 
@@ -442,11 +444,18 @@ class Lexicon(object):
                     else:
                         id_mapping[lexeme] = full_id
 
+            # After calculating the ID mapping, go over the lexemes again,
+            #  printing them.
+            for tree_id, root in enumerate(all_roots):
+                if tree_id > 0:
+                    # Separate unrelated trees by a newline.
+                    print("", end="\n", file=data_sink)
+
+                for lexeme in root.iter_subtree(sort=True):
+                    full_id = id_mapping[lexeme]
+
                     if lexeme.parent:
-                        if lexeme.parent in id_mapping:
-                            parent_id = id_mapping[lexeme.parent]
-                        else:
-                            raise Exception("An error occurred while saving data: Lexeme {} processed before its parent".format(lexeme))
+                        parent_id = id_mapping[lexeme.parent]
                     else:
                         parent_id = ""
 
