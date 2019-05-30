@@ -467,6 +467,12 @@ class Lexicon(object):
                         assert "Type" not in reltype
                         reltype["Type"] = lexeme.parent_relation.type
 
+                        other_sources = lexeme.parent_relation.other_sources
+                        if other_sources:
+                            # TODO proper check instead of an assert.
+                            assert "OtherSources" not in reltype
+                            reltype["OtherSources"] = ",".join([id_mapping[other_source] for other_source in other_sources])
+
                     print(
                         full_id,
                         lexeme.lemid,
