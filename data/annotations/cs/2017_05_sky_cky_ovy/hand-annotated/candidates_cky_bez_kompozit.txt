@@ -2122,7 +2122,7 @@
 	beatlesácký		UNRESOLVED Z: Beatles
 	bezalkoholický		UNRESOLVED
 	bezbožecký		UNRESOLVED
-	bežecký		UNRESOLVED Z: běžec
+	bežecký		UNRESOLVED
 	bílokostelecký		UNRESOLVED
 	bílopotocký		UNRESOLVED
 	bioelektrický		UNRESOLVED

@@ -705,7 +705,7 @@
 112481	dokvačit	dokvačit_:W	V	284689	kvačit_:T
 112491	dokvalifikovat	dokvalifikovat_:W	V	284862	kvalifikovat_:T_:W
 112506	dokvasit	dokvasit_:W	V	285161	kvasit_:T
-112517	dokvášet	dokvášet_:T	V	112551	dokvést_:W
+112517	dokvášet	dokvášet_:T	V	112551	dokvasit
 112539	dokvašovat	dokvašovat_:T	V	112506	dokvasit_:W
 112551	dokvést	dokvést_:W	V	285475	kvést_:T
 112561	dokvétat	dokvétat_:T	V	112551	dokvést_:W
@@ -2144,7 +2144,6 @@
 323842	míchávat	míchávat_:T_^(*4at)	V	323827	míchat_:T
 327484	mínívat	mínívat_:T_^(*4it)	V	327452	mínit_:T
 327630	minout	minout_:W	V	323983	míjet_:T
-327641	minovat	minovat_:T_^(klást_miny;;vyhlodávat_v_listech_dutinky)	V	327630	minout_:W
 328181	mísívat	mísívat_:T_^(*4it)	V	328171	mísit_:T
 328934	mívat	mívat_:T_^(*3t)	V	328909	mít_:T
 329051	mizívat	mizívat_:T	V	329039	mizet_:T
@@ -6084,7 +6083,7 @@
 467528	podojit	podojit_:W	V	109723	dojit_:T
 467538	podojovat	podojovat_:T	V	467528	podojit_:W
 467628	podotknout	podotknout_:T	V	129532	dotknout_:W_^(fyz._i_abstr.,_př._drátů,_práv,_citů)
-467628	podotknout	podotknout_:T	V	467650	podotýkat_:T
+467628	podotknout	podotknout_:T	V	467650	dotknout
 467669	poďoubat	poďoubat_:W_,h	V	130259	ďoubat_:T_,h
 467687	podovádět	podovádět_:W	V	131192	dovádět_:T
 467709	podpálit	podpálit_:W	V	439523	pálit_:T
@@ -12045,7 +12044,6 @@
 658901	smíchat	smíchat_:W	V	323827	míchat_:T
 658911	smíchávat	smíchávat_:T_^(*4at)	V	658901	smíchat_:W
 659001	smilovat	smilovat_:W	V	325871	milovat_:T
-659083	smířit	smířit_:W	V	328068	mířit_:T_^(např._pistolí;_směřovat;_tvar_slovesa)
 659115	smiřovat	smiřovat_:T	V	659083	smířit_:W
 659134	smísit	smísit_:W	V	328171	mísit_:T
 659220	smixovat	smixovat_:T	V	328978	mixovat_:T
@@ -15525,7 +15523,7 @@
 826935	vykutat	vykutat_:W	V	284195	kutat_:T
 826973	vykvákat	vykvákat_:W_,h_^(o_žábě;;vyzradit)	V	284809	kvákat_:T
 827008	vykvasit	vykvasit_:W	V	285161	kvasit_:T
-827019	vykvášet	vykvášet_:T_,s_^(pivo,víno_atd.)	V	827053	vykvést_:W
+827019	vykvášet	vykvášet_:T_,s_^(pivo,víno_atd.)	V	827053	vykvasit
 827041	vykvašovat	vykvašovat_:T_^(pivo,víno_atd.)	V	827008	vykvasit_:W
 827053	vykvést	vykvést_:W	V	285475	kvést_:T
 827063	vykvétat	vykvétat_:T	V	827053	vykvést_:W
@@ -17229,7 +17227,7 @@
 861814	vzněcovat	vzněcovat_:T	V	861897	vznítit_:W
 861835	vznést	vznést_:W	V	375999	nést_:T
 861885	vzniknout	vzniknout_:W	V	861870	vznikat_:T
-861902	vznít	vznít_:W	V	966686	znít_:T
+861902	vznít	vznít_:W	V	966686	nítit
 862029	vzpamatovat	vzpamatovat_:W	V	439903	pamatovat_:T
 862039	vzpamatovávat	vzpamatovávat_:T_^(*4at)	V	862029	vzpamatovat_:W
 862060	vzpažovat	vzpažovat_:T	V	862049	vzpažit_:W
@@ -18857,7 +18855,7 @@
 903445	zaprásknout	zaprásknout_:W	V	500169	prásknout_:W
 903469	zaprášit	zaprášit_:W	V	500266	prášit_:T
 903479	zapráškovat	zapráškovat_:W	V	500312	práškovat_:T
-903500	zaprašovat	zaprašovat_:T	V	903402	zaprasit_:W_,v
+903500	zaprašovat	zaprašovat_:T	V	903402	zaprášit
 903515	zapraštět	zapraštět_:W	V	500348	praštět_:T
 903539	zaprat	zaprat_:W	V	500402	prát_:T
 903549	zaprávat	zaprávat_:T	V	903539	zaprat_:W
@@ -19149,7 +19147,6 @@
 909647	zaslánět	zaslánět_:T_,a	V	909841	zaslonit_:W_,a
 909673	zaslavit	zaslavit_:W_,a	V	655793	slavit_:T
 909699	zaslechnout	zaslechnout_:W	V	909934	zaslýchat_:T_,s
-909717	zaslepit	zaslepit_:W	V	656127	slepit_:W
 909734	zaslepovat	zaslepovat_:T	V	909717	zaslepit_:W
 909759	zaslíbit	zaslíbit_:W	V	656466	slíbit_:W
 909774	zaslibovat	zaslibovat_:W	V	656485	slibovat_:T
