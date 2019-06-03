@@ -1320,3 +1320,7 @@ vyblejt	V
 
 # Discovered when annotating the morphological roots.
 zažnout	V
+
+# Needed by AddAdj2AdvByRules
+ukradnutý	AA
+ukradnutelný	AA
