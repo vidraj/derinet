@@ -35,11 +35,15 @@ extra_lemmas.tsv: extra_words.txt ./words_to_lemmas.pl ./select_morfflex_lemmas.
 otaznickovi.tsv: ../data/annotated_cleaned_otaznickovi_kandidati.tsv ./priprav_otaznickove.pl # zz otaznikovi potvrzeni
 	grep -v POSSIBLE $< | ./priprav_otaznickove.pl | sort | uniq > $@
 
-$(BASE).tsv $(BASE).slex: sorted_lemmas.tsv extra_lemmas.tsv otaznickovi.tsv one_off_derivations.tsv
+phantom_lexemes.tsv: ../../../../data/annotations/cs/2019_05_phantom_lexemes/annotated/hand-checked-phantoms-to-be-added-to-2.0
+	cut -f2 "$<" | sort -u | sed -e 's/$$/	V/' | ./words_to_lemmas.pl | ./select_morfflex_lemmas.pl | ./remove_false_homonyms.pl | sort > "$@"
+
+$(BASE).tsv $(BASE).slex: sorted_lemmas.tsv extra_lemmas.tsv otaznickovi.tsv one_off_derivations.tsv phantom_lexemes.tsv
 	../derimor \
 	CreateEmpty \
 	CS::AddLexemesFromList file=sorted_lemmas.tsv dictionary_name=$(LEMMAS_SOURCE) \
 	CS::AddLexemesFromList file=extra_lemmas.tsv dictionary_name=manual verify_lemma_uniqueness=1 \
+	CS::AddLexemesFromList file=phantom_lexemes.tsv dictionary_name=phantoms verify_lemma_uniqueness=1 \
 	CS::AddOstLexemesFromCNC \
 	CS::AddOstLexemesByRules \
 	CS::AddAdj2AdvByRules \

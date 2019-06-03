@@ -1,11 +1,12 @@
 .PHONY: clean
 
-derinet-2-0.tsv: derinet-1-7-tag-masks.tsv prepare-root-segmentations/induced-segmentations.tsv ../../../../data/annotations/cs/2018_09_ssjc_semantic/hand-annotated/final-semantic-labels-fixed.tsv ../../../../data/annotations/cs/2019_05_compounds/annotated/compounds-annotated.tsv
+derinet-2-0.tsv: derinet-1-7-tag-masks.tsv prepare-root-segmentations/induced-segmentations.tsv ../../../../data/annotations/cs/2018_09_ssjc_semantic/hand-annotated/final-semantic-labels-fixed.tsv ../../../../data/annotations/cs/2019_05_compounds/annotated/compounds-annotated.tsv ../../../../data/annotations/cs/2019_05_phantom_lexemes/annotated/hand-checked-phantoms-to-be-added-to-2.0
 	../../../data-api/derinet2/process_scenario.py \
 		Load "$<" \
 		cs.AddRootMorphemesFromFile ./prepare-root-segmentations/induced-segmentations.tsv \
 		cs.AddSemanticRelationLabels ../../../../data/annotations/cs/2018_09_ssjc_semantic/hand-annotated/final-semantic-labels-fixed.tsv \
 		cs.AddCompounds ../../../../data/annotations/cs/2019_05_compounds/annotated/compounds-annotated.tsv \
+		cs.AddPhantomLexemes ../../../../data/annotations/cs/2019_05_phantom_lexemes/annotated/hand-checked-phantoms-to-be-added-to-2.0 \
 		Save "$@" > log 2>&1
 
 derinet-1-7-tag-masks.tsv: derinet-1-7.tsv tag-masks.tsv
@@ -23,6 +24,9 @@ prepare-root-segmentations/induced-segmentations.tsv:
 
 ../../../../data/annotations/cs/2018_09_ssjc_semantic/hand-annotated/final-semantic-labels-fixed.tsv: ../../../../data/annotations/cs/2018_09_ssjc_semantic/hand-annotated/final-semantic-labels.tsv ../../../../data/annotations/cs/2018_09_ssjc_semantic/hand-annotated/final-correction-add.tsv ../../../../data/annotations/cs/2018_09_ssjc_semantic/hand-annotated/final-correction-fix.tsv
 	$(MAKE) -C ../../../../data/annotations/cs/2018_09_ssjc_semantic/hand-annotated/ final-semantic-labels-fixed.tsv
+
+../../../../data/annotations/cs/2019_05_phantom_lexemes/annotated/hand-checked-phantoms-to-be-added-to-2.0: ../../../../data/annotations/cs/2019_05_phantom_lexemes/annotated/potential-new-pairs.tsv
+	$(MAKE) -C ../../../../data/annotations/cs/2019_05_phantom_lexemes/annotated/ handchecked
 
 derinet-1-7.tsv: ../1.7/derinet-1-7.tsv
 	cp -a "$<" "$@"
