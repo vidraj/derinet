@@ -221,6 +221,14 @@ class TestRelation(unittest.TestCase):
         relation = r.CompoundRelation((a, b), a, c)
         self.assertEqual("Compounding", relation.type)
 
+    def test_relation_equal_none(self):
+        a = Lexeme("dog", "N")
+        b = Lexeme("doggie", "N")
+
+        relation = r.DerivationalRelation(a, b)
+        self.assertFalse(relation == None)
+        self.assertFalse(None == relation)
+
 
 if __name__ == '__main__':
     unittest.main()

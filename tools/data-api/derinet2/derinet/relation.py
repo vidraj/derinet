@@ -124,6 +124,10 @@ class Relation(object, metaclass=ABCMeta):  # Defining it as Relation(ABC) doesn
         return None
 
     def __eq__(self, other):
+        if other is None:
+            # Other may be None
+            return self is None
+
         object_types_equal = type(self) is type(other)
         main_lexemes_equal = self.main_source is other.main_source and self.main_target is other.main_target
         sources_equal = len(self.sources) == len(other.sources) and all([src_self is src_other for src_self, src_other in zip(self.sources, other.sources)])
