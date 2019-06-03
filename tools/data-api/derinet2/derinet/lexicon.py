@@ -601,7 +601,7 @@ class Lexicon(object):
     def iter_trees(self, sort=False):
         # TODO cache the roots so that we don't have to recompute them every time.
         for lexeme in self.iter_lexemes(sort=sort):
-            if lexeme.parent_relation is None:
+            if lexeme.parent is None:
                 yield lexeme
 
     def iter_relations(self):
