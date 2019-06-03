@@ -36,6 +36,6 @@ derinet-1-7.tsv: ../1.7/derinet-1-7.tsv
 	cp -a "$<" "$@"
 
 clean:
-	rm -f log derinet-1-7.tsv derinet-2-0.tsv
-	rm -f allomorph-overlap.tsv
+	rm -f log log-tag-masks derinet-1-7.tsv derinet-1-7-tag-masks.tsv derinet-2-0.tsv
+	rm -f allomorph-overlap.csv tag-masks.tsv
 	$(MAKE) -C prepare-root-segmentations clean

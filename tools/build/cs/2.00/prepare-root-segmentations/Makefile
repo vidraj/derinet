@@ -32,4 +32,4 @@ overlap:
 
 
 clean:
-	rm *tsv *txt *csv
+	rm -f *tsv *txt *csv

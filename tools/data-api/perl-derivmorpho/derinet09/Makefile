@@ -81,4 +81,5 @@ ost-added-lexemes.txt: log.txt
 
 clean:
 	rm -f lemmas_from_syn.tsv sorted_lemmas.tsv extra_lemmas.tsv otaznickovi.tsv $(BASE).tsv $(BASE).slex log.txt stats.txt stats-derivation-creator.txt lemmas_diff.txt
+	rm -f phantom_lexemes.tsv
 	rm -f lemmas_from_morfflex.tsv
