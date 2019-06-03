@@ -38,6 +38,9 @@ otaznickovi.tsv: ../data/annotated_cleaned_otaznickovi_kandidati.tsv ./priprav_o
 phantom_lexemes.tsv: ../../../../data/annotations/cs/2019_05_phantom_lexemes/annotated/hand-checked-phantoms-to-be-added-to-2.0
 	cut -f2 "$<" | sort -u | sed -e 's/$$/	V/' | ./words_to_lemmas.pl | ./select_morfflex_lemmas.pl | ./remove_false_homonyms.pl | sort > "$@"
 
+../../../../data/annotations/cs/2019_05_phantom_lexemes/annotated/hand-checked-phantoms-to-be-added-to-2.0: ../../../../data/annotations/cs/2019_05_phantom_lexemes/annotated/potential-new-pairs.tsv
+	make -C ../../../../data/annotations/cs/2019_05_phantom_lexemes/annotated/ handchecked
+
 $(BASE).tsv $(BASE).slex: sorted_lemmas.tsv extra_lemmas.tsv otaznickovi.tsv one_off_derivations.tsv phantom_lexemes.tsv
 	../derimor \
 	CreateEmpty \
