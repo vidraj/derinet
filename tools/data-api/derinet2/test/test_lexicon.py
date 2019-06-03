@@ -106,6 +106,20 @@ class TestLexicon(unittest.TestCase):
             lexicon.add_derivation(god, doggie)
 
         self.assertIs(doggie.parent, dog)
+        self.assertEqual(1, len(dog.children))
+        self.assertEqual(0, len(god.children))
+
+    def test_add_derivation_multiple_times(self):
+        lexicon = Lexicon()
+        dog = lexicon.create_lexeme("dog", "N")
+        doggie = lexicon.create_lexeme("doggie", "N")
+
+        lexicon.add_derivation(dog, doggie)
+        lexicon.add_derivation(dog, doggie)
+
+        self.assertIs(dog, doggie.parent)
+        self.assertEqual(1, len(dog.children))
+        self.assertIs(doggie, dog.children[0])
 
     def test_relation_circularity_detection_reflexive(self):
         lexicon = Lexicon()
