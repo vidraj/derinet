@@ -71,7 +71,8 @@ class AddCompounds(Block):
                 first_parent = self.find_lemma_pos(lexicon, first_parent_lemma_pos)
                 second_parent = self.find_lemma_pos(lexicon, second_parent_lemma_pos)
 
-                lexicon.add_composition([first_parent, second_parent], second_parent, compound)
+                if compound is not None and first_parent is not None and second_parent is not None:
+                    lexicon.add_composition([first_parent, second_parent], second_parent, compound)
 
         return lexicon
 
