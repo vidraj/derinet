@@ -18,7 +18,7 @@ class AddPhantomLexemes(Block):
         """
         Read annotation in the form of
         mark child-lemma TAB parent-lemma
-        and if mark == +, annotate parent as phantom and add a derivation
+        and if mark == +, annotate parent as fictitious and add a derivation
         from parent to child.
         """
 
@@ -38,8 +38,8 @@ class AddPhantomLexemes(Block):
                         parent_lexeme = parent_lexemes[0]
                         child_lexeme = child_lexemes[0]
 
-                        # Add the "Phantom" mark to the parent.
-                        parent_lexeme.add_feature("Phantom", "Yes")
+                        # Add the "Fictitious" mark to the parent.
+                        parent_lexeme.add_feature("Fictitious", "Yes")
 
                         # Add the derivation.
                         lexicon.add_derivation(parent_lexeme, child_lexeme)
