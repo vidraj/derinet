@@ -15,7 +15,7 @@ all: $(DERINET)
 release: $(DERINET)
 
 # Copy the final database from the last version to the current directory.
-$(DERINET): 2.00/derinet-2-0.tsv
+$(DERINET): 2.0/derinet-2-0.tsv
 	cp -a "$<" "$(DERINET)"
 
 # The main target. Successively build all versions from oldest to newest.
@@ -23,14 +23,14 @@ $(DERINET): 2.00/derinet-2-0.tsv
 #  inherently serializes the build. Recursive make is considered harmful for
 #  a good reason. Therefore, `make clean` if you make changes in subdirs but
 #  insist on running `make` from this main directory.
-2.00/derinet-2-0.tsv:
+2.0/derinet-2-0.tsv:
 	$(MAKE) -C ../../data-api/perl-derivmorpho derinet-1-3.tsv
 	$(MAKE) -C 1.3 derinet-1-3.tsv
 	$(MAKE) -C 1.4 derinet-1-4.tsv
 	$(MAKE) -C 1.5 derinet-1-5.tsv
 	$(MAKE) -C 1.6 derinet-1-6.tsv
 	$(MAKE) -C 1.7 derinet-1-7.tsv
-	$(MAKE) -C 2.00 derinet-2-0.tsv
+	$(MAKE) -C 2.0 derinet-2-0.tsv
 
 
 # Gather some statistics on precision, recall and database structure.
@@ -79,6 +79,6 @@ clean:
 	$(MAKE) -C 1.5 clean
 	$(MAKE) -C 1.6 clean
 	$(MAKE) -C 1.7 clean
-	$(MAKE) -C 2.00 clean
+	$(MAKE) -C 2.0 clean
 	rm -f homonymous-lemmas-pos.tsv homonymous-lemmas.tsv homonymous-lexemes-pos.tsv homonymous-lexemes.tsv
 	rm -f nouns-ý.tsv nouns-ý-lowercase.tsv
