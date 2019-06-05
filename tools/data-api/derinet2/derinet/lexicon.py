@@ -281,21 +281,21 @@ class Lexicon(object):
 
                 # Add the segmentation.
                 for morph in morph_list:
-                    if "start" not in morph:
+                    if "Start" not in morph:
                         raise DerinetFileParseError("Morph specification '{}' on line nr. {} doesn't include its start".format(morph, line_nr))
-                    if "end" not in morph:
+                    if "End" not in morph:
                         raise DerinetFileParseError("Morph specification '{}' on line nr. {} doesn't include its end".format(morph, line_nr))
 
                     try:
-                        morph["start"] = int(morph["start"])
+                        morph["Start"] = int(morph["Start"])
                     except ValueError:
-                        raise DerinetFileParseError("Morpheme start '{}' on line nr. {} is not integral".format(morph["start"], line_nr))
+                        raise DerinetFileParseError("Morpheme start '{}' on line nr. {} is not integral".format(morph["Start"], line_nr))
                     try:
-                        morph["end"] = int(morph["end"])
+                        morph["End"] = int(morph["End"])
                     except ValueError:
-                        raise DerinetFileParseError("Morpheme end '{}' on line nr. {} is not integral".format(morph["start"], line_nr))
+                        raise DerinetFileParseError("Morpheme end '{}' on line nr. {} is not integral".format(morph["End"], line_nr))
 
-                    lexeme.add_morph(morph["start"], morph["end"], morph)
+                    lexeme.add_morph(morph["Start"], morph["End"], morph)
 
                 # We already know that the ID wasn't encountered previously.
                 id_map[lex_id] = lexeme

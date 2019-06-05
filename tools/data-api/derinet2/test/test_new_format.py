@@ -248,7 +248,7 @@ class TestNewFormat(unittest.TestCase):
             lexicon.load(db_file)
 
     def test_load_segmentation(self):
-        db = """7.3	aachenskost#N	aachenskost	N		end=6&morph=aachen&start=0&type=prefix|end=8&start=6|end=11&morph=ost&start=8&type=suffix				{}
+        db = """7.3	aachenskost#N	aachenskost	N		End=6&Morph=aachen&Start=0&Type=Prefix|End=8&Start=6|End=11&Morph=ost&Start=8&Type=Suffix				{}
 """
 
         lexicon = Lexicon()
@@ -260,7 +260,7 @@ class TestNewFormat(unittest.TestCase):
         self.assertEqual(len(lexeme.segmentation), 3)
 
     def test_load_segmentation_noninteger_start(self):
-        db = """7.3	aachenskost#N	aachenskost	N		end=6&morph=aachen&start=0.1&type=prefix|end=8&morph=sk&start=6&type=root|end=11&morph=ost&start=8&type=suffix				{}
+        db = """7.3	aachenskost#N	aachenskost	N		End=6&Morph=aachen&Start=0.1&Type=Prefix|End=8&Morph=sk&Start=6&Type=Root|End=11&Morph=ost&Start=8&Type=Suffix				{}
 """
 
         lexicon = Lexicon()
@@ -269,7 +269,7 @@ class TestNewFormat(unittest.TestCase):
         self.assertRaises(DerinetFileParseError, lexicon.load, db_file)
 
     def test_load_segmentation_noninteger_end(self):
-        db = """7.3	aachenskost#N	aachenskost	N		end=6a&morph=aachen&start=0&type=prefix|end=8&morph=sk&start=6&type=root|end=11&morph=ost&start=8&type=suffix				{}
+        db = """7.3	aachenskost#N	aachenskost	N		End=6a&Morph=aachen&Start=0&Type=Prefix|End=8&Morph=sk&Start=6&Type=Root|End=11&Morph=ost&Start=8&Type=Suffix				{}
 """
 
         lexicon = Lexicon()
@@ -278,7 +278,7 @@ class TestNewFormat(unittest.TestCase):
         self.assertRaises(DerinetFileParseError, lexicon.load, db_file)
 
     def test_load_segmentation_missing_start(self):
-        db = """7.3	aachenskost#N	aachenskost	N		end=6&morph=aachen&type=prefix|end=8&morph=sk&start=6&type=root|end=11&morph=ost&start=8&type=suffix				{}
+        db = """7.3	aachenskost#N	aachenskost	N		End=6&Morph=aachen&Type=Prefix|End=8&Morph=sk&Start=6&Type=Root|End=11&Morph=ost&Start=8&Type=Suffix				{}
 """
 
         lexicon = Lexicon()
@@ -287,7 +287,7 @@ class TestNewFormat(unittest.TestCase):
         self.assertRaises(DerinetFileParseError, lexicon.load, db_file)
 
     def test_load_segmentation_missing_end(self):
-        db = """7.3	aachenskost#N	aachenskost	N		morph=aachen&start=0&type=prefix|end=8&morph=sk&start=6&type=root|end=11&morph=ost&start=8&type=suffix				{}
+        db = """7.3	aachenskost#N	aachenskost	N		Morph=aachen&Start=0&Type=Prefix|End=8&Morph=sk&Start=6&Type=Root|End=11&Morph=ost&Start=8&Type=Suffix				{}
 """
 
         lexicon = Lexicon()
