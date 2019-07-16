@@ -37,30 +37,34 @@ class TestLexicon(unittest.TestCase):
         lex_b = lexicon.get_lexemes("dog", "N")
         lex_c = lexicon.get_lexemes("dog", "N", techlemma="dog")
         lex_d = lexicon.get_lexemes("dog", "N", techlemma="dog", techlemma_match_fuzzy=True)
+        lex_e = lexicon.get_lexemes("dog", lemid="dog#N")
 
         self.assertEqual(lex_a, [lex])
         self.assertEqual(lex_b, [lex])
         self.assertEqual(lex_c, [lex])
         self.assertEqual(lex_d, [lex])
+        self.assertEqual(lex_e, [lex])
 
     def test_get_lexeme_homonymous(self):
         lexicon = Lexicon()
 
-        lex_a = lexicon.create_lexeme("dog", "N", misc={"techlemma": "dog-1"})
-        lex_b = lexicon.create_lexeme("dog", "N", misc={"techlemma": "dog-2"})
-        lex_c = lexicon.create_lexeme("dog", "A")
+        lex_a = lexicon.create_lexeme("dog", "N", lemid="dog#N", misc={"techlemma": "dog-1"})
+        lex_b = lexicon.create_lexeme("dog", "N", lemid="dog#N", misc={"techlemma": "dog-2"})
+        lex_c = lexicon.create_lexeme("dog", "A", lemid="dog#A")
 
         list_a = lexicon.get_lexemes("dog")
         list_b = lexicon.get_lexemes("dog", "N")
         list_c = lexicon.get_lexemes("dog", "N", techlemma="dog-1")
         list_d = lexicon.get_lexemes("dog", "N", techlemma="dog-1", techlemma_match_fuzzy=True)
         list_e = lexicon.get_lexemes("dog", "N", techlemma="dog-3", techlemma_match_fuzzy=True)
+        list_f = lexicon.get_lexemes("dog", lemid="dog#N")
 
         self.assertSetEqual(set(list_a), {lex_a, lex_b, lex_c})
         self.assertSetEqual(set(list_b), {lex_a, lex_b})
         self.assertSequenceEqual(list_c, [lex_a])
         self.assertSequenceEqual(list_d, [lex_a])
         self.assertSetEqual(set(list_e), {lex_a, lex_b})
+        self.assertSetEqual(set(list_f), {lex_a, lex_b})
 
     def test_iter_lexemes_empty(self):
         lexicon = Lexicon()

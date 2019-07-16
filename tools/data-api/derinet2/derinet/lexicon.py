@@ -558,6 +558,7 @@ class Lexicon(object):
             self,
             lemma: str,
             pos: str = None,
+            lemid: str = None,
             techlemma: str = None,
             techlemma_match_fuzzy: bool = False
     ):
@@ -568,6 +569,9 @@ class Lexicon(object):
         else:
             # Flatten the list of lists into a single list.
             match_list = [lexeme for pos_list in match_set.values() for lexeme in pos_list]
+
+        if lemid is not None:
+            match_list = [lexeme for lexeme in match_list if lexeme.lemid == lemid]
 
         if techlemma is not None:
             match_list_techlemma = [lexeme for lexeme in match_list if lexeme.techlemma == techlemma]
