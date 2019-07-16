@@ -181,6 +181,19 @@ class TestLexicon(unittest.TestCase):
         with self.assertRaises(DerinetError):
             lexicon.add_derivation(psickuv, psik)
 
+    def test_add_conversion_basic(self):
+        lexicon = Lexicon()
+
+        tape_n = lexicon.create_lexeme("tape", "N")
+        tape_a = lexicon.create_lexeme("tape", "A")
+
+        lexicon.add_conversion(tape_n, tape_a)
+
+        self.assertIs(tape_a.parent, tape_n)
+        self.assertEqual(len(tape_n.children), 1)
+        self.assertIs(tape_n.children[0], tape_a)
+        self.assertIs(tape_a.parent_relation.type, "Conversion")
+
     def test_load_old_basic(self):
         db = ("0\tdog\tdog-1\tN\t\n", "1\tcat\tcat\tN\t\n")
         lexicon = Lexicon()
