@@ -151,7 +151,7 @@ class Relation(object, metaclass=ABCMeta):  # Defining it as Relation(ABC) doesn
 
 class DerivationalRelation(Relation):
     """
-    A 1-to-1 relation used for affixation and (depending on your taste also) conversion.
+    A 1-to-1 relation used for affixation.
     """
     __slots__ = ()
 
@@ -175,3 +175,21 @@ class CompoundRelation(Relation):
     @property
     def type(self):
         return "Compounding"
+
+
+class ConversionRelation(Relation):
+    """
+    A 1-to-1 relation used for conversion.
+
+    It doesn't check anywhere that the relation is actually a conversion, i.e.
+    that the lemmas of the source and target are identical and the POSes are
+    different. TODO maybe we want to do that?
+    """
+    __slots__ = ()
+
+    def __init__(self, source, target):
+        super().__init__((source,), source, (target,), target)
+
+    @property
+    def type(self):
+        return "Conversion"

@@ -1,7 +1,7 @@
 import unittest
 from derinet.lexeme import Lexeme
 import derinet.relation as r
-from derinet.utils import DerinetCycleCreationError
+from derinet.utils import DerinetError, DerinetCycleCreationError
 
 
 class TestRelation(unittest.TestCase):
@@ -221,6 +221,13 @@ class TestRelation(unittest.TestCase):
         relation = r.CompoundRelation((a, b), a, c)
         self.assertEqual("Compounding", relation.type)
 
+    def test_relation_type_conv(self):
+        a = Lexeme("dog", "N")
+        b = Lexeme("doggie", "N")
+
+        relation = r.ConversionRelation(a, b)
+        self.assertEqual("Conversion", relation.type)
+
     def test_relation_equal_none(self):
         a = Lexeme("dog", "N")
         b = Lexeme("doggie", "N")
@@ -228,6 +235,23 @@ class TestRelation(unittest.TestCase):
         relation = r.DerivationalRelation(a, b)
         self.assertFalse(relation == None)
         self.assertFalse(None == relation)
+
+    def test_conversion(self):
+        a = Lexeme("tape", "N")
+        b = Lexeme("tape", "A")
+
+        rel1 = r.ConversionRelation(a, b)
+
+    @unittest.expectedFailure
+    def test_conversion_derivational(self):
+        a = Lexeme("tape", "N")
+        b = Lexeme("tape", "A")
+        c = Lexeme("taper", "N")
+
+        # This could throw, because the lemma changes and the POS stays the same.
+        #  Should it, though? It is undecided so far.
+        with self.assertRaises(DerinetError):
+            rel2 = r.ConversionRelation(a, c)
 
 
 if __name__ == '__main__':
