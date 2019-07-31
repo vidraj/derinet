@@ -25,7 +25,7 @@ class Relation(object, metaclass=ABCMeta):  # Defining it as Relation(ABC) doesn
     ]
 
     @abstractmethod
-    def __init__(self, sources, main_source, targets, main_target):
+    def __init__(self, sources, main_source, targets, main_target, feats=None):
         # Check that the main main_source is one of the sources.
         if main_source not in sources:
             raise ValueError("The specified main main_source {} was not found in the list of sources [{}]".format(
@@ -55,12 +55,16 @@ class Relation(object, metaclass=ABCMeta):  # Defining it as Relation(ABC) doesn
         for p in targets:
             assert isinstance(p, derinet.lexeme.Lexeme)
 
+        # Fill in the default value for type if the user didn't specify anything.
+        if feats is None:
+            feats = {}
+
         # Store the relation data.
         self._main_source = main_source
         self._sources = tuple(sources)
         self._main_target = main_target
         self._targets = tuple(targets)
-        self._feats = {}  # TODO Add this field to the constructor and use it.
+        self._feats = feats
 
     def add_to_lexemes(self):
         # Add this relation to the lexemes.
