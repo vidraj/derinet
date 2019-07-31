@@ -86,7 +86,7 @@ class Relation(object, metaclass=ABCMeta):  # Defining it as Relation(ABC) doesn
         #  Adding it to the children shouldn't.
         for target in set(self.targets):
             # noinspection PyProtectedMember
-            target._set_parent_relation(self)  # pylint: disable=protected-access
+            target._add_parent_relation(self)  # pylint: disable=protected-access
         for source in set(self.sources):
             # noinspection PyProtectedMember
             source._add_child_relation(self)  # pylint: disable=protected-access

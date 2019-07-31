@@ -36,7 +36,9 @@ class Lexeme(object):
         "_segmentation",
 
         # Mutable relations with other lexemes.
-        "_parent_relation",
+        # The parent relation list is unique in that it is not conceptually
+        #  flat. The first member is special and e.g. checked for acyclicity.
+        "_parent_relations",
         "_child_relations",
 
         # Wild area.
@@ -69,7 +71,7 @@ class Lexeme(object):
             }]
         }
 
-        self._parent_relation = None
+        self._parent_relations = []
         self._child_relations = []
 
         self.misc = misc if misc is not None else {}
@@ -149,18 +151,24 @@ class Lexeme(object):
 
         :return: The main parent relation.
         """
-        return self._parent_relation
+        if len(self._parent_relations) >= 1:
+            return self._parent_relations[0]
+        else:
+            return None
 
-    def _set_parent_relation(self, relation):
+    @property
+    def parent_relations(self):
+        """
+        The relations to parent lexemes, including all the otherrels.
+
+        :return: A list of relations to parent lexemes.
+        """
+        return self._parent_relations
+
+    def _add_parent_relation(self, relation):
         assert isinstance(relation, Relation)
 
-        if self._parent_relation is not None and self._parent_relation != relation:
-            raise DerinetError("A relation was already set for lexeme {}".format(self))
-
-        if relation.main_target is not self:
-            raise DerinetError("The parent relation of {} is being changed to a one which doesn't include it as the main target.".format(self))
-
-        self._parent_relation = relation
+        self._parent_relations.append(relation)
 
     @property
     def parent(self):
@@ -205,8 +213,7 @@ class Lexeme(object):
 
     @property
     def otherrels(self):
-        # TODO do something with this.
-        return None
+        return self.parent_relations[1:]
 
     def get_tree_root(self):
         lexeme = self

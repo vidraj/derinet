@@ -98,7 +98,7 @@ class TestLexicon(unittest.TestCase):
         self.assertEqual(len(dog.children), 1)
         self.assertIs(dog.children[0], doggie)
 
-    def test_add_multiple_conflicting_derivations(self):
+    def test_add_multiple_alternative_derivations(self):
         lexicon = Lexicon()
         dog = lexicon.create_lexeme("dog", "N")
         god = lexicon.create_lexeme("god", "N")
@@ -106,12 +106,15 @@ class TestLexicon(unittest.TestCase):
 
         lexicon.add_derivation(dog, doggie)
 
-        with self.assertRaises(DerinetError):
-            lexicon.add_derivation(god, doggie)
+        lexicon.add_derivation(god, doggie)
 
+        # Even though multiple parents were added, only one of them remains the main one.
         self.assertIs(doggie.parent, dog)
         self.assertEqual(1, len(dog.children))
-        self.assertEqual(0, len(god.children))
+        self.assertEqual(1, len(god.children))
+
+        self.assertEqual(1, len(doggie.otherrels))
+        self.assertIs(god, doggie.otherrels[0].main_source)
 
     def test_add_derivation_multiple_times(self):
         lexicon = Lexicon()
