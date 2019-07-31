@@ -206,6 +206,9 @@ class Lexicon(object):
                     # The line is a comment. Ignore it fully.
                     continue
 
+                if not line.endswith("\n"):
+                    raise DerinetFileParseError("Line nr. {} '{}' doesn't end with a newline, the file was possibly truncated".format(line_nr, line))
+
                 line = line.rstrip("\n")
 
                 if not line:
