@@ -145,7 +145,7 @@ class Lexeme(object):
         return self._segmentation["morphs"]
 
     @property
-    def parent_relation(self):
+    def parent_relation(self) -> Relation:
         """
         The main parent relation.
 
