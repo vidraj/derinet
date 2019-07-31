@@ -250,9 +250,6 @@ class Lexicon(object):
                         # Tree ID mismatch.
                         raise DerinetFileParseError("Lexeme with tree ID {} found in a block of tree ID {} at line nr. {}".format(tree_id, this_tree, line_nr))
 
-                # TODO Check that the block ID is constant in a block and not seen
-                #  in other blocks, and that the lexeme-in-block ID is unique in a block.
-
                 if not lemma:
                     raise DerinetFileParseError("Empty lemma encountered in lexeme ID {} on line {} '{}'".format(lex_id_str, line_nr, line))
 
