@@ -43,18 +43,16 @@ class TestNewFormat(unittest.TestCase):
         with self.assertRaises(DerinetFileParseError):
             lexicon.load(db_file)
 
-    @unittest.expectedFailure
     def test_load_missing_lemid_error(self):
         """
-        It is not clear at all whether lemids are necessary. Perhaps they can actually be empty?
+        The lemids are not strictly necessary. They may actually be empty.
         """
         db = """0.0		lexeme	N						{}
 """
 
         lexicon = Lexicon()
         db_file = io.StringIO(db)
-        with self.assertRaises(DerinetFileParseError):
-            lexicon.load(db_file)
+        lexicon.load(db_file)
 
     def test_load_no_trailing_newline(self):
         db = """0.0	0	lexeme							{}"""
@@ -93,7 +91,6 @@ class TestNewFormat(unittest.TestCase):
 
         self.assertEqual(len(list(lexicon.iter_lexemes())), 2)
 
-    @unittest.expectedFailure
     def test_load_duplicate_lemid(self):
         """
         Duplicate lemids are to be expected, at least in Czech, given that
@@ -107,8 +104,7 @@ class TestNewFormat(unittest.TestCase):
         lexicon = Lexicon()
         db_file = io.StringIO(db)
 
-        with self.assertRaises(DerinetFileParseError):
-            lexicon.load(db_file)
+        lexicon.load(db_file)
 
     def test_load_duplicate_id_1(self):
         db = """0.0	0	lexeme							{}
@@ -134,7 +130,6 @@ class TestNewFormat(unittest.TestCase):
         with self.assertRaises(DerinetFileParseError):
             lexicon.load(db_file)
 
-    @unittest.expectedFailure
     def test_load_duplicate_load(self):
         """
         Since there is no distinguishing feature to the lexeme, there is no way
@@ -150,10 +145,9 @@ class TestNewFormat(unittest.TestCase):
         lexicon.load(db_file)
         db_file.seek(0)
 
-        with self.assertRaises(DerinetError):
-            lexicon.load(db_file)
+        lexicon.load(db_file)
 
-        self.assertEqual(len(list(lexicon.iter_lexemes())), 1)
+        self.assertEqual(len(list(lexicon.iter_lexemes())), 2)
 
     def test_load_two_dbs(self):
         db1 = """0.0	0	lexeme							{}

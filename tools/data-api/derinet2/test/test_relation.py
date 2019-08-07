@@ -242,16 +242,15 @@ class TestRelation(unittest.TestCase):
 
         rel1 = r.ConversionRelation(a, b)
 
-    @unittest.expectedFailure
     def test_conversion_derivational(self):
         a = Lexeme("tape", "N")
         b = Lexeme("tape", "A")
         c = Lexeme("taper", "N")
 
-        # This could throw, because the lemma changes and the POS stays the same.
-        #  Should it, though? It is undecided so far.
-        with self.assertRaises(DerinetError):
-            rel2 = r.ConversionRelation(a, c)
+        # This shouldn't throw, despite the lemma changing and the POS staying
+        #  the same. Some languages do that, actually.
+        # Maybe we could check the POS, but certainly not the lemma form.
+        rel2 = r.ConversionRelation(a, c)
 
 
 if __name__ == '__main__':
