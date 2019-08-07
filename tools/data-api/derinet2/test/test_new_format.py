@@ -83,7 +83,7 @@ class TestNewFormat(unittest.TestCase):
 
     def test_load_two_lexemes(self):
         db = """0.0	0	lexeme							{}
-0.1	1	lexemer				0.0			{}
+0.1	1	lexemer				0.0	Type=Derivation		{}
 """
 
         lexicon = Lexicon()
@@ -100,7 +100,7 @@ class TestNewFormat(unittest.TestCase):
         share the same lemid.
         """
         db = """0.0	0	lexeme							{}
-0.1	0	lexemer				0.0			{}
+0.1	0	lexemer				0.0	Type=Derivation		{}
 """
 
         lexicon = Lexicon()
@@ -111,8 +111,8 @@ class TestNewFormat(unittest.TestCase):
 
     def test_load_duplicate_id_1(self):
         db = """0.0	0	lexeme							{}
-0.1	1	lexemer				0.0			{}
-0.1	2	lexemes				0.0			{}
+0.1	1	lexemer				0.0	Type=Derivation		{}
+0.1	2	lexemes				0.0	Type=Derivation		{}
 """
 
         lexicon = Lexicon()
@@ -186,7 +186,7 @@ class TestNewFormat(unittest.TestCase):
 
     def test_load_conjoined_trees_2(self):
         db = """0.0	0	lexeme							{}
-1.1	1	word				0.0			{}
+1.1	1	word				0.0	Type=Derivation		{}
 """
 
         lexicon = Lexicon()
@@ -207,7 +207,7 @@ class TestNewFormat(unittest.TestCase):
             lexicon.load(db_file)
 
     def test_load_self_reference(self):
-        db = """0.0	0	lexeme				0.0			{}
+        db = """0.0	0	lexeme				0.0	Type=Derivation		{}
         """
 
         lexicon = Lexicon()
@@ -217,7 +217,7 @@ class TestNewFormat(unittest.TestCase):
             lexicon.load(db_file)
 
     def test_load_forward_reference(self):
-        db = """0.0	0	lexemer				0.1			{}
+        db = """0.0	0	lexemer				0.1	Type=Derivation		{}
 0.1	1	lexeme							{}
 """
 
@@ -233,7 +233,7 @@ class TestNewFormat(unittest.TestCase):
         """
         db = """0.0	0	lexeme							{}
 
-1.0	1	lexemer				0.0			{}
+1.0	1	lexemer				0.0	Type=Derivation		{}
 """
 
         lexicon = Lexicon()
@@ -245,7 +245,7 @@ class TestNewFormat(unittest.TestCase):
     def test_load_split_tree_1(self):
         db = """0.0	0	lexeme							{}
 
-0.1	1	lexemer				0.0			{}
+0.1	1	lexemer				0.0	Type=Derivation		{}
 """
 
         lexicon = Lexicon()
@@ -267,7 +267,7 @@ class TestNewFormat(unittest.TestCase):
             lexicon.load(db_file)
 
     def test_load_child_before_parent(self):
-        db = """0.1	0	lexemer				0.0			{}
+        db = """0.1	0	lexemer				0.0	Type=Derivation		{}
 0.0	1	lexeme							{}
 """
 
