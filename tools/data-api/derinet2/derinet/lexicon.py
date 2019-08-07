@@ -612,8 +612,8 @@ class Lexicon(object):
     def iter_relations(self):
         raise NotImplementedError()
 
-    def add_derivation(self, source, target):
-        rel = DerivationalRelation(source, target)
+    def add_derivation(self, source, target, feats=None):
+        rel = DerivationalRelation(source, target, feats=feats)
         rel.add_to_lexemes()
 
         # TODO should we remember the relation somewhere?
@@ -621,10 +621,10 @@ class Lexicon(object):
         # TODO should this method return the created link?
         # return rel
 
-    def add_composition(self, sources, main_source, target):
-        rel = CompoundRelation(sources, main_source, target)
+    def add_composition(self, sources, main_source, target, feats=None):
+        rel = CompoundRelation(sources, main_source, target, feats=feats)
         rel.add_to_lexemes()
 
-    def add_conversion(self, source, target):
-        rel = ConversionRelation(source, target)
+    def add_conversion(self, source, target, feats=None):
+        rel = ConversionRelation(source, target, feats=feats)
         rel.add_to_lexemes()

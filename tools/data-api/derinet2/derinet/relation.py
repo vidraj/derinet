@@ -159,8 +159,8 @@ class DerivationalRelation(Relation):
     """
     __slots__ = ()
 
-    def __init__(self, source, target):
-        super().__init__((source,), source, (target,), target)
+    def __init__(self, source, target, feats=None):
+        super().__init__((source,), source, (target,), target, feats=feats)
 
     @property
     def type(self):
@@ -173,8 +173,8 @@ class CompoundRelation(Relation):
     """
     __slots__ = ()
 
-    def __init__(self, sources, main_source, target):
-        super().__init__(sources, main_source, (target,), target)
+    def __init__(self, sources, main_source, target, feats=None):
+        super().__init__(sources, main_source, (target,), target, feats=feats)
 
     @property
     def type(self):
@@ -191,8 +191,8 @@ class ConversionRelation(Relation):
     """
     __slots__ = ()
 
-    def __init__(self, source, target):
-        super().__init__((source,), source, (target,), target)
+    def __init__(self, source, target, feats=None):
+        super().__init__((source,), source, (target,), target, feats=feats)
 
     @property
     def type(self):
