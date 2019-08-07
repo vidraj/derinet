@@ -266,6 +266,7 @@ class Lexicon(object):
         id_map = {}
         seen_trees = set()
         this_tree = None
+        deferred_relations = []
 
         try:
             for line_nr, line in enumerate(data_source, start=1):
@@ -337,16 +338,46 @@ class Lexicon(object):
                         if t == "Derivation":
                             self.add_derivation(parent_lexeme, lexeme, feats=reltype)
                         elif t == "Compounding":
-                            # FIXME this needs to be deferred, as the secondary
+                            # This needs to be deferred, as the secondary
                             #  sources may not have been encountered yet.
-                            # self.add_composition(parent_lexeme, lexeme, feats=reltype)
-                            pass
+                            #  But read and parse as much as possible anyway.
+
+                            if "Sources" not in reltype:
+                                raise DerinetFileParseError("Compounding needs multiple parents, but there are no other Sources on line nr. {}".format(line_nr))
+
+                            parent_id_strs = reltype["Sources"].split(",")
+                            del reltype["Sources"]
+                            try:
+                                parent_ids = [parse_v2_id(id_str) for id_str in parent_id_strs]
+                            except ValueError:
+                                raise DerinetFileParseError("Unparseable parent ID encountered on line nr. {}".format(line_nr))
+
+                            deferred_relations.append((line_nr, t, parent_ids, parent_lexeme, lexeme, reltype))
                         elif t == "Conversion":
                             self.add_conversion(parent_lexeme, lexeme, feats=reltype)
                         else:
                             raise DerinetFileParseError("Unknown relation type {} on line nr. {}".format(t, line_nr))
 
                 # TODO Parse secondary relations.
+                if otherrels:
+                    raise NotImplementedError("Secondary relations are not supported yet.")
+
+            # The whole database is loaded now. Process the deferred relations.
+            #  Right now, this only concerns compounds. In the future, more
+            #  types may require deferred handling.
+            for line_nr, reltype, parent_ids, parent_lexeme, lexeme, feats in deferred_relations:
+                parents = []
+                for id_str in parent_ids:
+                    if id_str in id_map:
+                        parents.append(id_map[id_str])
+                    else:
+                        raise DerinetFileParseError("Lexeme on line nr. {} references unknown parent lexeme ID {}".format(line_nr, id_str))
+
+                if reltype == "Compounding":
+                    self.add_composition(parents, parent_lexeme, lexeme, feats=feats)
+                else:
+                    raise DerinetFileParseError("Unknown relation type {} on line nr. {}".format(reltype, line_nr))
+
         finally:
             # If we are supposed to close the data source, do it now.
             if close_at_end:
