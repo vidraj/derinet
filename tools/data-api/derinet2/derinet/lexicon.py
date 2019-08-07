@@ -328,8 +328,23 @@ class Lexicon(object):
                     else:
                         raise DerinetFileParseError("Lexeme with ID {} on line nr. {} refers to an in-tree lexeme ID {}, which was not encountered yet.".format(lex_id_str, line_nr, parent_id_str))
 
-                    # TODO Check that reltype is derivation.
-                    self.add_derivation(parent_lexeme, lexeme)
+                    if "Type" not in reltype:
+                        raise DerinetFileParseError("Unspecified relation type on line nr. {}".format(line_nr))
+                    else:
+                        t = reltype["Type"]
+                        del reltype["Type"]
+
+                        if t == "Derivation":
+                            self.add_derivation(parent_lexeme, lexeme, feats=reltype)
+                        elif t == "Compounding":
+                            # FIXME this needs to be deferred, as the secondary
+                            #  sources may not have been encountered yet.
+                            # self.add_composition(parent_lexeme, lexeme, feats=reltype)
+                            pass
+                        elif t == "Conversion":
+                            self.add_conversion(parent_lexeme, lexeme, feats=reltype)
+                        else:
+                            raise DerinetFileParseError("Unknown relation type {} on line nr. {}".format(t, line_nr))
 
                 # TODO Parse secondary relations.
         finally:
