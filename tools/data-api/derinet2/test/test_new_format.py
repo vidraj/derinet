@@ -1,6 +1,7 @@
 import unittest
 import io
-from derinet import Lexicon, DerinetError, DerinetFileParseError
+from derinet import Lexicon, DerinetError, DerinetFileParseError, Format
+from derinet.relation import CompoundRelation, ConversionRelation
 
 
 class TestNewFormat(unittest.TestCase):
@@ -324,6 +325,121 @@ class TestNewFormat(unittest.TestCase):
         db_file = io.StringIO(db)
 
         self.assertRaises(DerinetFileParseError, lexicon.load, db_file)
+
+    def test_load_relation_features(self):
+        db = """0.0	0	lexeme							{}
+0.1	1	lexemer				0.0	SemanticLabel=Actor&Type=Derivation		{}
+"""
+
+        db_file = io.StringIO(db)
+        lexicon = Lexicon()
+        lexicon.load(db_file, fmt=Format.DERINET_V2)
+
+        self.assertEqual(2, len(list(lexicon.iter_lexemes())))
+        lexemers = lexicon.get_lexemes("lexemer")
+        self.assertEqual(1, len(lexemers))
+        lexemer = lexemers[0]
+        self.assertDictEqual({"SemanticLabel": "Actor"}, lexemer.parent_relation.feats)
+
+    def test_load_compounding(self):
+        db = """0.0	buněčný#AA???----??---?	buněčný	A						{}
+0.1	vnitrobuněčný#AA???----??---?	vnitrobuněčný	A			0.0	Sources=1.0,0.0&Type=Compounding		{}
+
+1.0	vnitro#NNN??-----A---?	vnitro	N	Gender=Neut					{}
+"""
+        db_file = io.StringIO(db)
+        lexicon = Lexicon()
+        lexicon.load(db_file, fmt=Format.DERINET_V2)
+
+        compound = lexicon.get_lexemes("vnitrobuněčný")[0]
+        self.assertIsInstance(compound.parent_relation, CompoundRelation)
+        self.assertEqual(2, len(compound.parent_relation.sources))
+
+    def test_load_conversion(self):
+        db = """0.0	hajný#AA???----??---?	hajný	A						{}
+0.1	hajný#NN???----??---?	hajný	N			0.0	Type=Conversion		{}
+"""
+        db_file = io.StringIO(db)
+        lexicon = Lexicon()
+        lexicon.load(db_file, fmt=Format.DERINET_V2)
+
+        noun = lexicon.get_lexemes("hajný", "N")[0]
+        self.assertIsInstance(noun.parent_relation, ConversionRelation)
+
+    def test_load_unknown_reltype(self):
+        db = """0.0	hajný#AA???----??---?	hajný	A						{}
+0.1	hajný#NN???----??---?	hajný	N			0.0	Type=Blargh		{}
+"""
+        db_file = io.StringIO(db)
+        lexicon = Lexicon()
+        with self.assertRaises(DerinetFileParseError):
+            lexicon.load(db_file, fmt=Format.DERINET_V2)
+
+    def test_load_missing_reltype(self):
+        db = """0.0	hajný#AA???----??---?	hajný	A						{}
+0.1	hajný#NN???----??---?	hajný	N			0.0			{}
+"""
+        db_file = io.StringIO(db)
+        lexicon = Lexicon()
+        with self.assertRaises(DerinetFileParseError):
+            lexicon.load(db_file, fmt=Format.DERINET_V2)
+
+    def test_roundtrip_complex(self):
+        db = """0.0	Aachen#NNM??-----A---?	Aachen	N	Animacy=Anim&Gender=Masc&NameType=Sur					{"techlemma": "Aachen_;S"}
+0.1	Aachenův#AU???M--------?	Aachenův	A	NameType=Sur&Poss=Yes		0.0	SemanticLabel=Possessive&Type=Derivation		{"techlemma": "Aachenův_;S_^(*2)"}
+0.2	aachenský#AA???----??---?	aachenský	A	NameType=Geo		0.0	Type=Derivation		{"techlemma": "aachenský_;G"}
+0.3	aachenskost#NNF??-----?---?	aachenskost	N	Gender=Fem&NameType=Geo		0.2	Type=Derivation		{"techlemma": "aachenskost_;G_^(*3ý)"}
+0.4	aachensky#Dg-------??---?	aachensky	D	NameType=Geo		0.2	Type=Derivation		{"techlemma": "aachensky_;G_^(*1ý)"}
+
+1.0	buňka#NNF??-----A---?	buňka	N	Gender=Fem					{"techlemma": "buňka"}
+1.1	buničina#NNF??-----A---?	buničina	N	Gender=Fem		1.0	Type=Derivation		{"techlemma": "buničina"}
+1.2	buničinový#AA???----??---?	buničinový	A			1.1	Type=Derivation		{"techlemma": "buničinový"}
+1.3	buničinově#Dg-------??---?	buničinově	D			1.2	Type=Derivation		{"techlemma": "buničinově_^(*1ý)"}
+1.4	buničinovost#NNF??-----?---?	buničinovost	N	Gender=Fem		1.2	Type=Derivation		{"techlemma": "buničinovost_^(*3ý)"}
+1.5	buněčný#AA???----??---?	buněčný	A			1.0	Type=Derivation		{"techlemma": "buněčný"}
+1.6	buněčně#Dg-------??---?	buněčně	D			1.5	Type=Derivation		{"techlemma": "buněčně_^(*1ý)"}
+1.7	buněčnost#NNF??-----?---?	buněčnost	N	Gender=Fem		1.5	Type=Derivation		{"techlemma": "buněčnost_^(*3ý)"}
+1.8	vnitrobuněčný#AA???----??---?	vnitrobuněčný	A			1.5	Sources=2.12,1.5&Type=Compounding		{"is_compound": true, "techlemma": "vnitrobuněčný"}
+1.9	vnitrobuněčnost#NNF??-----?---?	vnitrobuněčnost	N	Gender=Fem		1.8	Type=Derivation		{"techlemma": "vnitrobuněčnost_^(*3ý)"}
+1.10	vnitrobuněčně#Dg-------??---?	vnitrobuněčně	D			1.8	Type=Derivation		{"techlemma": "vnitrobuněčně_^(*1ý)"}
+1.11	buňkovitý#AA???----??---?	buňkovitý	A			1.0	Type=Derivation		{"techlemma": "buňkovitý"}
+1.12	buňkovitě#Dg-------??---?	buňkovitě	D			1.11	Type=Derivation		{"techlemma": "buňkovitě_^(*1ý)"}
+1.13	buňkovitost#NNF??-----?---?	buňkovitost	N	Gender=Fem		1.11	Type=Derivation		{"techlemma": "buňkovitost_^(*3ý)"}
+1.14	buňkový#AA???----??---?	buňkový	A			1.0	Type=Derivation		{"techlemma": "buňkový"}
+1.15	buňkově#Dg-------??---?	buňkově	D			1.14	Type=Derivation		{"techlemma": "buňkově_^(*1ý)"}
+1.16	buňkovost#NNF??-----?---?	buňkovost	N	Gender=Fem		1.14	Type=Derivation		{"techlemma": "buňkovost_^(*3ý)"}
+1.17	mikrobuňka#NNF??-----A---?	mikrobuňka	N	Gender=Fem		1.0	Type=Derivation		{"techlemma": "mikrobuňka"}
+
+2.0	nitro#NNN??-----A---?	nitro	N	Gender=Neut					{"techlemma": "nitro-1"}
+2.1	niterný#AA???----??---?	niterný	A			2.0	Type=Derivation		{"techlemma": "niterný"}
+2.2	niterně#Dg-------??---?	niterně	D			2.1	Type=Derivation		{"techlemma": "niterně_^(*1í)"}
+2.3	niternost#NNF??-----?---?	niternost	N	Gender=Fem		2.1	Type=Derivation		{"techlemma": "niternost_^(*3ý)"}
+2.4	nitrný#AA???----??---?	nitrný	A	Style=Arch		2.0	Type=Derivation		{"techlemma": "nitrný_,a"}
+2.5	nitrně#Dg-------??---?	nitrně	D	Style=Arch		2.4	Type=Derivation		{"techlemma": "nitrně_,a_^(*1ý)"}
+2.6	nitrnost#NNF??-----?---?	nitrnost	N	Gender=Fem&Style=Arch		2.4	Type=Derivation		{"techlemma": "nitrnost_,a_^(*3ý)"}
+2.7	uvnitř#Db-------------	uvnitř	D			2.0	Type=Derivation		{"techlemma": "uvnitř-2"}
+2.8	vnitřek#NNI??-----A---?	vnitřek	N	Animacy=Inan&Gender=Masc		2.7	Type=Derivation		{"techlemma": "vnitřek"}
+2.9	vnitřkový#AA???----??---?	vnitřkový	A			2.8	Type=Derivation		{"techlemma": "vnitřkový"}
+2.10	vnitřkově#Dg-------??---?	vnitřkově	D			2.9	Type=Derivation		{"techlemma": "vnitřkově_^(*1ý)"}
+2.11	vnitřkovost#NNF??-----?---?	vnitřkovost	N	Gender=Fem		2.9	Type=Derivation		{"techlemma": "vnitřkovost_^(*3ý)"}
+2.12	vnitro#NNN??-----A---?	vnitro	N	Gender=Neut		2.0	Type=Derivation		{"techlemma": "vnitro"}
+2.13	dovnitř#Db-------------	dovnitř	D			2.12	Type=Derivation		{"techlemma": "dovnitř-2"}
+2.14	vnitrák#NNM??-----A---?	vnitrák	N	Animacy=Anim&Gender=Masc&Style=Slng		2.12	Type=Derivation		{"techlemma": "vnitrák_,l"}
+2.15	vnitrácký#AA???----??---?	vnitrácký	A			2.14	Type=Derivation		{"techlemma": "vnitrácký_,h_,l"}
+2.16	vnitráckost#NNF??-----?---?	vnitráckost	N	Gender=Fem		2.15	Type=Derivation		{"techlemma": "vnitráckost_,h_,l_^(*3ý)"}
+2.17	vnitrácky#Dg-------??---?	vnitrácky	D			2.15	Type=Derivation		{"techlemma": "vnitrácky_,h_,l_^(*1ý)"}
+2.18	vnitrákův#AU???M--------?	vnitrákův	A	Poss=Yes&Style=Slng		2.14	SemanticLabel=Possessive&Type=Derivation		{"techlemma": "vnitrákův_,l_^(*2)"}
+2.19	vnitřní#AA???----??---?	vnitřní	A			2.12	Type=Derivation		{"techlemma": "vnitřní"}
+2.20	vnitřně#Dg-------??---?	vnitřně	D			2.19	Type=Derivation		{"techlemma": "vnitřně_^(*1í)"}
+2.21	zevnitř#Db-------------	zevnitř	D			2.12	Type=Derivation		{"techlemma": "zevnitř-2"}
+"""
+        db_file_in = io.StringIO(db)
+        db_file_out = io.StringIO()
+        lexicon = Lexicon()
+        lexicon.load(db_file_in, fmt=Format.DERINET_V2)
+        lexicon.save(db_file_out, fmt=Format.DERINET_V2)
+        self.maxDiff = None
+        self.assertMultiLineEqual(db, db_file_out.getvalue())
 
 
 if __name__ == '__main__':
