@@ -180,6 +180,73 @@ class Lexicon(object):
 
             self.add_derivation(parent_lexeme, child_lexeme)
 
+    def _parse_v2_lexeme(self, line_nr, line):
+        fields = line.split("\t", maxsplit=9)
+
+        if len(fields) != 10:
+            # The line was too short; report an error.
+            raise DerinetFileParseError("Line nr. {} '{}' is too short, more data required.".format(line_nr, line))
+
+        lex_id_str, lemid, lemma, pos, feats, segmentation, parent_id_str, reltype, otherrels, misc = fields
+
+        try:
+            lex_id = parse_v2_id(lex_id_str)
+        except ValueError:
+            raise DerinetFileParseError("Unparseable ID '{}' encountered on line nr. {} '{}'.".format(lex_id_str, line_nr, line))
+
+        if not lemma:
+            raise DerinetFileParseError("Empty lemma encountered in lexeme ID {} on line {} '{}'".format(lex_id_str, line_nr, line))
+
+        feats_list = parse_kwstring(feats)
+        if len(feats_list) == 0:
+            feats = {}
+        elif len(feats_list) == 1:
+            feats = feats_list[0]
+        else:
+            raise DerinetFileParseError() # TODO Write a proper error message.
+
+        morph_list = parse_kwstring(segmentation)
+
+        reltype_list = parse_kwstring(reltype)
+        if len(reltype_list) == 0:
+            reltype = {}
+        elif len(reltype_list) == 1:
+            reltype = reltype_list[0]
+        else:
+            raise DerinetFileParseError() # TODO Write a proper error message.
+
+        otherrels = parse_kwstring(otherrels)
+
+        try:
+            misc = json.loads(misc)
+        except json.decoder.JSONDecodeError:
+            raise DerinetFileParseError("Couldn't parse the JSON-encoded misc section of lexeme {} at line {} '{}'".format(lex_id_str, line_nr, line))
+
+        lexeme = self.create_lexeme(lemma, pos, lemid=lemid, feats=feats, misc=misc)
+
+        # Add the segmentation.
+        self._add_morphs_v2_annot(lexeme, morph_list, line_nr)
+
+        return lexeme, lex_id_str, lex_id, parent_id_str, reltype, otherrels
+
+    def _add_morphs_v2_annot(self, lexeme, morph_list, line_nr):
+        for morph in morph_list:
+            if "Start" not in morph:
+                raise DerinetFileParseError("Morph specification '{}' on line nr. {} doesn't include its start".format(morph, line_nr))
+            if "End" not in morph:
+                raise DerinetFileParseError("Morph specification '{}' on line nr. {} doesn't include its end".format(morph, line_nr))
+
+            try:
+                morph["Start"] = int(morph["Start"])
+            except ValueError:
+                raise DerinetFileParseError("Morpheme start '{}' on line nr. {} is not integral".format(morph["Start"], line_nr))
+            try:
+                morph["End"] = int(morph["End"])
+            except ValueError:
+                raise DerinetFileParseError("Morpheme end '{}' on line nr. {} is not integral".format(morph["End"], line_nr))
+
+            lexeme.add_morph(morph["Start"], morph["End"], morph)
+
     def _load_derinet_v2(self, data_source):
         close_at_end = False
         if isinstance(data_source, str):
@@ -219,18 +286,7 @@ class Lexicon(object):
                         this_tree = None
                     continue
 
-                fields = line.split("\t", maxsplit=9)
-
-                if len(fields) != 10:
-                    # The line was too short; report an error.
-                    raise DerinetFileParseError("Line nr. {} '{}' is too short, more data required.".format(line_nr, line))
-
-                lex_id_str, lemid, lemma, pos, feats, segmentation, parent_id_str, reltype, otherrels, misc = fields
-
-                try:
-                    lex_id = parse_v2_id(lex_id_str)
-                except ValueError:
-                    raise DerinetFileParseError("Unparseable ID '{}' encountered on line nr. {} '{}'.".format(lex_id_str, line_nr, line))
+                lexeme, lex_id_str, lex_id, parent_id_str, reltype, otherrels = self._parse_v2_lexeme(line_nr, line)
                 tree_id, lex_in_tree_id = lex_id
 
                 # If the ID was used already, raise an error.
@@ -249,54 +305,6 @@ class Lexicon(object):
                     if tree_id != this_tree:
                         # Tree ID mismatch.
                         raise DerinetFileParseError("Lexeme with tree ID {} found in a block of tree ID {} at line nr. {}".format(tree_id, this_tree, line_nr))
-
-                if not lemma:
-                    raise DerinetFileParseError("Empty lemma encountered in lexeme ID {} on line {} '{}'".format(lex_id_str, line_nr, line))
-
-                feats_list = parse_kwstring(feats)
-                if len(feats_list) == 0:
-                    feats = {}
-                elif len(feats_list) == 1:
-                    feats = feats_list[0]
-                else:
-                    raise DerinetFileParseError() # TODO Write a proper error message.
-
-                morph_list = parse_kwstring(segmentation)
-
-                reltype_list = parse_kwstring(reltype)
-                if len(reltype_list) == 0:
-                    reltype = {}
-                elif len(reltype_list) == 1:
-                    reltype = reltype_list[0]
-                else:
-                    raise DerinetFileParseError() # TODO Write a proper error message.
-
-                otherrels = parse_kwstring(otherrels)
-
-                try:
-                    misc = json.loads(misc)
-                except json.decoder.JSONDecodeError:
-                    raise DerinetFileParseError("Couldn't parse the JSON-encoded misc section of lexeme {} at line {} '{}'".format(lex_id_str, line_nr, line))
-
-                lexeme = self.create_lexeme(lemma, pos, lemid=lemid, feats=feats, misc=misc)
-
-                # Add the segmentation.
-                for morph in morph_list:
-                    if "Start" not in morph:
-                        raise DerinetFileParseError("Morph specification '{}' on line nr. {} doesn't include its start".format(morph, line_nr))
-                    if "End" not in morph:
-                        raise DerinetFileParseError("Morph specification '{}' on line nr. {} doesn't include its end".format(morph, line_nr))
-
-                    try:
-                        morph["Start"] = int(morph["Start"])
-                    except ValueError:
-                        raise DerinetFileParseError("Morpheme start '{}' on line nr. {} is not integral".format(morph["Start"], line_nr))
-                    try:
-                        morph["End"] = int(morph["End"])
-                    except ValueError:
-                        raise DerinetFileParseError("Morpheme end '{}' on line nr. {} is not integral".format(morph["End"], line_nr))
-
-                    lexeme.add_morph(morph["Start"], morph["End"], morph)
 
                 # We already know that the ID wasn't encountered previously.
                 id_map[lex_id] = lexeme
