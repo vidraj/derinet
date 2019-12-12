@@ -37,15 +37,15 @@ class AddSegmentation(Block):
 
                         # Just an example, don't actually do this! The type must be something sensible, else leave it undefined.
                         if len(morphs) == 1:
-                            type = "root"
+                            type = "Root"
                         elif i == 0:
-                            type = "prefix"
+                            type = "Prefix"
                         elif i == len(morphs) - 1:
-                            type = "suffix"
+                            type = "Suffix"
                         else:
-                            type = "root"
+                            type = "Root"
 
-                        lexeme.add_morph(start, end, {"type": type})
+                        lexeme.add_morph(start, end, {"Type": type})
 
                 elif len(lexemes) == 0:
                     logger.warning("Lexeme for lemma {} not found".format(lemma))
