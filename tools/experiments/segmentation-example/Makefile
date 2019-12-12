@@ -17,3 +17,4 @@ derinet.tsv: $(DERINET)
 clean:
 	rm -f derinet.tsv
 	rm -f derinet-with-segmentation.tsv
+	rm -f log.txt
