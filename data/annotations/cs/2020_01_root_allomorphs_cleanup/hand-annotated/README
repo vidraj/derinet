@@ -1,0 +1,6 @@
+cleanup: lets accumulate all previous root-morpheme-allormorphs annotations in a single folder
+
+../2019_01_freq_roots/hand-annotated/fixed-after-tests-by-ZZ.xlsx -> batch1.xlsx
+
+../2019_01_freq_roots/hand-annotated/druha-davka-fixed-by-ZZ.xlsx hand-annotated/batch2.xlsx
+../2019_12_morphrootsegm_3rd_round/hand-annotated/treti-davka.xlsx -> batch3.xlsx
