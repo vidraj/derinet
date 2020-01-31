@@ -33,3 +33,8 @@ crossoverlap: # overlap between 1+2 vs 3
 
 clean:
 	rm -f *tsv *txt *csv
+
+endvowel:
+	cat induced?.tsv | grep SEGMENTED | cut -f3 | egrep '[aeiyouáéíýóů]\)' > lemmas_with_end_vowel_root_morpheme.tsv
+	cat lemmas_with_end_vowel_root_morpheme.tsv | perl -ne '/\((.+)\)/;print "$$1\n"' | sort | uniq -c | sort -nr > end_vowel_root_morphemes.tsv
+
