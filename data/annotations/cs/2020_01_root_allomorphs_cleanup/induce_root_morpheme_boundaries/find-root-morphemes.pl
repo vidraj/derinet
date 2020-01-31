@@ -33,8 +33,10 @@ sub root_len {
 my $ignore_composite = 0;
 my $rootnode = 0;
 my $firstcluster = 1;
+my $print_buffer = "";
+my $nonempty_cluster = 0;
 
-while (<>) {
+LINE: while (<>) {
     chomp;
 
     s/","/\t/g;
@@ -48,7 +50,7 @@ while (<>) {
 
     if (/^\s*$/ or /Automatic roots/ ) {  } # empty lines ignored too
 
-    elsif (/Manual roots for (\S+\#VC):/ or /telef/) {
+    elsif (/Manual roots for (\S+\#[AV]C):/ or /telef/) {
 	$ignore_composite = 1;
     }
     
@@ -64,23 +66,30 @@ while (<>) {
 	@root_allomorphs = grep {/[[:alpha:]]/} split / /, $allomorph_string;
 	$rootnode = 1;
 	
-	if (not $firstcluster) {
+	if (not $firstcluster and $nonempty_cluster) {
 	    print "ENDOFCLUSTER\n";
 	}
 	$firstcluster = 0;
 	    
-	print "STARTOFCLUSTER\t".(join " ",@root_allomorphs)."\n";
+	$print_buffer =  "STARTOFCLUSTER\t".(join " ",@root_allomorphs)."\n";
+	$nonempty_cluster = 0;
+    }
+
+    elsif (/\%/) {
+	next LINE;
     }
 
     elsif (/\t[\$\!]/) { 
 	my ($shortlemma,$longlemma,$pos) = split /\t/;
 	if ($shortlemma and $longlemma) {
-	    print "STOPNODE\t$longlemma\n";
+	    print $print_buffer."STOPNODE\t$longlemma\n";
+	    $print_buffer = "";
+    	    $nonempty_cluster = 1;
 	}
     }
 
     elsif ($ignore_composite) {
-
+	next LINE;
     }
     
     elsif (/^(\S+)\t(\S+)\t([A-Z])/) {
@@ -117,10 +126,14 @@ while (<>) {
 	}
 	
 	else {
+	    print $print_buffer;	    
 	    if ($rootnode) {
 		print "ROOTNODE\t$short_lemma\t$long_lemma\t$solutions[0]\n";
 	    }
+
 	    print "SEGMENTEDNODE\t$long_lemma\t$solutions[0]\n";
+	    $print_buffer = "";
+	    $nonempty_cluster = 1;
 	}
 	$rootnode = 0;
 
