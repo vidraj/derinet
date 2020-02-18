@@ -1,0 +1,2 @@
+model_checkpoint_path: "segmentation-cnnXcnnXdense-f200-ks4-acR-160"
+all_model_checkpoint_paths: "segmentation-cnnXcnnXdense-f200-ks4-acR-160"
