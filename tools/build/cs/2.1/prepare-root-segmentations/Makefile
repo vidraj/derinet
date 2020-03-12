@@ -1,11 +1,14 @@
-INPUTDIR=../../../../../data/annotations/cs/2019_12_morphrootsegm_3rd_round/hand-annotated/
+# do 2.1 se oproti 2.0 pridavalo jeste jedno kolo rucnich anotaci hranic korenovych morfemu
 
-# tohle mi na olufsenovi nefunguje, nevim proc, zatim to z libreoffice exportuju rucne, POZOR, pri exportu do csv je potreba zvolit quote all cells
-treti-davka.csv: ${INPUTDIR}/treti-davka.xlsx
-	libreoffice --convert-to csv --infilter=CSV:44,34,76,1 --headless  --outdir . > treti-davka.csv
+INPUT=../../../../../data/annotations/cs/2020_01_root_allomorphs_cleanup/hand-annotated/batch3.xlsx
 
-induced-segmentations.tsv: treti-davka.csv
-	cat treti-davka.csv | egrep -v '^\".+"%' | ./find-root-morphemes.pl > induced-segmentations.tsv 2> errlog.txt
+# tohle mi na olufsenovi nefunguje (ale na osirisovi jo), nevim proc, zatim to z libreoffice exportuju rucne, POZOR, pri rucnim exportu do csv je potreba zvolit quote all cells
+batch3.csv: ${INPUT}
+	cp ${INPUT} . # nechci znicit original
+	libreoffice --convert-to csv --infilter=CSV:44,34,76,1 --headless  --outdir . ./batch3.xlsx
+
+induced-segmentations.tsv: batch3.csv
+	cat batch3.csv | egrep -v '^\".+"%' | ./find-root-morphemes.pl > induced-segmentations.tsv 2> errlog.txt
 
 reportprosarku:
 	less errlog.txt  | egrep -v "out of '%?'" | grep -v quantifier | grep -v initialized | grep -v Ambig | grep -v '%' > problemy.txt
