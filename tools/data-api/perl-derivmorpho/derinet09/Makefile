@@ -11,6 +11,9 @@ LEMMAS::=lemmas_from_${LEMMAS_SOURCE}.tsv
 #MORFFLEX::=../data/morfflex-cz.2016-11-15.utf8.lemmaID_suff-tag-form.tab.csv.xz
 MORFFLEX?=../data/morfflex-cz.2016-11-15.utf8.lemmaID_suff-tag-form.tab.csv.xz
 
+DERIMOR_MAIN_DIR?=$(CURDIR)/..
+export DERIMOR_MAIN_DIR
+
 .PHONY: all slex diff stats clean
 
 all: $(BASE).tsv
