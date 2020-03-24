@@ -758,22 +758,22 @@
 	dub–N	doubrava–N						
 \	dubový–A	doubrava–N						
 \	Doubrava–N	doubrava–N						
-\	ústup–N	ustoupit–V						
-	stoupat–V	ustoupit–V						
+§	ústup–N	ustoupit–V						
+\	stoupat–V	ustoupit–V		stoupit-V				
 \	ústupek–N	ustoupit–V						
-	stoupat–V	přestoupit–V						
-\	přestup–N	přestoupit–V						
-	stoupat–V	postoupit–V						
-\	postup–N	postoupit–V						
-\	přístup–N	přistoupit–V						
+\	stoupat–V	přestoupit–V		stoupit-V				
+§	přestup–N	přestoupit–V						
+\	stoupat–V	postoupit–V		stoupit-V				
+§	postup–N	postoupit–V						
+§	přístup–N	přistoupit–V						
 \	přístupný–A	přistoupit–V						
-	stoupat–V	přistoupit–V						
-\	nástup–N	nastoupit–V						
-	stoupat–V	nastoupit–V						
-\	vstup–N	vstoupit–V						
-	stoupat–V	vstoupit–V						
-\	výstup–N	vystoupit–V						
-	stoupat–V	vystoupit–V						
+\	stoupat–V	přistoupit–V		stoupit-V				
+§	nástup–N	nastoupit–V		stoupit-V				
+\	stoupat–V	nastoupit–V						
+§	vstup–N	vstoupit–V						
+\	stoupat–V	vstoupit–V		stoupit-V				
+§	výstup–N	vystoupit–V						
+\	stoupat–V	vystoupit–V		stoupit-V				
 	lomit–V	lom–N						
 \	lámat–V	lom–N						
 \	zlomit–V	lom–N						

@@ -1888,7 +1888,7 @@
 442876	pajcovat	pajcovat_:T	V		
 443052	paketovat	paketovat_:T	V	443043	paket
 443094	paklíkovat	paklíkovat_:T	V	443085	paklík
-443143	pakovat	pakovat_:T	V	443038	pak
+443143	pakovat	pakovat_:T	V		
 443179	paktovat	paktovat_:T	V		
 443348	palatalizovat	palatalizovat_:T_:W	V	443362	palatální
 443737	paletizovat	paletizovat_:T	V	443721	paleta
@@ -2573,7 +2573,7 @@
 591590	rehydrovat	rehydrovat_:T_:W	V		
 592251	rejdovat	rejdovat_:T	V		
 592403	rejstříkovat	rejstříkovat_:T	V	592394	rejstřík
-592480	rejžovat	rejžovat_:T_,h	V	592468	rejže
+592480	rejžovat	rejžovat_:T_,h	V		
 592671	reklamovat	reklamovat_:T	V		
 592748	rekognoskovat	rekognoskovat_:T_:W	V		
 593065	rekreovat	rekreovat_:T	V	278384	kreovat
@@ -2729,7 +2729,7 @@
 627125	rytmizovat	rytmizovat_:T	V	635187	rytmický
 627145	rytmovat	rytmovat_:T	V	627160	rytmus
 627238	rýžkovat	rýžkovat_:T	V	627229	rýžka
-627260	rýžovat	rýžovat_:T	V	627228	rýže
+627260	rýžovat	rýžovat_:T	V		
 627406	řádkovat	řádkovat_:T	V	627336	řádek
 627443	řádovat	řádovat_:T_,a	V	627424	řád
 627444	řadovat	řadovat_:T	V	627423	řad

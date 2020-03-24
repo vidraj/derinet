@@ -11648,14 +11648,12 @@ TRYING TO APPLY RULE V-at --> N-a
   žvejkat --> žvejka
 TRYING TO APPLY RULE V-et --> N-oun
   bručet --> bručoun
-  mečet --> mečoun
   vrčet --> vrčoun
 TRYING TO APPLY RULE V-at --> N-oun
   běhat --> běhoun
   chlastat --> chlastoun
   hamat --> hamoun
   hltat --> hltoun
-  kapat --> kapoun
   krkat --> krkoun
   mlsat --> mlsoun
   střihat --> střihoun
@@ -11676,7 +11674,6 @@ TRYING TO APPLY RULE V-at --> N-na
   fňukat --> fňukna
   klepat --> klepna
   sbírat --> sběrna (CHANGE: í -> ě) 
-  sosat --> sosna
   tepat --> tepna
   štěkat --> štěkna
 TRYING TO APPLY RULE V-at --> N-an
@@ -11695,7 +11692,6 @@ TRYING TO APPLY RULE V-it --> N-ka
   obrátit --> obrátka
   odbočit --> odbočka
   odrazit --> odrazka
-  oplatit --> oplatka
   osušit --> osuška
   otočit --> otočka
   podložit --> podložka
@@ -11809,7 +11805,6 @@ TRYING TO APPLY RULE N-e --> N-or
   flexe --> flexor
   fáze --> fázor
   komprese --> kompresor
-  profese --> profesor
   represe --> represor
   revize --> revizor
   supervize --> supervizor

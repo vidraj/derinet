@@ -68,7 +68,7 @@
 10827	anatomie	anatomie	N		
 11491	anémie	anémie	N		
 11497	anemochorie	anemochorie_;L	N		
-11513	anergie	anergie_;U_^(část_energie_dále_nevyužitelná;;nedostatek_obranné_reakce_organizmu)	N	154549	energie
+11513	anergie	anergie_;U_^(část_energie_dále_nevyužitelná;;nedostatek_obranné_reakce_organizmu)	N		
 11541	anestezie	anestezie	N		
 11542	anestézie	anestézie	N		
 11563	aneuploidie	aneuploidie	N	<<<?>>>	
@@ -726,7 +726,7 @@
 697048	sympatrie	sympatrie	N		
 697092	synantropie	synantropie	N		
 697183	synechie	synechie_;U	N		
-697202	synergie	synergie	N	154549	energie
+697202	synergie	synergie	N		
 697207	synestesie	synestesie	N		
 697208	synestezie	synestezie_;U	N		
 697498	synuzie	synuzie_;z	N		

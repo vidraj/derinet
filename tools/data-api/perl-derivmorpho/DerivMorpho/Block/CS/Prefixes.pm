@@ -12,7 +12,7 @@ sub process_dictionary {
 
         if ($lexeme->lemma =~ /^(pseudo|mikro|anti|dys|meta|super|pra)(.+)/) {
             my $deprefixed_lemma = $2;
-            next if $lexeme->lemma =~ /^(antika|antikorový|antikující|antilský|prach|pracák|prahnout|prahnutí|prahnutý|prajs|prakšicky|prakšický|pralinka|pralinkový|pranosticky|pranostický|prase|prasecí|prasetník|prasečení|prasečený|prasečící|prasitelný|praskot|praskací|praskaný|pravačka|pravice|pravidlový|pravička|pravívací|pravívající|pravívaný|pravívat|pravívatelný|pravívání|pravívávací|pravívávající|pravívávaný|pravívávat|pravívávatelný|pravívávání|praženka|pražitel|pražitelka|pražitelný|pražitelčin|pražitelův|metadon|metalista|metamorficky)$/;
+            next if $lexeme->lemma =~ /^(antika|antikorový|antikující|antilský|prach|pracák|prahnout|prahnutí|prahnutý|prajs|prakšicky|prakšický|pralinka|pralinkový|pramen|pramenit|pranosticky|pranostický|prase|prasecí|prasetník|prasečení|prasečený|prasečící|prasitelný|praskot|praskací|praskaný|pravačka|pravice|pravidlový|pravička|pravívací|pravívající|pravívaný|pravívat|pravívatelný|pravívání|pravívávací|pravívávající|pravívávaný|pravívávat|pravívávatelný|pravívávání|praženka|pražitel|pražitelka|pražitelný|pražitelčin|pražitelův|metadon|metalista|metamorficky)$/;
 
             my ($source_lexeme) = grep {$_->pos eq $lexeme->pos} $dict->get_lexemes_by_lemma($deprefixed_lemma); # TODO add homonym number chooser
 

@@ -20420,7 +20420,7 @@ veselý	veselka	A-ý --> N-ka
 ---------------------------------
 1 GROUPS FOR RULE COMBINATION: A-ský --> N-ina, A-ý --> N-ina, V-ovat --> N-ina, V-ět --> N-ina
 
-planý	planina	A-ý --> N-ina		
+* planý	planina	A-ý --> N-ina		
 * planět	planina	V-ět --> N-ina		
 * plánovat	planina	V-ovat --> N-ina	CHANGE: á -> a	
 * plánský	planina	A-ský --> N-ina	CHANGE: á -> a	
