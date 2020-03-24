@@ -330,7 +330,9 @@ class Lexicon(object):
                         raise DerinetFileParseError("Lexeme with ID {} on line nr. {} refers to an in-tree lexeme ID {}, which was not encountered yet.".format(lex_id_str, line_nr, parent_id_str))
 
                     if "Type" not in reltype:
-                        raise DerinetFileParseError("Unspecified relation type on line nr. {}".format(line_nr))
+                        # raise DerinetFileParseError("Unspecified relation type on line nr. {}".format(line_nr))
+                        # Act as if the type was specified to be derivation.
+                        t = "Derivation"
                     else:
                         t = reltype["Type"]
                         del reltype["Type"]
