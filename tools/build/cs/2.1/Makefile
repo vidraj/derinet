@@ -5,6 +5,7 @@ derinet-2-1.tsv: derinet-2-0.tsv ../../../data-api/derinet2/derinet/modules/cs/r
 		Load "$<" \
 		cs.AddRootMorphemesFromFile ./prepare-root-segmentations/induced-segmentations.tsv \
 		cs.AddLoanwordMarks \
+		cs.ImportCorpusCounts corpus-counts.tsv \
 		Save "$@" > log 2>&1
 
 ../../../data-api/derinet2/derinet/modules/cs/recogFW.py:  # load tool for recognition of foreign words
