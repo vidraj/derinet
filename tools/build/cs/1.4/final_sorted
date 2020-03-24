@@ -145,7 +145,6 @@
 92216	denaturalizovat	denaturalizovat_:T_:W	V	368172	naturalizovat_:T_:W
 92401	denitrifikovat	denitrifikovat_:T_:W	V	378706	nitrifikovat_:T
 92495	denominovat	denominovat_:T	V	379726	nominovat_:T_:W
-92524	denotovat	denotovat_:W	V	380615	notovat_:T
 92743	depatetizovat	depatetizovat_:T_:W	V	444982	patetizovat_:T_:W
 92769	depenalizovat	depenalizovat_:T	V	448211	penalizovat_:T_:W
 92793	depersonalizovat	depersonalizovat_:T	V	450440	personalizovat_:T_:W
@@ -1735,7 +1734,6 @@
 132388	dovršit	dovršit_:W	V	802702	vršit_:T
 132398	dovršovat	dovršovat_:T	V	132388	dovršit_:W
 132418	dovrtat	dovrtat_:W	V	802828	vrtat_:T_:W
-132444	dovřít	dovřít_:W	V	803716	vřít_:T
 132455	dovstřelovat	dovstřelovat_:W	V	804591	vstřelovat_:T
 132475	dovšeobhospodařovat	dovšeobhospodařovat_:W	V	805176	všeobhospodařovat_:T
 132503	dovtipkařit	dovtipkařit_:W_,e	V	806695	vtipkařit_:T_,e
@@ -3759,7 +3757,7 @@
 383404	obejít	obejít_:W	V	235696	jít_:T
 383405	obejmout	obejmout_:W	V	235877	jmout
 383405	obejmout	obejmout_:W	V	384867	objímat_:T
-383434	obelhat	obelhat_:W	V	33623	belhat_:T
+383434	obelhat	obelhat_:W	V	33623	lhát
 383444	obelhávat	obelhávat_:T	V	383434	obelhat_:W
 383532	obemknout	obemknout_:W	V	383550	obemykat_:T
 383573	obepínat	obepínat_:T	V	383626	obepnout_:W
@@ -5407,7 +5405,7 @@
 420831	oobcovat	oobcovat_:W	V	382900	obcovat_:T
 420853	oočkovat	oočkovat_:W	V	390288	očkovat_:T
 420920	oozonizovat	oozonizovat_:W	V	436353	ozonizovat_:T
-420944	opáčit	opáčit_:W	V	437447	páčit_:T
+420944	opáčit	opáčit_:W	V	437447	opakovat_:T
 420964	opadat	opadat_:T_:W	V	437541	padat_:T
 420993	opadnout	opadnout_:W	V	437965	padnout_:W
 421019	opajcovat	opajcovat_:W_,h_^(okopírovat)	V	438484	pajcovat_:T
@@ -7006,7 +7004,7 @@
 494727	povařit	povařit_:W	V	772512	vařit_:T
 494733	povát	povát_:W	V	773026	vát_:T
 494744	povázat	povázat_:W	V	773311	vázat_:T_^(např._provazem;_odvozeniny_řídké)
-494768	povážet	povážet_:T	V	494600	povadit_:W
+494768	povážet	povážet_:T	V	494600	vozit_:T
 494774	povážit	povážit_:W_^(vážením)	V	773493	vážit_:T
 494797	považovat	považovat_:T	V	494774	povážit_:W_^(vážením)
 494842	povečeřet	povečeřet_:W	V	775199	večeřet_:T
@@ -10367,7 +10365,6 @@
 572841	přivrátit	přivrátit_:W	V	801365	vrátit_:W
 572860	přivrávorat	přivrávorat_:W	V	801462	vrávorat_:T
 572880	přivrtat	přivrtat_:W	V	802828	vrtat_:T_:W
-572902	přivřít	přivřít_:W	V	803716	vřít_:T
 572913	přivtělit	přivtělit_:W	V	806474	vtělit_:W
 572923	přivtělovat	přivtělovat_:T	V	572913	přivtělit_:W
 572943	přivydávat	přivydávat_:W	V	812980	vydávat-1_:T_^(emitovat:_cenné_papíry,_knihu,_zvuk,...)_(*6at-1)
@@ -10438,7 +10435,6 @@
 575504	pšouknout	pšouknout_:W	V	575492	pšoukat_:T
 575558	pšuknout	pšuknout_:W	V	575547	pšukat_:T
 575659	ptávat	ptávat_:T_^(*3t)	V	575649	ptát_:T
-575888	pucovat	pucovat_:T	V	575946	pučit_:W_,n_^(pyšnit_se,_být_nadutý)
 576429	půjčovat	půjčovat_:T	V	576408	půjčit_:W
 576524	puknout	puknout_:W	V	575927	pučet_:T
 576524	puknout	puknout_:W	V	576476	pukat_:T
@@ -10746,7 +10742,6 @@
 601167	rozevírat	rozevírat_:T	V	601215	rozevřít_:W
 601186	rozevlát	rozevlát_:W	V	790547	vlát_:T
 601197	rozevlávat	rozevlávat_:T	V	601186	rozevlát_:W
-601215	rozevřít	rozevřít_:W	V	803716	vřít_:T
 601248	rozexportovat	rozexportovat_:W	V	158418	exportovat_:T_:W
 601264	rozezkoušet	rozezkoušet_:W	V	953278	zkoušet_:T
 601277	rozezlít	rozezlít_:W	V	957447	zlít-3_:T_,s_^([se]_zlobit_se)
@@ -11834,7 +11829,6 @@
 643929	setřepnout	setřepnout_:W	V	731483	třepnout_:W
 643951	setřídit	setřídit_:W	V	732480	třídit_:T
 643973	setřít	setřít_:W	V	733850	třít_:T
-644516	sevřít	sevřít_:W	V	803716	vřít_:T
 644761	seznamenat	seznamenat_:W	V	963903	znamenat_:T
 644799	seznamovat	seznamovat_:T	V	644780	seznámit_:W
 644841	sezobat	sezobat_:W	V	968854	zobat_:T
@@ -12374,7 +12368,6 @@
 705086	šplíchnout	šplíchnout_:W	V	705072	šplíchat_:T
 705119	šplouchnout	šplouchnout_:W	V	705105	šplouchat_:T
 705283	šprajcovat	šprajcovat_:T	V	705266	šprajcnout_:W_,h
-705916	šrotovat	šrotovat_:T	V	705895	šrotit_:T
 706599	štěbotat	štěbotat_:T	V	706570	štěbetat_:T
 706844	štěknout	štěknout_:W	V	706808	štěkat_:T
 707204	štěpovat	štěpovat_:T	V	707127	štěpit_:T
@@ -16970,7 +16963,6 @@
 856785	vyvrhovat	vyvrhovat_:T	V	856764	vyvrhnout_:W
 856804	vyvrcholit	vyvrcholit_:W	V	802013	vrcholit_:T
 856814	vyvrcholovat	vyvrcholovat_:W	V	856804	vyvrcholit_:W
-856829	vyvrknout	vyvrknout_:W	V	802168	vrknout_:W
 856846	vyvroubkovat	vyvroubkovat_:W	V	802427	vroubkovat_:T
 856865	vyvršit	vyvršit_:W_,s	V	802702	vršit_:T
 856875	vyvrtat	vyvrtat_:W	V	802828	vrtat_:T_:W
@@ -22391,8 +22383,6 @@
 993402	zvrhnout	zvrhnout_:W	V	993378	zvrhat_:T
 993419	zvrhovat	zvrhovat_:T	V	993402	zvrhnout_:W
 993438	zvrcholit	zvrcholit_:W_,s	V	802013	vrcholit_:T
-993449	zvrkat	zvrkat_:W	V	802132	vrkat_:T
-993461	zvrknout	zvrknout_:W	V	802168	vrknout_:W
 993474	zvroubit	zvroubit_:W_,h_,s	V	802407	vroubit_:T
 993483	zvroucnět	zvroucnět_:W	V	802474	vroucnět_:T
 993488	zvroucnit	zvroucnit_:W	V	802480	vroucnit_:T_,s

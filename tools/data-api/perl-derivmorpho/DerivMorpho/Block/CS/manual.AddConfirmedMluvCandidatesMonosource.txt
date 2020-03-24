@@ -2398,12 +2398,12 @@ TRYING TO APPLY RULE A-ý --> N-ina
   otlačený --> otlačenina
   pahorkatý --> pahorkatina
   papírový --> papírovina
-  párový --> parovina (CHANGE: á -> a) 
+*  párový --> parovina (CHANGE: á -> a) 
   peckový --> peckovina
   pevný --> pevnina
   pitomý --> pitomina
   plachtový --> plachtovina
-  planý --> planina
+*  planý --> planina
   plesnivý --> plesnivina
   pletený --> pletenina
   plochý --> plošina (CHANGE: ch -> š) 
@@ -3283,7 +3283,7 @@ TRYING TO APPLY RULE V-it --> N-írna
   pěstit --> pěstírna
   rychlit --> rychlírna
   strojit --> strojírna
-  stačit --> stáčírna (CHANGE: a -> á) 
+*  stačit --> stáčírna (CHANGE: a -> á) 
   sušit --> sušírna
   tančit --> tančírna
   tavit --> tavírna
@@ -12293,7 +12293,7 @@ TRYING TO APPLY RULE A-ý --> N-an
 *  sátý --> satan (CHANGE: á -> a) 
   seleničitý --> seleničitan
   siřičitý --> siřičitan
-  sirý --> síran (CHANGE: i -> í) 
+*  sirý --> síran (CHANGE: i -> í) 
   thiokyanatý --> thiokyanatan
   titaničitý --> titaničitan
   uhličitý --> uhličitan
@@ -12570,7 +12570,7 @@ TRYING TO APPLY RULE V-at --> N-átko
   fidlat --> fidlátko
   klekat --> klekátko
   klepat --> klepátko
-  kukat --> kukátko
+*  kukat --> kukátko
   mávat --> mávátko
   naslouchat --> naslouchátko
   ořezávat --> ořezávátko
@@ -13109,7 +13109,7 @@ TRYING TO APPLY RULE N-e --> N-or
   komprese --> kompresor
 *  kontrole --> kontrolor
 *  máje --> major (CHANGE: á -> a) 
-  profese --> profesor
+*  profese --> profesor
   represe --> represor
   revize --> revizor
 *  state --> stator

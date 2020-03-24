@@ -4164,7 +4164,7 @@
 *	state --> statný
 	studnice --> studničný (CHANGE: c -> č)
 	svévole --> svévolný
-	veřeje --> veřejný
+*	veřeje --> veřejný
 *	více --> věcný (CHANGE: í -> ě)
 	zimnice --> zimničný (CHANGE: c -> č)
 	úplavice --> úplavičný (CHANGE: c -> č)
@@ -4428,11 +4428,11 @@
 	ježíšek --> ježíškovský
 	kašpárek --> kašpárkovský
 	klacek --> klackovský
-	kocourek --> kocourkovský
+*	kocourek --> kocourkovský
 	medvídek --> medvídkovský
 	nováček --> nováčkovský
 	posměváček --> posměváčkovský
-	písek --> pískovský
+*	písek --> pískovský
 	rarášek --> raráškovský
 	skřítek --> skřítkovský
 	snílek --> snílkovský
@@ -11173,7 +11173,7 @@
 	klát --> klaný    (LINK ALREADY PRESENT)
 	obehrát --> obehraný    (LINK ALREADY PRESENT)
 	odehrát --> odehraný    (LINK ALREADY PRESENT)
-	plát --> planý
+*	plát --> planý
 	prát --> praný    (LINK ALREADY PRESENT)
 	prohrát --> prohraný    (LINK ALREADY PRESENT)
 	rozehrát --> rozehraný    (LINK ALREADY PRESENT)
@@ -14526,12 +14526,12 @@
 	podělávat --> podělávací
 	podřadit --> podřadicí
 	pohánět --> poháněcí
-	pohanět --> poháněcí (CHANGE: a -> á)
+*	pohanět --> poháněcí (CHANGE: a -> á)
 	pohřešovat --> pohřešovací    (LINK ALREADY PRESENT)
 	pojišťovat --> pojišťovací    (LINK ALREADY PRESENT)
 	pojmenovat --> pojmenovací
 	pojmenovávat --> pojmenovávací
-	pojít --> pojící
+*	pojít --> pojící
 	pojit --> pojící (CHANGE: i -> í)    (LINK ALREADY PRESENT)
 	pojíždět --> pojížděcí
 	pokládat --> pokládací    (LINK ALREADY PRESENT)

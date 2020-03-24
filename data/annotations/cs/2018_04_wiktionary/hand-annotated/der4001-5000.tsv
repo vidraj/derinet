@@ -93,7 +93,7 @@
 \	prsteník–N	prst–N	prsten					
 \	odpočinek–N	odpočívat–V	odpočinout					
 \	Kamel–None	kamélie–N						
-\	sólista–N	solitér–N	sólo	sólo				
+\	sólista–N	solitér–N	sólo					
 \	střílet–V	Střela–N	střelit	střela				
 	vážný–A	závažný–A	vážit					
 \	Američan–N	Angloameričan–N	Amerika	%				
@@ -169,7 +169,7 @@
 \	říct–V	ráčit–V						
 \	psota–N	peskovat–V	psí–A–psí-1					
 \	pasáž–N	pasé–A						
-\	uzávěrka–N	sifon–N	uzavřít					
+\	uzávěrka–N	sifon–N	uzávěra					
 \	ugrofinistika–N	Ugrofin–N	ugrofinský	%				
 	třepat–V	třepit–V						
 \	flotila–N	eskadra–N						
@@ -271,7 +271,7 @@
 \	jedový–A	Jedov–N	jed					
 \	maximálně–D	maximalizovat–V	maximální	maximální				
 \	stan–N	stanovit–V	stát–V–stát-3_:T_^(někdo/něco_stojí,_např._na_nohou)					
-\	standardní–A	standarta–N	standard	standard				
+\	standardní–A	standarta–N	standard					
 \	Kryštof–N	Kristus–N						
 \	zapřažený–A	zapřažení–N	zapřáhnout	zapřáhnout				
 \	mráz–N	mrazivo–D		mrazivý				
@@ -495,7 +495,7 @@
 \	trdliště–N	třít–V						
 §	mlat–N	mlátit–V						
 §	dalmatský–A	Dalmácie–N						
-§	vzápětí–D	zápětí–N		pata				
+§	vzápětí–D	zápětí–N						
 §	moto–N	motto–N						
 §	flotila–N	flota–N						
 §	kopiník–N	kopí–N						
@@ -550,7 +550,7 @@
 \	buk–N–buk-1_^(strom)	Bukovice–N		bukový				
 	buňka–N	buničina–N						
 	být–V	budoucí–A	*					
-	céva–N	cívka–N						
+\	céva–N	cívka–N		*				
 \	cíl–N	cílevědomý–A		%				
 	cizí–A	odcizit–V	*					
 \	cop–N	copánek–N	*	cůpek				
