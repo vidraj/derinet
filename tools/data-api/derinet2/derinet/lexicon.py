@@ -330,33 +330,35 @@ class Lexicon(object):
                         raise DerinetFileParseError("Lexeme with ID {} on line nr. {} refers to an in-tree lexeme ID {}, which was not encountered yet.".format(lex_id_str, line_nr, parent_id_str))
 
                     if "Type" not in reltype:
-                        raise DerinetFileParseError("Unspecified relation type on line nr. {}".format(line_nr))
+                        # raise DerinetFileParseError("Unspecified relation type on line nr. {}".format(line_nr))
+                        # Act as if the type was specified to be derivation.
+                        t = "Derivation"
                     else:
                         t = reltype["Type"]
                         del reltype["Type"]
 
-                        if t == "Derivation":
-                            self.add_derivation(parent_lexeme, lexeme, feats=reltype)
-                        elif t == "Compounding":
-                            # This needs to be deferred, as the secondary
-                            #  sources may not have been encountered yet.
-                            #  But read and parse as much as possible anyway.
+                    if t == "Derivation":
+                        self.add_derivation(parent_lexeme, lexeme, feats=reltype)
+                    elif t == "Compounding":
+                        # This needs to be deferred, as the secondary
+                        #  sources may not have been encountered yet.
+                        #  But read and parse as much as possible anyway.
 
-                            if "Sources" not in reltype:
-                                raise DerinetFileParseError("Compounding needs multiple parents, but there are no other Sources on line nr. {}".format(line_nr))
+                        if "Sources" not in reltype:
+                            raise DerinetFileParseError("Compounding needs multiple parents, but there are no other Sources on line nr. {}".format(line_nr))
 
-                            parent_id_strs = reltype["Sources"].split(",")
-                            del reltype["Sources"]
-                            try:
-                                parent_ids = [parse_v2_id(id_str) for id_str in parent_id_strs]
-                            except ValueError:
-                                raise DerinetFileParseError("Unparseable parent ID encountered on line nr. {}".format(line_nr))
+                        parent_id_strs = reltype["Sources"].split(",")
+                        del reltype["Sources"]
+                        try:
+                            parent_ids = [parse_v2_id(id_str) for id_str in parent_id_strs]
+                        except ValueError:
+                            raise DerinetFileParseError("Unparseable parent ID encountered on line nr. {}".format(line_nr))
 
-                            deferred_relations.append((line_nr, t, parent_ids, parent_lexeme, lexeme, reltype))
-                        elif t == "Conversion":
-                            self.add_conversion(parent_lexeme, lexeme, feats=reltype)
-                        else:
-                            raise DerinetFileParseError("Unknown relation type {} on line nr. {}".format(t, line_nr))
+                        deferred_relations.append((line_nr, t, parent_ids, parent_lexeme, lexeme, reltype))
+                    elif t == "Conversion":
+                        self.add_conversion(parent_lexeme, lexeme, feats=reltype)
+                    else:
+                        raise DerinetFileParseError("Unknown relation type {} on line nr. {}".format(t, line_nr))
 
                 # TODO Parse secondary relations.
                 if otherrels:
@@ -522,12 +524,12 @@ class Lexicon(object):
                         assert "Type" not in reltype
                         reltype["Type"] = lexeme.parent_relation.type
 
-                        # If there are other sources, print all the sources
+                        # If there are multiple sources, print all of them
                         #  (in order). It is necessary to print them all, even
                         #  though the main source is already indicated in
                         #  another field, because otherwise it is not clear
                         #  where does the main source belong in the list.
-                        if lexeme.parent_relation.other_sources:
+                        if len(lexeme.parent_relation.sources) > 1:
                             # TODO proper check instead of an assert.
                             assert "Sources" not in reltype
                             reltype["Sources"] = ",".join([id_mapping[source] for source in lexeme.parent_relation.sources])

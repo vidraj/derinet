@@ -184,6 +184,16 @@ class Lexeme(object):
             return None
 
     @property
+    def all_parents(self):
+        """
+        All immediate parents of the lexeme from all parent relations.
+        """
+        parents = []
+        for rel in self.parent_relations:
+            parents.extend(rel.sources)
+        return parents
+
+    @property
     def child_relations(self):
         return self._child_relations
 

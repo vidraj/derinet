@@ -220,7 +220,7 @@ class AddTagMasks(Block):
                 tag_mask_features = self.mask_to_features(tag_mask)
                 techlemma_features = self.techlemma_to_features(techlemma)
 
-                lexemes = lexicon.get_lexemes(lemma, pos, techlemma)
+                lexemes = lexicon.get_lexemes(lemma, pos, techlemma=techlemma, techlemma_match_fuzzy=True)
 
                 if not lexemes:
                     logger.error("Lexeme for '{} {}' not found".format(techlemma, tag_mask))
