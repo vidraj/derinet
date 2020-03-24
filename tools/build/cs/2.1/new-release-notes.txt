@@ -11,3 +11,7 @@ ANOTACE KOŘENŮ A SINGLETONŮ
 			string = rodič pro kořen/singleton
 			? = neznámý rodič (ignorovat)
 			_string = rodič pro kořen/singleton, jedná se o fictitious lexeme
+
+ANOTACE CIZÍCH SLOV
+- prozatímně přidáno do dat: 10. sloupeček s klíčem "loanword" a hodnotami True/False
+- před stabilním releasem by se měla prodiskutovat dědičnost příznaku cizosti na deriváty

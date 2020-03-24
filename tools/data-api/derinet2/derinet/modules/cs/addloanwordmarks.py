@@ -2,7 +2,10 @@ from derinet import Block, Format, Lexicon
 import argparse
 import logging
 
-from derinet.modules.cs.recogFW import recog_foreign_word
+import os
+import sys
+sys.path.append(os.path.realpath('../../../../data/annotations/cs/2020_03_loanwords/'))
+from recogFW import recog_foreign_word
 
 logging.basicConfig(level=logging.DEBUG,
                     format='%(asctime)s %(levelname)-8s %(message)s',
