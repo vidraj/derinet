@@ -62,6 +62,7 @@ class TestCompounding(unittest.TestCase):
 
         self.assertEqual(1, len(cerny.children))
         self.assertIs(cernocerny, cerny.children[0])
+        self.assertEqual((cerny, cerny), cernocerny.parent_relation.sources)
 
     def test_cycle_deriv_comp(self):
         lexicon = Lexicon()

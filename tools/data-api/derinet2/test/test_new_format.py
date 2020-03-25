@@ -441,6 +441,21 @@ class TestNewFormat(unittest.TestCase):
         self.maxDiff = None
         self.assertMultiLineEqual(db, db_file_out.getvalue())
 
+    def test_reduplication(self):
+        lexicon = Lexicon()
+
+        cerny = lexicon.create_lexeme("černý", "A")
+        cernocerny = lexicon.create_lexeme("černočerný", "A")
+
+        lexicon.add_composition([cerny, cerny], cerny, cernocerny)
+
+        db_file_out = io.StringIO()
+        lexicon.save(db_file_out, fmt=Format.DERINET_V2)
+        self.maxDiff = None
+        self.assertMultiLineEqual("""0.0	černý#A	černý	A						{}
+0.1	černočerný#A	černočerný	A			0.0	Sources=0.0,0.0&Type=Compounding		{}
+""", db_file_out.getvalue())
+
 
 if __name__ == '__main__':
     unittest.main()
