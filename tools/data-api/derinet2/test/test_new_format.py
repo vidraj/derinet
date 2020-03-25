@@ -375,8 +375,14 @@ class TestNewFormat(unittest.TestCase):
 """
         db_file = io.StringIO(db)
         lexicon = Lexicon()
-        with self.assertRaises(DerinetFileParseError):
-            lexicon.load(db_file, fmt=Format.DERINET_V2)
+        lexicon.load(db_file, fmt=Format.DERINET_V2)
+
+        nouns = lexicon.get_lexemes("hajný", "N")
+        self.assertEqual(1, len(nouns))
+
+        noun = nouns[0]
+        self.assertIsNotNone(noun.parent)
+        self.assertEqual("A", noun.parent.pos)
 
     def test_roundtrip_complex(self):
         db = """0.0	Aachen#NNM??-----A---?	Aachen	N	Animacy=Anim&Gender=Masc&NameType=Sur					{"techlemma": "Aachen_;S"}
