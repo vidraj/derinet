@@ -73,10 +73,10 @@ process_scenario.py -h
 process_scenario.py -l
 
 # Show help for the derinet.modules.Load module
-process_scenario.py .Load -h
+process_scenario.py Load -h
 
 # Load a derinet and save it again in a different format.
-process_scenario.py .Load derinet-2.0.tsv .Save --format DERINET_V1 derinet-2.0-fmt1.tsv
+process_scenario.py Load derinet-2.0.tsv Save --format DERINET_V1 derinet-2.0-fmt1.tsv
 ```
 
 #### Programming
