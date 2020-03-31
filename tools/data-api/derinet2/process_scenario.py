@@ -140,7 +140,11 @@ def list_modules(package_name):
 
         if not ispkg:
             # We've found a module. List its member classes that subclass Block.
-            module = importlib.import_module(modname)
+            try:
+                module = importlib.import_module(modname)
+            except:
+                logger.error("Couldn't load module {}:".format(modname), exc_info=True)
+                continue
 
             class_members = inspect.getmembers(
                 module,
