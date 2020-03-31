@@ -48,10 +48,8 @@ def parse_args():
         "-l",
         "--list-modules",
         dest="list_modules",
-        metavar="PACKAGE",
-        nargs="?",
-        const="derinet.modules",
-        help="List all known invokable modules from PACKAGE and exit. (default: derinet.modules)"
+        action="store_true",
+        help="List all known invokable modules from `derinet.modules` and exit."
     )
     parser.add_argument(
         "modules",
@@ -189,8 +187,8 @@ def main():
     """
     main_args, rest_args = parse_args()
 
-    if main_args.list_modules is not None:
-        modules = list_modules(main_args.list_modules)
+    if main_args.list_modules:
+        modules = list_modules("derinet.modules")
         print("\n".join(modules))
         return 0
 
