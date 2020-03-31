@@ -157,7 +157,15 @@ def list_modules(package_name):
                 # Check whether that's the case and if so, print a warning.
                 class_name = cls.__name__
                 expected_module_last_name = class_name.lower()
-                class_path_list = cls.__module__.split(".")
+                class_path = cls.__module__
+                if class_path.startswith(package_name):
+                    # Remove the known package prefix, as currently (early 2020) the user can't use
+                    #  the full name to load modules; only modules from `derinet.modules` are usable.
+                    class_path = class_path[len(package_name) + 1:]
+                else:
+                    logger.error("Module {} is not within the expected package {}".format(class_path, package_name))
+                    continue
+                class_path_list = class_path.split(".")
 
                 if class_path_list[-1] == expected_module_last_name:
                     # All is well, the class should be loadable. Print the specification used to load it.
