@@ -37,6 +37,9 @@ class AddRootMorphemesFromFile(Block):
                 if columns[0] == "STARTOFCLUSTER":
                     stopnodes = defaultdict()
                     segmentednodes = defaultdict()
+                    rootlemma = ""
+                    roottechlemma = ""
+
                     allomorph_regex = r'{}'.format( "^(.*)("+( "|".join( columns[1].split(" ")))+ ")(.*)$")
                 
                 elif columns[0] == "ROOTNODE":
