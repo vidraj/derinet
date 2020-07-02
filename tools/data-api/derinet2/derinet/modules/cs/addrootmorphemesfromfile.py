@@ -152,6 +152,11 @@ class AddRootMorphemesFromFile(Block):
             lexeme.add_morph(root_start, root_end, annot={"Type": "Root"})
         except DerinetMorphError as e:
             logger.error("Couldn't annotate {}:".format(lemma_with_parens), exc_info=e)
+            # Continue processing other lexemes.
+        except ValueError as e:
+            logger.error("Couldn't annotate '{}' (lexeme {}) with start {} and end {}.".format(lemma_with_parens, lexeme, root_start, root_end))
+            # Don't continue in this case.
+            raise e
 
     @staticmethod
     def parse_args(args):
