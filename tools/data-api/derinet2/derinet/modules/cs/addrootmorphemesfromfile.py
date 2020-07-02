@@ -48,8 +48,10 @@ class AddRootMorphemesFromFile(Block):
                         logger.error("Empty allomorph in '{}'".format("', '".join(allomorphs)))
                         allomorphs = [s for s in allomorphs if s]
 
+                    # Escape characters which are special in regular expressions.
+                    escaped_allomorphs = [re.escape(s) for s in allomorphs]
                     # Create a regular expression that matches any allomorph.
-                    allomorph_regex = r'{}'.format( "^(.*)("+( "|".join(allomorphs))+ ")(.*)$")
+                    allomorph_regex = r'{}'.format( "^(.*)("+( "|".join(escaped_allomorphs))+ ")(.*)$")
 
                 elif columns[0] == "ROOTNODE":
                     rootlemma = columns[1]
