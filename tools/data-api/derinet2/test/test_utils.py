@@ -242,6 +242,18 @@ class TestUtils(unittest.TestCase):
         self.assertEqual("Aaheimův", u.techlemma_to_lemma("Aaheimův-1_;S_^(*4-1)"))
         self.assertEqual("čtrnácteronásobnost", u.techlemma_to_lemma("čtrnácteronásobnost`14_,s_^(*3ý)"))
 
+    def test_remove_keys(self):
+        self.assertEqual({}, u.remove_keys({}, []))
+        self.assertEqual({}, u.remove_keys({}, set()))
+        self.assertEqual({"a": 1, "b": 2}, u.remove_keys({"a": 1, "b": 2}, []))
+        self.assertEqual({"a": 1, "b": 2}, u.remove_keys({"a": 1, "b": 2}, set()))
+        self.assertEqual({"a": 1, "b": 2}, u.remove_keys({"a": 1, "b": 2}, ["A", "B"]))
+        self.assertEqual({"a": 1, "b": 2}, u.remove_keys({"a": 1, "b": 2}, {"A", "B"}))
+        self.assertEqual({"b": 2}, u.remove_keys({"a": 1, "b": 2}, ["a"]))
+        self.assertEqual({"b": 2}, u.remove_keys({"a": 1, "b": 2}, {"a"}))
+        self.assertEqual({}, u.remove_keys({"a": 1, "b": 2}, ["a", "b"]))
+        self.assertEqual({}, u.remove_keys({"a": 1, "b": 2}, {"a", "b"}))
+
 
 if __name__ == '__main__':
     unittest.main()

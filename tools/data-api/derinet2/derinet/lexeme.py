@@ -1,5 +1,5 @@
 from .relation import Relation
-from .utils import DerinetError, DerinetMorphError, range_overlaps
+from .utils import DerinetError, DerinetMorphError, range_overlaps, remove_keys
 
 # The lexeme class
 # Must have all the fields from the DeriNet 2.0 documentation.
@@ -294,12 +294,20 @@ class Lexeme(object):
         for segment in self._segmentation["morphs"]:
             if range_overlaps((start, end), (segment["Start"], segment["End"])) and segment["Type"] != "Implicit":
                 # The morphs overlap and the recorded one is an actual, user-specified morph.
-                raise DerinetMorphError(
-                    "Morph {} overlaps existing morph {} in lexeme {}".format(
-                        (start, end),
-                        (segment["Start"], segment["End"]),
-                        self)
-                )
+                # Check that the morph is not identical. If it is, that's OK, just silently do nothing.
+                # If it isn't, fail.
+                if (segment["Start"] == start
+                    and segment["End"] == end
+                    and segment["Morph"] == morph
+                    and remove_keys(segment, {"Start", "End", "Morph"}) == remove_keys(annot, {"Start", "End", "Morph"})):
+                    return
+                else:
+                    raise DerinetMorphError(
+                        "Morph {} overlaps existing morph {} in lexeme {}".format(
+                            (start, end),
+                            (segment["Start"], segment["End"]),
+                            self)
+                    )
 
         # Record constraints for future morphs.
         # Explicitly allow boundaries at start and end.

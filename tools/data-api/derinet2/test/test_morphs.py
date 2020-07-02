@@ -72,13 +72,30 @@ class TestMorphs(unittest.TestCase):
         lexeme = Lexeme("dogs", "N")
         lexeme.add_morph(3, 4, {"Type": "Suffix"})
 
-        # TODO do we want an exception to be raised here, or rather a silent acceptance of the duplicate?
+        # Adding identical lexemes shouldn't change anything.
+        lexeme.add_morph(3, 4, {"Type": "Suffix"})
+        lexeme.add_morph(3, 4, {"Type": "Suffix", "Start": 3})
+        lexeme.add_morph(3, 4, {"Type": "Suffix", "End": 4})
+        lexeme.add_morph(3, 4, {"Type": "Suffix", "Morph": "s"})
+        lexeme.add_morph(3, 4, {"Type": "Suffix", "Start": 3, "End": 4, "Morph": "s"})
+
+        self.assertEqual(2, len(lexeme.segmentation))
+
+        # Adding even slightly different morphemes should raise an error.
         self.assertRaises(
             DerinetMorphError,
             lexeme.add_morph,
             3,
             4,
-            {"Type": "Suffix"}
+            {"Type": "Root"}
+        )
+
+        self.assertRaises(
+            DerinetMorphError,
+            lexeme.add_morph,
+            3,
+            4,
+            {"Type": "Prefix", "Morpheme": "Plural"}
         )
 
     def test_morph_add_oob(self):

@@ -180,3 +180,8 @@ def techlemma_to_lemma(techlemma):
     shortlemma = re.sub("[_`].+", "", techlemma)
     lemma = re.sub("-\d+$", "", shortlemma)
     return lemma
+
+def remove_keys(d, ks):
+    """Remove keys in collection ks from dict d, return the new dict"""
+    ks = set(ks)
+    return {k: d[k] for k in d.keys() if k not in ks}
