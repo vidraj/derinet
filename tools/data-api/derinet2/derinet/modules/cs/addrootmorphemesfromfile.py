@@ -40,8 +40,17 @@ class AddRootMorphemesFromFile(Block):
                     rootlemma = ""
                     roottechlemma = ""
 
-                    allomorph_regex = r'{}'.format( "^(.*)("+( "|".join( columns[1].split(" ")))+ ")(.*)$")
-                
+                    allomorphs = columns[1].split(" ")
+
+                    # Check the allomorph list for empty strings and remove them.
+                    # They would break the regex below.
+                    if not all(allomorphs):
+                        logger.error("Empty allomorph in '{}'".format("', '".join(allomorphs)))
+                        allomorphs = [s for s in allomorphs if s]
+
+                    # Create a regular expression that matches any allomorph.
+                    allomorph_regex = r'{}'.format( "^(.*)("+( "|".join(allomorphs))+ ")(.*)$")
+
                 elif columns[0] == "ROOTNODE":
                     rootlemma = columns[1]
                     roottechlemma = columns[2]                    
