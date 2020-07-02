@@ -119,16 +119,16 @@ class AddRootMorphemesFromFile(Block):
 
                 if self.same_prefix_and_root(subtreeroot.lemma, subtreeroot.parent.misc['segmentation']):
                     segmentation = self.guess_from_parent(subtreeroot.lemma,subtreeroot.parent.misc['segmentation'])
-                    self.add_segmentation_with_parens(subtreeroot, segmentation)
                     subtreeroot.misc['segmentation'] = segmentation
                     logger.info("SEGMENTATION PROJECTED FROM PARENT\t" + subtreeroot.lemma + " from " + subtreeroot.parent.misc['segmentation'] + " as " + subtreeroot.misc['segmentation'])
+                    self.add_segmentation_with_parens(subtreeroot, segmentation)
 
                 elif len(re.findall(allomorph_regex,subtreeroot.lemma, re.IGNORECASE)) == 1:
                     segmentation = self.guess_using_allomorphs(subtreeroot.lemma,allomorph_regex)
-                    self.add_segmentation_with_parens(subtreeroot, segmentation)
                     subtreeroot.misc['segmentation'] = segmentation
                     logger.info("SEGMENTATION USING ALLOMORPHS\t" + subtreeroot.lemma + " as " + subtreeroot.misc['segmentation'])
-                    
+                    self.add_segmentation_with_parens(subtreeroot, segmentation)
+
                 else:
                     logger.warning("UNSUCCESSFUL SEGMENTATION\t"+subtreeroot.lemma + " from " + subtreeroot.parent.misc['segmentation'])
                 
