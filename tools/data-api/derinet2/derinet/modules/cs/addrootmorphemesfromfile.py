@@ -30,7 +30,7 @@ class AddRootMorphemesFromFile(Block):
         
         with open(self.fname, "rt", encoding="utf-8", newline="\n") as f:
             for line in f:
-                line = line.rstrip()
+                line = line.rstrip("\n")
 
                 columns = line.split("\t")
 
