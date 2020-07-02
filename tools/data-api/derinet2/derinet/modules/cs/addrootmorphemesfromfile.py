@@ -130,7 +130,7 @@ class AddRootMorphemesFromFile(Block):
                     logger.info("SEGMENTATION USING ALLOMORPHS\t" + subtreeroot.lemma + " as " + subtreeroot.misc['segmentation'])
                     
                 else:
-                    logger.info("UNSUCCESSFUL SEGMENTATION\t"+subtreeroot.lemma + " from " + subtreeroot.parent.misc['segmentation'])
+                    logger.warning("UNSUCCESSFUL SEGMENTATION\t"+subtreeroot.lemma + " from " + subtreeroot.parent.misc['segmentation'])
                 
                             
             for childnode in subtreeroot.children: # the recursion step
