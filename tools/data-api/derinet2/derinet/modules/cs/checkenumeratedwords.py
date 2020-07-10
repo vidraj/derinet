@@ -105,8 +105,9 @@ class CheckEnumeratedWords(Block):
                     for parent_rel in lexeme.parent_relations:
                         for parent in parent_rel.sources:
                             # TODO this should maybe be a shortened lemma as well.
-                            if regex.search(parent.lemma):
-                                # The parent satisfies the condition as well.
+                            if regex.search(parent.lemma) or re.search("^[A-ZÁÉÍÓÚŮĚŽŠČŘĎŤŇ]", parent.lemma):
+                                # The parent satisfies the condition as well,
+                                #  or is a proper name, which we want to ignore.
                                 parent_also_enumerated = True
                                 break # Only breaks the inner loop, but whatever.
 
