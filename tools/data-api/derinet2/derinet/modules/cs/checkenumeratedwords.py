@@ -90,9 +90,11 @@ class CheckEnumeratedWords(Block):
 
                 if (lexeme.pos == "A" and re.search("ý$", lexeme.lemma)) or (lexeme.pos == "D" and re.search("y$", lexeme.lemma)):
                     # Don't take into account known suffixes and/or endings.
-                    continue
+                    shortened_lemma = lexeme.lemma[:-1]
+                else:
+                    shortened_lemma = lexeme.lemma
 
-                if regex.search(lexeme.lemma):
+                if regex.search(shortened_lemma):
                     # The combination is there, therefore, an enumerated word
                     #  must be in the lexeme's ancestors.
 
@@ -102,6 +104,7 @@ class CheckEnumeratedWords(Block):
                     parent_also_enumerated = False
                     for parent_rel in lexeme.parent_relations:
                         for parent in parent_rel.sources:
+                            # TODO this should maybe be a shortened lemma as well.
                             if regex.search(parent.lemma):
                                 # The parent satisfies the condition as well.
                                 parent_also_enumerated = True
