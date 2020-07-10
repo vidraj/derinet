@@ -123,6 +123,9 @@ class CheckEnumeratedWords(Block):
                         logger.warning("Lexeme {} doesn't have an enumerated word in its ancestors.".format(lexeme))
                         if lexeme.parent_relations:
                             logger.info("But it has a parent, which doesn't have the ambiguous consonant.")
+                            print(lexeme.techlemma, lexeme.pos, lexeme.parent.techlemma, lexeme.parent.pos, sep="\t", end="\n")
+                        else:
+                            print(lexeme.techlemma, lexeme.pos, "", "", sep="\t", end="\n")
 
 
         return lexicon
