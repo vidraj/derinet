@@ -56,21 +56,21 @@ class CheckEnumeratedWords(Block):
         """
 
         ambiguous_consonants = {
-            "b": frozenset(["by", "být", "bydlet", "obyvatel", "byt", "příbytek", "nábytek", "dobytek", "zbytek", "obyčej", "bystrý", "bylina", "kobyla", "býk", "Přibyslav", "babyka"]),
-            "f": frozenset(["fyzika", "refýž", "zefýr"]),
-            "l": frozenset(["slyšet", "mlýn", "blýskat", "polykat", "plynout", "plyn", "plýtvat", "vzlykat", "lysý", "lýtko", "lýko", "lyže", "pelyněk", "plyš", "slynout", "plytký", "vlys"]),
-            "m": frozenset(["my", "mýt ", "mýval", "myslet", "myslit", "mýlit", "hmyz", "myš", "hlemýžď", "mýtit", "vymýtit", "zamykat", "smýkat", "dmýchat", "chmýří", "nachomýtnout", "mýto", "mykat", "mys", "sumýš", "trubýš"]),
-            "p": frozenset(["pýcha", "pýchavka", "pytel", "pysk", "netopýr", "slepýš", "pyl", "opylovat", "kopyto", "klopýtat", "třpytit", "zpytovat", "pykat", "pýr", "pýřit", "čepýřit", "pýří", "pyj"]),
-            "s": frozenset(["syn", "sytý", "sýr", "sýrový", "syrový", "syrý", "sychravý", "usychat", "usýchat", "sýkora", "sýček", "sysel", "syčet", "sypat"]),
-            "v": frozenset(["vy", "vysoký", "výt", "výskat", "zvykat", "žvýkat", "vydra", "výr", "vyžle", "povyk", "výheň", "cavyky", "vyza", "kavyl"]),
-            "z": frozenset(["brzy", "jazyk", "nazývat", "ozývat", "vyzývat", "vzývat", "Ruzyně"])
+            # The functions are inlined here, because vy- and vý- cannot be
+            #  enumerated and have to be tested programatically.
+            "b": lambda lexeme: lexeme if lexeme.lemma in frozenset(["by", "být", "bydlet", "obyvatel", "byt", "příbytek", "nábytek", "dobytek", "zbytek", "obyčej", "bystrý", "bylina", "kobyla", "býk", "Přibyslav", "babyka"]) else False,
+            "f": lambda lexeme: lexeme if lexeme.lemma in frozenset(["fyzika", "refýž", "zefýr"]) else False,
+            "l": lambda lexeme: lexeme if lexeme.lemma in frozenset(["slyšet", "mlýn", "blýskat", "polykat", "plynout", "plyn", "plýtvat", "vzlykat", "lysý", "lýtko", "lýko", "lyže", "pelyněk", "plyš", "slynout", "plytký", "vlys"]) else False,
+            "m": lambda lexeme: lexeme if lexeme.lemma in frozenset(["my", "mýt ", "mýval", "myslet", "myslit", "mýlit", "hmyz", "myš", "hlemýžď", "mýtit", "vymýtit", "zamykat", "smýkat", "dmýchat", "chmýří", "nachomýtnout", "mýto", "mykat", "mys", "sumýš", "trubýš"]) else False,
+            "p": lambda lexeme: lexeme if lexeme.lemma in frozenset(["pýcha", "pýchavka", "pytel", "pysk", "netopýr", "slepýš", "pyl", "opylovat", "kopyto", "klopýtat", "třpytit", "zpytovat", "pykat", "pýr", "pýřit", "čepýřit", "pýří", "pyj"]) else False,
+            "s": lambda lexeme: lexeme if lexeme.lemma in frozenset(["syn", "sytý", "sýr", "sýrový", "syrový", "syrý", "sychravý", "usychat", "usýchat", "sýkora", "sýček", "sysel", "syčet", "sypat"]) else False,
+            "v": lambda lexeme: lexeme if (lexeme.lemma in frozenset(["vy", "vysoký", "výt", "výskat", "zvykat", "žvýkat", "vydra", "výr", "vyžle", "povyk", "výheň", "cavyky", "vyza", "kavyl"]) or lexeme.lemma.startswith("vy") or lexeme.lemma.startswith("vý")) else False,
+            "z": lambda lexeme: lexeme if lexeme.lemma in frozenset(["brzy", "jazyk", "nazývat", "ozývat", "vyzývat", "vzývat", "Ruzyně"]) else False
         }
 
-        for consonant, enumerated_words in ambiguous_consonants.items():
+        for consonant, test_fn in ambiguous_consonants.items():
             regex_string = consonant + "[yý]"
             regex = re.compile(regex_string)
-
-            test_fn = lambda lexeme: lexeme if lexeme.lemma in enumerated_words else False
 
             # For listing all such lexemes, including derived ones, change this to iter_lexemes.
             # For a listing of only root lexemes, change it to iter_trees.
