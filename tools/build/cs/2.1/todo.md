@@ -18,8 +18,10 @@ Jmenovatel relativní frekvence by měla být velikost korpusu včetně čárek,
 zájmen etc. Ale u kumulativní četnosti je jmenovatelem jenom počet slov
 v DeriNetu. Zpracuje Jonáš; TODO tohle ještě probrat se Zdeňkem.
 
-Anotace slovesných tříd (2020_07_conjugation_class). Vezmou se z Lukášova
-nástroje. Nechají se i přechody mezi třídami. Skript napíše Lukáš.
+Slovesné třídy (2020_07_conjugation_class). Vezmou se z Lukášova
+nástroje. Skript napíše Lukáš. Nechají se i přechody mezi třídami. Pro slovesa,
+u kterých nástroj nedokáže určit třídu, nebude třída vyplněna.
+Značka se vloží do JSON sloupce jako "conjug_class".
 
 Přechod na nový MorfFlex. Vezmeme aktuální verzi z Gitu a uvidíme, jestli to
 bude průchozí. Zpracuje Jonáš.
@@ -29,8 +31,9 @@ vy- a vý-, udělat z toho XLS soubor, kde se zaznačí předek, kompozitnost ne
 značka, že je to správně. Poslat rovnou Šárce (posláno 2020-07-10). Zpracovává
 Jonáš.
 
-Značka cizosti (2020_03_loanwords). Hotové. Pomocí Lukášova pravidlového
-nástroje se každému lemmatu dala do JSON sloupce značka "foreign=True/False".
+Značka cizosti (2020_03_loanwords). Pomocí Lukášova pravidlového
+nástroje se každému lemmatu dala do JSON sloupce značka "loanword=True/False".
+Prodiskutovat by se mělo: dědičnost příznaku, zda určovat u vlastních jmen. (?)
 
 
 
