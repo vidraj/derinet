@@ -37,5 +37,7 @@ derinet-1-7.tsv: ../1.7/derinet-1-7.tsv
 
 clean:
 	rm -f log log-tag-masks derinet-1-7.tsv derinet-1-7-tag-masks.tsv derinet-2-0.tsv
+	rm -f ../../../../data/annotations/cs/2018_09_ssjc_semantic/hand-annotated/final-semantic-labels-fixed.tsv
+	rm -f ../../../../data/annotations/cs/2019_05_phantom_lexemes/annotated/hand-checked-phantoms-to-be-added-to-2.0
 	rm -f allomorph-overlap.csv tag-masks.tsv
 	$(MAKE) -C prepare-root-segmentations clean

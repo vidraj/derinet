@@ -1,0 +1,10 @@
+derinet-1-7.tsv
+derinet-2-0.tsv
+log
+prepare-root-segmentations/*tsv
+prepare-root-segmentations/*txt
+prepare-root-segmentations/*csv
+allomorph-overlap.csv
+tag-masks.tsv
+derinet-1-7-tag-masks.tsv
+log-tag-masks
