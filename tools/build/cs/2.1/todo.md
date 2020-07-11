@@ -46,4 +46,5 @@ Přidat bit stromovým kořenům, které jsou skutečně potvrzeně nemotivovan�
 K četnostem: Podívat se, kolik stromů se rozpadne, protože mají uprostřed slovo
 bez korpusových výskytů.
 Zkontrolovat stromy, jestli sedí sestupnost frekvencí. Někde to určitě nebude
-sedět, ale jinde z toho můžeme dostat podezřelé kandidáty.
+sedět z dobrých lingvistických důvodů, ale jinde z toho můžeme dostat podezřelé
+kandidáty.
