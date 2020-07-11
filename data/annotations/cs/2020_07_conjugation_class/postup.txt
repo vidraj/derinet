@@ -1,0 +1,6 @@
+1. z DeriNEtu 2.0 se extrahovala všechna slovesa
+    grep $'\tV\t' derinet-2-0.tsv | cut -f2,3 > derinet-2-0-verbs.tsv
+
+2. pomocí přiloženého nástroje se určily slovesné třídy
+    cut -f2 derinet-2-0-verbs.tsv | python3 -B verbalclass.py | cut -f3 > derinet-2-0-verbs-classes.tsv
+    paste derinet-2-0-verbs.tsv derinet-2-0-verbs-classes.tsv > verbs-with-conjug-classes.tsv
