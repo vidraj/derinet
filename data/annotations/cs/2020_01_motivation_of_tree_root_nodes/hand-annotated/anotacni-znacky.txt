@@ -1,0 +1,15 @@
+- forma sloupců:
+    1. kořen/singleton
+	2. slovní druh kořene/singletonu
+	3. anotace
+
+- hodnoty anotace (Šárka anotovala obě sady různě):
+    PRÁZDNO             = nemá rodiče (je nemotivované)
+	string              = rodič pro kořen/singleton (je motivované); pokud je potřeba, pak je slovní druh v závorce, např. v sadě 0001-3000 'duchovní (A)'
+    string + string     = kořen/singleton je kompozitum a toho jsou návrhy na jeho rodiče
+    C nebo %C           = jedná se o kompozitum, ale rodiče nejsou navrženy
+    H nebo %H           = homonymum
+	? nebo %?           = neznámý rodič (ignorovat)
+	_string             = rodič pro kořen/singleton, jedná se o fictitious lexeme; zejména ve druhé dávce (3001-6000) se vyskytuje i u navržených rodičů kompozit, např. 'privilegium N priv_ + leg_'
+    %N                  = ??? (1x u slova 'sou N')
+    %jmeno              = jedná se o vlastní jméno (většinou osoby)
