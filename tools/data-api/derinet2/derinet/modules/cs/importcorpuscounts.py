@@ -18,7 +18,7 @@ class ImportCorpusCounts(Block):
         self.fname = fname
 
     def process(self, lexicon: Lexicon):
-        corpus_total = 0
+        corpus_size = 0
 
         with open(self.fname, "rt", encoding="utf-8", newline="\n") as f:
             for line in f:
@@ -27,7 +27,7 @@ class ImportCorpusCounts(Block):
                 lemma, pos, count = fields
                 count = int(count)
 
-                corpus_total += count
+                corpus_size += count
 
                 lexemes = lexicon.get_lexemes(lemma, pos)
 
