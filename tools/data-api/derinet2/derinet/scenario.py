@@ -58,6 +58,9 @@ class Scenario:
 
             logger.info('Module {} finished.'.format(instance.signature))
 
+            if not lexicon:
+                logger.warning("Module {} didn't return the lexicon".format(instance.signature))
+
         logger.info("Scenario processed.")
 
         return lexicon
