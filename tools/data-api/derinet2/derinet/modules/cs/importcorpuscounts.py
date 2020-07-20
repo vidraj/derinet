@@ -1,6 +1,8 @@
 from derinet import Block, Lexicon
 import argparse
 import logging
+import math
+import sys
 
 logging.basicConfig(level=logging.DEBUG,
                     format='%(asctime)s %(levelname)-8s %(message)s',
@@ -91,6 +93,23 @@ class ImportCorpusCounts(Block):
             stats = lexeme.misc["corpus_stats"]
             stats["relative_frequency"] = stats["absolute_count"] / corpus_size
 
+    def add_sparsity(self, lexicon):
+        """
+        Add the "sparsity", defined as the negative log_10 of relative frequency,
+        to each lexeme.
+        """
+        for lexeme in lexicon.iter_lexemes():
+            stats = lexeme.misc["corpus_stats"]
+            rf = stats["relative_frequency"]
+            if rf > 0:
+                stats["sparsity"] = - math.log10(rf)
+            else:
+                # Out of range float values are not JSON compliant
+                #stats["sparsity"] = math.inf
+                # FIXME so what do we do instead?
+                stats["sparsity"] = sys.float_info.max
+                pass
+
 
     def process(self, lexicon: Lexicon):
         # Fill in the absolute counts.
@@ -106,6 +125,7 @@ class ImportCorpusCounts(Block):
         # FIXME do we want to use the total corpus size or the processed count
         #  as the denominator there?
         self.add_relative_frequency(lexicon, corpus_size)
+        self.add_sparsity(lexicon)
         return lexicon
 
 
