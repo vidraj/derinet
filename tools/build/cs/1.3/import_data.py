@@ -184,6 +184,8 @@ def add_jk(import_fnames, suppress_warnings=True, almost_silent=True):
                     print('Error: child missing:', error)
                 except derinet_api.IsNotParentError as error:
                     print('Error:', error)
+                except derinet_api.AmbiguousParentError as error:
+                    print('Error: Ambiguous parent:', error)
 
 def add_changed_edge_probabilities(import_fname, suppress_warnings=True, almost_silent=True):
     """ 4th dataset """
