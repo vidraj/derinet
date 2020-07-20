@@ -14,8 +14,9 @@ class ImportCorpusCounts(Block):
     Add corpus counts into the misc section of lexemes.
     """
 
-    def __init__(self, fname):
+    def __init__(self, fname, corpus_size):
         self.fname = fname
+        self.corpus_size = corpus_size
 
     def gen_counts(self):
         """
@@ -86,6 +87,12 @@ class ImportCorpusCounts(Block):
         # Fill in the absolute counts.
         corpus_size = self.fill_counts_from_file(lexicon)
         self.init_default_counts(lexicon)
+
+        # If the user provided the total corpus size (because they want to
+        #  include words that are not in the lexicon), use that.
+        if self.corpus_size is not None:
+            corpus_size = self.corpus_size
+
         return lexicon
 
 
@@ -99,6 +106,11 @@ class ImportCorpusCounts(Block):
             formatter_class=argparse.ArgumentDefaultsHelpFormatter
         )
 
+        parser.add_argument("--corpus-size", type=int, metavar="COUNT",
+                            help="The total token count of the corpus, to be"
+                            " used as the denominator in the relative sizes."
+                            " If not provided, use the sum of seen counts from"
+                            " the corpus file.")
         parser.add_argument("file", help="The file to load the corpus counts from,"
                                          " in a `lemma TAB pos TAB count` format."
                                          " In case of homonyms, the same count is"
@@ -109,6 +121,7 @@ class ImportCorpusCounts(Block):
         args = parser.parse_args(args)
 
         fname = args.file
+        corpus_size = args.corpus_size
 
         # Return *args to __init__, **kwargs to init and the unprocessed tail of arguments to other modules.
-        return [fname], {}, args.rest
+        return [fname, corpus_size], {}, args.rest
