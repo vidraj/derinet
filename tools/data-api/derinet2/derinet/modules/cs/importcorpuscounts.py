@@ -32,8 +32,8 @@ class ImportCorpusCounts(Block):
     def fill_counts_from_file(self, lexicon: Lexicon):
         """
         Read self.fname and record all counts found therein to the appropriate
-        lexemes from lexicon as "CorpusCount" in misc. Return the sum of all
-        processed counts.
+        lexemes from lexicon as misc.corpus_stats.absolute_count. Return the sum
+        of all processed counts.
 
         If a lemma-pos pair from the count file is ambiguous (the lemma has
         several homonymous lexemes), the same count is assigned to all of them,
@@ -59,26 +59,27 @@ class ImportCorpusCounts(Block):
                 logger.warning("Lexeme for '{} {}' ambiguous, filling the count to all of them".format(lemma, pos))
 
             for lexeme in lexemes:
-                if "CorpusCount" in lexeme.misc:
+                stats = lexeme.misc.setdefault("corpus_stats", {})
+
+                if "absolute_count" in stats:
                     logger.warning("Lexeme {} already has corpus count filled"
                                     "with value {}, will overwrite with {}".format(
                         lexeme,
-                        lexeme.misc["CorpusCount"],
+                        stats["absolute_count"],
                         count
                     ))
 
-                lexeme.misc["CorpusCount"] = count
+                stats["absolute_count"] = count
 
         return corpus_size
 
     def init_default_counts(self, lexicon: Lexicon):
         """
-        Initialize the misc.CorpusCount of lexemes which don't have the key
-        yet to 0.
+        Initialize the misc.corpus_stats.absolute_count of lexemes which don't have
+        the key yet to 0.
         """
         for lexeme in lexicon.iter_lexemes():
-            if "CorpusCount" not in lexeme.misc:
-                lexeme.misc["CorpusCount"] = 0
+            lexeme.misc.setdefault("corpus_stats", {}).setdefault("absolute_count", 0)
 
 
     def process(self, lexicon: Lexicon):
