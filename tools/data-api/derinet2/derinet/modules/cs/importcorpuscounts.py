@@ -100,9 +100,9 @@ class ImportCorpusCounts(Block):
         )
 
         parser.add_argument("file", help="The file to load the corpus counts from,"
-                                         "in a `lemma TAB pos TAB count` format."
-                                         "In case of homonyms, the same count is"
-                                         "added to all of them.")
+                                         " in a `lemma TAB pos TAB count` format."
+                                         " In case of homonyms, the same count is"
+                                         " added to all of them.")
         # argparse.REMAINDER tells argparse not to be eager and to process only the start of the args.
         parser.add_argument("rest", nargs=argparse.REMAINDER, help="A list of other modules and their arguments.")
 
