@@ -110,6 +110,24 @@ class ImportCorpusCounts(Block):
                 stats["sparsity"] = sys.float_info.max
                 pass
 
+    def add_percentile(self, lexicon):
+        """
+        Add the percentile to each lexeme. Lexemes with identical absolute
+        frequency get assigned identical percentile value.
+        """
+        lexemes = list(lexicon.iter_lexemes(sort=False))
+        lexemes.sort(key=lambda l: l.misc["corpus_stats"]["absolute_count"])
+
+        denom = len(lexemes)
+        current_count = 0
+        current_percentile = 0.0
+        for i, lexeme in enumerate(lexemes):
+            count = lexeme.misc["corpus_stats"]["absolute_count"]
+            if count > current_count:
+                current_count = count
+                current_percentile = 100.0 * i / denom
+            lexeme.misc["corpus_stats"]["percentile"] = current_percentile
+
 
     def process(self, lexicon: Lexicon):
         # Fill in the absolute counts.
@@ -126,6 +144,7 @@ class ImportCorpusCounts(Block):
         #  as the denominator there?
         self.add_relative_frequency(lexicon, corpus_size)
         self.add_sparsity(lexicon)
+        self.add_percentile(lexicon)
         return lexicon
 
 
