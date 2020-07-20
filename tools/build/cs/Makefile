@@ -45,6 +45,14 @@ stats-%.txt: derinet-%.tsv
 	PrintStats singletons_file="singletons-$*.tsv" > "$@" 2>&1
 
 
+# Find all lexemes which are in the database more times than their parents.
+inverted-corpus-counts.tsv: $(DERINET)
+	../../data-api/derinet2/process_scenario.py \
+		Load '$<' \
+		cs.CheckCorpusCounts \
+		> '$@'
+
+
 # Find all lemmas that are in the database multiple times.
 homonymous-lemmas-pos.tsv:$(DERINET)
 	cut -f2,4 "$<" |sort |uniq -c |sort -rn |grep -v '^[[:space:]]*1[[:space:]]' |sed -e 's/^.*[0-9] //' > "$@"
