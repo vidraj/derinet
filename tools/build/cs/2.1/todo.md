@@ -37,8 +37,8 @@ Prodiskutovat by se mělo: dědičnost příznaku, zda určovat u vlastních jme
 
 
 
-Čekají a vhodný okamžik
------------------
+Čekají na vhodný okamžik
+------------------------
 
 Segmentace. Vezmeme od pana Bodnára, až v půlce července odevzdá diplomku.
 Jinak se různé manuální segmentace (kořenů) vyskytují v adresáři
