@@ -82,6 +82,15 @@ class ImportCorpusCounts(Block):
         for lexeme in lexicon.iter_lexemes():
             lexeme.misc.setdefault("corpus_stats", {}).setdefault("absolute_count", 0)
 
+    def add_relative_frequency(self, lexicon, corpus_size):
+        """
+        Initialize the misc.corpus_stats.relative_frequency using the
+        absolute_count of the lexeme and provided corpus_size.
+        """
+        for lexeme in lexicon.iter_lexemes():
+            stats = lexeme.misc["corpus_stats"]
+            stats["relative_frequency"] = stats["absolute_count"] / corpus_size
+
 
     def process(self, lexicon: Lexicon):
         # Fill in the absolute counts.
@@ -93,6 +102,10 @@ class ImportCorpusCounts(Block):
         if self.corpus_size is not None:
             corpus_size = self.corpus_size
 
+        # Add the derived scores.
+        # FIXME do we want to use the total corpus size or the processed count
+        #  as the denominator there?
+        self.add_relative_frequency(lexicon, corpus_size)
         return lexicon
 
 
