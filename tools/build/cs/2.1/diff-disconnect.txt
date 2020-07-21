@@ -1,0 +1,2103 @@
+Disconnected Abchazka_;E N from Abchaz_;E N
+Disconnected Adamkův_;Y_^(*2a)_(*2o)_(*3ek) A from Adamek_;S N
+Disconnected afghánský A from Afghán_;G N with no linked counterpart in the new DB
+Disconnected afgánský A from Afghán_;G N with no linked counterpart in the new DB
+Disconnected Aga-2_;Y N from Agáta_;Y N
+Disconnected Aleksandra_;Y_,s_^(^DD**Alexandra) N from Aleksandr_;Y N
+Disconnected Alfredka N from Alfréd_;Y N
+Disconnected almaatský A from Alma-Ata_;G N with no linked counterpart in the new DB
+Disconnected Anina_;Y N from Anna_;Y N
+Disconnected Anička_;Y N from Anna_;Y N
+Disconnected Aninka_;Y N from Anička_;Y_^(^DI*4na) N
+Disconnected Argentinka_;E N from Argentinec_;E N
+Disconnected austroasijský A from asijský A
+Disconnected Aurořin_;Y A from Aurora_;K_;R_;Y N
+Disconnected Blandová_;Y N from Blanda_;S N
+Disconnected Blatnička-2_;G N from Blatnice_;G N
+Disconnected Blažkův_;Y_^(*2a)_(*2o)_(*3ek) A from Blažek_;S N
+Disconnected Bolinová_;Y N from Bolina_;S N
+Disconnected brasilský_,s_^(^DD**brazilský) A from Brasilia_;G N with no linked counterpart in the new DB
+Disconnected Brouskův_;Y_^(*2a)_(*3ek) A from Brousek_;S N
+Disconnected Brňačka_;E N from Brňák_;E_,h N
+Disconnected Budějovičák_;E_,h N from Budějovičan_;E N
+Disconnected Břehovský_;Y N from Břehov_;G N
+Disconnected Chrudimačka_;E N from Chrudimák_;E N
+Disconnected Dalmatinka_;E N from Dalmatinec N
+Disconnected Damokleův_;Y A from Damokles_;S_;Y N
+Disconnected Dámokléův_;Y_,s_^(^DD**Damokles) A from Dámoklés N
+Disconnected Děčíňák_;E_,h N from Děčíňan_;E N
+Disconnected Ebermannová_;Y N from Ebermann_;S N
+Disconnected elysejský A from Elysées_;G N with no linked counterpart in the new DB
+Disconnected Feminová_;Y N from Femina_;K N
+Disconnected Fanda_;Y N from František_;Y N
+Disconnected Fulbová_;Y N from Fulbe_;E N with no linked counterpart in the new DB
+Disconnected fusariový A from Fusarium_;L_,t N with no linked counterpart in the new DB
+Disconnected Gaurová_;Y N from Gaura_;S N
+Disconnected Hanka-2_;Y N from Hana_;Y N
+Disconnected hantský A from Hanty_;G_^(Hanty-Mansijsk) A with no linked counterpart in the new DB
+Disconnected Hanačka_;E N from Hanák_;E N
+Disconnected Hebrejka_;E N from Hebrejec_;E N
+Disconnected helmintosporióza N from Helminthosporium_;L_,t N with no linked counterpart in the new DB
+Disconnected hepatický A from Hepatica_;L_,t N with no linked counterpart in the new DB
+Disconnected Hillsová_;Y N from Hills_;G_,t N with no linked counterpart in the new DB
+Disconnected Hůrka-2_;G N from Hora_;S N
+Disconnected Huchová_;Y N from Hucho-1_;L_,t N with no linked counterpart in the new DB
+Disconnected Herakleův_;Y_^(*8éraklés) A from Héraklés_;S N with no linked counterpart in the new DB
+Disconnected Hérakléův_;Y_^(*2s) A from Héraklés_;S N with no linked counterpart in the new DB
+Disconnected Ivuška_;Y_,e N from Iva_;Y N
+Disconnected jansky_^(jednotka_hustoty_světelného_toku) N from janský A
+Disconnected Jasná_;G_;Y N from Jasný_;S N
+Disconnected Jihlavan-2_;m N from Jihlava_;G N
+Disconnected Jiřák-2_;G_,h N from Jiří_;Y N
+Disconnected jünnanský A from Jün-nan_;G N with no linked counterpart in the new DB
+Disconnected kalábrijský A from Kalábrij_;E N with no linked counterpart in the new DB
+Disconnected Kája-2_;Y_,h N from Karel_;Y N
+Disconnected Káťa_;Y N from Kateřina_;Y N
+Disconnected Kolíňačka_;E N from Kolíňák_;E N
+Disconnected komsomolec N from Komsomol N with no linked counterpart in the new DB
+Disconnected komsomolský A from Komsomol N with no linked counterpart in the new DB
+Disconnected Kopečkův_;Y_^(*2a)_(*3ek-1) A from Kopeček_;S N
+Disconnected Kovalevský_;Y N from Kovalev_;S N
+Disconnected Krejsková_;Y N from Krejska_;S N with no linked counterpart in the new DB
+Disconnected Kutnohorák_;E N from Kutnohoran_;S N
+Disconnected Květa-2_;Y N from Květoslava_;Y N
+Disconnected kwazulský A from Kwazulu_;G_^(jen_v_názvu_Kwazulu_Natal) A with no linked counterpart in the new DB
+Disconnected Láďa_;Y N from Ladislav_;Y N
+Disconnected Lakeová_;Y N from Lake_;G_,t_^(jezero,_v_názvech_jezer) N with no linked counterpart in the new DB
+Disconnected lobeliový A from Lobelia_;L_,t N with no linked counterpart in the new DB
+Disconnected marianský A from Maria_;Y N with no linked counterpart in the new DB
+Disconnected Marunka_;Y_,h N from Maruna_;S N
+Disconnected Maruška-2_;Y N from Maruš_;Y_,h N
+Disconnected austromarxizmus N from marxizmus N
+Disconnected Maryška-2_;Y N from Maryša_;Y N
+Disconnected mayflowerský A from Mayflower_;R_,t_^(jméno_lodi) N with no linked counterpart in the new DB
+Disconnected Mirča_;Y N from Miroslava_;Y N
+Disconnected mitannský A from Mitanni_;G_,t N with no linked counterpart in the new DB
+Disconnected mithridatský A from Mithridatés_;S N with no linked counterpart in the new DB
+Disconnected nachičevanský A from Nachičevan-1_;G N with no linked counterpart in the new DB
+Disconnected Nižná_;G N from Nižný_;G_^(např._Nižnyj_Novgorod) A with no linked counterpart in the new DB
+Disconnected numidský A from Numida_;L_,t N with no linked counterpart in the new DB
+Disconnected Nymburák_;E N from Nymburčan_;E N
+Disconnected Ostravačka_;E N from Ostravák_;E N
+Disconnected palmarský A from Palmares_;G_,t N with no linked counterpart in the new DB
+Disconnected Papiová_;Y N from Papio_;L_,t N with no linked counterpart in the new DB
+Disconnected peršan-2_^(kocour) N from perský A
+Disconnected Péťa-2_;Y N from Petra-1_;Y N
+Disconnected Péťa-1_;Y N from Petr_;S_;Y N
+Disconnected Petrovičová_;Y N from Petrovič_;S N with no linked counterpart in the new DB
+Disconnected philadelphský A from Philadelphia_;G N with no linked counterpart in the new DB
+Disconnected Plzeňačka_;E N from Plzeňák_;E N
+Disconnected Plznička_;m N from Plzeň_;G N
+Disconnected Prosek-2_;G N from Pros_;S N
+Disconnected Proškův_;Y_^(*2a)_(*3ek) A from Prošek_;S N
+Disconnected pyrethrový A from Pyrethrum-1_;L_,t N with no linked counterpart in the new DB
+Disconnected pythický A from Pythium_;L_,t N with no linked counterpart in the new DB
+Disconnected rakouskouherský A from Rakousko-Uhersko_;G N with no linked counterpart in the new DB
+Disconnected Ríša_;Y N from Richard_;Y N
+Disconnected Roučkův_;Y_^(*2a)_(*3ek) A from Rouček_;G N
+Disconnected Royalová_;Y N from Royal_,t A with no linked counterpart in the new DB
+Disconnected sabbathovský A from Sabbath_;K_;u_,t_^(z_názvu_skupiny_Black_Sabbath) N with no linked counterpart in the new DB
+Disconnected Sassová_;Y N from Sassa_;L_,t N with no linked counterpart in the new DB
+Disconnected Severomoravák_;E_,h N from Severomoravan_;E N
+Disconnected sinťiangský A from Sin-ťiang_;G N with no linked counterpart in the new DB
+Disconnected slávista N from Slavia_;K N with no linked counterpart in the new DB
+Disconnected austroslavizmus N from slavizmus N
+Disconnected Smíchovák_;E N from Smíchovan_;E N
+Disconnected Sokol-2_;m_^(organizace) N from sokol-1_;L_^(pták) N
+Disconnected stonesovský A from Stones_;K_,t_^(Rolling_Stones) N with no linked counterpart in the new DB
+Disconnected strofantový A from Strofantus_;L_,t N with no linked counterpart in the new DB
+Disconnected Svitavák_;E_,h N from Svitavan_;E N
+Disconnected Svoboda-2_;G_;m N from svoboda N
+Disconnected sókratovský_,s_^(^DD**sokratovský) A from Sókratés_;Y N with no linked counterpart in the new DB
+Disconnected Taterová_;Y N from Tatera_;L_,t N with no linked counterpart in the new DB
+Disconnected tchaiwanský_,s_^(^DD**tchajwanský) A from Tchai-wan_;G N with no linked counterpart in the new DB
+Disconnected tchajpejský A from Tchaj-pej_;G N with no linked counterpart in the new DB
+Disconnected tchienanmenský A from Tchienan-men_;G N with no linked counterpart in the new DB
+Disconnected Testudová_;Y N from Testudo_;L_,t N with no linked counterpart in the new DB
+Disconnected Tomča_;Y_,h N from Tomáš_;Y N
+Disconnected treponemový A from Treponema_;L_,t N with no linked counterpart in the new DB
+Disconnected Tyrolačka_;E N from Tyrolák_;E N
+Disconnected Těšíňan-2_;m_^(družstvo) N from Těšín_;G N
+Disconnected Ugrofinka_;E N from Ugrofin_;E N
+Disconnected Urgermánka_,e N from Urgermán_,e N
+Disconnected Uruguayka_;E N from Uruguayec_;E N
+Disconnected Uzbečka_;E N from Uzbek_;E N
+Disconnected Valenciánka_;E N from Valencián_;E N
+Disconnected Vasrpolačka_;E_,h N from Vasrpolák_;E_,h N
+Disconnected Vasrpolka_;E_,h N from Vasrpolák_;E_,h N
+Disconnected Velkoruska_;E N from Velkorus-1_;G N
+Disconnected Vendka_;E N from Vend_;E_,s N
+Disconnected Veronica_;Y N from Veronika_;Y N
+Disconnected Verča_;Y N from Veronika_;Y N
+Disconnected viktorie N from Viktorie_;Y N with no linked counterpart in the new DB
+Disconnected viržinský A from Virginia_;G N with no linked counterpart in the new DB
+Disconnected Vitiška-2_;m N from Vitiš_;S N
+Disconnected Vlachyně_;E_,a_^(Italka) N from Vlach-2_;E_,a_^(Ital) N
+Disconnected Vlaška_;E_,a_^(Ital) N from Vlach_;S N with no linked counterpart in the new DB
+Disconnected Vladka_;Y_,e N from Vladek_;Y_,e N
+Disconnected Vlasta-2_;Y_^(muž) N from Vlastimil_;Y N
+Disconnected Vlastička_;Y_,e N from Vlastík_;Y_,e N
+Disconnected Vlámka_;E N from Vlám_;E N
+Disconnected Vlčnovský_;Y N from Vlčnov_;G N
+Disconnected Vrátná_;G_;Y N from Vrátný_;S N
+Disconnected Vídeňačka_;E N from Vídeňák_;E N
+Disconnected Věrča_;Y N from Věra_;Y N
+Disconnected Woodroffeová_;Y N from Woodroffe_;G_,t_^(Mount_Woodroffe) N with no linked counterpart in the new DB
+Disconnected Zanzibarka_;E N from Zanzibarec_;E N
+Disconnected Zuzka-2_;Y N from Zuza_;Y_,e N
+Disconnected Zuávka_;E N from Zuáv_;E N
+Disconnected Záhoračka_;E N from Záhorák_;E N
+Disconnected Záporožka_;E N from Záporožec_;E N
+Disconnected adaptér-2 N from adaptovat_:T_:W V
+Disconnected adresáříček_,e N from adresářík_;S_;Y N
+Disconnected agrobioložka N from agrobiolog N
+Disconnected andělka N from anděl N
+Disconnected apodní A from apoda_;L_,t A
+Disconnected archandělka N from archanděl N
+Disconnected archeobotanička N from archeobotanik N
+Disconnected artprotisový A from art-protis_,t_^(výtvarná_technika) N with no linked counterpart in the new DB
+Disconnected ascendent-2 N from ascendence N
+Disconnected astrofyzička N from astrofyzik N
+Disconnected auditeček_,e N from auditek_;S N
+Disconnected autodidaktka N from autodidakt N
+Disconnected aviatička N from aviatik N
+Disconnected babiznička_,e N from babizna N
+Disconnected bacílek-1_,e N from bacil N
+Disconnected bahníčko_,e N from bahno N
+Disconnected bifidobakterie N from bakterie N
+Disconnected bakterioložka N from bakteriolog N
+Disconnected obalamutění N from obalamutit_:W V
+Disconnected obalamutěný A from obalamutit_:W V
+Disconnected balneoložka N from balneolog N
+Disconnected všelikobarevný_,a A from barevný A
+Disconnected basiliánský A from basilián N
+Disconnected pobaveníčko_,e N from pobavení_^(*3it) N
+Disconnected vybaveníčko_,e N from vybavení_^(*3it) N
+Disconnected bazéneček_,e N from bazének N
+Disconnected probouzecí A from probouzet_:T V
+Disconnected povzbuzeníčko_,e N from povzbuzení_^(*4dit) N
+Disconnected bejváníčko_,e N from bejvání_,h_^(*3at) N
+Disconnected beránek N from beran N
+Disconnected biliardový A from biliarda N with no linked counterpart in the new DB
+Disconnected biliardář N from biliarda N with no linked counterpart in the new DB
+Disconnected biliónový`1000000000000 A from bilión N with no linked counterpart in the new DB
+Disconnected biograf-2 N from biografie N
+Disconnected biokuřecí-2 A from biokuře N
+Disconnected blešáček-2_,e N from blešák_,h_^(bleší_trh) N
+Disconnected zablebtat_,e_^(^GC**zableptat) V from zableptat_:W_,e V
+Disconnected pobloudění N from pobloudit_:W V
+Disconnected poblouděný A from pobloudit_:W V
+Disconnected zbloudilka N from zbloudilec N
+Disconnected blyštívat V from blyštit_:T V
+Disconnected vyblejt V from blejt_,v_^(^GC*3ít) V with no linked counterpart in the new DB
+Disconnected blíženka N from blíženec N
+Disconnected bobřice N from bobr N
+Disconnected botnat_,s_^(^DD**bobtnat) V from bobtnat_:T V
+Disconnected nabotnat_,s_^(^DD**nabobtnat) V from nabobtnat_:W V
+Disconnected přebotnat_,s_^(^DD**přebobtnat) V from přebobtnat_:W V
+Disconnected přibotnat_,s_^(^DD**přibobtnat) V from přibobtnat_:W V
+Disconnected vybotnat_,s_^(^DD**vybobtnat) V from vybobtnat_:W V
+Disconnected zabotnat_,s_^(^DD**zabobtnat) V from zabobtnat_:W V
+Disconnected zbotnat_,s_^(^DD**zbobtnat) V from zbobtnat_:W V
+Disconnected probodení N from probodnout_:W V
+Disconnected probodený A from probodnout_:W V
+Disconnected bombardér-2 N from bombardovat_:T V
+Disconnected bombarďácký A from bombarďák_,h_^(bombardovací_letadlo) N
+Disconnected bombarďáček-1_,e N from bombarďák_,h_^(bombardovací_letadlo) N
+Disconnected bonsajista N from bonsaj N
+Disconnected zbortění N from zbortit_:W V
+Disconnected zbortěný A from zbortit_:W V
+Disconnected bourák-2_,h_^(borec) N from bourat_:T V
+Disconnected vzbouřenka N from vzbouřenec N
+Disconnected zbrebtat_,e_^(^GC**zbreptat) V from zbreptat_:W_,l V
+Disconnected brodicí A from brodit_:T V
+Disconnected zbrojovačka N from zbrojovák N
+Disconnected brusleníčko_,e N from bruslení_^(*3it) N
+Disconnected odbrzděný A from odbrzdit_:W V
+Disconnected probrzdění N from probrzdit_:W V
+Disconnected probrzděný A from probrzdit_:W V
+Disconnected přibrzděný A from přibrzdit_:W V
+Disconnected ubrzdění N from ubrzdit_:W V
+Disconnected ubrzděný A from ubrzdit_:W V
+Disconnected zabrzděný A from zabrzdit_:W V
+Disconnected zbrzděný A from zbrzdit_:W V
+Disconnected brzlíček_,e N from brzlík N
+Disconnected brančička_,e N from branka N
+Disconnected budníček-2 N from budník N
+Disconnected Bukovec-2_;G N from bukový A
+Disconnected bulit V from bulet-3_,h V with no linked counterpart in the new DB
+Disconnected rozbulet V from bulet-3_,h V with no linked counterpart in the new DB
+Disconnected buránek_,e N from buran-1_,h N
+Disconnected buřtík-2_,h_^(tlouštík) N from buřt N
+Disconnected buřtíček-2_,h_^(tlouštík) N from buřtík_,h_^(^DI*2)_(malý_vuřt) N
+Disconnected vybydleníčko_,e N from vybydlení_^(*2t) N
+Disconnected zabydlívat V from zabydlovat_:T V
+Disconnected bílicí A from bílit_:T V
+Disconnected nabíječ-2 N from nabíjet_:T V
+Disconnected odbíjecí A from odbíjet_:T V
+Disconnected rozbíjecí A from rozbíjet_:T V
+Disconnected zbíjecí A from zbíjet_:T_,s V
+Disconnected vybízecí A from vybízet_:T V
+Disconnected stínobytný A from bytný A with no linked counterpart in the new DB
+Disconnected dobyteček_,e N from dobytek N
+Disconnected přebyteček_,e N from přebytek N
+Disconnected běháníčko_,e N from běhání_^(*3at) N
+Disconnected běhnička_,e N from běhna N
+Disconnected cachtáníčko_,e N from cachtání_^(*3at) N
+Disconnected capellový A from capella_,t N with no linked counterpart in the new DB
+Disconnected cedicí A from cedit_:T V
+Disconnected celeráček_^(jídlo) N from celerák_,l_^(prostor_v_kasárnách) N
+Disconnected cenička_,e N from cena N
+Disconnected centimetříček_,e N from centimetřík_;S_;Y N
+Disconnected cenťáček_,e N from cenťák_,h N
+Disconnected rozcestníček_,e N from rozcestník N
+Disconnected chechtáček_,h_^(peníz) N from chechták_,h N
+Disconnected zachichtat V from zachichotat_:W V
+Disconnected nachlazeníčko_,e N from nachlazení_^(*4dit) N
+Disconnected chlebníček_,e N from chlebník N
+Disconnected zachmuřelý A from zachmuřit_:W V
+Disconnected cholerička N from cholerik N
+Disconnected choulostivka N from choulostivec N
+Disconnected chůvinka_,e N from chůva N
+Disconnected odchovnička_,e N from odchovna N
+Disconnected chrchláček_,h_^(reproduktor) N from chrchlák_;G N
+Disconnected zachroptit V from chroptit_:T V with no linked counterpart in the new DB
+Disconnected chrámeček_,e N from chrámek N
+Disconnected chtějící_,h A from chtít V
+Disconnected chybící A from chybět_:T_^(někde_něco_chybí) V
+Disconnected úchyláček_,e N from úchylák_,h N
+Disconnected zachřestět V from chřestět_:T V with no linked counterpart in the new DB
+Disconnected cibulenka_,e N from cibule N
+Disconnected cihelnička_,e N from cihelna N
+Disconnected cinta-2_,h_^(cintal;_mluvka) N from cintat_:T V
+Disconnected cisternička_,e N from cisterna N
+Disconnected cizozemka N from cizozemec N
+Disconnected cizáček_,e N from cizák N
+Disconnected tělocvičnička_,e N from tělocvična N
+Disconnected cvičeníčko_,e N from cvičení_^(*3it) N
+Disconnected zacrnkat_,s_^(^DD**zacvrnkat) V from zacvrnkat_:W V
+Disconnected citlivka-2 N from citlivý A
+Disconnected vycejtit_,h_^(^GC**vycítit) V from vycítit_:W V
+Disconnected datumíčko_,e N from datum_^(kalendářní) N
+Disconnected demagožka N from demagog N
+Disconnected demonstrantka N from demonstrant N
+Disconnected dendroložka N from dendrolog N
+Disconnected desetimiliardovka N from desetimiliarda N with no linked counterpart in the new DB
+Disconnected desetimiliardový A from desetimiliarda N with no linked counterpart in the new DB
+Disconnected desetimilionek_,s_^(^DD**desetimiliónek) N from desetimilión N with no linked counterpart in the new DB
+Disconnected desetimilionový_,s_^(^DD**desetimiliónový) A from desetimilión N with no linked counterpart in the new DB
+Disconnected desetimiliontina_,s_^(^DD**desetimilióntina) N from desetimilión N with no linked counterpart in the new DB
+Disconnected desetimiliónový A from desetimilión N with no linked counterpart in the new DB
+Disconnected desetimilióntina N from desetimilión N with no linked counterpart in the new DB
+Disconnected desetitisícový A from desetitisíce`10000 N with no linked counterpart in the new DB
+Disconnected desetitisícovka N from desetitisíc`10000 N with no linked counterpart in the new DB
+Disconnected desetitisící A from desetitisíc`10000 N with no linked counterpart in the new DB
+Disconnected devítinásobek`9 N from devítinásobný`9 A with no linked counterpart in the new DB
+Disconnected diagnostička N from diagnostik N
+Disconnected dialektička N from dialektik N
+Disconnected dialektoložka N from dialektolog N
+Disconnected dieseláček_,e N from dieselák_;G N
+Disconnected dillíský A from dillí N with no linked counterpart in the new DB
+Disconnected dinosauřice N from dinosaurus N
+Disconnected diplomíček N from diplom N
+Disconnected divočáček_,e N from divočák N
+Disconnected zdivočilý_^(*2t) A from zdivočit_:W V with no linked counterpart in the new DB
+Disconnected zdivočovat V from zdivočit_:W V with no linked counterpart in the new DB
+Disconnected prodleníčko_,e N from prodlení_^(nebezpečí_z...;_zpoždění) N
+Disconnected prodlevší A from prodlít V
+Disconnected zadmýchat_,s_^(^DD**zadmychat) V from zadmychat_:W V
+Disconnected dobrodružka N from dobrodruh N
+Disconnected dochutění_,s_^(^DD**dochucení) N from dochutit_:W V
+Disconnected dochutěný_,s_^(^DD**dochucený) A from dochutit_:W V
+Disconnected dojírnička_,e N from dojírna N
+Disconnected podojeníčko_,e N from podojení_^(*3it) N
+Disconnected dotahovačka N from dotahovák N
+Disconnected dotláčecí A from dotláčet_:T V
+Disconnected drahokamíček_,e N from drahokam N
+Disconnected dramaťáček_,h_^(dramatický_soubor) N from dramaťák_,h_^(dramatický_kroužek) N
+Disconnected drbnička_,e N from drbna N
+Disconnected drozdíček_,e N from drozdík_;R N
+Disconnected družka N from druh-1_^(typ) N
+Disconnected družba-2 N from družit_:T V
+Disconnected sdruženíčko_,e N from sdružení_^(*3it) N
+Disconnected dráteníček_,e N from dráteník N
+Disconnected drážděníčko_,e N from dráždění_^(*3it) N
+Disconnected držadélko_,e N from držadlo N
+Disconnected dupáček_,h_^(tanec) N from dupák N
+Disconnected rozdusení N from rozdusit_:W V
+Disconnected rozdusený A from rozdusit_:W V
+Disconnected dvaapůltisícový`2500 A from dvaapůltisíc`2500 N with no linked counterpart in the new DB
+Disconnected dvanácterník N from dvanácterý A with no linked counterpart in the new DB
+Disconnected dvanácterák N from dvanácterý A with no linked counterpart in the new DB
+Disconnected dvoukolák-2 N from dvoukolý A
+Disconnected dvousetový A from dvouset N with no linked counterpart in the new DB
+Disconnected dálnička_,e N from dálnice N
+Disconnected dásnička_,e N from dáseň N
+Disconnected dodateček_,e N from dodatek N
+Disconnected nadát_^(se_něčeho) V from dát V
+Disconnected podáníčko_,e N from podání_^(něco_[někomu]_[někam])_(*3at) N
+Disconnected udáníčko_,e N from udání_^(*3at) N
+Disconnected poděkováníčko_,e N from poděkování_^(*3at) N
+Disconnected dělitel-2 N from dělit_:T V
+Disconnected naděleníčko_,e N from nadělení_^(*3it) N
+Disconnected podílek_,e N from podíl N
+Disconnected sdělovač-2 N from sdělovat_:T V
+Disconnected podíváníčko_,e N from podívání_^(*3at) N
+Disconnected nadšený A from nadchnout_:W V
+Disconnected vzdychavka N from vzdychavec_,s N
+Disconnected dýšící A from dýchat_:T V
+Disconnected podejchat_,h_^(^GC**prodýchat) V from podýchat_:T V
+Disconnected podýcháníčko_,e N from podýchání_^(*3at) N
+Disconnected dýmečka_,e N from dýmka N
+Disconnected dýnička_,e N from dýně N
+Disconnected dýňáček_,e N from dýňák_^(poslední,_nosný_kámen_v_klenbě) N
+Disconnected zděšeníčko_,e N from zděšení_^(*4sit) N
+Disconnected dřevnatějící A from dřevnatět V
+Disconnected dřevoobráběcí A from dřevoobrábět_:T V
+Disconnected vydíráníčko_,e N from vydírání_^(*3at) N
+Disconnected džemíček_,e_^(zdrobněle_džem;_hudební_festival) N from džem N
+Disconnected editor-2 N from edice N
+Disconnected egyptoložka N from egyptolog N
+Disconnected elektronička N from elektronik N
+Disconnected elementaristka N from elementarista_;S N
+Disconnected embryoložka N from embryolog N
+Disconnected endemit-2 N from endemický A
+Disconnected enterocolitida N from enterocolitica_;L_,t A with no linked counterpart in the new DB
+Disconnected entomofágní A from entomofág_;L N
+Disconnected entomoložka N from entomolog N
+Disconnected eskymačka N from eskymák N
+Disconnected esoterička N from esoterik N
+Disconnected etnoložka N from etnolog N
+Disconnected etymoložka N from etymolog N
+Disconnected evangelička N from evangelík N
+Disconnected exot-2 N from exotický A
+Disconnected exponent-2 N from exponovat_:T_:W V
+Disconnected exstarostka N from exstarosta N
+Disconnected fesťáček_,e_^(festival) N from fesťák_,h_^(festival) N
+Disconnected feťáček_,e N from feťák N
+Disconnected filmíček_,e N from film N
+Disconnected filoložka N from filolog N
+Disconnected fiáteček_,e N from fiátek_;R_^(zdrobnělina_od_fiat) N
+Disconnected flanýlek_,e N from flanel N
+Disconnected flashka N from flash_,t A with no linked counterpart in the new DB
+Disconnected flákáníčko_,e N from flákání_^(*3at) N
+Disconnected flamendr-2 N from flámovat_:T V
+Disconnected fotbáleček_,e N from fotbálek N
+Disconnected fotoautotrof-2 N from fotoautotrofie N
+Disconnected fotosázecí A from fotosázet_:T V
+Disconnected fototrofní A from fototrof N
+Disconnected fraternitní A from fraternita N
+Disconnected frenoložka N from frenolog N
+Disconnected funebráček_,e N from funebrák N
+Disconnected fóreček_,e N from fórek N
+Disconnected fňukna-2 N from fňukat_:T V
+Disconnected gadžův_^(*2a) A from gadža_,t A with no linked counterpart in the new DB
+Disconnected gelíček_,e_^(zdrobněle_gel) N from gel N
+Disconnected genealožka N from genealog N
+Disconnected geriatrička N from geriatrik_;S N
+Disconnected gestapáček_,e N from gestapák N
+Disconnected glykemický A from glykémie_,s_^(^DD**glykemie) N with no linked counterpart in the new DB
+Disconnected grafoložka N from grafolog N
+Disconnected grilováníčko_,e N from grilování_^(*3at) N
+Disconnected gruziňáček_,e_^(gruziňský_koňak) N from gruziňák_;R_,h_^(gruziňský_koňak) N
+Disconnected gumák-2 N from gumový A
+Disconnected hádek-2 N from had N
+Disconnected hajáníčko_,e N from hajání_^(*3at) N
+Disconnected hajzlíček-2_,e N from hajzlík-1_,v_^(^DI*2) N
+Disconnected haksnička_,e N from haksna_,v N
+Disconnected hanlivý A from hanit_:T_^(vyjadřovat_se_záporně) V
+Disconnected pohana N from pohanit_:W V with no linked counterpart in the new DB
+Disconnected pohanivší A from pohanit_:W V with no linked counterpart in the new DB
+Disconnected zhanivší A from zhanit_:W V with no linked counterpart in the new DB
+Disconnected hatění N from hatit_:T V
+Disconnected hatěný A from hatit_:T V
+Disconnected zahatění_,a N from zahatit_:W_,a V
+Disconnected zahatěný_,a A from zahatit_:W_,a V
+Disconnected zhatění N from zhatit_:W V
+Disconnected zhatěný A from zhatit_:W V
+Disconnected hipísačka_,h N from hipísák_,l N
+Disconnected histoložka N from histolog N
+Disconnected hlazeníčko_,e N from hlazení_^(*4dit) N
+Disconnected hlášeníčko_,e N from hlášení_^(*4sit) N
+Disconnected podhlavníček_,e N from podhlavník N
+Disconnected pohlednička_,e N from pohlednice N
+Disconnected nahniličivší A from nahniličit_:W_,s V with no linked counterpart in the new DB
+Disconnected ohniličivší A from ohniličit_:W_,s V with no linked counterpart in the new DB
+Disconnected zhniličelý_^(*2t) A from zhniličet_:W V with no linked counterpart in the new DB
+Disconnected zaháněcí A from zahánět_:T V
+Disconnected hnojník-2 N from hnojný A
+Disconnected hnojnický A from hnojník_;L N
+Disconnected hodinečka_,e N from hodina_^(jednotka_času) N
+Disconnected házedýlko_,e N from házedlo N
+Disconnected nadhodit V from hodit_:T_:W V
+Disconnected nahodit V from hodit_:T_:W V
+Disconnected obhodit V from hodit_:T_:W V
+Disconnected ohodit V from hodit_:T_:W V
+Disconnected podhodit V from hodit_:T_:W V
+Disconnected pohodit V from hodit_:T_:W V
+Disconnected předhodit V from hodit_:T_:W V
+Disconnected příhodička_,e N from příhoda N
+Disconnected rozhodit V from hodit_:T_:W V
+Disconnected oholeníčko_,e N from oholení_^(*3it) N
+Disconnected homeopatička N from homeopatik N
+Disconnected horníček_,e N from horník N
+Disconnected hounička_,e N from houně N
+Disconnected houpáníčko_,e N from houpání_^(*3at) N
+Disconnected pohoupáníčko_,e N from pohoupání_^(*3at) N
+Disconnected hudebníček_,e N from hudebník N
+Disconnected hudoucí A from houst V
+Disconnected přihoříváníčko_,e N from přihořívání_^(*3at) N
+Disconnected hrůbek N from hrob N
+Disconnected pohřebák-2_,h N from pohřební A
+Disconnected hražení N from hradit_:T V
+Disconnected hražený A from hradit_:T V
+Disconnected nahražení N from nahradit_:W V
+Disconnected nahražený A from nahradit_:W V
+Disconnected vynahražení N from vynahradit_:W V
+Disconnected vynahražený A from vynahradit_:W V
+Disconnected ohražení N from ohradit_:W V
+Disconnected ohražený A from ohradit_:W V
+Disconnected přehražení N from přehradit_:W V
+Disconnected přehražený A from přehradit_:W V
+Disconnected uhražení N from uhradit_:W V
+Disconnected uhražený A from uhradit_:W V
+Disconnected vyhražení N from vyhradit_:W V
+Disconnected zahradníček-2_^(lidový_tanec) N from zahradník N
+Disconnected zahradnička_^(kdo_vzdělává_zahradu) N from zahradník N
+Disconnected zahražení N from zahradit_:W V
+Disconnected zahražený A from zahradit_:W V
+Disconnected hradélko_,e N from hradlo N
+Disconnected hrstečka_,e N from hrstka N
+Disconnected hrásťový A from hrást N with no linked counterpart in the new DB
+Disconnected hernička_,e N from herna N
+Disconnected hračička-2 N from hračka N
+Disconnected pohrožení N from pohrozit_:W V
+Disconnected pohrožený A from pohrozit_:W V
+Disconnected náhubeček_,e N from náhubek N
+Disconnected huleníčko_,e N from hulení_^(*3it) N
+Disconnected přehustění N from přehustit_:W V
+Disconnected přehustěný A from přehustit_:W V
+Disconnected hvízdáníčko_,e N from hvízdání_^(*3at) N
+Disconnected hydroložka N from hydrolog N
+Disconnected hypnotický A from hypnotika N with no linked counterpart in the new DB
+Disconnected hyždění N from hyzdit_:T V
+Disconnected hyžděný A from hyzdit_:T V
+Disconnected zohyždění N from zohyzdit_:W V
+Disconnected zohyžděný A from zohyzdit_:W V
+Disconnected ohyzda-2 N from ohyzdný A
+Disconnected zhyzděný A from zhyzdit_:W V
+Disconnected hádáníčko_,e N from hádání_^(*3at) N
+Disconnected hájovnička_,e N from hájovna N
+Disconnected heroický A from héros N with no linked counterpart in the new DB
+Disconnected hřátí N from hřát V
+Disconnected přehřávat_,s_^(^DD**přehřívat) V from přehřát V
+Disconnected přehřívat V from přehřát V
+Disconnected přihřávat_,s_^(^DD**přihřívat) V from přihřát V
+Disconnected přihřívat V from přihřát V
+Disconnected rozehřávat_,s_^(^DD**rozehřívat) V from rozehřát V
+Disconnected rozehřívat V from rozehřát V
+Disconnected vyhřívat V from vyhřát V
+Disconnected hříšníček_,e N from hříšník N
+Disconnected ideoložka N from ideolog N
+Disconnected indoložka N from indolog N
+Disconnected integrátor-2 N from integrovat_:T_:W V
+Disconnected interleaving N from interleave N with no linked counterpart in the new DB
+Disconnected interpret-2 N from interpretovat_:T_:W V
+Disconnected intestinální A from intestinum_;U_,t N with no linked counterpart in the new DB
+Disconnected jaguářice N from jaguár_;R_^(vozidlo) N
+Disconnected vojebat_,v_^(^GC**ojebat) V from ojebat_:W_,v V
+Disconnected jedenapůlka`1.5 N from jedenapůl N with no linked counterpart in the new DB
+Disconnected jedenapůlmiliardový A from jedenapůlmiliarda N with no linked counterpart in the new DB
+Disconnected ujednávka N from ujednání_^(*3at) N
+Disconnected dojezdění_,s_^(^DD**doježdění) N from dojezdit_:W V
+Disconnected dojezděný_,s_^(^DD**doježděný) A from dojezdit_:W V
+Disconnected ježděný A from jezdit_:T V
+Disconnected najezdění N from najezdit_:W V
+Disconnected najezděný A from najezdit_:W V
+Disconnected objezdění N from objezdit_:W V
+Disconnected objezděný A from objezdit_:W V
+Disconnected odjezdění N from odjezdit_:W V
+Disconnected odjezděný A from odjezdit_:W V
+Disconnected ojezdění N from ojezdit_:W V
+Disconnected ojezděný A from ojezdit_:W V
+Disconnected pojezdění N from pojezdit_:W V
+Disconnected pojezděný A from pojezdit_:W V
+Disconnected projezdění N from projezdit_:W V
+Disconnected projezděný A from projezdit_:W V
+Disconnected rozjezdění N from rozjezdit_:W V
+Disconnected rozjezděný A from rozjezdit_:W V
+Disconnected sjezdění N from sjezdit_:W V
+Disconnected sjezděný A from sjezdit_:W V
+Disconnected ujezdění N from ujezdit_:W V
+Disconnected ujezděný A from ujezdit_:W V
+Disconnected vyjezdění N from vyjezdit_:W V
+Disconnected vyjezděný A from vyjezdit_:W V
+Disconnected zajezdění N from zajezdit_:W V
+Disconnected zajezděný A from zajezdit_:W V
+Disconnected zjezdění N from zjezdit_:W V
+Disconnected zjezděný A from zjezdit_:W V
+Disconnected popojížděcí A from popojíždět_:T V
+Disconnected rozjížděcí A from rozjíždět_:T V
+Disconnected sjížděcí A from sjíždět_:T V
+Disconnected vyjížděcí A from vyjíždět_:T V
+Disconnected zajížděcí A from zajíždět_:T V
+Disconnected Jezeří_;G N from jezero N
+Disconnected jezírečko_,e N from jezírko_,e N
+Disconnected ješita-2 N from ješitný A
+Disconnected pojištěníčko_,e N from pojištění_^(*5stit) N
+Disconnected zjištěníčko_,e N from zjištění_^(*5stit) N
+Disconnected znejištění N from znejistit_:W V
+Disconnected znejištěný A from znejistit_:W V
+Disconnected dojáček_,h N from doják N
+Disconnected dojímáníčko_,e N from dojímání_^(*3at) N
+Disconnected najatý A from najmout V
+Disconnected nájmíček_,e N from nájem N
+Disconnected pronajmutý A from pronajmout V
+Disconnected objavší A from obejmout V
+Disconnected odejmuvší A from odejmout V
+Disconnected odňatý A from odejmout V
+Disconnected zodjímat_,a_^(^DD**zodnímat) V from zodnímat_:W_,a V
+Disconnected pojatý A from pojmout V
+Disconnected průjmíček_,e N from průjem N
+Disconnected přejmutý_^(převzít) A from přejmout V
+Disconnected přijavší A from přijmout V
+Disconnected přijmutí N from přijmout V
+Disconnected přijmutý A from přijmout V
+Disconnected sňatý A from sejmout V
+Disconnected sňavší A from sejmout V
+Disconnected vyňatý A from vyjmout V
+Disconnected vyňavší A from vyjmout V
+Disconnected zaujatý_^(upoutat_pozornost) A from zaujmout_^(upoutat_pozornost) V
+Disconnected zajmutý_^(zajatce) A from zajmout_^(zajatce) V
+Disconnected jmenovatel-2 N from jmenovat_:T_:W V
+Disconnected jáhelníček_,e N from jáhelník_^(kdo_stráží,_člověk) N
+Disconnected jahelníček_,e N from jahelník N
+Disconnected dojezení_,s_^(^DD**dojedení) N from dojíst V
+Disconnected dojezený_,s_^(^DD**dojedený) A from dojíst V
+Disconnected jídélko_,e N from jídlo N
+Disconnected snídáníčko N from snídání_^(*3at) N with no linked counterpart in the new DB
+Disconnected chodidélko_,e N from chodidlo N
+Disconnected chodidýlko_,e N from chodidlo N
+Disconnected rozchodníček_^(rostlina) N from rozchodník N
+Disconnected kabinečka_,e N from kabina N
+Disconnected kalibrátor-2 N from kalibrovat_:T V
+Disconnected kálecí_^(kálecí_miska) A from kálet_:T V
+Disconnected kampanička_,e N from kampaň N
+Disconnected kapáneček_,e N from kapánek D
+Disconnected katolička N from katolík N
+Disconnected kazajčička_,e N from kazajka N
+Disconnected kašlíček_,e N from kašlík_;G N
+Disconnected kaštáneček_,e N from kaštánek N
+Disconnected vokecat_,h_^(^GC**okecat) V from okecat_:W_,h V
+Disconnected pokecáníčko_,e N from pokecání_^(*3at) N
+Disconnected kedlubnička_,e N from kedlubna N
+Disconnected kejtička_,e N from kejta_,h N
+Disconnected kelímeček_,e N from kelímek N
+Disconnected kesonovací A from kesonovat_:T_^(*4at) V
+Disconnected kibicovat V from kibic_,h N with no linked counterpart in the new DB
+Disconnected kilečko_,e N from kilo N
+Disconnected kinečko_,e N from kino N
+Disconnected zklamáníčko_,e N from zklamání_^(*3at) N
+Disconnected klasifikátor-2 N from klasifikovat_:T_:W V
+Disconnected klebetníček_,e N from klebetník_,h N
+Disconnected klest-2 N from klestit_:T V
+Disconnected oklestěný A from oklestit_:W V
+Disconnected vyklestění N from vyklestit_:W V
+Disconnected vyklestěný A from vyklestit_:W V
+Disconnected zaklestění N from zaklestit_:W_,s V
+Disconnected zaklestěný A from zaklestit_:W_,s V
+Disconnected zklestění N from zklestit_:W V
+Disconnected zklestěný A from zklestit_:W V
+Disconnected naklidění N from naklidit_:W V
+Disconnected nakliděný A from naklidit_:W V
+Disconnected odklízecí A from odklízet_:T V
+Disconnected uklízecí A from uklízet_:T V
+Disconnected poklůpeček_,e N from poklůpek N
+Disconnected zaklápěcí A from zaklápět_:T V
+Disconnected zaklobat_,s_^(^DD**zaklovat) V from zaklovat_:W V
+Disconnected klubovnička_,e N from klubovna N
+Disconnected klusáníčko_,e N from klusání_^(*3at) N
+Disconnected nakládač-2_,s_^(^DD**nakladač-2) N from nakládat_:T V
+Disconnected sklátí N from sklát V
+Disconnected sklátý A from sklát V
+Disconnected klávesnička_,e N from klávesnice N
+Disconnected zaklený A from zaklít V
+Disconnected zaknikat_,e_^(^GC**zakníkat) V from zakníkat_:W_,e V
+Disconnected kníže-2 N from kněz N
+Disconnected koblížek-2 N from koblih N
+Disconnected kocháníčko_,e N from kochání_^(*3at) N
+Disconnected kohoutek-2_^(květina,_uzávěr) N from kohout-1_^(pták) N
+Disconnected komůrčička_,e N from komůrka N
+Disconnected kompostárnička_,e N from kompostárna N
+Disconnected zákoník-1_,a_^(člověk) N from zákon N
+Disconnected kondořice N from kondor N
+Disconnected konstruktor-2 N from konstrukce N
+Disconnected konzervárnička_,e N from konzervárna N
+Disconnected kormidélko_,e N from kormidlo N
+Disconnected kormidýlko_,e N from kormidlo N
+Disconnected kosicí A from kosit_:T V
+Disconnected kostýmeček_,e N from kostýmek N
+Disconnected překotění N from překotit_:W V
+Disconnected překotěný A from překotit_:W V
+Disconnected pokoukáníčko_,e N from pokoukání_^(*3at) N
+Disconnected koupadýlko_,e N from koupadlo N
+Disconnected koupáníčko_,e N from koupání_^(*3at) N
+Disconnected kouseček_,e N from kousek N
+Disconnected zákuska N from zákusek N
+Disconnected kusadélko_,e N from kusadlo N
+Disconnected kovárnička_,e N from kovárna N
+Disconnected kouzílko_,e N from kouzlo N
+Disconnected kuřárnička_,e N from kuřárna N
+Disconnected kovoobráběcí A from kovoobrábět_:T V
+Disconnected kozlík-2 N from kozel N
+Disconnected kozlíček-2_^(rostlina) N from kozlík N
+Disconnected kozáček-2 N from kozák-2_^(houba) N
+Disconnected koštýř-2_,s_^(násoska_na_víno)_(^DD**koštéř-2) N from košt_,h N
+Disconnected nakrabatění N from nakrabatit_:W V
+Disconnected nakrabatěný A from nakrabatit_:W V
+Disconnected krejčík-2 N from krejčí-1 N
+Disconnected kriminoložka N from kriminolog N
+Disconnected krmeníčko_,e N from krmení_^(*3it) N
+Disconnected kročej-2 N from krok N
+Disconnected navokrádat_,h_^(^GC**naokrádat) V from naokrádat_:T_:W V
+Disconnected ukradení N from ukrást V with no linked counterpart in the new DB
+Disconnected ukradený A from ukrást V with no linked counterpart in the new DB
+Disconnected podkrovíčko_,e N from podkroví N
+Disconnected přikrejvat_,h V from přikrejt_,h_^(^GC*3ýt) V with no linked counterpart in the new DB
+Disconnected kuchař N from kuchyně N with no linked counterpart in the new DB
+Disconnected kuchyňka N from kuchyně N with no linked counterpart in the new DB
+Disconnected kuchyňský A from kuchyně N with no linked counterpart in the new DB
+Disconnected kychyňský A from kuchyně N with no linked counterpart in the new DB
+Disconnected kulačka N from kulak N
+Disconnected kulturoložka N from kulturolog N
+Disconnected uskupeníčko_,e N from uskupení_^(*3it) N
+Disconnected prokvašení N from prokvasit_:W V
+Disconnected prokvašený A from prokvasit_:W V
+Disconnected kvočnička_,e N from kvočna N
+Disconnected zakvikat_,s_^(^DD**zakvíkat) V from zakvíkat_:W V
+Disconnected kvítečko_,e N from kvítko N
+Disconnected kvítíčko_,e N from kvítko N
+Disconnected zakvetat_,s_^(^DD**zakvétat) V from zakvétat_:T V
+Disconnected zakvětat_,s_^(^DD**zakvétat) V from zakvétat_:T V
+Disconnected zakvítat_,h_^(^GC**zakvétat) V from zakvétat_:T V
+Disconnected kynoložka N from kynolog N
+Disconnected kácecí A from kácet_:T V
+Disconnected kazatelnička_,e N from kazatelna N
+Disconnected makroukazatel N from ukazatel N
+Disconnected kódovač-2 N from kódovat_:T V
+Disconnected kyvadýlko_,e N from kyvadlo N
+Disconnected křivárnička_,e N from křivárna_,h N
+Disconnected křídýlko_,e N from křídlo N
+Disconnected koňačka_,h N from koňák_,h N
+Disconnected labuťáček_,e N from labuťák N
+Disconnected doladění_,s_^(^DD**dolazení) N from doladit_:W V
+Disconnected doladěný_,s_^(^DD**dolazený) A from doladit_:W V
+Disconnected ladění N from ladit_:T V
+Disconnected laděný A from ladit_:T V
+Disconnected naladění N from naladit_:W V
+Disconnected naladěný A from naladit_:W V
+Disconnected odladění N from odladit_:W V
+Disconnected odladěný A from odladit_:W V
+Disconnected poladění N from poladit_:W V
+Disconnected poladěný A from poladit_:W V
+Disconnected přeladění N from přeladit_:W V
+Disconnected přeladěný A from přeladit_:W V
+Disconnected rozladění N from rozladit_:W V
+Disconnected rozladěný A from rozladit_:W V
+Disconnected vyladění N from vyladit_:W V
+Disconnected vyladěný A from vyladit_:W V
+Disconnected zlahodění N from zlahodit_:W_,s V
+Disconnected zlahoděný A from zlahodit_:W_,s V
+Disconnected lakotění N from lakotit_:T V
+Disconnected lakotěný A from lakotit_:T V
+Disconnected nalakotění N from nalakotit_:W V
+Disconnected nalakotěný A from nalakotit_:W V
+Disconnected ulakotění N from ulakotit_:W V
+Disconnected ulakotěný A from ulakotit_:W V
+Disconnected lapovat V from lapat_:T V
+Disconnected laryngoložka N from laryngolog N
+Disconnected lačnívat V from lačnit_:T V
+Disconnected lechtáníčko_,e N from lechtání_^(*3at) N
+Disconnected lejníčko_,e N from lejno N
+Disconnected lekcička_,e N from lekce N
+Disconnected přilepšeníčko_,e N from přilepšení_^(*3it) N
+Disconnected vylepšeníčko_,e N from vylepšení_^(*3it) N
+Disconnected leštič-2 N from leštit_:T V
+Disconnected odlétat-2_^(postupně_odletět) V from létat_:T V
+Disconnected limettový A from limetta_;L_,t A with no linked counterpart in the new DB
+Disconnected lajnička_,e N from lajna_,h N
+Disconnected lokátor-2 N from lokace N
+Disconnected lomeček_,e N from lom N
+Disconnected Lom-2_;G N from lom N
+Disconnected losováníčko_,e N from losování_^(*3at) N
+Disconnected obluzení N from obloudit_:W V
+Disconnected loupeníčko_,e N from loupení_^(*3it) N
+Disconnected loutnička_,e N from loutna N
+Disconnected vyloučeníčko_,e N from vyloučení_^(*3it) N
+Disconnected lunatička N from lunatik N
+Disconnected luštěníčko_,e N from luštění_^(*3it) N
+Disconnected lyžáček_,e_^(lyžařský_výcvik) N from lyžák N
+Disconnected lázeňáček_,h_^(běh) N from lázeňák_,h_^(lázeňský_host) N
+Disconnected dolejvat_,h V from dolejt_,h_^(^GC*3ít) V with no linked counterpart in the new DB
+Disconnected nalívat_,s_^(^DD**nalévat) V from nalít V
+Disconnected odlívat_,s_^(^DD**odlévat) V from odlít V
+Disconnected podlívat_,s_^(^DD**podlévat) V from podlít V
+Disconnected prolívat_,s_^(^DD**prolévat) V from prolít V
+Disconnected přelívat_,s_^(^DD**přelévat) V from přelít V
+Disconnected přilívat_,s_^(^DD**přilévat) V from přilít V
+Disconnected rozlívat_,s_^(^DD**rozlévat) V from rozlít V
+Disconnected slívat_,s_^(^DD**slévat) V from slít V
+Disconnected vlívat_,s_^(^DD**vlévat) V from vlít V
+Disconnected vylévač-1 N from vylévat_:T V
+Disconnected vylívat_,s_^(^DD**vylévat) V from vylít V
+Disconnected zalívat_,s_^(^DD**zalévat) V from zalít V
+Disconnected zlít_,h_^(polít,_opít_se) V from lít V
+Disconnected zlévat V from zlít-1_^(polít) V
+Disconnected přelízat-1_,h_^(^GC**přelézat) V from lízat_:T V
+Disconnected madélko_,e N from madlo N
+Disconnected madýlko_,e N from madlo N
+Disconnected mandarinečka_,e N from mandarinka N
+Disconnected marxistickoleninský A from marxismus-leninismus N with no linked counterpart in the new DB
+Disconnected masák-2_^(houba) N from maso_^(jídlo_apod.) N
+Disconnected mazáníčko_,e N from mazání_^(*3at) N
+Disconnected mazílek_,e N from mazel N
+Disconnected omdlený A from omdlít V
+Disconnected omdlívat_,s_^(^DD**omdlévat) V from omdlít V
+Disconnected omdlivší A from omdlít V
+Disconnected vomdlevší_,h_^(^GC**omdlít) A from vomdlít_,h_^(^GC**omdlít) V
+Disconnected umdlenost_^(*3ý) N from umdlený_^(*3ít) A with no linked counterpart in the new DB
+Disconnected umdlevší A from umdlít V
+Disconnected umdlívat_,s_^(^DD**umdlévat) V from umdlít V
+Disconnected zamdlevší A from zamdlít_,n V
+Disconnected zemdlenost_^(*3ý) N from zemdlený_^(*3ít) A with no linked counterpart in the new DB
+Disconnected zemdlevší A from zemdlít V
+Disconnected Medník-2_;G N from medník N
+Disconnected meloušek_,e N from melouch N
+Disconnected menševička N from menševik N
+Disconnected meteoroložka N from meteorolog N
+Disconnected metráček-2 N from metrák N
+Disconnected mezopotamský_,s_^(^DD**mezopotámský) A from mezopotámie N with no linked counterpart in the new DB
+Disconnected mezopotámský A from mezopotámie N with no linked counterpart in the new DB
+Disconnected miliardový A from miliarda`1000000000 N with no linked counterpart in the new DB
+Disconnected miliardtý A from miliarda`1000000000 N with no linked counterpart in the new DB
+Disconnected miliardář N from miliarda`1000000000 N with no linked counterpart in the new DB
+Disconnected milionář N from milión`1000000 N with no linked counterpart in the new DB
+Disconnected miliónek`1000000 N from milión`1000000 N with no linked counterpart in the new DB
+Disconnected miliónový A from milión`1000000 N with no linked counterpart in the new DB
+Disconnected miliónský A from milión`1000000 N with no linked counterpart in the new DB
+Disconnected milovníček_^(rostlina) N from milovník N
+Disconnected miminečko_,e N from mimino N
+Disconnected mincíř-2 N from mince N
+Disconnected mineraložka N from mineralog N
+Disconnected minerálčička_,e N from minerálka N
+Disconnected minutečka_,e N from minuta N
+Disconnected mlsáníčko_,e N from mlsání_^(*3at) N
+Disconnected namlouváníčko_,e N from namlouvání_^(*3at) N
+Disconnected mlékárnička_,e N from mlékárna N
+Disconnected mlecí A from mlít V
+Disconnected mlýneček_,e N from mlýnek N
+Disconnected promlčecí A from promlčet V
+Disconnected nemocnička_,e N from nemocnice N
+Disconnected smoteček_,e N from smotek N
+Disconnected moureček_,e N from mourek N
+Disconnected namáčecí A from namáčet_:T_:W V
+Disconnected vomrdat_,v_^(^GC**omrdat) V from omrdat_:W_,v V
+Disconnected mrvicí A from mrvit_:T V
+Disconnected odmrazený A from odmrazit_:W V
+Disconnected přimrazený A from přimrazit_:W V
+Disconnected rozmrazený A from rozmrazit_:W V
+Disconnected umražení N from umrazit_:W_,s V
+Disconnected umražený A from umrazit_:W_,s V
+Disconnected zamrazený A from zamrazit_:W V
+Disconnected zmražený A from zmrazit_:W V
+Disconnected pomstička_,e N from pomsta N
+Disconnected mučidýlko_,e N from mučidlo N
+Disconnected multitimbrální A from multitimbre N with no linked counterpart in the new DB
+Disconnected zodemykat_,s_^(^DD**zodmykat) V from zodmykat_:W V
+Disconnected uzamčení N from uzamknout_:W V
+Disconnected uzamčený A from uzamknout_:W V
+Disconnected zamčení N from zamknout_:W V
+Disconnected mykoložka N from mykolog N
+Disconnected domyslet V from myslet V with no linked counterpart in the new DB
+Disconnected mysl N from myslet V with no linked counterpart in the new DB
+Disconnected myslit V from myslet V with no linked counterpart in the new DB
+Disconnected myšlenčička_,e N from myšlenka N
+Disconnected zamyšleníčko_,e N from zamyšlení_^(*5slet) N
+Disconnected namyslet V from myslet V with no linked counterpart in the new DB
+Disconnected odmyslet V from myslet V with no linked counterpart in the new DB
+Disconnected pomyslet V from myslet V with no linked counterpart in the new DB
+Disconnected promyslet V from myslet V with no linked counterpart in the new DB
+Disconnected přemýšlet V from myslet V with no linked counterpart in the new DB
+Disconnected přimyslet V from myslet V with no linked counterpart in the new DB
+Disconnected rozmyslet V from myslet V with no linked counterpart in the new DB
+Disconnected smyslet V from myslet V with no linked counterpart in the new DB
+Disconnected vmyslet V from myslet V with no linked counterpart in the new DB
+Disconnected vymyslet V from myslet V with no linked counterpart in the new DB
+Disconnected zamyslet V from myslet V with no linked counterpart in the new DB
+Disconnected máček_,e N from mák N
+Disconnected omáčička_,e N from omáčka N
+Disconnected míchadélko_,e N from míchadlo N
+Disconnected míšený_,s_^(^DD**mísený) A from mísit_:T V
+Disconnected namíšení N from namísit_:W V
+Disconnected namíšený A from namísit_:W V
+Disconnected pomísení N from pomísit_:W V
+Disconnected pomísený A from pomísit_:W V
+Disconnected promísený A from promísit_:W V
+Disconnected předmísení N from předmísit_:W V
+Disconnected předmísený A from předmísit_:W V
+Disconnected přemísení N from přemísit_:W V
+Disconnected přemísený A from přemísit_:W V
+Disconnected přimísený A from přimísit_:W V
+Disconnected rozmísení N from rozmísit_:W V
+Disconnected rozmísený A from rozmísit_:W V
+Disconnected smísený A from smísit_:W V
+Disconnected umísení N from umísit_:W V
+Disconnected umísený A from umísit_:W V
+Disconnected vymísení N from vymísit_:W V
+Disconnected vymísený A from vymísit_:W V
+Disconnected zamísení N from zamísit_:W V
+Disconnected zamísený A from zamísit_:W V
+Disconnected mýdelníček_,e N from mýdelník_^(kdo_stráží,_člověk) N
+Disconnected mejdlo_,h_^(^GC**mýdlo) N from mejt_,h_^(^GC*3ýt) V with no linked counterpart in the new DB
+Disconnected mýdélko_,e N from mýdlo N
+Disconnected namejt V from namýt_:T V
+Disconnected rozmejt V from rozmýt V
+Disconnected smejt V from smýt V
+Disconnected umejt V from umýt V
+Disconnected vymejt V from vymýt V
+Disconnected zamytelný_^(*6ýt) A from zamýt_,s V with no linked counterpart in the new DB
+Disconnected odměnička_,e N from odměna N
+Disconnected směnárnička_,e N from směnárna N
+Disconnected měřič-2 N from měřit_:T V
+Disconnected nachomejtat_,s_^(^DD**nachomýtat) V from nachomýtat_:T V
+Disconnected nadlítávat_,s_^(^DD**nadlétávat) V from nadlétávat_:T V
+Disconnected nafťáček_,e N from nafťák_,h_^(naftový_motor) N
+Disconnected trinitronaftalen N from naftalen N
+Disconnected nahlížecí A from nahlížet_:T V
+Disconnected nalezení N from nalézt-2 V
+Disconnected vynalézat V from vynalézt V with no linked counterpart in the new DB
+Disconnected vynálezce N from vynalézt V with no linked counterpart in the new DB
+Disconnected vynalezený A from vynalézt V with no linked counterpart in the new DB
+Disconnected vynález N from vynalézt V with no linked counterpart in the new DB
+Disconnected vynaleznout V from vynalézt V with no linked counterpart in the new DB
+Disconnected vynalezení N from vynaleznout V
+Disconnected napáječ-2 N from napájet_:T_:W V
+Disconnected napřáhnutí N from napřáhnout V
+Disconnected napřáhnutý A from napřáhnout V
+Disconnected navrtivší A from navrtit_:W_,n V with no linked counterpart in the new DB
+Disconnected návštěvníček_,e N from návštěvník N
+Disconnected náčrtníček_,e N from náčrtník N
+Disconnected nechápavka N from nechápavec N
+Disconnected nedopatřeníčko_,e N from nedopatření N
+Disconnected nedoplateček_,e N from nedoplatek N
+Disconnected neonatoložka N from neonatolog_;S N
+Disconnected neuroradioložka N from neuroradiolog N
+Disconnected nezbeda-2 N from nezbedný A
+Disconnected neúčastníkův_^(*2) A from neúčastník N with no linked counterpart in the new DB
+Disconnected nešťastníček_,e N from nešťastník N
+Disconnected nikláček_,e N from niklák N
+Disconnected ničeníčko_,e N from ničení_^(*3it) N
+Disconnected nobilizovat V from nobilis_;L_,t A with no linked counterpart in the new DB
+Disconnected nocležníček_,e N from nocležník N
+Disconnected nominální A from nomen_,t_^(nomen_omen) N with no linked counterpart in the new DB
+Disconnected nulita N from nula N with no linked counterpart in the new DB
+Disconnected nulka N from nula N with no linked counterpart in the new DB
+Disconnected nulovat V from nula N with no linked counterpart in the new DB
+Disconnected nulový A from nula N with no linked counterpart in the new DB
+Disconnected nuláček_,h_^(nultý_ročník) N from nulák_,l_^(nulový_vodič) N
+Disconnected nultý A from nula N with no linked counterpart in the new DB
+Disconnected supernula N from nula N with no linked counterpart in the new DB
+Disconnected numizmatička N from numizmatik N
+Disconnected náruživka N from náruživec N
+Disconnected následníček_,e_^(malý_následník) N from následník N
+Disconnected náčiníčko_,e N from náčiní N
+Disconnected odnášecí A from odnášet_:T V
+Disconnected přednesení N from přednést V
+Disconnected vzňatý A from vznít_:W V with no linked counterpart in the new DB
+Disconnected poníženíčko_,e N from ponížení_^(*3it) N
+Disconnected unylý A from unýt_,a V with no linked counterpart in the new DB
+Disconnected nýtovníček_,e N from nýtovník_^(kdo_stráží,_člověk) N
+Disconnected austroněmecký A from německý A
+Disconnected obezitoložka N from obezitolog N
+Disconnected obmýšlecí A from obmýšlet_:T V
+Disconnected obrubníček_,e N from obrubník N
+Disconnected obytňáček_,e_^(obytný_dům) N from obytňák_^(poslední,_nosný_kámen_v_klenbě) N
+Disconnected obyčejnský_,h A from obyčejný A
+Disconnected oceánoložka N from oceánolog N
+Disconnected ochotníček_,e N from ochotník N
+Disconnected ochuceníčko_,e N from ochucení_^(*4tit) N
+Disconnected ochutění N from ochutit_:W V
+Disconnected ochutěný A from ochutit_:W V
+Disconnected odemčení N from odemknout_:W V
+Disconnected odemčený A from odemknout_:W V
+Disconnected odletovat-2_^(odstranit_letováním) V from odlétnout_:W V
+Disconnected odpočatý A from odpočnout_:W_,s V
+Disconnected odsuď_,h_^(^GC**odsud) D from odsud D
+Disconnected oftalmoložka N from oftalmolog N
+Disconnected olovnička_,e N from olovnice N
+Disconnected omdlení N from omdlet_,h V with no linked counterpart in the new DB
+Disconnected omobilisovávat_:T_,s_^(^DD**omobilizovat)_(*4at) V from omobilisovat_:W_,s_^(^DD**omobilizovat) V with no linked counterpart in the new DB
+Disconnected opičárnička_,e N from opičárna N
+Disconnected opomněvší A from opomenout V
+Disconnected orlice N from orel N
+Disconnected osteoložka N from osteolog_;S N
+Disconnected ocuď_,h_^(^GC**odsud) D from osud N
+Disconnected pootevírat-1_^(otevírat_trochu) V from otevírat_:T V
+Disconnected zpootevírat V from pootevírat_:T_:W V
+Disconnected pootvírat-1_,s_^(otevírat_trochu)_(^DD**pootevírat-1) V from otvírat_:T V
+Disconnected povotvírat-2_,h_^(^GC**pootevírat-2) V from pootvírat_:W V
+Disconnected zpootvírat V from pootvírat_:W V
+Disconnected zvotvírat_,h_^(^GC**zotvírat) V from zotvírat_:W V
+Disconnected ovísek N from oves N
+Disconnected ovocíčko_,e N from ovoce N
+Disconnected zapáchat-2_^(zapáchat_si) V from zápach N
+Disconnected dozapáchat V from zapáchat_:T_:W V
+Disconnected nazapáchat V from zapáchat_:T_:W V
+Disconnected odzapáchat V from zapáchat_:T_:W V
+Disconnected pozapáchat V from zapáchat_:T_:W V
+Disconnected prozapáchat V from zapáchat_:T_:W V
+Disconnected přezapáchat V from zapáchat_:T_:W V
+Disconnected přizapáchat V from zapáchat_:T_:W V
+Disconnected uzapáchat V from zapáchat_:T_:W V
+Disconnected vyzapáchat V from zapáchat_:T_:W V
+Disconnected zazapáchat V from zapáchat_:T_:W V
+Disconnected pacholíček-1 N from pacholík N
+Disconnected padavka-2 N from padat_:T V
+Disconnected dopadení_,s_^(^DD**dopadnutí) N from dopadnout_:W V
+Disconnected dopadený_,s_^(^DD**dopadnutý) A from dopadnout_:W V
+Disconnected napadení N from napadnout_:W V
+Disconnected napadený A from napadnout_:W V
+Disconnected spadat-2_^(listí) V from padnout_:W V
+Disconnected zápaďačka_,h_^(obdivovatelka/obyvatelka_Západu;;příslušnice_čs.vojska_na_západní_frontě) N from zápaďák_,h_^(obdivovatel/obyvatel_Západu;;příslušník_čs.vojska_na_západní_frontě) N
+Disconnected padoucí A from padat_:T V
+Disconnected padesátnický A from padesátník N
+Disconnected paleontoložka N from paleontolog N
+Disconnected památečka_,e N from památka N
+Disconnected pamětníček_,e N from pamětník N
+Disconnected panathénajský A from panathénaie_,t N with no linked counterpart in the new DB
+Disconnected panýlek_,e N from panel N
+Disconnected panteřice N from panter N
+Disconnected panďuláček_,e N from panďulák_;G N
+Disconnected papíreček_,e N from papírek N
+Disconnected paraplegička N from paraplegik N
+Disconnected parazitoložka N from parazitolog N
+Disconnected pardálka N from pardál N
+Disconnected parotida N from parotis_;U_,t A with no linked counterpart in the new DB
+Disconnected parotitida N from parotis_;U_,t A with no linked counterpart in the new DB
+Disconnected paručka_,e N from paruka N
+Disconnected passo_,s_^(passo_doble)_(^DD**paso) N from paso_;u_,t_^(passo_doble) N
+Disconnected paviánka N from pavián N
+Disconnected pašeráček_,e N from pašerák N
+Disconnected pedagožka N from pedagog N
+Disconnected pedoložka N from pedolog N
+Disconnected pekelníček_,e N from pekelník N
+Disconnected pekélko_,e N from peklo N
+Disconnected penaltička_,e N from penalta N
+Disconnected pendreček_,e N from pendrek N
+Disconnected penízeček_,e N from penízek N
+Disconnected sepsouvat_,s_^(kazit,tupit,hubovat_někoho)_(^DD**zepsouvat) V from zepsouvat_:T_,h_,s_^(kazit,tupit,hubovat_někoho) V
+Disconnected pidiautíčko_,e N from pidiauto_,h N
+Disconnected pidibaráček_,e N from pidibarák_,l_^(prostor_v_kasárnách) N
+Disconnected pidichatička_,e N from pidichata_;S N
+Disconnected pidilyžička_,e N from pidilyže N
+Disconnected pidiměstečko_,e N from pidiměsto_;G N
+Disconnected pidirolička_,e N from pidirole_;S N
+Disconnected pidisáleček_,e N from pidisálek_;S N
+Disconnected pláceček_,e N from plácek N
+Disconnected placáček_,e N from placák N
+Disconnected plachetnička_,e N from plachetnice N
+Disconnected plašidýlko_,e N from plašidlo N
+Disconnected dermoplastický A from plastický A
+Disconnected ceroplastika N from plastika N
+Disconnected plateresco N from plateresko_,t N
+Disconnected poplatníček_,e N from poplatník N
+Disconnected příplateček_,e N from příplatek N
+Disconnected spláceníčko_,e N from splácení_^(*2t) N
+Disconnected platonička N from platonik N
+Disconnected plavbička_,e N from plavba N
+Disconnected plavidýlko_,e N from plavidlo N
+Disconnected spláveček_,e N from splávek N
+Disconnected plavoucí A from plavat V
+Disconnected plaváníčko_,e N from plavání_^(*3at) N
+Disconnected plenčička_,e N from plenka N
+Disconnected plecí A from plet V
+Disconnected plešatějící A from plešatět V
+Disconnected zplozenka N from zplozenec N
+Disconnected plombička_,e N from plomba N
+Disconnected plovoucí A from plovat_:T V
+Disconnected ploužáček_,e N from ploužák_,h N
+Disconnected plukovníček_,e N from plukovník N
+Disconnected plynárnička_,e N from plynárna N
+Disconnected pláneček_,e N from plánek N
+Disconnected plameňáček_,e N from plameňák N
+Disconnected naplítat_,s_^(^DD**naplétat) V from naplétat_:T V
+Disconnected pletací A from plést V
+Disconnected dopjatý_,s_^(^DD**dopnutý) A from dopnout V
+Disconnected dopjavší A from dopnout V
+Disconnected napjatý A from napnout V
+Disconnected napjavší A from napnout V
+Disconnected obepjavší A from obepnout V
+Disconnected odepjatý A from odepnout V
+Disconnected odepjavší A from odepnout V
+Disconnected opjavší A from opnout V
+Disconnected podepjavší A from podepnout V
+Disconnected popjatý A from popnout V
+Disconnected propjatý A from propnout V
+Disconnected propjavší A from propnout V
+Disconnected předpjavší A from předepnout V
+Disconnected přepjatý A from přepnout V
+Disconnected přepjavší A from přepnout V
+Disconnected připjatý A from připnout V
+Disconnected připjavší A from připnout V
+Disconnected rozepjatý A from rozepnout V
+Disconnected rozepjavší A from rozepnout V
+Disconnected rozpjavší A from rozepnout V
+Disconnected sepjavší A from sepnout V
+Disconnected spjatý A from sepnout V
+Disconnected spjavší A from sepnout V
+Disconnected upjatý A from upnout V
+Disconnected upjavší A from upnout V
+Disconnected vypjatý A from vypnout V
+Disconnected vypjavší A from vypnout V
+Disconnected vzepjavší A from vzepnout V
+Disconnected zapjatý A from zapnout V
+Disconnected zapjavší A from zapnout V
+Disconnected pochoďáček_,e N from pochoďák_,l N
+Disconnected spodní A from pod-7_^(předpona,_sam.) A with no linked counterpart in the new DB
+Disconnected poddubáček_,e N from poddubák_;G N
+Disconnected podnikáníčko_,e N from podnikání_^(*3at) N
+Disconnected podprdelníček_,e N from podprdelník_,h_^(podložka) N
+Disconnected poháreček_,e N from pohárek N
+Disconnected pojicí A from pojit_:T V
+Disconnected uspokojeníčko_,e N from uspokojení_^(*3it) N
+Disconnected pokoupáníčko_,e N from pokoupání_^(*3at) N
+Disconnected pokušeníčko_,e N from pokušení_^(*4sit) N
+Disconnected pokáníčko_,e N from pokání N
+Disconnected poloninský A from polonina N
+Disconnected polétáníčko_,e N from polétání_^(*3at) N
+Disconnected polévčička_,e N from polévka N
+Disconnected rozpomněvší A from rozpomenout V
+Disconnected upomněvší A from upomenout V
+Disconnected pomoložka N from pomolog N
+Disconnected pongový A from pong_^(jen_ve_spojení_ping-pong) N with no linked counterpart in the new DB
+Disconnected popelnička_,e N from popelnice N
+Disconnected porníčko_,e N from porno N
+Disconnected pospáníčko_,e N from pospání_^(*3at) N
+Disconnected potomeček_,e N from potomek N
+Disconnected potrsáníčko_,e N from potrsání_^(*3at) N
+Disconnected pouťáček_,e N from pouťák_;w_,h_^(výrazný_prvek;_pouťový_zápas) N
+Disconnected povysátí N from povysát V
+Disconnected povysátý A from povysát V
+Disconnected zpožděníčko_,e N from zpoždění_^(*5zdit) N
+Disconnected pořádníček_,e N from pořádník_^(kdo_stráží,_člověk) N
+Disconnected prachačka_,h N from pracháč_,h N
+Disconnected prášeček_,e N from prášek N
+Disconnected pracnička_,e N from pracna N
+Disconnected úpravnička_,e N from úpravna N
+Disconnected vyprávěníčko_,e N from vyprávění_^(*2t) N
+Disconnected právníček_,e N from právník N
+Disconnected pražírnička_,e N from pražírna N
+Disconnected voprcat_,v_^(^GC**oprcat) V from oprcat_:W_,v V
+Disconnected prděníčko_,e N from prdění_^(*2t) N
+Disconnected preparátor-2 N from preparovat_:T_:W V
+Disconnected presíčko_,e N from presso_,t_^(káva) N
+Disconnected primatoložka N from primatolog_;S N
+Disconnected princátkův_,e A from princátko N
+Disconnected prognostička N from prognostik N
+Disconnected prosení_,h_^(^GC**prošení) N from prosit_:T V
+Disconnected proseníčko_,e N from prosení_^(*3it) N
+Disconnected proudnička_,e N from proudnice N
+Disconnected podprsenčička_,e N from podprsenka N
+Disconnected prsíčko_,e N from prso N
+Disconnected prsťáček_^(gumový_návlek) N from prsťák N
+Disconnected proužeček_,e N from proužek N
+Disconnected prvák-1_,h_^(žák_prvního_ročníku) N from první A
+Disconnected prváček_,h_^(žák_první_třídy) N from prvák-1_,h_^(žák_prvního_ročníku) N
+Disconnected pryskyřníček_,e N from pryskyřník N
+Disconnected pracovníček_,e N from pracovník N
+Disconnected pradlák-2 N from pradlena N
+Disconnected prádelníček_,e N from prádelník N
+Disconnected průchodicí A from průchodit_:T V
+Disconnected psovodka N from psovod N
+Disconnected psychiatrička N from psychiatr N
+Disconnected puclíček_,e N from puclík_;G N
+Disconnected upouštěcí A from upouštět_:T V
+Disconnected vpouštěcí A from vpouštět_:T V
+Disconnected putnička_,e N from putna-2 N
+Disconnected pádélko_,e N from pádlo N
+Disconnected pádýlko_,e N from pádlo N
+Disconnected pájitelný_^(*4)_(*6et) A from pájet_:T V
+Disconnected spájecí A from spájet_:T_:W V
+Disconnected opalováníčko_,e N from opalování_^(*3at) N
+Disconnected pálenička_,e N from pálenka N
+Disconnected spalovnička_,e N from spalovna N
+Disconnected pařička N from pařič N
+Disconnected pařníček_,e N from pařník N
+Disconnected pečeníčko_,e N from pečení_^(*5éci) N
+Disconnected pečicí A from péci V
+Disconnected vopíchat_,h_^(^GC**opíchat) V from opíchat_:W V
+Disconnected pijavička_,e N from pijavice N
+Disconnected piják-2 N from pít V
+Disconnected pijáček_,e N from piják N
+Disconnected píďalička N from píďalka_,e N
+Disconnected zápěstíčko_,e N from zápěstí N
+Disconnected pěsticí A from pěstit_:T V
+Disconnected popěveček_,e N from popěvek N
+Disconnected pětimiliardový A from pětimiliarda N with no linked counterpart in the new DB
+Disconnected pětníček_,e N from pětník N
+Disconnected přechutění N from přechutit_:W V
+Disconnected přechutěný A from přechutit_:W V
+Disconnected předeček_,e N from předek-1_^(přední_část) N
+Disconnected přednostka N from přednosta N
+Disconnected předsevzetíčko_,e N from předsevzetí_^(*3ít) N
+Disconnected přehvězdění N from přehvězdit V
+Disconnected přehvězděný A from přehvězdit V
+Disconnected přejezdník-1 N from přejezdný A
+Disconnected překabácení N from překabátit_:W V
+Disconnected překabácený A from překabátit_:W V
+Disconnected přepřáhnutí N from přepřáhnout V
+Disconnected přepřáhnutý A from přepřáhnout V
+Disconnected přesmoc D from přes-7_^(předpona,_sam.) A with no linked counterpart in the new DB
+Disconnected přesto-1 D from přes-7_^(předpona,_sam.) A with no linked counterpart in the new DB
+Disconnected přeslaný A from přeslat N with no linked counterpart in the new DB
+Disconnected přespoláček_,h_^(přespolní_běh) N from přespolák_,l_^(přespolní_běh) N
+Disconnected přetejkat_,h_^(^GC**přetékat) V from přetýkat_:T_:W V
+Disconnected převleček_,e N from převlek N
+Disconnected přichutění N from přichutit_:W V
+Disconnected přichutěný A from přichutit_:W V
+Disconnected přimobilisovávat_:T_,s_^(^DD**přimobilizovat)_(*4at) V from přimobilisovat_:W_,s_^(^DD**přimobilizovat) V with no linked counterpart in the new DB
+Disconnected připomněvší A from připomenout V
+Disconnected přímokorovací A from přímokorovat_:T_^(*4at) V
+Disconnected propřadení N from propříst_,a_,x V
+Disconnected propřadený A from propříst_,a_,x V
+Disconnected vzpěrací A from vzpírat_:T V
+Disconnected nepřítelkyně N from nepřítel N
+Disconnected přítelkyně N from přítel N
+Disconnected propučovat_,h_^(^GC**propůjčovat) V from propůjčovat_:T V
+Disconnected polovina N from půl-2 N with no linked counterpart in the new DB
+Disconnected půle N from půl-2 N with no linked counterpart in the new DB
+Disconnected půlčička_,e N from půlka N
+Disconnected půlit V from půl-2 N with no linked counterpart in the new DB
+Disconnected půlicí A from půlit_:T V
+Disconnected půlový A from půl-2 N with no linked counterpart in the new DB
+Disconnected půlbilionový A from půlbilion N with no linked counterpart in the new DB
+Disconnected půlmiliardový A from půlmiliarda N with no linked counterpart in the new DB
+Disconnected půlmilionový_,s_^(^DD**půlmiliónový) A from půlmilion_,s_^(^DD**půlmilión) N with no linked counterpart in the new DB
+Disconnected půlmilionář N from půlmilion_,s_^(^DD**půlmilión) N with no linked counterpart in the new DB
+Disconnected půlmiliónek`500000 N from půlmilión N with no linked counterpart in the new DB
+Disconnected půlmiliónový A from půlmilión N with no linked counterpart in the new DB
+Disconnected quartzový A from quartz_,t N with no linked counterpart in the new DB
+Disconnected poradění N from poradit_:W V
+Disconnected poraděný A from poradit_:W V
+Disconnected radnička_,e N from radnice N
+Disconnected radýlko_,e N from radlo_;S N
+Disconnected ragbíčko_,e N from ragby N
+Disconnected rakytníček_^(rostlina) N from rakytník N
+Disconnected nárazníček_,e N from nárazník N
+Disconnected odrážecí A from odrážet_:T V
+Disconnected prorážecí A from prorážet_:T V
+Disconnected přerážecí A from přerážet_:T V
+Disconnected razítečko_,e N from razítko N
+Disconnected povyraženíčko_,e N from povyražení_^(*4zit) N
+Disconnected vyrážecí A from vyrážet_:T V
+Disconnected raťafáček_,e N from raťafák_,h_^(nos) N
+Disconnected regulátor-2 N from regulovat_:T V
+Disconnected reparáteček_,e N from reparátek_;S N
+Disconnected dermorespirační A from respirační A
+Disconnected retroflexní A from retroflexus_;L_,t A with no linked counterpart in the new DB
+Disconnected revanšista N from revanš N
+Disconnected risský A from riss_,t_^(riss-würmský) A
+Disconnected robopsycholožka N from robopsycholog_;S N
+Disconnected zarochtat_,s_^(^DD**zarochat) V from zarochat_:W_,h V
+Disconnected urozenka_,a N from urozenec_,a N
+Disconnected zrozenka_,a N from zrozenec_,a N
+Disconnected růžeček_,e N from růžek N
+Disconnected rojeníčko_,e N from rojení_^(*3it) N
+Disconnected roklička_,e N from rokle N
+Disconnected rolníček_,e N from rolník N
+Disconnected rotavirový A from rotavirus N with no linked counterpart in the new DB
+Disconnected rotundička_,e N from rotunda N
+Disconnected rozkladač-2 N from rozkládat_:T V
+Disconnected rozklápěcí A from rozklápět_:T V
+Disconnected rozmobilisovávat_:T_,s_^(^DD**rozmobilizovat)_(*4at) V from rozmobilisovat_:W_,s_^(^DD**rozmobilizovat) V with no linked counterpart in the new DB
+Disconnected rozpěrací A from rozpěrat_:T_:W V
+Disconnected rozpřažení N from rozpřáhnout V
+Disconnected rozpřažený A from rozpřáhnout V
+Disconnected rozčilení_,s_^(^DD**rozčílení) N from rozčilit_:W V
+Disconnected rožatý A from rožnout V
+Disconnected rožavší A from rožnout V
+Disconnected porušeníčko_,e N from porušení_^(*3it) N
+Disconnected ruchadýlko_,e N from ruchadlo N
+Disconnected rundička_,e N from runda N
+Disconnected rychlík-2 N from rychlý A
+Disconnected rádélko_,e N from rádlo N
+Disconnected ranařský_,a A from ranař_,h_,l N with no linked counterpart in the new DB
+Disconnected zraněníčko_,e N from zranění_^(*3it) N
+Disconnected rýdovací A from rýdovat_:T_^(*4at) V
+Disconnected rypadélko_,e N from rypadlo N
+Disconnected rydélko_,e N from rydlo N
+Disconnected rytečka N from rytec N
+Disconnected sabiův_^(*2a) A from sabia_;E_,t N with no linked counterpart in the new DB
+Disconnected sazebníček_,e N from sazebník N
+Disconnected osaháníčko_,e N from osahání_^(*3at) N
+Disconnected dosáhnutí N from dosáhnout V
+Disconnected dosáhnutý A from dosáhnout V
+Disconnected obsažení N from obsáhnout_:W V
+Disconnected obsažený A from obsáhnout_:W V
+Disconnected zasáhat_,a V from zasahovat_:T V
+Disconnected zasažení N from zasáhnout_:W V
+Disconnected zasažený A from zasáhnout_:W V
+Disconnected samohasicí A from samohasit_:T V
+Disconnected samorost-2 N from samorostlý A
+Disconnected saprobiontní A from saprobiont N
+Disconnected satirička N from satirik N
+Disconnected satyriáza N from satyriasis_;U_,t N with no linked counterpart in the new DB
+Disconnected saunička_,e N from sauna N
+Disconnected sebepředváděcí A from sebepředvádět_:T V
+Disconnected sedmisetový A from sedmiset N with no linked counterpart in the new DB
+Disconnected nasedění N from nasedět V
+Disconnected naseděný A from nasedět V
+Disconnected odsezení N from odsedět V
+Disconnected odsezený A from odsedět V
+Disconnected osedění_^(opotřebovat_sezením) N from osedět_^(opotřebovat_sezením) V
+Disconnected oseděný_^(opotřebovat_sezením) A from osedět_^(opotřebovat_sezením) V
+Disconnected prosedění N from prosedět V
+Disconnected přesezení N from přesedět V
+Disconnected přesezený A from přesedět V
+Disconnected rozsedění N from rozsedět V
+Disconnected rozseděný A from rozsedět V
+Disconnected sedlíčko_,e N from sedlo N
+Disconnected seděný A from sedět V
+Disconnected usedění N from usedět_,s V
+Disconnected useděný A from usedět_,s V
+Disconnected vysedění N from vysedět V
+Disconnected zasedění_,a N from zasedět_,a V
+Disconnected zaseděný_,a A from zasedět_,a V
+Disconnected sekáč-2 N from sekat_:T V
+Disconnected seníček_,e N from seník N
+Disconnected serafín-2 N from seraf N
+Disconnected sesýchat_,s_^(^DD**sesychat) V from sesychat_:T V
+Disconnected secí A from set-1_^(sada) N
+Disconnected setkáníčko_,e N from setkání_^(*3at) N
+Disconnected simarubovitý A from simaruba_;L_,t A with no linked counterpart in the new DB
+Disconnected sinoložka N from sinolog N
+Disconnected skandinavistka N from skandinavista_;S N
+Disconnected sklípeček_,e N from sklípek N
+Disconnected sklerotička N from sklerotik N
+Disconnected sklárnička_,e N from sklárna N
+Disconnected skokanka N from skokan N
+Disconnected poskok-2 N from skočit_:W V
+Disconnected skvoucí A from skvít V
+Disconnected skací_^(stroj) A from skát V
+Disconnected skříteček_,e N from skřítek N
+Disconnected Slavice_;G N from Slavík_;S N
+Disconnected slinta-2 N from slintat_:T V
+Disconnected slonička_,e N from slonice N
+Disconnected slunečníček_,e N from slunečník N
+Disconnected slušňáček_,e N from slušňák_,h N
+Disconnected posloucháníčko_,e N from poslouchání_^(*3at) N
+Disconnected slamníček_,e N from slamník N
+Disconnected smažáček_,h_^(smažený_sýr) N from smažák_,h_^(smažený_sýr) N
+Disconnected smrádeček_,e N from smrádek N
+Disconnected smutnět V from smutný A
+Disconnected smíšeček_,e N from smíšek N
+Disconnected smítečko_,e N from smítko N
+Disconnected snajperka N from snajper_,s_^(^DD**snajpr) N
+Disconnected snobárnička_,e N from snobárna_,h N
+Disconnected snoubeneček_,e N from snoubenec N
+Disconnected Sobotka-2_;Y N from Sobota_;S N
+Disconnected sodovčička_,e N from sodovka N
+Disconnected sokolovnička_,e N from sokolovna N
+Disconnected násoskovitý A from násoska_,h_,v_^(alkoholik) N
+Disconnected souboreček_,e N from souborek N
+Disconnected soukromíčko_,e N from soukromí N
+Disconnected soumařice N from soumar N
+Disconnected spoluzaměstnankyně N from spoluzaměstnanec N
+Disconnected spořeníčko_,e N from spoření_^(*3it) N
+Disconnected sprosťáček_,e N from sprosťák N
+Disconnected sprosťárnička_,e N from sprosťárna N
+Disconnected příspěveček_,e N from příspěvek N
+Disconnected spřažení N from spřáhnout_:W V
+Disconnected spřažený A from spřáhnout_:W V
+Disconnected spřadací A from spřádat_:T V
+Disconnected srnečka N from srneček N
+Disconnected srágora-2_,v N from srát V
+Disconnected stamiliardový A from stamiliardy N with no linked counterpart in the new DB
+Disconnected stamiliónový A from stamilión N with no linked counterpart in the new DB
+Disconnected startér-2 N from start N
+Disconnected stařešina-2 N from starý A with no linked counterpart in the new DB
+Disconnected rozestlávat V from rozestlat V
+Disconnected rozestýlat V from rozestlat V
+Disconnected setnina N from sto-2`100 N with no linked counterpart in the new DB
+Disconnected stovka N from sto-2`100 N with no linked counterpart in the new DB
+Disconnected stomatoložka N from stomatolog N
+Disconnected stomiliardový A from stomiliarda N with no linked counterpart in the new DB
+Disconnected stopětadvacátina N from stopětadvacátý A with no linked counterpart in the new DB
+Disconnected stotisícový A from stotisíc`100000 N with no linked counterpart in the new DB
+Disconnected stoupáníčko_,e N from stoupání_^(*3at) N
+Disconnected stočtyřicátina N from stočtyřicátý A with no linked counterpart in the new DB
+Disconnected stratéžka N from stratég N
+Disconnected struhadélko_,e N from struhadlo N
+Disconnected struhadýlko_,e N from struhadlo N
+Disconnected stydlivka-2 N from stydlivý A
+Disconnected zostudění N from zostudit_:W V
+Disconnected zostuděný A from zostudit_:W V
+Disconnected zastudění_^(vyvolat_pocit_chladu) N from zastudit_:W_^(vyvolat_pocit_chladu) V
+Disconnected zastuděný_^(vyvolat_pocit_chladu) A from zastudit_:W_^(vyvolat_pocit_chladu) V
+Disconnected zastuděvší A from zastudit_:W_^(vyvolat_pocit_chladu) V
+Disconnected stojací A from stát-1_^(státní_útvar) N
+Disconnected stáneček_,e N from stánek N
+Disconnected stojáneček_,e N from stojánek N
+Disconnected prostátí N from prostát V
+Disconnected prostátý A from prostát V
+Disconnected přestávečka_,e N from přestávka N
+Disconnected dostavníček_,e N from dostavník N
+Disconnected nadstavbička_,e N from nadstavba N
+Disconnected představeníčko_,e N from představení-1_^(si_něco;_něco/někoho_někomu)_(*5it-1) N
+Disconnected přístavbička_,e N from přístavba N
+Disconnected stavebnička_,e N from stavebnice_^(*3ík) N
+Disconnected stavidýlko_,e N from stavidlo N
+Disconnected ustátí N from ustát V
+Disconnected ustátý A from ustát V
+Disconnected vystátí N from vystát V
+Disconnected vystátý A from vystát V
+Disconnected stihat_,s_^(^DD**stíhat) V from stíhat_:T V
+Disconnected dostižení N from dostihnout_:W V
+Disconnected dostižený A from dostihnout_:W V
+Disconnected postižení N from postihnout_:W V
+Disconnected postižený A from postihnout_:W V
+Disconnected předstižený A from předstihnout_:W V
+Disconnected přistižení N from přistihnout_:W V
+Disconnected přistižený A from přistihnout_:W V
+Disconnected stižení N from stihnout_:W V
+Disconnected stižený A from stihnout_:W V
+Disconnected vystižení N from vystihnout_:W V
+Disconnected vystižený A from vystihnout_:W V
+Disconnected zastižení N from zastihnout_:W V
+Disconnected zastižený A from zastihnout_:W V
+Disconnected nastejskat_,h_^(^GC**nastýskat) V from nastýskat_:W_,h_,x V
+Disconnected prostejskat_,h_^(^GC**prostýskat) V from prostýskat_:W_,h_,x V
+Disconnected ustejskat_,h_^(^GC**ustýskat) V from ustýskat_:W_,s V
+Disconnected stěhováček_,e N from stěhovák N
+Disconnected střelnička_,e N from střelnice N
+Disconnected zostřihat_,s_^(^DD**zostříhat) V from zostříhat_:W_,s V
+Disconnected sestřihat_,s_^(^DD**sestříhat) V from sestříhat_:W V
+Disconnected dostřižení N from dostřihnout V
+Disconnected dostřižený A from dostřihnout V
+Disconnected nastřižení N from nastřihnout V
+Disconnected nastřižený A from nastřihnout V
+Disconnected obstřižení N from obstřihnout V
+Disconnected obstřižený A from obstřihnout V
+Disconnected odstřižení N from odstřihnout_:W V
+Disconnected odstřižený A from odstřihnout_:W V
+Disconnected ostřižení N from ostřihnout V
+Disconnected ostřižený A from ostřihnout V
+Disconnected postřih N from postřihnout V with no linked counterpart in the new DB
+Disconnected postřihovat V from postřihnout V with no linked counterpart in the new DB
+Disconnected prostřižený A from prostřihnout V
+Disconnected přestřižení N from přestřihnout V
+Disconnected přestřižený A from přestřihnout V
+Disconnected přistřižení N from přistřihnout V
+Disconnected přistřižený A from přistřihnout V
+Disconnected rozstřižení N from rozstřihnout V
+Disconnected rozstřižený A from rozstřihnout V
+Disconnected sestřižení N from sestřihnout V
+Disconnected střižení N from střihnout V
+Disconnected střižený A from střihnout V
+Disconnected ustřižení N from ustřihnout V
+Disconnected ustřižený A from ustřihnout V
+Disconnected vystřižení N from vystřihnout V
+Disconnected vystřižený A from vystřihnout V
+Disconnected ustřihat_,s_^(^DD**ustříhat) V from ustříhat_:W V
+Disconnected suchar-2 N from suchý A
+Disconnected sušenčička_,e N from sušenka N
+Disconnected sufražistka N from sufražista_;S N
+Disconnected zasupat V from zasupět V
+Disconnected sváteček_,e N from svátek N
+Disconnected sviteček_,e N from svitek N
+Disconnected svámijův_^(*2a) A from svámija_,t N with no linked counterpart in the new DB
+Disconnected posvíceníčko_,e N from posvícení_^(*4tit) N
+Disconnected zasvitat_,s_^(^DD**zasvítat) V from zasvítat_:T V
+Disconnected svědectvíčko_,e N from svědectví N
+Disconnected osvědčeníčko_,e N from osvědčení_^(*3it) N
+Disconnected zasvěděvší A from zasvědět V with no linked counterpart in the new DB
+Disconnected osvěženíčko_,e N from osvěžení_^(*3it) N
+Disconnected symbiont-2 N from symbióza N
+Disconnected sádlíčko_,e N from sádlo N
+Disconnected sádélko_,e N from sádlo N
+Disconnected přesátí N from přesát V
+Disconnected přesátý A from přesát V
+Disconnected přisátí N from přisát V
+Disconnected přisátý A from přisát V
+Disconnected sátí N from sát V
+Disconnected sátý A from sát V
+Disconnected vysátí N from vysát V
+Disconnected vysátý A from vysát V
+Disconnected zasátí N from zasát V
+Disconnected zasátý A from zasát V
+Disconnected sídélko_,e N from sídlo N
+Disconnected posilovnička_,e N from posilovna N
+Disconnected sirčička_,e N from sirka N
+Disconnected prosetí N from prosít V
+Disconnected prosetý A from prosít V
+Disconnected vsévat V from vsít V
+Disconnected vsívat_,s_^(^DD**vsévat) V from vsít V
+Disconnected taháček_,e N from tahák N
+Disconnected dotáhnutý A from dotáhnout V
+Disconnected natažení N from natáhnout V
+Disconnected natažený A from natáhnout V
+Disconnected obtažení N from obtáhnout V
+Disconnected odtažení N from odtáhnout V
+Disconnected odtažený A from odtáhnout V
+Disconnected popotažený A from popotáhnout_:W V
+Disconnected potažení N from potáhnout_:W V
+Disconnected potažený A from potáhnout_:W V
+Disconnected protáhnutý A from protáhnout V
+Disconnected přetáhnutý A from přetáhnout V
+Disconnected přitáhnutý A from přitáhnout V
+Disconnected roztažení N from roztáhnout_:W V
+Disconnected roztažený A from roztáhnout_:W V
+Disconnected stáhnutý A from stáhnout V
+Disconnected tažení N from táhnout_:W V
+Disconnected tažený A from táhnout_:W V
+Disconnected utáhnutý A from utáhnout V
+Disconnected vtáhnutý A from vtáhnout V
+Disconnected zatáhnutý A from zatáhnout V
+Disconnected přetaktováníčko_,e N from přetaktování_^(*3at) N
+Disconnected talentíček_,e N from talentík_;G N
+Disconnected talířeček_,e N from talířek N
+Disconnected tatrovačka N from tatrovák N
+Disconnected tavernička_,e N from taverna N
+Disconnected tenisáček N from tenisák N
+Disconnected tepnička_,e N from tepna N
+Disconnected teplárnička_,e N from teplárna N
+Disconnected radioterapeutička N from radioterapeut N
+Disconnected terminátor-2 N from terminace N
+Disconnected termokopírovací A from termokopírovat_:T_^(*4at) V
+Disconnected teréňáček_,e N from teréňák_,h_^(vozidlo_pro_jízdu_v_terénu) N
+Disconnected tetragonální A from tetragona_;L_,t A with no linked counterpart in the new DB
+Disconnected utišovač-2_^(lék) N from utišovat_:T V
+Disconnected dotištění N from dotisknout_:W V
+Disconnected dotištěný A from dotisknout_:W V
+Disconnected nadtištění N from nadtisknout_:W V
+Disconnected nadtištěný A from nadtisknout_:W V
+Disconnected natištěný A from natisknout_:W V
+Disconnected obtištění N from obtisknout_:W V
+Disconnected obtištěný A from obtisknout_:W V
+Disconnected otištěný A from otisknout_:W V
+Disconnected votištění_,h_^(^GC**otištění) N from votisknout_,h_,x_^(^GC**otisknout) V
+Disconnected votištěný_,h_^(^GC**otištěný) A from votisknout_,h_,x_^(^GC**otisknout) V
+Disconnected podtištění N from podtisknout_:W V
+Disconnected podtištěný A from podtisknout_:W V
+Disconnected potištěný A from potisknout_:W V
+Disconnected předtištění N from předtisknout_:W V
+Disconnected předtištěný A from předtisknout_:W V
+Disconnected přetištěný A from přetisknout_:W V
+Disconnected přitištění N from přitisknout_:W V
+Disconnected přitištěný A from přitisknout_:W V
+Disconnected roztištění N from roztisknout_:W V
+Disconnected roztištěný A from roztisknout_:W V
+Disconnected stištění N from stisknout_:W V
+Disconnected tištěný A from tisknout_:T V
+Disconnected utištění N from utisknout_:W V
+Disconnected vtištěný A from vtisknout_:W V
+Disconnected vytištěný A from vytisknout_:W V
+Disconnected tisícový A from tisíc-2`1000 N with no linked counterpart in the new DB
+Disconnected tisící A from tisíc-2`1000 N with no linked counterpart in the new DB
+Disconnected dotčení N from dotknout_:W_^(fyz._i_abstr.,_př._drátů,_práv,_citů) V
+Disconnected dotčený A from dotknout_:W_^(fyz._i_abstr.,_př._drátů,_práv,_citů) V
+Disconnected podotčení N from podotknout_:W V
+Disconnected podotčený A from podotknout_:W V
+Disconnected vytejkat_,h V from vytýkat_:T V
+Disconnected vytčení N from vytknout_:W V
+Disconnected vytčený A from vytknout_:W V
+Disconnected vtkávat_,s_^(^DD**vetkávat) V from vtkát_,s V
+Disconnected vtkávací_,s_^(^DD**vetkávací) A from vtkávat_:T_,s_^(*3t) V
+Disconnected vtkávání_,s_^(^DD**vetkávání) N from vtkávat_:T_,s_^(*3t) V
+Disconnected vtkávaný_,s_^(^DD**vetkávaný) A from vtkávat_:T_,s_^(*3t) V
+Disconnected vtkávatelný_,s_^(^DD**vetkávatelný) A from vtkávat_:T_,s_^(*3t) V
+Disconnected tlacháníčko_,e N from tlachání_^(*3at) N
+Disconnected vytláčecí A from vytláčet_:T V
+Disconnected tlemeníčko_,e N from tlemení_,h_^(*3it) N
+Disconnected tloukoucí_,n_^(tlukoucí) A from tlouci V
+Disconnected vytloukač-1_^(člověk) N from vytloukat_:T V
+Disconnected tlecí A from tlít V
+Disconnected naťatý A from natnout V
+Disconnected odťatý A from odetnout V
+Disconnected podetnutí N from podetnout V
+Disconnected podetnutý A from podetnout V
+Disconnected proťatý A from protnout_:W V
+Disconnected přeťatý A from přetnout V
+Disconnected rozťatý A from rozetnout V
+Disconnected sťatý A from setnout V
+Disconnected uťatý A from utnout V
+Disconnected vyťatý A from vytnout V
+Disconnected zaťatý A from zatnout V
+Disconnected ťatý A from tnout V
+Disconnected topeníčko_,e N from topení_^(*3it) N
+Disconnected topinečka_,e N from topinka N
+Disconnected tornička_,e N from torna N
+Disconnected touženíčko_,e N from toužení_^(*3it) N
+Disconnected toustíček_,e N from toustík_,e N
+Disconnected toxikoložka N from toxikolog N
+Disconnected trasovač-1 N from trasovat_:T V
+Disconnected utrácecí A from utrácet_:T V
+Disconnected traumíčko_,e N from trauma N
+Disconnected trestňáček_,h_^(trestný_kop) N from trestňák_,l N
+Disconnected dotržení N from dotrhnout_:W V
+Disconnected dotržený A from dotrhnout_:W V
+Disconnected natržení N from natrhnout_:W V
+Disconnected natržený A from natrhnout_:W V
+Disconnected odtržení N from odtrhnout_:W V
+Disconnected odtržený A from odtrhnout_:W V
+Disconnected vodtržení_,h_^(^GC**odtržení) N from vodtrhnout_:W_,h_,x_^(^GC**odtrhnout) V
+Disconnected vodtržený_,h_^(^GC**odtržený) A from vodtrhnout_:W_,h_,x_^(^GC**odtrhnout) V
+Disconnected podtržení N from podtrhnout_:W V
+Disconnected podtržený A from podtrhnout_:W V
+Disconnected protržení N from protrhnout_:W V
+Disconnected protržený A from protrhnout_:W V
+Disconnected přetržení N from přetrhnout_:W V
+Disconnected přetržený A from přetrhnout_:W V
+Disconnected přitržení N from přitrhnout_:W V
+Disconnected přitržený A from přitrhnout_:W V
+Disconnected roztržení N from roztrhnout_:W V
+Disconnected roztržený A from roztrhnout_:W V
+Disconnected vtržení N from vtrhnout_:W V
+Disconnected vtržený A from vtrhnout_:W V
+Disconnected zatržení N from zatrhnout_:W V
+Disconnected zatržený A from zatrhnout_:W V
+Disconnected ztržení N from ztrhnout_:W V
+Disconnected tričinko_,e N from tričo_;S N
+Disconnected troškařka N from troškař N
+Disconnected strpeníčko_,e N from strpení N
+Disconnected utrpeníčko_,e N from utrpení N
+Disconnected truhlárnička_,e N from truhlárna N
+Disconnected truhlík-2 N from truhla N
+Disconnected vytrýskat_,s_^(^DD**vytryskat) V from vytryskat_:W_,s V
+Disconnected trápeníčko_,e N from trápení_^(*3it) N
+Disconnected otrava-2 N from otrávit_:W V
+Disconnected trémička_,e N from tréma N
+Disconnected tučňáček_,e N from tučňák N
+Disconnected tuleníčko_,e N from tulení A
+Disconnected tungský A from tung_;Y_^(Mao_ce_tung) N with no linked counterpart in the new DB
+Disconnected tuzemáček_,e N from tuzemák_,l_^(tuzemský_rum) N
+Disconnected zpotvořelý_^(*2t) A from zpotvořit_:W V
+Disconnected tvořeníčko_,e N from tvoření_^(*3it) N
+Disconnected potvrzeníčko_,e N from potvrzení_^(*4dit) N
+Disconnected tvářecí A from tvářet_:T V
+Disconnected tygřice N from tygr N
+Disconnected tyrolák N from tyrolsko N with no linked counterpart in the new DB
+Disconnected táceček_,e N from tácek N
+Disconnected tatíneček_,e N from tatínek N
+Disconnected votejkat_,h_^(^GC**otékat) V from otejkat_:T_,h_,x_^(^GC*5ékat) V
+Disconnected pootáčecí A from pootáčet_:T V
+Disconnected zatáčecí A from zatáčet_:T V
+Disconnected zatejrat_,h_^(^GC**zatýrat) V from zatýrat_:W_,s V
+Disconnected tílečko_,e N from tílko N
+Disconnected potěšeníčko_,e N from potěšení_^(*3it) N
+Disconnected těšeníčko_,e N from těšení_^(*3it) N
+Disconnected ztřeštěnka N from ztřeštěnec N
+Disconnected třecí A from třít V
+Disconnected utěrací A from utírat_:T V
+Disconnected uběhlička_,a N from uběhlík_,a N
+Disconnected ušáček-2_,e_^(křeslo;;hrnek_s_dvěma_uchy) N from ušák-1_^(křeslo) N
+Disconnected udírnička_,e N from udírna N
+Disconnected uhlobaronka_,h N from uhlobaron_,h N
+Disconnected ukulelistka N from ukulelista_;S N
+Disconnected ulejvat V from ulejt_,h V with no linked counterpart in the new DB
+Disconnected ultrakatolička_,e N from ultrakatolík_,e N
+Disconnected ultralevičačka_,e N from ultralevičák_,e N
+Disconnected ultravlastenka_,e N from ultravlastenec_,e N
+Disconnected umobilisovávat_:T_,s_^(^DD**umobilizovat)_(*4at) V from umobilisovat_:W_,s_^(^DD**umobilizovat) V with no linked counterpart in the new DB
+Disconnected umprumačka_,l N from umprumák_,l N
+Disconnected upejpavka_,h N from upejpavec_,h N
+Disconnected upejpalka_,e N from upejpálek_,e N
+Disconnected uroložka N from urolog N
+Disconnected uvrcení_,s_^(^DD**uvrtění) N from uvrtit_:W_,n V with no linked counterpart in the new DB
+Disconnected uvrcený_,s_^(^DD**uvrtěný) A from uvrtit_:W_,n V with no linked counterpart in the new DB
+Disconnected poučeníčko_,e N from poučení_^(*3it) N
+Disconnected povalováníčko_,e N from povalování_^(*3at) N
+Disconnected pováleníčko_,e N from poválení_^(*2t) N
+Disconnected válecí A from válet_:T V
+Disconnected varnička_,e N from varna N
+Disconnected varhanička_,e N from varhaník N
+Disconnected Vavřinečka_;Y N from Vavřinec_;Y N
+Disconnected vašnostka N from vašnosta_,s N
+Disconnected vedlejšáček_,e N from vedlejšák N
+Disconnected vejbavička_,h_^(^GC**výbavička) N from vejbava_,h N
+Disconnected velbloudička N from velbloudek N
+Disconnected velekněžka N from velekněz N
+Disconnected veneroložka N from venerolog N
+Disconnected versoložka N from versolog_,s N
+Disconnected všivárnička_,e N from všivárna N
+Disconnected předvidat_,h_^(^GC**předvídat) V from předvídat_:T V
+Disconnected obviněníčko_,e N from obvinění_^(*3it) N
+Disconnected virtuoska N from virtuos N
+Disconnected antivirus N from virus_,x N with no linked counterpart in the new DB
+Disconnected virusový A from virus_,x N with no linked counterpart in the new DB
+Disconnected viselec-2_^(rostlina_Stravadium) N from viset V
+Disconnected visací A from viset V
+Disconnected visecí A from viset V
+Disconnected prověšený A from prověsit_:W V
+Disconnected viviparní A from vivipara_;L_,t A with no linked counterpart in the new DB
+Disconnected vkulovací A from vkulovat_:T_^(*4at) V
+Disconnected vlčačka N from vlčák N
+Disconnected bavlníček_^(pes) N from bavlník N
+Disconnected vládička_,e N from vláda N
+Disconnected škrtovláda_,h N from vláda N
+Disconnected oblečeníčko_,e N from oblečení_^(*5éci) N
+Disconnected vláčecí A from vláčet_:T V
+Disconnected uvláčivší A from uvláčit_:W_,s V
+Disconnected vmobilisovávat_:T_,s_^(^DD**vmobilizovat)_(*4at) V from vmobilisovat_:W_,s_^(^DD**vmobilizovat) V with no linked counterpart in the new DB
+Disconnected vnučka N from vnuk N
+Disconnected voláneček_,e N from volánek N
+Disconnected voživeníčko_,e N from voživení_^(*3it) N
+Disconnected vrabčačka_,e N from vrabčák N
+Disconnected svršek-2 N from vrch N
+Disconnected navržení N from navrhnout_:W V
+Disconnected navržený A from navrhnout_:W V
+Disconnected odvržení N from odvrhnout_:W V
+Disconnected odvržený A from odvrhnout_:W V
+Disconnected podvržení N from podvrhnout_:W V
+Disconnected podvržený A from podvrhnout_:W V
+Disconnected opovržení N from opovrhnout_:W V
+Disconnected opovržený A from opovrhnout_:W V
+Disconnected povržení N from povrhnout_:W V
+Disconnected povržený A from povrhnout_:W V
+Disconnected převržení N from převrhnout_:W V
+Disconnected převržený A from převrhnout_:W V
+Disconnected rozvržení N from rozvrhnout_:W V
+Disconnected rozvržený A from rozvrhnout_:W V
+Disconnected svržení N from svrhnout_:W V
+Disconnected svržený A from svrhnout_:W V
+Disconnected uvržení N from uvrhnout_:W V
+Disconnected uvržený A from uvrhnout_:W V
+Disconnected vržení N from vrhnout_:W V
+Disconnected vržený A from vrhnout_:W V
+Disconnected vrkoček N from vrkoč N
+Disconnected vrtáček-2_,e_^(nemotora) N from vrták-1_^(nástroj,_lidový_tanec) N
+Disconnected vránička_,e N from vrána N
+Disconnected obracecí A from obracet_:T V
+Disconnected převracecí A from převracet_:T V
+Disconnected vyklektat_,n_^(^GC**vyklechtat) V from vyklechtat_:W_,n V
+Disconnected vylejvat_,s_^(^DD**vylévat) V from vylejt_,h_,x V with no linked counterpart in the new DB
+Disconnected vymobilisovávat_:T_,s_^(^DD**vymobilizovat)_(*4at) V from vymobilisovat_:W_,s_^(^DD**vymobilizovat) V with no linked counterpart in the new DB
+Disconnected vypřažení N from vypřáhnout V
+Disconnected vypřažený A from vypřáhnout V
+Disconnected vystoupeníčko_,e N from vystoupení_^(*3it) N
+Disconnected vystěrací A from vystírat_:T V
+Disconnected povytažení N from povytáhnout_:W V
+Disconnected vytáhnutý A from vytáhnout V
+Disconnected vyvržení N from vyvrhnout_:W V
+Disconnected vyvržený A from vyvrhnout_:W V
+Disconnected vzorkovač-2 N from vzorkovat_:T V
+Disconnected vyvzpomněvší A from vyvzpomenout V
+Disconnected vzpomněvší A from vzpomenout V
+Disconnected vztažení N from vztáhnout_:W V
+Disconnected vztažený A from vztáhnout_:W V
+Disconnected naběrací A from nabírat_:T V
+Disconnected podběráček_,e N from podběrák N
+Disconnected sběrač-2 N from sbírat_:T V
+Disconnected sbíráníčko_,e N from sbírání_^(*3at) N
+Disconnected vybírač-2_^(zařízení) N from vybírat_:T V
+Disconnected vahadélko_,e N from vahadlo N
+Disconnected vahadýlko_,e N from vahadlo N
+Disconnected vyvažovač-2 N from vyvažovat_:T V
+Disconnected rozvívat V from rozvát V
+Disconnected svazačka N from svazák N
+Disconnected závazeček_,e N from závazek N
+Disconnected přivodění N from přivodit_:W V
+Disconnected přivoděný A from přivodit_:W V
+Disconnected vyvodění N from vyvodit_:W V
+Disconnected vyvoděný A from vyvodit_:W V
+Disconnected vodvýzt_,h_^(^GC**odvézt) V from vodvézt_,h_^(^GC**odvézt) V
+Disconnected svezeníčko_,e N from svezení_^(*5ézt) N
+Disconnected povozeníčko_,e N from povození_^(*4dit) N
+Disconnected zavážecí A from zavážet_:T_^(např._zboží_do_obchodu) V
+Disconnected důvěrníček_,e N from důvěrník N
+Disconnected pověřenka N from pověřenec N
+Disconnected výšezmíněný A from výšezmínit V with no linked counterpart in the new DB
+Disconnected včelnický A from včelník-1_^(přenosná_budka_pro_úly) N
+Disconnected dovězení N from dovědět V
+Disconnected dovězený A from dovědět V
+Disconnected dopovědění_,s_^(^DD**dopovězení) N from dopovědět V
+Disconnected nápověda-2_,l N from napovědět V
+Disconnected napovězení N from napovědět V
+Disconnected napovězený A from napovědět V
+Disconnected odpovědění N from odpovědět V
+Disconnected povědění N from povědět V
+Disconnected pověděný A from povědět V
+Disconnected popovídáníčko_,e N from popovídání_^(*3at) N
+Disconnected povídáníčko_,e N from povídání_^(*3at) N
+Disconnected předpověděný A from předpovědět V
+Disconnected vypověděný A from vypovědět V
+Disconnected zapovědění N from zapovědět V
+Disconnected zapověděný A from zapovědět V
+Disconnected zodpověděný A from zodpovědět V
+Disconnected svědomíčko_,e N from svědomí N
+Disconnected předzvězení N from předzvědět V
+Disconnected předzvězený A from předzvědět V
+Disconnected vyzvězení N from vyzvědět V
+Disconnected vyzvězený A from vyzvědět V
+Disconnected zvězení N from zvědět V
+Disconnected zvězený A from zvědět V
+Disconnected vězenec-1_^(síť_na_ryby) N from vězený_,a_^(*3it) A with no linked counterpart in the new DB
+Disconnected věštírnička_,e N from věštírna N
+Disconnected vřeštidlo_,e_^(vábnička;;vřeštil) N from vřeštit V with no linked counterpart in the new DB
+Disconnected vroucí A from vřít V
+Disconnected všetečka-2 N from všetečný A
+Disconnected všudybylka_,e N from všudybyl N
+Disconnected volníčko_,e N from volno-1 D
+Disconnected wanský A from wan_;G N with no linked counterpart in the new DB
+Disconnected zabředení N from zabřednout_:W V
+Disconnected zabředený A from zabřednout_:W V
+Disconnected zakabonělý A from zakabonět_:T_^(např._na_zvon) V
+Disconnected zakládač-2_,s_^(člověk)_(^DD**zakladač-2) N from zakládat_:T V
+Disconnected zalesačka N from zalesák_,s N
+Disconnected zamobilisovávat_:T_,s_^(^DD**zamobilizovat)_(*4at) V from zamobilisovat_:W_,s_^(^DD**zamobilizovat) V with no linked counterpart in the new DB
+Disconnected pozapomněvší A from pozapomenout V
+Disconnected uzapomnění N from uzapomenout_,s V
+Disconnected uzapomněný A from uzapomenout_,s V
+Disconnected uzapomněvší A from uzapomenout_,s V
+Disconnected zapomněvší_^(*3t) A from zapomenout V
+Disconnected zaslzivší A from zaslzit_:W_,s V with no linked counterpart in the new DB
+Disconnected zaslíbenka N from zaslíbenec_,s N
+Disconnected zasléchat_,s_^(^DD**zaslýchat) V from zaslýchat_:T_,s V
+Disconnected zasnoubenka_,a N from zasnoubenec_,a N
+Disconnected zastřižení N from zastřihnout V
+Disconnected zastřižený A from zastřihnout V
+Disconnected zatčení N from zatknout_:W V
+Disconnected zatčený A from zatknout_:W V
+Disconnected zavržení N from zavrhnout_:W V
+Disconnected zavržený A from zavrhnout_:W V
+Disconnected zavrtivší A from zavrtit_:W_,n V with no linked counterpart in the new DB
+Disconnected zavěrací A from zavírat_:T V
+Disconnected zavírač-2 N from zavírat_:T V
+Disconnected začatý_^(začnout) A from začít-1_^(začnout) V
+Disconnected zařčení N from zařknout_:W_,s V
+Disconnected zařčený A from zařknout_:W_,s V
+Disconnected zbranička_,e N from zbraň N
+Disconnected zbystřelý A from zbystřet_:W V
+Disconnected zbytkáček_,e N from zbytkák_;G N
+Disconnected zchladat_,s_^(^DD**zchládat) V from zchládat_:T V
+Disconnected zdobeníčko_,e N from zdobení_^(*3it) N
+Disconnected uzdvíhat_,s_^(^DD**uzdvihat) V from uzdvihat_:W_,s V
+Disconnected dozdvižení N from dozdvihnout V
+Disconnected dozdvižený A from dozdvihnout V
+Disconnected nadzdvižení N from nadzdvihnout V
+Disconnected nadzdvižený A from nadzdvihnout V
+Disconnected nazdvihnutí N from nazdvihnout V
+Disconnected nazdvihnutý A from nazdvihnout V
+Disconnected popozdvižení N from popozdvihnout V
+Disconnected popozdvižený A from popozdvihnout V
+Disconnected pozdvihnutý A from pozdvihnout V
+Disconnected pozdviženíčko_,e N from pozdvižení_^(*4hnout) N
+Disconnected přizdvižení N from přizdvihnout V
+Disconnected přizdvižený A from přizdvihnout V
+Disconnected uzdvižení N from uzdvihnout V
+Disconnected uzdvižený A from uzdvihnout V
+Disconnected vyzdvižení N from vyzdvihnout V
+Disconnected zdvižení N from zdvihnout V
+Disconnected zdvižený A from zdvihnout V
+Disconnected zdymací A from zdymat_:T V
+Disconnected zelenka-3_^(bledý_muž) N from zelenat_:T V
+Disconnected zázemíčko_,e N from zázemí N
+Disconnected zhášecí A from zhášet_:T V
+Disconnected zimomřivka_,a N from zimomřivec_,a N
+Disconnected ozkusení N from ozkusit_:W V
+Disconnected ozkusený A from ozkusit_:W V
+Disconnected zkoušeč-2 N from zkoušet_:T V
+Disconnected zkoušeníčko_,e N from zkoušení_^(*2t) N
+Disconnected zkoušenka N from zkoušenec N
+Disconnected zlatitý-2 A from zlatý_^(atribut;_z._řetízek,_poklad,...) A
+Disconnected zlobeníčko_,e N from zlobení_^(*3it) N
+Disconnected zlobidýlko_,e N from zlobidlo_,e N
+Disconnected zmilelička N from zmilelíček_,s N
+Disconnected zmúcení_,a N from zmútit_:W_,a V
+Disconnected zmúcený_,a A from zmútit_:W_,a V
+Disconnected zniknout_,a V from znikat_:T_,a V with no linked counterpart in the new DB
+Disconnected znovupřipomněvší A from znovupřipomenout V
+Disconnected oznámeníčko_,e N from oznámení_^(*3it) N
+Disconnected odznívat_,s_^(^DD**odeznívat) V from odznít V
+Disconnected zobáníčko_,e N from zobání_^(*3at) N
+Disconnected zpíváníčko_,e N from zpívání_^(*3at) N
+Disconnected zpěvací A from zpívat_:T V
+Disconnected zrcátečko_,e N from zrcátko N
+Disconnected zrací A from zrát V
+Disconnected zrútění_,a N from zrútit_:W_,n_,s V
+Disconnected zrútěný_,a A from zrútit_:W_,n_,s V
+Disconnected zubřice N from zubr N
+Disconnected zvonek-2 N from zvon N
+Disconnected zvoneček N from zvonek-1_;L N
+Disconnected záhoračka N from záhorák N
+Disconnected základnička_,e N from základna N
+Disconnected zároháček_,e N from zárohák_,l_^(štětec) N
+Disconnected zónička_,e N from zóna N
+Disconnected Ázerbajdžánka_;E N from Ázerbajdžánec_;E N
+Disconnected úchylárnička_,e N from úchylárna_;G N
+Disconnected úkolníček_,e N from úkolník_^(kdo_stráží,_člověk) N
+Disconnected úlevačka N from úlevák_,s N
+Disconnected útulno-2 D from útulný A
+Disconnected Černohorka_;E N from Černohorec_;E N
+Disconnected Čechoslovačka_;E N from Čechoslovák_;E N
+Disconnected Čuchonka_;E N from Čuchonec_;E_,s N
+Disconnected Čudka_;E N from Čud_;G N
+Disconnected Čuhačka_;E_,h N from Čuhák_;E_,h N
+Disconnected Čuvaška_;E N from Čuvaš_;E N
+Disconnected Čáslavák_;E_,h N from Čáslavan_;E N
+Disconnected načadění N from načadit_:W V
+Disconnected načaděný A from načadit_:W V
+Disconnected očadění N from očadit_:W V
+Disconnected očaděný A from očadit_:W V
+Disconnected začadění N from začadit_:W V
+Disconnected začaděný A from začadit_:W V
+Disconnected čajovnička_,e N from čajovna N
+Disconnected čakavka N from čakavec N
+Disconnected čápek-2_,n_^(malý_čap) N from čap N
+Disconnected černokněžka_,a N from černokněz_,a N
+Disconnected občerstveníčko_,e N from občerstvení_^(*3it) N
+Disconnected čertíček N from čertík_^(^DI*2) N
+Disconnected činitel-2 N from činit_:T V
+Disconnected činýlek_,e N from činel N
+Disconnected činoherečka N from činoherec_,s N
+Disconnected čipera-2 N from čiperný A
+Disconnected čistič-2_^(prostředek) N from čistit_:T V
+Disconnected dočistění_,s_^(^DD**dočištění) N from dočistit_:W V
+Disconnected dočistěný_,s_^(^DD**dočištěný) A from dočistit_:W V
+Disconnected očistění N from očistit_:W V
+Disconnected očistěný A from očistit_:W V
+Disconnected počistění N from počistit_:W V
+Disconnected počistěný A from počistit_:W V
+Disconnected pročistění N from pročistit_:W V
+Disconnected pročistěný A from pročistit_:W V
+Disconnected přečistění N from přečistit_:W V
+Disconnected přečistěný A from přečistit_:W V
+Disconnected učistění N from učistit_:W_,s V
+Disconnected učistěný A from učistit_:W_,s V
+Disconnected vyčistění N from vyčistit_:W V
+Disconnected vyčistěný A from vyčistit_:W V
+Disconnected začistění N from začistit_:W V
+Disconnected začistěný A from začistit_:W V
+Disconnected zčistění N from zčistit_:W V
+Disconnected zčistěný A from zčistit_:W V
+Disconnected znečistění N from znečistit_:W V
+Disconnected znečistěný A from znečistit_:W V
+Disconnected čirykat_,s_^(^DD**čiřikat) V from čiřikat_:T V
+Disconnected čmolouhat_,n_^(^GC**čmolouchat) V from čmolouchat_:T_,n V
+Disconnected dočmouzení_,h_^(^GC**dočmoudění) N from dočmoudit_:W_,h V
+Disconnected dočmouzený_,h_^(^GC**dočmouděný) A from dočmoudit_:W_,h V
+Disconnected načmouzení_,h N from načmoudit_:W_,h V
+Disconnected načmouzený_,h A from načmoudit_:W_,h V
+Disconnected očmouzení_,h N from očmoudit_:W_,h V
+Disconnected očmouzený_,h A from očmoudit_:W_,h V
+Disconnected přičmouzení_,h N from přičmoudit_:W_,h V
+Disconnected přičmouzený_,h A from přičmoudit_:W_,h V
+Disconnected učmouzení_,h N from učmoudit_:W_,h V
+Disconnected učmouzený_,h A from učmoudit_:W_,h V
+Disconnected vyčmouzení_,h N from vyčmoudit_:W_,h V
+Disconnected vyčmouzený_,h A from vyčmoudit_:W_,h V
+Disconnected začmouzení_,h N from začmoudit_:W_,h V
+Disconnected začmouzený_,h A from začmoudit_:W_,h V
+Disconnected dočmuzení_,h_^(^GC**dočmudění) N from dočmudit_:W_,h V
+Disconnected dočmuzený_,h_^(^GC**dočmuděný) A from dočmudit_:W_,h V
+Disconnected načmuzení_,h N from načmudit_:W_,h V
+Disconnected načmuzený_,h A from načmudit_:W_,h V
+Disconnected očmuzení_,h N from očmudit_:W_,h V
+Disconnected očmuzený_,h A from očmudit_:W_,h V
+Disconnected přičmuzení_,h N from přičmudit_:W_,h V
+Disconnected přičmuzený_,h A from přičmudit_:W_,h V
+Disconnected učmuzení_,h N from učmudit_:W_,h V
+Disconnected učmuzený_,h A from učmudit_:W_,h V
+Disconnected vyčmuzení_,h N from vyčmudit_:W_,h V
+Disconnected vyčmuzený_,h A from vyčmudit_:W_,h V
+Disconnected začmudění_,h N from začmudit_:W_,h V
+Disconnected začmuděný_,h A from začmudit_:W_,h V
+Disconnected čnějící A from čnít V
+Disconnected čokoládovnička_,e N from čokoládovna N
+Disconnected načouzení N from načoudit_:W V
+Disconnected načouzený A from načoudit_:W V
+Disconnected očoudění N from očoudit_:W V
+Disconnected očouděný A from očoudit_:W V
+Disconnected přičouzení N from přičoudit_:W V
+Disconnected přičouzený A from přičoudit_:W V
+Disconnected učouzení N from učoudit_:W V
+Disconnected učouzený A from učoudit_:W V
+Disconnected vyčouzení N from vyčoudit_:W V
+Disconnected vyčouzený A from vyčoudit_:W V
+Disconnected začouzení N from začoudit_:W V
+Disconnected čtverec N from čtvero N with no linked counterpart in the new DB
+Disconnected čtvrtit V from čtvrt-2_^(čtvrtina) N with no linked counterpart in the new DB
+Disconnected čtvrtka N from čtvrt-2_^(čtvrtina) N with no linked counterpart in the new DB
+Disconnected čtvrtní A from čtvrt-2_^(čtvrtina) N with no linked counterpart in the new DB
+Disconnected čtvrť_^(města) N from čtvrt-2_^(čtvrtina) N with no linked counterpart in the new DB
+Disconnected čtvrtmiliardový A from čtvrtmiliarda N with no linked counterpart in the new DB
+Disconnected čtvrtmilionový_,s_^(^DD**čtvrtmiliónový) A from čtvrtmilion`250000_,s_^(^DD**čtvrtmilión`250000) N with no linked counterpart in the new DB
+Disconnected čtvrtmiliónový A from čtvrtmilión N with no linked counterpart in the new DB
+Disconnected čtyřprsťák-2_,h N from čtyřprstý A
+Disconnected načudění N from načudit_:W_,h V
+Disconnected načuděný A from načudit_:W_,h V
+Disconnected očudění_,h N from očudit_:W_,h V
+Disconnected očuděný_,h A from očudit_:W_,h V
+Disconnected učudění_,h N from učudit_:W_,h V
+Disconnected učuděný_,h A from učudit_:W_,h V
+Disconnected vyčudění_,h N from vyčudit_:W_,h V
+Disconnected vyčuděný_,h A from vyčudit_:W_,h V
+Disconnected začudění_,h N from začudit_:W_,h V
+Disconnected začuděný_,h A from začudit_:W_,h V
+Disconnected čumáček-2_^(živ.) N from čumák_,h N
+Disconnected čuráček-2_,v_^(živ.) N from čurák_,v N
+Disconnected čtecí A from číst V
+Disconnected počítáníčko_,e N from počítání_^(*3at) N
+Disconnected ďobáníčko_,e N from ďobání_^(*3at) N
+Disconnected ďůleček_,e N from ďůlek N
+Disconnected ňufáníčko_,e N from ňufání_^(*3at) N
+Disconnected řachat_,h_^(^GC**řachtat) V from řachtat_:T_,h V
+Disconnected dořadění_,s_^(^DD**dořazení) N from dořadit_:W V
+Disconnected dořaděný_,s_^(^DD**dořazený) A from dořadit_:W V
+Disconnected nadřadění N from nadřadit_:W V
+Disconnected nadřaděný A from nadřadit_:W V
+Disconnected odřadění N from odřadit_:W V
+Disconnected odřaděný A from odřadit_:W V
+Disconnected podřadění N from podřadit_:W V
+Disconnected podřaděný A from podřadit_:W V
+Disconnected předřadění N from předřadit_:W V
+Disconnected předřaděný A from předřadit_:W V
+Disconnected přeřadění N from přeřadit_:W V
+Disconnected přeřaděný A from přeřadit_:W V
+Disconnected přiřadění N from přiřadit_:W V
+Disconnected přiřaděný A from přiřadit_:W V
+Disconnected rozřadění N from rozřadit_:W V
+Disconnected rozřaděný A from rozřadit_:W V
+Disconnected řadění N from řadit_:T V
+Disconnected řaděný A from řadit_:T V
+Disconnected vypořádající A from vypořádat_:W V
+Disconnected seřadění N from seřadit_:W V
+Disconnected seřaděný A from seřadit_:W V
+Disconnected uřadění N from uřadit_:W V
+Disconnected uřaděný A from uřadit_:W V
+Disconnected vřadění N from vřadit_:W V
+Disconnected vřaděný A from vřadit_:W V
+Disconnected vyřadění N from vyřadit_:W V
+Disconnected vyřaděný A from vyřadit_:W V
+Disconnected zařadění N from zařadit_:W V
+Disconnected zařaděný A from zařadit_:W V
+Disconnected řeckokatolička N from řeckokatolík N
+Disconnected řeholnička_,h N from řeholníček_,h N
+Disconnected řezníček-2_^(tanec) N from řezník N
+Disconnected řízeček N from řízek N
+Disconnected řešeníčko_,e N from řešení_^(*3it) N
+Disconnected dořčení_,s_^(^DD**dořečení) N from doříci V
+Disconnected dořčený_,s_^(^DD**dořečený) A from doříci V
+Disconnected přiřčení N from přiřknout_:W V
+Disconnected přiřčený A from přiřknout_:W V
+Disconnected vyřčení N from vyřknout_:W V
+Disconnected vyřčený A from vyřknout_:W V
+Disconnected nařčení N from nařknout_:W V
+Disconnected nařčený A from nařknout_:W V
+Disconnected zařízeníčko_,e N from zařízení_^(*4dit) N
+Disconnected Šlonzačka_;E_,h N from Šlonzák_;E_,h N
+Disconnected Špinka-2_;G N from Špina_;S N
+Disconnected Štěpánka_;Y N from Štěpán_;Y N
+Disconnected Šutka-2_;Y N from Šuta_;S N
+Disconnected Švýcary-2_;G N from Švýcar_;E N
+Disconnected šakalka N from šakal N
+Disconnected zašiplat_,s_^(^DD**zašeplat) V from zašeplat_:W_,s V
+Disconnected šerpička N from šerpa N
+Disconnected pošimráníčko_,e N from pošimrání_^(*3at) N
+Disconnected škarohlídka_,h N from škarohlídek_,h N
+Disconnected škodílek_,e N from škodil N
+Disconnected škodovačka N from škodovák N
+Disconnected škrt-2 N from škrtnout_:W V
+Disconnected uškrabat_,s_^(^DD**uškrábat) V from uškrábat_:W V
+Disconnected vškrabat_,s_^(^DD**vškrábat) V from vškrábat_:W V
+Disconnected zaškrabat_,s_^(^DD**zaškrábat) V from zaškrábat-1_:W_^(několikrát_škrábnout) V
+Disconnected šlajsnička_,e N from šlajsna_,l N
+Disconnected šlapadélko_,e N from šlapadlo N
+Disconnected šmudla-2 N from šmudlat_:T V
+Disconnected šmudlička_,h N from šmudlík_,h N
+Disconnected šmírák-2 N from šmírovat_:T V
+Disconnected došolichat_,s_^(^DD**došolíchat) V from došolíchat_:W V
+Disconnected našolichat_,s_^(^DD**našolíchat) V from našolíchat_:W V
+Disconnected ošolichat_,s_^(^DD**ošolíchat) V from ošolíchat_:W V
+Disconnected pošolichat_,s_^(^DD**pošolíchat) V from pošolíchat_:W V
+Disconnected přešolichat_,s_^(^DD**přešolíchat) V from přešolíchat_:W V
+Disconnected přišolichat_,s_^(^DD**přišolíchat) V from přišolíchat_:W V
+Disconnected ušolichat_,s_^(^DD**ušolíchat) V from ušolíchat_:W V
+Disconnected vyšolichat_,s_^(^DD**vyšolíchat) V from vyšolíchat_:W V
+Disconnected zašolichat_,s_^(^DD**zašolíchat) V from zašolíchat_:W V
+Disconnected šolichat_,s_^(^DD**šolíchat) V from šolíchat_:T V
+Disconnected šosačka_,h_^(zpátečník) N from šosák-1_^(zpátečník) N
+Disconnected vošoustat-2_,v_^(^GC**ošoustat-2) V from ošoustat-2_:W_,v_^(osouložit) V
+Disconnected šperkovnička_,e N from šperkovnice N
+Disconnected zašplíchat_,s_^(^DD**zašplouchat) V from zašplouchat_:W V
+Disconnected došprkat_,l_^(^GC**došprtat) V from došprtat_:W_,l V
+Disconnected špínička_,e N from špína N
+Disconnected štamgastka N from štamgast N
+Disconnected štrůdýlek_,e N from štrůdl N
+Disconnected študačka_,l N from študák N
+Disconnected štvací A from štvát V
+Disconnected štěňátečko_,e N from štěňátko N
+Disconnected štěpicí A from štěpit_:T V
+Disconnected zaštěrkat_,n_^(^GC**zaštěrchat) V from zaštěrchat_:W_,n V
+Disconnected vošukat_,v_^(^GC**ošukat) V from ošukat_:W_,h V
+Disconnected švihadýlko_,e N from švihadlo N
+Disconnected šílící A from šílet V
+Disconnected štochat_,h_^(^GC**šťouchat) V from šťouchat_:T V
+Disconnected štouchat_,h_^(^GC**šťouchat) V from šťouchat_:T V
+Disconnected štuchat_,s_^(^DD**šťouchat) V from šťouchat_:T V
+Disconnected šťoura-2 N from šťourat_:T V
+Disconnected Žižkovačka_;E_,h N from Žižkovák_;E_,h N
+Disconnected Žižkovanda_;E_,h N from Žižkovák_;E_,h N
+Disconnected žalovníček_,e N from žalovník N
+Disconnected žatečka_,a N from žatec_,a N
+Disconnected vyžblebtat_,s_^(^DD**vyžbleptat) V from vyžbleptat_:W_,h V
+Disconnected žblunkat_,s_^(^DD**žbluňkat) V from žbluňkat_:T V
+Disconnected žehravka N from žehravec_,s N
+Disconnected železoobráběcí A from železoobrábět_:T_^(někde_něco_chybí) V
+Disconnected žezílko_,e N from žezlo N
+Disconnected žirafáček_,e N from žirafák_^(samec_žirafy) N
+Disconnected oživeníčko_,e N from oživení_^(*3it) N
+Disconnected příživníček_,e N from příživník N
+Disconnected dožlutění N from dožlutit_:W V
+Disconnected dožlutěný A from dožlutit_:W V
+Disconnected nažlutění N from nažlutit_:W V
+Disconnected nažlutěný A from nažlutit_:W V
+Disconnected ožlutění N from ožlutit_:W V
+Disconnected ožlutěný A from ožlutit_:W V
+Disconnected prožlutění N from prožlutit_:W V
+Disconnected prožlutěný A from prožlutit_:W V
+Disconnected zežlutění N from zežlutit_:W V
+Disconnected zežlutěný A from zežlutit_:W V
+Disconnected žlutění N from žlutit_:T V
+Disconnected žlutěný A from žlutit_:T V
+Disconnected žlučníček_,e N from žlučník N
+Disconnected obžatý A from obežnout V
+Disconnected obžavší A from obežnout V
+Disconnected odžatý A from odžnout V
+Disconnected ožatý A from ožnout V
+Disconnected požatý A from požnout V
+Disconnected prožatý A from prožnout V
+Disconnected sežnutí N from sežnout V
+Disconnected sežnutý A from sežnout V
+Disconnected sžatý A from sežnout V
+Disconnected užatý A from užnout V
+Disconnected vyžatý A from vyžnout V
+Disconnected žací A from žnout V
+Disconnected žatý A from žnout V
+Disconnected žnečka N from žnec N
+Disconnected vyžírka-2 N from vyžírat_:T V
+Disconnected žrout-2 N from žrát V
+Disconnected župáneček_,e N from župánek N
+Disconnected nažvástat V from žvástat_:T V with no linked counterpart in the new DB
+Disconnected vyžvástat_,e V from žvástat_:T V with no linked counterpart in the new DB
+Disconnected žvást N from žvástat_:T V with no linked counterpart in the new DB
+Disconnected žvástal N from žvástat_:T V with no linked counterpart in the new DB
+Disconnected žvástanina_,h N from žvástaný_^(*2t) A with no linked counterpart in the new DB
+Disconnected žvástavý A from žvástat_:T V with no linked counterpart in the new DB
+Disconnected žvástnout_,h V from žvástat_:T V with no linked counterpart in the new DB
+Disconnected žádoucí A from žádat_:T V
+Disconnected žihadýlko_,e N from žihadlo N
+Disconnected nažavší A from nažít_:W V
+Disconnected zážiteček_,e N from zážitek N
+Disconnected žoužel-2 N from žížala N
+Disconnected Žďárek-2_;Y N from Žďár_;G N
