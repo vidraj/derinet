@@ -290,6 +290,14 @@ class Lexeme(object):
         if not (self.is_boundary_allowed(start) and self.is_boundary_allowed(end)):
             raise DerinetMorphError("Creating a new boundary is not allowed at positions {} or {} in lexeme {}".format(start, end, self))
 
+        # Check that there are no previously-made boundaries in between start
+        #  and end.
+        if self.overlaps_boundary(start, end):
+            raise DerinetMorphError(
+                ("The morpheme to be added at positions from {} to {} overlaps"
+                 " an existing morpheme boundary in lexeme {}".format(start, end, self))
+            )
+
         # Check that any morphs overlapping this one are implicit only.
         for segment in self._segmentation["morphs"]:
             if range_overlaps((start, end), (segment["Start"], segment["End"])) and segment["Type"] != "Implicit":
@@ -434,6 +442,21 @@ class Lexeme(object):
         else:
             # The position was not recorded yet. Return the default.
             return default
+
+    def overlaps_boundary(self, start: int, end:int):
+        """
+        Check whether the range [start, end) overlaps an existing morph boundary
+        in this lexeme's lemma. Only range-internal boundaries are checked, that
+        is, boundaries between start and start+1 … end-2 and end-1. Does not
+        check whether it is possible to create a boundary at the start or at the
+        end.
+
+        If an invalid range is supplied (empty or negative), False is returned.
+        """
+        for position in range(start + 1, end):
+            if self.is_boundary_allowed(position, False):
+                return True
+        return False
 
     def add_feature(self, feature, value):
         if value is None:
