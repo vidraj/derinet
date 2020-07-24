@@ -344,17 +344,19 @@ class Lexicon(object):
                         #  sources may not have been encountered yet.
                         #  But read and parse as much as possible anyway.
 
-                        if "Sources" not in reltype:
+                        if "Sources" in reltype:
+                            # The compounding relation is well-formed, with extra sources specified.
+                            parent_id_strs = reltype["Sources"].split(",")
+                            del reltype["Sources"]
+                            try:
+                                parent_ids = [parse_v2_id(id_str) for id_str in parent_id_strs]
+                            except ValueError:
+                                raise DerinetFileParseError("Unparseable parent ID encountered on line nr. {}".format(line_nr))
+
+                            deferred_relations.append((line_nr, t, parent_ids, parent_lexeme, lexeme, reltype))
+                        else:
                             raise DerinetFileParseError("Compounding needs multiple parents, but there are no other Sources on line nr. {}".format(line_nr))
 
-                        parent_id_strs = reltype["Sources"].split(",")
-                        del reltype["Sources"]
-                        try:
-                            parent_ids = [parse_v2_id(id_str) for id_str in parent_id_strs]
-                        except ValueError:
-                            raise DerinetFileParseError("Unparseable parent ID encountered on line nr. {}".format(line_nr))
-
-                        deferred_relations.append((line_nr, t, parent_ids, parent_lexeme, lexeme, reltype))
                     elif t == "Conversion":
                         self.add_conversion(parent_lexeme, lexeme, feats=reltype)
                     else:
