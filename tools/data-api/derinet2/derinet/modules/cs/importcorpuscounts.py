@@ -2,7 +2,6 @@ from derinet import Block, Lexicon
 import argparse
 import logging
 import math
-import sys
 
 logging.basicConfig(level=logging.DEBUG,
                     format='%(asctime)s %(levelname)-8s %(message)s',
@@ -93,7 +92,7 @@ class ImportCorpusCounts(Block):
             stats = lexeme.misc["corpus_stats"]
             stats["relative_frequency"] = stats["absolute_count"] / corpus_size
 
-    def add_sparsity(self, lexicon):
+    def add_sparsity(self, lexicon, corpus_size):
         """
         Add the "sparsity", defined as the negative log_10 of relative frequency,
         to each lexeme.
@@ -104,11 +103,10 @@ class ImportCorpusCounts(Block):
             if rf > 0:
                 stats["sparsity"] = - math.log10(rf)
             else:
-                # Out of range float values are not JSON compliant
-                #stats["sparsity"] = math.inf
-                # FIXME so what do we do instead?
-                stats["sparsity"] = sys.float_info.max
-                pass
+                # For OOV words, we perform fake `add-1 smoothing`. Fake,
+                #  because the 1 is not added to any other lexeme nor to the
+                #  corpus size.
+                stats["sparsity"] = - math.log10(1/corpus_size)
 
     def add_percentile(self, lexicon):
         """
@@ -143,7 +141,7 @@ class ImportCorpusCounts(Block):
         # FIXME do we want to use the total corpus size or the processed count
         #  as the denominator there?
         self.add_relative_frequency(lexicon, corpus_size)
-        self.add_sparsity(lexicon)
+        self.add_sparsity(lexicon, corpus_size)
         self.add_percentile(lexicon)
         return lexicon
 
