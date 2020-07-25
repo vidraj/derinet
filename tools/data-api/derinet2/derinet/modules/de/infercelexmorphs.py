@@ -120,7 +120,9 @@ class InferCELEXMorphs(Block):
 
             # Fixup verbs, which lack the (inflectional) infinitive marker at
             #  the end.
-            if lexeme.pos == "VERB":
+            # FIXME this is probably mostly valid for German and Dutch, but
+            #  definitely not for English.
+            if lexeme.pos == "VERB" and lemma.endswith("en"):
                 segments.append("en")
                 flat_morphemes.append("en")
                 hier_morphemes.append(["en"])
