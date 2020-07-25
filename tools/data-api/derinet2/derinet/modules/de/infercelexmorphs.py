@@ -98,6 +98,12 @@ class InferCELEXMorphs(Block):
     used to find boundaries in the lemma and the morpheme list can be used to
     delimit individual morphs and assign them the somewhat-disambiguated
     morpheme string.
+
+    And even when the spelling does not match, if there is only one non-matching
+    part, the matching ones can be delimited accurately and the rest corresponds
+    to the non-matching one. With the example above, we know that the stem
+    “abdiz” corresponds to the lemma substring “Abdik”, because that's the only
+    possible place where it can be.
     """
 
     allomorphs = {}
@@ -139,6 +145,81 @@ class InferCELEXMorphs(Block):
                 record_morphemes(lexeme, flat_morphemes, flat_morphemes)
             else:
                 #print("Full morpheme segmentation fail:", lemma, flat_morphemes)
-                pass
+
+                # Try to record as many segments as possible from the start of
+                #  the lemma.
+                position = 0
+                used_start_morphemes = 0
+                for morpheme in flat_morphemes:
+                    if lemma.startswith(morpheme, position):
+                        end_position = position + len(morpheme)
+                        # FIXME check that we don't overlap an existing boundary
+                        #  inferred from the stem segmentation.
+                        #print("Partially start-segmenting", lemma, "with", morpheme, "at", position, end_position)
+                        try:
+                            lexeme.add_morph(position, end_position)
+                        except DerinetMorphError as ex:
+                            # FIXME we can probably use the hierarchical segmentation for this.
+                            #  If the hier segmentation has three immediate constituents, these
+                            #  should correspond to three stems. So we ought to know which stems
+                            #  contain which morphemes. But I should verify this idea first.
+                            print("Morph segmentation overlaps with stem segmentation in {}: {}".format(lemma, ex))
+                            break
+                        position = end_position
+                        used_start_morphemes += 1
+                    else:
+                        break
+
+                if position < 0 or position >= len(lemma):
+                    #assert False, "The lemma '{}' shouldn't have been fully segmented by '{}', because segmentation ought to have failed".format(lemma, flat_morphemes)
+                    # This happens e.g. in the lemma abtransport, which is
+                    #  segmented as ['ab', 'transport', 'ier']. It's probably
+                    #  an error in the data, which should be cleaned up.
+                    continue
+                # Remember where the segmentation stopped matching.
+                residual_morph_start = position
+
+                # Now try to record as many segments as possible from the end.
+                end_position = len(lemma)
+                used_end_morphemes = 0
+                for morpheme in reversed(flat_morphemes):
+                    position = end_position - len(morpheme)
+                    if lemma.startswith(morpheme, position):
+                        #print("Partially end-segmenting", lemma, "with", morpheme, "at", position, end_position)
+                        if position <= residual_morph_start:
+                            # The segmentations from the start and end ran into
+                            #  one another. That means there is a character in
+                            #  the lemma which ought to belong to both of them.
+                            #  For example, "Achtelliter" should be segmented as
+                            #  "acht+tel+liter", making the "t" double-covered.
+                            # This means the whole segmentation is unsound.
+                            # FIXME remove the offending morpheme which was
+                            #  added during the forward pass.
+                            break
+                        lexeme.add_morph(position, end_position)
+                        end_position = position
+                        used_end_morphemes += 1
+                    else:
+                        break
+
+                assert 0 < end_position <= len(lemma), "The lemma '{}' shouldn't have been fully segmented by '{}', because segmentation ought to have failed".format(lemma, flat_morphemes)
+                residual_morph_end = end_position
+
+                # If there is only one morpheme left, it must correspond to the
+                #  part of the lemma that is unused.
+                unused_morphemes = flat_morphemes[used_start_morphemes:len(flat_morphemes)-used_end_morphemes]
+
+                # FIXME add the leftover part to the morpheme where it belongs,
+                #  it is probably a duplicate character, as the extra `s` in
+                #  'aussenantenne' → '['aus', 'en', 'antenne']'.
+                #assert len(unused_morphemes) >= 1, "Segmentation of '{}' by '{}' failed, yet there are no unused morphemes".format(lemma, flat_morphemes)
+                continue
+
+                # Record the residual morpheme.
+                if len(unused_morphemes) == 1:
+                    lexeme.add_morph(residual_morph_start, residual_morph_end)
+                    #print("Residual segmentation of", lemma, "succeeded by mapping", unused_morphemes[0], "to", lemma[residual_morph_start:residual_morph_end])
+                else:
+                    print("Residual segmentation of", lemma, "failed")
 
         return lexicon
