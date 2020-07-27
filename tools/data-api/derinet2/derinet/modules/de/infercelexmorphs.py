@@ -215,12 +215,16 @@ class InferCELEXMorphs(Block):
                 #  it is probably a duplicate character, as the extra `s` in
                 #  'aussenantenne' → '['aus', 'en', 'antenne']'.
                 #assert len(unused_morphemes) >= 1, "Segmentation of '{}' by '{}' failed, yet there are no unused morphemes".format(lemma, flat_morphemes)
-                continue
+                if len(unused_morphemes) < 1:
+                    continue
 
                 # Record the residual morpheme.
                 if len(unused_morphemes) == 1:
-                    lexeme.add_morph(residual_morph_start, residual_morph_end)
-                    #print("Residual segmentation of", lemma, "succeeded by mapping", unused_morphemes[0], "to", lemma[residual_morph_start:residual_morph_end])
+                    try:
+                        lexeme.add_morph(residual_morph_start, residual_morph_end)
+                        #print("Residual segmentation of", lemma, "succeeded by mapping", unused_morphemes[0], "to", lemma[residual_morph_start:residual_morph_end])
+                    except DerinetMorphError as ex:
+                        print("Residual segmentation of", lemma, "tried and failed because of residual morph overlap")
                 else:
                     print("Residual segmentation of", lemma, "failed")
 
