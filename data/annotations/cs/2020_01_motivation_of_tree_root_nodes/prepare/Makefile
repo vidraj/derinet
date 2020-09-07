@@ -19,4 +19,23 @@ prepare: freq-word-list.tsv
 # vytvoří první sadu k anotaci (3k nejfrekventovanějších), ostatní sady vytvořeny ručně na základě seznamu 'freq-roots-include-compounds.tsv'
 first_sample:
 	cat '../for-annotation/freq-roots-exclude-compounds.tsv' | cut -f 2,3 | head -n 3000 > '../for-annotation/roots-exclude-3k.tsv'
-	
+
+
+
+# POSTROCESSING: 'make extract-information'
+
+# převést .ods na .tsv    TODO: s postupující anotací v souboru 6-20k posunovat hranici "head -n X" !!!
+ods2csv:
+	soffice --headless --convert-to csv:"Text - txt - csv (StarCalc)":59,34,76 ../hand-annotated/revised-by-ZZ/merged-sorted-0001-6000.ods
+	soffice --headless --convert-to csv:"Text - txt - csv (StarCalc)":59,34,76 ../hand-annotated/revised-by-ZZ/sorted-roots-6001-20000.ods
+	cat merged-sorted-0001-6000.csv | tail -n +3 > data-0001-6000.csv
+	cat sorted-roots-6001-20000.csv | head -n 10003 > data-6001-20000.csv
+	rm merged-sorted-0001-6000.csv sorted-roots-6001-20000.csv
+
+# extrahuje:
+# (1) derivační vztahy k doplnění
+# (2) značku nemotivovanosti
+# (3) značku kompozitnosti
+# (4) kompozitní vztahy k doplnění
+extract-information: ods2csv
+	python3 postprocessing.py <(cat data-*.csv) derivations.tsv compounding.tsv compound-labels.tsv unmotivatedness-labels.tsv variants.tsv > for-postprocessing.tsv
