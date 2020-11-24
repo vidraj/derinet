@@ -97,8 +97,10 @@ class Relation(object, metaclass=ABCMeta):  # Defining it as Relation(ABC) doesn
 
     def remove_from_lexemes(self):
         # Remove this relation from the lexemes.
-        # TODO
-        raise NotImplementedError()
+        for target in set(self.targets):
+            target._del_parent_relation(self)  # pylint: disable=protected-access
+        for source in set(self.sources):
+            source._del_child_relation(self)  # pylint: disable=protected-access
 
     @property
     def main_source(self):

@@ -52,3 +52,20 @@ class TestDeletingLexemes(unittest.TestCase):
 
         with self.assertRaises(DerinetLexemeDeleteError):
             lexicon.delete_lexeme(lex_b)
+
+    def test_deleting_derived_lexemes_success(self):
+        lexicon = Lexicon()
+
+        lex_a = lexicon.create_lexeme("dog", "N")
+        lex_b = lexicon.create_lexeme("doggie", "N")
+        lex_c = lexicon.create_lexeme("doggies", "N")
+
+        lexicon.add_derivation(lex_a, lex_b)
+        lexicon.add_derivation(lex_b, lex_c)
+
+        lexicon.delete_lexeme(lex_b, delete_relations=True)
+        self.assertEqual(2, len(list(lexicon.iter_lexemes())))
+        self.assertEqual([], lexicon.get_lexemes("doggie"))
+
+        self.assertEqual(0, len(lex_a.children))
+        self.assertEqual(0, len(lex_c.all_parents))

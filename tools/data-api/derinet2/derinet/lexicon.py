@@ -641,11 +641,14 @@ class Lexicon(object):
 
         # TODO verify that the lexeme is in the _data
 
+        if delete_relations:
+            for rel in lexeme.parent_relations:
+                rel.remove_from_lexemes()
+            for rel in lexeme.child_relations:
+                rel.remove_from_lexemes()
+
         if lexeme.parent_relations or lexeme.child_relations:
-            if delete_relations:
-                raise NotImplementedError()
-            else:
-                raise DerinetLexemeDeleteError("The lexeme {} has existing relations, cannot delete it".format(lexeme))
+            raise DerinetLexemeDeleteError("The lexeme {} has existing relations, cannot delete it".format(lexeme))
 
         # May raise ValueError, we consider propagating it just fine.
         # TODO maybe provide a better error message?
