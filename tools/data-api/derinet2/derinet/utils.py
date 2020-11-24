@@ -36,6 +36,15 @@ class DerinetMorphError(DerinetError):
     pass
 
 
+class DerinetLexemeDeleteError(DerinetError):
+    """
+    The exception raised when an incorrect morph is identified in a lexeme.
+    For example, when the morph boundaries are out of range or when the morph
+    overlaps another morph.
+    """
+    pass
+
+
 def parse_v1_id(val: str) -> int:
     """
     Parse a textual representation of a DeriNet-1.X ID to an integer.

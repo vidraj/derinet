@@ -6,7 +6,7 @@ import typing
 
 from .lexeme import Lexeme
 from .relation import DerivationalRelation, CompoundRelation, ConversionRelation
-from .utils import DerinetError, DerinetFileParseError, parse_v1_id, parse_v2_id, format_kwstring, parse_kwstring
+from .utils import DerinetError, DerinetFileParseError, DerinetLexemeDeleteError, parse_v1_id, parse_v2_id, format_kwstring, parse_kwstring
 
 
 # The main database.
@@ -607,8 +607,50 @@ class Lexicon(object):
 
         return lexeme
 
-    def delete_lexeme(self, lexeme):
-        raise NotImplementedError()
+    def delete_lexeme(self, lexeme, delete_relations=False):
+        """
+        Delete the specified lexeme from the database.
+
+        If there are any relations incident to the lexeme, the parameter
+        `delete_relations` specifies how to treat the situation.
+        - When false, the method raises an error.
+        - When true, all incident relations are deleted before
+          deleting the lexeme itself.
+
+        :param lexeme: The lexeme to delete.
+        :param delete_relations: When true, delete incident relations
+                before proceeding instead of raising an error.
+        """
+        # To delete a lexeme, we have to:
+        #  1. disconnect it from any relations, both incoming and
+        #     outgoing (that is, if the user specifies they want to
+        #     autodisconnect any relations – otherwise just raise
+        #     an error if there are relations)
+        #  2. delete it from the _index (and optionally delete any
+        #     resulting empty levels in the index)
+        #  3. delete it from _data
+        #  - What to do about the resulting empty slot in data?
+        #    - We can set it to None and change the iteration and
+        #      other functions to ignore empty slots,
+        #    - or we can move the last lexeme from _data there and
+        #      reindex.
+        #      - Do we actually have to reindex anything? It seems
+        #        the index in _data is not significant.
+        #      - But we probably want to keep the order of lexemes
+        #        between loads and stores.
+
+        # TODO verify that the lexeme is in the _data
+
+        if lexeme.parent_relations or lexeme.child_relations:
+            if delete_relations:
+                raise NotImplementedError()
+            else:
+                raise DerinetLexemeDeleteError("The lexeme {} has existing relations, cannot delete it".format(lexeme))
+
+        # May raise ValueError, we consider propagating it just fine.
+        # TODO maybe provide a better error message?
+        self._data.remove(lexeme)
+        self._index[lexeme.lemma][lexeme.pos].remove(lexeme)
 
     def delete_subtree(self, lexeme):
         raise NotImplementedError()
