@@ -170,6 +170,11 @@ class Lexeme(object):
 
         self._parent_relations.append(relation)
 
+    def _del_parent_relation(self, relation):
+        assert isinstance(relation, Relation)
+
+        self._parent_relations.remove(relation)
+
     @property
     def parent(self):
         """
@@ -220,6 +225,11 @@ class Lexeme(object):
         #     self._child_relations.append(relation)
         #     # TODO do we need to ensure uniqueness of the target lexemes as well?
         #     #  The uniqueness of the relation itself doesn't guarantee this.
+
+    def _del_child_relation(self, relation):
+        assert isinstance(relation, Relation)
+
+        self._child_relations.remove(relation)
 
     @property
     def otherrels(self):
