@@ -5,8 +5,6 @@ import logging
 import os
 import sys
 from collections import defaultdict
-sys.path.append(os.path.realpath('../../../../data/annotations/cs/2020_07_conjugation_class/'))
-from verbalclass import give_class
 
 logging.basicConfig(level=logging.DEBUG,
                     format='%(asctime)s %(levelname)-8s %(message)s',
@@ -21,7 +19,9 @@ class AddConjugationClasses(Block):
         self.fname = fname
 
     def process(self, lexicon: Lexicon):
-        """Go through lemmaset and add loanword mark to JSON-encoded column."""
+        """Read annotation in the form of
+        tagmask TAB lemma TAB conjug-class
+        and add conjugation classes to the lemmas."""
         # load lemmas already assigned classes
         assigned = defaultdict()
         with open(self.fname, mode='rt', encoding='U8', newline='\n') as f:
@@ -38,8 +38,8 @@ class AddConjugationClasses(Block):
                 conjug = assigned[lexeme.lemid]
                 # lemmas with assigned classes
                 if conjug != '#':
-                    conjug = conjug.replace('#', '&')
-                    lexeme.misc['conjug_class'] = conjug
+                    # conjug = conjug.replace('#', '|')
+                    lexeme.feats['ConjugClass'] = conjug
 
         return lexicon
 
