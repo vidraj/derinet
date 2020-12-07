@@ -20,10 +20,17 @@ class AddLoanwordMarks(Block):
         self.fname = fname
 
     def process(self, lexicon: Lexicon):
-        """Go through lemmaset and add loanword mark to JSON-encoded column."""
+        """Go through lemmaset and add loanword mark."""
         for lexeme in lexicon.iter_lexemes():
-            lexeme.misc['loanword'] = recog_foreign_word(word=lexeme.lemma,
-                                                         pos=lexeme.pos)
+
+            foreign = lexeme.feats.get('Foreign', False)
+            if foreign:
+                lexeme.feats['Loanword'] = True
+                continue
+
+            loan = recog_foreign_word(word=lexeme.lemma, pos=lexeme.pos)
+            if loan and lexeme.lemma[0].islower():
+                lexeme.feats['Loanword'] = loan
 
         return lexicon
 
