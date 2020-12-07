@@ -24,12 +24,12 @@ first_sample:
 
 # POSTROCESSING: 'make extract-information'
 
-# převést .ods na .tsv    TODO: s postupující anotací v souboru 6-20k posunovat hranici "head -n X" !!!
+# převést .ods na .tsv    TODO: s postupující anotací v souboru 6-20k posunovat hranici "head -n X" !!! (safe n=10003; new n=13741)
 ods2csv:
 	soffice --headless --convert-to csv:"Text - txt - csv (StarCalc)":59,34,76 ../hand-annotated/revised-by-ZZ/merged-sorted-0001-6000.ods
 	soffice --headless --convert-to csv:"Text - txt - csv (StarCalc)":59,34,76 ../hand-annotated/revised-by-ZZ/sorted-roots-6001-20000.ods
 	cat merged-sorted-0001-6000.csv | tail -n +3 > data-0001-6000.csv
-	cat sorted-roots-6001-20000.csv | head -n 10003 > data-6001-20000.csv
+	cat sorted-roots-6001-20000.csv | head -n 13741 > data-6001-20000.csv
 	rm merged-sorted-0001-6000.csv sorted-roots-6001-20000.csv
 
 # extrahuje:
@@ -38,4 +38,8 @@ ods2csv:
 # (3) značku kompozitnosti
 # (4) kompozitní vztahy k doplnění
 extract-information: ods2csv
-	python3 postprocessing.py <(cat data-*.csv) derivations.tsv compounding.tsv compound-labels.tsv unmotivatedness-labels.tsv variants.tsv > for-postprocessing.tsv
+	python3 postprocessing.py <(cat data-*.csv) ../hand-annotated/into-derinet/derivations.tsv \
+												../hand-annotated/into-derinet/compounding.tsv \
+												../hand-annotated/into-derinet/compound-labels.tsv \
+												../hand-annotated/into-derinet/unmotivatedness-labels.tsv \
+												../hand-annotated/into-derinet/variants.tsv > for-postprocessing.tsv

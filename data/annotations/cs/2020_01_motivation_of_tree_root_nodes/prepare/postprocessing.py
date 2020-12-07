@@ -135,9 +135,16 @@ with open(sys.argv[1], mode='r', encoding='U8') as f:
 
 
 # save annotations
-with open(sys.argv[2], mode='w', encoding='U8') as f:
+with open(sys.argv[2].replace('.tsv', '-classic.tsv'),
+          mode='w', encoding='U8') as f, \
+     open(sys.argv[2].replace('.tsv', '-phantom.tsv'),
+          mode='w', encoding='U8') as g:
     for entry in ders:
-        f.write('\t'.join([entry[1], '>', entry[0]]) + '\n')
+        if ':' in entry[1]:
+            phantom = entry[1].replace('phantom:', '')
+            g.write('+' + '\t'.join([entry[0][:-2], phantom]) + '\n')
+        else:
+            f.write('\t'.join([entry[1], '>', entry[0]]) + '\n')
 
 with open(sys.argv[3], mode='w', encoding='U8') as f:
     for entry in comp:
