@@ -9,7 +9,6 @@ derinet-2-1.tsv: derinet-2-0.tsv
 		cs.AddUnmotivatedMarks ../../../../data/annotations/cs/2020_01_motivation_of_tree_root_nodes/hand-annotated/into-derinet/unmotivatedness-labels.tsv \
 		cs.AddCompoundMarks ../../../../data/annotations/cs/2020_01_motivation_of_tree_root_nodes/hand-annotated/into-derinet/compound-labels.tsv \
 		cs.AddDerivations ../../../../data/annotations/cs/2020_01_motivation_of_tree_root_nodes/hand-annotated/into-derinet/derivations-classic.tsv \
-		cs.AddPhantomLexemes ../../../../data/annotations/cs/2020_01_motivation_of_tree_root_nodes/hand-annotated/into-derinet/derivations-phantom.tsv \
 		cs.ImportCorpusCounts corpus-counts.tsv \
 		Save "$@" > log 2>&1
 
