@@ -146,9 +146,15 @@ with open(sys.argv[2].replace('.tsv', '-classic.tsv'),
         else:
             f.write('\t'.join([entry[1], '>', entry[0]]) + '\n')
 
-with open(sys.argv[3], mode='w', encoding='U8') as f:
+with open(sys.argv[3].replace('.tsv', '-classic.tsv'),
+          mode='w', encoding='U8') as f, \
+     open(sys.argv[3].replace('.tsv', '-phantom.tsv'),
+          mode='w', encoding='U8') as g:
     for entry in comp:
-        f.write('\t'.join([entry[0], '>', ' + '.join(entry[1])]) + '\n')
+        if ':' in ''.join(entry[1]):
+            g.write('\t'.join([entry[0], '>', ' + '.join(entry[1])]) + '\n')
+        else:
+            f.write('\t'.join([entry[0], '>', ' + '.join(entry[1])]) + '\n')
 
 with open(sys.argv[4], mode='w', encoding='U8') as f:
     for entry in lcom:
