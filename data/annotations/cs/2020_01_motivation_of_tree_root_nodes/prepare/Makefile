@@ -29,7 +29,7 @@ ods2csv:
 	soffice --headless --convert-to csv:"Text - txt - csv (StarCalc)":59,34,76 ../hand-annotated/revised-by-ZZ/merged-sorted-0001-6000.ods
 	soffice --headless --convert-to csv:"Text - txt - csv (StarCalc)":59,34,76 ../hand-annotated/revised-by-ZZ/sorted-roots-6001-20000.ods
 	cat merged-sorted-0001-6000.csv | tail -n +3 > data-0001-6000.csv
-	cat sorted-roots-6001-20000.csv | head -n 13741 > data-6001-20000.csv
+	cat sorted-roots-6001-20000.csv > data-6001-20000.csv
 	rm merged-sorted-0001-6000.csv sorted-roots-6001-20000.csv
 
 # extrahuje:
