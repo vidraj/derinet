@@ -29,9 +29,10 @@ Problémy:
 - pod jakým klíčem je chceme mít? Bylo to `CorpusCounts`, ale možná chceme
   kapitalizaci připodobnit JSONu víc než UD? Zavedl jsem hierarchii
   corpus_stats.absolute_count, corpus_stats.relative_frequency etc.
+  (Možná by bylo lepší mít freq_count, freq_perc atd.)
 - sparsity má v definici logaritmus, který je pro nulový abosolute_count
   nedefinovaný. Nekonečno nejde použít, protože se nedá uložit do JSONu.
-  Jak to dodefinujeme? DBL_MAX?
+  Jak to dodefinujeme? DBL_MAX? log(1/velikost korpusu)?
 
 [LK, skripty připraveny]
 Slovesné třídy (2020_07_conjugation_class). Vezmou se z Lukášova
