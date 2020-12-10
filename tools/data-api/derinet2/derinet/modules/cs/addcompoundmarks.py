@@ -34,7 +34,7 @@ class AddCompoundMarks(Block):
             node = lexicon.get_lexemes(lemma=lemma, pos=pos)
 
             if node and not node[0].parent:
-                node[0].misc['IsCompound'] = True
+                node[0].misc['is_compound'] = True
 
         return lexicon
 
