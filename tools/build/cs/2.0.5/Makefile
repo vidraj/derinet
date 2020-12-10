@@ -1,6 +1,6 @@
 .PHONY: clean
 
-derinet-2-1.tsv: derinet-2-0-5.tsv
+derinet-2-0-5.tsv: derinet-2-0.tsv
 	../../../data-api/derinet2/process_scenario.py \
 		Load "$<" \
 		cs.AddRootMorphemesFromFile ./prepare-root-segmentations/induced-segmentations.tsv \
@@ -12,10 +12,10 @@ derinet-2-1.tsv: derinet-2-0-5.tsv
 		cs.ImportCorpusCounts corpus-counts.tsv \
 		Save "$@" > log 2>&1
 
-derinet-2-0-5.tsv: ../2.0.5/derinet-2-0-5.tsv
+derinet-2-0.tsv: ../2.0/derinet-2-0.tsv
 	cp -a "$<" "$@"
 
 clean:
-	rm -f log derinet-2-1.tsv derinet-2-0-5.tsv
+	rm -f log derinet-2-0-5.tsv derinet-2-0.tsv
 	rm -rf ../../../../data/annotations/cs/2020_03_loanwords/__pycache__/
 	rm -rf ../../../../data/annotations/cs/2020_07_conjugation_class/__pycache__/
