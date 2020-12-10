@@ -150,7 +150,7 @@ class Lexicon(object):
                     if "C" in extra_pos_bits:
                         misc["is_compound"] = True
                     if "U" in extra_pos_bits:
-                        misc["is_nonderived"] = True
+                        misc["unmotivated"] = True
 
                 # Create the lexeme itself, without any links.
                 lexeme = self.create_lexeme(lemma, pos, misc=misc)

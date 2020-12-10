@@ -34,7 +34,7 @@ class AddUnmotivatedMarks(Block):
             node = lexicon.get_lexemes(lemma=lemma, pos=pos)
 
             if node:
-                node[0].misc['Unmotivated'] = True
+                node[0].misc['unmotivated'] = True
 
         return lexicon
 
