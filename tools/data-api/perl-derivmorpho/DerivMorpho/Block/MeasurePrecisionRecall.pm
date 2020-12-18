@@ -25,6 +25,12 @@ has ignore_composition => (
 	documentation => 'enable to treat lemmas created by composition as cluster roots'
 );
 
+has ignore_pos => (
+	is            => 'ro',
+	isa           => 'Bool',
+	documentation => 'enable to ignore differences in part-of-speech tags'
+);
+
 has verbose => (
 	is            => 'ro',
 	isa           => 'Bool',
@@ -151,10 +157,17 @@ sub process_dictionary {
 			$manual_deriv = remove_compositional_information($manual_deriv); # TODO solve properly the case of "foo, bar, comp osition, baz"
 		}
 		
-		# Any lexeme can now have two distinct POSes: X and XC for each X.
-		# Grep for both.
-		my $cpos = $pos . 'C';
-		my @lexemes = grep { $_->pos eq $pos or $_->pos eq $cpos } $dict->get_lexemes_by_lemma($lemma);
+		my @lexemes;
+		my $cpos;
+		if ($self->ignore_pos) {
+			$cpos = '';
+			@lexemes = $dict->get_lexemes_by_lemma($lemma)
+		} else {
+			# Any lexeme can now have two distinct POSes: X and XC for each X.
+			# Grep for both.
+			$cpos = $pos . 'C';
+			@lexemes = grep { $_->pos eq $pos or $_->pos eq $cpos } $dict->get_lexemes_by_lemma($lemma);
+		}
 		
 		if (!@lexemes) {
 			if ($manual_deriv eq '!') {
