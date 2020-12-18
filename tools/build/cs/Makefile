@@ -1,7 +1,7 @@
 VERSION::=2-0-5
 DERINET::=derinet-$(VERSION).tsv
 
-.PHONY: all release stats clean
+.PHONY: all release stats clean inverted-corpus-counts
 
 # The annotation file to use when measuring precision and recall in target `stats-$(VERSION).txt`
 ANNOT::=$(CURDIR)/../../../data/annotations/cs/2015-07-gold-standard/annot-devel.tsv
@@ -52,6 +52,17 @@ inverted-corpus-counts.tsv: $(DERINET)
 		cs.CheckCorpusCounts \
 		> '$@'
 
+OFFSETS=0 1 5 10 50 100
+RATIOS=1.0 1.5 2.0 3.0 5.0 10.0 20.0
+CORPUS_COUNTS=$(foreach OFFSET,$(OFFSETS),$(foreach RATIO,$(RATIOS),inverted-corpus-counts-o$(OFFSET)-r$(RATIO).tsv))
+inverted-corpus-counts: $(CORPUS_COUNTS)
+inverted-corpus-counts-o%.tsv: $(DERINET)
+	../../data-api/derinet2/process_scenario.py \
+		Load '$<' \
+		cs.CheckCorpusCounts \
+		--offset $(firstword $(subst -r, ,$*)) \
+		--ratio $(lastword $(subst -r, ,$*)) \
+		> '$@'
 
 # Find all lemmas that are in the database multiple times.
 homonymous-lemmas-pos.tsv:$(DERINET)
