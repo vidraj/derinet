@@ -6,7 +6,7 @@ use Moose;
 use Treex::Core::Log;
 use Ufal::MorphoDiTa;
 
-has dict_name => (is=>'ro', isa=>'Str', default=>'czech-morfflex-161115.dict');
+has dict_name => (is=>'ro', isa=>'Str', default=>'czech-morfflex-180626-devel.dict');
 has dict_path => (is=>'ro', isa=>'Str', lazy_build=>1);
 has tool  => (is=>'ro', lazy_build=>1);
 

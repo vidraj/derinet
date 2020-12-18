@@ -4,8 +4,10 @@ export ANNOT::=../../../data/annotations/cs/2015-07-gold-standard/annot-devel.ts
 export DERIMOR_MAIN_DIR::=$(CURDIR)
 
 #MORFFLEX::=$(abspath data/morfflex-cz.2016-11-15.utf8.lemmaID_suff-tag-form.tab.csv.xz)
-MORFFLEX::=$(abspath data/czech-morfflex-180626-devel.raw.xz)
-MORPHODITA_MODEL::=data/models/morphodita/cs/czech-morfflex-161115.dict
+#MORFFLEX::=$(abspath data/czech-morfflex-180626-devel.raw.xz)
+MORFFLEX::=$(abspath data/czech-morfflex-20200720-devel.raw.xz)
+# MORPHODITA_MODEL::=data/models/morphodita/cs/czech-morfflex-161115.dict
+MORPHODITA_MODEL::=data/models/morphodita/cs/czech-morfflex-180626-devel.dict
 
 export MORFFLEX
 
