@@ -1,10 +1,10 @@
-Další anotace do DeriNetu 2.1
+Další anotace do DeriNetu (2.0.5) 2.1
 =============================
 
 Nějak jsou hotové / zpracovávají se
 -----------------
 
-[LK, dokončuje se anotace, skripty připraveny (kromě kompozit)]
+[LK, dělá se postprocessing a připravují se skripty]
 (Ne)motivovanost nejfrekventovanějích stromových kořenů (je z adresáře
 2019_01_freq_roots/ přesunut do 2020_01_motivation_of_tree_root_nodes/).
 Anotace má Lukáš (ze srpna 2019 a ledna 2020). Skript napíše Lukáš, Zdeněk
@@ -17,9 +17,9 @@ které jsou kompozitem (10. sloupec, položka 'IsCompound=True', plus změnit
 současnou variantu 'is_compound' na 'IsCompound'). Extrahovat varianty
 a zažadit je do patřičné anotace (viz níže). Vytvořeny moduly:
 *addcompoundmarks.py*, *addderivations.py*, *addunmotivatedmarks.py*.
-- jak nahrát kompozita mající určené rodiče? co phantom rodiče?
-- jak založit fantomový lexém? nejlépe v modulu *addphantomlexemes.py*
+- jak založit fantomový lexém a nahrát vztahy s phantomovými rodiči? prodiskutovat phantomové rodiče z této anotace
 
+[JV, hotovo]
 Frekvence z korpusu. Máme absolutní frekvence, ale je potřeba dodělat další
 skóre na jejich základě, viz e-mail od Zdeňka z března 2020.
 Jmenovatel relativní frekvence by měla být velikost korpusu včetně čárek,
@@ -34,7 +34,7 @@ Problémy:
   nedefinovaný. Nekonečno nejde použít, protože se nedá uložit do JSONu.
   Jak to dodefinujeme? DBL_MAX? log(1/velikost korpusu)?
 
-[LK, skripty připraveny]
+[LK, hotovo]
 Slovesné třídy (2020_07_conjugation_class). Vezmou se z Lukášova
 nástroje. Skript napíše Lukáš. Nechají se i přechody mezi třídami. Pro slovesa,
 u kterých nástroj nedokáže určit třídu, nebude třída vyplněna.
@@ -42,6 +42,7 @@ Značka se vloží do sloupce morfologických kategorií jako "ConjugClass".
 Vytvořen modul: *addconjugationclasses.py*.
 - co použít za značku, pokud patří sloveso do více tříd zároveň?
 
+[JV, dokončuje se ruční průchod změnami]
 Přechod na nový MorfFlex. Vezmeme aktuální verzi z Gitu a uvidíme, jestli to
 bude průchozí. Zpracuje Jonáš.
 Došlo k ~414426 změnám (podle V1 diff toolu, takže ve skutečnosti jich bude víc):
@@ -66,23 +67,25 @@ Hodnocení správnosti změn:
 - nová připojení jsou vesměs správně
 - přepojení jsou vesměs mezi homonymy
 
+[JV, připravuje]
 Vyjmenovaná slova (2019_12_06_enumerated_words). Smazat z výstupu počáteční
 vy- a vý-, udělat z toho XLS soubor, kde se zaznačí předek, kompozitnost nebo
 značka, že je to správně. Poslat rovnou Šárce (posláno 2020-07-10). Zpracovává
 Jonáš.
 
-[LK, skripty připraveny]
+[LK, hotovo]
 Značka cizosti (2020_03_loanwords). Pomocí Lukášova pravidlového
 nástroje se cizím lemmatům dá do sloupce morfologických kategorií značka
 "Loanword=True". Vytvořen modul: *addloanwordmarks.py*.
 - měla by se značka dědit? přidat Honzovy anotace z cognetu?
 
+[JB, připravuje se]
 Segmentace. Vezmeme od pana Bodnára, až v půlce července odevzdá diplomku.
 Jinak se různé manuální segmentace (kořenů) vyskytují v adresáři
 2020_01_root_allomorphs_cleanup (hotovo v DeriNetu 2.0). Lukáš a Magda má také
 poloautomaticky odsegmentované a ručně zkontrolované předpony u sloves.
 
-[LK, skripty připraveny]
+[LK, dělá se postprocessing anotací]
 Varianty. Anša Vernerová posílala 20. 9. 2019 e-mail se slovesnými variantami.
 Ty by se daly přilít, označit pomocí sémantického labelu a pro každé hnízdo
 variant (např. extremismus, extrémismus, extremizmus, extrémizmus) zvolit jedno

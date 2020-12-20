@@ -4,8 +4,7 @@ import logging
 
 import os
 import sys
-sys.path.append(os.path.realpath('../../../../data/annotations/cs/2020_03_loanwords/'))
-from recogFW import recog_foreign_word
+from collections import defaultdict
 
 logging.basicConfig(level=logging.DEBUG,
                     format='%(asctime)s %(levelname)-8s %(message)s',
@@ -20,17 +19,32 @@ class AddLoanwordMarks(Block):
         self.fname = fname
 
     def process(self, lexicon: Lexicon):
-        """Go through lemmaset and add loanword mark."""
+        """Read annotation in the form of
+        mark-for-changing-label-to-opposite TAB label TAB lemma_pos
+        and add loanword labels to the lemmas."""
+
+        # load lemmas already assigned labels
+        assigned = defaultdict()
+        with open(self.fname, mode='rt', encoding='U8', newline='\n') as f:
+            for line in f:
+                line = line.rstrip().split('\t')
+
+                if line == ['']:  # skip empty lines
+                    continue
+
+                opos = True if line[0] else False
+                label = bool(line[1].replace('False', ''))
+                lemma = line[2]
+
+                if opos:
+                    assigned[lemma] = not label
+                else:
+                    assigned[lemma] = label
+
+        # go through lexicon
         for lexeme in lexicon.iter_lexemes():
-
-            foreign = lexeme.feats.get('Foreign', False)
-            if foreign:
-                lexeme.feats['Loanword'] = True
-                continue
-
-            loan = recog_foreign_word(word=lexeme.lemma, pos=lexeme.pos)
-            if loan and lexeme.lemma[0].islower():
-                lexeme.feats['Loanword'] = loan
+            label = assigned.get('_'.join([lexeme.lemma, lexeme.pos]), False)
+            lexeme.feats['Loanword'] = label
 
         return lexicon
 
@@ -41,10 +55,15 @@ class AddLoanwordMarks(Block):
         to this module and the unprocessed rest."""
         parser = argparse.ArgumentParser(
             prog=__class__.__name__,
-            formatter_class=argparse.ArgumentDefaultsHelpFormatter)
+            formatter_class=argparse.ArgumentDefaultsHelpFormatter
+        )
+        parser.add_argument('file', help='The file to load annotation from.')
+        # argparse.REMAINDER tells argparse not to be eager and to process
+        # only the start of the args.
         parser.add_argument('rest', nargs=argparse.REMAINDER,
                             help='A list of other modules and arguments.')
         args = parser.parse_args(args)
-        # Return *args to __init__, **kwargs to init and
-        # the unprocessed tail of arguments to other modules.
-        return [None], {}, args.rest
+        fname = args.file
+        # Return *args to __init__, **kwargs to init and the unprocessed tail
+        # of arguments to other modules.
+        return [fname], {}, args.rest
