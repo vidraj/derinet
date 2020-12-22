@@ -37,7 +37,7 @@ ods2csv:
 # (2) značku nemotivovanosti
 # (3) značku kompozitnosti
 # (4) kompozitní vztahy k doplnění
-extract-information: ods2csv
+extract-information: #ods2csv
 	python3 postprocessing.py <(cat data-*.csv) ../hand-annotated/into-derinet/derivations.tsv \
 												../hand-annotated/into-derinet/compounding.tsv \
 												../hand-annotated/into-derinet/compound-labels.tsv \

@@ -25,24 +25,26 @@ vari = list()
 with open(sys.argv[1], mode='r', encoding='U8') as f:
     data = csv.reader(f, delimiter=';')
     for line in data:
+        line_backup = line[:]
+        line += ['']*10
         # extract labels of unmotivated lexemes
         if ''.join(line[2:]) == '':
             unmo.append('_'.join(line[:2]))
             continue
 
         # extract labels of compounding
-        if line[2] in ('C', '%C') and ''.join(line[3:]) == '':
+        if (line[2] in ('C', '%C') or '+' in line[2]) and \
+           ''.join(line[3:]) == '':
             lcom.append('_'.join(line[:2]))
-            continue
 
-        # extract compounding relations
-        if '+' in line[2] and ''.join(line[3:]) == '':
-            line[2] = line[2].replace(' + ', '+')
-            parents = ['phantom:' + p.replace('_', '')
-                       if p.startswith('_') or p.endswith('_')
-                       else p
-                       for p in line[2].split('+')]
-            comp.append(('_'.join(line[:2]), tuple(parents)))
+            # extract compounding relations
+            if '+' in line[2] and ''.join(line[3:]) == '':
+                line[2] = line[2].replace(' + ', '+')
+                parents = ['phantom:' + p.replace('_', '')
+                           if p.startswith('_') or p.endswith('_')
+                           else p
+                           for p in line[2].split('+')]
+                comp.append(('_'.join(line[:2]), tuple(parents)))
             continue
 
         # extract derivational relations
@@ -72,10 +74,17 @@ with open(sys.argv[1], mode='r', encoding='U8') as f:
             continue
 
         # extract variants
-        if line[3] == 'VARIANT':
+        if 'VARIANT' in line[3]:
             if not line[4]:
-                vari.append(('_'.join(line[:2]), line[2]))
-                continue
+                if line[3] == 'VARIANT' and line[2]:
+                    vari.append(('_'.join(line[:2]), line[2]))
+                    continue
+                else:
+                    line[3] = line[3].replace('VARIANT', '').replace('k ', '')
+                    line[3] = line[3].strip()
+                    if line[3] and '?' not in line[3]:
+                        vari.append(('_'.join(line[:2]), line[3]))
+                        continue
             elif line[4] and '?' not in line[4]:
                 line[4] = line[4].replace('ZZ: ', '')
                 vari.append(('_'.join(line[:2]), line[4]))
@@ -91,16 +100,19 @@ with open(sys.argv[1], mode='r', encoding='U8') as f:
                 line[4] = line[4].replace('ZZ: DER ', '')
                 ders.append(('_'.join(line[:2]), line[4]))
                 continue
-            elif 'ZZ: C ' in line[4]:
+            elif 'ZZ: C' in line[4]:
                 line[4] = line[4].replace('ZZ: C ', '')
                 lcom.append('_'.join(line[:2]))
                 continue
 
         # extract colloq
-        if line[3] == 'COLLOQ':
+        if 'COLLOQ' in line[3]:
             if 'ZZ: VARIANT ' in line[4]:
                 line[4] = line[4].replace('ZZ: VARIANT ', '')
                 vari.append(('_'.join(line[:2]), line[4]))
+                continue
+            elif line[3] == 'COLLOQ' and line[2]:
+                vari.append(('_'.join(line[:2]), line[2]))
                 continue
 
         # extract compar
@@ -116,22 +128,51 @@ with open(sys.argv[1], mode='r', encoding='U8') as f:
                 ders.append(('_'.join(line[:2]), line[4]))
                 continue
 
-        # extract variants from the second round ('varianta k')
-        if 'TODO: varianta k' in line[3]:
-            line[3] = line[3].replace('TODO: varianta k ', '')
-            if '/' in line[3]:
-                line[3] = line[3].split('/')
-                for var in line[3]:
-                    vari.append(('_'.join(line[:2]), var))
+        # negation
+        if 'NEG' in line[3]:
+            if line[0].startswith('ne'):
+                ders.append(('_'.join(line[:2]), line[0][2:]))
                 continue
             else:
-                vari.append(('_'.join(line[:2]), line[3]))
+                ders.append(('_'.join(line[:2]), line[2]))
                 continue
+
+        # univerbisation
+        if line[3] == 'UNIVERB':
+            if '+' not in line[2] and line[2]:
+                ders.append(('_'.join(line[:2]), line[2]))
+                continue
+            elif '+' in line[2]:
+                lcom.append('_'.join(line[:2]))
+                # extract compounding relations
+                if '+' in line[2]:
+                    line[2] = line[2].replace(' + ', '+')
+                    parents = ['phantom:' + p.replace('_', '')
+                               if p.startswith('_') or p.endswith('_')
+                               else p
+                               for p in line[2].split('+')]
+                    comp.append(('_'.join(line[:2]), tuple(parents)))
+                continue
+
+        # phantom
+        if 'PHANTOM' in line[3]:
+            if line[2]:
+                line[2] = 'phantom:' + line[2].replace('_', '')
+                ders.append(('_'.join(line[:2]), line[2]))
+            else:
+                line[3] = line[3].replace('PHANTOM', '').replace('?', '')
+                line[3] = line[3].strip()
+                if line[3]:
+                    line[3] = 'phantom:' + line[3].replace('_', '')
+                    ders.append(('_'.join(line[:2]), line[3]))
+            continue
 
         # the rest to manually postprocess
         if 'PARENT' in line[3] or 'NAME' in line[3] or '%jmeno' in line[2]:
             continue
-        print('\t'.join(line))
+
+        # the rest for manual postprocessing
+        print('\t'.join(line_backup))
 
 
 # save annotations
