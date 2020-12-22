@@ -24,7 +24,7 @@ class AddDerivations(Block):
         # load lemmas already assigned classes
         with open(self.fname, mode='rt', encoding='U8', newline='\n') as f:
             for line in f:
-                parent, _, child = line.rstrip('\n').split('\t')
+                parent, _, child = line.rstrip().split('\t')
 
                 # preprocess lexeme
                 if '_' in parent:
