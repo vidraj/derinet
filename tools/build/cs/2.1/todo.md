@@ -4,7 +4,7 @@ Další anotace do DeriNetu (2.0.5) 2.1
 Nějak jsou hotové / zpracovávají se
 -----------------
 
-[LK, dělá se postprocessing a připravují se skripty]
+[LK, hotovo]
 (Ne)motivovanost nejfrekventovanějích stromových kořenů (je z adresáře
 2019_01_freq_roots/ přesunut do 2020_01_motivation_of_tree_root_nodes/).
 Anotace má Lukáš (ze srpna 2019 a ledna 2020). Skript napíše Lukáš, Zdeněk
@@ -16,8 +16,10 @@ které jsou motivované (nové derivační vztahy), přidat bit stromovým koře
 které jsou kompozitem (10. sloupec, položka 'IsCompound=True', plus změnit
 současnou variantu 'is_compound' na 'IsCompound'). Extrahovat varianty
 a zažadit je do patřičné anotace (viz níže). Vytvořeny moduly:
-*addcompoundmarks.py*, *addderivations.py*, *addunmotivatedmarks.py*.
-- jak založit fantomový lexém a nahrát vztahy s phantomovými rodiči? prodiskutovat phantomové rodiče z této anotace
+*addcompoundmarks.py*, *addderivations.py*, *addunmotivatedmarks.py*,
+*addcompounds2.py*.
+- jak založit fantomový lexém a nahrát vztahy s phantomovými rodiči?
+- prodiskutovat phantomové rodiče z této anotace
 
 [JV, hotovo]
 Frekvence z korpusu. Máme absolutní frekvence, ale je potřeba dodělat další
@@ -67,7 +69,7 @@ Hodnocení správnosti změn:
 - nová připojení jsou vesměs správně
 - přepojení jsou vesměs mezi homonymy
 
-[JV, připravuje]
+[JV, hotovo]
 Vyjmenovaná slova (2019_12_06_enumerated_words). Smazat z výstupu počáteční
 vy- a vý-, udělat z toho XLS soubor, kde se zaznačí předek, kompozitnost nebo
 značka, že je to správně. Poslat rovnou Šárce (posláno 2020-07-10). Zpracovává
@@ -93,6 +95,23 @@ základní a ostatní pověsit přímo na něj. Takže citronový by viselo na c
 ne na citron, a mělo by značku pro variantu.
 Vytvořen modul: *addspellingvariants.py*.
 - možná změnit 'Type=Derivation'?
+
+[LK, hotovo]
+Vymazání slov s překlepy: 2020_12_incorrect_lexemes. Další budou z anotací
+variant. Modul: *delincorrectlexemes.py*
+
+[LK, hotovo]
+Přidání značky pro konverze (Type=Conversion) místo Type=Derivation.
+Značka přidána jen u totožných stringů zavěšených na sobě.
+Modul: *findconversion.py*
+
+[LK, hotovo]
+Změna tagsetu slovních druhů na Universal tagset. Modul: *changepostags.py*
+
+[LK, hotovo]
+Prefixace kořenů. Při manuálních anotacích cizích slov jsem si všiml spousty
+prefigovaných kořenů bez rodičů; viz anotační dávka 2020_12_prefixed_words.
+Nalezeny rodiče, zanotováno. Modul: *addderivations.py*
 
 
 Nejsou, ale chtěli bychom
