@@ -9,6 +9,7 @@ derinet-2-0-5.tsv: derinet-2-0.tsv ../../../../data/annotations/cs/2019_12_06_en
 		cs.AddUnmotivatedMarks ../../../../data/annotations/cs/2020_01_motivation_of_tree_root_nodes/hand-annotated/into-derinet/unmotivatedness-labels.tsv \
 		cs.AddCompoundMarks ../../../../data/annotations/cs/2020_01_motivation_of_tree_root_nodes/hand-annotated/into-derinet/compound-labels.tsv \
 		cs.AddDerivations ../../../../data/annotations/cs/2020_01_motivation_of_tree_root_nodes/hand-annotated/into-derinet/derivations-classic.tsv \
+		cs.AddCompounds2 ../../../../data/annotations/cs/2020_01_motivation_of_tree_root_nodes/hand-annotated/into-derinet/compounding-classic.tsv \
 		cs.AddDerivationsFromEnumeratedWords ../../../../data/annotations/cs/2019_12_06_enumerated_words/annotated/vyjmenovana-slova-sd-jv.tsv \
 		cs.ImportCorpusCounts corpus-counts.tsv \
 		Save "$@" > log 2>&1
