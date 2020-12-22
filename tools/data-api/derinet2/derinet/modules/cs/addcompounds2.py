@@ -1,7 +1,5 @@
 from derinet import Block, Lexicon
-from derinet.utils import techlemma_to_lemma
 import argparse
-import re
 import logging
 
 logging.basicConfig(level=logging.DEBUG,
@@ -12,7 +10,6 @@ logger = logging.getLogger(__name__)
 
 
 class AddCompounds2(Block):
-    lemma_pos_regex = re.compile(r"^(.*)#(.)$")
 
     def __init__(self, fname):
         # The arguments to __init__ are None (returned from below).
