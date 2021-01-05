@@ -1,0 +1,7 @@
+PRÁZDNO   v pořádku, vztahy konverze (postupná řada)                                        přidat do derinetu vztahy se značkou konverze
+?         nevím, hlavně v případě cizích slov                                               dořešit
+-         všechna lemmata jsou chybá                                                        smazat z derinetu, žádné vztahy nepřidávat
+číslo     lemma na dané pozici je chybné                                                    smazat z derinetu, žádné vztahy nepřidávat
+M         chybí masculinum, femininum je přímo na adjektivu                                 dořešit
++         nelze vzít jako řadu postupně odvozených slov, ale v zásadě je to v pořádku       dořešit
+n         není konverze                                                                     žádné vztahy nepřidávat
