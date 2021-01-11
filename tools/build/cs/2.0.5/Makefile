@@ -3,6 +3,7 @@
 derinet-2-0-5.tsv: derinet-2-0.tsv ../../../../data/annotations/cs/2019_12_06_enumerated_words/annotated/vyjmenovana-slova-sd-jv.tsv
 	../../../data-api/derinet2/process_scenario.py \
 		Load "$<" \
+		cs.CopyAspect ../../../../data/releases/cs/derinet-2-0.tsv \
 		cs.DelIncorrectLexemes ../../../../data/annotations/cs/2020_12_incorrect_lexemes/incorrect-lexemes-e.tsv \
 		cs.DelIncorrectLexemes ../../../../data/annotations/cs/2020_12_incorrect_lexemes/incorrect-lexemes-sko.tsv \
 		cs.DelIncorrectLexemes ../../../../data/annotations/cs/2020_12_incorrect_lexemes/incorrect-lexemes-cko.tsv \
