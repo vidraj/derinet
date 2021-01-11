@@ -14,6 +14,7 @@ derinet-2-0-5.tsv: derinet-2-0.tsv ../../../../data/annotations/cs/2019_12_06_en
 		cs.AddDerivations ../../../../data/annotations/cs/2020_01_motivation_of_tree_root_nodes/hand-annotated/into-derinet/derivations-classic.tsv \
 		cs.AddCompounds2 ../../../../data/annotations/cs/2020_01_motivation_of_tree_root_nodes/hand-annotated/into-derinet/compounding-classic.tsv \
 		cs.AddDerivations ../../../../data/annotations/cs/2020_12_prefixed_words/into-derinet/prefixed-relations.tsv \
+		cs.AddSegmentation2 ../../../../data/annotations/cs/2021_01_generated_mophseg/segmentations.txt \
 		cs.AddDerivationsFromEnumeratedWords ../../../../data/annotations/cs/2019_12_06_enumerated_words/annotated/vyjmenovana-slova-sd-jv.tsv \
 		cs.ImportCorpusCounts corpus-counts.tsv \
 		cs.FindConversion \
