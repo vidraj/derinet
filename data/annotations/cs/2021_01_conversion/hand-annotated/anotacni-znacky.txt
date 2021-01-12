@@ -1,7 +1,8 @@
-PRÁZDNO   v pořádku, vztahy konverze (postupná řada)                                        přidat do derinetu vztahy se značkou konverze
-?         nevím, hlavně v případě cizích slov                                               dořešit
--         všechna lemmata jsou chybá                                                        smazat z derinetu, žádné vztahy nepřidávat
-číslo     lemma na dané pozici je chybné                                                    smazat z derinetu, žádné vztahy nepřidávat
-M         chybí masculinum, femininum je přímo na adjektivu                                 dořešit
-+         nelze vzít jako řadu postupně odvozených slov, ale v zásadě je to v pořádku       dořešit
-n         není konverze                                                                     žádné vztahy nepřidávat
+ok   	  v pořádku, vztahy konverze (postupná řada)               přidat do derinetu vztahy se značkou konverze
+-         všechna lemmata jsou chybá                               smazat z derinetu, žádné vztahy nepřidávat
+číslo     lemma na dané pozici je chybné                           smazat z derinetu dané lemma, žádné vztahy nepřidávat
+M         chybí masculinum, femininum je přímo na adjektivu        dogenerovat lemma tak, aby z toho byla řada A > Nm > Nf
+obr	  směr je obráceně					   obrátit směr C > B
+nesouv	  nesouvisející případy					   nepropojovat
+
+#	  pokud začíná buňka tímto znakem, jedná se o komentář a měla by se ignorovat
