@@ -1,7 +1,7 @@
-Další anotace do DeriNetu (2.0.5) 2.1
+Anotace do DeriNetu 2.0.5 a do DeriNetu 2.1
 =============================
 
-Nějak jsou hotové / zpracovávají se
+Zařazeny do 2.0.5
 -----------------
 
 [LK, hotovo]
@@ -18,8 +18,6 @@ současnou variantu 'is_compound' na 'IsCompound'). Extrahovat varianty
 a zažadit je do patřičné anotace (viz níže). Vytvořeny moduly:
 *addcompoundmarks.py*, *addderivations.py*, *addunmotivatedmarks.py*,
 *addcompounds2.py*.
-- jak založit fantomový lexém a nahrát vztahy s phantomovými rodiči?
-- prodiskutovat phantomové rodiče z této anotace
 
 [JV, hotovo]
 Frekvence z korpusu. Máme absolutní frekvence, ale je potřeba dodělat další
@@ -44,7 +42,7 @@ Značka se vloží do sloupce morfologických kategorií jako "ConjugClass".
 Vytvořen modul: *addconjugationclasses.py*.
 - co použít za značku, pokud patří sloveso do více tříd zároveň?
 
-[JV, dokončuje se ruční průchod změnami]
+[JV, hotovo]
 Přechod na nový MorfFlex. Vezmeme aktuální verzi z Gitu a uvidíme, jestli to
 bude průchozí. Zpracuje Jonáš.
 Došlo k ~414426 změnám (podle V1 diff toolu, takže ve skutečnosti jich bude víc):
@@ -81,20 +79,11 @@ nástroje se cizím lemmatům dá do sloupce morfologických kategorií značka
 "Loanword=True". Vytvořen modul: *addloanwordmarks.py*.
 - měla by se značka dědit? přidat Honzovy anotace z cognetu?
 
-[JB, připravuje se]
+[JB, hotovo]
 Segmentace. Vezmeme od pana Bodnára, až v půlce července odevzdá diplomku.
 Jinak se různé manuální segmentace (kořenů) vyskytují v adresáři
 2020_01_root_allomorphs_cleanup (hotovo v DeriNetu 2.0). Lukáš a Magda má také
 poloautomaticky odsegmentované a ručně zkontrolované předpony u sloves.
-
-[LK, dělá se postprocessing anotací]
-Varianty. Anša Vernerová posílala 20. 9. 2019 e-mail se slovesnými variantami.
-Ty by se daly přilít, označit pomocí sémantického labelu a pro každé hnízdo
-variant (např. extremismus, extrémismus, extremizmus, extrémizmus) zvolit jedno
-základní a ostatní pověsit přímo na něj. Takže citronový by viselo na citrónový,
-ne na citron, a mělo by značku pro variantu.
-Vytvořen modul: *addspellingvariants.py*.
-- možná změnit 'Type=Derivation'?
 
 [LK, hotovo]
 Vymazání slov s překlepy: 2020_12_incorrect_lexemes. Další budou z anotací
@@ -114,7 +103,40 @@ prefigovaných kořenů bez rodičů; viz anotační dávka 2020_12_prefixed_wor
 Nalezeny rodiče, zanotováno. Modul: *addderivations.py*
 
 
-Nejsou, ale chtěli bychom
+
+
+Připravované do 2.1
+-----------------
+
+[LK, data předpřipravená, chybí moduly]
+(Ne)motivovanost. 2020_01_motivation_of_tree_root_nodes. Fantomové lexémy a
+vztahy s nimi spojené.
+- jak založit fantomový lexém a nahrát vztahy s phantomovými rodiči?
+- prodiskutovat phantomové rodiče z této anotace
+
+[LK, data předpřipravené, chybí analýza, chybí modul]
+Varianty. 2021_01_conversion. Pro každé hnízdo variant (např. extremismus,
+extrémismus, extremizmus, extrémizmus) zvolit jedno základní a ostatní pověsit
+přímo na něj. Takže citronový by viselo na citrónový, ne na citron, a mělo by
+značku pro variantu.
+
+[LK, data předpřipravená, chybí moduly]
+Konverze. Nalezeny vztahy konverze a převěšeny správně. Při té příležitosti
+odstraněna nesmyslná lemmata a vytvořena chybějící.
+- jak založit nový lexém?
+
+[JV, předdomluvené]
+Přechod na nový OFICIÁLNÍ MorfFlex. (viz LINDAT/CLARIAH)
+
+[?, prodiskutovat]
+Klíče a hodnoty. Prodiskutovat finální podobu klíčů a hodnot tak, aby je šlo
+unifikovat napříč zdroji i v UDer. Ujasnit si význam sloupce pro OthRel. Dle
+výsledků diskuze následně změnit schéma.
+
+
+
+
+Nejsou, ale chtěli bychom (?)
 -------------------------
 
 K četnostem: Podívat se, kolik stromů se rozpadne, protože mají uprostřed slovo
