@@ -23,23 +23,42 @@ class AddConjugationClasses(Block):
         tagmask TAB lemma TAB conjug-class
         and add conjugation classes to the lemmas."""
         # load lemmas already assigned classes
-        assigned = defaultdict()
+        deferred = defaultdict(list)
         with open(self.fname, mode='rt', encoding='U8', newline='\n') as f:
             for line in f:
-                line = line.rstrip('\n').split('\t')
-                assigned[line[0]] = line[2]
+                lemid, lemma, conjug = line.rstrip('\n').split('\t')
 
-        # go through lexicon
-        for lexeme in lexicon.iter_lexemes():
-            if lexeme.pos != 'V':
-                continue
-            # known lemma (is in 'assigned' dict)
-            if assigned.get(lexeme.lemid, False):
-                conjug = assigned[lexeme.lemid]
-                # lemmas with assigned classes
-                if conjug != '#':
+                if conjug == "#":
+                    # Unassigned.
+                    continue
+
+                lexemes = lexicon.get_lexemes(lemma, "V", lemid=lemid)
+
+                if not lexemes:
+                    # Ignore the lemid, it has changed between versions.
+                    lexemes = lexicon.get_lexemes(lemma, "V")
+
+                if not lexemes:
+                    logger.warning("Lexeme for lemma '{}' not found".format(lemma))
+                    continue
+                elif len(lexemes) > 1:
+                    # Try to solve homonymy later.
+                    deferred[lemma].append(conjug)
+                    continue
+                else:
+                    lexeme = lexemes[0]
                     # conjug = conjug.replace('#', '|')
                     lexeme.feats['ConjugClass'] = conjug
+
+        for lemma, conjugs in deferred.items():
+            if len(set(conjugs)) == 1:
+                # All the lexemes have the same class.
+                lexemes = lexicon.get_lexemes(lemma, "V")
+                for lexeme in lexemes:
+                    lexeme.feats['ConjugClass'] = conjugs[0]
+            else:
+                logger.warning("Lemma '{}' is ambiguous, different homonyms have different classes: {}".format(lemma, conjugs))
+
 
         return lexicon
 
