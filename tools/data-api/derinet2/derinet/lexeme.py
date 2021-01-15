@@ -481,3 +481,26 @@ class Lexeme(object):
                 raise DerinetError("The feature '{}' is already present in lexeme {}".format(feature, self))
         else:
             self._feats[feature] = value
+
+    def _pprint_subtree_indented(self, indent_first, indent_next):
+        line = indent_first + str(self)
+        lines = [line]
+        # TODO handle non-derivational relations and otherrels.
+        children = self.children
+
+        if not children:
+            return lines
+
+        for child in children[:-1]:
+            lines.extend(child._pprint_subtree_indented(indent_next + "├", indent_next + "│"))
+        lines.extend(children[-1]._pprint_subtree_indented(indent_next + "└", indent_next + " "))
+
+        return lines
+
+    def pprint_subtree(self):
+        """
+        Pretty-prints the subtree of this lexeme, with indentation showing
+        parent-child relations. Returns the pretty-printed tree as a string.
+        Non-tree relations are currently completely ignored and not shown.
+        """
+        return "\n".join(self._pprint_subtree_indented("", ""))
