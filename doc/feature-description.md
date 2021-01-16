@@ -141,3 +141,4 @@ Relations have features identifying the type of relation and the kind of differe
     - Compounding
     - Conversion
     - Derivation
+    - Variant
