@@ -1,88 +1,87 @@
-back-up	A
-joint	A	Masc
-emo	N	Neut
-benzen	A
-muftí	A
-novelovský	N	Masc
-bison	A
-nej	A
-nej	N
-rozsudí	A
-piko	A
-sulfofenyl	A
-polní	N	Fem
-lock-up	A
-baby	A
-ča	A
-ča	N	Fem
-diamin	A
-sapa	A
-železí	A
-anime	A
-anime	N	Neut
-novellovský	N	Masc
-purpurový	N	Neut
-tempura	A
-tempura	N	Fem
-gore-tex	A
-beach	A
-catch-up	A
-tutti	N	Neut
-tuberculosis	A
-nachový	N	Neut
-skvrnitý	N
-relax	A
-točivý	N
-art	A
-fair-play	A
-er	A
-er	N	Neut
-handle	A
-handle	N	Neut
-terrible	N	Neut
-parádivý	N
-hydrogen	A
-homo	A
-start-up	A
-start-up	N	Masc	Anim
-vitulina	A
-vitulina	N	Fem
-kiang	A
-pin-up	A
-helix	A
-white	N	Masc
-pětimiliardový	N	Masc
-cloud	A
-účin	A
-indri	A
-off-road	A
-dot-com	A
-dot-com	N	Masc
-hřebí	N	Neut
-mikro	A
-mikro	N	Neut
-enfant	A
-bichir	A
-trans	A
-tool	A
-celestin	A
-post	A
-freetekno	A
-nitro	A
-axis	A
-axis	N	Masc
-stop	A
-cache	A
-tribute	A
-gama	A
-methylendioxyfenyl	A
-dada	A
-teplo	A
-wifi	A
-ylong	A
-ylong	N	Masc
-přemnohý	N	Masc
-rád	D
-fair-play	A
-fair-play	D
-teplo	A
+back-up	ADJ
+joint	ADJ	Masc
+emo	NOUN	Neut
+benzen	ADJ
+muftí	ADJ
+novelovský	NOUN	Masc
+bison	ADJ
+nej	ADJ
+nej	NOUN
+rozsudí	ADJ
+piko	ADJ
+sulfofenyl	ADJ
+polní	NOUN	Fem
+lock-up	ADJ
+baby	ADJ
+ča	ADJ
+ča	NOUN	Fem
+diamin	ADJ
+sapa	ADJ
+železí	ADJ
+anime	ADJ
+anime	NOUN	Neut
+novellovský	NOUN	Masc
+purpurový	NOUN	Neut
+tempura	ADJ
+tempura	NOUN	Fem
+gore-tex	ADJ
+beach	ADJ
+catch-up	ADJ
+tutti	NOUN	Neut
+tuberculosis	ADJ
+nachový	NOUN	Neut
+skvrnitý	NOUN
+relax	ADJ
+točivý	NOUN
+art	ADJ
+fair-play	ADJ
+er	ADJ
+er	NOUN	Neut
+handle	ADJ
+handle	NOUN	Neut
+terrible	NOUN	Neut
+parádivý	NOUN
+hydrogen	ADJ
+homo	ADJ
+start-up	ADJ
+start-up	NOUN	Masc	Anim
+vitulina	ADJ
+vitulina	NOUN	Fem
+kiang	ADJ
+pin-up	ADJ
+helix	ADJ
+white	NOUN	Masc
+pětimiliardový	NOUN	Masc
+cloud	ADJ
+účin	ADJ
+indri	ADJ
+off-road	ADJ
+dot-com	ADJ
+dot-com	NOUN	Masc
+hřebí	NOUN	Neut
+mikro	ADJ
+mikro	NOUN	Neut
+enfant	ADJ
+bichir	ADJ
+trans	ADJ
+tool	ADJ
+celestin	ADJ
+post	ADJ
+freetekno	ADJ
+nitro	ADJ
+axis	ADJ
+axis	NOUN	Masc
+cache	ADJ
+tribute	ADJ
+gama	ADJ
+methylendioxyfenyl	ADJ
+dada	ADJ
+teplo	ADJ
+wifi	ADJ
+ylong	ADJ
+ylong	NOUN	Masc
+přemnohý	NOUN	Masc
+rád	ADV
+fair-play	ADJ
+fair-play	ADV
+teplo	ADJ

@@ -11,3 +11,4 @@ postprocessing:
 							  --OutputConversion ../into-derinet/relations-of-conversion.tsv \
 							  --OutputDeleteLexemes ../into-derinet/lexemes-to-delete.tsv \
 							  --OutputCreateLexemes ../into-derinet/lexemes-to-create.tsv
+	# be carefull, POS tags were change manually to NOUN, ADJ, ADV
