@@ -1,7 +1,7 @@
-Anotace do DeriNetu 2.0.5 a do DeriNetu 2.1
+Anotace do DeriNetu před verzí 2.1
 =============================
 
-Zařazeny do 2.0.5
+Release 2.0.5
 -----------------
 
 [LK, hotovo]
@@ -105,30 +105,54 @@ Nalezeny rodiče, zanotováno. Modul: *addderivations.py*
 
 
 
-Připravované do 2.1
+Release 2.0.6 (slouží jako 'interní' verze pro analýzu variant)
 -----------------
 
-[LK, data předpřipravená, chybí moduly]
+[LK, hotovo]
+Varianty. 2021_01_spelling_variants. Pro každé hnízdo variant (např. extremismus,
+extrémismus, extremizmus, extrémizmus) zvolit jedno základní a ostatní pověsit
+přímo na něj. Takže citronový by viselo na citrónový, ne na citron, a mělo by
+značku pro variantu.
+- cs.AddVariants ../../../../data/annotations/cs/2021_01_spelling_variants/nsets-spelling-variants.tsv
+
+[LK, hotovo]
+Konverze. 2021_01_conversion. Nalezeny vztahy konverze a převěšeny správně.
+Při té příležitosti odstraněna nesmyslná lemmata.
+- cs.DelIncorrectLexemes ../../../../data/annotations/cs/2021_01_conversion/into-derinet/lexemes-to-delete.tsv
+- cs.AddConversions ../../../../data/annotations/cs/2021_01_conversion/into-derinet/relations-of-conversion.tsv
+
+
+
+
+Release 2.0.7, příp. 2.1 (přeskočí 2.0.6 a bude navazovat na starší 2.0.5)
+-----------------
+
+[LK, chybí analýza]
+Opravené varianty. 2021_01_spelling_variants. Pro každé hnízdo variant (např.
+extremismus, extrémismus, extremizmus, extrémizmus) zvolit jedno základní a
+ostatní pověsit přímo na něj. Takže citronový by viselo na citrónový, ne na
+citron, a mělo by značku pro variantu.
+- přeskočit 2.0.6 a nahrát celé varianty včetně oprav znovu
+- cs.AddVariants ../../../../data/annotations/cs/2021_01_spelling_variants/nsets-spelling-variants.tsv
+- plus opravy
+
+[LK, hotovo]
+Konverze. 2021_01_conversion. Nalezeny vztahy konverze a převěšeny správně.
+Při té příležitosti odstraněna nesmyslná lemmata.
+- přeskočit 2.0.6 a nahrát celé anotace znovu
+- cs.DelIncorrectLexemes ../../../../data/annotations/cs/2021_01_conversion/into-derinet/lexemes-to-delete.tsv
+- cs.AddConversions ../../../../data/annotations/cs/2021_01_conversion/into-derinet/relations-of-conversion.tsv
+
+[LK, data předpřipravená, prodiskutovat, chybí moduly]
 (Ne)motivovanost. 2020_01_motivation_of_tree_root_nodes. Fantomové lexémy a
 vztahy s nimi spojené.
 - jak založit fantomový lexém a nahrát vztahy s phantomovými rodiči?
 - prodiskutovat phantomové rodiče z této anotace
 
-[LK, data předpřipravené, chybí analýza, chybí modul]
-Varianty. 2021_01_conversion. Pro každé hnízdo variant (např. extremismus,
-extrémismus, extremizmus, extrémizmus) zvolit jedno základní a ostatní pověsit
-přímo na něj. Takže citronový by viselo na citrónový, ne na citron, a mělo by
-značku pro variantu.
-
-[LK, data předpřipravená, chybí moduly]
-Konverze. Nalezeny vztahy konverze a převěšeny správně. Při té příležitosti
-odstraněna nesmyslná lemmata a vytvořena chybějící.
-- jak založit nový lexém?
-
 [JV, předdomluvené]
 Přechod na nový OFICIÁLNÍ MorfFlex. (viz LINDAT/CLARIAH)
 
-[?, prodiskutovat]
+[JV+LK, prodiskutovat]
 Klíče a hodnoty. Prodiskutovat finální podobu klíčů a hodnot tak, aby je šlo
 unifikovat napříč zdroji i v UDer. Ujasnit si význam sloupce pro OthRel. Dle
 výsledků diskuze následně změnit schéma.
