@@ -1,6 +1,6 @@
 .PHONY: clean
 
-derinet-2-0-5.tsv: derinet-2-0.tsv ../../../../data/annotations/cs/2019_12_06_enumerated_words/annotated/vyjmenovana-slova-sd-jv.tsv
+derinet-2-0-5.tsv: derinet-2-0.tsv ../../../../data/annotations/cs/2019_12_06_enumerated_words/annotated/vyjmenovana-slova-sd-jv.tsv ../../../../data/releases/cs/derinet-2-0.tsv
 	../../../data-api/derinet2/process_scenario.py \
 		Load "$<" \
 		cs.CopyAspect ../../../../data/releases/cs/derinet-2-0.tsv \
@@ -28,8 +28,12 @@ derinet-2-0-5.tsv: derinet-2-0.tsv ../../../../data/annotations/cs/2019_12_06_en
 derinet-2-0.tsv: ../2.0/derinet-2-0.tsv
 	cp -a "$<" "$@"
 
+../../../../data/releases/cs/derinet-2-0.tsv:
+	zcat ../../../../data/releases/cs/derinet-2-0.tsv.gz > ../../../../data/releases/cs/derinet-2-0.tsv
+
 clean:
 	rm -f log derinet-2-0-5.tsv derinet-2-0.tsv
 	rm -rf ../../../../data/annotations/cs/2020_03_loanwords/__pycache__/
 	rm -rf ../../../../data/annotations/cs/2020_07_conjugation_class/__pycache__/
 	$(MAKE) -C ../../../../data/annotations/cs/2019_12_06_enumerated_words/annotated/ clean
+	rm -f ../../../../data/releases/cs/derinet-2-0.tsv
