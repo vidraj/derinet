@@ -5,7 +5,7 @@ import re
 import typing
 
 from .lexeme import Lexeme
-from .relation import DerivationalRelation, CompoundRelation, ConversionRelation
+from .relation import DerivationalRelation, CompoundRelation, ConversionRelation, VariantRelation
 from .utils import DerinetError, DerinetFileParseError, DerinetLexemeDeleteError, parse_v1_id, parse_v2_id, format_kwstring, parse_kwstring
 
 
@@ -730,4 +730,8 @@ class Lexicon(object):
 
     def add_conversion(self, source, target, feats=None):
         rel = ConversionRelation(source, target, feats=feats)
+        rel.add_to_lexemes()
+
+    def add_variant(self, source, target, feats=None):
+        rel = VariantRelation(source, target, feats=feats)
         rel.add_to_lexemes()

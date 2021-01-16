@@ -199,3 +199,17 @@ class ConversionRelation(Relation):
     @property
     def type(self):
         return "Conversion"
+
+
+class VariantRelation(Relation):
+    """
+    A 1-to-1 relation used for spelling variants.
+    """
+    __slots__ = ()
+
+    def __init__(self, source, target, feats=None):
+        super().__init__((source,), source, (target,), target, feats=feats)
+
+    @property
+    def type(self):
+        return "Variant"
