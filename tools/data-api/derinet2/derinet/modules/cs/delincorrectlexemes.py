@@ -16,13 +16,50 @@ class DelIncorrectLexemes(Block):
         self.fname = fname
 
     def process(self, lexicon: Lexicon):
-        """Load list of lexemes and delete them from the database."""
+        """Load list of lexemes and delete them from the database.
+        Format: lemma TAB pos TAB gender TAB animacy
+        where only lemma is obligatory."""
 
-        with open(self.fname, mode='rt', encoding='U8') as f:
+        with open(self.fname, mode='r', encoding='U8') as f:
             for line in f:
-                lemmas = lexicon.get_lexemes(lemma=line.strip())
+                line = line.strip().split('\t')
+
+                if len(line) == 1:  # only lemma given
+                    lemmas = lexicon.get_lexemes(lemma=line[0])
+
+                elif len(line) == 2:  # lemma + pos
+                    lemmas = lexicon.get_lexemes(lemma=line[0], pos=line[1])
+
+                elif len(line) == 3:  # lemma + pos + gender
+                    lemmas = lexicon.get_lexemes(lemma=line[0], pos=line[1])
+                    lemmas = [l for l in lemmas
+                              if l.feats.get('Gender', 'x') == line[2]]
+
+                elif len(line) == 4:  # lemma + pos + gender + animacy
+                    lemmas = lexicon.get_lexemes(lemma=line[0], pos=line[1])
+                    lemmas = [l for l in lemmas
+                              if l.feats.get('Gender', '') == line[2]
+                              and l.feats.get('Animacy', '') == line[3]]
+
+                elif len(line) > 4:
+                    logger.warning('The given line has too many arguments: {}.'
+                                   .format(line.strip()))
+                    continue
+
+                if len(lemmas) < 1:
+                    logger.info('Lexeme {} not found.'.format(line[0]))
+
                 for lemma in lemmas:
+                    # delete relations manually
+                    for rel in lemma.parent_relations:
+                        rel.remove_from_lexemes()
+                    for rel in lemma.child_relations:
+                        rel.remove_from_lexemes()
+
+                    # delete lexeme
                     lexicon.delete_lexeme(lexeme=lemma, delete_relations=True)
+                    logger.info('Lemma: {} was deleted incl. its relations.'
+                                .format(lemma))
 
         return lexicon
 
