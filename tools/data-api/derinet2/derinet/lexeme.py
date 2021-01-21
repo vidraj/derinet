@@ -483,7 +483,7 @@ class Lexeme(object):
             self._feats[feature] = value
 
     def _pprint_subtree_indented(self, indent_first, indent_next):
-        line = indent_first + str(self)
+        line = indent_first + str(self.lemid).replace("#", " ")
         lines = [line]
         # TODO handle non-derivational relations and otherrels.
         children = self.children
