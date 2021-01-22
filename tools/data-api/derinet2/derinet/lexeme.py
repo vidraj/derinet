@@ -91,7 +91,7 @@ class Lexeme(object):
         )
 
     def __str__(self):
-        return "{}#{}".format(self.techlemma, self.pos)
+        return self.lemid or "{}#{}".format(self.lemma, self.pos)
 
     def __lt__(self, other):
         assert isinstance(other, Lexeme)
