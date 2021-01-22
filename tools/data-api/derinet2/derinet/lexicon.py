@@ -642,10 +642,13 @@ class Lexicon(object):
         # TODO verify that the lexeme is in the _data
 
         if delete_relations:
-            for rel in lexeme.parent_relations:
-                rel.remove_from_lexemes()
-            for rel in lexeme.child_relations:
-                rel.remove_from_lexemes()
+            # Since the deletion modifies the relation lists, we have
+            #  to generate them one-by-one instead of using
+            #  `for rel in lexeme.parent_relations`.
+            while lexeme.parent_relations:
+                lexeme.parent_relations[0].remove_from_lexemes()
+            while lexeme.child_relations:
+                lexeme.child_relations[0].remove_from_lexemes()
 
         if lexeme.parent_relations or lexeme.child_relations:
             raise DerinetLexemeDeleteError("The lexeme {} has existing relations, cannot delete it".format(lexeme))
