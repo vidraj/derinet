@@ -105,7 +105,7 @@ Nalezeny rodiče, zanotováno. Modul: *addderivations.py*
 
 
 
-Release 2.0.6 (slouží jako 'interní' verze pro analýzu variant)
+Release 2.0.6 (slouží jako 'interní' verze, hlavně pro analýzu variant)
 -----------------
 
 [LK, hotovo]
@@ -121,27 +121,26 @@ Při té příležitosti odstraněna nesmyslná lemmata.
 - cs.DelIncorrectLexemes ../../../../data/annotations/cs/2021_01_conversion/into-derinet/lexemes-to-delete.tsv
 - cs.AddConversions ../../../../data/annotations/cs/2021_01_conversion/into-derinet/relations-of-conversion.tsv
 
-
-
-
-Release 2.0.7, příp. 2.1 (přeskočí 2.0.6 a bude navazovat na starší 2.0.5)
------------------
+[LK, hotovo]
+Cizí slova. 2021_02_cognet_cognates + 2021_02_foreign_mark_to_loanword.
+Sloučeny Loanwords a anotace kognátů od JB. Sloučena značka Foreign z
+releasu 2.0 s Loanwords. Značka Foreign z dat odebrána. Značka Loanwords má
+hodnoty True (je cizí slovo), False (není cizí slovo); pokud lemma nemá značku
+Loanwords, znamená to, že neprošlo anotací. Bez značky Loanwords jsou také
+všechna propria a celé jejich podstromy.
+- cs.AddLoanwordMarks ../../../../data/annotations/cs/2021_02_cognet_cognates/hand-annotated/loanwords-trees-annotated.tsv
+- cs.AddLoanwordMarks ../../../../data/annotations/cs/2021_02_foreign_mark_to_loanword/hand-annotated/loanwords-trees-annotated.tsv
+- cs.CheckLoanwordPropriums
+- cs.RemoveForeignMark
 
 [LK, chybí analýza]
-Opravené varianty. 2021_01_spelling_variants. Pro každé hnízdo variant (např.
-extremismus, extrémismus, extremizmus, extrémizmus) zvolit jedno základní a
-ostatní pověsit přímo na něj. Takže citronový by viselo na citrónový, ne na
-citron, a mělo by značku pro variantu.
-- přeskočit 2.0.6 a nahrát celé varianty včetně oprav znovu
-- cs.AddVariants ../../../../data/annotations/cs/2021_01_spelling_variants/nsets-spelling-variants.tsv
-- plus opravy
+Oprava variant. 2021_01_spelling_variants. Analýza skriptem i vizualizací.
 
-[LK, hotovo]
-Konverze. 2021_01_conversion. Nalezeny vztahy konverze a převěšeny správně.
-Při té příležitosti odstraněna nesmyslná lemmata.
-- přeskočit 2.0.6 a nahrát celé anotace znovu
-- cs.DelIncorrectLexemes ../../../../data/annotations/cs/2021_01_conversion/into-derinet/lexemes-to-delete.tsv
-- cs.AddConversions ../../../../data/annotations/cs/2021_01_conversion/into-derinet/relations-of-conversion.tsv
+
+
+
+Release 2.0.7, příp. 2.1
+-----------------
 
 [LK, data předpřipravená, prodiskutovat, chybí moduly]
 (Ne)motivovanost. 2020_01_motivation_of_tree_root_nodes. Fantomové lexémy a
