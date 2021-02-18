@@ -43,8 +43,9 @@ class AddLoanwordMarks(Block):
 
         # go through lexicon
         for lexeme in lexicon.iter_lexemes():
-            label = assigned.get('_'.join([lexeme.lemma, lexeme.pos]), False)
-            lexeme.feats['Loanword'] = label
+            label = assigned.get('_'.join([lexeme.lemma, lexeme.pos]), '')
+            if label is True or label is False:
+                lexeme.feats['Loanword'] = label
 
         return lexicon
 
