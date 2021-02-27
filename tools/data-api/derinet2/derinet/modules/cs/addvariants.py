@@ -138,6 +138,50 @@ class AddVariants(Block):
                         lexicon.add_derivation(source=repre,
                                                target=child)
 
+        # check lexicon; whether some node hangs on other spelling variant
+        for lexeme in lexicon.iter_lexemes():
+            if lexeme.parent and lexeme.parent_relation.type == 'Variant':
+                for child in lexeme.iter_subtree():
+                    if lexeme == child:
+                        continue
+
+                    if child.parent_relation.type == 'Variant':
+                        logger.info('Relation between lexeme {} and '
+                                    'lexeme {} was reconnected as '
+                                    'Variant relation between lexeme {} and '
+                                    'lexeme {}.'
+                                    .format(lexeme, child,
+                                            lexeme.parent, child))
+                        child.parent_relation.remove_from_lexemes()
+                        lexicon.add_variant(source=lexeme.parent, target=child)
+
+                    elif child.parent_relation.type == 'Derivation':
+                        logger.info('Relation between lexeme {} and '
+                                    'lexeme {} was reconnected as '
+                                    'Derivation relation between lexeme {} and'
+                                    ' lexeme {}.'
+                                    .format(lexeme, child,
+                                            lexeme.parent, child))
+                        child.parent_relation.remove_from_lexemes()
+                        lexicon.add_derivation(source=lexeme.parent,
+                                               target=child)
+
+                    elif child.parent_relation.type == 'Conversion':
+                        logger.info('Relation between lexeme {} and '
+                                    'lexeme {} was reconnected as '
+                                    'Conversion relation between lexeme {} and'
+                                    ' lexeme {}.'
+                                    .format(lexeme, child,
+                                            lexeme.parent, child))
+                        child.parent_relation.remove_from_lexemes()
+                        lexicon.add_conversion(source=lexeme.parent,
+                                               target=child)
+
+                    else:
+                        logger.warning('Relation between {} and {} is not'
+                                       ' Variant, Derivation, or Conversion!'
+                                       .format(lexeme, child))
+
         return lexicon
 
     @staticmethod
