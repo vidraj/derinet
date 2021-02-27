@@ -9,6 +9,8 @@ derinet-2-0-6.tsv: derinet-2-0-5.tsv
 		cs.AddLoanwordMarks ../../../../data/annotations/cs/2021_02_foreign_mark_to_loanword/hand-annotated/loanwords-trees-annotated.tsv \
 		cs.AddConversions ../../../../data/annotations/cs/2021_01_conversion/into-derinet/relations-of-conversion.tsv \
 		cs.AddVariants ../../../../data/annotations/cs/2021_01_spelling_variants/v1/nsets-spelling-variants.tsv \
+		cs.AddDerivations ../../../../data/annotations/cs/2021_01_spelling_variants/v2/into-derinet-derivations.tsv \
+		cs.AddVariants ../../../../data/annotations/cs/2021_01_spelling_variants/v2/into-derinet-variants.tsv \
 		cs.CheckLoanwordPropriums \
 		cs.RemoveForeignMark \
 		Save "$@" > log 2>&1
