@@ -359,6 +359,10 @@ class Lexicon(object):
 
                     elif t == "Conversion":
                         self.add_conversion(parent_lexeme, lexeme, feats=reltype)
+
+                    elif t == "Variant":
+                        self.add_variant(parent_lexeme, lexeme, feats=reltype)
+
                     else:
                         raise DerinetFileParseError("Unknown relation type {} on line nr. {}".format(t, line_nr))
 
