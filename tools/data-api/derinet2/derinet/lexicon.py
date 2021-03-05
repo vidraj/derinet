@@ -524,7 +524,9 @@ class Lexicon(object):
 
                     reltype = {}
                     if lexeme.parent_relation:
-                        reltype = lexeme.parent_relation.feats
+                        # We need to add features to the reltype, so
+                        #  copy it to prevent clobbering the original.
+                        reltype = lexeme.parent_relation.feats.copy()
 
                         # TODO proper check instead of an assert.
                         assert "Type" not in reltype
