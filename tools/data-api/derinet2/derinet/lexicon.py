@@ -57,7 +57,7 @@ class Format(enum.Enum):
 class Lexicon(object):
     __slots__ = [   # If you update __slots__, make sure to also update _load_pickle_v4!
         "_data",   # An array of Lexemes.
-        "_index",  # _index[lemma][pos] = [Lexeme]
+        "_index",  # _index[lemma][pos] = [index of Lexeme in _data]
     ]
 
     def __init__(self):
@@ -598,16 +598,17 @@ class Lexicon(object):
         lexeme = Lexeme(lemma, pos, lemid, feats, misc)
 
         # Add the lexeme to the datastore.
+        idx = len(self._data)
         self._data.append(lexeme)
 
-        # Add the lexeme to the lemma-pos index.
-        # This is too slow, do not use: # self._index.setdefault(lexeme.lemma, {}).setdefault(lexeme.pos, []).append(lexeme)
+        # Add the lexeme idx to the lemma-pos index.
+        # This is too slow, do not use: # self._index.setdefault(lexeme.lemma, {}).setdefault(lexeme.pos, []).append(idx)
         if lexeme.lemma not in self._index:
-            self._index[lexeme.lemma] = {lexeme.pos: [lexeme]}
+            self._index[lexeme.lemma] = {lexeme.pos: [idx]}
         elif lexeme.pos not in self._index[lexeme.lemma]:
-            self._index[lexeme.lemma][lexeme.pos] = [lexeme]
+            self._index[lexeme.lemma][lexeme.pos] = [idx]
         else:
-            self._index[lexeme.lemma][lexeme.pos].append(lexeme)
+            self._index[lexeme.lemma][lexeme.pos].append(idx)
 
         # TODO add the lexeme to the other indices.
 
@@ -659,10 +660,39 @@ class Lexicon(object):
         if lexeme.parent_relations or lexeme.child_relations:
             raise DerinetLexemeDeleteError("The lexeme {} has existing relations, cannot delete it".format(lexeme))
 
-        # May raise ValueError, we consider propagating it just fine.
-        # TODO maybe provide a better error message?
-        self._data.remove(lexeme)
-        self._index[lexeme.lemma][lexeme.pos].remove(lexeme)
+        homonym_index = self._index[lexeme.lemma][lexeme.pos]
+        # `idx` is an index of the lexeme in `self._data`.
+        # `index_idx` is an index of the `idx` in the homonym list in
+        #  `_index`... confusing naming.
+        for index_idx, idx in enumerate(homonym_index):
+            if self._data[idx] == lexeme:
+                break
+        else:
+            raise ValueError("The lexeme '{}' to delete was not found in the index".format(lexeme))
+
+        # Delete lexeme from the _index. If it's at the last position,
+        #  just pop the list. If it's elsewhere, put the last element
+        #  in its place and then pop.
+        if index_idx < len(homonym_index) - 1:
+            homonym_index[index_idx] = homonym_index[-1]
+        homonym_index.pop()
+
+        # Similarly, delete lexeme from _data by popping the list.
+        assert self._data[idx] == lexeme, "Indexes are wrong, the lexeme to delete is not at the expected place in _data!"
+        if idx < len(self._data) - 1:
+            # Because we're reordering the _data, we have to reindex
+            #  the moved item.
+            idx_to_move = len(self._data) - 1
+            lexeme_to_move = self._data[idx_to_move]
+
+            # Find out where in the index it is indexed.
+            moved_homonym_index = self._index[lexeme_to_move.lemma][lexeme_to_move.pos]
+            moved_index_idx = moved_homonym_index.index(idx_to_move)
+
+            # Move it to the index of the removed lexeme.
+            moved_homonym_index[moved_index_idx] = idx
+            self._data[idx] = lexeme_to_move
+        self._data.pop()
 
     def delete_subtree(self, lexeme):
         raise NotImplementedError()
@@ -681,21 +711,22 @@ class Lexicon(object):
             match_list = match_set.get(pos, [])
         else:
             # Flatten the list of lists into a single list.
-            match_list = [lexeme for pos_list in match_set.values() for lexeme in pos_list]
+            match_list = [lexeme_idx for pos_list in match_set.values() for lexeme_idx in pos_list]
 
         if lemid is not None:
-            match_list = [lexeme for lexeme in match_list if lexeme.lemid == lemid]
+            match_list = [lexeme_idx for lexeme_idx in match_list if self._data[lexeme_idx].lemid == lemid]
 
         if techlemma is not None:
-            match_list_techlemma = [lexeme for lexeme in match_list if lexeme.techlemma == techlemma]
+            match_list_techlemma = [lexeme_idx for lexeme_idx in match_list if self._data[lexeme_idx].techlemma == techlemma]
             if techlemma_match_fuzzy and not match_list_techlemma:
                 # If the user wants to use the techlemmas only as an advice and there is no lexeme matching
                 #  the techlemma, fall back to non-techlemmatical matches.
+                # TODO also match prefixes – stát-2 matches stát-2_XYZ better than stát-1
                 match_list_techlemma = match_list
         else:
             match_list_techlemma = match_list
 
-        return match_list_techlemma
+        return [self._data[lexeme_idx] for lexeme_idx in match_list_techlemma]
 
     def iter_lexemes(self, sort=False):
         """
