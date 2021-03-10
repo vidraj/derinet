@@ -11,6 +11,7 @@ derinet-2-0-6.tsv: derinet-2-0-5.tsv
 		cs.AddVariants ../../../../data/annotations/cs/2021_01_spelling_variants/v1/nsets-spelling-variants.tsv \
 		cs.AddDerivations ../../../../data/annotations/cs/2021_01_spelling_variants/v2/into-derinet-derivations.tsv \
 		cs.AddVariants ../../../../data/annotations/cs/2021_01_spelling_variants/v2/into-derinet-variants.tsv \
+		cs.AddVariants ../../../../data/annotations/cs/2021_01_spelling_variants/v3/into-derinet-variants-gaps.tsv \
 		cs.CheckLoanwordPropriums \
 		cs.RemoveForeignMark \
 		Save "$@" > log 2>&1
