@@ -172,7 +172,6 @@ Magda_NOUN Majda_NOUN
 Magdalenin_ADJ Magdalénin_ADJ Majdalenin_ADJ
 Magdalenka_NOUN Magdalénka_NOUN Majdalenka_NOUN
 Magdalénčin_ADJ Majdalenčin_ADJ
-Maja_NOUN Majka_NOUN
 Marcinek_NOUN Martinek_NOUN Martynek_NOUN
 Marcineková_NOUN Martineková_NOUN
 Marcinkův_ADJ Martinkův_ADJ
@@ -181,13 +180,9 @@ Marcinová_NOUN Martinová_NOUN Martynová_NOUN
 Marcinův_ADJ Martinův_ADJ Martynův_ADJ
 Marcosová_NOUN Marcusová_NOUN Markusová_NOUN
 Marcosův_ADJ Marcusův_ADJ Markosův_ADJ Markusův_ADJ
-Marian_NOUN Marien_NOUN Marijan_NOUN Marián_NOUN Marjan_NOUN
 Mariana_NOUN Mariána_NOUN
 Marianek_NOUN Mariánek_NOUN
 Mariankův_ADJ Mariánkův_ADJ
-Mariin_ADJ Marijin_ADJ Marjin_ADJ
-Marijin_ADJ Marjin_ADJ
-Mariková_NOUN Marková_NOUN
 Marketin_ADJ Markétin_ADJ
 Mauriciův_ADJ Maurikiův_ADJ Mauritiův_ADJ
 Maří_NOUN Máří_NOUN
@@ -231,7 +226,6 @@ Pythonův_ADJ Pýthónův_ADJ
 Raabův_ADJ Ráabův_ADJ
 Rafaelův_ADJ Raffaelův_ADJ Raphaelův_ADJ
 Rafflův_ADJ Raflův_ADJ
-Rainův_ADJ Reinův_ADJ
 Reynkův_ADJ Rejnkův_ADJ
 Ricardův_ADJ Riccardův_ADJ Richardův_ADJ Rickardův_ADJ
 Rodgersová_NOUN Rogersová_NOUN
@@ -7527,3 +7521,5 @@ zčlověčivší_ADJ zčlověčtivší_ADJ
 žonglerskost_NOUN žonglérskost_NOUN
 žonglersky_ADV žonglérsky_ADV
 žonglerství_NOUN žonglérství_NOUN
+Ahmed_NOUN Ahmad_NOUN Achmad_NOUN Achmed_NOUN
+Ahmedův_ADJ Ahmadův_NOUN  Achmadův_ADJ Achmedův_ADJ
