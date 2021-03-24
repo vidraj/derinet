@@ -133,9 +133,9 @@ všechna propria a celé jejich podstromy.
 - cs.CheckLoanwordPropriums
 - cs.RemoveForeignMark
 
-[LK, chybí analýza]
+[LK, hotovo]
 Oprava variant. 2021_01_spelling_variants. Analýza skriptem i vizualizací.
-
+Ruční opravy v 2021_01_spelling_variants.
 
 
 
@@ -147,6 +147,12 @@ Release 2.0.7, příp. 2.1
 vztahy s nimi spojené.
 - jak založit fantomový lexém a nahrát vztahy s phantomovými rodiči?
 - prodiskutovat phantomové rodiče z této anotace
+
+[LK, nutné zkontrolovat a dokončit před vydáním]
+Cizí slova. Některé lexémy, vlivem rozšiřování lemmasetu při přechodu na nový
+MorfFlexCZ nemají značku Loanwords (byť by ji mít měly, protože jsou
+malopísmenné). Je potřeba takové rodiny analyzovat a ručně doprojít podobně
+jako předchozí dávky cizích slov.
 
 [JV, předdomluvené]
 Přechod na nový OFICIÁLNÍ MorfFlex. (viz LINDAT/CLARIAH)
