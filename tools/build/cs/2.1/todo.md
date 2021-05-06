@@ -105,7 +105,7 @@ Nalezeny rodiče, zanotováno. Modul: *addderivations.py*
 
 
 
-Release 2.0.6 (slouží jako 'interní' verze, hlavně pro analýzu variant)
+Release 2.0.6
 -----------------
 
 [LK, hotovo]
@@ -139,7 +139,7 @@ Ruční opravy v 2021_01_spelling_variants.
 
 
 
-Release 2.0.7, příp. 2.1
+Release 2.1
 -----------------
 
 [LK, data předpřipravená, prodiskutovat, chybí moduly]
@@ -160,7 +160,7 @@ Přechod na nový OFICIÁLNÍ MorfFlex. (viz LINDAT/CLARIAH)
 [JV+LK, prodiskutovat]
 Klíče a hodnoty. Prodiskutovat finální podobu klíčů a hodnot tak, aby je šlo
 unifikovat napříč zdroji i v UDer. Ujasnit si význam sloupce pro OthRel. Dle
-výsledků diskuze následně změnit schéma.
+výsledků diskuze následně upravit schéma.
 
 
 
