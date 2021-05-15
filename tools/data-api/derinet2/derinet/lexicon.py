@@ -755,6 +755,9 @@ class Lexicon(object):
     def iter_relations(self):
         raise NotImplementedError()
 
+    def lexeme_count(self):
+        return len(self._data)
+
     def add_derivation(self, source, target, feats=None):
         rel = DerivationalRelation(source, target, feats=feats)
         rel.add_to_lexemes()
