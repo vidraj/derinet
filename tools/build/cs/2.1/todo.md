@@ -153,6 +153,13 @@ Přechod na nový OFICIÁLNÍ MorfFlex. (viz LINDAT/CLARIAH)
 
 [JV, vytvořit moduly a přidat anotace]
 Univerbizáty z ručních anotací. Přidat nový typ hrany, typ atd.
+Univerbizace. MŠ a ZŽ mají manuálně anotovaná a pročištěná data univerbátů.
+Jedná se o vztahu typu "minerál+ka < minerální voda", v některých koncepcích
+ale také "hovězí.A < hovězí maso". Je potřeba postzprocesovat data a rozhodnout,
+jak chceme univerbizaci zachycovat, např.
+(i) jako Type="Derivation" ale se dvěma linky, což může být komplikované
+technicky (API předpokládá, že derivace má jednoho rodiče), nebo
+(ii) nový typ relace Type="Univerbization" mající dva linky.
 
 [JB, vytvořit moduly a přidat anotace]
 Segmentace. Přidat nové ruční anotace od Šárky.
