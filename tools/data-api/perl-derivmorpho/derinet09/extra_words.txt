@@ -1324,3 +1324,7 @@ zažnout	V
 # Needed by AddAdj2AdvByRules
 ukradnutý	AA
 ukradnutelný	AA
+
+# Deleted between MorfFlex devel from 2020-07-20 and MorfFlex 2.0
+nezbytný	AA
+nezvěstný	AA
