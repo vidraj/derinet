@@ -1,14 +1,12 @@
-Anotace do DeriNetu před verzí 2.2
+Anotace do DeriNetu 2.2 (případně 2.1.x)
 =============================
 
-Release 2.1.x
+Release 2.x
 -----------------
 
-[ZŽ+MŠ+LK+JV, otevřené]
-Univerbizace. MŠ a ZŽ mají manuálně anotovaná a pročištěná data univerbátů.
-Jedná se o vztahu typu "minerál+ka < minerální voda", v některých koncepcích
-ale také "hovězí.A < hovězí maso". Je potřeba postzprocesovat data a rozhodnout,
-jak chceme univerbizaci zachycovat, např.
-(i) jako Type="Derivation" ale se dvěma linky, což může být komplikované
-technicky (API předpokládá, že derivace má jednoho rodiče), nebo
-(ii) nový typ relace Type="Univerbization" mající dva linky.
+[LK, data předpřipravená, prodiskutovat, chybí moduly; ZATÍM NEPŘIDÁVAT]
+(Ne)motivovanost. 2020_01_motivation_of_tree_root_nodes. Fantomové lexémy a
+vztahy s nimi spojené. Fantomové lexémy zatím nepřidávat, uvídíme později.
+- jak založit fantomový lexém a nahrát vztahy s phantomovými rodiči?
+- prodiskutovat phantomové rodiče z této anotace
+
