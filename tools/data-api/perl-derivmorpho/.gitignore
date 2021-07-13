@@ -1,4 +1,5 @@
 data/czech-morfflex-pdt-*.zip
+data/czech-morfflex-*.xz
 data/models/morphodita
 data/morfflex-cz.*.utf8.lemmaID_suff-tag-form.tab.csv.xz
 
@@ -17,3 +18,4 @@ derinet-1-3/derinet-1-3.tsv
 derinet-1-3/derinet-*.tsv.gz
 
 derinet-*.tsv.gz
+derinet-*.tsv
