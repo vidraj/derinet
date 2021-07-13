@@ -3,6 +3,9 @@
 derinet-2-1.tsv: derinet-2-0-6.tsv
 	../../../data-api/derinet2/process_scenario.py \
 		Load "$<" \
+		cs.AddLoanwordMarks ../../../../data/annotations/cs/2021_07_foreign_mark_final_after_new_morfflex/hand-annotated/loanwords-trees-automatical-annotated.tsv \
+		cs.AddLoanwordMarks ../../../../data/annotations/cs/2021_07_foreign_mark_final_after_new_morfflex/hand-annotated/loanwords-trees-annotated.tsv \
+		cs.CheckLoanwordPropriums \
 		Save "$@" > log 2>&1
 
 derinet-2-0-6.tsv: ../2.0.6/derinet-2-0-6.tsv

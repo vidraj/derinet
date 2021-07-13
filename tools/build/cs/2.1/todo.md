@@ -142,14 +142,14 @@ Ruční opravy v 2021_01_spelling_variants.
 Release 2.1
 -----------------
 
-[LK, data předpřipravená, prodiskutovat, chybí moduly; ZATÍM NEPŘIDÁVAT]
-(Ne)motivovanost. 2020_01_motivation_of_tree_root_nodes. Fantomové lexémy a
-vztahy s nimi spojené. Fantomové lexémy zatím nepřidávat, uvídíme později.
-- jak založit fantomový lexém a nahrát vztahy s phantomovými rodiči?
-- prodiskutovat phantomové rodiče z této anotace
-
-[JV, předdomluvené]
+[JV, hotovo]
 Přechod na nový OFICIÁLNÍ MorfFlex. (viz LINDAT/CLARIAH)
+
+[LK, hotovo]
+Cizí slova. Některé lexémy, vlivem rozšiřování lemmasetu při přechodu na nový
+MorfFlexCZ nemají značku Loanwords (byť by ji mít měly, protože jsou
+malopísmenné). Je potřeba takové rodiny analyzovat a ručně doprojít podobně
+jako předchozí dávky cizích slov.
 
 [JV, vytvořit moduly a přidat anotace]
 Univerbizáty z ručních anotací. Přidat nový typ hrany, typ atd.
@@ -165,19 +165,7 @@ technicky (API předpokládá, že derivace má jednoho rodiče), nebo
 Segmentace. Přidat nové ruční anotace od Šárky.
 
 [ES, vytvořit moduly a přidat anotace]
-Kompozita. Přidat anotace nových kompozit.
-
-[LK, nutné zkontrolovat a dokončit před vydáním releasu]
-Cizí slova. Některé lexémy, vlivem rozšiřování lemmasetu při přechodu na nový
-MorfFlexCZ nemají značku Loanwords (byť by ji mít měly, protože jsou
-malopísmenné). Je potřeba takové rodiny analyzovat a ručně doprojít podobně
-jako předchozí dávky cizích slov.
-
-[JV+LK, prodiskutovat]
-Klíče a hodnoty. Prodiskutovat finální podobu klíčů a hodnot tak, aby je šlo
-unifikovat napříč zdroji i v UDer. Ujasnit si význam sloupce pro OthRel. Dle
-výsledků diskuze následně upravit schéma.
-
+Kompozita. Přidat anotace nových kompozit, včetně nových fantomových lexémů.
 
 
 
