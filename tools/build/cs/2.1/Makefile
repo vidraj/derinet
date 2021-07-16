@@ -6,6 +6,7 @@ derinet-2-1.tsv: derinet-2-0-6.tsv
 		cs.AddLoanwordMarks ../../../../data/annotations/cs/2021_07_foreign_mark_final_after_new_morfflex/hand-annotated/loanwords-trees-automatical-annotated.tsv \
 		cs.AddLoanwordMarks ../../../../data/annotations/cs/2021_07_foreign_mark_final_after_new_morfflex/hand-annotated/loanwords-trees-annotated.tsv \
 		cs.CheckLoanwordPropriums \
+		cs.AddPhantomLexemes ../../../../data/annotations/cs/2021_07_phantom_lexemes/phantom_chunks.tsv \
 		Save "$@" > log 2>&1
 
 derinet-2-0-6.tsv: ../2.0.6/derinet-2-0-6.tsv
