@@ -5,6 +5,7 @@ derinet-2-1.tsv: derinet-2-0-6.tsv
 		Load "$<" \
 		cs.AddLoanwordMarks ../../../../data/annotations/cs/2021_07_foreign_mark_final_after_new_morfflex/hand-annotated/loanwords-trees-automatical-annotated.tsv \
 		cs.AddLoanwordMarks ../../../../data/annotations/cs/2021_07_foreign_mark_final_after_new_morfflex/hand-annotated/loanwords-trees-annotated.tsv \
+		cs.AddUniverbisation ../../../../data/annotations/cs/2021_06_univerbisation/dataset_cely.txt \
 		cs.CheckLoanwordPropriums \
 		Save "$@" > log 2>&1
 
