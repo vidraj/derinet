@@ -1,7 +1,6 @@
 from derinet import Block, Format, Lexicon, DerinetMorphError
 import argparse
 import logging
-import pandas as pd
 
 logging.basicConfig(level=logging.DEBUG,
                     format='%(asctime)s %(levelname)-8s %(message)s',
@@ -10,35 +9,23 @@ logging.basicConfig(level=logging.DEBUG,
 logger = logging.getLogger(__name__)
 
 
-class AddCompounds(Block):
+class AddChunks(Block):
     def __init__(self, fname):
         # The arguments to __init__ are those that the parse_args method (below) returns.
         self.fname = fname
 
     def process(self, lexicon: Lexicon):
         """
-        Read dataframe in tsv of compounds in the form of three columns - compounds, pos, parents
-        parents have to be divided.by.dots
-        Add compound relations, if the given parent does not exist, a lexeme is created for it, being given an
-        'Unknown' POS
+        Read annotation in the form of a simple list of words separated by \n
+        The script assumes chunks are marked as -chunk-, it skips over words not thus marked
         """
 
-        newdf = pd.read_csv(self.fname, header=False, sep="\t")
+        with open(self.fname, "rt", encoding="utf-8", newline="\n") as f:
+            for line in f:
+                line = line.rstrip()
 
-        for i in range(0, len(newdf)):
-            parentlist = newdf['parents'][i].split(".")
-            word = newdf['compounds'][i]
-
-            lex = []
-            for parent in parentlist:
-                lst = lexicon.get_lexemes(parent)
-                if lst == []:
-                    lexicon.create_lexeme(parent, 'Unknown')
-                    lst = lexicon.get_lexemes(parent)
-                lex.append(lst[0])
-
-            word = lexicon.get_lexemes(word)[0]
-            lexicon.add_composition(lex, lex[-1], word)
+                if line.startswith("-") and line.endswith("-"):
+                    lexicon.create_lexeme(line, pos="Affixoid").add_feature(feature="Fictitious", value="Yes")
 
         return lexicon
 
