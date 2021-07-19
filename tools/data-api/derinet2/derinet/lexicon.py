@@ -5,7 +5,7 @@ import re
 import typing
 
 from .lexeme import Lexeme
-from .relation import DerivationalRelation, CompoundRelation, ConversionRelation, VariantRelation
+from .relation import DerivationalRelation, CompoundRelation, ConversionRelation, UniverbisationRelation, VariantRelation
 from .utils import DerinetError, DerinetFileParseError, DerinetLexemeDeleteError, parse_v1_id, parse_v2_id, format_kwstring, parse_kwstring
 
 
@@ -339,7 +339,7 @@ class Lexicon(object):
 
                     if t == "Derivation":
                         self.add_derivation(parent_lexeme, lexeme, feats=reltype)
-                    elif t == "Compounding":
+                    elif t == "Compounding" or t == "Univerbisation":
                         # This needs to be deferred, as the secondary
                         #  sources may not have been encountered yet.
                         #  But read and parse as much as possible anyway.
@@ -383,6 +383,8 @@ class Lexicon(object):
 
                 if reltype == "Compounding":
                     self.add_composition(parents, parent_lexeme, lexeme, feats=feats)
+                elif reltype == "Univerbisation":
+                    self.add_univerbisation(parents, parent_lexeme, lexeme, feats=feats)
                 else:
                     raise DerinetFileParseError("Unknown relation type {} on line nr. {}".format(reltype, line_nr))
 
@@ -769,6 +771,10 @@ class Lexicon(object):
 
     def add_composition(self, sources, main_source, target, feats=None):
         rel = CompoundRelation(sources, main_source, target, feats=feats)
+        rel.add_to_lexemes()
+
+    def add_univerbisation(self, sources, main_source, target, feats=None):
+        rel = UniverbisationRelation(sources, main_source, target, feats=feats)
         rel.add_to_lexemes()
 
     def add_conversion(self, source, target, feats=None):

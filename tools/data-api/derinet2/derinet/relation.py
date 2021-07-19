@@ -213,3 +213,17 @@ class VariantRelation(Relation):
     @property
     def type(self):
         return "Variant"
+
+
+class UniverbisationRelation(Relation):
+    """
+    A many-to-1 relation for univerbisation.
+    """
+    __slots__ = ()
+
+    def __init__(self, sources, main_source, target, feats=None):
+        super().__init__(sources, main_source, (target,), target, feats=feats)
+
+    @property
+    def type(self):
+        return "Univerbisation"
