@@ -109,10 +109,18 @@ class MeasurePrecisionRecall(Block):
             return self.stats[kind]["tn"] / negative
 
     def accuracy(self, kind):
-        return self.correct(kind) / self.total(kind)
+        if self.total(kind) == 0:
+            return 0.0
+        else:
+            return self.correct(kind) / self.total(kind)
 
     def f1(self, kind):
-        return (2 * self.stats[kind]["tp"]) / (2 * self.stats[kind]["tp"] + self.stats[kind]["fp"] + self.stats[kind]["fn"])
+        twotp = 2 * self.stats[kind]["tp"]
+        denom = twotp + self.stats[kind]["fp"] + self.stats[kind]["fn"]
+        if denom == 0:
+            return 0.0
+        else:
+            return twotp / denom
 
 
     def judge_correctness(self, lexicon, lexeme, possible_rels):
