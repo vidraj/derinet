@@ -35,9 +35,10 @@ class AddCompounds3(Block):
             lex = []
             for parent in parentlist:
                 lst = lexicon.get_lexemes(parent)
-                if lst == []:
-                    lst = [lexicon.create_lexeme(parent, 'Unknown')]
-                lex.append(lst[0])
+                if lst:
+                    lex.append(lst[0])
+                else:
+                    lex.append(lexicon.create_lexeme(parent, 'Unknown'))
 
             child = lexicon.get_lexemes(word, pos=pos)[0]
 
