@@ -28,6 +28,7 @@ class AddCompounds3(Block):
         for row in newdf.itertuples():
             parentlist = row.parents.split(".")
             word = row.compounds
+            pos = row.poses
 
             lex = []
             for parent in parentlist:
@@ -37,7 +38,7 @@ class AddCompounds3(Block):
                     lst = lexicon.get_lexemes(parent)
                 lex.append(lst[0])
 
-            child = lexicon.get_lexemes(word)[0]
+            child = lexicon.get_lexemes(word, pos=pos)[0]
             lexicon.add_composition(lex, lex[-1], child)
 
         return lexicon
