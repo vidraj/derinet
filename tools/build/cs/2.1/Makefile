@@ -7,8 +7,8 @@ derinet-2-1.tsv: derinet-2-0-6.tsv
 		cs.AddLoanwordMarks ../../../../data/annotations/cs/2021_07_foreign_mark_final_after_new_morfflex/hand-annotated/loanwords-trees-annotated.tsv \
 		cs.AddUniverbisation ../../../../data/annotations/cs/2021_06_univerbisation/dataset_cely.txt \
 		cs.CheckLoanwordPropriums \
-		cs.AddPhantomLexemes ../../../../data/annotations/cs/2021_07_phantom_lexemes/phantom_chunks.tsv \
 		cs.AddChunks ../../../../data/annotations/cs/2021_07_phantom_lexemes/phantom_chunks.tsv \
+		cs.AddPhantomLexemes ../../../../data/annotations/cs/2021_07_phantom_lexemes/phantom_chunks.tsv \
 		cs.AddCompounds3 ../../../../data/annotations/cs/2021_07_add_compounds3/compounds.tsv \
 		Save "$@" > log 2>&1
 
