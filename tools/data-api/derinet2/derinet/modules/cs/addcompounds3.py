@@ -37,8 +37,8 @@ class AddCompounds3(Block):
                     lst = lexicon.get_lexemes(parent)
                 lex.append(lst[0])
 
-            word = lexicon.get_lexemes(word)[0]
-            lexicon.add_composition(lex, lex[-1], word)
+            child = lexicon.get_lexemes(word)[0]
+            lexicon.add_composition(lex, lex[-1], child)
 
         return lexicon
 
