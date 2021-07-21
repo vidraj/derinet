@@ -38,7 +38,14 @@ class AddCompounds3(Block):
                 if lst:
                     lex.append(lst[0])
                 else:
-                    lex.append(lexicon.create_lexeme(parent, 'Unknown'))
+                    logger.warning("Lexeme for lemma '{}' not found, skipping.".format(parent))
+                    #lex.append(lexicon.create_lexeme(parent, 'Unknown'))
+                    lex = None
+                    break
+
+            if lex is None:
+                # Some parent lexemes were not found.
+                continue
 
             child = lexicon.get_lexemes(word, pos=pos)[0]
 
