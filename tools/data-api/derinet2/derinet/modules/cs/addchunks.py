@@ -23,9 +23,10 @@ class AddChunks(Block):
         with open(self.fname, "rt", encoding="utf-8", newline="\n") as f:
             for line in f:
                 line = line.rstrip()
+                mark, chunk = line.split("\t")
 
-                if line.startswith("-") and line.endswith("-"):
-                    lexicon.create_lexeme(line, pos="Affixoid").add_feature(feature="Fictitious", value="Yes")
+                if mark == "+" and chunk.startswith("-") and chunk.endswith("-"):
+                    lexicon.create_lexeme(chunk, pos="Affixoid").add_feature(feature="Fictitious", value="Yes")
 
         return lexicon
 
