@@ -41,6 +41,12 @@ class AddCompounds3(Block):
                 lex.append(lst[0])
 
             child = lexicon.get_lexemes(word, pos=pos)[0]
+
+            existing_rels = child.parent_relations
+            for rel in existing_rels:
+                logger.info("Disconnecting {} -- {}".format(word, rel))
+                rel.remove_from_lexemes()
+
             lexicon.add_composition(lex, lex[-1], child)
 
         return lexicon
