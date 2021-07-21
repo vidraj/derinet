@@ -30,6 +30,8 @@ class AddCompounds3(Block):
             word = row.compounds
             pos = row.poses
 
+            logger.debug("Compounding '{}' from '{}'".format(word, "', '".join(parentlist)))
+
             lex = []
             for parent in parentlist:
                 lst = lexicon.get_lexemes(parent)
