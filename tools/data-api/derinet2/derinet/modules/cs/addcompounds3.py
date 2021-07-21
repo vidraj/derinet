@@ -25,9 +25,9 @@ class AddCompounds3(Block):
 
         newdf = pd.read_csv(self.fname, header=None, names=['compounds', 'poses', 'parents'], sep="\t")
 
-        for i in range(0, len(newdf)):
-            parentlist = newdf['parents'][i].split(".")
-            word = newdf['compounds'][i]
+        for row in newdf.itertuples():
+            parentlist = row.parents.split(".")
+            word = row.compounds
 
             lex = []
             for parent in parentlist:
