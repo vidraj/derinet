@@ -10,6 +10,7 @@ derinet-2-1.tsv: derinet-2-0-6.tsv
 		cs.AddChunks ../../../../data/annotations/cs/2021_07_phantom_lexemes/phantom_chunks.tsv \
 		cs.AddPhantomLexemes ../../../../data/annotations/cs/2021_07_phantom_lexemes/phantom_chunks.tsv \
 		cs.AddCompounds3 ../../../../data/annotations/cs/2021_07_add_compounds3/compounds.tsv \
+		cs.AddSegmentation2 ../../../../data/annotations/cs/2021_07_generated_morphseg/segmentations.txt \
 		Save "$@" > log 2>&1
 
 derinet-2-0-6.tsv: ../2.0.6/derinet-2-0-6.tsv
