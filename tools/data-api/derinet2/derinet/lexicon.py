@@ -91,8 +91,8 @@ class Lexicon(object):
             switch[fmt](data_source)
         except DerinetFileParseError:
             raise
-        except DerinetError:
-            raise DerinetFileParseError("An error happened while parsing input file.")
+        except DerinetError as exc:
+            raise DerinetFileParseError("An error happened while parsing input file.") from exc
 
         return self
 
