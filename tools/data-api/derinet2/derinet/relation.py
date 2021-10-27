@@ -74,7 +74,7 @@ class Relation(object, metaclass=ABCMeta):  # Defining it as Relation(ABC) doesn
             return
 
         # Check for acyclicity.
-        to_check = [self.main_source]
+        to_check = list(self.sources)
         while to_check:
             lexeme_to_check = to_check.pop()
             if lexeme_to_check == self.main_target:
