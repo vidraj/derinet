@@ -362,7 +362,7 @@ class Lexicon(object):
 
                             deferred_relations.append((line_nr, t, parent_ids, parent_lexeme, lexeme, reltype))
                         else:
-                            raise DerinetFileParseError("Compounding needs multiple parents, but there are no other Sources on line nr. {}".format(line_nr))
+                            raise DerinetFileParseError("{} needs multiple parents, but there are no other Sources on line nr. {}.".format(t, line_nr))
 
                     elif t == "Conversion":
                         self.add_conversion(parent_lexeme, lexeme, feats=reltype)
