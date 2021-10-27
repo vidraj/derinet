@@ -66,7 +66,7 @@ class Lexicon(object):
         self._data = []
         self._index = {}
 
-    def load(self, data_source, fmt: Format = Format.DERINET_V2):
+    def load(self, data_source, fmt: Format = Format.DERINET_V2, on_err: str = "raise"):
         """
         Load data from data_source and append them to this instance of the lexicon.
         Returns the modified lexicon object for convenience.
@@ -74,6 +74,8 @@ class Lexicon(object):
         :param data_source: A string containing the file name to open or an object to read data
         from – typically an open file handle or a list of strings.
         :param fmt: The format of the data_source.
+        :param on_err: If "raise", will raise an exception, if "continue", will try to recover
+        and return partially parsed data.
         :return: The lexicon with the new data in it.
         """
         switch = {
@@ -87,8 +89,13 @@ class Lexicon(object):
                 "Loading from format {} is not supported, format type not recognized.".format(fmt)
             )
 
+        if on_err not in {"raise", "continue"}:
+            raise ValueError(
+                "Unsupported value '{}' for on_err, should be 'raise' or 'continue'.".format(on_err)
+            )
+
         try:
-            switch[fmt](data_source)
+            switch[fmt](data_source, on_err)
         except DerinetFileParseError:
             raise
         except DerinetError as exc:
@@ -96,7 +103,7 @@ class Lexicon(object):
 
         return self
 
-    def _load_derinet_v1(self, data_source):
+    def _load_derinet_v1(self, data_source, on_err):
         close_at_end = False
         if isinstance(data_source, str):
             # Act as if data_source is a filename to open.
@@ -247,7 +254,7 @@ class Lexicon(object):
 
             lexeme.add_morph(morph["Start"], morph["End"], morph)
 
-    def _load_derinet_v2(self, data_source):
+    def _load_derinet_v2(self, data_source, on_err):
         close_at_end = False
         if isinstance(data_source, str):
             # Act as if data_source is a filename to open.
@@ -393,7 +400,7 @@ class Lexicon(object):
             if close_at_end:
                 data_source.close()
 
-    def _load_pickle_v4(self, data_source):
+    def _load_pickle_v4(self, data_source, on_err):
         close_at_end = False
         if isinstance(data_source, str):
             # Act as if data_source is a filename to open.
