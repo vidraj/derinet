@@ -1,5 +1,6 @@
 import enum
 import json
+import logging
 import pickle
 import re
 import typing
@@ -8,6 +9,7 @@ from .lexeme import Lexeme
 from .relation import DerivationalRelation, CompoundRelation, ConversionRelation, UniverbisationRelation, VariantRelation
 from .utils import DerinetError, DerinetFileParseError, DerinetLexemeDeleteError, parse_v1_id, parse_v2_id, format_kwstring, parse_kwstring
 
+logger = logging.getLogger(__name__)
 
 # The main database.
 # Has a list of Lexemes and some caches of their properties for fast lookup.
@@ -337,9 +339,12 @@ class Lexicon(object):
                         raise DerinetFileParseError("Lexeme with ID {} on line nr. {} refers to an in-tree lexeme ID {}, which was not encountered yet.".format(lex_id_str, line_nr, parent_id_str))
 
                     if "Type" not in reltype:
-                        # raise DerinetFileParseError("Unspecified relation type on line nr. {}".format(line_nr))
-                        # Act as if the type was specified to be derivation.
-                        t = "Derivation"
+                        if on_err == "continue":
+                            # Act as if the type was specified to be derivation.
+                            logger.error("Unspecified relation type on line nr. %d; assuming derivation.", line_nr)
+                            t = "Derivation"
+                        else:
+                            raise DerinetFileParseError("Unspecified relation type on line nr. {}".format(line_nr))
                     else:
                         t = reltype["Type"]
                         del reltype["Type"]
@@ -361,6 +366,9 @@ class Lexicon(object):
                                 raise DerinetFileParseError("Unparseable parent ID encountered on line nr. {}".format(line_nr))
 
                             deferred_relations.append((line_nr, t, parent_ids, parent_lexeme, lexeme, reltype))
+                        elif on_err == "continue":
+                            logger.error("%s needs multiple parents, but there are no other Sources on line nr. %d. Adding a derivation instead.", t, line_nr)
+                            self.add_derivation(parent_lexeme, lexeme, feats=reltype)
                         else:
                             raise DerinetFileParseError("{} needs multiple parents, but there are no other Sources on line nr. {}.".format(t, line_nr))
 
@@ -370,6 +378,8 @@ class Lexicon(object):
                     elif t == "Variant":
                         self.add_variant(parent_lexeme, lexeme, feats=reltype)
 
+                    elif on_err == "continue":
+                        logger.error("Unknown relation type '%s' on line nr. %d, skipping.", t, line_nr)
                     else:
                         raise DerinetFileParseError("Unknown relation type {} on line nr. {}".format(t, line_nr))
 
@@ -389,9 +399,23 @@ class Lexicon(object):
                         raise DerinetFileParseError("Lexeme on line nr. {} references unknown parent lexeme ID {}".format(line_nr, id_str))
 
                 if reltype == "Compounding":
-                    self.add_composition(parents, parent_lexeme, lexeme, feats=feats)
+                    try:
+                        self.add_composition(parents, parent_lexeme, lexeme, feats=feats)
+                    except DerinetError as exc:
+                        if on_err == "continue":
+                            logger.error("Error adding compounding, skipping.", exc_info=exc)
+                            continue
+                        else:
+                            raise
                 elif reltype == "Univerbisation":
-                    self.add_univerbisation(parents, parent_lexeme, lexeme, feats=feats)
+                    try:
+                        self.add_univerbisation(parents, parent_lexeme, lexeme, feats=feats)
+                    except DerinetError as exc:
+                        if on_err == "continue":
+                            logger.error("Error adding univerbisation, skipping.", exc_info=exc)
+                            continue
+                        else:
+                            raise
                 else:
                     raise DerinetFileParseError("Unknown relation type {} on line nr. {}".format(reltype, line_nr))
 
