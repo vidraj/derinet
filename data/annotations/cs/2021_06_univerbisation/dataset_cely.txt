@@ -222,7 +222,7 @@ svařák-svařený víno
 svaťák-svatý týden
 svazák-člen svazu
 svěťák-světový rekord-světový pohár
-sýrař-výrobce sýru-výrobce sára
+sýrař-výrobce sýru-výrobce sýra
 špičák-špičatý zub
 šumák-šumící prášek
 táborák-táborový oheň
