@@ -121,7 +121,7 @@ cvaklo	cvak l -o	cvaknout	cvak nou -t
 červených	červen -ých	červený	červen -ý
 července	červen c -e	červenec	červen ec -0
 čeřili	čeř i l -i	čeřit	čeř i -t
-cti	ct -i	čest	čest .0
+cti	ct -i	čest	čest -0
 nečetných	ne čet n -ých	četný	čet n -ý
 četl	čet l -0	číst	čís -t
 nečisté	ne čist -é	čistý	čist -ý
@@ -636,7 +636,7 @@ nedávnem	ne dávn -em	nedávno	ne dávn -o
 nechutí	ne chut -í	nechuť	ne chuť -0
 nemluvňat	ne mluv ň at -0	nemluvně	ne mluv n -ě
 nemocnici	ne moc nic -e	nemocnice	ne moc nic -e
-nenapravitelně	ne na prav i teln -ě	napravitelně	ne na prav i teln -ě
+nenapravitelně	ne na prav i teln -ě	nenapravitelně	ne na prav i teln -ě
 nepaměti	ne pamět -i	nepaměť	ne paměť -0
 nespokojeností	ne s po koj en ost -í	nespokojenost	ne s po koj en ost -0
 nezvyklými	ne z vyk l -ými	nezvyklý	ne z vyk l -ý
@@ -915,7 +915,7 @@ povolán	po vol á n -0	povolat	po vol a -t
 nepovšiml	ne po všim l -0	povšimnout	po všim nou -t
 povytáhl	po vy táh l -0	povytáhnout	po vy táh nou -t
 nepozdržel	ne po z drž e l -0	pozdržet	po z drž e -t
-pozdrav	po zdrav - 0	pozdravit	po zdrav i -t
+pozdrav	po zdrav -0	pozdravit	po zdrav i -t
 pozemku	po zem k -u	pozemek	po zem ek -0
 pozná	po zn á -0	poznat	po zn a -t
 poznámek	po znám ek -0	poznámka	po znám k -a
@@ -950,7 +950,7 @@ nepral	ne pr a l -0	prát	pr á -t
 prádelnímu	pr á del n -ímu	prádelní	pr á del n -í
 prádle	pr á dl -e	prádlo	pr á dl -o
 pradědkové	pra děd k -ové	pradědek	pra děd ek -0
-pravěkých	pra věk -ých	pravěký	pra věk -ých
+pravěkých	pra věk -ých	pravěký	pra věk -ý
 pracovně	prac ov n -ě	pracovna	prac ov n -a
 pracovití	prac ovit -í	pracovitý	prac ovit -ý
 prahu	prah -u	práh	práh -0
@@ -1073,7 +1073,7 @@ připrav	při prav -0	připravit	při prav i -t
 přísahám	pří sah á -m	přísahat	pří sah a -t
 příslušníci	pří sluš níc -i	příslušník	pří sluš ník -0
 přistane	při sta ne -0	přistát	při st á -t
-nepřistoupila	ne přei stoup i l -a	přistoupit	při stoup i -t
+nepřistoupila	ne při stoup i l -a	přistoupit	při stoup i -t
 přisuzovalo	při suz ova l -o	přisuzovat	při suz ova -t
 přitaká	při tak á -0	přitakat	při tak a -t
 přítěží	pří těž -í	přítěž	pří těž -0
@@ -1712,7 +1712,7 @@ zděšeni	z děš en -i	zděsit	z děs i -t
 zdržím	z drž í -m	zdržet	z drž e -t
 zdržuju	z drž uj -u	zdržovat	z drž ova -t
 zhasnou	z has n -ou	zhasnout	z has nou -t
-nezjednoduší	nej jedn +o duš š -í	zjednodušit	z jedn +o duš i -t
+nejjednodušší	nej jedn +o duš š -í	zjednodušit	z jedn +o duš i -t
 zjistím	z jist í -m	zjistit	z jist i -t
 zkazilo	z kaz i l -o	zkazit	z kaz i -t
 nezklamete	ne z klam e -te	zklamat	z klam a -t
