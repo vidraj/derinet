@@ -14,6 +14,12 @@ for old_annotation_filename in sorted(glob.glob('../prepare/for_annotation/input
     fh = open(old_annotation_filename)
 
     for line in fh:
+
+        if 'MorfoCzech' in  old_annotation_filename:  # fix of unresolved 'chemije' in MorfoCzech
+            if 'ij-' in line and not re.search(r'(z-?m-?i-?j-?e|p-?i-?j-?a-?n|r-?u-?p-?i-?j-?e|s-?t-?u-?d-?i-?j|z-?a-?b-?i-?j)',line):
+                line = re.sub(r'ij','i',line)
+
+        
         segmented = line.rstrip().lower()
         orig = segmented.replace('-','')
         orig2segmented[orig] = segmented
@@ -74,12 +80,17 @@ for line in fh:
 fh = open('../hand-annotated/all.tsv')
 
 for line in fh:
-    columns = (line.rstrip()+'\t').split('\t')
+    columns = (line.rstrip()+'\t').lower().split('\t')
     (orig, retro, segmented, comment) = columns[:4]
     segmented = segmented.replace(' ','-')
-    if comment in ['opraveno','our'] and segmented != orig2segmented[orig]:
-        orig2segmented[orig] = segmented
-        origin[orig] = 'all-revision'
+
+#    if not orig in orig2segmented:
+#        sys.stderr.write(f'This is weird: {orig} not in orig2segmented\n')
+    
+    if comment in ['opraveno','our']:
+        if segmented != orig2segmented[orig]:
+            orig2segmented[orig] = segmented
+            origin[orig] = 'all-revision'
 
 
 # ----------- 5. dvouznakove
@@ -98,5 +109,12 @@ for line in fh:
 # -------------
             
 for orig in [word for word in sorted(orig2segmented) if len(word)>1]:
-    print('\t'.join([orig.rstrip(),orig[::-1],orig2segmented[orig],origin[orig]]))
+
+   
+    if orig != orig2segmented[orig].replace('-','') and segmented != '"':
+        sys.stderr.write("\t".join([orig,orig2segmented[orig],origin[orig],"#NON-EQUAL\n"]))
+
+    else:
+    
+        print('\t'.join([orig.rstrip(),orig[::-1],orig2segmented[orig],origin[orig]]))
     
