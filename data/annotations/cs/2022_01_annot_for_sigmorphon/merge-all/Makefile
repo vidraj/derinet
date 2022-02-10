@@ -9,7 +9,7 @@ sourcestats:
 
 inconsist:
 	cat all-for-revision2.tsv | ./find_inconsist_beginning.py > beginning_inconsist.tsv
-	cat all-for-revision2.tsv | sort -k2 | ./find_inconsist_end.py > end_inconsist.tsv
+	cat all-for-revision2.tsv | LC_ALL=cs_CZ.UTF-8 sort -k2 | ./find_inconsist_end.py > end_inconsist.tsv
 
 
 test:

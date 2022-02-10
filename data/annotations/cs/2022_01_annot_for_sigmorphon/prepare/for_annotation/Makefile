@@ -31,9 +31,10 @@ forannot:
 
 
 homo:
-	cat ud/conllu/cs_pdt-ud-dev.conllu | ud/first_n_sentences.py  500 > tmp_form_homo.conllu
-	cat ud/conllu/cs_pdt-ud-test.conllu | ud/first_n_sentences.py  500 >> tmp_form_homo.conllu
-	cat ud/conllu/cs_pdt-ud-train.conllu | ud/first_n_sentences.py  1000 >> tmp_form_homo.conllu
+	#cat ud/conllu/cs_pdt-ud-dev.conllu | ud/first_n_sentences.py  500 > tmp_form_homo.conllu
+	#cat ud/conllu/cs_pdt-ud-test.conllu | ud/first_n_sentences.py  500 >> tmp_form_homo.conllu
+	#cat ud/conllu/cs_pdt-ud-train.conllu | ud/first_n_sentences.py  1000 >> tmp_form_homo.conllu
 
-	cat tmp_form_homo.conllu | ./find_crosspos_homonyms.py  > cross_pos_homonyms.tsv
+	#cat tmp_form_homo.conllu | ./find_crosspos_homonyms.py  > cross_pos_homonyms.tsv
 
+	cat ud/conllu/*.conllu | ./find_crosspos_homonyms.py  > cross_pos_homonyms.tsv

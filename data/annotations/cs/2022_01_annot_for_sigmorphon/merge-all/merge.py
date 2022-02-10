@@ -44,6 +44,8 @@ for line in fh:
 
     (orig, retro, segmentations_str, sources_str, correct_segmentation, correct_source) = columns[0:6]
 
+    correct_segmentation = re.sub(r' ','-',correct_segmentation)
+
     if not re.match(r'homo$',correct_source):
 
     
@@ -110,11 +112,13 @@ for line in fh:
             
 for orig in [word for word in sorted(orig2segmented) if len(word)>1]:
 
-   
+
+    err = ''
     if orig != orig2segmented[orig].replace('-','') and segmented != '"':
         sys.stderr.write("\t".join([orig,orig2segmented[orig],origin[orig],"#NON-EQUAL\n"]))
+        err='\t#NON-EQUAL'
 
-    else:
+#    else:
     
-        print('\t'.join([orig.rstrip(),orig[::-1],orig2segmented[orig],origin[orig]]))
+    print(('\t'.join([orig.rstrip(),orig[::-1],orig2segmented[orig],origin[orig]]))+err)
     
