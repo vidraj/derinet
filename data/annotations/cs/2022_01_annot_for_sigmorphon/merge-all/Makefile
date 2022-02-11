@@ -1,5 +1,5 @@
 merge:
-	./merge.py  > all-for-revision3.tsv
+	./merge.py  > all-for-revision4.tsv
 
 
 sourcestats:
@@ -14,4 +14,4 @@ inconsist:
 
 
 test:
-	cat all-for-revision3.tsv | ./check_equality.py
+	cat all-for-revision4.tsv | ./check_equality.py

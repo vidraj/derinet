@@ -125,6 +125,22 @@ for line in fh:
         origin[orig] = 'all-revision2'
 
 
+# ------------ 7. corrections from all-for-revision2
+
+fh = open('../hand-annotated/all-for-revision3.xlsx - all-for-revision3.tsv')
+
+for line in fh:
+    columns = (line.rstrip()+'\t\t').lower().split('\t')
+    (orig, retro, origsegmented, sources, segmented, comment) = columns[:6]
+    segmented = segmented.replace(' ','-')
+
+#    if not orig in orig2segmented:                                                                                                                                                                        
+#        sys.stderr.write(f'This is weird: {orig} not in orig2segmented\n')                                                                                                                                
+
+    if len(segmented) > 0 and segmented != orig2segmented[orig]:
+        orig2segmented[orig] = segmented
+        origin[orig] = 'all-revision3'
+        
             
 # -------------
             
