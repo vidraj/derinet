@@ -8,7 +8,7 @@ howmanylines = int(sys.argv[2])
 
 sys.stderr.write("Randomly selecting "+str(howmanylines)+" from "+infile + "\n")
 
-random.seed(1)
+random.seed(0)
 
 with open(infile) as f:
     lines = random.sample(f.readlines(),howmanylines)

@@ -6,4 +6,4 @@ sigmoclone:
 select:
 	mkdir -p selection/
 
-	 for LANG in eng rus spa ita fra lat; do ./select-random-n-lines.py tmp/data/$${LANG}.word.train.tsv 1000 | cut -f1 > selection/$${LANG}-random-1000-from-sigmorphon-train.tsv ; done
+	for LANG in eng rus spa ita fra lat; do ./select-random-n-lines.py tmp/data/$${LANG}.word.train.tsv 1000 | cut -f1 | ./add-retro-column.py > selection/$${LANG}-random-1000-from-sigmorphon-train.tsv ; done
