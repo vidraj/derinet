@@ -21,7 +21,7 @@ class Load(Block):
         known_formats = {fmt.name: fmt for fmt in Format}
 
         parser.add_argument("-f", "--format", choices=known_formats, default=Format.DERINET_V2.name, help="The format of the file to load.")
-        parser.add_argument("file", help="The file to load.")
+        parser.add_argument("file", type=argparse.FileType("rt"), help="The file to load.")
         parser.add_argument("rest", nargs=argparse.REMAINDER, help="A list of other modules and their arguments.")
 
         args = parser.parse_args(args)
