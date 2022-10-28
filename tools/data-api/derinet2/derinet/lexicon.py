@@ -7,7 +7,7 @@ import typing
 
 from .lexeme import Lexeme
 from .relation import DerivationalRelation, CompoundRelation, ConversionRelation, UniverbisationRelation, VariantRelation
-from .utils import DerinetError, DerinetFileParseError, DerinetLexemeDeleteError, parse_v1_id, parse_v2_id, format_kwstring, parse_kwstring
+from .utils import DerinetError, DerinetCycleCreationError, DerinetFileParseError, DerinetLexemeDeleteError, parse_v1_id, parse_v2_id, format_kwstring, parse_kwstring
 
 logger = logging.getLogger(__name__)
 
@@ -54,6 +54,7 @@ class Format(enum.Enum):
     DERINET_V1 = 1
     DERINET_V2 = 2
     PICKLE_V4 = 3
+    UNIMORPH_V1 = 4
 
 
 class Lexicon(object):
@@ -83,7 +84,8 @@ class Lexicon(object):
         switch = {
             Format.DERINET_V1: self._load_derinet_v1,
             Format.DERINET_V2: self._load_derinet_v2,
-            Format.PICKLE_V4: self._load_pickle_v4
+            Format.PICKLE_V4: self._load_pickle_v4,
+            Format.UNIMORPH_V1: self._load_unimorph_v1
         }
 
         if fmt not in switch:
@@ -440,6 +442,75 @@ class Lexicon(object):
 
             self._data = new_lexicon._data  # pylint: disable=protected-access
             self._index = new_lexicon._index  # pylint: disable=protected-access
+        finally:
+            # If we are supposed to close the data source, do it now.
+            if close_at_end:
+                data_source.close()
+
+    def _load_unimorph_v1(self, data_source, on_err):
+        close_at_end = False
+        if isinstance(data_source, str):
+            # Act as if data_source is a filename to open.
+            # Since we opened the file ourselves, we must close it later.
+            close_at_end = True
+            data_source = open(
+                data_source,
+                "rt",
+                buffering=16384,
+                encoding="utf-8",
+                errors="strict",
+                newline="\n"
+            )
+
+        try:
+            for line_nr, line in enumerate(data_source, start=1):
+                # Read a new line, get rid of the newline at the end and
+                line = line.rstrip("\n")
+                fields = line.split("\t")
+
+                if len(fields) != 4:
+                    # The line was too short or too long; report an error.
+                    raise DerinetFileParseError("Line nr. {} '{}' has {} fields instead of the expected 4.".format(line_nr, line, len(fields)))
+
+                parent_lemma, child_lemma, poses, child_affix = fields
+
+                # Parse out the POSes.
+                poses_tuple = poses.split(":")
+                known_poses = {"ADJ", "ADV", "J", "N", "U", "V"}
+                if len(poses_tuple) != 2 or poses_tuple[0] not in known_poses or poses_tuple[1] not in known_poses:
+                    raise DerinetFileParseError("Unparseable POS tuple '{}'".format(poses))
+
+                parent_pos, child_pos = poses_tuple
+
+                if not (parent_lemma and child_lemma and parent_pos and child_pos):
+                    raise DerinetFileParseError("Empty field encountered on line nr. {} '{}'".format(line_nr, line))
+
+                # Get or create both lexemes.
+                parent_lexemes = self.get_lexemes(parent_lemma, parent_pos) or [self.create_lexeme(parent_lemma, parent_pos)]
+                child_lexemes = self.get_lexemes(child_lemma, child_pos) or [self.create_lexeme(child_lemma, child_pos)]
+                assert len(parent_lexemes) == 1 and len(child_lexemes) == 1
+                parent_lexeme = parent_lexemes[0]
+                child_lexeme = child_lexemes[0]
+
+                # Check for reflexivity.
+                if (parent_lemma, parent_pos) == (child_lemma, child_pos):
+                    if on_err == "continue":
+                        logger.error("Reflexive derivation found in {} -> {}".format(parent_lexeme, child_lexeme))
+                        continue
+                    else:
+                        raise DerinetFileParseError("Reflexive derivation found in {} -> {}".format(parent_lexeme, child_lexeme))
+
+                # TODO Include the child_affix in feats.
+                # TODO Use the child_affix for segmentation of the child,
+                #  and possibly also of the parent.
+                try:
+                    self.add_derivation(parent_lexeme, child_lexeme)
+                except DerinetCycleCreationError as exc:
+                    if on_err == "continue":
+                        logger.error("Cyclic derivation found in {} -> {}".format(parent_lexeme, child_lexeme), exc_info=exc)
+                        continue
+                    else:
+                        raise
         finally:
             # If we are supposed to close the data source, do it now.
             if close_at_end:
