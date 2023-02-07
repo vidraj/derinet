@@ -19,3 +19,5 @@ resulting-data/extracted-compounds-from-enwiktionary.tsv:
 	rm -f 'extracted.tsv'
 
 # 3. compare to DeriNet
+resulting-data/compared-derinet-to-ssjc.tsv:
+	python3 compare_to_derinet.py --derinet ${derinet} --input 'resulting-data/extracted-compounds-from-ssjc.tsv' --output 'resulting-data/compared-derinet-to-ssjc.tsv'
