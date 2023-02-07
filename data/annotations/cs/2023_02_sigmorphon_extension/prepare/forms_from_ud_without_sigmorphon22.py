@@ -4,7 +4,7 @@ import sys
 import logging
 logging.basicConfig(stream=sys.stderr, level=logging.INFO)
 
-MAX_UD_SENTENCES = 4000  # formy z prvniho tisice vet uz byly v sigmorphonu 22, pridavame z dalsich 4000
+MAX_UD_SENTENCES = 6500  # formy z prvniho tisice vet uz byly v sigmorphonu 22, pridavame z dalsich 4000
 
 already_segmented = {}
 
