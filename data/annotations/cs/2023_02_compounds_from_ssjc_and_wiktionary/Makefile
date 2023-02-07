@@ -16,10 +16,10 @@ resulting-data/extracted-compounds-from-ssjc.tsv:
 	sort 'extracted.tsv' | uniq > 'resulting-data/extracted-compounds-from-ssjc.tsv'
 	rm -f 'extracted.tsv' 'ssjc.xml'
 
-# 1. extract compounds from EN-Wiktionary
+# 2. extract compounds from EN-Wiktionary
 resulting-data/extracted-compounds-from-enwiktionary.tsv:
 	python3 extract_from_enwiktionary.py --input ${enwikti} --output 'extracted.tsv'
-	sort 'extracted.tsv' | uniq > 'extracted-compounds-from-enwiktionary.tsv'
+	sort 'extracted.tsv' | uniq > 'resulting-data/extracted-compounds-from-enwiktionary.tsv'
 	rm -f 'extracted.tsv'
 
-# 3. find in DeriNet
+# 3. compare to DeriNet
