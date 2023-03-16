@@ -1,0 +1,41 @@
+ Posílám 6 souborů, počty řádků následující:
+
+    4771 for_annotation/new_compounds.tsv
+   1668 for_annotation/new_pdt_inflections.tsv
+    372 for_annotation/new_root_words1_by_root_morphs.tsv
+   2813 for_annotation/new_root_words2_by_regexp.tsv
+   1992 for_annotation/new_root_words3_remainder_by_freq.tsv
+  38694 for_annotation/old_sigmorphon22.tsv
+  50310 total
+
+( k anotaci je jen prvních pět souborů, tedy ("jen") 11616 řádků)
+
+---------------------------------
+
+* Všechny soubory mají stejný čtyřsloupcový formát:
+
+1. sloupec = typ toho řádku (odkud přišel/jak vznikl/co je to za typ), v každém souboru má ten sloupec na všech řádcích stejnou hodnotu, podstatné je to pouze pro případ, že by Ti přišlo pro anotaci šikovnější si ty soubory (všechny nebo po skupinkách) sloučit si to do jedné megatabulky a různě sortit všechno najednou
+
+2. sloupec = nerozsegmentované lemma nebo forma
+
+3. sloupec = 2. sloupec pozpátku
+
+4. sloupec = rozsegmentované lemma/forma, hranice segmentů vložením znaku mezera, v některých souborech (tam, kde jsem to uměl relativně spolehlivě) už to nějak rozsegmentované je
+
+Do 5. nebo dalších sloupců si klidně vkládej poznámky nebo cokoli. Pokud ty poznámky budou typicky mít nějaký argument, tak ideálně typizovanou poznámku do 5. sloupce a argument do 6. sloupce (např. když se v datech něco tváří jako kořenové lemma, ale ty víš, že je to derivované, do 5. sloupce dej třeba značku "PARENT" a do 6. sloupce lemma rodiče.)
+
+--------------------------------------
+
+* Teď ty soubory popíšu podle (mojí představy o) anotační pracnosti:
+
+1. new_compounds.tsv (4771 ks) - kompozita, zatím zcela nesegmentovaná, tohle je rozhodně největší balík práce, protože je jich hodně a jsou dlouhá; v Sigmorphonu 2023 chtějí 5k kompozit, to jsme v předchozím ročníku vůbec neregulovali, takže jsme jich tam náhodně zatoulalo jen asi 400
+
+2. new_root_words3_remainder_by_freq.tsv (1992 ks) - lemmata častých kořenových (ve smyslu kořenu derivačního stromu v současné verzi DeriNetu) lexemů, zatím nerozsegmentovaná
+
+3. new_pdt_inflections.tsv (1668 ks) - podle PDT nejčastější ohnuté formy, které se liší od lemmatu a které patří do čtyř autosémantických slovních druhů; taky zcela nerozsegmentované a taky jich je dost
+
+4. new_root_words2_by_regexp.tsv (2813 ks)- tohle je automaticky odhadnutá množina kořenových (podle DeriNetu neodvozených) lemmat, které pasuje na regulárním výrazem hrubě aproximovaný pattern CVC (nějaké souhlásky plus nějaké samohlásky plus zas nějaké souhlásky, plus případně nějaké velmi jednoduché koncovky vpravo); je jich sice dost, ale doufám, že ta automatická předsegmentace je z větší části dobře a mělo by se Ti podle mého odhadu rozhodně vyplatit ji jen opravovat, spíš než segmentovat všechno od nuly (ale kdybys nesouhlasila, klidně si přemaž 4. sloupeček 2. sloupečkem). Jsou tam nějaké chybičky, třeba "hltnost", na kterých se zkombinovalo víc chyb: díky tomu, že ten regulární výraz je jen aproximativní, se odhalilo, že "hltnost" nemá být v DeriNetu kořenové lemma. Ideální řešení: ve čtvrtém sloupečku to nasegmentuj, do pátého napiš PARENT a do šestého "hltný" (nebo co to má být). Ale takových případů tam nevidím moc.
+
+5. new_root_words1_by_root_morphs.tsv (372 ks) - tohle je taky automaticky předsegmentované, jsou to kořenová lemmata, kde jsme z nějaké Tvé předchozí anotace mohli uhodnout, co je kořenový morf, a levé a pravé okolí jsem dorozsegmentoval pravidly indukovanými z loňských anotací, průměrná kvalita by měla být ještě daleko vyšší než u předchozího souboru, škoda jen, že se jich našlo tak málo
+
+6. old_sigmorphon22.tsv (38694 ks) - data připravená pro loňský Sigmorph, tzn. úplně všechny segmentace, které jsme tehdy uměli. Přikládám jenom pro případ, že bys chtěla něco kvůli konzistenci porovnat, žádná anotaci tohoto souboru neočekávám... ale když bys tam náhodou nějakou chybu zahlédla, tak ji rovnou ve 4. sloupečku oprav (a do 5. připiš FIXED nebo tak něco)
