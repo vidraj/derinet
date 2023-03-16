@@ -2,7 +2,7 @@
 
 import sys
 
-fd = open(argv[1])
+fd = open(sys.argv[1])
 
 listed = {}
 
@@ -14,5 +14,5 @@ for line in sys.stdin:
     if len(columns) > 3 and columns[2] in listed:
         pass
     else:
-        print(line)
+        print(line)f
         
