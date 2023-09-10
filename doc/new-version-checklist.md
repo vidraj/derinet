@@ -7,6 +7,8 @@
 3. Make a clean checkout (preferably on a clean computer).
 4. Build from the clean checkout.
 5. Verify that the builds match each other and your expectations.
+6. Try a load-save roundtrip of the new version and verify that the
+   roundtripped version works.
 
 
 ## Publishing
