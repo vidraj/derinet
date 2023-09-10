@@ -1,4 +1,19 @@
-We require Ufal::MorphoDiTa for normal usage.
+This directory stores the old Perl API for DeriNet versions 0.9 through
+1.2. Version 1.3 is partially built using Perl and partially in the new
+Python API. Since a full rebuild works through all the steps in
+sequence, this API is still needed for releasing new versions.
+
+You need the following Perl modules to use the API:
+Moose
+MooseX::SemiAffordanceAccessor
+PerlIO::via::gzip
+Readonly
+Ufal::MorphoDiTa
+
+You can get a Perl installation working by following step 1 the Treex
+installation tutorial at https://ufal.mff.cuni.cz/treex/install.html
+and then running
+cpanm Moose MooseX::SemiAffordanceAccessor PerlIO::via::gzip Readonly Ufal::MorphoDiTa
 
 Treex::Tool::Lexicon::DerivDict::Dictionary is required for legacy
 code, but you shouldn't need that. If you do, you can find it in
