@@ -12,6 +12,22 @@ logging.basicConfig(level=logging.DEBUG,
 
 logger = logging.getLogger(__name__)
 
+def similarity(a, b):
+    """
+    Return the string-wise similarity between `a` and `b`.
+    Currently, we approximate it with the length of the longest common
+    prefix.
+    """
+    for i in range(len(a) - 1):
+        if not b.startswith(a[:i + 1]):
+            return i
+    return len(a)
+
+def most_similar(clexemes, plexeme):
+    """
+    Return the lexeme from clexemes which is most similar to plexeme.
+    """
+    return max([(similarity(lexeme.lemma, plexeme.lemma), lexeme) for lexeme in clexemes], key=lambda l: l[0])[1]
 
 class AddUniverbisation(Block):
     def __init__(self, fname):
@@ -62,11 +78,14 @@ class AddUniverbisation(Block):
                     else:
                         existing_rels = plexeme.parent_relations
                         for rel in existing_rels:
-                            logger.info("Disconnecting {} -- {}".format(plemma, rel))
+                            logger.info("Disconnecting {} -- {}".format(plemma, rel.sources))
                             rel.remove_from_lexemes()
 
                         try:
-                            lexicon.add_univerbisation(clexemes, clexemes[-1], plexeme)
+                            main_clexeme = most_similar(clexemes, plexeme)
+                            if main_clexeme is not clexemes[0]:
+                                logger.info("Choosing a different lexeme for {}: {} instead of {}".format(plexeme, main_clexeme, clexemes[0]))
+                            lexicon.add_univerbisation(clexemes, main_clexeme, plexeme)
                         except DerinetCycleCreationError as e:
                             logger.error("Error adding univerbisation for lemma '{}'".format(plemma), exc_info=e)
                         # We've added one relation, that is enough. Skip the other ones.
