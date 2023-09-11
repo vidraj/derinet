@@ -8,7 +8,8 @@ export DERIMOR_MAIN_DIR::=$(CURDIR)
 #MORFFLEX::=$(abspath data/czech-morfflex-20200720-devel.raw.xz)
 MORFFLEX::=$(abspath data/czech-morfflex-2.0.tsv.xz)
 # MORPHODITA_MODEL::=data/models/morphodita/cs/czech-morfflex-161115.dict
-MORPHODITA_MODEL::=data/models/morphodita/cs/czech-morfflex-180626-devel.dict
+# MORPHODITA_MODEL::=data/models/morphodita/cs/czech-morfflex-180626-devel.dict
+MORPHODITA_MODEL::=data/models/morphodita/cs/czech-morfflex2.0-220710.dict
 
 export MORFFLEX
 
@@ -43,9 +44,14 @@ $(abspath data/czech-morfflex-2.0.tsv.xz):
 data/models/morphodita/cs/czech-morfflex-161115.dict: data/czech-morfflex-pdt-161115.zip
 	unzip -DD -j -d data/models/morphodita/cs/ "$<" czech-morfflex-pdt-161115/czech-morfflex-161115.dict
 
+data/models/morphodita/cs/czech-morfflex2.0-220710.dict: data/czech-morfflex2.0-pdtc1.0-220710.zip
+	unzip -DD -j -d data/models/morphodita/cs/ "$<" czech-morfflex2.0-pdtc1.0-220710/czech-morfflex2.0-220710.dict
+
 data/czech-morfflex-pdt-161115.zip:
 	wget -O "$@" 'https://lindat.mff.cuni.cz/repository/xmlui/bitstream/handle/11234/1-1836/czech-morfflex-pdt-161115.zip?sequence=1&isAllowed=y'
 
+data/czech-morfflex2.0-pdtc1.0-220710.zip:
+	wget -O "$@" 'https://lindat.mff.cuni.cz/repository/xmlui/bitstream/handle/11234/1-4794/czech-morfflex2.0-pdtc1.0-220710.zip'
 
 deleted.txt: build
 	grep 'Deleting relation ' ./*/log.txt | sed -e 's/^.*	Deleting relation //; s/ made by .*$$//' |sort > "$@"

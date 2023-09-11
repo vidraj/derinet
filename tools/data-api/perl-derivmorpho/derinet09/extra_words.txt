@@ -1328,3 +1328,13 @@ ukradnutelný	AA
 # Deleted between MorfFlex devel from 2020-07-20 and MorfFlex 2.0
 nezbytný	AA
 nezvěstný	AA
+
+# Missing from MorfFlex 2.0, only wrong "lafetovaných" and "půdychtivývedením"
+#  are present. Those are removed manually.
+lafetovaný	AA???----??---?
+půdychtivý	AA???----??---?
+
+# Missing from MorfFlex 2.0, were generated before, but after the change to
+#  MorphoDiTa czech-morfflex2.0-220710.dict model they stopped being generated.
+umdlenost	NNF??-----?---?
+zemdlenost	NNF??-----?---?
