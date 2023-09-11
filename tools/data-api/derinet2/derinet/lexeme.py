@@ -193,6 +193,8 @@ class Lexeme(object):
         """
         All immediate parents of the lexeme from all parent relations.
         """
+        # FIXME This may return one parent lexeme more than once if it
+        #  is found in multiple relations.
         parents = []
         for rel in self.parent_relations:
             parents.extend(rel.sources)
@@ -210,6 +212,8 @@ class Lexeme(object):
         """
         # FIXME what is the exact meaning of self.child_relations? If it only lists the main ones,
         #  then the filter is not necessary.
+        # FIXME also protect against listing one lexeme multiple times,
+        #  if it is found in multiple relations.
         return [child_relation.main_target for child_relation in self.child_relations if child_relation.main_source is self]
 
     def _add_child_relation(self, relation):
