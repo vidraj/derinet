@@ -53,31 +53,67 @@ The file format can also store additional information, including morphological s
 
 The database file is divided into blocks separated by empty lines (two newlines). These blocks correspond to connected components formed by the primary edges.
 
-Each line in a block describes a single lexeme in the following format:
+Each line in a block describes a single lexeme in the following format,
+with items separated by tabulators:
 
-ID LEMID LEMMA POS FEATS SEGMENTATION PARENTID RELTYPE OTHERRELS JSON 81.2 vybrat\#V?????? vybrat Verb aspect=def&… (InterSet) morph=vy&type=prefix&…|morph=br&type=root&…|… 81.1 form=prefixation&function=perfectivization id=…&type=…|id=…&…|… {"syn6freq": 12345, "techlemma": vybrat-1, "tagmask": V??????", …}
+| ID | LEMID | LEMMA | POS | FEATS | SEGMENTATION | PARENTID | RELTYPE | OTHERRELS | JSON |
+| -- | ----- | ----- | --- | ----- | ------------ | -------- | ------- | --------- | ---- |
+| 187300.1047 | vybrat#V????--??-??P?? | vybrat | VERB | ConjugClass=1&Loanword=False | End=2&Morph=vy&Start=0&Type=Prefix&#124;End=4&Morph=br&Start=2&Type=Root&#124;End=5&Morph=a&Start=4&Type=Suffix&#124;End=6&Morph=t&Start=5&Type=Suffix | 187300.1 | Type=Derivation |  | {"corpus_stats": {"absolute_count": 726762, "percentile": 99.95177823764378, "relative_frequency": 0.0002899462472670399, "sparsity": 3.537682507890981}, "techlemma": "vybrat"} |
 
 1.  ID
     A dot-separated pair of integers. The former identifies the tree in the file, the latter identifies the lexeme in the tree.
 
 2.  LEMID
+    A mostly-unique reference to a lexeme that should be stable between
+    versions. It is possible for homonyms to share an identical lemid
+    under some (undesirable but also largely unavoidable) circumstances.
+    The lemids are generated as tag masks by looking at all inflectional
+    positional tags listed for inflectional forms of the lexeme in the
+    MorfFlex lexicon, copying the positions where all forms share the
+    same value and replacing the varying positions with question marks
+    (`?`).
 
 3.  LEMMA
+    The lemma of the lexeme. In (non-Czech) datasets where lemmatization
+    is not available or not desirable, this will be the word form, with
+    the actual lemma optionally present in the FEATS.
 
 4.  POS
+    The part-of-speech tag from the [Universal POS Tag inventory](https://universaldependencies.org/u/pos/index.html).
 
 5.  FEATS
+    Morphological features of the lexeme.
+    TODO Document the format.
 
 6.  SEGMENTATION
+    Morphological / morphematical segmentation of the lexeme. The main
+    unit of the segmentation is the morph, which refers to a nonempty
+    contiguous subsequence of characters of LEMMA. This representation
+    was chosen for simplicity rather than linguistic adequacy.
+    TODO Document the format, further specify the pitfalls.
 
 7.  PARENTID
+    The ID of the main parent from the main relation of the lexeme.
+    The graph formed by lexemes as linked by PARENTIDs is a forest
+    (i.e. acyclic).
 
 8.  RELTYPE
+    Additional description of the relation to which PARENTID belongs,
+    including potentially any other parents.
 
 9.  OTHERRELS
     Relations that did not fit into the main PARENTID / RELTYPE pair.
 
-    Conceptually, all the relations have the same importance and are contained in a single list. This list is then broken, with the first element stored in PARENTID and RELTYPE and the rest listed here. This is because it enables us to use simple algorithms designed for trees to process the data. E.g. if you start from the roots and follow the main relations only, you are guaranteed to process each lexeme exactly once.
+    Conceptually, all the relations have the same importance and are
+    contained in a single list. This list is then split, with the first
+    element stored in PARENTID and RELTYPE and the rest listed here.
+    This is because it enables us to use simple algorithms designed for
+    trees to process the data. E.g. if you start from the roots and
+    follow the main relations only, you are guaranteed to process each
+    lexeme exactly once.
+
+    NOTE: The OTERRELS are not yet implemented in the derinet2 API. The
+    DeriSearch2 search engine does support them, though.
 
 10. JSON
     General data in the JSON format. It may contain e.g. annotation not fitting elsewhere, debugging labels, authorship information or comments.
@@ -85,9 +121,72 @@ ID LEMID LEMMA POS FEATS SEGMENTATION PARENTID RELTYPE OTHERRELS JSON 81.2 vybra
 Building the Czech DeriNet
 --------------------------
 
-Run `make` in the [tools/build/cs](../tools/build/cs) directory.
+tl;dr:
+1. Make sure you have GNU Make and core Unix utilities installed (you probably do).
+2. Install Perl 5 and the dependencies listed in [tools/data-api/perl-derivmorpho/README](tools/data-api/perl-derivmorpho/README).
+3. Install Python 3.6 or newer and Pandas.
+4. Run `make` in the [tools/build/cs](../tools/build/cs) directory.
 
-TODO Specify dependencies, requirements, environment setup.
+The DeriNet network is built out of a combination of automatic and
+manual annotations, starting from a lexicon taken mostly from
+[the MorfFlex CZ project](https://ufal.mff.cuni.cz/morfflex). Each
+new version builds on top of the old ones, and the directory
+structure mostly reflects this, with one directory for the build
+scripts for each new version.
+
+To keep the ability to fix old mistakes at the source (in the
+annotations themselves), the network can be rebuilt from scratch when
+creating a new version, building fixed equivalents of old versions to
+use as the basis for new ones. All versions are tied together by
+recursive Makefiles, starting with the one at
+[tools/build/cs/Makefile](tools/build/cs/Makefile).
+
+As a result, there are multiple build systems in use, reflecting
+historical development of the code, since the code to create old
+versions is seldom updated to newer APIs and methods.
+
+Historically, not only the APIs, but also the format of the database
+changed, with DeriNet 2.0 being the first one in the new format, and a
+conversion to a different set of part-of-speech tags
+([Universal POS tags](https://universaldependencies.org/u/pos/index.html)
+instead of the old set of A, D, N and V) being performed in 2.0.5.
+
+The build process starts in [tools/data-api/perl-derivmorpho/derinet09](tools/data-api/perl-derivmorpho/derinet09),
+where the MorfFlex lexicon is filtered and loaded into the API. This
+early stage of the pipeline contains several important steps that are
+frequently used to fix issues with later versions: Any changes to the
+lexeme set should be applied here (this is not consistent, but it's
+a good rule to follow) to ensure that later steps see all lexemes and do
+not use lexemes which will get deleted.
+
+It is possible to delete erroneous lexemes from MorfFlex by listing them
+in [derinet09/lemmas-to-ignore.tsv](tools/data-api/perl-derivmorpho/derinet09/lemmas-to-ignore.tsv),
+and extra lexemes missing from there can be added to [derinet09/extra_words.txt](tools/data-api/perl-derivmorpho/derinet09/extra_words.txt).
+Phantom lexemes (a feature since v2.0) are also added at this stage.
+Another important file of interest that is applied at the very beginning
+of the pipeline is [derinet09/one_off_derivations.tsv](tools/data-api/perl-derivmorpho/derinet09/one_off_derivations.tsv),
+which contains miscellaneous fixups and relations that should be added
+early. Since later steps should generally not disconnect existing
+relations (this rule is also not consistently followed, but should be –
+erroneous relations should be fixed by amending their source annotation
+files, not by fixing up later), adding the correct relation early should
+block adding an incorrect one later, which is especially useful with
+homonyms.
+
+The handoff between the Perl and Python APIs happens in two steps.
+First, the produced database conforming to the (old) TSV file format
+is used as the basis for finalizing the build of 1.3 using Python.
+Second, the information not present in this database (tag masks/lemids)
+needed in 2.0 are pulled from an extended debugging file
+`tools/data-api/perl-derivmorpho/derinet-1-3b.tsv` (not in the repo,
+buildable only), which mostly uses the old file format, but contains
+the extra information.
+
+Corpus counts are only added in 2.0.5, so any modules requiring them
+for statistical processing must run later in the build pipeline. This
+version also changes the naming of the POS tags from `{A,D,N,V}` to
+`{ADJ,ADV,NOUN,VERB}`.
+
 
 Using the APIs and tools, writing new modules
 ---------------------------------------------
@@ -96,15 +195,55 @@ There are currently 3 different APIs in use when building DeriNet: The old Perl 
 
 ### derimor
 
-TODO
+The older Perl DerivMorpho API is used to build DeriNet 0.9 through 1.3
+and resides in [tools/data-api/perl-derivmorpho/](tools/data-api/perl-derivmorpho/). Its modular system
+was inspired by [Treex](https://ufal.mff.cuni.cz/treex). The main
+runner, [tools/data-api/perl-derivmorpho/derimor](tools/data-api/perl-derivmorpho/derimor), is invoked with a
+list of arguments (“the scenario”) describing the modules, their
+arguments and data files to use, it invokes the modules one after the
+other and passes the constructed network to each one.
+
+All code, modules, annotation files and intermediate build files used
+by DerivMorpho are stored under the API dir.
+
+Documentation is available in [Vidra, 2015](http://hdl.handle.net/20.500.11956/81939).
+
 
 ### derinet-python
 
-TODO
+There were two intermediate Python API versions, which are still used
+both for building the network itself and by various experiments checked
+into the repository. These APIs don't use a modular system with
+scenarios, but open-coded scripts tailored for each version. These are
+used to build DeriNet versions 1.3 (partially built using DerivMorpho)
+through 1.7.
+
+Starting with version 1.3, the repository structure was redone. Newer
+annotations are supposed to be stored in [data/annotations/cs/](data/annotations/cs/),
+modules in the API dir under [tools/data-api/derinet2/derinet/modules/](tools/data-api/derinet2/derinet/modules/)
+and build artifacts in [tools/build/cs/](tools/build/cs/), where the
+main Makefile is. Note that this division is not always respected and
+some data is still found in the build dirs as well.
+
+No documentation of the APIs is provided.
+
 
 ### derinet2
 
-TODO
+The newer Python DeriNet API is located in [tools/data-api/derinet2/](tools/data-api/derinet2/)
+and it is used to build versions starting with 2.0. It can load data in
+the old file format, but defaults to using the new one.
+
+The API keeps the modular approach of the Perl DerivMorpho, but threads
+the modules in a slightly different way, especially wrt. parameter
+parsing. See [tools/data-api/derinet2/README.md](tools/data-api/derinet2/README.md) for some info.
+
+A thorough hands-on walkthrough for the new API can be found in the
+following Google Colab documents:
+1. [Introduction to the API and its methods](https://colab.research.google.com/drive/1so-LDMNDghtZw68eG5VT2WdJoD-0Se9f?usp=sharing)
+2. [Writing new modules](https://colab.research.google.com/drive/1ZU6zc8q4MSthENcAefQb7-rMl_YMwIXE?usp=sharing)
+3. [A simple example of using the API for searching the data](https://colab.research.google.com/drive/1lQdYJb_70A2eiVfaFEdPzOoHS8ZvgeF4?usp=sharing)
+
 
 Our advice for writing modules:
 
@@ -115,6 +254,7 @@ Our advice for writing modules:
 -   In Czech, do not change the dictionary set by adding or removing lexemes. Our stance on this may change, but you should just log the required changes and merge them at the very beginning of the pipeline, because each such change is very serious. We strive to be as compatible with the MorfFlex CZ dictionary as possible, so these changes should be reported to MorfFlex CZ developers anyway.
 
 -   The output of each module must be deterministic. Therefore, whenever you choose from an unordered set of options, first order them according to some externally-defined criterion.
+
 
 Creating annotation files
 -------------------------
