@@ -65,5 +65,6 @@ clean:
 	rm -f profile-load-v1.pyprof profile-load-v1-pickle.pyprof profile-unpickle.pyprof
 	rm -f profile-load-v2.pyprof profile-load-v2-pickle.pyprof
 	rm -f "$(PICKLE_FILE)"
+	rm -rf build/ derinet.egg-info/
 	find . -name '__pycache__' -type d -exec rm -rf '{}' '+'
 	coverage erase

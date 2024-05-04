@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "derinet"
+version = "2.1.0"
+description = "An API for accessing word-formation data in the DeriNet formats"
+authors = [
+	{name = "Jonáš Vidra", email = "vidra@ufal.mff.cuni.cz"},
+	{name = "Lukáš Kyjánek", email = "kyjanek@ufal.mff.cuni.cz"},
+]
+maintainers = [
+	{name = "Jonáš Vidra", email = "vidra@ufal.mff.cuni.cz"},
+]
+readme = {file = "README.md", content-type = "text/markdown"}
+keywords = ["linguistics", "natural language processing", "NLP", "word formation", "WFN", "derivation"]
+classifiers = [
+	"Development Status :: 4 - Beta",
+	"Programming Language :: Python :: 3",
+	"Topic :: Text Processing :: Linguistic",
+	"Topic :: Software Development :: Libraries",
+	"Private :: Do Not Upload",
+]
+requires-python = ">=3.11"
+
+[project.scripts]
+process-scenario = "derinet.process_scenario:main"
+
+[project.urls]
+Homepage = "https://ufal.mff.cuni.cz/derinet"
+Repository = "https://github.com/vidraj/derinet/tree/master/tools/data-api/derinet2"

@@ -9,6 +9,10 @@
 # Ignore cached Python compilation output.
 __pycache__/
 
+# Ignore setuptools compilation files.
+/build/
+/derinet.egg-info/
+
 # Ignore coverage.py files.
 /.coverage
 /htmlcov/
