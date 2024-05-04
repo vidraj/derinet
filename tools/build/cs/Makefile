@@ -49,7 +49,7 @@ stats-%.txt: derinet-%.tsv
 
 # Find all lexemes which are in the database more times than their parents.
 inverted-corpus-counts.tsv: $(DERINET)
-	../../data-api/derinet2/process_scenario.py \
+	PYTHONPATH=../../data-api/derinet2 python3 -m derinet.process_scenario \
 		Load '$<' \
 		cs.CheckCorpusCounts \
 		> '$@'
@@ -59,7 +59,7 @@ RATIOS=1.0 1.5 2.0 3.0 5.0 10.0 20.0
 CORPUS_COUNTS=$(foreach OFFSET,$(OFFSETS),$(foreach RATIO,$(RATIOS),inverted-corpus-counts-o$(OFFSET)-r$(RATIO).tsv))
 inverted-corpus-counts: $(CORPUS_COUNTS)
 inverted-corpus-counts-o%.tsv: $(DERINET)
-	../../data-api/derinet2/process_scenario.py \
+	PYTHONPATH=../../data-api/derinet2 python3 -m derinet.process_scenario \
 		Load '$<' \
 		cs.CheckCorpusCounts \
 		--offset $(firstword $(subst -r, ,$*)) \

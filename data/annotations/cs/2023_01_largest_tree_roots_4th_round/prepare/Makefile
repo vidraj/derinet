@@ -3,7 +3,6 @@
 PYTHONPATH::=$(abspath ../../../../../tools/data-api/derinet2):${PYTHONPATH}
 export PYTHONPATH
 
-PROCESS::=../../../../../tools/data-api/derinet2/process_scenario.py
 DERINET::=../../../../releases/cs/derinet-2-1.tsv.gz
 CORPUS_COUNTS::=../../2018-12-largest-tree-roots/pro-zdenka-syn-lemata-od-ondreje
 SORT_BLOCKS::=./sort-blocks.py
@@ -28,7 +27,7 @@ fourth-batch-sorted.tsv: fourth-batch.tsv ${SORT_BLOCKS}
 fourth-batch.tsv: already-annotated-roots.tsv ${DERINET} ${CORPUS_COUNTS}
 	# Load DeriNet 1.7 or whatever the newest version is. TODO: merge fixes produced by the previous annotation first.
 	# Delete all trees rooted in words from already-annotated-roots.tsv.
-	zcat '${DERINET}' | PYTHONPATH='${PYTHONPATH}' '${PROCESS}' Load /dev/stdin \
+	zcat '${DERINET}' | PYTHONPATH='${PYTHONPATH}' python3 -m derinet.process_scenario Load /dev/stdin \
 	DeleteSubtrees --lemma-type=fuzzy-techlemma '$<' \
 	cs.DeleteUnattestedLeaves \
 	Save '$@' > '$@'.log 2>&1

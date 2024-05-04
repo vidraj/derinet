@@ -67,16 +67,16 @@ or by composing existing modules from the command-line.
 
 ```shell
 # Show help
-process_scenario.py -h
+python3 -m derinet.process_scenario -h
 
 # List officially available modules.
-process_scenario.py -l
+python3 -m derinet.process_scenario -l
 
 # Show help for the derinet.modules.Load module
-process_scenario.py Load -h
+python3 -m derinet.process_scenario Load -h
 
 # Load a derinet and save it again in a different format.
-process_scenario.py Load derinet-2.0.tsv Save --format DERINET_V1 derinet-2.0-fmt1.tsv
+python3 -m derinet.process_scenario Load derinet-2.0.tsv Save --format DERINET_V1 derinet-2.0-fmt1.tsv
 ```
 
 #### Programming

@@ -57,8 +57,8 @@ profile-load-v2-pickle.pyprof: test/profile_load.py $(wildcard derinet/*.py)
 profile-unpickle.pyprof: test/profile_load.py $(wildcard derinet/*.py)
 	"$(PYTHON)" -O -m cProfile -o "$@" "$<" pickle-v4 < "$(PICKLE_FILE)"
 
-test-scenario: process_scenario.py
-	./process_scenario.py Load derinet-2-0.tsv Save derinet-2-0.tsv.tmp
+test-scenario: derinet/process_scenario.py
+	python3 -m derinet.process_scenario Load derinet-2-0.tsv Save derinet-2-0.tsv.tmp
 	diff -q derinet-2-0.tsv derinet-2-0.tsv.tmp
 
 clean:

@@ -1,7 +1,7 @@
 .PHONY: clean
 
 derinet-2-0-6.tsv: derinet-2-0-5.tsv
-	../../../data-api/derinet2/process_scenario.py \
+	PYTHONPATH=../../../data-api/derinet2 python3 -m derinet.process_scenario \
 		Load "$<" \
 		cs.DelIncorrectLexemes ../../../../data/annotations/cs/2021_01_spelling_variants/lexemes-to-delete.tsv \
 		cs.DelIncorrectLexemes ../../../../data/annotations/cs/2021_01_conversion/into-derinet/lexemes-to-delete.tsv \

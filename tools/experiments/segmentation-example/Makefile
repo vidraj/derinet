@@ -1,12 +1,11 @@
 .PHONY: all clean
 
 DERINET=../../../data/releases/cs/derinet-2-0.tsv.gz
-PROCESS=../../data-api/derinet2/process_scenario.py
 
 all: derinet-with-segmentation.tsv
 
 derinet-with-segmentation.tsv: derinet.tsv segmentation.txt
-	$(PROCESS) \
+	PYTHONPATH=../../data-api/derinet2 python3 -m derinet.process_scenario \
 		Load "$<" \
 		cs.AddSegmentation segmentation.txt \
 		Save "$@" > log.txt 2>&1
