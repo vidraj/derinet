@@ -2,7 +2,7 @@
 
 PROJECT_ROOT::=$(dir $(abspath $(lastword $(MAKEFILE_LIST))))
 PYTHON=python3
-DERINET="../../../data/releases/cs/derinet-1-7.tsv"
+DERINET=../../../data/releases/cs/derinet-1-7.tsv
 PICKLE_FILE=output.pkl
 PYTHONPATH=$(PROJECT_ROOT)
 
