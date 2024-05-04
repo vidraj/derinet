@@ -24,13 +24,13 @@ pylint:
 	pylint derinet
 
 time-load-v1: test/profile_load.py $(wildcard derinet/*.py)
-	/usr/bin/time -v "$(PYTHON)" -O "$<" derinet-v1 < "$(DERINET_V1)"
+	command time -v "$(PYTHON)" -O "$<" derinet-v1 < "$(DERINET_V1)"
 
 time-load-v1-pickle: test/profile_load.py $(wildcard derinet/*.py)
-	/usr/bin/time -v "$(PYTHON)" -O "$<" --save pickle-v4 derinet-v1 < "$(DERINET_V1)" > "$(PICKLE_FILE)"
+	command time -v "$(PYTHON)" -O "$<" --save pickle-v4 derinet-v1 < "$(DERINET_V1)" > "$(PICKLE_FILE)"
 
 time-unpickle: test/profile_load.py $(wildcard derinet/*.py)
-	/usr/bin/time -v "$(PYTHON)" -O "$<" pickle-v4 < "$(PICKLE_FILE)"
+	command time -v "$(PYTHON)" -O "$<" pickle-v4 < "$(PICKLE_FILE)"
 
 profile-load-v1.pyprof: test/profile_load.py $(wildcard derinet/*.py)
 	"$(PYTHON)" -O -m cProfile -o "$@" "$<" derinet-v1 < "$(DERINET_V1)"
