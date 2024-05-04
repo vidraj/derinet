@@ -1,4 +1,4 @@
-.PHONY: all test coverage profile pylint time-load-v1 time-load-v2 time-load-v1-pickle time-load-v2-pickle time-unpickle test-scenario clean
+.PHONY: all test coverage profile pylint time-load-v1 time-load-v2 time-load-v1-pickle time-load-v2-pickle compare-load-v2-cpython-pypy time-unpickle test-scenario clean
 
 PROJECT_ROOT::=$(dir $(abspath $(lastword $(MAKEFILE_LIST))))
 PYTHON=python3
@@ -35,6 +35,9 @@ time-load-v1-pickle: test/profile_load.py $(wildcard derinet/*.py)
 
 time-load-v2-pickle: test/profile_load.py $(wildcard derinet/*.py)
 	gzip -dc "$(DERINET_V2)" | command time -v "$(PYTHON)" -O "$<" --save pickle-v4 derinet-v2 > "$(PICKLE_FILE)"
+
+compare-load-v2-cpython-pypy: test/profile_load.py $(wildcard derinet/*.py)
+	hyperfine -m3 'make PYTHON=python3 time-load-v2' 'make PYTHON=pypy3 time-load-v2'
 
 time-unpickle: test/profile_load.py $(wildcard derinet/*.py)
 	command time -v "$(PYTHON)" -O "$<" pickle-v4 < "$(PICKLE_FILE)"
