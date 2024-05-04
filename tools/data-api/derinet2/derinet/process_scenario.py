@@ -1,14 +1,12 @@
-#!/usr/bin/env python3
-
 """Process a derivational network using a scenario specified as individual args."""
-import derinet.modules
 import sys
 import importlib
 import logging
 import argparse
 
-from derinet.scenario import Scenario
-from derinet.block import Block
+from . import modules
+from .scenario import Scenario
+from .block import Block
 
 
 logging.basicConfig(level=logging.DEBUG,
@@ -202,7 +200,3 @@ def main():
     scenario.process(keep_going=main_args.keep_going)
 
     return 0
-
-
-if __name__ == '__main__':
-    sys.exit(main())
