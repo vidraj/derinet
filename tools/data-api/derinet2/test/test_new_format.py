@@ -369,6 +369,18 @@ class TestNewFormat(unittest.TestCase):
         with self.assertRaises(DerinetFileParseError):
             lexicon.load(db_file, fmt=Format.DERINET_V2)
 
+    def test_load_unknown_reltype_permissive(self):
+        db = """0.0	hajný#AA???----??---?	hajný	A						{}
+0.1	hajný#NN???----??---?	hajný	N			0.0	Type=Blargh		{}
+"""
+        db_file = io.StringIO(db)
+        lexicon = Lexicon()
+        with self.assertLogs("derinet", level="WARNING"):
+            lexicon.load(db_file, fmt=Format.DERINET_V2, on_err="continue")
+
+        lexemes = lexicon.get_lexemes("hajný")
+        self.assertEqual(2, len(lexemes))
+
     def test_load_missing_reltype(self):
         db = """0.0	hajný#AA???----??---?	hajný	A						{}
 0.1	hajný#NN???----??---?	hajný	N			0.0			{}
@@ -377,6 +389,22 @@ class TestNewFormat(unittest.TestCase):
         lexicon = Lexicon()
         with self.assertRaises(DerinetFileParseError):
             lexicon.load(db_file, fmt=Format.DERINET_V2)
+
+    def test_load_missing_reltype_permissive(self):
+        db = """0.0	hajný#AA???----??---?	hajný	A						{}
+0.1	hajný#NN???----??---?	hajný	N			0.0			{}
+"""
+        db_file = io.StringIO(db)
+        lexicon = Lexicon()
+        with self.assertLogs("derinet", level="WARNING"):
+            lexicon.load(db_file, fmt=Format.DERINET_V2, on_err="continue")
+
+        nouns = lexicon.get_lexemes("hajný", "N")
+        self.assertEqual(1, len(nouns))
+
+        noun = nouns[0]
+        self.assertIsNotNone(noun.parent)
+        self.assertEqual("A", noun.parent.pos)
 
     def test_roundtrip_complex(self):
         db = """0.0	Aachen#NNM??-----A---?	Aachen	N	Animacy=Anim&Gender=Masc&NameType=Sur					{"techlemma": "Aachen_;S"}
