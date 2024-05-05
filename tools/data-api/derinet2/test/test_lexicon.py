@@ -537,14 +537,17 @@ class TestLexicon(unittest.TestCase):
         self.assertIn("is_compound", z[0].misc)
         self.assertIs(z[0].misc["is_compound"], True)
 
+        # is_nonderived is an older name that should no longer be used.
         self.assertFalse("is_nonderived" in z[0].misc and z[0].misc["is_nonderived"])
+        self.assertFalse("unmotivated" in z[0].misc and z[0].misc["unmotivated"])
 
         t = lexicon.get_lexemes("text")
         self.assertEqual(len(t), 1)
         self.assertEqual(t[0].pos, "N")
-        self.assertIn("is_nonderived", t[0].misc)
-        self.assertIs(t[0].misc["is_nonderived"], True)
+        self.assertIn("unmotivated", t[0].misc)
+        self.assertIs(t[0].misc["unmotivated"], True)
 
+        self.assertFalse("is_nonderived" in t[0].misc and t[0].misc["is_nonderived"])
         self.assertFalse("is_compound" in t[0].misc and t[0].misc["is_compound"])
 
 

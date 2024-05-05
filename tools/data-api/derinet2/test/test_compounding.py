@@ -86,7 +86,7 @@ class TestCompounding(unittest.TestCase):
         with self.assertRaises(DerinetCycleCreationError):
             lexicon.add_derivation(telephone, phone)
 
-    def test_noncycle_secondary_relation(self):
+    def test_cycle_secondary_relation(self):
         lexicon = Lexicon()
 
         telephone = lexicon.create_lexeme("telephone", "N")
@@ -94,10 +94,11 @@ class TestCompounding(unittest.TestCase):
         phone = lexicon.create_lexeme("phone", "N")
 
         lexicon.add_derivation(telephone, phone)
-        lexicon.add_composition([tele, phone], tele, telephone)
+        with self.assertRaises(DerinetCycleCreationError):
+            lexicon.add_composition([tele, phone], tele, telephone)
 
         self.assertIs(telephone, phone.parent)
-        self.assertIs(tele, telephone.parent)
+        self.assertIsNone(telephone.parent)
 
 
 if __name__ == '__main__':
