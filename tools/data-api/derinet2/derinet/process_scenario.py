@@ -54,9 +54,9 @@ def parse_args():
     parser.add_argument(
         "modules",
         nargs=argparse.REMAINDER,
-        help=("A list of modules and their arguments. The module name should be specified as is usual "
-              "in Python: `derinet.modules.Load`. To specify a module from `derinet.modules`, "
-              "you can use the shortened notation: `.Load`")
+        help=("A list of modules and their arguments. New modules must be placed into "
+              "`derinet.modules` and its name specified without the `derinet.modules`, "
+              "so e.g. `derinet.modules.Load` is specified as `Load`.")
     )
 
     main_args = parser.parse_args()
