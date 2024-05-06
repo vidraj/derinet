@@ -54,29 +54,59 @@ For ease-of-use, you may want to install GNU Make as well.
 
 ### Installation
 
-Checkout the Git tree. Set up PYTHONPATH.
+1. Checkout the Git tree.
+2. Create a virtual environment (e.g. `python3 -m venv venv-dir && . venv-dir/bin/activate`)
+3. Install the derinet package into it:
+   ```shell
+   cd tools/data-api/derinet2
+   pip3 install .
+   ```
+
+Alternatively, checkout the Git tree and set up PYTHONPATH:
+```shell
+PYTHONPATH=$(realpath tools/data-api/derinet2)
+export PYTHONPATH
+```
 <!-- TODO Tell the users how to set up PYTHONPATH. -->
 
 
 ### Usage
 
 The API can be used in two ways – programmatically from Python code,
-or by composing existing modules from the command-line.
+or by composing existing modules from the command line.
 
-#### Command-line
+#### Command line
+
+The command-line tool processes scenarios composed of modules. The first
+module loads or creates word-formational data and passes them on to the
+second module, which modifies them and passes them on to the third one,
+and so on, in a pipeline fashion. The modules and their parameters are
+specified as command-line arguments to the processing script.
+
+If you installed DeriNet as a package (the recommended way), the
+processing script is installed into the virtual environment's `bin/`
+directory as `process-scenario`.
+
+If you're using a Git checkout and you have PYTHONPATH set up, you can
+run a scenario by calling the Python module directly:
+```shell
+python3 -m derinet.process_scenario
+```
+
+Basic usage is as follows:
 
 ```shell
 # Show help
-python3 -m derinet.process_scenario -h
+process-scenario -h
 
 # List officially available modules.
-python3 -m derinet.process_scenario -l
+process-scenario -l
 
 # Show help for the derinet.modules.Load module
-python3 -m derinet.process_scenario Load -h
+process-scenario Load -h
 
 # Load a derinet and save it again in a different format.
-python3 -m derinet.process_scenario Load derinet-2.0.tsv Save --format DERINET_V1 derinet-2.0-fmt1.tsv
+process-scenario Load derinet-2.0.tsv Save --format DERINET_V1 derinet-2.0-fmt1.tsv
 ```
 
 #### Programming
