@@ -31,10 +31,10 @@ class AddUnmotivatedMarks(Block):
         # find lexeme and assign mark
         for lemma in assigned:
             lemma, pos = lemma.split('_')
-            node = lexicon.get_lexemes(lemma=lemma, pos=pos)
+            nodes = lexicon.get_lexemes(lemma=lemma, pos=pos)
 
-            if node:
-                node[0].misc['unmotivated'] = True
+            if nodes:
+                nodes[0].misc['unmotivated'] = True
 
         return lexicon
 
