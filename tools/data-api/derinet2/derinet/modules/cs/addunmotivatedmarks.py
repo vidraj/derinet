@@ -34,7 +34,11 @@ class AddUnmotivatedMarks(Block):
             nodes = lexicon.get_lexemes(lemma=lemma, pos=pos)
 
             if nodes:
+                if len(nodes) > 1:
+                    logger.warning("Assigning unmotivatedness for %s %s randomly to %d lexemes: %s", lemma, pos, len(nodes), ", ".join(str(n) for n in nodes))
                 nodes[0].misc['unmotivated'] = True
+            else:
+                logger.warning("Lexeme for %s %s not found", lemma, pos)
 
         return lexicon
 
