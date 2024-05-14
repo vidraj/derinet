@@ -1,0 +1,775 @@
+lemma	tag	wordform	parents
+bůhvíkolik	Ca--1----------	bůhvíkolik	bůh vědět kolik
+kdovíkolik	Ca--1----------	kdovíkolik	kdo vědět kolik
+kolik	Ca--1----------	kolik	kolik
+kolikpak	Ca--1----------	kolikpak	kolik
+malinko-1_^(málo_peněz)	Ca--1----------	malinko	málo
+maličko-1_^(málo_peněz)	Ca--1----------	maličko	málo
+mnoho-1	Ca--1----------	mnoho	mnoho
+málo-1_^(málo_peněz)	Ca--1----------	málo	málo
+nemalinko-1_^(málo_peněz)	Ca--1----------	nemalinko	nemalinko
+nemaličko-1_^(málo_peněz)	Ca--1----------	nemaličko	nemaličko
+nemnoho	Ca--1----------	nemnoho	nemnoho
+nemálo-1	Ca--1----------	nemálo	nemálo
+nevímkolik	Ca--1----------	nevímkolik	vědět kolik
+několik	Ca--1----------	několik	několik
+přemnoho	Ca--1----------	přemnoho	mnoho
+tolik-1	Ca--1----------	tolik	tolik
+čertvíkolik	Ca--1----------	čertvíkolik	čert vědět kolik
+pár-1	Ca--X----------	pár	pár
+desaterý`10	CdFP1----------	desatery	deset
+devadesaterý`90	CdFP1----------	devadesatery	devadesát
+devadesáterý`90_^(*3)	CdFP1----------	devadesátery	devadesát
+devatenácterý`19_^(*3)	CdFP1----------	devatenáctery	devatenáct
+devaterý`9	CdFP1----------	devatery	devět
+devětadevadesáterý`99_^(*3)	CdFP1----------	devětadevadesátery	devět devadesát
+devětadvacaterý`29	CdFP1----------	devětadvacatery	devět dvacet
+devětaosmdesáterý`89_^(*3)	CdFP1----------	devětaosmdesátery	devět osmdesát
+devětapadesáterý`59_^(*3)	CdFP1----------	devětapadesátery	devět padesát
+devětasedmdesáterý`79_^(*3)	CdFP1----------	devětasedmdesátery	devět sedmdesát
+devětatřicaterý`39	CdFP1----------	devětatřicatery	devět třicet
+devětatřiceterý`39_^(*3)	CdFP1----------	devětatřicetery	devět třicet
+devětačtyřicaterý`49	CdFP1----------	devětačtyřicatery	devět čtyřicet
+devětašedesáterý`69_^(*3)	CdFP1----------	devětašedesátery	devět šedesát
+dvaadevadesáterý`92_^(*3)	CdFP1----------	dvaadevadesátery	dva devadesát
+dvaadvacaterý`22	CdFP1----------	dvaadvacatery	dva dvacet
+dvaaosmdesáterý`82_^(*3)	CdFP1----------	dvaaosmdesátery	dva osmdesát
+dvaapadesáterý`52_^(*3)	CdFP1----------	dvaapadesátery	dva padesát
+dvaasedmdesáterý`72_^(*3)	CdFP1----------	dvaasedmdesátery	dva sedmdesát
+dvaatřicaterý`32	CdFP1----------	dvaatřicatery	dva třicet
+dvaačtyřicaterý`42	CdFP1----------	dvaačtyřicatery	dva čtyřicet
+dvaašedesáterý`62_^(*3)	CdFP1----------	dvaašedesátery	dva šedesát
+dvacaterý`20	CdFP1----------	dvacatery	dvacet
+dvanácterý`12_^(*3)	CdFP1----------	dvanáctery	dvanáct
+dvěstěpadesáterý`250_^(*3)	CdFP1----------	dvěstěpadesátery	dvěstě padesát
+jedenadevadesáterý`91_^(*3)	CdFP1----------	jedenadevadesátery	jeden devadesát
+jedenadvaceterý`21_^(*3)	CdFP1----------	jedenadvacetery	jeden dvacet
+jedenaosmdesáterý`81_^(*3)	CdFP1----------	jedenaosmdesátery	jeden osmdesát
+jedenapadesáterý`51_^(*3)	CdFP1----------	jedenapadesátery	jeden padesát
+jedenasedmdesáterý`71_^(*3)	CdFP1----------	jedenasedmdesátery	jeden sedmdesát
+jedenatřicaterý`31	CdFP1----------	jedenatřicatery	jeden třicet
+jedenačtyřicaterý`41	CdFP1----------	jedenačtyřicatery	jeden čtyřicet
+jedenašedesáterý`61_^(*3)	CdFP1----------	jedenašedesátery	jeden šedesát
+jedenácterý`11_^(*3)	CdFP1----------	jedenáctery	jedenáct
+jednadvaceterý`21_^(*3)	CdFP1----------	jednadvacetery	jeden dvacet
+jednatřicaterý`31	CdFP1----------	jednatřicatery	jeden třicet
+jedny`1	CdFP1----------	jedny	jeden
+osmadevadesáterý`98_^(*3)	CdFP1----------	osmadevadesátery	osm devadesát
+osmadvacaterý`28	CdFP1----------	osmadvacatery	osm dvacet
+osmaosmdesáterý`88_^(*3)	CdFP1----------	osmaosmdesátery	osm osmdesát
+osmapadesáterý`58_^(*3)	CdFP1----------	osmapadesátery	osm padesát
+osmasedmdesáterý`78_^(*3)	CdFP1----------	osmasedmdesátery	osm sedmdesát
+osmatřicaterý`38	CdFP1----------	osmatřicatery	osm třicet
+osmačtyřicaterý`48	CdFP1----------	osmačtyřicatery	osm čtyřicet
+osmašedesáterý`68_^(*3)	CdFP1----------	osmašedesátery	osm šedesát
+osmdesáterý`80_^(*3)	CdFP1----------	osmdesátery	osmdesát
+osmerý`8_^(*3)	CdFP1----------	osmery	osm
+osmnácterý`18_^(*3)	CdFP1----------	osmnáctery	osmnáct
+osumdesáterý`80_^(^GC**osmdesáterý)_(*3)	CdFP1----------	osumdesátery	osmdesát
+padesáterý`50_^(*3)	CdFP1----------	padesátery	padesát
+paterý`5	CdFP1----------	patery	pět
+patnácterý`15_^(*3)	CdFP1----------	patnáctery	patnáct
+pětadevadesáterý`95_^(*3)	CdFP1----------	pětadevadesátery	pět devadesát
+pětadvacaterý`25	CdFP1----------	pětadvacatery	pět dvacet
+pětaosmdesáterý`85_^(*3)	CdFP1----------	pětaosmdesátery	pět osmdesát
+pětapadesáterý`55_^(*3)	CdFP1----------	pětapadesátery	pět padesát
+pětasedmdesáterý`75_^(*3)	CdFP1----------	pětasedmdesátery	pět sedmdesát
+pětasedumdesáterý`75_^(^GC**pětasedmdesáterý)_(*3)	CdFP1----------	pětasedumdesátery	pět sedmdesát
+pětatřicaterý`35	CdFP1----------	pětatřicatery	pět třicet
+pětačtyřicaterý`45	CdFP1----------	pětačtyřicatery	pět čtyřicet
+pětašedesáterý`65_^(*3)	CdFP1----------	pětašedesátery	pět šedesát
+sedmadevadesáterý`97_^(*3)	CdFP1----------	sedmadevadesátery	sedm devadesát
+sedmadvacaterý`27	CdFP1----------	sedmadvacatery	sedm dvacet
+sedmaosmdesáterý`87_^(*3)	CdFP1----------	sedmaosmdesátery	sedm osmdesát
+sedmapadesáterý`57_^(*3)	CdFP1----------	sedmapadesátery	sedm padesát
+sedmasedmdesáterý`77_^(*3)	CdFP1----------	sedmasedmdesátery	sedm sedmdesát
+sedmatřicaterý`37	CdFP1----------	sedmatřicatery	sedm třicet
+sedmačtyřicaterý`47	CdFP1----------	sedmačtyřicatery	sedm čtyřicet
+sedmašedesáterý`67_^(*3)	CdFP1----------	sedmašedesátery	sedm šedesát
+sedmdesáterý`70_^(*3)	CdFP1----------	sedmdesátery	sedmdesát
+sedmerý`7_^(*3)	CdFP1----------	sedmery	sedm
+sedmnácterý`17_^(*3)	CdFP1----------	sedmnáctery	sedmnáct
+sedumdesáterý`70_^(^GC**sedmdesáterý)_(*3)	CdFP1----------	sedumdesátery	sedmdesát
+sterý	CdFP1----------	stery	sto
+stodevadesáterý_^(*3)	CdFP1----------	stodevadesátery	stodevadesáterý
+stojednasedmdesáterý_^(*3)	CdFP1----------	stojednasedmdesátery	stojedensedmdesáterý
+stoosmdesáterý_^(*3)	CdFP1----------	stoosmdesátery	stoosmdesáterý
+stopadesáterý`150_^(*3)	CdFP1----------	stopadesátery	sto padesát
+stopětaosmdesáterý_^(*3)	CdFP1----------	stopětaosmdesátery	stopětaosmdesáterý
+stopětašedesáterý_^(*3)	CdFP1----------	stopětašedesátery	stopětašedesáterý
+tisícerý	CdFP1----------	tisícery	tisíc
+třiadevadesáterý`93_^(*3)	CdFP1----------	třiadevadesátery	tři devadesát
+třiadvacaterý`23	CdFP1----------	třiadvacatery	tři dvacet
+třiaosmdesáterý`83_^(*3)	CdFP1----------	třiaosmdesátery	tři osmdesát
+třiaosumdesáterý`83_^(^GC**třiaosmdesáterý)_(*3)	CdFP1----------	třiaosumdesátery	tři osmdesát
+třiapadesáterý`53_^(*3)	CdFP1----------	třiapadesátery	tři padesát
+třiasedmdesáterý`73_^(*3)	CdFP1----------	třiasedmdesátery	tři sedmdesát
+třiatřicaterý`33	CdFP1----------	třiatřicatery	tři třicet
+třiačtyřicaterý`43	CdFP1----------	třiačtyřicatery	tři čtyřicet
+třiašedesáterý`63_^(*3)	CdFP1----------	třiašedesátery	tři šedesát
+třicaterý`30	CdFP1----------	třicatery	třicet
+třinácterý`13_^(*3)	CdFP1----------	třináctery	třináct
+třistašedesáterý_^(*3)	CdFP1----------	třistašedesátery	třistašedesáterý
+vosmerý`8_^(^GC**osmerý)_(*3)	CdFP1----------	vosmery	osm
+vosumdesáterý`80_^(^GC**osmdesáterý)_(*3)	CdFP1----------	vosumdesátery	osmdesát
+čtrnácterý`14_^(*3)	CdFP1----------	čtrnáctery	čtrnáct
+čtverý`4	CdFP1----------	čtvery	čtyři
+čtyřiadevadesáterý`94_^(*3)	CdFP1----------	čtyřiadevadesátery	čtyři devadesát
+čtyřiadvacaterý`24	CdFP1----------	čtyřiadvacatery	čtyři dvacet
+čtyřiaosmdesáterý`84_^(*3)	CdFP1----------	čtyřiaosmdesátery	čtyři osmdesát
+čtyřiapadesáterý`54_^(*3)	CdFP1----------	čtyřiapadesátery	čtyři padesát
+čtyřiasedmdesáterý`74_^(*3)	CdFP1----------	čtyřiasedmdesátery	čtyři sedmdesát
+čtyřiatřicaterý`34	CdFP1----------	čtyřiatřicatery	čtyři třicet
+čtyřiačtyřicaterý`44	CdFP1----------	čtyřiačtyřicatery	čtyři čtyřicet
+čtyřiašedesáterý`64_^(*3)	CdFP1----------	čtyřiašedesátery	čtyři šedesát
+čtyřicaterý`40	CdFP1----------	čtyřicatery	čtyřicet
+šedesaterý`60	CdFP1----------	šedesatery	šedesát
+šedesáterý`60_^(*3)	CdFP1----------	šedesátery	šedesát
+šestadevadesáterý`96_^(*3)	CdFP1----------	šestadevadesátery	šest devadesát
+šestadvacaterý`26	CdFP1----------	šestadvacatery	šest dvacet
+šestaosmdesáterý`86_^(*3)	CdFP1----------	šestaosmdesátery	šest osmdesát
+šestapadesáterý`56_^(*3)	CdFP1----------	šestapadesátery	šest padesát
+šestasedmdesáterý`76_^(*3)	CdFP1----------	šestasedmdesátery	šest sedmdesát
+šestatřicaterý`36	CdFP1----------	šestatřicatery	šest třicet
+šestačtyřicaterý`46	CdFP1----------	šestačtyřicatery	šest čtyřicet
+šestašedesáterý`66_^(*3)	CdFP1----------	šestašedesátery	šest šedesát
+šesterý`6_^(*3)	CdFP1----------	šestery	šest
+šestnácterý`16_^(*3)	CdFP1----------	šestnáctery	šestnáct
+šestsetpadesáterý`650_^(*3)	CdFP1----------	šestsetpadesátery	šestset padesát
+štrnácterý`14_^(^GC**čtrnácterý)_(*3)	CdFP1----------	štrnáctery	čtrnáct
+dvojí	CdNS1---------1	dvoje	dvojí
+obojí	CdNS1---------1	oboje	obojí
+trojí	CdNS1---------1	troje	trojí
+obé	CdXP1----------	obé	obé
+kolikerý	ChFP1----------	kolikery	kolikerý
+nejedny	ChFP1----------	nejedny	nejedny
+několikerý	ChFP1----------	několikery	několikerý
+tolikerý	ChFP1----------	tolikery	tolikerý
+desatero`10	CjNP1----------	desatera	deset
+devadesatero`90	CjNP1----------	devadesatera	devadesát
+devadesátero`90_^(*3)	CjNP1----------	devadesátera	devadesát
+devatenáctero`19_^(*3)	CjNP1----------	devatenáctera	devatenáct
+devatero`9	CjNP1----------	devatera	devět
+devětadevadesátero`99_^(*3)	CjNP1----------	devětadevadesátera	devět devadesát
+devětadvacatero`29	CjNP1----------	devětadvacatera	devět dvacet
+devětaosmdesátero`89_^(*3)	CjNP1----------	devětaosmdesátera	devět osmdesát
+devětapadesátero`59_^(*3)	CjNP1----------	devětapadesátera	devět padesát
+devětasedmdesátero`79_^(*3)	CjNP1----------	devětasedmdesátera	devět sedmdesát
+devětatřicatero`39	CjNP1----------	devětatřicatera	devět třicet
+devětatřicetero`39_^(*3)	CjNP1----------	devětatřicetera	devět třicet
+devětačtyřicatero`49	CjNP1----------	devětačtyřicatera	devět čtyřicet
+devětašedesátero`69_^(*3)	CjNP1----------	devětašedesátera	devět šedesát
+dvaadevadesátero`92_^(*3)	CjNP1----------	dvaadevadesátera	dva devadesát
+dvaadvacatero`22	CjNP1----------	dvaadvacatera	dva dvacet
+dvaaosmdesátero`82_^(*3)	CjNP1----------	dvaaosmdesátera	dva osmdesát
+dvaapadesátero`52_^(*3)	CjNP1----------	dvaapadesátera	dva padesát
+dvaasedmdesátero`72_^(*3)	CjNP1----------	dvaasedmdesátera	dva sedmdesát
+dvaatřicatero`32	CjNP1----------	dvaatřicatera	dva třicet
+dvaačtyřicatero`42	CjNP1----------	dvaačtyřicatera	dva čtyřicet
+dvaašedesátero`62_^(*3)	CjNP1----------	dvaašedesátera	dva šedesát
+dvacatero`20	CjNP1----------	dvacatera	dvacet
+dvanáctero`12_^(*3)	CjNP1----------	dvanáctera	dvanáct
+dvěstěpadesátero`250_^(*3)	CjNP1----------	dvěstěpadesátera	dvěstě padesát
+jedenadevadesátero`91_^(*3)	CjNP1----------	jedenadevadesátera	jeden devadesát
+jedenadvacetero`21_^(*3)	CjNP1----------	jedenadvacetera	jeden dvacet
+jedenaosmdesátero`81_^(*3)	CjNP1----------	jedenaosmdesátera	jeden osmdesát
+jedenapadesátero`51_^(*3)	CjNP1----------	jedenapadesátera	jeden padesát
+jedenasedmdesátero`71_^(*3)	CjNP1----------	jedenasedmdesátera	jeden sedmdesát
+jedenatřicatero`31	CjNP1----------	jedenatřicatera	jeden třicet
+jedenačtyřicatero`41	CjNP1----------	jedenačtyřicatera	jeden čtyřicet
+jedenašedesátero`61_^(*3)	CjNP1----------	jedenašedesátera	jeden šedesát
+jedenáctero`11_^(*3)	CjNP1----------	jedenáctera	jedenáct
+jednadvacetero`21_^(*3)	CjNP1----------	jednadvacetera	jeden dvacet
+jednatřicatero`31	CjNP1----------	jednatřicatera	jeden třicet
+osmadevadesátero`98_^(*3)	CjNP1----------	osmadevadesátera	osm devadesát
+osmadvacatero`28	CjNP1----------	osmadvacatera	osm dvacet
+osmaosmdesátero`88_^(*3)	CjNP1----------	osmaosmdesátera	osm osmdesát
+osmapadesátero`58_^(*3)	CjNP1----------	osmapadesátera	osm padesát
+osmasedmdesátero`78_^(*3)	CjNP1----------	osmasedmdesátera	osm sedmdesát
+osmatřicatero`38	CjNP1----------	osmatřicatera	osm třicet
+osmačtyřicatero`48	CjNP1----------	osmačtyřicatera	osm čtyřicet
+osmašedesátero`68_^(*3)	CjNP1----------	osmašedesátera	osm šedesát
+osmdesátero`80_^(*3)	CjNP1----------	osmdesátera	osmdesát
+osmero`8_^(*3)	CjNP1----------	osmera	osm
+osmnáctero`18_^(*3)	CjNP1----------	osmnáctera	osmnáct
+osumdesátero`80_^(^GC**osmdesátero)_(*3)	CjNP1----------	osumdesátera	osmdesát
+padesátero`50_^(*3)	CjNP1----------	padesátera	padesát
+patero`5	CjNP1----------	patera	pět
+patnáctero`15_^(*3)	CjNP1----------	patnáctera	patnáct
+pětadevadesátero`95_^(*3)	CjNP1----------	pětadevadesátera	pět devadesát
+pětadvacatero`25	CjNP1----------	pětadvacatera	pět dvacet
+pětaosmdesátero`85_^(*3)	CjNP1----------	pětaosmdesátera	pět osmdesát
+pětapadesátero`55_^(*3)	CjNP1----------	pětapadesátera	pět padesát
+pětasedmdesátero`75_^(*3)	CjNP1----------	pětasedmdesátera	pět sedmdesát
+pětasedumdesátero`75_^(^GC**pětasedmdesátero)_(*3)	CjNP1----------	pětasedumdesátera	pět sedmdesát
+pětatřicatero`35	CjNP1----------	pětatřicatera	pět třicet
+pětačtyřicatero`45	CjNP1----------	pětačtyřicatera	pět čtyřicet
+pětašedesátero`65_^(*3)	CjNP1----------	pětašedesátera	pět šedesát
+sedmadevadesátero`97_^(*3)	CjNP1----------	sedmadevadesátera	sedm devadesát
+sedmadvacatero`27	CjNP1----------	sedmadvacatera	sedm dvacet
+sedmaosmdesátero`87_^(*3)	CjNP1----------	sedmaosmdesátera	sedm osmdesát
+sedmapadesátero`57_^(*3)	CjNP1----------	sedmapadesátera	sedm padesát
+sedmasedmdesátero`77_^(*3)	CjNP1----------	sedmasedmdesátera	sedm sedmdesát
+sedmatřicatero`37	CjNP1----------	sedmatřicatera	sedm třicet
+sedmačtyřicatero`47	CjNP1----------	sedmačtyřicatera	sedm čtyřicet
+sedmašedesátero`67_^(*3)	CjNP1----------	sedmašedesátera	sedm šedesát
+sedmdesátero`70_^(*3)	CjNP1----------	sedmdesátera	sedmdesát
+sedmero`7_^(*3)	CjNP1----------	sedmera	sedm
+sedmnáctero`17_^(*3)	CjNP1----------	sedmnáctera	sedmnáct
+sedumdesátero`70_^(^GC**sedmdesátero)_(*3)	CjNP1----------	sedumdesátera	sedmdesát
+stero`100	CjNP1----------	stera	sto
+stodevadesátero_^(*3)	CjNP1----------	stodevadesátera	stodevadesátero
+stojednasedmdesátero_^(*3)	CjNP1----------	stojednasedmdesátera	stojedensedmdesátero
+stoosmdesátero_^(*3)	CjNP1----------	stoosmdesátera	stoosmdesátero
+stopadesátero`150_^(*3)	CjNP1----------	stopadesátera	sto padesát
+stopětaosmdesátero_^(*3)	CjNP1----------	stopětaosmdesátera	stopětaosmdesátero
+stopětašedesátero_^(*3)	CjNP1----------	stopětašedesátera	stopětašedesátero
+tisícero	CjNP1----------	tisícera	tisícero
+třiadevadesátero`93_^(*3)	CjNP1----------	třiadevadesátera	tři devadesát
+třiadvacatero`23	CjNP1----------	třiadvacatera	tři dvacet
+třiaosmdesátero`83_^(*3)	CjNP1----------	třiaosmdesátera	tři osmdesát
+třiaosumdesátero`83_^(^GC**třiaosmdesátero)_(*3)	CjNP1----------	třiaosumdesátera	tři osmdesát
+třiapadesátero`53_^(*3)	CjNP1----------	třiapadesátera	tři padesát
+třiasedmdesátero`73_^(*3)	CjNP1----------	třiasedmdesátera	tři sedmdesát
+třiatřicatero`33	CjNP1----------	třiatřicatera	tři třicet
+třiačtyřicatero`43	CjNP1----------	třiačtyřicatera	tři čtyřicet
+třiašedesátero`63_^(*3)	CjNP1----------	třiašedesátera	tři šedesát
+třicatero`30	CjNP1----------	třicatera	třicet
+třináctero`13_^(*3)	CjNP1----------	třináctera	třináct
+třistašedesátero_^(*3)	CjNP1----------	třistašedesátera	třistašedesátero
+vosmero`8_^(^GC**osmero)_(*3)	CjNP1----------	vosmera	osm
+vosumdesátero`80_^(^GC**osmdesátero)_(*3)	CjNP1----------	vosumdesátera	osmdesát
+čtrnáctero`14_^(*3)	CjNP1----------	čtrnáctera	čtrnáct
+čtvero`4	CjNP1----------	čtvera	čtyři
+čtyřiadevadesátero`94_^(*3)	CjNP1----------	čtyřiadevadesátera	čtyři devadesát
+čtyřiadvacatero`24	CjNP1----------	čtyřiadvacatera	čtyři dvacet
+čtyřiaosmdesátero`84_^(*3)	CjNP1----------	čtyřiaosmdesátera	čtyři osmdesát
+čtyřiapadesátero`54_^(*3)	CjNP1----------	čtyřiapadesátera	čtyři padesát
+čtyřiasedmdesátero`74_^(*3)	CjNP1----------	čtyřiasedmdesátera	čtyři sedmdesát
+čtyřiatřicatero`34	CjNP1----------	čtyřiatřicatera	čtyři třicet
+čtyřiačtyřicatero`44	CjNP1----------	čtyřiačtyřicatera	čtyři čtyřicet
+čtyřiašedesátero`64_^(*3)	CjNP1----------	čtyřiašedesátera	čtyři šedesát
+čtyřicatero`40	CjNP1----------	čtyřicatera	čtyřicet
+šedesatero`60	CjNP1----------	šedesatera	šedesát
+šedesátero`60_^(*3)	CjNP1----------	šedesátera	šedesát
+šestadevadesátero`96_^(*3)	CjNP1----------	šestadevadesátera	šest devadesát
+šestadvacatero`26	CjNP1----------	šestadvacatera	šest dvacet
+šestaosmdesátero`86_^(*3)	CjNP1----------	šestaosmdesátera	šest osmdesát
+šestapadesátero`56_^(*3)	CjNP1----------	šestapadesátera	šest padesát
+šestasedmdesátero`76_^(*3)	CjNP1----------	šestasedmdesátera	šest sedmdesát
+šestatřicatero`36	CjNP1----------	šestatřicatera	šest třicet
+šestačtyřicatero`46	CjNP1----------	šestačtyřicatera	šest čtyřicet
+šestašedesátero`66_^(*3)	CjNP1----------	šestašedesátera	šest šedesát
+šestero`6_^(*3)	CjNP1----------	šestera	šest
+šestnáctero`16_^(*3)	CjNP1----------	šestnáctera	šestnáct
+šestsetpadesátero`650_^(*3)	CjNP1----------	šestsetpadesátera	šestset padesát
+štrnáctero`14_^(^GC**čtrnáctero)_(*3)	CjNP1----------	štrnáctera	čtrnáct
+dvé	CjNS1----------	dvé	dvé
+tré	CjNS1----------	tré	tré
+kolikero	CkNP1----------	kolikera	kolikero
+několikero	CkNP1----------	několikera	několikero
+tolikero	CkNP1----------	tolikera	tolikero
+tři`3	Cl-P1----------	tři	tři
+čtyři`4	Cl-P1----------	čtyři	čtyři
+deset`10	Cl-S1----------	deset	deset
+devadesát`90	Cl-S1----------	devadesát	devadesát
+devatenáct`19	Cl-S1----------	devatenáct	devatenáct
+devět`9	Cl-S1----------	devět	devět
+devětadevadesát`99	Cl-S1----------	devětadevadesát	devět devadesát
+devětadvacet`29	Cl-S1----------	devětadvacet	devět dvacet
+devětaosmdesát`89	Cl-S1----------	devětaosmdesát	devět osmdesát
+devětapadesát`59	Cl-S1----------	devětapadesát	devět padesát
+devětasedmdesát`79	Cl-S1----------	devětasedmdesát	devět sedmdesát
+devětatřicet`39	Cl-S1----------	devětatřicet	devět třicet
+devětačtyřicet`49	Cl-S1----------	devětačtyřicet	devět čtyřicet
+devětašedesát`69	Cl-S1----------	devětašedesát	devět šedesát
+dvaadevadesát`92	Cl-S1----------	dvaadevadesát	dva devadesát
+dvaadvacet`22	Cl-S1----------	dvaadvacet	dva dvacet
+dvaaosmdesát`82	Cl-S1----------	dvaaosmdesát	dva osmdesát
+dvaapadesát`52	Cl-S1----------	dvaapadesát	dva padesát
+dvaasedmdesát`72	Cl-S1----------	dvaasedmdesát	dva sedmdesát
+dvaatřicet`32	Cl-S1----------	dvaatřicet	dva třicet
+dvaačtyřicet`42	Cl-S1----------	dvaačtyřicet	dva čtyřicet
+dvaašedesát`62	Cl-S1----------	dvaašedesát	dva šedesát
+dvacet`20	Cl-S1----------	dvacet	dvacet
+dvanáct`12	Cl-S1----------	dvanáct	dvanáct
+dvoutucet	Cl-S1----------	dvoutucet	dvoutucet
+dvěstěpadesát`250	Cl-S1----------	dvěstěpadesát	dvěstě padesát
+jedenadevadesát`91	Cl-S1----------	jedenadevadesát	jeden devadesát
+jedenadvacet`21	Cl-S1----------	jedenadvacet	jeden dvacet
+jedenaosmdesát`81	Cl-S1----------	jedenaosmdesát	jeden osmdesát
+jedenapadesát`51	Cl-S1----------	jedenapadesát	jeden padesát
+jedenasedmdesát`71	Cl-S1----------	jedenasedmdesát	jeden sedmdesát
+jedenasedumdesát`71	Cl-S1----------	jedenasedumdesát	jeden sedmdesát
+jedenatřicet`31	Cl-S1----------	jedenatřicet	jeden třicet
+jedenačtyřicet`41	Cl-S1----------	jedenačtyřicet	jeden čtyřicet
+jedenašedesát`61	Cl-S1----------	jedenašedesát	jeden šedesát
+jedenáct`11	Cl-S1----------	jedenáct	jedenáct
+jednadevadesát`91	Cl-S1----------	jednadevadesát	jeden devadesát
+jednadvacet`21	Cl-S1----------	jednadvacet	jeden dvacet
+jednaosmdesát`81	Cl-S1----------	jednaosmdesát	jeden osmdesát
+jednapadesát`51	Cl-S1----------	jednapadesát	jeden padesát
+jednasedmdesát`71	Cl-S1----------	jednasedmdesát	jeden sedmdesát
+jednatřicet`31_,s_^(^DD**jedenatřicet)	Cl-S1----------	jednatřicet	jeden třicet
+jednačtyřicet`41	Cl-S1----------	jednačtyřicet	jeden čtyřicet
+jednašedesát`61	Cl-S1----------	jednašedesát	jeden šedesát
+osm`8	Cl-S1----------	osm	osm
+osmadevadesát`98	Cl-S1----------	osmadevadesát	osm devadesát
+osmadvacet`28	Cl-S1----------	osmadvacet	osm dvacet
+osmaosmdesát`88	Cl-S1----------	osmaosmdesát	osm osmdesát
+osmapadesát`58	Cl-S1----------	osmapadesát	osm padesát
+osmasedmdesát`78	Cl-S1----------	osmasedmdesát	osm sedmdesát
+osmatřicet`38	Cl-S1----------	osmatřicet	osm třicet
+osmačtyřicet`48	Cl-S1----------	osmačtyřicet	osm čtyřicet
+osmašedesát`68	Cl-S1----------	osmašedesát	osm šedesát
+osmdesát`80	Cl-S1----------	osmdesát	osmdesát
+osmnáct`18	Cl-S1----------	osmnáct	osmnáct
+padesát`50	Cl-S1----------	padesát	padesát
+patnáct`15	Cl-S1----------	patnáct	patnáct
+pět-1`5	Cl-S1----------	pět	pět
+pětadevadesát`95	Cl-S1----------	pětadevadesát	pět devadesát
+pětadvacet`25	Cl-S1----------	pětadvacet	pět dvacet
+pětaosmdesát`85	Cl-S1----------	pětaosmdesát	pět osmdesát
+pětapadesát`55	Cl-S1----------	pětapadesát	pět padesát
+pětasedmdesát`75	Cl-S1----------	pětasedmdesát	pět sedmdesát
+pětatřicet`35	Cl-S1----------	pětatřicet	pět třicet
+pětačtyřicet`45	Cl-S1----------	pětačtyřicet	pět čtyřicet
+pětašedesát`65	Cl-S1----------	pětašedesát	pět šedesát
+sedm`7	Cl-S1----------	sedm	sedm
+sedmadevadesát`97	Cl-S1----------	sedmadevadesát	sedm devadesát
+sedmadvacet`27	Cl-S1----------	sedmadvacet	sedm dvacet
+sedmaosmdesát`87	Cl-S1----------	sedmaosmdesát	sedm osmdesát
+sedmapadesát`57	Cl-S1----------	sedmapadesát	sedm padesát
+sedmasedmdesát`77	Cl-S1----------	sedmasedmdesát	sedm sedmdesát
+sedmatřicet`37	Cl-S1----------	sedmatřicet	sedm třicet
+sedmačtyřicet`47	Cl-S1----------	sedmačtyřicet	sedm čtyřicet
+sedmašedesát`67	Cl-S1----------	sedmašedesát	sedm šedesát
+sedmdesát`70	Cl-S1----------	sedmdesát	sedmdesát
+sedmnáct`17	Cl-S1----------	sedmnáct	sedmnáct
+sedmsetdevětadvacet`729	Cl-S1----------	sedmsetdevětadvacet	sedmset devět dvacet
+stodevadesát	Cl-S1----------	stodevadesát	stodevadesát
+stodevětačtyřicet`149	Cl-S1----------	stodevětačtyřicet	sto devět čtyřicet
+stodevětašedesát`169	Cl-S1----------	stodevětašedesát	sto devět šedesát
+stojednasedmdesát	Cl-S1----------	stojednasedmdesát	stojedensedmdesát
+stoosmdesát	Cl-S1----------	stoosmdesát	stoosmdesát
+stopadesát`150	Cl-S1----------	stopadesát	sto padesát
+stopětadvacet`125	Cl-S1----------	stopětadvacet	sto pět dvacet
+stopětaosmdesát	Cl-S1----------	stopětaosmdesát	stopětaosmdesát
+stopětapadesát`155	Cl-S1----------	stopětapadesát	sto pět padesát
+stopětasedmdesát`175	Cl-S1----------	stopětasedmdesát	sto pět sedmdesát
+stopětatřicet`135	Cl-S1----------	stopětatřicet	sto pět třicet
+stopětačtyřicet`145	Cl-S1----------	stopětačtyřicet	sto pět čtyřicet
+stopětašedesát	Cl-S1----------	stopětašedesát	stopětašedesát
+stosedmapadesát`157	Cl-S1----------	stosedmapadesát	sto sedm padesát
+stotřiadvacet`123	Cl-S1----------	stotřiadvacet	sto tři dvacet
+stotřiapadesát`153	Cl-S1----------	stotřiapadesát	sto tři padesát
+stotřiasedmdesát`173	Cl-S1----------	stotřiasedmdesát	sto tři sedmdesát
+stotřiatřicet`133	Cl-S1----------	stotřiatřicet	sto tři třicet
+stotřiačtyřicet`143	Cl-S1----------	stotřiačtyřicet	sto tři čtyřicet
+stotřicet`130	Cl-S1----------	stotřicet	sto třicet
+stočtyřiadvacet`124	Cl-S1----------	stočtyřiadvacet	sto čtyři dvacet
+tisícdevětsetpadesátšest`1956	Cl-S1----------	tisícdevětsetpadesátšest	tisíc devětset padesát šest
+tisícdevětsetšedesát`1960	Cl-S1----------	tisícdevětsetšedesát	tisíc devětset šedesát
+třiadevadesát`93	Cl-S1----------	třiadevadesát	tři devadesát
+třiadvacet`23	Cl-S1----------	třiadvacet	tři dvacet
+třiaosmdesát`83	Cl-S1----------	třiaosmdesát	tři osmdesát
+třiapadesát`53	Cl-S1----------	třiapadesát	tři padesát
+třiasedmdesát`73	Cl-S1----------	třiasedmdesát	tři sedmdesát
+třiatřicet`33	Cl-S1----------	třiatřicet	tři třicet
+třiačtyřicet`43	Cl-S1----------	třiačtyřicet	tři čtyřicet
+třiašedesát`63	Cl-S1----------	třiašedesát	tři šedesát
+třicet`30	Cl-S1----------	třicet	třicet
+třináct`13	Cl-S1----------	třináct	třináct
+třistaosmdesátšest`386	Cl-S1----------	třistaosmdesátšest	třista osmdesát šest
+třistašedesát	Cl-S1----------	třistašedesát	třistašedesát
+čtrnáct`14	Cl-S1----------	čtrnáct	čtrnáct
+čtyrycet`40_,s_^(^DD**čtyřicet)	Cl-S1----------	čtyrycet	čtyřicet
+čtyřiadevadesát`94	Cl-S1----------	čtyřiadevadesát	čtyři devadesát
+čtyřiadvacet`24	Cl-S1----------	čtyřiadvacet	čtyři dvacet
+čtyřiaosmdesát`84	Cl-S1----------	čtyřiaosmdesát	čtyři osmdesát
+čtyřiapadesát`54	Cl-S1----------	čtyřiapadesát	čtyři padesát
+čtyřiasedmdesát`74	Cl-S1----------	čtyřiasedmdesát	čtyři sedmdesát
+čtyřiatřicet`34	Cl-S1----------	čtyřiatřicet	čtyři třicet
+čtyřiačtyřicet`44	Cl-S1----------	čtyřiačtyřicet	čtyři čtyřicet
+čtyřiašedesát`64	Cl-S1----------	čtyřiašedesát	čtyři šedesát
+čtyřicet`40	Cl-S1----------	čtyřicet	čtyřicet
+šedesát`60	Cl-S1----------	šedesát	šedesát
+šest`6	Cl-S1----------	šest	šest
+šestadevadesát`96	Cl-S1----------	šestadevadesát	šest devadesát
+šestadvacet`26	Cl-S1----------	šestadvacet	šest dvacet
+šestaosmdesát`86	Cl-S1----------	šestaosmdesát	šest osmdesát
+šestapadesát`56	Cl-S1----------	šestapadesát	šest padesát
+šestasedmdesát`76	Cl-S1----------	šestasedmdesát	šest sedmdesát
+šestatřicet`36	Cl-S1----------	šestatřicet	šest třicet
+šestačtyřicet`46	Cl-S1----------	šestačtyřicet	šest čtyřicet
+šestašedesát`66	Cl-S1----------	šestašedesát	šest šedesát
+šestnáct`16	Cl-S1----------	šestnáct	šestnáct
+šestsetpadesát`650	Cl-S1----------	šestsetpadesát	šestset padesát
+dvanácte	Cl-S1---------1	dvanácte	dvanácte
+umtadvacet	Cl-S1---------6	umtadvacet	umtadvacet
+devětset`900	Cl-XX----------	devětset	devětset
+dvaapůl	Cl-XX----------	dvaapůl	dva půl
+dvěstě`200	Cl-XX----------	dvěstě	dvěstě
+jedenapůl	Cl-XX----------	jedenapůl	jeden půl
+jedentisícdevětsetčtyřicetsedm`1947	Cl-XX----------	jedentisícdevětsetčtyřicetsedm	tisíc devětset čtyřicet sedm
+osmdesátpět`85	Cl-XX----------	osmdesátpět	osmdesát pět
+osmset`800	Cl-XX----------	osmset	osmset
+padesátpět`55	Cl-XX----------	padesátpět	padesát pět
+pětset`500	Cl-XX----------	pětset	pětset
+půl-1	Cl-XX----------	půl	půl
+raz-1_^(jeden)	Cl-XX----------	raz	raz
+sedmset`700	Cl-XX----------	sedmset	sedmset
+tisícdevětset`1900	Cl-XX----------	tisícdevětset	tisíc devětset
+třicetpět`35	Cl-XX----------	třicetpět	třicet pět
+třicetšest`36	Cl-XX----------	třicetšest	třicet šest
+třista`300	Cl-XX----------	třista	třista
+třičtvrtě	Cl-XX----------	třičtvrtě	třičtvrtě
+čtyřicetsedm`47	Cl-XX----------	čtyřicetsedm	čtyřicet sedm
+čtyřista`400	Cl-XX----------	čtyřista	čtyřista
+čtyřmecítma_,a	Cl-XX----------	čtyřmecítma	čtyřmecítma
+jeden`1	CnFS1----------	jedna	jeden
+dva`2	CnHP1----------	dvě	dva
+oba`2	CnHP1----------	obě	dva
+desetimiliontý`10000000_,s_^(^DD**desetimilióntý)	CrFP1----------	desetimilionté	deset milionů
+desetimilióntý	CrFP1----------	desetimiliónté	desetimilióntý
+desetitisící	CrFP1----------	desetitisící	desetitisící
+desátý	CrFP1----------	desáté	desátý
+devadesátimilióntý	CrFP1----------	devadesátimiliónté	devadesátimilióntý
+devadesátitisící	CrFP1----------	devadesátitisící	devadesátitisící
+devadesátý	CrFP1----------	devadesáté	devadesátý
+devatenáctistý	CrFP1----------	devatenáctisté	devatenáctistý
+devatenáctý	CrFP1----------	devatenácté	devatenáctý
+devátý	CrFP1----------	deváté	devátý
+devítimilióntý	CrFP1----------	devítimiliónté	devítimilióntý
+devítistý	CrFP1----------	devítisté	devítistý
+devítitisící	CrFP1----------	devítitisící	devítitisící
+devětadevadesátý	CrFP1----------	devětadevadesáté	devětadevadesátý
+devětadvacetitisící	CrFP1----------	devětadvacetitisící	devětadvacetitisící
+devětadvacátý	CrFP1----------	devětadvacáté	devětadvacátý
+devětaosmdesátý`89	CrFP1----------	devětaosmdesáté	devět osmdesát
+devětapadesátý	CrFP1----------	devětapadesáté	devětapadesátý
+devětasedmdesátitisící	CrFP1----------	devětasedmdesátitisící	devětasedmdesátitisící
+devětasedmdesátý`79	CrFP1----------	devětasedmdesáté	devět sedmdesát
+devětatřicátý	CrFP1----------	devětatřicáté	devětatřicátý
+devětačtyřicátý	CrFP1----------	devětačtyřicáté	devětačtyřicátý
+devětašedesátý	CrFP1----------	devětašedesáté	devětašedesátý
+druhý`2	CrFP1----------	druhé	dva
+dvaadevadesátý	CrFP1----------	dvaadevadesáté	dvaadevadesátý
+dvaadvacátý	CrFP1----------	dvaadvacáté	dvaadvacátý
+dvaaosmdesátý	CrFP1----------	dvaaosmdesáté	dvaaosmdesátý
+dvaapadesátý	CrFP1----------	dvaapadesáté	dvaapadesátý
+dvaapůltisící	CrFP1----------	dvaapůltisící	dvaapůltisící
+dvaapůltý`2.5	CrFP1----------	dvaapůlté	dva
+dvaasedmdesátý	CrFP1----------	dvaasedmdesáté	dvaasedmdesátý
+dvaatřicátý	CrFP1----------	dvaatřicáté	dvaatřicátý
+dvaačtyřicátý	CrFP1----------	dvaačtyřicáté	dvaačtyřicátý
+dvaašedesátý	CrFP1----------	dvaašedesáté	dvaašedesátý
+dvacetimiliontý_,s_^(^DD**dvacetimilióntý)	CrFP1----------	dvacetimilionté	dvacetimiliontý
+dvacetimilióntý	CrFP1----------	dvacetimiliónté	dvacetimilióntý
+dvacetitisící	CrFP1----------	dvacetitisící	dvacetitisící
+dvacátý	CrFP1----------	dvacáté	dvacátý
+dvacátýpátý	CrFP1----------	dvacátýpáté	dvacátýpátý
+dvacátýšestý	CrFP1----------	dvacátýšesté	dvacátýšestý
+dvadvacátý	CrFP1----------	dvadvacáté	dvadvacátý
+dvanáctimilióntý	CrFP1----------	dvanáctimiliónté	dvanáct milión
+dvanáctistý`1200	CrFP1----------	dvanáctisté	dvěstě tisíc
+dvanáctitisící	CrFP1----------	dvanáctitisící	dvanáctitisící
+dvanáctý	CrFP1----------	dvanácté	dvanáctý
+dvouapůlmiliontý_,s_^(^DD**dvouapůlmilióntý)	CrFP1----------	dvouapůlmilionté	dvouapůlmiliontý
+dvouapůlmilióntý	CrFP1----------	dvouapůlmiliónté	dvouapůlmilióntý
+dvouapůltisící`2500	CrFP1----------	dvouapůltisící	dva půl tisíc
+dvouapůltý`2.5	CrFP1----------	dvouapůlté	dva půl
+dvoumiliontý_,s_^(^DD**dvoumilióntý)	CrFP1----------	dvoumilionté	dvoumiliontý
+dvoumilióntý	CrFP1----------	dvoumiliónté	dvoumilióntý
+dvousetdvaadvacátý	CrFP1----------	dvousetdvaadvacáté	dvousetdvaadvacátý
+dvousetmiliontý_,s_^(^DD**dvousetmilióntý)	CrFP1----------	dvousetmilionté	dvousetmiliontý
+dvousetmilióntý	CrFP1----------	dvousetmiliónté	dvousetmilióntý
+dvousetpadesátý	CrFP1----------	dvousetpadesáté	dvousetpadesátý
+dvousettisící	CrFP1----------	dvousettisící	dvousettisící
+dvoustý	CrFP1----------	dvousté	dvoustý
+dvoutisící	CrFP1----------	dvoutisící	dvoutisící
+dvěstěpadesátý	CrFP1----------	dvěstěpadesáté	dvěstěpadesátý
+jedenadevadesátý	CrFP1----------	jedenadevadesáté	jedenadevadesátý
+jedenadvacátý	CrFP1----------	jedenadvacáté	jedenadvacátý
+jedenaosmdesátý	CrFP1----------	jedenaosmdesáté	jedenaosmdesátý
+jedenapadesátý	CrFP1----------	jedenapadesáté	jedenapadesátý
+jedenapůltý`1.5	CrFP1----------	jedenapůlté	jeden půl
+jedenasedmdesátý	CrFP1----------	jedenasedmdesáté	jedenasedmdesátý
+jedenatřicátý	CrFP1----------	jedenatřicáté	jedenatřicátý
+jedenačtyřicátý	CrFP1----------	jedenačtyřicáté	jedenačtyřicátý
+jedenašedesátý	CrFP1----------	jedenašedesáté	jedenašedesátý
+jedenáctistý`1100	CrFP1----------	jedenáctisté	jedenáct sto
+jedenáctitisící`11000	CrFP1----------	jedenáctitisící	jedenáct tisíc
+jedenáctý	CrFP1----------	jedenácté	jedenáctý
+jednadevadesátý	CrFP1----------	jednadevadesáté	jedendevadesátý
+jednadvacátý	CrFP1----------	jednadvacáté	jedendvacátý
+jednaosmdesátý	CrFP1----------	jednaosmdesáté	jedenosmdesátý
+jednapadesátý	CrFP1----------	jednapadesáté	jedenpadesátý
+jednasedmdesátý	CrFP1----------	jednasedmdesáté	jedensedmdesátý
+jednatřicátý	CrFP1----------	jednatřicáté	jedentřicátý
+jednačtyřicátý	CrFP1----------	jednačtyřicáté	jedenčtyřicátý
+jednašedesátý	CrFP1----------	jednašedesáté	jedenšedesátý
+miliontý_,s_^(^DD**milióntý)	CrFP1----------	milionté	miliontý
+milióntý	CrFP1----------	miliónté	milióntý
+nevímkolikátý	CrFP1----------	nevímkolikáté	nevímkolikátý
+osmadevadesátý`98	CrFP1----------	osmadevadesáté	osm devadesát
+osmadvacátý	CrFP1----------	osmadvacáté	osmadvacet
+osmaosmdesátý	CrFP1----------	osmaosmdesáté	osmaosmdesát
+osmapadesátý	CrFP1----------	osmapadesáté	osmapadesát
+osmapůltý`8.5	CrFP1----------	osmapůlté	osm půl
+osmasedmdesátý	CrFP1----------	osmasedmdesáté	osmasedmdesát
+osmatřicátý	CrFP1----------	osmatřicáté	osmatřicet
+osmačtyřicátý	CrFP1----------	osmačtyřicáté	osmačtyřicet
+osmašedesátý	CrFP1----------	osmašedesáté	osmašedesát
+osmdesátimilióntý	CrFP1----------	osmdesátimiliónté	osmdesát milión
+osmdesátitisící	CrFP1----------	osmdesátitisící	osmdesát tisíc
+osmdesátý	CrFP1----------	osmdesáté	osmdesát
+osmimiliontý_,s_^(^DD**osmimilióntý)	CrFP1----------	osmimilionté	osmimiliontý
+osmimilióntý	CrFP1----------	osmimiliónté	osmimilióntý
+osmistý	CrFP1----------	osmisté	osmset
+osmitisící	CrFP1----------	osmitisící	osm tisíc
+osmnáctý	CrFP1----------	osmnácté	osmnáct
+osmý	CrFP1----------	osmé	osm
+padesátimiliontý_,s_^(^DD**padesátimilióntý)	CrFP1----------	padesátimilionté	padesátimiliontý
+padesátimilióntý	CrFP1----------	padesátimiliónté	padesátimilióntý
+padesátitisící	CrFP1----------	padesátitisící	padesátitisící
+padesátý	CrFP1----------	padesáté	padesátý
+patnáctistý`1500	CrFP1----------	patnáctisté	pětset tisíc
+patnáctitisící	CrFP1----------	patnáctitisící	patnáctitisící
+patnáctý	CrFP1----------	patnácté	patnáctý
+první-1	CrFP1----------	první	první
+pátý	CrFP1----------	páté	pátý
+pětadevadesátý	CrFP1----------	pětadevadesáté	pětadevadesátý
+pětadvacetimiliontý_,s_^(^DD**pětadvacetimilióntý)	CrFP1----------	pětadvacetimilionté	pětadvacetimiliontý
+pětadvacetimilióntý	CrFP1----------	pětadvacetimiliónté	pětadvacetimilióntý
+pětadvacetitisící`25000	CrFP1----------	pětadvacetitisící	pět dvacet tisíc
+pětadvacátý`25	CrFP1----------	pětadvacáté	pět dvacet
+pětaosmdesátý	CrFP1----------	pětaosmdesáté	pětaosmdesátý
+pětapadesátý	CrFP1----------	pětapadesáté	pětapadesátý
+pětapůltý`5.5	CrFP1----------	pětapůlté	pět půl
+pětasedmdesátý	CrFP1----------	pětasedmdesáté	pětasedmdesátý
+pětatřicátý	CrFP1----------	pětatřicáté	pětatřicátý
+pětačtyřicátý	CrFP1----------	pětačtyřicáté	pětačtyřicátý
+pětašedesátitisící	CrFP1----------	pětašedesátitisící	pětašedesátitisící
+pětašedesátý	CrFP1----------	pětašedesáté	pětašedesátý
+pětiačtvrtmiliontý_,s_^(^DD**pětiačtvrtmilióntý)	CrFP1----------	pětiačtvrtmilionté	pětiačtvrtmiliontý
+pětiačtvrtmilióntý	CrFP1----------	pětiačtvrtmiliónté	pětiačtvrtmilióntý
+pětimiliardtý	CrFP1----------	pětimiliardté	pětimiliardtý
+pětimiliontý_,s_^(^DD**pětimilióntý)	CrFP1----------	pětimilionté	pětimiliontý
+pětimilióntý	CrFP1----------	pětimiliónté	pětimilióntý
+pětisetmilióntý	CrFP1----------	pětisetmiliónté	pětisetmilióntý
+pětisettisící	CrFP1----------	pětisettisící	pětisettisící
+pětistý	CrFP1----------	pětisté	pětistý
+pětitisící	CrFP1----------	pětitisící	pětitisící
+půlmiliontý_,s_^(^DD**půlmilióntý)	CrFP1----------	půlmilionté	půlmiliontý
+půlmilióntý`500000	CrFP1----------	půlmiliónté	pětset tisíc
+půlpátý	CrFP1----------	půlpáté	půlpátý
+půltý`0.5	CrFP1----------	půlté	půl
+půlčtvrtý	CrFP1----------	půlčtvrté	půlčtvrtý
+sedmadevadesátý	CrFP1----------	sedmadevadesáté	sedmadevadesátý
+sedmadvacetitisící`27000	CrFP1----------	sedmadvacetitisící	sedm dvacet tisíc
+sedmadvacátý	CrFP1----------	sedmadvacáté	sedmadvacátý
+sedmaosmdesátý	CrFP1----------	sedmaosmdesáté	sedmaosmdesátý
+sedmapadesátý	CrFP1----------	sedmapadesáté	sedmapadesátý
+sedmasedmdesátý`77	CrFP1----------	sedmasedmdesáté	sedm sedmdesát
+sedmatřicátý	CrFP1----------	sedmatřicáté	sedmatřicátý
+sedmačtyřicátý	CrFP1----------	sedmačtyřicáté	sedmačtyřicátý
+sedmašedesátý	CrFP1----------	sedmašedesáté	sedmašedesátý
+sedmdesátimilióntý	CrFP1----------	sedmdesátimiliónté	sedmdesátimilióntý
+sedmdesátitisící	CrFP1----------	sedmdesátitisící	sedmdesátitisící
+sedmdesátý	CrFP1----------	sedmdesáté	sedmdesátý
+sedmimiliontý_,s_^(^DD**sedmimilióntý)	CrFP1----------	sedmimilionté	sedmimiliontý
+sedmimilióntý	CrFP1----------	sedmimiliónté	sedmimilióntý
+sedmisetosmdesátý	CrFP1----------	sedmisetosmdesáté	sedmisetosmdesátý
+sedmisetpadesátý	CrFP1----------	sedmisetpadesáté	sedmisetpadesátý
+sedmistý	CrFP1----------	sedmisté	sedmistý
+sedmitisící	CrFP1----------	sedmitisící	sedmitisící
+sedmnáctý	CrFP1----------	sedmnácté	sedmnáctý
+sedmý	CrFP1----------	sedmé	sedmý
+stodesátý	CrFP1----------	stodesáté	stodesátý
+stodevadesátý	CrFP1----------	stodevadesáté	stodevadesátý
+stodevatenáctý`119	CrFP1----------	stodevatenácté	sto devatenáct
+stodevátý	CrFP1----------	stodeváté	stodevátý
+stodevětadevadesátý`199	CrFP1----------	stodevětadevadesáté	sto devět devadesát
+stodevětatřicátý`139	CrFP1----------	stodevětatřicáté	sto devět třicet
+stodruhý`2	CrFP1----------	stodruhé	dva
+stodvaasedmdesátý`172	CrFP1----------	stodvaasedmdesáté	sto dva sedmdesát
+stodvaatřicátý`132	CrFP1----------	stodvaatřicáté	sto dva třicet
+stodvaačtyřicátý`142	CrFP1----------	stodvaačtyřicáté	sto dva čtyřicet
+stodvaašedesátý`162	CrFP1----------	stodvaašedesáté	sto dva šedesát
+stodvacátý	CrFP1----------	stodvacáté	stodvacátý
+stodvanáctý	CrFP1----------	stodvanácté	stodvanáctý
+stojedenapadesátý`151	CrFP1----------	stojedenapadesáté	sto jeden padesát
+stojedenačtyřicátý`141	CrFP1----------	stojedenačtyřicáté	sto jeden čtyřicet
+stojedenašedesátý`161	CrFP1----------	stojedenašedesáté	sto jeden šedesát
+stojedenáctý	CrFP1----------	stojedenácté	stojedenáctý
+stojednadvacátý`121	CrFP1----------	stojednadvacáté	sto jeden dvacet
+stojednaosmdesátý`181	CrFP1----------	stojednaosmdesáté	sto jeden osmdesát
+stojednapadesátý`151	CrFP1----------	stojednapadesáté	sto jeden padesát
+stojednačtyřicátý`141	CrFP1----------	stojednačtyřicáté	sto jeden čtyřicet
+stomiliontý_,s_^(^DD**stomilióntý)	CrFP1----------	stomilionté	stomiliontý
+stomilióntý	CrFP1----------	stomiliónté	stomilióntý
+stoosmadevadesátý`198	CrFP1----------	stoosmadevadesáté	sto osm devadesát
+stoosmadvacátý`128	CrFP1----------	stoosmadvacáté	sto osm dvacet
+stoosmapadesátý`158	CrFP1----------	stoosmapadesáté	sto osm padesát
+stoosmdesátý	CrFP1----------	stoosmdesáté	stoosmdesátý
+stoosmnáctý`118	CrFP1----------	stoosmnácté	sto osmnáct
+stoosmý	CrFP1----------	stoosmé	stoosmý
+stopadesátý	CrFP1----------	stopadesáté	stopadesátý
+stopatnáctý	CrFP1----------	stopatnácté	stopatnáctý
+stopátý	CrFP1----------	stopáté	stopátý
+stopětadvacátý	CrFP1----------	stopětadvacáté	stopětadvacátý
+stopětaosmdesátý`185	CrFP1----------	stopětaosmdesáté	sto pět osmdesát
+stopětapadesátý`155	CrFP1----------	stopětapadesáté	sto pět padesát
+stopětatřicátý	CrFP1----------	stopětatřicáté	stopětatřicátý
+stosedmapadesátý`157	CrFP1----------	stosedmapadesáté	sto sedm padesát
+stosedmasedmdesátý`177	CrFP1----------	stosedmasedmdesáté	sto sedm sedmdesát
+stosedmašedesátý`167	CrFP1----------	stosedmašedesáté	sto sedm šedesát
+stosedmdesátý	CrFP1----------	stosedmdesáté	stosedmdesátý
+stosedmnáctý	CrFP1----------	stosedmnácté	stosedmnáctý
+stosedmý	CrFP1----------	stosedmé	stosedmý
+stotisící	CrFP1----------	stotisící	stotisící
+stotřetí	CrFP1----------	stotřetí	stotřetí
+stotřiadvacátý`123	CrFP1----------	stotřiadvacáté	sto tři dvacet
+stotřiapadesátý`153	CrFP1----------	stotřiapadesáté	sto tři padesát
+stotřiasedmdesátý`173	CrFP1----------	stotřiasedmdesáté	sto tři sedmdesát
+stotřiatřicátý`133	CrFP1----------	stotřiatřicáté	sto tři třicet
+stotřiačtyřicátý`143	CrFP1----------	stotřiačtyřicáté	sto tři čtyřicet
+stotřiašedesátý`163	CrFP1----------	stotřiašedesáté	sto tři šedesát
+stotřicátý	CrFP1----------	stotřicáté	stotřicátý
+stotřináctý	CrFP1----------	stotřinácté	stotřináctý
+stočtrnáctý	CrFP1----------	stočtrnácté	stočtrnáctý
+stočtvrtý	CrFP1----------	stočtvrté	stočtvrtý
+stočtyřiadvacátý`124	CrFP1----------	stočtyřiadvacáté	sto čtyři dvacet
+stočtyřiatřicátý`134	CrFP1----------	stočtyřiatřicáté	sto čtyři třicet
+stočtyřicátý	CrFP1----------	stočtyřicáté	stočtyřicátý
+stošedesátý	CrFP1----------	stošedesáté	stošedesátý
+stošestadvacátý`126	CrFP1----------	stošestadvacáté	sto šest dvacet
+stošestasedmdesátý`176	CrFP1----------	stošestasedmdesáté	sto šest sedmdesát
+stošestašedesátý`166	CrFP1----------	stošestašedesáté	sto šest šedesát
+stošestnáctý	CrFP1----------	stošestnácté	stošestnáctý
+stošestý	CrFP1----------	stošesté	stošestý
+stý	CrFP1----------	sté	sto
+tisící	CrFP1----------	tisící	tisící
+třetí	CrFP1----------	třetí	třetí
+třiadevadesátý	CrFP1----------	třiadevadesáté	třiadevadesátý
+třiadvacátý	CrFP1----------	třiadvacáté	třiadvacátý
+třiaosmdesátý	CrFP1----------	třiaosmdesáté	třiaosmdesátý
+třiapadesátý	CrFP1----------	třiapadesáté	třiapadesátý
+třiapůltý`3.5	CrFP1----------	třiapůlté	tři půl
+třiasedmdesátý`73	CrFP1----------	třiasedmdesáté	tři sedmdesát
+třiatřicátý	CrFP1----------	třiatřicáté	třiatřicátý
+třiačtyřicátý	CrFP1----------	třiačtyřicáté	třiačtyřicátý
+třiašedesátý	CrFP1----------	třiašedesáté	třiašedesátý
+třicetimilióntý	CrFP1----------	třicetimiliónté	třicetimilióntý
+třicetitisící	CrFP1----------	třicetitisící	třicetitisící
+třicátý	CrFP1----------	třicáté	třicátý
+třináctý	CrFP1----------	třinácté	třináctý
+třistapadesátý	CrFP1----------	třistapadesáté	třistapadesátý
+třistatisící	CrFP1----------	třistatisící	třistatisící
+tříapůltý`3.5	CrFP1----------	tříapůlté	tři půl
+třímiliontý_,s_^(^DD**třímilióntý)	CrFP1----------	třímilionté	třímiliontý
+třímilióntý	CrFP1----------	třímiliónté	třímilióntý
+třísetdevadesátý	CrFP1----------	třísetdevadesáté	třísetdevadesátý
+třísetmiliontý_,s_^(^DD**třísetmilióntý)	CrFP1----------	třísetmilionté	třísetmiliontý
+třísetmilióntý	CrFP1----------	třísetmiliónté	třísetmilióntý
+třísetpadesátý`350	CrFP1----------	třísetpadesáté	třista padesát
+třísettisící	CrFP1----------	třísettisící	třísettisící
+třístý	CrFP1----------	třísté	třístý
+třítisící	CrFP1----------	třítisící	třítisící
+čtrnáctistý`1400	CrFP1----------	čtrnáctisté	čtrnáct sto
+čtrnáctý	CrFP1----------	čtrnácté	čtrnáctý
+čtvrtý	CrFP1----------	čtvrté	čtvrtý
+čtyřiadevadesátý`94	CrFP1----------	čtyřiadevadesáté	čtyři devadesát
+čtyřiadvacátý	CrFP1----------	čtyřiadvacáté	čtyřiadvacátý
+čtyřiaosmdesátý	CrFP1----------	čtyřiaosmdesáté	čtyřiaosmdesátý
+čtyřiapadesátý	CrFP1----------	čtyřiapadesáté	čtyřiapadesátý
+čtyřiapůltý	CrFP1----------	čtyřiapůlté	čtyřiapůltý
+čtyřiasedmdesátý	CrFP1----------	čtyřiasedmdesáté	čtyřiasedmdesátý
+čtyřiatřicátý	CrFP1----------	čtyřiatřicáté	čtyřiatřicátý
+čtyřiačtyřicátý	CrFP1----------	čtyřiačtyřicáté	čtyřiačtyřicátý
+čtyřiašedesátý	CrFP1----------	čtyřiašedesáté	čtyřiašedesátý
+čtyřicetimilióntý	CrFP1----------	čtyřicetimiliónté	čtyřicetimilióntý
+čtyřicetitisící	CrFP1----------	čtyřicetitisící	čtyřicetitisící
+čtyřicátý	CrFP1----------	čtyřicáté	čtyřicátý
+čtyřistapadesátý`450	CrFP1----------	čtyřistapadesáté	čtyřista padesát
+čtyřistapětapadesátý`455	CrFP1----------	čtyřistapětapadesáté	čtyřista pět padesát
+čtyřistatisící`400000	CrFP1----------	čtyřistatisící	čtyřista tisíc
+čtyřistatřináctý`430	CrFP1----------	čtyřistatřinácté	čtyřista třicet
+čtyřistačtvrtý`404	CrFP1----------	čtyřistačtvrté	čtyřista čtyři
+čtyřmiliontý_,s_^(^DD**čtyřmilióntý)	CrFP1----------	čtyřmilionté	čtyřmiliontý
+čtyřmilióntý	CrFP1----------	čtyřmiliónté	čtyřmilióntý
+čtyřsetdvacátý`420	CrFP1----------	čtyřsetdvacáté	čtyřista dvacet
+čtyřsettisící	CrFP1----------	čtyřsettisící	čtyřsettisící
+čtyřstý	CrFP1----------	čtyřsté	čtyřstý
+čtyřtisící	CrFP1----------	čtyřtisící	čtyřtisící
+šedesátimiliontý_,s_^(^DD**šedesátimilióntý)	CrFP1----------	šedesátimilionté	šedesátimiliontý
+šedesátimilióntý	CrFP1----------	šedesátimiliónté	šedesátimilióntý
+šedesátitisící	CrFP1----------	šedesátitisící	šedesátitisící
+šedesátý	CrFP1----------	šedesáté	šedesátý
+šestadevadesátý	CrFP1----------	šestadevadesáté	šestadevadesátý
+šestadvacátý	CrFP1----------	šestadvacáté	šestadvacátý
+šestaosmdesátý	CrFP1----------	šestaosmdesáté	šestaosmdesátý
+šestapadesátý	CrFP1----------	šestapadesáté	šestapadesátý
+šestasedmdesátý	CrFP1----------	šestasedmdesáté	šestasedmdesátý
+šestatřicátý	CrFP1----------	šestatřicáté	šestatřicátý
+šestačtyřicátý	CrFP1----------	šestačtyřicáté	šestačtyřicátý
+šestašedesátý	CrFP1----------	šestašedesáté	šestašedesátý
+šestimiliontý_,s_^(^DD**šestimilióntý)	CrFP1----------	šestimilionté	šestimiliontý
+šestimilióntý	CrFP1----------	šestimiliónté	šestimilióntý
+šestistý	CrFP1----------	šestisté	šestistý
+šestitisící	CrFP1----------	šestitisící	šestitisící
+šestnáctistý`1600	CrFP1----------	šestnáctisté	šestset tisíc
+šestnáctý`16	CrFP1----------	šestnácté	šestnáct
+šestsetdruhý`602	CrFP1----------	šestsetdruhé	šestset dva
+šestý	CrFP1----------	šesté	šestý
+čtyřicátýpátý	CrIS1----------	čtyřicátýpátý	čtyřicátýpátý
+šedesátýpátý	CrIS1----------	šedesátýpátý	šedesátýpátý
+dvacátýčtvrtý	CrMS1----------	dvacátýčtvrtý	dvacátýčtvrtý
+bůhvíkolikátý	CwFP1----------	bůhvíkolikáté	bůhvíkolikátý
+kdovíkolikátý	CwFP1----------	kdovíkolikáté	kdovíkolikátý
+kolikátý	CwFP1----------	kolikáté	kolikátý
+několikátý	CwFP1----------	několikáté	několikátý
+tolikátý	CwFP1----------	tolikáté	tolikátý
+nejeden	CyFS1----------	nejedna	nejeden
+biliarda	CzFP1----------	biliardy	biliarda
+desetimiliarda	CzFP1----------	desetimiliardy	desetimiliarda
+jedenapůlmiliarda	CzFP1----------	jedenapůlmiliardy	jedenapůlmiliarda
+miliarda`1000000000	CzFP1----------	miliardy	miliarda
+nula	CzFP1----------	nuly	nula
+pětimiliarda	CzFP1----------	pětimiliardy	pětimiliarda
+půlmiliarda	CzFP1----------	půlmiliardy	půlmiliarda
+stamiliarda`100000000000	CzFP1----------	stamiliardy	sto miliard
+stomiliarda`100000000000	CzFP1----------	stomiliardy	sto miliard
+triliarda	CzFP1----------	triliardy	triliarda
+čtvrt	CzFP1----------	čtvrtě	čtvrt
+čtvrtmiliarda	CzFP1----------	čtvrtmiliardy	čtvrtmiliarda
+bilion`1000000000000_,s_^(^DD**bilión)	CzIP1----------	biliony	bilion
+bilión`1000000000000	CzIP1----------	bilióny	bilion
+desetimilion`10000000_,s_^(^DD**desetimilión)	CzIP1----------	desetimiliony	deset milionů
+desetimilión`10000000	CzIP1----------	desetimilióny	deset milionů
+desetitisíc`10000	CzIP1----------	desetitisíce	deset tisíc
+dvaapůltisíc`2500	CzIP1----------	dvaapůltisíce	dva půl tisíc
+dvoumilión`2000000	CzIP1----------	dvoumilióny	dva miliony
+kvadrilión	CzIP1----------	kvadrilióny	kvadrilión
+milion`1000000_,s_^(^DD**milión)	CzIP1----------	miliony	milion
+milión`1000000	CzIP1----------	milióny	milion
+osmsettisíc`800000	CzIP1----------	osmsettisíce	osmset tisíc
+pětimilion`5000000_,s_^(^DD**pětimilión)	CzIP1----------	pětimiliony	pět milionů
+pětimilión`5000000	CzIP1----------	pětimilióny	pět milionů
+půlbilion	CzIP1----------	půlbiliony	půlbilion
+půlmilion`500000_,s_^(^DD**půlmilión)	CzIP1----------	půlmiliony	pětset tisíc
+půlmilión`500000	CzIP1----------	půlmilióny	pětset tisíc
+sextilion	CzIP1----------	sextiliony	sextilion
+stamilion`100000000_,s_^(^DD**stamilión)	CzIP1----------	stamiliony	sto milionů
+stamilión`100000000	CzIP1----------	stamilióny	sto milionů
+statisíc`100000	CzIP1----------	statisíce	sto tisíc
+stotisíc`100000	CzIP1----------	stotisíce	sto tisíc
+tisíc`1000	CzIP1----------	tisíce	tisíc
+trilion_,s_^(^DD**trilión)	CzIP1----------	triliony	trilion
+trilión	CzIP1----------	trilióny	trilión
+čtvrtmilion`250000_,s_^(^DD**čtvrtmilión)	CzIP1----------	čtvrtmiliony	čtvrt milion
+čtvrtmilión`250000	CzIP1----------	čtvrtmilióny	čtvrt milión
+šestsettisíc`600000	CzIP1----------	šestsettisíce	šestset tisíc
+desettisíc`10000	CzIS1----------	desettisíc	deset tisíc
+sto-1`100	CzNP1----------	sta	sto
