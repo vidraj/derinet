@@ -123,7 +123,7 @@ Building the Czech DeriNet
 
 tl;dr:
 1. Make sure you have GNU Make and core Unix utilities installed (you probably do).
-2. Install Perl 5 and the dependencies listed in [tools/data-api/perl-derivmorpho/README](tools/data-api/perl-derivmorpho/README).
+2. Install Perl 5 and the dependencies listed in [tools/data-api/perl-derivmorpho/README](../tools/data-api/perl-derivmorpho/README).
 3. Install Python 3.6 or newer and Pandas.
 4. Run `make` in the [tools/build/cs](../tools/build/cs) directory.
 
@@ -139,7 +139,7 @@ annotations themselves), the network can be rebuilt from scratch when
 creating a new version, building fixed equivalents of old versions to
 use as the basis for new ones. All versions are tied together by
 recursive Makefiles, starting with the one at
-[tools/build/cs/Makefile](tools/build/cs/Makefile).
+[tools/build/cs/Makefile](../tools/build/cs/Makefile).
 
 As a result, there are multiple build systems in use, reflecting
 historical development of the code, since the code to create old
@@ -151,7 +151,7 @@ conversion to a different set of part-of-speech tags
 ([Universal POS tags](https://universaldependencies.org/u/pos/index.html)
 instead of the old set of A, D, N and V) being performed in 2.0.5.
 
-The build process starts in [tools/data-api/perl-derivmorpho/derinet09](tools/data-api/perl-derivmorpho/derinet09),
+The build process starts in [tools/data-api/perl-derivmorpho/derinet09](../tools/data-api/perl-derivmorpho/derinet09),
 where the MorfFlex lexicon is filtered and loaded into the API. This
 early stage of the pipeline contains several important steps that are
 frequently used to fix issues with later versions: Any changes to the
@@ -160,11 +160,11 @@ a good rule to follow) to ensure that later steps see all lexemes and do
 not use lexemes which will get deleted.
 
 It is possible to delete erroneous lexemes from MorfFlex by listing them
-in [derinet09/lemmas-to-ignore.tsv](tools/data-api/perl-derivmorpho/derinet09/lemmas-to-ignore.tsv),
-and extra lexemes missing from there can be added to [derinet09/extra_words.txt](tools/data-api/perl-derivmorpho/derinet09/extra_words.txt).
+in [derinet09/lemmas-to-ignore.tsv](../tools/data-api/perl-derivmorpho/derinet09/lemmas-to-ignore.tsv),
+and extra lexemes missing from there can be added to [derinet09/extra_words.txt](../tools/data-api/perl-derivmorpho/derinet09/extra_words.txt).
 Phantom lexemes (a feature since v2.0) are also added at this stage.
 Another important file of interest that is applied at the very beginning
-of the pipeline is [derinet09/one_off_derivations.tsv](tools/data-api/perl-derivmorpho/derinet09/one_off_derivations.tsv),
+of the pipeline is [derinet09/one_off_derivations.tsv](../tools/data-api/perl-derivmorpho/derinet09/one_off_derivations.tsv),
 which contains miscellaneous fixups and relations that should be added
 early. Since later steps should generally not disconnect existing
 relations (this rule is also not consistently followed, but should be –
@@ -196,9 +196,9 @@ There are currently 3 different APIs in use when building DeriNet: The old Perl 
 ### derimor
 
 The older Perl DerivMorpho API is used to build DeriNet 0.9 through 1.3
-and resides in [tools/data-api/perl-derivmorpho/](tools/data-api/perl-derivmorpho/). Its modular system
+and resides in [tools/data-api/perl-derivmorpho/](../tools/data-api/perl-derivmorpho/). Its modular system
 was inspired by [Treex](https://ufal.mff.cuni.cz/treex). The main
-runner, [tools/data-api/perl-derivmorpho/derimor](tools/data-api/perl-derivmorpho/derimor), is invoked with a
+runner, [tools/data-api/perl-derivmorpho/derimor](../tools/data-api/perl-derivmorpho/derimor), is invoked with a
 list of arguments (“the scenario”) describing the modules, their
 arguments and data files to use, it invokes the modules one after the
 other and passes the constructed network to each one.
@@ -219,9 +219,9 @@ used to build DeriNet versions 1.3 (partially built using DerivMorpho)
 through 1.7.
 
 Starting with version 1.3, the repository structure was redone. Newer
-annotations are supposed to be stored in [data/annotations/cs/](data/annotations/cs/),
-modules in the API dir under [tools/data-api/derinet2/derinet/modules/](tools/data-api/derinet2/derinet/modules/)
-and build artifacts in [tools/build/cs/](tools/build/cs/), where the
+annotations are supposed to be stored in [data/annotations/cs/](../data/annotations/cs/),
+modules in the API dir under [tools/data-api/derinet2/derinet/modules/](../tools/data-api/derinet2/derinet/modules/)
+and build artifacts in [tools/build/cs/](../tools/build/cs/), where the
 main Makefile is. Note that this division is not always respected and
 some data is still found in the build dirs as well.
 
@@ -230,13 +230,13 @@ No documentation of the APIs is provided.
 
 ### derinet2
 
-The newer Python DeriNet API is located in [tools/data-api/derinet2/](tools/data-api/derinet2/)
+The newer Python DeriNet API is located in [tools/data-api/derinet2/](../tools/data-api/derinet2/)
 and it is used to build versions starting with 2.0. It can load data in
 the old file format, but defaults to using the new one.
 
 The API keeps the modular approach of the Perl DerivMorpho, but threads
 the modules in a slightly different way, especially wrt. parameter
-parsing. See [tools/data-api/derinet2/README.md](tools/data-api/derinet2/README.md) for some info.
+parsing. See [tools/data-api/derinet2/README.md](../tools/data-api/derinet2/README.md) for some info.
 
 A thorough hands-on walkthrough for the new API can be found in the
 following Google Colab documents:
