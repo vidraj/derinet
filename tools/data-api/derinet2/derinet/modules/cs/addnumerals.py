@@ -65,6 +65,9 @@ class AddNumerals(Block):
 
             logger.debug(f"Adding parents '{parentlist}' for numeral '{lemma}'")
 
+            if len(parentlist) < 2:
+                continue
+
             lex = []
             for parent in parentlist:
                 lst = lexicon.get_lexemes(parent)
