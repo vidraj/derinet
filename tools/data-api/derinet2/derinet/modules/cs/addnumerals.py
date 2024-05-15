@@ -16,7 +16,7 @@ def techlemma_to_lemma(techlemma):
     lemma = re.sub("-\d+$", "", shortlemma)
     return lemma
 
-class AddCompoundRelations(Block):
+class AddNumerals(Block):
     def __init__(self, fname):
         # The arguments to __init__ are those that the parse_args method (below) returns.
         self.fname = fname
@@ -36,7 +36,8 @@ class AddCompoundRelations(Block):
         (by that point, the numerals from the lemma column are already in DeriNet).
 
         At present, the block *DOES NOT* use the information contained in the lemma to find derivational or conversional
-        ancestors or orthographical variants. It only parses out the lemma.
+        ancestors or orthographical variants. It only parses out the lemma. It however does use the original
+        MorfFlex lemma and stores it as the techlemma. It also uses the MorfFlex tag to the store the lemid.
         """
 
         newdf = pd.read_csv(self.fname, header=0, sep="\t")

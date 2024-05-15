@@ -10,51 +10,65 @@ logging.basicConfig(level=logging.DEBUG,
 logger = logging.getLogger(__name__)
 
 
-class AddCompounds3(Block):
+class AddCompoundRelations(Block):
     def __init__(self, fname):
         # The arguments to __init__ are those that the parse_args method (below) returns.
         self.fname = fname
 
     def process(self, lexicon: Lexicon):
         """
-        Read dataframe in tsv of compounds in the form of two columns - compounds, parents have to be divided by spaces
-        Add compound relations, if a given parent does not exist, a lexeme is created for it, being given an
+        Read dataframe in a tsv of compounds in the form of two columns -
+        [lemma, parents]. The parents have to be divided by spaces.
+
+        This block does not add any lexemes. It instead adds compound relations to already-existing items
+        in DeriNet. If a given parent however does not exist, a lexeme is created for it, being given an
         'Unknown' POS, and a warning is emitted. If such a parent has -hyphens- on both sides, a lexeme is silently
         created for it with the ROOT part-of-speech.
+
+        If the compound lemma is ambiguous, all instances get assigned the same set of parents.
         """
 
-        newdf = pd.read_csv(self.fname, header=None, names=['compounds', 'poses', 'parents'], sep="\t")
+        newdf = pd.read_csv(self.fname, header=0, sep="\t")
 
         for row in newdf.itertuples():
             parentlist = row.parents.split(" ")
-            word = row.compounds
-            pos = row.poses
+            parentnum = len(parentlist)
+            word = row.lemma
 
-            logger.debug("Compounding '{}' from '{}'".format(word, "', '".join(parentlist)))
+            logger.debug(f"Compounding '{word}' from '{parentlist}'")
 
             lex = []
             for parent in parentlist:
                 lst = lexicon.get_lexemes(parent)
-                if lst:
+                if len(lst) == 1:
                     lex.append(lst[0])
+                if len(lst) > 1:
+                    lex.append(lst[0])
+                    logger.warning(f"Parent {lst[0].lemma} from compound {word} ambiguous, assigning first item from {[i.lemid for i in lst]}.")
                 else:
-                    logger.warning("Lexeme for lemma '{}' not found, skipping.".format(parent))
-                    #lex.append(lexicon.create_lexeme(parent, 'Unknown'))
-                    lex = None
-                    break
+                    is_neoclassical_constituent = parent[0] == "-" and parent[-1] == "-"
+                    if is_neoclassical_constituent:
+                        lexicon.create_lexeme(lemma=parent, pos="Affixoid").add_feature(feature="Fictitious", value="Yes")
+                    else:
+                        logger.warning(f"Parent {lst[0].lemma} from compound {word} not found in DeriNet, skipping.")
+                        continue
 
-            if lex is None:
-                # Some parent lexemes were not found.
+
+            if parentnum < len(lex):
                 continue
+            else:
+                children = lexicon.get_lexemes(word)
 
-            child = lexicon.get_lexemes(word, pos=pos)[0]
+                if not children:
+                    logger.warning(f"Compound {word} not found in DeriNet, skipping.")
+                    continue
 
-            existing_rels = child.parent_relations
-            for rel in existing_rels:
-                logger.info("Disconnecting {} -- {}".format(word, rel))
-                rel.remove_from_lexemes()
-
-            lexicon.add_composition(lex, lex[-1], child)
+                for child in children:
+                    existing_rels = child.parent_relations
+                    for rel in existing_rels:
+                        logger.info(f"Disconnecting {word} from {rel}")
+                        rel.remove_from_lexemes()
+                        lexicon.add_composition(lex, lex[-1], child)
 
         return lexicon
 
