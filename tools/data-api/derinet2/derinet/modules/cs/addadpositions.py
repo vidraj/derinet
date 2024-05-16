@@ -38,6 +38,7 @@ class AddAdpositions(Block):
         """
 
         newdf = pd.read_csv(self.fname, header=0, sep="\t")
+        logger.debug(f"Lexicon size: {sum([1 for i in lexicon.iter_lexemes()])}")
 
         for row in newdf.itertuples():
             techlemma = row.lemma

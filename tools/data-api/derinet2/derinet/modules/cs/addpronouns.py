@@ -48,7 +48,7 @@ class AddPronouns(Block):
                 logger.warning(f"Pronoun {lemma} already exists in DeriNet, skipping.")
                 continue
 
-            logger.debug(f"Adding numeral '{lemma}'")
+            logger.debug(f"Adding pronoun '{lemma}'")
 
             lexicon.create_lexeme(lemma=lemma,
                                   lemid=lemma + "#" + tag,

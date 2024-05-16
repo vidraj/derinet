@@ -34,7 +34,6 @@ class AddNumeralParents(Block):
 
         This block assumes that everything in the lemma column is a numeral, and attempts to find the parents of said numerals
         by going through the parents column. It only assigns those parents which it can find in DeriNet.
-        (by that point, the numerals from the lemma column are already in DeriNet).
 
         At present, the block *DOES NOT* use the information contained in the lemma to find derivational or conversional
         ancestors or orthographical variants. It only parses out the lemma. It however does use the original
@@ -42,23 +41,33 @@ class AddNumeralParents(Block):
         """
 
         newdf = pd.read_csv(self.fname, header=0, sep="\t")
+        logger.debug(f"Lexicon size: {sum([1 for i in lexicon.iter_lexemes()])}")
 
         for row in newdf.itertuples():
             parentlist = row.parents.split(" ")
             parentnum = len(parentlist)
+            if parentnum < 2:
+                continue
+
             lemma = techlemma_to_lemma(row.lemma)
+
+            if parentnum == 1:
+                if parentlist[0] == lemma:
+                    logger.debug(
+                        f"{lemma} annotated as unmotivated, skipping.")
+                    continue
+
 
             logger.debug(f"Adding parents '{parentlist}' for numeral '{lemma}'")
 
-            if len(parentlist) < 2:
-                continue
+
 
             lex = []
             for parent in parentlist:
                 lst = lexicon.get_lexemes(parent)
                 if len(lst) == 1:
                     lex.append(lst[0])
-                if len(lst) > 1:
+                elif len(lst) > 1:
                     lemids = [i.lemid for i in lst]
                     POSes = [i.split("#")[1][0] for i in lemids]
 
@@ -84,6 +93,7 @@ class AddNumeralParents(Block):
 
             if parentnum < len(lex):
                 continue
+
             else:
                 children = lexicon.get_lexemes(lemma, pos="NUM")
                 if children == []:

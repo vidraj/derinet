@@ -37,10 +37,11 @@ class AddNumerals(Block):
 
         At present, the block *DOES NOT* use the information contained in the lemma to find derivational or conversional
         ancestors or orthographical variants. It only parses out the lemma. It however does use the original
-        MorfFlex lemma and stores it as the techlemma. It also uses the MorfFlex tag to the store the lemid.
+        MorfFlex lemma and stores it as the techlemma. It also uses the MorfFlex tqag to the store the lemid.
         """
 
         newdf = pd.read_csv(self.fname, header=0, sep="\t")
+        logger.debug(f"Lexicon size: {sum([1 for i in lexicon.iter_lexemes()])}")
 
         for row in newdf.itertuples():
             techlemma = row.lemma
@@ -51,6 +52,7 @@ class AddNumerals(Block):
                 logger.warning(f"Numeral {lemma} already exists in DeriNet, skipping.")
                 continue
 
+
             logger.debug(f"Adding numeral '{lemma}'")
 
             lexicon.create_lexeme(lemma=lemma,
@@ -58,7 +60,7 @@ class AddNumerals(Block):
                                   pos="NUM",
                                   misc={'techlemma': techlemma})
 
-            return lexicon
+        return lexicon
 
     @staticmethod
     def parse_args(args):

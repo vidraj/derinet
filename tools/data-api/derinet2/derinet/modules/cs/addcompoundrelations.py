@@ -30,11 +30,22 @@ class AddCompoundRelations(Block):
         """
 
         newdf = pd.read_csv(self.fname, header=0, sep="\t")
+        logger.debug(f"Lexicon size: {sum([1 for i in lexicon.iter_lexemes()])}")
 
         for row in newdf.itertuples():
-            parentlist = row.parents.split(" ")
+            parentlist = row.parents.strip().split(" ")
             parentnum = len(parentlist)
             lemma = row.lemma
+
+            if parentnum == 1:
+                if parentlist[0] == lemma:
+                    logger.debug(
+                        f"{lemma} annotated as Unmotivated, skipping.")
+                    continue
+                else:
+                    logger.debug(
+                        f"{lemma} annotated as Derivation, skipping.")
+                    continue
 
             logger.debug(f"Compounding '{lemma}' from '{parentlist}'")
 
@@ -43,7 +54,7 @@ class AddCompoundRelations(Block):
                 lst = lexicon.get_lexemes(parent)
                 if len(lst) == 1:
                     lex.append(lst[0])
-                if len(lst) > 1:
+                elif len(lst) > 1:
                     lemids = [i.lemid for i in lst]
                     POSes = [i.split("#")[1][0] for i in lemids]
 
@@ -62,7 +73,7 @@ class AddCompoundRelations(Block):
                     if is_neoclassical_constituent:
                         lexicon.create_lexeme(lemma=parent, pos="Affixoid").add_feature(feature="Fictitious", value="Yes")
                     else:
-                        logger.warning(f"Parent {lst[0].lemma} from compound {lemma} not found in DeriNet, skipping.")
+                        logger.warning(f"Parent {parent} from compound {lemma} not found in DeriNet, skipping.")
                         continue
 
 
