@@ -1,7 +1,9 @@
 from derinet import Block, Format, Lexicon, DerinetMorphError
 import argparse
 import logging
+
 import pandas as pd
+import numpy as np
 import re
 
 logging.basicConfig(level=logging.DEBUG,
@@ -31,9 +33,7 @@ class AddNumerals(Block):
         The parents have to be divided by spaces.
 
         This block assumes that everything in the lemma column is a numeral, and adds everything therein
-        with the NUM tag into DeriNet. It then attempts to find the parents of said numerals
-        by going through the parents column. It only assigns those parents which it can find in DeriNet.
-        (by that point, the numerals from the lemma column are already in DeriNet).
+        with the NUM tag into DeriNet.
 
         At present, the block *DOES NOT* use the information contained in the lemma to find derivational or conversional
         ancestors or orthographical variants. It only parses out the lemma. It however does use the original
@@ -58,46 +58,7 @@ class AddNumerals(Block):
                                   pos="NUM",
                                   misc={'techlemma': techlemma})
 
-        for row in newdf.itertuples():
-            parentlist = row.parents.split(" ")
-            parentnum = len(parentlist)
-            lemma = techlemma_to_lemma(row.lemma)
-
-            logger.debug(f"Adding parents '{parentlist}' for numeral '{lemma}'")
-
-            if len(parentlist) < 2:
-                continue
-
-            lex = []
-            for parent in parentlist:
-                lst = lexicon.get_lexemes(parent)
-                if len(lst) == 1:
-                    lex.append(lst[0])
-                if len(lst) > 1:
-                    lex.append(lst[0])
-                    logger.warning(
-                        f"Parent {lst[0].lemma} from compound {lemma} ambiguous, assigning first item from {[i.lemid for i in lst]}.")
-                else:
-                    is_neoclassical_constituent = parent[0] == "-" and parent[-1] == "-"
-                    if is_neoclassical_constituent:
-                        lexicon.create_lexeme(lemma=parent, pos="Affixoid").add_feature(feature="Fictitious",
-                                                                                        value="Yes")
-                    else:
-                        logger.warning(f"Parent {lst[0].lemma} from compound {lemma} not found in DeriNet, skipping.")
-                        continue
-
-            if parentnum < len(lex):
-                continue
-            else:
-                children = lexicon.get_lexemes(lemma, pos="NUM")
-                if children == []:
-                    logger.warning(f"Child numeral {lemma} not found in DeriNet, skipping. Bug in previous loop, should have been added!")
-                    continue
-
-                for child in children:
-                    lexicon.add_composition(lex, lex[-1], child)
-
-        return lexicon
+            return lexicon
 
     @staticmethod
     def parse_args(args):

@@ -8,7 +8,7 @@ class Load(Block):
         self.format = format
 
     def process(self, lexicon: Lexicon):
-        lexicon.load(self.file, fmt=self.format)
+        lexicon.load(self.file, fmt=self.format, on_err="continue")
         return lexicon
 
     @staticmethod
