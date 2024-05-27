@@ -14,7 +14,7 @@ class ChangePosTags(Block):
     Change POS tags to Universal tagset.
     """
     def process(self, lexicon: Lexicon):
-        translate_pos = {'N': 'NOUN', 'A': 'ADJ', 'V': 'VERB', 'D': 'ADV'}
+        translate_pos = {'N': 'NOUN', 'A': 'ADJ', 'P': 'PRON', 'C': 'NUM', 'V': 'VERB', 'D': 'ADV', 'R': 'ADP'}
         for lexeme in lexicon.iter_lexemes():
             lexeme._pos = translate_pos[lexeme.pos]
 
