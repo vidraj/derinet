@@ -98,7 +98,7 @@ def markCompound(node_lem, node_pos, node_morph):
         id = derinet.get_id(lemma=node_lem, pos=node_pos, morph=node_morph)
         old_node = derinet._data[id]
 
-        if 'C' not in old_node.pos:
+        if len(old_node.pos) < 2 or 'C' not in old_node.pos[1:]:
             new_pos = old_node.pos + 'C'
             new_node = old_node._replace(pos=new_pos)
             derinet._data[id] = new_node
@@ -126,7 +126,7 @@ def checkCompoundAnnotation(node):
 
         c_in_parents = False
         while True:
-            if 'C' in par_node.pos:
+            if 'C' in par_node.pos[1:]:
                 c_in_parents = True
                 break
 
@@ -137,7 +137,7 @@ def checkCompoundAnnotation(node):
 
         par_node = derinet._data[int(node.parent_id)]
         if c_in_parents:
-            new_pos = node.pos.replace('C', '')
+            new_pos = node.pos[0] + node.pos[1:].replace('C', '')
             new_node = node._replace(pos=new_pos)
             derinet._data[node.lex_id] = new_node
             print('Warning: Lemma has parent already marked as',
@@ -152,7 +152,7 @@ def checkCompoundAnnotation(node):
                       'removed. Lemma:', derinet_api.lexeme_info(node),
                       'Parent:', derinet_api.lexeme_info(par_node))
             else:
-                new_pos = node.pos.replace('C', '')
+                new_pos = node.pos[0] + node.pos[1:].replace('C', '')
                 new_node = node._replace(pos=new_pos)
                 derinet._data[node.lex_id] = new_node
                 markCompound(par_node.lemma, par_node.pos, par_node.morph)
@@ -616,7 +616,7 @@ for filename, lemmas in compounds.items():
 print('\n', 5*'-', 'checking compound annotation', 5*'-')
 all_compounds = list()
 for node in derinet._data:
-    if 'C' in node.pos:
+    if 'C' in node.pos[1:]:
         all_compounds.append(node)
 
 for node in all_compounds:
