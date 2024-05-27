@@ -3,7 +3,7 @@
 import sys
 import re
 sys.path.append('../../../data-api/derinet-python/')
-from derinet_api import DeriNet
+from derinet_api import DeriNet, CycleCreationError
 
 derinet = DeriNet('derinet-1-3.tsv')
 
@@ -69,8 +69,11 @@ with open('final_sorted') as f:
                     print("Warning: same parent as before:\t"+best_source_lexeme[2]+" -> "+best_target_lexeme[2])
                 else:
                     print("Warning: parent lemma changed:\t NEWPARENT: "+best_source_lexeme[2]+" -> "+best_target_lexeme[2]+ "  OLD: "+old_source_lexeme[2])
-            
-            derinet.add_edge_by_ids(target_id,source_id,force=True)
-        
+
+            try:
+                derinet.add_edge_by_ids(target_id,source_id,force=True)
+            except CycleCreationError as e:
+                print("Warning: derivation {} {} -> {} {} ignored, would create a cycle".format(best_source_lexeme[0], best_source_lexeme[1], best_target_lexeme[0], best_target_lexeme[1]))
+
 
 derinet.save('derinet-1-4.tsv')
