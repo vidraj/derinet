@@ -6,7 +6,7 @@ def parse_data(file_path: str) -> dict[str, dict[str, any]]:
     Each word and its associated data is extracted and stored as key-value pairs, 
     where the key is the word itself, and the value is another dictionary containing 
     specific categories as keys (like 'description', 'derivations', etc.) and their respective details as values.
-    Notably 'derivations','info','srov','viz','from' are stored as a list of strings.
+    Notably, 'derivations' is stored as a list of strings.
     
     Parameters:
     - file_path (str): The path to the text file containing the word data.
@@ -14,7 +14,7 @@ def parse_data(file_path: str) -> dict[str, dict[str, any]]:
     Returns:
     - dict[str, dict[str, any]]: A dictionary where each key is a word and each value is another dictionary 
       with keys as categories and values as the respective details for that category. 
-      The values under 'derivations','info','srov','viz','from' are a list of strings (but all may be empty).
+      The value under 'derivations' is a list of strings (the derivations, may be empty).
     """
     WORD = 'word:'
     data_dict = {}
@@ -30,7 +30,7 @@ def parse_data(file_path: str) -> dict[str, dict[str, any]]:
                 current_word = line[HEADER_LEN:].strip()
                 info_dict = {}
             else:
-                if line.strip():  # Skip empty lines
+                if line.strip() != "":  # Skip empty lines
                     key, value = line.split(':', 1)
                     key, value = key.strip(), value.strip()
                     if key in keys_with_list_values:
@@ -52,15 +52,15 @@ def parse_data_tsv(file_path: str) -> dict[str, dict[str, any]]:
     Each word and its associated data is extracted and stored as key-value pairs, 
     where the key is the word itself, and the value is another dictionary containing 
     specific categories as keys (like 'description', 'derivations', etc.) and their respective details as values.
-    Notably, 'derivations', 'srov', 'viz','info' are stored as a list of strings.
+    Notably, 'derivations', 'srov', 'viz','info' is stored as a list of strings.
     
     Parameters:
-    - file_path (str): The path to the text file containing the word data. MUST be in correct TSV format
+    - file_path (str): The path to the text file containing the word data.
     
     Returns:
     - dict[str, dict[str, any]]: A dictionary where each key is a word and each value is another dictionary 
       with keys as categories and values as the respective details for that category. 
-      The values under 'derivations','info','srov','viz','from' is a list of strings (but all may be empty).
+      The value under 'derivations' is a list of strings (the derivations, may be empty).
     """
     data_dict = {}
     header = 'word	info	describtion	derivations	middle	viz	from	srov'
