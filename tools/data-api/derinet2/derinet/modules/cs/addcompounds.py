@@ -72,6 +72,9 @@ class AddCompounds(Block):
                 second_parent = self.find_lemma_pos(lexicon, second_parent_lemma_pos)
 
                 if compound is not None and first_parent is not None and second_parent is not None:
+                    if compound.parent is not None:
+                        logger.warning("Disconnecting lexeme {} from {}, attaching it to {} instead".format(compound, compound.parent_relation.sources, [first_parent, second_parent]))
+                        compound.parent_relation.remove_from_lexemes()
                     lexicon.add_composition([first_parent, second_parent], second_parent, compound)
 
         return lexicon
