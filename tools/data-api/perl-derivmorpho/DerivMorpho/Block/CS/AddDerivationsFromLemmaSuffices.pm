@@ -18,16 +18,25 @@ sub process_dictionary {
         my ($lenght_of_old_suffix, $new_suffix);
         my $deriv_comment_type = 'standard';
         if ($lexeme->mlemma =~ /_\^?\(\*(\d+)([^)]*)\)/) {
-            # There is a standard derivational comment
+            # There is a standard derivational comment, prefer it to the
+            #  nonstandard ones parsed below.
             ($lenght_of_old_suffix, $new_suffix) = ($1, $2);
         } else {
             # The standard derivational comment isn't there, but there may be a ^GC, ^FM, ^OR, ^FA, ^H3, ^FC, ^KY, ^D2, ^DI, ^UV, ^FN, ^HN, ^H2…
-            ($deriv_comment_type, $lenght_of_old_suffix, $new_suffix) = $lexeme->mlemma =~ /_\^.*\(\^([^*]*)\*(\d+)([^)]*)\)/;
+            # With one * or two **s.
+            ($deriv_comment_type, $lenght_of_old_suffix, $new_suffix) = $lexeme->mlemma =~ /_\^.*\(\^([^*]*)\*(\*|\d+)([^)]*)\)/;
         }
 
         next LEXEME unless (defined $lenght_of_old_suffix);
 
         my $old_mlemma = Treex::Tool::Lexicon::CS::truncate_lemma($lexeme->mlemma, 0);
+
+        # If there are two **s in a non-standard derivational comment,
+        #  it means the old lemma is completely replaced.
+        if ($lenght_of_old_suffix eq '*') {
+            $lenght_of_old_suffix = length($old_mlemma);
+        }
+
         my $new_mlemma = $old_mlemma =~ s/.{$lenght_of_old_suffix}$/$new_suffix/r;
         if ($new_mlemma eq $old_mlemma or Treex::Tool::Lexicon::CS::truncate_lemma($new_mlemma, 1) eq Treex::Tool::Lexicon::CS::truncate_lemma($old_mlemma, 1)) { # Sometimes the derivational comments try to derive a lexeme from itself. Prevent this.
             log_warn("These two should not be equal: $new_mlemma and " . $lexeme->mlemma);
