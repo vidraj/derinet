@@ -37,11 +37,11 @@ while (<STDIN>) {
 	my $line = $_;
 	
 	# Try to extract the form. It might not be present, because extra_lemmas (non-morfflex manually added ones) don't have forms filled in.
-	my ($lemma, $tag, $form) = $line =~ /^([^\t]*)\t([ADNV][^\t]*)\t([^\t]*)$/;
+	my ($lemma, $tag, $form) = $line =~ /^([^\t]*)\t([ACDNPRV][^\t]*)\t([^\t]*)$/;
 	
 	if (not $form) {
 		# If there is no form, extract at least the rest.
-		($lemma, $tag) = $_ =~ /^([^\t]*)\t([ADNV][^\t]*)/;
+		($lemma, $tag) = $_ =~ /^([^\t]*)\t([ACDNPRV][^\t]*)/;
 	}
 	
 	next unless $tag; # Skip non-ADNV lemmas

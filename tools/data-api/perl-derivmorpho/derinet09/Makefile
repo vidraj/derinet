@@ -21,7 +21,7 @@ all: $(BASE).tsv
 slex: $(BASE).slex
 
 lemmas_from_syn.tsv: ../data/pro-zdenka-syn-lemata-od-ondreje.gz ./select_syn_lemmas.pl
-	zcat $< | grep '[ANDV]$$' | ./select_syn_lemmas.pl > $@
+	zcat $< | grep '[ACDNPRV]$$' | ./select_syn_lemmas.pl > $@
 
 lemmas_from_morfflex.tsv: ${MORFFLEX} ./select_morfflex_lemmas.pl lemmas-to-ignore.tsv
 	xz -dkvvc $< | ./select_morfflex_lemmas.pl --ignore-list lemmas-to-ignore.tsv > $@
