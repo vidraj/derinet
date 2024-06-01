@@ -127,49 +127,47 @@ def process_lexicon(lexicon:dlex.Lexicon, file_to_print_trees_and_not_present_de
         for tree_root in lexicon.iter_trees():  # iterate through trees
             if tree_root.lemma in ["agent","balanc", 'blesk','centr', 'mysl']:
                 pass
-            etym_dict_derivations = dictionary_normalized.get(tree_root._lemma)
-            # if etym_dict_derivations == None or etym_dict_derivations == [""]: continue
-            
-            etym_dict_derivations_copy = set(etym_dict_derivations) if etym_dict_derivations and etym_dict_derivations != [""] else set()
+            # Initialize an empty set to store unique derivations
+            etym_dict_derivations = set()
+
+            # Iterate through each lexeme in the subtree of the tree_root
             for lexeme in tree_root.iter_subtree():
                 lemma = lexeme.lemma
-                lemma_derivations = dictionary_normalized.get(lemma)  # get derivations from etym dict for derivations in the tree in DERINET
+                
+                # Get derivations from the normalized dictionary for the current lemma
+                lemma_derivations = dictionary_normalized.get(lemma)
+                
                 if lemma_derivations:
-                    lemma_derivations = set(lemma_derivations)
+                    # Add non-empty derivations directly to the etym_dict_derivations_copy set
                     for derivation in lemma_derivations:
-                        if derivation.strip() != "":
-                            etym_dict_derivations_copy.add(derivation)  # set add, list append!!!
+                        if derivation.strip():
+                            etym_dict_derivations.add(derivation)
                             # Now I am adding all derivations to the same list so they will be all eventually connected to the root
                             # it would be correct to connect them to the subtree instead
-            if len(etym_dict_derivations_copy) != 0:
-                # print(etym_dict_derivations_copy)
-                if tree_root.lemma in etym_dict_derivations_copy:
-                    etym_dict_derivations_copy.remove(tree_root.lemma)
+
+            if len(etym_dict_derivations) != 0:
+                if tree_root.lemma in etym_dict_derivations:
+                    etym_dict_derivations.remove(tree_root.lemma)
                 for lexeme in tree_root.iter_subtree():
                     lemma = lexeme.lemma
-                    # print(lemma, (lemma in etym_dict_derivations_copy))
-                    if lemma in etym_dict_derivations_copy:
-                        etym_dict_derivations_copy.remove(lemma)
-            if len(etym_dict_derivations_copy) != 0:
-                new_words += len(etym_dict_derivations_copy)
+                    if lemma in etym_dict_derivations:
+                        etym_dict_derivations.remove(lemma)
+            if len(etym_dict_derivations) != 0:
+                new_words += len(etym_dict_derivations)
                 print("Lemma:", tree_root._lemma, file=trees_and_new_derivations)
                 print("Tree:", file=trees_and_new_derivations)
                 print("\n".join(tree_root._pprint_subtree_indented("", "")), file=trees_and_new_derivations)  # pretty print to file
-                print("Etym dict derivations all:", etym_dict_derivations, file=trees_and_new_derivations)
-                print("Etym dict derivations NOT present in derinet:", etym_dict_derivations_copy, file=trees_and_new_derivations)
-                for derivation_not_present in etym_dict_derivations_copy:
+                print("Etym dict derivations NOT present in derinet:", etym_dict_derivations, file=trees_and_new_derivations)
+                for derivation_not_present in etym_dict_derivations:
                     lexeme = lexicon.get_lexemes(lemma=derivation_not_present)
                     if len(lexeme) == 1:  # if there are not homonymous lexemes, return first (only) one
                         lexeme = lexeme[0]
-                        if lexeme.get_tree_root() != lexeme:
-                            # the found derivation is not root of a tree, connect the whole tree (the root) instead
-                            pass
-                            # print("!!Target lexeme isn't root!!\n Lexeme:", lexeme.lemma, ", Tree root:", lexeme.get_tree_root().lemma)  # lexemes that are not roots of trees
                         if lexeme.parent_relation is None: # the lexeme is root, connect it directly
                             lexicon.add_derivation(tree_root, lexeme)
                             counter += 1
                             print(f"Adding relation, source: {tree_root}, target {lexeme} which was originally root", file=added_derivations)
                         else:
+                            # the found derivation is not root of a tree, we will connect the whole tree (the root) instead
                             root_of_derivation_lexeme = lexeme.get_tree_root()
                             if root_of_derivation_lexeme != tree_root:
                                 # the target lexeme already has a parent, connect the whole tree (the root of lexeme) to the tree_root
