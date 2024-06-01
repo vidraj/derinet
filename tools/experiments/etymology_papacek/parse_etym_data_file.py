@@ -1,4 +1,4 @@
-def parse_data(file_path: str) -> dict[str, dict[str, any]]:
+def parse_data(file_path: str,verbose:bool = True) -> dict[str, dict[str, any]]:
     """
     Parses a text file containing word definitions and information from an Etymological dictionary,
     organizing the data into a nested dictionary.
@@ -10,12 +10,15 @@ def parse_data(file_path: str) -> dict[str, dict[str, any]]:
     
     Parameters:
     - file_path (str): The path to the text file containing the word data.
+    - verbose (default = True) prints loging info
     
     Returns:
     - dict[str, dict[str, any]]: A dictionary where each key is a word and each value is another dictionary 
       with keys as categories and values as the respective details for that category. 
       The value under 'derivations' is a list of strings (the derivations, may be empty).
     """
+    if verbose:
+        print(f"Parsing file {file_path}")
     WORD = 'word:'
     data_dict = {}
     current_word = ""
@@ -44,7 +47,7 @@ def parse_data(file_path: str) -> dict[str, dict[str, any]]:
 
     return data_dict
 
-def parse_data_tsv(file_path: str) -> dict[str, dict[str, any]]:
+def parse_data_tsv(file_path: str,verbose:bool = True) -> dict[str, dict[str, any]]:
     """
     Parses a text file containing word definitions and information from an Etymological dictionary in TSV format,
     organizing the data into a nested dictionary.
@@ -56,12 +59,15 @@ def parse_data_tsv(file_path: str) -> dict[str, dict[str, any]]:
     
     Parameters:
     - file_path (str): The path to the text file containing the word data.
-    
+    - verbose (default = True) prints loging info
+
     Returns:
     - dict[str, dict[str, any]]: A dictionary where each key is a word and each value is another dictionary 
       with keys as categories and values as the respective details for that category. 
       The value under 'derivations' is a list of strings (the derivations, may be empty).
     """
+    if verbose:
+        print(f"Parsing file {file_path}")
     data_dict = {}
     header = 'word	info	describtion	derivations	middle	viz	from	srov'
     keys_with_list_values = ['derivations','info','srov','viz','from']
@@ -89,11 +95,10 @@ def parse_data_tsv(file_path: str) -> dict[str, dict[str, any]]:
     return data_dict
 
 def main():
-    # Example use
     file_path = 'parsed_dictionary.txt' 
     file_path_tsv = 'parsed_dictionary.tsv' 
     dictionary = parse_data_tsv(file_path_tsv)
-    print(dictionary.get("adolescence").get('derivations'))
+    #print(dictionary.get("adolescence").get('derivations'))
 
 if __name__ == "__main__":
     main()
