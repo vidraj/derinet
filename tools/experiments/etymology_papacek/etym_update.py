@@ -32,6 +32,7 @@ def get_dict_without_multiple_word_entries_and_derivations(dictionary:dict[str,l
     """Creates new dict with multiple word entries like \'naučit se\' or \'fata morgana\' removed. Same in the list of derivations
         Examples: fata morgána, fifty fifty, happy end, křížem krážem, perpetuum mobile, but mostly 'učit se', 'zpívat si'
     """
+    if verbose: print()
     one_word_dict = {}
     shorten_entries_counter = 0
     for entry,derivations in dictionary.items():
@@ -85,7 +86,8 @@ def normalize_words(dictionary: dict[str, list[str]], verbose:bool = True) -> di
                 modified_derivations.extend(parts)
                 modified = True
             elif not derivation.isalpha():
-                modified_derivations.append(derivation.strip('();\'123-')) # there may be parantheses left at beginning or end or some digit after the word
+                #modified_derivations.append(derivation.strip('();\'123-')) # there may be parantheses left at beginning or end or some digit after the word
+                modified_derivations.append(re.sub(r'[^a-zA-ZřščžáéíóúýčďěňřšťůžŘŠČŽÁÉÍÓÚÝČĎĚŇŘŠŤŮŽ]', '', derivation))
                 modified = True
             else:
                 # Add the unmodified derivation
@@ -104,7 +106,7 @@ def show_entries_by_one(dictionary:dict):
         print(entry, value)
         input("Press enter to continue")
 
-def process_lexicon(lexicon:dlex.Lexicon, file_to_print_trees_and_not_present_derivations:str, file_added_derivations:str, dictionary_normalized:dict[str,list[str]], verbose:bool=True):
+def update_lexicon(lexicon:dlex.Lexicon, file_added_derivations_direct:str, file_added_derivations_with_intermediates:str, dictionary_normalized:dict[str,list[str]], verbose:bool=True):
     """
     Processes the lexicon by iterating through its trees and comparing derivations with the normalized dictionary.
     Outputs information about new derivations and connections to the specified files.
@@ -116,86 +118,86 @@ def process_lexicon(lexicon:dlex.Lexicon, file_to_print_trees_and_not_present_de
         dictionary_normalized: A dictionary with normalized derivations for comparison.
         verbose (bool): If True, prints additional information about the processing.
     """
-    with open(file_added_derivations, "wt") as added_derivations, open(file_to_print_trees_and_not_present_derivations, "wt") as trees_and_new_derivations:
+    if verbose:
+        print(f"Starting to process lexicon with file_added_derivations: {file_added_derivations_with_intermediates}")
+
+    with open(file_added_derivations_with_intermediates, "wt") as added_derivations_intermediates, open(file_added_derivations_direct, "wt") as added_derivations_direct:
+        header_not_root = "derivation\tparent\tintermediate_node"
+        print(header_not_root,file=added_derivations_intermediates)
+        header_root = "derivation\tparent"
+        print(header_root,file=added_derivations_direct)
         counter = 0  # Trees printed counter
-        new_words = 0
+        potentionaly_new_words = 0
         lexeme_not_found_counter = 0
         homonyms_counter = 0
         root_derivation_same_as_tree_root_counter = 0
         not_found_words = []
 
         for tree_root in lexicon.iter_trees():  # iterate through trees
-            if tree_root.lemma in ["agent","balanc", 'blesk','centr', 'mysl']:
-                pass
-            # Initialize an empty set to store unique derivations
-            etym_dict_derivations = set()
+            # Initialize an empty dict to store derivations as keys and their parent as values
+            dict_derivations_from_etym_dictionary = dict()
 
             # Iterate through each lexeme in the subtree of the tree_root
             for lexeme in tree_root.iter_subtree():
                 lemma = lexeme.lemma
-                
                 # Get derivations from the normalized dictionary for the current lemma
-                lemma_derivations = dictionary_normalized.get(lemma)
-                
+                lemma_derivations = dictionary_normalized.get(lemma)      
                 if lemma_derivations:
-                    # Add non-empty derivations directly to the etym_dict_derivations_copy set
                     for derivation in lemma_derivations:
                         if derivation.strip():
-                            etym_dict_derivations.add(derivation)
-                            # Now I am adding all derivations to the same list so they will be all eventually connected to the root
-                            # it would be correct to connect them to the subtree instead
-
-            if len(etym_dict_derivations) != 0:
-                if tree_root.lemma in etym_dict_derivations:
-                    etym_dict_derivations.remove(tree_root.lemma)
+                            dict_derivations_from_etym_dictionary[derivation] = lexeme # add the derivation - parent pair to the dictionary
+            if len(dict_derivations_from_etym_dictionary.keys()) != 0:
                 for lexeme in tree_root.iter_subtree():
                     lemma = lexeme.lemma
-                    if lemma in etym_dict_derivations:
-                        etym_dict_derivations.remove(lemma)
-            if len(etym_dict_derivations) != 0:
-                new_words += len(etym_dict_derivations)
-                print("Lemma:", tree_root._lemma, file=trees_and_new_derivations)
-                print("Tree:", file=trees_and_new_derivations)
-                print("\n".join(tree_root._pprint_subtree_indented("", "")), file=trees_and_new_derivations)  # pretty print to file
-                print("Etym dict derivations NOT present in derinet:", etym_dict_derivations, file=trees_and_new_derivations)
-                for derivation_not_present in etym_dict_derivations:
+                    if lemma in dict_derivations_from_etym_dictionary.keys():
+                        dict_derivations_from_etym_dictionary.pop(lemma) # remove the derivation because it is already in the DeriNet tree
+            if len(dict_derivations_from_etym_dictionary.keys()) != 0:
+                potentionaly_new_words += len(dict_derivations_from_etym_dictionary.keys())
+
+                for derivation_not_present in dict_derivations_from_etym_dictionary.keys():
                     lexeme = lexicon.get_lexemes(lemma=derivation_not_present)
                     if len(lexeme) == 1:  # if there are not homonymous lexemes, return first (only) one
                         lexeme = lexeme[0]
                         if lexeme.parent_relation is None: # the lexeme is root, connect it directly
-                            lexicon.add_derivation(tree_root, lexeme)
+                            try:
+                                lexicon.add_derivation(dict_derivations_from_etym_dictionary[derivation_not_present],lexeme)
+                            except:
+                                # there can be some errors with cyclic relations. Two errors that occured:
+                                # Lexeme:játra#NNN??-----A---?, Tree root: celý#AA???----??---?, parent: jitrocel#NNI??-----A---?
+                                # Lexeme:don#NNM??-----A---?, Tree root: Quijote#NNMXX-----A----, parent: donkichot#NNM??-----A---?
+                                if verbose:
+                                    print(f"Lexeme:{lexeme}, Tree root: {tree_root}, parent: {dict_derivations_from_etym_dictionary[derivation_not_present]}")
                             counter += 1
-                            print(f"Adding relation, source: {tree_root}, target {lexeme} which was originally root", file=added_derivations)
+                            print(f"{lexeme}\t{dict_derivations_from_etym_dictionary[derivation_not_present]}",file=added_derivations_direct)
                         else:
                             # the found derivation is not root of a tree, we will connect the whole tree (the root) instead
                             root_of_derivation_lexeme = lexeme.get_tree_root()
                             if root_of_derivation_lexeme != tree_root:
                                 # the target lexeme already has a parent, connect the whole tree (the root of lexeme) to the tree_root
-                                lexicon.add_derivation(tree_root, root_of_derivation_lexeme)  # add the derivation to the lexicon
+                                #lexicon.add_derivation(tree_root, root_of_derivation_lexeme)  # add the derivation to the lexicon
+                                lexicon.add_derivation(dict_derivations_from_etym_dictionary[derivation_not_present],root_of_derivation_lexeme)                            
                                 counter += 1
-                                print(f"Adding relation, source: {tree_root}, target {root_of_derivation_lexeme} which is root of tree containing {lexeme} which is derivation of {tree_root} or some of his children", file=added_derivations)
-                                # I should add the derivation edge to the node which has the lexeme as its derivation, not to the root !!!
+                                print(f"{root_of_derivation_lexeme}\t{dict_derivations_from_etym_dictionary[derivation_not_present]}\t{lexeme}",file=added_derivations_intermediates)                                
                             else:
                                 root_derivation_same_as_tree_root_counter += 1
                                 # for example for agent we have derivations found in Etym dict ['agentura', 'agenturni'] which are missing in Derinte
                                 # However 'agentura' is root of tree containing 'agenturni' so when 'agentura' is added to 'agent' as derivation
                                 # the root of 'agenturni' now becomes 'agent' so its already in the tree, we dont add it
-
                     elif len(lexeme) == 0:
                         not_found_words.append(derivation_not_present)
                         lexeme_not_found_counter += 1
-                        
                     else:
                         homonyms_counter += 1
                         # print("Lexeme with homonyms:", derivation_not_present)
         
         if verbose:
-            print("New words:", new_words)
+            print("Potentialy new words:", potentionaly_new_words)
             print("Added relations:", counter)
             print("Lexemes not found:", lexeme_not_found_counter)
             print("Root of Lexemes same as roots of given trees:", root_derivation_same_as_tree_root_counter)
             print("Lexemes with homonyms:", homonyms_counter)
             print("Not found words:\n", not_found_words)
+            print("\nFinished processing lexicon")
 
 def main():
 
@@ -207,33 +209,41 @@ def main():
     #dictionary = parse_data(dict_file)
 
     dictionary_derivatios_only = extract_field(dictionary,'derivations')
-    dictionary_srov_only = extract_field(dictionary,'srov')
+    dictionary_normalized_derivations = normalize_words(get_dict_without_multiple_word_entries_and_derivations(dictionary_derivatios_only))
 
-    dictionary_one_word_derivations_only = get_dict_without_multiple_word_entries_and_derivations(dictionary_derivatios_only)
-    dictionary_normalized_derivations = normalize_words(dictionary_one_word_derivations_only)
+    dictionary_srov_only = extract_field(dictionary,'srov')
     dictionary_normalized_srov = normalize_words(get_dict_without_multiple_word_entries_and_derivations(dictionary_srov_only))
-    #dictionary_normalized_derivations = dictionary_normalized_srov # JUST TESTING DELETE THIS LINE 
+
     time2 = time.time()
-    print("First section - Extract and Normalize dictionary - took:", time2 - time1,"s to complete")
+    print("\nFirst section - Extract and Normalize dictionary - took:", time2 - time1,"s to complete")
 
     lexicon = dlex.Lexicon()  # creating empty lexical network
     lexicon.load('derinet-2-1-1.tsv',on_err='continue')  # short notation of loading data (automatically loads data in dlex.Format.DERINET_V2)
 
 
     time3 = time.time()
-    print("Second section - Loading DeriNet - took:", time3 - time2,"s to complete")
+    print("\nSecond section - Loading DeriNet - took:", time3 - time2,"s to complete")
 
+    # from data in 'derivations'
+    file_added_derivations_direct = "added_derivations_direct-2.1-1.tsv"
+    file_added_derivations_with_intermediates = "added_derivations_intermediates-2.1-1.tsv"
 
-    file_trees_and_not_present_derivations = "trees_with_some_new_derivations-2.1-1.txt"
-    file_added_derivations = "added_derivations-2.1-1.txt"
-    file_added_derivations_from_srov = "added_derivations_srov-2.1-1.txt"
+    # from data in 'srov'
+    file_added_derivations_srov_direct = "added_derivations_srov_direct-2.1-1.tsv"
+    file_added_derivations_with_intermediates_srov = "added_derivations_srov_intermediates-2.1-1.tsv"
+
+    # file to stored the modified version to
     file_updated_version = "new-derinet-2-1-1.tsv"
 
-    process_lexicon(lexicon,file_trees_and_not_present_derivations,file_added_derivations,dictionary_normalized_derivations)    
+    # update lexicon with derivations
+    update_lexicon(lexicon,file_added_derivations_direct,file_added_derivations_with_intermediates,dictionary_normalized_derivations)    
+
+    # update lexicon with srov
+    update_lexicon(lexicon,file_added_derivations_srov_direct,file_added_derivations_with_intermediates_srov,dictionary_normalized_srov)    
 
     time4 = time.time()
-    print("Third section - Adding derivations - took:", time4 - time3,"s to complete")
-    sys.exit(0) # uncomment to save
+    print("\nThird section - Adding derivations - took:", time4 - time3,"s to complete")
+    #sys.exit(0) # comment this line to save
 
 
     lexicon.save(data_sink=file_updated_version, fmt=dlex.Format.DERINET_V2)  # full notation of saving data
