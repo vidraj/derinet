@@ -35,7 +35,7 @@ def parse_data(file_path: str) -> dict[str, dict[str, any]]:
                     key, value = key.strip(), value.strip()
                     if key in keys_with_list_values:
                         # Convert comma-separated derivations to a list of strings
-                        info_dict[key] = [item.strip() for item in value.split(',')]
+                        info_dict[key] = [item.strip() for item in value.split(',') if item.strip() != ""]
                     else:
                         info_dict[key] = value
 
@@ -80,7 +80,7 @@ def parse_data_tsv(file_path: str) -> dict[str, dict[str, any]]:
                 column = columns[i]
                 if column in keys_with_list_values:
                     # Convert comma-separated derivations to a list of strings
-                    info_dict[column] = [item.strip() for item in value.split(',')] if value != '-' else []
+                    info_dict[column] = [item.strip() for item in value.split(',') if item.strip() != ""] if value != '-' else []
                 else:
                     info_dict[column] = value if value != '-' else ""
             data_dict[entry] = info_dict
@@ -89,10 +89,11 @@ def parse_data_tsv(file_path: str) -> dict[str, dict[str, any]]:
     return data_dict
 
 def main():
+    # Example use
     file_path = 'parsed_dictionary.txt' 
     file_path_tsv = 'parsed_dictionary.tsv' 
     dictionary = parse_data_tsv(file_path_tsv)
-    #print(dictionary.get("adolescence").get('derivations'))
+    print(dictionary.get("adolescence").get('derivations'))
 
 if __name__ == "__main__":
     main()
