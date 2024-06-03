@@ -516,6 +516,9 @@ class Lexeme(object):
             self.misc["history"] = []
 
         ctx = execution_context.copy()
-        ctx["rel"] = str(rel)
+        if rel is None:
+            ctx["rel"] = "deleted"
+        else:
+            ctx["rel"] = str(rel)
 
         self.misc["history"].append(ctx)

@@ -950,6 +950,8 @@ class Lexicon(object):
 
         :param rel: The Relation object to remove.
         """
+        for lexeme in rel.targets:
+            lexeme.record_parent_relation_change(None, self._execution_context)
         rel.remove_from_lexemes()
 
     def remove_all_parent_relations(self, lexeme):
