@@ -101,6 +101,7 @@ class AddNumeralParents(Block):
                     continue
 
                 for child in children:
+                    lexicon.remove_all_parent_relations(child)
                     lexicon.add_composition(lex, lex[-1], child)
 
         return lexicon
