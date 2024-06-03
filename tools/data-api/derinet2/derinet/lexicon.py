@@ -61,13 +61,17 @@ class Lexicon(object):
     __slots__ = [   # If you update __slots__, make sure to also update _load_pickle_v4!
         "_data",   # An array of Lexemes.
         "_index",  # _index[lemma][pos] = [index of Lexeme in _data]
+        "_record_changes", # Boolean identifying whether the execution context below is used.
+        "_execution_context", # A dict identifying the currently running module when using scenarios.
     ]
 
-    def __init__(self):
+    def __init__(self, *, record_changes: bool = False):
         # TODO maybe add a parameter with the database name in it? It could be used for
         #  distinguishing multiple databases from one another.
         self._data = []
         self._index = {}
+        self._record_changes = record_changes
+        self._execution_context = {"creator": None, "args": None, "kwargs": None, "version": None}
 
     def load(self, data_source, fmt: Format = Format.DERINET_V2, on_err: str = "raise"):
         """
@@ -98,12 +102,19 @@ class Lexicon(object):
                 "Unsupported value '{}' for on_err, should be 'raise' or 'continue'.".format(on_err)
             )
 
+        record_changes = self._record_changes
         try:
+            # Don't record relation changes – we don't want to have relations
+            #  recorded as being created by “Load”. But remember whether
+            #  changes are being recorded and restore the state afterwards.
+            self._record_changes = False
             switch[fmt](data_source, on_err)
         except DerinetFileParseError:
             raise
         except DerinetError as exc:
             raise DerinetFileParseError("An error happened while parsing input file.") from exc
+        finally:
+            self._record_changes = record_changes
 
         return self
 
@@ -451,6 +462,7 @@ class Lexicon(object):
 
             self._data = new_lexicon._data  # pylint: disable=protected-access
             self._index = new_lexicon._index  # pylint: disable=protected-access
+            self._execution_context = new_lexicon._execution_context  # pylint: disable=protected-access
         finally:
             # If we are supposed to close the data source, do it now.
             if close_at_end:
@@ -880,9 +892,23 @@ class Lexicon(object):
     def lexeme_count(self):
         return len(self._data)
 
+    def set_execution_context(self, creator=None, args=None, kwargs=None, *, version=None):
+        if not self._record_changes:
+            logger.warn("Asked to set execution context while change recording is disabled.")
+
+        old_context = self._execution_context
+        self._execution_context = {
+            "creator": creator or old_context["creator"],
+            "args": args or old_context["args"],
+            "kwargs": kwargs or old_context["kwargs"],
+            "version": version or old_context["version"]
+        }
+
     def add_derivation(self, source, target, feats=None):
         rel = DerivationalRelation(source, target, feats=feats)
         rel.add_to_lexemes()
+        if self._record_changes:
+            rel.main_target.record_parent_relation_change(rel, self._execution_context)
 
         # TODO should we remember the relation somewhere?
 
@@ -892,18 +918,26 @@ class Lexicon(object):
     def add_composition(self, sources, main_source, target, feats=None):
         rel = CompoundRelation(sources, main_source, target, feats=feats)
         rel.add_to_lexemes()
+        if self._record_changes:
+            rel.main_target.record_parent_relation_change(rel, self._execution_context)
 
     def add_univerbisation(self, sources, main_source, target, feats=None):
         rel = UniverbisationRelation(sources, main_source, target, feats=feats)
         rel.add_to_lexemes()
+        if self._record_changes:
+            rel.main_target.record_parent_relation_change(rel, self._execution_context)
 
     def add_conversion(self, source, target, feats=None):
         rel = ConversionRelation(source, target, feats=feats)
         rel.add_to_lexemes()
+        if self._record_changes:
+            rel.main_target.record_parent_relation_change(rel, self._execution_context)
 
     def add_variant(self, source, target, feats=None):
         rel = VariantRelation(source, target, feats=feats)
         rel.add_to_lexemes()
+        if self._record_changes:
+            rel.main_target.record_parent_relation_change(rel, self._execution_context)
 
     def remove_relation(self, rel):
         """

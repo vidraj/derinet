@@ -508,3 +508,14 @@ class Lexeme(object):
         Non-tree relations are currently completely ignored and not shown.
         """
         return "\n".join(self._pprint_subtree_indented("", ""))
+
+    def record_parent_relation_change(self, rel, execution_context):
+        if "history" not in self.misc:
+            # TODO If there already is a relation there, maybe record
+            #  it in the history with an unknown creator?
+            self.misc["history"] = []
+
+        ctx = execution_context.copy()
+        ctx["rel"] = str(rel)
+
+        self.misc["history"].append(ctx)
