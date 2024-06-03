@@ -299,6 +299,12 @@ class Lexicon(object):
                         # We've just finished reading a tree. Record it to the set of finished trees.
                         seen_trees.add(this_tree)
                         this_tree = None
+                    else:
+                        # Two newlines in a row, or an empty line at the start of the file.
+                        if on_err == "continue":
+                            logger.error("Line nr. {} is empty, but doesn't end a block.".format(line_nr))
+                        else:
+                            raise DerinetFileParseError("Line nr. {} is empty, but doesn't end a block".format(line_nr))
                     continue
 
                 lexeme, lex_id_str, lex_id, parent_id_str, reltype, otherrels = self._parse_v2_lexeme(line_nr, line)
