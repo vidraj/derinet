@@ -32,6 +32,10 @@ def parse_args():
         # TODO Enable fromfile_prefix_chars="@"
     )
     parser.add_argument(
+        "--data-version",
+        help="Record the specified string into any changes made by the scenario's modules."
+    )
+    parser.add_argument(
         "--seed",
         type=int,
         help=("An integer random seed to set for repeatable experimenting. If omitted, is set randomly "
@@ -217,7 +221,7 @@ def main():
     modules = parse_modules(rest_args)
 
     scenario = Scenario(modules)
-    scenario.process(keep_going=main_args.keep_going)
+    scenario.process(keep_going=main_args.keep_going, version=main_args.data_version)
 
     return 0
 

@@ -22,7 +22,7 @@ class Scenario:
         """
         self._modules = modules
 
-    def process(self, lexicon=None, *, keep_going=False):
+    def process(self, lexicon=None, *, keep_going=False, version=None):
         """
         Process the scenario by threading `lexicon` through the specified list
         of Blocks. Each Block is specified as a class to init and its arguments.
@@ -38,6 +38,9 @@ class Scenario:
 
         if lexicon is None:
             lexicon = Lexicon(record_changes=True)
+
+        if version is not None:
+            lexicon.set_execution_context(version=version)
 
         # Run all instances.
         for i, (module_class, module_args, module_kwargs) in enumerate(scenario, start=1):
