@@ -762,13 +762,7 @@ class Lexicon(object):
         # TODO verify that the lexeme is in the _data
 
         if delete_relations:
-            # Since the deletion modifies the relation lists, we have
-            #  to generate them one-by-one instead of using
-            #  `for rel in lexeme.parent_relations`.
-            while lexeme.parent_relations:
-                lexeme.parent_relations[0].remove_from_lexemes()
-            while lexeme.child_relations:
-                lexeme.child_relations[0].remove_from_lexemes()
+            self.remove_all_relations(lexeme)
 
         if lexeme.parent_relations or lexeme.child_relations:
             raise DerinetLexemeDeleteError("The lexeme {} has existing relations, cannot delete it".format(lexeme))
@@ -895,3 +889,34 @@ class Lexicon(object):
     def add_variant(self, source, target, feats=None):
         rel = VariantRelation(source, target, feats=feats)
         rel.add_to_lexemes()
+
+    def remove_relation(self, rel):
+        """
+        Remove the specified relation from all lexemes it's incident to.
+        Be aware that since this modifies the relation lists of the
+        incident lexemes, you shouldn't call it in a loop like
+        `for rel in lexeme.parent_relations`; instead, use a while-loop
+        or one of the `remove_all_parent_relations`,
+        `remove_all_child_relations` or `remove_all_relations` methods.
+
+        :param rel: The Relation object to remove.
+        """
+        rel.remove_from_lexemes()
+
+    def remove_all_parent_relations(self, lexeme):
+        # Since the deletion modifies the relation lists, we have
+        #  to generate them one-by-one instead of using
+        #  `for rel in lexeme.parent_relations`.
+        while lexeme.parent_relations:
+            self.remove_relation(lexeme.parent_relations[0])
+
+    def remove_all_child_relations(self, lexeme):
+        # Since the deletion modifies the relation lists, we have
+        #  to generate them one-by-one instead of using
+        #  `for rel in lexeme.child_relations`.
+        while lexeme.child_relations:
+            self.remove_relation(lexeme.child_relations[0])
+
+    def remove_all_relations(self, lexeme):
+        self.remove_all_parent_relations(lexeme)
+        self.remove_all_child_relations(lexeme)
