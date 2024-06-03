@@ -2,6 +2,7 @@
 
 derinet-2-0-5.tsv: derinet-2-0.tsv ../../../../data/annotations/cs/2019_12_06_enumerated_words/annotated/vyjmenovana-slova-sd-jv.tsv ../../../../data/releases/cs/derinet-2-0.tsv
 	PYTHONPATH=../../../data-api/derinet2 python3 -m derinet.process_scenario \
+		--data-version=2.0.5 \
 		Load "$<" \
 		cs.CopyAspect ../../../../data/releases/cs/derinet-2-0.tsv \
 		cs.DelIncorrectLexemes ../../../../data/annotations/cs/2020_12_incorrect_lexemes/incorrect-lexemes-e.tsv \

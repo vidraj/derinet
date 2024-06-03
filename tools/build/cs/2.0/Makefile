@@ -2,6 +2,7 @@
 
 derinet-2-0.tsv: derinet-1-7-tag-masks.tsv prepare-root-segmentations/induced-segmentations.tsv ../../../../data/annotations/cs/2018_09_ssjc_semantic/hand-annotated/final-semantic-labels-fixed.tsv ../../../../data/annotations/cs/2019_05_compounds/annotated/compounds-annotated.tsv ../../../../data/annotations/cs/2019_05_phantom_lexemes/annotated/hand-checked-phantoms-to-be-added-to-2.0 allomorph-overlap.csv
 	PYTHONPATH=../../../data-api/derinet2 python3 -m derinet.process_scenario \
+		--data-version=2.0 \
 		Load "$<" \
 		cs.AddCompounds ../../../../data/annotations/cs/2019_05_compounds/annotated/compounds-annotated.tsv \
 		cs.AddPhantomLexemes ../../../../data/annotations/cs/2019_05_phantom_lexemes/annotated/hand-checked-phantoms-to-be-added-to-2.0 \

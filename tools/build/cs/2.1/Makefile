@@ -2,6 +2,7 @@
 
 derinet-2-1.tsv: derinet-2-0-6.tsv
 	PYTHONPATH=../../../data-api/derinet2 python3 -m derinet.process_scenario \
+		--data-version=2.1 \
 		Load "$<" \
 		cs.AddLoanwordMarks ../../../../data/annotations/cs/2021_07_foreign_mark_final_after_new_morfflex/hand-annotated/loanwords-trees-automatical-annotated.tsv \
 		cs.AddLoanwordMarks ../../../../data/annotations/cs/2021_07_foreign_mark_final_after_new_morfflex/hand-annotated/loanwords-trees-annotated.tsv \

@@ -2,6 +2,7 @@
 
 derinet-2-2.tsv: derinet-2-1.tsv
 	PYTHONPATH=../../../data-api/derinet2 python3 -m derinet.process_scenario \
+		--data-version=2.2 \
 		Load "$<" \
 		cs.AddNumerals ../../../../data/annotations/cs/2024-05-numerals/MorfFlex_numeral_parents.tsv \
 		cs.AddNumeralParents ../../../../data/annotations/cs/2024-05-numerals/MorfFlex_numeral_parents.tsv \
