@@ -286,7 +286,10 @@ class Lexicon(object):
                     continue
 
                 if not line.endswith("\n"):
-                    raise DerinetFileParseError("Line nr. {} '{}' doesn't end with a newline, the file was possibly truncated".format(line_nr, line))
+                    if on_err == "continue":
+                        logger.error("Line nr. {} '{}' doesn't end with a newline, the file was possibly truncated.".format(line_nr, line))
+                    else:
+                        raise DerinetFileParseError("Line nr. {} '{}' doesn't end with a newline, the file was possibly truncated".format(line_nr, line))
 
                 line = line.rstrip("\n")
 
