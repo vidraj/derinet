@@ -154,6 +154,19 @@ class Relation(object, metaclass=ABCMeta):  # Defining it as Relation(ABC) doesn
         #  This doesn't matter, as the Python data model only requires that __eq__ ⇒ same __hash__, not vice versa.
         return hash((self._sources, self._main_source, self._targets, self._main_target))
 
+    def __str__(self):
+        if len(self.sources) == 1:
+            sources = self.main_source.lemid
+        else:
+            sources = "(" + "+".join("*" + source.lemid if source is self.main_source else source.lemid for source in self.sources) + ")"
+
+        if len(self.targets) == 1:
+            targets = self.main_target.lemid
+        else:
+            targets = "(" + "+".join("*" + target.lemid if target is self.main_target else target.lemid for target in self.targets) + ")"
+
+        return "{}:{}->{}".format(self.type, sources, targets)
+
 
 class DerivationalRelation(Relation):
     """
