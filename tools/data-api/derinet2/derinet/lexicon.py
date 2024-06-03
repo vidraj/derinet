@@ -605,7 +605,7 @@ class Lexicon(object):
 
             if include_main_source:
                 assert "MainSource" not in reltype
-                reltype["MainSource"] = id_mapping[rel.main_source]
+                reltype["MainSource"] = id_mapping[rel.main_source][0]
 
             # If there are multiple sources, print all of them
             #  (in order). It is necessary to print them all, even
@@ -615,7 +615,7 @@ class Lexicon(object):
             if len(rel.sources) > 1:
                 # TODO proper check instead of an assert.
                 assert "Sources" not in reltype
-                reltype["Sources"] = ",".join([id_mapping[source] for source in rel.sources])
+                reltype["Sources"] = ",".join([id_mapping[source][0] for source in rel.sources])
 
         return reltype
 
@@ -644,7 +644,7 @@ class Lexicon(object):
 
             for tree_id, root in enumerate(all_roots):
                 for lex_in_tree_id, lexeme in enumerate(root.iter_subtree(sort=True)):
-                    full_id = "{}.{}".format(tree_id, lex_in_tree_id)
+                    full_id = "{}.{}".format(tree_id, lex_in_tree_id), tree_id, lex_in_tree_id
 
                     if lexeme in id_mapping:
                         raise Exception("An error occurred while saving data: Lexeme {} processed twice; parents: {}".format(lexeme, lexeme.all_parents))
@@ -659,21 +659,25 @@ class Lexicon(object):
                     print("", end="\n", file=data_sink)
 
                 for lexeme in root.iter_subtree(sort=True):
-                    full_id = id_mapping[lexeme]
+                    formatted_id, tree_id, lex_in_tree_id = id_mapping[lexeme]
 
                     if lexeme.parent:
-                        parent_id = id_mapping[lexeme.parent]
+                        parent_formatted_id, parent_tree_id, parent_lex_in_tree_id = id_mapping[lexeme.parent]
+                        if tree_id != parent_tree_id:
+                            raise DerinetError("Lexemes {} and {} should be printed in a single tree, but have different tree IDs".format(lexeme.parent, lexeme))
+                        if lex_in_tree_id <= parent_lex_in_tree_id:
+                            raise DerinetError("Lexeme {} is a parent of lexeme {}, but is formatted below it in the tree".format(lexeme.parent, lexeme))
                     else:
-                        parent_id = ""
+                        parent_formatted_id = ""
 
                     print(
-                        full_id,
+                        formatted_id,
                         lexeme.lemid,
                         lexeme.lemma,
                         lexeme.pos,
                         format_kwstring([lexeme.feats]),
                         format_kwstring([segment for segment in lexeme.segmentation if segment["Type"] != "Implicit"]),
-                        parent_id,
+                        parent_formatted_id,
                         format_kwstring([self._format_parent_relation(lexeme, lexeme.parent_relation, id_mapping, False)]),
                         format_kwstring([self._format_parent_relation(lexeme, rel, id_mapping, True) for rel in lexeme.otherrels]),
                         json.dumps(lexeme.misc, ensure_ascii=False, allow_nan=False, indent=None, sort_keys=True),
