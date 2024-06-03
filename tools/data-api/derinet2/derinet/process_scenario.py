@@ -52,6 +52,10 @@ def parse_args():
         help="List all known invokable modules from `derinet.modules` and exit."
     )
     parser.add_argument(
+        "--version",
+        action="store_true"
+    )
+    parser.add_argument(
         "modules",
         nargs=argparse.REMAINDER,
         help=("A list of modules and their arguments. New modules must be placed into "
@@ -61,6 +65,15 @@ def parse_args():
 
     main_args = parser.parse_args()
     rest_args = main_args.modules
+
+    if main_args.version:
+        import importlib.metadata
+        try:
+            v = importlib.metadata.version("derinet")
+        except importlib.metadata.PackageNotFoundError:
+            v = "development version"
+        print("derinet", v)
+        sys.exit(0)
 
     return main_args, rest_args
 
