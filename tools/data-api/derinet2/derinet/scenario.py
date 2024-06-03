@@ -37,17 +37,16 @@ class Scenario:
         logger.info("Processing a scenario of {} modules.".format(len(scenario)))
 
         if lexicon is None:
-            lexicon = Lexicon()
+            lexicon = Lexicon(record_changes=True)
 
         # Run all instances.
         for i, (module_class, module_args, module_kwargs) in enumerate(scenario, start=1):
             signature = "{}/{}".format(module_class.__module__, module_class.__name__)
 
-            # Set the arg_string and class_name (or even module_name) as a property of the lexicon.
-            #  That way, we don't have to pass the signature to every derinet method manually,
-            #  no-one forgets about it and it is all clean, without stack inspection and other nasty
-            #  hacks.
-            # lexicon.set_execution_context(instance.signature)
+            # Set the module name and its args as a property of the lexicon,
+            #  so that any relation changes the module makes get attributed
+            #  to it automatically.
+            lexicon.set_execution_context(creator=signature, args=repr(module_args), kwargs=repr(module_kwargs))
 
             # Create an instance of the main class.
             logger.info("Initializing {}".format(signature))
