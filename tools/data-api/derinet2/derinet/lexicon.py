@@ -591,6 +591,30 @@ class Lexicon(object):
             if close_at_end:
                 data_sink.close()
 
+    def _format_parent_relation(self, lexeme, rel, id_mapping):
+        reltype = {}
+
+        if rel:
+            # We need to add features to the reltype, so
+            #  copy it to prevent clobbering the original.
+            reltype = rel.feats.copy()
+
+            # TODO proper check instead of an assert.
+            assert "Type" not in reltype
+            reltype["Type"] = rel.type
+
+            # If there are multiple sources, print all of them
+            #  (in order). It is necessary to print them all, even
+            #  though the main source is already indicated in
+            #  another field, because otherwise it is not clear
+            #  where does the main source belong in the list.
+            if len(rel.sources) > 1:
+                # TODO proper check instead of an assert.
+                assert "Sources" not in reltype
+                reltype["Sources"] = ",".join([id_mapping[source] for source in rel.sources])
+
+        return reltype
+
     def _save_derinet_v2(self, data_sink):
         close_at_end = False
         if isinstance(data_sink, str):
@@ -638,26 +662,6 @@ class Lexicon(object):
                     else:
                         parent_id = ""
 
-                    reltype = {}
-                    if lexeme.parent_relation:
-                        # We need to add features to the reltype, so
-                        #  copy it to prevent clobbering the original.
-                        reltype = lexeme.parent_relation.feats.copy()
-
-                        # TODO proper check instead of an assert.
-                        assert "Type" not in reltype
-                        reltype["Type"] = lexeme.parent_relation.type
-
-                        # If there are multiple sources, print all of them
-                        #  (in order). It is necessary to print them all, even
-                        #  though the main source is already indicated in
-                        #  another field, because otherwise it is not clear
-                        #  where does the main source belong in the list.
-                        if len(lexeme.parent_relation.sources) > 1:
-                            # TODO proper check instead of an assert.
-                            assert "Sources" not in reltype
-                            reltype["Sources"] = ",".join([id_mapping[source] for source in lexeme.parent_relation.sources])
-
                     print(
                         full_id,
                         lexeme.lemid,
@@ -666,7 +670,7 @@ class Lexicon(object):
                         format_kwstring([lexeme.feats]),
                         format_kwstring([segment for segment in lexeme.segmentation if segment["Type"] != "Implicit"]),
                         parent_id,
-                        format_kwstring([reltype]),
+                        format_kwstring([self._format_parent_relation(lexeme, lexeme.parent_relation, id_mapping)]),
                         format_kwstring(lexeme.otherrels),
                         json.dumps(lexeme.misc, ensure_ascii=False, allow_nan=False, indent=None, sort_keys=True),
                         sep="\t", end="\n", file=data_sink
