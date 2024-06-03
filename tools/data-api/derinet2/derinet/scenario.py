@@ -18,14 +18,14 @@ class Scenario:
         """
         Initialize a scenario using a list of Blocks.
 
-        :param modules: A list of Blocks
+        :param modules: A list of tuples of (Block class, args, kwargs).
         """
         self._modules = modules
 
     def process(self, lexicon=None, keep_going=False):
         """
         Process the scenario by threading `lexicon` through the specified list
-        of Blocks.
+        of Blocks. Each Block is specified as a class to init and its arguments.
 
         :param lexicon: The lexicon to pass to the first Block.
         :param keep_going: If set, continue execution when a DerinetError is
@@ -40,14 +40,20 @@ class Scenario:
             lexicon = Lexicon()
 
         # Run all instances.
-        for i, instance in enumerate(scenario, start=1):
-            logger.info("Running module {} ({}/{}).".format(instance.signature, i, len(scenario)))
+        for i, (module_class, module_args, module_kwargs) in enumerate(scenario, start=1):
+            signature = "{}/{}".format(module_class.__module__, module_class.__name__)
 
             # Set the arg_string and class_name (or even module_name) as a property of the lexicon.
             #  That way, we don't have to pass the signature to every derinet method manually,
             #  no-one forgets about it and it is all clean, without stack inspection and other nasty
             #  hacks.
             # lexicon.set_execution_context(instance.signature)
+
+            # Create an instance of the main class.
+            logger.info("Initializing {}".format(signature))
+            instance = module_class(*module_args, **module_kwargs)
+
+            logger.info("Running module {} ({}/{}).".format(instance.signature, i, len(scenario)))
 
             try:
                 lexicon = instance.process(lexicon)

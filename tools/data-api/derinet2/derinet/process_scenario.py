@@ -93,7 +93,7 @@ def parse_first_module(args):
     From the list of strings `args`, parse out the first module and its arguments and initialize it.
 
     :param args: A list of strings, the first being a module name, followed by its arguments, followed by other module specifications.
-    :return: A tuple of (the initialized instance of the module, the unprocessed tail of the arguments).
+    :return: A tuple of (the loaded class of the module, args of the module, kwargs of the module, the unprocessed tail of the arguments).
     """
     module_name = args[0]
     args = args[1:]
@@ -116,13 +116,8 @@ def parse_first_module(args):
     # Let the module parse its arguments.
     module_args, module_kwargs, rest_args = module_class.parse_args(args)
 
-    logger.info('Initializing {}/{}'.format(module_class.__module__, module_class.__name__))
-
-    # Create an instance of the main class.
-    module_instance = module_class(*module_args, **module_kwargs)
-
-    # Store the initialized module.
-    return module_instance, rest_args
+    # Store the parsed module info.
+    return module_class, module_args, module_kwargs, rest_args
 
 
 def parse_modules(args):
@@ -130,14 +125,14 @@ def parse_modules(args):
     Parse the whole list of args as a list of modules and their arguments, and initialize the modules.
 
     :param args: A list of modules and their arguments.
-    :return: A list of initialized modules.
+    :return: A list of tuples of (module classes, args, kwargs).
     """
     modules = []
     rest_args = args
 
     while rest_args:
-        module, rest_args = parse_first_module(rest_args)
-        modules.append(module)
+        module, a, kwa, rest_args = parse_first_module(rest_args)
+        modules.append((module, a, kwa))
 
     return modules
 
