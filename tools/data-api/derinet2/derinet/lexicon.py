@@ -591,7 +591,7 @@ class Lexicon(object):
             if close_at_end:
                 data_sink.close()
 
-    def _format_parent_relation(self, lexeme, rel, id_mapping):
+    def _format_parent_relation(self, lexeme, rel, id_mapping, include_main_source):
         reltype = {}
 
         if rel:
@@ -602,6 +602,10 @@ class Lexicon(object):
             # TODO proper check instead of an assert.
             assert "Type" not in reltype
             reltype["Type"] = rel.type
+
+            if include_main_source:
+                assert "MainSource" not in reltype
+                reltype["MainSource"] = id_mapping[rel.main_source]
 
             # If there are multiple sources, print all of them
             #  (in order). It is necessary to print them all, even
@@ -670,8 +674,8 @@ class Lexicon(object):
                         format_kwstring([lexeme.feats]),
                         format_kwstring([segment for segment in lexeme.segmentation if segment["Type"] != "Implicit"]),
                         parent_id,
-                        format_kwstring([self._format_parent_relation(lexeme, lexeme.parent_relation, id_mapping)]),
-                        format_kwstring(lexeme.otherrels),
+                        format_kwstring([self._format_parent_relation(lexeme, lexeme.parent_relation, id_mapping, False)]),
+                        format_kwstring([self._format_parent_relation(lexeme, rel, id_mapping, True) for rel in lexeme.otherrels]),
                         json.dumps(lexeme.misc, ensure_ascii=False, allow_nan=False, indent=None, sort_keys=True),
                         sep="\t", end="\n", file=data_sink
                     )
