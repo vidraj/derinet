@@ -73,7 +73,7 @@ class Lexicon(object):
         self._record_changes = record_changes
         self._execution_context = {"creator": None, "args": None, "kwargs": None, "version": None}
 
-    def load(self, data_source, fmt: Format = Format.DERINET_V2, on_err: str = "raise"):
+    def load(self, data_source, fmt: Format = Format.DERINET_V2, *, on_err: str = "raise"):
         """
         Load data from data_source and append them to this instance of the lexicon.
         Returns the modified lexicon object for convenience.
