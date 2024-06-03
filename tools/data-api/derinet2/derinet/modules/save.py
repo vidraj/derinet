@@ -20,7 +20,7 @@ class Save(Block):
 
         known_formats = {fmt.name: fmt for fmt in Format}
 
-        parser.add_argument("-f", "--format", choices=known_formats.keys(), default=Format.DERINET_V2.name, help="The format of the file to save.")
+        parser.add_argument("-f", "--format", choices=known_formats, default=Format.DERINET_V2.name, help="The format of the file to save.")
         parser.add_argument("file", type=argparse.FileType("wt"), help="The file to save to.")
         parser.add_argument("rest", nargs=argparse.REMAINDER, help="A list of other modules and their arguments.")
 
