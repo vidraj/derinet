@@ -659,7 +659,7 @@ class Lexicon(object):
                     full_id = "{}.{}".format(tree_id, lex_in_tree_id), tree_id, lex_in_tree_id
 
                     if lexeme in id_mapping:
-                        raise Exception("An error occurred while saving data: Lexeme {} processed twice; parents: {}".format(lexeme, lexeme.all_parents))
+                        raise DerinetError("An error occurred while saving data: Lexeme {} processed twice; parents: {}".format(lexeme, lexeme.all_parents))
                     else:
                         id_mapping[lexeme] = full_id
 
