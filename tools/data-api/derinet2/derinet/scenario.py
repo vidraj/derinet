@@ -22,7 +22,7 @@ class Scenario:
         """
         self._modules = modules
 
-    def process(self, lexicon=None, keep_going=False):
+    def process(self, lexicon=None, *, keep_going=False):
         """
         Process the scenario by threading `lexicon` through the specified list
         of Blocks. Each Block is specified as a class to init and its arguments.
