@@ -537,21 +537,26 @@ class Lexicon(object):
             if close_at_end:
                 data_source.close()
 
-    def save(self, data_sink, fmt: Format = Format.DERINET_V2):
+    def save(self, data_sink, fmt: Format = Format.DERINET_V2, *, on_err: str = "raise"):
         switch = {
             Format.DERINET_V1: self._save_derinet_v1,
             Format.DERINET_V2: self._save_derinet_v2,
             Format.PICKLE_V4: self._save_pickle_v4
         }
 
+        if on_err not in {"raise", "continue"}:
+            raise ValueError(
+                "Unsupported value '{}' for on_err, should be 'raise' or 'continue'.".format(on_err)
+            )
+
         if fmt not in switch:
             raise ValueError(
                 "Saving to format {} is not supported, format type not recognized.".format(fmt)
             )
 
-        switch[fmt](data_sink)
+        switch[fmt](data_sink, on_err)
 
-    def _save_derinet_v1(self, data_sink):
+    def _save_derinet_v1(self, data_sink, on_err):
         """Serialize the database as a DeriNet-1.X TSV file.
 
         Be aware that since this new API doesn't use IDs internally, they are not preserved when saving.
@@ -631,7 +636,7 @@ class Lexicon(object):
 
         return reltype
 
-    def _save_derinet_v2(self, data_sink):
+    def _save_derinet_v2(self, data_sink, on_err):
         close_at_end = False
         if isinstance(data_sink, str):
             # Act as if data_source is a filename to open.
@@ -659,7 +664,10 @@ class Lexicon(object):
                     full_id = "{}.{}".format(tree_id, lex_in_tree_id), tree_id, lex_in_tree_id
 
                     if lexeme in id_mapping:
-                        raise DerinetError("An error occurred while saving data: Lexeme {} processed twice; parents: {}".format(lexeme, lexeme.all_parents))
+                        if on_err == "continue":
+                            logger.error("Lexeme {} processed twice; parents: {}".format(lexeme, lexeme.all_parents))
+                        else:
+                            raise DerinetError("An error occurred while saving data: Lexeme {} processed twice; parents: {}".format(lexeme, lexeme.all_parents))
                     else:
                         id_mapping[lexeme] = full_id
 
@@ -676,9 +684,15 @@ class Lexicon(object):
                     if lexeme.parent:
                         parent_formatted_id, parent_tree_id, parent_lex_in_tree_id = id_mapping[lexeme.parent]
                         if tree_id != parent_tree_id:
-                            raise DerinetError("Lexemes {} and {} should be printed in a single tree, but have different tree IDs".format(lexeme.parent, lexeme))
+                            if on_err == "continue":
+                                logger.error("Lexemes {} and {} should be printed in a single tree, but have different tree IDs.".format(lexeme.parent, lexeme))
+                            else:
+                                raise DerinetError("Lexemes {} and {} should be printed in a single tree, but have different tree IDs".format(lexeme.parent, lexeme))
                         if lex_in_tree_id <= parent_lex_in_tree_id:
-                            raise DerinetError("Lexeme {} is a parent of lexeme {}, but is formatted below it in the tree".format(lexeme.parent, lexeme))
+                            if on_err == "continue":
+                                logger.error("Lexeme {} is a parent of lexeme {}, but is formatted below it in the tree.".format(lexeme.parent, lexeme))
+                            else:
+                                raise DerinetError("Lexeme {} is a parent of lexeme {}, but is formatted below it in the tree".format(lexeme.parent, lexeme))
                     else:
                         parent_formatted_id = ""
 
@@ -701,7 +715,7 @@ class Lexicon(object):
             if close_at_end:
                 data_sink.close()
 
-    def _save_pickle_v4(self, data_sink):
+    def _save_pickle_v4(self, data_sink, on_err):
         close_at_end = False
         if isinstance(data_sink, str):
             # Act as if data_source is a filename to open.
