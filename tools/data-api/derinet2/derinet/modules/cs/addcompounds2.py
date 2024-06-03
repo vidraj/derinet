@@ -44,6 +44,8 @@ class AddCompounds2(Block):
                 if len(component_nodes) < 2:
                     continue
 
+                lexicon.remove_all_parent_relations(compound_node)
+
                 lexicon.add_composition(component_nodes,
                                         component_nodes[-1],
                                         compound_node)
