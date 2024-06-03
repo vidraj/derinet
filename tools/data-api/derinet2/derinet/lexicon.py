@@ -570,6 +570,9 @@ class Lexicon(object):
             lexemes = list(self.iter_lexemes(sort=False))
             lex_id_map = {lexeme: i for i, lexeme in enumerate(lexemes)}
             for i, lexeme in enumerate(lexemes):
+                if len(lexeme.all_parents) > 1:
+                    raise DerinetError("Multiple parents encountered in lexeme {}".format(lexeme))
+
                 if lexeme.parent is not None:
                     parent_id = str(lex_id_map[lexeme.parent])
                 else:
