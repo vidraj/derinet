@@ -14,10 +14,12 @@ maintainers = [
 	{name = "Jonáš Vidra", email = "vidra@ufal.mff.cuni.cz"},
 ]
 readme = {file = "README.md", content-type = "text/markdown"}
+license = {file = "LICENSE"}
 keywords = ["linguistics", "natural language processing", "NLP", "word formation", "WFN", "derivation"]
 classifiers = [
 	"Development Status :: 4 - Beta",
 	"Programming Language :: Python :: 3",
+	"License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
 	"Topic :: Text Processing :: Linguistic",
 	"Topic :: Software Development :: Libraries",
 	"Private :: Do Not Upload",

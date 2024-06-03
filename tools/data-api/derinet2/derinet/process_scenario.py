@@ -73,6 +73,16 @@ def parse_args():
         except importlib.metadata.PackageNotFoundError:
             v = "development version"
         print("derinet", v)
+        print("\nCopyright (C) 2024 Jonáš Vidra\n\n"
+              "This program is free software: you can redistribute it and/or modify\n"
+              "it under the terms of the GNU General Public License version 3 only,\n"
+              "as published by the Free Software Foundation.\n\n"
+              "This program is distributed in the hope that it will be useful,\n"
+              "but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+              "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+              "GNU General Public License for more details.\n\n"
+              "You should have received a copy of the GNU General Public License\n"
+              "along with this program.  If not, see <https://www.gnu.org/licenses/>.")
         sys.exit(0)
 
     return main_args, rest_args
