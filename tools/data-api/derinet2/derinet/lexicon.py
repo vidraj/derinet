@@ -930,12 +930,18 @@ class Lexicon(object):
         # return rel
 
     def add_composition(self, sources, main_source, target, feats=None):
+        if len(sources) < 2:
+            raise DerinetError("Compounding of {} needs at least two sources, given only {}".format(target, sources))
+
         rel = CompoundRelation(sources, main_source, target, feats=feats)
         rel.add_to_lexemes()
         if self._record_changes:
             rel.main_target.record_parent_relation_change(rel, self._execution_context)
 
     def add_univerbisation(self, sources, main_source, target, feats=None):
+        if len(sources) < 2:
+            raise DerinetError("Univerbation of {} needs at least two sources, given only {}".format(target, sources))
+
         rel = UniverbisationRelation(sources, main_source, target, feats=feats)
         rel.add_to_lexemes()
         if self._record_changes:

@@ -52,6 +52,8 @@ class TestCompounding(unittest.TestCase):
         with self.assertRaises(DerinetError):
             lexicon.add_composition([pay, phone, payphone], phone, payphone)
 
+        self.assertIsNone(payphone.parent_relation)
+
     def test_reduplication(self):
         lexicon = Lexicon()
 
@@ -63,6 +65,28 @@ class TestCompounding(unittest.TestCase):
         self.assertEqual(1, len(cerny.children))
         self.assertIs(cernocerny, cerny.children[0])
         self.assertEqual((cerny, cerny), cernocerny.parent_relation.sources)
+
+    def test_single_source(self):
+        lexicon = Lexicon()
+
+        pay = lexicon.create_lexeme("pay", "V")
+        payphone = lexicon.create_lexeme("payphone", "N")
+
+        with self.assertRaises(DerinetError):
+            lexicon.add_composition([pay], pay, payphone)
+
+        self.assertIsNone(payphone.parent_relation)
+
+    def test_single_source_univerbation(self):
+        lexicon = Lexicon()
+
+        pay = lexicon.create_lexeme("pay", "V")
+        payphone = lexicon.create_lexeme("payphone", "N")
+
+        with self.assertRaises(DerinetError):
+            lexicon.add_univerbisation([pay], pay, payphone)
+
+        self.assertIsNone(payphone.parent_relation)
 
     def test_cycle_deriv_comp(self):
         lexicon = Lexicon()
