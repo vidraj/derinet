@@ -74,10 +74,11 @@ class AddCompoundRelations(Block):
                         lexicon.create_lexeme(lemma=parent, pos="Affixoid").add_feature(feature="Fictitious", value="Yes")
                     else:
                         logger.warning(f"Parent {parent} from compound {lemma} not found in DeriNet, skipping.")
-                        continue
+                        break
 
 
-            if parentnum < len(lex):
+            if parentnum != len(lex):
+                logger.warning(f"Didn't find enough parents for {lemma}, skipping.")
                 continue
             else:
                 children = lexicon.get_lexemes(lemma)
