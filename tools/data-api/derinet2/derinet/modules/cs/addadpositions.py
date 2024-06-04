@@ -53,7 +53,7 @@ class AddAdpositions(Block):
 
             lexicon.create_lexeme(lemma=lemma,
                                   lemid=lemma + "#" + tag,
-                                  pos="POS",
+                                  pos="ADP",
                                   misc={'techlemma': techlemma})
 
         return lexicon
