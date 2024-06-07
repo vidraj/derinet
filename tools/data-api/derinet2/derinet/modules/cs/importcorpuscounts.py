@@ -19,6 +19,24 @@ class ImportCorpusCounts(Block):
         self.fname = fname
         self.corpus_size = corpus_size
 
+    def record_count(self, lexemes, count):
+        if len(lexemes) > 1:
+            logger.warning("Lexeme for '{} {}' ambiguous, filling the count to all of them".format(lexemes[0].lemma, lexemes[0].pos))
+
+        for lexeme in lexemes:
+            stats = lexeme.misc.setdefault("corpus_stats", {})
+
+            if "absolute_count" in stats:
+                logger.warning("Lexeme {} already has corpus count filled"
+                                " with value {}, will add {}".format(
+                    lexeme,
+                    stats["absolute_count"],
+                    count
+                ))
+                stats["absolute_count"] += count
+            else:
+                stats["absolute_count"] = count
+
     def gen_counts(self):
         """
         Generate parsed items from self.fname, returning the lemma, pos and
@@ -57,21 +75,7 @@ class ImportCorpusCounts(Block):
                 logger.info("Lexeme for '{} {}' not found".format(lemma, pos))
                 continue
 
-            if len(lexemes) > 1:
-                logger.warning("Lexeme for '{} {}' ambiguous, filling the count to all of them".format(lemma, pos))
-
-            for lexeme in lexemes:
-                stats = lexeme.misc.setdefault("corpus_stats", {})
-
-                if "absolute_count" in stats:
-                    logger.warning("Lexeme {} already has corpus count filled"
-                                    "with value {}, will overwrite with {}".format(
-                        lexeme,
-                        stats["absolute_count"],
-                        count
-                    ))
-
-                stats["absolute_count"] = count
+            self.record_count(lexemes, count)
 
         return corpus_size
 
