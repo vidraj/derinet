@@ -82,7 +82,7 @@ def parse_v2_id(val: str) -> Tuple[int, int]:
 
 def _sanitize_kwpair_item(x):
     if isinstance(x, int):
-        return x
+        return str(x)
 
     x = str(x)
 
