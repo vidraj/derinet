@@ -1,6 +1,6 @@
 .PHONY: clean
 
-derinet-2-0-5.tsv: derinet-2-0.tsv ../../../../data/annotations/cs/2019_12_06_enumerated_words/annotated/vyjmenovana-slova-sd-jv.tsv ../../../../data/releases/cs/derinet-2-0.tsv
+derinet-2-0-5.tsv: derinet-2-0.tsv ../../../../data/annotations/cs/2019_12_06_enumerated_words/annotated/vyjmenovana-slova-sd-jv.tsv ../../../../data/releases/cs/derinet-2-0.tsv syn-v9-lemma-freq.tsv
 	PYTHONPATH=../../../data-api/derinet2 python3 -m derinet.process_scenario \
 		--data-version=2.0.5 \
 		Load "$<" \
@@ -18,7 +18,7 @@ derinet-2-0-5.tsv: derinet-2-0.tsv ../../../../data/annotations/cs/2019_12_06_en
 		cs.AddDerivations ../../../../data/annotations/cs/2020_12_prefixed_words/into-derinet/prefixed-relations.tsv \
 		cs.AddSegmentation2 ../../../../data/annotations/cs/2021_01_generated_mophseg/segmentations.txt \
 		cs.AddDerivationsFromEnumeratedWords ../../../../data/annotations/cs/2019_12_06_enumerated_words/annotated/vyjmenovana-slova-sd-jv.tsv \
-		cs.ImportCorpusCounts corpus-counts.tsv \
+		cs.ImportCorpusCounts --counts-type=v9 syn-v9-lemma-freq.tsv \
 		cs.FindConversion \
 		cs.ChangePosTags \
 		Save "$@" > log 2>&1
@@ -32,9 +32,17 @@ derinet-2-0.tsv: ../2.0/derinet-2-0.tsv
 ../../../../data/releases/cs/derinet-2-0.tsv:
 	zcat ../../../../data/releases/cs/derinet-2-0.tsv.gz > ../../../../data/releases/cs/derinet-2-0.tsv
 
+syn-v9-lemma-freq.tsv: ../../../../data/annotations/cs/2024_06_corpus_counts_synv9/syn-v9-lemma-freq.tsv.xz
+	xz -dvvvc '$<' > '$@'
+
+../../../../data/annotations/cs/2024_06_corpus_counts_synv9/syn-v9-lemma-freq.tsv.xz:
+	$(MAKE) -C ../../../../data/annotations/cs/2024_06_corpus_counts_synv9/ syn-v9-lemma-freq.tsv.xz
+
 clean:
 	rm -f log derinet-2-0-5.tsv derinet-2-0.tsv
 	rm -rf ../../../../data/annotations/cs/2020_03_loanwords/__pycache__/
 	rm -rf ../../../../data/annotations/cs/2020_07_conjugation_class/__pycache__/
 	$(MAKE) -C ../../../../data/annotations/cs/2019_12_06_enumerated_words/annotated/ clean
 	rm -f ../../../../data/releases/cs/derinet-2-0.tsv
+	rm -f syn-v9-lemma-freq.tsv
+	#$(MAKE) -C ../../../../data/annotations/cs/2024_06_corpus_counts_synv9/ clean
