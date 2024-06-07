@@ -1,0 +1,2 @@
+Extract corpus counts from the ČNK SYNv9 corpus, produce a TSV file
+with the lemma, sublemma, positional tag and count.
