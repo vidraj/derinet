@@ -550,6 +550,28 @@ class TestLexicon(unittest.TestCase):
         self.assertFalse("is_nonderived" in t[0].misc and t[0].misc["is_nonderived"])
         self.assertFalse("is_compound" in t[0].misc and t[0].misc["is_compound"])
 
+    def test_save_extra_pos(self):
+        """
+        The xC and xU should be serialized from misc properly on save.
+        """
+        db = """0	zelenomodrý	zelenomodrý	AC	
+1	text	text	NU	
+2	bigbít	bigbít	NCU	
+"""
+        lexicon = Lexicon()
+        z = lexicon.create_lexeme("zelenomodrý", "A")
+        t = lexicon.create_lexeme("text", "N")
+        b = lexicon.create_lexeme("bigbít", "N")
+
+        z.misc["is_compound"] = True
+        t.misc["unmotivated"] = True
+        b.misc["is_compound"] = True
+        b.misc["unmotivated"] = True
+
+        db_file_out = io.StringIO()
+
+        lexicon.save(db_file_out, fmt=Format.DERINET_V1)
+        self.assertMultiLineEqual(db_file_out.getvalue(), db)
 
 
 if __name__ == '__main__':

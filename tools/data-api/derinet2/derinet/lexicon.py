@@ -173,6 +173,7 @@ class Lexicon(object):
                         misc["is_compound"] = True
                     if "U" in extra_pos_bits:
                         misc["unmotivated"] = True
+                    # TODO Check that extra_pos_bits don't contain anything else.
 
                 # Create the lexeme itself, without any links.
                 lexeme = self.create_lexeme(lemma, pos, misc=misc)
@@ -590,6 +591,12 @@ class Lexicon(object):
                 if len(lexeme.all_parents) > 1:
                     raise DerinetError("Multiple parents encountered in lexeme {}".format(lexeme))
 
+                pos = lexeme.pos
+                if lexeme.misc.get("is_compound", False):
+                    pos += "C"
+                if lexeme.misc.get("unmotivated", False):
+                    pos += "U"
+
                 if lexeme.parent is not None:
                     parent_id = str(lex_id_map[lexeme.parent])
                 else:
@@ -598,7 +605,7 @@ class Lexicon(object):
                     i,
                     lexeme.lemma,
                     lexeme.techlemma,
-                    lexeme.pos,
+                    pos,
                     parent_id,
                     sep="\t", end="\n", file=data_sink
                 )
