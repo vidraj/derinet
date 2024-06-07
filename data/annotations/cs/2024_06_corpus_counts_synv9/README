@@ -1,2 +1,5 @@
 Extract corpus counts from the ČNK SYNv9 corpus, produce a TSV file
 with the lemma, sublemma, positional tag and count.
+
+The result can be merged into DeriNet using the ImportCorpusCounts
+module with the `--counts-type v9` command-line switch set.
