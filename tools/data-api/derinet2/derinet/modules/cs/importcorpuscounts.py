@@ -15,9 +15,10 @@ class ImportCorpusCounts(Block):
     Add corpus counts into the misc section of lexemes.
     """
 
-    def __init__(self, fname, corpus_size):
+    def __init__(self, fname, corpus_size, counts_type="v4"):
         self.fname = fname
         self.corpus_size = corpus_size
+        self.counts_type = counts_type
 
     def record_count(self, lexemes, count):
         if len(lexemes) > 1:
@@ -133,7 +134,11 @@ class ImportCorpusCounts(Block):
 
     def process(self, lexicon: Lexicon):
         # Fill in the absolute counts.
-        corpus_size = self.fill_counts_from_file(lexicon)
+        if self.counts_type == "v4":
+            corpus_size = self.fill_counts_from_file(lexicon)
+        else:
+            raise ValueError("Unknown counts corpus file format '{}'".format(self.counts_type))
+
         self.init_default_counts(lexicon)
 
         # If the user provided the total corpus size (because they want to
@@ -165,6 +170,9 @@ class ImportCorpusCounts(Block):
                             " used as the denominator in the relative sizes."
                             " If not provided, use the sum of seen counts from"
                             " the corpus file.")
+        parser.add_argument("--counts-type", choices={"v4"}, default="v4",
+                            help="The type of the counts input file: v4 is a TSV file"
+                                 " with lemma, pos and count.")
         parser.add_argument("file", help="The file to load the corpus counts from,"
                                          " in a `lemma TAB pos TAB count` format."
                                          " In case of homonyms, the same count is"
@@ -178,4 +186,4 @@ class ImportCorpusCounts(Block):
         corpus_size = args.corpus_size
 
         # Return *args to __init__, **kwargs to init and the unprocessed tail of arguments to other modules.
-        return [fname, corpus_size], {}, args.rest
+        return [fname, corpus_size], {"counts_type": args.counts_type}, args.rest
