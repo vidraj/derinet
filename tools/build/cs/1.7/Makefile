@@ -23,7 +23,7 @@ derinet-1-7.tsv: derinet-1-6.tsv
 		cs.AddWiktionarySsjcAnnot ../../../../data/annotations/cs/2018_06_ssjc/hand-annotated/ssjc-one-der-4001-4616.tsv \
 		cs.AddWiktionarySsjcAnnot ../../../../data/annotations/cs/2018_06_ssjc/hand-annotated/ssjc-more-der-0001-0500.tsv \
 		cs.CheckCompoundMarks \
-		Save -f DERINET_V1 "$@" 2>log
+		Save "$@" 2>log
 
 derinet-1-6.tsv: ../1.6/derinet-1-6.tsv
 	cp -a "$<" "$@"

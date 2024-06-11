@@ -13,7 +13,8 @@ derinet-2-0.tsv: derinet-1-7-tag-masks.tsv prepare-root-segmentations/induced-se
 
 derinet-1-7-tag-masks.tsv: derinet-1-7.tsv tag-masks.tsv
 	PYTHONPATH=../../../data-api/derinet2 python3 -m derinet.process_scenario \
-		Load -f DERINET_V1 "$<" \
+		--data-version=2.0tagmasks \
+		Load "$<" \
 		cs.AddTagMasks tag-masks.tsv \
 		cs.GenerateFakeTagMasks \
 		Save "$@" > log-tag-masks 2>&1
