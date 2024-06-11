@@ -1,4 +1,4 @@
-from derinet import Block, Format, Lexicon, DerinetMorphError
+from derinet import Block, Format, Lexicon, DerinetMorphError, DerinetCycleCreationError
 import argparse
 import logging
 import pandas as pd
@@ -92,7 +92,10 @@ class AddCompoundRelations(Block):
                     for rel in existing_rels:
                         logger.info(f"Disconnecting {lemma} from {rel}")
                         rel.remove_from_lexemes()
-                    lexicon.add_composition(lex, lex[-1], child)
+                    try:
+                        lexicon.add_composition(lex, lex[-1], child)
+                    except DerinetCycleCreationError as ex:
+                        logger.error(f"Couldn't connect {child} to {', '.join(str(l) for l in lex)}", exc_info=ex)
 
         return lexicon
 
