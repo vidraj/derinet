@@ -92,7 +92,7 @@ class AddCompoundRelations(Block):
                     for rel in existing_rels:
                         logger.info(f"Disconnecting {lemma} from {rel}")
                         rel.remove_from_lexemes()
-                        lexicon.add_composition(lex, lex[-1], child)
+                    lexicon.add_composition(lex, lex[-1], child)
 
         return lexicon
 
