@@ -557,16 +557,20 @@ class TestLexicon(unittest.TestCase):
         db = """0	zelenomodrý	zelenomodrý	AC	
 1	text	text	NU	
 2	bigbít	bigbít	NCU	
+3	svačina	svačina	N	
 """
         lexicon = Lexicon()
         z = lexicon.create_lexeme("zelenomodrý", "A")
         t = lexicon.create_lexeme("text", "N")
         b = lexicon.create_lexeme("bigbít", "N")
+        s = lexicon.create_lexeme("svačina", "N")
 
         z.misc["is_compound"] = True
         t.misc["unmotivated"] = True
         b.misc["is_compound"] = True
         b.misc["unmotivated"] = True
+        s.misc["is_compound"] = False
+        s.misc["unmotivated"] = False
 
         db_file_out = io.StringIO()
 
