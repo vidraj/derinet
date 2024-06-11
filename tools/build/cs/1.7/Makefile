@@ -1,9 +1,6 @@
 .PHONY: stats clean
 
 derinet-1-7.tsv: derinet-1-6.tsv
-	./create-1.7.py > log
-
-derinet-1-7-api2.tsv: derinet-1-6.tsv
 	PYTHONPATH=../../../data-api/derinet2 python3 -m derinet.process_scenario \
 		--data-version=1.7 \
 		Load -f DERINET_V1 "$<" \
@@ -26,7 +23,7 @@ derinet-1-7-api2.tsv: derinet-1-6.tsv
 		cs.AddWiktionarySsjcAnnot ../../../../data/annotations/cs/2018_06_ssjc/hand-annotated/ssjc-one-der-4001-4616.tsv \
 		cs.AddWiktionarySsjcAnnot ../../../../data/annotations/cs/2018_06_ssjc/hand-annotated/ssjc-more-der-0001-0500.tsv \
 		cs.CheckCompoundMarks \
-		Save -f DERINET_V1 "$@" 2>log2
+		Save -f DERINET_V1 "$@" 2>log
 
 derinet-1-6.tsv: ../1.6/derinet-1-6.tsv
 	cp -a "$<" "$@"
