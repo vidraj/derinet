@@ -589,7 +589,10 @@ class Lexicon(object):
             lex_id_map = {lexeme: i for i, lexeme in enumerate(lexemes)}
             for i, lexeme in enumerate(lexemes):
                 if len(lexeme.all_parents) > 1:
-                    raise DerinetError("Multiple parents encountered in lexeme {}".format(lexeme))
+                    if on_err == "continue":
+                        logger.warning("Multiple parents encountered in lexeme {}, only saving the main one.".format(lexeme))
+                    else:
+                        raise DerinetError("Multiple parents encountered in lexeme {}".format(lexeme))
 
                 pos = lexeme.pos
                 if lexeme.misc.get("is_compound", False):
