@@ -1,15 +1,19 @@
 from derinet import Block, Format, Lexicon
 import argparse
+import sys
 
 
 class Save(Block):
-    def __init__(self, file, format=Format.DERINET_V2, on_err="raise"):
-        self.file = file
+    def __init__(self, filename, format=Format.DERINET_V2, on_err="raise"):
+        self.filename = filename
         self.format = format
         self.on_err = on_err
 
     def process(self, lexicon: Lexicon):
-        lexicon.save(self.file, fmt=self.format, on_err=self.on_err)
+        if self.filename == "-":
+            lexicon.save(sys.stdout, fmt=self.format, on_err=self.on_err)
+        else:
+            lexicon.save(self.filename, fmt=self.format, on_err=self.on_err)
         return lexicon
 
     @staticmethod
@@ -23,7 +27,11 @@ class Save(Block):
 
         parser.add_argument("-f", "--format", choices=known_formats, default=Format.DERINET_V2.name, help="The format of the file to save.")
         parser.add_argument("-k", "--keep-going", action="store_true", help="Keep going on errors instead of dying.")
-        parser.add_argument("file", type=argparse.FileType("wt"), help="The file to save to.")
+        # We don't use `argparse.FileType("wt")` here, because we only
+        #  want the file to be created when the module is run, not when
+        #  the args are parsed. This prevents clobbering earlier files
+        #  and/or creating empty files (which confuse Make) on error.
+        parser.add_argument("file", help="The file to save to.")
         parser.add_argument("rest", nargs=argparse.REMAINDER, help="A list of other modules and their arguments.")
 
         args = parser.parse_args(args)
@@ -35,6 +43,6 @@ class Save(Block):
         else:
             on_err = "raise"
 
-        file = args.file
+        filename = args.file
 
-        return [file], {"format": fmt, "on_err": on_err}, args.rest
+        return [filename], {"format": fmt, "on_err": on_err}, args.rest
