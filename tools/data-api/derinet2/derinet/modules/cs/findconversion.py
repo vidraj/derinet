@@ -15,10 +15,10 @@ class FindConversion(Block):
     """
     def process(self, lexicon: Lexicon):
         for lexeme in lexicon.iter_lexemes():
-            if lexeme.parent:
-                parent_node = lexeme.parent
-                if lexeme.lemma == parent_node.lemma:
-                    lexeme.parent_relation.remove_from_lexemes()
-                    lexicon.add_conversion(parent_node, lexeme)
+            for rel in lexeme.parent_relations:
+                if len(rel.sources) == 1 and lexeme.lemma == rel.main_source.lemma:
+                    parent_lexeme = rel.main_source
+                    lexicon.remove_relation(rel)
+                    lexicon.add_conversion(parent_lexeme, lexeme)
 
         return lexicon

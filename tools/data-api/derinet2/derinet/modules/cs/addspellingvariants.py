@@ -31,14 +31,14 @@ class AddSpellingVariants(Block):
                 # repre. lemma is connected to non-repre. or their children
                 k = [repre.parent.lemma, repre.parent.pos]
                 if repre.parent and '_'.join(k) in variant_nset[1:]:
-                    repre.parent_relation.remove_from_lexemes()
+                    lexicon.remove_relation(repre.parent_relation)
 
                 for nonrepre in variant_nset[1:]:
                     nonrep_lem, nonrep_pos = nonrepre.split('_')
                     nonrepre = lexicon.get_lexemes(lemma=nonrep_lem,
                                                    pos=nonrep_pos)[0]
                     if repre.parent in list(nonrepre.iter_subtree()):
-                        repre.parent_relation.remove_from_lexemes()
+                        lexicon.remove_relation(repre.parent_relation)
 
                 # connect non-repre. lemmas and their subtrees to repre lemma
                 for nonrepre in variant_nset[1:]:
@@ -47,12 +47,13 @@ class AddSpellingVariants(Block):
                                                    pos=nonrep_pos)[0]
 
                     # delete parent relation of non-repre, if there is any
-                    if nonrepre.parent:
-                        nonrepre.parent_relation.remove_from_lexemes()
+                    lexicon.remove_all_parent_relations(nonrepre)
 
                     # reconnect children of non-repre. lemma to repre lemma
                     for child in nonrepre.children:
-                        child.parent_relation.remove_from_lexemes()
+                        # TODO This disconnecting should go differently –
+                        #  only remove the relations to the repre parent.
+                        lexicon.remove_all_parent_relations(child)
                         lexicon.add_derivation(source=repre, target=child)
 
                     # connect non-repre. lemma to repre lemma

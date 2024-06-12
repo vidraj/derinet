@@ -88,10 +88,8 @@ class AddCompoundRelations(Block):
                     continue
 
                 for child in children:
-                    existing_rels = child.parent_relations
-                    for rel in existing_rels:
-                        logger.info(f"Disconnecting {lemma} from {rel}")
-                        rel.remove_from_lexemes()
+                    logger.info(f"Disconnecting {child} from all parents")
+                    lexicon.remove_all_parent_relations(child)
                     try:
                         lexicon.add_composition(lex, lex[-1], child)
                     except DerinetCycleCreationError as ex:

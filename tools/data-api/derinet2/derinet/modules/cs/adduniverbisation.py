@@ -77,9 +77,7 @@ class AddUniverbisation(Block):
                         continue
                     else:
                         existing_rels = plexeme.parent_relations
-                        for rel in existing_rels:
-                            logger.info("Disconnecting {} -- {}".format(plemma, rel.sources))
-                            rel.remove_from_lexemes()
+                        lexicon.remove_all_parent_relations(plexeme)
 
                         try:
                             main_clexeme = most_similar(clexemes, plexeme)

@@ -80,14 +80,14 @@ class AddVariants(Block):
                         logger.info('Relation between lexeme {} and '
                                     'lexeme {} was deleted.'
                                     .format(repre, repre.parent))
-                        repre.parent_relation.remove_from_lexemes()
+                        lexicon.remove_relation(repre.parent_relation)
 
                     # (ii) nonrepre is in the subtree of the repre lemma
                     if nonrepre in list(repre.iter_subtree()):
                         logger.info('Relation between lexeme {} and '
                                     'lexeme {} was deleted.'
                                     .format(nonrepre, nonrepre.parent))
-                        nonrepre.parent_relation.remove_from_lexemes()
+                        lexicon.remove_relation(nonrepre.parent_relation)
 
                     # (iii) connect non-repre + their subtrees -> repre lemma
                     # non-repre lemma does not have parent
@@ -103,7 +103,7 @@ class AddVariants(Block):
                         logger.info('Relation between lexeme {} '
                                     'and lexeme {} was deleted.'
                                     .format(nonrepre, nonrepre.parent))
-                        nonrepre.parent_relation.remove_from_lexemes()
+                        lexicon.remove_relation(nonrepre.parent_relation)
                         logger.info('Relation between lexeme {} and lexeme'
                                     ' {} was added and labeled as Variant.'
                                     .format(repre, nonrepre))
@@ -120,7 +120,7 @@ class AddVariants(Block):
                                             repre, nonrepre.parent))
                         lexicon.add_derivation(source=nonrepre.parent,
                                                target=repre)
-                        nonrepre.parent_relation.remove_from_lexemes()
+                        lexicon.remove_relation(nonrepre.parent_relation)
                         logger.info('Relation between lexeme {} and lexeme'
                                     ' {} was added and labeled as Variant.'
                                     .format(repre, nonrepre))
@@ -134,7 +134,7 @@ class AddVariants(Block):
                                     'lexeme {}.'
                                     .format(nonrepre, child,
                                             repre, child))
-                        child.parent_relation.remove_from_lexemes()
+                        lexicon.remove_relation(child.parent_relation)
                         lexicon.add_derivation(source=repre,
                                                target=child)
 
@@ -152,7 +152,7 @@ class AddVariants(Block):
                                     'lexeme {}.'
                                     .format(lexeme, child,
                                             lexeme.parent, child))
-                        child.parent_relation.remove_from_lexemes()
+                        lexicon.remove_relation(child.parent_relation)
                         lexicon.add_variant(source=lexeme.parent, target=child)
 
                     elif child.parent_relation.type == 'Derivation':
@@ -162,7 +162,7 @@ class AddVariants(Block):
                                     ' lexeme {}.'
                                     .format(lexeme, child,
                                             lexeme.parent, child))
-                        child.parent_relation.remove_from_lexemes()
+                        lexicon.remove_relation(child.parent_relation)
                         lexicon.add_derivation(source=lexeme.parent,
                                                target=child)
 
@@ -173,7 +173,7 @@ class AddVariants(Block):
                                     ' lexeme {}.'
                                     .format(lexeme, child,
                                             lexeme.parent, child))
-                        child.parent_relation.remove_from_lexemes()
+                        lexicon.remove_relation(child.parent_relation)
                         lexicon.add_conversion(source=lexeme.parent,
                                                target=child)
 

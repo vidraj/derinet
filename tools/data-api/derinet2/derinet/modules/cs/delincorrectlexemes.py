@@ -50,12 +50,6 @@ class DelIncorrectLexemes(Block):
                     logger.info('Lexeme {} not found.'.format(line[0]))
 
                 for lemma in lemmas:
-                    # delete relations manually
-                    for rel in lemma.parent_relations:
-                        rel.remove_from_lexemes()
-                    for rel in lemma.child_relations:
-                        rel.remove_from_lexemes()
-
                     # delete lexeme
                     lexicon.delete_lexeme(lexeme=lemma, delete_relations=True)
                     logger.info('Lemma: {} was deleted incl. its relations.'

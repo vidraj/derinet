@@ -70,13 +70,12 @@ class AddConversions(Block):
                         continue
 
                     # disconnect child from its original parent
-                    if c_node.parent_relation:
-                        c_node.parent_relation.remove_from_lexemes()
+                    lexicon.remove_all_parent_relations(c_node)
 
                     # disconnect possible cycles
                     for node in c_node.get_tree_root().iter_subtree():
                         if node == p_node and p_node.parent:
-                            p_node.parent_relation.remove_from_lexemes()
+                            lexicon.remove_relation(p_node)
 
                     # add conversion relation
                     lexicon.add_conversion(source=p_node, target=c_node)

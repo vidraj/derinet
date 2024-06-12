@@ -49,13 +49,12 @@ class AddDerivations(Block):
                         continue
 
                     # disconnect child from its parent
-                    if c_node.parent_relation:
-                        c_node.parent_relation.remove_from_lexemes()
+                    lexicon.remove_all_parent_relations(c_node)
 
                     # disconnect cycles
                     for node in c_node.get_tree_root().iter_subtree():
                         if node == p_node and p_node.parent:
-                            p_node.parent_relation.remove_from_lexemes()
+                            lexicon.remove_relation(p_node.parent_relation)
 
                     # add derivational relation
                     lexicon.add_derivation(source=p_node, target=c_node)

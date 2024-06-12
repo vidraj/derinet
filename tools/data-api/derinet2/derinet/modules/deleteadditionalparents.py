@@ -14,7 +14,7 @@ class DeleteAdditionalParents(Block):
                 # It might be from the otherrels. Delete them all.
                 for relation in lexeme.otherrels:
                     removed_sources.extend(relation.sources)
-                    relation.remove_from_lexemes()
+                    lexicon.remove_relation(relation)
                 # And it might also be from the main relation, which
                 #  might be e.g. compounding.
                 if len(lexeme.parent_relation.sources) > 1:
@@ -24,7 +24,7 @@ class DeleteAdditionalParents(Block):
                     #targets = lexeme.parent_relation.targets
                     feats = lexeme.parent_relation.feats
 
-                    lexeme.parent_relation.remove_from_lexemes()
+                    lexicon.remove_relation(lexeme.parent_relation)
                     lexicon.add_derivation(source, lexeme, feats)
 
                 lexeme.misc["omitted_parents"] = [str(l) for l in removed_sources]
