@@ -28,7 +28,7 @@ class AddDerivationsEtymology(Block):
         self.fname = fname
 
     
-    def process(self, lexicon:Lexicon):
+    def process(self, lexicon:Lexicon) -> Lexicon:
         """
         Processes the lexicon by iterating through its trees and comparing derivations with the normalized dictionary.
         Adds the derivations described in the Etymological dict which are not present in DeriNet.
@@ -84,7 +84,8 @@ class AddDerivationsEtymology(Block):
                                 # for example for agent we have derivations found in Etym dict ['agentura', 'agenturni'] which are missing in Derinte
                                 # However 'agentura' is root of tree containing 'agenturni' so when 'agentura' is added to 'agent' as derivation
                                 # the root of 'agenturni' now becomes 'agent' so its already in the tree, we dont add it
-            
+        return Lexicon
+    
     @staticmethod
     def parse_args(args):
         """Parse a list of strings containing the arguments, pick the relevant
