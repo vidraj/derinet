@@ -1,7 +1,12 @@
+# Derivations intermediate
 # derivations that will be added to DeriNet based on Etym dict derivations list
-# there is intermediate node between the derivation and the new parent its connected to
-# in the etym dict there is a derivation between parent and intermediate node but intermediate node isnt root
-# so insted of connecting this derivation to the parent we connect root of the intermediate node (derivation column)
+
+# EtymDict: "derivation" is derivation of "grandparent", but "derivation" already has parent
+# DeriNet: "parent" is root of tree containing "derivation"
+# => connect "parent" (parent in DeriNet of the "derivation") to "grandparent" (in etym dict "grandparent" has listed "derivation" as child)
+# root_of_grandparent <-...<- grandparent <-...<-parent <-...<-derivation
+
+# WARNING - its complicated and the anotation was made really quickly by average person, not linguist!
 
 # flaged by human, meanings:
 # * probably incorrect
@@ -10,7 +15,7 @@
 
 # There are cca 341 probably correct new derivations, cca 75 % precision
 
-derivation	parent	intermediate_node
+parent	grandparent	derivation
 *řvát#V????--??-??I??	hurónský#AA???----??---?	řev#NNI??-----A---?  
 Silvestrov#NNM??-----A---?	silvestr#NNI??-----A---?	silvestrovský#AA???----??---?
 abstrahovat#V????--??-??B??	abstraktní#AA???----??---?	abstrakce#NNF??-----A---?
