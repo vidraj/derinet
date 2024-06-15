@@ -24,7 +24,7 @@ classifiers = [
 	"Topic :: Software Development :: Libraries",
 	"Private :: Do Not Upload",
 ]
-requires-python = ">=3.11"
+requires-python = ">=3.6"
 
 [project.scripts]
 process-scenario = "derinet.process_scenario:main"
