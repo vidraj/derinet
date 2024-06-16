@@ -81,6 +81,14 @@ while (<STDIN>) {
 			my $act_char = substr($tag, $i, 1);
 			my $variant_char = substr($variant_tag, $i, 1);
 
+			if ($i == 5 and $act_char eq 'M' and $tag =~ /^AU.P7M--------7$/ and $form =~ /ýma$/) {
+				# A systematic error in MorfFlex 2.0, which assigns feminine possesive
+				#  adjectives a masculine possgender in one particular case. Fix it by
+				#  ignoring the tag for this one position.
+				#print STDERR "Fixing PossGender from $act_char to F for $shortlemma.\n";
+				$act_char = $variant_char;
+			}
+
 			if ($act_char eq $variant_char) {
 				$merged_tag .= $act_char;
 			} else {
