@@ -253,10 +253,10 @@ polyurethanový	A
 sedmistovka	NNF
 Sňozík	NNM
 Staska	NNM
-šestsettisíc	N
+šestsettisíc	C
 škotský	A
 teakový	A
-tisícinka	N
+tisícinka	C
 trempský	A
 vomáčkový	A
 vořechový	A
@@ -310,7 +310,7 @@ vyhostěný	AA???----??---?
 stenat	V
 stenání	NNN
 zastenat	V
-čtyřtisícovka	N
+čtyřtisícovka	C
 uklizečka	NNF
 vydíračka	NNF
 Marina	NNF
@@ -332,7 +332,7 @@ Malika	NNF
 cikánčin	AU???F--------?
 čertíkův	AU???M--------?
 kavčin	AU???F--------?
-šestistovka	N
+šestistovka	C
 
 # Missing from MorfFlex-2016-11-15, but referenced in techlemma suffixes
 adresářík	NNI
