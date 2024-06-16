@@ -78,8 +78,11 @@ while (<STDIN>) {
 		my $merged_tag = '';
 		
 		for (my $i = 0; $i <= 14; $i++) {
-			if (substr($tag, $i, 1) eq substr($variant_tag, $i, 1)) {
-				$merged_tag .= substr($tag, $i, 1);
+			my $act_char = substr($tag, $i, 1);
+			my $variant_char = substr($variant_tag, $i, 1);
+
+			if ($act_char eq $variant_char) {
+				$merged_tag .= $act_char;
 			} else {
 				$merged_tag .= '?';
 			}
