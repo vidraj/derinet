@@ -87,7 +87,6 @@ stejnak	D
 tkvít	Vf--------A----
 uskrovněný	A
 Varmužův	AU???M--------?
-vazův	A
 zaskvít	Vf--------A----
 zatkvít	Vf--------A----
 
@@ -1338,3 +1337,10 @@ půdychtivý	AA???----??---?
 #  MorphoDiTa czech-morfflex2.0-220710.dict model they stopped being generated.
 umdlenost	NNF??-----?---?
 zemdlenost	NNF??-----?---?
+
+# Replace the incorrect milčanskýskost and milčanskýsky with these.
+milčanskost	NNF??-----?---?
+milčansky	Dg-------??---?
+
+# Replace obratlí with this. Both are weird, this one less so.
+obratlý	AA???----??---?
