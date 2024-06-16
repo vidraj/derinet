@@ -19,6 +19,7 @@ $(DERINET): 2.2/derinet-2-2.tsv
 	PYTHONPATH=../../data-api/derinet2 python3 -m derinet.process_scenario \
 		Load '$<' \
 		RemoveMiscKeys --key history --key segmentation \
+		cs.CheckFeatsAndMisc \
 		Save '$@'
 
 # The main target. Successively build all versions from oldest to newest.
