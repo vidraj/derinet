@@ -33,8 +33,8 @@ Pentecost
 Pentecost	
 periost	
 permafrost	
-podrost	
-porost	
+podrost	podrůst
+porost	porůst
 post	
 Post	
 prabytost	
@@ -77,9 +77,11 @@ dvojpost
 ekomost	
 energomost	
 odrost_^(odrost_vlasů)	odrůst
+odrost	odrůst
 pokost	
 prakost	
 prorost_^(prorůst)	prorůst
+prorost	prorůst
 předrost	předrůst
 půlmost	
 radiomost	
@@ -90,3 +92,11 @@ vodochvost_;L
 ziskužádost_,a	
 zlatochvost_;L	
 dvojbytost	
+sebelítost	
+veleskvost	
+vodochvost	
+vydřihost	
+zhost	
+ziskužádost	
+zlatochvost	
+znouzectnost	

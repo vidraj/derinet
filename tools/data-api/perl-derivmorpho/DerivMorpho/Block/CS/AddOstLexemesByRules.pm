@@ -113,10 +113,12 @@ sub process_dictionary {
                 if ($old_suffix eq 'ičnost') { # this rule is exceptional and must be hardwired (3 types of derivations)
                     log_info("Got exceptional word with -ičnost: $source_lemma");
                     if ( $source_lemma =~
-                             /^(dědičnost|jednoslabičnost|spolupatřičnost|patřičnost|rozličnost|sličnost|dýchavičnost)$/ ) {
+                             /^(antimoničnost|bromičnost|dusičnost|jodičnost|břidličnost|červenopšeničnost|cvičnost|dědičnost|hořčičnost|krupičnost|kukuřičnost|kvasničnost|kýchavičnost|křivičnost|medovohořčičnost|motoličnost|mravoličnost|mrtvičnost|neštovičnost|nedědičnost|olejopryskyřičnost|prostocvičnost|protikřivičnost|pryskyřičnost|pšeničnost|přerozličnost|příjičnost|siřičnost|soupatřičnost|spolupatričnost|spolupatřičnost|patřičnost|tělocvičnost|úplavičnost|ustavičnost|ústřičnost|vichřičnost|zimničnost|záličnost|žitnopšeničnost|živičnost|doličnost|rozličnost|sličnost|přesličnost|dýchavičnost)$/
+                        # desetislabičnost, dvaatřicetislabičnost, různoslabičnost, šestiradličnost etc.
+                        or $source_lemma =~ /slabičnost$|radličnost$/ ) {
                         $new_suffix = 'ičný';
                     }
-                    elsif ( $source_lemma =~ /^(tradičnost|netradičnost|hraničnost|bezhraničnost|polovičnost|opozičnost|oposičnost|kompozičnost)$/ ) {
+                    elsif ( $source_lemma =~ /^(tradičnost|kontradičnost|netradičnost|hraničnost|bezhraničnost|polovičnost|opozičnost|oposičnost|kompozičnost|podbráničnost|bráničnost)$/ ) {
                         $new_suffix = 'iční';
                     }
                     else {
