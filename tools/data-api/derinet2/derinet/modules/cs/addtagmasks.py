@@ -44,7 +44,10 @@ class AddTagMasks(Block):
         # Case.
         {},
         # Possgender.
-        {},
+        {
+            "F": {"PossGender": "Fem"},
+            "M": {"PossGender": "Masc"},
+        },
         # Possnumber.
         {},
         # Person.
