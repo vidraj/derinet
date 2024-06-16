@@ -51,6 +51,7 @@ sub process_dictionary {
                 lemma  => $short_new_lemma,
                 mlemma => $long_lemma,
                 pos => 'N',
+                tag => 'NNF??-----?---?',
                 lexeme_creator => $self->signature,
             });
         }
