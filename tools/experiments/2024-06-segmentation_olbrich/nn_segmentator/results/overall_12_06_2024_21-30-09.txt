@@ -1,0 +1,9 @@
+word accuracy_score train: 0.973
+word accuracy_score test: 0.832
+word accuracy_score cleaned: 0.832
+positive edge Precision: 0.971
+positive edge Recall: 0.944
+positive edge Precision clean: 0.971
+positive edge Recall clean: 0.944
+positive edge f1 clean: 0.957
+-----------------------

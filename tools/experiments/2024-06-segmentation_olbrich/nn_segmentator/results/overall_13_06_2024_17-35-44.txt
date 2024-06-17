@@ -1,0 +1,10 @@
+logs/2024_06_13_17-3451-conv_segmentator_one_hot_original.py
+word accuracy_score train: 0.362
+word accuracy_score test: 0.324
+word accuracy_score cleaned: 0.351
+positive edge Precision: 0.866
+positive edge Recall: 0.664
+positive edge Precision clean: 0.893
+positive edge Recall clean: 0.664
+positive edge f1 clean: 0.761
+-----------------------
