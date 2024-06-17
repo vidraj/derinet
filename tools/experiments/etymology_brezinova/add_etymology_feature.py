@@ -1,3 +1,5 @@
+import sys
+sys.path.append('../../../../derinet/tools/data-api/derinet2/')
 import derinet.lexicon as dlex
 
 def read_etym_data(filename: str) -> dict[str, (list[str], bool)]:
@@ -17,7 +19,7 @@ def read_etym_data(filename: str) -> dict[str, (list[str], bool)]:
         for line in etym_file.readlines():
             line = line.split('\t')
             word = line[0].strip()
-            etymology = line[1].strip().split(',')
+            etymology = line[1].strip().split(', ')
             loan = line[2].strip()
             etym_data[word] = (etymology, loan)
     return etym_data
@@ -31,7 +33,7 @@ def main(filename: str):
     '''
 
     lexicon = dlex.Lexicon()  
-    lexicon.load(data_source='derinet-2-1-1.tsv', on_err='continue')
+    lexicon.load(data_source='../../../../derinet/data/releases/cs/derinet-2-1.tsv', on_err='continue')
     data = read_etym_data(filename)
     with open('loan_in_rejzek_not_loan_derinet.tsv', 'w') as f_loan_rejzek:
         with open('loan_in_derinet_not_loan_rejzek.tsv', 'w') as f_loan_derinet:
@@ -46,29 +48,50 @@ def main(filename: str):
                                 
                                 root_lexeme.add_feature('Etymology', etymology)
                                 root_lexeme.add_feature('Etymology_word_from_rejzek', word)
-                                if root_lexeme.feats['Loanword'] == 'False':
-                                    f_loan_rejzek.write(word + '\t' + root_lexeme.lemma + '\n')
+                               
+                                if 'Loanword' in root_lexeme.feats:
+                                    if root_lexeme.feats['Loanword'] == 'False':
+                                        root_lexeme.feats['Loanword'] = 'True'
+                                        f_loan_rejzek.write(word + '\t' + root_lexeme.lemma + '\n')
+                                else:
+                                    root_lexeme.add_feature('Loanword', 'True')
+
                             else:
-                                if root_lexeme.feats['Etymology'] != str(etymology):
-                                    f_different_info.write(root_lexeme.lemma + '\t' + 
+                                if root_lexeme.feats['Etymology'] != etymology:
+                                    if root_lexeme.feats['Loanword'] == 'False':
+                                        f_different_info.write("DIFF" + '\t' + root_lexeme.lemma + '\t' + 
                                                            word + '\t' + str(etymology) + '\t' 
                                                            + root_lexeme.feats['Etymology_word_from_rejzek']
-                                                           + '\t' + root_lexeme.feats['Etymology'] + '\n')
+                                                           + '\t' + str(root_lexeme.feats['Etymology']) + '\n')
+                                    else:
+                                        f_different_info.write("SAME" + '\t' + root_lexeme.lemma + '\t' + 
+                                                           word + '\t' + str(etymology) + '\t' 
+                                                           + root_lexeme.feats['Etymology_word_from_rejzek']
+                                                           + '\t' + str(root_lexeme.feats['Etymology']) + '\n')
+
                         else:
                             if 'Etymology' not in root_lexeme.feats:
                                 
                                 root_lexeme.add_feature('Etymology', etymology)
                                 root_lexeme.add_feature('Etymology_word_from_rejzek', word)
-                                if root_lexeme.feats['Loanword'] == 'True':
-                                    f_loan_derinet.write(word + '\t' + root_lexeme.lemma + '\n')
+                                if 'Loanword' in root_lexeme.feats:
+                                    if root_lexeme.feats['Loanword'] == 'True':
+                                        root_lexeme.feats['Loanword'] = 'False'
+                                        f_loan_derinet.write(word + '\t' + root_lexeme.lemma + '\n')
+                                else:
+                                    root_lexeme.add_feature('Loanword', 'False')
                             else:
-                                if root_lexeme.feats['Etymology'] != str(etymology):
-                                    f_different_info.write(root_lexeme.lemma + '\t' + 
+                                if root_lexeme.feats['Etymology'] != etymology:
+                                    if root_lexeme.feats['Loanword'] == 'True':
+                                        f_different_info.write("DIFF" + '\t' + root_lexeme.lemma + '\t' + 
                                                            word + '\t' + str(etymology) + '\t' 
                                                            + root_lexeme.feats['Etymology_word_from_rejzek']
-                                                           + '\t' + root_lexeme.feats['Etymology'] + '\n')
-
-                                    
+                                                           + '\t' + str(root_lexeme.feats['Etymology']) + '\n')
+                                    else:
+                                        f_different_info.write("SAME" + '\t' + root_lexeme.lemma + '\t' + 
+                                                           word + '\t' + str(etymology) + '\t' 
+                                                           + root_lexeme.feats['Etymology_word_from_rejzek']
+                                                           + '\t' + str(root_lexeme.feats['Etymology']) + '\n')
 
         
 
