@@ -48,9 +48,12 @@ def read_Czech_final(limit=15):
                 for i in range(27,35):
                     morph_split += line[i] + " "
                 morph_split = re.sub(r'\s+', '-', morph_split)
-                morph_split = morph_split[1:] + "t"
-                verb_segmentation.append(morph_split)
-                verb_list.append(line[1])
+                morph_split = morph_split[1:]
+                if morph_split[-1:] != "t":
+                    morph_split += "t"
+                if line[1] == "".join(morph_split.split("-")):
+                    verb_segmentation.append(morph_split)
+                    verb_list.append(line[1])
     return verb_list, verb_segmentation
 
 
