@@ -99,7 +99,7 @@ class AddDerivationsEtymologyFromAnnotated(Block):
                 elif annotation == "REVERSE":
                     new_parent = derivation
                     new_derivation = parent
-                    print(f"REVERSE\tOriginal - Derivation: {derivation_str} -> Parent: {parent_str}")
+                    print(f"REVERSE\tOriginal - Derivation: {derivation_str} -> Parent: {parent_str}", file=detailed)
                     # Check if the original parent (new_derivation) is a root
                     if new_derivation.parent is None:
                         print("\tReversing the direction of edge, new derivation is a root",file=detailed)
