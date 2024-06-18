@@ -15,6 +15,8 @@ class AddDerivationsEtymologyFromAnnotated(Block):
     def __init__(self, fname):
         # The arguments to __init__ are None (returned from below).
         self.fname = fname
+        #TODO
+        # dostane to adresar s vice soubory, nebo vice souboru? Nebo jeden soubor kde bude vsechno dohromady?
     
     @staticmethod
     def add_derivation(lexicon: Lexicon, parent, child):
@@ -127,9 +129,9 @@ class AddDerivationsEtymologyFromAnnotated(Block):
                         print(f"Manualy writen parent, derivation: {derivation}, new parent {new_parent}, original parent {parent}", file=detailed)
 
                     elif len(new_parent_lexemes) == 0:
-                        print(f"Lexeme for word {annotation} not found!", file=detailed)
+                        print(f"Lexeme for word \"{annotation}\" not found!", file=detailed)
                     else:
-                        print(f"There are homonyms for word {annotation}: {new_parent_lexemes}", file=detailed)
+                        print(f"There are homonyms for word \'{annotation}\': {new_parent_lexemes}", file=detailed)
 
                 else:  # Skip empty lines and other lines ('???')
                     print(f"Skipped line {derivation_str}, {parent_str}, annotation: {annotation}", file=detailed)
