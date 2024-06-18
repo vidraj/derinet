@@ -1,4 +1,4 @@
-#!python3
+#python3
 from derinet import Block, Lexicon
 from collections import defaultdict
 
@@ -8,7 +8,7 @@ class AddSegmentationClassification(Block):
         self.fname = fname
 
     def _load_segmentations(self, filename):
-        types = {"R":"Root", "D":"Derivational_affix", "I":"Inflective_affix"}
+        types = {"R":"Root", "D":"Derivational", "I":"Inflective"}
         segmentations = defaultdict(list)
         with open(filename, "r") as r:
             for line in r:
@@ -25,7 +25,9 @@ class AddSegmentationClassification(Block):
                         span = []
                     span.append(i)
                     tp = types[sms[i][1:]]
-                useg_annotation.append({"type":tp, "span":span})
+                morph = [str(word[s]) for s in span]
+                useg_annotation.append({"type":tp, "span":span, "morph":morph})
+                # useg_annotation.append({"type":tp, "morph":morph})
                 segmentations[word] = useg_annotation
         return segmentations
 
@@ -33,7 +35,9 @@ class AddSegmentationClassification(Block):
         segmentations = self.load_segmentations(self.fname)
         for lexeme in lexicon.iter_lexemes:
             segmentation = segmentations[lexeme.lemma]
-            lexeme.misc["useg"] = segmentation
+            #lexeme.misc["useg"] = segmentation
+            for morph in segmentation:
+                lexeme.add_morph(start=segmentation["span"][0], end=segmentation["span"][-1], annot=segmentation["type"])
 
     def parse_args(args):
         """Parse a list of strings containing the arguments, pick the relevant
