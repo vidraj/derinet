@@ -57,7 +57,8 @@ def main(filename: str):
                                     root_lexeme.add_feature('Loanword', 'True')
 
                             else:
-                                if root_lexeme.feats['Etymology'] != etymology:
+                                if not ( set(root_lexeme.feats['Etymology']).issubset(set(etymology))
+                                    or set(etymology).issubset(set(root_lexeme.feats['Etymology']))):
                                     if root_lexeme.feats['Loanword'] == 'False':
                                         f_different_info.write("DIFF" + '\t' + root_lexeme.lemma + '\t' + 
                                                            word + '\t' + str(etymology) + '\t' 
@@ -81,7 +82,8 @@ def main(filename: str):
                                 else:
                                     root_lexeme.add_feature('Loanword', 'False')
                             else:
-                                if root_lexeme.feats['Etymology'] != etymology:
+                                if not ( set(root_lexeme.feats['Etymology']).issubset(set(etymology))
+                                    or set(etymology).issubset(set(root_lexeme.feats['Etymology']))):
                                     if root_lexeme.feats['Loanword'] == 'True':
                                         f_different_info.write("DIFF" + '\t' + root_lexeme.lemma + '\t' + 
                                                            word + '\t' + str(etymology) + '\t' 
