@@ -5,7 +5,8 @@ derinet-2-2.tsv: derinet-2-1.tsv
 		--data-version=2.2 \
 		Load "$<" \
 		cs.AddNumerals ../../../../data/annotations/cs/2024-05-numerals/MorfFlex_numeral_parents.tsv \
-		cs.AddNumeralParents ../../../../data/annotations/cs/2024-05-numerals/MorfFlex_numeral_parents.tsv \
+		cs.AddNumeralCompoundParents ../../../../data/annotations/cs/2024-05-numerals/MorfFlex_numeral_parents.tsv \
+		cs.AddNumeralDerivativeParents ../../../../data/annotations/cs/2024-05-numerals/MorfFlex_numeral_parents.tsv \
 		cs.AddPronouns ../../../../data/annotations/cs/2024-05-pronouns/MorfFlex_pronouns.tsv \
 		cs.AddAdpositions ../../../../data/annotations/cs/2024-05-adpositions/MorfFlex_adpositions.tsv \
 		cs.AddCompoundRelations ../../../../data/annotations/cs/2024-05-compounds/compounds.tsv \
