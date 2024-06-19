@@ -17,6 +17,7 @@ class AddCompoundRelations(Block):
         self.fname = fname
 
     def process(self, lexicon: Lexicon):
+
         """
         Read dataframe in a tsv of compounds in the form of two columns -
         [lemma, parents]. The parents have to be divided by spaces.
@@ -91,7 +92,8 @@ class AddCompoundRelations(Block):
                     logger.info(f"Disconnecting {child} from all parents")
                     lexicon.remove_all_parent_relations(child)
                     try:
-                        lexicon.add_composition(lex, lex[-1], child)
+                        lexicon.add_composition(sources=lex, main_source=lex[-1], target=child)
+                        logger.info(f"Connecting {child} to parents {parentlist}")
                     except DerinetCycleCreationError as ex:
                         logger.error(f"Couldn't connect {child} to {', '.join(str(l) for l in lex)}", exc_info=ex)
 

@@ -18,7 +18,7 @@ def techlemma_to_lemma(techlemma):
     lemma = re.sub("-\d+$", "", shortlemma)
     return lemma
 
-class AddNumeralParents(Block):
+class AddNumeralCompoundParents(Block):
     def __init__(self, fname):
         # The arguments to __init__ are those that the parse_args method (below) returns.
         self.fname = fname
@@ -102,7 +102,11 @@ class AddNumeralParents(Block):
                     continue
 
                 for child in children:
+                    logger.info(
+                        f"Removing all parents for {lemma}.")
                     lexicon.remove_all_parent_relations(child)
+                    logger.info(
+                        f"Adding compositional parents {parentlist} to compound {lemma}.")
                     lexicon.add_composition(lex, lex[-1], child)
 
         return lexicon

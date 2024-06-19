@@ -18,19 +18,7 @@ def techlemma_to_lemma(techlemma):
     lemma = re.sub("-\d+$", "", shortlemma)
     return lemma
 
-def parse_out_deriv_parent(techlemma):
-    lemma = techlemma_to_lemma(techlemma)
-    pattern = "\(\*(\d+)\)"
-    match = re.search(pattern, techlemma)
-
-    if match:
-        num = int(match.group(1))
-        return lemma[:-num]
-    else:
-        return None
-
 def parse_out_orthovariant(techlemma):
-    lemma = techlemma_to_lemma(techlemma)
     pattern = "\(\^GC\*\*([a-Ž]*)\)"
     match = re.search(pattern, techlemma)
 
@@ -40,7 +28,7 @@ def parse_out_orthovariant(techlemma):
         return None
 
 
-class AddNumeralCompoundParents(Block):
+class AddNumeralOrthoVariants(Block):
     def __init__(self, fname):
         # The arguments to __init__ are those that the parse_args method (below) returns.
         self.fname = fname
@@ -54,74 +42,27 @@ class AddNumeralCompoundParents(Block):
         The tag is also from MorfFlex.
         The parents have to be divided by spaces.
 
-        This block assumes that everything in the lemma column is a numeral, and attempts to find the parents of said numerals
-        by parsing the MorfFlex lemma.
+        This block assumes that everything in the lemma column is a numeral, and attempts to find the orthographical variants
+        of said numerals by parsing the MorfFlex lemma.
         """
 
         newdf = pd.read_csv(self.fname, header=0, sep="\t")
         logger.debug(f"Lexicon size: {sum([1 for i in lexicon.iter_lexemes()])}")
 
         for row in newdf.itertuples():
-            parentlist = row.parents.split(" ")
-            parentnum = len(parentlist)
-            if parentnum < 2:
-                continue
+            techlemma = row.lemma
+            lemma = techlemma_to_lemma(techlemma)
 
-            lemma = techlemma_to_lemma(row.lemma)
+            for lexeme in lexicon.get_lexemes(lemma):
+                parent_lemma = parse_out_orthovariant(techlemma)
+                parent_lexemes = lexicon.get_lexemes(parent_lemma)
 
-            if parentnum == 1:
-                if parentlist[0] == lemma:
-                    logger.debug(
-                        f"{lemma} annotated as unmotivated, skipping.")
-                    continue
-
-
-            logger.debug(f"Adding parents '{parentlist}' for numeral '{lemma}'")
-
-
-
-            lex = []
-            for parent in parentlist:
-                lst = lexicon.get_lexemes(parent)
-                if len(lst) == 1:
-                    lex.append(lst[0])
-                elif len(lst) > 1:
-                    lemids = [i.lemid for i in lst]
-                    POSes = [i.split("#")[1][0] for i in lemids]
-
-                    if "C" in POSes:
-                        where = np.where(np.array(POSes) == "C")[0].tolist()[0]
-                        lex.append(lst[where])
-                        logger.warning(
-                            f"Parent {parent} from compound {lemma} ambiguous, assigning first numeral from {lemids}.")
-
-                    else:
-                        lex.append(lst[0])
-                        logger.warning(
-                            f"Parent {parent} from compound {lemma} ambiguous, assigning first item from {lemids}. (no numerals found)")
-
+                if parent_lemma and parent_lexemes:
+                    parent_lexeme = parent_lexemes[0]
+                    logger.info(f"Assigning orthographical variant {parent_lexeme} to lemma {lexeme}")
+                    lexicon.add_variant(source=parent_lexeme, target=lexeme)
                 else:
-                    is_neoclassical_constituent = parent[0] == "-" and parent[-1] == "-"
-                    if is_neoclassical_constituent:
-                        lexicon.create_lexeme(lemma=parent, pos="Affixoid").add_feature(feature="Fictitious",
-                                                                                                  value="Yes")
-                    else:
-                        logger.warning(f"Parent {parent} from compound {lemma} not found in DeriNet, skipping.")
-                        break
-
-            if parentnum != len(lex):
-                logger.warning(f"Didn't find enough parents for {lemma}, skipping.")
-                continue
-
-            else:
-                children = lexicon.get_lexemes(lemma, pos="NUM")
-                if children == []:
-                    logger.warning(f"Child numeral {lemma} not found in DeriNet, skipping. Bug in previous loop, should have been added!")
-                    continue
-
-                for child in children:
-                    lexicon.remove_all_parent_relations(child)
-                    lexicon.add_composition(lex, lex[-1], child)
+                    logger.info(f"No orthographical variant found for lemma {lexeme}, skipping.")
 
         return lexicon
 
