@@ -64,6 +64,7 @@ def normalize_words(dictionary: dict[str, list[str]]) -> dict[str, list[str]]:
     # Pattern to find words containing parentheses, like "ucitel(ka), (z)bourat"
     pattern = re.compile(r'(\w*)\((\w*)\)(\w*)')
     for entry, derivations in dictionary.items():
+        entry = re.sub(r'[^a-zA-ZřščžáéíóúýčďěňřšťůžŘŠČŽÁÉÍÓÚÝČĎĚŇŘŠŤŮŽ]', '', entry)
         modified_derivations = set()
         for derivation in derivations:
             # Search for the pattern in each derivation
@@ -233,25 +234,34 @@ def update_lexicon(lexicon:dlex.Lexicon, file_added_derivations_direct:str, file
                     if len(lexeme) == 1:  # if there are not homonymous lexemes, return first (only) one
                         lexeme = lexeme[0]
                         if lexeme.parent_relation is None: # the lexeme is root, connect it directly
-                            try:
-                                lexicon.add_derivation(dict_derivations_from_etym_dictionary[derivation_not_present],lexeme)
-                            except:
-                                # there can be some errors with cyclic relations. Two errors that occured:
-                                # Lexeme:játra#NNN??-----A---?, Tree root: celý#AA???----??---?, parent: jitrocel#NNI??-----A---?
-                                # Lexeme:don#NNM??-----A---?, Tree root: Quijote#NNMXX-----A----, parent: donkichot#NNM??-----A---?
-                                if verbose:
-                                    print(f"EROR!\nLexeme:{lexeme}, Tree root: {tree_root}, parent: {dict_derivations_from_etym_dictionary[derivation_not_present]}")
-                            counter += 1
-                            print(f"{lexeme}\t{dict_derivations_from_etym_dictionary[derivation_not_present]}",file=added_derivations_direct)
+                            if dict_derivations_from_etym_dictionary[derivation_not_present].lemma != lexeme.lemma:
+                                try:
+                                    lexicon.add_derivation(dict_derivations_from_etym_dictionary[derivation_not_present],lexeme)
+                                except:
+                                    # there can be some errors with cyclic relations. Two errors that occured:
+                                    # Lexeme:játra#NNN??-----A---?, Tree root: celý#AA???----??---?, parent: jitrocel#NNI??-----A---?
+                                    # Lexeme:don#NNM??-----A---?, Tree root: Quijote#NNMXX-----A----, parent: donkichot#NNM??-----A---?
+                                    if verbose:
+                                        print(f"EROR!\nLexeme:{lexeme}, Tree root: {tree_root}, parent: {dict_derivations_from_etym_dictionary[derivation_not_present]}")
+                                counter += 1
+                                print(f"{lexeme}\t{dict_derivations_from_etym_dictionary[derivation_not_present]}",file=added_derivations_direct)
+                            else:
+                                pass
+                                #print(f"OMITED {lexeme}, lemma {lexeme.lemma}\t{dict_derivations_from_etym_dictionary[derivation_not_present]}, lemma {dict_derivations_from_etym_dictionary[derivation_not_present].lemma}")
                         else:
                             # the found derivation is not root of a tree, we will connect the whole tree (the root of the derivation) instead
                             root_of_derivation_lexeme = lexeme.get_tree_root()
                             
                             if root_of_derivation_lexeme != tree_root:
                                 # the target lexeme already has a parent, connect the whole tree (the root of lexeme) to the tree_root
-                                lexicon.add_derivation(dict_derivations_from_etym_dictionary[derivation_not_present],root_of_derivation_lexeme)                            
-                                counter += 1
-                                print(f"{root_of_derivation_lexeme}\t{dict_derivations_from_etym_dictionary[derivation_not_present]}\t{lexeme}",file=added_derivations_intermediates)                                
+                                if dict_derivations_from_etym_dictionary[derivation_not_present].lemma != root_of_derivation_lexeme.lemma:
+                                    lexicon.add_derivation(dict_derivations_from_etym_dictionary[derivation_not_present],root_of_derivation_lexeme)                            
+                                    counter += 1
+                                    print(f"{root_of_derivation_lexeme}\t{dict_derivations_from_etym_dictionary[derivation_not_present]}\t{lexeme}",file=added_derivations_intermediates)                                
+                                else:
+                                    pass
+                                    # print(f"OMITED {root_of_derivation_lexeme}, lemma {root_of_derivation_lexeme.lemma}\t{dict_derivations_from_etym_dictionary[derivation_not_present]}, lemma {dict_derivations_from_etym_dictionary[derivation_not_present].lemma}")
+                                    
                             else:
                                 root_derivation_same_as_tree_root_counter += 1
                                 # for example for agent we have derivations found in Etym dict ['agentura', 'agenturni'] which are missing in Derinte
@@ -277,6 +287,86 @@ def update_lexicon(lexicon:dlex.Lexicon, file_added_derivations_direct:str, file
                     print(word,file=not_found)
             print("\nFinished processing lexicon")
 
+def invert_dictionary(original_dict: dict[str, list[str]]) -> dict[str, list[str]]:
+    """
+    Inverts a dictionary where keys are strings and values are lists of strings.
+    The resulting dictionary will have strings from the lists as keys, and values will be lists of all keys from the original
+    dictionary that had the string in their value list.
+
+    Args:
+        original_dict (dict[str, list[str]]): The original dictionary to be inverted.
+
+    Returns:
+        dict[str, list[str]]: The inverted dictionary.
+    """
+    inverted_dict = {}
+
+    for key, value_list in original_dict.items():
+        for value in value_list:
+            if value not in inverted_dict:
+                inverted_dict[value] = []
+            inverted_dict[value].append(key)
+    return inverted_dict
+
+def jaccard_similarity(word1, word2, n=2):
+    """
+    Calculate Jaccard similarity between two words based on character n-grams.
+
+    Args:
+        word1 (str): The first word.
+        word2 (str): The second word.
+        n (int): The length of the n-grams.
+
+    Returns:
+        float: Jaccard similarity index.
+    """
+    def ngrams(word, n):
+        return set(word[i:i+n] for i in range(len(word) - n + 1))
+
+    ngrams1 = ngrams(word1, n)
+    ngrams2 = ngrams(word2, n)
+
+    intersection = ngrams1.intersection(ngrams2)
+    union = ngrams1.union(ngrams2)
+
+    return len(intersection) / len(union)
+
+def check_derinet_inconsistencies(lexicon:dlex.Lexicon, inverted_etym_dict:dict[str, list[str]], filename_logging:str):
+    """Iterates through all trees and checks if in the same trees arent 2 nodes which have different root based on Etym Dict"""
+    inconsistencies = set()
+    with open(filename_logging, 'wt') as log:
+        for root in lexicon.iter_trees():
+            for node1 in root.iter_subtree():
+                parents1 = inverted_etym_dict.get(node1.lemma,[]) # for most cases this is list with one element
+                for node2 in root.iter_subtree(): # we check all pairs twice, could be done in some more effective way
+                    if jaccard_similarity(node1.lemma,node2.lemma) > 0.4: 
+                        continue # skip words that have "high" similarity
+                    parents2 = inverted_etym_dict.get(node2.lemma,[]) # for most cases this is list with one element
+                    if parents2 != [] and parents1 != []:
+                        have_common_parent = False
+                        for parent1 in parents1:
+                            for parent2 in parents2:
+                                if parent1 == parent2:
+                                    have_common_parent = True
+                                    break
+                                parent1_lexemes = lexicon.get_lexemes(parent1)
+                                parent2_lexemes = lexicon.get_lexemes(parent2)
+                                for lexeme1 in parent1_lexemes:
+                                    for lexeme2 in parent2_lexemes:
+                                        if lexeme1.get_tree_root() == lexeme2.get_tree_root():
+                                            have_common_parent = True
+                                            break
+                            if have_common_parent: 
+                                break
+
+                        if not have_common_parent:
+                            if node1 < node2:
+                                inconsistencies.add(f"Node1: {node1}, parents1 Etym {parents1}\tNode2: {node2}, parents2 Etym {parents2}\tRoot: {root}")
+                            else:
+                                inconsistencies.add(f"Node1: {node2}, parents1 Etym {parents2}\tNode2: {node1}, parents2 Etym {parents1}\tRoot: {root}")
+        for line in inconsistencies:
+            print(line,file=log)
+
 def main():
 
     time1 = time.time()
@@ -294,22 +384,34 @@ def main():
 
         dictionary_derivatios_only = extract_field(dictionary,'derivations')
         dictionary_normalized_derivations = normalize_words(get_dict_without_multiple_word_entries_and_derivations(dictionary_derivatios_only))
-    
+        
+
+        inverted_dictionary_derivations = invert_dictionary(dictionary_normalized_derivations)
+        save_normalized_dict_derivations(inverted_dictionary_derivations,"inverted_dict.tsv")
+
         dictionary_srov_only = extract_field(dictionary,'srov')
         dictionary_normalized_srov = normalize_words(get_dict_without_multiple_word_entries_and_derivations(dictionary_srov_only))
         
+        
+       
         save_normalized_dict_derivations(dictionary_normalized_derivations,"normalized_derivations.tsv", omit_empty=True)
+       
         save_normalized_dict_derivations(dictionary_normalized_srov,"normalized_srov.tsv", omit_empty=True)
 
     time2 = time.time()
     print("\nFirst section - Extract and Normalize dictionary - took:", time2 - time1,"s to complete")
-    #sys.exit()
+    
     lexicon = dlex.Lexicon()  # creating empty lexical network
     lexicon.load('derinet-2-1-1.tsv',on_err='continue')  # short notation of loading data (automatically loads data in dlex.Format.DERINET_V2)
 
 
     time3 = time.time()
     print("\nSecond section - Loading DeriNet - took:", time3 - time2,"s to complete")
+
+    check_derinet_inconsistencies(lexicon,invert_dictionary(dictionary_normalized_derivations),"inconsistences.tsv")
+
+    """
+
     if slim:
         update_lexicon_slim(lexicon,'normalized_derivations.tsv')
     else:
@@ -329,6 +431,7 @@ def main():
 
         # update lexicon with srov
         update_lexicon(lexicon,file_added_derivations_srov_direct,file_added_derivations_with_intermediates_srov,dictionary_normalized_srov)    
+    """
 
     time4 = time.time()
     print("\nThird section - Adding derivations - took:", time4 - time3,"s to complete")
