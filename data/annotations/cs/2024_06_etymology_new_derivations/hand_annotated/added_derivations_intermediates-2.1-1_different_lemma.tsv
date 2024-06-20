@@ -1,5 +1,5 @@
-what to do: YES=connect parent to grandparent; „lemma“=connect to this lemma instead of to the grandparent
-annotation 	grandparent	parent	derivation
+#what to do: YES=connect parent to grandparent; „lemma“=connect to this lemma instead of to the grandparent
+#annotation 	grandparent	parent	derivation
 YES & RECONNECT DERIVATION FROM PARENT TO GRANDPARENT	silvestr#NNI??-----A---?	Silvestrov#NNM??-----A---?	silvestrovský#AA???----??---?
 YES	administrace#NNF??-----A---?	administrativa#NNF??-----A---?	administrativní#AA???----1?---?
 YES & RECONNECT DERIVATION FROM PARENT TO GRANDPARENT	aktivní#AA???----??---?	aktiv#NNI??-----A---?	aktivovat#V????--??-??I??
