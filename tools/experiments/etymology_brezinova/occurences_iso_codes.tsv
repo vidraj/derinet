@@ -1,0 +1,946 @@
+['']	3843
+['lat']	1160
+['deu']	471
+['ell']	361
+['deu', 'lat']	336
+['lat', 'ell']	333
+['fra', 'lat']	277
+['eng']	230
+['deu', 'fra', 'lat']	189
+['fra']	146
+['deu', 'lat', 'ell']	127
+['ita', 'lat']	117
+['deu', 'fra']	68
+['eng', 'lat']	59
+['deu', 'ita', 'lat']	58
+['rus']	54
+['fra', 'ell']	52
+['gmh']	50
+['ita']	44
+['deu', 'eng']	41
+['pol']	41
+['eng', 'fra', 'lat']	37
+['fra', 'fro', 'lat']	37
+['eng', 'fro', 'lat']	37
+['deu', 'ell']	35
+['deu', 'fra', 'ita', 'lat']	33
+['fra', 'lat', 'ell']	29
+['eng', 'deu']	28
+['lat', 'deu']	27
+['fra', 'ita', 'lat']	26
+['spa']	26
+['deu', 'fra', 'fro', 'lat']	23
+['deu', 'ita']	23
+['deu', 'fra', 'ell']	22
+['hun']	22
+['gmh', 'lat']	21
+['deu', 'ine']	21
+['deu', 'fra', 'lat', 'ell']	19
+['eng', 'ell']	17
+['spa', 'lat']	17
+['ell', 'lat']	16
+['hsb']	15
+['lat', 'ine']	14
+['gmh', 'lat', 'ell']	13
+['lit']	13
+['deu', 'eng', 'lat']	13
+['fra', 'eng', 'lat']	13
+['deu', 'fra', 'ita']	12
+['fra', 'ita']	12
+['deu', 'goh']	12
+['ara']	11
+['deu', 'gmh']	11
+['deu', 'fro', 'lat']	11
+['lat', 'ell', 'heb']	10
+['por']	10
+['jpn']	10
+['gmh', 'deu']	10
+['fra', 'gem']	9
+['ita', 'lat', 'ell']	9
+['fra', 'deu', 'lat']	9
+['eng', 'fra']	8
+['lat', 'fra']	8
+['pol', 'deu']	8
+['fra', 'fro']	7
+['heb']	7
+['slk']	7
+['fra', 'deu']	7
+['lat', 'eng']	7
+['deu', 'ita', 'lat', 'ell']	7
+['deu', 'goh', 'lat']	7
+['deu', 'eng', 'fra', 'lat']	7
+['deu', 'nld']	7
+['ell', 'lat', 'deu', 'ine']	6
+['eng', 'fro']	6
+['deu', 'eng', 'fra']	6
+['deu', 'eng', 'ine']	6
+['eng', 'lat', 'ell']	6
+['lat', 'deu', 'ell']	6
+['deu', 'heb']	6
+['fra', 'ara']	5
+['deu', 'ara']	5
+['goh', 'lat', 'ell']	5
+['deu', 'fra', 'ita', 'lat', 'ell']	5
+['gmh', 'eng']	5
+['tur', 'ara']	5
+['deu', 'gem']	5
+['fra', 'eng', 'ell']	5
+['eng', 'ang']	5
+['gmh', 'ine']	5
+['eng', 'spa']	5
+['dsb ', ' hsb']	5
+['deu', 'fra', 'fro']	4
+['lat', 'ell', 'ine']	4
+['fra', 'ita', 'lat', 'ell']	4
+['fra', 'gem', 'deu']	4
+['deu', 'fra', 'spa']	4
+['ita', 'gem', 'deu']	4
+['deu', 'lat', 'gem']	4
+['lat', 'deu', 'eng']	4
+['fra', 'spa', 'lat']	4
+['deu', 'spa', 'lat']	4
+['fra', 'eng']	4
+['ita', 'deu']	4
+['deu', 'fra', 'frk']	4
+['ita', 'ell']	4
+['tur']	4
+['deu', 'dum']	4
+['ita', 'gem']	4
+['deu', 'fra', 'frm', 'lat']	4
+['goh', 'lat']	4
+['deu', 'lat', 'ine']	4
+['deu', 'eng', 'ell']	4
+['ine', 'goh', 'deu', 'hye']	4
+['hsb', 'lit', 'got', 'sga', 'lat', 'ell', 'ine', 'eng', 'deu']	4
+['rus', 'chu']	4
+['lat', 'heb']	3
+['deu', 'fra', 'spa', 'ara']	3
+['eng', 'lat', 'deu']	3
+['deu', 'fra', 'gem', 'nld']	3
+['nld']	3
+['mon']	3
+['deu', 'fra', 'fro', 'gem']	3
+['rus', 'tat']	3
+['deu', 'lat', 'ara']	3
+['fra', 'lat', 'eng']	3
+['lav']	3
+['mkd', 'pol', 'lit', 'deu', 'ine']	3
+['tur', 'pes']	3
+['deu', 'lat', 'eng']	3
+['deu', 'ell', 'lat']	3
+['eng', 'gem']	3
+['eng', 'jpn']	3
+['eng', 'deu', 'lat', 'ell']	3
+['fra', 'deu', 'fro', 'lat']	3
+['ita', 'deu', 'lat']	3
+['ell', 'deu', 'lat']	3
+['goh']	3
+['lat', 'ell', 'deu']	3
+['ell', 'eng', 'lat']	3
+['ell', 'fra']	3
+['ita', 'ara']	3
+['fra', 'spa']	3
+['hsb', 'dsb']	3
+['deu', 'fra', 'spa', 'lat']	3
+['eng', 'fra', 'fro', 'lat']	3
+['hsb', 'ine']	3
+['rus', 'ell']	3
+['deu', 'goh', 'eng']	3
+['mkd']	3
+['lat', 'ell', 'pes']	3
+['deu', 'fra', 'eng', 'lat']	3
+['deu', 'fra', 'frm', 'fro', 'lat']	3
+['srp', 'ine']	3
+['deu', 'fra', 'lat', 'ine']	3
+['deu', 'fra', 'eng', 'ell']	3
+['lat', 'ell', 'arc']	2
+['fro']	2
+['ell', 'heb']	2
+['lat', 'ara']	2
+['lat', 'ell', 'ara']	2
+['eng', 'spa', 'lat']	2
+['lat', 'ara', 'ell']	2
+['lat', 'ell', 'fra']	2
+['deu', 'nld', 'eng', 'fra', 'spa']	2
+['fra', 'eng', 'lat', 'ell']	2
+['deu', 'ita', 'ara']	2
+['fra', 'gem', 'eng']	2
+['por', 'lat']	2
+['fra', 'lat', 'ara']	2
+['slk', 'chu', 'deu', 'hun']	2
+['lat', 'fro']	2
+['rus', 'tur']	2
+['fra', 'lat', 'fro']	2
+['deu', 'fra', 'ita', 'gem']	2
+['ita', 'gem', 'deu', 'fro']	2
+['eng', 'spa', 'lat', 'ell']	2
+['deu', 'fra', 'fro', 'lat', 'gem']	2
+['dsb ', ' hsb', 'chu']	2
+['lat', 'spa', 'cat', 'ara']	2
+['fra', 'ita', 'deu']	2
+['lat', 'ell', 'chu', 'lav', 'ine', 'ave']	2
+['lat', 'gem', 'deu']	2
+['deu', 'dum', 'fro']	2
+['hun', 'tat']	2
+['dsb ', ' hsb', 'deu']	2
+['deu', 'ita', 'pes']	2
+['ron']	2
+['rus', 'orv']	2
+['gmh', 'goh']	2
+['hun', 'lat']	2
+['hun', 'tur']	2
+['fra', 'eng', 'gem']	2
+['ell', 'ine']	2
+['lat', 'ell', 'eng']	2
+['eng', 'fra', 'ell']	2
+['lat', 'fra', 'deu']	2
+['pol', 'chu', 'lit', 'lat', 'ell', 'ine']	2
+['eng', 'fra', 'lat', 'ara']	2
+['ell', 'deu']	2
+['deu', 'fra', 'dum']	2
+['gmh', 'fro', 'lat']	2
+['fra', 'spa', 'ara']	2
+['lat', 'deu', 'ita']	2
+['lit', 'deu']	2
+['deu', 'fra', 'ell', 'lat']	2
+['gem']	2
+['eng', 'fro', 'gem', 'lat']	2
+['lat', 'ell', 'egy']	2
+['deu', 'chu', 'eng', 'isl', 'got', 'lat', 'ell', 'ine']	2
+['eng', 'ine']	2
+['gmh', 'fro']	2
+['dsb', 'lit', 'lav']	2
+['gmh', 'lat', 'ine']	2
+['ang', 'deu']	2
+['deu', 'eng', 'lat', 'ine']	2
+['eng', 'fro', 'lat', 'ell']	2
+['deu', 'gmh', 'goh']	2
+['hsb', 'chu', 'lat', 'ine']	2
+['deu', 'fra', 'gmh', 'fro', 'spa', 'pes']	2
+['gmh', 'fro', 'eng', 'gem']	2
+['ell', 'deu', 'fra']	2
+['ell', 'lat', 'deu', 'eng']	2
+['hsb', 'ell']	2
+['eng', 'ang', 'deu']	2
+['eng', 'nld']	2
+['hsb', 'chu', 'ell', 'ine']	2
+['ine']	2
+['rus', 'tat', 'tur']	2
+['ukr']	2
+['deu', 'ita', 'fro', 'frk']	2
+['spa', 'lat', 'ell']	2
+['hsb', 'lat']	2
+['eng', 'zho']	2
+['fro', 'lat']	2
+['gmh', 'goh', 'lat']	2
+['deu', 'gml']	2
+['rus', 'lat']	2
+['deu', 'gmh', 'fro', 'lat']	2
+['pol', 'goh', 'lat']	2
+['lav', 'got', 'gmh', 'ine', 'chu']	2
+['deu', 'spa']	2
+['gmh', 'deu', 'eng']	2
+['hsb', 'chu', 'lat']	2
+['fra', 'nld']	2
+['deu', 'fra', 'fro', 'gem', 'frk']	2
+['deu', 'lat', 'ell', 'ine']	2
+['deu', 'fra', 'gem']	2
+['pes']	2
+['ell', 'eng']	2
+['deu', 'fra', 'ita', 'ell']	2
+['hsb', 'lat', 'ell', 'ine', 'lav', 'goh', 'eng']	2
+['deu', 'frm', 'lat']	2
+['deu', 'lat', 'ell', 'pes']	2
+['hsb', 'chu', 'got', 'eng', 'isl', 'ang', 'osc', 'ine']	2
+['swe']	2
+['deu', 'ita', 'ell']	2
+['deu', 'gmh', 'lat', 'fra']	2
+['deu', 'gmh', 'lat', 'ell']	2
+['deu', 'fro']	2
+['ell', 'lat', 'deu', 'fra']	2
+['eng', 'gla']	2
+['deu', 'fra', 'eng']	2
+['hsb', 'lit', 'got', 'sga', 'lat', 'ell', 'ine', 'eng', 'deu', 'chu']	2
+['deu', 'gem', 'ine']	2
+['deu', 'ita', 'gem', 'fra']	2
+['deu', 'fra', 'lat', 'gem']	2
+['deu', 'fra', 'ara']	2
+['deu', 'eng', 'fro']	2
+['deu', 'gmh', 'fro']	2
+['pol', 'lit']	2
+['dsb ', ' hsb', 'chu', 'gem', 'got', 'isl', 'ofs', 'deu', 'ine']	2
+['pol', 'ine']	2
+['deu', 'gmh', 'ine']	2
+['gmh', 'ine', 'deu']	2
+['deu', 'ita', 'gem']	2
+['deu', 'fro', 'frk']	2
+['dan', 'lat']	2
+['deu', 'goh', 'ita']	2
+['deu', 'ita', 'lat', 'osc']	2
+['deu', 'fra', 'lat', 'fro', 'ell']	2
+['chu', 'lit', 'ine', 'ell']	2
+['gem', 'eng', 'goh', 'gmh', 'deu', 'nld']	2
+['pol', 'lat']	2
+['deu', 'eng', 'goh', 'ang']	2
+['eng', 'gle', 'lat']	2
+['hsb', 'chu', 'lit', 'lav', 'ang', 'goh', 'deu', 'ine', 'sga']	2
+['got', 'eng', 'deu', 'ine']	2
+['deu', 'lat', 'fra', 'ara']	1
+['deu', 'goh', 'ine']	1
+['fra', 'deu', 'eng', 'ang', 'lat', 'ell']	1
+['lat', 'ita']	1
+['eng', 'spa', 'por', 'lat', 'ara']	1
+['spa', 'por', 'lat']	1
+['lat', 'spa', 'ara', 'ell']	1
+['nor', 'lat', 'ara']	1
+['lat', 'ell', 'spa']	1
+['fra', 'lat', 'got', 'goh']	1
+['por', 'ara', 'pes']	1
+['nld', 'deu', 'fra', 'lat']	1
+['nld', 'lat']	1
+['ita', 'spa', 'ara']	1
+['lat', 'ell', 'xmn']	1
+['ell', 'lat', 'deu', 'ine', 'fra']	1
+['fra', 'ita', 'gem', 'eng']	1
+['ukr', 'tur']	1
+['lit', 'lat', 'chu', 'ine', 'prg', 'ell']	1
+['lat', 'ell', 'tur']	1
+['hun', 'ron']	1
+['pol', 'lit', 'lat', 'ell', 'ine']	1
+['fra', 'pes']	1
+['deu', 'dan']	1
+['lat', 'fro', 'eng', 'gem']	1
+['hun', 'fra']	1
+['deu', 'ang', 'eng', 'ine']	1
+['deu', 'goh', 'eng', 'lat', 'fro']	1
+['tur', 'ara', 'pes']	1
+['deu', 'fra', 'fro', 'lat', 'ell']	1
+['deu', 'nld', 'swe']	1
+['deu', 'fra', 'ita', 'gem', 'lng']	1
+['lat', 'ell', 'heb', 'ara']	1
+['dsb']	1
+['deu', 'nld', 'zlm', 'slk', 'chu', 'lat', 'ell', 'ita']	1
+['deu', 'spa', 'por', 'ara']	1
+['deu', 'fra', 'gem', 'got']	1
+['ita', 'gem', 'eng']	1
+['eng', 'fro', 'sga', 'bre']	1
+['deu', 'fra', 'spa', 'chu', 'lit']	1
+['deu', 'fra', 'fro', 'ita']	1
+['fra', 'por', 'ita', 'ell', 'eng']	1
+['deu', 'fro', 'lat', 'gem', 'fra']	1
+['fra', 'fro', 'lat', 'eng']	1
+['nld', 'zlm']	1
+['deu', 'pes']	1
+['pol', 'hsb', 'lit', 'lat', 'ell']	1
+['fra', 'dum']	1
+['hsb', 'sqi', 'eus']	1
+['fra', 'ang', 'fro', 'eng']	1
+['fra', 'lat', 'sga']	1
+['lat', 'mga', 'wlm']	1
+['deu', 'lat', 'heb']	1
+['eng', 'lat', 'ell', 'gem', 'goh', 'deu']	1
+['deu', 'lat', 'gem', 'ita']	1
+['fra', 'nld', 'deu']	1
+['eng', 'deu', 'nld']	1
+['deu', 'fra', 'nld']	1
+['fra', 'lat', 'gem', 'ine']	1
+['gml', 'lat', 'ell', 'deu', 'fra', 'egy']	1
+['rus', 'lit', 'deu']	1
+['rus', 'mon', 'tat', 'pes']	1
+['deu', 'eng', 'lat', 'ell', 'xmn', 'fra']	1
+['deu', 'fra', 'por', 'jpn']	1
+['deu', 'lat', 'ara', 'pes', 'fro', 'gem']	1
+['eng', 'nld', 'gmh']	1
+['dsb ', ' hsb', 'deu', 'isl', 'swe']	1
+['eng', 'ang', 'fra']	1
+['eng', 'dan']	1
+['eng', 'nld', 'ell', 'ine']	1
+['deu', 'fra', 'ita', 'rus', 'eng']	1
+['ita', 'dum', 'eng', 'deu']	1
+['deu', 'ita', 'glg']	1
+['ita', 'glg']	1
+['pol', 'ita', 'lat']	1
+['hsb', 'sga', 'cym', 'lat']	1
+['fra', 'ita', 'fro', 'lat']	1
+['pol', 'lit', 'lat']	1
+['fra', 'dum', 'deu']	1
+['deu', 'fra', 'ara', 'ell', 'lat']	1
+['lat', 'eng', 'ell', 'nld']	1
+['eng', 'swe']	1
+['srp', 'chu', 'lat', 'got']	1
+['ita', 'lat', 'ara']	1
+['deu', 'dsb ', ' hsb']	1
+['gmh', 'ita', 'ara', 'fra', 'eng', 'ell', 'deu', 'lat']	1
+['gmh', 'ita', 'ara', 'fra', 'eng', 'ell']	1
+['hun', 'tur', 'gem', 'deu']	1
+['deu', 'heb', 'rus', 'tat', 'mon', 'eng', 'fra', 'zho']	1
+['hun', 'gmh', 'fra', 'pol', 'spa', 'eus']	1
+['gmh', 'fro', 'fra', 'lat']	1
+['dsb ', ' hsb', 'ine']	1
+['dsb', 'deu', 'ine']	1
+['spa', 'lat', 'ita']	1
+['ita', 'spa']	1
+['hun', 'ron', 'ell', 'tur']	1
+['fra', 'spa', 'gem']	1
+['eng', 'fra', 'ita', 'spa', 'ara']	1
+['fra', 'eng', 'deu']	1
+['deu', 'fro', 'lat', 'ell', 'eng']	1
+['lat', 'fra', 'ita']	1
+['lat', 'fra', 'ell']	1
+['eng', 'spa', 'fra']	1
+['fra', 'tur', 'pes']	1
+['bre']	1
+['fra', 'eng', 'ang']	1
+['deu', 'fra', 'gml', 'dum', 'ara']	1
+['hsb', 'prg', 'swe']	1
+['hsb', 'lit']	1
+['rus', 'got']	1
+['tur', 'lat', 'ell']	1
+['eng', 'heb']	1
+['fra', 'enm', 'eng']	1
+['fra', 'frm', 'fro', 'lat']	1
+['fra', 'spa', 'ita', 'lat']	1
+['gmh', 'fra', 'lat']	1
+['fra', 'ita', 'lng', 'deu', 'eng']	1
+['fra', 'fro', 'dum', 'deu']	1
+['lat', 'ell', 'deu', 'fra']	1
+['deu', 'lat', 'ine', 'eng']	1
+['fra', 'fro', 'ell']	1
+['deu', 'lat', 'ell', 'heb', 'egy']	1
+['fra', 'por', 'lat']	1
+['nor', 'deu', 'eng', 'lat']	1
+['deu', 'eng', 'cym']	1
+['deu', 'gml', 'lat']	1
+['deu', 'nld', 'fra']	1
+['deu', 'spa', 'fro', 'gem']	1
+['lat', 'por', 'ara', 'pes']	1
+['fra', 'fro', 'frk']	1
+['deu', 'eng', 'fro', 'gem', 'lat']	1
+['ita', 'gem', 'deu', 'fra', 'lat']	1
+['ron', 'hun', 'sqi']	1
+['deu', 'lat', 'gmh']	1
+['ell', 'deu', 'fra', 'spa']	1
+['deu', 'sga', 'bre']	1
+['deu', 'fra', 'spa', 'fro']	1
+['deu', 'spa', 'fro']	1
+['spa', 'ita']	1
+['fra', 'fro', 'gem', 'deu']	1
+['fra', 'spa', 'ara', 'pes']	1
+['fra', 'spa', 'ara', 'fro', 'eng', 'gem']	1
+['isl', 'deu']	1
+['spa', 'gem', 'eng']	1
+['ita', 'heb']	1
+['fra', 'ita', 'gem', 'eng', 'goh']	1
+['fra', 'heb']	1
+['eng', 'deu', 'nld', 'ita', 'lat', 'ell']	1
+['hun', 'ell']	1
+['lat', 'gem', 'ita', 'fra', 'eng']	1
+['ell', 'ita']	1
+['deu', 'fra', 'gem', 'goh', 'ang']	1
+['eng', 'enm', 'fra']	1
+['deu', 'fra', 'ita', 'gem', 'ang']	1
+['fra', 'fro', 'eng']	1
+['hun', 'tur', 'ron', 'deu']	1
+['deu', 'eng', 'fra', 'gem', 'lat', 'ine']	1
+['eng', 'gmh']	1
+['deu', 'fra', 'ita', 'fro', 'enm']	1
+['deu', 'eng', 'dum', 'frm', 'gem']	1
+['fra', 'eng', 'gem', 'ara']	1
+['ara', 'gmh']	1
+['deu', 'fra', 'ita', 'ara', 'eng']	1
+['fra', 'ell', 'chu', 'ine', 'lit', 'got', 'deu', 'sga', 'bre', 'lat', 'ave']	1
+['fra', 'ara', 'lat', 'ell']	1
+['deu', 'goh', 'lit', 'ine']	1
+['ell', 'egy']	1
+['deu', 'lat', 'ell', 'chu', 'gem', 'eng', 'prg', 'ine']	1
+['deu', 'tat']	1
+['pol', 'chu']	1
+['hsb', 'deu', 'fra', 'hun']	1
+['hsb', 'chu', 'lav', 'deu', 'eng', 'sga', 'lat', 'ell', 'hye', 'ine']	1
+['hsb', 'dsb', 'chu', 'lit', 'goh', 'lat', 'spa', 'ita', 'ine']	1
+['dsb ', ' hsb', 'lit', 'goh', 'ine', 'osx', 'eng']	1
+['pol', 'chu', 'lat', 'deu', 'eng']	1
+['lit', 'lat']	1
+['deu', 'fra', 'lat', 'pol', 'chu', 'eng']	1
+['deu', 'isl', 'ell']	1
+['pes', 'ara']	1
+['hsb', 'pol', 'gmh', 'ine']	1
+['ell', 'lat', 'deu', 'eng', 'ita']	1
+['hsb', 'ell', 'gem']	1
+['deu', 'lat', 'ell', 'fra']	1
+['lat', 'eng', 'fra']	1
+['deu', 'ita', 'spa']	1
+['ell', 'lat', 'por', 'ara', 'pes']	1
+['hsb', 'chu', 'isl', 'deu', 'eng', 'gem', 'lat', 'lit', 'ine']	1
+['pol', 'chu', 'lit']	1
+['rus', 'chu', 'lav', 'isl', 'deu', 'eng', 'mga', 'ine']	1
+['dsb', 'chu', 'goh', 'ine', 'hit']	1
+['pol', 'sqi']	1
+['rus', 'eng', 'gle']	1
+['hsb', 'eng', 'gml', 'nld', 'ine']	1
+['dsb ', ' hsb', 'goh', 'deu', 'eng', 'ine', 'gem']	1
+['ell', 'lat', 'spa', 'ita']	1
+['ita', 'ara', 'lat']	1
+['lat', 'ita', 'eng']	1
+['ell', 'deu', 'fra', 'fro', 'lat', 'gem']	1
+['rus', 'lit', 'hun']	1
+['deu', 'spa', 'pes']	1
+['hsb', 'dsb', 'chu', 'lit', 'lat', 'ine']	1
+['pol', 'chu', 'goh', 'eng', 'lat', 'cym', 'ine']	1
+['jpn', 'zho']	1
+['hsb', 'dsb', 'dsb ', ' hsb']	1
+['deu', 'gml', 'nor']	1
+['deu', 'rus', 'tat']	1
+['fra', 'eng', 'fro', 'lat']	1
+['lat', 'chu', 'gle']	1
+['ron', 'tat']	1
+['fra', 'dum', 'lat', 'deu']	1
+['pes', 'ara', 'deu', 'dum', 'fra', 'lat']	1
+['deu', 'fra', 'eng', 'frm', 'lat']	1
+['deu', 'fra', 'hye', 'tur', 'ara']	1
+['ara', 'pes']	1
+['deu', 'goh', 'lat', 'ell']	1
+['deu', 'fra', 'ita', 'lat', 'ara', 'ell']	1
+['pol', 'chu', 'ine']	1
+['fra', 'deu', 'spa', 'lat']	1
+['fin', 'fra', 'fro', 'ara']	1
+['fra', 'ita', 'lat', 'deu', 'ell']	1
+['fra', 'eng', 'spa']	1
+['fra', 'zho']	1
+['lat', 'eng', 'ita']	1
+['bul', 'tur']	1
+['deu', 'goh', 'gem']	1
+['tur', 'hun']	1
+['fra', 'spa', 'por']	1
+['deu', 'fra', 'ita', 'ara', 'ell']	1
+['ita', 'pes']	1
+['ita', 'spa', 'lat', 'ell']	1
+['deu', 'fra', 'lat', 'ara']	1
+['deu', 'nld', 'ara', 'eng']	1
+['ita', 'lat', 'fra']	1
+['deu', 'fra', 'por', 'lat']	1
+['hun', 'cat', 'lat', 'ell']	1
+['deu', 'fra', 'ita', 'tur']	1
+['deu', 'fra', 'pes', 'chu', 'ave', 'ine']	1
+['bul', 'oss']	1
+['dan', 'eng']	1
+['eng', 'fra', 'por']	1
+['eng', 'pes']	1
+['deu', 'fra', 'ita', 'tur', 'pes']	1
+['eng', 'isl', 'dan', 'lat']	1
+['dsb', 'lit']	1
+['lat', 'ell', 'sem', 'heb']	1
+['pol', 'hsb']	1
+['rus', 'isl']	1
+['hsb', 'lit', 'deu', 'eng', 'sga', 'lat']	1
+['pol', 'ron']	1
+['pol', 'tat']	1
+['gmh', 'lat', 'eng']	1
+['deu', 'nld', 'dum', 'lat']	1
+['deu', 'por', 'fra', 'lat']	1
+['pol', 'chu', 'slk', 'eng']	1
+['hun', 'ron', 'ell']	1
+['lat', 'goh', 'ell']	1
+['deu', 'fra', 'eng', 'fro', 'lat']	1
+['tat']	1
+['lat', 'deu', 'eng', 'ell']	1
+['pes', 'hun']	1
+['rus', 'chu', 'ell', 'ine']	1
+['fra', 'lat', 'fro', 'gem']	1
+['deu', 'fra', 'lat', 'dum']	1
+['hsb', 'deu', 'ell']	1
+['gml']	1
+['ukr', 'tat']	1
+['deu', 'ell', 'lat', 'ine']	1
+['deu', 'lat', 'fra', 'ell']	1
+['lat', 'deu', 'eng', 'ine']	1
+['fra', 'spa', 'por', 'lat']	1
+['eng', 'fro', 'nld', 'ang']	1
+['eng', 'fro', 'gem']	1
+['lat', 'ell', 'ara', 'heb']	1
+['dsb', 'chu', 'ine']	1
+['gmh', 'eng', 'lat']	1
+['deu', 'lat', 'gem', 'eng', 'por']	1
+['pol', 'chu', 'ine', 'lav', 'gem', 'eng']	1
+['deu', 'ita', 'lat', 'ell', 'pol', 'chu', 'ine', 'lav', 'gem', 'eng']	1
+['hsb', 'prg', 'deu', 'isl', 'sga', 'bre', 'ine']	1
+['eng', 'enm', 'ang']	1
+['deu', 'ita', 'ara', 'pes']	1
+['deu', 'spa', 'por', 'lat']	1
+['deu', 'gml', 'dum', 'frm', 'nld']	1
+['hun', 'chu', 'lit', 'lav', 'prg']	1
+['dsb ', ' hsb', 'chu', 'deu', 'isl', 'lat', 'ine']	1
+['ron', 'lat']	1
+['deu', 'gmh', 'eng', 'sga', 'ell']	1
+['goh', 'gmh', 'lat']	1
+['deu', 'fra', 'ara', 'pes']	1
+['deu', 'fra', 'ita', 'ara', 'pes']	1
+['dsb ', ' hsb', 'chu', 'lit', 'lav', 'gle', 'lat', 'ell', 'hye', 'ine']	1
+['gmh', 'gem']	1
+['eng', 'lat', 'gem']	1
+['deu', 'fra', 'spa', 'tur']	1
+['fra', 'frk']	1
+['rus', 'lit', 'lav', 'deu', 'isl', 'oss', 'ine']	1
+['gmh', 'goh', 'deu', 'eng']	1
+['ine', 'lit', 'ell']	1
+['heb', 'deu', 'ita', 'dsb']	1
+['lat', 'ell', 'peo']	1
+['deu', 'ita', 'ara', 'eng']	1
+['deu', 'got', 'ine']	1
+['ell', 'deu', 'lat', 'fra', 'eng']	1
+['deu', 'goh', 'got', 'ine']	1
+['lit', 'lav', 'ell']	1
+['deu', 'lat', 'ell', 'arc']	1
+['deu', 'rus']	1
+['deu', 'lat', 'ell', 'heb', 'arc']	1
+['eng', 'ita', 'fro']	1
+['deu', 'por', 'lat']	1
+['deu', 'por', 'lat', 'ell']	1
+['fra', 'frm', 'lat']	1
+['deu', 'gml', 'dum', 'frm', 'fro', 'gem', 'eng']	1
+['deu', 'ita', 'lat', 'ara']	1
+['deu', 'fra', 'por', 'lat', 'ell']	1
+['deu', 'fra', 'ara', 'lat', 'ell']	1
+['deu', 'fra', 'ita', 'ara']	1
+['nld', 'dum', 'deu']	1
+['rus', 'tat', 'ara']	1
+['ita', 'fra']	1
+['deu', 'gml', 'dum', 'fra', 'ita', 'lat', 'ell']	1
+['fra', 'bre']	1
+['lat', 'dsb ', ' hsb', 'deu', 'ita']	1
+['lat', 'arc']	1
+['deu', 'spa', 'ita', 'ara']	1
+['deu', 'fra', 'fro', 'sga', 'cym']	1
+['deu', 'fra', 'tur', 'ara']	1
+['hun', 'deu']	1
+['lat', 'chu', 'lit', 'lav', 'deu', 'eng', 'ell', 'ine']	1
+['sga']	1
+['hsb', 'lit', 'goh', 'eng', 'ell', 'ine', 'hun']	1
+['goh', 'lat', 'ell', 'fra', 'dum']	1
+['eng', 'ara']	1
+['deu', 'eng', 'ita', 'por', 'ara']	1
+['eng', 'enm', 'lat']	1
+['pol', 'ave']	1
+['hsb', 'goh']	1
+['ita', 'fra', 'lat']	1
+['lat', 'deu', 'ell', 'ine']	1
+['rus', 'fra', 'eng', 'hsb']	1
+['deu', 'ita', 'lat', 'pes']	1
+['hsb', 'deu']	1
+['deu', 'fra', 'frm', 'spa']	1
+['deu', 'gmh', 'fra', 'lat', 'ell', 'pes', 'ita']	1
+['dsb', 'lit', 'lav', 'mga', 'ell', 'hye', 'ave', 'ine']	1
+['gem', 'dan', 'lat']	1
+['hsb', 'chu', 'got', 'deu', 'ell', 'ave', 'ine']	1
+['deu', 'prg']	1
+['deu', 'swe', 'dan', 'eng']	1
+['lat', 'fra', 'ara', 'egy']	1
+['hsb', 'gem', 'goh', 'deu', 'got']	1
+['deu', 'fra', 'spa', 'por', 'lat']	1
+['rus', 'lav', 'ine']	1
+['got', 'ang']	1
+['ell', 'lat', 'deu']	1
+['deu', 'swe']	1
+['ita', 'lat', 'deu', 'ell']	1
+['hsb', 'prg', 'got', 'deu', 'eng', 'ine', 'gem']	1
+['deu', 'lat', 'ell', 'egy']	1
+['hsb', 'got', 'ell']	1
+['hsb', 'ita', 'lat']	1
+['ell', 'tur']	1
+['hun', 'kir', 'oss', 'sqi', 'tur', 'eus']	1
+['hsb', 'ell', 'hit', 'fin', 'ine']	1
+['hsb', 'ine', 'lat']	1
+['ell', 'fra', 'lat']	1
+['slk', 'hun']	1
+['goh', 'bar', 'deu', 'lat', 'ell', 'arc']	1
+['zlm']	1
+['deu', 'fra', 'ita', 'ara', 'pes', 'spa']	1
+['fra', 'deu', 'lat', 'ell']	1
+['deu', 'nld', 'spa']	1
+['pol', 'gmh', 'eng']	1
+['fra', 'ara', 'tur', 'ell']	1
+['gmh', 'lat', 'ine', 'fra']	1
+['deu', 'fra', 'por']	1
+['deu', 'heb', 'hsb', 'chu']	1
+['lat', 'deu', 'ine']	1
+['hun', 'ron', 'lat']	1
+['hun', 'slk']	1
+['fra', 'ita', 'deu', 'lat']	1
+['spa', 'deu', 'ita', 'lat', 'hun']	1
+['deu', 'gml', 'fro', 'lat', 'eng']	1
+['rus', 'tat', 'aze']	1
+['hun', 'tur', 'pes']	1
+['lat', 'ell', 'rus', 'fra']	1
+['fra', 'deu', 'lat', 'spa']	1
+['fra', 'deu', 'fro', 'lat', 'eng']	1
+['eng', 'enm', 'fro', 'lat']	1
+['ita', 'fra', 'deu']	1
+['deu', 'frm', 'fro', 'lat']	1
+['deu', 'nld', 'spa', 'lat']	1
+['deu', 'dum', 'fra']	1
+['lat', 'deu', 'eng', 'sga', 'ell', 'ine']	1
+['deu', 'nld', 'fra', 'frm']	1
+['dsb ', ' hsb', 'lav', 'ine', 'sga', 'hsb', 'lit', 'ave']	1
+['lat', 'gem', 'goh', 'ang', 'deu']	1
+['goh', 'ell', 'ine']	1
+['deu', 'gmh', 'gml', 'lat']	1
+['lat', 'goh', 'gmh', 'ell', 'ine']	1
+['deu', 'ita', 'ell', 'bre', 'hun']	1
+['fra', 'fro', 'lat', 'ell']	1
+['lat', 'deu', 'fra', 'ell']	1
+['lav', 'deu', 'eng', 'ita']	1
+['fra', 'ita', 'lat', 'gem']	1
+['tur', 'pes', 'fra', 'ita', 'lat', 'deu']	1
+['deu', 'ita', 'fro', 'lat', 'ell']	1
+['fra', 'frm', 'glg']	1
+['fra', 'lit', 'lat', 'ine']	1
+['ita', 'lng', 'goh', 'deu', 'eng']	1
+['goh', 'lat', 'heb']	1
+['deu', 'fro', 'lat', 'ell']	1
+['mkd', 'ine', 'isl', 'got', 'lat']	1
+['deu', 'dum', 'frm']	1
+['deu', 'spa', 'lat', 'nld']	1
+['deu', 'chu', 'lit']	1
+['deu', 'hsb']	1
+['dsb', 'chu', 'lit', 'eng', 'lat', 'ell', 'ine']	1
+['ell', 'lit', 'deu', 'eng', 'hye', 'ine']	1
+['pol', 'rus']	1
+['slk', 'hun', 'goh', 'deu', 'lat', 'ell']	1
+['srp']	1
+['lat', 'ita', 'deu', 'ara', 'pes']	1
+['lat', 'fra', 'deu', 'ell']	1
+['eng', 'ita', 'fra']	1
+['rus', 'fra', 'lat']	1
+['ita', 'fra', 'deu', 'lat']	1
+['deu', 'dum', 'nld', 'fra', 'eng']	1
+['hun', 'ita', 'lat']	1
+['chu', 'ell']	1
+['deu', 'eng', 'fra', 'fro', 'lat']	1
+['deu', 'ita', 'lat', 'ine']	1
+['hun', 'deu', 'ita']	1
+['deu', 'lat', 'fra', 'ita']	1
+['deu', 'dum', 'fra', 'fro', 'lat']	1
+['deu', 'ell', 'ine']	1
+['lat', 'ell', 'chu', 'ine', 'ang', 'deu', 'eng', 'got']	1
+['lat', 'ell', 'chu', 'lit', 'ine']	1
+['hsb', 'lit', 'got', 'sga', 'lat', 'ell', 'ine', 'eng', 'deu', 'chu', 'lav', 'goh', 'ang', 'hit']	1
+['lat', 'chu']	1
+['hsb', 'lit', 'got', 'sga', 'lat', 'ell', 'ine', 'eng', 'deu', 'chu', 'sqi']	1
+['deu', 'fro', 'ita', 'lat']	1
+['hsb', 'chu', 'lit', 'lav', 'deu', 'ine']	1
+['hsb', 'lit', 'got', 'sga', 'lat', 'ell', 'ine', 'eng', 'deu', 'chu', 'gem', 'isl']	1
+['deu', 'gml', 'dum', 'enm']	1
+['fra', 'spa', 'lat', 'ell']	1
+['rus', 'ine']	1
+['gmh', 'eng', 'ine']	1
+['deu', 'eng', 'chu', 'slk', 'got', 'sga', 'ell', 'hye', 'ine']	1
+['slv', 'hun', 'sqi']	1
+['deu', 'fra', 'ita', 'ara', 'chu', 'lat', 'gem']	1
+['eng', 'spa', 'fra', 'gem', 'frk']	1
+['deu', 'chu', 'ine', 'ell']	1
+['deu', 'fra', 'ita', 'lat', 'ara']	1
+['eng', 'zlm']	1
+['deu', 'gem', 'nld', 'fra', 'ita', 'spa', 'por']	1
+['deu', 'lat', 'ita', 'eng']	1
+['deu', 'ita', 'gem', 'lat']	1
+['deu', 'nld', 'eng', 'ine']	1
+['gmh', 'goh', 'fro']	1
+['deu', 'lat', 'dsb ', ' hsb']	1
+['deu', 'gmh', 'eng']	1
+['hsb', 'chu', 'ine', 'ell']	1
+['lat', 'ell', 'ine', 'deu']	1
+['rus', 'tur', 'pes']	1
+['deu', 'lat', 'ita', 'eng', 'fra']	1
+['deu', 'fra', 'lat', 'eng']	1
+['swe', 'eng']	1
+['fra', 'dum', 'lat']	1
+['deu', 'jpn']	1
+['deu', 'goh', 'fra', 'lat']	1
+['deu', 'fro', 'lat', 'fra']	1
+['deu', 'fra', 'fro', 'eng']	1
+['fra', 'eng', 'fro']	1
+['pol', 'csb']	1
+['pol', 'rus', 'lit']	1
+['deu', 'gem', 'gmh', 'gml', 'dum']	1
+['deu', 'eng', 'lat', 'chu', 'ine', 'lit']	1
+['spa', 'lat', 'ell', 'pol', 'chu', 'lit', 'ine']	1
+['deu', 'goh', 'got', 'isl', 'ine']	1
+['ita', 'lat', 'ara', 'pes']	1
+['gmh', 'fro', 'frk', 'ine', 'sga', 'ell', 'lat']	1
+['deu', 'fra', 'lat', 'lit']	1
+['gem', 'isl', 'ang', 'goh']	1
+['gmh', 'lat', 'deu']	1
+['goh', 'gem', 'mga', 'ine', 'lat']	1
+['deu', 'lat', 'ell', 'sem']	1
+['isl', 'goh']	1
+['eng', 'swa', 'ara', 'gmh', 'lat', 'ell', 'heb']	1
+['deu', 'isl']	1
+['deu', 'eng', 'zlm']	1
+['jpn', 'chu', 'lit', 'lav', 'mga', 'ine']	1
+['jpn', 'deu', 'gem']	1
+['hun', 'tat', 'tur', 'aze']	1
+['fra', 'ita', 'gem', 'frk']	1
+['deu', 'lat', 'ell', 'pes', 'egy', 'lit', 'lav']	1
+['pol', 'ara', 'ell', 'pes']	1
+['fra', 'ara', 'zho']	1
+['fin', 'fra', 'spa']	1
+['deu', 'chu', 'prg', 'ine', 'got', 'lat', 'ell', 'hit']	1
+['deu', 'fra', 'ita', 'lat', 'eng']	1
+['sga', 'ell', 'ine', 'fra', 'spa', 'lit', 'deu', 'ang']	1
+['eng', 'fra', 'ita', 'lat']	1
+['lat', 'deu', 'fra']	1
+['lat', 'fra', 'eng', 'deu']	1
+['deu', 'lat', 'ell', 'akk']	1
+['fra', 'tat']	1
+['deu', 'fra', 'spa', 'lat', 'ell']	1
+['eng', 'chu', 'lit', 'prg', 'ine', 'isl', 'sga', 'mga', 'ell']	1
+['deu', 'fra', 'lat', 'ell', 'chu', 'lit', 'ave', 'ine']	1
+['eng', 'nld', 'ita']	1
+['eng', 'nor', 'isl']	1
+['eng', 'fra', 'ita', 'lng', 'gem']	1
+['eng', 'isl']	1
+['eng', 'fro', 'frk', 'fra']	1
+['dsb ', ' hsb', 'goh', 'ine']	1
+['nor']	1
+['slv', 'lit', 'ine']	1
+['gem', 'swe']	1
+['ita', 'gem', 'deu', 'ine']	1
+['lat', 'ell', 'sem', 'akk', 'heb']	1
+['pol', 'lat', 'ell', 'ine']	1
+['rus', 'deu', 'fra', 'ita']	1
+['deu', 'ita', 'spa', 'ara']	1
+['deu', 'jpn', 'ine']	1
+['ine', 'prg', 'goh', 'lat', 'isl', 'fra']	1
+['goh', 'lat', 'ell', 'chu']	1
+['deu', 'dum', 'fro', 'gem', 'ell']	1
+['eng', 'deu', 'fro', 'lat', 'frk']	1
+['fra', 'ita', 'eng', 'lat']	1
+['rus', 'eng']	1
+['goh', 'gem', 'isl', 'ine']	1
+['eng', 'nld', 'deu', 'gem', 'lat', 'ell', 'chu', 'lit', 'ine']	1
+['rus', 'deu', 'nor', 'lit', 'ine']	1
+['rus', 'dsb']	1
+['lat', 'ang', 'deu']	1
+['tur', 'ara', 'arc']	1
+['rus', 'gmh']	1
+['ine', 'lav', 'isl']	1
+['deu', 'eng', 'lat', 'ell']	1
+['fra', 'lat', 'deu', 'dum', 'fro']	1
+['gmh', 'fra', 'lat', 'ara', 'pes']	1
+['deu', 'chu']	1
+['deu', 'fra', 'pes', 'tur', 'heb']	1
+['deu', 'fra', 'eng', 'pes']	1
+['fra', 'lat', 'deu']	1
+['gmh', 'fro', 'lat', 'pes', 'ara']	1
+['gem', 'goh']	1
+['tat', 'kir', 'tur', 'rus', 'fra', 'eng', 'hun']	1
+['hsb', 'chu']	1
+['deu', 'fra', 'fro', 'glg', 'lat']	1
+['eng', 'fra', 'ara']	1
+['deu', 'eng', 'fro', 'pes']	1
+['deu', 'fra', 'fro', 'frk', 'lat']	1
+['deu', 'goh', 'lat', 'chu']	1
+['gml', 'eng']	1
+['goh', 'ell']	1
+['hsb', 'lav', 'gmh', 'eng', 'cym', 'ine']	1
+['deu', 'gem', 'lit']	1
+['deu', 'ita', 'spa', 'ara', 'pes', 'gmh', 'goh', 'lat']	1
+['gmh', 'deu', 'goh']	1
+['deu', 'ita', 'lng']	1
+['deu', 'eng', 'gem', 'ine']	1
+['deu', 'ita', 'lng', 'goh']	1
+['gmh', 'ita', 'ara', 'deu']	1
+['deu', 'ine', 'goh', 'chu', 'lit', 'cym', 'lat', 'sqi', 'ell', 'hye']	1
+['hsb', 'deu', 'lit', 'goh', 'ine']	1
+['deu', 'eng', 'spa']	1
+['fra', 'fro', 'frm', 'pes']	1
+['bar', 'ita', 'ara']	1
+['deu', 'ita', 'frm', 'pes', 'spa']	1
+['rus', 'mon']	1
+['bar']	1
+['deu', 'fra', 'eng', 'spa', 'ara', 'ell']	1
+['deu', 'fra', 'fro', 'spa', 'ara', 'pes']	1
+['eng', 'por', 'lat']	1
+['eng', 'enm', 'fro', 'fra']	1
+['pol', 'tur']	1
+['ita', 'lat', 'deu']	1
+['rus', 'tat', 'kir', 'tur']	1
+['deu', 'nld', 'zho']	1
+['eng', 'ang', 'lat']	1
+['fra', 'eng', 'deu', 'lat']	1
+['eng', 'enm', 'fra', 'lat']	1
+['eng', 'deu', 'frm', 'lat']	1
+['deu', 'fra', 'lat', 'eng', 'chu', 'lit', 'prg', 'ine', 'isl', 'sga', 'mga', 'ell']	1
+['gmh', 'frm', 'lat']	1
+['rus', 'chu', 'lit', 'ine']	1
+['tur', 'spa', 'lat']	1
+['deu', 'lat', 'ell', 'spa']	1
+['slk', 'tat']	1
+['deu', 'ita', 'spa', 'eng', 'lat', 'ell']	1
+['ita', 'eng', 'por', 'cat', 'lat', 'ara', 'ell']	1
+['deu', 'goh', 'gmh']	1
+['gmh', 'goh', 'deu']	1
+['rus', 'fra']	1
+['rus', 'isl', 'deu']	1
+['ita', 'deu', 'fra', 'lat']	1
+['lat', 'ell', 'fra', 'deu', 'ita']	1
+['lat', 'ell', 'deu', 'egy', 'spa', 'cat', 'ara']	1
+['fra', 'frk', 'eng']	1
+['lat', 'ell', 'ine', 'lav', 'deu']	1
+['fra', 'lat', 'ita']	1
+['bar', 'deu', 'ine']	1
+['deu', 'fra', 'fro', 'goh', 'frk']	1
+['lat', 'ita', 'tur']	1
+['deu', 'hun', 'gmh']	1
+['deu', 'lat', 'ell', 'sem', 'ara', 'heb']	1
+['rus', 'fin']	1
+['lat', 'sem', 'arc', 'heb']	1
+['deu', 'tur', 'pes']	1
+['deu', 'lat', 'ita', 'spa']	1
+['deu', 'prg', 'lit', 'mga', 'hit', 'ine']	1
+['deu', 'fra', 'lat', 'ell', 'peo', 'ave']	1
+['lat', 'gmh', 'goh']	1
+['rus', 'nld', 'lat', 'ell']	1
+['deu', 'eng', 'dum']	1
+['srp', 'deu', 'fra', 'eng', 'ron']	1
+['pol', 'lit', 'lat', 'ine']	1
+['deu', 'nld', 'fra', 'ita', 'lat', 'ara']	1
+['slk', 'ron', 'sqi', 'hun', 'ave', 'hye', 'ine']	1
+['deu', 'gmh', 'fro', 'lat', 'mga']	1
+['eng', 'deu', 'ell']	1
+['dsb ', ' hsb', 'chu', 'got', 'goh', 'ang', 'ine']	1
+['rus', 'deu']	1
+['deu', 'goh', 'eng', 'lit', 'ine', 'lat']	1
+['deu', 'eng', 'por']	1
+['deu', 'eng', 'lat', 'fro']	1
+['rus', 'chu', 'lit', 'isl', 'lat', 'ell', 'hye', 'ine']	1
+['fra', 'eng', 'lat', 'ine', 'ell']	1
+['fra', 'eng', 'lat', 'ine']	1
+['eng', 'deu', 'lat']	1
+['fra', 'fro', 'eng', 'lat']	1
+['lit', 'ang', 'ine']	1
+['lat', 'lit', 'goh', 'ang', 'sga', 'ine']	1
+['deu', 'lat', 'lav']	1
+['rus', 'deu', 'swe']	1
+['deu', 'nld', 'eng', 'gml', 'ine']	1
+['hsb', 'ine', 'lit', 'lav']	1
+['got', 'eng', 'deu', 'ine', 'gmh']	1
+['got', 'eng', 'deu', 'ine', 'chu', 'lit', 'goh', 'sga', 'lat', 'ell', 'hye', 'hit']	1
+['got', 'eng', 'deu', 'ine', 'chu', 'lit', 'lat']	1
+['got', 'eng', 'deu', 'ine', 'chu', 'lit', 'lav']	1
+['ell', 'eng', 'ang', 'deu', 'lat']	1
+['lat', 'ell', 'heb', 'chu']	1
+['got', 'deu', 'eng', 'ine']	1
+['deu', 'goh', 'fro', 'lat', 'ell']	1
+['por', 'spa', 'lat']	1
+['deu', 'ita', 'fra', 'ara']	1
+['ell', 'lat', 'dsb', 'lit', 'hye', 'ine']	1
+['lit', 'lav', 'prg', 'isl', 'goh', 'gem', 'ine']	1
+['rus', 'ine', 'deu', 'ave']	1
+['hsb', 'gmh', 'lat']	1
+['deu', 'gmh', 'lat', 'aii']	1
+['rus', 'chu', 'lit', 'lat', 'ine']	1
+['rus', 'tat', 'mon']	1
+['deu', 'fra', 'fro', 'frk', 'goh']	1
+['ita', 'deu', 'ara']	1
+['sga', 'hye']	1
