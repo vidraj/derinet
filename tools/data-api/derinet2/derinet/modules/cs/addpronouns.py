@@ -52,7 +52,7 @@ class AddPronouns(Block):
 
             lexicon.create_lexeme(lemma=lemma,
                                   lemid=lemma + "#" + tag,
-                                  pos="POS",
+                                  pos="PRON",
                                   misc={'techlemma': techlemma})
 
         return lexicon
