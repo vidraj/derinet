@@ -253,22 +253,49 @@ class Lexicon(object):
         return lexeme, lex_id_str, lex_id, parent_id_str, reltype, otherrels
 
     def _add_morphs_v2_annot(self, lexeme, morph_list, line_nr):
+        last_morph_end = 0
         for morph in morph_list:
-            if "Start" not in morph:
-                raise DerinetFileParseError("Morph specification '{}' on line nr. {} doesn't include its start".format(morph, line_nr))
-            if "End" not in morph:
-                raise DerinetFileParseError("Morph specification '{}' on line nr. {} doesn't include its end".format(morph, line_nr))
+            # The morph can be specified in two ways: Its start and end
+            #  indices, or its morph string form. Assert that at least
+            #  one of the ways is present.
+            if not ("Morph" in morph or ("Start" in morph and "End" in morph)):
+                raise DerinetFileParseError("Morph specification '{}' on line nr. {} doesn't include its position; either Morph or Start+End are required".format(morph, line_nr))
+
+            # Parse the start and end, if present.
+            if "Start" in morph:
+                try:
+                    morph["Start"] = int(morph["Start"])
+                except ValueError:
+                    raise DerinetFileParseError("Morpheme start '{}' on line nr. {} is not integral".format(morph["Start"], line_nr))
+            if "End" in morph:
+                try:
+                    morph["End"] = int(morph["End"])
+                except ValueError:
+                    raise DerinetFileParseError("Morpheme end '{}' on line nr. {} is not integral".format(morph["End"], line_nr))
+
+            # Get or infer the morph starting position.
+            if "Start" in morph:
+                start = morph["Start"]
+            elif "End" in morph:
+                # Infer the start from the given morph. We already know
+                #  that "Morph" is present.
+                start = morph["End"] - len(morph["Morph"])
+            else:
+                # Start can not be inferred; act as if the morph was placed at the next available position.
+                start = last_morph_end
+
+            # Get or infer the ending position.
+            if "End" in morph:
+                end = morph["End"]
+            else:
+                end = start + len(morph["Morph"])
 
             try:
-                morph["Start"] = int(morph["Start"])
-            except ValueError:
-                raise DerinetFileParseError("Morpheme start '{}' on line nr. {} is not integral".format(morph["Start"], line_nr))
-            try:
-                morph["End"] = int(morph["End"])
-            except ValueError:
-                raise DerinetFileParseError("Morpheme end '{}' on line nr. {} is not integral".format(morph["End"], line_nr))
+                lexeme.add_morph(start, end, morph)
+            except ValueError as e:
+                raise DerinetFileParseError("Couldn't add morph '{}' on line nr. {}: {}; note that the actual problem may be with the preceding morph".format(morph, line_nr, e))
 
-            lexeme.add_morph(morph["Start"], morph["End"], morph)
+            last_morph_end = end
 
     def _load_derinet_v2(self, data_source, on_err):
         close_at_end = False
@@ -646,6 +673,27 @@ class Lexicon(object):
 
         return reltype
 
+    def _print_morphs_v2_annot(self, lexeme):
+        segmentation = []
+        last_morph_end = 0
+
+        for segment in lexeme.segmentation:
+            if segment["Type"] != "Implicit":
+                segment = segment.copy()
+                if segment["Start"] == last_morph_end and "Morph" in segment:
+                    last_morph_end = segment["End"]
+                    # It is possible to infer the morph position from its
+                    #  string value and the end of the preceding morph.
+                    del segment["Start"]
+                    del segment["End"]
+                else:
+                    last_morph_end = segment["End"]
+                    segment["Start"] = str(segment["Start"])
+                    segment["End"] = str(segment["End"])
+                segmentation.append(segment)
+
+        return format_kwstring(segmentation)
+
     def _save_derinet_v2(self, data_sink, on_err):
         close_at_end = False
         if isinstance(data_sink, str):
@@ -675,9 +723,9 @@ class Lexicon(object):
 
                     if lexeme in id_mapping:
                         if on_err == "continue":
-                            logger.error("Lexeme {} processed twice; parents: {}".format(lexeme, lexeme.all_parents))
+                            logger.error("Lexeme {} processed twice, it probably has multiple parent relations; parents: {}".format(lexeme, lexeme.all_parents))
                         else:
-                            raise DerinetError("An error occurred while saving data: Lexeme {} processed twice; parents: {}".format(lexeme, lexeme.all_parents))
+                            raise DerinetError("An error occurred while saving data: Lexeme {} processed twice, it probably has multiple parent relations; parents: {}".format(lexeme, lexeme.all_parents))
                     else:
                         id_mapping[lexeme] = full_id
 
@@ -712,7 +760,7 @@ class Lexicon(object):
                         lexeme.lemma,
                         lexeme.pos,
                         format_kwstring([lexeme.feats]),
-                        format_kwstring([segment for segment in lexeme.segmentation if segment["Type"] != "Implicit"]),
+                        self._print_morphs_v2_annot(lexeme),
                         parent_formatted_id,
                         format_kwstring([self._format_parent_relation(lexeme, lexeme.parent_relation, id_mapping, False)]),
                         format_kwstring([self._format_parent_relation(lexeme, rel, id_mapping, True) for rel in lexeme.otherrels]),
