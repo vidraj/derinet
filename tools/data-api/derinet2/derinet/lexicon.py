@@ -674,7 +674,16 @@ class Lexicon(object):
         return reltype
 
     def _print_morphs_v2_annot(self, lexeme):
-        return format_kwstring([segment for segment in lexeme.segmentation if segment["Type"] != "Implicit"])
+        segmentation = []
+
+        for segment in lexeme.segmentation:
+            if segment["Type"] != "Implicit":
+                segment = segment.copy()
+                segment["Start"] = str(segment["Start"])
+                segment["End"] = str(segment["End"])
+                segmentation.append(segment)
+
+        return format_kwstring(segmentation)
 
     def _save_derinet_v2(self, data_sink, on_err):
         close_at_end = False
