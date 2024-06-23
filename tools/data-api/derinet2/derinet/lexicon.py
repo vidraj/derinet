@@ -675,12 +675,21 @@ class Lexicon(object):
 
     def _print_morphs_v2_annot(self, lexeme):
         segmentation = []
+        last_morph_end = 0
 
         for segment in lexeme.segmentation:
             if segment["Type"] != "Implicit":
                 segment = segment.copy()
-                segment["Start"] = str(segment["Start"])
-                segment["End"] = str(segment["End"])
+                if segment["Start"] == last_morph_end and "Morph" in segment:
+                    last_morph_end = segment["End"]
+                    # It is possible to infer the morph position from its
+                    #  string value and the end of the preceding morph.
+                    del segment["Start"]
+                    del segment["End"]
+                else:
+                    last_morph_end = segment["End"]
+                    segment["Start"] = str(segment["Start"])
+                    segment["End"] = str(segment["End"])
                 segmentation.append(segment)
 
         return format_kwstring(segmentation)
