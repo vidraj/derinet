@@ -702,9 +702,9 @@ class Lexicon(object):
 
                     if lexeme in id_mapping:
                         if on_err == "continue":
-                            logger.error("Lexeme {} processed twice; parents: {}".format(lexeme, lexeme.all_parents))
+                            logger.error("Lexeme {} processed twice, it probably has multiple parent relations; parents: {}".format(lexeme, lexeme.all_parents))
                         else:
-                            raise DerinetError("An error occurred while saving data: Lexeme {} processed twice; parents: {}".format(lexeme, lexeme.all_parents))
+                            raise DerinetError("An error occurred while saving data: Lexeme {} processed twice, it probably has multiple parent relations; parents: {}".format(lexeme, lexeme.all_parents))
                     else:
                         id_mapping[lexeme] = full_id
 
