@@ -673,6 +673,9 @@ class Lexicon(object):
 
         return reltype
 
+    def _print_morphs_v2_annot(self, lexeme):
+        return format_kwstring([segment for segment in lexeme.segmentation if segment["Type"] != "Implicit"])
+
     def _save_derinet_v2(self, data_sink, on_err):
         close_at_end = False
         if isinstance(data_sink, str):
@@ -739,7 +742,7 @@ class Lexicon(object):
                         lexeme.lemma,
                         lexeme.pos,
                         format_kwstring([lexeme.feats]),
-                        format_kwstring([segment for segment in lexeme.segmentation if segment["Type"] != "Implicit"]),
+                        self._print_morphs_v2_annot(lexeme),
                         parent_formatted_id,
                         format_kwstring([self._format_parent_relation(lexeme, lexeme.parent_relation, id_mapping, False)]),
                         format_kwstring([self._format_parent_relation(lexeme, rel, id_mapping, True) for rel in lexeme.otherrels]),
