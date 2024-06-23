@@ -81,11 +81,6 @@ def parse_v2_id(val: str) -> Tuple[int, int]:
 
 
 def _sanitize_kwpair_item(x):
-    if isinstance(x, int):
-        return str(x)
-
-    x = str(x)
-
     for c in {"=", "&", "|"}:
         if c in x:
             raise ValueError("Illegal char '{}' in kwstring part '{}'".format(c, x))
@@ -94,6 +89,11 @@ def _sanitize_kwpair_item(x):
 
 
 def _format_kwpair(k, v):
+    if not isinstance(k, str):
+        raise TypeError("key-value pair keys must be string, not {} (value {})".format(type(k), repr(k)))
+    if not isinstance(v, str):
+        raise TypeError("key-value pair values must be string, not {} (value {})".format(type(v), repr(v)))
+
     k = _sanitize_kwpair_item(k)
     v = _sanitize_kwpair_item(v)
 
