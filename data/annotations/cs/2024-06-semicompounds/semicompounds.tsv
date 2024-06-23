@@ -1,1399 +1,1399 @@
-	lemma	parents
-0	aerolinie	-aer- linie
-0	aeromagnetometrie	-aer- magnetometrie
-0	aeroport	-aer- port
-0	aerogen	-aer- gen
-0	aeroshow	-aer- show
-0	aerogel	-aer- gel
-0	aerobioskop	-aer- bioskop
-0	aerosol	-aer- sol
-0	aerometr	-aer- metr
-0	aerosalon	-aer- salon
-0	aerodyn	-aer- dyn
-0	aeroplán	-aer- plán
-0	aerogravimetrie	-aer- gravimetrie
-0	aerootitida	-aer- otitida
-0	aeroplankton	-aer- plankton
-0	aerotaxi	-aer- taxi
-0	aeroklimatologie	-aer- klimatologie
-0	aerotop	-aer- top
-0	aerofobie	-aer- fobie
-0	aeromechanika	-aer- mechanika
-0	aerobus	-aer- bus
-0	aeronautika	-aer- nautika
-0	arcizloduch	-arci- zloduch
-0	arcišpatný	-arci- špatný
-0	arcikmotr	-arci- kmotr
-0	arcikníže	-arci- kníže
-0	arciďábel	-arci- ďábel
-0	arcizloděj	-arci- zloděj
-0	arcidiecéze	-arci- diecéze
-0	arcijáhen	-arci- jáhen
-0	arcibiskup	-arci- biskup
-0	arciloutna	-arci- loutna
-0	arcivikář	-arci- vikář
-0	arcikněz	-arci- kněz
-0	arciděkan	-arci- děkan
-0	arcipadouch	-arci- padouch
-0	arcilotr	-arci- lotr
-0	arcirival	-arci- rival
-0	arcikonzervativní	-arci- konzervativní
-0	arciměsto	-arci- město
-0	arciopat	-arci- opat
-0	arcilump	-arci- lump
-0	arciblb	-arci- blb
-0	arcibalvan	-arci- balvan
-0	arciromán	-arci- román
-0	arcisoupeř	-arci- soupeř
-0	biolobby	-bio- lobby
-0	biofilm	-bio- film
-0	biokontrola	-bio- kontrola
-0	biorovnováha	-bio- rovnováha
-0	biosvět	-bio- svět
-0	biocentrum	-bio- centrum
-0	biooves	-bio- oves
-0	biobageta	-bio- bageta
-0	biokráva	-bio- kráva
-0	biodiagnostika	-bio- diagnostika
-0	biorepublika	-bio- republika
-0	biosen	-bio- sen
-0	biočaj	-bio- čaj
-0	biovuřt	-bio- vuřt
-0	biolinie	-bio- linie
-0	biosnob	-bio- snob
-0	biotmel	-bio- tmel
-0	biománie	-bio- mánie
-0	biopantofel	-bio- pantofel
-0	biopunktura	-bio- punktura
-0	biokrém	-bio- krém
-0	biokvota	-bio- kvota
-0	biotěsto	-bio- těsto
-0	biosimilární	-bio- similární
-0	biohovězí	-bio- hovězí
-0	biopavilon	-bio- pavilon
-0	biolaktóza	-bio- laktóza
-0	biolék	-bio- lék
-0	biošpek	-bio- špek
-0	biopas	-bio- pas
-0	bioproces	-bio- proces
-0	biotextil	-bio- textil
-0	biohuť	-bio- huť
-0	biokoruna	-bio- koruna
-0	biosůl	-bio- sůl
-0	bioden	-bio- den
-0	biocihla	-bio- cihla
-0	biochirurgie	-bio- chirurgie
-0	biomodel	-bio- model
-0	biočesnek	-bio- česnek
-0	bioalkohol	-bio- alkohol
-0	biokrůta	-bio- krůta
-0	bioidyla	-bio- idyla
-0	biokáva	-bio- káva
-0	biojogurt	-bio- jogurt
-0	biocitrus	-bio- citrus
-0	biotriko	-bio- triko
-0	bioslimák	-bio- slimák
-0	biodoba	-bio- doba
-0	biopapež	-bio- papež
-0	biobenzin	-bio- benzin
-0	biotin	-bio- tin
-0	bioakademie	-bio- akademie
-0	biosalám	-bio- salám
-0	bioport	-bio- port
-0	biokoroze	-bio- koroze
-0	biojahoda	-bio- jahoda
-0	biotaška	-bio- taška
-0	biokečup	-bio- kečup
-0	biočokoláda	-bio- čokoláda
-0	bioaerosol	-bio- aerosol
-0	biobox	-bio- box
-0	biopůvod	-bio- původ
-0	biouhel	-bio- uhel
-0	biožena	-bio- žena
-0	biopytel	-bio- pytel
-0	biokošile	-bio- košile
-0	biokopřiva	-bio- kopřiva
-0	biocenóza	-bio- cenóza
-0	biobar	-bio- bar
-0	bioinvaze	-bio- invaze
-0	bioorganominerální	-bio- organominerální
-0	biokakao	-bio- kakao
-0	biokampaň	-bio- kampaň
-0	biopes	-bio- pes
-0	biodrink	-bio- drink
-0	bioživotospráva	-bio- životospráva
-0	biopotřeba	-bio- potřeba
-0	biosenzor	-bio- senzor
-0	biolíh	-bio- líh
-0	biožito	-bio- žito
-0	biomošt	-bio- mošt
-0	bioshow	-bio- show
-0	biodřevo	-bio- dřevo
-0	biomüsli	-bio- müsli
-0	biogel	-bio- gel
-0	biosystém	-bio- systém
-0	biorohlík	-bio- rohlík
-0	biota	-bio- ta
-0	biovejce	-bio- vejce
-0	biomáslo	-bio- máslo
-0	bioořech	-bio- ořech
-0	bionádoba	-bio- nádoba
-0	biookurka	-bio- okurka
-0	biotrh	-bio- trh
-0	bionika	-bio- nika
-0	biopiškot	-bio- piškot
-0	biokategorie	-bio- kategorie
-0	biosociologie	-bio- sociologie
-0	biovýrok	-bio- výrok
-0	biorecept	-bio- recept
-0	biozemědělec	-bio- zemědělec
-0	biosyrob	-bio- syrob
-0	biohazard	-bio- hazard
-0	bioparadox	-bio- paradox
-0	bioskot	-bio- skot
-0	biopěna	-bio- pěna
-0	biooběd	-bio- oběd
-0	biohermelín	-bio- hermelín
-0	biobriketa	-bio- briketa
-0	biocukr	-bio- cukr
-0	biodžus	-bio- džus
-0	biokritérium	-bio- kritérium
-0	biokoza	-bio- koza
-0	biofiltr	-bio- filtr
-0	biovíno	-bio- víno
-0	bioplod	-bio- plod
-0	biokukuřice	-bio- kukuřice
-0	bioleťák	-bio- leťák
-0	biokoktajl	-bio- koktajl
-0	biodeska	-bio- deska
-0	bionegativní	-bio- negativní
-0	biokoleno	-bio- koleno
-0	biolovečák	-bio- lovečák
-0	bioart	-bio- art
-0	biominerál	-bio- minerál
-0	biogastronomie	-bio- gastronomie
-0	biomed	-bio- med
-0	bioprogram	-bio- program
-0	bioimpedance	-bio- impedance
-0	biomarihuana	-bio- marihuana
-0	biofacie	-bio- facie
-0	biopeleta	-bio- peleta
-0	biodiesel	-bio- diesel
-0	biočočka	-bio- čočka
-0	biochléb	-bio- chléb
-0	bioluštěnina	-bio- luštěnina
-0	biohnůj	-bio- hnůj
-0	biohusa	-bio- husa
-0	bioregion	-bio- region
-0	biopolymer	-bio- polymer
-0	biošok	-bio- šok
-0	biometrie	-bio- metrie
-0	biokedlubna	-bio- kedlubna
-0	biosalát	-bio- salát
-0	biočip	-bio- čip
-0	bioakce	-bio- akce
-0	bioinstitut	-bio- institut
-0	biosklo	-bio- sklo
-0	biotele	-bio- tele
-0	bioobilí	-bio- obilí
-0	bioříše	-bio- říše
-0	bioekonomie	-bio- ekonomie
-0	biotyčinka	-bio- tyčinka
-0	biomenu	-bio- menu
-0	biomarket	-bio- market
-0	biomaso	-bio- maso
-0	biofaktor	-bio- faktor
-0	biosláma	-bio- sláma
-0	biolaboratoř	-bio- laboratoř
-0	bioelektrochemie	-bio- elektrochemie
-0	biopesticid	-bio- pesticid
-0	biolampa	-bio- lampa
-0	bioenzym	-bio- enzym
-0	bioprovincie	-bio- provincie
-0	biozelený	-bio- zelený
-0	biomembrána	-bio- membrána
-0	biofilet	-bio- filet
-0	biosádlo	-bio- sádlo
-0	bioinsekticid	-bio- insekticid
-0	biolahev	-bio- lahev
-0	biozóna	-bio- zóna
-0	biozdroj	-bio- zdroj
-0	biosteak	-bio- steak
-0	bioelektrický	-bio- elektrický
-0	biovarianta	-bio- varianta
-0	biomarker	-bio- marker
-0	biopark	-bio- park
-0	bionudle	-bio- nudle
-0	biocibule	-bio- cibule
-0	biosynchron	-bio- synchron
-0	biopiknik	-bio- piknik
-0	biocapart	-bio- capart
-0	biozebra	-bio- zebra
-0	bioprojekt	-bio- projekt
-0	biokrb	-bio- krb
-0	biopsychosociální	-bio- psychosociální
-0	bioskafandr	-bio- skafandr
-0	biometeorologie	-bio- meteorologie
-0	bioklima	-bio- klima
-0	bioceler	-bio- celer
-0	biošunka	-bio- šunka
-0	biocyklus	-bio- cyklus
-0	biopřítel	-bio- přítel
-0	biokaše	-bio- kaše
-0	biosponzor	-bio- sponzor
-0	biopalác	-bio- palác
-0	biogeneze	-bio- geneze
-0	bioevoluce	-bio- evoluce
-0	biocena	-bio- cena
-0	biovřeteno	-bio- vřeteno
-0	biokiwi	-bio- kiwi
-0	biokocovina	-bio- kocovina
-0	biojatky	-bio- jatky
-0	biosliz	-bio- sliz
-0	biobota	-bio- bota
-0	biomouka	-bio- mouka
-0	biomunice	-bio- munice
-0	biopolenta	-bio- polenta
-0	biomolekula	-bio- molekula
-0	biocigareta	-bio- cigareta
-0	biobáze	-bio- báze
-0	bioagens	-bio- agens
-0	biodesign	-bio- design
-0	biotyp	-bio- typ
-0	biošťáva	-bio- šťáva
-0	biopomeranč	-bio- pomeranč
-0	bioplyn	-bio- plyn
-0	biozboží	-bio- zboží
-0	biorána	-bio- rána
-0	biokočka	-bio- kočka
-0	biočlověk	-bio- člověk
-0	biokúra	-bio- kúra
-0	biokerosin	-bio- kerosin
-0	biorám	-bio- rám
-0	bioteror	-bio- teror
-0	biolátka	-bio- látka
-0	bioverze	-bio- verze
-0	biostatistika	-bio- statistika
-0	biohruška	-bio- hruška
-0	biofarma	-bio- farma
-0	biovinohrad	-bio- vinohrad
-0	biožrout	-bio- žrout
-0	biopole	-bio- pole
-0	biotest	-bio- test
-0	biofikce	-bio- fikce
-0	biokout	-bio- kout
-0	bioboom	-bio- boom
-0	biobýk	-bio- býk
-0	biosynagoga	-bio- synagoga
-0	biomimikry	-bio- mimikry
-0	bioindex	-bio- index
-0	biolexikon	-bio- lexikon
-0	biowhisky	-bio- whisky
-0	biomatematika	-bio- matematika
-0	biokatedra	-bio- katedra
-0	biopaprika	-bio- paprika
-0	bioherbicid	-bio- herbicid
-0	biotábor	-bio- tábor
-0	biokopr	-bio- kopr
-0	biogeochemie	-bio- geochemie
-0	biokapr	-bio- kapr
-0	bioskutek	-bio- skutek
-0	biodobytek	-bio- dobytek
-0	biotransformovat	-bio- transformovat
-0	bioluminiscence	-bio- luminiscence
-0	biomák	-bio- mák
-0	biohrách	-bio- hrách
-0	biorakev	-bio- rakev
-0	biokotel	-bio- kotel
-0	biosauna	-bio- sauna
-0	bioplán	-bio- plán
-0	bioproud	-bio- proud
-0	biodatle	-bio- datle
-0	biohouba	-bio- houba
-0	biodžem	-bio- džem
-0	bioradar	-bio- radar
-0	biopšenice	-bio- pšenice
-0	biořízek	-bio- řízek
-0	biomeruňka	-bio- meruňka
-0	bioveletrh	-bio- veletrh
-0	biopast	-bio- past
-0	biolegislativa	-bio- legislativa
-0	bioprotéza	-bio- protéza
-0	biostroj	-bio- stroj
-0	biostyl	-bio- styl
-0	bioovoce	-bio- ovoce
-0	biorežim	-bio- režim
-0	biobanka	-bio- banka
-0	bioerror	-bio- error
-0	biooblast	-bio- oblast
-0	biobanán	-bio- banán
-0	biorytmus	-bio- rytmus
-0	bioréva	-bio- réva
-0	biokapela	-bio- kapela
-0	biochemoterapie	-bio- chemoterapie
-0	biomrkev	-bio- mrkev
-0	bioplankton	-bio- plankton
-0	biodžíny	-bio- džíny
-0	biosortiment	-bio- sortiment
-0	biotitovec	-bio- titovec
-0	biomeloun	-bio- meloun
-0	biosubstance	-bio- substance
-0	biokompost	-bio- kompost
-0	bioryba	-bio- ryba
-0	biomelatonin	-bio- melatonin
-0	bioefekt	-bio- efekt
-0	biokosmetika	-bio- kosmetika
-0	biodrůbež	-bio- drůbež
-0	biopantofle	-bio- pantofle
-0	bioherma	-bio- herma
-0	biokremace	-bio- kremace
-0	biograf	-bio- graf
-0	biokompatibilní	-bio- kompatibilní
-0	biobiftek	-bio- biftek
-0	biokřen	-bio- křen
-0	biotrend	-bio- trend
-0	biohumus	-bio- humus
-0	biokonzerva	-bio- konzerva
-0	biodilema	-bio- dilema
-0	biolimonáda	-bio- limonáda
-0	bioplast	-bio- plast
-0	biosendvič	-bio- sendvič
-0	bioveka	-bio- veka
-0	biopterin	-bio- pterin
-0	bioaloe	-bio- aloe
-0	biomléko	-bio- mléko
-0	biotop	-bio- top
-0	biomatka	-bio- matka
-0	bioolej	-bio- olej
-0	biosignál	-bio- signál
-0	biomoc	-bio- moc
-0	biolikér	-bio- likér
-0	biokvalita	-bio- kvalita
-0	biofobie	-bio- fobie
-0	biosýr	-bio- sýr
-0	biomateriál	-bio- materiál
-0	bioflavonoid	-bio- flavonoid
-0	biovlákno	-bio- vlákno
-0	biotuřín	-bio- tuřín
-0	biokoláč	-bio- koláč
-0	biomasáž	-bio- masáž
-0	biosociální	-bio- sociální
-0	bioplocha	-bio- plocha
-0	bioekologie	-bio- ekologie
-0	biomarmeláda	-bio- marmeláda
-0	biokeks	-bio- keks
-0	biofóbie	-bio- fóbie
-0	biotechnika	-bio- technika
-0	biokefír	-bio- kefír
-0	biomakromolekula	-bio- makromolekula
-0	biohmota	-bio- hmota
-0	biogram	-bio- gram
-0	biomost	-bio- most
-0	biodům	-bio- dům
-0	biolis	-bio- lis
-0	bioplíseň	-bio- plíseň
-0	biobandáž	-bio- bandáž
-0	bioagent	-bio- agent
-0	biojarmark	-bio- jarmark
-0	bioráj	-bio- ráj
-0	biofond	-bio- fond
-0	biolen	-bio- len
-0	biokarotka	-bio- karotka
-0	bioenergie	-bio- energie
-0	biováha	-bio- váha
-0	bioglycerin	-bio- glycerin
-0	bioalternativa	-bio- alternativa
-0	biomonstrum	-bio- monstrum
-0	biotranzistor	-bio- tranzistor
-0	biosezam	-bio- sezam
-0	bioseno	-bio- seno
-0	bioplantáž	-bio- plantáž
-0	biomechanika	-bio- mechanika
-0	biofirma	-bio- firma
-0	bioparty	-bio- party
-0	biobylina	-bio- bylina
-0	bioementál	-bio- ementál
-0	biohotel	-bio- hotel
-0	biovak	-bio- vak
-0	biohedvábí	-bio- hedvábí
-0	biohumbuk	-bio- humbuk
-0	biotrabant	-bio- trabant
-0	bioskandál	-bio- skandál
-0	biokordon	-bio- kordon
-0	biorezonance	-bio- rezonance
-0	biošpalda	-bio- špalda
-0	bioprase	-bio- prase
-0	biokriterium	-bio- kriterium
-0	biověc	-bio- věc
-0	biolaser	-bio- laser
-0	biojablko	-bio- jablko
-0	biorýže	-bio- rýže
-0	biobistro	-bio- bistro
-0	biobambus	-bio- bambus
-0	biovitální	-bio- vitální
-0	biohouska	-bio- houska
-0	biovčela	-bio- včela
-0	biofág	-bio- fág
-0	biostruktura	-bio- struktura
-0	biobonbon	-bio- bonbon
-0	biofeedback	-bio- feedback
-0	biomagor	-bio- magor
-0	biobuben	-bio- buben
-0	biokulak	-bio- kulak
-0	biobufet	-bio- bufet
-0	biosirup	-bio- sirup
-0	biobuřt	-bio- buřt
-0	biocereální	-bio- cereální
-0	bioekvivalence	-bio- ekvivalence
-0	biotermální	-bio- termální
-0	biokapacita	-bio- kapacita
-0	bioluxus	-bio- luxus
-0	biomelanin	-bio- melanin
-0	biodítě	-bio- dítě
-0	bioinženýr	-bio- inženýr
-0	bioareál	-bio- areál
-0	biogenerický	-bio- generický
-0	biozvíře	-bio- zvíře
-0	bioměsíc	-bio- měsíc
-0	biosféra	-bio- sféra
-0	biobuchta	-bio- buchta
-0	bioplazma	-bio- plazma
-0	biostimul	-bio- stimul
-0	biotrpaslík	-bio- trpaslík
-0	biotechnologie	-bio- technologie
-0	biopirát	-bio- pirát
-0	biokonopí	-bio- konopí
-0	bioterapie	-bio- terapie
-0	bioraut	-bio- raut
-0	bioocet	-bio- ocet
-0	biokontejner	-bio- kontejner
-0	biootruby	-bio- otruby
-0	biometan	-bio- metan
-0	bioostrov	-bio- ostrov
-0	biokonto	-bio- konto
-0	biokeramika	-bio- keramika
-0	biobranže	-bio- branže
-0	biocitron	-bio- citron
-0	biosyn	-bio- syn
-0	bioobjekt	-bio- objekt
-0	bioosivo	-bio- osivo
-0	biostratigrafie	-bio- stratigrafie
-0	cykloterpenicky	-cykl- terpenicky
-0	cykloskupina	-cykl- skupina
-0	cyklocentrum	-cykl- centrum
-0	cyklošortky	-cykl- šortky
-0	cyklokalhoty	-cykl- kalhoty
-0	cykloslalom	-cykl- slalom
-0	cyklonit	-cykl- nit
-0	cyklosoutěž	-cykl- soutěž
-0	cyklonosič	-cykl- nosič
-0	cyklodynastie	-cykl- dynastie
-0	cyklogenerel	-cykl- generel
-0	cyklopas	-cykl- pas
-0	cyklokolona	-cykl- kolona
-0	cyklodextrin	-cykl- dextrin
-0	cyklostáj	-cykl- stáj
-0	cyklodrak	-cykl- drak
-0	cykloden	-cykl- den
-0	cyklosezona	-cykl- sezona
-0	cyklorevoluce	-cykl- revoluce
-0	cyklokurýr	-cykl- kurýr
-0	cyklokonference	-cykl- konference
-0	cyklopeleton	-cykl- peleton
-0	cyklokros	-cykl- kros
-0	cykloliga	-cykl- liga
-0	cykloválka	-cykl- válka
-0	cykloexpert	-cykl- expert
-0	cyklokruh	-cykl- kruh
-0	cyklobar	-cykl- bar
-0	cyklomagistrála	-cykl- magistrála
-0	cyklolávka	-cykl- lávka
-0	cyklodiskuze	-cykl- diskuze
-0	cyklokampaň	-cykl- kampaň
-0	cyklopotřeba	-cykl- potřeba
-0	cyklopatriot	-cykl- patriot
-0	cyklopouť	-cykl- pouť
-0	cyklopentan	-cykl- pentan
-0	cyklofotokoagulace	-cykl- fotokoagulace
-0	cyklopadesátka	-cykl- padesátka
-0	cyklozloděj	-cykl- zloděj
-0	cyklorikša	-cykl- rikša
-0	cyklooasa	-cykl- oasa
-0	cyklostezka	-cykl- stezka
-0	cyklopáteř	-cykl- páteř
-0	cyklovidlák	-cykl- vidlák
-0	cyklošátek	-cykl- šátek
-0	cyklovečer	-cykl- večer
-0	cykloserver	-cykl- server
-0	cykloautobus	-cykl- autobus
-0	cyklohappening	-cykl- happening
-0	cykloinzerát	-cykl- inzerát
-0	cykloart	-cykl- art
-0	cyklobalet	-cykl- balet
-0	cyklohelma	-cykl- helma
-0	cykloprogram	-cykl- program
-0	cyklosport	-cykl- sport
-0	cykloprůvodce	-cykl- průvodce
-0	cyklomagnát	-cykl- magnát
-0	cykloregion	-cykl- region
-0	cyklochunta	-cykl- chunta
-0	cykloakce	-cykl- akce
-0	cykločást	-cykl- část
-0	cykloveterán	-cykl- veterán
-0	cykloid	-cykl- id
-0	cykloexkurze	-cykl- exkurze
-0	cyklobaron	-cykl- baron
-0	cyklonadace	-cykl- nadace
-0	cyklokolega	-cykl- kolega
-0	cyklokurz	-cykl- kurz
-0	cykloštafeta	-cykl- štafeta
-0	cyklolahev	-cykl- lahev
-0	cyklozóna	-cykl- zóna
-0	cykloatlas	-cykl- atlas
-0	cyklotaškařice	-cykl- taškařice
-0	cyklopark	-cykl- park
-0	cyklotramvaj	-cykl- tramvaj
-0	cyklopruh	-cykl- pruh
-0	cykloturné	-cykl- turné
-0	cykloaerobik	-cykl- aerobik
-0	cykloprojekt	-cykl- projekt
-0	cyklopřítel	-cykl- přítel
-0	cyklopoint	-cykl- point
-0	cyklokniha	-cykl- kniha
-0	cyklopartner	-cykl- partner
-0	cyklovar	-cykl- var
-0	cyklořetěz	-cykl- řetěz
-0	cyklobota	-cykl- bota
-0	cyklohistorie	-cykl- historie
-0	cyklovynález	-cykl- vynález
-0	cyklobarbital	-cykl- barbital
-0	cyklopolicie	-cykl- policie
-0	cyklokolos	-cykl- kolos
-0	cyklotúra	-cykl- túra
-0	cyklozboží	-cykl- zboží
-0	cykloalifatický	-cykl- alifatický
-0	cykloverze	-cykl- verze
-0	cyklodrožka	-cykl- drožka
-0	cyklopropan	-cykl- propan
-0	cyklostrategie	-cykl- strategie
-0	cykloaréna	-cykl- aréna
-0	cykloesej	-cykl- esej
-0	cyklotest	-cykl- test
-0	cyklokamarád	-cykl- kamarád
-0	cykloboom	-cykl- boom
-0	cykloservis	-cykl- servis
-0	cyklostěna	-cykl- stěna
-0	cyklopiktogram	-cykl- piktogram
-0	cyklotranz	-cykl- tranz
-0	cyklosérie	-cykl- série
-0	cyklotábor	-cykl- tábor
-0	cyklokoridor	-cykl- koridor
-0	cykloimpérium	-cykl- impérium
-0	cykloměsto	-cykl- město
-0	cyklodres	-cykl- dres
-0	cyklovzor	-cykl- vzor
-0	cyklobrašna	-cykl- brašna
-0	cyklomapa	-cykl- mapa
-0	cyklotrial	-cykl- trial
-0	cyklosekce	-cykl- sekce
-0	cykloveletrh	-cykl- veletrh
-0	cyklostroj	-cykl- stroj
-0	cyklostyl	-cykl- styl
-0	cyklodepo	-cykl- depo
-0	cyklotramp	-cykl- tramp
-0	cyklohospoda	-cykl- hospoda
-0	cyklojunta	-cykl- junta
-0	cykloakrobacie	-cykl- akrobacie
-0	cyklogigant	-cykl- gigant
-0	cyklotaxi	-cykl- taxi
-0	cyklotrasa	-cykl- trasa
-0	cykloetapa	-cykl- etapa
-0	cyklograf	-cykl- graf
-0	cyklokarta	-cykl- karta
-0	cykloreprese	-cykl- represe
-0	cyklotrať	-cykl- trať
-0	cyklozákladna	-cykl- základna
-0	cykloguláš	-cykl- guláš
-0	cyklomateriál	-cykl- materiál
-0	cyklofestival	-cykl- festival
-0	cyklorallye	-cykl- rallye
-0	cyklobrýle	-cykl- brýle
-0	cykloman	-cykl- man
-0	cyklomost	-cykl- most
-0	cykločert	-cykl- čert
-0	cyklotachometr	-cykl- tachometr
-0	cyklopohár	-cykl- pohár
-0	cykloalken	-cykl- alken
-0	cyklopás	-cykl- pás
-0	cyklomise	-cykl- mise
-0	cykloškola	-cykl- škola
-0	cykloráj	-cykl- ráj
-0	cykloenergie	-cykl- energie
-0	cykloanketa	-cykl- anketa
-0	cyklopěší	-cykl- pěší
-0	cyklomítink	-cykl- mítink
-0	cyklohexan	-cykl- hexan
-0	cyklobunda	-cykl- bunda
-0	cyklomechanika	-cykl- mechanika
-0	cyklofirma	-cykl- firma
-0	cykloulice	-cykl- ulice
-0	cyklohotel	-cykl- hotel
-0	cyklodráha	-cykl- dráha
-0	cyklověc	-cykl- věc
-0	cyklovíkend	-cykl- víkend
-0	cyklovagon	-cykl- vagon
-0	cyklobus	-cykl- bus
-0	cyklobufet	-cykl- bufet
-0	cyklopaťák	-cykl- paťák
-0	cykloalkan	-cykl- alkan
-0	cyklodobrodruh	-cykl- dobrodruh
-0	cyklorytíř	-cykl- rytíř
-0	cykloareál	-cykl- areál
-0	cykloamatér	-cykl- amatér
-0	cyklotrans	-cykl- trans
-0	cyklobrožura	-cykl- brožura
-0	cyklopirát	-cykl- pirát
-0	cykloserin	-cykl- serin
-0	cyklobranže	-cykl- branže
-0	cyklohvězda	-cykl- hvězda
-0	cyklotrek	-cykl- trek
-0	postdekrement	-post- dekrement
-0	postdemokracie	-post- demokracie
-0	postfebrilní	-post- febrilní
-0	postprocessing	-post- processing
-0	postžiro	-post- žiro
-0	postpuberta	-post- puberta
-0	postskriptum	-post- skriptum
-0	postfax	-post- fax
-0	postindustriální	-post- industriální
-0	postimperiální	-post- imperiální
-0	postsynchron	-post- synchron
-0	posthistorie	-post- historie
-0	postmortální	-post- mortální
-0	postservis	-post- servis
-0	postblokový	-post- blokový
-0	postinkrement	-post- inkrement
-0	postpunk	-post- punk
-0	postmorální	-post- morální
-0	postkraniální	-post- kraniální
-0	postorogenní	-post- orogenní
-0	postpenitenciární	-post- penitenciární
-0	postfix	-post- fix
-0	postnatální	-post- natální
-0	postkonto	-post- konto
-0	postpubescence	-post- pubescence
-0	ekofilm	-eko- film
-0	ekosvět	-eko- svět
-0	ekopolitika	-eko- politika
-0	ekocentrum	-eko- centrum
-0	ekofyziologie	-eko- fyziologie
-0	ekopavilon	-eko- pavilon
-0	ekokontrast	-eko- kontrast
-0	ekoparazit	-eko- parazit
-0	ekokonference	-eko- konference
-0	ekoseminář	-eko- seminář
-0	ekosystém	-eko- systém
-0	ekotrh	-eko- trh
-0	ekoplakát	-eko- plakát
-0	ekonafta	-eko- nafta
-0	ekozemědělec	-eko- zemědělec
-0	ekovečer	-eko- večer
-0	ekodeska	-eko- deska
-0	ekoautobus	-eko- autobus
-0	ekoprogram	-eko- program
-0	ekoregion	-eko- region
-0	ekopanel	-eko- panel
-0	ekotendr	-eko- tendr
-0	ekoprojekt	-eko- projekt
-0	ekomuzeum	-eko- muzeum
-0	ekokatastrofa	-eko- katastrofa
-0	ekoelement	-eko- element
-0	ekopolicie	-eko- policie
-0	ekodesign	-eko- design
-0	ekotyp	-eko- typ
-0	ekošméčko	-eko- šméčko
-0	ekoteror	-eko- teror
-0	ekofarma	-eko- farma
-0	ekoklokan	-eko- klokan
-0	ekofáze	-eko- fáze
-0	ekotoxický	-eko- toxický
-0	ekoveletrh	-eko- veletrh
-0	ekolyceum	-eko- lyceum
-0	ekodormance	-eko- dormance
-0	ekoetapa	-eko- etapa
-0	ekosendvič	-eko- sendvič
-0	ekotop	-eko- top
-0	ekofestival	-eko- festival
-0	ekoforum	-eko- forum
-0	ekostabilní	-eko- stabilní
-0	ekotechnika	-eko- technika
-0	ekomost	-eko- most
-0	ekodům	-eko- dům
-0	ekojarmark	-eko- jarmark
-0	ekofond	-eko- fond
-0	ekobus	-eko- bus
-0	ekosféra	-eko- sféra
-0	ekotechnologie	-eko- technologie
-0	ekoforma	-eko- forma
-0	ekostratigrafie	-eko- stratigrafie
-0	ekoproblém	-eko- problém
-0	fotofilm	-fot- film
-0	fotoskupina	-fot- skupina
-0	fotocentrum	-fot- centrum
-0	fotosafari	-fot- safari
-0	fotorezist	-fot- rezist
-0	fotosoutěž	-fot- soutěž
-0	fotokulomet	-fot- kulomet
-0	fotoscéna	-fot- scéna
-0	fotobatoh	-fot- batoh
-0	fotomodel	-fot- model
-0	fotokatoda	-fot- katoda
-0	fotoaparát	-fot- aparát
-0	fotoblesk	-fot- blesk
-0	fotogeologie	-fot- geologie
-0	fotobuňka	-fot- buňka
-0	fototyristor	-fot- tyristor
-0	fotopetice	-fot- petice
-0	fotoprojekce	-fot- projekce
-0	fotosenzor	-fot- senzor
-0	fotoleporelo	-fot- leporelo
-0	fotosystém	-fot- systém
-0	fotomorfogeneze	-fot- morfogeneze
-0	fotoburza	-fot- burza
-0	fotostrana	-fot- strana
-0	fotodetail	-fot- detail
-0	fotoplátno	-fot- plátno
-0	fototermín	-fot- termín
-0	fotoautotrofie	-fot- autotrofie
-0	fotovodič	-fot- vodič
-0	fototeodolit	-fot- teodolit
-0	fotokomora	-fot- komora
-0	fotofór	-fot- fór
-0	fotosenzitivní	-fot- senzitivní
-0	fotoasambláž	-fot- asambláž
-0	fotoreliéf	-fot- reliéf
-0	fotokalendář	-fot- kalendář
-0	fotodvojice	-fot- dvojice
-0	fotoplotter	-fot- plotter
-0	fotoobraz	-fot- obraz
-0	fotorezistor	-fot- rezistor
-0	fotomozaika	-fot- mozaika
-0	fotokabina	-fot- kabina
-0	fotometrie	-fot- metrie
-0	fotolaboratoř	-fot- laboratoř
-0	fotoreklama	-fot- reklama
-0	fotofejeton	-fot- fejeton
-0	fotometeor	-fot- meteor
-0	fotoelektrický	-fot- elektrický
-0	fotovrstva	-fot- vrstva
-0	fototéka	-fot- téka
-0	fotomuzeum	-fot- muzeum
-0	fotokniha	-fot- kniha
-0	fotokonverze	-fot- konverze
-0	fotohistorie	-fot- historie
-0	fotogravura	-fot- gravura
-0	fotoakustika	-fot- akustika
-0	fotostudio	-fot- studio
-0	fotopásek	-fot- pásek
-0	fotoreverzibilní	-fot- reverzibilní
-0	fotoatelier	-fot- atelier
-0	fotozboží	-fot- zboží
-0	fotosalon	-fot- salon
-0	fotolitografie	-fot- litografie
-0	fotodatabáze	-fot- databáze
-0	fotoesej	-fot- esej
-0	fototest	-fot- test
-0	fotogalerie	-fot- galerie
-0	fotoservis	-fot- servis
-0	fotocela	-fot- cela
-0	fotosérie	-fot- série
-0	fotoshop	-fot- shop
-0	fotoarchiv	-fot- archiv
-0	fotopráce	-fot- práce
-0	fotoluminiscence	-fot- luminiscence
-0	fotoschéma	-fot- schéma
-0	fotoproud	-fot- proud
-0	fotobrašna	-fot- brašna
-0	fotomapa	-fot- mapa
-0	fototoxický	-fot- toxický
-0	fotoportrét	-fot- portrét
-0	fotoradar	-fot- radar
-0	fotosekce	-fot- sekce
-0	fotopast	-fot- past
-0	fotoateliér	-fot- ateliér
-0	fotopóza	-fot- póza
-0	fotobanka	-fot- banka
-0	fototapeta	-fot- tapeta
-0	fototropizmus	-fot- tropizmus
-0	fotokronika	-fot- kronika
-0	fotoalbum	-fot- album
-0	fotorecepce	-fot- recepce
-0	fotokoláž	-fot- koláž
-0	fototip	-fot- tip
-0	fotofiniš	-fot- finiš
-0	fotoagentura	-fot- agentura
-0	fotokazeta	-fot- kazeta
-0	fotofobie	-fot- fobie
-0	fotomateriál	-fot- materiál
-0	fotofestival	-fot- festival
-0	fotoreprodukce	-fot- reprodukce
-0	fototechnika	-fot- technika
-0	fototrofie	-fot- trofie
-0	fotogram	-fot- gram
-0	fotoškola	-fot- škola
-0	fotokamera	-fot- kamera
-0	fotoemise	-fot- emise
-0	fotoanketa	-fot- anketa
-0	fotoperioda	-fot- perioda
-0	fototranzistor	-fot- tranzistor
-0	fotoblog	-fot- blog
-0	fotodokument	-fot- dokument
-0	fotofirma	-fot- firma
-0	fotomonografie	-fot- monografie
-0	fotodioda	-fot- dioda
-0	fotoeditor	-fot- editor
-0	fotosféra	-fot- sféra
-0	fotoamatér	-fot- amatér
-0	fotosenzibilní	-fot- senzibilní
-0	fotochemie	-fot- chemie
-0	fotoromán	-fot- román
-0	fototerapie	-fot- terapie
-0	fotokiosek	-fot- kiosek
-0	fotomobil	-fot- mobil
-0	transkonduktance	-trans- konduktance
-0	transnacionální	-trans- nacionální
-0	transverzála	-trans- verzála
-0	transakce	-trans- akce
-0	transdermální	-trans- dermální
-0	transmutovat	-trans- mutovat
-0	transexpres	-trans- expres
-0	transkortikální	-trans- kortikální
-0	transkontejner	-trans- kontejner
-0	turbomotor	turbo motor
-0	turbodiesel	turbo diesel
-0	turbokarta	turbo karta
-0	turbofavorit	turbo favorit
-0	turbopauza	turbo pauza
-0	ultramikrofiš	-ultra- mikrofiš
-0	ultratvrdý	-ultra- tvrdý
-0	ultrapas	-ultra- pas
-0	ultračervený	-ultra- červený
-0	ultraradikál	-ultra- radikál
-0	ultrazvuk	-ultra- zvuk
-0	ultraortodoxní	-ultra- ortodoxní
-0	ultramalý	-ultra- malý
-0	ultrabazický	-ultra- bazický
-0	ultrasonografie	-ultra- sonografie
-0	ultravysoký	-ultra- vysoký
-0	ultrafiltr	-ultra- filtr
-0	ultrabohatý	-ultra- bohatý
-0	ultramontanizmus	-ultra- montanizmus
-0	ultrakrátkovlnný	-ultra- krátkovlnný
-0	ultralehký	-ultra- lehký
-0	ultratenký	-ultra- tenký
-0	ultraizmus	-ultra- izmus
-0	ultrabook	-ultra- book
-0	ultraakustika	-ultra- akustika
-0	ultrarychlý	-ultra- rychlý
-0	ultrarevizionizmus	-ultra- revizionizmus
-0	ultrapragmatický	-ultra- pragmatický
-0	ultrananoplankton	-ultra- nanoplankton
-0	ultratermostat	-ultra- termostat
-0	ultratriatlon	-ultra- triatlon
-0	ultramahagon	-ultra- mahagon
-0	ultrajemný	-ultra- jemný
-0	ultrakrátký	-ultra- krátký
-0	ultranaturalizmus	-ultra- naturalizmus
-0	ultralevý	-ultra- levý
-0	ultrakatolík	-ultra- katolík
-0	ultrakatolička	-ultra- katolička
-0	ultrapřesný	-ultra- přesný
-0	ultrastruktura	-ultra- struktura
-0	krimifilm	-krimi- film
-0	krimithriller	-krimi- thriller
-0	krimicyklus	-krimi- cyklus
-0	krimidrama	-krimi- drama
-0	krimisérie	-krimi- série
-0	krimikomedie	-krimi- komedie
-0	krimiparodie	-krimi- parodie
-0	krimiromán	-krimi- román
-0	megasvět	-mega- svět
-0	megacentrum	-mega- centrum
-0	megawatt	-mega- watt
-0	megaampér	-mega- ampér
-0	megabar	-mega- bar
-0	megakoncert	-mega- koncert
-0	megashow	-mega- show
-0	megavoltampér	-mega- voltampér
-0	megadiskotéka	-mega- diskotéka
-0	megaspora	-mega- spora
-0	megafúze	-mega- fúze
-0	megablok	-mega- blok
-0	megabyte	-mega- byte
-0	megaprogram	-mega- program
-0	megabohatý	-mega- bohatý
-0	megahertz	-mega- hertz
-0	megastar	-mega- star
-0	megareklama	-mega- reklama
-0	megavolt	-mega- volt
-0	megacolon	-mega- colon
-0	megapixel	-mega- pixel
-0	megaprojekt	-mega- projekt
-0	megacyklus	-mega- cyklus
-0	megastát	-mega- stát
-0	megavar	-mega- var
-0	megawatthodina	-mega- watthodina
-0	megapole	-mega- pole
-0	megatuna	-mega- tuna
-0	megaměsto	-mega- město
-0	megaveletrh	-mega- veletrh
-0	megajoul	-mega- joul
-0	megaboard	-mega- board
-0	megaohm	-mega- ohm
-0	megabecquerel	-mega- becquerel
-0	megaplankton	-mega- plankton
-0	megatrend	-mega- trend
-0	megafestival	-mega- festival
-0	megaflops	-mega- flops
-0	megabaud	-mega- baud
-0	megasoubor	-mega- soubor
-0	megafirma	-mega- firma
-0	megaampérhodina	-mega- ampérhodina
-0	megaparsek	-mega- parsek
-0	megafauna	-mega- fauna
-0	megastruktura	-mega- struktura
-0	megahit	-mega- hit
-0	megahvězda	-mega- hvězda
-0	megalopole	-mega- pole
-0	supermono	-super- mono
-0	superkamion	-super- kamion
-0	supermotard	-super- motard
-0	supertěžký	-super- těžký
-0	gigawatt	-giga- watt
-0	gigaampér	-giga- ampér
-0	gigapascal	-giga- pascal
-0	gigabyte	-giga- byte
-0	gigahertz	-giga- hertz
-0	gigavolt	-giga- volt
-0	gigabit	-giga- bit
-0	gigawatthodina	-giga- watthodina
-0	gigatuna	-giga- tuna
-0	gigajoul	-giga- joul
-0	gigaohm	-giga- ohm
-0	gigaflops	-giga- flops
-0	gigaampérhodina	-giga- ampérhodina
-0	gigakalorie	-giga- kalorie
-0	pidižena	píď žena
-0	pidizem	píď zem
-0	pidistrana	píď strana
-0	piditrh	píď trh
-0	pidigarsonka	píď garsonka
-0	pidirole	píď role
-0	pidibarák	píď barák
-0	pidistát	píď stát
-0	pidimuž	píď muž
-0	pidiměsto	píď město
-0	pidiauto	píď auto
-0	pidichata	píď chata
-0	pidiprostý	píď prostý
-0	pidilyže	píď lyže
-0	pidikancelář	píď kancelář
-0	mimozemšťan	mimo zemšťan
-0	mimoglobální	mimo globální
-0	telefeérie	-tel- feérie
-0	teleturnaj	-tel- turnaj
-0	telesoutěž	-tel- soutěž
-0	telekopie	-tel- kopie
-0	teleprinter	-tel- printer
-0	teleport	-tel- port
-0	telekonference	-tel- konference
-0	telefax	-tel- fax
-0	telegymnastika	-tel- gymnastika
-0	telekomunikovat	-tel- komunikovat
-0	teleprezence	-tel- prezence
-0	telekonvertor	-tel- konvertor
-0	teletéka	-tel- téka
-0	televize	-tel- vize
-0	telenovela	-tel- novela
-0	telefonotéka	-tel- fonotéka
-0	teleservis	-tel- servis
-0	telemarketing	-tel- marketing
-0	telekarta	-tel- karta
-0	teleshopping	-tel- shopping
-0	teletext	-tel- text
-0	telemost	-tel- most
-0	telekviz	-tel- kviz
-0	telefoto	-tel- foto
-0	telemechanika	-tel- mechanika
-0	telefotografie	-tel- fotografie
-0	telesetkat	-tel- setkat
-0	telomera	tel mera
-0	telofáze	tel fáze
-0	mikrowatt	-mikr- watt
-0	mikroampér	-mikr- ampér
-0	mikrovolt	-mikr- volt
-0	mikroampérhodina	-mikr- ampérhodina
-0	sportcentrum	sport centrum
-0	polosvět	půl svět
-0	polokoule	půl koule
-0	polotovar	půl tovar
-0	polotuhý	půl tuhý
-0	polosen	půl sen
-0	polonahý	půl nahý
-0	polosamostatný	půl samostatný
-0	polobdít	půl bdít
-0	polotvrdý	půl tvrdý
-0	polomrtvý	půl mrtvý
-0	polotvar	půl tvar
-0	polosyrový	půl syrový
-0	polodlouhý	půl dlouhý
-0	polohad	půl had
-0	polosoukromý	půl soukromý
-0	polomontovat	půl montovat
-0	poloteplý	půl teplý
-0	poloosa	půl osa
-0	poloplášť	půl plášť
-0	poločerný	půl černý
-0	poloreforma	půl reforma
-0	poloparazit	půl parazit
-0	polovysokoškolský	půl vysokoškolský
-0	polostrmý	půl strmý
-0	polosladký	půl sladký
-0	polokruh	půl kruh
-0	polokošile	půl košile
-0	polounciála	půl unciála
-0	polootrok	půl otrok
-0	polobedna	půl bedna
-0	poloverš	půl verš
-0	polobůh	půl bůh
-0	polohořký	půl hořký
-0	polodetail	půl detail
-0	polokov	půl kov
-0	poloobr	půl obr
-0	polovlna	půl vlna
-0	polopergamen	půl pergamen
-0	polovodič	půl vodič
-0	polopravý	půl pravý
-0	polostín	půl stín
-0	polostrom	půl strom
-0	poloslinutý	půl slinutý
-0	polovysoký	půl vysoký
-0	poloreportáž	půl reportáž
-0	poloparuka	půl paruka
-0	polokeř	půl keř
-0	polohoror	půl horor
-0	poloreliéf	půl reliéf
-0	polosuchý	půl suchý
-0	pololán	půl lán
-0	polosenzace	půl senzace
-0	polohlas	půl hlas
-0	polosedět	půl sedět
-0	poloostrý	půl ostrý
-0	poloproletář	půl proletář
-0	polosamohláska	půl samohláska
-0	polobratr	půl bratr
-0	polobalada	půl balada
-0	polohotový	půl hotový
-0	polozrát	půl zrát
-0	polovat	půl vat
-0	polobohatý	půl bohatý
-0	polodrahý	půl drahý
-0	poloměkký	půl měkký
-0	poloprázdný	půl prázdný
-0	pololegální	půl legální
-0	poloosel	půl osel
-0	poloopice	půl opice
-0	polohustý	půl hustý
-0	polosamočinný	půl samočinný
-0	poloblbý	půl blbý
-0	poloslabý	půl slabý
-0	polokarakul	půl karakul
-0	polomaska	půl maska
-0	polotma	půl tma
-0	poloruina	půl ruina
-0	polotón	půl tón
-0	poloagrární	půl agrární
-0	poločas	půl čas
-0	polohrubý	půl hrubý
-0	polokůže	půl kůže
-0	poloperzián	půl perzián
-0	polotyp	půl typ
-0	poločlověk	půl člověk
-0	polootevřít	půl otevřít
-0	polokonfekce	půl konfekce
-0	polokřídlo	půl křídlo
-0	polokanton	půl kanton
-0	poloprodukt	půl produkt
-0	polofáma	půl fáma
-0	poloraný	půl raný
-0	polokolonie	půl kolonie
-0	poloduplex	půl duplex
-0	polosirota	půl sirota
-0	poloautonomní	půl autonomní
-0	polopatro	půl patro
-0	polosyntetický	půl syntetický
-0	polovina	půl vina
-0	polokřeslo	půl křeslo
-0	polopodzemní	půl podzemní
-0	polokarton	půl karton
-0	polosvéprávný	půl svéprávný
-0	polovrak	půl vrak
-0	polojemnovlnný	půl jemnovlnný
-0	polokomedie	půl komedie
-0	pologénius	půl génius
-0	polofabrikát	půl fabrikát
-0	polojemný	půl jemný
-0	polokonzerva	půl konzerva
-0	pološvestka	půl švestka
-0	poloblb	půl blb
-0	polospát	půl spát
-0	polorafinovat	půl rafinovat
-0	polokoks	půl koks
-0	polodrážkovník	půl drážkovník
-0	polopřímý	půl přímý
-0	poloprezident	půl prezident
-0	polostabilní	půl stabilní
-0	poloslepý	půl slepý
-0	poloklabonosý	půl klabonosý
-0	polopás	půl pás
-0	pološkola	půl škola
-0	polosamota	půl samota
-0	polopenze	půl penze
-0	polomaketa	půl maketa
-0	polooblý	půl oblý
-0	polohedvábí	půl hedvábí
-0	polokupé	půl kupé
-0	polozdravý	půl zdravý
-0	polostep	půl step
-0	polověnec	půl věnec
-0	polosytý	půl sytý
-0	poloprofil	půl profil
-0	pološikmý	půl šikmý
-0	polokaskáda	půl kaskáda
-0	poloautomat	půl automat
-0	poloacetal	půl acetal
-0	polokopec	půl kopec
-0	poloblázen	půl blázen
-0	polotěžký	půl těžký
-0	polosloup	půl sloup
-0	poloamatér	půl amatér
-0	polobřevno	půl břevno
-0	polopermanentní	půl permanentní
-0	polofeudální	půl feudální
-0	polointeligence	půl inteligence
-0	polodlouhosrstý	půl dlouhosrstý
-0	poloparlament	půl parlament
-0	polobarbar	půl barbar
-0	poloostrov	půl ostrov
-0	poloveřejný	půl veřejný
-0	polokmen	půl kmen
-0	pološeře	půl šeře
-0	půlhodina	půl hodina
-0	půlden	půl den
-0	půlstoletý	půl stoletý
-0	půlkilo	půl kilo
-0	půlmilionář	půl milionář
-0	půlvteřina	půl vteřina
-0	půlkrupon	půl krupon
-0	půldeci	půl deci
-0	půlakt	půl akt
-0	půlverš	půl verš
-0	půlstrana	půl strana
-0	půlvlna	půl vlna
-0	půlarch	půl arch
-0	půllitr	půl litr
-0	půlšašlik	půl šašlik
-0	půllán	půl lán
-0	půlbyte	půl byte
-0	půlkrok	půl krok
-0	půlobraz	půl obraz
-0	půlhektar	půl hektar
-0	půltisícový	půl tisícový
-0	půlmetr	půl metr
-0	půltón	půl tón
-0	půlprocento	půl procento
-0	půlstovka	půl stovka
-0	půlpenny	půl penny
-0	půlpinta	půl pinta
-0	půlkanton	půl kanton
-0	půltuna	půl tuna
-0	půlfáze	půl fáze
-0	půlkolo	půl kolo
-0	půlbilionový	půl bilionový
-0	půldruhý	půl druhý
-0	půletapa	půl etapa
-0	půlminuta	půl minuta
-0	půlmilionový	půl milionový
-0	půltisíciletý	půl tisíciletý
-0	půldecilitrový	půl decilitrový
-0	půldolar	půl dolar
-0	půlmost	půl most
-0	půlšilink	půl šilink
-0	půlnoc	půl noc
-0	půltucet	půl tucet
-0	půlmiliardový	půl miliardový
-0	půlperioda	půl perioda
-0	půlbochník	půl bochník
-0	půlvěnec	půl věnec
-0	půlměsíc	půl měsíc
-0	půlsekunda	půl sekunda
-0	půlslabika	půl slabika
-0	půloliva	půl oliva
-0	půlpár	půl pár
-0	půlkůň	půl kůň
-0	polylinie	-poly- linie
-0	polyethylen	-poly- ethylen
-0	polyfenol	-poly- fenol
-0	polyamid	-poly- amid
-0	polymethylmetakrylát	-poly- methylmetakrylát
-0	polyen	-poly- en
-0	polypropylenglykol	-poly- propylenglykol
-0	polyolefin	-poly- olefin
-0	polygen	-poly- gen
-0	polycenóza	-poly- cenóza
-0	polyfenylen	-poly- fenylen
-0	polyazobarvivo	-poly- azobarvivo
-0	polysulfid	-poly- sulfid
-0	polypeptid	-poly- peptid
-0	polykrystal	-poly- krystal
-0	polyterpen	-poly- terpen
-0	polyaxiální	-poly- axiální
-0	polyneuritida	-poly- neuritida
-0	polyvinyl	-poly- vinyl
-0	polyfont	-poly- font
-0	polyteizmus	-poly- teizmus
-0	polyvalence	-poly- valence
-0	polynukleotid	-poly- nukleotid
-0	polymorf	-poly- morf
-0	polysacharid	-poly- sacharid
-0	polyfenylalanin	-poly- fenylalanin
-0	polyizobutylen	-poly- izobutylen
-0	polyakrylonitril	-poly- akrylonitril
-0	polyhalit	-poly- halit
-0	polygeneze	-poly- geneze
-0	polyvinylchlorid	-poly- vinylchlorid
-0	polyhistorie	-poly- historie
-0	polyneuritis	-poly- neuritis
-0	polytyp	-poly- typ
-0	polyekran	-poly- ekran
-0	polysulfit	-poly- sulfit
-0	polyfosforečný	-poly- fosforečný
-0	polyvinylether	-poly- vinylether
-0	polykaprolaktam	-poly- kaprolaktam
-0	polyamin	-poly- amin
-0	polyisopren	-poly- isopren
-0	polyhydroxyderivát	-poly- hydroxyderivát
-0	polynitrosloučenina	-poly- nitrosloučenina
-0	polychloropren	-poly- chloropren
-0	polyvinylacetát	-poly- vinylacetát
-0	polysyntetický	-poly- syntetický
-0	polyimid	-poly- imid
-0	polypropylén	-poly- propylén
-0	polyisobutylen	-poly- isobutylen
-0	polysulfon	-poly- sulfon
-0	polyarteriitis	-poly- arteriitis
-0	polyhydroxykarboxylový	-poly- hydroxykarboxylový
-0	polymethylen	-poly- methylen
-0	polyneuropatie	-poly- neuropatie
-0	polynukleární	-poly- nukleární
-0	polyadukt	-poly- adukt
-0	polyserozitida	-poly- serozitida
-0	polytechnika	-poly- technika
-0	polyarteriitida	-poly- arteriitida
-0	polystyrén	-poly- styrén
-0	polyethylenglykol	-poly- ethylenglykol
-0	polyaldehyd	-poly- aldehyd
-0	polyfylogeneze	-poly- fylogeneze
-0	polyhydroxysloučenina	-poly- hydroxysloučenina
-0	polyfág	-poly- fág
-0	polyglot	-poly- glot
-0	polyacetal	-poly- acetal
-0	polyhybrid	-poly- hybrid
-0	multiatribut	-multi- atribut
-0	multisíť	-multi- síť
-0	multimodel	-multi- model
-0	multivitamin	-multi- vitamin
-0	multiport	-multi- port
-0	multimédium	-multi- médium
-0	multiplet	-multi- plet
-0	multinacionální	-multi- nacionální
-0	multifont	-multi- font
-0	multistandard	-multi- standard
-0	multikára	-multi- kára
-0	multibyte	-multi- byte
-0	multiprogram	-multi- program
-0	multivideo	-multi- video
-0	multidrop	-multi- drop
-0	multidownload	-multi- download
-0	multimetr	-multi- metr
-0	multiprojekt	-multi- projekt
-0	multiplayer	-multi- player
-0	multithreading	-multi- threading
-0	multiprotokol	-multi- protokol
-0	multikoncern	-multi- koncern
-0	multikino	-multi- kino
-0	multiverze	-multi- verze
-0	multiservis	-multi- servis
-0	multikriteriální	-multi- kriteriální
-0	multipól	-multi- pól
-0	multiadaptér	-multi- adaptér
-0	multinomický	-multi- nomický
-0	multilicence	-multi- licence
-0	multifil	-multi- fil
-0	multitask	-multi- task
-0	multikarta	-multi- karta
-0	multicasting	-multi- casting
-0	multimilionový	-multi- milionový
-0	multimiliardář	-multi- miliardář
-0	multimiliardový	-multi- miliardový
-0	multitalent	-multi- talent
-0	radiodiagnostika	-radi- diagnostika
-0	radioautomobil	-radi- automobil
-0	radiovelkoobchod	-radi- velkoobchod
-0	radioteleskop	-radi- teleskop
-0	radioastrofyzika	-radi- astrofyzika
-0	radiopotřeba	-radi- potřeba
-0	radionika	-radi- nika
-0	radionotebook	-radi- notebook
-0	radiokarbon	-radi- karbon
-0	radioimunostanovení	-radi- imunostanovení
-0	radioimunoanalýza	-radi- imunoanalýza
-0	radiotelefon	-radi- telefon
-0	radiomagnetofon	-radi- magnetofon
-0	radiobiologie	-radi- biologie
-0	radiomodem	-radi- modem
-0	radiokompas	-radi- kompas
-0	radiodálnopis	-radi- dálnopis
-0	radioastronomie	-radi- astronomie
-0	radioindikátor	-radi- indikátor
-0	radiofobie	-radi- fobie
-0	radiomost	-radi- most
-0	radioizotop	-radi- izotop
-0	radiofotografie	-radi- fotografie
-0	radiomrakodrap	-radi- mrakodrap
-0	radiointerferometrie	-radi- interferometrie
-0	nitroskupina	-nitr- skupina
-0	nitrochlorbenzen	-nitr- chlorbenzen
-0	nitrofenol	-nitr- fenol
-0	nitroblána	-nitr- blána
-0	nitroglycerol	-nitr- glycerol
-0	nitroanilin	-nitr- anilin
-0	nitrobarva	-nitr- barva
-0	nitropyridin	-nitr- pyridin
-0	nitrodiazonaftolsulfokyselina	-nitr- diazonaftolsulfokyselina
-0	nitrocelulosa	-nitr- celulosa
-0	nitrolátka	-nitr- látka
-0	nitropropan	-nitr- propan
-0	nitrobifenyl	-nitr- bifenyl
-0	nitroglycerin	-nitr- glycerin
-0	nitrobenzen	-nitr- benzen
-0	nitroglykol	-nitr- glykol
-0	nitroska	-nitr- ska
-0	nitrotoluen	-nitr- toluen
-0	nitroalkan	-nitr- alkan
-0	nitroester	-nitr- ester
-0	nitrobenzaldehyd	-nitr- benzaldehyd
-0	nitrometan	-nitr- metan
-0	nitronaftalen	-nitr- naftalen
-0	nitrolak	-nitr- lak
-0	nitrocelulóza	-nitr- celulóza
+lemma	parents
+aerolinie	-aer- linie
+aeromagnetometrie	-aer- magnetometrie
+aeroport	-aer- port
+aerogen	-aer- gen
+aeroshow	-aer- show
+aerogel	-aer- gel
+aerobioskop	-aer- bioskop
+aerosol	-aer- sol
+aerometr	-aer- metr
+aerosalon	-aer- salon
+aerodyn	-aer- dyn
+aeroplán	-aer- plán
+aerogravimetrie	-aer- gravimetrie
+aerootitida	-aer- otitida
+aeroplankton	-aer- plankton
+aerotaxi	-aer- taxi
+aeroklimatologie	-aer- klimatologie
+aerotop	-aer- top
+aerofobie	-aer- fobie
+aeromechanika	-aer- mechanika
+aerobus	-aer- bus
+aeronautika	-aer- nautika
+arcizloduch	-arci- zloduch
+arcišpatný	-arci- špatný
+arcikmotr	-arci- kmotr
+arcikníže	-arci- kníže
+arciďábel	-arci- ďábel
+arcizloděj	-arci- zloděj
+arcidiecéze	-arci- diecéze
+arcijáhen	-arci- jáhen
+arcibiskup	-arci- biskup
+arciloutna	-arci- loutna
+arcivikář	-arci- vikář
+arcikněz	-arci- kněz
+arciděkan	-arci- děkan
+arcipadouch	-arci- padouch
+arcilotr	-arci- lotr
+arcirival	-arci- rival
+arcikonzervativní	-arci- konzervativní
+arciměsto	-arci- město
+arciopat	-arci- opat
+arcilump	-arci- lump
+arciblb	-arci- blb
+arcibalvan	-arci- balvan
+arciromán	-arci- román
+arcisoupeř	-arci- soupeř
+biolobby	-bio- lobby
+biofilm	-bio- film
+biokontrola	-bio- kontrola
+biorovnováha	-bio- rovnováha
+biosvět	-bio- svět
+biocentrum	-bio- centrum
+biooves	-bio- oves
+biobageta	-bio- bageta
+biokráva	-bio- kráva
+biodiagnostika	-bio- diagnostika
+biorepublika	-bio- republika
+biosen	-bio- sen
+biočaj	-bio- čaj
+biovuřt	-bio- vuřt
+biolinie	-bio- linie
+biosnob	-bio- snob
+biotmel	-bio- tmel
+biománie	-bio- mánie
+biopantofel	-bio- pantofel
+biopunktura	-bio- punktura
+biokrém	-bio- krém
+biokvota	-bio- kvota
+biotěsto	-bio- těsto
+biosimilární	-bio- similární
+biohovězí	-bio- hovězí
+biopavilon	-bio- pavilon
+biolaktóza	-bio- laktóza
+biolék	-bio- lék
+biošpek	-bio- špek
+biopas	-bio- pas
+bioproces	-bio- proces
+biotextil	-bio- textil
+biohuť	-bio- huť
+biokoruna	-bio- koruna
+biosůl	-bio- sůl
+bioden	-bio- den
+biocihla	-bio- cihla
+biochirurgie	-bio- chirurgie
+biomodel	-bio- model
+biočesnek	-bio- česnek
+bioalkohol	-bio- alkohol
+biokrůta	-bio- krůta
+bioidyla	-bio- idyla
+biokáva	-bio- káva
+biojogurt	-bio- jogurt
+biocitrus	-bio- citrus
+biotriko	-bio- triko
+bioslimák	-bio- slimák
+biodoba	-bio- doba
+biopapež	-bio- papež
+biobenzin	-bio- benzin
+biotin	-bio- tin
+bioakademie	-bio- akademie
+biosalám	-bio- salám
+bioport	-bio- port
+biokoroze	-bio- koroze
+biojahoda	-bio- jahoda
+biotaška	-bio- taška
+biokečup	-bio- kečup
+biočokoláda	-bio- čokoláda
+bioaerosol	-bio- aerosol
+biobox	-bio- box
+biopůvod	-bio- původ
+biouhel	-bio- uhel
+biožena	-bio- žena
+biopytel	-bio- pytel
+biokošile	-bio- košile
+biokopřiva	-bio- kopřiva
+biocenóza	-bio- cenóza
+biobar	-bio- bar
+bioinvaze	-bio- invaze
+bioorganominerální	-bio- organominerální
+biokakao	-bio- kakao
+biokampaň	-bio- kampaň
+biopes	-bio- pes
+biodrink	-bio- drink
+bioživotospráva	-bio- životospráva
+biopotřeba	-bio- potřeba
+biosenzor	-bio- senzor
+biolíh	-bio- líh
+biožito	-bio- žito
+biomošt	-bio- mošt
+bioshow	-bio- show
+biodřevo	-bio- dřevo
+biomüsli	-bio- müsli
+biogel	-bio- gel
+biosystém	-bio- systém
+biorohlík	-bio- rohlík
+biota	-bio- ta
+biovejce	-bio- vejce
+biomáslo	-bio- máslo
+bioořech	-bio- ořech
+bionádoba	-bio- nádoba
+biookurka	-bio- okurka
+biotrh	-bio- trh
+bionika	-bio- nika
+biopiškot	-bio- piškot
+biokategorie	-bio- kategorie
+biosociologie	-bio- sociologie
+biovýrok	-bio- výrok
+biorecept	-bio- recept
+biozemědělec	-bio- zemědělec
+biosyrob	-bio- syrob
+biohazard	-bio- hazard
+bioparadox	-bio- paradox
+bioskot	-bio- skot
+biopěna	-bio- pěna
+biooběd	-bio- oběd
+biohermelín	-bio- hermelín
+biobriketa	-bio- briketa
+biocukr	-bio- cukr
+biodžus	-bio- džus
+biokritérium	-bio- kritérium
+biokoza	-bio- koza
+biofiltr	-bio- filtr
+biovíno	-bio- víno
+bioplod	-bio- plod
+biokukuřice	-bio- kukuřice
+bioleťák	-bio- leťák
+biokoktajl	-bio- koktajl
+biodeska	-bio- deska
+bionegativní	-bio- negativní
+biokoleno	-bio- koleno
+biolovečák	-bio- lovečák
+bioart	-bio- art
+biominerál	-bio- minerál
+biogastronomie	-bio- gastronomie
+biomed	-bio- med
+bioprogram	-bio- program
+bioimpedance	-bio- impedance
+biomarihuana	-bio- marihuana
+biofacie	-bio- facie
+biopeleta	-bio- peleta
+biodiesel	-bio- diesel
+biočočka	-bio- čočka
+biochléb	-bio- chléb
+bioluštěnina	-bio- luštěnina
+biohnůj	-bio- hnůj
+biohusa	-bio- husa
+bioregion	-bio- region
+biopolymer	-bio- polymer
+biošok	-bio- šok
+biometrie	-bio- metrie
+biokedlubna	-bio- kedlubna
+biosalát	-bio- salát
+biočip	-bio- čip
+bioakce	-bio- akce
+bioinstitut	-bio- institut
+biosklo	-bio- sklo
+biotele	-bio- tele
+bioobilí	-bio- obilí
+bioříše	-bio- říše
+bioekonomie	-bio- ekonomie
+biotyčinka	-bio- tyčinka
+biomenu	-bio- menu
+biomarket	-bio- market
+biomaso	-bio- maso
+biofaktor	-bio- faktor
+biosláma	-bio- sláma
+biolaboratoř	-bio- laboratoř
+bioelektrochemie	-bio- elektrochemie
+biopesticid	-bio- pesticid
+biolampa	-bio- lampa
+bioenzym	-bio- enzym
+bioprovincie	-bio- provincie
+biozelený	-bio- zelený
+biomembrána	-bio- membrána
+biofilet	-bio- filet
+biosádlo	-bio- sádlo
+bioinsekticid	-bio- insekticid
+biolahev	-bio- lahev
+biozóna	-bio- zóna
+biozdroj	-bio- zdroj
+biosteak	-bio- steak
+bioelektrický	-bio- elektrický
+biovarianta	-bio- varianta
+biomarker	-bio- marker
+biopark	-bio- park
+bionudle	-bio- nudle
+biocibule	-bio- cibule
+biosynchron	-bio- synchron
+biopiknik	-bio- piknik
+biocapart	-bio- capart
+biozebra	-bio- zebra
+bioprojekt	-bio- projekt
+biokrb	-bio- krb
+biopsychosociální	-bio- psychosociální
+bioskafandr	-bio- skafandr
+biometeorologie	-bio- meteorologie
+bioklima	-bio- klima
+bioceler	-bio- celer
+biošunka	-bio- šunka
+biocyklus	-bio- cyklus
+biopřítel	-bio- přítel
+biokaše	-bio- kaše
+biosponzor	-bio- sponzor
+biopalác	-bio- palác
+biogeneze	-bio- geneze
+bioevoluce	-bio- evoluce
+biocena	-bio- cena
+biovřeteno	-bio- vřeteno
+biokiwi	-bio- kiwi
+biokocovina	-bio- kocovina
+biojatky	-bio- jatky
+biosliz	-bio- sliz
+biobota	-bio- bota
+biomouka	-bio- mouka
+biomunice	-bio- munice
+biopolenta	-bio- polenta
+biomolekula	-bio- molekula
+biocigareta	-bio- cigareta
+biobáze	-bio- báze
+bioagens	-bio- agens
+biodesign	-bio- design
+biotyp	-bio- typ
+biošťáva	-bio- šťáva
+biopomeranč	-bio- pomeranč
+bioplyn	-bio- plyn
+biozboží	-bio- zboží
+biorána	-bio- rána
+biokočka	-bio- kočka
+biočlověk	-bio- člověk
+biokúra	-bio- kúra
+biokerosin	-bio- kerosin
+biorám	-bio- rám
+bioteror	-bio- teror
+biolátka	-bio- látka
+bioverze	-bio- verze
+biostatistika	-bio- statistika
+biohruška	-bio- hruška
+biofarma	-bio- farma
+biovinohrad	-bio- vinohrad
+biožrout	-bio- žrout
+biopole	-bio- pole
+biotest	-bio- test
+biofikce	-bio- fikce
+biokout	-bio- kout
+bioboom	-bio- boom
+biobýk	-bio- býk
+biosynagoga	-bio- synagoga
+biomimikry	-bio- mimikry
+bioindex	-bio- index
+biolexikon	-bio- lexikon
+biowhisky	-bio- whisky
+biomatematika	-bio- matematika
+biokatedra	-bio- katedra
+biopaprika	-bio- paprika
+bioherbicid	-bio- herbicid
+biotábor	-bio- tábor
+biokopr	-bio- kopr
+biogeochemie	-bio- geochemie
+biokapr	-bio- kapr
+bioskutek	-bio- skutek
+biodobytek	-bio- dobytek
+biotransformovat	-bio- transformovat
+bioluminiscence	-bio- luminiscence
+biomák	-bio- mák
+biohrách	-bio- hrách
+biorakev	-bio- rakev
+biokotel	-bio- kotel
+biosauna	-bio- sauna
+bioplán	-bio- plán
+bioproud	-bio- proud
+biodatle	-bio- datle
+biohouba	-bio- houba
+biodžem	-bio- džem
+bioradar	-bio- radar
+biopšenice	-bio- pšenice
+biořízek	-bio- řízek
+biomeruňka	-bio- meruňka
+bioveletrh	-bio- veletrh
+biopast	-bio- past
+biolegislativa	-bio- legislativa
+bioprotéza	-bio- protéza
+biostroj	-bio- stroj
+biostyl	-bio- styl
+bioovoce	-bio- ovoce
+biorežim	-bio- režim
+biobanka	-bio- banka
+bioerror	-bio- error
+biooblast	-bio- oblast
+biobanán	-bio- banán
+biorytmus	-bio- rytmus
+bioréva	-bio- réva
+biokapela	-bio- kapela
+biochemoterapie	-bio- chemoterapie
+biomrkev	-bio- mrkev
+bioplankton	-bio- plankton
+biodžíny	-bio- džíny
+biosortiment	-bio- sortiment
+biotitovec	-bio- titovec
+biomeloun	-bio- meloun
+biosubstance	-bio- substance
+biokompost	-bio- kompost
+bioryba	-bio- ryba
+biomelatonin	-bio- melatonin
+bioefekt	-bio- efekt
+biokosmetika	-bio- kosmetika
+biodrůbež	-bio- drůbež
+biopantofle	-bio- pantofle
+bioherma	-bio- herma
+biokremace	-bio- kremace
+biograf	-bio- graf
+biokompatibilní	-bio- kompatibilní
+biobiftek	-bio- biftek
+biokřen	-bio- křen
+biotrend	-bio- trend
+biohumus	-bio- humus
+biokonzerva	-bio- konzerva
+biodilema	-bio- dilema
+biolimonáda	-bio- limonáda
+bioplast	-bio- plast
+biosendvič	-bio- sendvič
+bioveka	-bio- veka
+biopterin	-bio- pterin
+bioaloe	-bio- aloe
+biomléko	-bio- mléko
+biotop	-bio- top
+biomatka	-bio- matka
+bioolej	-bio- olej
+biosignál	-bio- signál
+biomoc	-bio- moc
+biolikér	-bio- likér
+biokvalita	-bio- kvalita
+biofobie	-bio- fobie
+biosýr	-bio- sýr
+biomateriál	-bio- materiál
+bioflavonoid	-bio- flavonoid
+biovlákno	-bio- vlákno
+biotuřín	-bio- tuřín
+biokoláč	-bio- koláč
+biomasáž	-bio- masáž
+biosociální	-bio- sociální
+bioplocha	-bio- plocha
+bioekologie	-bio- ekologie
+biomarmeláda	-bio- marmeláda
+biokeks	-bio- keks
+biofóbie	-bio- fóbie
+biotechnika	-bio- technika
+biokefír	-bio- kefír
+biomakromolekula	-bio- makromolekula
+biohmota	-bio- hmota
+biogram	-bio- gram
+biomost	-bio- most
+biodům	-bio- dům
+biolis	-bio- lis
+bioplíseň	-bio- plíseň
+biobandáž	-bio- bandáž
+bioagent	-bio- agent
+biojarmark	-bio- jarmark
+bioráj	-bio- ráj
+biofond	-bio- fond
+biolen	-bio- len
+biokarotka	-bio- karotka
+bioenergie	-bio- energie
+biováha	-bio- váha
+bioglycerin	-bio- glycerin
+bioalternativa	-bio- alternativa
+biomonstrum	-bio- monstrum
+biotranzistor	-bio- tranzistor
+biosezam	-bio- sezam
+bioseno	-bio- seno
+bioplantáž	-bio- plantáž
+biomechanika	-bio- mechanika
+biofirma	-bio- firma
+bioparty	-bio- party
+biobylina	-bio- bylina
+bioementál	-bio- ementál
+biohotel	-bio- hotel
+biovak	-bio- vak
+biohedvábí	-bio- hedvábí
+biohumbuk	-bio- humbuk
+biotrabant	-bio- trabant
+bioskandál	-bio- skandál
+biokordon	-bio- kordon
+biorezonance	-bio- rezonance
+biošpalda	-bio- špalda
+bioprase	-bio- prase
+biokriterium	-bio- kriterium
+biověc	-bio- věc
+biolaser	-bio- laser
+biojablko	-bio- jablko
+biorýže	-bio- rýže
+biobistro	-bio- bistro
+biobambus	-bio- bambus
+biovitální	-bio- vitální
+biohouska	-bio- houska
+biovčela	-bio- včela
+biofág	-bio- fág
+biostruktura	-bio- struktura
+biobonbon	-bio- bonbon
+biofeedback	-bio- feedback
+biomagor	-bio- magor
+biobuben	-bio- buben
+biokulak	-bio- kulak
+biobufet	-bio- bufet
+biosirup	-bio- sirup
+biobuřt	-bio- buřt
+biocereální	-bio- cereální
+bioekvivalence	-bio- ekvivalence
+biotermální	-bio- termální
+biokapacita	-bio- kapacita
+bioluxus	-bio- luxus
+biomelanin	-bio- melanin
+biodítě	-bio- dítě
+bioinženýr	-bio- inženýr
+bioareál	-bio- areál
+biogenerický	-bio- generický
+biozvíře	-bio- zvíře
+bioměsíc	-bio- měsíc
+biosféra	-bio- sféra
+biobuchta	-bio- buchta
+bioplazma	-bio- plazma
+biostimul	-bio- stimul
+biotrpaslík	-bio- trpaslík
+biotechnologie	-bio- technologie
+biopirát	-bio- pirát
+biokonopí	-bio- konopí
+bioterapie	-bio- terapie
+bioraut	-bio- raut
+bioocet	-bio- ocet
+biokontejner	-bio- kontejner
+biootruby	-bio- otruby
+biometan	-bio- metan
+bioostrov	-bio- ostrov
+biokonto	-bio- konto
+biokeramika	-bio- keramika
+biobranže	-bio- branže
+biocitron	-bio- citron
+biosyn	-bio- syn
+bioobjekt	-bio- objekt
+bioosivo	-bio- osivo
+biostratigrafie	-bio- stratigrafie
+cykloterpenicky	-cykl- terpenicky
+cykloskupina	-cykl- skupina
+cyklocentrum	-cykl- centrum
+cyklošortky	-cykl- šortky
+cyklokalhoty	-cykl- kalhoty
+cykloslalom	-cykl- slalom
+cyklonit	-cykl- nit
+cyklosoutěž	-cykl- soutěž
+cyklonosič	-cykl- nosič
+cyklodynastie	-cykl- dynastie
+cyklogenerel	-cykl- generel
+cyklopas	-cykl- pas
+cyklokolona	-cykl- kolona
+cyklodextrin	-cykl- dextrin
+cyklostáj	-cykl- stáj
+cyklodrak	-cykl- drak
+cykloden	-cykl- den
+cyklosezona	-cykl- sezona
+cyklorevoluce	-cykl- revoluce
+cyklokurýr	-cykl- kurýr
+cyklokonference	-cykl- konference
+cyklopeleton	-cykl- peleton
+cyklokros	-cykl- kros
+cykloliga	-cykl- liga
+cykloválka	-cykl- válka
+cykloexpert	-cykl- expert
+cyklokruh	-cykl- kruh
+cyklobar	-cykl- bar
+cyklomagistrála	-cykl- magistrála
+cyklolávka	-cykl- lávka
+cyklodiskuze	-cykl- diskuze
+cyklokampaň	-cykl- kampaň
+cyklopotřeba	-cykl- potřeba
+cyklopatriot	-cykl- patriot
+cyklopouť	-cykl- pouť
+cyklopentan	-cykl- pentan
+cyklofotokoagulace	-cykl- fotokoagulace
+cyklopadesátka	-cykl- padesátka
+cyklozloděj	-cykl- zloděj
+cyklorikša	-cykl- rikša
+cyklooasa	-cykl- oasa
+cyklostezka	-cykl- stezka
+cyklopáteř	-cykl- páteř
+cyklovidlák	-cykl- vidlák
+cyklošátek	-cykl- šátek
+cyklovečer	-cykl- večer
+cykloserver	-cykl- server
+cykloautobus	-cykl- autobus
+cyklohappening	-cykl- happening
+cykloinzerát	-cykl- inzerát
+cykloart	-cykl- art
+cyklobalet	-cykl- balet
+cyklohelma	-cykl- helma
+cykloprogram	-cykl- program
+cyklosport	-cykl- sport
+cykloprůvodce	-cykl- průvodce
+cyklomagnát	-cykl- magnát
+cykloregion	-cykl- region
+cyklochunta	-cykl- chunta
+cykloakce	-cykl- akce
+cykločást	-cykl- část
+cykloveterán	-cykl- veterán
+cykloid	-cykl- id
+cykloexkurze	-cykl- exkurze
+cyklobaron	-cykl- baron
+cyklonadace	-cykl- nadace
+cyklokolega	-cykl- kolega
+cyklokurz	-cykl- kurz
+cykloštafeta	-cykl- štafeta
+cyklolahev	-cykl- lahev
+cyklozóna	-cykl- zóna
+cykloatlas	-cykl- atlas
+cyklotaškařice	-cykl- taškařice
+cyklopark	-cykl- park
+cyklotramvaj	-cykl- tramvaj
+cyklopruh	-cykl- pruh
+cykloturné	-cykl- turné
+cykloaerobik	-cykl- aerobik
+cykloprojekt	-cykl- projekt
+cyklopřítel	-cykl- přítel
+cyklopoint	-cykl- point
+cyklokniha	-cykl- kniha
+cyklopartner	-cykl- partner
+cyklovar	-cykl- var
+cyklořetěz	-cykl- řetěz
+cyklobota	-cykl- bota
+cyklohistorie	-cykl- historie
+cyklovynález	-cykl- vynález
+cyklobarbital	-cykl- barbital
+cyklopolicie	-cykl- policie
+cyklokolos	-cykl- kolos
+cyklotúra	-cykl- túra
+cyklozboží	-cykl- zboží
+cykloalifatický	-cykl- alifatický
+cykloverze	-cykl- verze
+cyklodrožka	-cykl- drožka
+cyklopropan	-cykl- propan
+cyklostrategie	-cykl- strategie
+cykloaréna	-cykl- aréna
+cykloesej	-cykl- esej
+cyklotest	-cykl- test
+cyklokamarád	-cykl- kamarád
+cykloboom	-cykl- boom
+cykloservis	-cykl- servis
+cyklostěna	-cykl- stěna
+cyklopiktogram	-cykl- piktogram
+cyklotranz	-cykl- tranz
+cyklosérie	-cykl- série
+cyklotábor	-cykl- tábor
+cyklokoridor	-cykl- koridor
+cykloimpérium	-cykl- impérium
+cykloměsto	-cykl- město
+cyklodres	-cykl- dres
+cyklovzor	-cykl- vzor
+cyklobrašna	-cykl- brašna
+cyklomapa	-cykl- mapa
+cyklotrial	-cykl- trial
+cyklosekce	-cykl- sekce
+cykloveletrh	-cykl- veletrh
+cyklostroj	-cykl- stroj
+cyklostyl	-cykl- styl
+cyklodepo	-cykl- depo
+cyklotramp	-cykl- tramp
+cyklohospoda	-cykl- hospoda
+cyklojunta	-cykl- junta
+cykloakrobacie	-cykl- akrobacie
+cyklogigant	-cykl- gigant
+cyklotaxi	-cykl- taxi
+cyklotrasa	-cykl- trasa
+cykloetapa	-cykl- etapa
+cyklograf	-cykl- graf
+cyklokarta	-cykl- karta
+cykloreprese	-cykl- represe
+cyklotrať	-cykl- trať
+cyklozákladna	-cykl- základna
+cykloguláš	-cykl- guláš
+cyklomateriál	-cykl- materiál
+cyklofestival	-cykl- festival
+cyklorallye	-cykl- rallye
+cyklobrýle	-cykl- brýle
+cykloman	-cykl- man
+cyklomost	-cykl- most
+cykločert	-cykl- čert
+cyklotachometr	-cykl- tachometr
+cyklopohár	-cykl- pohár
+cykloalken	-cykl- alken
+cyklopás	-cykl- pás
+cyklomise	-cykl- mise
+cykloškola	-cykl- škola
+cykloráj	-cykl- ráj
+cykloenergie	-cykl- energie
+cykloanketa	-cykl- anketa
+cyklopěší	-cykl- pěší
+cyklomítink	-cykl- mítink
+cyklohexan	-cykl- hexan
+cyklobunda	-cykl- bunda
+cyklomechanika	-cykl- mechanika
+cyklofirma	-cykl- firma
+cykloulice	-cykl- ulice
+cyklohotel	-cykl- hotel
+cyklodráha	-cykl- dráha
+cyklověc	-cykl- věc
+cyklovíkend	-cykl- víkend
+cyklovagon	-cykl- vagon
+cyklobus	-cykl- bus
+cyklobufet	-cykl- bufet
+cyklopaťák	-cykl- paťák
+cykloalkan	-cykl- alkan
+cyklodobrodruh	-cykl- dobrodruh
+cyklorytíř	-cykl- rytíř
+cykloareál	-cykl- areál
+cykloamatér	-cykl- amatér
+cyklotrans	-cykl- trans
+cyklobrožura	-cykl- brožura
+cyklopirát	-cykl- pirát
+cykloserin	-cykl- serin
+cyklobranže	-cykl- branže
+cyklohvězda	-cykl- hvězda
+cyklotrek	-cykl- trek
+postdekrement	-post- dekrement
+postdemokracie	-post- demokracie
+postfebrilní	-post- febrilní
+postprocessing	-post- processing
+postžiro	-post- žiro
+postpuberta	-post- puberta
+postskriptum	-post- skriptum
+postfax	-post- fax
+postindustriální	-post- industriální
+postimperiální	-post- imperiální
+postsynchron	-post- synchron
+posthistorie	-post- historie
+postmortální	-post- mortální
+postservis	-post- servis
+postblokový	-post- blokový
+postinkrement	-post- inkrement
+postpunk	-post- punk
+postmorální	-post- morální
+postkraniální	-post- kraniální
+postorogenní	-post- orogenní
+postpenitenciární	-post- penitenciární
+postfix	-post- fix
+postnatální	-post- natální
+postkonto	-post- konto
+postpubescence	-post- pubescence
+ekofilm	-eko- film
+ekosvět	-eko- svět
+ekopolitika	-eko- politika
+ekocentrum	-eko- centrum
+ekofyziologie	-eko- fyziologie
+ekopavilon	-eko- pavilon
+ekokontrast	-eko- kontrast
+ekoparazit	-eko- parazit
+ekokonference	-eko- konference
+ekoseminář	-eko- seminář
+ekosystém	-eko- systém
+ekotrh	-eko- trh
+ekoplakát	-eko- plakát
+ekonafta	-eko- nafta
+ekozemědělec	-eko- zemědělec
+ekovečer	-eko- večer
+ekodeska	-eko- deska
+ekoautobus	-eko- autobus
+ekoprogram	-eko- program
+ekoregion	-eko- region
+ekopanel	-eko- panel
+ekotendr	-eko- tendr
+ekoprojekt	-eko- projekt
+ekomuzeum	-eko- muzeum
+ekokatastrofa	-eko- katastrofa
+ekoelement	-eko- element
+ekopolicie	-eko- policie
+ekodesign	-eko- design
+ekotyp	-eko- typ
+ekošméčko	-eko- šméčko
+ekoteror	-eko- teror
+ekofarma	-eko- farma
+ekoklokan	-eko- klokan
+ekofáze	-eko- fáze
+ekotoxický	-eko- toxický
+ekoveletrh	-eko- veletrh
+ekolyceum	-eko- lyceum
+ekodormance	-eko- dormance
+ekoetapa	-eko- etapa
+ekosendvič	-eko- sendvič
+ekotop	-eko- top
+ekofestival	-eko- festival
+ekoforum	-eko- forum
+ekostabilní	-eko- stabilní
+ekotechnika	-eko- technika
+ekomost	-eko- most
+ekodům	-eko- dům
+ekojarmark	-eko- jarmark
+ekofond	-eko- fond
+ekobus	-eko- bus
+ekosféra	-eko- sféra
+ekotechnologie	-eko- technologie
+ekoforma	-eko- forma
+ekostratigrafie	-eko- stratigrafie
+ekoproblém	-eko- problém
+fotofilm	-fot- film
+fotoskupina	-fot- skupina
+fotocentrum	-fot- centrum
+fotosafari	-fot- safari
+fotorezist	-fot- rezist
+fotosoutěž	-fot- soutěž
+fotokulomet	-fot- kulomet
+fotoscéna	-fot- scéna
+fotobatoh	-fot- batoh
+fotomodel	-fot- model
+fotokatoda	-fot- katoda
+fotoaparát	-fot- aparát
+fotoblesk	-fot- blesk
+fotogeologie	-fot- geologie
+fotobuňka	-fot- buňka
+fototyristor	-fot- tyristor
+fotopetice	-fot- petice
+fotoprojekce	-fot- projekce
+fotosenzor	-fot- senzor
+fotoleporelo	-fot- leporelo
+fotosystém	-fot- systém
+fotomorfogeneze	-fot- morfogeneze
+fotoburza	-fot- burza
+fotostrana	-fot- strana
+fotodetail	-fot- detail
+fotoplátno	-fot- plátno
+fototermín	-fot- termín
+fotoautotrofie	-fot- autotrofie
+fotovodič	-fot- vodič
+fototeodolit	-fot- teodolit
+fotokomora	-fot- komora
+fotofór	-fot- fór
+fotosenzitivní	-fot- senzitivní
+fotoasambláž	-fot- asambláž
+fotoreliéf	-fot- reliéf
+fotokalendář	-fot- kalendář
+fotodvojice	-fot- dvojice
+fotoplotter	-fot- plotter
+fotoobraz	-fot- obraz
+fotorezistor	-fot- rezistor
+fotomozaika	-fot- mozaika
+fotokabina	-fot- kabina
+fotometrie	-fot- metrie
+fotolaboratoř	-fot- laboratoř
+fotoreklama	-fot- reklama
+fotofejeton	-fot- fejeton
+fotometeor	-fot- meteor
+fotoelektrický	-fot- elektrický
+fotovrstva	-fot- vrstva
+fototéka	-fot- téka
+fotomuzeum	-fot- muzeum
+fotokniha	-fot- kniha
+fotokonverze	-fot- konverze
+fotohistorie	-fot- historie
+fotogravura	-fot- gravura
+fotoakustika	-fot- akustika
+fotostudio	-fot- studio
+fotopásek	-fot- pásek
+fotoreverzibilní	-fot- reverzibilní
+fotoatelier	-fot- atelier
+fotozboží	-fot- zboží
+fotosalon	-fot- salon
+fotolitografie	-fot- litografie
+fotodatabáze	-fot- databáze
+fotoesej	-fot- esej
+fototest	-fot- test
+fotogalerie	-fot- galerie
+fotoservis	-fot- servis
+fotocela	-fot- cela
+fotosérie	-fot- série
+fotoshop	-fot- shop
+fotoarchiv	-fot- archiv
+fotopráce	-fot- práce
+fotoluminiscence	-fot- luminiscence
+fotoschéma	-fot- schéma
+fotoproud	-fot- proud
+fotobrašna	-fot- brašna
+fotomapa	-fot- mapa
+fototoxický	-fot- toxický
+fotoportrét	-fot- portrét
+fotoradar	-fot- radar
+fotosekce	-fot- sekce
+fotopast	-fot- past
+fotoateliér	-fot- ateliér
+fotopóza	-fot- póza
+fotobanka	-fot- banka
+fototapeta	-fot- tapeta
+fototropizmus	-fot- tropizmus
+fotokronika	-fot- kronika
+fotoalbum	-fot- album
+fotorecepce	-fot- recepce
+fotokoláž	-fot- koláž
+fototip	-fot- tip
+fotofiniš	-fot- finiš
+fotoagentura	-fot- agentura
+fotokazeta	-fot- kazeta
+fotofobie	-fot- fobie
+fotomateriál	-fot- materiál
+fotofestival	-fot- festival
+fotoreprodukce	-fot- reprodukce
+fototechnika	-fot- technika
+fototrofie	-fot- trofie
+fotogram	-fot- gram
+fotoškola	-fot- škola
+fotokamera	-fot- kamera
+fotoemise	-fot- emise
+fotoanketa	-fot- anketa
+fotoperioda	-fot- perioda
+fototranzistor	-fot- tranzistor
+fotoblog	-fot- blog
+fotodokument	-fot- dokument
+fotofirma	-fot- firma
+fotomonografie	-fot- monografie
+fotodioda	-fot- dioda
+fotoeditor	-fot- editor
+fotosféra	-fot- sféra
+fotoamatér	-fot- amatér
+fotosenzibilní	-fot- senzibilní
+fotochemie	-fot- chemie
+fotoromán	-fot- román
+fototerapie	-fot- terapie
+fotokiosek	-fot- kiosek
+fotomobil	-fot- mobil
+transkonduktance	-trans- konduktance
+transnacionální	-trans- nacionální
+transverzála	-trans- verzála
+transakce	-trans- akce
+transdermální	-trans- dermální
+transmutovat	-trans- mutovat
+transexpres	-trans- expres
+transkortikální	-trans- kortikální
+transkontejner	-trans- kontejner
+turbomotor	turbo motor
+turbodiesel	turbo diesel
+turbokarta	turbo karta
+turbofavorit	turbo favorit
+turbopauza	turbo pauza
+ultramikrofiš	-ultra- mikrofiš
+ultratvrdý	-ultra- tvrdý
+ultrapas	-ultra- pas
+ultračervený	-ultra- červený
+ultraradikál	-ultra- radikál
+ultrazvuk	-ultra- zvuk
+ultraortodoxní	-ultra- ortodoxní
+ultramalý	-ultra- malý
+ultrabazický	-ultra- bazický
+ultrasonografie	-ultra- sonografie
+ultravysoký	-ultra- vysoký
+ultrafiltr	-ultra- filtr
+ultrabohatý	-ultra- bohatý
+ultramontanizmus	-ultra- montanizmus
+ultrakrátkovlnný	-ultra- krátkovlnný
+ultralehký	-ultra- lehký
+ultratenký	-ultra- tenký
+ultraizmus	-ultra- izmus
+ultrabook	-ultra- book
+ultraakustika	-ultra- akustika
+ultrarychlý	-ultra- rychlý
+ultrarevizionizmus	-ultra- revizionizmus
+ultrapragmatický	-ultra- pragmatický
+ultrananoplankton	-ultra- nanoplankton
+ultratermostat	-ultra- termostat
+ultratriatlon	-ultra- triatlon
+ultramahagon	-ultra- mahagon
+ultrajemný	-ultra- jemný
+ultrakrátký	-ultra- krátký
+ultranaturalizmus	-ultra- naturalizmus
+ultralevý	-ultra- levý
+ultrakatolík	-ultra- katolík
+ultrakatolička	-ultra- katolička
+ultrapřesný	-ultra- přesný
+ultrastruktura	-ultra- struktura
+krimifilm	-krimi- film
+krimithriller	-krimi- thriller
+krimicyklus	-krimi- cyklus
+krimidrama	-krimi- drama
+krimisérie	-krimi- série
+krimikomedie	-krimi- komedie
+krimiparodie	-krimi- parodie
+krimiromán	-krimi- román
+megasvět	-mega- svět
+megacentrum	-mega- centrum
+megawatt	-mega- watt
+megaampér	-mega- ampér
+megabar	-mega- bar
+megakoncert	-mega- koncert
+megashow	-mega- show
+megavoltampér	-mega- voltampér
+megadiskotéka	-mega- diskotéka
+megaspora	-mega- spora
+megafúze	-mega- fúze
+megablok	-mega- blok
+megabyte	-mega- byte
+megaprogram	-mega- program
+megabohatý	-mega- bohatý
+megahertz	-mega- hertz
+megastar	-mega- star
+megareklama	-mega- reklama
+megavolt	-mega- volt
+megacolon	-mega- colon
+megapixel	-mega- pixel
+megaprojekt	-mega- projekt
+megacyklus	-mega- cyklus
+megastát	-mega- stát
+megavar	-mega- var
+megawatthodina	-mega- watthodina
+megapole	-mega- pole
+megatuna	-mega- tuna
+megaměsto	-mega- město
+megaveletrh	-mega- veletrh
+megajoul	-mega- joul
+megaboard	-mega- board
+megaohm	-mega- ohm
+megabecquerel	-mega- becquerel
+megaplankton	-mega- plankton
+megatrend	-mega- trend
+megafestival	-mega- festival
+megaflops	-mega- flops
+megabaud	-mega- baud
+megasoubor	-mega- soubor
+megafirma	-mega- firma
+megaampérhodina	-mega- ampérhodina
+megaparsek	-mega- parsek
+megafauna	-mega- fauna
+megastruktura	-mega- struktura
+megahit	-mega- hit
+megahvězda	-mega- hvězda
+megalopole	-mega- pole
+supermono	-super- mono
+superkamion	-super- kamion
+supermotard	-super- motard
+supertěžký	-super- těžký
+gigawatt	-giga- watt
+gigaampér	-giga- ampér
+gigapascal	-giga- pascal
+gigabyte	-giga- byte
+gigahertz	-giga- hertz
+gigavolt	-giga- volt
+gigabit	-giga- bit
+gigawatthodina	-giga- watthodina
+gigatuna	-giga- tuna
+gigajoul	-giga- joul
+gigaohm	-giga- ohm
+gigaflops	-giga- flops
+gigaampérhodina	-giga- ampérhodina
+gigakalorie	-giga- kalorie
+pidižena	píď žena
+pidizem	píď zem
+pidistrana	píď strana
+piditrh	píď trh
+pidigarsonka	píď garsonka
+pidirole	píď role
+pidibarák	píď barák
+pidistát	píď stát
+pidimuž	píď muž
+pidiměsto	píď město
+pidiauto	píď auto
+pidichata	píď chata
+pidiprostý	píď prostý
+pidilyže	píď lyže
+pidikancelář	píď kancelář
+mimozemšťan	mimo zemšťan
+mimoglobální	mimo globální
+telefeérie	-tel- feérie
+teleturnaj	-tel- turnaj
+telesoutěž	-tel- soutěž
+telekopie	-tel- kopie
+teleprinter	-tel- printer
+teleport	-tel- port
+telekonference	-tel- konference
+telefax	-tel- fax
+telegymnastika	-tel- gymnastika
+telekomunikovat	-tel- komunikovat
+teleprezence	-tel- prezence
+telekonvertor	-tel- konvertor
+teletéka	-tel- téka
+televize	-tel- vize
+telenovela	-tel- novela
+telefonotéka	-tel- fonotéka
+teleservis	-tel- servis
+telemarketing	-tel- marketing
+telekarta	-tel- karta
+teleshopping	-tel- shopping
+teletext	-tel- text
+telemost	-tel- most
+telekviz	-tel- kviz
+telefoto	-tel- foto
+telemechanika	-tel- mechanika
+telefotografie	-tel- fotografie
+telesetkat	-tel- setkat
+telomera	tel mera
+telofáze	tel fáze
+mikrowatt	-mikr- watt
+mikroampér	-mikr- ampér
+mikrovolt	-mikr- volt
+mikroampérhodina	-mikr- ampérhodina
+sportcentrum	sport centrum
+polosvět	půl svět
+polokoule	půl koule
+polotovar	půl tovar
+polotuhý	půl tuhý
+polosen	půl sen
+polonahý	půl nahý
+polosamostatný	půl samostatný
+polobdít	půl bdít
+polotvrdý	půl tvrdý
+polomrtvý	půl mrtvý
+polotvar	půl tvar
+polosyrový	půl syrový
+polodlouhý	půl dlouhý
+polohad	půl had
+polosoukromý	půl soukromý
+polomontovat	půl montovat
+poloteplý	půl teplý
+poloosa	půl osa
+poloplášť	půl plášť
+poločerný	půl černý
+poloreforma	půl reforma
+poloparazit	půl parazit
+polovysokoškolský	půl vysokoškolský
+polostrmý	půl strmý
+polosladký	půl sladký
+polokruh	půl kruh
+polokošile	půl košile
+polounciála	půl unciála
+polootrok	půl otrok
+polobedna	půl bedna
+poloverš	půl verš
+polobůh	půl bůh
+polohořký	půl hořký
+polodetail	půl detail
+polokov	půl kov
+poloobr	půl obr
+polovlna	půl vlna
+polopergamen	půl pergamen
+polovodič	půl vodič
+polopravý	půl pravý
+polostín	půl stín
+polostrom	půl strom
+poloslinutý	půl slinutý
+polovysoký	půl vysoký
+poloreportáž	půl reportáž
+poloparuka	půl paruka
+polokeř	půl keř
+polohoror	půl horor
+poloreliéf	půl reliéf
+polosuchý	půl suchý
+pololán	půl lán
+polosenzace	půl senzace
+polohlas	půl hlas
+polosedět	půl sedět
+poloostrý	půl ostrý
+poloproletář	půl proletář
+polosamohláska	půl samohláska
+polobratr	půl bratr
+polobalada	půl balada
+polohotový	půl hotový
+polozrát	půl zrát
+polovat	půl vat
+polobohatý	půl bohatý
+polodrahý	půl drahý
+poloměkký	půl měkký
+poloprázdný	půl prázdný
+pololegální	půl legální
+poloosel	půl osel
+poloopice	půl opice
+polohustý	půl hustý
+polosamočinný	půl samočinný
+poloblbý	půl blbý
+poloslabý	půl slabý
+polokarakul	půl karakul
+polomaska	půl maska
+polotma	půl tma
+poloruina	půl ruina
+polotón	půl tón
+poloagrární	půl agrární
+poločas	půl čas
+polohrubý	půl hrubý
+polokůže	půl kůže
+poloperzián	půl perzián
+polotyp	půl typ
+poločlověk	půl člověk
+polootevřít	půl otevřít
+polokonfekce	půl konfekce
+polokřídlo	půl křídlo
+polokanton	půl kanton
+poloprodukt	půl produkt
+polofáma	půl fáma
+poloraný	půl raný
+polokolonie	půl kolonie
+poloduplex	půl duplex
+polosirota	půl sirota
+poloautonomní	půl autonomní
+polopatro	půl patro
+polosyntetický	půl syntetický
+polovina	půl vina
+polokřeslo	půl křeslo
+polopodzemní	půl podzemní
+polokarton	půl karton
+polosvéprávný	půl svéprávný
+polovrak	půl vrak
+polojemnovlnný	půl jemnovlnný
+polokomedie	půl komedie
+pologénius	půl génius
+polofabrikát	půl fabrikát
+polojemný	půl jemný
+polokonzerva	půl konzerva
+pološvestka	půl švestka
+poloblb	půl blb
+polospát	půl spát
+polorafinovat	půl rafinovat
+polokoks	půl koks
+polodrážkovník	půl drážkovník
+polopřímý	půl přímý
+poloprezident	půl prezident
+polostabilní	půl stabilní
+poloslepý	půl slepý
+poloklabonosý	půl klabonosý
+polopás	půl pás
+pološkola	půl škola
+polosamota	půl samota
+polopenze	půl penze
+polomaketa	půl maketa
+polooblý	půl oblý
+polohedvábí	půl hedvábí
+polokupé	půl kupé
+polozdravý	půl zdravý
+polostep	půl step
+polověnec	půl věnec
+polosytý	půl sytý
+poloprofil	půl profil
+pološikmý	půl šikmý
+polokaskáda	půl kaskáda
+poloautomat	půl automat
+poloacetal	půl acetal
+polokopec	půl kopec
+poloblázen	půl blázen
+polotěžký	půl těžký
+polosloup	půl sloup
+poloamatér	půl amatér
+polobřevno	půl břevno
+polopermanentní	půl permanentní
+polofeudální	půl feudální
+polointeligence	půl inteligence
+polodlouhosrstý	půl dlouhosrstý
+poloparlament	půl parlament
+polobarbar	půl barbar
+poloostrov	půl ostrov
+poloveřejný	půl veřejný
+polokmen	půl kmen
+pološeře	půl šeře
+půlhodina	půl hodina
+půlden	půl den
+půlstoletý	půl stoletý
+půlkilo	půl kilo
+půlmilionář	půl milionář
+půlvteřina	půl vteřina
+půlkrupon	půl krupon
+půldeci	půl deci
+půlakt	půl akt
+půlverš	půl verš
+půlstrana	půl strana
+půlvlna	půl vlna
+půlarch	půl arch
+půllitr	půl litr
+půlšašlik	půl šašlik
+půllán	půl lán
+půlbyte	půl byte
+půlkrok	půl krok
+půlobraz	půl obraz
+půlhektar	půl hektar
+půltisícový	půl tisícový
+půlmetr	půl metr
+půltón	půl tón
+půlprocento	půl procento
+půlstovka	půl stovka
+půlpenny	půl penny
+půlpinta	půl pinta
+půlkanton	půl kanton
+půltuna	půl tuna
+půlfáze	půl fáze
+půlkolo	půl kolo
+půlbilionový	půl bilionový
+půldruhý	půl druhý
+půletapa	půl etapa
+půlminuta	půl minuta
+půlmilionový	půl milionový
+půltisíciletý	půl tisíciletý
+půldecilitrový	půl decilitrový
+půldolar	půl dolar
+půlmost	půl most
+půlšilink	půl šilink
+půlnoc	půl noc
+půltucet	půl tucet
+půlmiliardový	půl miliardový
+půlperioda	půl perioda
+půlbochník	půl bochník
+půlvěnec	půl věnec
+půlměsíc	půl měsíc
+půlsekunda	půl sekunda
+půlslabika	půl slabika
+půloliva	půl oliva
+půlpár	půl pár
+půlkůň	půl kůň
+polylinie	-poly- linie
+polyethylen	-poly- ethylen
+polyfenol	-poly- fenol
+polyamid	-poly- amid
+polymethylmetakrylát	-poly- methylmetakrylát
+polyen	-poly- en
+polypropylenglykol	-poly- propylenglykol
+polyolefin	-poly- olefin
+polygen	-poly- gen
+polycenóza	-poly- cenóza
+polyfenylen	-poly- fenylen
+polyazobarvivo	-poly- azobarvivo
+polysulfid	-poly- sulfid
+polypeptid	-poly- peptid
+polykrystal	-poly- krystal
+polyterpen	-poly- terpen
+polyaxiální	-poly- axiální
+polyneuritida	-poly- neuritida
+polyvinyl	-poly- vinyl
+polyfont	-poly- font
+polyteizmus	-poly- teizmus
+polyvalence	-poly- valence
+polynukleotid	-poly- nukleotid
+polymorf	-poly- morf
+polysacharid	-poly- sacharid
+polyfenylalanin	-poly- fenylalanin
+polyizobutylen	-poly- izobutylen
+polyakrylonitril	-poly- akrylonitril
+polyhalit	-poly- halit
+polygeneze	-poly- geneze
+polyvinylchlorid	-poly- vinylchlorid
+polyhistorie	-poly- historie
+polyneuritis	-poly- neuritis
+polytyp	-poly- typ
+polyekran	-poly- ekran
+polysulfit	-poly- sulfit
+polyfosforečný	-poly- fosforečný
+polyvinylether	-poly- vinylether
+polykaprolaktam	-poly- kaprolaktam
+polyamin	-poly- amin
+polyisopren	-poly- isopren
+polyhydroxyderivát	-poly- hydroxyderivát
+polynitrosloučenina	-poly- nitrosloučenina
+polychloropren	-poly- chloropren
+polyvinylacetát	-poly- vinylacetát
+polysyntetický	-poly- syntetický
+polyimid	-poly- imid
+polypropylén	-poly- propylén
+polyisobutylen	-poly- isobutylen
+polysulfon	-poly- sulfon
+polyarteriitis	-poly- arteriitis
+polyhydroxykarboxylový	-poly- hydroxykarboxylový
+polymethylen	-poly- methylen
+polyneuropatie	-poly- neuropatie
+polynukleární	-poly- nukleární
+polyadukt	-poly- adukt
+polyserozitida	-poly- serozitida
+polytechnika	-poly- technika
+polyarteriitida	-poly- arteriitida
+polystyrén	-poly- styrén
+polyethylenglykol	-poly- ethylenglykol
+polyaldehyd	-poly- aldehyd
+polyfylogeneze	-poly- fylogeneze
+polyhydroxysloučenina	-poly- hydroxysloučenina
+polyfág	-poly- fág
+polyglot	-poly- glot
+polyacetal	-poly- acetal
+polyhybrid	-poly- hybrid
+multiatribut	-multi- atribut
+multisíť	-multi- síť
+multimodel	-multi- model
+multivitamin	-multi- vitamin
+multiport	-multi- port
+multimédium	-multi- médium
+multiplet	-multi- plet
+multinacionální	-multi- nacionální
+multifont	-multi- font
+multistandard	-multi- standard
+multikára	-multi- kára
+multibyte	-multi- byte
+multiprogram	-multi- program
+multivideo	-multi- video
+multidrop	-multi- drop
+multidownload	-multi- download
+multimetr	-multi- metr
+multiprojekt	-multi- projekt
+multiplayer	-multi- player
+multithreading	-multi- threading
+multiprotokol	-multi- protokol
+multikoncern	-multi- koncern
+multikino	-multi- kino
+multiverze	-multi- verze
+multiservis	-multi- servis
+multikriteriální	-multi- kriteriální
+multipól	-multi- pól
+multiadaptér	-multi- adaptér
+multinomický	-multi- nomický
+multilicence	-multi- licence
+multifil	-multi- fil
+multitask	-multi- task
+multikarta	-multi- karta
+multicasting	-multi- casting
+multimilionový	-multi- milionový
+multimiliardář	-multi- miliardář
+multimiliardový	-multi- miliardový
+multitalent	-multi- talent
+radiodiagnostika	-radi- diagnostika
+radioautomobil	-radi- automobil
+radiovelkoobchod	-radi- velkoobchod
+radioteleskop	-radi- teleskop
+radioastrofyzika	-radi- astrofyzika
+radiopotřeba	-radi- potřeba
+radionika	-radi- nika
+radionotebook	-radi- notebook
+radiokarbon	-radi- karbon
+radioimunostanovení	-radi- imunostanovení
+radioimunoanalýza	-radi- imunoanalýza
+radiotelefon	-radi- telefon
+radiomagnetofon	-radi- magnetofon
+radiobiologie	-radi- biologie
+radiomodem	-radi- modem
+radiokompas	-radi- kompas
+radiodálnopis	-radi- dálnopis
+radioastronomie	-radi- astronomie
+radioindikátor	-radi- indikátor
+radiofobie	-radi- fobie
+radiomost	-radi- most
+radioizotop	-radi- izotop
+radiofotografie	-radi- fotografie
+radiomrakodrap	-radi- mrakodrap
+radiointerferometrie	-radi- interferometrie
+nitroskupina	-nitr- skupina
+nitrochlorbenzen	-nitr- chlorbenzen
+nitrofenol	-nitr- fenol
+nitroblána	-nitr- blána
+nitroglycerol	-nitr- glycerol
+nitroanilin	-nitr- anilin
+nitrobarva	-nitr- barva
+nitropyridin	-nitr- pyridin
+nitrodiazonaftolsulfokyselina	-nitr- diazonaftolsulfokyselina
+nitrocelulosa	-nitr- celulosa
+nitrolátka	-nitr- látka
+nitropropan	-nitr- propan
+nitrobifenyl	-nitr- bifenyl
+nitroglycerin	-nitr- glycerin
+nitrobenzen	-nitr- benzen
+nitroglykol	-nitr- glykol
+nitroska	-nitr- ska
+nitrotoluen	-nitr- toluen
+nitroalkan	-nitr- alkan
+nitroester	-nitr- ester
+nitrobenzaldehyd	-nitr- benzaldehyd
+nitrometan	-nitr- metan
+nitronaftalen	-nitr- naftalen
+nitrolak	-nitr- lak
+nitrocelulóza	-nitr- celulóza
