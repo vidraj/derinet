@@ -309,7 +309,10 @@ class TestNewFormat(unittest.TestCase):
         lexicon = Lexicon()
         db_file = io.StringIO(db)
 
-        self.assertRaises(DerinetFileParseError, lexicon.load, db_file)
+        lexicon.load(db_file)
+
+        lexeme = lexicon.get_lexemes("aachenskost")[0]
+        self.assertEqual(len(lexeme.segmentation), 3)
 
     def test_load_segmentation_missing_end(self):
         db = """7.3	aachenskost#N	aachenskost	N		Morph=aachen&Start=0&Type=Prefix|End=8&Morph=sk&Start=6&Type=Root|End=11&Morph=ost&Start=8&Type=Suffix				{}
@@ -318,7 +321,85 @@ class TestNewFormat(unittest.TestCase):
         lexicon = Lexicon()
         db_file = io.StringIO(db)
 
+        lexicon.load(db_file)
+
+        lexeme = lexicon.get_lexemes("aachenskost")[0]
+        self.assertEqual(len(lexeme.segmentation), 3)
+
+    def test_load_segmentation_missing_start_end(self):
+        db = """7.3	aachenskost#N	aachenskost	N		Morph=aachen&Type=Prefix|Morph=sk&Type=Root|Morph=ost&Type=Suffix				{}
+"""
+
+        lexicon = Lexicon()
+        db_file = io.StringIO(db)
+
+        lexicon.load(db_file)
+
+        lexeme = lexicon.get_lexemes("aachenskost")[0]
+        self.assertEqual(len(lexeme.segmentation), 3)
+
+    def test_load_segmentation_missing_start_end_nonmatching_1(self):
+        db = """7.3	aachenskost#N	aachenskost	N		Morph=aachen&Type=Prefix|Morph=sko&Type=Root|Morph=ost&Type=Suffix				{}
+"""
+
+        lexicon = Lexicon()
+        db_file = io.StringIO(db)
+
         self.assertRaises(DerinetFileParseError, lexicon.load, db_file)
+
+    def test_load_segmentation_missing_start_end_nonmatching_2(self):
+        db = """7.3	aachenskost#N	aachenskost	N		Morph=aachen&Type=Prefix|Morph=s&Type=Root|Morph=ost&Type=Suffix				{}
+"""
+
+        lexicon = Lexicon()
+        db_file = io.StringIO(db)
+
+        self.assertRaises(DerinetFileParseError, lexicon.load, db_file)
+
+    def test_load_segmentation_missing_start_end_nonmatching_3(self):
+        db = """7.3	aachenskost#N	aachenskost	N		Morph=aachen&Type=Prefix|Morph=k&Type=Root|Morph=ost&Type=Suffix				{}
+"""
+
+        lexicon = Lexicon()
+        db_file = io.StringIO(db)
+
+        self.assertRaises(DerinetFileParseError, lexicon.load, db_file)
+
+    def test_load_segmentation_missing_start_end_nonmatching_4(self):
+        db = """7.3	aachenskost#N	aachenskost	N		Morph=aachen&Type=Prefix|Morph=sko&Type=Root|Morph=os&Type=Suffix|Morph=t&Type=Suffix				{}
+"""
+
+        lexicon = Lexicon()
+        db_file = io.StringIO(db)
+
+        self.assertRaises(DerinetFileParseError, lexicon.load, db_file)
+
+    def test_load_segmentation_missing_start_end_noncontiguous_1(self):
+        db = """7.3	aachenskost#N	aachenskost	N		Morph=aachen&Type=Prefix|Morph=os&Start=8&Type=Suffix|Morph=t&Type=Suffix				{}
+"""
+
+        lexicon = Lexicon()
+        db_file = io.StringIO(db)
+
+        lexicon.load(db_file)
+
+        lexeme = lexicon.get_lexemes("aachenskost")[0]
+        self.assertEqual(len(lexeme.segmentation), 4)
+        self.assertEqual(10, lexeme.segmentation[2]["End"])
+
+    def test_load_segmentation_missing_start_end_noncontiguous_2(self):
+        db = """7.3	aachenskost#N	aachenskost	N		Morph=aachen&Type=Prefix|End=10&Morph=os&Type=Suffix|Morph=t&Type=Suffix				{}
+"""
+
+        lexicon = Lexicon()
+        db_file = io.StringIO(db)
+
+        lexicon.load(db_file)
+
+        lexeme = lexicon.get_lexemes("aachenskost")[0]
+        self.assertEqual(len(lexeme.segmentation), 4)
+        self.assertEqual(8, lexeme.segmentation[2]["Start"])
+
 
     def test_load_relation_features(self):
         db = """0.0	0	lexeme							{}
