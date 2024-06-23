@@ -1,4 +1,5 @@
 #python3
+import argparse
 from derinet import Block, Lexicon
 from collections import defaultdict
 
