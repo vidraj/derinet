@@ -61,6 +61,7 @@ class AddNumeralDerivativeParents(Block):
                 if parent_lemma and parent_lexemes:
                     parent_lexeme = parent_lexemes[0]
                     logger.info(f"Assigning derivational parent {parent_lexeme} to lemma {lexeme}")
+                    lexicon.remove_all_parent_relations(lexeme)
                     lexicon.add_derivation(source=parent_lexeme, target=lexeme)
                 else:
                     logger.info(f"No derivational parent found for lemma {lexeme}, skipping.")
