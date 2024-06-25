@@ -134,12 +134,12 @@ class AddDerivationsEtymologyIntermediate(Block):
 
                     print(f"OK\tDerivation: {parent_lemma} -> Parent: {grandparent_lemma}", file=detailed)
                     self.add_derivation(lexicon,grandparent,parent)  # Add the original generated derivation
-                    print(f"{parent_str}\t{grandparent_str}", file=added_actual)
+                    print(f"{parent_str.strip()}\t{grandparent_str.strip()}", file=added_actual)
                     
                     derivation.parent_relation.remove_from_lexemes() # remove the original parent relation
                     self.add_derivation(lexicon,grandparent,derivation)  # Add the new parent relation
-                    print(f"RECONNECT\tLexeme: {derivation_str}\tOld parent: {parent_str}\tNew parent: {grandparent_str}", file=detailed)
-                    print(f"{derivation_str}\t{grandparent_str}", file=added_actual)
+                    print(f"RECONNECT\tLexeme: {derivation_str.strip()}\tOld parent: {parent_str.strip()}\tNew parent: {grandparent_str.strip()}", file=detailed)
+                    print(f"{derivation_str.strip()}\t{grandparent_str.strip()}", file=added_actual)
 
                 elif annotation == no_reconnect:
                     # Check if grandparent lexeme list has just one element
@@ -162,8 +162,8 @@ class AddDerivationsEtymologyIntermediate(Block):
         
                     derivation.parent_relation.remove_from_lexemes() # remove the original parent relation
                     self.add_derivation(lexicon,grandparent,derivation)  # Add the new parent relation
-                    print(f"RECONNECT\tLexeme: {derivation_str}\tOld parent: {parent_str}\tNew parent: {grandparent_str}", file=detailed)
-                    print(f"{derivation_str}\t{grandparent_str}", file=added_actual)
+                    print(f"RECONNECT\tLexeme: {derivation_str.strip()}\tOld parent: {parent_str.strip()}\tNew parent: {grandparent_str.strip()}", file=detailed)
+                    print(f"{derivation_str.strip()}\t{grandparent_str.strip()}", file=added_actual)
 
                 elif annotation == no:
                     continue # skip this line
@@ -182,7 +182,7 @@ class AddDerivationsEtymologyIntermediate(Block):
                         print(f"There are homonyms for word \'{annotation}\': {new_parent_lexemes}", file=detailed)
 
                 else:  # Skip empty lines and other lines ('???')
-                    print(f"Skipped line {derivation_str}, {parent_str}, annotation: {annotation}", file=detailed)
+                    print(f"Skipped line {derivation_str.strip()}, {parent_str.strip()}, annotation: {annotation}", file=detailed)
 
         return lexicon
 
