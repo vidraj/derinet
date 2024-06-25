@@ -10,7 +10,7 @@ logger = logging.getLogger(__name__)
 
 
 
-class AddDerivationsEtymologyFromAnnotated(Block):
+class AddDerivationsEtymologyDirect(Block):
 
     def __init__(self, fname):
         # The arguments to __init__ are None (returned from below).
