@@ -38,6 +38,10 @@ class AddDerivationsEtymologyIntermediate(Block):
         Args:
             lexicon: The lexicon object of DeriNet
         """
+        yes_reconnect = "YES & RECONNECT DERIVATION FROM PARENT TO GRANDPARENT"
+        no_reconnect  = "NO & RECONNECT DERIVATION FROM PARENT TO GRANDPARENT"
+        yes           = "YES"
+        no            = "NO"    
         # delete lines to open files and print information to them
         with (
             open(self.fname, 'rt') as annotated_data,
@@ -73,6 +77,7 @@ class AddDerivationsEtymologyIntermediate(Block):
                 derivation_lexemes = lexicon.get_lexemes(derivation_lemma,lemid=derivation_str)
                 if derivation_lexemes == []:
                     derivation_lexemes = lexicon.get_lexemes(derivation_lemma)
+
                 parent_lexemes = lexicon.get_lexemes(parent_lemma, lemid=parent_str)
                 if parent_lexemes == []:
                     parent_lexemes = lexicon.get_lexemes(parent_lemma)
@@ -81,14 +86,6 @@ class AddDerivationsEtymologyIntermediate(Block):
                 if grandparent_lexemes == []:
                     grandparent_lexemes = lexicon.get_lexemes(grandparent_lemma)
                 
-                # Check if derivation lexeme list has just one element
-                if len(derivation_lexemes) != 1:
-                    if len(derivation_lexemes) == 0:
-                        print(f"Lexeme not found! For word: lemma: {derivation_lemma}, POS: {derivation_pos}",file=detailed)
-                    else:
-                        print(f"Multiple hononyms found! For word: lemma: {derivation_lemma}, POS: {derivation_pos} -> {derivation_lexemes}",file=detailed)
-                    continue  # Skip this line if there's an issue
-
                 # Check if parent lexeme list has just one element
                 if len(parent_lexemes) != 1:
                     if len (parent_lexemes) == 0:
@@ -97,56 +94,95 @@ class AddDerivationsEtymologyIntermediate(Block):
                         print(f"Multiple hononyms found! For word: lemma: {parent_lemma}, POS: {parent_pos} -> {parent_lexemes}", file=detailed)
                     continue  # Skip this line if there's an issue
                 
-                # Check if grandparent lexeme list has just one element
-                if len(grandparent_lexemes) != 1:
-                    if len (grandparent_lexemes) == 0:
-                        print(f"Lexeme not found! For word: lemma: {grandparent_lemma}, POS: {grandparent_pos}", file=detailed)
-                    else:
-                        print(f"Multiple hononyms found! For word: lemma: {grandparent_lemma}, POS: {grandparent_pos} -> {parent_lexemes}", file=detailed)
-                    continue  # Skip this line if there's an issue
                 
+                
+
                 # CHANGE TO SKIP JUST when just the needed lexemes are not found
 
-                derivation = derivation_lexemes[0]
                 parent = parent_lexemes[0]
+                grandparent = None
+                derivation = None
 
                 # Handle different annotations
                 #WRONG!!!
                 # JUST copied from similar block, needs to be finished
-                if annotation == "Yes":
-                    print(f"OK\tDerivation: {derivation_str} -> Parent: {parent_str}", file=detailed)
-                    self.add_derivation(lexicon,parent,derivation)  # Add the original generated derivation
-                    print(f"{derivation_str}\t{parent_str}", file=added_actual)
 
-                elif annotation == "REVERSE":
-                    new_parent = derivation
-                    new_derivation = parent
-                    print(f"REVERSE\tOriginal - Derivation: {derivation_str} -> Parent: {parent_str}", file=detailed)
-                    # Check if the original parent (new_derivation) is a root
-                    if new_derivation.parent is None:
-                        print("\tReversing the direction of edge, new derivation is a root",file=detailed)
-                        print(f"\tNew Derivation: {new_derivation} -> New Parent: {new_parent}",file=detailed)
-                        self.add_derivation(lexicon,new_parent, new_derivation)  # Add the flipped edge
-                        print(f"{derivation_str}\t{parent_str}", file=added_actual)
+                if annotation == yes:
+                    # Check if grandparent lexeme list has just one element
+                    if len(grandparent_lexemes) != 1:
+                        if len (grandparent_lexemes) == 0:
+                            print(f"Lexeme not found! For word: lemma: {grandparent_lemma}, POS: {grandparent_pos}", file=detailed)
+                        else:
+                            print(f"Multiple hononyms found! For word: lemma: {grandparent_lemma}, POS: {grandparent_pos} -> {parent_lexemes}", file=detailed)
+                        continue  # Skip this line if there's an issue
+                    grandparent = grandparent_lexemes[0]
 
-                    else:
-                        root_of_new_derivation = new_derivation.parent
-                        print("\tNew derivation is NOT a root, connecting the root of new_derivation instead", file=detailed)
-                        print(f"\tNew Derivation: {root_of_new_derivation} -> New Parent: {new_parent}", file=detailed)
-                        self.add_derivation(lexicon,new_parent,root_of_new_derivation)  # Connect the root of new_derivation to new_parent
-                        print(f"{root_of_new_derivation}\t{new_parent}", file=added_actual)
+                    print(f"OK\tDerivation: {parent_lemma} -> Parent: {grandparent_lemma}", file=detailed)
+                    self.add_derivation(lexicon,grandparent,parent)  # Add the original generated derivation
+                    print(f"{parent_str}\t{grandparent_str}", file=added_actual)
 
-                elif annotation == "COMPOUND":
-                    print(f"Compound: Derivation: {derivation_str} -> Parent: {parent_str}", file=detailed)
-                    print(f"Compound: Derivation: {derivation_str} -> Parent: {parent_str}", file=compunds)
+                elif annotation == yes_reconnect:
+                    # Check if grandparent lexeme list has just one element
+                    if len(grandparent_lexemes) != 1:
+                        if len (grandparent_lexemes) == 0:
+                            print(f"Lexeme not found! For word: lemma: {grandparent_lemma}, POS: {grandparent_pos}", file=detailed)
+                        else:
+                            print(f"Multiple hononyms found! For word: lemma: {grandparent_lemma}, POS: {grandparent_pos} -> {parent_lexemes}", file=detailed)
+                        continue  # Skip this line if there's an issue
+                    grandparent = grandparent_lexemes[0]
+
+                    # Check if derivation lexeme list has just one element
+                    if len(derivation_lexemes) != 1:
+                        if len(derivation_lexemes) == 0:
+                            print(f"Lexeme not found! For word: lemma: {derivation_lemma}, POS: {derivation_pos}",file=detailed)
+                        else:
+                            print(f"Multiple hononyms found! For word: lemma: {derivation_lemma}, POS: {derivation_pos} -> {derivation_lexemes}",file=detailed)
+                        continue  # Skip this line if there's an issue
+                    derivation = derivation_lexemes[0]
+
+                    print(f"OK\tDerivation: {parent_lemma} -> Parent: {grandparent_lemma}", file=detailed)
+                    self.add_derivation(lexicon,grandparent,parent)  # Add the original generated derivation
+                    print(f"{parent_str}\t{grandparent_str}", file=added_actual)
+                    
+                    derivation.parent_relation.remove_from_lexemes() # remove the original parent relation
+                    self.add_derivation(lexicon,grandparent,derivation)  # Add the new parent relation
+                    print(f"RECONNECT\tLexeme: {derivation_str}\tOld parent: {parent_str}\tNew parent: {grandparent_str}", file=detailed)
+                    print(f"{derivation_str}\t{grandparent_str}", file=added_actual)
+
+                elif annotation == no_reconnect:
+                    # Check if grandparent lexeme list has just one element
+                    if len(grandparent_lexemes) != 1:
+                        if len (grandparent_lexemes) == 0:
+                            print(f"Lexeme not found! For word: lemma: {grandparent_lemma}, POS: {grandparent_pos}", file=detailed)
+                        else:
+                            print(f"Multiple hononyms found! For word: lemma: {grandparent_lemma}, POS: {grandparent_pos} -> {parent_lexemes}", file=detailed)
+                        continue  # Skip this line if there's an issue
+                    grandparent = grandparent_lexemes[0]
+
+                    # Check if derivation lexeme list has just one element
+                    if len(derivation_lexemes) != 1:
+                        if len(derivation_lexemes) == 0:
+                            print(f"Lexeme not found! For word: lemma: {derivation_lemma}, POS: {derivation_pos}",file=detailed)
+                        else:
+                            print(f"Multiple hononyms found! For word: lemma: {derivation_lemma}, POS: {derivation_pos} -> {derivation_lexemes}",file=detailed)
+                        continue  # Skip this line if there's an issue
+                    derivation = derivation_lexemes[0]
+        
+                    derivation.parent_relation.remove_from_lexemes() # remove the original parent relation
+                    self.add_derivation(lexicon,grandparent,derivation)  # Add the new parent relation
+                    print(f"RECONNECT\tLexeme: {derivation_str}\tOld parent: {parent_str}\tNew parent: {grandparent_str}", file=detailed)
+                    print(f"{derivation_str}\t{grandparent_str}", file=added_actual)
+
+                elif annotation == no:
+                    continue # skip this line
 
                 elif annotation.isalpha():  # The annotation is a word (not empty or '???')
                     new_parent_lexemes = lexicon.get_lexemes(annotation)
                     if len(new_parent_lexemes) == 1:
                         new_parent = new_parent_lexemes[0]
-                        self.add_derivation(lexicon,new_parent, derivation)  # Add edge from the original derivation to new parent
-                        print(f"{derivation}\t{new_parent}", file=added_actual)
-                        print(f"Manualy writen parent, derivation: {derivation}, new parent {new_parent}, original parent {parent}", file=detailed)
+                        self.add_derivation(lexicon,new_parent, parent)  # Add edge from the original derivation to new parent
+                        print(f"{parent}\t{new_parent}", file=added_actual)
+                        print(f"Manualy writen parent, derivation: {parent}, parent {new_parent}", file=detailed)
 
                     elif len(new_parent_lexemes) == 0:
                         print(f"Lexeme for word \"{annotation}\" not found!", file=detailed)
