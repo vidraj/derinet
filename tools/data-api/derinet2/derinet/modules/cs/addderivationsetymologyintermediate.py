@@ -45,7 +45,6 @@ class AddDerivationsEtymologyIntermediate(Block):
         # delete lines to open files and print information to them
         with (
             open(self.fname, 'rt') as annotated_data,
-            open("compunds.txt", 'wt') as compunds,
             open("actualy_added.txt", 'wt') as added_actual,
             open("detailed_output.txt", 'wt') as detailed
         ):  
@@ -62,7 +61,7 @@ class AddDerivationsEtymologyIntermediate(Block):
                 # there are four columns for intermediate
                 # in intermediate the third column is just to see whre the edge came from
                 # the edge to add is from the first to the second
-                # the last column is always the annotation
+                # the first column is the annotation
                 
                 derivation_str = columns[3]
                 parent_str = columns[2]
@@ -95,18 +94,11 @@ class AddDerivationsEtymologyIntermediate(Block):
                     continue  # Skip this line if there's an issue
                 
                 
-                
-
-                # CHANGE TO SKIP JUST when just the needed lexemes are not found
-
                 parent = parent_lexemes[0]
                 grandparent = None
                 derivation = None
 
-                # Handle different annotations
-                #WRONG!!!
-                # JUST copied from similar block, needs to be finished
-
+                # Handle different cases (annotations)
                 if annotation == yes:
                     # Check if grandparent lexeme list has just one element
                     if len(grandparent_lexemes) != 1:
