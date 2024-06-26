@@ -4,7 +4,7 @@ derinet-2-2.tsv: derinet-2-1.tsv
 	PYTHONPATH=../../../data-api/derinet2 python3 -m derinet.process_scenario \
 		--data-version=2.2 \
 		Load "$<" \
-		cs.AddEtymology all_etym_columns.tsv \
+		cs.AddEtymology ../../../../data/annotations/cs/2024_06_etymology_information/etymology_information.tsv\
 		cs.AddSegmentationClassification ../../../../data/annotations/cs/2024_06_segmentation_classification/classification.tsv\
 		Save "$@" > log 2>&1
 
