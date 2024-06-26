@@ -9,7 +9,7 @@ class AddSegmentationClassification(Block):
         self.fname = fname
 
     def _load_segmentations(self, filename):
-        types = {"R":"Root", "D":"Derivational", "I":"Inflective"}
+        # types = {"R":"Root", "D":"Derivational", "I":"Inflective"}
         segmentations = defaultdict(list)
         with open(filename, "r") as r:
             for line in r:
@@ -20,7 +20,7 @@ class AddSegmentationClassification(Block):
                 start = 0
                 for mph, ann in zip(ls[0].split, sms):
                     span = [i for i in range(start, start+len(mph))]
-                    annotation.append({"type":types[ann], "span":span, "morph":mph})
+                    annotation.append({"type":ann, "span":span, "morph":mph})
                 segmentations[word] = annotation
         return segmentations
 
