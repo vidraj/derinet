@@ -16,27 +16,18 @@ class AddSegmentationClassification(Block):
                 ls = line.strip().split("\t")
                 word = "".join(ls[0].split())
                 sms = ls[1].split()
-                useg_annotation = []
-                span = []
-                tp = ""
-                for i in range(len(sms)):
-                    if sms[i][:1] in {"B", "S"} and i > 0:
-                        useg_annotation.append({"type":tp, "span":span})
-                        tp = ""
-                        span = []
-                    span.append(i)
-                    tp = types[sms[i][1:]]
-                morph = [str(word[s]) for s in span]
-                useg_annotation.append({"type":tp, "span":span, "morph":morph})
-                # useg_annotation.append({"type":tp, "morph":morph})
-                segmentations[word] = useg_annotation
+                annotation = []
+                start = 0
+                for mph, ann in zip(ls[0].split, sms):
+                    span = [i for i in range(start, start+len(mph))]
+                    annotation.append({"type":types[ann], "span":span, "morph":mph})
+                segmentations[word] = annotation
         return segmentations
 
     def process(self, lexicon: Lexicon):
         segmentations = self.load_segmentations(self.fname)
         for lexeme in lexicon.iter_lexemes:
             segmentation = segmentations[lexeme.lemma.lower()]
-            #lexeme.misc["useg"] = segmentation
             for morph in segmentation:
                 lexeme.add_morph(start=segmentation["span"][0], end=segmentation["span"][-1], annot=segmentation["type"])
 
