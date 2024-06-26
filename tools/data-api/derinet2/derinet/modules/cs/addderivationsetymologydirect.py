@@ -38,24 +38,18 @@ class AddDerivationsEtymologyDirect(Block):
         Args:
             lexicon: The lexicon object of DeriNet
         """
-        with (
-            open(self.fname, 'rt') as annotated_data,
-            open("compunds.txt", 'wt') as compunds,
-            open("actualy_added.txt", 'wt') as added_actual,
-            open("detailed_output.txt", 'wt') as detailed
-        ):  
+        with (open(self.fname, 'rt') as annotated_data):  
             for line in annotated_data:
                 if line.startswith("#") or line.strip() == "":
-                    print(f"Line skiped: {line}",file=detailed)
+                    logger.debug(f"Line skiped: {line}")
                     continue  # Skip comments and empty lines
 
                 columns = line.split('\t')
                 if len(columns) < 3: 
-                    print(f"Line skiped: {line}",file=detailed)
+                    logger.debug(f"Line skiped: {line}")
                     continue # skip lines where there isnt all three columns
 
-                # there can be 3 or 4 columns, three for direct, four for intermediate
-                # in intermediate the third column is just to see whre the edge came from
+                # there are 3 columns for direct, annotation, parent and derivation
                 # the edge to add is from the first to the second
                 # the last column is always the annotation
                 
@@ -76,17 +70,17 @@ class AddDerivationsEtymologyDirect(Block):
                 # Check if derivation lexeme list has just one element
                 if len(derivation_lexemes) != 1:
                     if len(derivation_lexemes) == 0:
-                        print(f"Lexeme not found! For word: lemma: {derivation_lemma}, POS: {derivation_pos}",file=detailed)
+                        logger.warning(f"Lexeme not found! For word: {derivation_str.strip()}")
                     else:
-                        print(f"Multiple hononyms found! For word: lemma: {derivation_lemma}, POS: {derivation_pos} -> {derivation_lexemes}",file=detailed)
+                        logger.warning(f"Multiple hononyms found! For word: {derivation_str.strip()} -> {derivation_lexemes}")
                     continue  # Skip this line if there's an issue
 
                 # Check if parent lexeme list has just one element
                 if len(parent_lexemes) != 1:
                     if len (parent_lexemes) == 0:
-                        print(f"Lexeme not found! For word: lemma: {parent_lemma}, POS: {parent_pos}", file=detailed)
+                        logger.warning(f"Lexeme not found! For word: lemma: {parent_str.strip()}")
                     else:
-                        print(f"Multiple hononyms found! For word: lemma: {parent_lemma}, POS: {parent_pos} -> {parent_lexemes}", file=detailed)
+                        print(f"Multiple hononyms found! For word: {parent_str.strip()} -> {parent_lexemes}")
                     continue  # Skip this line if there's an issue
 
                 derivation = derivation_lexemes[0]
@@ -94,47 +88,44 @@ class AddDerivationsEtymologyDirect(Block):
 
                 # Handle different annotations
                 if annotation == "OK":
-                    print(f"OK\tDerivation: {derivation_str} -> Parent: {parent_str}", file=detailed)
                     self.add_derivation(lexicon,parent,derivation)  # Add the original generated derivation
-                    print(f"{derivation_str}\t{parent_str}", file=added_actual)
+                    logger.info(f"Derivation: {derivation_str.strip()} -> Parent: {parent_str.strip()}")
 
                 elif annotation == "REVERSE":
                     new_parent = derivation
                     new_derivation = parent
-                    print(f"REVERSE\tOriginal - Derivation: {derivation_str} -> Parent: {parent_str}", file=detailed)
+                    logger.info(f"REVERSE\tOriginal - Derivation: {derivation_str.strip()} -> Parent: {parent_str.strip()}")
                     # Check if the original parent (new_derivation) is a root
                     if new_derivation.parent is None:
-                        print("\tReversing the direction of edge, new derivation is a root",file=detailed)
-                        print(f"\tNew Derivation: {new_derivation} -> New Parent: {new_parent}",file=detailed)
+                        logger.debug("\tReversing the direction of edge, new derivation is a root")
+                        logger.debug(f"\tNew Derivation: {new_derivation} -> New Parent: {new_parent}")
                         self.add_derivation(lexicon,new_parent, new_derivation)  # Add the flipped edge
-                        print(f"{derivation_str}\t{parent_str}", file=added_actual)
+                        logger.info(f"Derivation: {derivation_str}\tParent: {parent_str}")
 
                     else:
                         root_of_new_derivation = new_derivation.parent
-                        print("\tNew derivation is NOT a root, connecting the root of new_derivation instead", file=detailed)
-                        print(f"\tNew Derivation: {root_of_new_derivation} -> New Parent: {new_parent}", file=detailed)
+                        logger.debug("\tNew derivation is NOT a root, connecting the root of new_derivation instead")
                         self.add_derivation(lexicon,new_parent,root_of_new_derivation)  # Connect the root of new_derivation to new_parent
-                        print(f"{root_of_new_derivation}\t{new_parent}", file=added_actual)
+                        logger.info(f"Derivation:{root_of_new_derivation}\tParent: {new_parent}")
 
                 elif annotation == "COMPOUND":
-                    print(f"Compound: Derivation: {derivation_str} -> Parent: {parent_str}", file=detailed)
-                    print(f"Compound: Derivation: {derivation_str} -> Parent: {parent_str}", file=compunds)
+                    logger.info(f"Compound: Derivation: {derivation_str} -> Parent: {parent_str}")
 
                 elif annotation.isalpha():  # The annotation is a word (not empty or '???')
                     new_parent_lexemes = lexicon.get_lexemes(annotation)
                     if len(new_parent_lexemes) == 1:
                         new_parent = new_parent_lexemes[0]
                         self.add_derivation(lexicon,new_parent, derivation)  # Add edge from the original derivation to new parent
-                        print(f"{derivation}\t{new_parent}", file=added_actual)
-                        print(f"Manualy writen parent, derivation: {derivation}, new parent {new_parent}, original parent {parent}", file=detailed)
+                        logger.info(f"Derivation: {derivation}\tParent: {new_parent}")
+                        logger.debug(f"Manualy writen parent, derivation: {derivation}, new parent {new_parent}, original parent {parent}")
 
                     elif len(new_parent_lexemes) == 0:
-                        print(f"Lexeme for word \"{annotation}\" not found!", file=detailed)
+                        logger.warning(f"Lexeme for word \"{annotation}\" not found!")
                     else:
-                        print(f"There are homonyms for word \'{annotation}\': {new_parent_lexemes}", file=detailed)
+                        logger.warning(f"There are homonyms for word \'{annotation}\': {new_parent_lexemes}")
 
                 else:  # Skip empty lines and other lines ('???')
-                    print(f"Skipped line {derivation_str}, {parent_str}, annotation: {annotation}", file=detailed)
+                    logger.info(f"Skipped line {derivation_str}, {parent_str}, annotation: {annotation}")
 
         return lexicon
 
