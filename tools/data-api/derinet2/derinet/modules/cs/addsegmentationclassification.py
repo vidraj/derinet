@@ -29,7 +29,7 @@ class AddSegmentationClassification(Block):
         for lexeme in lexicon.iter_lexemes():
             segmentation = segmentations[lexeme.lemma.lower()]
             for morph in segmentation:
-                lexeme.add_morph(start=segmentation["span"][0], end=segmentation["span"][-1], annot=segmentation["type"])
+                lexeme.add_morph(start=morph["span"][0], end=morph["span"][-1], annot=morph["type"])
 
     def parse_args(args):
         """Parse a list of strings containing the arguments, pick the relevant
