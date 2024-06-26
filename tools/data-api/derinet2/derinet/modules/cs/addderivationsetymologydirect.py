@@ -41,12 +41,12 @@ class AddDerivationsEtymologyDirect(Block):
         with (open(self.fname, 'rt') as annotated_data):  
             for line in annotated_data:
                 if line.startswith("#") or line.strip() == "":
-                    logger.debug(f"Line skiped: {line}")
+                    logger.debug(f"Line skiped: {line.strip()}")
                     continue  # Skip comments and empty lines
 
                 columns = line.split('\t')
                 if len(columns) < 3: 
-                    logger.debug(f"Line skiped: {line}")
+                    logger.debug(f"Line skiped: {line.strip()}")
                     continue # skip lines where there isnt all three columns
 
                 # there are 3 columns for direct, annotation, parent and derivation
