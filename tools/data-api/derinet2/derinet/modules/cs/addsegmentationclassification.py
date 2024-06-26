@@ -25,7 +25,7 @@ class AddSegmentationClassification(Block):
         return segmentations
 
     def process(self, lexicon: Lexicon):
-        segmentations = self.load_segmentations(self.fname)
+        segmentations = self._load_segmentations(self.fname)
         for lexeme in lexicon.iter_lexemes:
             segmentation = segmentations[lexeme.lemma.lower()]
             for morph in segmentation:
