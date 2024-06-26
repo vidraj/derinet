@@ -18,7 +18,7 @@ class AddSegmentationClassification(Block):
                 sms = ls[1].split()
                 annotation = []
                 start = 0
-                for mph, ann in zip(ls[0].split, sms):
+                for mph, ann in zip(ls[0].split(), sms):
                     span = [i for i in range(start, start+len(mph))]
                     annotation.append({"type":ann, "span":span, "morph":mph})
                 segmentations[word] = annotation
