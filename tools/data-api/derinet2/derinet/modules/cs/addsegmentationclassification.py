@@ -31,7 +31,8 @@ class AddSegmentationClassification(Block):
             lexeme._segmentation = {"boundaries": {},"morphs": [{"Type": "Implicit", "Start": 0, "End": len(lexeme.lemma), "Morph": lexeme.lemma}]}
             segmentation = segmentations[lexeme.lemma.lower()]
             for morph in segmentation:
-                lexeme.add_morph(start=morph["span"][0], end=morph["span"][-1], annot={"Type":morph["type"]})
+                lexeme.add_morph(start=morph["span"][0], end=morph["span"][-1] + 1, annot={"Type":morph["type"]})
+        return lexicon
 
     def parse_args(args):
         """Parse a list of strings containing the arguments, pick the relevant
