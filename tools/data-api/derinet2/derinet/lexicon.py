@@ -228,7 +228,15 @@ class Lexicon(object):
         else:
             raise DerinetFileParseError() # TODO Write a proper error message.
 
-        morph_list = parse_kwstring(segmentation)
+        if segmentation.startswith("["):
+            # The segmentation is probably in a JSON format.
+            try:
+                morph_list = json.loads(segmentation)
+            except json.decoder.JSONDecodeError:
+                raise DerinetFileParseError("Couldn't parse the JSON-encoded segmentation section of lexeme {} at line {} '{}'".format(lex_id_str, line_nr, line))
+        else:
+            # The segmentation is probably in the v2.0 kwstring format.
+            morph_list = parse_kwstring(segmentation)
 
         reltype_list = parse_kwstring(reltype)
         if len(reltype_list) == 0:
@@ -688,11 +696,15 @@ class Lexicon(object):
                     del segment["End"]
                 else:
                     last_morph_end = segment["End"]
-                    segment["Start"] = str(segment["Start"])
-                    segment["End"] = str(segment["End"])
+                    #segment["Start"] = str(segment["Start"])
+                    #segment["End"] = str(segment["End"])
                 segmentation.append(segment)
 
-        return format_kwstring(segmentation)
+        #return format_kwstring(segmentation)
+        if not segmentation:
+            return ""
+        else:
+            return json.dumps(segmentation, ensure_ascii=False, allow_nan=False, indent=None, sort_keys=True)
 
     def _save_derinet_v2(self, data_sink, on_err):
         close_at_end = False
