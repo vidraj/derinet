@@ -27,6 +27,15 @@ class AddSegmentationClassification(Block):
     def process(self, lexicon: Lexicon):
         segmentations = self._load_segmentations(self.fname)
         for lexeme in lexicon.iter_lexemes():
+            lexeme._segmentation = {
+            "boundaries": {},
+            "morphs": [{
+                "Type": "Implicit",
+                "Start": 0,
+                "End": len(lexeme.lemma),
+                "Morph": lexeme.lemma
+                }]
+            }
             segmentation = segmentations[lexeme.lemma.lower()]
             for morph in segmentation:
                 lexeme.add_morph(start=morph["span"][0], end=morph["span"][-1], annot={"Type":morph["type"]})
