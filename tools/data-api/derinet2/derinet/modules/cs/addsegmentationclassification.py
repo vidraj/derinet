@@ -36,6 +36,7 @@ class AddSegmentationClassification(Block):
                 "Morph": lexeme.lemma
                 }]
             }
+        for lexeme in lexicon.iter_lexemes():
             segmentation = segmentations[lexeme.lemma.lower()]
             for morph in segmentation:
                 lexeme.add_morph(start=morph["span"][0], end=morph["span"][-1], annot={"Type":morph["type"]})
