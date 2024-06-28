@@ -232,6 +232,12 @@ class Lexicon(object):
             # The segmentation is probably in a JSON format.
             try:
                 morph_list = json.loads(segmentation)
+                for morph in morph_list:
+                    for klc, k in (("start", "Start"), ("end", "End"), ("morph", "Morph"), ("type", "Type")):
+                        # The keys in JSON are lowercased. Return the standard ones to TitleCase.
+                        if klc in morph and k not in morph:
+                            morph[k] = morph[klc]
+                            del morph[klc]
             except json.decoder.JSONDecodeError:
                 raise DerinetFileParseError("Couldn't parse the JSON-encoded segmentation section of lexeme {} at line {} '{}'".format(lex_id_str, line_nr, line))
         else:
@@ -698,6 +704,14 @@ class Lexicon(object):
                     last_morph_end = segment["End"]
                     #segment["Start"] = str(segment["Start"])
                     #segment["End"] = str(segment["End"])
+
+                # Downcase for JSON printing.
+                for k in ("Start", "End", "Morph", "Type"):
+                    klc = k.lower()
+                    if k in segment and klc not in segment:
+                        segment[klc] = segment[k]
+                        del segment[k]
+
                 segmentation.append(segment)
 
         #return format_kwstring(segmentation)
