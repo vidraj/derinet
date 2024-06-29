@@ -12,6 +12,7 @@ derinet-2-2.tsv: derinet-2-1.tsv
 		cs.AddAdpositions ../../../../data/annotations/cs/2024-05-adpositions/MorfFlex_adpositions.tsv \
 		cs.AddCompoundRelations ../../../../data/annotations/cs/2024-06-semicompounds/semicompounds.tsv \
 		cs.AddCompoundRelations ../../../../data/annotations/cs/2024-05-compounds/compounds.tsv \
+		cs.RenameAffixoidToNeocon \
 		Save "$@" > log 2>&1
 
 derinet-2-1.tsv: ../2.1/derinet-2-1.tsv
