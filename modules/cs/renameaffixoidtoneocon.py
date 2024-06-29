@@ -16,7 +16,7 @@ def techlemma_to_lemma(techlemma):
     lemma = re.sub("-\d+$", "", shortlemma)
     return lemma
 
-class AddPronouns(Block):
+class RenameAffixoidToNeocon(Block):
     def __init__(self, fname):
         # The arguments to __init__ are those that the parse_args method (below) returns.
         self.fname = fname
