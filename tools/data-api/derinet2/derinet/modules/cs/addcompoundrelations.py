@@ -10,17 +10,30 @@ logging.basicConfig(level=logging.DEBUG,
 
 logger = logging.getLogger(__name__)
 
+def find_first_true(boolean_list):
+    for index, value in enumerate(boolean_list):
+        if value:
+            return index
+    return None
 
 class AddCompoundRelations(Block):
-    def __init__(self, fname):
+    def __init__(self, fname, fname_ambiguity):
         # The arguments to __init__ are those that the parse_args method (below) returns.
         self.fname = fname
+        self.ambiguity_file = fname_ambiguity
 
     def process(self, lexicon: Lexicon):
 
         """
-        Read dataframe in a tsv of compounds in the form of two columns -
+        Read two dataframes.
+
+        1) Compound_parents is a tsv of compounds in the form of two columns -
         [lemma, parents]. The parents have to be divided by spaces.
+
+        2) Compound_ambiguities is a tsv of c in the form of two columns -
+        [lemma, parent_lemid]. Each compound lemma may have multiple entries.
+        This is a manually annotated list of lemids specifying which lexeme
+        out of a group of lemma-sharing lexemes (homonyms) the given compound should be attached to.
 
         This block does not add any lexemes. It instead adds compound relations to already-existing items
         in DeriNet. If a given parent however does not exist, it is skipped, unless it is a neoclassical
@@ -36,17 +49,23 @@ class AddCompoundRelations(Block):
 
         """
 
-        newdf = pd.read_csv(self.fname, header=0, sep="\t")
+        parent_df = pd.read_csv(self.fname, header=0, sep="\t")
+        ambiguity_df = pd.read_csv(self.ambiguity_file, header=None, sep="\t")
+
         logger.debug(f"Lexicon size: {sum([1 for i in lexicon.iter_lexemes()])}")
         lexicon_lemmas = {i.lemma for i in lexicon.iter_lexemes()}
 
-        for row in newdf.itertuples():
+        for row in parent_df.itertuples():
             parentlist = row.parents.strip()
             parentlist = parentlist.replace("  ", " ")
             parentlist = parentlist.split(" ")
 
             parentnum = len(parentlist)
             lemma = row.lemma
+
+            #This is the list of techlemmas that the compound is to be linked to (as opposed to their homonyms)
+
+            disambiguation = ambiguity_df[ambiguity_df[0] == lemma][1].to_list()
 
             #Unmotivated and derivative
             if parentnum == 1:
@@ -71,20 +90,32 @@ class AddCompoundRelations(Block):
                                 f"Derivational parent {parentlist[0]} from derivative {lemma} not found, skipping.")
                         elif len(possible_parent_lexemes) == 1:
                             parent_lexeme = possible_parent_lexemes[0]
+
                             logger.info(f"Disconnecting {child_lexeme} from all parents")
                             lexicon.remove_all_parent_relations(child_lexeme)
+
                             lexicon.add_derivation(source=parent_lexeme, target=child_lexeme)
                             logger.info(
                                 f"Derivational parent {parent_lexeme} attached to derivative {child_lexeme}.")
                         else:
                             lemids = [i.lemid for i in possible_parent_lexemes]
-                            parent_lexeme = possible_parent_lexemes[0]
+                            disambiguation_index = find_first_true([i in disambiguation for i in lemids])
+
                             logger.info(f"Disconnecting {child_lexeme} from all parents")
                             lexicon.remove_all_parent_relations(child_lexeme)
-                            lexicon.add_derivation(source=parent_lexeme, target=child_lexeme)
-                            logger.warning(
-                                        f"Parent {parentlist[0]} from derivative {lemma}"
-                                        f" ambiguous, assigning first item from {lemids}.")
+
+                            if disambiguation_index is None:
+                                parent_lexeme = possible_parent_lexemes[0]
+                                lexicon.add_derivation(source=parent_lexeme, target=child_lexeme)
+                                logger.warning(
+                                            f"Parent {parentlist[0]} from derivative {lemma}"
+                                            f" ambiguous, assigning first item from {lemids}.")
+                            else:
+                                parent_lexeme = possible_parent_lexemes[disambiguation_index]
+                                lexicon.add_derivation(source=parent_lexeme, target=child_lexeme)
+                                logger.info(
+                                    f"Parent {parent_lexeme} from derivative {lemma}"
+                                    f" successfully disambiguated from, selecting {lemids[disambiguation_index]}.")
                     continue
                 #
 
@@ -109,7 +140,7 @@ class AddCompoundRelations(Block):
                                                        pos="Affixoid").add_feature(feature="Fictitious",
                                                                                     value="Yes")
                         lexicon_lemmas.add(parent)
-                        logger.info(f"Created neocon {lexeme}.")
+                        logger.info(f"Created neocon {lexeme} with lemma {parent}.")
                     #
 
                     possible_parent_lexemes = lexicon.get_lexemes(parent)
@@ -126,9 +157,19 @@ class AddCompoundRelations(Block):
                                 f"Parent {parent} from compound {lemma} ambiguous, assigning first numeral from {lemids}.")
 
                         else:
-                            lex.append(possible_parent_lexemes[0])
-                            logger.warning(
-                                f"Parent {parent} from compound {lemma} ambiguous, assigning first item from {lemids}. (no numerals found)")
+                            disambiguation_index = find_first_true([i in disambiguation for i in lemids])
+                            if disambiguation_index is None:
+                                parent_lexeme = possible_parent_lexemes[0]
+                                lex.append(parent_lexeme)
+                                logger.warning(
+                                    f"Did not find disambiguation; parent {parentlist[0]} from compound/univerbate {lemma}"
+                                    f" ambiguous, assigning first item from {lemids}.")
+                            else:
+                                parent_lexeme = possible_parent_lexemes[disambiguation_index]
+                                lex.append(parent_lexeme)
+                                logger.info(
+                                    f"Parent {parent_lexeme} from compound/univerbate {lemma}"
+                                    f" successfully disambiguated from {lemids}, selecting {lemids[disambiguation_index]}.")
 
                     else:
                         logger.warning(f"Parent {parent} from compound {lemma} not found in DeriNet, skipping.")
@@ -171,13 +212,15 @@ class AddCompoundRelations(Block):
             formatter_class=argparse.ArgumentDefaultsHelpFormatter
         )
 
-        parser.add_argument("file", help="The file to load annotation from.")
+        parser.add_argument("file", help="The file of compound/parent lemmas to load annotation from.")
+        parser.add_argument("ambiguity_file", help="The file of compound lemma/parent techlamm to load.")
         # argparse.REMAINDER tells argparse not to be eager and to process only the start of the args.
         parser.add_argument("rest", nargs=argparse.REMAINDER, help="A list of other modules and their arguments.")
 
         args = parser.parse_args(args)
 
         fname = args.file
+        fname_ambiguity = args.ambiguity_file
 
         # Return *args to __init__, **kwargs to init and the unprocessed tail of arguments to other modules.
-        return [fname], {}, args.rest
+        return [fname, fname_ambiguity], {}, args.rest
