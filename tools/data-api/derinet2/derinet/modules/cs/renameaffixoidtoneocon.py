@@ -26,6 +26,6 @@ class RenameAffixoidToNeocon(Block):
 
         for lexeme in lexicon.iter_lexemes():
             if lexeme.pos == "Affixoid":
-                lexeme.pos = "Neocon"
+                lexeme._pos = "NeoCon"
 
         return lexicon
