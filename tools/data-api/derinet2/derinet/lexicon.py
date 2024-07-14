@@ -3,7 +3,7 @@ import json
 import logging
 import pickle
 import re
-from typing import List
+from typing import List, Optional
 
 from .lexeme import Lexeme
 from .relation import DerivationalRelation, CompoundRelation, ConversionRelation, UniverbisationRelation, VariantRelation
@@ -815,7 +815,7 @@ class Lexicon(object):
             if close_at_end:
                 data_sink.close()
 
-    def create_lexeme(self, lemma: str, pos: str, lemid: str = None, feats=None, misc: dict = None):
+    def create_lexeme(self, lemma: str, pos: str, lemid: Optional[str] = None, feats=None, misc: Optional[dict] = None):
         """
         Create a new Lexeme and add it to the database as a root of a new tree.
 
@@ -932,9 +932,9 @@ class Lexicon(object):
     def get_lexemes(
             self,
             lemma: str,
-            pos: str = None,
-            lemid: str = None,
-            techlemma: str = None,
+            pos: Optional[str] = None,
+            lemid: Optional[str] = None,
+            techlemma: Optional[str] = None,
             techlemma_match_fuzzy: bool = False
     ) -> List[Lexeme]:
         match_set = self._index.get(lemma, {})

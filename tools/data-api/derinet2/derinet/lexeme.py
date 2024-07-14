@@ -1,3 +1,5 @@
+from typing import Optional
+
 from .relation import Relation
 from .utils import DerinetError, DerinetMorphError, range_overlaps, remove_keys
 
@@ -145,7 +147,7 @@ class Lexeme(object):
         return self._segmentation["morphs"]
 
     @property
-    def parent_relation(self) -> Relation:
+    def parent_relation(self) -> Optional[Relation]:
         """
         The main parent relation.
 
