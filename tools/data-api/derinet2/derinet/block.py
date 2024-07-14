@@ -2,8 +2,7 @@ import argparse
 import logging
 from abc import ABC, abstractmethod
 
-from .lexicon import Lexicon, Format
-from .utils import DerinetError
+from .lexicon import Lexicon
 
 
 logging.basicConfig(level=logging.DEBUG,
