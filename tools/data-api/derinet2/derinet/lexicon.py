@@ -666,7 +666,7 @@ class Lexicon(object):
     def _format_parent_relation(self, lexeme, rel, id_mapping, include_main_source):
         reltype = {}
 
-        if rel:
+        if rel is not None:
             # We need to add features to the reltype, so
             #  copy it to prevent clobbering the original.
             reltype = rel.feats.copy()
