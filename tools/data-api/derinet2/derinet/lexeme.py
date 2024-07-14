@@ -1,4 +1,4 @@
-from typing import Optional
+from typing import Any, Dict, List, Optional
 
 from .relation import Relation
 from .utils import DerinetError, DerinetMorphError, range_overlaps, remove_keys
@@ -46,6 +46,15 @@ class Lexeme(object):
         # Wild area.
         "misc"
     ]
+
+    _lemid: str
+    _lemma: str
+    _pos: str
+    _feats: Dict[str, str]
+    _segmentation: Dict[str, Any]
+    _parent_relations: List[Relation]
+    _child_relations: List[Relation]
+    misc: Dict[str, Any]
 
     def __init__(self, lemma, pos, lemid=None, feats=None, misc=None):
         assert isinstance(lemma, str)

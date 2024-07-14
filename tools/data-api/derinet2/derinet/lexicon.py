@@ -3,7 +3,7 @@ import json
 import logging
 import pickle
 import re
-from typing import List, Optional
+from typing import Dict, List, Optional
 
 from .lexeme import Lexeme
 from .relation import DerivationalRelation, CompoundRelation, ConversionRelation, UniverbisationRelation, VariantRelation
@@ -64,6 +64,10 @@ class Lexicon(object):
         "_record_changes", # Boolean identifying whether the execution context below is used.
         "_execution_context", # A dict identifying the currently running module when using scenarios.
     ]
+    _data: List[Lexeme]
+    _index: Dict[str, Dict[str, List[int]]]
+    _record_changes: bool
+    _execution_context: Dict[str, Optional[str]]
 
     def __init__(self, *, record_changes: bool = False):
         # TODO maybe add a parameter with the database name in it? It could be used for
