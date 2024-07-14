@@ -145,8 +145,8 @@ class Relation(object, metaclass=ABCMeta):  # Defining it as Relation(ABC) doesn
 
         object_types_equal = type(self) is type(other)
         main_lexemes_equal = self.main_source is other.main_source and self.main_target is other.main_target
-        sources_equal = len(self.sources) == len(other.sources) and all([src_self is src_other for src_self, src_other in zip(self.sources, other.sources)])
-        targets_equal = len(self.targets) == len(other.targets) and all([tgt_self is tgt_other for tgt_self, tgt_other in zip(self.targets, other.targets)])
+        sources_equal = len(self.sources) == len(other.sources) and all(src_self is src_other for src_self, src_other in zip(self.sources, other.sources))
+        targets_equal = len(self.targets) == len(other.targets) and all(tgt_self is tgt_other for tgt_self, tgt_other in zip(self.targets, other.targets))
         # FIXME compare the types properly (I wrote this before defining how they are stored and used).
         relation_feats_equal = self.feats == other.feats
 
