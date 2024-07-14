@@ -9,7 +9,11 @@ class Load(Block):
         self.on_err = on_err
 
     def process(self, lexicon: Lexicon):
-        lexicon.load(self.file, fmt=self.format, on_err=self.on_err)
+        try:
+            lexicon.load(self.file, fmt=self.format, on_err=self.on_err)
+        finally:
+            self.file.close()
+
         return lexicon
 
     @staticmethod
