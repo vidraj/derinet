@@ -1,5 +1,5 @@
 from derinet import Block, Lexicon
-from derinet.utils import DerinetCycleCreationError
+from derinet.utils import DerinetCycleCreationError, techlemma_to_lemma
 import argparse
 import logging
 import re
@@ -9,12 +9,6 @@ logging.basicConfig(level=logging.DEBUG,
                     datefmt='%a, %d %b %Y %H:%M:%S')
 
 logger = logging.getLogger(__name__)
-
-def techlemma_to_lemma(techlemma):
-    """Cut off the technical suffixes from the string techlemma and return the raw lemma"""
-    shortlemma = re.sub("[_`].+", "", techlemma)
-    lemma = re.sub("-\d+$", "", shortlemma)
-    return lemma
 
 
 class RenameAffixoidToNeocon(Block):

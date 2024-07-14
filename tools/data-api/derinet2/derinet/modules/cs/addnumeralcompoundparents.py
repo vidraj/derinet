@@ -1,4 +1,5 @@
 from derinet import Block, Format, Lexicon, DerinetMorphError
+from derinet.utils import techlemma_to_lemma
 import argparse
 import logging
 
@@ -11,12 +12,6 @@ logging.basicConfig(level=logging.DEBUG,
                     datefmt='%a, %d %b %Y %H:%M:%S')
 
 logger = logging.getLogger(__name__)
-
-def techlemma_to_lemma(techlemma):
-    """Cut off the technical suffixes from the string techlemma and return the raw lemma"""
-    shortlemma = re.sub("[_`].+", "", techlemma)
-    lemma = re.sub("-\d+$", "", shortlemma)
-    return lemma
 
 class AddNumeralCompoundParents(Block):
     def __init__(self, fname):
