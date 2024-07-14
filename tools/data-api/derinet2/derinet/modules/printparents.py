@@ -60,8 +60,8 @@ class PrintParents(Block):
                         lroot = ("ROOT", None)
                     else:
                         lpar = [(p.lemma, p.pos) for p in lpar]
-                        lroot = lexeme.get_tree_root()
-                        lroot = (lroot.lemma, lroot.pos)
+                        tree_root = lexeme.get_tree_root()
+                        lroot = (tree_root.lemma, tree_root.pos)
 
                     parents.extend(lpar)
                     roots.append(lroot)
