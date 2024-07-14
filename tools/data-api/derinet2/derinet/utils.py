@@ -81,7 +81,7 @@ def parse_v2_id(val: str) -> Tuple[int, int]:
 
 
 def _sanitize_kwpair_item(x):
-    for c in {"=", "&", "|"}:
+    for c in {"=", "&", "|", "\n", "\t"}:
         if c in x:
             raise ValueError("Illegal char '{}' in kwstring part '{}'".format(c, x))
 
