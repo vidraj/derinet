@@ -1,5 +1,5 @@
 from derinet import Block, Lexicon
-from derinet.utils import DerinetCycleCreationError, techlemma_to_lemma
+from derinet.utils import techlemma_to_lemma
 import argparse
 import logging
 import re
