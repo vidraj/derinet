@@ -3,7 +3,7 @@ import json
 import logging
 import pickle
 import re
-import typing
+from typing import List
 
 from .lexeme import Lexeme
 from .relation import DerivationalRelation, CompoundRelation, ConversionRelation, UniverbisationRelation, VariantRelation
@@ -936,7 +936,7 @@ class Lexicon(object):
             lemid: str = None,
             techlemma: str = None,
             techlemma_match_fuzzy: bool = False
-    ) -> typing.List[Lexeme]:
+    ) -> List[Lexeme]:
         match_set = self._index.get(lemma, {})
 
         if pos is not None:
