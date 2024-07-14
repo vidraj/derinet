@@ -46,9 +46,9 @@ class Block(ABC):
 
         parser.add_argument("rest", nargs=argparse.REMAINDER, help="A list of other modules and their arguments.")
 
-        args = parser.parse_args(args)
+        parsed_args = parser.parse_args(args)
 
-        return [], {}, args.rest
+        return [], {}, parsed_args.rest
 
     @property
     def signature(self):
