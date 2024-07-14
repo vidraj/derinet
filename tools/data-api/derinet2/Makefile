@@ -1,4 +1,4 @@
-.PHONY: all test coverage profile pylint time-load-v1 time-load-v2 time-load-v1-pickle time-load-v2-pickle compare-load-v2-cpython-pypy time-unpickle test-scenario clean
+.PHONY: all test coverage profile pylint typecheck typecheck-core typecheck-all time-load-v1 time-load-v2 time-load-v1-pickle time-load-v2-pickle compare-load-v2-cpython-pypy time-unpickle test-scenario clean
 
 PROJECT_ROOT::=$(dir $(abspath $(lastword $(MAKEFILE_LIST))))
 PYTHON=python3
@@ -23,6 +23,14 @@ profile: profile-load-v2.pyprof
 
 pylint:
 	pylint derinet
+
+typecheck: typecheck-core typecheck-all
+
+typecheck-core:
+	mypy --disallow-untyped-calls derinet/*.py derinet/modules/load.py derinet/modules/save.py test/*.py
+
+typecheck-all:
+	mypy -p derinet
 
 time-load-v1: test/profile_load.py $(wildcard derinet/*.py)
 	command time -v "$(PYTHON)" -O "$<" derinet-v1 < "$(DERINET_V1)"
