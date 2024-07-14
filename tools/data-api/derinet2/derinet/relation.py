@@ -136,6 +136,9 @@ class Relation(object, metaclass=ABCMeta):  # Defining it as Relation(ABC) doesn
         return None
 
     def __eq__(self, other):
+        if not isinstance(other, Relation):
+            return NotImplemented
+
         if other is None:
             # Other may be None
             return self is None

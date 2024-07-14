@@ -105,8 +105,10 @@ class Lexeme(object):
         return self.lemid or "{}#{}".format(self.lemma, self.pos)
 
     def __lt__(self, other):
-        assert isinstance(other, Lexeme)
-        return (self.lemma, self.pos, self.lemid, self.techlemma) < (other.lemma, other.pos, other.lemid, other.techlemma)
+        if isinstance(other, Lexeme):
+            return (self.lemma, self.pos, self.lemid, self.techlemma) < (other.lemma, other.pos, other.lemid, other.techlemma)
+        else:
+            return NotImplemented
 
     @property
     def lemid(self):
