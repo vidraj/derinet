@@ -71,6 +71,16 @@ class TestLexeme(unittest.TestCase):
         self.assertIsInstance(lexeme.lemid, str)
         self.assertEqual(lexeme.lemid, "dog#N")
 
+    def test_lexeme_default_relations(self):
+        lexeme = Lexeme("dog", "N")
+        self.assertIsNone(lexeme.parent_relation)
+        self.assertEqual([], lexeme.parent_relations)
+        self.assertIsNone(lexeme.parent)
+        self.assertEqual([], lexeme.all_parents)
+        self.assertEqual([], lexeme.child_relations)
+        self.assertEqual([], lexeme.children)
+        self.assertEqual([], lexeme.otherrels)
+
     def test_dict_nonexistence(self):
         """
         This verifies that the __dict__ object is not being created for lexemes,
@@ -121,6 +131,10 @@ class TestLexeme(unittest.TestCase):
     #     # TODO maybe these tests shouldn't be here? If we set the relations through the API of Relation,
     #     #  maybe we should check through that, as there is little checkable code here anyway?
     #     raise NotImplementedError()
+
+    def test_get_tree_root_trivial(self):
+        lexeme = Lexeme("dog", "N")
+        self.assertIs(lexeme, lexeme.get_tree_root())
 
     # def test_get_tree_root(self):
     #     raise NotImplementedError()
