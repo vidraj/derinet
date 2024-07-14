@@ -214,7 +214,7 @@ class Lexicon(object):
             # The line was too short; report an error.
             raise DerinetFileParseError("Line nr. {} '{}' is too short, more data required.".format(line_nr, line))
 
-        lex_id_str, lemid, lemma, pos, feats, segmentation, parent_id_str, reltype, otherrels, misc = fields
+        lex_id_str, lemid, lemma, pos, feats_str, segmentation, parent_id_str, reltype_str, otherrels_str, misc_str = fields
 
         try:
             lex_id = parse_v2_id(lex_id_str)
@@ -224,7 +224,7 @@ class Lexicon(object):
         if not lemma:
             raise DerinetFileParseError("Empty lemma encountered in lexeme ID {} on line {} '{}'".format(lex_id_str, line_nr, line))
 
-        feats_list = parse_kwstring(feats)
+        feats_list = parse_kwstring(feats_str)
         if len(feats_list) == 0:
             feats = {}
         elif len(feats_list) == 1:
@@ -248,7 +248,7 @@ class Lexicon(object):
             # The segmentation is probably in the v2.0 kwstring format.
             morph_list = parse_kwstring(segmentation)
 
-        reltype_list = parse_kwstring(reltype)
+        reltype_list = parse_kwstring(reltype_str)
         if len(reltype_list) == 0:
             reltype = {}
         elif len(reltype_list) == 1:
@@ -256,10 +256,10 @@ class Lexicon(object):
         else:
             raise DerinetFileParseError() # TODO Write a proper error message.
 
-        otherrels = parse_kwstring(otherrels)
+        otherrels = parse_kwstring(otherrels_str)
 
         try:
-            misc = json.loads(misc)
+            misc = json.loads(misc_str)
         except json.decoder.JSONDecodeError:
             raise DerinetFileParseError("Couldn't parse the JSON-encoded misc section of lexeme {} at line {} '{}'".format(lex_id_str, line_nr, line))
 
