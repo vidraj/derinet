@@ -210,8 +210,8 @@ def main():
     main_args, rest_args = parse_args()
 
     if main_args.list_modules:
-        modules = list_modules("derinet.modules")
-        print("\n".join(modules))
+        module_list = list_modules("derinet.modules")
+        print("\n".join(module_list))
         return 0
 
     if main_args.seed is not None:
