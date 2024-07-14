@@ -8,21 +8,10 @@ formats = {
     "pickle-v4": Format.PICKLE_V4
 }
 
-format_list_string = ", ".join(formats.keys())
-format_help_string = "One of {}.".format(format_list_string)
-
 parser = argparse.ArgumentParser()
-parser.add_argument("input_format", help=format_help_string)
-parser.add_argument("--save", help=format_help_string)
+parser.add_argument("input_format", choices=formats.keys(), help="Input format to load")
+parser.add_argument("--save", choices=formats.keys(), help="Output format to save to")
 args = parser.parse_args()
-
-if args.input_format not in formats:
-    print("Format {} not supported. It must be one of {}".format(args.input_format, format_list_string), file=sys.stderr, flush=True)
-    sys.exit(1)
-
-if args.save is not None and args.save not in formats:
-    print("Format {} not supported. It must be one of {}".format(args.save, format_list_string), file=sys.stderr, flush=True)
-    sys.exit(1)
 
 input_format = formats[args.input_format]
 
