@@ -142,10 +142,7 @@ def parse_kwstring(s: str):
 
 
 def _valid_range(r):
-    if isinstance(r, tuple) and len(r) == 2 and r[0] < r[1]:
-        return True
-    else:
-        return False
+    return isinstance(r, tuple) and len(r) == 2 and r[0] < r[1]
 
 
 def range_overlaps(a, b):
