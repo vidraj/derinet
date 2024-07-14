@@ -20,7 +20,7 @@ class PrintParents(Block):
 
     def __init__(self, fname, output=None):
         self.fname = fname
-        
+
         if output is None:
             self.output = sys.stdout
             self.close_out_at_end = False
@@ -65,19 +65,19 @@ class PrintParents(Block):
 
                     parents.extend(lpar)
                     roots.append(lroot)
-                
+
                 # Remove duplicates from the lists.
                 parent_set = set(parents)
                 root_set = set(roots)
                 parents = sorted(parent_set)
                 roots = sorted(root_set)
-                
+
                 # Create separate lists of lemmas and poses from the tuples.
                 parent_lemmas = [record[0] for record in parents]
                 parent_poses = [record[1] if record[1] is not None else "" for record in parents]
                 root_lemmas = [record[0] for record in roots]
                 root_poses = [record[1] if record[1] is not None else "" for record in roots]
-                
+
                 print(
                     lemma,
                     pos,
@@ -89,7 +89,7 @@ class PrintParents(Block):
                     end="\n",
                     file=self.output
                 )
-        
+
         if self.close_out_at_end:
             self.output.close()
 
