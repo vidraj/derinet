@@ -15,7 +15,7 @@ logger = logging.getLogger(__name__)
 
 def parse_out_deriv_parent(techlemma):
     lemma = techlemma_to_lemma(techlemma)
-    pattern = "\(\*(\d+)\)"
+    pattern = r"\(\*(\d+)\)"
     match = re.search(pattern, techlemma)
 
     if match:

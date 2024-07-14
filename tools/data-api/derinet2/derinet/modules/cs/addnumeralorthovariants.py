@@ -14,7 +14,7 @@ logging.basicConfig(level=logging.DEBUG,
 logger = logging.getLogger(__name__)
 
 def parse_out_orthovariant(techlemma):
-    pattern = "\(\^GC\*\*([a-Ž]*)\)"
+    pattern = r"\(\^GC\*\*([a-Ž]*)\)"
     match = re.search(pattern, techlemma)
 
     if match:

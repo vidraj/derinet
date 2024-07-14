@@ -11,7 +11,7 @@ logging.basicConfig(level=logging.DEBUG,
 logger = logging.getLogger(__name__)
 
 
-hier_extract_regex = re.compile("\((.*)\)\[[^][]*\]")
+hier_extract_regex = re.compile(r"\((.*)\)\[[^][]*\]")
 def hier_to_morphemes(s):
     """
     Parse the hierarchical information `s` from a CELEX lexeme info to a list
