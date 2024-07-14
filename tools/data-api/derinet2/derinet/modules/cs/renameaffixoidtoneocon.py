@@ -19,6 +19,9 @@ class RenameAffixoidToNeocon(Block):
         """
 
         for lexeme in lexicon.iter_lexemes():
+            # Note that this breaks the internal datastructures of the
+            #  Lexicon, so it might not work at all, and if it does, it's
+            #  best to save and reload the database immediately afterwards.
             if lexeme.pos == "Affixoid":
                 lexeme._pos = "NeoCon"
 
