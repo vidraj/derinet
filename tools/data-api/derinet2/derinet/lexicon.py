@@ -364,7 +364,7 @@ class Lexicon(object):
                             raise DerinetFileParseError("Line nr. {} is empty, but doesn't end a block".format(line_nr))
                     continue
 
-                lexeme, lex_id_str, lex_id, parent_id_str, reltype, otherrels = self._parse_v2_lexeme(line_nr, line)
+                lexeme, lex_id_str, lex_id, parent_id_str, rel_feats, otherrels = self._parse_v2_lexeme(line_nr, line)
                 tree_id, lex_in_tree_id = lex_id
 
                 # If the ID was used already, raise an error.
@@ -406,7 +406,7 @@ class Lexicon(object):
                     else:
                         raise DerinetFileParseError("Lexeme with ID {} on line nr. {} refers to an in-tree lexeme ID {}, which was not encountered yet.".format(lex_id_str, line_nr, parent_id_str))
 
-                    if "Type" not in reltype:
+                    if "Type" not in rel_feats:
                         if on_err == "continue":
                             # Act as if the type was specified to be derivation.
                             logger.error("Unspecified relation type on line nr. %d; assuming derivation.", line_nr)
@@ -414,37 +414,37 @@ class Lexicon(object):
                         else:
                             raise DerinetFileParseError("Unspecified relation type on line nr. {}".format(line_nr))
                     else:
-                        t = reltype["Type"]
-                        del reltype["Type"]
+                        t = rel_feats["Type"]
+                        del rel_feats["Type"]
 
                     if t == "Derivation":
-                        self.add_derivation(parent_lexeme, lexeme, feats=reltype)
+                        self.add_derivation(parent_lexeme, lexeme, feats=rel_feats)
                     elif t == "Compounding" or t == "Univerbisation":
                         # This needs to be deferred, as the secondary
                         #  sources may not have been encountered yet.
                         #  But read and parse as much as possible anyway.
 
-                        if "Sources" in reltype:
+                        if "Sources" in rel_feats:
                             # The compounding relation is well-formed, with extra sources specified.
-                            parent_id_strs = reltype["Sources"].split(",")
-                            del reltype["Sources"]
+                            parent_id_strs = rel_feats["Sources"].split(",")
+                            del rel_feats["Sources"]
                             try:
                                 parent_ids = [parse_v2_id(id_str) for id_str in parent_id_strs]
                             except ValueError:
                                 raise DerinetFileParseError("Unparseable parent ID encountered on line nr. {}".format(line_nr))
 
-                            deferred_relations.append((line_nr, t, parent_ids, parent_lexeme, lexeme, reltype))
+                            deferred_relations.append((line_nr, t, parent_ids, parent_lexeme, lexeme, rel_feats))
                         elif on_err == "continue":
                             logger.error("%s needs multiple parents, but there are no other Sources on line nr. %d. Adding a derivation instead.", t, line_nr)
-                            self.add_derivation(parent_lexeme, lexeme, feats=reltype)
+                            self.add_derivation(parent_lexeme, lexeme, feats=rel_feats)
                         else:
                             raise DerinetFileParseError("{} needs multiple parents, but there are no other Sources on line nr. {}.".format(t, line_nr))
 
                     elif t == "Conversion":
-                        self.add_conversion(parent_lexeme, lexeme, feats=reltype)
+                        self.add_conversion(parent_lexeme, lexeme, feats=rel_feats)
 
                     elif t == "Variant":
-                        self.add_variant(parent_lexeme, lexeme, feats=reltype)
+                        self.add_variant(parent_lexeme, lexeme, feats=rel_feats)
 
                     elif on_err == "continue":
                         logger.error("Unknown relation type '%s' on line nr. %d, skipping.", t, line_nr)
