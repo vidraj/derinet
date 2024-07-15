@@ -6,6 +6,7 @@ import sys
 import importlib
 import logging
 import argparse
+from typing import Dict, List, Tuple, Type
 
 from derinet.scenario import Scenario
 from derinet.block import Block
@@ -18,7 +19,7 @@ logging.basicConfig(level=logging.DEBUG,
 logger = logging.getLogger(__name__)
 
 
-def parse_args():
+def parse_args() -> Tuple[argparse.Namespace, List[str]]:
     """
     Parse the known arguments of the top-level program and get a list of other argument strings, to be used as
     the specification of a scenario.
@@ -92,7 +93,7 @@ def parse_args():
     return main_args, rest_args
 
 
-def parse_first_module(args):
+def parse_first_module(args: List[str]) -> Tuple[Type[Block], List, Dict, List[str]]:
     """
     From the list of strings `args`, parse out the first module and its arguments and initialize it.
 
@@ -124,7 +125,7 @@ def parse_first_module(args):
     return module_class, module_args, module_kwargs, rest_args
 
 
-def parse_modules(args):
+def parse_modules(args: List[str]) -> List[Tuple[Type[Block], List, Dict]]:
     """
     Parse the whole list of args as a list of modules and their arguments, and initialize the modules.
 
@@ -141,7 +142,7 @@ def parse_modules(args):
     return modules
 
 
-def list_modules(package_name):
+def list_modules(package_name: str) -> List[str]:
     """
     List all classes inheriting from Block found in package package_name.
 
@@ -201,7 +202,7 @@ def list_modules(package_name):
     return modules
 
 
-def main():
+def main() -> int:
     """
     Run the scenario specified on the command line, or do whatever else depending on `sys.argv`.
 

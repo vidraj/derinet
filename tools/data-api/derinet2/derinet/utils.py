@@ -1,5 +1,12 @@
 import re
-from typing import Tuple
+import sys
+from typing import Any, Dict, Iterable, List, Tuple
+if sys.version_info >= (3, 10):
+    from typing import TypeAlias
+else:
+    from typing_extensions import TypeAlias
+
+KWList: TypeAlias = List[Dict[str, str]]
 
 class DerinetError(Exception):
     """
@@ -80,7 +87,7 @@ def parse_v2_id(val: str) -> Tuple[int, int]:
     return tree_id, lex_id
 
 
-def _sanitize_kwpair_item(x):
+def _sanitize_kwpair_item(x: str) -> str:
     for c in {"=", "&", "|", "\n", "\t"}:
         if c in x:
             raise ValueError("Illegal char '{}' in kwstring part '{}'".format(c, x))
@@ -88,7 +95,7 @@ def _sanitize_kwpair_item(x):
     return x
 
 
-def _format_kwpair(k, v):
+def _format_kwpair(k: str, v: str) -> str:
     if not isinstance(k, str):
         raise TypeError("key-value pair keys must be string, not {} (value {})".format(type(k), repr(k)))
     if not isinstance(v, str):
@@ -100,7 +107,7 @@ def _format_kwpair(k, v):
     return "{}={}".format(k, v)
 
 
-def format_kwstring(d):
+def format_kwstring(d: KWList) -> str:
     if d is None:
         return ""
 
@@ -120,7 +127,7 @@ def format_kwstring(d):
         )
 
 
-def parse_kwstring(s: str):
+def parse_kwstring(s: str) -> KWList:
     if s == "":
         return []
     else:
@@ -141,11 +148,11 @@ def parse_kwstring(s: str):
         return l
 
 
-def _valid_range(r):
+def _valid_range(r: Tuple[int, int]) -> bool:
     return isinstance(r, tuple) and len(r) == 2 and r[0] < r[1]
 
 
-def range_overlaps(a, b):
+def range_overlaps(a: Tuple[int, int], b: Tuple[int, int]) -> bool:
     """
     Check whether range a overlaps range b in any way.
 
@@ -181,13 +188,13 @@ def range_overlaps(a, b):
     return False
 
 
-def techlemma_to_lemma(techlemma):
+def techlemma_to_lemma(techlemma: str) -> str:
     """Cut off the technical suffixes from the string techlemma and return the raw lemma"""
     shortlemma = re.sub("[_`].+", "", techlemma)
     lemma = re.sub("-\\d+$", "", shortlemma)
     return lemma
 
-def remove_keys(d, ks):
+def remove_keys(d: Dict[str, Any], ks: Iterable[str]) -> Dict[str, Any]:
     """Remove keys in collection ks from dict d, return the new dict"""
     ks = set(ks)
     return {k: d[k] for k in d.keys() if k not in ks}

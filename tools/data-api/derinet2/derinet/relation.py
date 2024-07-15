@@ -1,4 +1,6 @@
 from abc import ABCMeta, abstractmethod
+from typing import Dict, Iterable, Optional, Tuple
+
 import derinet.lexeme
 from .utils import DerinetCycleCreationError
 
@@ -21,11 +23,17 @@ class Relation(object, metaclass=ABCMeta):  # Defining it as Relation(ABC) doesn
         "_main_source",
         "_targets",
         "_main_target",
-        "_feats"  # TODO Document what the type is and actually use it somewhere.
+        "_feats"
     ]
 
+    _sources: Tuple["derinet.lexeme.Lexeme", ...]
+    _main_source: "derinet.lexeme.Lexeme"
+    _targets: Tuple["derinet.lexeme.Lexeme", ...]
+    _main_target: "derinet.lexeme.Lexeme"
+    _feats: Dict[str, str]
+
     @abstractmethod
-    def __init__(self, sources, main_source, targets, main_target, feats=None):
+    def __init__(self, sources: Iterable["derinet.lexeme.Lexeme"], main_source: "derinet.lexeme.Lexeme", targets: Iterable["derinet.lexeme.Lexeme"], main_target: "derinet.lexeme.Lexeme", feats: Optional[Dict[str, str]] = None) -> None:
         # Check that the main main_source is one of the sources.
         if main_source not in sources:
             raise ValueError("The specified main main_source {} was not found in the list of sources [{}]".format(
@@ -66,7 +74,7 @@ class Relation(object, metaclass=ABCMeta):  # Defining it as Relation(ABC) doesn
         self._targets = tuple(targets)
         self._feats = feats
 
-    def add_to_lexemes(self):
+    def add_to_lexemes(self) -> None:
         # Add this relation to the lexemes.
 
         # Check that the exact same relation doesn't exist yet.
@@ -95,7 +103,7 @@ class Relation(object, metaclass=ABCMeta):  # Defining it as Relation(ABC) doesn
             # noinspection PyProtectedMember
             source._add_child_relation(self)  # pylint: disable=protected-access
 
-    def remove_from_lexemes(self):
+    def remove_from_lexemes(self) -> None:
         # Remove this relation from the lexemes.
         for target in set(self.targets):
             target._del_parent_relation(self)  # pylint: disable=protected-access
@@ -103,36 +111,36 @@ class Relation(object, metaclass=ABCMeta):  # Defining it as Relation(ABC) doesn
             source._del_child_relation(self)  # pylint: disable=protected-access
 
     @property
-    def main_source(self):
+    def main_source(self) -> "derinet.lexeme.Lexeme":
         return self._main_source
 
     @property
-    def sources(self):
+    def sources(self) -> Tuple["derinet.lexeme.Lexeme", ...]:
         return self._sources
 
     @property
-    def other_sources(self):
+    def other_sources(self) -> Tuple["derinet.lexeme.Lexeme", ...]:
         return tuple(s for s in self.sources if s is not self.main_source)
 
     @property
-    def main_target(self):
+    def main_target(self) -> "derinet.lexeme.Lexeme":
         return self._main_target
 
     @property
-    def targets(self):
+    def targets(self) -> Tuple["derinet.lexeme.Lexeme", ...]:
         return self._targets
 
     @property
-    def other_targets(self):
+    def other_targets(self) -> Tuple["derinet.lexeme.Lexeme", ...]:
         return tuple(t for t in self.targets if t is not self.main_target)
 
     @property
-    def feats(self):
+    def feats(self) -> Dict[str, str]:
         return self._feats
 
     @property
     @abstractmethod
-    def type(self):
+    def type(self) -> str:
         pass
 
     def __eq__(self, other):
@@ -177,11 +185,11 @@ class DerivationalRelation(Relation):
     """
     __slots__ = ()
 
-    def __init__(self, source, target, feats=None):
+    def __init__(self, source: "derinet.lexeme.Lexeme", target: "derinet.lexeme.Lexeme", feats: Optional[Dict[str, str]] = None) -> None:
         super().__init__((source,), source, (target,), target, feats=feats)
 
     @property
-    def type(self):
+    def type(self) -> str:
         return "Derivation"
 
 
@@ -191,11 +199,11 @@ class CompoundRelation(Relation):
     """
     __slots__ = ()
 
-    def __init__(self, sources, main_source, target, feats=None):
+    def __init__(self, sources: Iterable["derinet.lexeme.Lexeme"], main_source: "derinet.lexeme.Lexeme", target: "derinet.lexeme.Lexeme", feats: Optional[Dict[str, str]] = None) -> None:
         super().__init__(sources, main_source, (target,), target, feats=feats)
 
     @property
-    def type(self):
+    def type(self) -> str:
         return "Compounding"
 
 
@@ -209,11 +217,11 @@ class ConversionRelation(Relation):
     """
     __slots__ = ()
 
-    def __init__(self, source, target, feats=None):
+    def __init__(self, source: "derinet.lexeme.Lexeme", target: "derinet.lexeme.Lexeme", feats: Optional[Dict[str, str]] = None) -> None:
         super().__init__((source,), source, (target,), target, feats=feats)
 
     @property
-    def type(self):
+    def type(self) -> str:
         return "Conversion"
 
 
@@ -223,11 +231,11 @@ class VariantRelation(Relation):
     """
     __slots__ = ()
 
-    def __init__(self, source, target, feats=None):
+    def __init__(self, source: "derinet.lexeme.Lexeme", target: "derinet.lexeme.Lexeme", feats: Optional[Dict[str, str]] = None) -> None:
         super().__init__((source,), source, (target,), target, feats=feats)
 
     @property
-    def type(self):
+    def type(self) -> str:
         return "Variant"
 
 
@@ -237,9 +245,9 @@ class UniverbisationRelation(Relation):
     """
     __slots__ = ()
 
-    def __init__(self, sources, main_source, target, feats=None):
+    def __init__(self, sources: Iterable["derinet.lexeme.Lexeme"], main_source: "derinet.lexeme.Lexeme", target: "derinet.lexeme.Lexeme", feats: Optional[Dict[str, str]] = None) -> None:
         super().__init__(sources, main_source, (target,), target, feats=feats)
 
     @property
-    def type(self):
+    def type(self) -> str:
         return "Univerbisation"

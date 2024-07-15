@@ -3,10 +3,15 @@ import json
 import logging
 import pickle
 import re
-from typing import Dict, List, Optional
+import sys
+from typing import Any, BinaryIO, Callable, Dict, Iterable, Iterator, List, IO, Optional, overload, Set, TextIO, Tuple, Union
+if sys.version_info >= (3, 8):
+    from typing import Literal
+else:
+    from typing_extensions import Literal
 
 from .lexeme import Lexeme
-from .relation import DerivationalRelation, CompoundRelation, ConversionRelation, UniverbisationRelation, VariantRelation
+from .relation import DerivationalRelation, CompoundRelation, ConversionRelation, Relation, UniverbisationRelation, VariantRelation
 from .utils import DerinetError, DerinetCycleCreationError, DerinetFileParseError, DerinetLexemeDeleteError, parse_v1_id, parse_v2_id, format_kwstring, parse_kwstring
 
 logger = logging.getLogger(__name__)
@@ -64,6 +69,7 @@ class Lexicon(object):
         "_record_changes", # Boolean identifying whether the execution context below is used.
         "_execution_context", # A dict identifying the currently running module when using scenarios.
     ]
+
     _data: List[Lexeme]
     _index: Dict[str, Dict[str, List[int]]]
     _record_changes: bool
@@ -77,7 +83,12 @@ class Lexicon(object):
         self._record_changes = record_changes
         self._execution_context = {"creator": None, "args": None, "kwargs": None, "version": None}
 
-    def load(self, data_source, fmt: Format = Format.DERINET_V2, *, on_err: str = "raise"):
+    @overload
+    def load(self, data_source: Union[str, Iterable[str], TextIO], fmt: Literal[Format.DERINET_V1, Format.DERINET_V2, Format.UNIMORPH_V1] = Format.DERINET_V2, *, on_err: str = "raise") -> "Lexicon": ...
+    @overload
+    def load(self, data_source: Union[str, BinaryIO], fmt: Literal[Format.PICKLE_V4], *, on_err: str = "raise") -> "Lexicon": ...
+
+    def load(self, data_source, fmt: Format = Format.DERINET_V2, *, on_err: str = "raise") -> "Lexicon":
         """
         Load data from data_source and append them to this instance of the lexicon.
         Returns the modified lexicon object for convenience.
@@ -122,7 +133,7 @@ class Lexicon(object):
 
         return self
 
-    def _load_derinet_v1(self, data_source, on_err):
+    def _load_derinet_v1(self, data_source: Union[str, Iterable[str], TextIO], on_err: str) -> None:
         close_at_end = False
         if isinstance(data_source, str):
             # Act as if data_source is a filename to open.
@@ -165,7 +176,7 @@ class Lexicon(object):
                 if not lemma:
                     raise DerinetFileParseError("Empty lemma encountered in lexeme ID {} on line {} '{}'".format(this_id_str, line_nr, line))
 
-                misc = {}
+                misc: Dict[str, Any] = {}
 
                 if techlemma:
                     misc["techlemma"] = techlemma
@@ -207,7 +218,7 @@ class Lexicon(object):
 
             self.add_derivation(parent_lexeme, child_lexeme)
 
-    def _parse_v2_lexeme(self, line_nr, line):
+    def _parse_v2_lexeme(self, line_nr: int, line: str) -> Tuple[Lexeme, str, Tuple[int, int], str, Dict[str, str], List[Dict[str, str]]]:
         fields = line.split("\t", maxsplit=9)
 
         if len(fields) != 10:
@@ -270,7 +281,7 @@ class Lexicon(object):
 
         return lexeme, lex_id_str, lex_id, parent_id_str, reltype, otherrels
 
-    def _add_morphs_v2_annot(self, lexeme, morph_list, line_nr):
+    def _add_morphs_v2_annot(self, lexeme: Lexeme, morph_list: List[Dict[str, Any]], line_nr: int) -> None:
         last_morph_end = 0
         for morph in morph_list:
             # The morph can be specified in two ways: Its start and end
@@ -315,7 +326,7 @@ class Lexicon(object):
 
             last_morph_end = end
 
-    def _load_derinet_v2(self, data_source, on_err):
+    def _load_derinet_v2(self, data_source: Union[str, Iterable[str], TextIO], on_err: str) -> None:
         close_at_end = False
         if isinstance(data_source, str):
             # Act as if data_source is a filename to open.
@@ -332,8 +343,8 @@ class Lexicon(object):
 
         comment_regex = re.compile(r"^\s*#")
         id_map = {}
-        seen_trees = set()
-        this_tree = None
+        seen_trees: Set[int] = set()
+        this_tree: Optional[int] = None
         deferred_relations = []
 
         try:
@@ -492,7 +503,7 @@ class Lexicon(object):
             if close_at_end:
                 data_source.close()
 
-    def _load_pickle_v4(self, data_source, on_err):
+    def _load_pickle_v4(self, data_source: Union[str, BinaryIO], on_err: str) -> None:
         close_at_end = False
         if isinstance(data_source, str):
             # Act as if data_source is a filename to open.
@@ -514,7 +525,7 @@ class Lexicon(object):
             if close_at_end:
                 data_source.close()
 
-    def _load_unimorph_v1(self, data_source, on_err):
+    def _load_unimorph_v1(self, data_source: Union[str, Iterable[str], TextIO], on_err: str) -> None:
         close_at_end = False
         if isinstance(data_source, str):
             # Act as if data_source is a filename to open.
@@ -583,6 +594,11 @@ class Lexicon(object):
             if close_at_end:
                 data_source.close()
 
+    @overload
+    def save(self, data_sink: Union[str, TextIO], fmt: Literal[Format.DERINET_V1, Format.DERINET_V2] = Format.DERINET_V2, *, on_err: str = "raise"): ...
+    @overload
+    def save(self, data_sink: Union[str, BinaryIO], fmt: Literal[Format.PICKLE_V4], *, on_err: str = "raise"): ...
+
     def save(self, data_sink, fmt: Format = Format.DERINET_V2, *, on_err: str = "raise"):
         switch = {
             Format.DERINET_V1: self._save_derinet_v1,
@@ -602,7 +618,7 @@ class Lexicon(object):
 
         switch[fmt](data_sink, on_err)
 
-    def _save_derinet_v1(self, data_sink, on_err):
+    def _save_derinet_v1(self, data_sink: Union[str, TextIO], on_err: str) -> None:
         """Serialize the database as a DeriNet-1.X TSV file.
 
         Be aware that since this new API doesn't use IDs internally, they are not preserved when saving.
@@ -663,7 +679,7 @@ class Lexicon(object):
             if close_at_end:
                 data_sink.close()
 
-    def _format_parent_relation(self, lexeme, rel, id_mapping, include_main_source):
+    def _format_parent_relation(self, lexeme: Lexeme, rel: Optional[Relation], id_mapping: Dict[Lexeme, Tuple[str, int, int]], include_main_source: bool) -> Dict[str, str]:
         reltype = {}
 
         if rel is not None:
@@ -691,7 +707,7 @@ class Lexicon(object):
 
         return reltype
 
-    def _print_morphs_v2_annot(self, lexeme):
+    def _print_morphs_v2_annot(self, lexeme: Lexeme) -> str:
         segmentation = []
         last_morph_end = 0
 
@@ -724,7 +740,7 @@ class Lexicon(object):
         else:
             return json.dumps(segmentation, ensure_ascii=False, allow_nan=False, indent=None, sort_keys=True)
 
-    def _save_derinet_v2(self, data_sink, on_err):
+    def _save_derinet_v2(self, data_sink: Union[str, TextIO], on_err: str) -> None:
         close_at_end = False
         if isinstance(data_sink, str):
             # Act as if data_source is a filename to open.
@@ -803,7 +819,7 @@ class Lexicon(object):
             if close_at_end:
                 data_sink.close()
 
-    def _save_pickle_v4(self, data_sink, on_err):
+    def _save_pickle_v4(self, data_sink: Union[str, IO], on_err: str) -> None:
         close_at_end = False
         if isinstance(data_sink, str):
             # Act as if data_source is a filename to open.
@@ -819,7 +835,7 @@ class Lexicon(object):
             if close_at_end:
                 data_sink.close()
 
-    def create_lexeme(self, lemma: str, pos: str, lemid: Optional[str] = None, feats=None, misc: Optional[dict] = None):
+    def create_lexeme(self, lemma: str, pos: str, lemid: Optional[str] = None, feats=None, misc: Optional[dict] = None) -> "Lexeme":
         """
         Create a new Lexeme and add it to the database as a root of a new tree.
 
@@ -856,7 +872,7 @@ class Lexicon(object):
 
         return lexeme
 
-    def delete_lexeme(self, lexeme, delete_relations=False):
+    def delete_lexeme(self, lexeme: Lexeme, delete_relations: bool = False) -> None:
         """
         Delete the specified lexeme from the database.
 
@@ -930,7 +946,7 @@ class Lexicon(object):
             self._data[idx] = lexeme_to_move
         self._data.pop()
 
-    def delete_subtree(self, lexeme):
+    def delete_subtree(self, lexeme: Lexeme) -> None:
         raise NotImplementedError()
 
     def get_lexemes(
@@ -964,7 +980,7 @@ class Lexicon(object):
 
         return [self._data[lexeme_idx] for lexeme_idx in match_list_techlemma]
 
-    def iter_lexemes(self, sort=False):
+    def iter_lexemes(self, sort: bool = False) -> Iterator[Lexeme]:
         """
         Iterate through all lexemes in the database in an unspecified order, visiting each one exactly once.
 
@@ -982,19 +998,19 @@ class Lexicon(object):
             assert isinstance(lexeme, Lexeme)
             yield lexeme
 
-    def iter_trees(self, sort=False):
+    def iter_trees(self, sort: bool = False) -> Iterator[Lexeme]:
         # TODO cache the roots so that we don't have to recompute them every time.
         for lexeme in self.iter_lexemes(sort=sort):
             if lexeme.parent is None:
                 yield lexeme
 
-    def iter_relations(self):
+    def iter_relations(self) -> Iterator[Relation]:
         raise NotImplementedError()
 
-    def lexeme_count(self):
+    def lexeme_count(self) -> int:
         return len(self._data)
 
-    def set_execution_context(self, creator=None, args=None, kwargs=None, *, version=None):
+    def set_execution_context(self, creator: Optional[str] = None, args: Optional[str] = None, kwargs: Optional[str] = None, *, version: Optional[str] = None):
         if not self._record_changes:
             logger.warn("Asked to set execution context while change recording is disabled.")
 
@@ -1006,7 +1022,7 @@ class Lexicon(object):
             "version": version or old_context["version"]
         }
 
-    def add_derivation(self, source, target, feats=None):
+    def add_derivation(self, source: Lexeme, target: Lexeme, feats: Optional[Dict[str, str]] = None):
         rel = DerivationalRelation(source, target, feats=feats)
         rel.add_to_lexemes()
         if self._record_changes:
@@ -1017,7 +1033,7 @@ class Lexicon(object):
         # TODO should this method return the created link?
         # return rel
 
-    def add_composition(self, sources, main_source, target, feats=None):
+    def add_composition(self, sources: List[Lexeme], main_source: Lexeme, target: Lexeme, feats: Optional[Dict[str, str]] = None):
         if len(sources) < 2:
             raise DerinetError("Compounding of {} needs at least two sources, given only {}".format(target, sources))
 
@@ -1026,7 +1042,7 @@ class Lexicon(object):
         if self._record_changes:
             rel.main_target.record_parent_relation_change(rel, self._execution_context)
 
-    def add_univerbisation(self, sources, main_source, target, feats=None):
+    def add_univerbisation(self, sources: List[Lexeme], main_source: Lexeme, target: Lexeme, feats: Optional[Dict[str, str]] = None):
         if len(sources) < 2:
             raise DerinetError("Univerbation of {} needs at least two sources, given only {}".format(target, sources))
 
@@ -1035,19 +1051,19 @@ class Lexicon(object):
         if self._record_changes:
             rel.main_target.record_parent_relation_change(rel, self._execution_context)
 
-    def add_conversion(self, source, target, feats=None):
+    def add_conversion(self, source: Lexeme, target: Lexeme, feats: Optional[Dict[str, str]] = None):
         rel = ConversionRelation(source, target, feats=feats)
         rel.add_to_lexemes()
         if self._record_changes:
             rel.main_target.record_parent_relation_change(rel, self._execution_context)
 
-    def add_variant(self, source, target, feats=None):
+    def add_variant(self, source: Lexeme, target: Lexeme, feats: Optional[Dict[str, str]] = None):
         rel = VariantRelation(source, target, feats=feats)
         rel.add_to_lexemes()
         if self._record_changes:
             rel.main_target.record_parent_relation_change(rel, self._execution_context)
 
-    def remove_relation(self, rel):
+    def remove_relation(self, rel: Relation) -> None:
         """
         Remove the specified relation from all lexemes it's incident to.
         Be aware that since this modifies the relation lists of the
@@ -1062,20 +1078,20 @@ class Lexicon(object):
             lexeme.record_parent_relation_change(None, self._execution_context)
         rel.remove_from_lexemes()
 
-    def remove_all_parent_relations(self, lexeme):
+    def remove_all_parent_relations(self, lexeme: Lexeme) -> None:
         # Since the deletion modifies the relation lists, we have
         #  to generate them one-by-one instead of using
         #  `for rel in lexeme.parent_relations`.
         while lexeme.parent_relations:
             self.remove_relation(lexeme.parent_relations[0])
 
-    def remove_all_child_relations(self, lexeme):
+    def remove_all_child_relations(self, lexeme: Lexeme) -> None:
         # Since the deletion modifies the relation lists, we have
         #  to generate them one-by-one instead of using
         #  `for rel in lexeme.child_relations`.
         while lexeme.child_relations:
             self.remove_relation(lexeme.child_relations[0])
 
-    def remove_all_relations(self, lexeme):
+    def remove_all_relations(self, lexeme: Lexeme) -> None:
         self.remove_all_parent_relations(lexeme)
         self.remove_all_child_relations(lexeme)

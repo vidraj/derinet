@@ -1,6 +1,7 @@
 import argparse
 import logging
 from abc import ABC, abstractmethod
+from typing import Dict, List, Tuple
 
 from .lexicon import Lexicon
 
@@ -22,7 +23,7 @@ class Block(ABC):
         return lexicon
 
     @classmethod
-    def parse_args(cls, args):
+    def parse_args(cls, args: List[str]) -> Tuple[List, Dict, List[str]]:
         """
         Parse the known args from the start of `args` and return them as a list and a dict together with the
         unprocessed tail of args. The list and dict returned from this method will be passed as args and kwargs
@@ -50,5 +51,5 @@ class Block(ABC):
         return [], {}, parsed_args.rest
 
     @property
-    def signature(self):
+    def signature(self) -> str:
         return "{}/{}".format(self.__module__, self.__class__.__name__)

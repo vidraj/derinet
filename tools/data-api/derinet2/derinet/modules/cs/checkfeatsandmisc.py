@@ -1,6 +1,8 @@
 from derinet import Block, Lexicon
+from derinet.lexeme import Lexeme
 import argparse
 import logging
+from typing import Iterable, Set
 
 logging.basicConfig(level=logging.DEBUG,
                     format='%(asctime)s %(levelname)-8s %(message)s',
@@ -9,7 +11,7 @@ logging.basicConfig(level=logging.DEBUG,
 logger = logging.getLogger(__name__)
 
 class CheckFeatsAndMisc(Block):
-    def checkFE(self, lexeme, k):
+    def checkFE(self, lexeme: Lexeme, k: str) -> bool:
         """
         Check that the given key `k` exists in Feats of `lexeme`.
         """
@@ -19,7 +21,7 @@ class CheckFeatsAndMisc(Block):
             logger.error("Lexeme %s does not have %s in Feats.", lexeme, k)
             return False
 
-    def checkFN(self, lexeme, k):
+    def checkFN(self, lexeme: Lexeme, k: str) -> bool:
         """
         Check that the given key `k` does not exist in Feats of `lexeme`.
         """
@@ -29,7 +31,7 @@ class CheckFeatsAndMisc(Block):
         else:
             return True
 
-    def checkFV(self, lexeme, k, vs):
+    def checkFV(self, lexeme: Lexeme, k: str, vs: Set[str]) -> bool:
         """
         Check that if the given key `k` is present in Feats of `lexeme`,
         it has one of the values from `vs`.
@@ -44,7 +46,7 @@ class CheckFeatsAndMisc(Block):
             # Either not present, or present with the correct value.
             return True
 
-    def checkMV(self, lexeme, ks, vs):
+    def checkMV(self, lexeme: Lexeme, ks: Iterable[str], vs: Set[str]) -> bool:
         """
         Check that if the given sequence of keys `ks` is present as a
         nested sequence of keys in Misc of `lexeme`, the final retrieved

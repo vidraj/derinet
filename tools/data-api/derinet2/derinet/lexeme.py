@@ -1,4 +1,4 @@
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, Iterable, Iterator, List, Optional
 
 from .relation import Relation
 from .utils import DerinetError, DerinetMorphError, range_overlaps, remove_keys
@@ -56,7 +56,7 @@ class Lexeme(object):
     _child_relations: List[Relation]
     misc: Dict[str, Any]
 
-    def __init__(self, lemma, pos, lemid=None, feats=None, misc=None):
+    def __init__(self, lemma: str, pos: str, lemid: Optional[str] = None, feats: Optional[Dict[str, str]] = None, misc: Optional[Dict[str, Any]] = None) -> None:
         assert isinstance(lemma, str)
         assert len(lemma) > 0
         assert isinstance(pos, str)
@@ -87,7 +87,7 @@ class Lexeme(object):
 
         self.misc = misc if misc is not None else {}
 
-    def __repr__(self):
+    def __repr__(self) -> str:
         return "Lexeme(lemma={lemma!r}, pos={pos!r}, lemid={lemid!r}, feats={feats!r}, segmentation={segmentation!r}, misc={misc!r})".format(
             # TODO id – will it be present?
             lemma=self.lemma,
@@ -101,7 +101,7 @@ class Lexeme(object):
             misc=self.misc
         )
 
-    def __str__(self):
+    def __str__(self) -> str:
         return self.lemid or "{}#{}".format(self.lemma, self.pos)
 
     def __lt__(self, other):
@@ -111,7 +111,7 @@ class Lexeme(object):
             return NotImplemented
 
     @property
-    def lemid(self):
+    def lemid(self) -> str:
         """
         An unique, permanent, cross-database identification of this lexeme.
 
@@ -120,21 +120,21 @@ class Lexeme(object):
         return self._lemid
 
     @property
-    def lemma(self):
+    def lemma(self) -> str:
         """
         The lemma of this lexeme. Immutable.
         """
         return self._lemma
 
     @property
-    def pos(self):
+    def pos(self) -> str:
         """
         The part-of-speech tag of this lexeme. Immutable.
         """
         return self._pos
 
     @property
-    def techlemma(self):
+    def techlemma(self) -> str:
         """
         Returns a disambiguated representation of the lemma. Should be immutable, but actually reads the mutable
         "techlemma" property from misc. If "techlemma" was not provided in misc, returns the lemma.
@@ -149,12 +149,12 @@ class Lexeme(object):
             return self.lemma
 
     @property
-    def feats(self):
+    def feats(self) -> Dict[str, str]:
         # TODO write this
         return self._feats
 
     @property
-    def segmentation(self):
+    def segmentation(self) -> List[Dict[str, Any]]:
         return self._segmentation["morphs"]
 
     @property
@@ -170,7 +170,7 @@ class Lexeme(object):
             return None
 
     @property
-    def parent_relations(self):
+    def parent_relations(self) -> List[Relation]:
         """
         The relations to parent lexemes, including all the otherrels.
 
@@ -178,18 +178,18 @@ class Lexeme(object):
         """
         return self._parent_relations
 
-    def _add_parent_relation(self, relation):
+    def _add_parent_relation(self, relation: Relation):
         assert isinstance(relation, Relation)
 
         self._parent_relations.append(relation)
 
-    def _del_parent_relation(self, relation):
+    def _del_parent_relation(self, relation: Relation):
         assert isinstance(relation, Relation)
 
         self._parent_relations.remove(relation)
 
     @property
-    def parent(self):
+    def parent(self) -> Optional["Lexeme"]:
         """
         The main parent lexeme from the main relation – the only one in case of derivation,
         the main one in case of compounding.
@@ -202,23 +202,23 @@ class Lexeme(object):
             return None
 
     @property
-    def all_parents(self):
+    def all_parents(self) -> List["Lexeme"]:
         """
         All immediate parents of the lexeme from all parent relations.
         """
         # FIXME This may return one parent lexeme more than once if it
         #  is found in multiple relations.
-        parents = []
+        parents: List[Lexeme] = []
         for rel in self.parent_relations:
             parents.extend(rel.sources)
         return parents
 
     @property
-    def child_relations(self):
+    def child_relations(self) -> List[Relation]:
         return self._child_relations
 
     @property
-    def children(self):
+    def children(self) -> List["Lexeme"]:
         """
         Return a list of lexemes which have this lexeme as their parent; i.e. whose main relation has this
         lexeme as its main starting point.
@@ -229,7 +229,7 @@ class Lexeme(object):
         #  if it is found in multiple relations.
         return [child_relation.main_target for child_relation in self.child_relations if child_relation.main_source is self]
 
-    def _add_child_relation(self, relation):
+    def _add_child_relation(self, relation: Relation):
         assert isinstance(relation, Relation)
 
         self._child_relations.append(relation)
@@ -243,13 +243,13 @@ class Lexeme(object):
         #     # TODO do we need to ensure uniqueness of the target lexemes as well?
         #     #  The uniqueness of the relation itself doesn't guarantee this.
 
-    def _del_child_relation(self, relation):
+    def _del_child_relation(self, relation: Relation):
         assert isinstance(relation, Relation)
 
         self._child_relations.remove(relation)
 
     @property
-    def otherrels(self):
+    def otherrels(self) -> List[Relation]:
         return self.parent_relations[1:]
 
     def get_tree_root(self):
@@ -258,7 +258,7 @@ class Lexeme(object):
             lexeme = lexeme.parent
         return lexeme
 
-    def iter_subtree(self, sort=False):
+    def iter_subtree(self, sort: bool = False) -> Iterator["Lexeme"]:
         yield self
 
         if sort:
@@ -449,7 +449,7 @@ class Lexeme(object):
 
         return
 
-    def is_boundary_allowed(self, position: int, default=True):
+    def is_boundary_allowed(self, position: int, default: bool = True) -> bool:
         """
         Check whether it is allowed to add a morpheme boundary at `position` in lemma.
         Out-of-bounds positions evaluate to False, unknown positions default to `default`.
@@ -470,7 +470,7 @@ class Lexeme(object):
             # The position was not recorded yet. Return the default.
             return default
 
-    def overlaps_boundary(self, start: int, end:int):
+    def overlaps_boundary(self, start: int, end: int) -> bool:
         """
         Check whether the range [start, end) overlaps an existing morph boundary
         in this lexeme's lemma. Only range-internal boundaries are checked, that
@@ -499,7 +499,7 @@ class Lexeme(object):
         else:
             self._feats[feature] = value
 
-    def _pprint_subtree_indented(self, indent_first, indent_next):
+    def _pprint_subtree_indented(self, indent_first: str, indent_next: str) -> Iterable[str]:
         line = indent_first + str(self.lemid).replace("#", " ")
         lines = [line]
         # TODO handle non-derivational relations and otherrels.
@@ -514,7 +514,7 @@ class Lexeme(object):
 
         return lines
 
-    def pprint_subtree(self):
+    def pprint_subtree(self) -> str:
         """
         Pretty-prints the subtree of this lexeme, with indentation showing
         parent-child relations. Returns the pretty-printed tree as a string.
@@ -522,7 +522,7 @@ class Lexeme(object):
         """
         return "\n".join(self._pprint_subtree_indented("", ""))
 
-    def record_parent_relation_change(self, rel, execution_context):
+    def record_parent_relation_change(self, rel: Optional[Relation], execution_context: Dict[str, Optional[str]]) -> None:
         if "history" not in self.misc:
             # TODO If there already is a relation there, maybe record
             #  it in the history with an unknown creator?

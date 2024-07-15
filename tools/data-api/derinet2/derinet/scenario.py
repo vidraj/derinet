@@ -1,3 +1,6 @@
+from typing import Dict, List, Optional, Tuple, Type
+
+from .block import Block
 from .lexicon import Lexicon
 from .utils import DerinetError
 import logging
@@ -14,7 +17,9 @@ class Scenario:
         "_modules"
     ]
 
-    def __init__(self, modules):
+    modules: List[Tuple[Type[Block], List, Dict]]
+
+    def __init__(self, modules: List[Tuple[Type[Block], List, Dict]]) -> None:
         """
         Initialize a scenario using a list of Blocks.
 
@@ -22,7 +27,7 @@ class Scenario:
         """
         self._modules = modules
 
-    def process(self, lexicon=None, *, keep_going=False, version=None):
+    def process(self, lexicon: Optional[Lexicon] = None, *, keep_going: bool = False, version: Optional[str] = None) -> Lexicon:
         """
         Process the scenario by threading `lexicon` through the specified list
         of Blocks. Each Block is specified as a class to init and its arguments.
