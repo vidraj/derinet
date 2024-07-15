@@ -155,7 +155,7 @@ class CheckFeatsAndMisc(Block):
 
             ## Check relations: Each lexeme has at most one parent relation.
             if lexeme.otherrels:
-                logger.error("Lexeme %s has multiple relations: %s.", lexeme, ", ".join(lexeme.parent_relations))
+                logger.error("Lexeme %s has multiple relations: %s.", lexeme, ", ".join(str(rel) for rel in lexeme.parent_relations))
 
             if lexeme.parent_relation is not None:
                 assert lexeme.parent is not None
