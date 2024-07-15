@@ -422,7 +422,7 @@ class TestNewFormat(unittest.TestCase):
         db_file = io.StringIO()
         lexicon.save(db_file, fmt=Format.DERINET_V2)
 
-        self.assertEqual(db, db_file.getvalue())
+        self.assertMultiLineEqual(db, db_file.getvalue())
 
     def test_load_relation_features(self):
         db = """0.0	0	lexeme							{}
