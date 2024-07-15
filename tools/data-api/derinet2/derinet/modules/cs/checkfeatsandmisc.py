@@ -133,7 +133,7 @@ class CheckFeatsAndMisc(Block):
             if lexeme.pos == "Affixoid":
                 self.checkFE(lexeme, "Fictitious")
 
-            self.checkFV(lexeme, "Fictitious", "Yes")
+            self.checkFV(lexeme, "Fictitious", {"Yes"})
 
             # Loanword: False or True as strings. (TODO maybe we want to change this to Yes for loanwords and empty otherwise?)
             self.checkFV(lexeme, "Loanword", {"False", "True"})
