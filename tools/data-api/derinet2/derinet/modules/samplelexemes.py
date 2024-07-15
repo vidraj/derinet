@@ -143,10 +143,10 @@ class SampleLexemes(Block):
 
         return lexicon
 
-    @staticmethod
-    def parse_args(args):
+    @classmethod
+    def parse_args(cls, args):
         parser = argparse.ArgumentParser(
-            prog=__class__.__name__,
+            prog=cls.__name__,
             formatter_class=argparse.ArgumentDefaultsHelpFormatter
         )
 

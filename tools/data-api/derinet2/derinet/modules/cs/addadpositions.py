@@ -53,13 +53,13 @@ class AddAdpositions(Block):
 
         return lexicon
 
-    @staticmethod
-    def parse_args(args):
+    @classmethod
+    def parse_args(cls, args):
         """Parse a list of strings containing the arguments, pick the relevant
         ones from the beginning and leave the rest be. Return the parsed args
         to this module and the unprocessed rest."""
         parser = argparse.ArgumentParser(
-            prog=__class__.__name__,
+            prog=cls.__name__,
             formatter_class=argparse.ArgumentDefaultsHelpFormatter
         )
 
