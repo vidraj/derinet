@@ -103,6 +103,7 @@ class CheckFeatsAndMisc(Block):
                     if lexeme.parent is None:
                         logger.error("Lexeme %s is a possessive, but has no parent relation.", lexeme)
                     elif "PossGender" in lexeme.feats:
+                        assert lexeme.parent_relation is not None # We already tested parent for non-null.
                         # If this lexeme is possessive (Poss=Yes), check that its PossGender is identical to the gender of its parent.
                         # But it might also be a variant of another possessive and that's OK too.
                         if lexeme.parent_relation.type not in {"Derivation", "Variant"}:
@@ -157,6 +158,7 @@ class CheckFeatsAndMisc(Block):
                 logger.error("Lexeme %s has multiple relations: %s.", lexeme, ", ".join(lexeme.parent_relations))
 
             if lexeme.parent_relation is not None:
+                assert lexeme.parent is not None
                 # Type has a permitted value
                 # SemanticLabel has a permitted value
 
