@@ -129,7 +129,3 @@ class CheckEnumeratedWords(Block):
 
 
         return lexicon
-
-    @staticmethod
-    def parse_args(args):
-        return [], {}, args
