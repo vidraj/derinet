@@ -1,15 +1,16 @@
 #!/usr/bin/env python3
 
 """Process a derivational network using a scenario specified as individual args."""
-import derinet.modules
-import sys
+import argparse
 import importlib
 import logging
-import argparse
+import sys
 from typing import Dict, List, Tuple, Type
 
-from derinet.scenario import Scenario
 from derinet.block import Block
+from derinet.scenario import Scenario
+
+import derinet.modules
 
 
 logging.basicConfig(level=logging.DEBUG,

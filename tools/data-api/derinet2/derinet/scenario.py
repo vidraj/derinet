@@ -1,9 +1,9 @@
+import logging
 from typing import Dict, List, Optional, Tuple, Type
 
 from .block import Block
 from .lexicon import Lexicon
 from .utils import DerinetError
-import logging
 
 logging.basicConfig(level=logging.DEBUG,
                     format='%(asctime)s %(levelname)-8s %(message)s',
