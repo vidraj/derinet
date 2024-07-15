@@ -424,6 +424,30 @@ class TestNewFormat(unittest.TestCase):
 
         self.assertMultiLineEqual(db, db_file.getvalue())
 
+    def test_save_segmentation_json(self):
+        db = """0.0	Aachen#N	Aachen	N						{}
+
+1.0	aachenskost#N	aachenskost	N		[{"morph": "aachen", "type": "Root"}, {"end": 11, "morph": "ost", "start": 8, "type": "Suffix"}]				{}
+
+2.0	aachenský#A	aachenský	A		[{"end": 8, "morph": "sk", "start": 6, "type": "Suffix"}, {"morph": "ý", "type": "Suffix"}]				{}
+"""
+
+        lexicon = Lexicon()
+        lexeme_a = lexicon.create_lexeme("Aachen", "N")
+        lexeme_b = lexicon.create_lexeme("aachenský", "A")
+        lexeme_c = lexicon.create_lexeme("aachenskost", "N")
+
+        lexeme_b.add_morph(8, 9, {"Type": "Suffix"})
+        lexeme_b.add_morph(6, 8, {"Type": "Suffix"})
+
+        lexeme_c.add_morph(0, 6, {"Type": "Root"})
+        lexeme_c.add_morph(8, 11, {"Type": "Suffix"})
+
+        db_file = io.StringIO()
+        lexicon.save(db_file, fmt=Format.DERINET_V2_JSONSEG)
+
+        self.assertMultiLineEqual(db, db_file.getvalue())
+
     def test_load_relation_features(self):
         db = """0.0	0	lexeme							{}
 0.1	1	lexemer				0.0	SemanticLabel=Actor&Type=Derivation		{}
