@@ -61,6 +61,7 @@ class Format(enum.Enum):
     DERINET_V2 = 2
     PICKLE_V4 = 3
     UNIMORPH_V1 = 4
+    DERINET_V2_JSONSEG = 5
 
 
 class Lexicon(object):
@@ -85,7 +86,7 @@ class Lexicon(object):
         self._execution_context = {"creator": None, "args": None, "kwargs": None, "version": None}
 
     @overload
-    def load(self, data_source: Union[str, Iterable[str], TextIO], fmt: Literal[Format.DERINET_V1, Format.DERINET_V2, Format.UNIMORPH_V1] = Format.DERINET_V2, *, on_err: str = "raise") -> "Lexicon": ...
+    def load(self, data_source: Union[str, Iterable[str], TextIO], fmt: Literal[Format.DERINET_V1, Format.DERINET_V2, Format.UNIMORPH_V1, Format.DERINET_V2_JSONSEG] = Format.DERINET_V2, *, on_err: str = "raise") -> "Lexicon": ...
     @overload
     def load(self, data_source: Union[str, BinaryIO], fmt: Literal[Format.PICKLE_V4], *, on_err: str = "raise") -> "Lexicon": ...
 
@@ -105,7 +106,8 @@ class Lexicon(object):
             Format.DERINET_V1: self._load_derinet_v1,
             Format.DERINET_V2: self._load_derinet_v2,
             Format.PICKLE_V4: self._load_pickle_v4,
-            Format.UNIMORPH_V1: self._load_unimorph_v1
+            Format.UNIMORPH_V1: self._load_unimorph_v1,
+            Format.DERINET_V2_JSONSEG: self._load_derinet_v2,
         }
 
         if fmt not in switch:
@@ -600,15 +602,16 @@ class Lexicon(object):
                 data_source.close()
 
     @overload
-    def save(self, data_sink: Union[str, TextIO], fmt: Literal[Format.DERINET_V1, Format.DERINET_V2] = Format.DERINET_V2, *, on_err: str = "raise"): ...
+    def save(self, data_sink: Union[str, TextIO], fmt: Literal[Format.DERINET_V1, Format.DERINET_V2, Format.DERINET_V2_JSONSEG] = Format.DERINET_V2, *, on_err: str = "raise"): ...
     @overload
     def save(self, data_sink: Union[str, BinaryIO], fmt: Literal[Format.PICKLE_V4], *, on_err: str = "raise"): ...
 
     def save(self, data_sink, fmt: Format = Format.DERINET_V2, *, on_err: str = "raise"):
         switch = {
             Format.DERINET_V1: self._save_derinet_v1,
-            Format.DERINET_V2: self._save_derinet_v2,
-            Format.PICKLE_V4: self._save_pickle_v4
+            Format.DERINET_V2: self._save_derinet_v2_kw,
+            Format.PICKLE_V4: self._save_pickle_v4,
+            Format.DERINET_V2_JSONSEG: self._save_derinet_v2_jsonseg,
         }
 
         if on_err not in {"raise", "continue"}:
@@ -712,7 +715,7 @@ class Lexicon(object):
 
         return reltype
 
-    def _print_morphs_v2_annot(self, lexeme: Lexeme) -> str:
+    def _print_morphs_v2_annot(self, lexeme: Lexeme, segmentation_format: Literal["json", "kw"]) -> str:
         segmentation = []
         last_morph_end = 0
 
@@ -727,25 +730,37 @@ class Lexicon(object):
                     del segment["End"]
                 else:
                     last_morph_end = segment["End"]
-                    #segment["Start"] = str(segment["Start"])
-                    #segment["End"] = str(segment["End"])
+                    if segmentation_format == "kw":
+                        segment["Start"] = str(segment["Start"])
+                        segment["End"] = str(segment["End"])
 
-                # Downcase for JSON printing.
-                for k in ("Start", "End", "Morph", "Type"):
-                    klc = k.lower()
-                    if k in segment and klc not in segment:
-                        segment[klc] = segment[k]
-                        del segment[k]
+                if segmentation_format == "json":
+                    # Downcase for JSON printing.
+                    for k in ("Start", "End", "Morph", "Type"):
+                        klc = k.lower()
+                        if k in segment and klc not in segment:
+                            segment[klc] = segment[k]
+                            del segment[k]
 
                 segmentation.append(segment)
 
-        #return format_kwstring(segmentation)
-        if not segmentation:
-            return ""
+        if segmentation_format == "kw":
+            return format_kwstring(segmentation)
+        elif segmentation_format == "json":
+            if not segmentation:
+                return ""
+            else:
+                return json.dumps(segmentation, ensure_ascii=False, allow_nan=False, indent=None, sort_keys=True)
         else:
-            return json.dumps(segmentation, ensure_ascii=False, allow_nan=False, indent=None, sort_keys=True)
+            raise ValueError("Unrecognized segmentation format {}".format(segmentation_format))
 
-    def _save_derinet_v2(self, data_sink: Union[str, TextIO], on_err: str) -> None:
+    def _save_derinet_v2_jsonseg(self, data_sink: Union[str, TextIO], on_err: str) -> None:
+        self._save_derinet_v2(data_sink, on_err=on_err, segmentation_format="json")
+
+    def _save_derinet_v2_kw(self, data_sink: Union[str, TextIO], on_err: str) -> None:
+        self._save_derinet_v2(data_sink, on_err=on_err, segmentation_format="kw")
+
+    def _save_derinet_v2(self, data_sink: Union[str, TextIO], on_err: str, segmentation_format: Literal["json", "kw"]) -> None:
         close_at_end = False
         if isinstance(data_sink, str):
             # Act as if data_source is a filename to open.
@@ -811,7 +826,7 @@ class Lexicon(object):
                         lexeme.lemma,
                         lexeme.pos,
                         format_kwstring([lexeme.feats]),
-                        self._print_morphs_v2_annot(lexeme),
+                        self._print_morphs_v2_annot(lexeme, segmentation_format),
                         parent_formatted_id,
                         format_kwstring([self._format_parent_relation(lexeme, lexeme.parent_relation, id_mapping, False)]),
                         format_kwstring([self._format_parent_relation(lexeme, rel, id_mapping, True) for rel in lexeme.otherrels]),
