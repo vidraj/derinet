@@ -133,7 +133,7 @@ class Relation(object, metaclass=ABCMeta):  # Defining it as Relation(ABC) doesn
     @property
     @abstractmethod
     def type(self):
-        return None
+        pass
 
     def __eq__(self, other):
         if not isinstance(other, Relation):
