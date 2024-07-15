@@ -21,8 +21,8 @@ class Block(ABC):
     def process(self, lexicon: Lexicon) -> Lexicon:
         return lexicon
 
-    @staticmethod
-    def parse_args(args):
+    @classmethod
+    def parse_args(cls, args):
         """
         Parse the known args from the start of `args` and return them as a list and a dict together with the
         unprocessed tail of args. The list and dict returned from this method will be passed as args and kwargs
@@ -39,7 +39,7 @@ class Block(ABC):
         :return: A tuple of (parsed args, parsed kwargs, unprocessed tail of args)
         """
         parser = argparse.ArgumentParser(
-            prog=__class__.__name__,
+            prog=cls.__name__,
             description="This module takes no arguments."
         )
 
