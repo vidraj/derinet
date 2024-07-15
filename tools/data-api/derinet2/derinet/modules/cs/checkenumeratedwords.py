@@ -58,10 +58,10 @@ class CheckEnumeratedWords(Block):
         ambiguous_consonants = {
             # The functions are inlined here, because vy- and vý- cannot be
             #  enumerated and have to be tested programatically.
-            "b": lambda lexeme: lexeme if lexeme.lemma in frozenset(["by", "být", "bydlet", "obyvatel", "byt", "příbytek", "nábytek", "dobytek", "zbytek", "obyčej", "bystrý", "bylina", "kobyla", "býk", "Přibyslav", "babyka"]) else False,
+            "b": lambda lexeme: lexeme if lexeme.lemma in frozenset(["by", "být", "bydlet", "obyvatel", "byt", "příbytek", "nábytek", "dobytek", "zbytek", "obyčej", "bystrý", "bylina", "kobyla", "býk", "Přibyslav", "babyka", "trubýš"]) else False,
             "f": lambda lexeme: lexeme if lexeme.lemma in frozenset(["fyzika", "refýž", "zefýr"]) else False,
             "l": lambda lexeme: lexeme if lexeme.lemma in frozenset(["slyšet", "mlýn", "blýskat", "polykat", "plynout", "plyn", "plýtvat", "vzlykat", "lysý", "lýtko", "lýko", "lyže", "pelyněk", "plyš", "slynout", "plytký", "vlys"]) else False,
-            "m": lambda lexeme: lexeme if lexeme.lemma in frozenset(["my", "mýt ", "mýval", "myslet", "myslit", "mýlit", "hmyz", "myš", "hlemýžď", "mýtit", "vymýtit", "zamykat", "smýkat", "dmýchat", "chmýří", "nachomýtnout", "mýto", "mykat", "mys", "sumýš", "trubýš"]) else False,
+            "m": lambda lexeme: lexeme if lexeme.lemma in frozenset(["my", "mýt ", "mýval", "myslet", "myslit", "mýlit", "hmyz", "myš", "hlemýžď", "mýtit", "vymýtit", "zamykat", "smýkat", "dmýchat", "chmýří", "nachomýtnout", "mýto", "mykat", "mys", "sumýš"]) else False,
             "p": lambda lexeme: lexeme if lexeme.lemma in frozenset(["pýcha", "pýchavka", "pytel", "pysk", "netopýr", "slepýš", "pyl", "opylovat", "kopyto", "klopýtat", "třpytit", "zpytovat", "pykat", "pýr", "pýřit", "čepýřit", "pýří", "pyj"]) else False,
             "s": lambda lexeme: lexeme if lexeme.lemma in frozenset(["syn", "sytý", "sýr", "sýrový", "syrový", "syrý", "sychravý", "usychat", "usýchat", "sýkora", "sýček", "sysel", "syčet", "sypat"]) else False,
             "v": lambda lexeme: lexeme if (lexeme.lemma in frozenset(["vy", "vysoký", "výt", "výskat", "zvykat", "žvýkat", "vydra", "výr", "vyžle", "povyk", "výheň", "cavyky", "vyza", "kavyl"]) or lexeme.lemma.startswith("vy") or lexeme.lemma.startswith("vý")) else False,
