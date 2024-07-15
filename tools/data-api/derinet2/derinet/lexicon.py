@@ -1,4 +1,5 @@
 import enum
+import io
 import json
 import logging
 import pickle
@@ -206,6 +207,7 @@ class Lexicon(object):
         finally:
             # If we are supposed to close the data source, do it now.
             if close_at_end:
+                assert isinstance(data_source, io.TextIOBase)
                 data_source.close()
 
         # Now that all lexemes have been loaded, create the links.
@@ -501,6 +503,7 @@ class Lexicon(object):
         finally:
             # If we are supposed to close the data source, do it now.
             if close_at_end:
+                assert isinstance(data_source, io.TextIOBase)
                 data_source.close()
 
     def _load_pickle_v4(self, data_source: Union[str, BinaryIO], on_err: str) -> None:
@@ -523,6 +526,7 @@ class Lexicon(object):
         finally:
             # If we are supposed to close the data source, do it now.
             if close_at_end:
+                assert isinstance(data_source, io.BufferedReader)
                 data_source.close()
 
     def _load_unimorph_v1(self, data_source: Union[str, Iterable[str], TextIO], on_err: str) -> None:
@@ -592,6 +596,7 @@ class Lexicon(object):
         finally:
             # If we are supposed to close the data source, do it now.
             if close_at_end:
+                assert isinstance(data_source, io.TextIOBase)
                 data_source.close()
 
     @overload
