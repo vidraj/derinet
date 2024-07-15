@@ -267,7 +267,7 @@ class Lexeme(object):
             children = self.children
 
         for child in children:
-            yield from child.iter_subtree()
+            yield from child.iter_subtree(sort=sort)
 
     def add_morph(self, start: int, end: int, annot=None):
         """

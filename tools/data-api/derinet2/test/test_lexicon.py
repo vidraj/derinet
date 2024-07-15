@@ -398,14 +398,14 @@ class TestLexicon(unittest.TestCase):
 
 1.0	pes#N	pes	N						{}
 1.1	psovitý#A	psovitý	A			1.0	Type=Derivation		{}
-1.2	psovitě#D	psovitě	D			1.1	Type=Derivation		{}
-1.3	psovitost#N	psovitost	N			1.1	Type=Derivation		{}
+1.2	psovitost#N	psovitost	N			1.1	Type=Derivation		{}
+1.3	psovitě#D	psovitě	D			1.1	Type=Derivation		{}
 1.4	psík#N	psík	N			1.0	Type=Derivation		{}
 1.5	psice#N	psice	N			1.4	Type=Derivation		{}
 1.6	psičin#A	psičin	A			1.5	Type=Derivation		{}
-1.7	psíček#N	psíček	N			1.4	Type=Derivation		{}
-1.8	psíčkův#A	psíčkův	A			1.7	Type=Derivation		{}
-1.9	psíkův#A	psíkův	A			1.4	Type=Derivation		{}
+1.7	psíkův#A	psíkův	A			1.4	Type=Derivation		{}
+1.8	psíček#N	psíček	N			1.4	Type=Derivation		{}
+1.9	psíčkův#A	psíčkův	A			1.8	Type=Derivation		{}
 1.10	psův#A	psův	A			1.0	Type=Derivation		{}
 """, saved_data.getvalue())
         saved_data.close()

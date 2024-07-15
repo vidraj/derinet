@@ -520,34 +520,34 @@ class TestNewFormat(unittest.TestCase):
 1.0	buňka#NNF??-----A---?	buňka	N	Gender=Fem					{"techlemma": "buňka"}
 1.1	buničina#NNF??-----A---?	buničina	N	Gender=Fem		1.0	Type=Derivation		{"techlemma": "buničina"}
 1.2	buničinový#AA???----??---?	buničinový	A			1.1	Type=Derivation		{"techlemma": "buničinový"}
-1.3	buničinově#Dg-------??---?	buničinově	D			1.2	Type=Derivation		{"techlemma": "buničinově_^(*1ý)"}
-1.4	buničinovost#NNF??-----?---?	buničinovost	N	Gender=Fem		1.2	Type=Derivation		{"techlemma": "buničinovost_^(*3ý)"}
+1.3	buničinovost#NNF??-----?---?	buničinovost	N	Gender=Fem		1.2	Type=Derivation		{"techlemma": "buničinovost_^(*3ý)"}
+1.4	buničinově#Dg-------??---?	buničinově	D			1.2	Type=Derivation		{"techlemma": "buničinově_^(*1ý)"}
 1.5	buněčný#AA???----??---?	buněčný	A			1.0	Type=Derivation		{"techlemma": "buněčný"}
-1.6	buněčně#Dg-------??---?	buněčně	D			1.5	Type=Derivation		{"techlemma": "buněčně_^(*1ý)"}
-1.7	buněčnost#NNF??-----?---?	buněčnost	N	Gender=Fem		1.5	Type=Derivation		{"techlemma": "buněčnost_^(*3ý)"}
+1.6	buněčnost#NNF??-----?---?	buněčnost	N	Gender=Fem		1.5	Type=Derivation		{"techlemma": "buněčnost_^(*3ý)"}
+1.7	buněčně#Dg-------??---?	buněčně	D			1.5	Type=Derivation		{"techlemma": "buněčně_^(*1ý)"}
 1.8	vnitrobuněčný#AA???----??---?	vnitrobuněčný	A			1.5	Sources=2.12,1.5&Type=Compounding		{"is_compound": true, "techlemma": "vnitrobuněčný"}
 1.9	vnitrobuněčnost#NNF??-----?---?	vnitrobuněčnost	N	Gender=Fem		1.8	Type=Derivation		{"techlemma": "vnitrobuněčnost_^(*3ý)"}
 1.10	vnitrobuněčně#Dg-------??---?	vnitrobuněčně	D			1.8	Type=Derivation		{"techlemma": "vnitrobuněčně_^(*1ý)"}
 1.11	buňkovitý#AA???----??---?	buňkovitý	A			1.0	Type=Derivation		{"techlemma": "buňkovitý"}
-1.12	buňkovitě#Dg-------??---?	buňkovitě	D			1.11	Type=Derivation		{"techlemma": "buňkovitě_^(*1ý)"}
-1.13	buňkovitost#NNF??-----?---?	buňkovitost	N	Gender=Fem		1.11	Type=Derivation		{"techlemma": "buňkovitost_^(*3ý)"}
+1.12	buňkovitost#NNF??-----?---?	buňkovitost	N	Gender=Fem		1.11	Type=Derivation		{"techlemma": "buňkovitost_^(*3ý)"}
+1.13	buňkovitě#Dg-------??---?	buňkovitě	D			1.11	Type=Derivation		{"techlemma": "buňkovitě_^(*1ý)"}
 1.14	buňkový#AA???----??---?	buňkový	A			1.0	Type=Derivation		{"techlemma": "buňkový"}
-1.15	buňkově#Dg-------??---?	buňkově	D			1.14	Type=Derivation		{"techlemma": "buňkově_^(*1ý)"}
-1.16	buňkovost#NNF??-----?---?	buňkovost	N	Gender=Fem		1.14	Type=Derivation		{"techlemma": "buňkovost_^(*3ý)"}
+1.15	buňkovost#NNF??-----?---?	buňkovost	N	Gender=Fem		1.14	Type=Derivation		{"techlemma": "buňkovost_^(*3ý)"}
+1.16	buňkově#Dg-------??---?	buňkově	D			1.14	Type=Derivation		{"techlemma": "buňkově_^(*1ý)"}
 1.17	mikrobuňka#NNF??-----A---?	mikrobuňka	N	Gender=Fem		1.0	Type=Derivation		{"techlemma": "mikrobuňka"}
 
 2.0	nitro#NNN??-----A---?	nitro	N	Gender=Neut					{"techlemma": "nitro-1"}
 2.1	niterný#AA???----??---?	niterný	A			2.0	Type=Derivation		{"techlemma": "niterný"}
-2.2	niterně#Dg-------??---?	niterně	D			2.1	Type=Derivation		{"techlemma": "niterně_^(*1í)"}
-2.3	niternost#NNF??-----?---?	niternost	N	Gender=Fem		2.1	Type=Derivation		{"techlemma": "niternost_^(*3ý)"}
+2.2	niternost#NNF??-----?---?	niternost	N	Gender=Fem		2.1	Type=Derivation		{"techlemma": "niternost_^(*3ý)"}
+2.3	niterně#Dg-------??---?	niterně	D			2.1	Type=Derivation		{"techlemma": "niterně_^(*1í)"}
 2.4	nitrný#AA???----??---?	nitrný	A	Style=Arch		2.0	Type=Derivation		{"techlemma": "nitrný_,a"}
-2.5	nitrně#Dg-------??---?	nitrně	D	Style=Arch		2.4	Type=Derivation		{"techlemma": "nitrně_,a_^(*1ý)"}
-2.6	nitrnost#NNF??-----?---?	nitrnost	N	Gender=Fem&Style=Arch		2.4	Type=Derivation		{"techlemma": "nitrnost_,a_^(*3ý)"}
+2.5	nitrnost#NNF??-----?---?	nitrnost	N	Gender=Fem&Style=Arch		2.4	Type=Derivation		{"techlemma": "nitrnost_,a_^(*3ý)"}
+2.6	nitrně#Dg-------??---?	nitrně	D	Style=Arch		2.4	Type=Derivation		{"techlemma": "nitrně_,a_^(*1ý)"}
 2.7	uvnitř#Db-------------	uvnitř	D			2.0	Type=Derivation		{"techlemma": "uvnitř-2"}
 2.8	vnitřek#NNI??-----A---?	vnitřek	N	Animacy=Inan&Gender=Masc		2.7	Type=Derivation		{"techlemma": "vnitřek"}
 2.9	vnitřkový#AA???----??---?	vnitřkový	A			2.8	Type=Derivation		{"techlemma": "vnitřkový"}
-2.10	vnitřkově#Dg-------??---?	vnitřkově	D			2.9	Type=Derivation		{"techlemma": "vnitřkově_^(*1ý)"}
-2.11	vnitřkovost#NNF??-----?---?	vnitřkovost	N	Gender=Fem		2.9	Type=Derivation		{"techlemma": "vnitřkovost_^(*3ý)"}
+2.10	vnitřkovost#NNF??-----?---?	vnitřkovost	N	Gender=Fem		2.9	Type=Derivation		{"techlemma": "vnitřkovost_^(*3ý)"}
+2.11	vnitřkově#Dg-------??---?	vnitřkově	D			2.9	Type=Derivation		{"techlemma": "vnitřkově_^(*1ý)"}
 2.12	vnitro#NNN??-----A---?	vnitro	N	Gender=Neut		2.0	Type=Derivation		{"techlemma": "vnitro"}
 2.13	dovnitř#Db-------------	dovnitř	D			2.12	Type=Derivation		{"techlemma": "dovnitř-2"}
 2.14	vnitrák#NNM??-----A---?	vnitrák	N	Animacy=Anim&Gender=Masc&Style=Slng		2.12	Type=Derivation		{"techlemma": "vnitrák_,l"}
