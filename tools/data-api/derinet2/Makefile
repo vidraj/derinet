@@ -12,6 +12,7 @@ export PYTHONPATH
 all: profile
 
 test:
+	"$(PYTHON)" test/check_importability.py 2>/dev/null || { echo 'Some modules failed to import'; "$(PYTHON)" test/check_importability.py; exit 1; }
 	"$(PYTHON)" -m unittest discover -s test/ -p 'test_*.py'
 
 coverage:
