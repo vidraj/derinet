@@ -47,7 +47,7 @@ class AddWiktionarySsjcAnnot(Block):
         self.force_reconnect = force_reconnect
 
     def process(self, lexicon: Lexicon):
-        """
+        r"""
         Add relations and optionally compound marks to lexemes, using a
         rich annotation format from Wiktionary and SSJC annotations from
         v1.7. The format lists candidate relations, which can be added
