@@ -94,16 +94,7 @@ def parse_args() -> Tuple[argparse.Namespace, List[str]]:
     return main_args, rest_args
 
 
-def parse_first_module(args: List[str]) -> Tuple[Type[Block], List, Dict, List[str]]:
-    """
-    From the list of strings `args`, parse out the first module and its arguments and initialize it.
-
-    :param args: A list of strings, the first being a module name, followed by its arguments, followed by other module specifications.
-    :return: A tuple of (the loaded class of the module, args of the module, kwargs of the module, the unprocessed tail of the arguments).
-    """
-    module_name = args[0]
-    args = args[1:]
-
+def classload_module(module_name: str) -> Type[Block]:
     # The file name is simply lowercased module name.
     module_file_name = module_name.lower()
     # The class name is the last component of the module name.
@@ -118,6 +109,19 @@ def parse_first_module(args: List[str]) -> Tuple[Type[Block], List, Dict, List[s
     # Get the module's main class.
     module_class = getattr(module, class_name)
     assert issubclass(module_class, Block)
+
+    return module_class
+
+
+def parse_first_module(args: List[str]) -> Tuple[Type[Block], List, Dict, List[str]]:
+    """
+    From the list of strings `args`, parse out the first module and its arguments and initialize it.
+
+    :param args: A list of strings, the first being a module name, followed by its arguments, followed by other module specifications.
+    :return: A tuple of (the loaded class of the module, args of the module, kwargs of the module, the unprocessed tail of the arguments).
+    """
+    module_class = classload_module(args[0])
+    args = args[1:]
 
     # Let the module parse its arguments.
     module_args, module_kwargs, rest_args = module_class.parse_args(args)
