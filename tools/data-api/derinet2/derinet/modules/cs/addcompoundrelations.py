@@ -4,11 +4,9 @@ import logging
 import pandas as pd
 import numpy as np
 
-logging.basicConfig(level=logging.DEBUG,
-                    format='%(asctime)s %(levelname)-8s %(message)s',
-                    datefmt='%a, %d %b %Y %H:%M:%S')
 
 logger = logging.getLogger(__name__)
+
 
 def find_first_true(boolean_list):
     for index, value in enumerate(boolean_list):
