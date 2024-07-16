@@ -13,10 +13,6 @@ from derinet.scenario import Scenario
 import derinet.modules
 
 
-logging.basicConfig(level=logging.DEBUG,
-                    format='%(asctime)s %(levelname)-8s %(message)s',
-                    datefmt='%a, %d %b %Y %H:%M:%S')
-
 logger = logging.getLogger(__name__)
 
 
@@ -214,6 +210,11 @@ def main() -> int:
 
     :return: A shell-compatible error code.
     """
+
+    logging.basicConfig(level=logging.DEBUG,
+                        format='%(asctime)s %(levelname)-8s %(message)s',
+                        datefmt='%a, %d %b %Y %H:%M:%S')
+
     main_args, rest_args = parse_args()
 
     if main_args.list_modules:
