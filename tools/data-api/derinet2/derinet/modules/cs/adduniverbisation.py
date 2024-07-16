@@ -2,8 +2,6 @@ from derinet import Block, Lexicon, DerinetCycleCreationError
 import argparse
 import logging
 
-import os
-import sys
 from collections import defaultdict
 
 logging.basicConfig(level=logging.DEBUG,

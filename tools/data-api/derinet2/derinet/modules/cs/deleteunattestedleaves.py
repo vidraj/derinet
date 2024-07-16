@@ -1,7 +1,6 @@
 from derinet import Block, Lexicon
 import argparse
 import logging
-import sys
 
 logging.basicConfig(level=logging.DEBUG,
                     format='%(asctime)s %(levelname)-8s %(message)s',
