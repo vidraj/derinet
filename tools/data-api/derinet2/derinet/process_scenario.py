@@ -120,6 +120,7 @@ def parse_first_module(args: List[str]) -> Tuple[Type[Block], List, Dict, List[s
     :param args: A list of strings, the first being a module name, followed by its arguments, followed by other module specifications.
     :return: A tuple of (the loaded class of the module, args of the module, kwargs of the module, the unprocessed tail of the arguments).
     """
+    assert args, "Args must not be empty, at least the module name is required"
     module_class = classload_module(args[0])
     args = args[1:]
 
