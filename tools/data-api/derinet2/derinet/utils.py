@@ -127,6 +127,11 @@ def format_kwstring(d: KWList) -> str:
         )
 
 
+def _parse_kwpair(s: str) -> Tuple[str, str]:
+    k, v = s.split("=", maxsplit=1)
+    return k, v
+
+
 def parse_kwstring(s: str) -> KWList:
     if s == "":
         return []
@@ -137,7 +142,7 @@ def parse_kwstring(s: str) -> KWList:
         for dict_str in dict_strs:
             inner_dict = {}
             for eqstring in dict_str.split("&"):
-                k, v = eqstring.split("=", maxsplit=1)
+                k, v = _parse_kwpair(eqstring)
 
                 if k in inner_dict:
                     raise ValueError("Key {} encountered twice".format(k))
