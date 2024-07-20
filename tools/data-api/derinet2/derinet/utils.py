@@ -97,9 +97,9 @@ def _sanitize_kwpair_item(x: str) -> str:
 
 def _format_kwpair(k: str, v: str) -> str:
     if not isinstance(k, str):
-        raise TypeError("key-value pair keys must be string, not {} (value {})".format(type(k), repr(k)))
+        raise TypeError("key-value pair keys must be string, not {} (key '{}', value '{}')".format(type(k), repr(k), repr(v)))
     if not isinstance(v, str):
-        raise TypeError("key-value pair values must be string, not {} (value {})".format(type(v), repr(v)))
+        raise TypeError("key-value pair values must be string, not {} (key '{}', value '{}')".format(type(v), repr(k), repr(v)))
 
     k = _sanitize_kwpair_item(k)
     v = _sanitize_kwpair_item(v)
