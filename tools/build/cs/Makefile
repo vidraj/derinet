@@ -1,4 +1,4 @@
-VERSION::=2-2
+VERSION::=2-3
 DERINET::=derinet-$(VERSION).tsv
 
 .PHONY: all release stats clean inverted-corpus-counts
@@ -15,7 +15,7 @@ all: $(DERINET)
 release: $(DERINET)
 
 # Copy the final database from the last version to the current directory.
-$(DERINET): 2.2/derinet-2-2.tsv
+$(DERINET): 2.3/derinet-2-3.tsv
 	PYTHONPATH=../../data-api/derinet2 python3 -m derinet.process_scenario \
 		Load '$<' \
 		RemoveMiscKeys --key history --key segmentation \
@@ -27,7 +27,7 @@ $(DERINET): 2.2/derinet-2-2.tsv
 #  inherently serializes the build. Recursive make is considered harmful for
 #  a good reason. Therefore, `make clean` if you make changes in subdirs but
 #  insist on running `make` from this main directory.
-2.2/derinet-2-2.tsv:
+2.3/derinet-2-3.tsv:
 	$(MAKE) -C ../../data-api/perl-derivmorpho derinet-1-3.tsv
 	$(MAKE) -C 1.3 derinet-1-3.tsv
 	$(MAKE) -C 1.4 derinet-1-4.tsv
@@ -39,6 +39,7 @@ $(DERINET): 2.2/derinet-2-2.tsv
 	$(MAKE) -C 2.0.6 derinet-2-0-6.tsv
 	$(MAKE) -C 2.1 derinet-2-1.tsv
 	$(MAKE) -C 2.2 derinet-2-2.tsv
+	$(MAKE) -C 2.3 derinet-2-3.tsv
 
 
 # Gather some statistics on precision, recall and database structure.
