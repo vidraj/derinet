@@ -76,8 +76,10 @@ class CheckFeatsAndMisc(Block):
         Check that the contents of feats and misc conform to our expectations when releasing a new version.
         """
         for lexeme in lexicon.iter_lexemes(sort=False):
-            if lexeme.pos not in {"ADJ", "ADP", "ADV", "NOUN", "NUM", "PRON", "VERB", "Affixoid"}:
+            if lexeme.pos not in {"ADJ", "ADP", "ADV", "NOUN", "NUM", "PRON", "VERB", "Affixoid", "NeoCon"}:
                 logger.error("Lexeme %s has unexpected POS %s.", lexeme, lexeme.pos)
+            if lexeme.pos == "Affixoid":
+                logger.warning("Lexeme %s uses deprecated POS Affixoid, version 2.3 switched to NeoCon.", lexeme)
 
             if lexeme.pos == "NOUN":
                 # self.checkFE(lexeme, "Gender") # Commented out, too many words trigger it.
