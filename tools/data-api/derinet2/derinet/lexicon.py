@@ -13,7 +13,7 @@ else:
 
 from .lexeme import Lexeme
 from .relation import DerivationalRelation, CompoundRelation, ConversionRelation, Relation, UniverbisationRelation, VariantRelation
-from .utils import DerinetError, DerinetCycleCreationError, DerinetFileParseError, DerinetLexemeDeleteError, parse_v1_id, parse_v2_id, format_kwstring, parse_kwstring
+from .utils import DerinetError, DerinetCycleCreationError, DerinetFileParseError, DerinetLexemeDeleteError, KWDict, KWList, parse_v1_id, parse_v2_id, format_kwstring, parse_kwstring
 
 logger = logging.getLogger(__name__)
 
@@ -222,7 +222,7 @@ class Lexicon(object):
 
             self.add_derivation(parent_lexeme, child_lexeme)
 
-    def _parse_v2_lexeme(self, line_nr: int, line: str) -> Tuple[Lexeme, str, Tuple[int, int], str, Dict[str, str], List[Dict[str, str]]]:
+    def _parse_v2_lexeme(self, line_nr: int, line: str) -> Tuple[Lexeme, str, Tuple[int, int], str, KWDict, List[Dict[str, str]]]:
         fields = line.split("\t", maxsplit=9)
 
         if len(fields) != 10:
@@ -285,7 +285,7 @@ class Lexicon(object):
 
         return lexeme, lex_id_str, lex_id, parent_id_str, reltype, otherrels
 
-    def _add_morphs_v2_annot(self, lexeme: Lexeme, morph_list: List[Dict[str, Any]], line_nr: int) -> None:
+    def _add_morphs_v2_annot(self, lexeme: Lexeme, morph_list: KWList, line_nr: int) -> None:
         last_morph_end = 0
         for morph in morph_list:
             # The morph can be specified in two ways: Its start and end
@@ -1042,7 +1042,7 @@ class Lexicon(object):
             "version": version or old_context["version"]
         }
 
-    def add_derivation(self, source: Lexeme, target: Lexeme, feats: Optional[Dict[str, str]] = None):
+    def add_derivation(self, source: Lexeme, target: Lexeme, feats: Optional[KWDict] = None):
         rel = DerivationalRelation(source, target, feats=feats)
         rel.add_to_lexemes()
         if self._record_changes:
@@ -1053,7 +1053,7 @@ class Lexicon(object):
         # TODO should this method return the created link?
         # return rel
 
-    def add_composition(self, sources: List[Lexeme], main_source: Lexeme, target: Lexeme, feats: Optional[Dict[str, str]] = None):
+    def add_composition(self, sources: List[Lexeme], main_source: Lexeme, target: Lexeme, feats: Optional[KWDict] = None):
         if len(sources) < 2:
             raise DerinetError("Compounding of {} needs at least two sources, given only {}".format(target, sources))
 
@@ -1062,7 +1062,7 @@ class Lexicon(object):
         if self._record_changes:
             rel.main_target.record_parent_relation_change(rel, self._execution_context)
 
-    def add_univerbisation(self, sources: List[Lexeme], main_source: Lexeme, target: Lexeme, feats: Optional[Dict[str, str]] = None):
+    def add_univerbisation(self, sources: List[Lexeme], main_source: Lexeme, target: Lexeme, feats: Optional[KWDict] = None):
         if len(sources) < 2:
             raise DerinetError("Univerbation of {} needs at least two sources, given only {}".format(target, sources))
 
@@ -1071,13 +1071,13 @@ class Lexicon(object):
         if self._record_changes:
             rel.main_target.record_parent_relation_change(rel, self._execution_context)
 
-    def add_conversion(self, source: Lexeme, target: Lexeme, feats: Optional[Dict[str, str]] = None):
+    def add_conversion(self, source: Lexeme, target: Lexeme, feats: Optional[KWDict] = None):
         rel = ConversionRelation(source, target, feats=feats)
         rel.add_to_lexemes()
         if self._record_changes:
             rel.main_target.record_parent_relation_change(rel, self._execution_context)
 
-    def add_variant(self, source: Lexeme, target: Lexeme, feats: Optional[Dict[str, str]] = None):
+    def add_variant(self, source: Lexeme, target: Lexeme, feats: Optional[KWDict] = None):
         rel = VariantRelation(source, target, feats=feats)
         rel.add_to_lexemes()
         if self._record_changes:

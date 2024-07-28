@@ -6,7 +6,11 @@ if sys.version_info >= (3, 10):
 else:
     from typing_extensions import TypeAlias
 
-KWList: TypeAlias = List[Dict[str, str]]
+KWKey: TypeAlias = str
+KWVal: TypeAlias = str
+KWPair: TypeAlias = Tuple[KWKey, KWVal]
+KWDict: TypeAlias = Dict[KWKey, KWVal]
+KWList: TypeAlias = List[KWDict]
 
 class DerinetError(Exception):
     """
@@ -95,7 +99,7 @@ def _sanitize_kwpair_item(x: str) -> str:
     return x
 
 
-def _format_kwpair(k: str, v: str) -> str:
+def _format_kwpair(k: KWKey, v: KWVal) -> str:
     if not isinstance(k, str):
         raise TypeError("key-value pair keys must be string, not {} (key '{}', value '{}')".format(type(k), repr(k), repr(v)))
     if not isinstance(v, str):
@@ -127,7 +131,7 @@ def format_kwstring(d: KWList) -> str:
         )
 
 
-def _parse_kwpair(s: str) -> Tuple[str, str]:
+def _parse_kwpair(s: str) -> KWPair:
     k, v = s.split("=", maxsplit=1)
     return k, v
 

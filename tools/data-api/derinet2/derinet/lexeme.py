@@ -1,7 +1,7 @@
 from typing import Any, Dict, Iterable, Iterator, List, Optional
 
 from .relation import Relation
-from .utils import DerinetError, DerinetMorphError, range_overlaps, remove_keys
+from .utils import DerinetError, DerinetMorphError, KWDict, KWList, range_overlaps, remove_keys
 
 # The lexeme class
 # Must have all the fields from the DeriNet 2.0 documentation.
@@ -50,13 +50,13 @@ class Lexeme(object):
     _lemid: str
     _lemma: str
     _pos: str
-    _feats: Dict[str, str]
+    _feats: KWDict
     _segmentation: Dict[str, Any]
     _parent_relations: List[Relation]
     _child_relations: List[Relation]
     misc: Dict[str, Any]
 
-    def __init__(self, lemma: str, pos: str, lemid: Optional[str] = None, feats: Optional[Dict[str, str]] = None, misc: Optional[Dict[str, Any]] = None) -> None:
+    def __init__(self, lemma: str, pos: str, lemid: Optional[str] = None, feats: Optional[KWDict] = None, misc: Optional[Dict[str, Any]] = None) -> None:
         assert isinstance(lemma, str)
         assert len(lemma) > 0
         assert isinstance(pos, str)
@@ -149,12 +149,12 @@ class Lexeme(object):
             return self.lemma
 
     @property
-    def feats(self) -> Dict[str, str]:
+    def feats(self) -> KWDict:
         # TODO write this
         return self._feats
 
     @property
-    def segmentation(self) -> List[Dict[str, Any]]:
+    def segmentation(self) -> KWList:
         return self._segmentation["morphs"]
 
     @property

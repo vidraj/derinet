@@ -2,7 +2,7 @@ from abc import ABCMeta, abstractmethod
 from typing import Dict, Iterable, Optional, Tuple
 
 import derinet.lexeme
-from .utils import DerinetCycleCreationError
+from .utils import DerinetCycleCreationError, KWDict
 
 
 class Relation(object, metaclass=ABCMeta):  # Defining it as Relation(ABC) doesn't mix well with slots usage – it doesn't prevent __dict__ from forming.
@@ -30,10 +30,10 @@ class Relation(object, metaclass=ABCMeta):  # Defining it as Relation(ABC) doesn
     _main_source: "derinet.lexeme.Lexeme"
     _targets: Tuple["derinet.lexeme.Lexeme", ...]
     _main_target: "derinet.lexeme.Lexeme"
-    _feats: Dict[str, str]
+    _feats: KWDict
 
     @abstractmethod
-    def __init__(self, sources: Iterable["derinet.lexeme.Lexeme"], main_source: "derinet.lexeme.Lexeme", targets: Iterable["derinet.lexeme.Lexeme"], main_target: "derinet.lexeme.Lexeme", feats: Optional[Dict[str, str]] = None) -> None:
+    def __init__(self, sources: Iterable["derinet.lexeme.Lexeme"], main_source: "derinet.lexeme.Lexeme", targets: Iterable["derinet.lexeme.Lexeme"], main_target: "derinet.lexeme.Lexeme", feats: Optional[KWDict] = None) -> None:
         # Check that the main main_source is one of the sources.
         if main_source not in sources:
             raise ValueError("The specified main main_source {} was not found in the list of sources [{}]".format(
@@ -135,7 +135,7 @@ class Relation(object, metaclass=ABCMeta):  # Defining it as Relation(ABC) doesn
         return tuple(t for t in self.targets if t is not self.main_target)
 
     @property
-    def feats(self) -> Dict[str, str]:
+    def feats(self) -> KWDict:
         return self._feats
 
     @property
@@ -185,7 +185,7 @@ class DerivationalRelation(Relation):
     """
     __slots__ = ()
 
-    def __init__(self, source: "derinet.lexeme.Lexeme", target: "derinet.lexeme.Lexeme", feats: Optional[Dict[str, str]] = None) -> None:
+    def __init__(self, source: "derinet.lexeme.Lexeme", target: "derinet.lexeme.Lexeme", feats: Optional[KWDict] = None) -> None:
         super().__init__((source,), source, (target,), target, feats=feats)
 
     @property
@@ -199,7 +199,7 @@ class CompoundRelation(Relation):
     """
     __slots__ = ()
 
-    def __init__(self, sources: Iterable["derinet.lexeme.Lexeme"], main_source: "derinet.lexeme.Lexeme", target: "derinet.lexeme.Lexeme", feats: Optional[Dict[str, str]] = None) -> None:
+    def __init__(self, sources: Iterable["derinet.lexeme.Lexeme"], main_source: "derinet.lexeme.Lexeme", target: "derinet.lexeme.Lexeme", feats: Optional[KWDict] = None) -> None:
         super().__init__(sources, main_source, (target,), target, feats=feats)
 
     @property
@@ -217,7 +217,7 @@ class ConversionRelation(Relation):
     """
     __slots__ = ()
 
-    def __init__(self, source: "derinet.lexeme.Lexeme", target: "derinet.lexeme.Lexeme", feats: Optional[Dict[str, str]] = None) -> None:
+    def __init__(self, source: "derinet.lexeme.Lexeme", target: "derinet.lexeme.Lexeme", feats: Optional[KWDict] = None) -> None:
         super().__init__((source,), source, (target,), target, feats=feats)
 
     @property
@@ -231,7 +231,7 @@ class VariantRelation(Relation):
     """
     __slots__ = ()
 
-    def __init__(self, source: "derinet.lexeme.Lexeme", target: "derinet.lexeme.Lexeme", feats: Optional[Dict[str, str]] = None) -> None:
+    def __init__(self, source: "derinet.lexeme.Lexeme", target: "derinet.lexeme.Lexeme", feats: Optional[KWDict] = None) -> None:
         super().__init__((source,), source, (target,), target, feats=feats)
 
     @property
@@ -245,7 +245,7 @@ class UniverbisationRelation(Relation):
     """
     __slots__ = ()
 
-    def __init__(self, sources: Iterable["derinet.lexeme.Lexeme"], main_source: "derinet.lexeme.Lexeme", target: "derinet.lexeme.Lexeme", feats: Optional[Dict[str, str]] = None) -> None:
+    def __init__(self, sources: Iterable["derinet.lexeme.Lexeme"], main_source: "derinet.lexeme.Lexeme", target: "derinet.lexeme.Lexeme", feats: Optional[KWDict] = None) -> None:
         super().__init__(sources, main_source, (target,), target, feats=feats)
 
     @property
