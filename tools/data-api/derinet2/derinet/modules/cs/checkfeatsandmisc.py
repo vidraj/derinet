@@ -166,6 +166,10 @@ class CheckFeatsAndMisc(Block):
                 # Type has a permitted value
                 # SemanticLabel has a permitted value
 
+                # Check that parents of loanwords are also loanwords.
+                if "Loanword" in lexeme.feats and lexeme.feats["Loanword"] and ("Loanword" not in lexeme.parent.feats or not lexeme.parent.feats["Loanword"]):
+                        logger.error("Lexeme %s is a loanword, but has a parent %s which is not", lexeme, lexeme.parent)
+
                 if lexeme.parent_relation.type == "Variant":
                     # Variants have no further children
                     # Variants have properties identical to the base word – at least POS, gender, animacy, aspect, ... well, all of them.
