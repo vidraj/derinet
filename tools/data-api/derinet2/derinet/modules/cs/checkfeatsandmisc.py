@@ -2,7 +2,7 @@ from derinet import Block, Lexicon
 from derinet.lexeme import Lexeme
 import argparse
 import logging
-from typing import Iterable, Set
+from typing import Any, Iterable, Set
 
 
 logger = logging.getLogger(__name__)
@@ -29,7 +29,7 @@ class CheckFeatsAndMisc(Block):
         else:
             return True
 
-    def checkFV(self, lexeme: Lexeme, k: str, vs: Set[str]) -> bool:
+    def checkFV(self, lexeme: Lexeme, k: str, vs: Set[Any]) -> bool:
         """
         Check that if the given key `k` is present in Feats of `lexeme`,
         it has one of the values from `vs`.
@@ -137,8 +137,8 @@ class CheckFeatsAndMisc(Block):
 
             self.checkFV(lexeme, "Fictitious", {"Yes"})
 
-            # Loanword: False or True as strings. (TODO maybe we want to change this to Yes for loanwords and empty otherwise?)
-            self.checkFV(lexeme, "Loanword", {"False", "True"})
+            # Loanword: boolean. (TODO maybe we want to change this to Yes for loanwords and empty otherwise?)
+            self.checkFV(lexeme, "Loanword", {False, True})
 
             if lexeme.pos != "NOUN" and lexeme.pos != "ADJ":
                 self.checkFN(lexeme, "NameType")

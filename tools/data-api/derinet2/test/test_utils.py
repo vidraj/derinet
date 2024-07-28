@@ -155,6 +155,17 @@ class TestUtils(unittest.TestCase):
             (10, 7)
         )
 
+    def test_kwpair_loanword(self):
+        self.assertEqual("Loanword=True", u._format_kwpair("Loanword", True))
+
+        # The Loanword key is supposed to be a boolean.
+        parsed = u._parse_kwpair("Loanword=True")
+        self.assertEqual(("Loanword", True), parsed)
+        self.assertIs(parsed[1], True)
+
+        # Other keys are not boolean.
+        self.assertEqual(("Morph", "True"), u._parse_kwpair("Morph=True"))
+
     def test_print_kwstring_empty(self):
         """
         The empty kwstring can be produced in several different ways, making the format ambiguous.

@@ -102,13 +102,20 @@ def _sanitize_kwpair_item(x: str) -> str:
 def _format_kwpair(k: KWKey, v: KWVal) -> str:
     if not isinstance(k, str):
         raise TypeError("key-value pair keys must be string, not {} (key '{}', value '{}')".format(type(k), repr(k), repr(v)))
-    if not isinstance(v, str):
-        raise TypeError("key-value pair values must be string, not {} (key '{}', value '{}')".format(type(v), repr(k), repr(v)))
+
+    if k == "Loanword":
+        if not isinstance(v, bool):
+            raise TypeError("key-value pair values for key Loanword must be bool, not {} (value '{}')".format(type(v), repr(v)))
+        vs = str(v)
+    else:
+        if not isinstance(v, str):
+            raise TypeError("key-value pair values must be string, not {} (key '{}', value '{}')".format(type(v), repr(k), repr(v)))
+        vs = v
 
     k = _sanitize_kwpair_item(k)
-    v = _sanitize_kwpair_item(v)
+    vs = _sanitize_kwpair_item(vs)
 
-    return "{}={}".format(k, v)
+    return "{}={}".format(k, vs)
 
 
 def format_kwstring(d: KWList) -> str:
@@ -131,8 +138,20 @@ def format_kwstring(d: KWList) -> str:
         )
 
 
+def _parse_bool(s: str) -> bool:
+    if s == "True":
+        return True
+    elif s == "False":
+        return False
+    else:
+        raise ValueError("Cannot parse boolean '{}'".format(s))
+
+
 def _parse_kwpair(s: str) -> KWPair:
     k, v = s.split("=", maxsplit=1)
+    if k == "Loanword":
+        return k, _parse_bool(v)
+
     return k, v
 
 
