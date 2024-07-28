@@ -1,6 +1,7 @@
 from derinet import Block, Lexicon
 import argparse
 import sys
+from typing import Any, Dict, Optional
 
 class RemoveMiscKeys(Block):
     """
@@ -16,7 +17,7 @@ class RemoveMiscKeys(Block):
     def process(self, lexicon: Lexicon):
         for lexeme in lexicon.iter_lexemes(sort=False):
             for keylist in self.keys:
-                d = lexeme.misc
+                d: Optional[Dict[str, Any]] = lexeme.misc
                 for key in keylist[:-1]:
                     if d is None:
                         break
