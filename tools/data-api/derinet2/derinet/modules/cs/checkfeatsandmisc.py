@@ -172,6 +172,9 @@ class CheckFeatsAndMisc(Block):
 
                 if lexeme.parent_relation.type == "Variant":
                     # Variants have no further children
+                    if lexeme.children:
+                        logger.error("Lexeme %s is a variant of %s, but has children %s", lexeme, lexeme.parent, ", ".join(str(l) for l in lexeme.children))
+
                     # Variants have properties identical to the base word – at least POS, gender, animacy, aspect, ... well, all of them.
                     # SemanticLabel not for variants
                     if lexeme.pos != lexeme.parent.pos:
