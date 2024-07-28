@@ -112,10 +112,12 @@ class CheckFeatsAndMisc(Block):
                             logger.error("Lexeme %s is possessive, but created by %s instead of by derivation.", lexeme, lexeme.parent_relation)
 
                         if lexeme.parent_relation.type != "Variant":
-                            if "Gender" not in lexeme.parent.feats or lexeme.parent.feats["Gender"] != lexeme.feats["PossGender"]:
-                                # The PossGender must be identical to the gender of the parent.
+                            if not (("PossGender" in lexeme.parent.feats and lexeme.parent.feats["PossGender"] == lexeme.feats["PossGender"])
+                                    or ("Gender" in lexeme.parent.feats and lexeme.parent.feats["Gender"] == lexeme.feats["PossGender"])):
+                                # Either the parent also has a PossGender and it is identical (e.g. with prefixation),
+                                # or the PossGender must be identical to the gender of the parent.
                                 logger.error("Lexeme %s is %s possessive, but its parent %s has a different gender %s.", lexeme, lexeme.feats["PossGender"], lexeme.parent, lexeme.parent.feats.get("Gender", "(none)"))
-                            elif lexeme.feats["PossGender"] == "Masc" and ("Animacy" not in lexeme.parent.feats or lexeme.parent.feats["Animacy"] != "Anim"):
+                            elif lexeme.feats["PossGender"] == "Masc" and "PossGender" not in lexeme.parent.feats and ("Animacy" not in lexeme.parent.feats or lexeme.parent.feats["Animacy"] != "Anim"):
                                 # Masc PossGender always implies Animate on the parent.
                                 logger.error("Lexeme %s is Masc possessive, but its parent %s is not Animate.", lexeme, lexeme.parent)
                 else:
