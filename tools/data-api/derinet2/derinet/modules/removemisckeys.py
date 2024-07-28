@@ -18,9 +18,9 @@ class RemoveMiscKeys(Block):
             for keylist in self.keys:
                 d = lexeme.misc
                 for key in keylist[:-1]:
-                    d = d.get(key)
                     if d is None:
                         break
+                    d = d.get(key)
                 if d is None:
                     # The keylist is not present in the lexeme.
                     break
