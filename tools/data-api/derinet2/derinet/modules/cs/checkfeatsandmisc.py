@@ -111,6 +111,7 @@ class CheckFeatsAndMisc(Block):
                         if lexeme.parent_relation.type not in {"Derivation", "Variant"}:
                             logger.error("Lexeme %s is possessive, but created by %s instead of by derivation.", lexeme, lexeme.parent_relation)
 
+                        # Variants should have all feats identical to their parent, but that is checked below.
                         if lexeme.parent_relation.type != "Variant":
                             if not (("PossGender" in lexeme.parent.feats and lexeme.parent.feats["PossGender"] == lexeme.feats["PossGender"])
                                     or ("Gender" in lexeme.parent.feats and lexeme.parent.feats["Gender"] == lexeme.feats["PossGender"])):
@@ -175,8 +176,34 @@ class CheckFeatsAndMisc(Block):
                     if lexeme.children:
                         logger.error("Lexeme %s is a variant of %s, but has children %s", lexeme, lexeme.parent, ", ".join(str(l) for l in lexeme.children))
 
-                    # Variants have properties identical to the base word – at least POS, gender, animacy, aspect, ... well, all of them.
-                    # SemanticLabel not for variants
+                    # Variants have properties identical to the base word – at least POS, gender, animacy, aspect, ...
+                    #  well, all of them. Just "Style" may be different. Loanword is checked separately above, as it
+                    #  must be identical not just for variants.
+                    lk = set(lexeme.feats.keys()) - {"Style", "Loanword"}
+                    pk = set(lexeme.parent.feats.keys()) - {"Style", "Loanword"}
+                    extra_keys = sorted(lk - pk)
+                    missing_keys = sorted(pk - lk)
+
+                    msgs = []
+
+                    if extra_keys:
+                        msgs.append("has extra feats " + ", ".join(extra_keys))
+                    if missing_keys:
+                        msgs.append("is missing feats " + ", ".join(missing_keys))
+
+                    different_values = []
+                    for k in sorted(lk & pk):
+                        lv = lexeme.feats[k]
+                        pv = lexeme.parent.feats[k]
+                        if lv != pv:
+                            different_values.append("{}: {} vs. {}".format(k, lv, pv))
+
+                    if different_values:
+                        msgs.append("has differing values of " + ", ".join(different_values))
+
+                    if msgs:
+                        logger.error("Lexeme %s is a variant of %s, but %s", lexeme, lexeme.parent, ", ".join(msgs))
+
                     if lexeme.pos != lexeme.parent.pos:
                         logger.error("Variant relation %s does not preserve POS.", lexeme.parent_relation)
                     # TODO Check the other properties.
