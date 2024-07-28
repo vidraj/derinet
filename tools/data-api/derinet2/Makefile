@@ -1,4 +1,4 @@
-.PHONY: all test coverage profile pylint typecheck typecheck-core typecheck-all time-load-v1 time-load-v2 time-load-v1-pickle time-load-v2-pickle compare-load-v2-cpython-pypy time-unpickle test-scenario clean
+.PHONY: all mypyc-compile test coverage profile pylint typecheck typecheck-core typecheck-all time-load-v1 time-load-v2 time-load-v1-pickle time-load-v2-pickle compare-load-v2-cpython-pypy time-unpickle test-scenario clean
 
 PROJECT_ROOT::=$(dir $(abspath $(lastword $(MAKEFILE_LIST))))
 PYTHON=python3
@@ -10,6 +10,16 @@ PYTHONPATH=$(PROJECT_ROOT)
 export PYTHONPATH
 
 all: profile
+
+# Try compiling the code using mypyc, to see whether it becomes faster.
+# Answer: Yes, but not by a lot. Using pypy3 is still much better.
+mypyc-compile:
+	# Can't compile scenario, because it is not compatible with mypyc (https://github.com/mypyc/mypyc/issues/1055).
+	# Can't compile process_scenario, because it fails with `RuntimeError: mypyc internal error: should be unreachable`.
+	# Can't compile the modules, because they don't have type annotations.
+	# Can't compile block, because the modules are not compiled and `TypeError: interpreted classes cannot inherit from compiled`.
+	# Relation needs the @abstractmethod removed from __init__(); see https://github.com/mypyc/mypyc/issues/1057
+	mypyc derinet/lexeme.py derinet/lexicon.py derinet/relation.py derinet/utils.py
 
 test:
 	"$(PYTHON)" test/check_importability.py 2>/dev/null || { echo 'Some modules failed to import'; "$(PYTHON)" test/check_importability.py; exit 1; }
@@ -75,5 +85,7 @@ clean:
 	rm -f profile-load-v2.pyprof profile-load-v2-pickle.pyprof
 	rm -f "$(PICKLE_FILE)"
 	rm -rf build/ derinet.egg-info/
+	rm -rf .mypy_cache/
 	find . -name '__pycache__' -type d -exec rm -rf '{}' '+'
+	find . -name '*.so' -type f -exec rm -rf '{}' '+'
 	coverage erase
