@@ -7,7 +7,7 @@ else:
     from typing_extensions import TypeAlias
 
 KWKey: TypeAlias = str
-KWVal: TypeAlias = str
+KWVal: TypeAlias = Any
 KWPair: TypeAlias = Tuple[KWKey, KWVal]
 KWDict: TypeAlias = Dict[KWKey, KWVal]
 KWList: TypeAlias = List[KWDict]
