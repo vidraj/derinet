@@ -15,4 +15,4 @@ derinet-2-2.tsv: ../2.2/derinet-2-2.tsv
 	cp -a "$<" "$@"
 
 clean:
-	rm -f log derinet-2-2.tsv derinet-2-1.tsv
+	rm -f log derinet-2-3.tsv derinet-2-2.tsv
