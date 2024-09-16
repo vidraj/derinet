@@ -17,10 +17,10 @@ release: $(DERINET)
 # Copy the final database from the last version to the current directory.
 $(DERINET): 2.3/derinet-2-3.tsv
 	PYTHONPATH=../../data-api/derinet2 python3 -m derinet.process_scenario \
-		Load '$<' \
+		Load --format=DERINET_V2_JSONSEG '$<' \
 		RemoveMiscKeys --key history --key segmentation \
 		cs.CheckFeatsAndMisc \
-		Save '$@'
+		Save --format=DERINET_V2_JSONSEG '$@' > '$(basename $@).log' 2>&1
 
 # The main target. Successively build all versions from oldest to newest.
 # Be aware that this doesn't propagate dependency information and that it
