@@ -485,6 +485,21 @@ class Lexeme(object):
                 return True
         return False
 
+    def delete_segmentation(self) -> None:
+        """
+        Remove all segmentation information from lexeme, reinitializing
+        the segmentation to an empty state.
+        """
+        self._segmentation = {
+            "boundaries": {},
+            "morphs": [{
+                "Type": "Implicit",
+                "Start": 0,
+                "End": len(self.lemma),
+                "Morph": self.lemma
+            }]
+        }
+
     def add_feature(self, feature, value):
         if value is None:
             if feature in self._feats:
