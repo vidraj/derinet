@@ -72,15 +72,8 @@ class Lexeme(object):
         # segmentation, otherrels = a set of dicts
 
         self._feats = feats if feats is not None else {}
-        self._segmentation = {
-            "boundaries": {},
-            "morphs": [{
-                "Type": "Implicit",
-                "Start": 0,
-                "End": len(lemma),
-                "Morph": lemma
-            }]
-        }
+        # Initialize segmentation by "deleting" it.
+        self.delete_segmentation()
 
         self._parent_relations = []
         self._child_relations = []

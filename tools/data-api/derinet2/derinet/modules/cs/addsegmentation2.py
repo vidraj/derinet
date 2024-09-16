@@ -52,15 +52,7 @@ class AddSegmentation2(Block):
                         continue
                     lexeme = lexemes[lemma_counter[lemma]]
                     lemma_counter[lemma]+=1
-                lexeme._segmentation = {
-                     "boundaries": {},
-                     "morphs": [{
-                           "Type": "Implicit",
-                           "Start": 0,
-                           "End": len(lemma),
-                           "Morph": lemma
-                         }]
-                    }
+                lexeme.delete_segmentation()
                 for start,end, morph_type, morph,morph_lemma in morphemes_to_add:
                     annot={"Type": morph_type, "Start":start, "End":end, "Morph":morph}
                     if(morph_lemma!=morph.lower()):
