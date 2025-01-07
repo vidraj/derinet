@@ -24,18 +24,22 @@ class AddDerivationsEtymologyDirect(Block):
             Returns: True if the derivation was added, False otherwise
         """
         if child.lemma == parent.lemma and child.pos == parent.pos:
-            logger.warning(f"Derivation {child} -> {parent} is the same lexeme")
+            logger.debug(f"Derivation {child} -> {parent} is the same lexeme")
             return False
 
-        is_root = child.get_tree_root() == child
-        if is_root and child != parent.get_tree_root(): # the child has to be root and the parent cant be in a subtree of child
+        if (child.get_tree_root() != child):
+            logger.debug(f"Derivation {child} is not a root")
+            return False
+        if child != parent.get_tree_root(): # the child has to be root and the parent cant be in a subtree of child
             try:
                 lexicon.add_derivation(parent,child)
                 return True
             except Exception as e:
-                logger.warning(f"Exception {e} when adding derivation {child} -> {parent}")
-        logger.warning(f"Derivation {child} -> {parent} was not added")
-        return False
+                logger.debug(f"Exception {e} when adding derivation {child} -> {parent}")
+                return False
+        else:
+            logger.debug(f"Derivation {child} -> {parent} was not added. Parent is in a subtree of child")
+            return False
     
     def process(self, lexicon: Lexicon) -> Lexicon:
         """
@@ -131,7 +135,8 @@ class AddDerivationsEtymologyDirect(Block):
                         logger.warning(f"There are homonyms for word \'{annotation}\': {new_parent_lexemes}")
 
                 else:  # Skip empty lines and other lines ('???')
-                    logger.debug(f"Skipped line {derivation_str}, {parent_str}, annotation: {annotation}")
+                    pass
+                    # logger.debug(f"Skipped line {derivation_str}, {parent_str}, annotation: {annotation}")
 
         return lexicon
 
