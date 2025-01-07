@@ -10,23 +10,33 @@ class AddDerivationsEtymologyIntermediate(Block):
 
     def __init__(self, fname):
         # The arguments to __init__ are None (returned from below).
-        self.fname = fname
-        #TODO
-        # dostane to adresar s vice soubory, nebo vice souboru? Nebo jeden soubor kde bude vsechno dohromady?
-        # ted je to ze jeden soubor anotovanych hran
+        self.fname = fname # source file with annotations
+    
     @staticmethod
-    def add_derivation(lexicon: Lexicon, parent, child):
+    def add_derivation(lexicon: Lexicon, parent, child) -> bool:
         """Cals add_derivation method on the lexicon with child and parent.
         
             Checks if the child and parent arent in the same tree, catches all exceptions.
+
+            Args: lexicon: Lexicon object of DeriNet
+                    parent: Lexeme object
+                    child: Lexeme object
+            Returns: True if the derivation was added, False otherwise
         """
+        if child.lemma == parent.lemma and child.pos == parent.pos:
+            logger.warning(f"Derivation {child} -> {parent} is the same lexeme")
+            return False
+
         is_root = child.get_tree_root() == child
         if is_root and child != parent.get_tree_root(): # the child has to be root and the parent cant be in a subtree of child
             try:
                 lexicon.add_derivation(parent,child)
+                return True
             except Exception as e:
-                logger.warning(f"Exception {e} when trying to add derivation from {child} to {parent}")
-
+                logger.warning(f"Exception {e} when adding derivation {child} -> {parent}")
+        logger.warning(f"Derivation {child} -> {parent} was not added")
+        return False
+    
     def process(self, lexicon: Lexicon) -> Lexicon:
         """
         Adds derivations to the lexicon based on hand annotations.
@@ -99,8 +109,8 @@ class AddDerivationsEtymologyIntermediate(Block):
                         continue  # Skip this line if there's an issue
                     grandparent = grandparent_lexemes[0]
 
-                    self.add_derivation(lexicon,grandparent,parent)  # Add the original generated derivation
-                    logger.info(f"Derivation: {parent_str}\t Parent:{grandparent_str}")
+                    if (self.add_derivation(lexicon,grandparent,parent)):  # Add the original generated derivation
+                        logger.info(f"Derivation: {parent_str}\t Parent:{grandparent_str}")
 
                 elif annotation == yes_reconnect:
                     # Check if grandparent lexeme list has just one element
@@ -121,12 +131,12 @@ class AddDerivationsEtymologyIntermediate(Block):
                         continue  # Skip this line if there's an issue
                     derivation = derivation_lexemes[0]
 
-                    self.add_derivation(lexicon,grandparent,parent)  # Add the original generated derivation
-                    logger.info(f"Derivation: {parent_str.strip()}\t Parent: {grandparent_str.strip()}")
+                    if (self.add_derivation(lexicon,grandparent,parent)):  # Add the original generated derivation
+                        logger.info(f"Derivation: {parent_str.strip()}\t Parent: {grandparent_str.strip()}")
                     
                     derivation.parent_relation.remove_from_lexemes() # remove the original parent relation
-                    self.add_derivation(lexicon,grandparent,derivation)  # Add the new parent relation
-                    logger.info(f"RECONNECT\tLexeme: {derivation_str.strip()}\tOld parent: {parent_str.strip()}\tNew parent: {grandparent_str.strip()}")
+                    if (self.add_derivation(lexicon,grandparent,derivation)):  # Add the new parent relation
+                        logger.info(f"RECONNECT\tLexeme: {derivation_str.strip()}\tOld parent: {parent_str.strip()}\tNew parent: {grandparent_str.strip()}")
 
                 elif annotation == no_reconnect:
                     # Check if grandparent lexeme list has just one element
@@ -148,8 +158,8 @@ class AddDerivationsEtymologyIntermediate(Block):
                     derivation = derivation_lexemes[0]
         
                     derivation.parent_relation.remove_from_lexemes() # remove the original parent relation
-                    self.add_derivation(lexicon,grandparent,derivation)  # Add the new parent relation
-                    logger.info(f"RECONNECT\tLexeme: {derivation_str.strip()}\tOld parent: {parent_str.strip()}\tNew parent: {grandparent_str.strip()}")
+                    if (self.add_derivation(lexicon,grandparent,derivation)): # Add the new parent relation
+                        logger.info(f"RECONNECT\tLexeme: {derivation_str.strip()}\tOld parent: {parent_str.strip()}\tNew parent: {grandparent_str.strip()}")
 
                 elif annotation == no:
                     continue # skip this line
@@ -158,9 +168,9 @@ class AddDerivationsEtymologyIntermediate(Block):
                     new_parent_lexemes = lexicon.get_lexemes(annotation)
                     if len(new_parent_lexemes) == 1:
                         new_parent = new_parent_lexemes[0]
-                        self.add_derivation(lexicon,new_parent, parent)  # Add edge from the original derivation to new parent
-                        logger.info(f"Derivation: {parent}\tParent: {new_parent}")
-                        logger.info(f"Manualy writen parent {annotation}, derivation: {parent}, parent {new_parent}")
+                        if(self.add_derivation(lexicon,new_parent, parent)):  # Add edge from the original derivation to new parent
+                            logger.info(f"Derivation: {parent}\tParent: {new_parent}")
+                            logger.debug(f"Manualy writen parent {annotation}, derivation: {parent}, parent {new_parent}")
 
                     elif len(new_parent_lexemes) == 0:
                         logger.warning(f"Lexeme for word \"{annotation}\" not found!")

@@ -10,23 +10,33 @@ class AddDerivationsEtymologyDirect(Block):
 
     def __init__(self, fname):
         # The arguments to __init__ are None (returned from below).
-        self.fname = fname
-        #TODO
-        # dostane to adresar s vice soubory, nebo vice souboru? Nebo jeden soubor kde bude vsechno dohromady?
-    
+        self.fname = fname # source file with annotations
+     
     @staticmethod
-    def add_derivation(lexicon: Lexicon, parent, child):
+    def add_derivation(lexicon: Lexicon, parent, child) -> bool:
         """Cals add_derivation method on the lexicon with child and parent.
         
             Checks if the child and parent arent in the same tree, catches all exceptions.
+
+            Args: lexicon: Lexicon object of DeriNet
+                    parent: Lexeme object
+                    child: Lexeme object
+            Returns: True if the derivation was added, False otherwise
         """
+        if child.lemma == parent.lemma and child.pos == parent.pos:
+            logger.warning(f"Derivation {child} -> {parent} is the same lexeme")
+            return False
+
         is_root = child.get_tree_root() == child
         if is_root and child != parent.get_tree_root(): # the child has to be root and the parent cant be in a subtree of child
             try:
                 lexicon.add_derivation(parent,child)
+                return True
             except Exception as e:
                 logger.warning(f"Exception {e} when adding derivation {child} -> {parent}")
-
+        logger.warning(f"Derivation {child} -> {parent} was not added")
+        return False
+    
     def process(self, lexicon: Lexicon) -> Lexicon:
         """
         Adds derivations to the lexicon based on hand annotations.
@@ -84,8 +94,8 @@ class AddDerivationsEtymologyDirect(Block):
 
                 # Handle different annotations
                 if annotation == "OK":
-                    self.add_derivation(lexicon,parent,derivation)  # Add the original generated derivation
-                    logger.info(f"Derivation: {derivation_str.strip()} -> Parent: {parent_str.strip()}")
+                    if (self.add_derivation(lexicon,parent,derivation)):  # Add the original generated derivation
+                        logger.info(f"Derivation: {derivation_str.strip()} -> Parent: {parent_str.strip()}")
 
                 elif annotation == "REVERSE":
                     new_parent = derivation
@@ -95,14 +105,14 @@ class AddDerivationsEtymologyDirect(Block):
                     if new_derivation.parent is None:
                         logger.debug("\tReversing the direction of edge, new derivation is a root")
                         logger.debug(f"\tNew Derivation: {new_derivation} -> New Parent: {new_parent}")
-                        self.add_derivation(lexicon,new_parent, new_derivation)  # Add the flipped edge
-                        logger.info(f"Derivation: {derivation_str}\tParent: {parent_str}")
+                        if (self.add_derivation(lexicon,new_parent, new_derivation)):  # Add the flipped edge
+                            logger.info(f"Derivation: {derivation_str}\tParent: {parent_str}")
 
                     else:
                         root_of_new_derivation = new_derivation.parent
-                        logger.debug("\tNew derivation is NOT a root, connecting the root of new_derivation instead")
-                        self.add_derivation(lexicon,new_parent,root_of_new_derivation)  # Connect the root of new_derivation to new_parent
-                        logger.info(f"Derivation:{root_of_new_derivation}\tParent: {new_parent}")
+                        logger.debug(f"\tNew derivation ({new_derivation}) is NOT a root, connecting the root of new_derivation ({root_of_new_derivation}) instead")
+                        if (self.add_derivation(lexicon,new_parent,root_of_new_derivation)):  # Connect the root of new_derivation to new_parent
+                            logger.info(f"Derivation:{root_of_new_derivation}\tParent: {new_parent}")
 
                 elif annotation == "COMPOUND":
                     logger.info(f"Compound: Derivation: {derivation_str} -> Parent: {parent_str}")
@@ -111,8 +121,8 @@ class AddDerivationsEtymologyDirect(Block):
                     new_parent_lexemes = lexicon.get_lexemes(annotation)
                     if len(new_parent_lexemes) == 1:
                         new_parent = new_parent_lexemes[0]
-                        self.add_derivation(lexicon,new_parent, derivation)  # Add edge from the original derivation to new parent
-                        logger.info(f"Derivation: {derivation}\tParent: {new_parent}")
+                        if (self.add_derivation(lexicon,new_parent, derivation)):  # Add edge from the original derivation to new parent
+                            logger.info(f"Derivation: {derivation}\tParent: {new_parent}")
                         logger.info(f"Manualy writen parent, derivation: {derivation}, new parent {new_parent}, original parent {parent}")
 
                     elif len(new_parent_lexemes) == 0:
