@@ -24,8 +24,8 @@ class AddDerivationsEtymologyDirect(Block):
         if is_root and child != parent.get_tree_root(): # the child has to be root and the parent cant be in a subtree of child
             try:
                 lexicon.add_derivation(parent,child)
-            except:
-                pass
+            except Exception as e:
+                logger.warning(f"Exception {e} when adding derivation {child} -> {parent}")
 
     def process(self, lexicon: Lexicon) -> Lexicon:
         """
@@ -76,7 +76,7 @@ class AddDerivationsEtymologyDirect(Block):
                     if len (parent_lexemes) == 0:
                         logger.warning(f"Lexeme not found! For word: lemma: {parent_str.strip()}")
                     else:
-                        print(f"Multiple hononyms found! For word: {parent_str.strip()} -> {parent_lexemes}")
+                        logger.warning(f"Multiple hononyms found! For word: {parent_str.strip()} -> {parent_lexemes}")
                     continue  # Skip this line if there's an issue
 
                 derivation = derivation_lexemes[0]

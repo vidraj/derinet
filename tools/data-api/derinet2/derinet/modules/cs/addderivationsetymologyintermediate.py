@@ -24,8 +24,8 @@ class AddDerivationsEtymologyIntermediate(Block):
         if is_root and child != parent.get_tree_root(): # the child has to be root and the parent cant be in a subtree of child
             try:
                 lexicon.add_derivation(parent,child)
-            except:
-                logger.warning(f"Exception when trying to add derivation from {child} to {parent}")
+            except Exception as e:
+                logger.warning(f"Exception {e} when trying to add derivation from {child} to {parent}")
 
     def process(self, lexicon: Lexicon) -> Lexicon:
         """
