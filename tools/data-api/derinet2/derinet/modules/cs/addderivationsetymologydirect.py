@@ -90,7 +90,7 @@ class AddDerivationsEtymologyDirect(Block):
                 elif annotation == "REVERSE":
                     new_parent = derivation
                     new_derivation = parent
-                    logger.info(f"REVERSE\tOriginal - Derivation: {derivation_str.strip()} -> Parent: {parent_str.strip()}")
+                    logger.debug(f"REVERSE\tOriginal - Derivation: {derivation_str.strip()} -> Parent: {parent_str.strip()}")
                     # Check if the original parent (new_derivation) is a root
                     if new_derivation.parent is None:
                         logger.debug("\tReversing the direction of edge, new derivation is a root")
@@ -113,7 +113,7 @@ class AddDerivationsEtymologyDirect(Block):
                         new_parent = new_parent_lexemes[0]
                         self.add_derivation(lexicon,new_parent, derivation)  # Add edge from the original derivation to new parent
                         logger.info(f"Derivation: {derivation}\tParent: {new_parent}")
-                        logger.debug(f"Manualy writen parent, derivation: {derivation}, new parent {new_parent}, original parent {parent}")
+                        logger.info(f"Manualy writen parent, derivation: {derivation}, new parent {new_parent}, original parent {parent}")
 
                     elif len(new_parent_lexemes) == 0:
                         logger.warning(f"Lexeme for word \"{annotation}\" not found!")
@@ -121,7 +121,7 @@ class AddDerivationsEtymologyDirect(Block):
                         logger.warning(f"There are homonyms for word \'{annotation}\': {new_parent_lexemes}")
 
                 else:  # Skip empty lines and other lines ('???')
-                    logger.info(f"Skipped line {derivation_str}, {parent_str}, annotation: {annotation}")
+                    logger.debug(f"Skipped line {derivation_str}, {parent_str}, annotation: {annotation}")
 
         return lexicon
 
