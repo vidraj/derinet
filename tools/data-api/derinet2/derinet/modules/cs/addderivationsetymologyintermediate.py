@@ -140,7 +140,7 @@ class AddDerivationsEtymologyIntermediate(Block):
                     
                     derivation.parent_relation.remove_from_lexemes() # remove the original parent relation
                     if (self.add_derivation(lexicon,grandparent,derivation)):  # Add the new parent relation
-                        logger.info(f"RECONNECT\tLexeme: {derivation_str.strip()}\tOld parent: {parent_str.strip()}\tNew parent: {grandparent_str.strip()}")
+                        logger.info(f"RECONNECT\tLexeme: {derivation_str.strip()}\tNew parent: {grandparent_str.strip()}\tOld parent: {parent_str.strip()}")
 
                 elif annotation == no_reconnect:
                     # Check if grandparent lexeme list has just one element
@@ -163,7 +163,7 @@ class AddDerivationsEtymologyIntermediate(Block):
         
                     derivation.parent_relation.remove_from_lexemes() # remove the original parent relation
                     if (self.add_derivation(lexicon,grandparent,derivation)): # Add the new parent relation
-                        logger.info(f"RECONNECT\tLexeme: {derivation_str.strip()}\tOld parent: {parent_str.strip()}\tNew parent: {grandparent_str.strip()}")
+                        logger.info(f"RECONNECT\tLexeme: {derivation_str.strip()}\tNew parent: {grandparent_str.strip()}\tOld parent: {parent_str.strip()}")
 
                 elif annotation == no:
                     continue # skip this line
