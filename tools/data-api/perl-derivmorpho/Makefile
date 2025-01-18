@@ -6,9 +6,12 @@ export DERIMOR_MAIN_DIR::=$(CURDIR)
 #MORFFLEX::=$(abspath data/morfflex-cz.2016-11-15.utf8.lemmaID_suff-tag-form.tab.csv.xz)
 #MORFFLEX::=$(abspath data/czech-morfflex-180626-devel.raw.xz)
 #MORFFLEX::=$(abspath data/czech-morfflex-20200720-devel.raw.xz)
-MORFFLEX::=$(abspath data/czech-morfflex-2.0.tsv.xz)
+#MORFFLEX::=$(abspath data/czech-morfflex-2.0.tsv.xz)
+# new model from 12 2024
+MORFFLEX::=$(abspath data/czech-morfflex-2.1.tsv.xz)
 # MORPHODITA_MODEL::=data/models/morphodita/cs/czech-morfflex-161115.dict
 # MORPHODITA_MODEL::=data/models/morphodita/cs/czech-morfflex-180626-devel.dict
+# model from 10.7.2022
 MORPHODITA_MODEL::=data/models/morphodita/cs/czech-morfflex2.0-220710.dict
 
 export MORFFLEX
@@ -38,8 +41,8 @@ precision: derinet-1-3/derinet-1-3.slex
 data/morfflex-cz.2016-11-15.utf8.lemmaID_suff-tag-form.tab.csv.xz:
 	wget -O "$@" 'https://lindat.mff.cuni.cz/repository/xmlui/bitstream/handle/11234/1-1834/morfflex-cz.2016-11-15.utf8.lemmaID_suff-tag-form.tab.csv.xz?sequence=1&isAllowed=y'
 
-$(abspath data/czech-morfflex-2.0.tsv.xz):
-	curl --remote-time --location --output '$@' 'https://lindat.mff.cuni.cz/repository/xmlui/bitstream/handle/11234/1-3186/czech-morfflex-2.0.tsv.xz?sequence=1&isAllowed=y'
+$(abspath data/czech-morfflex-2.1.tsv.xz):
+	curl --remote-name-all https://lindat.mff.cuni.cz/repository/xmlui/bitstream/handle/11234/1-5833{/czech-morfflex-2.1.tsv.xz}
 
 data/models/morphodita/cs/czech-morfflex-161115.dict: data/czech-morfflex-pdt-161115.zip
 	unzip -DD -j -d data/models/morphodita/cs/ "$<" czech-morfflex-pdt-161115/czech-morfflex-161115.dict
