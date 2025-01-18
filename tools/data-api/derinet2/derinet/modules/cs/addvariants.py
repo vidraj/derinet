@@ -67,7 +67,7 @@ class AddVariants(Block):
 
                 if not variants:
                     logger.warning("Variants for lexeme", line[0], "not found")
-                    next
+                    continue
 
                 # select representative lexeme
                 repre = variants[0]
