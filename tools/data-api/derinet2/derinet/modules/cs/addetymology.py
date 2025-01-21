@@ -47,15 +47,15 @@ class AddEtymology(Block):
         if loanmark == 'loan':
             lexeme.misc['Etymology'] = json.dumps(etymology)
             if 'Loanword' not in lexeme.feats:
-                lexeme.add_feature('Loanword', 'True')
+                lexeme.add_feature('Loanword', True)
             else:
-                lexeme.feats['Loanword'] = 'True'
+                lexeme.feats['Loanword'] = True
         # native word
         else:
             if 'Loanword' not in lexeme.feats:
-                lexeme.add_feature('Loanword', 'False')
+                lexeme.add_feature('Loanword', False)
             else:
-                lexeme.feats['Loanword'] = 'False'
+                lexeme.feats['Loanword'] = False
         # propagate to all lexemes in a subtree that are not compound
         for child in lexeme.children:
             if 'is_compound' in child.misc and child.misc['is_compound'] == False:

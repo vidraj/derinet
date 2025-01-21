@@ -24,7 +24,7 @@ derinet-2-0-5.tsv: derinet-2-0.tsv ../../../../data/annotations/cs/2019_12_06_en
 		Save "$@" > log 2>&1
 
 ../../../../data/annotations/cs/2019_12_06_enumerated_words/annotated/vyjmenovana-slova-sd-jv.tsv: ../../../../data/annotations/cs/2019_12_06_enumerated_words/annotated/vyjmenovana-slova-sd-jv.ods
-	$(MAKE) -C ../../../../data/annotations/cs/2019_12_06_enumerated_words/annotated/ vyjmenovana-slova-sd-jv.tsv
+	$(MAKE) -C ../../../../data/annotations/cs/2019_12_06_enumerated_words/annotated/vyjmenovana-slova-sd-jv.tsv
 
 derinet-2-0.tsv: ../2.0/derinet-2-0.tsv
 	cp -a "$<" "$@"

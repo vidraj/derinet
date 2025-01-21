@@ -65,6 +65,10 @@ class AddVariants(Block):
                         variants = variants + [v for v in variants[idx][1:]]
                     variants[idx] = variants[idx][0]
 
+                if not variants:
+                    logger.warning("Variants for lexeme", line[0], "not found")
+                    continue
+
                 # select representative lexeme
                 repre = variants[0]
                 variants = variants[1:]
