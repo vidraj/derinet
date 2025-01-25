@@ -45,7 +45,7 @@ class AddEtymology(Block):
         '''
         # loanword
         if loanmark == 'loan':
-            lexeme.misc['Etymology'] = json.dumps(etymology)
+            lexeme.misc['Etymology'] = etymology # json.dumps(etymology) ## serialization will be resolved by the Derinet API
             if 'Loanword' not in lexeme.feats:
                 lexeme.add_feature('Loanword', True)
             else:
